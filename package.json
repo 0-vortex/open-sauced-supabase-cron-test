@@ -22,6 +22,8 @@
   },
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
+    "supabase": "supabase",
+    "db": "npm run supabase -- start",
     "start": "node ./src",
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
   },

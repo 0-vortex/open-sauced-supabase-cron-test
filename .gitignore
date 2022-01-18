@@ -274,3 +274,8 @@ Temporary Items
 ### Project specific
 build
 **/__snapshots__
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
+**/supabase/.env

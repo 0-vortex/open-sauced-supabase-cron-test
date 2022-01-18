@@ -1,6 +1,6 @@
 import { App } from 'octokit'
 import { createClient } from '@supabase/supabase-js'
-import { writeFile } from 'fs/promises'
+import { writeFile } from 'node:fs/promises'
 
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
