@@ -1,0 +1,37 @@
+{
+  "name": "open-sauced-supabase-cron-test",
+  "description": "The open-sauced actions",
+  "keywords": [],
+  "version": "0.0.0-development",
+  "author": "TED Vortex <ted.vortex@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "main": "src/index.js",
+  "type": "module",
+  "homepage": "https://github.com/open-sauced/actions#readme",
+  "bugs": {
+    "url": "https://github.com/open-sauced/actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-sauced/actions.git"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "scripts": {
+    "push": "npx @open-sauced/conventional-commit",
+    "start": "node ./src",
+    "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.3",
+    "octokit": "^1.1.0"
+  },
+  "devDependencies": {
+    "@open-sauced/check-engines": "^1.2.0",
+    "@open-sauced/conventional-commit": "^1.0.1",
+    "dotenv": "^11.0.0"
+  }
+}
