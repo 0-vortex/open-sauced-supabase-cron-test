@@ -28,7 +28,7 @@
     "db:commit": "npm run db -- db commit -- ",
     "db:reset": "npm run db -- db reset",
     "db:push": "npm run db -- db push",
-    "start": "node ./src",
+    "start": "node --experimental-json-modules ./src",
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
   },
   "dependencies": {
