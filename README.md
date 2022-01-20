@@ -80,6 +80,11 @@ We encourage you to contribute to Open Sauced! Please check out the [Contributin
 Got Questions? Join the conversation in our [Discord](https://discord.gg/U2peSNf23P).  
 Find Open Sauced videos and release overviews on our [YouTube Channel](https://www.youtube.com/channel/UCklWxKrTti61ZCROE1e5-MQ).
 
+## 🎦 Repository Visualization
+
+[![Visualization of this repository](./public/diagram.svg)
+](./src)
+
 ## ⚖️ LICENSE
 
 MIT © [Open Sauced](LICENSE)
