@@ -95,6 +95,15 @@ async function run() {
             continue
           }
 
+          if (
+            data.gitHub.repositoryOwner === null
+            || typeof data.gitHub.repositoryOwner.repository !== "object"
+          ) {
+            console.log(`ERROR for ${owner}/${repo}`, "No owner")
+            // reject("No owner")
+            continue
+          }
+
           const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository;
 
           const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
