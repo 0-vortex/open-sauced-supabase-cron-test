@@ -134,7 +134,7 @@ async function run() {
   await Promise.all(promises);
 
   // write to file and commit block
-  await writeFile('./populate-the-supabase/cron.json', JSON.stringify({
+  await writeFile('./src/cron.json', JSON.stringify({
     lastExecuted,
     checked
   }, null, 2))
