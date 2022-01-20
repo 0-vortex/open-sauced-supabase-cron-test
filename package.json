@@ -8,13 +8,13 @@
   "license": "MIT",
   "main": "src/index.js",
   "type": "module",
-  "homepage": "https://github.com/open-sauced/actions#readme",
+  "homepage": "https://github.com/0-vortex/open-sauced-supabase-cron-test#readme",
   "bugs": {
-    "url": "https://github.com/open-sauced/actions/issues"
+    "url": "https://github.com/0-vortex/open-sauced-supabase-cron-test/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/open-sauced/actions.git"
+    "url": "git+https://github.com/0-vortex/open-sauced-supabase-cron-test.git"
   },
   "engines": {
     "node": ">=16",

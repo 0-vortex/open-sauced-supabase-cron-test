@@ -1,12 +1,12 @@
 {
-  "name": "actions",
-  "version": "1.0.0",
+  "name": "open-sauced-supabase-cron-test",
+  "version": "0.0.0-development",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "actions",
-      "version": "1.0.0",
+      "name": "open-sauced-supabase-cron-test",
+      "version": "0.0.0-development",
       "license": "MIT",
       "dependencies": {
         "@supabase/supabase-js": "^1.22.3",
@@ -16,6 +16,10 @@
         "@open-sauced/check-engines": "^1.2.0",
         "@open-sauced/conventional-commit": "^1.0.1",
         "dotenv": "^11.0.0"
+      },
+      "engines": {
+        "node": ">=16",
+        "npm": ">=8"
       }
     },
     "node_modules/@babel/code-frame": {
