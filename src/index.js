@@ -89,7 +89,7 @@ async function run() {
 
           item.id = id
 
-          await supabase.from('user_stars').insert({
+          const userStars = {
             user_id: repository.owner.id,
             star_id: item.id,
             repo_name: item.full_name,
@@ -98,15 +98,21 @@ async function run() {
             issues: open_issues,
             stars: stargazers_count,
             contributors: contributorNames.slice(0,2) // grab first two names only
-          })
+          };
+
+          await supabase
+              .from('user_stars')
+              .insert(userStars)
         }
 
         // send parsedData to stars table
-        await supabase.from('stars').upsert(parsedData)
+        await supabase
+            .from('stars')
+            .upsert(parsedData)
 
         console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
-        // // send parsedData to supabase
+        // send parsedData to supabase
         supabase
             .from('users')
             .upsert({id: repository.owner.id, login: repository.owner.login})
