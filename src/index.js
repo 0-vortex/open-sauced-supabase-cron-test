@@ -67,9 +67,19 @@ async function run() {
         const parsedData = JSON.parse(content);
 
         // update data with repo id
-        for (const item of parsedData) {
+        for await (const item of parsedData) {
           const [owner, repo] = item.full_name.split("/")
           const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
+            .catch((err) => {
+              return {errors: [err]}
+            })
+
+          if (currentRepoResponse.errors && currentRepoResponse.errors.length > 0) {
+            console.log(`ERROR for ${owner}/${repo}`, currentRepoResponse.errors)
+            // reject(currentRepoResponse.errors)
+            continue
+          }
+
           const {
             id,
             stargazers_count,
@@ -80,6 +90,8 @@ async function run() {
           const {data, errors} = await api.persistedRepoDataFetch({owner: owner, repo: repo})
 
           if (errors && errors.length > 0) {
+            console.log(`ERROR for ${owner}/${repo}`, errors)
+            // reject(errors)
             continue
           }
 
@@ -124,7 +136,7 @@ async function run() {
 
         resolve(checked[repository.owner.login]);
       } catch (err) {
-        console.log(`ERROR: ${err}`)
+        console.log(`UNEXPECTED ERROR: ${err}`)
         console.log(`SKIPPED: ${repository.html_url}`)
         reject(err);
       }
