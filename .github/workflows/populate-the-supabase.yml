@@ -38,5 +38,5 @@ jobs:
         with:
           file_pattern: ./src/*.json
           commit_message: "chore: update supabase data [skip ci]"
-          commit_user_name: open-sauced[bot]
-          commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
+          commit_user_name: 0-vortex
+          commit_user_email: 237133+0-vortex@users.noreply.github.com
