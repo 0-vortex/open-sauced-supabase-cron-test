@@ -22,8 +22,12 @@
   },
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
-    "supabase": "supabase",
-    "db": "npm run supabase -- start",
+    "db": "supabase",
+    "db:start": "npm run db -- start",
+    "db:changes": "npm run db -- db changes",
+    "db:commit": "npm run db -- db commit -- ",
+    "db:reset": "npm run db -- db reset",
+    "db:push": "npm run db -- db push",
     "start": "node ./src",
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
   },
