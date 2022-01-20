@@ -37,6 +37,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: ./src/*.json
-          commit_message: "chore: update supabase data"
+          commit_message: "chore: update supabase data [skip ci]"
           commit_user_name: open-sauced[bot]
           commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
