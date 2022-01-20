@@ -24,7 +24,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: "🔍 populate supabase"
-        run: npm run supabase
+        run: npm run start
         env:
           OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
           OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
