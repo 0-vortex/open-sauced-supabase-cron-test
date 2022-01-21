@@ -5,6 +5,18 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.0.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.0.1...v1.0.2) (2022-01-21)
+
+
+### 🔁 Continuous Integration
+
+* add own email for author on test repos ([a9ee843](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/a9ee84329c9a7895026a41518b662ee0e8fe4768))
+
+
+### 🐛 Bug Fixes
+
+* correct build artifact dependenc ([be0e2e2](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/be0e2e2447063ca1be96ed61a27bb9e1c3bd0d24))
+
 ### [1.0.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.0.0...v1.0.1) (2022-01-20)
 
 
