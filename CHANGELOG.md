@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.2.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.0...v1.2.1) (2022-01-22)
+
+
+### 🤖 Build System
+
+* add lower defaults and update dependencies ([de3fba2](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/de3fba2ae775f91e0dd0e0737880ca37817f0098))
+
 ## [1.2.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.1.0...v1.2.0) (2022-01-22)
 
 
