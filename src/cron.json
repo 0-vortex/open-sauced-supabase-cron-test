@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-01-22T10:54:44.144Z",
+  "lastExecuted": "2022-01-22T11:01:40.669Z",
   "checked": {
     "siddharth2798": {
       "owner": "siddharth2798",
@@ -690,6 +690,41 @@
       "owner": "mgcarbonell",
       "notFound": false,
       "lastExecuted": "2022-01-22T10:54:44.144Z"
+    },
+    "UbuntuEvangelist": {
+      "owner": "UbuntuEvangelist",
+      "notFound": true,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "ahdbarjoud": {
+      "owner": "ahdbarjoud",
+      "notFound": true,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "henrik-ch": {
+      "owner": "henrik-ch",
+      "notFound": false,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "gogocharli": {
+      "owner": "gogocharli",
+      "notFound": false,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "peteroneilljr": {
+      "owner": "peteroneilljr",
+      "notFound": false,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "haffmaestro": {
+      "owner": "haffmaestro",
+      "notFound": false,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
+    },
+    "mbchoa": {
+      "owner": "mbchoa",
+      "notFound": false,
+      "lastExecuted": "2022-01-22T11:01:40.669Z"
     }
   }
 }
