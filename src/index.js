@@ -9,8 +9,8 @@ import cron from './cron.json'
 
 const anon_key = process.env.SUPABASE_ANON_KEY
 const supabaseUrl = process.env.SUPABASE_URL
-const limitDays = parseInt(process.env.LIMIT_DAYS) || 7
-let limitUsers = parseInt(process.env.LIMIT_USERS) || 3
+const limitDays = parseInt(process.env.LIMIT_DAYS) || 2
+let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
 const checked = {...cron.checked}
 const lastExecuted = new Date()
 const parsedCache = {}

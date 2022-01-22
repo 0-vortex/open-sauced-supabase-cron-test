@@ -32,14 +32,14 @@
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.22.3",
+    "@supabase/supabase-js": "^1.29.3",
     "cfonts": "^2.10.0",
-    "node-fetch": "^3.1.0",
-    "octokit": "^1.1.0"
+    "node-fetch": "^3.2.0",
+    "octokit": "^1.7.1"
   },
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^11.0.0"
+    "dotenv": "^14.2.0"
   }
 }
