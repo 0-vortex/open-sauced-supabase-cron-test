@@ -5,6 +5,23 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.1.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.0.3...v1.1.0) (2022-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* it's parsinq repository installations then getting the open-sauced-goals repository
+specifically rather than walk through all app repositories
+
+### 🍕 Features
+
+* rehaul parsing completely and add colorful system logging ([524259e](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/524259e85eb0c91d933205174001f41b67c794a5))
+
+
+### 🔁 Continuous Integration
+
+* lean back on cron processing ([ea61743](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/ea617435c0e036c4ea6209a4be03f17e92550036))
+
 ### [1.0.3](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.0.2...v1.0.3) (2022-01-21)
 
 
