@@ -76,7 +76,7 @@ async function run() {
 
     console.log(`Fetching stars data for user ${installation.account.login}`)
 
-    // check if we have access to open-sauced-goals repo
+    // check if we have access to open-sauced-goals repo and fail safe exit if not
     const installationExists = await app.octokit.rest.apps
       .getRepoInstallation({
         owner: installation.account.login,
@@ -244,7 +244,7 @@ async function run() {
 
   // check whether we have new data to cache
   consoleHeader('Versioning changes');
-  if (Object.keys(checked).length !== Object.keys(cron.checked).length) {
+  if (Object.keys(checked).length > Object.keys(cron.checked).length) {
     console.log('cron.json cached users: ', Object.keys(cron.checked).length);
     console.log('cron.json parsed users: ', Object.keys(checked).length - Object.keys(cron.checked).length);
 

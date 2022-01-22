@@ -6,11 +6,11 @@
 CREATE TABLE IF NOT EXISTS public.stars
 (
     id bigint NOT NULL,
-    created_at timestamp with time zone DEFAULT now(),
+    stargazers_count bigint,
+    open_issues_count bigint,
+    forks_count bigint,
     full_name text COLLATE pg_catalog."default" NOT NULL,
-    stargazers_count integer,
-    open_issues_count integer,
-    forks_count integer,
+    created_at timestamp with time zone DEFAULT now(),
     CONSTRAINT stars_pkey PRIMARY KEY (id),
     CONSTRAINT stars_full_name_key UNIQUE (full_name)
 )

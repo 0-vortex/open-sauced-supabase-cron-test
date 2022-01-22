@@ -10,9 +10,9 @@ CREATE TABLE IF NOT EXISTS public.user_stars
     star_id bigint NOT NULL,
     repo_name text COLLATE pg_catalog."default",
     recency_score smallint,
-    description character varying COLLATE pg_catalog."default",
-    issues integer,
-    stars integer,
+    description text COLLATE pg_catalog."default",
+    issues bigint,
+    stars bigint,
     contributors text[] COLLATE pg_catalog."default" NOT NULL,
     created_at timestamp without time zone DEFAULT now(),
     CONSTRAINT user_stars_pkey PRIMARY KEY (id)
