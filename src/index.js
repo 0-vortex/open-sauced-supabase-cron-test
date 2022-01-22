@@ -16,13 +16,12 @@ const lastExecuted = new Date()
 const parsedCache = {}
 const parseInstallations = []
 const parseData = []
-const promises = []
 
 consoleHeader('OPEN SAUCED', {
   font: 'block',
 });
+console.log(`Started execution at ${lastExecuted}`)
 
-consoleHeader('Parsing cache');
 for (const item in checked) {
   const date = new Date(checked[item].lastExecuted)
   const diff = lastExecuted - date
@@ -103,10 +102,18 @@ async function run() {
     if (installationExists) {
       const octokit = await app.getInstallationOctokit(installation.id);
 
+      const {data: repository} = await octokit.rest.repos.get({
+        owner: installation.account.login,
+        repo: 'open-sauced-goals',
+      }).catch((err) => {
+        console.log(`${installation.account.login} open-sauced-goals: ${err}`)
+        return {data: null}
+      })
+
       const {data} = await octokit.rest.repos.getContent({
         owner: installation.account.login,
-        repo: "open-sauced-goals",
-        path: "stars.json"
+        repo: 'open-sauced-goals',
+        path: 'stars.json'
       }).catch((err) => {
         console.log(`${installation.account.login} stars.json: ${err}`)
         return {data: {content: btoa("[]")}}
@@ -115,10 +122,13 @@ async function run() {
       // convert from base64 to parseable JSON
       const content = Buffer.from(data.content, "base64").toString()
       const parsedData = JSON.parse(content);
+      const starsData = data.content.length > 0
 
       parseData.push({
         installation,
         parsedData,
+        starsData,
+        repository,
       })
     }
   }
@@ -128,7 +138,7 @@ async function run() {
   console.log(`Attempting to parse ${parseData.length} users out of ${limitUsers} process.env.LIMIT_USERS`)
 
   await Promise.all(
-    parseData.map(async ({installation, parsedData}) =>
+    parseData.map(async ({installation, parsedData, starsData, repository}) =>
       new Promise(async (resolve, reject) => {
         try {
           console.log(`Processing installation #${installation.id}, ${installation.account.login} stars.json`)
@@ -179,6 +189,7 @@ async function run() {
             item.id = id
 
             const userStars = {
+              id: repository.id,
               user_id: installation.account.id,
               star_id: item.id,
               repo_name: item.full_name,
@@ -197,7 +208,9 @@ async function run() {
           // send parsedData to stars table
           await supabase
             .from('stars')
-            .upsert(parsedData)
+            .upsert(parsedData, {
+              onConflict: "id"
+            })
 
           console.log(`ADDED STARS FROM: ${installation.account.login}`)
 
@@ -206,7 +219,11 @@ async function run() {
             .from('users')
             .upsert({
               id: installation.account.id,
-              login: installation.account.login
+              stars_data: starsData,
+              open_issues: repository.open_issues_count,
+              private: repository.private,
+            }, {
+              onConflict: "id"
             })
 
           checked[installation.account.login] = {
@@ -228,7 +245,7 @@ async function run() {
   // check whether we have new data to cache
   consoleHeader('Versioning changes');
   if (Object.keys(checked).length !== Object.keys(cron.checked).length) {
-    console.log(`cron.json cached users: `, Object.keys(checked).length);
+    console.log('cron.json cached users: ', Object.keys(checked).length);
     console.log('cron.json parsed users: ', Object.keys(cron.checked).length);
 
     // write to file and commit block
