@@ -5,6 +5,29 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.2.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.1.0...v1.2.0) (2022-01-22)
+
+
+### 🍕 Features
+
+* update wito upstream structure changes ([f7a887e](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/f7a887e58b914be3547d2ea403f1089daa615a97))
+
+
+### 🧑‍💻 Code Refactoring
+
+* improve parsing strategy ([414455a](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/414455a8f81e59ff22eeadf8a77e2c6052c85c8b))
+
+
+### 🔥 Performance Improvements
+
+* optimize migrations and split into diff tables ([1dbb863](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/1dbb8630202959f3900976184e7b677794762122))
+
+
+### 🐛 Bug Fixes
+
+* adjust existing migrations to upstream and correct typo ([e8931b5](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/e8931b576b0bee422aa088bb1942f443933cd604))
+* correct logger dependency ([d4ebec1](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/d4ebec19d699e1458cd3922b1fa8ccfd6ea96ddc))
+
 ## [1.1.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.0.3...v1.1.0) (2022-01-22)
 
 
