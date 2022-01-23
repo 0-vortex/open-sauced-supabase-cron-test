@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.2.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.1...v1.2.2) (2022-01-23)
+
+
+### 🔥 Performance Improvements
+
+* attempt extreme daily values ([be76d31](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/be76d31dba246201fc3a12469ed57d12f04631ec))
+
 ### [1.2.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.0...v1.2.1) (2022-01-22)
 
 
