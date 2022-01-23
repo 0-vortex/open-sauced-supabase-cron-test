@@ -244,9 +244,9 @@ async function run() {
 
   // check whether we have new data to cache
   consoleHeader('Versioning changes');
-  if (Object.keys(checked).length > Object.keys(cron.checked).length) {
+  if (parseData.length > 0) {
     console.log('cron.json cached users: ', Object.keys(cron.checked).length);
-    console.log('cron.json parsed users: ', Object.keys(checked).length - Object.keys(cron.checked).length);
+    console.log('cron.json parsed users: ', parseData.length);
 
     // write to file and commit block
     await writeFile('./src/cron.json', JSON.stringify({
