@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.2.3](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.2...v1.2.3) (2022-01-23)
+
+
+### 🐛 Bug Fixes
+
+* correct cron logging condition ([a1b3311](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/a1b33118f4f6093ded8d8b0869ddc3c6797200fb))
+
 ### [1.2.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.1...v1.2.2) (2022-01-23)
 
 
