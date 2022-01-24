@@ -4,11 +4,18 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: "supabase-populate"
+  cancel-in-progress: false
+
 jobs:
   populate-the-supabase:
     name: run update
     runs-on: ubuntu-latest
     steps:
+      - name: "check env"
+        run: echo ${{ github.ref }}
+
       - name: "☁️ checkout repository"
         uses: actions/checkout@v2
 
