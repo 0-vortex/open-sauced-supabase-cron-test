@@ -38,7 +38,7 @@ jobs:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           LIMIT_DAYS: 1
-          LIMIT_USERS: 7
+          LIMIT_USERS: 3
 
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4

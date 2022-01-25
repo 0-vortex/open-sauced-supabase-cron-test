@@ -7,6 +7,10 @@ on:
       - alpha
       - beta
 
+concurrency:
+  group: "supabase-populate"
+  cancel-in-progress: true
+
 jobs:
   test:
     name: Test and lint
