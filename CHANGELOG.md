@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.3.4](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.3...v1.3.4) (2022-01-27)
+
+
+### 🐛 Bug Fixes
+
+* correct release system workflow concurrency ([51c8d4c](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/51c8d4c1715ba639a71c5d51b04be5ee54dcd90f))
+
 ### [1.3.3](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.2...v1.3.3) (2022-01-27)
 
 
