@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.3.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.1...v1.3.2) (2022-01-27)
+
+
+### 🐛 Bug Fixes
+
+* correct seed.sql generation system ([120f3f3](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/120f3f3be22c17eedb591c06669bd3788fdf1ac9))
+
 ### [1.3.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.0...v1.3.1) (2022-01-27)
 
 
