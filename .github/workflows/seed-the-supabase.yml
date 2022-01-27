@@ -1,7 +1,7 @@
 name: Seed the Supabase
 on:
   schedule:
-    - cron: '42 */14 * * *'
+    - cron: '42 */4 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -36,7 +36,7 @@ jobs:
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: ./src/seed/
+          file_pattern: ./src/seed/*.sql supabase/seed.sql
           commit_message: "chore: seed supabase data [skip ci]"
           commit_user_name: 0-vortex
           commit_user_email: 237133+0-vortex@users.noreply.github.com

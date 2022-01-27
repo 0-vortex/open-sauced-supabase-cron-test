@@ -74,6 +74,8 @@ async function run() {
   consoleHeader('Versioning changes')
   await supaSeed(seeds)
   console.log('Wrote changes to supabase/seed.sql, make sure to commit this file')
+
+  consoleHeader('Finished')
 }
 
 await run()
