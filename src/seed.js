@@ -19,7 +19,7 @@ consoleHeader(' OPEN |SAUCED', {
 console.log(`Started execution at ${lastExecuted}`)
 
 async function run() {
-  consoleHeader('Parsing existing tables');
+  consoleHeader('Parsing tables');
   await p(tables)
     .map(async (table) => {
       console.log(`Fetching counts for table ${table}`)
