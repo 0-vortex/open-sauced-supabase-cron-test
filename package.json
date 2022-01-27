@@ -28,10 +28,13 @@
     "db:commit": "npm run db -- db commit -- ",
     "db:reset": "npm run db -- db reset",
     "db:push": "npm run db -- db push",
-    "start": "node --experimental-json-modules ./src",
-    "start:dev": "node --experimental-json-modules -r dotenv/config ./src"
+    "start": "node --experimental-json-modules ./src/populate.js",
+    "start:dev": "node --experimental-json-modules -r dotenv/config ./src/populate.js",
+    "seed": "node --experimental-json-modules ./src/seed.js",
+    "seed:dev": "node --experimental-json-modules -r dotenv/config ./src/seed.js"
   },
   "dependencies": {
+    "@antfu/utils": "^0.5.0",
     "@supabase/supabase-js": "^1.29.3",
     "cfonts": "^2.10.0",
     "node-fetch": "^3.2.0",
