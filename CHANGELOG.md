@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.3.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.5...v1.3.0) (2022-01-27)
+
+
+### 🍕 Features
+
+* implement static seeding ([7295961](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/72959619b4ba6ec840b62a58913653241bb6aeb1))
+
 ### [1.2.5](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.2.4...v1.2.5) (2022-01-25)
 
 
