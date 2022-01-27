@@ -1,6 +1,6 @@
 import {p} from '@antfu/utils'
 
-import {supabase, supaCount, supaDump} from './lib/supabase.js';
+import {supabase, supaCount, supaDump, supaSeed} from './lib/supabase.js';
 import consoleHeader from "./lib/consoleHeader.js";
 
 const lastExecuted = new Date()
@@ -72,11 +72,8 @@ async function run() {
     })
 
   consoleHeader('Versioning changes')
-  await p(seeds)
-    .map(async (seed) => {
-      console.log(seed)
-      // return seed
-    })
+  await supaSeed(seeds)
+  console.log('Wrote changes to supabase/seed.sql, make sure to commit this file')
 }
 
 await run()
