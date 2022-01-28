@@ -8,7 +8,7 @@ on:
       - beta
 
 concurrency:
-  group: "supabase-${{ github.ref }}"
+  group: supabase-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
