@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T08:44:30.275Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T12:50:37.983Z
 --
 
 INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) VALUES
@@ -8194,8 +8194,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8120, 44642314, 122299416, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 145, 5835, ['toshihikoyanase','hvy'], '2022-01-22T09:31:57.257162'),
 (8121, 1917293, 15708275, 'akvo/akvo-product-design', 7, 'Products Design Documents', 61, 10, ['adriancollier','mtwestra'], '2022-01-22T09:31:57.783487'),
 (8122, 71297412, 375015992, 'hacktivist123/content-plan-example', 7, 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', 0, 137, ['hacktivist123','Youngestdev'], '2022-01-22T09:31:57.857984'),
-(8123, 79887, 126983399, 'eradman/entr', 8, 'Run arbitrary commands when files change', 3, 1478, ['eradman','xakon'], '2022-01-22T09:31:58.027859'),
 (8124, 44642314, 77369463, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8086, ['jlelong','tamuratak'], '2022-01-22T09:31:58.574919'),
+(8123, 79887, 126983399, 'eradman/entr', 8, 'Run arbitrary commands when files change', 3, 1478, ['eradman','xakon'], '2022-01-22T09:31:58.027859'),
 (8125, 52336027, 14807173, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 7, 'How to Make a Computer Operating System in C++', 84, 19707, ['SamyPesse','mandliya'], '2022-01-22T09:31:58.685962'),
 (8126, 1917293, 138085677, 'CodePartnersMD/MD201-01', 8, null, 24, 1, ['zdiehlio'], '2022-01-22T09:31:58.878587'),
 (8127, 71297412, 302921248, '5t3ph/11ty-sass-skeleton', 8, 'Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.', 0, 135, ['5t3ph'], '2022-01-22T09:31:59.173048'),
