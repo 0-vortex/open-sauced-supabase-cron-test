@@ -68,7 +68,7 @@ jobs:
           echo ${{ needs.build.outputs.diagram }} !== null
 
       - name: "📂 download diagram artifacts"
-        if: needs.build.outputs.diagram !== null
+        if: ${{ needs.build.outputs.diagram }} !== null
         uses: actions/download-artifact@v2
         with:
           name: diagram
