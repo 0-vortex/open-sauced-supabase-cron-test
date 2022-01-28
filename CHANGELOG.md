@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.4.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.5...v1.4.0) (2022-01-28)
+
+
+### 🍕 Features
+
+* reinstate diagram ternary ([0a1d767](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/0a1d7675817c4575e46c9a50c20099887f48379b))
+
 ### [1.3.5](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.4...v1.3.5) (2022-01-28)
 
 
