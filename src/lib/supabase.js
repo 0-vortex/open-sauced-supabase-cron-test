@@ -1,7 +1,8 @@
-import { open, readFile } from 'node:fs/promises'
+import { open, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { createClient } from '@supabase/supabase-js'
 import { p } from '@antfu/utils'
+import { stringify } from 'csv-stringify'
 
 const anon_key = process.env.SUPABASE_ANON_KEY
 const supabaseUrl = process.env.SUPABASE_URL
@@ -19,11 +20,13 @@ const supaCount = async (table, field = 'id') => supabase
 const supaDump = async (basePath, table, columns = [], rows = []) => {
   const timestamp = new Date().toISOString()
   const filePath = path.join(basePath, `${table}.sql`)
+  const csvPath = path.join(basePath, `${table}.csv`)
   const finalRow = rows.pop()
   const file = await open(new URL(`../${filePath}`, import.meta.url).pathname, 'w')
 
   await file.write(`--
 -- Data for Name: ${table}; Type: TABLE DATA; Schema: public; Timestamp: ${timestamp}
+-- COPY ${table}(${columns.join(', ')}) FROM '${table}.csv' DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO ${table}(${columns.join(', ')}) VALUES
@@ -44,6 +47,9 @@ INSERT INTO ${table}(${columns.join(', ')}) VALUES
       .replaceAll('"', "'")});\n`))
 
   await file.close()
+
+  await stringify(rows, { header: true }, (err, data) =>
+    writeFile(new URL(`../${csvPath}`, import.meta.url), data))
 
   return {
     filePath,
