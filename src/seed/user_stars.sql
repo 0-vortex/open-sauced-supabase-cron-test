@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T12:50:37.983Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T16:51:31.457Z
 --
 
 INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) VALUES
@@ -1900,8 +1900,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2841, 45036724, 50274171, 'vuejs/rollup-plugin-vue', 6, 'Roll .vue files', 70, 829, ['yyx990803','znck'], '2022-01-21T01:37:59.080991'),
 (2842, 1305623, 115478820, 'binhnguyennus/awesome-scalability', 3, 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', 10, 37154, ['binhnguyennus','avidLearnerInProgress'], '2022-01-21T01:37:59.724842'),
 (2843, 35779241, 322936836, 'awtkns/fastapi-crudrouter', 3, 'A dynamic FastAPI router that automatically creates CRUD routes for your models', 34, 587, ['awtkns','collerek'], '2022-01-21T01:38:00.017497'),
-(2844, 4386534, 12663196, 'nosir/obelisk.js', 3, 'Build pixel isometric graphics with HTML5 canvas', 6, 2222, ['rison','nosir'], '2022-01-21T01:38:00.280951'),
 (2845, 45036724, 260554261, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 34, 2265, ['johnsoncodehk','IWANABETHATGUY'], '2022-01-21T01:38:00.390739'),
+(2844, 4386534, 12663196, 'nosir/obelisk.js', 3, 'Build pixel isometric graphics with HTML5 canvas', 6, 2222, ['rison','nosir'], '2022-01-21T01:38:00.280951'),
 (2846, 59651629, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61357, ['tuvtran','sayands'], '2022-01-21T01:38:00.583433'),
 (2847, 4386534, 144873815, 'prisma/prisma-examples', 4, ' 🚀 Ready-to-run Prisma example projects', 68, 3147, ['renovate-bot','nikolasburk'], '2022-01-21T01:38:00.835811'),
 (2848, 1305623, 290234921, 'JoseDeFreitas/awesome-youtubers', 4, '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', 1, 2895, ['JoseDeFreitas','akaashsinha'], '2022-01-21T01:38:01.074734'),
@@ -8194,8 +8194,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8120, 44642314, 122299416, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 145, 5835, ['toshihikoyanase','hvy'], '2022-01-22T09:31:57.257162'),
 (8121, 1917293, 15708275, 'akvo/akvo-product-design', 7, 'Products Design Documents', 61, 10, ['adriancollier','mtwestra'], '2022-01-22T09:31:57.783487'),
 (8122, 71297412, 375015992, 'hacktivist123/content-plan-example', 7, 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', 0, 137, ['hacktivist123','Youngestdev'], '2022-01-22T09:31:57.857984'),
-(8124, 44642314, 77369463, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8086, ['jlelong','tamuratak'], '2022-01-22T09:31:58.574919'),
 (8123, 79887, 126983399, 'eradman/entr', 8, 'Run arbitrary commands when files change', 3, 1478, ['eradman','xakon'], '2022-01-22T09:31:58.027859'),
+(8124, 44642314, 77369463, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8086, ['jlelong','tamuratak'], '2022-01-22T09:31:58.574919'),
 (8125, 52336027, 14807173, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 7, 'How to Make a Computer Operating System in C++', 84, 19707, ['SamyPesse','mandliya'], '2022-01-22T09:31:58.685962'),
 (8126, 1917293, 138085677, 'CodePartnersMD/MD201-01', 8, null, 24, 1, ['zdiehlio'], '2022-01-22T09:31:58.878587'),
 (8127, 71297412, 302921248, '5t3ph/11ty-sass-skeleton', 8, 'Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.', 0, 135, ['5t3ph'], '2022-01-22T09:31:59.173048'),
