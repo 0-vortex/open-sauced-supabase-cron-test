@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.5.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.4.4...v1.5.0) (2022-01-28)
+
+
+### 🍕 Features
+
+* export csv format for COPY statement ([f2bf10b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/f2bf10ba91ce0fa273796dd3d75551247e0281ae))
+
 ### [1.4.4](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.4.3...v1.4.4) (2022-01-28)
 
 
