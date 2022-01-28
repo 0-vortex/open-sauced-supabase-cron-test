@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "supabase-${{ github.ref }}"
+  group: supabase-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       - name: "📦 install dependencies"
         uses: bahmutov/npm-install@v1
 
-      - name: "🔍 populate supabase"
+      - name: "🔍 seed supabase"
         run: npm run seed
         env:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}

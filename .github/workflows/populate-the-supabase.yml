@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "supabase-${{ github.ref }}"
+  group: supabase-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
