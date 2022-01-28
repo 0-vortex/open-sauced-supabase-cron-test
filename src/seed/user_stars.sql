@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T01:03:22.707Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T04:48:10.320Z
 --
 
 INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) VALUES
@@ -1138,7 +1138,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1131, 24606613, 13510786, 'tantaman/LargeLocalStorage', 6, 'Problem: You need to store a large amount of key-value based data in IE, Chrome, Safari, AND Firefox', 8, 525, ['tantaman'], '2022-01-20T21:14:29.70748'),
 (1132, 469997, 3168392, 'david0178418/Backbone-RequireJS-Todo-Example', 11, 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', 0, 6, ['david0178418'], '2022-01-20T21:14:29.731693'),
 (1133, 469997, 2015790, 'timwis/PhillySNAP-v1', 12, 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', 0, 3, ['timwis'], '2022-01-20T21:14:31.081596'),
-(1134, 24606613, 116848168, 'Marcisbee/radi', 7, '🌀Tiny (in size) front-end framework with no extra browser re-flows', 0, 952, ['Marcisbee','rafaelklaessen'], '2022-01-20T21:14:31.151715'),
 (1135, 469997, 2798894, 'j-mcnally/PhoneGap-ios-PhoneDialer', 13, 'A plugin for ios phone gap to launch the dialer programatically in ios >= 5', 2, 44, ['peutetre','mcfedr'], '2022-01-20T21:14:32.44213'),
 (1136, 24606613, 6106472, 'survivingwithandroid/Surviving-with-android', 8, 'Source code related to the posts in the blog', 14, 1278, ['survivingwithandroid'], '2022-01-20T21:14:32.975842'),
 (1137, 469997, 5316345, 'sobingt/testgithub', 14, 'Test', 0, 1, ['sobingt'], '2022-01-20T21:14:33.839371'),
@@ -1146,6 +1145,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1139, 656318, 136938012, 'vendure-ecommerce/vendure', 0, 'A headless GraphQL ecommerce framework for the modern web', 138, 3099, ['michaelbromley','Draykee'], '2022-01-20T21:20:32.318717'),
 (1140, 469997, 240315046, 'jina-ai/jina', 1, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 66, 13228, ['hanxiao','jina-bot'], '2022-01-20T21:20:32.799995'),
 (1141, 656318, 379608568, 'Codesee-io/remote-companies', 1, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', 0, 36, ['jessicarose','ramonh'], '2022-01-20T21:20:33.803182'),
+(1134, 24606613, 116848168, 'Marcisbee/radi', 7, '🌀Tiny (in size) front-end framework with no extra browser re-flows', 0, 952, ['Marcisbee','rafaelklaessen'], '2022-01-20T21:14:31.151715'),
 (1142, 469997, 108859514, 'atulmy/crate', 2, '👕 👖 📦  A sample web and mobile application built with Node, Express, React, React Native, Redux and GraphQL. Very basic replica of stitchfix.com / krate.in (allows users to get monthly subscription of trendy clothes and accessories).', 0, 2288, ['atulmy','ebouJ'], '2022-01-20T21:20:34.415719'),
 (1143, 656318, 277795317, 'flaki/simplayground', 2, 'Playground for fiddling with HTML email and extracting the useful bits', 0, 2, ['flaki','ramonh'], '2022-01-20T21:20:35.136802'),
 (1144, 469997, 78880128, 'ohld/igbot', 3, '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', 35, 4109, ['ohld','sudoguy'], '2022-01-20T21:20:35.924512'),
