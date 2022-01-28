@@ -26,12 +26,22 @@ const supaDump = async (basePath, table, columns = [], rows = []) => {
 -- Data for Name: ${table}; Type: TABLE DATA; Schema: public; Timestamp: ${timestamp}
 --
 
-INSERT INTO ${table}("${columns.join('", "')}") VALUES
+INSERT INTO ${table}(${columns.join(', ')}) VALUES
 `)
 
   await p(rows)
-    .map(async row => file.write(`(${columns.map(col => JSON.stringify(row[col])).join(', ')}),\n`))
-    .then(() => file.write(`(${columns.map(col => JSON.stringify(finalRow[col])).join(', ')});\n`))
+    .map(async row => file.write(`(${columns.map(col => JSON.stringify(row[col]))
+      .join(', ')
+      .replaceAll('\\"', "'")
+      .replaceAll("\\'", "'")
+      .replaceAll("'", "''")
+      .replaceAll('"', "'")}),\n`))
+    .then(() => file.write(`(${columns.map(col => JSON.stringify(finalRow[col]))
+      .join(', ')
+      .replaceAll('\\"', "'")
+      .replaceAll("\\'", "'")
+      .replaceAll("'", "''")
+      .replaceAll('"', "'")});\n`))
 
   await file.close()
 
