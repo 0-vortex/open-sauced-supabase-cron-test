@@ -62,13 +62,8 @@ jobs:
           fetch-depth: 0
 
 
-      - name: "🔧 check diagram"
-        run: |
-#          echo ${{ needs.build.outputs.diagram }}
-          echo ${{ needs.build.outputs.diagram }} !== null
-
       - name: "📂 download diagram artifacts"
-        if: ${{ needs.build.outputs.diagram }} !== null
+        if: needs.build.outputs.diagram != ''
         uses: actions/download-artifact@v2
         with:
           name: diagram
