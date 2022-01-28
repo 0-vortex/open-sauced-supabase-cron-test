@@ -61,7 +61,6 @@ jobs:
         with:
           fetch-depth: 0
 
-
       - name: "📂 download diagram artifacts"
         if: needs.build.outputs.diagram != ''
         uses: actions/download-artifact@v2
