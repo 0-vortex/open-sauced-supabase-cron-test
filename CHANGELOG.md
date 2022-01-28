@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.5.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.5.1...v1.5.2) (2022-01-28)
+
+
+### 🔁 Continuous Integration
+
+* test seed cancellation again ([b3241b2](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/b3241b28ac3eeb2b19af02db5b999b90fe8b5e5c))
+
 ### [1.5.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.5.0...v1.5.1) (2022-01-28)
 
 
