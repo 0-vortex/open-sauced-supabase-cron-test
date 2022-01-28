@@ -64,7 +64,7 @@ jobs:
 
       - name: "🔧 check diagram"
         run: |
-          echo ${{ needs.build.outputs.diagram }}
+#          echo ${{ needs.build.outputs.diagram }}
           echo ${{ needs.build.outputs.diagram }} !== null
 
       - name: "📂 download diagram artifacts"
