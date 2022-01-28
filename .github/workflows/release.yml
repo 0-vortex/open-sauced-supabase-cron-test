@@ -19,8 +19,6 @@ jobs:
   build:
     name: Build application
     runs-on: ubuntu-latest
-    outputs:
-      diagram: ${{ steps.diagram.outputs.svg }}
     steps:
       - name: "☁️ checkout repository"
         uses: actions/checkout@v2
@@ -44,7 +42,12 @@ jobs:
           output_file: "public/diagram.svg"
           should_push: false
           root_path: "src/"
-          artifact_name: "diagram"
+
+      - name: "📊 visualiser artifacts"
+        uses: actions/upload-artifact@v2
+        with:
+          name: diagram
+          path: public/diagram.svg
 
   release:
     environment:
@@ -62,7 +65,6 @@ jobs:
           fetch-depth: 0
 
       - name: "📂 download diagram artifacts"
-        if: needs.build.outputs.diagram != ''
         uses: actions/download-artifact@v2
         with:
           name: diagram
