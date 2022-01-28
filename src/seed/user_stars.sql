@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T16:51:31.457Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T20:44:32.942Z
 --
 
 INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) VALUES
@@ -1900,8 +1900,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2841, 45036724, 50274171, 'vuejs/rollup-plugin-vue', 6, 'Roll .vue files', 70, 829, ['yyx990803','znck'], '2022-01-21T01:37:59.080991'),
 (2842, 1305623, 115478820, 'binhnguyennus/awesome-scalability', 3, 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', 10, 37154, ['binhnguyennus','avidLearnerInProgress'], '2022-01-21T01:37:59.724842'),
 (2843, 35779241, 322936836, 'awtkns/fastapi-crudrouter', 3, 'A dynamic FastAPI router that automatically creates CRUD routes for your models', 34, 587, ['awtkns','collerek'], '2022-01-21T01:38:00.017497'),
-(2845, 45036724, 260554261, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 34, 2265, ['johnsoncodehk','IWANABETHATGUY'], '2022-01-21T01:38:00.390739'),
 (2844, 4386534, 12663196, 'nosir/obelisk.js', 3, 'Build pixel isometric graphics with HTML5 canvas', 6, 2222, ['rison','nosir'], '2022-01-21T01:38:00.280951'),
+(2845, 45036724, 260554261, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 34, 2265, ['johnsoncodehk','IWANABETHATGUY'], '2022-01-21T01:38:00.390739'),
 (2846, 59651629, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61357, ['tuvtran','sayands'], '2022-01-21T01:38:00.583433'),
 (2847, 4386534, 144873815, 'prisma/prisma-examples', 4, ' 🚀 Ready-to-run Prisma example projects', 68, 3147, ['renovate-bot','nikolasburk'], '2022-01-21T01:38:00.835811'),
 (2848, 1305623, 290234921, 'JoseDeFreitas/awesome-youtubers', 4, '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', 1, 2895, ['JoseDeFreitas','akaashsinha'], '2022-01-21T01:38:01.074734'),
@@ -4725,7 +4725,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4646, 2808728, 15479087, 'OctoLinker/OctoLinker', 11, 'OctoLinker — Links together, what belongs together', 47, 4870, ['stefanbuck','josephfrazier'], '2022-01-21T04:21:39.165029'),
 (4647, 1295334, 5878403, 'jcoleman/JCAutocompletingSearch', 14, 'iOS widget for querying asynchronous backends allowing user selection from results.', 1, 154, ['jcoleman'], '2022-01-21T04:21:40.334344'),
 (4648, 6842883, 16408992, 'neovim/neovim', 15, 'Vim-fork focused on extensibility and usability', 1587, 50240, ['justinmk','janlazo'], '2022-01-21T04:21:40.595854'),
-(4649, 1295334, 76404, 'rails-sqlserver/activerecord-sqlserver-adapter', 15, 'SQL Server Adapter For Rails', 32, 935, ['metaskills','wpolicarpo'], '2022-01-21T04:21:41.587798'),
 (4650, 6842883, 22858482, 'fonttools/region-flags', 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', 16, 160, ['behdad','behnam'], '2022-01-21T04:21:41.880716'),
 (4651, 2808728, 21737465, 'sindresorhus/awesome', 12, '😎 Awesome lists about all kinds of interesting topics', 39, 185451, ['sindresorhus','davisonio'], '2022-01-21T04:21:42.464498'),
 (4652, 1295334, 488514, 'rubygems/bundler', 16, 'Manage your Ruby application''s gem dependencies', 0, 4850, ['indirect','segiddins'], '2022-01-21T04:21:42.894714'),
@@ -4830,6 +4829,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4751, 15052690, 10581067, 'kerryb/goos-ruby', 12, 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', 0, 60, ['kerryb'], '2022-01-21T04:36:02.202505'),
 (4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
 (4753, 25194960, 20060596, 'ogham/exa', 18, 'A modern replacement for ‘ls’.', 215, 16258, ['ogham','ariasuni'], '2022-01-21T04:36:02.710897'),
+(4649, 1295334, 76404, 'rails-sqlserver/activerecord-sqlserver-adapter', 15, 'SQL Server Adapter For Rails', 32, 935, ['metaskills','wpolicarpo'], '2022-01-21T04:21:41.587798'),
 (4754, 3777549, 118858739, 'dwmkerr/hacker-laws', 16, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', 122, 22629, ['dwmkerr','umutphp'], '2022-01-21T04:36:02.917286'),
 (4755, 15052690, 1272424, 'nodemailer/nodemailer', 13, '✉️ Send e-mails with Node.JS – easy as cake!', 9, 14448, ['andris9','igorsechyn'], '2022-01-21T04:36:03.563459'),
 (4756, 3777549, 74791366, 'ryanmcdermott/clean-code-javascript', 17, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62312, ['ryanmcdermott','vsemozhetbyt'], '2022-01-21T04:36:03.673801'),
@@ -7756,12 +7756,12 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7720, 2339101, 43197254, 'tombuyse/ionic-appium-protractor-example', 26, 'This is an example app to show you how to configure appium and protractor to test an Ionic application', 3, 28, ['tombuyse','Bessonov'], '2022-01-22T08:52:14.935063'),
 (7721, 20734038, 32484381, 'ripienaar/free-for-dev', 28, 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', 23, 52795, ['ripienaar','TraderStf'], '2022-01-22T08:52:15.677555'),
 (7722, 5901851, 174766902, 'afollestad/recyclical', 26, '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', 12, 700, ['afollestad','Johnett'], '2022-01-22T08:52:15.863459'),
-(7723, 2339101, 26557412, 'wordpress-clients/hybrid', 27, '[I don''t have time to work on this anymore. Use at your own risk] Build WordPress based PWA, iOS, Android & Windows phones apps in minutes!', 55, 1028, ['shprink','mingxia'], '2022-01-22T08:52:16.266316'),
-(7724, 5901851, 224247781, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1494, ['nikhilpanju'], '2022-01-22T08:52:17.150919'),
 (7725, 20734038, 112369276, 'Unity-Technologies/com.unity.cinemachine', 29, 'Smart camera tools for passionate creators', 23, 279, ['glabute','gaborkb'], '2022-01-22T08:52:17.371346'),
 (7726, 2339101, 18627196, 'sirian/suggest-bundle', 28, null, 4, 24, ['sirian','bulychev'], '2022-01-22T08:52:17.601591'),
 (7727, 5901851, 199327580, 'MindorksOpenSource/android-developer-roadmap', 28, 'Android Developer Roadmap - A complete roadmap to learn Android App Development', 12, 2189, ['amitshekhariitbhu','isfaaghyth'], '2022-01-22T08:52:18.439886'),
 (7728, 2339101, 55896045, 'DrBenton/rougemine.com-online-resume', 29, 'My over-engineered online resume', 19, 1, ['DrBenton'], '2022-01-22T08:52:18.813435'),
+(7723, 2339101, 26557412, 'wordpress-clients/hybrid', 27, '[I don''t have time to work on this anymore. Use at your own risk] Build WordPress based PWA, iOS, Android & Windows phones apps in minutes!', 55, 1028, ['shprink','mingxia'], '2022-01-22T08:52:16.266316'),
+(7724, 5901851, 224247781, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1494, ['nikhilpanju'], '2022-01-22T08:52:17.150919'),
 (7729, 5901851, 217545172, 'ibrahimsn98/SmoothBottomBar', 29, 'A lightweight Android material bottom navigation bar library', 34, 1515, ['ibrahimsn98','mayokunadeniyi'], '2022-01-22T08:52:19.696143'),
 (7730, 43640229, 431928942, 'SVD6/Personal-Site', 0, 'My personal website.', 0, 1, ['SVD6'], '2022-01-22T08:58:14.718461'),
 (7731, 88631894, 335819337, 'MonkeDev/API-bot', 0, 'The bot we use to manage our API.', 0, 1, ['Mafia-7777','BurnedBed'], '2022-01-22T08:58:14.728061'),
@@ -7846,8 +7846,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7809, 2228196, 51018409, 'appbaseio/dejavu', 25, 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', 50, 7617, ['lakhansamani','ShahAnuj2610'], '2022-01-22T08:58:49.816522'),
 (7810, 43640229, 200212195, 'xinlc/react-native-typescript-template', 25, 'this is a template for reac native + TS + redux + saga architecture', 14, 4, ['xinlc'], '2022-01-22T08:58:50.717374'),
 (7811, 19617280, 384524698, 'salvia-kit/salvia-kit', 28, 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', 0, 324, ['enochndika'], '2022-01-22T08:58:50.943933'),
-(7812, 2228196, 128275689, 'cchen156/Learning-to-See-in-the-Dark', 26, 'Learning to See in the Dark. CVPR 2018', 62, 5151, ['cchen156','Jason-Cooke'], '2022-01-22T08:58:51.057662'),
 (7813, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-22T08:58:52.237195'),
+(7812, 2228196, 128275689, 'cchen156/Learning-to-See-in-the-Dark', 26, 'Learning to See in the Dark. CVPR 2018', 62, 5151, ['cchen156','Jason-Cooke'], '2022-01-22T08:58:51.057662'),
 (7814, 2228196, 168927777, 'Mtihc/bustabit-script-simulator', 27, 'Simulate running a script on bustabit', 6, 15, ['Mtihc'], '2022-01-22T08:58:52.286881'),
 (7815, 19617280, 333980205, 'cassidoo/cass.run', 29, 'My own lil URL shortener', 0, 140, ['cassidoo','Jadhielv'], '2022-01-22T08:58:52.353396'),
 (7816, 43640229, 99263247, 'joncardasis/ultimate-api', 27, ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', 3, 44, ['joncardasis'], '2022-01-22T08:58:53.388017'),
@@ -9240,8 +9240,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9155, 30334776, 46958040, 'tapaswenipathak/Open-Source-Programs', 11, 'A list of open source programs.', 37, 2727, ['tapaswenipathak','emetowinner'], '2022-01-22T10:48:42.375219'),
 (9156, 58482194, 381907715, 'vuejs/petite-vue', 12, '6kb subset of Vue optimized for progressive enhancement', 1, 5584, ['yyx990803','Fry98'], '2022-01-22T10:48:42.502415'),
 (9157, 349523, 1953222, 'jwalter/garnisonen', 13, 'Dagens lunch på garnisonsområdet i Linköping', 0, 1, ['jwalter'], '2022-01-22T10:48:42.980951'),
-(9158, 25867172, 23511343, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 443, ['ultraembedded'], '2022-01-22T10:48:43.129849'),
 (9159, 30334776, 189215607, 'bzg/opensource-challenges', 12, 'A list of resources to think about free software and open source challenges', 0, 78, ['bzg','sebastianbergmann'], '2022-01-22T10:48:43.823002'),
+(9158, 25867172, 23511343, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 443, ['ultraembedded'], '2022-01-22T10:48:43.129849'),
 (9160, 58482194, 342028554, 'wheatjs/vite-plugin-vue-gql', 13, '⚡ GraphQL Tags for your Vue SFC ⚡', 2, 167, ['wheatjs','jojoxd'], '2022-01-22T10:48:43.92861'),
 (9161, 349523, 1780761, 'jwalter/SMSParkera', 14, null, 0, 1, ['jwalter'], '2022-01-22T10:48:44.448148'),
 (9162, 25867172, 288511462, 'teezzan/commitSpy-Core', 14, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', 0, 2, ['teezzan'], '2022-01-22T10:48:44.568014'),
