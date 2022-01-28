@@ -5,6 +5,26 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.4.3](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.4.2...v1.4.3) (2022-01-28)
+
+
+### 🤖 Build System
+
+* update dependencies ([a90f168](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/a90f168a9a53d9f00a9e1df25028080dfd76fe09))
+
+
+### ✅ Tests
+
+* correct workflow syntax ([8fb9bf7](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/8fb9bf70abcb225536f869bd39880a7f5c27d685))
+* disable breaking echo ([34be6eb](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/34be6eb9e414a452d20b3177214df79faf3fa2e0))
+* experiment with null values ([30adc72](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/30adc72f4983b4625ce4fa6f4d30cdd0157d97eb))
+
+
+### 🐛 Bug Fixes
+
+* correct diagram output in build ([8f6827c](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/8f6827c0a87df432ea8ca4b5c54b4caeee3131b6))
+* correct workflow syntax again ([bbeab50](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/bbeab509c6c3151368942fa3c69e8c34c05aa730))
+
 ### [1.4.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.4.1...v1.4.2) (2022-01-28)
 
 
