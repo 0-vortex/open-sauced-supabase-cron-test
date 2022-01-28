@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.4.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.4.0...v1.4.1) (2022-01-28)
+
+
+### 🐛 Bug Fixes
+
+* try diagram again ([b56d66f](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/b56d66fffdd486d8f9f8c31b57ba671cb993be8d))
+
 ## [1.4.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.3.5...v1.4.0) (2022-01-28)
 
 
