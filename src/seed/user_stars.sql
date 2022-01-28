@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T00:47:58.847Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T01:03:22.707Z
 --
 
 INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) VALUES
