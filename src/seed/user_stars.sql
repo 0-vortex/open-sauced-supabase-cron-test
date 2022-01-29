@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T12:49:49.592Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T14:44:31.748Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -7802,9 +7802,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7765, 19617280, 187874263, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 24, ['rjt-rockx','Lioness100'], '2022-01-22T08:58:30.435811'),
 (7766, 43640229, 384147961, 'hashicorp/nextjs-bundle-analysis', 11, 'A github action that provides detailed bundle analysis on PRs for next.js apps', 5, 132, ['jescalan','BRKalow'], '2022-01-22T08:58:30.693005'),
 (7767, 2228196, 326532559, 'lesmo/pi-home', 11, 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', 0, 2, ['balena-ci','chrisys'], '2022-01-22T08:58:31.542749'),
-(7768, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-22T08:58:31.862919'),
 (7769, 2228196, 88077974, 'tanhauhau/react-web-config', 12, 'react-native-config for Web', 4, 16, ['tanhauhau'], '2022-01-22T08:58:32.932484'),
 (7770, 43640229, 70107786, 'vercel/next.js', 12, 'The React Framework', 1178, 80058, ['timneutkens','ijjk'], '2022-01-22T08:58:33.155131'),
+(7768, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-22T08:58:31.862919'),
 (7771, 19617280, 274274791, 'vseventer/eleventy-plugin-helmet', 14, 'A document head manager for Eleventy.', 5, 15, ['vseventer','peterjcaulfield'], '2022-01-22T08:58:33.265252'),
 (7772, 2228196, 205250704, 'microsoft/DialoGPT', 13, 'Large-scale pretraining for dialogue', 53, 1529, ['dreasysnail','mgalley'], '2022-01-22T08:58:34.169673'),
 (7773, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-22T08:58:34.354891'),
@@ -9403,10 +9403,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9318, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-22T10:55:23.803165'),
 (9319, 237133, 425941587, '0-vortex/open-sauced-conventional-commit-test', 28, 'Experimenting with commitizen configuration repository for opensauced.pizza', 0, 2, ['0-vortex'], '2022-01-22T10:55:23.82122'),
 (9320, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 38, 25036, ['tannerlinsley','boschni'], '2022-01-22T10:55:23.918642'),
+(9321, 57305940, 131340928, 'jmkoni/interview-questions', 19, 'My favorite questions to ask when I am being interviewed', 0, 86, ['jmkoni'], '2022-01-22T10:55:24.239091'),
 (9322, 57017587, 323362926, 'LowLevelJavaScript/Learning-Resources', 26, 'This repository serves as a list of resources that I have personally found useful for learning about certain concepts', 1, 26, ['francisrstokes'], '2022-01-22T10:55:25.024562'),
 (9323, 237133, 432296669, '0-vortex/semantic-release-docker-mini', 29, 'Opinionated fork of @semantic-release-plus/docker with minimal features', 0, 1, ['0-vortex'], '2022-01-22T10:55:25.064114'),
 (9324, 8037469, 242775289, 'VulcanJS/vulcan-next', 28, 'The Next starter for GraphQL developers', 67, 274, ['eric-burel','Timi-Duban'], '2022-01-22T10:55:25.172257'),
-(9321, 57305940, 131340928, 'jmkoni/interview-questions', 19, 'My favorite questions to ask when I am being interviewed', 0, 86, ['jmkoni'], '2022-01-22T10:55:24.239091'),
 (9325, 57305940, 24774658, 'boto/boto3', 20, 'AWS SDK for Python', 275, 6972, ['aws-sdk-python-automation','awstools'], '2022-01-22T10:55:25.448441'),
 (9326, 57017587, 100039459, 'samwincott/Internship-Guide', 27, 'A guide to getting an internship', 1, 320, ['samwincott','anthonymendez'], '2022-01-22T10:55:26.266985'),
 (9327, 8037469, 172741073, 'snowpackjs/snowpack', 29, 'ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️', 361, 19667, ['FredKSchott','drwpow'], '2022-01-22T10:55:26.419347'),
