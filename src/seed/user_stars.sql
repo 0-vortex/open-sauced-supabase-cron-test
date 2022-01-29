@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T14:44:31.748Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T16:50:54.828Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -439,8 +439,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (432, 61815862, 165434192, 'dvx/lofi', 7, '🎵🔉 A mini Spotify player with WebGL visualizations.', 41, 673, ['dvx','stamoun'], '2022-01-20T20:09:34.889455'),
 (433, 61815862, 51870853, 'SimpleMobileTools/Simple-Gallery', 8, 'Browse your memories without any interruptions with this photo and video gallery', 277, 2165, ['tibbi','solokot'], '2022-01-20T20:09:35.55499'),
 (434, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1500, 49169, ['balloob','fabaff'], '2022-01-20T20:09:38.542695'),
-(435, 61815862, 416408131, 'mattn/tailscale-systray', 10, 'Linux port of tailscale system tray menu.', 7, 77, ['mattn','codenoid'], '2022-01-20T20:09:40.000321'),
 (436, 61815862, 363988779, 'muchobien/tailscale-ui', 11, 'Tailscale UI for Ubuntu', 1, 41, ['Lokeon','KROSF'], '2022-01-20T20:09:40.702976'),
+(435, 61815862, 416408131, 'mattn/tailscale-systray', 10, 'Linux port of tailscale system tray menu.', 7, 77, ['mattn','codenoid'], '2022-01-20T20:09:40.000321'),
 (437, 61815862, 283323929, 'haimgel/display-switch', 12, 'Turn a $30 USB switch into a full-featured multi-monitor KVM switch', 20, 2015, ['haimgel','jrr'], '2022-01-20T20:09:41.429787'),
 (438, 61815862, 368365410, 'xsky13/RedFeed', 13, 'RedFeed: a Reddit Feed', 0, 1, ['xsky13'], '2022-01-20T20:09:42.040769'),
 (439, 61815862, 438686004, 'xsky13/online-compiler', 14, 'An online code compiler', 0, 1, ['xsky13'], '2022-01-20T20:09:42.758398'),
@@ -7802,9 +7802,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7765, 19617280, 187874263, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 24, ['rjt-rockx','Lioness100'], '2022-01-22T08:58:30.435811'),
 (7766, 43640229, 384147961, 'hashicorp/nextjs-bundle-analysis', 11, 'A github action that provides detailed bundle analysis on PRs for next.js apps', 5, 132, ['jescalan','BRKalow'], '2022-01-22T08:58:30.693005'),
 (7767, 2228196, 326532559, 'lesmo/pi-home', 11, 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', 0, 2, ['balena-ci','chrisys'], '2022-01-22T08:58:31.542749'),
+(7768, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-22T08:58:31.862919'),
 (7769, 2228196, 88077974, 'tanhauhau/react-web-config', 12, 'react-native-config for Web', 4, 16, ['tanhauhau'], '2022-01-22T08:58:32.932484'),
 (7770, 43640229, 70107786, 'vercel/next.js', 12, 'The React Framework', 1178, 80058, ['timneutkens','ijjk'], '2022-01-22T08:58:33.155131'),
-(7768, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-22T08:58:31.862919'),
 (7771, 19617280, 274274791, 'vseventer/eleventy-plugin-helmet', 14, 'A document head manager for Eleventy.', 5, 15, ['vseventer','peterjcaulfield'], '2022-01-22T08:58:33.265252'),
 (7772, 2228196, 205250704, 'microsoft/DialoGPT', 13, 'Large-scale pretraining for dialogue', 53, 1529, ['dreasysnail','mgalley'], '2022-01-22T08:58:34.169673'),
 (7773, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-22T08:58:34.354891'),
