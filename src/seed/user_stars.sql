@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-28T22:44:25.211Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T01:02:50.169Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2090,8 +2090,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2045, 19617280, 304344049, 'sveltejs/kit', 17, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:57:47.212358'),
 (2046, 17373317, 3310609, 'Netflix/netflix.github.com', 13, null, 36, 1152, ['Randgalt','PoorImpulseCtrl'], '2022-01-20T23:57:47.831285'),
 (2047, 505751, 12496161, 'RetireJS/retire.js', 15, 'scanner detecting the use of JavaScript libraries with known vulnerabilities', 28, 2937, ['eoftedal','thomasandersen'], '2022-01-20T23:57:47.951807'),
-(2049, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 60, 17843, ['antfu','nico-bachner'], '2022-01-20T23:57:48.368199'),
 (2048, 43640229, 162028712, 'leerob/leerob.io', 19, '✨  My portfolio built with Next.js, Tailwind, Prisma, and Vercel.', 12, 2996, ['leerob','omaralsoudanii'], '2022-01-20T23:57:48.287535'),
+(2049, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 60, 17843, ['antfu','nico-bachner'], '2022-01-20T23:57:48.368199'),
 (2050, 17373317, 126231747, 'RedHatOfficial/RedHatOfficial.github.io', 14, 'The official Red Hat project page.', 13, 347, ['bproffitt','castastrophe'], '2022-01-20T23:57:48.543938'),
 (2051, 505751, 212123834, 'kentaro-m/auto-assign-action', 16, 'An action which adds reviewers to the pull request when the pull request is opened.', 22, 116, ['kentaro-m','tagoro9'], '2022-01-20T23:57:48.667905'),
 (2052, 43640229, 112027892, 'brianegan/flutter_architecture_samples', 20, 'TodoMVC for Flutter', 45, 7603, ['brianegan','mmcc007'], '2022-01-20T23:57:48.692385'),
@@ -2693,8 +2693,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2645, 2609511, 255940939, 'mifi/editly', 2, 'Slick, declarative command line video editing & API', 69, 3212, ['mifi','patcon'], '2022-01-21T00:43:58.870032'),
 (2646, 52336027, 164332663, 'DrWaleedAYousef/Teaching', 11, 'Teaching Materials for Dr. Waleed A. Yousef', 0, 641, ['DrWaleedAYousef'], '2022-01-21T00:43:59.306384'),
 (2647, 52336027, 19415064, 'ossu/computer-science', 12, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105601, ['ericdouglas','joshmhanson'], '2022-01-21T00:43:59.665345'),
-(2649, 11858762, 248862268, 'GregorBiswanger/rxjs-fruits', 6, 'A game for learning RxJS 🍎🍌', 15, 164, ['GregorBiswanger','hwanders'], '2022-01-21T00:43:59.802637'),
 (2648, 44642314, 53238813, 'Homebrew/brew', 9, '🍺 The missing package manager for macOS (or Linux)', 34, 30672, ['MikeMcQuaid','jacknagel'], '2022-01-21T00:43:59.740976'),
+(2649, 11858762, 248862268, 'GregorBiswanger/rxjs-fruits', 6, 'A game for learning RxJS 🍎🍌', 15, 164, ['GregorBiswanger','hwanders'], '2022-01-21T00:43:59.802637'),
 (2650, 2609511, 712530, 'fabricjs/fabric.js', 3, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 258, 20911, ['kangax','asturur'], '2022-01-21T00:44:00.595397'),
 (2651, 44642314, 268972184, 'shilohc/map2gazebo', 10, null, 7, 88, [], '2022-01-21T00:44:01.021233'),
 (2652, 11858762, 293517568, 'ngneat/tailwind', 7, '🔥 A schematic that adds Tailwind CSS to Angular applications', 20, 583, ['nartc','vltansky'], '2022-01-21T00:44:01.1118'),
@@ -5026,8 +5026,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5017, 53687927, 338564913, 'dwaipayan05/html', 27, 'HTML Standard', 0, 1, ['Hixie','annevk'], '2022-01-21T04:57:41.300372'),
 (5018, 6935431, 319475939, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 26, 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', 2, 6, ['tapjdey','WillemJiang'], '2022-01-21T04:57:42.445805'),
 (5019, 53687927, 338515160, 'dwaipayan05/ie-website', 28, 'Website for The Institution of Engineers, NITK Chapter', 9, 1, ['chaitany10','mehnazyunus'], '2022-01-21T04:57:42.853418'),
-(5021, 53687927, 345420003, 'dwaipayan05/android-gif-drawable', 29, 'Views and Drawable for displaying animated GIFs on Android', 0, 1, ['koral--','os97673'], '2022-01-21T04:57:44.066716'),
 (5020, 6935431, 317539399, 'SAP/project-portal-for-innersource', 27, 'Lists all InnerSource projects of a company in an interactive and easy to use way. Can be used as a template for implementing the ''InnerSource portal'' pattern by the InnerSource Commons community.', 2, 83, ['Michadelic','spier'], '2022-01-21T04:57:43.919534'),
+(5021, 53687927, 345420003, 'dwaipayan05/android-gif-drawable', 29, 'Views and Drawable for displaying animated GIFs on Android', 0, 1, ['koral--','os97673'], '2022-01-21T04:57:44.066716'),
 (5022, 6935431, 311865268, 'zkoppert/go-exercises', 28, 'random go exercises to learn golang', 0, 1, ['zkoppert'], '2022-01-21T04:57:45.134143'),
 (5023, 6935431, 13855476, 'go-gorm/gorm', 29, 'The fantastic ORM library for Golang, aims to be developer friendly', 58, 26576, ['jinzhu','emirb'], '2022-01-21T04:57:47.071232'),
 (5024, 19475228, 308770, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 178, 22156, ['josevalim','carlosantoniodasilva'], '2022-01-21T05:02:42.231744'),
