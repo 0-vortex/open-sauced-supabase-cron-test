@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T01:02:50.169Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T02:46:53.584Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1306,8 +1306,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1297, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1662, 84491, ['ry','Trott'], '2022-01-20T22:37:54.915074'),
 (1298, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T22:37:54.93686'),
 (1299, 61815862, 51870853, 'SimpleMobileTools/Simple-Gallery', 8, 'Browse your memories without any interruptions with this photo and video gallery', 277, 2165, ['tibbi','solokot'], '2022-01-20T22:37:55.467992'),
-(1300, 7860023, 14862081, 'adiel/coypu', 7, 'Intuitive, robust browser automation for .Net', 0, 1, ['adiel','citizenmatt'], '2022-01-20T22:37:56.378817'),
 (1301, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T22:37:56.384712'),
+(1300, 7860023, 14862081, 'adiel/coypu', 7, 'Intuitive, robust browser automation for .Net', 0, 1, ['adiel','citizenmatt'], '2022-01-20T22:37:56.378817'),
 (1302, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1492, 49169, ['balloob','fabaff'], '2022-01-20T22:37:57.33322'),
 (1303, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T22:37:57.73978'),
 (1304, 7860023, 32280638, 'bonigarcia/webdrivermanager', 8, 'Automated driver management and Docker builder for Selenium WebDriver', 15, 1837, ['bonigarcia','eliasnogueira'], '2022-01-20T22:37:57.847322'),
@@ -5410,9 +5410,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5401, 38838958, 149206257, 'hashlab/hiring', 24, '🤝 Informações sobre vagas na Hash', 8, 93, ['paulovitin','MarcoWorms'], '2022-01-21T05:29:24.120353'),
 (5402, 3846874, 17884290, 'tschaub/gh-pages', 18, 'General purpose task for publishing files to a gh-pages branch on GitHub', 103, 2723, ['tschaub','greenkeeperio-bot'], '2022-01-21T05:29:24.31726'),
 (5403, 60850993, 199474970, 'bdelate/django-flutterwave', 21, 'Django integration for Flutterwave Rave payments and subscriptions', 0, 10, ['bdelate'], '2022-01-21T05:29:24.446253'),
+(5406, 60850993, 97014480, 'nesdis/djongo', 22, 'Django and MongoDB database connector', 294, 1482, ['nesdis','jay20162016'], '2022-01-21T05:29:25.713693'),
 (5404, 38838958, 268147152, 'bndw/wifi-card', 25, '📶 Print a QR code for connecting to your WiFi (wificard.io)', 0, 5602, ['bndw','olekstomek'], '2022-01-21T05:29:25.196028'),
 (5405, 3846874, 37627792, 'nfl/react-helmet', 19, 'A document head manager for React', 189, 15932, ['cwelch5','doctyper'], '2022-01-21T05:29:25.589144'),
-(5406, 60850993, 97014480, 'nesdis/djongo', 22, 'Django and MongoDB database connector', 294, 1482, ['nesdis','jay20162016'], '2022-01-21T05:29:25.713693'),
 (5407, 38838958, 133442384, 'denoland/deno', 26, 'A modern runtime for JavaScript and TypeScript.', 718, 79885, ['ry','bartlomieju'], '2022-01-21T05:29:26.877881'),
 (5408, 60850993, 280940271, 'Maduflavins/paystackimplementation', 23, null, 0, 1, ['Maduflavins'], '2022-01-21T05:29:26.973667'),
 (5409, 3846874, 557980, 'socketio/socket.io', 20, 'Realtime application framework (Node.JS server)', 121, 55104, ['rauchg','darrachequesne'], '2022-01-21T05:29:27.807384'),
