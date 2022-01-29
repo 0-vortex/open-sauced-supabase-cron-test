@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T02:46:53.584Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T04:47:47.836Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1306,8 +1306,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1297, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1662, 84491, ['ry','Trott'], '2022-01-20T22:37:54.915074'),
 (1298, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T22:37:54.93686'),
 (1299, 61815862, 51870853, 'SimpleMobileTools/Simple-Gallery', 8, 'Browse your memories without any interruptions with this photo and video gallery', 277, 2165, ['tibbi','solokot'], '2022-01-20T22:37:55.467992'),
-(1301, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T22:37:56.384712'),
 (1300, 7860023, 14862081, 'adiel/coypu', 7, 'Intuitive, robust browser automation for .Net', 0, 1, ['adiel','citizenmatt'], '2022-01-20T22:37:56.378817'),
+(1301, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T22:37:56.384712'),
 (1302, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1492, 49169, ['balloob','fabaff'], '2022-01-20T22:37:57.33322'),
 (1303, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T22:37:57.73978'),
 (1304, 7860023, 32280638, 'bonigarcia/webdrivermanager', 8, 'Automated driver management and Docker builder for Selenium WebDriver', 15, 1837, ['bonigarcia','eliasnogueira'], '2022-01-20T22:37:57.847322'),
@@ -5410,9 +5410,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5401, 38838958, 149206257, 'hashlab/hiring', 24, '🤝 Informações sobre vagas na Hash', 8, 93, ['paulovitin','MarcoWorms'], '2022-01-21T05:29:24.120353'),
 (5402, 3846874, 17884290, 'tschaub/gh-pages', 18, 'General purpose task for publishing files to a gh-pages branch on GitHub', 103, 2723, ['tschaub','greenkeeperio-bot'], '2022-01-21T05:29:24.31726'),
 (5403, 60850993, 199474970, 'bdelate/django-flutterwave', 21, 'Django integration for Flutterwave Rave payments and subscriptions', 0, 10, ['bdelate'], '2022-01-21T05:29:24.446253'),
-(5406, 60850993, 97014480, 'nesdis/djongo', 22, 'Django and MongoDB database connector', 294, 1482, ['nesdis','jay20162016'], '2022-01-21T05:29:25.713693'),
 (5404, 38838958, 268147152, 'bndw/wifi-card', 25, '📶 Print a QR code for connecting to your WiFi (wificard.io)', 0, 5602, ['bndw','olekstomek'], '2022-01-21T05:29:25.196028'),
 (5405, 3846874, 37627792, 'nfl/react-helmet', 19, 'A document head manager for React', 189, 15932, ['cwelch5','doctyper'], '2022-01-21T05:29:25.589144'),
+(5406, 60850993, 97014480, 'nesdis/djongo', 22, 'Django and MongoDB database connector', 294, 1482, ['nesdis','jay20162016'], '2022-01-21T05:29:25.713693'),
 (5407, 38838958, 133442384, 'denoland/deno', 26, 'A modern runtime for JavaScript and TypeScript.', 718, 79885, ['ry','bartlomieju'], '2022-01-21T05:29:26.877881'),
 (5408, 60850993, 280940271, 'Maduflavins/paystackimplementation', 23, null, 0, 1, ['Maduflavins'], '2022-01-21T05:29:26.973667'),
 (5409, 3846874, 557980, 'socketio/socket.io', 20, 'Realtime application framework (Node.JS server)', 121, 55104, ['rauchg','darrachequesne'], '2022-01-21T05:29:27.807384'),
@@ -6858,8 +6858,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6795, 26007940, 173846801, 'mikerobards/simon-game', 10, null, 0, 1, ['mikerobards'], '2022-01-22T04:20:32.907548'),
 (6796, 12410942, 52710065, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 81, 5969, ['jakebolam','kentcdodds'], '2022-01-22T04:20:33.164866'),
 (6797, 26007940, 367395197, 'Pumpkin-from-Scrimba/NapScript', 11, 'The only true cat programming language. Made by a cat for people. This is the way. ', 0, 1, ['Pumpkin-from-Scrimba'], '2022-01-22T04:20:33.485757'),
-(6798, 12410942, 157626893, 'thematters/matters-server', 12, 'Server code for Matters', 34, 47, ['robertu7','devformatters'], '2022-01-22T04:20:33.754683'),
 (6799, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T04:20:34.083146'),
+(6798, 12410942, 157626893, 'thematters/matters-server', 12, 'Server code for Matters', 34, 47, ['robertu7','devformatters'], '2022-01-22T04:20:33.754683'),
 (6800, 12410942, 7363211, 'knex/knex', 13, 'A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.', 595, 15234, ['tgriesser','kibertoad'], '2022-01-22T04:20:34.3325'),
 (6801, 26007940, 362290213, 'OlliesWorld/softball_roster', 13, null, 0, 1, ['OlliesWorld'], '2022-01-22T04:20:34.665463'),
 (6802, 12410942, 71359796, 'open-sauced/open-sauced', 14, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T04:20:34.993903'),
@@ -10083,9 +10083,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9998, 3792749, 29514104, 'netlify/netlify-cms', 12, 'A Git-based CMS for Static Site Generators', 643, 14886, ['erquhart','erezrokah'], '2022-01-22T11:39:51.142656'),
 (9999, 29547465, 386673780, 'P0ssuidao/terraguard', 9, '🛡️ 🔒 This project''s goal is to be simple to create and destroy your own VPN service using WireGuard.', 2, 208, ['P0ssuidao','0xdutra-lab'], '2022-01-22T11:39:51.19884'),
 (10000, 13490604, 141514439, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 14, 561, ['chshersh','sdiehl'], '2022-01-22T11:39:51.267355'),
-(10001, 54776315, 61406260, 'vuematerial/vue-material', 11, 'Material design for Vue.js', 260, 9550, ['marcosmoura','VdustR'], '2022-01-22T11:39:52.353295'),
 (10002, 29547465, 50874860, 'go-ping/ping', 10, 'ICMP Ping library for Go', 29, 830, ['sparrc','CHTJonas'], '2022-01-22T11:39:52.444456'),
 (10075, 29547465, 221095754, 'bundit/kord-app', 26, 'Spotify, Soundcloud, and YouTube all in one website!', 37, 533, ['bundit','Khaoz-Topsy'], '2022-01-22T11:40:13.585296'),
+(10001, 54776315, 61406260, 'vuematerial/vue-material', 11, 'Material design for Vue.js', 260, 9550, ['marcosmoura','VdustR'], '2022-01-22T11:39:52.353295'),
 (10003, 3792749, 15639771, 'conventional-changelog/conventional-changelog', 13, 'Generate changelogs and release notes from a project''s commit messages and metadata.', 219, 6033, ['stevemao','bcoe'], '2022-01-22T11:39:52.456591'),
 (10004, 13490604, 36021747, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 21, 4093, ['pdubroy','alexwarth'], '2022-01-22T11:39:52.466689'),
 (10005, 38725511, 11177928, 'karan/Projects', 11, ':page_with_curl: A list of practical projects that anyone can solve in any programming language.', 74, 37544, ['dbonadiman','vdrey'], '2022-01-22T11:39:52.757825'),
@@ -11331,8 +11331,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11321, 2658040, 267884438, 'BaseMax/CalculatorWeb', 4, 'A online calculator using web technology based on Javascript.', 0, 7, ['BaseMax'], '2022-01-22T13:31:44.574707'),
 (11322, 33148009, 283370985, 'toastdotdev/toast', 4, 'The best place to stack your JAM. Toast is a Jamstack framework', 28, 149, ['ChristopherBiscardi','jbolda'], '2022-01-22T13:31:44.682906'),
 (11323, 67872399, 247809638, 'Aarif123456/KeystrokeDynamicsSpoofer', 4, 'A keystroke biometric spoofer created to test the strength of the strength of various keystoke dynamic based authentication systems', 0, 8, ['Aarif123456'], '2022-01-22T13:31:44.725152'),
-(11324, 2237343, 241555935, 'chadgeary/cloudblock', 4, 'Cloudblock deploys secure ad-blocking and VPN for all devices. Text and video guides included! 6 supported cloud providers, plus Ubuntu and Raspberry Pi. Cloudblock deploys Wireguard VPN, Pi-Hole DNS Ad-blocking, and DNS over HTTPS in a cloud provider - or locally - using Terraform and Ansible.', 0, 490, ['chadgeary','fn5'], '2022-01-22T13:31:44.729426'),
 (11448, 3037127, 351914021, 'adleong/tapshark', 0, null, 0, 17, ['adleong'], '2022-01-22T13:38:03.248885'),
+(11324, 2237343, 241555935, 'chadgeary/cloudblock', 4, 'Cloudblock deploys secure ad-blocking and VPN for all devices. Text and video guides included! 6 supported cloud providers, plus Ubuntu and Raspberry Pi. Cloudblock deploys Wireguard VPN, Pi-Hole DNS Ad-blocking, and DNS over HTTPS in a cloud provider - or locally - using Terraform and Ansible.', 0, 490, ['chadgeary','fn5'], '2022-01-22T13:31:44.729426'),
 (11326, 2658040, 225295587, 'BaseMax/JavaMyString', 5, 'A tiny implementation of String class in java as final project.', 0, 6, ['BaseMax'], '2022-01-22T13:31:45.855694'),
 (11327, 67872399, 212606516, 'boorje/react-news-app', 5, 'A simple React app which uses the News API.', 14, 2, ['boorje'], '2022-01-22T13:31:45.882127'),
 (11328, 2237343, 265916655, 'vmstan/gravity-sync', 5, 'An easy way to synchronize the blocklist and local DNS configurations of multiple Pi-hole 5.x instances.', 10, 942, ['vmstan','callum-oakley'], '2022-01-22T13:31:45.924669'),
@@ -11918,6 +11918,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (344970841, 38838958, 343033262, 'larissabenedet/lol-champions', 0, 'o LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. ', 0, 7, ['larissabenedet'], '2022-01-22T23:59:06.422082'),
 (340929223, 40713709, 170444343, 'DevonCrawford/Video-Editing-Automation', 0, 'Toolkit of algorithms to automate the video editing process', 8, 1063, ['DevonCrawford'], '2022-01-22T23:59:06.501937'),
 (341168991, 3846874, 52630616, 'apollographql/apollo-client', 0, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 568, 17201, ['benjamn','renovate-bot'], '2022-01-22T23:59:06.739598'),
+(452754045, 76665107, 216936227, 'CodeForPhilly/paws-data-pipeline', 0, 'PAWS Data Pipeline Project', 54, 11, ['c-simpson','urirot'], '2022-01-29T04:42:45.301824'),
 (394896505, 16942870, 42975057, 'graphql-go/relay', 0, 'A Go/Golang library to help construct a graphql-go server supporting react-relay.', 12, 390, ['sogko','chris-ramon'], '2022-01-22T21:52:19.320254'),
 (396049655, 85258143, 388004440, 'oscafrica/open-source-challenge-2021', 0, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', 1, 47, ['BolajiAyodeji','Petec0x0'], '2022-01-22T21:52:19.333052'),
 (396048780, 42749147, 391916620, 'vicktoh/dataphyte_index', 0, null, 0, 1, ['vicktoh'], '2022-01-22T21:52:19.402256'),
