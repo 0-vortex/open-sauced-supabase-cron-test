@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T08:44:59.674Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T10:44:20.811Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2324,8 +2324,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2315, 1930729, 223368735, 'jagaapple/next-secure-headers', 12, 'Sets secure response headers for Next.js.', 9, 247, ['jagaapple','naotone'], '2022-01-21T00:13:07.052771'),
 (2278, 1930729, 64782550, 'indiegogo/apple-pay-js-stubs', 27, 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', 1, 39, ['glentregoning','julianguyen'], '2022-01-21T00:11:46.313443'),
 (2279, 20727421, 200928051, 'HospitalRun/hospitalrun', 27, 'Monorepo that holds all of HospitalRun''s v2 projects.', 29, 699, ['tehKapa','hospitalrunbot'], '2022-01-21T00:11:47.802622'),
-(2280, 1930729, 211698592, 'alex2844/js-events', 28, null, 0, 31, ['alex2844'], '2022-01-21T00:11:47.944636'),
 (2281, 1930729, 202787876, 'Rigellute/spotify-tui', 29, 'Spotify for the terminal written in Rust 🚀', 185, 11353, ['Rigellute','jfaltis'], '2022-01-21T00:11:49.308818'),
+(2280, 1930729, 211698592, 'alex2844/js-events', 28, null, 0, 31, ['alex2844'], '2022-01-21T00:11:47.944636'),
 (2282, 20727421, 14571443, 'up-for-grabs/up-for-grabs.net', 28, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2447, ['shiftkey','ritwik12'], '2022-01-21T00:11:49.627731'),
 (2283, 20727421, 218282453, 'saadpasta/developerFolio', 29, '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', 17, 2902, ['saadpasta','kartikcho'], '2022-01-21T00:11:51.004509'),
 (2284, 29417643, 225979578, 'talkpython/python-for-absolute-beginners-course', 0, 'Code samples and other handouts for our course.', 0, 1704, ['mikeckennedy','amcinnes87'], '2022-01-21T00:12:48.907751'),
@@ -2704,8 +2704,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2656, 44642314, 135363400, 'ros-planning/navigation2', 12, 'ROS2 Navigation Framework and System', 68, 795, ['SteveMacenski','bpwilcox'], '2022-01-21T00:44:03.646794'),
 (2657, 2609511, 156157055, 'GokuMohandas/MadeWithML', 5, 'Learn how to responsibly deliver value with ML.', 3, 29410, ['GokuMohandas'], '2022-01-21T00:44:04.079443'),
 (2658, 11858762, 19717804, 'xgrommx/rx-book', 9, null, 32, 1660, ['xgrommx','mgrandrath'], '2022-01-21T00:44:04.42227'),
-(2659, 44642314, 80216474, 'ClementPinard/FlowNetPytorch', 13, 'Pytorch implementation of FlowNet by Dosovitskiy et al.', 12, 699, ['ClementPinard','mickaelseznec'], '2022-01-21T00:44:05.015195'),
 (2660, 2609511, 119115406, 'wasdk/WebAssemblyStudio', 6, 'Learn, Teach, Work and Play in the WebAssembly Studio', 122, 2795, ['yurydelendik','mbebenita'], '2022-01-21T00:44:05.518252'),
+(2659, 44642314, 80216474, 'ClementPinard/FlowNetPytorch', 13, 'Pytorch implementation of FlowNet by Dosovitskiy et al.', 12, 699, ['ClementPinard','mickaelseznec'], '2022-01-21T00:44:05.015195'),
 (2661, 2609511, 9934117, 'phoboslab/jsmpeg', 7, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T00:44:06.95403'),
 (2662, 2609511, 341483252, 'IncredibleDevHQ/incredible-dev-videos', 8, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', 0, 2, ['hemalathank-27','Pythonista7'], '2022-01-21T00:44:08.217459'),
 (2663, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 160, 339240, ['QuincyLarson','raisedadead'], '2022-01-21T00:44:08.723557'),
@@ -2808,9 +2808,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2762, 9968219, 178381879, 'kubernetes-sigs/slack-infra', 13, 'Tooling for kubernetes.slack.com', 1, 76, ['Katharine','k8s-ci-robot'], '2022-01-21T01:11:47.553759'),
 (2763, 46695719, 19872456, 'remix-run/react-router', 13, 'Declarative routing for React', 63, 45788, ['mjackson','ryanflorence'], '2022-01-21T01:11:47.720783'),
 (2764, 20134767, 172741073, 'snowpackjs/snowpack', 18, 'ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️', 360, 19662, ['FredKSchott','drwpow'], '2022-01-21T01:11:48.000392'),
+(2765, 9968219, 41881900, 'microsoft/vscode', 14, 'Visual Studio Code', 5412, 126627, ['bpasero','jrieken'], '2022-01-21T01:11:48.330539'),
 (2766, 58392246, 41881900, 'microsoft/vscode', 13, 'Visual Studio Code', 5412, 126627, ['bpasero','jrieken'], '2022-01-21T01:11:48.516837'),
 (2767, 58392246, 1644196, 'JuliaLang/julia', 14, 'The Julia Programming Language', 4336, 37941, ['JeffBezanson','StefanKarpinski'], '2022-01-21T01:11:48.958514'),
-(2765, 9968219, 41881900, 'microsoft/vscode', 14, 'Visual Studio Code', 5412, 126627, ['bpasero','jrieken'], '2022-01-21T01:11:48.330539'),
 (2768, 46695719, 90786246, 'microsoft/TypeScript-React-Starter', 14, 'A starter template for TypeScript and React with a detailed README describing how to use the two together.', 203, 10867, ['DanielRosenwasser','orta'], '2022-01-21T01:11:49.381255'),
 (2769, 9968219, 17316825, 'gazbert/java-design-patterns', 15, 'A cookbook of simple Java design patterns.', 1, 39, ['gazbert'], '2022-01-21T01:11:49.496556'),
 (2770, 20134767, 161835266, 'DigitalOptimizationGroup/cloudflare-edge-proxy', 19, 'A Cloudflare worker script used to enable a/b testing, canary releasing, gatekeeping, and SEO a/b/n testing.', 1, 65, ['shalomvolchok'], '2022-01-21T01:11:49.661301'),
@@ -2965,8 +2965,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4820, 16315404, 112507086, '30-seconds/30-seconds-of-code', 1, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T04:47:28.255702'),
 (4821, 3941126, 184366, 'opal/opal', 2, 'Ruby ♥︎ JavaScript', 105, 4565, ['elia','adambeynon'], '2022-01-21T04:47:28.40335'),
 (4822, 527550, 100273476, 'CiviWiki/OpenCiviWiki', 2, 'Building a Better Democracy for the Internet Age', 48, 392, ['brylie','JOO33'], '2022-01-21T04:47:28.464844'),
-(4824, 3941126, 294972, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 4, 3519, ['fnando'], '2022-01-21T04:47:29.901377'),
 (4823, 211851, 258922512, 'ShizukuIchi/pdf-editor', 2, 'Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀', 24, 600, ['ShizukuIchi','realdennis'], '2022-01-21T04:47:29.644735'),
+(4824, 3941126, 294972, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 4, 3519, ['fnando'], '2022-01-21T04:47:29.901377'),
 (4825, 1884246, 156242271, 'oussj/big_brother_for_dummies', 3, null, 0, 3, ['oussj'], '2022-01-21T04:47:30.094102'),
 (4826, 211851, 63902889, 'nypublicradio/audiogram', 3, 'Turn audio into a shareable video.', 46, 856, ['veltman','marineb'], '2022-01-21T04:47:31.140652'),
 (4827, 527550, 12080551, 'tsenart/vegeta', 3, 'HTTP load testing tool and library. It''s over 9000!', 89, 18913, ['tsenart','jpfuentes2'], '2022-01-21T04:47:31.348152'),
@@ -9676,9 +9676,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9589, 22154417, 10395188, 'exercism/exercism', 21, 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', 309, 6532, ['iHiD','exercism-bot'], '2022-01-22T11:10:46.607748'),
 (9590, 72279316, 15111821, 'grafana/grafana', 23, 'The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ', 2176, 46592, ['torkelo','bergquist'], '2022-01-22T11:10:47.069101'),
 (9591, 57826091, 368185844, 'Nazeeh21/Devdit-Blockchain', 25, 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', 2, 2, ['Nazeeh21'], '2022-01-22T11:10:47.172637'),
+(9592, 13711044, 70107786, 'vercel/next.js', 22, 'The React Framework', 1178, 80063, ['timneutkens','ijjk'], '2022-01-22T11:10:47.730567'),
 (9593, 22154417, 363994683, 'GSA/usagov-benefits-eligibility', 22, 'This is the for the benefits eligibility website for usa.gov.', 40, 8, ['r-bartlett-gsa','sknep'], '2022-01-22T11:10:47.904503'),
 (9594, 72279316, 48356217, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 84, 9830, ['niklasramo','aslakhellesoy'], '2022-01-22T11:10:48.303469'),
-(9592, 13711044, 70107786, 'vercel/next.js', 22, 'The React Framework', 1178, 80063, ['timneutkens','ijjk'], '2022-01-22T11:10:47.730567'),
 (9595, 57826091, 369719645, 'Dhaiwat10/react-link-preview', 26, 'A React library that generates beautiful previews for your links.', 2, 79, ['Dhaiwat10','semantic-release-bot'], '2022-01-22T11:10:48.479563'),
 (9596, 13711044, 242318453, 'tokotype/PlusJakartaSans', 23, '+Jakarta Sans is a open-source fonts. Designed for Jakarta ''City of collaboration'' program in 2020.', 10, 374, ['tokotype'], '2022-01-22T11:10:48.933987'),
 (9597, 22154417, 154548852, 'amazon-archives/aws-media-services-workflow-composer', 23, 'Create flexible, intelligent file-based video workflows on AWS using dynamic rules.', 2, 11, ['aburkleaux-amazon','jamesiri'], '2022-01-22T11:10:49.171699'),
