@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T10:44:20.811Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T12:49:49.592Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2324,8 +2324,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2315, 1930729, 223368735, 'jagaapple/next-secure-headers', 12, 'Sets secure response headers for Next.js.', 9, 247, ['jagaapple','naotone'], '2022-01-21T00:13:07.052771'),
 (2278, 1930729, 64782550, 'indiegogo/apple-pay-js-stubs', 27, 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', 1, 39, ['glentregoning','julianguyen'], '2022-01-21T00:11:46.313443'),
 (2279, 20727421, 200928051, 'HospitalRun/hospitalrun', 27, 'Monorepo that holds all of HospitalRun''s v2 projects.', 29, 699, ['tehKapa','hospitalrunbot'], '2022-01-21T00:11:47.802622'),
-(2281, 1930729, 202787876, 'Rigellute/spotify-tui', 29, 'Spotify for the terminal written in Rust 🚀', 185, 11353, ['Rigellute','jfaltis'], '2022-01-21T00:11:49.308818'),
 (2280, 1930729, 211698592, 'alex2844/js-events', 28, null, 0, 31, ['alex2844'], '2022-01-21T00:11:47.944636'),
+(2281, 1930729, 202787876, 'Rigellute/spotify-tui', 29, 'Spotify for the terminal written in Rust 🚀', 185, 11353, ['Rigellute','jfaltis'], '2022-01-21T00:11:49.308818'),
 (2282, 20727421, 14571443, 'up-for-grabs/up-for-grabs.net', 28, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2447, ['shiftkey','ritwik12'], '2022-01-21T00:11:49.627731'),
 (2283, 20727421, 218282453, 'saadpasta/developerFolio', 29, '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', 17, 2902, ['saadpasta','kartikcho'], '2022-01-21T00:11:51.004509'),
 (2284, 29417643, 225979578, 'talkpython/python-for-absolute-beginners-course', 0, 'Code samples and other handouts for our course.', 0, 1704, ['mikeckennedy','amcinnes87'], '2022-01-21T00:12:48.907751'),
@@ -2704,8 +2704,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2656, 44642314, 135363400, 'ros-planning/navigation2', 12, 'ROS2 Navigation Framework and System', 68, 795, ['SteveMacenski','bpwilcox'], '2022-01-21T00:44:03.646794'),
 (2657, 2609511, 156157055, 'GokuMohandas/MadeWithML', 5, 'Learn how to responsibly deliver value with ML.', 3, 29410, ['GokuMohandas'], '2022-01-21T00:44:04.079443'),
 (2658, 11858762, 19717804, 'xgrommx/rx-book', 9, null, 32, 1660, ['xgrommx','mgrandrath'], '2022-01-21T00:44:04.42227'),
-(2660, 2609511, 119115406, 'wasdk/WebAssemblyStudio', 6, 'Learn, Teach, Work and Play in the WebAssembly Studio', 122, 2795, ['yurydelendik','mbebenita'], '2022-01-21T00:44:05.518252'),
 (2659, 44642314, 80216474, 'ClementPinard/FlowNetPytorch', 13, 'Pytorch implementation of FlowNet by Dosovitskiy et al.', 12, 699, ['ClementPinard','mickaelseznec'], '2022-01-21T00:44:05.015195'),
+(2660, 2609511, 119115406, 'wasdk/WebAssemblyStudio', 6, 'Learn, Teach, Work and Play in the WebAssembly Studio', 122, 2795, ['yurydelendik','mbebenita'], '2022-01-21T00:44:05.518252'),
 (2661, 2609511, 9934117, 'phoboslab/jsmpeg', 7, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T00:44:06.95403'),
 (2662, 2609511, 341483252, 'IncredibleDevHQ/incredible-dev-videos', 8, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', 0, 2, ['hemalathank-27','Pythonista7'], '2022-01-21T00:44:08.217459'),
 (2663, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 160, 339240, ['QuincyLarson','raisedadead'], '2022-01-21T00:44:08.723557'),
@@ -9403,10 +9403,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9318, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-22T10:55:23.803165'),
 (9319, 237133, 425941587, '0-vortex/open-sauced-conventional-commit-test', 28, 'Experimenting with commitizen configuration repository for opensauced.pizza', 0, 2, ['0-vortex'], '2022-01-22T10:55:23.82122'),
 (9320, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 38, 25036, ['tannerlinsley','boschni'], '2022-01-22T10:55:23.918642'),
-(9321, 57305940, 131340928, 'jmkoni/interview-questions', 19, 'My favorite questions to ask when I am being interviewed', 0, 86, ['jmkoni'], '2022-01-22T10:55:24.239091'),
 (9322, 57017587, 323362926, 'LowLevelJavaScript/Learning-Resources', 26, 'This repository serves as a list of resources that I have personally found useful for learning about certain concepts', 1, 26, ['francisrstokes'], '2022-01-22T10:55:25.024562'),
 (9323, 237133, 432296669, '0-vortex/semantic-release-docker-mini', 29, 'Opinionated fork of @semantic-release-plus/docker with minimal features', 0, 1, ['0-vortex'], '2022-01-22T10:55:25.064114'),
 (9324, 8037469, 242775289, 'VulcanJS/vulcan-next', 28, 'The Next starter for GraphQL developers', 67, 274, ['eric-burel','Timi-Duban'], '2022-01-22T10:55:25.172257'),
+(9321, 57305940, 131340928, 'jmkoni/interview-questions', 19, 'My favorite questions to ask when I am being interviewed', 0, 86, ['jmkoni'], '2022-01-22T10:55:24.239091'),
 (9325, 57305940, 24774658, 'boto/boto3', 20, 'AWS SDK for Python', 275, 6972, ['aws-sdk-python-automation','awstools'], '2022-01-22T10:55:25.448441'),
 (9326, 57017587, 100039459, 'samwincott/Internship-Guide', 27, 'A guide to getting an internship', 1, 320, ['samwincott','anthonymendez'], '2022-01-22T10:55:26.266985'),
 (9327, 8037469, 172741073, 'snowpackjs/snowpack', 29, 'ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️', 361, 19667, ['FredKSchott','drwpow'], '2022-01-22T10:55:26.419347'),
