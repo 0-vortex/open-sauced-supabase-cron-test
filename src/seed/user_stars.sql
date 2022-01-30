@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-29T22:44:31.388Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T01:03:06.482Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2058,6 +2058,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2013, 43640229, 71359796, 'open-sauced/open-sauced', 9, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-20T23:57:39.241442'),
 (2014, 505751, 56894212, 'jvm-profiling-tools/async-profiler', 4, 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', 30, 4709, ['apangin','incubos'], '2022-01-20T23:57:39.754864'),
 (2015, 43640229, 318024453, 'CTNicholas/tauque', 10, 'Tauque, a zero-config JS/TS bundler with serious pulling power. Uses esbuild (100x quicker than Rollup/Webpack).', 0, 5, ['CTNicholas'], '2022-01-20T23:57:39.99345'),
+(2016, 505751, 162723104, 'OWASP/CheatSheetSeries', 5, 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', 40, 19569, ['righettod','jmanico'], '2022-01-20T23:57:40.179345'),
 (2017, 19617280, 276970401, '5t3ph/stylestage', 11, 'A modern CSS showcase styled by community contributions. Add your stylesheet!', 2, 1370, ['5t3ph','cbirdsong'], '2022-01-20T23:57:40.534567'),
 (2018, 17373317, 15823460, 'redisson/redisson', 7, 'Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...', 251, 18161, ['mrniko','jackygurui'], '2022-01-20T23:57:40.53921'),
 (2019, 505751, 418752214, 'T-head-Semi/openc910', 6, 'OpenXuantie - OpenC910 Core', 7, 493, ['purplelegant','Taurusxkyle'], '2022-01-20T23:57:40.597537'),
@@ -2174,7 +2175,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2129, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-21T00:07:36.296131'),
 (2130, 74208843, 59096058, 'TryGhost/Admin', 7, 'Ghost''s admin client', 39, 591, ['kevinansfield','ErisDS'], '2022-01-21T00:07:36.883881'),
 (2131, 289882, 33015583, 'keras-team/keras', 4, 'Deep Learning for humans', 257, 53754, ['fchollet','qlzh727'], '2022-01-21T00:07:36.914445'),
-(2016, 505751, 162723104, 'OWASP/CheatSheetSeries', 5, 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', 40, 19569, ['righettod','jmanico'], '2022-01-20T23:57:40.179345'),
 (2132, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6329, ['zerowidth','jbarnette'], '2022-01-21T00:07:38.143995'),
 (2133, 26007940, 230706417, 'DaveSkender/Stock.Indicators', 6, 'Stock Indicators for .NET is a C# library package that produces financial market technical indicators. Send in historical price quotes and get back desired indicators such as moving averages, Relative Strength Index, Stochastic Oscillator, Parabolic SAR, etc. Nothing more.  It can be used in any market analysis software using standard OHLCV price quotes for equities, commodities, forex, cryptocurrencies, and others. We had private trading algorithms, machine learning, and charting systems in mind when originally creating this community library.', 10, 376, ['DaveSkender','LeeDongGeon1996'], '2022-01-21T00:07:38.150923'),
 (2134, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-21T00:07:39.478072'),
@@ -3381,9 +3381,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3335, 80793630, 154688866, 'nakov/Practical-Cryptography-for-Developers-Book', 1, 'Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems, RSA, Elliptic Curves, ECC, secp256k1, ECDH, ECIES, Digital Signatures, ECDSA, EdDSA', 44, 2424, ['nakov','kasperkarlsson'], '2022-01-21T02:53:45.00499'),
 (3336, 39362365, 199486441, 'esmero/archipelago-deployment', 9, 'Archipelago Commons Docker Deployment Repository', 63, 25, ['DiegoPino','alliomeria'], '2022-01-21T02:53:45.014036'),
 (3337, 80793630, 426988203, 'vunderkind/ethereum-dappiverse', 2, 'A hitchhiker''s guide to the Ethereum dAppiverse', 0, 14, ['vunderkind'], '2022-01-21T02:53:46.456176'),
+(3338, 39362365, 149339935, 'esmero/strawberryfield', 10, 'A Field of strawberries', 50, 9, ['DiegoPino','giancarlobi'], '2022-01-21T02:53:46.62184'),
 (3339, 26586086, 54346799, 'public-apis/public-apis', 5, 'A collective list of free APIs', 5, 175849, ['davemachado','matheusfelipeog'], '2022-01-21T02:53:47.640602'),
 (3340, 80793630, 135149082, 'mit-dci/dlc-oracle-nodejs-samples', 3, null, 0, 2, ['gertjaap'], '2022-01-21T02:53:47.986671'),
-(3338, 39362365, 149339935, 'esmero/strawberryfield', 10, 'A Field of strawberries', 50, 9, ['DiegoPino','giancarlobi'], '2022-01-21T02:53:46.62184'),
 (3341, 39362365, 113866683, 'imyelo/docsify-pagination', 11, '↔️ Pagination for docsify', 9, 78, ['imyelo','jhildenbiddle'], '2022-01-21T02:53:48.079169'),
 (3342, 26586086, 268264498, 'chakra-ui/chakra-ui-vue-next', 6, '⚡️ The next most epic version of Chakra UI Vue based on Vue 3 🚀(WIP)', 11, 136, ['codebender828','koca'], '2022-01-21T02:53:49.236471'),
 (3343, 80793630, 143339508, 'hankchizljaw/beedle', 4, 'A tiny library inspired by Redux & Vuex to help you manage state in your JavaScript apps', 39, 363, ['hankchizljaw','0xflotus'], '2022-01-21T02:53:49.52528'),
@@ -5764,10 +5764,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5755, 907680, 340865067, 'tobetz/LegoMicroscope', 18, 'To learn about optics and microscopy, we generated a simple to build lego microscope that does not need precision optics and 3D printed parts. ', 0, 958, ['tobetz','bart-vos'], '2022-01-21T05:49:19.146564'),
 (5756, 33148009, 57182064, 'vercel/serve', 1, 'Static file serving and directory listing', 102, 7510, ['leo','rauchg'], '2022-01-21T05:49:19.35266'),
 (6426, 12410942, 3947396, 'getsentry/sentry-ruby', 18, 'Sentry SDK for Ruby', 20, 797, ['nateberkopec','st0012'], '2022-01-22T03:57:37.168038'),
-(5757, 55907631, 44882201, 'MunGell/awesome-for-beginners', 25, 'A list of awesome beginners-friendly projects.', 56, 38038, ['MunGell','JefMari'], '2022-01-21T05:49:19.55612'),
 (5758, 2237343, 167717410, 'wiedehopf/graphs1090', 18, 'Graphs for dump1090 (based on dump1090-tools by mutability)', 4, 203, ['wiedehopf','SaturnusDJ'], '2022-01-21T05:49:19.676331'),
 (5759, 2658040, 188246303, 'BaseMax/CustomWindowsFormElectron', 9, 'Custom Windows Frame with toolbar based on the electron.', 0, 2, ['BaseMax'], '2022-01-21T05:49:19.901896'),
 (5760, 55907631, 54346799, 'public-apis/public-apis', 26, 'A collective list of free APIs', 5, 175895, ['davemachado','matheusfelipeog'], '2022-01-21T05:49:20.088755'),
+(5757, 55907631, 44882201, 'MunGell/awesome-for-beginners', 25, 'A list of awesome beginners-friendly projects.', 56, 38038, ['MunGell','JefMari'], '2022-01-21T05:49:19.55612'),
 (5761, 907680, 347502287, 'kingoflolz/mesh-transformer-jax', 19, 'Model parallel transformers in JAX and Haiku', 9, 3761, ['kingoflolz','nostalgebraist'], '2022-01-21T05:49:20.370235'),
 (5762, 55907631, 60493101, 'jwasham/coding-interview-university', 27, 'A complete computer science study plan to become a software engineer.', 40, 203537, ['jwasham','avizmarlon'], '2022-01-21T05:49:20.640705'),
 (5763, 33148009, 281520747, 'kentcdodds/managing-state-management-slides', 2, null, 2, 69, ['kentcdodds'], '2022-01-21T05:49:20.752301'),
@@ -10273,6 +10273,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10265, 28281924, 157616880, 'iptv-org/iptv', 17, 'Collection of publicly available IPTV channels from all over the world', 224, 44811, ['freearhey','LaneSh4d0w'], '2022-01-22T11:53:14.749542'),
 (10266, 2808728, 1039520, 'ytdl-org/youtube-dl', 17, 'Command-line program to download videos from YouTube.com and other video sites', 5031, 105341, ['dstftw','phihag'], '2022-01-22T11:53:15.17234'),
 (10267, 25194960, 40412833, 'rafi/awesome-vim-colorschemes', 20, 'Collection of awesome color schemes for Neo/vim, merged for quick use.', 11, 1990, ['rafi','kyoz'], '2022-01-22T11:53:15.379418'),
+(10268, 28281924, 333280676, 'juliobonon/learn-rust', 18, 'Just a small project to learn rust lang.', 0, 1, ['juliobonon'], '2022-01-22T11:53:15.865417'),
+(10269, 2808728, 95114338, 'github/accessibilityjs', 18, 'Client side accessibility error scanner.', 5, 2188, ['muan','mislav'], '2022-01-22T11:53:16.451004'),
 (10270, 25194960, 126883328, 'magenta/magenta-js', 21, 'Magenta.js: Music and Art Generation with Machine Learning in the browser', 36, 1638, ['adarob','notwaldorf'], '2022-01-22T11:53:16.637596'),
 (10271, 2808728, 2561582, 'animate-css/animate.css', 19, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', 24, 73456, ['daneden','eltonmesquita'], '2022-01-22T11:53:16.80417'),
 (10272, 28281924, 18765044, 'golang/oauth2', 19, 'Go OAuth2', 156, 3975, ['rakyll','adg'], '2022-01-22T11:53:17.12067'),
@@ -10353,8 +10355,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10339, 527550, 45723377, 'charlax/professional-programming', 7, 'A collection of full-stack resources for programmers.', 1, 16016, ['charlax','laithshadeed'], '2022-01-22T11:59:35.873795'),
 (10340, 527550, 93192704, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 23, 3405, ['LukeSmithxyz','narukeh'], '2022-01-22T11:59:36.596505'),
 (10350, 527550, 162723104, 'OWASP/CheatSheetSeries', 10, 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', 41, 19577, ['righettod','jmanico'], '2022-01-22T11:59:39.692837'),
-(10268, 28281924, 333280676, 'juliobonon/learn-rust', 18, 'Just a small project to learn rust lang.', 0, 1, ['juliobonon'], '2022-01-22T11:53:15.865417'),
-(10269, 2808728, 95114338, 'github/accessibilityjs', 18, 'Client side accessibility error scanner.', 5, 2188, ['muan','mislav'], '2022-01-22T11:53:16.451004'),
 (10351, 3777549, 18609427, 'tc39/ecma262', 10, 'Status, process, and documents for ECMA-262', 354, 12883, ['jmdyck','anba'], '2022-01-22T11:59:39.937506'),
 (10352, 15052690, 192605862, 'Gingertonic/eden_events', 11, null, 2, 2, ['Gingertonic'], '2022-01-22T11:59:40.834913'),
 (10353, 527550, 197298888, 'rubyforgood/voices-of-consent', 11, 'Open source tracking and inventory management application for nonprofit, Voices of Consent (Ruby for Good 2019)', 57, 38, ['maebeale','abachman'], '2022-01-22T11:59:40.856868'),
