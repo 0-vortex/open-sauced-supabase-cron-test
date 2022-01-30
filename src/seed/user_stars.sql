@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T04:47:42.360Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T06:46:12.025Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1083,10 +1083,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1075, 19861960, 190038729, 'kefranabg/readme-md-generator', 16, '📄 CLI that generates beautiful README.md files', 30, 9259, ['kefranabg','anku255'], '2022-01-20T21:13:20.92633'),
 (1076, 3941856, 243834124, 'cncf/tag-contributor-strategy', 16, 'CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.', 32, 61, ['carolynvs','jberkus'], '2022-01-20T21:13:22.363923'),
 (1077, 19861960, 62607227, 'yangshun/tech-interview-handbook', 17, '💯 Curated interview preparation materials for busy engineers', 7, 63681, ['yangshun','louietyj'], '2022-01-20T21:13:23.184719'),
-(1078, 3941856, 142504184, 'radix-ui/design-system', 17, 'An extensive design system for building high-quality websites and web apps. Maintained and used by Modulz.', 9, 1144, ['colmtuite','vladmoroz'], '2022-01-20T21:13:23.731448'),
 (1079, 19861960, 10247874, 'docker/docker-py', 18, 'A Python library for the Docker Engine API', 476, 5535, ['shin-','aanand'], '2022-01-20T21:13:24.769711'),
 (1080, 3941856, 191414235, 'orbit-love/orbit-model', 18, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-20T21:13:25.091215'),
 (1081, 19861960, 40512314, 'zladx/LADX-Disassembly', 19, 'Disassembly of Legend of Zelda: Links Awakening DX', 19, 323, ['kemenaran','zelosos'], '2022-01-20T21:13:26.326323'),
+(1078, 3941856, 142504184, 'radix-ui/design-system', 17, 'An extensive design system for building high-quality websites and web apps. Maintained and used by Modulz.', 9, 1144, ['colmtuite','vladmoroz'], '2022-01-20T21:13:23.731448'),
 (1082, 3941856, 199503116, 'celo-org/celo-proposals', 19, 'Celo Improvement Proposals', 48, 44, ['YazzyYaz','nambrot'], '2022-01-20T21:13:26.441834'),
 (1083, 19861960, 22811562, 'i3-gnome/i3-gnome', 20, 'Use i3wm/i3-gaps with GNOME Session infrastructure.', 8, 797, ['jcstr','lvillani'], '2022-01-20T21:13:27.730479'),
 (1084, 3941856, 86486443, 'spinnaker/spinnaker.github.io', 20, 'spinnaker documentation site', 55, 79, ['lwander','dorbin'], '2022-01-20T21:13:28.091396'),
@@ -3930,9 +3930,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
+(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
-(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
