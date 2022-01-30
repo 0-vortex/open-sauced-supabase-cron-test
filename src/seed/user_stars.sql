@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T14:44:21.087Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T16:50:31.010Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -7729,9 +7729,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7693, 20734038, 237523442, 'tailscale/tailscale', 19, 'The easiest, most secure way to use WireGuard and 2FA.', 675, 6399, ['bradfitz','danderson'], '2022-01-22T08:52:03.082066'),
 (7694, 2339101, 39835821, 'janephp/openapi', 17, 'DEPRECATED See https://github.com/janephp/janephp', 0, 194, ['joelwurtz','pyrech'], '2022-01-22T08:52:03.64895'),
 (7695, 20734038, 216432317, 'WebDevSimplified/Learn-React-In-30-Minutes', 20, null, 3, 74, ['WebDevSimplified'], '2022-01-22T08:52:04.371568'),
-(7696, 5901851, 90528830, 'Solido/awesome-flutter', 17, 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', 37, 39087, ['Solido','jogboms'], '2022-01-22T08:52:04.613282'),
 (7697, 2339101, 56379555, 'docteurklein/compose-ci', 18, 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', 2, 22, ['docteurklein'], '2022-01-22T08:52:04.951077'),
 (7698, 20734038, 236750354, 'bradtraversy/vanillawebprojects', 21, 'Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries', 29, 12163, ['bradtraversy','ni3gup'], '2022-01-22T08:52:05.764069'),
+(7696, 5901851, 90528830, 'Solido/awesome-flutter', 17, 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', 37, 39087, ['Solido','jogboms'], '2022-01-22T08:52:04.613282'),
 (7699, 5901851, 321294152, 'singerdmx/flutter-quill', 18, 'Rich text editor for Flutter', 5, 969, ['singerdmx','li3317'], '2022-01-22T08:52:05.931445'),
 (7700, 2339101, 39654623, 'inkatze/wildfly', 19, 'Ansible role for wildfly', 21, 23, ['kostyrev','akostyrev'], '2022-01-22T08:52:05.969555'),
 (8035, 1255918, 182957374, 'imajkumar/laravel-binary-tree', 6, null, 0, 6, ['imajkumar'], '2022-01-22T09:25:05.061283'),
@@ -7866,8 +7866,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7828, 505751, 196530922, 'jorgenkg/promise-priority-queue', 1, 'Async bucket priority queue implemented in Typescript', 1, 3, ['renovate-bot','jorgengrimnes'], '2022-01-22T09:06:11.117801'),
 (7829, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T09:06:11.310892'),
 (7830, 2607477, 18369373, 'spf13/viper', 1, 'Go configuration with fangs', 412, 18013, ['sagikazarmark','spf13'], '2022-01-22T09:06:12.175364'),
-(7831, 17373317, 267956009, 'jdubois/azure-native-spring-function', 2, 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', 0, 52, ['jdubois','AzureAdvocateBit'], '2022-01-22T09:06:12.632325'),
 (7832, 74208843, 154143869, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 388, ['OdeToCode','ameyer117'], '2022-01-22T09:06:12.735651'),
+(7831, 17373317, 267956009, 'jdubois/azure-native-spring-function', 2, 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', 0, 52, ['jdubois','AzureAdvocateBit'], '2022-01-22T09:06:12.632325'),
 (7833, 505751, 177033748, 'atlassian/changesets', 2, '🦋       A way to manage your versioning and changelogs with a focus on monorepos', 177, 2536, ['Noviny','mitchellhamilton'], '2022-01-22T09:06:12.823138'),
 (7834, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T09:06:12.842075'),
 (7835, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 477, 54941, ['manucorporat','javierprovecho'], '2022-01-22T09:06:14.002398'),
