@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T12:49:52.463Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T14:44:21.087Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3929,8 +3929,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3883, 72279316, 397200443, 'sidB67/CoVaccine', 3, null, 0, 4, ['sidB67'], '2022-01-21T03:34:41.465619'),
 (3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
-(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
+(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
@@ -9232,13 +9232,14 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9146, 349523, 2013896, 'GhostRabbit/GameUtil', 10, 'Collection of classes to represent various boardgame components', 0, 2, ['GhostRabbit'], '2022-01-22T10:48:39.20488'),
 (9147, 30334776, 382263397, 'commercelayer/commercelayer-sdk', 9, null, 2, 5, ['pviti','semantic-release-bot'], '2022-01-22T10:48:39.648165'),
 (9148, 58482194, 336073755, 'rishiosaur/idyllic', 10, '⚡️ An unopinionated language for building APIs ridiculously fast.', 0, 53, ['rishiosaur'], '2022-01-22T10:48:39.914897'),
+(9149, 25867172, 334195792, 'teezzan/flw_validator', 11, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', 0, 1, ['teezzan'], '2022-01-22T10:48:40.131552'),
 (9150, 349523, 2003232, 'jwalter/zombiedicejava', 11, null, 0, 1, ['jwalter'], '2022-01-22T10:48:40.395146'),
 (9151, 30334776, 344493260, 'abdulsamodazeez/Fake-news-detection', 10, 'A type of yellow journalism, fake news encapsulates pieces of news that may be hoaxes and is generally spread through social media and other online media.', 0, 2, ['abdulsamodazeez'], '2022-01-22T10:48:41.105926'),
-(9149, 25867172, 334195792, 'teezzan/flw_validator', 11, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', 0, 1, ['teezzan'], '2022-01-22T10:48:40.131552'),
 (9152, 58482194, 372046384, 'aidenybai/million', 11, '🦁 <1kb compiler-augmented virtual DOM. It''s fast!', 0, 1426, ['aidenybai','willdoescode'], '2022-01-22T10:48:41.362582'),
 (9153, 25867172, 330778168, 'ScalableOrg/fintech-lite', 12, 'I plan to do a series of livestreams on how a basic fintech wallet works. This repo is where all the code will live.', 6, 156, ['OpesanyaAdebayo','Sokan93'], '2022-01-22T10:48:41.584927'),
 (9154, 349523, 1988969, 'jwalter/zombiedice', 12, null, 0, 1, ['jwalter'], '2022-01-22T10:48:41.815321'),
 (9155, 30334776, 46958040, 'tapaswenipathak/Open-Source-Programs', 11, 'A list of open source programs.', 37, 2727, ['tapaswenipathak','emetowinner'], '2022-01-22T10:48:42.375219'),
+(9156, 58482194, 381907715, 'vuejs/petite-vue', 12, '6kb subset of Vue optimized for progressive enhancement', 1, 5584, ['yyx990803','Fry98'], '2022-01-22T10:48:42.502415'),
 (9157, 349523, 1953222, 'jwalter/garnisonen', 13, 'Dagens lunch på garnisonsområdet i Linköping', 0, 1, ['jwalter'], '2022-01-22T10:48:42.980951'),
 (9158, 25867172, 23511343, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 443, ['ultraembedded'], '2022-01-22T10:48:43.129849'),
 (9159, 30334776, 189215607, 'bzg/opensource-challenges', 12, 'A list of resources to think about free software and open source challenges', 0, 78, ['bzg','sebastianbergmann'], '2022-01-22T10:48:43.823002'),
@@ -9251,7 +9252,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9168, 58482194, 395073750, 'CodingGarden/stream-topic-overlay', 15, 'A simple overlay to display the current stream topic.', 1, 5, ['w3cj'], '2022-01-22T10:48:46.807881'),
 (9169, 349523, 1374825, 'jwalter/aboardgame', 16, null, 0, 2, ['jwalter','GhostRabbit'], '2022-01-22T10:48:47.098883'),
 (9170, 25867172, 90408889, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 16, 242, ['icebob','AndreMaz'], '2022-01-22T10:48:47.622352'),
-(9156, 58482194, 381907715, 'vuejs/petite-vue', 12, '6kb subset of Vue optimized for progressive enhancement', 1, 5584, ['yyx990803','Fry98'], '2022-01-22T10:48:42.502415'),
 (9171, 30334776, 295391772, 'yomaokobiah/imagecaptiongenerator', 15, null, 0, 2, ['yomaokobiah','jamessandy'], '2022-01-22T10:48:47.937384'),
 (9172, 58482194, 365306037, 'sdras/recipe-box', 16, null, 0, 90, ['sdras'], '2022-01-22T10:48:48.244262'),
 (9173, 349523, 902266, 'jamesshore/lets_play_tdd', 17, 'Let''s Play: Test-Driven Development', 0, 73, ['jamesshore','luontola'], '2022-01-22T10:48:48.275663'),
