@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T02:47:26.968Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-30T04:47:42.360Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3930,9 +3930,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
-(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
+(3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
@@ -7530,8 +7530,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7512, 4066445, 383194995, 'kclejeune/TMobile-ISP-Client', 0, 'mobile friendly, self hosted status dashboard for T-Mobile ISP routers', 6, 23, ['kclejeune','bryanbartow'], '2022-01-22T08:45:11.836769'),
 (7513, 1645545, 227265548, 'gluesql/gluesql', 0, 'GlueSQL is quite sticky, it attaches to anywhere.', 45, 1242, ['panarch','ever0de'], '2022-01-22T08:45:11.887906'),
 (7514, 7293310, 438410446, 'saitho/streamdeck-calculator', 0, 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', 7, 1, ['saitho'], '2022-01-22T08:45:11.909309'),
-(7516, 2480219, 120149974, 'fonoster/fonoster', 0, '🚀 The open-source alternative to Twilio', 19, 3833, ['psanders','wardner'], '2022-01-22T08:45:12.003804'),
 (7515, 43814157, 225602090, 'farbenmeer/react-spring-slider', 0, 'A slider component for react', 13, 160, ['mstruebing','Tobi-mmt'], '2022-01-22T08:45:11.92686'),
+(7516, 2480219, 120149974, 'fonoster/fonoster', 0, '🚀 The open-source alternative to Twilio', 19, 3833, ['psanders','wardner'], '2022-01-22T08:45:12.003804'),
 (7517, 4066445, 208143342, 'github-craftwork/start-here', 1, 'You should open this repo first', 6, 85, ['bdougie','JayantGoel001'], '2022-01-22T08:45:12.425829'),
 (7518, 7293310, 296968123, 'Dragicafit/Anime-Watch-Parties', 1, 'A cross-platform extension that synchronizes videos on major anime websites.', 0, 9, ['Dragicafit'], '2022-01-22T08:45:13.20716'),
 (7519, 43814157, 385045892, 'gmrchk/blobity', 1, 'The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀', 5, 756, ['gmrchk','0xflotus'], '2022-01-22T08:45:13.263824'),
@@ -7929,8 +7929,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7890, 505751, 125225914, 'reactiverse/es4x', 23, '🚀 fast JavaScript 4 Eclipse Vert.x', 40, 774, ['pmlopes','chengenzhao'], '2022-01-22T09:06:42.127469'),
 (7891, 17373317, 20300177, 'google/guava', 20, 'Google core libraries for Java', 728, 43483, ['cpovirk','kluever'], '2022-01-22T09:06:42.609912'),
 (7892, 289882, 18957477, 'gwincr11/shopify-starter', 16, null, 1, 67, ['gwincr11'], '2022-01-22T09:06:42.845633'),
-(7894, 289882, 25155580, 'JuanitoFatas/fast-ruby', 17, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5193, ['JuanitoFatas','Arcovion'], '2022-01-22T09:06:44.296932'),
 (7893, 505751, 384304404, 'KengoTODA/unexpected-groovydoc-reproduction', 24, 'A MCVE to reproduce a strange Groovydoc for enum', 0, 1, ['KengoTODA'], '2022-01-22T09:06:43.233363'),
+(7894, 289882, 25155580, 'JuanitoFatas/fast-ruby', 17, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5193, ['JuanitoFatas','Arcovion'], '2022-01-22T09:06:44.296932'),
 (7895, 505751, 370668507, 'rhysd/actionlint', 25, ':octocat: Static checker for GitHub Actions workflow files', 32, 591, ['rhysd','xsc27'], '2022-01-22T09:06:44.343031'),
 (7896, 505751, 263442622, 'openrewrite/rewrite', 26, 'Semantic code search and transformation', 63, 411, ['jkschneider','sambsnyd'], '2022-01-22T09:06:45.679767'),
 (7897, 289882, 3723143, 'gwincr11/hw3_rottenpotatoes', 18, 'HW 3 skeleton for doing BDD with RottenPotatoes', 0, 1, ['armandofox','mbdriscoll'], '2022-01-22T09:06:45.821984'),
@@ -8356,8 +8356,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8281, 46695719, 20929025, 'microsoft/TypeScript', 19, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5397, 77418, ['ahejlsberg','sheetalkamat'], '2022-01-22T09:39:24.117029'),
 (8282, 2609511, 139633235, 'MoonHighway/learning-graphql', 21, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 577, ['eveporcello','MoonTahoe'], '2022-01-22T09:39:24.362159'),
 (8283, 9968219, 108743517, 'mechero/full-reactive-stack', 16, 'Full Reactive Stack with Spring Boot (WebFlux), MongoDB and Angular', 2, 274, ['mechero'], '2022-01-22T09:39:25.013933'),
-(8285, 2609511, 31384503, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7399, ['theanalyst','manishkk'], '2022-01-22T09:39:25.510104'),
 (8284, 11858762, 29357796, 'jbhuang0604/awesome-computer-vision', 22, 'A curated list of awesome computer vision resources', 59, 15489, ['jbhuang0604','davidstutz'], '2022-01-22T09:39:25.286612'),
+(8285, 2609511, 31384503, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7399, ['theanalyst','manishkk'], '2022-01-22T09:39:25.510104'),
 (8286, 46695719, 14571443, 'up-for-grabs/up-for-grabs.net', 20, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2448, ['shiftkey','ritwik12'], '2022-01-22T09:39:25.789628'),
 (8287, 9968219, 86370198, 'mechero/spring-boot-testing-strategies', 17, 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', 0, 315, ['mechero'], '2022-01-22T09:39:26.409983'),
 (8288, 2609511, 180895260, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran'], '2022-01-22T09:39:26.677326'),
@@ -8441,11 +8441,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8367, 59651629, 210332258, 'hasura/learn-graphql', 9, 'Real world GraphQL tutorials for frontend developers with deadlines!', 22, 819, ['praveenweb','Yagger'], '2022-01-22T09:45:26.250139'),
 (8368, 58392246, 394897014, 'Yryty-go-id/rsocket-cpp', 11, null, 0, 1, [], '2022-01-22T09:45:27.216735'),
 (8369, 20134767, 272047365, 'mscoutermarsh/mscoutermarsh', 12, 'SECRETS!', 4, 207, ['mscoutermarsh','Ilshidur'], '2022-01-22T09:45:27.734852'),
+(8370, 59651629, 57239556, 'ngx-rocket/generator-ngx-rocket', 10, ':rocket: Extensible Angular 13+ enterprise-grade project generator', 36, 1436, ['sinedied','captaincaius'], '2022-01-22T09:45:27.81921'),
 (9167, 30334776, 267311267, 'yomaokobiah/email_analysis', 14, 'Email data analysis', 0, 2, ['yomaokobiah'], '2022-01-22T10:48:46.456995'),
 (8371, 45036724, 386607658, 'mrezkys/readky', 12, 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', 0, 36, ['mrezkys'], '2022-01-22T09:45:27.970459'),
 (8372, 58392246, 394896456, 'muhammaddzaky/rsocket-cpp', 12, null, 0, 1, [], '2022-01-22T09:45:28.280674'),
 (8373, 58392246, 41881900, 'microsoft/vscode', 13, 'Visual Studio Code', 5406, 126688, ['bpasero','jrieken'], '2022-01-22T09:45:29.033717'),
-(8370, 59651629, 57239556, 'ngx-rocket/generator-ngx-rocket', 10, ':rocket: Extensible Angular 13+ enterprise-grade project generator', 36, 1436, ['sinedied','captaincaius'], '2022-01-22T09:45:27.81921'),
 (8374, 45036724, 384444449, 'zuramai/chessplay', 13, 'Chess Web Game with Vue JS 3 and Tailwind CSS', 0, 12, ['zuramai','bl0cknumber'], '2022-01-22T09:45:29.14378'),
 (8375, 59651629, 54994271, 'nicejade/Front-end-tutorial', 11, ':panda_face: 最全的资源教程-前端涉及的所有知识体系，并在 Nice Front-end Tutorial 持续更新；', 0, 1651, ['yaoone','AutumnsWind'], '2022-01-22T09:45:29.239827'),
 (8376, 20134767, 113865039, 'sveltejs/sapper', 13, 'The next small thing in web development, powered by Svelte', 273, 7181, ['Rich-Harris','benmccann'], '2022-01-22T09:45:29.273045'),
