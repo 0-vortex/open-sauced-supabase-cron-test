@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T01:02:57.531Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T02:47:44.344Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -5226,8 +5226,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5216, 35429278, 384302754, 'jlongster/absurd-sql', 11, 'sqlite3 in ur indexeddb (hopefully a better backend soon)', 25, 3078, ['jlongster','quolpr'], '2022-01-21T05:22:01.848682'),
 (5217, 6241164, 246079929, 'owid/covid-19-data', 2, 'Data on COVID-19 (coronavirus) cases, deaths, hospitalizations, tests • All countries • Updated daily by Our World in Data', 9, 4842, ['owidbot','edomt'], '2022-01-21T05:22:03.019993'),
 (5218, 351693, 197008093, 'fmartinou/whats-up-docker', 0, 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', 9, 46, ['fmartinou','ajgon'], '2022-01-21T05:22:03.301327'),
-(5220, 35429278, 105279544, 'gocolly/colly', 12, 'Elegant Scraper and Crawler Framework for Golang', 142, 15785, ['asciimoo','vosmith'], '2022-01-21T05:22:03.767832'),
 (5219, 16259450, 57461213, 'runelite/runelite', 6, 'Open source Old School RuneScape client', 2045, 3529, ['Adam-','deathbeam'], '2022-01-21T05:22:03.676188'),
+(5220, 35429278, 105279544, 'gocolly/colly', 12, 'Elegant Scraper and Crawler Framework for Golang', 142, 15785, ['asciimoo','vosmith'], '2022-01-21T05:22:03.767832'),
 (5221, 6241164, 150042589, 'nostalgic-css/NES.css', 3, 'NES-style CSS Framework | ファミコン風CSSフレームワーク', 54, 17992, ['BcRikko','guastallaigor'], '2022-01-21T05:22:04.886737'),
 (5222, 16259450, 96662897, 'supercomputra/SF-Mono-Font', 7, 'SF Mono Font', 0, 498, ['supercomputra','balcsida'], '2022-01-21T05:22:04.959927'),
 (5223, 351693, 48769241, 'penpot/penpot', 1, 'Penpot - The Open-Source design & prototyping platform', 169, 6688, ['niwinz','Alotor'], '2022-01-21T05:22:05.17947'),
