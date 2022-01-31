@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T20:44:27.171Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T22:44:21.067Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3502,6 +3502,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3456, 60254117, 331591342, 'udberg/RailsToyApp', 13, null, 0, 2, ['udberg'], '2022-01-21T03:00:06.708176'),
 (3457, 60254117, 332792912, 'udberg/RailsFullApp', 14, null, 0, 3, ['udberg'], '2022-01-21T03:00:08.116206'),
 (3458, 60254117, 335539458, 'udberg/forms', 15, null, 0, 2, ['Murodjon000','udberg'], '2022-01-21T03:00:09.564193'),
+(3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
 (3460, 60254117, 317192047, 'udberg/the-next-web-clone', 17, 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', 0, 2, ['SamArsanios','udberg'], '2022-01-21T03:00:12.015417'),
 (3461, 25217168, 221981891, 'microsoft/playwright', 11, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 374, 32544, ['pavelfeldman','dgozman'], '2022-01-21T03:00:12.652166'),
 (3462, 25217168, 153500249, 'sdras/awesome-actions', 12, 'A curated list of awesome actions to use on GitHub', 90, 17099, ['gep13','sdras'], '2022-01-21T03:00:14.016891'),
@@ -3518,7 +3519,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3473, 25217168, 7691631, 'moby/moby', 16, 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', 4219, 62018, ['thaJeztah','cpuguy83'], '2022-01-21T03:00:21.872357'),
 (3474, 60254117, 355825750, 'udberg/JSLibrary', 25, 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', 0, 4, ['udberg','keneogu'], '2022-01-21T03:00:23.156016'),
 (3475, 60254117, 359410930, 'udberg/Restaurant', 26, 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', 0, 5, ['udberg'], '2022-01-21T03:00:24.464357'),
-(3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
 (3476, 60254117, 321707007, 'udberg/udberg', 27, 'Read this to know more about me.... but I guess you already figured that out :smiley:', 0, 3, ['udberg'], '2022-01-21T03:00:25.686543'),
 (3477, 60254117, 363943607, 'udberg/Todo-List', 28, null, 0, 2, ['keneogu','udberg'], '2022-01-21T03:00:26.988596'),
 (3478, 60254117, 365976998, 'udberg/Weather-App', 29, 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', 0, 2, ['udberg'], '2022-01-21T03:00:28.263498'),
@@ -3704,9 +3704,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3658, 57305940, 296817116, 'tssovi/grokking-the-object-oriented-design-interview', 5, null, 3, 1331, ['tssovi','kavyasreesg'], '2022-01-21T03:17:41.674025'),
 (3659, 237133, 18154829, 'jasonlong/isometric-contributions', 6, 'Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.', 1, 3120, ['jasonlong','bahlo'], '2022-01-21T03:17:41.721302'),
 (3660, 29648040, 351669095, 'seek-oss/vanilla-extract', 1, 'Zero-runtime Stylesheets-in-TypeScript', 17, 4788, ['mattcompiles','seek-oss-ci'], '2022-01-21T03:17:41.824455'),
-(3661, 349523, 2013896, 'GhostRabbit/GameUtil', 10, 'Collection of classes to represent various boardgame components', 0, 2, ['GhostRabbit'], '2022-01-21T03:17:42.437884'),
 (3662, 57305940, 384699238, 'jazznerd206/Standard_10', 6, 'NPM module which delivers a typing effect for text', 0, 2, ['jazznerd206'], '2022-01-21T03:17:42.91235'),
 (3663, 29648040, 189761262, 'borisowsky/next-advanced-apollo-starter', 2, 'Advanced, but minimalistic Next.js and Apollo starter', 1, 191, ['borisowsky','renovate-bot'], '2022-01-21T03:17:42.946259'),
+(3661, 349523, 2013896, 'GhostRabbit/GameUtil', 10, 'Collection of classes to represent various boardgame components', 0, 2, ['GhostRabbit'], '2022-01-21T03:17:42.437884'),
 (3664, 237133, 280606117, 'teoxoy/profile-readme-stats', 7, 'Showcase your github stats on your profile README.md', 3, 132, ['teoxoy','aitikgupta'], '2022-01-21T03:17:42.960972'),
 (3665, 349523, 2003232, 'jwalter/zombiedicejava', 11, null, 0, 1, ['jwalter'], '2022-01-21T03:17:43.645826'),
 (3666, 237133, 314477321, 'junleen/RainNet', 8, '[CVPR 2021] Region-aware Adaptive Instance Normalization for Image Harmonization', 5, 95, ['junleen'], '2022-01-21T03:17:44.223667'),
@@ -3932,7 +3932,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
-(3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
@@ -4322,6 +4321,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4275, 6265396, 16577072, 'raspberrypi/documentation', 15, 'The official documentation for Raspberry Pi computers and microcontrollers', 21, 4446, ['JamesH65','bennuttall'], '2022-01-21T03:55:20.529332'),
 (4276, 1228996, 191414235, 'orbit-love/orbit-model', 13, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-21T03:55:20.960726'),
 (4277, 3861088, 128237146, 'vuejs/vuepress', 12, '📝 Minimalistic Vue-powered static site generator', 516, 19865, ['ulivz','yyx990803'], '2022-01-21T03:55:21.086108'),
+(3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (4278, 11777161, 108708339, 'sudheerj/javascript-interview-questions', 12, 'List of 1000 JavaScript Interview Questions', 6, 7514, ['sudheerj','zonayedpca'], '2022-01-21T03:55:21.513857'),
 (4279, 908380, 126577260, 'trekhleb/javascript-algorithms', 14, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 280, 132774, ['trekhleb','m-maksyutin'], '2022-01-21T03:55:22.10474'),
 (4280, 3861088, 143078055, 'gridsome/gridsome', 13, '⚡️ The Jamstack framework for Vue.js', 552, 8060, ['hjvedvik','tomtev'], '2022-01-21T03:55:22.295012'),
