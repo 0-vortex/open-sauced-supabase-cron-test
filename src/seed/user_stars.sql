@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T14:44:19.714Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T16:50:12.290Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3238,6 +3238,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4843, 1884246, 351005162, 'salvatoreraccardi/OBJEX_LINK', 8, 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices that are easy to repair and recycle. It is also perfect for rapid prototyping and developing research and robotics projects.', 0, 58, ['salvatoreraccardi','Vetozz'], '2022-01-21T04:47:37.235906'),
 (4844, 1884246, 361044034, 'slidevjs/slidev', 9, 'Presentation Slides for Developers (Beta)', 60, 17852, ['antfu','nico-bachner'], '2022-01-21T04:47:37.954076'),
 (4886, 3941126, 2206953, 'tj/commander.js', 19, 'node.js command-line interfaces made easy', 16, 21965, ['shadowspawn','tj'], '2022-01-21T04:47:51.878278'),
+(3196, 34903088, 351087635, 'samuelkraft/routes', 1, 'Trail Routes - Curated running & hiking trails in Sweden', 1, 9, ['samuelkraft'], '2022-01-21T02:45:31.326691'),
 (3197, 34394719, 113912360, 'developit/microbundle', 0, '📦 Zero-configuration bundler for tiny modules.', 76, 6688, ['developit','ForsakenHarmony'], '2022-01-21T02:45:31.814237'),
 (3198, 49831545, 71551629, 'carloscuesta/gitmoji', 1, 'An emoji guide for your commit messages. 😜 ', 12, 11154, ['carloscuesta','johannchopin'], '2022-01-21T02:45:32.495486'),
 (3199, 34903088, 367138146, 'samuelkraft/notion-blog-nextjs', 2, 'Next.js example blog powered by Notion Public API', 4, 476, ['samuelkraft','Dipeshwagle'], '2022-01-21T02:45:32.872659'),
@@ -3499,7 +3500,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3454, 60254117, 331521421, 'udberg/RailsCarApp', 11, null, 0, 2, ['udberg'], '2022-01-21T03:00:03.593503'),
 (3455, 60254117, 332684562, 'udberg/BlogApp', 12, 'This project is a Twitter-styled microblog, with only users and short(micro) posts. Users have a unique identifier called id(of type integer), a publicly viewable name(of type string), and an email address(also of type string) that will double as a unique username. You can create, edit and destroy posts on the blog.', 0, 3, ['udberg'], '2022-01-21T03:00:05.231309'),
 (3456, 60254117, 331591342, 'udberg/RailsToyApp', 13, null, 0, 2, ['udberg'], '2022-01-21T03:00:06.708176'),
-(3196, 34903088, 351087635, 'samuelkraft/routes', 1, 'Trail Routes - Curated running & hiking trails in Sweden', 1, 9, ['samuelkraft'], '2022-01-21T02:45:31.326691'),
 (3457, 60254117, 332792912, 'udberg/RailsFullApp', 14, null, 0, 3, ['udberg'], '2022-01-21T03:00:08.116206'),
 (3458, 60254117, 335539458, 'udberg/forms', 15, null, 0, 2, ['Murodjon000','udberg'], '2022-01-21T03:00:09.564193'),
 (3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
@@ -3931,9 +3931,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
+(3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
-(3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
 (3893, 72279316, 396419975, 'shubhank-saxena/GSoC-Final-Report', 5, null, 0, 2, ['shubhank-saxena'], '2022-01-21T03:34:43.937107'),
