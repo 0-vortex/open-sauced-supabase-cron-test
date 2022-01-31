@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T18:46:02.631Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T20:44:27.171Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3502,7 +3502,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3456, 60254117, 331591342, 'udberg/RailsToyApp', 13, null, 0, 2, ['udberg'], '2022-01-21T03:00:06.708176'),
 (3457, 60254117, 332792912, 'udberg/RailsFullApp', 14, null, 0, 3, ['udberg'], '2022-01-21T03:00:08.116206'),
 (3458, 60254117, 335539458, 'udberg/forms', 15, null, 0, 2, ['Murodjon000','udberg'], '2022-01-21T03:00:09.564193'),
-(3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
 (3460, 60254117, 317192047, 'udberg/the-next-web-clone', 17, 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', 0, 2, ['SamArsanios','udberg'], '2022-01-21T03:00:12.015417'),
 (3461, 25217168, 221981891, 'microsoft/playwright', 11, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 374, 32544, ['pavelfeldman','dgozman'], '2022-01-21T03:00:12.652166'),
 (3462, 25217168, 153500249, 'sdras/awesome-actions', 12, 'A curated list of awesome actions to use on GitHub', 90, 17099, ['gep13','sdras'], '2022-01-21T03:00:14.016891'),
@@ -3519,6 +3518,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3473, 25217168, 7691631, 'moby/moby', 16, 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', 4219, 62018, ['thaJeztah','cpuguy83'], '2022-01-21T03:00:21.872357'),
 (3474, 60254117, 355825750, 'udberg/JSLibrary', 25, 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', 0, 4, ['udberg','keneogu'], '2022-01-21T03:00:23.156016'),
 (3475, 60254117, 359410930, 'udberg/Restaurant', 26, 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', 0, 5, ['udberg'], '2022-01-21T03:00:24.464357'),
+(3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
 (3476, 60254117, 321707007, 'udberg/udberg', 27, 'Read this to know more about me.... but I guess you already figured that out :smiley:', 0, 3, ['udberg'], '2022-01-21T03:00:25.686543'),
 (3477, 60254117, 363943607, 'udberg/Todo-List', 28, null, 0, 2, ['keneogu','udberg'], '2022-01-21T03:00:26.988596'),
 (3478, 60254117, 365976998, 'udberg/Weather-App', 29, 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', 0, 2, ['udberg'], '2022-01-21T03:00:28.263498'),
@@ -4197,8 +4197,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4152, 3340406, 189470052, 'thundernest/import-export-tools-ng', 13, 'Import Export Tools that supports Thunderbird 68/78.', 147, 141, ['cleidigh','jobisoft'], '2022-01-21T03:49:30.241633'),
 (4153, 14868216, 79804720, 'tuchk4/awesome-create-react-app', 18, 'Awesome list of Create React App articles / tutorials / videos and FAQ', 4, 1340, ['tuchk4','andreiduca'], '2022-01-21T03:49:30.962534'),
 (4154, 118037, 240335383, 'HarryDulaney/deezer-example-web-app', 14, 'Full-Stack Web Application Client for Deezer''s music API. ', 0, 1, ['HarryDulaney'], '2022-01-21T03:49:31.02942'),
-(4156, 3340406, 163068024, 'h44z/gitlab_to_gitea', 14, 'Gitlab to Gitea migration script.', 0, 41, ['h44z','trailfog'], '2022-01-21T03:49:31.634216'),
 (4155, 57373172, 172562475, 'florinpop17/app-ideas', 16, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T03:49:31.570872'),
+(4156, 3340406, 163068024, 'h44z/gitlab_to_gitea', 14, 'Gitlab to Gitea migration script.', 0, 41, ['h44z','trailfog'], '2022-01-21T03:49:31.634216'),
 (4157, 57373172, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T03:49:32.301923'),
 (4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4159, 118037, 256611909, 'fedecalendino/wrap-genius', 15, 'Unofficial python wrapper for genius'' API.', 0, 3, ['fedecalendino'], '2022-01-21T03:49:32.44226'),
@@ -6240,11 +6240,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6205, 1930729, 52630616, 'apollographql/apollo-client', 1, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 569, 17198, ['benjamn','renovate-bot'], '2022-01-22T03:55:47.22207'),
 (6206, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T03:57:10.964642'),
 (6207, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T03:57:11.660881'),
+(6208, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T03:57:11.775424'),
 (6209, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T03:57:12.349192'),
 (6210, 12410942, 127035128, 'Shopify/quilt', 0, 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', 102, 1129, ['lemonmade','michenly'], '2022-01-22T03:57:12.710951'),
 (6211, 289882, 4095287, 'rubocop/rubocop', 3, 'A Ruby static code analyzer and formatter, based on the community Ruby style guide.', 224, 11632, ['bbatsov','koic'], '2022-01-22T03:57:13.050435'),
 (6212, 26007940, 421781906, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah'], '2022-01-22T03:57:13.147424'),
-(6208, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T03:57:11.775424'),
 (6213, 12410942, 283446239, 'enisdenjo/graphql-ws', 1, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', 0, 928, ['enisdenjo','semantic-release-bot'], '2022-01-22T03:57:13.294307'),
 (6214, 29417643, 225979578, 'talkpython/python-for-absolute-beginners-course', 0, 'Code samples and other handouts for our course.', 0, 1703, ['mikeckennedy','amcinnes87'], '2022-01-22T03:57:13.529994'),
 (6215, 26007940, 135786093, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 0, 31046, ['sw-yx','eps1lon'], '2022-01-22T03:57:14.677505'),
