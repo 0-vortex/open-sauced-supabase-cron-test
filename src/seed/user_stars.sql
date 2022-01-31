@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T10:44:21.888Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T12:50:29.800Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3936,16 +3936,16 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
-(3894, 4247126, 293844582, 'spicygreenbook/greenbook-app', 2, null, 7, 39, ['pleaseshutup','mrvncaragay'], '2022-01-21T03:34:44.49047'),
 (3893, 72279316, 396419975, 'shubhank-saxena/GSoC-Final-Report', 5, null, 0, 2, ['shubhank-saxena'], '2022-01-21T03:34:43.937107'),
+(3894, 4247126, 293844582, 'spicygreenbook/greenbook-app', 2, null, 7, 39, ['pleaseshutup','mrvncaragay'], '2022-01-21T03:34:44.49047'),
 (3895, 57826091, 410474951, 'moonshotcollective/moonswap', 4, null, 8, 5, ['farque65','QEDK'], '2022-01-21T03:34:44.606057'),
 (3896, 72279316, 258254038, 'hhhrrrttt222111/Ethical-Hacking-Tools', 6, 'Complete Listing and Usage of Tools used for Ethical Hacking', 11, 586, ['hhhrrrttt222111','bettercalln1ck'], '2022-01-21T03:34:45.01391'),
 (3897, 569510, 351877820, 'GuillaumeFalourd/poc-github-actions', 6, 'Various proofs of concept examples using Github Actions 🤖', 5, 16, ['GuillaumeFalourd'], '2022-01-21T03:34:45.072681'),
 (3898, 5842360, 1056938, 'mrdavidlaing/javascript-koans', 6, 'Koans to learn Javascript', 69, 2256, ['mrdavidlaing','choskim'], '2022-01-21T03:34:45.343222'),
 (3899, 57826091, 413183643, 'Vrushank264/VQVAE-PyTorch', 5, 'PyTorch Implementation of Vector Quantized Variational AutoEncoders.', 0, 2, ['Vrushank264'], '2022-01-21T03:34:45.916919'),
 (3900, 4247126, 70137417, 'corda/corda', 3, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', 235, 3794, ['Clintonio','exFalso'], '2022-01-21T03:34:46.038955'),
-(3940, 5842360, 87234464, 'telus/reference-architecture', 16, 'TELUS Reference Architecture Documentation', 3, 165, ['tavogel','ahmadnassri'], '2022-01-21T03:34:57.875042'),
 (3901, 569510, 163630911, 'jsvine/visidata-plugins', 7, 'A place for me to share VisiData plugins I''ve written.', 2, 21, ['jsvine','aborruso'], '2022-01-21T03:34:46.31583'),
+(3940, 5842360, 87234464, 'telus/reference-architecture', 16, 'TELUS Reference Architecture Documentation', 3, 165, ['tavogel','ahmadnassri'], '2022-01-21T03:34:57.875042'),
 (3902, 72279316, 255919240, 'smv1999/CompetitiveProgrammingQuestionBank', 7, 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', 2, 771, ['smv1999','Saviour1001'], '2022-01-21T03:34:46.331737'),
 (3903, 5842360, 15062869, 'facebook/jest', 7, 'Delightful JavaScript Testing.', 1720, 37699, ['SimenB','cpojer'], '2022-01-21T03:34:46.996705'),
 (3904, 57826091, 407233777, 'slipHQ/run-wasm', 6, 'Run WASM based code executions in the browser easily', 17, 362, ['kennethcassel','cameronmoreau'], '2022-01-21T03:34:47.29804'),
@@ -11726,8 +11726,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11707, 14043845, 2792774, 'opentok/opentok-node', 22, 'OpenTok Server SDK for node.js', 17, 157, ['aoberoi','jeffswartz'], '2022-01-22T13:51:40.851103'),
 (11708, 5713670, 88897663, 'Shopify/polaris-react', 22, 'Shopify’s admin product component library', 403, 4475, ['AndrewMusgrave','BPScott'], '2022-01-22T13:51:41.449829'),
 (11709, 14043845, 300077232, 'loopDelicious/sparkles', 23, null, 0, 5, ['loopDelicious'], '2022-01-22T13:51:42.093016'),
-(11710, 13173676, 105483533, 'godarch/darch', 15, 'A tool for building and booting stateless and immutable images, bare metal.', 27, 753, ['pauldotknopf','arnarg'], '2022-01-22T13:51:42.472997'),
 (11711, 5713670, 319167362, 'hay-kot/mealie', 23, 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', 75, 1214, ['hay-kot','sephrat'], '2022-01-22T13:51:42.731102'),
+(11710, 13173676, 105483533, 'godarch/darch', 15, 'A tool for building and booting stateless and immutable images, bare metal.', 27, 753, ['pauldotknopf','arnarg'], '2022-01-22T13:51:42.472997'),
 (11712, 4199845, 11730342, 'vuejs/vue', 19, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 553, 192516, ['yyx990803','vue-bot'], '2022-01-22T13:51:42.971298'),
 (11713, 13173676, 235381150, 'ferrous-systems/teaching-material', 16, null, 20, 358, ['spookyvision','skade'], '2022-01-22T13:51:43.643054'),
 (11714, 5713670, 389974232, 'slinkity/slinkity', 24, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 17, 202, ['Holben888','ArkaneMoose'], '2022-01-22T13:51:43.782339'),
