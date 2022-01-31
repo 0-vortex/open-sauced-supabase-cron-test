@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T08:45:24.245Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T10:44:21.888Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2865,8 +2865,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2818, 46695719, 144873815, 'prisma/prisma-examples', 28, ' 🚀 Ready-to-run Prisma example projects', 68, 3147, ['renovate-bot','nikolasburk'], '2022-01-21T01:12:19.118391'),
 (2819, 46695719, 382308978, 'tediko/planets-fact', 29, 'Planets fact site with animated solar system built with ReactJS. ', 0, 53, ['tediko'], '2022-01-21T01:12:20.298776'),
 (2856, 45036724, 397812789, 'zuramai/starback.js', 9, 'Create a beautiful star falling background with starback.js', 0, 287, ['zuramai','dicka88'], '2022-01-21T01:38:03.918508'),
-(2858, 4386534, 421008345, 'vercel/examples', 6, 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', 23, 490, ['lfades','steven-tey'], '2022-01-21T01:38:04.484382'),
 (2857, 1305623, 137104789, 'jamesmh/coravel', 6, 'Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!', 47, 2001, ['jamesmh','Blinke'], '2022-01-21T01:38:04.187162'),
+(2858, 4386534, 421008345, 'vercel/examples', 6, 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', 23, 490, ['lfades','steven-tey'], '2022-01-21T01:38:04.484382'),
 (2859, 35779241, 85031442, 'poteto/hiring-without-whiteboards', 6, '⭐️  Companies that don''t have a broken hiring process', 23, 26324, ['poteto','abdusabri'], '2022-01-21T01:38:04.982231'),
 (2860, 59651629, 210332258, 'hasura/learn-graphql', 9, 'Real world GraphQL tutorials for frontend developers with deadlines!', 21, 818, ['praveenweb','Yagger'], '2022-01-21T01:38:05.23704'),
 (2861, 1305623, 157736989, 'rafaelfgx/DotNetCore', 7, '.NET 6 Nuget Packages.', 0, 253, ['rafaelfgx'], '2022-01-21T01:38:05.298406'),
@@ -2992,9 +2992,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
 (2952, 59651629, 62932724, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 6, ['nem035'], '2022-01-21T01:38:31.290578'),
 (2953, 35779241, 326460518, 'ratfactor/ziglings', 22, 'Learn the Zig programming language by fixing tiny broken programs.', 5, 1185, ['ratfactor','Palm404'], '2022-01-21T01:38:31.597253'),
-(2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
 (2954, 1305623, 778828, 'MassTransit/MassTransit', 27, 'Distributed Application Framework for .NET', 6, 4170, ['phatboyg','drusellers'], '2022-01-21T01:38:31.876736'),
 (2955, 4386534, 408664831, 'ai/nanocolors', 26, 'Use picocolors instead. It is 3 times smaller and 50% faster.', 0, 907, ['jorgebucaran','ai'], '2022-01-21T01:38:32.544001'),
+(2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
 (2957, 35779241, 234798675, 'bevyengine/bevy', 23, 'A refreshingly simple data-driven game engine built in Rust', 895, 13634, ['cart','mockersf'], '2022-01-21T01:38:33.035661'),
 (2958, 1305623, 49020217, 'petehunt/react-howto', 28, 'Your guide to the (sometimes overwhelming!) React ecosystem.', 41, 11508, ['petehunt','jurgob'], '2022-01-21T01:38:33.18767'),
 (2959, 4386534, 119162419, 'nextauthjs/next-auth', 27, 'Authentication for Next.js', 79, 8669, ['iaincollins','balazsorban44'], '2022-01-21T01:38:33.770177'),
@@ -3936,16 +3936,16 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
-(3893, 72279316, 396419975, 'shubhank-saxena/GSoC-Final-Report', 5, null, 0, 2, ['shubhank-saxena'], '2022-01-21T03:34:43.937107'),
 (3894, 4247126, 293844582, 'spicygreenbook/greenbook-app', 2, null, 7, 39, ['pleaseshutup','mrvncaragay'], '2022-01-21T03:34:44.49047'),
+(3893, 72279316, 396419975, 'shubhank-saxena/GSoC-Final-Report', 5, null, 0, 2, ['shubhank-saxena'], '2022-01-21T03:34:43.937107'),
 (3895, 57826091, 410474951, 'moonshotcollective/moonswap', 4, null, 8, 5, ['farque65','QEDK'], '2022-01-21T03:34:44.606057'),
 (3896, 72279316, 258254038, 'hhhrrrttt222111/Ethical-Hacking-Tools', 6, 'Complete Listing and Usage of Tools used for Ethical Hacking', 11, 586, ['hhhrrrttt222111','bettercalln1ck'], '2022-01-21T03:34:45.01391'),
 (3897, 569510, 351877820, 'GuillaumeFalourd/poc-github-actions', 6, 'Various proofs of concept examples using Github Actions 🤖', 5, 16, ['GuillaumeFalourd'], '2022-01-21T03:34:45.072681'),
 (3898, 5842360, 1056938, 'mrdavidlaing/javascript-koans', 6, 'Koans to learn Javascript', 69, 2256, ['mrdavidlaing','choskim'], '2022-01-21T03:34:45.343222'),
 (3899, 57826091, 413183643, 'Vrushank264/VQVAE-PyTorch', 5, 'PyTorch Implementation of Vector Quantized Variational AutoEncoders.', 0, 2, ['Vrushank264'], '2022-01-21T03:34:45.916919'),
 (3900, 4247126, 70137417, 'corda/corda', 3, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', 235, 3794, ['Clintonio','exFalso'], '2022-01-21T03:34:46.038955'),
-(3901, 569510, 163630911, 'jsvine/visidata-plugins', 7, 'A place for me to share VisiData plugins I''ve written.', 2, 21, ['jsvine','aborruso'], '2022-01-21T03:34:46.31583'),
 (3940, 5842360, 87234464, 'telus/reference-architecture', 16, 'TELUS Reference Architecture Documentation', 3, 165, ['tavogel','ahmadnassri'], '2022-01-21T03:34:57.875042'),
+(3901, 569510, 163630911, 'jsvine/visidata-plugins', 7, 'A place for me to share VisiData plugins I''ve written.', 2, 21, ['jsvine','aborruso'], '2022-01-21T03:34:46.31583'),
 (3902, 72279316, 255919240, 'smv1999/CompetitiveProgrammingQuestionBank', 7, 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', 2, 771, ['smv1999','Saviour1001'], '2022-01-21T03:34:46.331737'),
 (3903, 5842360, 15062869, 'facebook/jest', 7, 'Delightful JavaScript Testing.', 1720, 37699, ['SimenB','cpojer'], '2022-01-21T03:34:46.996705'),
 (3904, 57826091, 407233777, 'slipHQ/run-wasm', 6, 'Run WASM based code executions in the browser easily', 17, 362, ['kennethcassel','cameronmoreau'], '2022-01-21T03:34:47.29804'),
