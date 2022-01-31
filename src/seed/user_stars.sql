@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T04:47:58.432Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T06:47:03.236Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1998,9 +1998,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1953, 505751, 48393191, 'nebula-plugins/gradle-lint-plugin', 20, 'A pluggable and configurable linter tool for identifying and reporting on patterns of misuse or deprecations in Gradle scripts. ', 94, 552, ['jkschneider','rpalcolea'], '2022-01-20T23:51:22.848292'),
 (1954, 43640229, 200212195, 'xinlc/react-native-typescript-template', 25, 'this is a template for reac native + TS + redux + saga architecture', 14, 4, ['xinlc'], '2022-01-20T23:51:23.015597'),
 (1955, 19617280, 333980205, 'cassidoo/cass.run', 29, 'My own lil URL shortener', 0, 140, ['cassidoo','Jadhielv'], '2022-01-20T23:51:23.913036'),
-(1956, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-20T23:51:24.135771'),
 (1957, 505751, 389078015, 'reactivedoc/poc', 21, null, 0, 2, ['KengoTODA'], '2022-01-20T23:51:24.20272'),
 (1958, 17373317, 20300177, 'google/guava', 20, 'Google core libraries for Java', 728, 43470, ['cpovirk','kluever'], '2022-01-20T23:51:24.863477'),
+(1956, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-20T23:51:24.135771'),
 (1959, 17373317, 507775, 'elastic/elasticsearch', 21, 'Free and Open, Distributed, RESTful Search Engine', 3744, 58223, ['kimchy','s1monw'], '2022-01-20T23:51:25.233285'),
 (1960, 43640229, 99263247, 'joncardasis/ultimate-api', 27, ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', 3, 44, ['joncardasis'], '2022-01-20T23:51:25.369891'),
 (1961, 505751, 227803815, 'returntocorp/semgrep', 22, 'Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.', 290, 5772, ['aryx','brendongo'], '2022-01-20T23:51:25.481548'),
@@ -2738,8 +2738,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2690, 2609511, 139633235, 'MoonHighway/learning-graphql', 21, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 577, ['eveporcello','MoonTahoe'], '2022-01-21T00:44:26.485012'),
 (2691, 11858762, 95650568, 'git-srinivas/ds-js', 25, null, 0, 2, ['git-srinivas','superman32432432'], '2022-01-21T00:44:26.875499'),
 (2692, 2609511, 31384503, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7396, ['theanalyst','manishkk'], '2022-01-21T00:44:27.912591'),
-(2694, 2609511, 180895260, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran'], '2022-01-21T00:44:29.304589'),
 (2693, 11858762, 39779432, 'makotot/react-scrollspy', 26, ':six_pointed_star: react scrollspy component ', 84, 414, ['makotot','jonespen'], '2022-01-21T00:44:28.09467'),
+(2694, 2609511, 180895260, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran'], '2022-01-21T00:44:29.304589'),
 (2695, 11858762, 46504338, 'shantnu/Intro-to-Pandas', 27, null, 0, 8, ['shantnu'], '2022-01-21T00:44:29.345292'),
 (2696, 2609511, 174635301, 'dgraph-io/flock', 24, 'Twitter on Dgraph', 16, 29, ['mangalaman93','prashant-shahi'], '2022-01-21T00:44:30.421007'),
 (2697, 11858762, 46212429, 'shantnu/Titanic-Machine-Learning', 28, null, 0, 60, ['shantnu'], '2022-01-21T00:44:30.591071'),
@@ -8728,9 +8728,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8642, 55982424, 45978340, 'SathishGajendran/Board', 22, ' A simple paint PWA https://sathishgajendran.github.io/Board', 0, 2, ['SathishGajendran'], '2022-01-22T09:58:34.838629'),
 (8643, 203683, 136829328, 'jbarratt/lambdadb', 25, 'Serverless experiment: embedding a database', 0, 3, ['jbarratt'], '2022-01-22T09:58:34.956231'),
 (8644, 29004466, 173286031, 'input-output-hk/cardano-wallet', 20, 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', 78, 599, ['KtorZ','jonathanknowles'], '2022-01-22T09:58:35.129878'),
+(8645, 55982424, 351632872, 'jcv8000/Codex', 23, 'A free note-taking software for programmers and Computer Science students', 4, 122, ['jcv8000'], '2022-01-22T09:58:35.921947'),
 (8646, 203683, 78417495, 'notrab/create-react-app-redux', 26, 'React Router, Redux, Redux Thunk & Create React App boilerplate', 7, 906, ['renovate-bot','notrab'], '2022-01-22T09:58:36.092055'),
 (8647, 55982424, 175405157, 'JanDeDobbeleer/oh-my-posh', 24, 'A prompt theme engine for any shell.', 28, 4116, ['JanDeDobbeleer','lnu'], '2022-01-22T09:58:37.405818'),
-(8645, 55982424, 351632872, 'jcv8000/Codex', 23, 'A free note-taking software for programmers and Computer Science students', 4, 122, ['jcv8000'], '2022-01-22T09:58:35.921947'),
 (8648, 29004466, 188299874, 'input-output-hk/cardano-node', 21, 'The core component that is used to participate in a Cardano decentralised blockchain.', 447, 2479, ['dcoutts','Jimbo4350'], '2022-01-22T09:58:37.428131'),
 (8649, 203683, 78385923, 'Detachment/Build-vue-hackernews-2.0-from-scratch', 27, 'A tutorial for beginners to build a complex project with Vue.js 2.0 step by step', 0, 84, ['Detachment','andygrunwald'], '2022-01-22T09:58:37.463175'),
 (8650, 55982424, 138547797, 'FiloSottile/mkcert', 25, 'A simple zero-config tool to make locally trusted development certificates with any names you''d like.', 108, 33412, ['FiloSottile','adamdecaf'], '2022-01-22T09:58:38.607457'),
