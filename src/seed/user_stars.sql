@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T06:47:03.236Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T08:45:24.245Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1998,9 +1998,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1953, 505751, 48393191, 'nebula-plugins/gradle-lint-plugin', 20, 'A pluggable and configurable linter tool for identifying and reporting on patterns of misuse or deprecations in Gradle scripts. ', 94, 552, ['jkschneider','rpalcolea'], '2022-01-20T23:51:22.848292'),
 (1954, 43640229, 200212195, 'xinlc/react-native-typescript-template', 25, 'this is a template for reac native + TS + redux + saga architecture', 14, 4, ['xinlc'], '2022-01-20T23:51:23.015597'),
 (1955, 19617280, 333980205, 'cassidoo/cass.run', 29, 'My own lil URL shortener', 0, 140, ['cassidoo','Jadhielv'], '2022-01-20T23:51:23.913036'),
+(1956, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-20T23:51:24.135771'),
 (1957, 505751, 389078015, 'reactivedoc/poc', 21, null, 0, 2, ['KengoTODA'], '2022-01-20T23:51:24.20272'),
 (1958, 17373317, 20300177, 'google/guava', 20, 'Google core libraries for Java', 728, 43470, ['cpovirk','kluever'], '2022-01-20T23:51:24.863477'),
-(1956, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-20T23:51:24.135771'),
 (1959, 17373317, 507775, 'elastic/elasticsearch', 21, 'Free and Open, Distributed, RESTful Search Engine', 3744, 58223, ['kimchy','s1monw'], '2022-01-20T23:51:25.233285'),
 (1960, 43640229, 99263247, 'joncardasis/ultimate-api', 27, ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', 3, 44, ['joncardasis'], '2022-01-20T23:51:25.369891'),
 (1961, 505751, 227803815, 'returntocorp/semgrep', 22, 'Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.', 290, 5772, ['aryx','brendongo'], '2022-01-20T23:51:25.481548'),
@@ -2865,8 +2865,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2818, 46695719, 144873815, 'prisma/prisma-examples', 28, ' 🚀 Ready-to-run Prisma example projects', 68, 3147, ['renovate-bot','nikolasburk'], '2022-01-21T01:12:19.118391'),
 (2819, 46695719, 382308978, 'tediko/planets-fact', 29, 'Planets fact site with animated solar system built with ReactJS. ', 0, 53, ['tediko'], '2022-01-21T01:12:20.298776'),
 (2856, 45036724, 397812789, 'zuramai/starback.js', 9, 'Create a beautiful star falling background with starback.js', 0, 287, ['zuramai','dicka88'], '2022-01-21T01:38:03.918508'),
-(2857, 1305623, 137104789, 'jamesmh/coravel', 6, 'Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!', 47, 2001, ['jamesmh','Blinke'], '2022-01-21T01:38:04.187162'),
 (2858, 4386534, 421008345, 'vercel/examples', 6, 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', 23, 490, ['lfades','steven-tey'], '2022-01-21T01:38:04.484382'),
+(2857, 1305623, 137104789, 'jamesmh/coravel', 6, 'Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!', 47, 2001, ['jamesmh','Blinke'], '2022-01-21T01:38:04.187162'),
 (2859, 35779241, 85031442, 'poteto/hiring-without-whiteboards', 6, '⭐️  Companies that don''t have a broken hiring process', 23, 26324, ['poteto','abdusabri'], '2022-01-21T01:38:04.982231'),
 (2860, 59651629, 210332258, 'hasura/learn-graphql', 9, 'Real world GraphQL tutorials for frontend developers with deadlines!', 21, 818, ['praveenweb','Yagger'], '2022-01-21T01:38:05.23704'),
 (2861, 1305623, 157736989, 'rafaelfgx/DotNetCore', 7, '.NET 6 Nuget Packages.', 0, 253, ['rafaelfgx'], '2022-01-21T01:38:05.298406'),
@@ -2992,9 +2992,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
 (2952, 59651629, 62932724, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 6, ['nem035'], '2022-01-21T01:38:31.290578'),
 (2953, 35779241, 326460518, 'ratfactor/ziglings', 22, 'Learn the Zig programming language by fixing tiny broken programs.', 5, 1185, ['ratfactor','Palm404'], '2022-01-21T01:38:31.597253'),
+(2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
 (2954, 1305623, 778828, 'MassTransit/MassTransit', 27, 'Distributed Application Framework for .NET', 6, 4170, ['phatboyg','drusellers'], '2022-01-21T01:38:31.876736'),
 (2955, 4386534, 408664831, 'ai/nanocolors', 26, 'Use picocolors instead. It is 3 times smaller and 50% faster.', 0, 907, ['jorgebucaran','ai'], '2022-01-21T01:38:32.544001'),
-(2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
 (2957, 35779241, 234798675, 'bevyengine/bevy', 23, 'A refreshingly simple data-driven game engine built in Rust', 895, 13634, ['cart','mockersf'], '2022-01-21T01:38:33.035661'),
 (2958, 1305623, 49020217, 'petehunt/react-howto', 28, 'Your guide to the (sometimes overwhelming!) React ecosystem.', 41, 11508, ['petehunt','jurgob'], '2022-01-21T01:38:33.18767'),
 (2959, 4386534, 119162419, 'nextauthjs/next-auth', 27, 'Authentication for Next.js', 79, 8669, ['iaincollins','balazsorban44'], '2022-01-21T01:38:33.770177'),
