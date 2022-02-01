@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T08:45:28.865Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T10:44:33.384Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1541,9 +1541,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1531, 50591491, 13584262, 'webtorrent/webtorrent', 24, '⚡️ Streaming torrent client for the web', 109, 25789, ['feross','DiegoRBaquero'], '2022-01-20T22:58:44.565764'),
 (1532, 24553355, 362276202, 'Azure/counterfit', 29, 'a CLI that provides a generic automation layer for assessing the security of ML models', 10, 484, ['moohax','drhyrum'], '2022-01-20T22:58:44.925834'),
 (1533, 1645545, 97989275, 'theseus-os/Theseus', 25, 'Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware in order to maximally leverage the power of language safety, and thus shift OS responsibilities (resource management) into the compiler.', 24, 1698, ['kevinaboos','arysef'], '2022-01-20T22:58:45.324063'),
-(1536, 1645545, 3708934, 'selfspy/selfspy', 27, 'Log everything you do on the computer, for statistics, future reference and all-around fun!', 73, 2281, ['gurgeh','ljos'], '2022-01-20T22:58:48.147182'),
-(1535, 1645545, 57224308, 'ActivityWatch/activitywatch', 26, 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', 90, 6062, ['ErikBjare','johan-bjareholt'], '2022-01-20T22:58:46.625326'),
 (1534, 50591491, 384915975, 'DarthBenro008/rchore', 25, 'An feature packed Google Tasks CLI written purely in Rust', 8, 27, ['DarthBenro008','caioeverest'], '2022-01-20T22:58:46.006359'),
+(1535, 1645545, 57224308, 'ActivityWatch/activitywatch', 26, 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', 90, 6062, ['ErikBjare','johan-bjareholt'], '2022-01-20T22:58:46.625326'),
+(1536, 1645545, 3708934, 'selfspy/selfspy', 27, 'Log everything you do on the computer, for statistics, future reference and all-around fun!', 73, 2281, ['gurgeh','ljos'], '2022-01-20T22:58:48.147182'),
 (1537, 50591491, 20929025, 'microsoft/TypeScript', 26, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5392, 77392, ['ahejlsberg','sheetalkamat'], '2022-01-20T22:58:48.868798'),
 (1538, 1645545, 267374872, 'jpochyla/psst', 28, 'Fast and multi-platform Spotify client with native GUI', 77, 6278, ['jpochyla','martingoe'], '2022-01-20T22:58:49.355964'),
 (1539, 50591491, 39111193, 'TypeStrong/ts-node', 27, 'TypeScript execution and REPL for node.js', 119, 9718, ['blakeembrey','cspotcode'], '2022-01-20T22:58:50.15854'),
@@ -1573,10 +1573,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1563, 2480219, 406480703, 'fission-suite/ucan', 9, 'Auth tokens for a distributed, user-controlled world', 4, 21, ['matheus23','dholms'], '2022-01-20T23:03:20.785936'),
 (1564, 43814157, 324687379, 'spencerpauly/awesome-notion', 6, 'A curated list of awesome Notion related things.', 0, 184, ['spencerpauly','johguentner'], '2022-01-20T23:03:21.479232'),
 (1565, 2480219, 241537205, 'fission-suite/keystore-idb', 10, 'In-browser key management with IndexedDB and the Web Crypto API', 8, 21, ['dholms','icidasset'], '2022-01-20T23:03:22.096414'),
+(1566, 43814157, 171412223, 'gr2m/twitter-together', 7, ':bird: A GitHub action to tweet from a repository', 17, 595, ['gr2m','semantic-release-bot'], '2022-01-20T23:03:22.833235'),
 (1567, 43814157, 117610654, 'maticzav/nookies', 8, '🍪 A set of cookie helpers for Next.js', 13, 1605, ['renovate-bot','maticzav'], '2022-01-20T23:03:24.207633'),
 (1568, 2480219, 245222257, 'jimmywarting/native-file-system-adapter', 11, 'File system, based on the spec reference implementation', 12, 146, ['jimmywarting','tomayac'], '2022-01-20T23:03:24.709049'),
 (1569, 43814157, 365739812, 'tldraw/tldraw', 9, 'A tiny little drawing app.', 107, 5203, ['steveruizok','seflless'], '2022-01-20T23:03:25.366568'),
-(1566, 43814157, 171412223, 'gr2m/twitter-together', 7, ':bird: A GitHub action to tweet from a repository', 17, 595, ['gr2m','semantic-release-bot'], '2022-01-20T23:03:22.833235'),
 (1570, 2480219, 60125647, 'jimmywarting/StreamSaver.js', 12, 'StreamSaver writes stream to the filesystem directly asynchronous', 50, 2829, ['jimmywarting','TexKiller'], '2022-01-20T23:03:26.040299'),
 (1571, 43814157, 332880689, 'coollabsio/coolify', 10, 'An open-source, hassle-free, self-hostable Heroku & Netlify alternative', 30, 1981, ['andrasbacsai'], '2022-01-20T23:03:26.571955'),
 (1572, 43814157, 129313877, 'woubuc/sweep', 11, 'Reduce the disk usage of your projects by removing dependencies & builds', 14, 144, ['woubuc','Atul9'], '2022-01-20T23:03:27.768464'),
@@ -3324,10 +3324,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3278, 66239105, 320489195, 'chait04/reactjs-interview-questions', 18, 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', 0, 5, ['sudheerj','sakhidamaulik'], '2022-01-21T02:46:07.632919'),
 (3279, 49831545, 375445655, 'facebookresearch/AugLy', 25, 'A data augmentations library for audio, image, text, and video.', 12, 4236, ['jbitton','zpapakipos'], '2022-01-21T02:46:07.793919'),
 (3280, 34394719, 138280152, 'GuoQichen/vue-pswipe', 19, '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', 5, 96, ['GuoQichen','chawyehsu'], '2022-01-21T02:46:07.823083'),
-(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3282, 66239105, 286448779, 'kunal-kushwaha/Competitive-Programming-Resources', 19, 'Competitive Programming & System Design Resources.', 1, 1725, ['kunal-kushwaha','gcnit'], '2022-01-21T02:46:08.921555'),
 (3283, 49831545, 233472199, 'massgravel/Microsoft-Activation-Scripts', 26, 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', 3, 10027, ['WindowsAddict','mspaintmsi'], '2022-01-21T02:46:09.215975'),
 (3284, 34394719, 264324449, 'kaeducation/LeetCode_JS_Classic', 20, '🖌 Course code for the Classic Edition of JavaScript & LeetCode: The Interview Bootcamp', 1, 23, ['KevinRSDNguyen','alexandander'], '2022-01-21T02:46:09.297423'),
+(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3285, 34903088, 375581675, 'ezralazuardy/cats', 25, '😷 Contactless Automatic Thermal Scanner', 0, 3, ['ezralazuardy'], '2022-01-21T02:46:09.483632'),
 (3286, 66239105, 166671359, 'finallyayo/pusher-code-playground', 20, null, 1, 20, ['ayoisaiah'], '2022-01-21T02:46:10.480285'),
 (3287, 34394719, 171564612, 'khlam/debloat-samsung-android', 21, 'ADB commands to aggressively de-bloat Samsung Android Phones without root. Make Samsung One UI closer to stock Android.', 24, 173, ['khlam'], '2022-01-21T02:46:10.516314'),
