@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-01-31T22:44:21.067Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T01:03:13.089Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2880,9 +2880,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2868, 45036724, 386607658, 'mrezkys/readky', 12, 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', 0, 36, ['mrezkys'], '2022-01-21T01:38:07.414425'),
 (2869, 59651629, 54994271, 'nicejade/Front-end-tutorial', 11, ':panda_face: 最全的资源教程-前端涉及的所有知识体系，并在 Nice Front-end Tutorial 持续更新；', 0, 1650, ['yaoone','AutumnsWind'], '2022-01-21T01:38:08.279245'),
 (2870, 1305623, 274055064, 'hassanhabib/OtripleS', 9, 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', 73, 182, ['viralpandya','eriadhami'], '2022-01-21T01:38:08.296678'),
+(2873, 35779241, 596892, 'pallets/flask', 8, 'The Python micro framework for building web applications.', 25, 57701, ['mitsuhiko','davidism'], '2022-01-21T01:38:09.179457'),
 (2871, 4386534, 376492865, 'six-ddc/plow', 9, 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', 5, 2819, ['six-ddc','chenrui333'], '2022-01-21T01:38:08.348149'),
 (2872, 45036724, 384444449, 'zuramai/chessplay', 13, 'Chess Web Game with Vue JS 3 and Tailwind CSS', 0, 12, ['zuramai','bl0cknumber'], '2022-01-21T01:38:08.701903'),
-(2873, 35779241, 596892, 'pallets/flask', 8, 'The Python micro framework for building web applications.', 25, 57701, ['mitsuhiko','davidism'], '2022-01-21T01:38:09.179457'),
 (2874, 59651629, 238851101, 'naver/fe-news', 12, 'FE 기술 소식 큐레이션 뉴스레터', 0, 2388, ['netil','sculove'], '2022-01-21T01:38:09.575415'),
 (2875, 4386534, 273499522, 'radix-ui/primitives', 10, 'An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.', 99, 2854, ['jjenzz','benoitgrelard'], '2022-01-21T01:38:09.581735'),
 (2876, 45036724, 89600573, 'sergey-pimenov/awesome-web-animation', 14, 'A list of awesome web animation libraries, books, apps etc.', 0, 1001, ['sergey-pimenov','corocoto'], '2022-01-21T01:38:09.753435'),
@@ -3603,10 +3603,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3557, 30334776, 267311267, 'yomaokobiah/email_analysis', 14, 'Email data analysis', 0, 2, ['yomaokobiah'], '2022-01-21T03:08:46.298485'),
 (3558, 16942870, 117300524, 'gitcoinco/community', 20, 'index of all the community stuff associated with gitcoin', 2, 24, ['owocki','vs77bb'], '2022-01-21T03:08:47.029836'),
 (3559, 47711025, 39890704, 'arviz-devs/arviz', 17, 'Exploratory analysis of Bayesian models with Python', 146, 1145, ['aloctavodia','ahartikainen'], '2022-01-21T03:08:47.114452'),
-(3560, 30334776, 295391772, 'yomaokobiah/imagecaptiongenerator', 15, null, 0, 2, ['yomaokobiah','jamessandy'], '2022-01-21T03:08:47.482539'),
 (3561, 58482194, 249064639, 'znck/vue-developer-experience', 14, 'A collection of tools for vue ecosystem.', 76, 1215, ['znck','cawa-93'], '2022-01-21T03:08:47.534942'),
 (3562, 47711025, 2870911, 'MvvmCross/MvvmCross', 18, 'The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac.', 277, 3608, ['martijn00','hollywoof'], '2022-01-21T03:08:48.505731'),
 (3563, 30334776, 216213331, 'yomaokobiah/yono', 16, 'Yono is a python numerical methods library. The aim of Yono is to provide solutions to engineering problems that different numerical methods can solve.', 0, 8, ['yomaokobiah'], '2022-01-21T03:08:48.86283'),
+(3560, 30334776, 295391772, 'yomaokobiah/imagecaptiongenerator', 15, null, 0, 2, ['yomaokobiah','jamessandy'], '2022-01-21T03:08:47.482539'),
 (3564, 58482194, 395073750, 'CodingGarden/stream-topic-overlay', 15, 'A simple overlay to display the current stream topic.', 1, 5, ['w3cj'], '2022-01-21T03:08:49.058735'),
 (3565, 16942870, 113593022, 'gitcoinco/skunkworks', 21, 'experimental laboratory', 212, 52, ['stojce','owocki'], '2022-01-21T03:08:49.536694'),
 (3566, 47711025, 153251691, 'Ishaan28malik/Hacktoberfest-2021', 19, 'Make this Hacktoberfest a learning period and contribute to Great Open Source Projects.', 403, 536, ['Ishaan28malik','orestotel'], '2022-01-21T03:08:50.182886'),
@@ -3704,9 +3704,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3658, 57305940, 296817116, 'tssovi/grokking-the-object-oriented-design-interview', 5, null, 3, 1331, ['tssovi','kavyasreesg'], '2022-01-21T03:17:41.674025'),
 (3659, 237133, 18154829, 'jasonlong/isometric-contributions', 6, 'Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.', 1, 3120, ['jasonlong','bahlo'], '2022-01-21T03:17:41.721302'),
 (3660, 29648040, 351669095, 'seek-oss/vanilla-extract', 1, 'Zero-runtime Stylesheets-in-TypeScript', 17, 4788, ['mattcompiles','seek-oss-ci'], '2022-01-21T03:17:41.824455'),
+(3661, 349523, 2013896, 'GhostRabbit/GameUtil', 10, 'Collection of classes to represent various boardgame components', 0, 2, ['GhostRabbit'], '2022-01-21T03:17:42.437884'),
 (3662, 57305940, 384699238, 'jazznerd206/Standard_10', 6, 'NPM module which delivers a typing effect for text', 0, 2, ['jazznerd206'], '2022-01-21T03:17:42.91235'),
 (3663, 29648040, 189761262, 'borisowsky/next-advanced-apollo-starter', 2, 'Advanced, but minimalistic Next.js and Apollo starter', 1, 191, ['borisowsky','renovate-bot'], '2022-01-21T03:17:42.946259'),
-(3661, 349523, 2013896, 'GhostRabbit/GameUtil', 10, 'Collection of classes to represent various boardgame components', 0, 2, ['GhostRabbit'], '2022-01-21T03:17:42.437884'),
 (3664, 237133, 280606117, 'teoxoy/profile-readme-stats', 7, 'Showcase your github stats on your profile README.md', 3, 132, ['teoxoy','aitikgupta'], '2022-01-21T03:17:42.960972'),
 (3665, 349523, 2003232, 'jwalter/zombiedicejava', 11, null, 0, 1, ['jwalter'], '2022-01-21T03:17:43.645826'),
 (3666, 237133, 314477321, 'junleen/RainNet', 8, '[CVPR 2021] Region-aware Adaptive Instance Normalization for Image Harmonization', 5, 95, ['junleen'], '2022-01-21T03:17:44.223667'),
@@ -3932,6 +3932,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
+(3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
@@ -4321,7 +4322,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4275, 6265396, 16577072, 'raspberrypi/documentation', 15, 'The official documentation for Raspberry Pi computers and microcontrollers', 21, 4446, ['JamesH65','bennuttall'], '2022-01-21T03:55:20.529332'),
 (4276, 1228996, 191414235, 'orbit-love/orbit-model', 13, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-21T03:55:20.960726'),
 (4277, 3861088, 128237146, 'vuejs/vuepress', 12, '📝 Minimalistic Vue-powered static site generator', 516, 19865, ['ulivz','yyx990803'], '2022-01-21T03:55:21.086108'),
-(3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
 (4278, 11777161, 108708339, 'sudheerj/javascript-interview-questions', 12, 'List of 1000 JavaScript Interview Questions', 6, 7514, ['sudheerj','zonayedpca'], '2022-01-21T03:55:21.513857'),
 (4279, 908380, 126577260, 'trekhleb/javascript-algorithms', 14, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 280, 132774, ['trekhleb','m-maksyutin'], '2022-01-21T03:55:22.10474'),
 (4280, 3861088, 143078055, 'gridsome/gridsome', 13, '⚡️ The Jamstack framework for Vue.js', 552, 8060, ['hjvedvik','tomtev'], '2022-01-21T03:55:22.295012'),
@@ -4399,8 +4399,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4340, 6265396, 232669620, 'BattlesnakeOfficial/starter-snake-javascript', 27, 'Getting started with Battlesnake and JavaScript', 1, 19, ['bvanvugt','brandonb927'], '2022-01-21T03:55:39.70834'),
 (4341, 11777161, 71359796, 'open-sauced/open-sauced', 26, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T03:55:40.031135'),
 (4342, 1228996, 202921638, 'lampewebdev/zelda-clone', 28, 'The only game with moonwalking skeletons!!!', 13, 4, ['lampewebdev'], '2022-01-21T03:55:40.046915'),
-(4343, 908380, 107290035, 'sumup-oss/foundry', 25, 'A toolkit for building JavaScript & TypeScript applications.', 11, 26, ['connor-baer','felixjung'], '2022-01-21T03:55:40.119999'),
 (4344, 3861088, 41766002, 'ampproject/amphtml', 26, 'The AMP web component framework.', 1571, 14787, ['dvoytenko','renovate-bot'], '2022-01-21T03:55:40.282258'),
+(4343, 908380, 107290035, 'sumup-oss/foundry', 25, 'A toolkit for building JavaScript & TypeScript applications.', 11, 26, ['connor-baer','felixjung'], '2022-01-21T03:55:40.119999'),
 (4345, 6265396, 257314632, 'onflow/fcl-js', 28, 'FCL (Flow Client Library) - The best tool for building JavaScript (browser & NodeJS) applications on Flow 🌊', 41, 236, ['JeffreyDoyle','orodio'], '2022-01-21T03:55:40.951121'),
 (4346, 11777161, 265001174, 'misterhtmlcss/twitter-todo-app', 27, 'Twitterati - TODO App', 0, 2, ['misterhtmlcss'], '2022-01-21T03:55:41.096227'),
 (4347, 908380, 215145057, 'freeCodeCamp/chapter', 26, 'A self-hosted event management tool for nonprofits', 47, 1788, ['renovate-bot','ojeytonwilliams'], '2022-01-21T03:55:41.240821'),
