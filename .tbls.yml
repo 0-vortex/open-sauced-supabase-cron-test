@@ -1,0 +1,25 @@
+docPath: /app/supabase/diagrams
+
+name: hot.opensauced.pizza supabase
+desc: 🍕 The backend for the site that recommends the hottest projects on GitHub.
+
+include:
+  - public.*
+
+detectVirtualRelations:
+  enabled: true
+  strategy: default
+
+format:
+  adjust: true
+  sort: false
+  number: false
+  showOnlyFirstParagraph: true
+
+er:
+  skip: false
+  format: svg
+  comment: false
+  distance: 2
+  font: ""
+

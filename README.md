@@ -69,6 +69,12 @@ If everything is fine we can push the changes to the remote database:
 npm run db:push
 ```
 
+# 🔑 Supabase structure
+
+Click the image to see the schema diagram full documentation.
+
+[![er](./supabase/diagrams/schema.svg)](./supabase/diagrams/README.md)
+
 # 🤝 Contributing
 
 We encourage you to contribute to Open Sauced! Please check out the [Contributing guide](https://docs.opensauced.pizza/contributing/introduction-to-contributing/) for guidelines about how to proceed.
