@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T20:44:26.039Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T22:44:18.910Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1183,10 +1183,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1174, 656318, 136938012, 'vendure-ecommerce/vendure', 0, 'A headless GraphQL ecommerce framework for the modern web', 138, 3099, ['michaelbromley','Draykee'], '2022-01-20T21:21:58.402329'),
 (1175, 469997, 108859514, 'atulmy/crate', 2, '👕 👖 📦  A sample web and mobile application built with Node, Express, React, React Native, Redux and GraphQL. Very basic replica of stitchfix.com / krate.in (allows users to get monthly subscription of trendy clothes and accessories).', 0, 2288, ['atulmy','ebouJ'], '2022-01-20T21:21:58.788341'),
 (1176, 469997, 78880128, 'ohld/igbot', 3, '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', 35, 4109, ['ohld','sudoguy'], '2022-01-20T21:21:59.46728'),
-(1177, 656318, 379608568, 'Codesee-io/remote-companies', 1, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', 0, 36, ['jessicarose','ramonh'], '2022-01-20T21:21:59.883786'),
 (1178, 469997, 54254815, 'geo242/angular-tawk-to', 4, 'Angular service and directive to angularify the tawk.to javascript API', 2, 8, ['tamvm','geo242'], '2022-01-20T21:22:00.975833'),
 (1179, 656318, 277795317, 'flaki/simplayground', 2, 'Playground for fiddling with HTML email and extracting the useful bits', 0, 2, ['flaki','ramonh'], '2022-01-20T21:22:01.288662'),
 (1180, 469997, 71788837, 'sobingt/tesseract.js', 5, 'Pure Javascript OCR for 62 Languages 📖🎉🖥', 0, 1, ['bijection','antimatter15'], '2022-01-20T21:22:02.898331'),
+(1177, 656318, 379608568, 'Codesee-io/remote-companies', 1, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', 0, 36, ['jessicarose','ramonh'], '2022-01-20T21:21:59.883786'),
 (1181, 656318, 212644970, 'lislis/workshop-rust-games', 3, 'RustFest workshop', 2, 30, ['ramonh','lislis'], '2022-01-20T21:22:02.977147'),
 (1182, 469997, 54584318, 'davidedc/Algebrite', 6, 'Computer Algebra System in Javascript (Typescript)', 75, 828, ['davidedc','antimatter15'], '2022-01-20T21:22:03.597559'),
 (1183, 656318, 202672524, 'anton164/boatmobile-nodeboats-jsconf2019', 4, 'The code that powered the Boatmobile at Nodebots, JSConf 2019.', 2, 1, ['opheliasdaisies','HipsterBrown'], '2022-01-20T21:22:03.808264'),
@@ -5534,9 +5534,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5524, 9696352, 104307778, 'halturin/ergo', 22, 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', 8, 1269, ['halturin','Zert'], '2022-01-21T05:37:02.538458'),
 (5525, 1033332, 277602254, 'Devalo/Next.js-blog-app-', 20, 'Source code from the medium blog post ', 6, 28, ['Devalo'], '2022-01-21T05:37:02.625075'),
 (5526, 1368727, 307916666, 'heyheyhello/esbuild-macros', 22, 'Porting the ideas of babel-plugin-macro over to esbuild', 0, 2, ['heyheyhello'], '2022-01-21T05:37:02.697533'),
+(5529, 1368727, 383584024, 'cooperativesource/about', 23, 'What is Cooperative Source?', 0, 88, ['zkat'], '2022-01-21T05:37:04.233593'),
 (5527, 1033332, 444633382, 'Marak/faker.js', 21, 'What really happened with Aaron Swartz?', 0, 1405, ['Marak'], '2022-01-21T05:37:03.390064'),
 (5528, 40713709, 3757435, 'pytube/pytube', 24, 'A lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.', 88, 5125, ['nficano','hbmartin'], '2022-01-21T05:37:03.950442'),
-(5529, 1368727, 383584024, 'cooperativesource/about', 23, 'What is Cooperative Source?', 0, 88, ['zkat'], '2022-01-21T05:37:04.233593'),
 (5530, 9696352, 111935215, 'oaijs/ajv-oai', 23, 'OpenAPI''s JsonSchema validator.', 3, 12, ['amazing-gao','javi11'], '2022-01-21T05:37:04.364555'),
 (5645, 59939260, 327036990, 'MattMarquise/Lifestyle-Blog', 13, null, 0, 1, ['MattMarquise'], '2022-01-21T05:42:48.405761'),
 (5531, 1033332, 302734740, 'maxkostinevich/Chakra-UI-Admin-Dashboard-Template', 22, 'Collection of custom made components using Chakra UI.', 1, 49, ['maxkostinevich','abshekh'], '2022-01-21T05:37:04.856429'),
@@ -8815,6 +8815,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8729, 34903088, 326619924, 'samuelkraft/samuelkraft-next', 5, 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', 1, 130, ['samuelkraft'], '2022-01-22T10:15:52.601084'),
 (8730, 30369246, 138463948, 'mochow13/competitive-programming-library', 5, 'Templates, algorithms and data structures implemented and collected for programming contests. Check README.md for an overview.', 0, 328, ['mochow13'], '2022-01-22T10:15:52.984449'),
 (8731, 78520194, 236095576, 'backstage/backstage', 5, 'Backstage is an open platform for building developer portals', 394, 14704, ['Rugvip','freben'], '2022-01-22T10:15:53.460189'),
+(8732, 34903088, 304563696, 'lemonadejs/lemonadejs', 6, 'LemonadeJS is a micro (4Kb) reactive, with a two-way data binding, no dependencies, JavaScript library that aims to be as close to JavaScript Vanilla as possible.', 0, 158, ['pphod','hodeware'], '2022-01-22T10:15:53.774099'),
 (8733, 30369246, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 6, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 25, 7597, ['Ebazhanov','monkrus'], '2022-01-22T10:15:54.471951'),
 (8734, 78520194, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T10:15:54.651858'),
 (8735, 34903088, 392073567, 'open-sauced/docs.opensauced.pizza', 7, 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', 4, 8, ['0-vortex','samuelsycamore'], '2022-01-22T10:15:55.039538'),
@@ -8997,7 +8998,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8912, 66239105, 376296039, 'vibalijoshi/List-of-Opportunities', 29, 'Keep track of opportunities and never miss a deadline again!', 0, 307, ['vibalijoshi','sadn1ck'], '2022-01-22T10:27:18.910307'),
 (8913, 34394719, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 25, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10319, ['abhisheknaiidu','ABSphreak'], '2022-01-22T10:27:23.159889'),
 (8914, 34394719, 108708339, 'sudheerj/javascript-interview-questions', 26, 'List of 1000 JavaScript Interview Questions', 6, 7529, ['sudheerj','zonayedpca'], '2022-01-22T10:27:24.683786'),
-(8732, 34903088, 304563696, 'lemonadejs/lemonadejs', 6, 'LemonadeJS is a micro (4Kb) reactive, with a two-way data binding, no dependencies, JavaScript library that aims to be as close to JavaScript Vanilla as possible.', 0, 158, ['pphod','hodeware'], '2022-01-22T10:15:53.774099'),
 (8915, 34394719, 176940773, 'rleija703/react-examples', 27, null, 39, 38, [], '2022-01-22T10:27:25.825187'),
 (8916, 34394719, 60027534, 'Awesome-Windows/Awesome', 28, ':computer: 🎉 An awesome & curated list of best applications and tools for Windows.', 78, 17838, ['rahulkapoor90','alex-lit'], '2022-01-22T10:27:27.183004'),
 (8917, 34394719, 250355030, 'schneefux/vscode-winddown', 29, 'VS Code extension that encourages you to take a break.', 0, 314, ['schneefux'], '2022-01-22T10:27:28.395767'),
