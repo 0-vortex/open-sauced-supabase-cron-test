@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T10:44:33.384Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T12:50:38.493Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3324,10 +3324,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3278, 66239105, 320489195, 'chait04/reactjs-interview-questions', 18, 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', 0, 5, ['sudheerj','sakhidamaulik'], '2022-01-21T02:46:07.632919'),
 (3279, 49831545, 375445655, 'facebookresearch/AugLy', 25, 'A data augmentations library for audio, image, text, and video.', 12, 4236, ['jbitton','zpapakipos'], '2022-01-21T02:46:07.793919'),
 (3280, 34394719, 138280152, 'GuoQichen/vue-pswipe', 19, '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', 5, 96, ['GuoQichen','chawyehsu'], '2022-01-21T02:46:07.823083'),
+(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3282, 66239105, 286448779, 'kunal-kushwaha/Competitive-Programming-Resources', 19, 'Competitive Programming & System Design Resources.', 1, 1725, ['kunal-kushwaha','gcnit'], '2022-01-21T02:46:08.921555'),
 (3283, 49831545, 233472199, 'massgravel/Microsoft-Activation-Scripts', 26, 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', 3, 10027, ['WindowsAddict','mspaintmsi'], '2022-01-21T02:46:09.215975'),
 (3284, 34394719, 264324449, 'kaeducation/LeetCode_JS_Classic', 20, '🖌 Course code for the Classic Edition of JavaScript & LeetCode: The Interview Bootcamp', 1, 23, ['KevinRSDNguyen','alexandander'], '2022-01-21T02:46:09.297423'),
-(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3285, 34903088, 375581675, 'ezralazuardy/cats', 25, '😷 Contactless Automatic Thermal Scanner', 0, 3, ['ezralazuardy'], '2022-01-21T02:46:09.483632'),
 (3286, 66239105, 166671359, 'finallyayo/pusher-code-playground', 20, null, 1, 20, ['ayoisaiah'], '2022-01-21T02:46:10.480285'),
 (3287, 34394719, 171564612, 'khlam/debloat-samsung-android', 21, 'ADB commands to aggressively de-bloat Samsung Android Phones without root. Make Samsung One UI closer to stock Android.', 24, 173, ['khlam'], '2022-01-21T02:46:10.516314'),
@@ -4041,9 +4041,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3994, 57826091, 361722943, 'Dhaiwat10/simple-nft', 28, null, 0, 1, ['rhlsthrm','krzkaczor'], '2022-01-21T03:35:17.021735'),
 (3995, 72279316, 103633984, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (January 2022)', 42, 73973, ['goldbergyoni','anediaz'], '2022-01-21T03:35:17.876202'),
 (3996, 57826091, 135786093, 'typescript-cheatsheets/react', 29, 'Cheatsheets for experienced React developers getting started with TypeScript', 2, 31032, ['sw-yx','eps1lon'], '2022-01-21T03:35:18.471166'),
-(3997, 72279316, 109887187, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 126, 832, ['danthareja'], '2022-01-21T03:35:19.243383'),
 (3998, 22154417, 4132857, 'insanum/gcalcli', 0, 'Google Calendar Command Line Interface', 175, 2686, ['tresni','jcrowgey'], '2022-01-21T03:41:56.443192'),
 (3999, 22154417, 28944251, 'arwes/arwes', 1, 'Futuristic Sci-Fi UI Web Framework', 42, 5042, ['romelperez','jdpnielsen'], '2022-01-21T03:41:57.779476'),
+(3997, 72279316, 109887187, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 126, 832, ['danthareja'], '2022-01-21T03:35:19.243383'),
 (4000, 13711044, 350874478, 'notrab/headless-dropshipping-starter', 0, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 2, 346, ['renovate-bot','notrab'], '2022-01-21T03:41:57.913862'),
 (4001, 22154417, 48869446, 'kogosoftwarellc/open-api', 2, 'A Monorepo of various packages to power OpenAPI in node', 71, 627, ['jsdevel','MugeSo'], '2022-01-21T03:41:59.102751'),
 (4002, 13711044, 94473513, 'ritz078/transform', 1, 'A polyglot web converter.', 21, 2960, ['ritz078','gyandeeps'], '2022-01-21T03:41:59.241326'),
