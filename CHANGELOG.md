@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.6.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.5.2...v1.6.0) (2022-02-01)
+
+
+### 📝 Documentation
+
+* add database visualisation ([51e6e0d](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/51e6e0d3d032b1415093b310759c93469d956039))
+
 ### [1.5.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.5.1...v1.5.2) (2022-01-28)
 
 
