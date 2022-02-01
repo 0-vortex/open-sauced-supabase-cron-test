@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T04:47:53.745Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-01T06:46:50.546Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1571,9 +1571,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1561, 2480219, 244405866, 'cvara/rxdb-hooks', 8, 'React hooks for integrating with RxDB', 0, 54, ['cvara','plmercereau'], '2022-01-20T23:03:19.396426'),
 (1562, 43814157, 430868786, 'Milo123459/atomix', 5, 'A simple and fast shell.', 0, 2, ['Milo123459'], '2022-01-20T23:03:20.170126'),
 (1563, 2480219, 406480703, 'fission-suite/ucan', 9, 'Auth tokens for a distributed, user-controlled world', 4, 21, ['matheus23','dholms'], '2022-01-20T23:03:20.785936'),
-(1564, 43814157, 324687379, 'spencerpauly/awesome-notion', 6, 'A curated list of awesome Notion related things.', 0, 184, ['spencerpauly','johguentner'], '2022-01-20T23:03:21.479232'),
 (1565, 2480219, 241537205, 'fission-suite/keystore-idb', 10, 'In-browser key management with IndexedDB and the Web Crypto API', 8, 21, ['dholms','icidasset'], '2022-01-20T23:03:22.096414'),
 (1566, 43814157, 171412223, 'gr2m/twitter-together', 7, ':bird: A GitHub action to tweet from a repository', 17, 595, ['gr2m','semantic-release-bot'], '2022-01-20T23:03:22.833235'),
+(1564, 43814157, 324687379, 'spencerpauly/awesome-notion', 6, 'A curated list of awesome Notion related things.', 0, 184, ['spencerpauly','johguentner'], '2022-01-20T23:03:21.479232'),
 (1567, 43814157, 117610654, 'maticzav/nookies', 8, '🍪 A set of cookie helpers for Next.js', 13, 1605, ['renovate-bot','maticzav'], '2022-01-20T23:03:24.207633'),
 (1568, 2480219, 245222257, 'jimmywarting/native-file-system-adapter', 11, 'File system, based on the spec reference implementation', 12, 146, ['jimmywarting','tomayac'], '2022-01-20T23:03:24.709049'),
 (1569, 43814157, 365739812, 'tldraw/tldraw', 9, 'A tiny little drawing app.', 107, 5203, ['steveruizok','seflless'], '2022-01-20T23:03:25.366568'),
@@ -3932,8 +3932,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
-(3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
+(3890, 57826091, 430024025, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene'], '2022-01-21T03:34:43.345022'),
 (3891, 569510, 8613622, 'nucleic/enaml', 5, 'Declarative User Interfaces for Python', 46, 1142, ['sccolbert','MatthieuDartiailh'], '2022-01-21T03:34:43.776977'),
 (3892, 5842360, 320142424, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 103, ['rern'], '2022-01-21T03:34:43.847827'),
 (3893, 72279316, 396419975, 'shubhank-saxena/GSoC-Final-Report', 5, null, 0, 2, ['shubhank-saxena'], '2022-01-21T03:34:43.937107'),
