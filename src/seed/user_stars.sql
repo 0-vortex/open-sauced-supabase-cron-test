@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T06:46:47.842Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T08:45:00.962Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -5429,8 +5429,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5420, 38838958, 248295170, 'geist-org/react', 29, 'Modern and minimalist React UI library.', 18, 2590, ['unix','ofekashery'], '2022-01-21T05:29:31.786628'),
 (5421, 60850993, 70418925, 'sithis993/Crypter', 26, 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', 18, 385, ['sithis993'], '2022-01-21T05:29:32.126415'),
 (5422, 1645628, 112027234, 'codebushi/gatsby-starter-dimension', 26, 'Gatsby.js V2 starter template based on Dimension, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.', 32, 315, ['ChangoMan'], '2022-01-21T05:29:32.620305'),
-(5424, 60850993, 290264556, 'Gloryness/Multiprocessing-in-PyQt5', 27, 'Use this program to test how many threads can run at once while doing the same tasks.', 0, 4, ['Gloryness'], '2022-01-21T05:29:33.349561'),
 (5423, 3846874, 444633382, 'Marak/faker.js', 23, 'What really happened with Aaron Swartz?', 0, 1405, ['Marak'], '2022-01-21T05:29:32.666976'),
+(5424, 60850993, 290264556, 'Gloryness/Multiprocessing-in-PyQt5', 27, 'Use this program to test how many threads can run at once while doing the same tasks.', 0, 4, ['Gloryness'], '2022-01-21T05:29:33.349561'),
 (5425, 3846874, 2791348, 'jprichardson/node-fs-extra', 24, 'Node.js: extra methods for the fs object like copy(), remove(), mkdirs()', 21, 8222, ['jprichardson','RyanZim'], '2022-01-21T05:29:33.739581'),
 (5426, 1645628, 304344049, 'sveltejs/kit', 27, 'The fastest way to build Svelte apps', 369, 6602, ['Rich-Harris','benmccann'], '2022-01-21T05:29:33.87025'),
 (5427, 60850993, 13491895, 'EbookFoundation/free-programming-books', 28, ':books: Freely available programming books', 36, 219524, ['vhf','MHM5000'], '2022-01-21T05:29:33.921037'),
@@ -9527,9 +9527,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9441, 1431853, 19208128, 'firasdib/Regex101', 19, 'This repository is currently only used for issue tracking for www.regex101.com', 61, 2406, ['firasdib','Zarthus'], '2022-01-22T11:02:13.16207'),
 (9442, 49351279, 137128945, 'garmeeh/next-seo', 20, 'Next SEO is a plug in that makes managing your SEO easier in Next.js projects.', 71, 4287, ['garmeeh','Myoxocephalus'], '2022-01-22T11:02:13.209052'),
 (9443, 33669114, 92945094, 'uswitch/kiam', 21, 'Integrate AWS IAM with Kubernetes', 117, 1096, ['pingles','rhysemmas'], '2022-01-22T11:02:13.600715'),
-(9444, 569510, 5101141, 'stedolan/jq', 22, 'Command-line JSON processor', 720, 21152, ['nicowilliams','stedolan'], '2022-01-22T11:02:14.046147'),
 (9445, 5842360, 141058176, 'skidding/jobs-done', 21, 'Ritual app for ending the work day inspired by Deep Work', 4, 950, ['skidding','aausch'], '2022-01-22T11:02:14.054245'),
 (9446, 1431853, 158873969, 'GoogleChromeLabs/quicklink', 20, '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', 46, 9250, ['addyosmani','lukeed'], '2022-01-22T11:02:14.501343'),
+(9444, 569510, 5101141, 'stedolan/jq', 22, 'Command-line JSON processor', 720, 21152, ['nicowilliams','stedolan'], '2022-01-22T11:02:14.046147'),
 (9447, 49351279, 47878060, 'i18next/react-i18next', 21, 'Internationalization for react done right. Using the i18next i18n ecosystem.', 3, 7009, ['jamuhl','adrai'], '2022-01-22T11:02:14.535674'),
 (9448, 33669114, 113106184, 'linkerd/linkerd2', 22, 'Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.', 229, 8019, ['alpeb','olix0r'], '2022-01-22T11:02:14.931126'),
 (9449, 569510, 302416879, 'simonw/ca-fires-history', 23, 'Tracking fire data from www.fire.ca.gov', 2, 142, ['simonw'], '2022-01-22T11:02:15.030715'),
