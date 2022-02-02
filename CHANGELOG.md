@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.6.4](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.3...v1.6.4) (2022-02-02)
+
+
+### ⏩ Reverts
+
+* enable ci database diagrams ([c693f0a](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/c693f0a1706bc205559ac487bd59fe7b3ff91719))
+
 ### [1.6.3](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.2...v1.6.3) (2022-02-02)
 
 
