@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T16:51:25.328Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T18:45:56.136Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2553,8 +2553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2505, 71297412, 40214070, 'graphql/express-graphql', 28, 'Create a GraphQL HTTP server with Express.', 58, 6205, ['wincent','IvanGoncharov'], '2022-01-21T00:19:44.379565'),
 (2506, 71297412, 55631449, 'jamstack/jamstack.org', 29, 'The official Jamstack site', 89, 2133, ['philhawksworth','zachleat'], '2022-01-21T00:19:45.952498'),
 (2507, 71458737, 51595028, 'OPCFoundation/UA-.NETStandard', 0, 'OPC Unified Architecture .NET Standard', 74, 1281, ['mregen','barnstee'], '2022-01-21T00:24:34.552196'),
-(2508, 1917293, 35969061, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29695, ['IsaacG','tonyruscoe'], '2022-01-21T00:24:34.864478'),
 (2509, 16165980, 343965132, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 9, 28760, ['jlooper','softchris'], '2022-01-21T00:24:35.08461'),
+(2508, 1917293, 35969061, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29695, ['IsaacG','tonyruscoe'], '2022-01-21T00:24:34.864478'),
 (2510, 1917293, 124617017, 'DevOpsandSRE/tech-resources', 1, 'Useful Technical Resources', 1, 20, ['zigsphere','ym1234'], '2022-01-21T00:24:35.690895'),
 (2511, 16165980, 152370823, 'davidfowl/AspNetCoreDiagnosticScenarios', 1, 'This repository has examples of broken patterns in ASP.NET Core applications', 19, 4754, ['davidfowl','AArnott'], '2022-01-21T00:24:35.940036'),
 (2512, 1917293, 392662562, 'onaio/ansible-collection-rapidpro', 2, 'RapidPro Ansible Collection', 4, 1, ['morrismukiri','jasonrogena'], '2022-01-21T00:24:36.639877'),
@@ -5639,6 +5639,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5627, 12292047, 292781184, 'tc39/proposal-error-cause', 26, 'TC39 proposal for accumulating errors', 0, 337, ['legendecas','hemanth'], '2022-01-21T05:42:43.006141'),
 (5628, 59939260, 68720867, 'firstcontributions/first-contributions', 11, '🚀✨ Help beginners to contribute to open source projects', 1444, 22083, ['firstcontributions-bot','Roshanjossey'], '2022-01-21T05:42:43.298226'),
 (5629, 61131314, 137668545, 'galio-org/galio', 16, 'Galio is a beautifully designed, Free and Open Source React Native Framework', 55, 2793, ['palingheorghe','hetmann'], '2022-01-21T05:42:43.726781'),
+(5630, 12292047, 156453051, 'jkrems/proposal-pkg-exports', 27, 'Proposal for Bare Module Specifier Resolution in node.js', 7, 94, ['jkrems','guybedford'], '2022-01-21T05:42:44.209476'),
 (5631, 12400445, 272068256, 'VicodinAbuser/ZTM-DS-and-Algo-Python', 5, 'Contains all the code samples from the Zero to Mastery : Master the Coding Interview - Data Structures + Algorithms course by Andrei Neagoie, in Python.', 2, 296, ['VicodinAbuser','niharkajla28'], '2022-01-21T05:42:44.255817'),
 (5632, 42392347, 264263104, 'rlueder/tidytweets', 15, 'A Twitter companion app focused on privacy settings and organization.', 10, 7, ['rlueder'], '2022-01-21T05:42:44.284867'),
 (5633, 61131314, 309068302, 'KalleHallden/NameGenRoulette', 17, null, 4, 26, [], '2022-01-21T05:42:44.96455'),
@@ -6047,7 +6048,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6014, 5467696, 398039380, 'vasspilka/bank', 20, 'Sample Bank application used for my 2021 ElixirConf presentation', 2, 15, ['vasspilka'], '2022-01-21T06:04:22.156033'),
 (6015, 3037127, 1280180, 'phacility/phabricator', 23, 'Effective June 1, 2021: Phabricator is no longer actively maintained.', 1, 12228, ['chadlittle','bobtrahan'], '2022-01-21T06:04:22.192704'),
 (6016, 19350071, 44185629, 'lysu/go-saga', 21, 'Implements saga-pattern in Go, another way to distribute transaction.', 5, 227, ['lysu'], '2022-01-21T06:04:22.401401'),
-(5630, 12292047, 156453051, 'jkrems/proposal-pkg-exports', 27, 'Proposal for Bare Module Specifier Resolution in node.js', 7, 94, ['jkrems','guybedford'], '2022-01-21T05:42:44.209476'),
 (6017, 5467696, 184951641, 'zdenal/commanded_events_map', 21, 'Tool for analysing commanded projects and representing in flow diagram.', 0, 22, ['zdenal','jfornoff'], '2022-01-21T06:04:23.392591'),
 (6018, 26205172, 133442384, 'denoland/deno', 13, 'A modern runtime for JavaScript and TypeScript.', 718, 79885, ['ry','bartlomieju'], '2022-01-21T06:04:23.731831'),
 (6019, 3037127, 1828795, 'AFNetworking/AFNetworking', 24, 'A delightful networking framework for iOS, macOS, watchOS, and tvOS.', 79, 33280, ['mattt','kcharwood'], '2022-01-21T06:04:24.674807'),
