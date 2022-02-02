@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T10:44:34.777Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T12:50:57.601Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3669,7 +3669,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3623, 25867172, 265925036, 'teezzan/halqah', 25, 'A lectureHub frontend  web app', 16, 1, ['teezzan','brokewhale'], '2022-01-21T03:09:12.332458'),
 (3624, 25867172, 202445312, 'open-wa/wa-automate-nodejs', 26, ' 💬 🤖  The most advanced NodeJS WhatsApp library for chatbots with advanced features. Be sure to 🌟 this repository for updates! ', 38, 2034, ['smashah','danielcardeenas'], '2022-01-21T03:09:13.680598'),
 (3625, 25867172, 262434521, 'kbeckmann/pergola_projects', 27, 'My pergola FPGA projects', 0, 25, ['kbeckmann','whitequark'], '2022-01-21T03:09:14.929538'),
-(3626, 25867172, 93996923, 'jaweii/Vueg----page-transition-plugin', 28, '为Vue应用添加页面间的转场特效( Page level transition plugin for vue-router)', 10, 1039, ['jaweii'], '2022-01-21T03:09:16.318005'),
 (3627, 25867172, 18696257, 'qrohlf/trianglify', 29, 'Algorithmically generated triangle art', 14, 9823, ['qrohlf','enzuguri'], '2022-01-21T03:09:17.793455'),
 (3628, 75340837, 322542582, 'EthWorks/useDApp', 0, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', 78, 798, ['nezouse','marekkirejczyk'], '2022-01-21T03:17:28.38078'),
 (3629, 349523, 11765017, 'JetBrains/Exposed', 0, 'Kotlin SQL Framework', 304, 5849, ['Tapac','shafirov'], '2022-01-21T03:17:29.205124'),
@@ -3930,6 +3929,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
+(3626, 25867172, 93996923, 'jaweii/Vueg----page-transition-plugin', 28, '为Vue应用添加页面间的转场特效( Page level transition plugin for vue-router)', 10, 1039, ['jaweii'], '2022-01-21T03:09:16.318005'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
 (3889, 4247126, 369896619, 'OrderAndCh4oS/hicetnunc-radio', 1, 'Radio player for audio tracks in a tezos wallet.', 17, 20, ['OrderAndCh4oS','jclayton'], '2022-01-21T03:34:43.339871'),
@@ -9385,8 +9385,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9300, 237133, 90013055, 'thebuilder/react-intersection-observer', 21, 'React implementation of the Intersection Observer API to tell you when an element enters or leaves the viewport.', 3, 2775, ['thebuilder','bnjm'], '2022-01-22T10:55:16.224375'),
 (9301, 8037469, 22242868, 'edgarjs/alfred-github-repos', 21, 'Alfred workflow to easily open Github repositories', 3, 257, ['edgarjs','ileodo'], '2022-01-22T10:55:16.522525'),
 (9302, 57017587, 79162682, 'laurent22/joplin', 20, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 292, 27733, ['laurent22','tessus'], '2022-01-22T10:55:16.934571'),
-(9304, 8037469, 93265134, 'diegohaz/generact', 22, 'Generate React components by replicating your own', 10, 1472, ['diegohaz','Dennitz'], '2022-01-22T10:55:17.740332'),
 (9303, 237133, 415339761, 'jsjoeio/use-streak', 22, 'a streak counter to track your streak in days (similar to Duolingo)', 1, 22, ['jsjoeio'], '2022-01-22T10:55:17.30392'),
+(9304, 8037469, 93265134, 'diegohaz/generact', 22, 'Generate React components by replicating your own', 10, 1472, ['diegohaz','Dennitz'], '2022-01-22T10:55:17.740332'),
 (9305, 57017587, 64478737, 'AllToMP3/alltomp3-app', 21, 'Download and Convert YouTube, SoundCloud & Spotify in MP3 with full tags (title, artist, genre, cover, lyrics 🔥)', 164, 1093, ['NTag','opera7133'], '2022-01-22T10:55:18.007217'),
 (9306, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1592, ['omeraplak','burcukaragozzz'], '2022-01-22T10:55:18.910525'),
 (9307, 57017587, 2688907, 'honestbleeps/Reddit-Enhancement-Suite', 22, 'Reddit Enhancement Suite', 622, 3344, ['andytuba','erikdesjardins'], '2022-01-22T10:55:19.541011'),
@@ -11676,9 +11676,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11657, 4199845, 244694174, 'project-chip/connectedhomeip', 6, 'Matter (formerly Project CHIP) is creating more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers,  guided by the Connectivity Standards Alliance (formerly Zigbee Alliance).', 1993, 3189, ['vivien-apple','bzbarsky-apple'], '2022-01-22T13:51:23.23504'),
 (11658, 14043845, 22424133, 'muaz-khan/RecordRTC', 7, 'RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.', 375, 5059, ['muaz-khan','thijstriemstra'], '2022-01-22T13:51:23.242294'),
 (11659, 5713670, 191529732, 'lydiahallie/javascript-questions', 7, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', 74, 40524, ['lydiahallie','Tarabass'], '2022-01-22T13:51:23.278437'),
+(11660, 13173676, 288234242, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 128, 824, ['nolar','dlmiddlecote'], '2022-01-22T13:51:23.69088'),
 (11661, 4199845, 116586047, 'ewilken/hap-rs', 7, 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', 10, 112, ['ewilken','Gaelan'], '2022-01-22T13:51:24.442397'),
 (11662, 14043845, 239469541, 'dialogflow/selfservicekiosk-audio-streaming', 8, 'A best practice for streaming audio from a browser microphone to Dialogflow or Google Cloud STT by using websockets.', 32, 95, [], '2022-01-22T13:51:24.455679'),
-(11660, 13173676, 288234242, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 128, 824, ['nolar','dlmiddlecote'], '2022-01-22T13:51:23.69088'),
 (11663, 5713670, 56471910, 'nathanchapman/mayonnaise.js', 8, '🎺  Fake data generator for JS, courtesy of Patrick Star', 0, 65, ['nathanchapman','YoshGuenther'], '2022-01-22T13:51:24.560758'),
 (11664, 13173676, 283854962, 'operator-framework/kubectl-operator', 8, 'Manage Kubernetes Operators from the command line', 11, 56, ['joelanford','kensipe'], '2022-01-22T13:51:24.893887'),
 (11665, 14043845, 356593669, 'penk/ruha.camera', 9, '3D Printable Retro-style Raspberry Pi HQ Camera', 2, 358, ['penk','meafs'], '2022-01-22T13:51:25.453884'),
