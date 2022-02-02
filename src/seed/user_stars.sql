@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T08:45:00.962Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T10:44:34.777Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -9385,8 +9385,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9300, 237133, 90013055, 'thebuilder/react-intersection-observer', 21, 'React implementation of the Intersection Observer API to tell you when an element enters or leaves the viewport.', 3, 2775, ['thebuilder','bnjm'], '2022-01-22T10:55:16.224375'),
 (9301, 8037469, 22242868, 'edgarjs/alfred-github-repos', 21, 'Alfred workflow to easily open Github repositories', 3, 257, ['edgarjs','ileodo'], '2022-01-22T10:55:16.522525'),
 (9302, 57017587, 79162682, 'laurent22/joplin', 20, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 292, 27733, ['laurent22','tessus'], '2022-01-22T10:55:16.934571'),
-(9303, 237133, 415339761, 'jsjoeio/use-streak', 22, 'a streak counter to track your streak in days (similar to Duolingo)', 1, 22, ['jsjoeio'], '2022-01-22T10:55:17.30392'),
 (9304, 8037469, 93265134, 'diegohaz/generact', 22, 'Generate React components by replicating your own', 10, 1472, ['diegohaz','Dennitz'], '2022-01-22T10:55:17.740332'),
+(9303, 237133, 415339761, 'jsjoeio/use-streak', 22, 'a streak counter to track your streak in days (similar to Duolingo)', 1, 22, ['jsjoeio'], '2022-01-22T10:55:17.30392'),
 (9305, 57017587, 64478737, 'AllToMP3/alltomp3-app', 21, 'Download and Convert YouTube, SoundCloud & Spotify in MP3 with full tags (title, artist, genre, cover, lyrics 🔥)', 164, 1093, ['NTag','opera7133'], '2022-01-22T10:55:18.007217'),
 (9306, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1592, ['omeraplak','burcukaragozzz'], '2022-01-22T10:55:18.910525'),
 (9307, 57017587, 2688907, 'honestbleeps/Reddit-Enhancement-Suite', 22, 'Reddit Enhancement Suite', 622, 3344, ['andytuba','erikdesjardins'], '2022-01-22T10:55:19.541011'),
@@ -9527,9 +9527,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9441, 1431853, 19208128, 'firasdib/Regex101', 19, 'This repository is currently only used for issue tracking for www.regex101.com', 61, 2406, ['firasdib','Zarthus'], '2022-01-22T11:02:13.16207'),
 (9442, 49351279, 137128945, 'garmeeh/next-seo', 20, 'Next SEO is a plug in that makes managing your SEO easier in Next.js projects.', 71, 4287, ['garmeeh','Myoxocephalus'], '2022-01-22T11:02:13.209052'),
 (9443, 33669114, 92945094, 'uswitch/kiam', 21, 'Integrate AWS IAM with Kubernetes', 117, 1096, ['pingles','rhysemmas'], '2022-01-22T11:02:13.600715'),
+(9444, 569510, 5101141, 'stedolan/jq', 22, 'Command-line JSON processor', 720, 21152, ['nicowilliams','stedolan'], '2022-01-22T11:02:14.046147'),
 (9445, 5842360, 141058176, 'skidding/jobs-done', 21, 'Ritual app for ending the work day inspired by Deep Work', 4, 950, ['skidding','aausch'], '2022-01-22T11:02:14.054245'),
 (9446, 1431853, 158873969, 'GoogleChromeLabs/quicklink', 20, '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', 46, 9250, ['addyosmani','lukeed'], '2022-01-22T11:02:14.501343'),
-(9444, 569510, 5101141, 'stedolan/jq', 22, 'Command-line JSON processor', 720, 21152, ['nicowilliams','stedolan'], '2022-01-22T11:02:14.046147'),
 (9447, 49351279, 47878060, 'i18next/react-i18next', 21, 'Internationalization for react done right. Using the i18next i18n ecosystem.', 3, 7009, ['jamuhl','adrai'], '2022-01-22T11:02:14.535674'),
 (9448, 33669114, 113106184, 'linkerd/linkerd2', 22, 'Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.', 229, 8019, ['alpeb','olix0r'], '2022-01-22T11:02:14.931126'),
 (9449, 569510, 302416879, 'simonw/ca-fires-history', 23, 'Tracking fire data from www.fire.ca.gov', 2, 142, ['simonw'], '2022-01-22T11:02:15.030715'),
@@ -11676,9 +11676,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11657, 4199845, 244694174, 'project-chip/connectedhomeip', 6, 'Matter (formerly Project CHIP) is creating more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers,  guided by the Connectivity Standards Alliance (formerly Zigbee Alliance).', 1993, 3189, ['vivien-apple','bzbarsky-apple'], '2022-01-22T13:51:23.23504'),
 (11658, 14043845, 22424133, 'muaz-khan/RecordRTC', 7, 'RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.', 375, 5059, ['muaz-khan','thijstriemstra'], '2022-01-22T13:51:23.242294'),
 (11659, 5713670, 191529732, 'lydiahallie/javascript-questions', 7, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', 74, 40524, ['lydiahallie','Tarabass'], '2022-01-22T13:51:23.278437'),
-(11660, 13173676, 288234242, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 128, 824, ['nolar','dlmiddlecote'], '2022-01-22T13:51:23.69088'),
 (11661, 4199845, 116586047, 'ewilken/hap-rs', 7, 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', 10, 112, ['ewilken','Gaelan'], '2022-01-22T13:51:24.442397'),
 (11662, 14043845, 239469541, 'dialogflow/selfservicekiosk-audio-streaming', 8, 'A best practice for streaming audio from a browser microphone to Dialogflow or Google Cloud STT by using websockets.', 32, 95, [], '2022-01-22T13:51:24.455679'),
+(11660, 13173676, 288234242, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 128, 824, ['nolar','dlmiddlecote'], '2022-01-22T13:51:23.69088'),
 (11663, 5713670, 56471910, 'nathanchapman/mayonnaise.js', 8, '🎺  Fake data generator for JS, courtesy of Patrick Star', 0, 65, ['nathanchapman','YoshGuenther'], '2022-01-22T13:51:24.560758'),
 (11664, 13173676, 283854962, 'operator-framework/kubectl-operator', 8, 'Manage Kubernetes Operators from the command line', 11, 56, ['joelanford','kensipe'], '2022-01-22T13:51:24.893887'),
 (11665, 14043845, 356593669, 'penk/ruha.camera', 9, '3D Printable Retro-style Raspberry Pi HQ Camera', 2, 358, ['penk','meafs'], '2022-01-22T13:51:25.453884'),
