@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T20:44:18.764Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T22:44:22.409Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -10206,8 +10206,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10198, 2808728, 14440270, 'getify/You-Dont-Know-JS', 2, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148634, ['getify','machineloop'], '2022-01-22T11:52:52.356405'),
 (10199, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 87, 5315, ['easonlin404','ubogdan'], '2022-01-22T11:52:52.701507'),
 (10200, 25194960, 377680492, 'cnrad/lanyard-profile-readme', 1, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', 0, 171, ['cnrad','Looskie'], '2022-01-22T11:52:52.705062'),
-(10201, 1295334, 45350538, 'piotrmurach/tty-prompt', 1, 'A beautiful and powerful interactive command line prompt', 10, 1298, ['piotrmurach','slowbro'], '2022-01-22T11:52:52.721249'),
 (10202, 51794934, 342191787, 'LambdaSchool/build-week-scaffolding-node', 1, null, 0, 18, ['Ladrillo'], '2022-01-22T11:52:53.334471'),
+(10201, 1295334, 45350538, 'piotrmurach/tty-prompt', 1, 'A beautiful and powerful interactive command line prompt', 10, 1298, ['piotrmurach','slowbro'], '2022-01-22T11:52:52.721249'),
 (10203, 1295334, 81089226, 'tminard/carnivores-ce-renderer', 2, 'Cross-platform C++ renderer inspired by Carnivores 2', 1, 3, ['tminard'], '2022-01-22T11:52:54.036196'),
 (10204, 25194960, 336889949, 'NYRI4/Comfy', 2, 'Stay comfy while talking to your friends', 2, 207, ['NYRI4'], '2022-01-22T11:52:54.108316'),
 (10205, 2808728, 76996763, 'piotrwitek/react-redux-typescript-guide', 3, 'The complete guide to static typing in ''React & Redux'' apps using TypeScript', 35, 11691, ['piotrwitek','sosukesuzuki'], '2022-01-22T11:52:54.163172'),
@@ -10822,6 +10822,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10813, 60850993, 201535836, 'onderceylan/pwa-asset-generator', 5, 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', 28, 1816, ['onderceylan','semantic-release-bot'], '2022-01-22T12:57:35.445422'),
 (10814, 6241164, 125071028, 'wesbos/React-Context', 5, 'Quick demo of how to use React''s new Context API', 1, 297, ['wesbos','baggasumit'], '2022-01-22T12:57:35.494645'),
 (10815, 351693, 146033470, 'ernestomancebo/angular-native-dialog', 6, 'Implementation example of how to use a native dialog in an Angular project.', 0, 2, ['ernestomancebo','angular-cli'], '2022-01-22T12:57:36.44572'),
+(10816, 1645628, 246069937, 'ryersondmp/sa11y', 6, 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', 5, 109, ['adamchaboryk','ryersondmp'], '2022-01-22T12:57:36.452952'),
+(10817, 60850993, 143763564, 'cosmicjs/vue-music-website', 6, 'Music website built with Vue.js and Cosmic JS', 1, 87, ['zezic','tonyspiro'], '2022-01-22T12:57:36.642614'),
+(10818, 6241164, 347749543, 'yakkomajuri/medium-to-blog', 6, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', 0, 10, ['yakkomajuri','ImgBotApp'], '2022-01-22T12:57:36.704792'),
 (10819, 16259450, 57461213, 'runelite/runelite', 6, 'Open source Old School RuneScape client', 2047, 3530, ['Adam-','deathbeam'], '2022-01-22T12:57:36.953648'),
 (10820, 1645628, 381881172, 'sdras/js-explorer', 7, 'Find the method you need without digging through the docs, directly on the command line!', 4, 237, ['sdras','anandshenoy14'], '2022-01-22T12:57:37.636589'),
 (10821, 351693, 399197552, 'CrossGeeks/ScrollRevealXFSample', 7, null, 0, 6, ['Char0394'], '2022-01-22T12:57:37.687151'),
@@ -10831,10 +10834,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10825, 1645628, 146619556, 'trekhleb/learn-python', 8, '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.', 11, 11716, ['trekhleb','vilmacio'], '2022-01-22T12:57:38.683091'),
 (10826, 351693, 327400204, 'speijnik/myhome', 8, 'Python library for interacting with MyHomeSERVER1', 1, 2, ['speijnik'], '2022-01-22T12:57:38.907141'),
 (10827, 16259450, 156488590, 'b-marie/StackUnderflow', 8, 'This was a group project for a back end course, which is why the front end is HORRENDOUS.', 0, 1, ['b-marie','RiverMerrill'], '2022-01-22T12:57:39.342182'),
-(10816, 1645628, 246069937, 'ryersondmp/sa11y', 6, 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', 5, 109, ['adamchaboryk','ryersondmp'], '2022-01-22T12:57:36.452952'),
-(10817, 60850993, 143763564, 'cosmicjs/vue-music-website', 6, 'Music website built with Vue.js and Cosmic JS', 1, 87, ['zezic','tonyspiro'], '2022-01-22T12:57:36.642614'),
 (10828, 6241164, 345376495, 'levelsio/inflationchart', 8, 'The stock market inflation adjusted for the US-money supply', 0, 94, ['levelsio','daniellockyer'], '2022-01-22T12:57:39.347287'),
-(10818, 6241164, 347749543, 'yakkomajuri/medium-to-blog', 6, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', 0, 10, ['yakkomajuri','ImgBotApp'], '2022-01-22T12:57:36.704792'),
 (10829, 60850993, 44571718, 'vuejs/awesome-vue', 8, '🎉 A curated list of awesome things related to Vue.js', 29, 63729, ['Scrum','yyx990803'], '2022-01-22T12:57:39.759441'),
 (10830, 1645628, 229270550, 'WordPress/theme-experiments', 9, 'Experimenting with themes made out of blocks.', 53, 392, ['kjellr','carolinan'], '2022-01-22T12:57:39.883538'),
 (10831, 16259450, 42029482, 'AlDanial/cloc', 9, 'cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.', 19, 13337, ['AlDanial','stsnel'], '2022-01-22T12:57:40.37703'),
