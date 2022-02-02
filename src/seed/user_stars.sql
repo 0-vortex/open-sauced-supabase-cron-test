@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T01:03:04.669Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T02:47:52.800Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2737,10 +2737,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2689, 11858762, 8463294, 'mozilla/treeherder', 24, 'A system for managing CI data for Mozilla projects', 38, 225, ['edmorley','renovate-bot'], '2022-01-21T00:44:25.824304'),
 (2690, 2609511, 139633235, 'MoonHighway/learning-graphql', 21, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 577, ['eveporcello','MoonTahoe'], '2022-01-21T00:44:26.485012'),
 (2691, 11858762, 95650568, 'git-srinivas/ds-js', 25, null, 0, 2, ['git-srinivas','superman32432432'], '2022-01-21T00:44:26.875499'),
-(2692, 2609511, 31384503, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7396, ['theanalyst','manishkk'], '2022-01-21T00:44:27.912591'),
-(2693, 11858762, 39779432, 'makotot/react-scrollspy', 26, ':six_pointed_star: react scrollspy component ', 84, 414, ['makotot','jonespen'], '2022-01-21T00:44:28.09467'),
-(2694, 2609511, 180895260, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran'], '2022-01-21T00:44:29.304589'),
 (2695, 11858762, 46504338, 'shantnu/Intro-to-Pandas', 27, null, 0, 8, ['shantnu'], '2022-01-21T00:44:29.345292'),
+(2692, 2609511, 31384503, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7396, ['theanalyst','manishkk'], '2022-01-21T00:44:27.912591'),
 (2696, 2609511, 174635301, 'dgraph-io/flock', 24, 'Twitter on Dgraph', 16, 29, ['mangalaman93','prashant-shahi'], '2022-01-21T00:44:30.421007'),
 (2697, 11858762, 46212429, 'shantnu/Titanic-Machine-Learning', 28, null, 0, 60, ['shantnu'], '2022-01-21T00:44:30.591071'),
 (2698, 2609511, 86115145, 'astorfi/TensorFlow-World', 25, ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', 3, 4529, ['astorfi','hadikazemi'], '2022-01-21T00:44:31.518977'),
@@ -2880,6 +2878,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2868, 45036724, 386607658, 'mrezkys/readky', 12, 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', 0, 36, ['mrezkys'], '2022-01-21T01:38:07.414425'),
 (2869, 59651629, 54994271, 'nicejade/Front-end-tutorial', 11, ':panda_face: 最全的资源教程-前端涉及的所有知识体系，并在 Nice Front-end Tutorial 持续更新；', 0, 1650, ['yaoone','AutumnsWind'], '2022-01-21T01:38:08.279245'),
 (2870, 1305623, 274055064, 'hassanhabib/OtripleS', 9, 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', 73, 182, ['viralpandya','eriadhami'], '2022-01-21T01:38:08.296678'),
+(2693, 11858762, 39779432, 'makotot/react-scrollspy', 26, ':six_pointed_star: react scrollspy component ', 84, 414, ['makotot','jonespen'], '2022-01-21T00:44:28.09467'),
+(2694, 2609511, 180895260, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran'], '2022-01-21T00:44:29.304589'),
 (2871, 4386534, 376492865, 'six-ddc/plow', 9, 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', 5, 2819, ['six-ddc','chenrui333'], '2022-01-21T01:38:08.348149'),
 (2872, 45036724, 384444449, 'zuramai/chessplay', 13, 'Chess Web Game with Vue JS 3 and Tailwind CSS', 0, 12, ['zuramai','bl0cknumber'], '2022-01-21T01:38:08.701903'),
 (2873, 35779241, 596892, 'pallets/flask', 8, 'The Python micro framework for building web applications.', 25, 57701, ['mitsuhiko','davidism'], '2022-01-21T01:38:09.179457'),
