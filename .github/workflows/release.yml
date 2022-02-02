@@ -84,6 +84,8 @@ jobs:
     steps:
       - name: "☁️ checkout repository"
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: "🔧 setup go"
         uses: actions/setup-go@v2
