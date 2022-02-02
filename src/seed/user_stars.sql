@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T18:45:56.136Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T20:44:18.764Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2553,8 +2553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2505, 71297412, 40214070, 'graphql/express-graphql', 28, 'Create a GraphQL HTTP server with Express.', 58, 6205, ['wincent','IvanGoncharov'], '2022-01-21T00:19:44.379565'),
 (2506, 71297412, 55631449, 'jamstack/jamstack.org', 29, 'The official Jamstack site', 89, 2133, ['philhawksworth','zachleat'], '2022-01-21T00:19:45.952498'),
 (2507, 71458737, 51595028, 'OPCFoundation/UA-.NETStandard', 0, 'OPC Unified Architecture .NET Standard', 74, 1281, ['mregen','barnstee'], '2022-01-21T00:24:34.552196'),
-(2509, 16165980, 343965132, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 9, 28760, ['jlooper','softchris'], '2022-01-21T00:24:35.08461'),
 (2508, 1917293, 35969061, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29695, ['IsaacG','tonyruscoe'], '2022-01-21T00:24:34.864478'),
+(2509, 16165980, 343965132, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 9, 28760, ['jlooper','softchris'], '2022-01-21T00:24:35.08461'),
 (2510, 1917293, 124617017, 'DevOpsandSRE/tech-resources', 1, 'Useful Technical Resources', 1, 20, ['zigsphere','ym1234'], '2022-01-21T00:24:35.690895'),
 (2511, 16165980, 152370823, 'davidfowl/AspNetCoreDiagnosticScenarios', 1, 'This repository has examples of broken patterns in ASP.NET Core applications', 19, 4754, ['davidfowl','AArnott'], '2022-01-21T00:24:35.940036'),
 (2512, 1917293, 392662562, 'onaio/ansible-collection-rapidpro', 2, 'RapidPro Ansible Collection', 4, 1, ['morrismukiri','jasonrogena'], '2022-01-21T00:24:36.639877'),
@@ -10822,9 +10822,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10813, 60850993, 201535836, 'onderceylan/pwa-asset-generator', 5, 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', 28, 1816, ['onderceylan','semantic-release-bot'], '2022-01-22T12:57:35.445422'),
 (10814, 6241164, 125071028, 'wesbos/React-Context', 5, 'Quick demo of how to use React''s new Context API', 1, 297, ['wesbos','baggasumit'], '2022-01-22T12:57:35.494645'),
 (10815, 351693, 146033470, 'ernestomancebo/angular-native-dialog', 6, 'Implementation example of how to use a native dialog in an Angular project.', 0, 2, ['ernestomancebo','angular-cli'], '2022-01-22T12:57:36.44572'),
-(10816, 1645628, 246069937, 'ryersondmp/sa11y', 6, 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', 5, 109, ['adamchaboryk','ryersondmp'], '2022-01-22T12:57:36.452952'),
-(10817, 60850993, 143763564, 'cosmicjs/vue-music-website', 6, 'Music website built with Vue.js and Cosmic JS', 1, 87, ['zezic','tonyspiro'], '2022-01-22T12:57:36.642614'),
-(10818, 6241164, 347749543, 'yakkomajuri/medium-to-blog', 6, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', 0, 10, ['yakkomajuri','ImgBotApp'], '2022-01-22T12:57:36.704792'),
 (10819, 16259450, 57461213, 'runelite/runelite', 6, 'Open source Old School RuneScape client', 2047, 3530, ['Adam-','deathbeam'], '2022-01-22T12:57:36.953648'),
 (10820, 1645628, 381881172, 'sdras/js-explorer', 7, 'Find the method you need without digging through the docs, directly on the command line!', 4, 237, ['sdras','anandshenoy14'], '2022-01-22T12:57:37.636589'),
 (10821, 351693, 399197552, 'CrossGeeks/ScrollRevealXFSample', 7, null, 0, 6, ['Char0394'], '2022-01-22T12:57:37.687151'),
@@ -10834,7 +10831,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10825, 1645628, 146619556, 'trekhleb/learn-python', 8, '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.', 11, 11716, ['trekhleb','vilmacio'], '2022-01-22T12:57:38.683091'),
 (10826, 351693, 327400204, 'speijnik/myhome', 8, 'Python library for interacting with MyHomeSERVER1', 1, 2, ['speijnik'], '2022-01-22T12:57:38.907141'),
 (10827, 16259450, 156488590, 'b-marie/StackUnderflow', 8, 'This was a group project for a back end course, which is why the front end is HORRENDOUS.', 0, 1, ['b-marie','RiverMerrill'], '2022-01-22T12:57:39.342182'),
+(10816, 1645628, 246069937, 'ryersondmp/sa11y', 6, 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', 5, 109, ['adamchaboryk','ryersondmp'], '2022-01-22T12:57:36.452952'),
+(10817, 60850993, 143763564, 'cosmicjs/vue-music-website', 6, 'Music website built with Vue.js and Cosmic JS', 1, 87, ['zezic','tonyspiro'], '2022-01-22T12:57:36.642614'),
 (10828, 6241164, 345376495, 'levelsio/inflationchart', 8, 'The stock market inflation adjusted for the US-money supply', 0, 94, ['levelsio','daniellockyer'], '2022-01-22T12:57:39.347287'),
+(10818, 6241164, 347749543, 'yakkomajuri/medium-to-blog', 6, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', 0, 10, ['yakkomajuri','ImgBotApp'], '2022-01-22T12:57:36.704792'),
 (10829, 60850993, 44571718, 'vuejs/awesome-vue', 8, '🎉 A curated list of awesome things related to Vue.js', 29, 63729, ['Scrum','yyx990803'], '2022-01-22T12:57:39.759441'),
 (10830, 1645628, 229270550, 'WordPress/theme-experiments', 9, 'Experimenting with themes made out of blocks.', 53, 392, ['kjellr','carolinan'], '2022-01-22T12:57:39.883538'),
 (10831, 16259450, 42029482, 'AlDanial/cloc', 9, 'cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.', 19, 13337, ['AlDanial','stsnel'], '2022-01-22T12:57:40.37703'),
