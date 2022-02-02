@@ -4,28 +4,25 @@
 
 ## Columns
 
-| Name        | Type                     | Default | Nullable | Children                                  | Parents | Comment |
-| ----------- | ------------------------ | ------- | -------- | ----------------------------------------- | ------- | ------- |
-| id          | bigint                   |         | false    | [public.user_stars](public.user_stars.md) |         |         |
-| open_issues | bigint                   | 0       | false    |                                           |         |         |
-| private     | boolean                  | false   | false    |                                           |         |         |
-| stars_data  | boolean                  | false   | false    |                                           |         |         |
-| login       | text                     |         | false    |                                           |         |         |
-| created_at  | timestamp with time zone | now()   | true     |                                           |         |         |
+| Name       | Type                     | Default | Nullable | Children                                  | Parents | Comment |
+| ---------- | ------------------------ | ------- | -------- | ----------------------------------------- | ------- | ------- |
+| id         | bigint                   |         | false    | [public.user_stars](public.user_stars.md) |         |         |
+| login      | text                     |         | false    |                                           |         |         |
+| created_at | timestamp with time zone | now()   | true     |                                           |         |         |
 
 ## Constraints
 
 | Name            | Type        | Definition       |
 | --------------- | ----------- | ---------------- |
-| users_login_key | UNIQUE      | UNIQUE (login)   |
 | users_pkey      | PRIMARY KEY | PRIMARY KEY (id) |
+| users_login_key | UNIQUE      | UNIQUE (login)   |
 
 ## Indexes
 
 | Name            | Definition                                                              |
 | --------------- | ----------------------------------------------------------------------- |
-| users_login_key | CREATE UNIQUE INDEX users_login_key ON public.users USING btree (login) |
 | users_pkey      | CREATE UNIQUE INDEX users_pkey ON public.users USING btree (id)         |
+| users_login_key | CREATE UNIQUE INDEX users_login_key ON public.users USING btree (login) |
 
 ## Relations
 

@@ -16,15 +16,15 @@
 
 | Name           | Type        | Definition       |
 | -------------- | ----------- | ---------------- |
-| votes_code_key | UNIQUE      | UNIQUE (code)    |
 | votes_pkey     | PRIMARY KEY | PRIMARY KEY (id) |
+| votes_code_key | UNIQUE      | UNIQUE (code)    |
 
 ## Indexes
 
 | Name           | Definition                                                            |
 | -------------- | --------------------------------------------------------------------- |
-| votes_code_key | CREATE UNIQUE INDEX votes_code_key ON public.votes USING btree (code) |
 | votes_pkey     | CREATE UNIQUE INDEX votes_pkey ON public.votes USING btree (id)       |
+| votes_code_key | CREATE UNIQUE INDEX votes_code_key ON public.votes USING btree (code) |
 
 ## Relations
 

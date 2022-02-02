@@ -9,11 +9,11 @@
 | id            | bigint                      |         | false    |          |                                 |         |
 | user_id       | bigint                      |         | false    |          | [public.users](public.users.md) |         |
 | star_id       | bigint                      |         | false    |          | [public.stars](public.stars.md) |         |
-| recency_score | numeric                     |         | true     |          |                                 |         |
-| issues        | bigint                      | 0       | false    |          |                                 |         |
-| stars         | bigint                      | 0       | false    |          |                                 |         |
 | repo_name     | text                        |         | true     |          |                                 |         |
-| description   | text                        |         | true     |          |                                 |         |
+| recency_score | smallint                    |         | true     |          |                                 |         |
+| description   | varchar                     |         | true     |          |                                 |         |
+| issues        | integer                     |         | true     |          |                                 |         |
+| stars         | integer                     |         | true     |          |                                 |         |
 | contributors  | text[]                      |         | false    |          |                                 |         |
 | created_at    | timestamp without time zone | now()   | true     |          |                                 |         |
 
