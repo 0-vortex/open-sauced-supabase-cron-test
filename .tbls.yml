@@ -1,5 +1,3 @@
-docPath: /app/supabase/diagrams
-
 name: hot.opensauced.pizza supabase
 desc: 🍕 The backend for the site that recommends the hottest projects on GitHub.
 
