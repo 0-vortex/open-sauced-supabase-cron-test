@@ -5,6 +5,20 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.6.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.0...v1.6.1) (2022-02-02)
+
+
+### 🐛 Bug Fixes
+
+* correct tbls install ([fd3ee02](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/fd3ee026dab06e4fddec8df79eed3ac393849f53))
+* correct temporary install of tbls ([ef05b84](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/ef05b84c75792332d94fad7d622767d9f7a9c589))
+
+
+### 🔁 Continuous Integration
+
+* generate the supabase diagrams ([f7115a2](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/f7115a2f5b7406c40a0c75c5ff0c2b9868e4fd59))
+* test different documentation merge strategy ([1d3b87b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/1d3b87b6b114efeaf3f63c19db1c3bc15ab5d1b2))
+
 ## [1.6.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.5.2...v1.6.0) (2022-02-01)
 
 
