@@ -16,34 +16,6 @@ jobs:
     name: Test and lint
     uses: open-sauced/open-sauced/.github/workflows/development.yml@main
 
-  database:
-    name: Document database
-    runs-on: ubuntu-latest
-    steps:
-      - name: "☁️ checkout repository"
-        uses: actions/checkout@v2
-
-      - name: "🔧 setup go"
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.17
-
-      - name: "📊 database visualizer"
-        run: |
-          curl -sL https://git.io/use-tbls > use-tbls.tmp && . ./use-tbls.tmp && rm ./use-tbls.tmp
-          tbls doc --rm-dist
-        env:
-          TBLS_DSN: ${{ secrets.SUPABASE_DB_URL }}
-          TBLS_DOC_PATH: ./supabase/diagrams
-
-      - name: "🚀 Commit changes"
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          file_pattern: ./supabase/diagrams
-          commit_message: "chore: update supabase diagrams [skip ci]"
-          commit_user_name: 0-vortex
-          commit_user_email: 237133+0-vortex@users.noreply.github.com
-
   build:
     name: Build application
     runs-on: ubuntu-latest
@@ -84,7 +56,6 @@ jobs:
     name: Semantic release
     needs:
       - test
-      - database
       - build
     runs-on: ubuntu-latest
     steps:
@@ -104,6 +75,36 @@ jobs:
         uses: open-sauced/semantic-release-conventional-config@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  database:
+    name: Document database
+    needs:
+      - release
+    runs-on: ubuntu-latest
+    steps:
+      - name: "☁️ checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "🔧 setup go"
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+
+      - name: "📊 database visualizer"
+        run: |
+          curl -sL https://git.io/use-tbls > use-tbls.tmp && . ./use-tbls.tmp && rm ./use-tbls.tmp
+          tbls doc --rm-dist
+        env:
+          TBLS_DSN: ${{ secrets.SUPABASE_DB_URL }}
+          TBLS_DOC_PATH: ./supabase/diagrams
+
+      - name: "🚀 Commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: ./supabase/diagrams
+          commit_message: "chore: update supabase diagrams [skip ci]"
+          commit_user_name: 0-vortex
+          commit_user_email: 237133+0-vortex@users.noreply.github.com
 
   cleanup:
     name: Cleanup actions
