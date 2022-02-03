@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T08:45:13.330Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T10:44:21.189Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2068,8 +2068,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2023, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-20T23:57:41.572977'),
 (2024, 17373317, 4780572, 'hoodiehq/hoodie', 8, ':dog: The Offline First JavaScript Backend', 57, 4263, ['janl','gr2m'], '2022-01-20T23:57:41.764988'),
 (2025, 19617280, 187874263, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 24, ['rjt-rockx','Lioness100'], '2022-01-20T23:57:41.952171'),
-(2026, 505751, 221981891, 'microsoft/playwright', 8, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 369, 32539, ['pavelfeldman','dgozman'], '2022-01-20T23:57:42.125218'),
 (2027, 43640229, 383297241, 'Chronofit/chrono-android', 14, null, 0, 2, ['SVD6','harigovind1998'], '2022-01-20T23:57:43.036566'),
+(2026, 505751, 221981891, 'microsoft/playwright', 8, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 369, 32539, ['pavelfeldman','dgozman'], '2022-01-20T23:57:42.125218'),
 (2028, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-20T23:57:43.072443'),
 (2029, 505751, 132656664, 'faastjs/faast.js', 10, 'Serverless batch computing made simple.', 8, 1352, ['acchou','renovate-bot'], '2022-01-20T23:57:43.079706'),
 (2030, 505751, 19257422, 'questdb/questdb', 11, 'An open source SQL database designed to process time series data, faster', 176, 7832, ['bluestreak01','ideoma'], '2022-01-20T23:57:43.774761'),
@@ -3927,8 +3927,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3881, 57826091, 431203802, 'Dhaiwat10/svelte-link-preview', 1, 'Svelte port of @dhaiwat10/react-link-preview', 0, 12, ['Dhaiwat10'], '2022-01-21T03:34:40.905474'),
 (3882, 5842360, 171149815, 'bikenik/alfred-anki', 3, 'Create New Cards into any decks with any ''Note Type''.', 18, 39, ['bikenik'], '2022-01-21T03:34:41.169544'),
 (3883, 72279316, 397200443, 'sidB67/CoVaccine', 3, null, 0, 4, ['sidB67'], '2022-01-21T03:34:41.465619'),
-(3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
+(3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
@@ -4435,10 +4435,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4376, 29547465, 20653934, 'google/cadvisor', 3, 'Analyzes resource usage and performance characteristics of running containers.', 511, 12958, ['vmarmol','dashpole'], '2022-01-21T04:01:33.213299'),
 (4377, 54776315, 90825684, 'bluz71/vim-moonfly-colors', 5, 'A dark color scheme for Vim', 0, 360, ['bluz71','askoufis'], '2022-01-21T04:01:33.846828'),
 (4378, 3792749, 107505869, 'firecracker-microvm/firecracker', 4, 'Secure and fast microVMs for serverless computing.', 165, 17049, ['dianpopa','acatangiu'], '2022-01-21T04:01:34.363345'),
-(4381, 54776315, 71093846, 'balmjs/balm-ui', 6, ':diamonds: A modular and customizable UI library based on Material Design and Vue', 16, 316, ['elf-mouse','Techming'], '2022-01-21T04:01:34.997945'),
-(4382, 3792749, 437419319, 'kefimochi/sync-contribution-graph', 5, 'Generates empty commits to match contributions from other public GitHub accounts.', 3, 182, ['kefimochi','andypalmer'], '2022-01-21T04:01:35.525552'),
 (4379, 3450257, 73648678, 'forem/forem', 4, 'For empowering community 🌱', 409, 18488, ['benhalpern','rhymes'], '2022-01-21T04:01:34.440201'),
 (4380, 29547465, 131910983, 'sveltejs/svelte-scroller', 4, 'A <Scroller> component for Svelte apps', 10, 220, ['Rich-Harris','ddnn55'], '2022-01-21T04:01:34.598597'),
+(4381, 54776315, 71093846, 'balmjs/balm-ui', 6, ':diamonds: A modular and customizable UI library based on Material Design and Vue', 16, 316, ['elf-mouse','Techming'], '2022-01-21T04:01:34.997945'),
+(4382, 3792749, 437419319, 'kefimochi/sync-contribution-graph', 5, 'Generates empty commits to match contributions from other public GitHub accounts.', 3, 182, ['kefimochi','andypalmer'], '2022-01-21T04:01:35.525552'),
 (4383, 3450257, 217547293, 'ruby-next/ruby-next', 5, 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', 3, 573, ['palkan','sl4vr'], '2022-01-21T04:01:35.732266'),
 (4384, 29547465, 31333618, 'shopspring/decimal', 5, 'Arbitrary-precision fixed-point decimal numbers in go', 80, 3676, ['vadimg','mwoss'], '2022-01-21T04:01:35.949024'),
 (4385, 54776315, 60805462, 'srcery-colors/srcery-vim', 7, 'Dark colorscheme for gvim and vim', 0, 637, ['roosta','MindTooth'], '2022-01-21T04:01:36.271425'),
