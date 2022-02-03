@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T14:44:19.585Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T16:51:43.462Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2697,8 +2697,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2649, 11858762, 248862268, 'GregorBiswanger/rxjs-fruits', 6, 'A game for learning RxJS 🍎🍌', 15, 164, ['GregorBiswanger','hwanders'], '2022-01-21T00:43:59.802637'),
 (2650, 2609511, 712530, 'fabricjs/fabric.js', 3, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 258, 20911, ['kangax','asturur'], '2022-01-21T00:44:00.595397'),
 (2651, 44642314, 268972184, 'shilohc/map2gazebo', 10, null, 7, 88, [], '2022-01-21T00:44:01.021233'),
-(2653, 44642314, 226202216, 'martinwoodward/smart-xmas', 11, 'Star this repo to add some sparkle to my tree', 0, 195, ['martinwoodward'], '2022-01-21T00:44:01.385956'),
 (2652, 11858762, 293517568, 'ngneat/tailwind', 7, '🔥 A schematic that adds Tailwind CSS to Angular applications', 20, 583, ['nartc','vltansky'], '2022-01-21T00:44:01.1118'),
+(2653, 44642314, 226202216, 'martinwoodward/smart-xmas', 11, 'Star this repo to add some sparkle to my tree', 0, 195, ['martinwoodward'], '2022-01-21T00:44:01.385956'),
 (2654, 2609511, 120538304, 'kelseyhightower/nocode', 4, 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', 4120, 51219, ['kelseyhightower'], '2022-01-21T00:44:02.445075'),
 (2655, 11858762, 304940629, 'markodenic/web-development-resources', 8, 'Awesome Web Development Resources.', 15, 3204, ['markodenic','frankiefab100'], '2022-01-21T00:44:02.664483'),
 (2656, 44642314, 135363400, 'ros-planning/navigation2', 12, 'ROS2 Navigation Framework and System', 68, 795, ['SteveMacenski','bpwilcox'], '2022-01-21T00:44:03.646794'),
@@ -4600,8 +4600,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4519, 46828701, 172562475, 'florinpop17/app-ideas', 9, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T04:11:17.57405'),
 (4520, 667716, 123365228, 'rcoh/angle-grinder', 10, 'Slice and dice logs on the command line', 23, 2248, ['rcoh','tstack'], '2022-01-21T04:11:18.250113'),
 (4521, 13490604, 21791844, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 14, 2628, ['krispo','alessandroleite'], '2022-01-21T04:11:18.581783'),
-(4522, 38725511, 11177928, 'karan/Projects', 11, ':page_with_curl: A list of practical projects that anyone can solve in any programming language.', 74, 37533, ['dbonadiman','vdrey'], '2022-01-21T04:11:18.927613'),
 (4523, 46828701, 95876775, 'elsewhencode/project-guidelines', 10, 'A set of best practices for JavaScript projects', 12, 26125, ['Mohamed3on','ufoqhmdt'], '2022-01-21T04:11:19.06556'),
+(4522, 38725511, 11177928, 'karan/Projects', 11, ':page_with_curl: A list of practical projects that anyone can solve in any programming language.', 74, 37533, ['dbonadiman','vdrey'], '2022-01-21T04:11:18.927613'),
 (4524, 667716, 104394958, 'true-myth/true-myth', 11, 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', 3, 440, ['chriskrycho','bmakuh'], '2022-01-21T04:11:19.741101'),
 (4525, 13490604, 175681313, 'joernio/joern', 13, 'Open-source code analysis platform for C/C++/Java/Binary/Javascript/Kotlin based on code property graphs', 32, 761, ['fabsx00','mpollmeier'], '2022-01-21T04:11:20.152448'),
 (4526, 38725511, 85225942, 'bmorelli25/Become-A-Full-Stack-Web-Developer', 12, 'Free resources for learning Full Stack Web Development', 34, 14722, ['bmorelli25','Kartikkh'], '2022-01-21T04:11:20.380328'),
@@ -8793,8 +8793,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8707, 63254295, 343079204, 'tostercx/GTAO_Booster_PoC', 25, null, 16, 2764, ['tostercx','Achilles1515'], '2022-01-22T10:06:39.450008'),
 (8708, 63254295, 268350681, 'Rem0o/FanControl.Releases', 26, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', 93, 1930, ['Rem0o'], '2022-01-22T10:06:40.577702'),
 (8709, 63254295, 322703104, 'Minenash/Seamless-Loading-Screen', 27, 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', 23, 37, ['Minenash','Samekichi'], '2022-01-22T10:06:42.020225'),
-(8710, 63254295, 260432296, 'H-M-H/Weylus', 28, 'Use your tablet as graphic tablet/touch screen on your computer.', 17, 1845, ['H-M-H','rschroll'], '2022-01-22T10:06:43.25572'),
 (8711, 63254295, 183985757, 'diegocbarboza/red-dead-dialog', 29, 'Red Dead Redemption 2 dialog system in Unity', 0, 6, ['diegocbarboza'], '2022-01-22T10:06:44.707038'),
+(8710, 63254295, 260432296, 'H-M-H/Weylus', 28, 'Use your tablet as graphic tablet/touch screen on your computer.', 17, 1845, ['H-M-H','rschroll'], '2022-01-22T10:06:43.25572'),
 (8712, 10235902, 82221130, 'tvaneerd/cpp17_in_TTs', 0, 'Descriptions of C++17 features, presented mostly in ''Tony Tables'' (hey, the name wasn''t my idea)', 4, 1173, ['tvaneerd','brycelelbach'], '2022-01-22T10:15:46.395149'),
 (8713, 34903088, 734957, 'kelektiv/node-cron', 0, 'Cron for NodeJS.', 102, 7268, ['ncb000gt','jodevsa'], '2022-01-22T10:15:46.459172'),
 (8714, 30369246, 279848748, 'rahuldkjain/github-profile-readme-generator', 0, '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.', 145, 8130, ['rahuldkjain','Maddoxx88'], '2022-01-22T10:15:46.490559'),
@@ -11726,6 +11726,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11707, 14043845, 2792774, 'opentok/opentok-node', 22, 'OpenTok Server SDK for node.js', 17, 157, ['aoberoi','jeffswartz'], '2022-01-22T13:51:40.851103'),
 (11708, 5713670, 88897663, 'Shopify/polaris-react', 22, 'Shopify’s admin product component library', 403, 4475, ['AndrewMusgrave','BPScott'], '2022-01-22T13:51:41.449829'),
 (11709, 14043845, 300077232, 'loopDelicious/sparkles', 23, null, 0, 5, ['loopDelicious'], '2022-01-22T13:51:42.093016'),
+(11710, 13173676, 105483533, 'godarch/darch', 15, 'A tool for building and booting stateless and immutable images, bare metal.', 27, 753, ['pauldotknopf','arnarg'], '2022-01-22T13:51:42.472997'),
 (11711, 5713670, 319167362, 'hay-kot/mealie', 23, 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', 75, 1214, ['hay-kot','sephrat'], '2022-01-22T13:51:42.731102'),
 (11712, 4199845, 11730342, 'vuejs/vue', 19, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 553, 192516, ['yyx990803','vue-bot'], '2022-01-22T13:51:42.971298'),
 (11713, 13173676, 235381150, 'ferrous-systems/teaching-material', 16, null, 20, 358, ['spookyvision','skade'], '2022-01-22T13:51:43.643054'),
@@ -11734,7 +11735,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11716, 14043845, 89766385, 'cassidoo/todometer', 25, 'A meter-based to-do list', 30, 1561, ['cassidoo','farskid'], '2022-01-22T13:51:44.150321'),
 (11717, 5713670, 351909863, 'cloudflare/durable-objects-template', 25, null, 0, 14, ['a-robinson','xortive'], '2022-01-22T13:51:45.006661'),
 (11718, 14043845, 48453449, 'channingallen/tower-defense', 26, 'Tower Defense with a twist: all towers must be positioned with CSS Flexbox.', 12, 535, ['channingallen','BudgieInWA'], '2022-01-22T13:51:45.410445'),
-(11710, 13173676, 105483533, 'godarch/darch', 15, 'A tool for building and booting stateless and immutable images, bare metal.', 27, 753, ['pauldotknopf','arnarg'], '2022-01-22T13:51:42.472997'),
 (11719, 13173676, 11177928, 'karan/Projects', 17, ':page_with_curl: A list of practical projects that anyone can solve in any programming language.', 74, 37543, ['dbonadiman','vdrey'], '2022-01-22T13:51:45.680753'),
 (11720, 4199845, 71995937, 'nuxt/nuxt.js', 21, 'The Intuitive Vue(2) Framework', 488, 39235, ['pi0','Atinux'], '2022-01-22T13:51:45.758529'),
 (11721, 5713670, 400632376, 'open-sauced/check-engines', 26, 'Never break your dependency tree with npm-install-checks running on npx', 6, 3, ['0-vortex'], '2022-01-22T13:51:46.28104'),
