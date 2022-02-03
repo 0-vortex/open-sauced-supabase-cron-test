@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T10:44:21.189Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T12:50:47.317Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2068,8 +2068,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2023, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-20T23:57:41.572977'),
 (2024, 17373317, 4780572, 'hoodiehq/hoodie', 8, ':dog: The Offline First JavaScript Backend', 57, 4263, ['janl','gr2m'], '2022-01-20T23:57:41.764988'),
 (2025, 19617280, 187874263, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 24, ['rjt-rockx','Lioness100'], '2022-01-20T23:57:41.952171'),
-(2027, 43640229, 383297241, 'Chronofit/chrono-android', 14, null, 0, 2, ['SVD6','harigovind1998'], '2022-01-20T23:57:43.036566'),
 (2026, 505751, 221981891, 'microsoft/playwright', 8, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 369, 32539, ['pavelfeldman','dgozman'], '2022-01-20T23:57:42.125218'),
+(2027, 43640229, 383297241, 'Chronofit/chrono-android', 14, null, 0, 2, ['SVD6','harigovind1998'], '2022-01-20T23:57:43.036566'),
 (2028, 19617280, 398666208, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 196, ['nachtfunke'], '2022-01-20T23:57:43.072443'),
 (2029, 505751, 132656664, 'faastjs/faast.js', 10, 'Serverless batch computing made simple.', 8, 1352, ['acchou','renovate-bot'], '2022-01-20T23:57:43.079706'),
 (2030, 505751, 19257422, 'questdb/questdb', 11, 'An open source SQL database designed to process time series data, faster', 176, 7832, ['bluestreak01','ideoma'], '2022-01-20T23:57:43.774761'),
