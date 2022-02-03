@@ -95,13 +95,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: diagram
-          path: .
+          path: public/diagram.svg
 
       - name: "📂 download database artifacts"
         uses: actions/download-artifact@v2
         with:
           name: database
-          path: .
+          path: supabase/diagrams/
 
       - name: "🚀 release"
         id: semantic-release
