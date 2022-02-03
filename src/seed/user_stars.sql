@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T06:47:05.865Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T08:45:13.330Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3927,8 +3927,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3881, 57826091, 431203802, 'Dhaiwat10/svelte-link-preview', 1, 'Svelte port of @dhaiwat10/react-link-preview', 0, 12, ['Dhaiwat10'], '2022-01-21T03:34:40.905474'),
 (3882, 5842360, 171149815, 'bikenik/alfred-anki', 3, 'Create New Cards into any decks with any ''Note Type''.', 18, 39, ['bikenik'], '2022-01-21T03:34:41.169544'),
 (3883, 72279316, 397200443, 'sidB67/CoVaccine', 3, null, 0, 4, ['sidB67'], '2022-01-21T03:34:41.465619'),
-(3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3885, 569510, 45355064, 'jarun/buku', 4, ':bookmark: Personal mini-web in text', 9, 4926, ['jarun','rachmadaniHaryono'], '2022-01-21T03:34:42.197336'),
+(3884, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10679, ['peterp','thedavidprice'], '2022-01-21T03:34:42.094353'),
 (3886, 57826091, 430789888, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 29, 257, ['Dhaiwat10','etr2460'], '2022-01-21T03:34:42.283963'),
 (3887, 5842360, 119757731, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong'], '2022-01-21T03:34:42.558873'),
 (3888, 72279316, 343048668, 'raghavTinker/Smart-Home-Doorbell', 4, 'Smart Home project built for a secure home', 0, 5, ['raghavTinker','rdotjain'], '2022-01-21T03:34:42.712876'),
@@ -4435,10 +4435,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4376, 29547465, 20653934, 'google/cadvisor', 3, 'Analyzes resource usage and performance characteristics of running containers.', 511, 12958, ['vmarmol','dashpole'], '2022-01-21T04:01:33.213299'),
 (4377, 54776315, 90825684, 'bluz71/vim-moonfly-colors', 5, 'A dark color scheme for Vim', 0, 360, ['bluz71','askoufis'], '2022-01-21T04:01:33.846828'),
 (4378, 3792749, 107505869, 'firecracker-microvm/firecracker', 4, 'Secure and fast microVMs for serverless computing.', 165, 17049, ['dianpopa','acatangiu'], '2022-01-21T04:01:34.363345'),
-(4379, 3450257, 73648678, 'forem/forem', 4, 'For empowering community 🌱', 409, 18488, ['benhalpern','rhymes'], '2022-01-21T04:01:34.440201'),
-(4380, 29547465, 131910983, 'sveltejs/svelte-scroller', 4, 'A <Scroller> component for Svelte apps', 10, 220, ['Rich-Harris','ddnn55'], '2022-01-21T04:01:34.598597'),
 (4381, 54776315, 71093846, 'balmjs/balm-ui', 6, ':diamonds: A modular and customizable UI library based on Material Design and Vue', 16, 316, ['elf-mouse','Techming'], '2022-01-21T04:01:34.997945'),
 (4382, 3792749, 437419319, 'kefimochi/sync-contribution-graph', 5, 'Generates empty commits to match contributions from other public GitHub accounts.', 3, 182, ['kefimochi','andypalmer'], '2022-01-21T04:01:35.525552'),
+(4379, 3450257, 73648678, 'forem/forem', 4, 'For empowering community 🌱', 409, 18488, ['benhalpern','rhymes'], '2022-01-21T04:01:34.440201'),
+(4380, 29547465, 131910983, 'sveltejs/svelte-scroller', 4, 'A <Scroller> component for Svelte apps', 10, 220, ['Rich-Harris','ddnn55'], '2022-01-21T04:01:34.598597'),
 (4383, 3450257, 217547293, 'ruby-next/ruby-next', 5, 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', 3, 573, ['palkan','sl4vr'], '2022-01-21T04:01:35.732266'),
 (4384, 29547465, 31333618, 'shopspring/decimal', 5, 'Arbitrary-precision fixed-point decimal numbers in go', 80, 3676, ['vadimg','mwoss'], '2022-01-21T04:01:35.949024'),
 (4385, 54776315, 60805462, 'srcery-colors/srcery-vim', 7, 'Dark colorscheme for gvim and vim', 0, 637, ['roosta','MindTooth'], '2022-01-21T04:01:36.271425'),
@@ -7862,13 +7862,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7824, 17373317, 74682861, 'nagygergo/jetbrains-toolbox-install', 0, 'Installer for jetbrains toolbox', 2, 154, ['nagygergo','ziegenberg'], '2022-01-22T09:06:09.531594'),
 (7825, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17556, ['chrismccord','josevalim'], '2022-01-22T09:06:09.754052'),
 (7826, 17373317, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 1, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10319, ['abhisheknaiidu','ABSphreak'], '2022-01-22T09:06:11.06856'),
+(7827, 74208843, 38632468, 'graphql-dotnet/graphql-dotnet', 1, 'GraphQL for .NET', 164, 5071, ['joemcbride','sungam3r'], '2022-01-22T09:06:11.089314'),
 (7828, 505751, 196530922, 'jorgenkg/promise-priority-queue', 1, 'Async bucket priority queue implemented in Typescript', 1, 3, ['renovate-bot','jorgengrimnes'], '2022-01-22T09:06:11.117801'),
 (7829, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T09:06:11.310892'),
 (7830, 2607477, 18369373, 'spf13/viper', 1, 'Go configuration with fangs', 412, 18013, ['sagikazarmark','spf13'], '2022-01-22T09:06:12.175364'),
 (7831, 17373317, 267956009, 'jdubois/azure-native-spring-function', 2, 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', 0, 52, ['jdubois','AzureAdvocateBit'], '2022-01-22T09:06:12.632325'),
 (7832, 74208843, 154143869, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 388, ['OdeToCode','ameyer117'], '2022-01-22T09:06:12.735651'),
 (7833, 505751, 177033748, 'atlassian/changesets', 2, '🦋       A way to manage your versioning and changelogs with a focus on monorepos', 177, 2536, ['Noviny','mitchellhamilton'], '2022-01-22T09:06:12.823138'),
-(7827, 74208843, 38632468, 'graphql-dotnet/graphql-dotnet', 1, 'GraphQL for .NET', 164, 5071, ['joemcbride','sungam3r'], '2022-01-22T09:06:11.089314'),
 (7834, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T09:06:12.842075'),
 (7835, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 477, 54941, ['manucorporat','javierprovecho'], '2022-01-22T09:06:14.002398'),
 (7836, 74208843, 206982984, 'kamranahmedse/roadmap.sh', 3, 'Community driven roadmaps, articles and resources for developers', 107, 1731, ['kamranahmedse','lex111'], '2022-01-22T09:06:14.276469'),
