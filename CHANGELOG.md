@@ -5,6 +5,18 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.6.7](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.6...v1.6.7) (2022-02-03)
+
+
+### 🔁 Continuous Integration
+
+* test artifacts again ([85c9070](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/85c9070480876b1c2809b0285c79c9deae442ba5))
+
+
+### 🐛 Bug Fixes
+
+* re-create dummy diagram.svg ([52c944b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/52c944b339f3c6b1fbb5d4a91b83688ef7d95cb4))
+
 ### [1.6.6](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.5...v1.6.6) (2022-02-03)
 
 
