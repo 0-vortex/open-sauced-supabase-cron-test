@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T16:51:43.462Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T18:46:08.463Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4600,8 +4600,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4519, 46828701, 172562475, 'florinpop17/app-ideas', 9, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T04:11:17.57405'),
 (4520, 667716, 123365228, 'rcoh/angle-grinder', 10, 'Slice and dice logs on the command line', 23, 2248, ['rcoh','tstack'], '2022-01-21T04:11:18.250113'),
 (4521, 13490604, 21791844, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 14, 2628, ['krispo','alessandroleite'], '2022-01-21T04:11:18.581783'),
-(4523, 46828701, 95876775, 'elsewhencode/project-guidelines', 10, 'A set of best practices for JavaScript projects', 12, 26125, ['Mohamed3on','ufoqhmdt'], '2022-01-21T04:11:19.06556'),
 (4522, 38725511, 11177928, 'karan/Projects', 11, ':page_with_curl: A list of practical projects that anyone can solve in any programming language.', 74, 37533, ['dbonadiman','vdrey'], '2022-01-21T04:11:18.927613'),
+(4523, 46828701, 95876775, 'elsewhencode/project-guidelines', 10, 'A set of best practices for JavaScript projects', 12, 26125, ['Mohamed3on','ufoqhmdt'], '2022-01-21T04:11:19.06556'),
 (4524, 667716, 104394958, 'true-myth/true-myth', 11, 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', 3, 440, ['chriskrycho','bmakuh'], '2022-01-21T04:11:19.741101'),
 (4525, 13490604, 175681313, 'joernio/joern', 13, 'Open-source code analysis platform for C/C++/Java/Binary/Javascript/Kotlin based on code property graphs', 32, 761, ['fabsx00','mpollmeier'], '2022-01-21T04:11:20.152448'),
 (4526, 38725511, 85225942, 'bmorelli25/Become-A-Full-Stack-Web-Developer', 12, 'Free resources for learning Full Stack Web Development', 34, 14722, ['bmorelli25','Kartikkh'], '2022-01-21T04:11:20.380328'),
@@ -7522,8 +7522,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7504, 24553355, 32688481, 'frontendfront/front-end-conferences', 26, 'This is a list of upcoming front-end related conferences.', 1, 561, ['frontendfront','AllThingsSmitty'], '2022-01-22T08:39:17.643891'),
 (7505, 23166349, 164225648, 'David-VTUK/CKA-StudyGuide', 29, 'Study guide for the CKA exam', 0, 699, ['David-VTUK','chipzoller'], '2022-01-22T08:39:18.249724'),
 (7506, 10951893, 254660586, 'openmainframeproject/cobol-programming-course', 29, 'Training materials and labs for a ''Getting Started'' level course on COBOL', 9, 1991, ['MikeBauerCA','tanto259'], '2022-01-22T08:39:18.708729'),
-(7507, 24553355, 304026138, 'masaun/NFT-auth-token', 27, 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', 0, 13, ['masaun'], '2022-01-22T08:39:18.847194'),
 (7508, 45293863, 24195339, 'angular/angular', 28, 'The modern web developer’s platform', 1877, 79111, ['gkalpak','petebacondarwin'], '2022-01-22T08:39:18.998768'),
+(7507, 24553355, 304026138, 'masaun/NFT-auth-token', 27, 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', 0, 13, ['masaun'], '2022-01-22T08:39:18.847194'),
 (7509, 45293863, 300313988, 'cyberpartizans/face_recognition', 29, null, 1, 40, ['allyouneediscv','feanor-on-fire'], '2022-01-22T08:39:20.252473'),
 (7510, 24553355, 343553753, 'PatrickAlphaC/nft-mix', 28, null, 3, 577, ['PatrickAlphaC','albertoxamin'], '2022-01-22T08:39:20.268742'),
 (7511, 24553355, 362276202, 'Azure/counterfit', 29, 'a CLI that provides a generic automation layer for assessing the security of ML models', 10, 485, ['rdheekonda','moohax'], '2022-01-22T08:39:21.528738'),
@@ -8793,8 +8793,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8707, 63254295, 343079204, 'tostercx/GTAO_Booster_PoC', 25, null, 16, 2764, ['tostercx','Achilles1515'], '2022-01-22T10:06:39.450008'),
 (8708, 63254295, 268350681, 'Rem0o/FanControl.Releases', 26, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', 93, 1930, ['Rem0o'], '2022-01-22T10:06:40.577702'),
 (8709, 63254295, 322703104, 'Minenash/Seamless-Loading-Screen', 27, 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', 23, 37, ['Minenash','Samekichi'], '2022-01-22T10:06:42.020225'),
-(8711, 63254295, 183985757, 'diegocbarboza/red-dead-dialog', 29, 'Red Dead Redemption 2 dialog system in Unity', 0, 6, ['diegocbarboza'], '2022-01-22T10:06:44.707038'),
 (8710, 63254295, 260432296, 'H-M-H/Weylus', 28, 'Use your tablet as graphic tablet/touch screen on your computer.', 17, 1845, ['H-M-H','rschroll'], '2022-01-22T10:06:43.25572'),
+(8711, 63254295, 183985757, 'diegocbarboza/red-dead-dialog', 29, 'Red Dead Redemption 2 dialog system in Unity', 0, 6, ['diegocbarboza'], '2022-01-22T10:06:44.707038'),
 (8712, 10235902, 82221130, 'tvaneerd/cpp17_in_TTs', 0, 'Descriptions of C++17 features, presented mostly in ''Tony Tables'' (hey, the name wasn''t my idea)', 4, 1173, ['tvaneerd','brycelelbach'], '2022-01-22T10:15:46.395149'),
 (8713, 34903088, 734957, 'kelektiv/node-cron', 0, 'Cron for NodeJS.', 102, 7268, ['ncb000gt','jodevsa'], '2022-01-22T10:15:46.459172'),
 (8714, 30369246, 279848748, 'rahuldkjain/github-profile-readme-generator', 0, '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.', 145, 8130, ['rahuldkjain','Maddoxx88'], '2022-01-22T10:15:46.490559'),
