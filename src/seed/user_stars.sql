@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T18:46:08.463Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T20:44:25.003Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -319,7 +319,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (312, 16268467, 177736533, '996icu/996.ICU', 2, 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', 16831, 260511, ['996icu','ChangedenCZD'], '2022-01-20T19:49:53.128821'),
 (313, 7860023, 205812745, 'mitesh77/Best-Flutter-UI-Templates', 5, 'completely free for everyone. Its build-in Flutter Dart.', 13, 13723, ['mitesh77','IAmSarthakVerma'], '2022-01-20T19:49:54.198454'),
 (314, 61815862, 56549856, 'fennifith/Pasta-for-Spotify', 6, 'A material design Spotify client for Android', 13, 101, ['fennifith','TheAndroidMaster'], '2022-01-20T19:49:54.621576'),
-(315, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T19:49:56.005521'),
 (316, 61815862, 165434192, 'dvx/lofi', 7, '🎵🔉 A mini Spotify player with WebGL visualizations.', 41, 673, ['dvx','stamoun'], '2022-01-20T19:49:56.242991'),
 (317, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T19:49:56.831099'),
 (318, 7860023, 14862081, 'adiel/coypu', 7, 'Intuitive, robust browser automation for .Net', 0, 1, ['adiel','citizenmatt'], '2022-01-20T19:49:57.573479'),
@@ -328,6 +327,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (321, 7860023, 32280638, 'bonigarcia/webdrivermanager', 8, 'Automated driver management and Docker builder for Selenium WebDriver', 15, 1837, ['bonigarcia','eliasnogueira'], '2022-01-20T19:49:59.139175'),
 (322, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T19:49:59.96195'),
 (323, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1499, 49168, ['balloob','fabaff'], '2022-01-20T19:50:01.390992'),
+(315, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T19:49:56.005521'),
 (324, 16268467, 16194327, 'adamschwartz/magic-of-css', 6, 'A CSS course to turn you into a magician.', 10, 5553, ['adamschwartz','cvrebert'], '2022-01-20T19:50:01.834245'),
 (325, 61815862, 416408131, 'mattn/tailscale-systray', 10, 'Linux port of tailscale system tray menu.', 7, 77, ['mattn','codenoid'], '2022-01-20T19:50:03.047932'),
 (326, 16268467, 172471552, 'aliyr/Nodejs-Developer-Roadmap', 7, 'A Developer Roadmap to becoming a Node.js developer in 2019', 5, 3760, ['aliyr','AGrant24'], '2022-01-20T19:50:03.887219'),
@@ -3726,8 +3726,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3679, 349523, 1626929, 'teamrabu/rabu-schedule', 15, 'Tools and ideas for product scheduling, with the goal of creating exemplary customer relationships.', 2, 19, ['jamesshore','curious-attempt-bunny'], '2022-01-21T03:17:48.872803'),
 (3680, 29648040, 137391317, 'ActiveCampaign/camp-css', 5, 'CSS behind the distinctive style of ActiveCampaign', 3, 6, ['NickCiliak','aclangor'], '2022-01-21T03:17:48.912844'),
 (3681, 237133, 170284360, 'run-youngjoo/SC-FEGAN', 12, 'SC-FEGAN : Face Editing Generative Adversarial Network with User''s Sketch and Color (ICCV2019)', 37, 3232, ['run-youngjoo','0xflotus'], '2022-01-21T03:17:49.272398'),
-(3682, 349523, 1374825, 'jwalter/aboardgame', 16, null, 0, 2, ['jwalter','GhostRabbit'], '2022-01-21T03:17:50.172549'),
 (3683, 57305940, 30732364, 'Netflix/falcor', 11, 'A JavaScript library for efficient data fetching', 58, 10089, ['ThePrimeagen','sdesai'], '2022-01-21T03:17:50.182814'),
+(3682, 349523, 1374825, 'jwalter/aboardgame', 16, null, 0, 2, ['jwalter','GhostRabbit'], '2022-01-21T03:17:50.172549'),
 (3684, 237133, 208498644, 'jonabc/licensed-ci', 13, 'Update and check cached licenses in a GitHub Actions workflow', 0, 21, ['jonabc','andymckay'], '2022-01-21T03:17:50.450563'),
 (3685, 349523, 902266, 'jamesshore/lets_play_tdd', 17, 'Let''s Play: Test-Driven Development', 0, 73, ['jamesshore','luontola'], '2022-01-21T03:17:51.232861'),
 (3686, 57305940, 16120959, 'evennia/evennia', 12, 'Python MUD/MUX/MUSH/MU* development system', 117, 1426, ['Griatch','gtaylor'], '2022-01-21T03:17:51.45078'),
@@ -4276,8 +4276,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4230, 11777161, 262453387, 'rubymorillo/pocket-tech-writing-list', 4, 'A small but formidable list of technical writing resources for developers', 0, 595, ['rubymorillo','Markel'], '2022-01-21T03:55:08.286952'),
 (4231, 1228996, 71995937, 'nuxt/nuxt.js', 3, 'The Intuitive Vue(2) Framework', 486, 39218, ['pi0','Atinux'], '2022-01-21T03:55:08.413639'),
 (4232, 908380, 81975372, 'kdn251/interviews', 5, 'Everything you need to know to get the job.', 102, 55760, ['fatosmorina','kdn251'], '2022-01-21T03:55:08.759036'),
-(4233, 6265396, 398684826, 'MichaelJolley/discord-guy-bot', 6, 'A friendly Discord bot that helps server members use more inclusive language.', 2, 6, ['MichaelJolley','BenDMyers'], '2022-01-21T03:55:08.957277'),
 (4234, 3861088, 197472304, 'surface-ui/surface', 3, 'A server-side rendering component library for Phoenix', 25, 1548, ['msaraiva','Malian'], '2022-01-21T03:55:08.958467'),
+(4233, 6265396, 398684826, 'MichaelJolley/discord-guy-bot', 6, 'A friendly Discord bot that helps server members use more inclusive language.', 2, 6, ['MichaelJolley','BenDMyers'], '2022-01-21T03:55:08.957277'),
 (4235, 1228996, 114687480, 'devrelcollective/awesome-devrel', 4, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-21T03:55:09.712306'),
 (4236, 11777161, 154950925, 'streamich/react-use', 5, 'React Hooks — 👍', 447, 27662, ['renovate-bot','streamich'], '2022-01-21T03:55:09.762886'),
 (4237, 908380, 285695824, 'beamkenya/ex_pesa', 6, 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', 0, 19, ['manuelgeek','lenileiro'], '2022-01-21T03:55:09.976633'),
@@ -4317,8 +4317,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4270, 3861088, 3571772, 'there4/markdown-resume', 11, 'Generate a responsive CSS3 and HTML5 resume with Markdown, with optional PDF output.', 18, 1664, ['craig-davis','spawnia'], '2022-01-21T03:55:18.795971'),
 (4271, 6265396, 386384568, 'sniptt-official/ots', 14, '🔐 Share end-to-end encrypted secrets with others via a one-time URL', 1, 1450, ['slavovojacek','rogerthebest'], '2022-01-21T03:55:18.987912'),
 (4272, 908380, 19126114, 'rust-lang/rust-by-example', 13, 'Learn Rust with examples (Live code editor included)', 111, 4257, ['steveklabnik','marioidival'], '2022-01-21T03:55:19.306902'),
-(4273, 1228996, 45603512, 'microsoft/vscode-extension-samples', 12, 'Sample code illustrating the VS Code extension API.', 62, 5051, ['octref','mjbvz'], '2022-01-21T03:55:19.59258'),
 (4274, 11777161, 54346799, 'public-apis/public-apis', 11, 'A collective list of free APIs', 5, 175866, ['davemachado','matheusfelipeog'], '2022-01-21T03:55:20.170405'),
+(4273, 1228996, 45603512, 'microsoft/vscode-extension-samples', 12, 'Sample code illustrating the VS Code extension API.', 62, 5051, ['octref','mjbvz'], '2022-01-21T03:55:19.59258'),
 (4275, 6265396, 16577072, 'raspberrypi/documentation', 15, 'The official documentation for Raspberry Pi computers and microcontrollers', 21, 4446, ['JamesH65','bennuttall'], '2022-01-21T03:55:20.529332'),
 (4276, 1228996, 191414235, 'orbit-love/orbit-model', 13, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-21T03:55:20.960726'),
 (4277, 3861088, 128237146, 'vuejs/vuepress', 12, '📝 Minimalistic Vue-powered static site generator', 516, 19865, ['ulivz','yyx990803'], '2022-01-21T03:55:21.086108'),
@@ -4420,8 +4420,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4361, 24217493, 340306054, 'Jussii/JunctionAppTesting', 2, 'All-in-one hackathon platform for organisers', 0, 1, ['juiceo','Earlo'], '2022-01-21T04:01:28.398978'),
 (4362, 3792749, 411003249, 'mtfoley/pr-compliance-action', 0, 'Check PR for compliance on title, linked issues, and files changed', 5, 114, ['mtfoley','MichaelDeBoey'], '2022-01-21T04:01:28.634051'),
 (4363, 54776315, 295992065, 'tailwindlabs/headlessui', 0, 'Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.', 81, 12761, ['RobinMalfait','adamwathan'], '2022-01-21T04:01:28.714664'),
-(4364, 29547465, 368658267, 'Rich-Harris/svelte-cubed', 0, 'Svelte ❤️ Three', 35, 808, ['Rich-Harris','gonfva'], '2022-01-21T04:01:28.996828'),
 (4365, 54776315, 270657720, 'vuesomedev/awesome-vue-3', 1, 'A curated list of awesome things related to Vue 3', 24, 925, ['vuesomedev','HJ29'], '2022-01-21T04:01:30.011571'),
+(4364, 29547465, 368658267, 'Rich-Harris/svelte-cubed', 0, 'Svelte ❤️ Three', 35, 808, ['Rich-Harris','gonfva'], '2022-01-21T04:01:28.996828'),
 (4366, 3450257, 383845445, 'wildmaples/minimal-ruby-project', 1, 'A minimal Ruby project template', 2, 40, ['wildmaples'], '2022-01-21T04:01:30.208731'),
 (4367, 3792749, 221981891, 'microsoft/playwright', 1, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 374, 32544, ['pavelfeldman','dgozman'], '2022-01-21T04:01:30.258288'),
 (4368, 29547465, 261049563, 'LottieFiles/svelte-lottie-player', 1, 'Lottie Player component for Svelte', 5, 80, ['jawish','karamalie'], '2022-01-21T04:01:30.265462'),
@@ -7522,8 +7522,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7504, 24553355, 32688481, 'frontendfront/front-end-conferences', 26, 'This is a list of upcoming front-end related conferences.', 1, 561, ['frontendfront','AllThingsSmitty'], '2022-01-22T08:39:17.643891'),
 (7505, 23166349, 164225648, 'David-VTUK/CKA-StudyGuide', 29, 'Study guide for the CKA exam', 0, 699, ['David-VTUK','chipzoller'], '2022-01-22T08:39:18.249724'),
 (7506, 10951893, 254660586, 'openmainframeproject/cobol-programming-course', 29, 'Training materials and labs for a ''Getting Started'' level course on COBOL', 9, 1991, ['MikeBauerCA','tanto259'], '2022-01-22T08:39:18.708729'),
-(7508, 45293863, 24195339, 'angular/angular', 28, 'The modern web developer’s platform', 1877, 79111, ['gkalpak','petebacondarwin'], '2022-01-22T08:39:18.998768'),
 (7507, 24553355, 304026138, 'masaun/NFT-auth-token', 27, 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', 0, 13, ['masaun'], '2022-01-22T08:39:18.847194'),
+(7508, 45293863, 24195339, 'angular/angular', 28, 'The modern web developer’s platform', 1877, 79111, ['gkalpak','petebacondarwin'], '2022-01-22T08:39:18.998768'),
 (7509, 45293863, 300313988, 'cyberpartizans/face_recognition', 29, null, 1, 40, ['allyouneediscv','feanor-on-fire'], '2022-01-22T08:39:20.252473'),
 (7510, 24553355, 343553753, 'PatrickAlphaC/nft-mix', 28, null, 3, 577, ['PatrickAlphaC','albertoxamin'], '2022-01-22T08:39:20.268742'),
 (7511, 24553355, 362276202, 'Azure/counterfit', 29, 'a CLI that provides a generic automation layer for assessing the security of ML models', 10, 485, ['rdheekonda','moohax'], '2022-01-22T08:39:21.528738'),
