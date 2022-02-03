@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T04:47:55.243Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T06:47:05.865Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -7862,13 +7862,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7824, 17373317, 74682861, 'nagygergo/jetbrains-toolbox-install', 0, 'Installer for jetbrains toolbox', 2, 154, ['nagygergo','ziegenberg'], '2022-01-22T09:06:09.531594'),
 (7825, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17556, ['chrismccord','josevalim'], '2022-01-22T09:06:09.754052'),
 (7826, 17373317, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 1, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10319, ['abhisheknaiidu','ABSphreak'], '2022-01-22T09:06:11.06856'),
-(7827, 74208843, 38632468, 'graphql-dotnet/graphql-dotnet', 1, 'GraphQL for .NET', 164, 5071, ['joemcbride','sungam3r'], '2022-01-22T09:06:11.089314'),
 (7828, 505751, 196530922, 'jorgenkg/promise-priority-queue', 1, 'Async bucket priority queue implemented in Typescript', 1, 3, ['renovate-bot','jorgengrimnes'], '2022-01-22T09:06:11.117801'),
 (7829, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T09:06:11.310892'),
 (7830, 2607477, 18369373, 'spf13/viper', 1, 'Go configuration with fangs', 412, 18013, ['sagikazarmark','spf13'], '2022-01-22T09:06:12.175364'),
 (7831, 17373317, 267956009, 'jdubois/azure-native-spring-function', 2, 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', 0, 52, ['jdubois','AzureAdvocateBit'], '2022-01-22T09:06:12.632325'),
 (7832, 74208843, 154143869, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 388, ['OdeToCode','ameyer117'], '2022-01-22T09:06:12.735651'),
 (7833, 505751, 177033748, 'atlassian/changesets', 2, '🦋       A way to manage your versioning and changelogs with a focus on monorepos', 177, 2536, ['Noviny','mitchellhamilton'], '2022-01-22T09:06:12.823138'),
+(7827, 74208843, 38632468, 'graphql-dotnet/graphql-dotnet', 1, 'GraphQL for .NET', 164, 5071, ['joemcbride','sungam3r'], '2022-01-22T09:06:11.089314'),
 (7834, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T09:06:12.842075'),
 (7835, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 477, 54941, ['manucorporat','javierprovecho'], '2022-01-22T09:06:14.002398'),
 (7836, 74208843, 206982984, 'kamranahmedse/roadmap.sh', 3, 'Community driven roadmaps, articles and resources for developers', 107, 1731, ['kamranahmedse','lex111'], '2022-01-22T09:06:14.276469'),
