@@ -100,7 +100,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: diagram
-          path: public/diagram.svg
+          path: public/
 
       - name: "📂 download database artifacts"
         uses: actions/download-artifact@v2
