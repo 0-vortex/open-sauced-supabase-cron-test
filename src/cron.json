@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-02-03T18:08:29.887Z",
+  "lastExecuted": "2022-02-03T18:19:17.693Z",
   "checked": {
     "siddharth2798": {
       "owner": "siddharth2798",
@@ -1174,17 +1174,17 @@
     "guillaumemillot": {
       "owner": "guillaumemillot",
       "notFound": true,
-      "lastExecuted": "2022-02-03T06:02:13.154Z"
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     },
     "gavinhenderson": {
       "owner": "gavinhenderson",
       "notFound": true,
-      "lastExecuted": "2022-02-03T06:02:13.154Z"
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     },
     "eps1lon": {
       "owner": "eps1lon",
       "notFound": false,
-      "lastExecuted": "2022-02-03T06:02:13.154Z"
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     },
     "acao": {
       "owner": "acao",
@@ -1204,7 +1204,7 @@
     "Mogakamo": {
       "owner": "Mogakamo",
       "notFound": false,
-      "lastExecuted": "2022-02-03T06:02:13.154Z"
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     },
     "mccor2000": {
       "owner": "mccor2000",
@@ -1234,7 +1234,7 @@
     "ColomboJuan": {
       "owner": "ColomboJuan",
       "notFound": false,
-      "lastExecuted": "2022-02-03T06:02:13.154Z"
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     },
     "deenadayalancs": {
       "owner": "deenadayalancs",
@@ -1480,6 +1480,11 @@
       "owner": "viniciusccarvalho",
       "notFound": true,
       "lastExecuted": "2022-02-03T17:03:09.810Z"
+    },
+    "lucmichalski": {
+      "owner": "lucmichalski",
+      "notFound": true,
+      "lastExecuted": "2022-02-03T18:19:17.693Z"
     }
   }
 }
