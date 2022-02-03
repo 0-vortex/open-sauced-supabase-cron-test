@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T01:02:53.602Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T02:47:23.658Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1675,6 +1675,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1666, 7293310, 294893525, 'alephjs/aleph.js', 27, 'The Full-stack Framework in Deno.', 61, 3546, ['ije','shadowtime2000'], '2022-01-20T23:06:36.8267'),
 (1667, 20734038, 32484381, 'ripienaar/free-for-dev', 28, 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', 21, 52728, ['ripienaar','TraderStf'], '2022-01-20T23:06:37.232112'),
 (1668, 20734038, 112369276, 'Unity-Technologies/com.unity.cinemachine', 29, 'Smart camera tools for passionate creators', 23, 278, ['glabute','gaborkb'], '2022-01-20T23:06:38.523869'),
+(1669, 7293310, 1039520, 'ytdl-org/youtube-dl', 28, 'Command-line program to download videos from YouTube.com and other video sites', 5030, 105293, ['dstftw','phihag'], '2022-01-20T23:06:38.531054'),
+(1670, 7293310, 144349270, 'samuelmaddock/metastream', 29, 'Watch streaming media with friends.', 184, 1951, ['samuelmaddock','Sxigames'], '2022-01-20T23:06:39.882914'),
+(1671, 2339101, 243288155, 'abertschi/graalphp', 0, 'An efficient PHP implementation built on GraalVM ', 25, 261, ['abertschi','COil'], '2022-01-20T23:15:34.174391'),
 (1672, 5901851, 130597640, 'GantMan/ReactStateMuseum', 0, 'A whirlwind tour of React state management systems by example', 21, 1483, ['GantMan','marcelkalveram'], '2022-01-20T23:15:34.859736'),
 (1673, 2339101, 107111421, 'thedaviddias/Front-End-Checklist', 1, '🗂 The perfect Front-End Checklist for modern websites and meticulous developers', 9, 57800, ['thedaviddias','jochenkirstaetter'], '2022-01-20T23:15:36.270138'),
 (1674, 5901851, 202693400, 'rougier/scientific-visualization-book', 1, 'An open access book on scientific visualization using python and matplotlib', 14, 6643, ['rougier','kinow'], '2022-01-20T23:15:36.462517'),
@@ -1729,11 +1732,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1721, 2339101, 40545736, 'DATA-DOG/DataDogAuditBundle', 25, 'Stores all database changes for doctrine ORM', 22, 120, ['l3pp4rd','natewiebe13'], '2022-01-20T23:16:15.211742'),
 (1722, 2339101, 43197254, 'tombuyse/ionic-appium-protractor-example', 26, 'This is an example app to show you how to configure appium and protractor to test an Ionic application', 3, 28, ['tombuyse','Bessonov'], '2022-01-20T23:16:16.764088'),
 (1723, 5901851, 315741849, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 7, 716, ['maxkeppeler','Nthily'], '2022-01-20T23:16:16.832708'),
-(1669, 7293310, 1039520, 'ytdl-org/youtube-dl', 28, 'Command-line program to download videos from YouTube.com and other video sites', 5030, 105293, ['dstftw','phihag'], '2022-01-20T23:06:38.531054'),
 (1724, 2339101, 26557412, 'wordpress-clients/hybrid', 27, '[I don''t have time to work on this anymore. Use at your own risk] Build WordPress based PWA, iOS, Android & Windows phones apps in minutes!', 55, 1028, ['shprink','mingxia'], '2022-01-20T23:16:18.016037'),
 (1725, 5901851, 174766902, 'afollestad/recyclical', 26, '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', 12, 700, ['afollestad','Johnett'], '2022-01-20T23:16:18.088946'),
-(1727, 5901851, 224247781, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1491, ['nikhilpanju'], '2022-01-20T23:16:19.597801'),
 (1726, 2339101, 18627196, 'sirian/suggest-bundle', 28, null, 4, 24, ['sirian','bulychev'], '2022-01-20T23:16:19.460875'),
+(1727, 5901851, 224247781, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1491, ['nikhilpanju'], '2022-01-20T23:16:19.597801'),
 (1728, 2339101, 55896045, 'DrBenton/rougemine.com-online-resume', 29, 'My over-engineered online resume', 19, 1, ['DrBenton'], '2022-01-20T23:16:20.915894'),
 (1729, 5901851, 199327580, 'MindorksOpenSource/android-developer-roadmap', 28, 'Android Developer Roadmap - A complete roadmap to learn Android App Development', 12, 2187, ['amitshekhariitbhu','isfaaghyth'], '2022-01-20T23:16:21.177088'),
 (1730, 5901851, 217545172, 'ibrahimsn98/SmoothBottomBar', 29, 'A lightweight Android material bottom navigation bar library', 34, 1515, ['ibrahimsn98','mayokunadeniyi'], '2022-01-20T23:16:22.337588'),
@@ -2145,8 +2147,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2102, 74208843, 38632468, 'graphql-dotnet/graphql-dotnet', 1, 'GraphQL for .NET', 164, 5069, ['joemcbride','sungam3r'], '2022-01-21T00:07:27.619442'),
 (2103, 4910518, 205593063, 'tmc/dlp', 0, 'DLP (data loss prevention) tools.', 6, 2, ['tmc','snyk-bot'], '2022-01-21T00:07:28.885698'),
 (2104, 74208843, 154143869, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 387, ['OdeToCode','ameyer117'], '2022-01-21T00:07:28.91045'),
-(2106, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 28, 17556, ['chrismccord','josevalim'], '2022-01-21T00:07:29.230258'),
 (2105, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-21T00:07:29.076359'),
+(2106, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 28, 17556, ['chrismccord','josevalim'], '2022-01-21T00:07:29.230258'),
 (2107, 12410942, 127035128, 'Shopify/quilt', 0, 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', 102, 1127, ['lemonmade','michenly'], '2022-01-21T00:07:29.632515'),
 (2108, 4910518, 413929478, 'zkoppert/advanced-security-enforcer', 1, 'A GitHub action for organizations that enables advanced security code scanning on all new repos', 1, 22, ['zkoppert','lindluni'], '2022-01-21T00:07:30.221776'),
 (2109, 74208843, 206982984, 'kamranahmedse/roadmap.sh', 3, 'Community driven roadmaps, articles and resources for developers', 107, 1730, ['kamranahmedse','lex111'], '2022-01-21T00:07:30.267041'),
@@ -2221,8 +2223,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2177, 289882, 44623798, 'ASoftCo/leaky-gems', 15, 'A list of Ruby gems that have known memory leaks (and issues)', 1, 901, ['sergey-alekseev','benoittgt'], '2022-01-21T00:08:00.416334'),
 (2178, 26007940, 297354816, 'zero-to-mastery/Keiko-Corp', 23, 'HTML challenge for Hacktoberfest 2020', 12, 204, ['brittneypostma','dpcoolmufa'], '2022-01-21T00:08:00.463298'),
 (2179, 12410942, 247253582, 'sunny/actor', 24, 'Composable Ruby service objects', 5, 202, ['sunny','ylecuyer'], '2022-01-21T00:08:00.481284'),
-(1670, 7293310, 144349270, 'samuelmaddock/metastream', 29, 'Watch streaming media with friends.', 184, 1951, ['samuelmaddock','Sxigames'], '2022-01-20T23:06:39.882914'),
-(1671, 2339101, 243288155, 'abertschi/graalphp', 0, 'An efficient PHP implementation built on GraalVM ', 25, 261, ['abertschi','COil'], '2022-01-20T23:15:34.174391'),
 (2180, 12410942, 202770236, 'unboundedsystems/adapt', 25, 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', 10, 328, ['mterrel','mvachhar'], '2022-01-21T00:08:01.939762'),
 (2181, 289882, 18957477, 'gwincr11/shopify-starter', 16, null, 1, 67, ['gwincr11'], '2022-01-21T00:08:01.984527'),
 (2182, 26007940, 73648678, 'forem/forem', 24, 'For empowering community 🌱', 413, 18487, ['benhalpern','rhymes'], '2022-01-21T00:08:02.582803'),
@@ -3281,8 +3281,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3236, 66239105, 282194280, 'SanchitaMishra170676/To-Do-Blockchain', 10, 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', 5, 1, ['SanchitaMishra170676'], '2022-01-21T02:45:50.360167'),
 (3237, 34394719, 21393871, 'sorrycc/awesome-javascript', 7, '🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.', 36, 26488, ['sorrycc','gokaygurcan'], '2022-01-21T02:45:50.615768'),
 (3238, 34903088, 154829724, 'CSFrequency/react-firebase-hooks', 13, 'React Hooks for Firebase.', 9, 2293, ['chrisbianca','andipaetzold'], '2022-01-21T02:45:51.229223'),
-(3240, 34394719, 132720941, 'AndrewKishino/sotez', 8, 'A JS Library for Tezos', 5, 58, ['AndrewKishino','CherryDT'], '2022-01-21T02:45:52.149882'),
 (3239, 49831545, 44303047, 'moses-palmer/pynput', 14, 'Sends virtual input commands', 75, 1063, ['moses-palmer','munsuri'], '2022-01-21T02:45:51.239095'),
+(3240, 34394719, 132720941, 'AndrewKishino/sotez', 8, 'A JS Library for Tezos', 5, 58, ['AndrewKishino','CherryDT'], '2022-01-21T02:45:52.149882'),
 (3241, 49831545, 185908133, 'gnembon/fabric-carpet', 15, 'Fabric Carpet', 184, 1021, ['gnembon','Ghoulboy78'], '2022-01-21T02:45:52.640325'),
 (3242, 34903088, 184879908, 'iwgx/downtown', 14, ':hourglass: Well-crafted countdown timer', 5, 10, ['iwgx'], '2022-01-21T02:45:52.678668'),
 (3243, 34394719, 141910081, 'faressoft/terminalizer', 9, '🦄 Record your terminal and generate animated gif images or share a web player', 102, 12259, ['faressoft','noplanman'], '2022-01-21T02:45:53.694798'),
