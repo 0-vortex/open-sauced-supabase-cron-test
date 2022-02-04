@@ -35,7 +35,6 @@ jobs:
           tar -xf tbls.tar.gz
           sudo mv tbls /usr/local/bin/
           rm tbls.tar.gz
-          ls -lahH
 
       - name: "📊 database visualizer"
         run: tbls doc --rm-dist
