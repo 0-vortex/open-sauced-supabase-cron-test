@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-02-04T19:23:48.428Z",
+  "lastExecuted": "2022-02-04T19:37:07.485Z",
   "checked": {
     "siddharth2798": {
       "owner": "siddharth2798",
@@ -24,17 +24,17 @@
     "prophen": {
       "owner": "prophen",
       "notFound": false,
-      "lastExecuted": "2022-02-04T07:30:44.784Z"
+      "lastExecuted": "2022-02-04T19:37:07.485Z"
     },
     "djdefi": {
       "owner": "djdefi",
       "notFound": false,
-      "lastExecuted": "2022-02-04T07:30:44.784Z"
+      "lastExecuted": "2022-02-04T19:37:07.485Z"
     },
     "msradam": {
       "owner": "msradam",
       "notFound": false,
-      "lastExecuted": "2022-02-04T07:30:44.784Z"
+      "lastExecuted": "2022-02-04T19:37:07.485Z"
     },
     "vincentmuriuki": {
       "owner": "vincentmuriuki",
@@ -1485,6 +1485,11 @@
       "owner": "lucmichalski",
       "notFound": true,
       "lastExecuted": "2022-02-04T18:29:53.072Z"
+    },
+    "yasir2000": {
+      "owner": "yasir2000",
+      "notFound": true,
+      "lastExecuted": "2022-02-04T19:37:07.485Z"
     }
   }
 }
