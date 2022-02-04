@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T02:44:27.469Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T04:44:15.722Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3351,8 +3351,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3305, 66239105, 376296039, 'vibalijoshi/List-of-Opportunities', 29, 'Keep track of opportunities and never miss a deadline again!', 0, 306, ['vibalijoshi','sadn1ck'], '2022-01-21T02:46:24.984934'),
 (3306, 34394719, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 25, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10300, ['abhisheknaiidu','ABSphreak'], '2022-01-21T02:46:29.152225'),
 (3307, 34394719, 108708339, 'sudheerj/javascript-interview-questions', 26, 'List of 1000 JavaScript Interview Questions', 6, 7514, ['sudheerj','zonayedpca'], '2022-01-21T02:46:30.646573'),
-(3309, 34394719, 60027534, 'Awesome-Windows/Awesome', 28, ':computer: 🎉 An awesome & curated list of best applications and tools for Windows.', 78, 17829, ['rahulkapoor90','alex-lit'], '2022-01-21T02:46:33.617393'),
 (3308, 34394719, 176940773, 'rleija703/react-examples', 27, null, 38, 38, [], '2022-01-21T02:46:32.125614'),
+(3309, 34394719, 60027534, 'Awesome-Windows/Awesome', 28, ':computer: 🎉 An awesome & curated list of best applications and tools for Windows.', 78, 17829, ['rahulkapoor90','alex-lit'], '2022-01-21T02:46:33.617393'),
 (3310, 34394719, 250355030, 'schneefux/vscode-winddown', 29, 'VS Code extension that encourages you to take a break.', 0, 314, ['schneefux'], '2022-01-21T02:46:34.98259'),
 (3311, 39362365, 398914163, 'dabit3/chicken-tikka-masala-recipe', 0, 'Nader''s chicken tikka masala recipe', 7, 188, ['dabit3','maksimovic'], '2022-01-21T02:53:29.687585'),
 (3312, 39362365, 352188463, 'writewithocto/ink', 1, 'The configurable, embeddable, extensible JavaScript Markdown editor that powers https://octo.app.', 1, 43, ['voraciousdev'], '2022-01-21T02:53:31.313877'),
@@ -3976,7 +3976,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3929, 569510, 107914493, 'simonw/datasette', 13, 'An open source multi-tool for exploring and publishing data', 346, 5730, ['simonw','russss'], '2022-01-21T03:34:54.42688'),
 (3930, 4247126, 123979143, 'zero-to-mastery/ZtM-Job-Board', 8, '⚛️ A place for developers to show recruiters they are available for hire', 21, 637, ['SamirJouni','StefanSelfTaught'], '2022-01-21T03:34:54.487407'),
 (3931, 57826091, 74293321, 'sveltejs/svelte', 12, 'Cybernetically enhanced web apps', 637, 54995, ['Rich-Harris','Conduitry'], '2022-01-21T03:34:55.113751'),
-(3932, 5842360, 207117992, 'viraptor/reverse-interview', 14, 'Questions to ask the company during your interview', 25, 19953, ['viraptor','sherifsaleh'], '2022-01-21T03:34:55.34123'),
 (3933, 569510, 332479921, 'nix-community/lorri', 14, 'Your project’s nix-env [maintainer=@Profpatsch]', 25, 219, ['Profpatsch','grahamc'], '2022-01-21T03:34:55.698222'),
 (3934, 4247126, 196662111, 'mdb1710/mnmlurl', 9, '🔗 Modern URL shortener with support for custom alias', 0, 2, ['liyasthomas','mdb1710'], '2022-01-21T03:34:55.740402'),
 (3935, 72279316, 41589399, 'gilbox/react-track', 13, 'Track the position of DOM elements. Create cool animations.', 3, 337, ['gilbox','andreypopp'], '2022-01-21T03:34:56.319484'),
@@ -4200,9 +4199,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4155, 57373172, 172562475, 'florinpop17/app-ideas', 16, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T03:49:31.570872'),
 (4156, 3340406, 163068024, 'h44z/gitlab_to_gitea', 14, 'Gitlab to Gitea migration script.', 0, 41, ['h44z','trailfog'], '2022-01-21T03:49:31.634216'),
 (4157, 57373172, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T03:49:32.301923'),
-(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4159, 118037, 256611909, 'fedecalendino/wrap-genius', 15, 'Unofficial python wrapper for genius'' API.', 0, 3, ['fedecalendino'], '2022-01-21T03:49:32.44226'),
 (4160, 3340406, 175055371, 'manios/docker-nagios', 15, 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', 8, 32, ['manios'], '2022-01-21T03:49:33.062872'),
+(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4161, 14868216, 45947467, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 165, 5433, ['insin','ntwcklng'], '2022-01-21T03:49:33.523294'),
 (4162, 118037, 308312105, 'fedecalendino/spotibot', 16, 'Collection of bots for Spotify', 0, 1, ['fedecalendino'], '2022-01-21T03:49:33.864961'),
 (4163, 57373172, 44882201, 'MunGell/awesome-for-beginners', 18, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:49:34.20996'),
@@ -4351,6 +4350,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4304, 3861088, 107150504, 'whuang8/herp-derp', 17, 'Speed Game', 0, 1, ['whuang8','jonathanyeong'], '2022-01-21T03:55:28.48964'),
 (4305, 6265396, 343204738, 'geerlingguy/obs-task-list-overlay', 21, 'An HTML and Node.js-based task list overlay for OBS.', 1, 83, ['geerlingguy','glensouza'], '2022-01-21T03:55:29.079588'),
 (4306, 11777161, 323776844, 'jordanliu/made-in-jamaica', 18, 'A curation of tools and projects built by Jamaican developers 🔥 🇯🇲', 0, 20, ['jordanliu','Rift3000'], '2022-01-21T03:55:29.53312'),
+(3932, 5842360, 207117992, 'viraptor/reverse-interview', 14, 'Questions to ask the company during your interview', 25, 19953, ['viraptor','sherifsaleh'], '2022-01-21T03:34:55.34123'),
 (4307, 1228996, 156217558, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 133, 2837, ['Chuxel','chrmarti'], '2022-01-21T03:55:29.863828'),
 (4846, 211851, 268556270, 'bradleytaunt/wyf', 8, 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', 0, 5, ['bradleytaunt'], '2022-01-21T04:47:38.51034'),
 (4847, 527550, 45723377, 'charlax/professional-programming', 7, 'A collection of full-stack resources for programmers.', 1, 16015, ['charlax','laithshadeed'], '2022-01-21T04:47:38.82649'),
