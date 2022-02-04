@@ -5,6 +5,29 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.7.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.8...v1.7.0) (2022-02-04)
+
+
+### 🍕 Features
+
+* cache tbls for other workflow steps ([b4e68fa](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/b4e68fa9e1f5b43e1271d43a01b469502df66abd))
+
+
+### ✅ Tests
+
+* try to correct tbls install in runner ([c338826](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/c338826e4944fe95ffba4fa1e3c5692814446daa))
+
+
+### 🐛 Bug Fixes
+
+* correct tbls artifact ([2a3673b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/2a3673b5e22ddf3d03a914eb1fd2aa02d8ccc14e))
+* test tbls archive ([c196b25](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/c196b256a11f2ac5b262562f07c3795ff4840ca1))
+
+
+### 🎨 Styles
+
+* remove tbls logging ([3afedbd](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/3afedbd8ca0ddf74ac612ccfcaa7f34154eaa469))
+
 ### [1.6.8](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.7...v1.6.8) (2022-02-03)
 
 
