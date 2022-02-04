@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T04:44:15.722Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T06:44:15.625Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3976,6 +3976,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3929, 569510, 107914493, 'simonw/datasette', 13, 'An open source multi-tool for exploring and publishing data', 346, 5730, ['simonw','russss'], '2022-01-21T03:34:54.42688'),
 (3930, 4247126, 123979143, 'zero-to-mastery/ZtM-Job-Board', 8, '⚛️ A place for developers to show recruiters they are available for hire', 21, 637, ['SamirJouni','StefanSelfTaught'], '2022-01-21T03:34:54.487407'),
 (3931, 57826091, 74293321, 'sveltejs/svelte', 12, 'Cybernetically enhanced web apps', 637, 54995, ['Rich-Harris','Conduitry'], '2022-01-21T03:34:55.113751'),
+(3932, 5842360, 207117992, 'viraptor/reverse-interview', 14, 'Questions to ask the company during your interview', 25, 19953, ['viraptor','sherifsaleh'], '2022-01-21T03:34:55.34123'),
 (3933, 569510, 332479921, 'nix-community/lorri', 14, 'Your project’s nix-env [maintainer=@Profpatsch]', 25, 219, ['Profpatsch','grahamc'], '2022-01-21T03:34:55.698222'),
 (3934, 4247126, 196662111, 'mdb1710/mnmlurl', 9, '🔗 Modern URL shortener with support for custom alias', 0, 2, ['liyasthomas','mdb1710'], '2022-01-21T03:34:55.740402'),
 (3935, 72279316, 41589399, 'gilbox/react-track', 13, 'Track the position of DOM elements. Create cool animations.', 3, 337, ['gilbox','andreypopp'], '2022-01-21T03:34:56.319484'),
@@ -4199,9 +4200,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4155, 57373172, 172562475, 'florinpop17/app-ideas', 16, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T03:49:31.570872'),
 (4156, 3340406, 163068024, 'h44z/gitlab_to_gitea', 14, 'Gitlab to Gitea migration script.', 0, 41, ['h44z','trailfog'], '2022-01-21T03:49:31.634216'),
 (4157, 57373172, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T03:49:32.301923'),
+(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4159, 118037, 256611909, 'fedecalendino/wrap-genius', 15, 'Unofficial python wrapper for genius'' API.', 0, 3, ['fedecalendino'], '2022-01-21T03:49:32.44226'),
 (4160, 3340406, 175055371, 'manios/docker-nagios', 15, 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', 8, 32, ['manios'], '2022-01-21T03:49:33.062872'),
-(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4161, 14868216, 45947467, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 165, 5433, ['insin','ntwcklng'], '2022-01-21T03:49:33.523294'),
 (4162, 118037, 308312105, 'fedecalendino/spotibot', 16, 'Collection of bots for Spotify', 0, 1, ['fedecalendino'], '2022-01-21T03:49:33.864961'),
 (4163, 57373172, 44882201, 'MunGell/awesome-for-beginners', 18, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:49:34.20996'),
@@ -4350,7 +4351,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4304, 3861088, 107150504, 'whuang8/herp-derp', 17, 'Speed Game', 0, 1, ['whuang8','jonathanyeong'], '2022-01-21T03:55:28.48964'),
 (4305, 6265396, 343204738, 'geerlingguy/obs-task-list-overlay', 21, 'An HTML and Node.js-based task list overlay for OBS.', 1, 83, ['geerlingguy','glensouza'], '2022-01-21T03:55:29.079588'),
 (4306, 11777161, 323776844, 'jordanliu/made-in-jamaica', 18, 'A curation of tools and projects built by Jamaican developers 🔥 🇯🇲', 0, 20, ['jordanliu','Rift3000'], '2022-01-21T03:55:29.53312'),
-(3932, 5842360, 207117992, 'viraptor/reverse-interview', 14, 'Questions to ask the company during your interview', 25, 19953, ['viraptor','sherifsaleh'], '2022-01-21T03:34:55.34123'),
 (4307, 1228996, 156217558, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 133, 2837, ['Chuxel','chrmarti'], '2022-01-21T03:55:29.863828'),
 (4846, 211851, 268556270, 'bradleytaunt/wyf', 8, 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', 0, 5, ['bradleytaunt'], '2022-01-21T04:47:38.51034'),
 (4847, 527550, 45723377, 'charlax/professional-programming', 7, 'A collection of full-stack resources for programmers.', 1, 16015, ['charlax','laithshadeed'], '2022-01-21T04:47:38.82649'),
@@ -8939,9 +8939,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8853, 49831545, 365515491, 'Smart6502/plutonem', 17, 'A C, C++, Rust and COBOL library to draw graphics with pixels in the terminal', 0, 64, ['Smart6502','PQCraft'], '2022-01-22T10:26:56.182831'),
 (8854, 42211, 277357823, 'timdeschryver/rx-query', 13, null, 2, 169, ['timdeschryver','berthertogen'], '2022-01-22T10:26:56.894942'),
 (8855, 66239105, 8843683, 'chartjs/Chart.js', 14, 'Simple HTML5 Charts using the <canvas> tag', 119, 55933, ['etimberg','kurkle'], '2022-01-22T10:26:56.934125'),
-(8856, 39362365, 2126244, 'twbs/bootstrap', 12, 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', 478, 155021, ['mdo','cvrebert'], '2022-01-22T10:26:57.101368'),
 (8857, 34394719, 97947902, 'aai210/Best-on-CodePen', 16, 'Here collected a collection of favorite CodePen', 0, 12, ['aai210'], '2022-01-22T10:26:57.397977'),
 (8858, 49831545, 27574418, 'ryanoasis/nerd-fonts', 18, 'Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more', 237, 32578, ['ryanoasis','sharkusk'], '2022-01-22T10:26:57.557508'),
+(8856, 39362365, 2126244, 'twbs/bootstrap', 12, 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', 478, 155021, ['mdo','cvrebert'], '2022-01-22T10:26:57.101368'),
 (8859, 42211, 372098732, 'nartc/ngrx-slice', 14, 'createSlice for NgRX', 0, 47, ['nartc'], '2022-01-22T10:26:58.254745'),
 (8860, 66239105, 314001843, 'danba340/react-three-fiber-example', 15, null, 0, 54, ['danba340'], '2022-01-22T10:26:58.284093'),
 (8861, 39362365, 13601190, 'agentejo/cockpit', 13, 'Add content management functionality to any site - plug & play / headless / api-first CMS', 279, 5209, ['aheinze','raffaelj'], '2022-01-22T10:26:58.651809'),
