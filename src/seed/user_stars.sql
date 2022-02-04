@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T14:44:43.464Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T16:47:48.074Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -7106,9 +7106,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7041, 1930729, 11481338, 'zloirock/core-js', 18, 'Standard Library', 21, 16097, ['zloirock','slowcheetah'], '2022-01-22T07:36:36.955833'),
 (7042, 1930729, 84238782, 'sapegin/jest-cheat-sheet', 19, 'Jest cheat sheet', 0, 4352, ['sapegin','bjoluc'], '2022-01-22T07:36:38.283316'),
 (7043, 1930729, 3402537, 'h5bp/Front-end-Developer-Interview-Questions', 20, 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', 7, 51945, ['darcyclarke','appleboy'], '2022-01-22T07:36:40.456321'),
+(7044, 1930729, 125241315, 'lordpoint/xorshift-sandbox-and-visualizer', 21, 'An implementation of the xorshift+ pseudo-random number generation (PRNG) algorithm in javascript that provides visualization of the algorithm''s outcome in order to help understand its apparent randomness', 3, 32, ['lordpoint'], '2022-01-22T07:36:41.714814'),
 (7045, 1255918, 1062897, 'github/gitignore', 20, 'A collection of useful .gitignore templates', 210, 128620, ['shiftkey','arcresu'], '2022-01-22T07:36:41.7413'),
 (7046, 1930729, 213720286, 'eps1lon/dom-accessibility-api', 22, 'Implements https://w3c.github.io/accname/', 8, 49, ['eps1lon','calebeby'], '2022-01-22T07:36:43.085062'),
-(7044, 1930729, 125241315, 'lordpoint/xorshift-sandbox-and-visualizer', 21, 'An implementation of the xorshift+ pseudo-random number generation (PRNG) algorithm in javascript that provides visualization of the algorithm''s outcome in order to help understand its apparent randomness', 3, 32, ['lordpoint'], '2022-01-22T07:36:41.714814'),
 (7047, 1255918, 6326227, 'metamaps/metamaps', 21, 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', 195, 117, ['devvmh','Connoropolous'], '2022-01-22T07:36:43.102855'),
 (7048, 1930729, 149638165, 'testing-library/user-event', 23, '🐕 Simulate user events', 17, 1502, ['Gpx','ph-fritsche'], '2022-01-22T07:36:44.502543'),
 (7049, 1930729, 128778692, 'testing-library/jest-dom', 24, ':owl: Custom jest matchers to test the state of the DOM', 57, 2977, ['gnapse','smacpherson64'], '2022-01-22T07:36:45.864239'),
@@ -9125,10 +9125,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9039, 16942870, 101194285, 'NethermindEth/nethermind', 10, 'Our flagship .NET Core Ethereum client for Linux, Windows, MacOs - full and actively developed.', 178, 470, ['tkstanczak','LukaszRozmej'], '2022-01-22T10:41:58.133139'),
 (9040, 60254117, 331521421, 'udberg/RailsCarApp', 11, null, 0, 2, ['udberg'], '2022-01-22T10:41:58.167153'),
 (9041, 47711025, 1548202, 'matomo-org/matomo', 10, 'Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! ', 1897, 15842, ['mattab','tsteur'], '2022-01-22T10:41:58.636344'),
-(9045, 16942870, 147802356, 'ConsenSys/teku', 12, 'Java Implementation of the Ethereum 2.0 Beacon Chain', 100, 340, ['ajsutton','rolfyone'], '2022-01-22T10:42:00.832262'),
 (9042, 16942870, 117156031, 'prysmaticlabs/prysm', 11, 'Go implementation of Ethereum proof of stake', 165, 2364, ['terencechain','prestonvanloon'], '2022-01-22T10:41:59.554859'),
 (9043, 47711025, 145022044, 'HiKaylum/SpaceX-PY', 11, 'Python wrapper for the SpaceX API', 3, 11, ['HiKaylum'], '2022-01-22T10:41:59.72191'),
 (9044, 60254117, 332684562, 'udberg/BlogApp', 12, 'This project is a Twitter-styled microblog, with only users and short(micro) posts. Users have a unique identifier called id(of type integer), a publicly viewable name(of type string), and an email address(also of type string) that will double as a unique username. You can create, edit and destroy posts on the blog.', 0, 3, ['udberg'], '2022-01-22T10:41:59.737506'),
+(9045, 16942870, 147802356, 'ConsenSys/teku', 12, 'Java Implementation of the Ethereum 2.0 Beacon Chain', 100, 340, ['ajsutton','rolfyone'], '2022-01-22T10:42:00.832262'),
 (9046, 60254117, 331591342, 'udberg/RailsToyApp', 13, null, 0, 2, ['udberg'], '2022-01-22T10:42:00.987612'),
 (9047, 47711025, 212270676, 'edoardottt/programming-fundamentals', 12, 'Programming fundamentals.🧠 Material useful for learning Python, start coding and learn how to solve logically a real world problem.', 1, 10, ['edoardottt','POP1912'], '2022-01-22T10:42:01.117058'),
 (9048, 16942870, 139952333, 'sigp/lighthouse', 13, 'Rust Ethereum 2.0 Client', 148, 1439, ['paulhauner','AgeManning'], '2022-01-22T10:42:02.16349'),
