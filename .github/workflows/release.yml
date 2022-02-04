@@ -33,8 +33,9 @@ jobs:
           curl -sL https://github.com/k1LoW/tbls/releases/download/v1.54.2/tbls_v1.54.2_linux_amd64.tar.gz > tbls.tar.gz
           file tbls.tar.gz
           tar -xf tbls.tar.gz
-          ls -lahH
           sudo mv tbls /usr/local/bin/
+          rm tbls.tar.gz
+          ls -lahH
 
       - name: "📊 database visualizer"
         run: tbls doc --rm-dist
