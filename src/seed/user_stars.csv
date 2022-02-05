@@ -11870,6 +11870,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 357041459,16315404,175176201,alexfoxy/lax.js,0,Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.,5,8319,"[""alexfoxy"",""afanjul""]",2022-01-22T23:25:49.838802
 354384496,17671332,395413091,Mintbean/junior-developer-job-boards,0,,0,1,"[""Jc-008"",""monarchwadia""]",2022-01-22T23:25:49.868717
 451044473,11589902,38547977,nifemim/MosaicPlus,0,Just a repo to set up the website.,1,1,"[""charlesinjoroge"",""sarasolano""]",2022-01-26T08:52:14.619934
+455678420,6499373,26500787,tonsky/FiraCode,0,Free monospaced font with programming ligatures,295,61797,"[""tonsky"",""thundernixon""]",2022-02-05T07:40:40.618195
 402886161,29004466,370470353,ViktorStiskala/tyre-energy-label,0,EU tyre label generator,0,1,"[""ViktorStiskala""]",2022-01-22T21:18:27.505732
 403571490,46643864,184130597,AmitXShukla/Online-School-Management-App-Angular-Firebase,0,"Angular 11.0 Firebase App - Online School , Student Management App",0,142,"[""AmitXShukla""]",2022-01-22T21:18:27.536261
 403681762,203683,261871717,ThreeDotsLabs/wild-workouts-go-ddd-example,0,"Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.",21,2080,"[""roblaszczak"",""m110""]",2022-01-22T21:18:27.558976
