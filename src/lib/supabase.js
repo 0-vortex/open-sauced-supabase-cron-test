@@ -9,13 +9,13 @@ const supabaseUrl = process.env.SUPABASE_URL
 
 const supabase = createClient(supabaseUrl, anon_key)
 
-const supaCount = async (table, field = 'id') => supabase
+const supaCount = async (table, field = '*') => supabase
     .from(table)
     .select(field, {
       head: false,
       count: 'exact'
     })
-    .range(0, 0)
+    .range(0, 1)
 
 const supaDump = async (basePath, table, columns = [], rows = []) => {
   const timestamp = new Date().toISOString()
@@ -35,12 +35,16 @@ INSERT INTO ${table}(${columns.join(', ')}) VALUES
   await p(rows)
     .map(async row => file.write(`(${columns.map(col => JSON.stringify(row[col]))
       .join(', ')
+      .replaceAll('[', "{")
+      .replaceAll(']', "}")
       .replaceAll('\\"', "'")
       .replaceAll("\\'", "'")
       .replaceAll("'", "''")
       .replaceAll('"', "'")}),\n`))
     .then(() => file.write(`(${columns.map(col => JSON.stringify(finalRow[col]))
       .join(', ')
+      .replaceAll('[', "{")
+      .replaceAll(']', "}")
       .replaceAll('\\"', "'")
       .replaceAll("\\'", "'")
       .replaceAll("'", "''")

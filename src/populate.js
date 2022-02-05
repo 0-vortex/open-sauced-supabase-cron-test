@@ -1,13 +1,13 @@
 import { App } from 'octokit'
 import { writeFile } from 'node:fs/promises'
 
-import {supabase} from './lib/supabase.js'
+import { supabase } from './lib/supabase.js'
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
 import consoleHeader from './lib/consoleHeader.js'
 import cron from './cron.json'
 
-const limitDays = parseInt(process.env.LIMIT_DAYS) || 2
+const limitDays = parseInt(process.env.LIMIT_DAYS) || 1
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
 const checked = {...cron.checked}
 const lastExecuted = new Date()
@@ -15,7 +15,7 @@ const parsedCache = {}
 const parseInstallations = []
 const parseData = []
 
-consoleHeader('OPEN|SAUCED', {
+consoleHeader(' OPEN |SAUCED', {
   font: 'block',
 })
 console.log(`Started execution at ${lastExecuted}`)
