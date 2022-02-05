@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T22:08:17.999Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T22:19:50.012Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -6250,8 +6250,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6215, 26007940, 135786093, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 0, 31046, {'sw-yx','eps1lon'}, '2022-01-22T03:57:14.677505'),
 (6216, 12410942, 214587193, 'supabase/supabase', 2, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 208, 26853, {'kiwicopple','MildTomato'}, '2022-01-22T03:57:14.769345'),
 (6217, 29417643, 189282896, 'wesbos/beginner-javascript', 1, 'Slam Dunk JavaScript', 28, 5162, {'Asjas','wesbos'}, '2022-01-22T03:57:14.944423'),
-(6218, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 266, 509, {'mfuji09','SphinxKnight'}, '2022-01-22T03:57:15.39105'),
-(6219, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, {'mikeckennedy','hclivess'}, '2022-01-22T03:57:15.622132'),
 (6220, 1255918, 11056820, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6327, {'erikflowers','fox91'}, '2022-01-22T03:57:16.001152'),
 (6221, 12410942, 5219382, 'rack/rack-attack', 3, 'Rack middleware for blocking & throttling', 16, 5034, {'grzuy','ktheory'}, '2022-01-22T03:57:16.112297'),
 (6222, 26007940, 374950494, 'lkrryba/weekly-web-dev-challenge-poll', 3, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', 6, 43, {'lkrryba','DoubleNemesis'}, '2022-01-22T03:57:16.233469'),
@@ -6259,6 +6257,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6224, 289882, 33015583, 'keras-team/keras', 4, 'Deep Learning for humans', 263, 53765, {'fchollet','qlzh727'}, '2022-01-22T03:57:16.548944'),
 (6225, 1255918, 357019331, 'arctic-hen7/bonnie', 1, 'Simple, cross-platform, and fast command aliases with superpowers.', 3, 34, {'arctic-hen7','qpwo'}, '2022-01-22T03:57:16.67697'),
 (6226, 1930729, 52630616, 'apollographql/apollo-client', 1, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 569, 17198, {'benjamn','renovate-bot'}, '2022-01-22T03:57:17.241059'),
+(6218, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 266, 509, {'mfuji09','SphinxKnight'}, '2022-01-22T03:57:15.39105'),
+(6219, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, {'mikeckennedy','hclivess'}, '2022-01-22T03:57:15.622132'),
 (6227, 12410942, 33212527, 'RailsEventStore/rails_event_store', 4, 'A Ruby implementation of an Event Store based on Active Record', 81, 1080, {'pawelpacana','mpraglowski'}, '2022-01-22T03:57:17.665511'),
 (6228, 26007940, 13812337, 'osmlab/name-suggestion-index', 4, 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', 97, 450, {'bhousel','kjonosm'}, '2022-01-22T03:57:17.908129'),
 (6229, 1255918, 83889950, 'ssddanbrown/sslcheck', 2, 'Simple PHP script to check SSL expiry', 0, 64, {'ssddanbrown'}, '2022-01-22T03:57:18.0562'),
@@ -7038,8 +7038,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6972, 12410942, 360794368, 'hschne/rails-mini-profiler', 20, 'Performance profiling for Rails, made simple 🦔', 12, 359, {'hschne','olleolleolle'}, '2022-01-22T07:33:54.350926'),
 (6973, 26007940, 207892857, 'pluralsight/web-dev-starter', 21, null, 20, 217, {'sullysaurus'}, '2022-01-22T07:33:54.537121'),
 (6974, 289882, 36470617, 'smpallen99/ex_admin', 14, 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', 135, 1189, {'smpallen99','romul'}, '2022-01-22T07:33:55.164143'),
-(6975, 12410942, 93502827, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 400, {'palkan','caalberts'}, '2022-01-22T07:33:55.593254'),
 (6976, 26007940, 299642657, 'zero-to-mastery/ascii-art', 22, 'A ZTM Challenge for Hacktoberfest 2020', 4, 19, {'ndeoligence','sophiabrandt'}, '2022-01-22T07:33:55.954091'),
+(6975, 12410942, 93502827, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 400, {'palkan','caalberts'}, '2022-01-22T07:33:55.593254'),
 (6977, 289882, 44623798, 'ASoftCo/leaky-gems', 15, 'A list of Ruby gems that have known memory leaks (and issues)', 1, 901, {'sergey-alekseev','benoittgt'}, '2022-01-22T07:33:56.440699'),
 (6978, 12410942, 80016159, 'graphql/graphql-playground', 22, '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', 374, 7737, {'timsuchanek','huv1k'}, '2022-01-22T07:33:56.960201'),
 (6979, 26007940, 297354816, 'zero-to-mastery/Keiko-Corp', 23, 'HTML challenge for Hacktoberfest 2020', 12, 204, {'brittneypostma','dpcoolmufa'}, '2022-01-22T07:33:57.513016'),
