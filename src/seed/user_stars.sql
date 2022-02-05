@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T22:44:27.015Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T01:02:20.360Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4825,8 +4825,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4745, 15052690, 173377124, 'Gingertonic/movie-js-site-scraper-demo', 10, 'Demo using Watir to scrape a JS loading website', 2, 1, ['Gingertonic'], '2022-01-21T04:35:59.540916'),
 (4746, 25194960, 26500787, 'tonsky/FiraCode', 16, 'Free monospaced font with programming ligatures', 292, 61512, ['tonsky','thundernixon'], '2022-01-21T04:35:59.754653'),
 (4747, 28281924, 48003886, 'tmrts/go-patterns', 13, 'Curated list of Go design patterns, recipes and idioms', 60, 18202, ['tmrts','sha1sum'], '2022-01-21T04:36:00.438827'),
-(4748, 15052690, 192605862, 'Gingertonic/eden_events', 11, null, 2, 2, ['Gingertonic'], '2022-01-21T04:36:00.732296'),
 (4749, 25194960, 63541709, 'webmatze/hyperborder', 17, 'adds a gradient border to the Hyper terminal', 4, 207, ['webmatze','Xapphire13'], '2022-01-21T04:36:01.284628'),
+(4748, 15052690, 192605862, 'Gingertonic/eden_events', 11, null, 2, 2, ['Gingertonic'], '2022-01-21T04:36:00.732296'),
 (4750, 3777549, 51732606, 'jhu-ep-coursera/fullstack-course4', 15, 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', 3, 7091, ['ychaikin','jasonwr'], '2022-01-21T04:36:01.540838'),
 (4751, 15052690, 10581067, 'kerryb/goos-ruby', 12, 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', 0, 60, ['kerryb'], '2022-01-21T04:36:02.202505'),
 (4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
