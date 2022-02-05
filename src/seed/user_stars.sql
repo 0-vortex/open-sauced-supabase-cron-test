@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T02:44:14.232Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T04:44:20.398Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3686,8 +3686,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3640, 237133, 220650639, 'kt3k/license_checker', 1, 'GitHub Action for checking the license lines of the files in a repository', 0, 10, ['kt3k','petrspelos'], '2022-01-21T03:17:35.486812'),
 (3641, 349523, 4928122, 'jwalter/NotesApp', 5, null, 0, 1, ['jwalter'], '2022-01-21T03:17:35.953486'),
 (3642, 237133, 398337342, 'Steffen911/license-checker-action', 2, 'Run license-checker via GitHub Actions', 0, 2, ['Steffen911'], '2022-01-21T03:17:36.742935'),
-(3644, 349523, 4887890, 'jwalter/try_git', 6, null, 0, 1, [], '2022-01-21T03:17:37.242516'),
 (3643, 75340837, 85077558, 'kamranahmedse/developer-roadmap', 4, 'Roadmap to becoming a developer in 2022', 98, 184078, ['kamranahmedse','aroyan'], '2022-01-21T03:17:36.891017'),
+(3644, 349523, 4887890, 'jwalter/try_git', 6, null, 0, 1, [], '2022-01-21T03:17:37.242516'),
 (3645, 57305940, 22790488, 'iluwatar/java-design-patterns', 2, 'Design patterns implemented in Java', 261, 72699, ['iluwatar','npathai'], '2022-01-21T03:17:37.665426'),
 (3646, 237133, 331884475, 'philips-software/spdx-action', 3, 'GitHub Action to get a license overview in SPDX format', 1, 11, ['JeroenKnoops','npalm'], '2022-01-21T03:17:38.130297'),
 (3647, 349523, 4867238, 'rmzi/cyoa', 7, 'Coob Your Own Adventure -- An ARMMORPG', 0, 4, ['rmzi'], '2022-01-21T03:17:38.559544'),
@@ -10441,8 +10441,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10434, 211851, 233020914, 'Kirilllive/tuesday-js', 1, 'simple web-based, free and open-source visual novel editor that can be used in a web browser. It is written in JavaScript without using any third party libraries and thus does not require additional software installation. The engine uses standard HTML document elements such as div and img. This allows the use of any media format supported by browsers including vector graphics svg, gif animations and css styles.', 0, 80, ['Kirilllive','Kurrrat'], '2022-01-22T12:08:32.748085'),
 (10435, 1884246, 23404128, 'alephdata/aleph', 1, 'Search and browse documents and data; find the people and companies you look for.', 65, 1545, ['pudo','kjacks'], '2022-01-22T12:08:33.033153'),
 (10436, 17671332, 62607227, 'yangshun/tech-interview-handbook', 1, '💯 Curated interview preparation materials for busy engineers', 7, 64125, ['yangshun','louietyj'], '2022-01-22T12:08:33.183367'),
-(10437, 16315404, 112507086, '30-seconds/30-seconds-of-code', 1, 'Short JavaScript code snippets for all your development needs', 6, 91332, ['Chalarangelo','30secondsofcode'], '2022-01-22T12:08:33.379144'),
 (10587, 6935431, 293923529, 'peter-murray/github-security-report-action', 17, null, 5, 49, ['peter-murray','nateous'], '2022-01-22T12:19:38.824336'),
+(10437, 16315404, 112507086, '30-seconds/30-seconds-of-code', 1, 'Short JavaScript code snippets for all your development needs', 6, 91332, ['Chalarangelo','30secondsofcode'], '2022-01-22T12:08:33.379144'),
 (10438, 455338, 309228394, 'Himujjal/libytdl', 1, 'A c library for downloading YT videos written in Nim', 0, 3, ['Himujjal'], '2022-01-22T12:08:33.552866'),
 (10439, 211851, 258922512, 'ShizukuIchi/pdf-editor', 2, 'Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀', 24, 602, ['ShizukuIchi','realdennis'], '2022-01-22T12:08:33.974927'),
 (10440, 455338, 74505259, 'slundberg/shap', 2, 'A game theoretic approach to explain the output of any machine learning model.', 1326, 15184, ['slundberg','ryserrao'], '2022-01-22T12:08:34.995753'),
