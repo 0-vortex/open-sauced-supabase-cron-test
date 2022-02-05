@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T12:46:45.707Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T14:44:25.829Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3889,8 +3889,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3840, 1431853, 234231371, 'gofiber/fiber', 24, '⚡️ Express inspired web framework written in Go', 41, 17792, ['Fenny','kiyonlin'], '2022-01-21T03:28:31.304811'),
 (3841, 33669114, 116800189, 'dockersamples/k8s-wordsmith-demo', 23, 'Sample project with Docker containers running under Kubernetes', 4, 164, ['BretFisher','otherguy'], '2022-01-21T03:28:31.83004'),
 (3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
-(3843, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 230, 6291, ['martijnrusschen','rafeememon'], '2022-01-21T03:28:32.228163'),
 (3844, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 45, 25018, ['tannerlinsley','boschni'], '2022-01-21T03:28:32.910261'),
+(3843, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 230, 6291, ['martijnrusschen','rafeememon'], '2022-01-21T03:28:32.228163'),
 (3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3846, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-21T03:28:33.297974'),
 (3847, 49351279, 355601088, 'sdras/career-ladders', 23, 'A sample of career ladders I use for my organization, open sourced for anyone.', 2, 603, ['sdras','DanJFletcher'], '2022-01-21T03:28:33.701011'),
@@ -4881,6 +4881,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4801, 28281924, 283910851, 'Jucian0/recoil-example', 28, 'A small example about recoil', 11, 2, ['Jucian0'], '2022-01-21T04:36:24.000043'),
 (4802, 15052690, 7569578, 'discourse/discourse', 22, 'A platform for community discussion. Free, open, simple.', 49, 34834, ['eviltrout','SamSaffron'], '2022-01-21T04:36:24.040136'),
 (4803, 15052690, 41900099, 'trailblazer/trailblazer-rails', 23, 'Trailblazer in Rails.', 3, 140, ['apotonick','emaglio'], '2022-01-21T04:36:25.27732'),
+(4804, 28281924, 361310, 'teamcapybara/capybara', 29, 'Acceptance test framework for web applications', 29, 9503, ['twalpole','jnicklas'], '2022-01-21T04:36:25.558953'),
 (4805, 15052690, 65626639, 'freeman-lab/pixel-grid', 24, 'render a grid of small squares', 3, 182, ['freeman-lab','joehand'], '2022-01-21T04:36:26.942362'),
 (4806, 15052690, 364102931, 'wyhaines/newrelic-ruby-agent', 25, 'New Relic RPM Ruby Agent', 0, 1, ['jasonrclark','benweint'], '2022-01-21T04:36:28.640557'),
 (4807, 15052690, 14747598, 'typicode/json-server', 26, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', 610, 59154, ['typicode','bahmutov'], '2022-01-21T04:36:30.431434'),
@@ -5140,7 +5141,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5132, 22655167, 45250726, 'Redocly/redoc', 4, '📘  OpenAPI/Swagger-generated API Reference Documentation', 438, 16211, ['RomanHotsiy','stasiukanya'], '2022-01-21T05:12:57.442564'),
 (5133, 3754311, 2712004, 'smcgivern/urm-evaluator', 3, null, 0, 1, ['smcgivern'], '2022-01-21T05:12:57.956257'),
 (5134, 71386305, 201570219, 'responsively-org/responsively-app', 5, 'A modified web browser that helps in responsive web development. A web developer''s must have dev-tool.', 109, 14961, ['manojVivek','jjavierdguezas'], '2022-01-21T05:12:58.676251'),
-(4804, 28281924, 361310, 'teamcapybara/capybara', 29, 'Acceptance test framework for web applications', 29, 9503, ['twalpole','jnicklas'], '2022-01-21T04:36:25.558953'),
 (5135, 22655167, 98339432, 'shoelace-style/shoelace', 5, 'A collection of professionally designed, every day UI components built on a framework-agnostic technology. 🥾', 40, 6032, ['claviska','lamplightdev'], '2022-01-21T05:12:58.94388'),
 (5136, 3754311, 427228421, 'ChristBM/platzi_conf_merch', 4, 'PWA store using React, PayPal payments and other interesting configurations.', 0, 3, ['ChristBM'], '2022-01-21T05:12:59.344913'),
 (5137, 3754311, 417268538, 'tkwant/react-steps', 5, null, 0, 7, ['tkwant'], '2022-01-21T05:13:00.726881'),
@@ -6873,8 +6873,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6810, 26007940, 277882910, 'kevin-powell/reponsive-web-design-bootcamp', 17, 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', 0, 220, ['kevin-powell'], '2022-01-22T04:20:37.131239'),
 (6811, 12410942, 21333814, 'lynndylanhurley/devise_token_auth', 17, 'Token based authentication for Rails JSON APIs. Designed to work with jToker and ng-token-auth.', 173, 3280, ['lynndylanhurley','booleanbetrayal'], '2022-01-22T04:20:37.542022'),
 (6812, 26007940, 312555705, 'kubowania/burger-api', 18, 'My Burger Api', 16, 103, ['kubowania','brandonleboeuf'], '2022-01-22T04:20:37.699083'),
-(6813, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T04:20:37.957083'),
 (6814, 12410942, 3947396, 'getsentry/sentry-ruby', 18, 'Sentry SDK for Ruby', 20, 797, ['nateberkopec','st0012'], '2022-01-22T04:20:38.130968'),
+(6813, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T04:20:37.957083'),
 (6815, 289882, 36895421, 'jupyter/jupyter', 8, 'Jupyter metapackage for installation, docs and chat', 190, 13145, ['willingc','parente'], '2022-01-22T04:20:38.618945'),
 (6816, 12410942, 89035461, 'rubyforgood/human-essentials', 19, 'Human Essentials is an inventory management system for essentials banks, to aid them in distributing items to their partners, tracking their inventory, and providing statistics about their inventory flows.', 32, 269, ['seanmarcia','armahillo'], '2022-01-22T04:20:38.724732'),
 (6817, 26007940, 230327376, 'ErikCH/DevYouTubeList', 19, 'List of Development YouTube Channels', 29, 4411, ['ErikCH','KulkarniSuraj'], '2022-01-22T04:20:39.041902'),
