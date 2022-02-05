@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T18:44:27.778Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T20:44:19.933Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -6472,7 +6472,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6425, 4386534, 121814210, 'primer/react', 1, 'An implementation of GitHub''s Primer Design System using React', 65, 1550, ['shawnbot','colebemis'], '2022-01-22T03:57:37.161111'),
 (6427, 27487712, 144329209, 'CrowCpp/Crow', 0, 'A Fast and Easy to use microframework for the web.', 19, 651, ['The-EDev','ipkn'], '2022-01-22T03:57:37.323921'),
 (6428, 1917293, 110442874, 'conradsp/DHISImport', 12, 'Importing FHIR/json data into a DHIS instance', 0, 1, ['Markionium','conradsp'], '2022-01-22T03:57:37.393297'),
-(6429, 20727421, 240315046, 'jina-ai/jina', 14, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 62, 13236, ['hanxiao','jina-bot'], '2022-01-22T03:57:37.496628'),
 (6430, 289882, 538746, 'ruby/ruby', 12, 'The Ruby Programming Language [mirror]', 326, 18804, ['nobu','matzbot'], '2022-01-22T03:57:37.559533'),
 (6431, 35779241, 260839409, 'awtkns/vue-glow', 2, 'A performant wrapper component to give dynamic glow effects in Vue ', 1, 21, ['awtkns'], '2022-01-22T03:57:37.630198'),
 (6432, 26007940, 312555705, 'kubowania/burger-api', 18, 'My Burger Api', 16, 103, ['kubowania','brandonleboeuf'], '2022-01-22T03:57:37.637269'),
@@ -6493,6 +6492,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6482, 45036724, 144926753, 'bchiang7/v4', 5, 'Fourth iteration of my personal website built with Gatsby', 14, 4290, ['bchiang7','ImgBotApp'], '2022-01-22T03:57:40.506745'),
 (6499, 203683, 221631156, 'trekhleb/machine-learning-experiments', 1, '🤖 Interactive Machine Learning experiments: 🏋️models training + 🎨models demo', 21, 1186, ['trekhleb'], '2022-01-22T03:57:41.403102'),
 (6500, 52336027, 19415064, 'ossu/computer-science', 12, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105668, ['ericdouglas','joshmhanson'], '2022-01-22T03:57:41.424777'),
+(6429, 20727421, 240315046, 'jina-ai/jina', 14, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 62, 13236, ['hanxiao','jina-bot'], '2022-01-22T03:57:37.496628'),
 (6501, 27487712, 13264108, 'rahuliyer/dropbox-cpp', 3, 'C++ client for the Dropbox core API', 1, 5, ['rahuliyer'], '2022-01-22T03:57:41.511281'),
 (6502, 11858762, 27193779, 'nodejs/node', 11, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1657, 84514, ['ry','Trott'], '2022-01-22T03:57:41.553957'),
 (6503, 16165980, 22887094, 'tesseract-ocr/tesseract', 14, 'Tesseract Open Source OCR Engine (main repository)', 351, 43652, ['stweil','zdenop'], '2022-01-22T03:57:41.578331'),
@@ -9259,7 +9259,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9175, 30334776, 216213331, 'yomaokobiah/yono', 16, 'Yono is a python numerical methods library. The aim of Yono is to provide solutions to engineering problems that different numerical methods can solve.', 0, 8, ['yomaokobiah'], '2022-01-22T10:48:49.111335'),
 (9176, 58482194, 29227314, 'hackclub/dinosaurs', 17, 'dinoooooooooos', 1, 334, ['maxwofford','zachlatta'], '2022-01-22T10:48:49.826484'),
 (9177, 30334776, 235970716, 'yomaokobiah/nairaland-visualisation', 17, 'A visualisation of members on nairaland.com ages.', 0, 1, ['yomaokobiah'], '2022-01-22T10:48:50.355908'),
-(9178, 25867172, 82289483, 'moleculerjs/moleculer', 18, ':rocket: Progressive microservices framework for Node.js', 85, 4923, ['icebob','AndreMaz'], '2022-01-22T10:48:50.440313'),
 (9179, 58482194, 257485422, 'vitejs/vite', 18, 'Next generation frontend tooling. It''s fast!', 818, 36555, ['yyx990803','patak-dev'], '2022-01-22T10:48:50.586239'),
 (9180, 30334776, 382172039, 'Helewud/Travel-Log-App', 18, null, 1, 4, ['Helewud'], '2022-01-22T10:48:51.548786'),
 (9181, 25867172, 229152542, 'pergola-fpga/pergola', 19, 'Low-cost ECP5 FPGA development board', 1, 63, ['kbeckmann'], '2022-01-22T10:48:51.851481'),
@@ -9272,6 +9271,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9188, 25867172, 194018943, 'adam-mccormick/moleculer-axios', 21, 'Axios based HTTP client for Moleculer services', 19, 8, ['adam-mccormick','iwd-mccormicka'], '2022-01-22T10:48:54.496815'),
 (9189, 58482194, 67831372, 'PKief/vscode-material-icon-theme', 22, 'Available on the VSCode Marketplace', 320, 1043, ['PKief','AdrieanKhisbe'], '2022-01-22T10:48:55.091558'),
 (9190, 30334776, 389086554, 'BolajiAyodeji/headless-swag-store', 21, 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', 0, 3, ['BolajiAyodeji','acasazza'], '2022-01-22T10:48:55.648367'),
+(9178, 25867172, 82289483, 'moleculerjs/moleculer', 18, ':rocket: Progressive microservices framework for Node.js', 85, 4923, ['icebob','AndreMaz'], '2022-01-22T10:48:50.440313'),
 (9191, 25867172, 214842098, 'CircuitSetup/Expandable-6-Channel-ESP32-Energy-Meter', 23, 'Hardware & Software documentation for the CircuitSetup Expandable 6 Channel ESP32 Energy Meter', 8, 243, ['CircuitSetup','presslab-us'], '2022-01-22T10:48:56.326922'),
 (9192, 30334776, 389071137, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji'], '2022-01-22T10:48:57.103258'),
 (9193, 58482194, 137078487, 'vuejs/vue-next', 23, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 466, 26924, ['yyx990803','HcySunYang'], '2022-01-22T10:48:57.115439'),
