@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.8.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.0...v1.8.1) (2022-02-05)
+
+
+### 🐛 Bug Fixes
+
+* correct array csv quotations for seeds ([7dd3db4](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/7dd3db4888245363e134bde23a305b0212ad04ac))
+
 ## [1.8.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.7.0...v1.8.0) (2022-02-05)
 
 
