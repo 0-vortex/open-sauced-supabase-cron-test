@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.8.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.7.0...v1.8.0) (2022-02-05)
+
+
+### 🍕 Features
+
+* implement new supabase cli features ([ebbc0cb](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/ebbc0cb468864e9c85120e14078223319e3d9a0f))
+
 ## [1.7.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.6.8...v1.7.0) (2022-02-04)
 
 
