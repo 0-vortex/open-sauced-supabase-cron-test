@@ -11853,6 +11853,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 419094803,12849040,287573157,Leniolabs/layoutit-grid,0,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.",15,1110,"[""patak-dev"",""agustin-capeletto-lenio""]",2022-01-22T14:36:53.424877
 418247835,16165980,343965132,microsoft/ML-For-Beginners,0,"12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",9,28785,"[""jlooper"",""softchris""]",2022-01-22T14:36:53.48803
 418672791,20727421,83999700,sdmg15/Best-websites-a-programmer-should-visit,0,:link: Some useful websites for programmers.,626,45411,"[""sdmg15"",""ityler""]",2022-01-22T14:36:53.692666
+455114859,24910512,169100692,NVlabs/stylegan,0,StyleGAN - Official TensorFlow Implementation,10,12163,"[""tkarras"",""nurpax""]",2022-02-05T10:28:25.530583
 386705185,349523,11765017,JetBrains/Exposed,0,Kotlin SQL Framework,303,5854,"[""Tapac"",""shafirov""]",2022-01-22T21:58:46.222524
 415612821,44642314,268098312,ZedThree/clang-tidy-review,0,Create a pull request review based on clang-tidy warnings,8,17,"[""ZedThree"",""kgfoundrydig""]",2022-01-22T20:47:57.637719
 417311106,71297412,428727515,HMTEUNIS/react-beats,0,,0,1,"[""WBian618"",""dandesantis14""]",2022-01-22T20:47:57.637715
