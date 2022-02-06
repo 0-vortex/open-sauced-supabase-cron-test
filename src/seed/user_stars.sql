@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T06:46:32.375Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:44:34.690Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3891,7 +3891,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
 (3843, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 230, 6291, ['martijnrusschen','rafeememon'], '2022-01-21T03:28:32.228163'),
 (3844, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 45, 25018, ['tannerlinsley','boschni'], '2022-01-21T03:28:32.910261'),
-(3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3846, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-21T03:28:33.297974'),
 (3847, 49351279, 355601088, 'sdras/career-ladders', 23, 'A sample of career ladders I use for my organization, open sourced for anyone.', 2, 603, ['sdras','DanJFletcher'], '2022-01-21T03:28:33.701011'),
 (3848, 1431853, 166504843, 'ForrestKnight/open-source-cs', 25, 'Video discussing this curriculum:', 10, 15186, ['ForrestKnight','0xflotus'], '2022-01-21T03:28:33.896115'),
@@ -4028,6 +4027,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3981, 569510, 151837779, 'akosbalasko/yarle', 27, 'Yarle - The ultimate converter of Evernote notes to Markdown', 40, 418, ['akosbalasko','rodbv'], '2022-01-21T03:35:12.600288'),
 (3982, 5842360, 18573791, 'davidmerfield/randomColor', 26, 'A tiny script for generating attractive colors', 19, 5759, ['davidmerfield','bilalq'], '2022-01-21T03:35:12.624485'),
 (3983, 57826091, 368185844, 'Nazeeh21/Devdit-Blockchain', 25, 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', 2, 2, ['Nazeeh21'], '2022-01-21T03:35:13.447707'),
+(3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3984, 72279316, 48356217, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 84, 9829, ['niklasramo','aslakhellesoy'], '2022-01-21T03:35:13.561555'),
 (3985, 5842360, 82423413, 'bshu2/generals-io-helper', 27, 'Chrome extension for generals.io', 1, 2, ['bshu2'], '2022-01-21T03:35:13.823622'),
 (3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
@@ -4301,8 +4301,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4254, 3861088, 44882201, 'MunGell/awesome-for-beginners', 8, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:55:14.482704'),
 (4255, 11777161, 191529732, 'lydiahallie/javascript-questions', 8, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', 74, 40486, ['lydiahallie','Tarabass'], '2022-01-21T03:55:14.780885'),
 (4256, 1228996, 261393739, 'Layla-P/YodaTranslator', 8, 'A quick Yoda translator app using Azure Functions and Twilio', 0, 2, ['Layla-P'], '2022-01-21T03:55:14.84841'),
-(4258, 908380, 212487543, 'ash-project/ash', 10, 'A resource based framework for building Elixir applications', 59, 505, ['zachdaniel','andrewcallahan'], '2022-01-21T03:55:15.27602'),
 (4257, 6265396, 229753405, 'snipsnapdev/snipsnap', 11, 'Speed up your development with a powerful set of tools', 19, 1034, ['vi-nastya','lnikell'], '2022-01-21T03:55:14.88393'),
+(4258, 908380, 212487543, 'ash-project/ash', 10, 'A resource based framework for building Elixir applications', 59, 505, ['zachdaniel','andrewcallahan'], '2022-01-21T03:55:15.27602'),
 (4259, 1228996, 351728562, 'lukeocodes/nuxt-contentful-starter', 9, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', 0, 2, ['lukeocodes'], '2022-01-21T03:55:16.053815'),
 (4260, 3861088, 4578898, 'HabitRPG/habitica', 9, 'A habit tracker app which treats your goals like a Role Playing Game.', 219, 8781, ['lefnire','SabreCat'], '2022-01-21T03:55:16.194072'),
 (4261, 6265396, 301136030, 'lukeocodes/dev-hearts', 12, 'SVG collection. Turn the pretty heart into your own branded heart using SVG ', 0, 31, ['lukeocodes','adsingh14'], '2022-01-21T03:55:16.464033'),
