@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T20:44:20.988Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T22:44:16.298Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1478,11 +1478,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1467, 24553355, 147919799, 'yandexdataschool/nlp_course', 6, 'YSDA course in Natural Language Processing', 6, 7618, ['justheuristic','drt7'], '2022-01-20T22:58:11.14202'),
 (1468, 1645545, 19257422, 'questdb/questdb', 3, 'An open source SQL database designed to process time series data, faster', 176, 7832, ['bluestreak01','ideoma'], '2022-01-20T22:58:11.489048'),
 (1469, 50591491, 96151448, 'tc39/proposal-pattern-matching', 5, 'Pattern matching syntax for ECMAScript', 9, 4070, ['zkat','tabatkins'], '2022-01-20T22:58:12.430136'),
+(1470, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-20T22:58:12.661017'),
+(1471, 1645545, 275993885, 'appsmithorg/appsmith', 4, 'Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API..', 1611, 11614, ['Nikhil-Nandagopal','mohanarpit'], '2022-01-20T22:58:13.259624'),
 (1472, 50591491, 17317349, 'devicons/devicon', 6, 'Set of icons representing programming languages, designing & development tools', 214, 4669, ['Thomas-Boi','amacado'], '2022-01-20T22:58:13.978841'),
 (1473, 24553355, 256401220, 'alexeygrigorev/mlbookcamp-code', 8, 'The code from the Machine Learning Bookcamp book and a free course based on the book', 2, 1535, ['alexeygrigorev','ziritrion'], '2022-01-20T22:58:14.125136'),
 (1474, 1645545, 262296122, 'PaddlePaddle/PaddleOCR', 5, 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', 1003, 18664, ['LDOUBLEV','WenmuZhou'], '2022-01-20T22:58:15.0434'),
-(1470, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-20T22:58:12.661017'),
-(1471, 1645545, 275993885, 'appsmithorg/appsmith', 4, 'Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API..', 1611, 11614, ['Nikhil-Nandagopal','mohanarpit'], '2022-01-20T22:58:13.259624'),
 (1475, 24553355, 265911693, 'orchest/orchest', 9, 'Build data pipelines, the easy way 🛠️', 94, 1763, ['ricklamers','yannickperrenet'], '2022-01-20T22:58:15.513'),
 (1476, 50591491, 145050544, 'LunarVim/LunarVim', 7, 'An IDE layer for Neovim with sane defaults. Completely free and community driven.', 89, 7007, ['abzcoding','kylo252'], '2022-01-20T22:58:15.589877'),
 (1477, 1645545, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 6, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 21, 7575, ['Ebazhanov','monkrus'], '2022-01-20T22:58:16.781672'),
@@ -4037,8 +4037,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3990, 569510, 1535009, 'jazzband/tablib', 29, 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', 33, 4066, ['kennethreitz','claudep'], '2022-01-21T03:35:15.253743'),
 (3991, 57826091, 102210005, 'dethcrypto/TypeChain', 27, '🔌 TypeScript bindings for Ethereum smart contracts', 36, 1554, ['krzkaczor','zemse'], '2022-01-21T03:35:15.874639'),
 (3992, 72279316, 377305568, 'madebygps/self-taught-guide-to-cloud-computing', 26, 'Learn the fundamentals of cloud computing', 1, 2365, ['madebygps','rishabkumar7'], '2022-01-21T03:35:16.021626'),
-(3993, 5842360, 47419579, 'andreasgrill/auto-selfcontrol', 29, 'Small utility to schedule start and stop times of SelfControl', 31, 261, ['andreasgrill','sbibauw'], '2022-01-21T03:35:16.379209'),
 (3994, 57826091, 361722943, 'Dhaiwat10/simple-nft', 28, null, 0, 1, ['rhlsthrm','krzkaczor'], '2022-01-21T03:35:17.021735'),
+(3993, 5842360, 47419579, 'andreasgrill/auto-selfcontrol', 29, 'Small utility to schedule start and stop times of SelfControl', 31, 261, ['andreasgrill','sbibauw'], '2022-01-21T03:35:16.379209'),
 (3995, 72279316, 103633984, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (January 2022)', 42, 73973, ['goldbergyoni','anediaz'], '2022-01-21T03:35:17.876202'),
 (3996, 57826091, 135786093, 'typescript-cheatsheets/react', 29, 'Cheatsheets for experienced React developers getting started with TypeScript', 2, 31032, ['sw-yx','eps1lon'], '2022-01-21T03:35:18.471166'),
 (3997, 72279316, 109887187, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 126, 832, ['danthareja'], '2022-01-21T03:35:19.243383'),
@@ -6652,6 +6652,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6617, 79887, 76669415, 'testingisdocumenting/znai', 19, 'Build functional, maintainable, beautiful User Guides with Znai. Instant pages navigation. Local search. Multiple integrations to work with Python, Java, C++, OpenAPI, etc. Transform ''getting started'' sections into slideshow for your workshops. Manage multiple documentations with self-deployed znai hub.', 29, 59, ['MykolaGolubyev','byc1234'], '2022-01-22T03:57:48.357559'),
 (6618, 203683, 257887579, 'adrianchifor/Bigbucket', 7, 'Serverless Bigtable-like database, backed by Cloud Storage', 0, 34, ['adrianchifor'], '2022-01-22T03:57:48.429704'),
 (6619, 289882, 2558910, 'gwincr11/Better-than-Cheddar', 19, null, 0, 1, ['gwincr11'], '2022-01-22T03:57:48.487095'),
+(6620, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6727, ['soamvasani','life1347'], '2022-01-22T03:57:48.690466'),
 (6621, 11858762, 48808013, 'rangle/angular2-redux-example', 17, 'Angular 2 Redux Example', 4, 231, ['SethDavenport','greenkeeperio-bot'], '2022-01-22T03:57:48.918742'),
 (6622, 71297412, 112150776, '11ty/eleventy', 20, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 444, 11198, ['zachleat','MadeByMike'], '2022-01-22T03:57:48.967642'),
 (6623, 46695719, 22119721, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38245, ['RichardLitt','simaki'], '2022-01-22T03:57:48.985725'),
@@ -6925,7 +6926,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6861, 12410942, 163827812, 'freeletics/array_enum', 8, 'String to integer mapping for PostgreSQL array columns', 0, 27, ['morgoth','wesleyeewong'], '2022-01-22T04:20:58.64897'),
 (6862, 289882, 1234714, 'elixir-lang/elixir', 10, 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications', 22, 19717, ['josevalim','eksperimental'], '2022-01-22T04:20:58.922012'),
 (6863, 12410942, 392785, 'heartcombo/responders', 9, 'A set of Rails responders to dry up your application', 7, 1929, ['josevalim','carlosantoniodasilva'], '2022-01-22T04:20:59.258987'),
-(6620, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6727, ['soamvasani','life1347'], '2022-01-22T03:57:48.690466'),
 (6864, 26007940, 38796348, 'souporserious/react-media-player', 8, 'React audio and video player.', 39, 434, ['souporserious','dobrite'], '2022-01-22T04:20:59.412714'),
 (6865, 289882, 20037550, 'ruby/rake', 11, 'A make-like build utility for Ruby.', 66, 2055, ['jimweirich','hsbt'], '2022-01-22T04:20:59.570204'),
 (6866, 12410942, 240574799, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 59, ['tmartin8080','bigx333'], '2022-01-22T04:20:59.920989'),
@@ -10854,8 +10854,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10845, 6241164, 294816887, 'bdougie/git-twitch', 11, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T12:57:44.168724'),
 (10846, 60850993, 306971358, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', 12, null, 0, 35, ['imadovitch'], '2022-01-22T12:57:44.631765'),
 (10847, 351693, 143975804, 'LycheeOrg/Lychee', 12, ' A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.', 150, 1345, ['ildyria','kamil4'], '2022-01-22T12:57:44.648495'),
-(10848, 16259450, 79449949, 'VadimDez/ngx-order-pipe', 13, '▼ Angular 5+ orderBy pipe', 3, 235, ['VadimDez','DeepSnowNeeL'], '2022-01-22T12:57:45.046363'),
 (10849, 6241164, 72754695, 'styled-components/polished', 12, 'A lightweight toolset for writing styles in JavaScript ✨', 15, 7100, ['bhough','mxstbr'], '2022-01-22T12:57:45.312887'),
+(10848, 16259450, 79449949, 'VadimDez/ngx-order-pipe', 13, '▼ Angular 5+ orderBy pipe', 3, 235, ['VadimDez','DeepSnowNeeL'], '2022-01-22T12:57:45.046363'),
 (10850, 1645628, 2889328, 'WordPress/WordPress', 12, 'WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.', 2, 15862, ['SergeyBiryukov','nacin'], '2022-01-22T12:57:45.689803'),
 (10851, 6241164, 147350463, 'leonardomso/33-js-concepts', 13, '📜 33 JavaScript concepts every developer should know.', 9, 46146, ['leonardomso','ilker0'], '2022-01-22T12:57:45.780411'),
 (10852, 60850993, 171563505, 'Asabeneh/JavaScript-for-Everyone', 13, 'A step by step guide to learn JavaScript and programming', 0, 406, ['Asabeneh','engineerabdulsalam'], '2022-01-22T12:57:45.791575'),
