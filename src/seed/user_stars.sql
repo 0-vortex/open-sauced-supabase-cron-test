@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T02:14:32.227Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T02:50:14.369Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2502,6 +2502,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2453, 52336027, 124227308, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 125, ['entityframeworktutorial'], '2022-01-21T00:19:05.688773'),
 (2490, 44642314, 53238813, 'Homebrew/brew', 9, '🍺 The missing package manager for macOS (or Linux)', 33, 30672, ['MikeMcQuaid','jacknagel'], '2022-01-21T00:19:28.609807'),
 (2455, 71297412, 43441403, 'strapi/strapi', 3, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 526, 42524, ['soupette','alexandrebodin'], '2022-01-21T00:19:07.5956'),
+(2456, 52336027, 3689718, 'moq/moq4', 2, 'Repo for managing Moq 4.x ', 36, 4408, ['stakx','kzu'], '2022-01-21T00:19:08.717442'),
 (2457, 71297412, 361335799, '100devs/todo-mvc-auth-local', 4, null, 1, 15, ['leonnoel','JeremySeckinger'], '2022-01-21T00:19:09.052381'),
 (2458, 52336027, 160651810, 'markjprice/cs8dotnetcore3', 3, 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', 5, 213, ['markjprice','Semro'], '2022-01-21T00:19:10.14156'),
 (2459, 71297412, 72453516, 'wp-graphql/wp-graphql', 5, ':rocket: GraphQL API for WordPress', 187, 3113, ['jasonbahl','CodeProKid'], '2022-01-21T00:19:10.626639'),
@@ -3049,7 +3050,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3009, 27487712, 83875228, 'AndsonYe/MultipartEncoder', 10, 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', 2, 44, ['AndsonYe'], '2022-01-21T02:02:26.196783'),
 (3010, 203683, 202936427, 'CartoDB/carto-spatial-extension', 11, 'A set of UDFs and Procedures to extend BigQuery and Snowflake with Spatial Analytics capabilities', 9, 121, ['vdelacruzb','Jesus89'], '2022-01-21T02:02:26.389526'),
 (3011, 55982424, 45213667, 'Chocobozzz/PeerTube', 10, 'ActivityPub-federated video streaming platform using P2P directly in your web browser', 350, 10215, ['Chocobozzz','rigelk'], '2022-01-21T02:02:27.004392'),
-(2456, 52336027, 3689718, 'moq/moq4', 2, 'Repo for managing Moq 4.x ', 36, 4408, ['stakx','kzu'], '2022-01-21T00:19:08.717442'),
 (3012, 67718832, 36633370, 'awesome-selfhosted/awesome-selfhosted', 9, 'A list of Free Software network services and web applications which can be hosted on your own servers', 141, 75089, ['nodiscc','n8225'], '2022-01-21T02:02:27.333727'),
 (3013, 203683, 207760322, 'qmuntal/stateless', 12, 'Go library for creating state machines', 6, 396, ['qmuntal','okhowang'], '2022-01-21T02:02:27.580533'),
 (3014, 27487712, 23202799, 'microsoft/cpprestsdk', 11, 'The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.', 772, 6675, ['stgates','ras0219-msft'], '2022-01-21T02:02:27.76122'),
@@ -4443,8 +4443,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4384, 29547465, 31333618, 'shopspring/decimal', 5, 'Arbitrary-precision fixed-point decimal numbers in go', 80, 3676, ['vadimg','mwoss'], '2022-01-21T04:01:35.949024'),
 (4385, 54776315, 60805462, 'srcery-colors/srcery-vim', 7, 'Dark colorscheme for gvim and vim', 0, 637, ['roosta','MindTooth'], '2022-01-21T04:01:36.271425'),
 (4386, 3792749, 425941587, '0-vortex/open-sauced-conventional-commit-test', 6, 'Experimenting with commitizen configuration repository for opensauced.pizza', 0, 2, ['0-vortex'], '2022-01-21T04:01:36.747579'),
-(4387, 3450257, 49668250, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5083, ['jamiebuilds','gaearon'], '2022-01-21T04:01:36.947789'),
 (4388, 29547465, 91274552, 'saniales/golang-crypto-trading-bot', 6, 'A golang implementation of a console-based trading bot for cryptocurrency exchanges', 10, 680, ['saniales','fiore'], '2022-01-21T04:01:37.222'),
+(4387, 3450257, 49668250, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5083, ['jamiebuilds','gaearon'], '2022-01-21T04:01:36.947789'),
 (4389, 54776315, 232615685, 'asigloo/vue-dynamic-forms', 8, 'Easy way to dynamically create reactive forms in Vue based on a varying business object model ', 18, 256, ['alvarosabu','renovate-bot'], '2022-01-21T04:01:37.413871'),
 (4390, 3450257, 353082105, 'github/maintainerweek', 7, 'A week for maintainers to gather & share', 3, 140, ['karasowles','martinwoodward'], '2022-01-21T04:01:38.25533'),
 (4391, 54776315, 290526597, 'nuxt/modules', 9, 'Discover our list of modules to supercharge your Nuxt project', 36, 347, ['pi0','antfu'], '2022-01-21T04:01:38.491884'),
@@ -11335,8 +11335,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11448, 3037127, 351914021, 'adleong/tapshark', 0, null, 0, 17, ['adleong'], '2022-01-22T13:38:03.248885'),
 (11326, 2658040, 225295587, 'BaseMax/JavaMyString', 5, 'A tiny implementation of String class in java as final project.', 0, 6, ['BaseMax'], '2022-01-22T13:31:45.855694'),
 (11327, 67872399, 212606516, 'boorje/react-news-app', 5, 'A simple React app which uses the News API.', 14, 2, ['boorje'], '2022-01-22T13:31:45.882127'),
-(11329, 33148009, 221425180, 'partycorgi/partycorgi', 5, 'A GitHub repo containing party corgi related information and documents', 8, 46, ['RyanWarner','ChristopherBiscardi'], '2022-01-22T13:31:45.955332'),
 (11328, 2237343, 265916655, 'vmstan/gravity-sync', 5, 'An easy way to synchronize the blocklist and local DNS configurations of multiple Pi-hole 5.x instances.', 10, 942, ['vmstan','callum-oakley'], '2022-01-22T13:31:45.924669'),
+(11329, 33148009, 221425180, 'partycorgi/partycorgi', 5, 'A GitHub repo containing party corgi related information and documents', 8, 46, ['RyanWarner','ChristopherBiscardi'], '2022-01-22T13:31:45.955332'),
 (11330, 622115, 304177900, 'RyanFitzgerald/devfolio', 4, 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', 1, 254, ['RyanFitzgerald','zielinsm'], '2022-01-22T13:31:46.372262'),
 (11331, 67872399, 136923813, 'benawad/fullstack-graphql-airbnb-clone', 6, 'A Fullstack GraphQL Airbnb Clone with React and React Native', 23, 1436, ['benawad'], '2022-01-22T13:31:46.923841'),
 (11332, 2658040, 191613522, 'BaseMax/CheckReverseString', 6, 'Tiny Program to check the reverse of the string using C/C++.', 0, 8, ['BaseMax'], '2022-01-22T13:31:47.050278'),
@@ -11472,8 +11472,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11463, 19350071, 13044600, 'salesagility/SuiteCRM', 3, 'SuiteCRM - Open source CRM for the world', 1405, 2801, ['gymad','Dillon-Brown'], '2022-01-22T13:38:08.531669'),
 (11464, 29888641, 241092383, 'docker/build-push-action', 4, 'GitHub Action to build and push Docker images with Buildx', 22, 1992, ['crazy-max','zappy-shu'], '2022-01-22T13:38:08.656565'),
 (11465, 3037127, 230327376, 'ErikCH/DevYouTubeList', 5, 'List of Development YouTube Channels', 29, 4412, ['ErikCH','KulkarniSuraj'], '2022-01-22T13:38:09.172778'),
-(11467, 29888641, 344802603, 'marceloprates/prettymaps', 5, 'A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.', 30, 7647, ['marceloprates','chrieke'], '2022-01-22T13:38:09.909258'),
 (11466, 4573607, 144863525, 'EthicalML/awesome-production-machine-learning', 3, 'A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning', 15, 10743, ['axsaucedo','fkromer'], '2022-01-22T13:38:09.507445'),
+(11467, 29888641, 344802603, 'marceloprates/prettymaps', 5, 'A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.', 30, 7647, ['marceloprates','chrieke'], '2022-01-22T13:38:09.909258'),
 (11468, 3037127, 191414235, 'orbit-love/orbit-model', 6, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-22T13:38:10.460192'),
 (11469, 19350071, 5550552, 'owncloud/core', 4, ':cloud: ownCloud web server core (Files, DAV, etc.)', 394, 7624, ['DeepDiver1975','phil-davis'], '2022-01-22T13:38:10.643032'),
 (11470, 4573607, 13733351, 'triketora/women-in-software-eng', 4, 'Crowdsourced repository of women in software engineering stats.', 2, 755, ['triketora','saramartinez'], '2022-01-22T13:38:10.786328'),
