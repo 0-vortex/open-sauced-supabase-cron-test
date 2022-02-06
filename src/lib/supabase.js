@@ -26,7 +26,7 @@ const supaDump = async (basePath, table, columns = [], rows = []) => {
 
   await file.write(`--
 -- Data for Name: ${table}; Type: TABLE DATA; Schema: public; Timestamp: ${timestamp}
--- COPY ${table} FROM '${table}.csv' DELIMITER ',' CSV HEADER;
+-- COPY ${table}(${columns.join(', ')}) FROM '${table}.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO ${table}(${columns.join(', ')}) VALUES
