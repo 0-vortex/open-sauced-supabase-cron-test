@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T18:45:14.536Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T20:44:20.988Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1478,11 +1478,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1467, 24553355, 147919799, 'yandexdataschool/nlp_course', 6, 'YSDA course in Natural Language Processing', 6, 7618, ['justheuristic','drt7'], '2022-01-20T22:58:11.14202'),
 (1468, 1645545, 19257422, 'questdb/questdb', 3, 'An open source SQL database designed to process time series data, faster', 176, 7832, ['bluestreak01','ideoma'], '2022-01-20T22:58:11.489048'),
 (1469, 50591491, 96151448, 'tc39/proposal-pattern-matching', 5, 'Pattern matching syntax for ECMAScript', 9, 4070, ['zkat','tabatkins'], '2022-01-20T22:58:12.430136'),
-(1470, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-20T22:58:12.661017'),
-(1471, 1645545, 275993885, 'appsmithorg/appsmith', 4, 'Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API..', 1611, 11614, ['Nikhil-Nandagopal','mohanarpit'], '2022-01-20T22:58:13.259624'),
 (1472, 50591491, 17317349, 'devicons/devicon', 6, 'Set of icons representing programming languages, designing & development tools', 214, 4669, ['Thomas-Boi','amacado'], '2022-01-20T22:58:13.978841'),
 (1473, 24553355, 256401220, 'alexeygrigorev/mlbookcamp-code', 8, 'The code from the Machine Learning Bookcamp book and a free course based on the book', 2, 1535, ['alexeygrigorev','ziritrion'], '2022-01-20T22:58:14.125136'),
 (1474, 1645545, 262296122, 'PaddlePaddle/PaddleOCR', 5, 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', 1003, 18664, ['LDOUBLEV','WenmuZhou'], '2022-01-20T22:58:15.0434'),
+(1470, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-20T22:58:12.661017'),
+(1471, 1645545, 275993885, 'appsmithorg/appsmith', 4, 'Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API..', 1611, 11614, ['Nikhil-Nandagopal','mohanarpit'], '2022-01-20T22:58:13.259624'),
 (1475, 24553355, 265911693, 'orchest/orchest', 9, 'Build data pipelines, the easy way 🛠️', 94, 1763, ['ricklamers','yannickperrenet'], '2022-01-20T22:58:15.513'),
 (1476, 50591491, 145050544, 'LunarVim/LunarVim', 7, 'An IDE layer for Neovim with sane defaults. Completely free and community driven.', 89, 7007, ['abzcoding','kylo252'], '2022-01-20T22:58:15.589877'),
 (1477, 1645545, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 6, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 21, 7575, ['Ebazhanov','monkrus'], '2022-01-20T22:58:16.781672'),
@@ -6652,7 +6652,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6617, 79887, 76669415, 'testingisdocumenting/znai', 19, 'Build functional, maintainable, beautiful User Guides with Znai. Instant pages navigation. Local search. Multiple integrations to work with Python, Java, C++, OpenAPI, etc. Transform ''getting started'' sections into slideshow for your workshops. Manage multiple documentations with self-deployed znai hub.', 29, 59, ['MykolaGolubyev','byc1234'], '2022-01-22T03:57:48.357559'),
 (6618, 203683, 257887579, 'adrianchifor/Bigbucket', 7, 'Serverless Bigtable-like database, backed by Cloud Storage', 0, 34, ['adrianchifor'], '2022-01-22T03:57:48.429704'),
 (6619, 289882, 2558910, 'gwincr11/Better-than-Cheddar', 19, null, 0, 1, ['gwincr11'], '2022-01-22T03:57:48.487095'),
-(6620, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6727, ['soamvasani','life1347'], '2022-01-22T03:57:48.690466'),
 (6621, 11858762, 48808013, 'rangle/angular2-redux-example', 17, 'Angular 2 Redux Example', 4, 231, ['SethDavenport','greenkeeperio-bot'], '2022-01-22T03:57:48.918742'),
 (6622, 71297412, 112150776, '11ty/eleventy', 20, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 444, 11198, ['zachleat','MadeByMike'], '2022-01-22T03:57:48.967642'),
 (6623, 46695719, 22119721, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38245, ['RichardLitt','simaki'], '2022-01-22T03:57:48.985725'),
@@ -6926,6 +6925,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6861, 12410942, 163827812, 'freeletics/array_enum', 8, 'String to integer mapping for PostgreSQL array columns', 0, 27, ['morgoth','wesleyeewong'], '2022-01-22T04:20:58.64897'),
 (6862, 289882, 1234714, 'elixir-lang/elixir', 10, 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications', 22, 19717, ['josevalim','eksperimental'], '2022-01-22T04:20:58.922012'),
 (6863, 12410942, 392785, 'heartcombo/responders', 9, 'A set of Rails responders to dry up your application', 7, 1929, ['josevalim','carlosantoniodasilva'], '2022-01-22T04:20:59.258987'),
+(6620, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6727, ['soamvasani','life1347'], '2022-01-22T03:57:48.690466'),
 (6864, 26007940, 38796348, 'souporserious/react-media-player', 8, 'React audio and video player.', 39, 434, ['souporserious','dobrite'], '2022-01-22T04:20:59.412714'),
 (6865, 289882, 20037550, 'ruby/rake', 11, 'A make-like build utility for Ruby.', 66, 2055, ['jimweirich','hsbt'], '2022-01-22T04:20:59.570204'),
 (6866, 12410942, 240574799, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 59, ['tmartin8080','bigx333'], '2022-01-22T04:20:59.920989'),
