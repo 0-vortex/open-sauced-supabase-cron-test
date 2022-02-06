@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T02:50:14.369Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T04:47:33.900Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4443,8 +4443,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4384, 29547465, 31333618, 'shopspring/decimal', 5, 'Arbitrary-precision fixed-point decimal numbers in go', 80, 3676, ['vadimg','mwoss'], '2022-01-21T04:01:35.949024'),
 (4385, 54776315, 60805462, 'srcery-colors/srcery-vim', 7, 'Dark colorscheme for gvim and vim', 0, 637, ['roosta','MindTooth'], '2022-01-21T04:01:36.271425'),
 (4386, 3792749, 425941587, '0-vortex/open-sauced-conventional-commit-test', 6, 'Experimenting with commitizen configuration repository for opensauced.pizza', 0, 2, ['0-vortex'], '2022-01-21T04:01:36.747579'),
-(4388, 29547465, 91274552, 'saniales/golang-crypto-trading-bot', 6, 'A golang implementation of a console-based trading bot for cryptocurrency exchanges', 10, 680, ['saniales','fiore'], '2022-01-21T04:01:37.222'),
 (4387, 3450257, 49668250, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5083, ['jamiebuilds','gaearon'], '2022-01-21T04:01:36.947789'),
+(4388, 29547465, 91274552, 'saniales/golang-crypto-trading-bot', 6, 'A golang implementation of a console-based trading bot for cryptocurrency exchanges', 10, 680, ['saniales','fiore'], '2022-01-21T04:01:37.222'),
 (4389, 54776315, 232615685, 'asigloo/vue-dynamic-forms', 8, 'Easy way to dynamically create reactive forms in Vue based on a varying business object model ', 18, 256, ['alvarosabu','renovate-bot'], '2022-01-21T04:01:37.413871'),
 (4390, 3450257, 353082105, 'github/maintainerweek', 7, 'A week for maintainers to gather & share', 3, 140, ['karasowles','martinwoodward'], '2022-01-21T04:01:38.25533'),
 (4391, 54776315, 290526597, 'nuxt/modules', 9, 'Discover our list of modules to supercharge your Nuxt project', 36, 347, ['pi0','antfu'], '2022-01-21T04:01:38.491884'),
