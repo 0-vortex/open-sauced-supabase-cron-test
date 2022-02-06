@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.8.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.1...v1.8.2) (2022-02-06)
+
+
+### 🐛 Bug Fixes
+
+* correct array delimiter for local \copy ([100c17a](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/100c17ad1d9c93dc588969fbf03419a5f44e4dae))
+
 ### [1.8.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.0...v1.8.1) (2022-02-05)
 
 
