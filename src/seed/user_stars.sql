@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T04:47:33.900Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T06:46:32.375Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4301,8 +4301,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4254, 3861088, 44882201, 'MunGell/awesome-for-beginners', 8, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:55:14.482704'),
 (4255, 11777161, 191529732, 'lydiahallie/javascript-questions', 8, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', 74, 40486, ['lydiahallie','Tarabass'], '2022-01-21T03:55:14.780885'),
 (4256, 1228996, 261393739, 'Layla-P/YodaTranslator', 8, 'A quick Yoda translator app using Azure Functions and Twilio', 0, 2, ['Layla-P'], '2022-01-21T03:55:14.84841'),
-(4257, 6265396, 229753405, 'snipsnapdev/snipsnap', 11, 'Speed up your development with a powerful set of tools', 19, 1034, ['vi-nastya','lnikell'], '2022-01-21T03:55:14.88393'),
 (4258, 908380, 212487543, 'ash-project/ash', 10, 'A resource based framework for building Elixir applications', 59, 505, ['zachdaniel','andrewcallahan'], '2022-01-21T03:55:15.27602'),
+(4257, 6265396, 229753405, 'snipsnapdev/snipsnap', 11, 'Speed up your development with a powerful set of tools', 19, 1034, ['vi-nastya','lnikell'], '2022-01-21T03:55:14.88393'),
 (4259, 1228996, 351728562, 'lukeocodes/nuxt-contentful-starter', 9, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', 0, 2, ['lukeocodes'], '2022-01-21T03:55:16.053815'),
 (4260, 3861088, 4578898, 'HabitRPG/habitica', 9, 'A habit tracker app which treats your goals like a Role Playing Game.', 219, 8781, ['lefnire','SabreCat'], '2022-01-21T03:55:16.194072'),
 (4261, 6265396, 301136030, 'lukeocodes/dev-hearts', 12, 'SVG collection. Turn the pretty heart into your own branded heart using SVG ', 0, 31, ['lukeocodes','adsingh14'], '2022-01-21T03:55:16.464033'),
