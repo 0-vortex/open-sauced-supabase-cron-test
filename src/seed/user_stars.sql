@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T16:50:12.798Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T18:45:14.536Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4200,10 +4200,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4155, 57373172, 172562475, 'florinpop17/app-ideas', 16, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T03:49:31.570872'),
 (4156, 3340406, 163068024, 'h44z/gitlab_to_gitea', 14, 'Gitlab to Gitea migration script.', 0, 41, ['h44z','trailfog'], '2022-01-21T03:49:31.634216'),
 (4157, 57373172, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T03:49:32.301923'),
+(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4159, 118037, 256611909, 'fedecalendino/wrap-genius', 15, 'Unofficial python wrapper for genius'' API.', 0, 3, ['fedecalendino'], '2022-01-21T03:49:32.44226'),
 (4160, 3340406, 175055371, 'manios/docker-nagios', 15, 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', 8, 32, ['manios'], '2022-01-21T03:49:33.062872'),
 (4161, 14868216, 45947467, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 165, 5433, ['insin','ntwcklng'], '2022-01-21T03:49:33.523294'),
-(4158, 14868216, 28320207, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8988, ['majodev','maiadeutsch'], '2022-01-21T03:49:32.362863'),
 (4162, 118037, 308312105, 'fedecalendino/spotibot', 16, 'Collection of bots for Spotify', 0, 1, ['fedecalendino'], '2022-01-21T03:49:33.864961'),
 (4163, 57373172, 44882201, 'MunGell/awesome-for-beginners', 18, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:49:34.20996'),
 (4164, 3340406, 172227885, 'tiangolo/full-stack-fastapi-postgresql', 16, 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', 186, 7938, ['tiangolo','ebreton'], '2022-01-21T03:49:34.567918'),
