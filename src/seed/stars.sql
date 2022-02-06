@@ -1,6 +1,6 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T01:56:47.903Z
--- COPY stars FROM 'stars.csv' DELIMITER ',' CSV HEADER;
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T02:14:31.911Z
+-- COPY stars(id, created_at, full_name, stargazers_count, open_issues_count, forks_count) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO stars(id, created_at, full_name, stargazers_count, open_issues_count, forks_count) VALUES
@@ -772,8 +772,8 @@ INSERT INTO stars(id, created_at, full_name, stargazers_count, open_issues_count
 (349217272, '2022-01-21T00:44:32.330019+00:00', 'this-is-learning/rxjs-fundamentals-course', 92, 2, 14),
 (43441403, '2022-01-21T00:19:46.07293+00:00', 'strapi/strapi', 42872, 543, 5186),
 (191414235, '2022-01-20T18:40:42.923687+00:00', 'orbit-love/orbit-model', 781, 4, 56),
-(96025262, '2022-01-21T06:11:52.301532+00:00', 'Kazhnuz/roleplay-bootstrap-theme', 1, 0, 0),
 (181462414, '2022-01-21T04:36:26.042611+00:00', 'Alikhll/golang-developer-roadmap', 13559, 17, 1710),
+(96025262, '2022-01-21T06:11:52.301532+00:00', 'Kazhnuz/roleplay-bootstrap-theme', 1, 0, 0),
 (310686619, '2022-01-21T05:37:14.11256+00:00', 'tailwindlabs/tailwindcss-aspect-ratio', 590, 2, 12),
 (320544192, '2022-01-21T05:37:14.11256+00:00', 'supabase/ui', 966, 29, 91),
 (158606045, '2022-01-21T01:38:40.706717+00:00', 'remoteinterview/zero', 5833, 62, 213),
@@ -3097,7 +3097,6 @@ INSERT INTO stars(id, created_at, full_name, stargazers_count, open_issues_count
 (235237823, '2022-01-21T00:17:35.766557+00:00', 'dvarrazzo/replisome', 6, 0, 7),
 (309212011, '2022-01-21T05:42:47.103245+00:00', 'gndelia/codemod-replace-react-fc-typescript', 81, 2, 4),
 (127672595, '2022-01-20T23:16:22.538719+00:00', 'chimbori/crux', 158, 10, 34),
-(117581345, '2022-01-21T04:48:11.79286+00:00', 'grnet/archiving', 1, 6, 0),
 (115532550, '2022-01-21T04:48:11.79286+00:00', 'kkentzo/mockit', 2, 0, 0),
 (7710647, '2022-01-21T04:48:11.79286+00:00', 'jedisct1/libsodium', 9895, 4, 1535),
 (158731101, '2022-01-20T23:16:22.538719+00:00', 'cdimascio/essence', 82, 4, 11),
@@ -3168,4 +3167,5 @@ INSERT INTO stars(id, created_at, full_name, stargazers_count, open_issues_count
 (27292141, '2022-01-21T02:46:25.368066+00:00', 'securingsincity/react-ace', 3397, 154, 553),
 (161603821, '2022-01-21T01:38:34.621619+00:00', 'Axeflower/localsToJson', 4, 0, 2),
 (54377519, '2022-01-21T01:38:34.621619+00:00', 'PiranhaCMS/piranha.core', 1509, 107, 438),
+(117581345, '2022-01-21T04:48:11.79286+00:00', 'grnet/archiving', 1, 6, 0),
 (69673033, '2022-01-21T01:38:34.621619+00:00', 'ardalis/CleanArchitecture', 9404, 20, 1723);
