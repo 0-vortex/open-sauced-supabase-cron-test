@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:44:34.690Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:44:15.925Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3891,6 +3891,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
 (3843, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 230, 6291, ['martijnrusschen','rafeememon'], '2022-01-21T03:28:32.228163'),
 (3844, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 45, 25018, ['tannerlinsley','boschni'], '2022-01-21T03:28:32.910261'),
+(3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3846, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-21T03:28:33.297974'),
 (3847, 49351279, 355601088, 'sdras/career-ladders', 23, 'A sample of career ladders I use for my organization, open sourced for anyone.', 2, 603, ['sdras','DanJFletcher'], '2022-01-21T03:28:33.701011'),
 (3848, 1431853, 166504843, 'ForrestKnight/open-source-cs', 25, 'Video discussing this curriculum:', 10, 15186, ['ForrestKnight','0xflotus'], '2022-01-21T03:28:33.896115'),
@@ -4027,7 +4028,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3981, 569510, 151837779, 'akosbalasko/yarle', 27, 'Yarle - The ultimate converter of Evernote notes to Markdown', 40, 418, ['akosbalasko','rodbv'], '2022-01-21T03:35:12.600288'),
 (3982, 5842360, 18573791, 'davidmerfield/randomColor', 26, 'A tiny script for generating attractive colors', 19, 5759, ['davidmerfield','bilalq'], '2022-01-21T03:35:12.624485'),
 (3983, 57826091, 368185844, 'Nazeeh21/Devdit-Blockchain', 25, 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', 2, 2, ['Nazeeh21'], '2022-01-21T03:35:13.447707'),
-(3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3984, 72279316, 48356217, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 84, 9829, ['niklasramo','aslakhellesoy'], '2022-01-21T03:35:13.561555'),
 (3985, 5842360, 82423413, 'bshu2/generals-io-helper', 27, 'Chrome extension for generals.io', 1, 2, ['bshu2'], '2022-01-21T03:35:13.823622'),
 (3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
@@ -11413,12 +11413,12 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11374, 2237343, 289810394, 'elewin/pi-weather-station', 14, null, 7, 146, ['elewin'], '2022-01-22T13:31:58.190411'),
 (11375, 622115, 38276507, 'mvillaloboz/open-source-cs-degree', 11, 'The Open Source Computer Science Degree', 6, 3003, ['mvillaloboz','DLambros91'], '2022-01-22T13:31:58.232833'),
 (11376, 67872399, 287542207, '0xPolygon/polygon-sdk', 16, 'A Framework for Building Ethereum-compatible Blockchain Networks', 29, 459, ['ferranbt','Kourin1996'], '2022-01-22T13:31:58.74212'),
-(11377, 33148009, 328272972, 'btholt/complete-intro-to-react-v6', 17, 'learn React.js with Brian Holt', 28, 1291, ['btholt','leahbrenny'], '2022-01-22T13:31:58.778758'),
-(11378, 2658040, 179887428, 'Asrez/Website', 16, 'The blog of Max Base with some developer, programmer, designer, researcher(s).', 0, 2, ['BaseMax'], '2022-01-22T13:31:59.135025'),
-(11379, 2237343, 30978978, 'jacobalberty/unifi-docker', 15, 'Unifi Docker files', 76, 1331, ['jacobalberty','rohanrns'], '2022-01-22T13:31:59.489145'),
 (11380, 33148009, 110055053, 'sts10/vim-pink-moon', 18, 'A vim/neovim colorscheme', 1, 127, ['sts10','Rexcrazy804'], '2022-01-22T13:31:59.800115'),
 (11381, 622115, 149024333, 'aspittel/learn-code-from-us', 12, 'People from underrepresented groups in tech who create awesome programming resources', 28, 132, ['aspittel','twhite96'], '2022-01-22T13:31:59.868059'),
 (11382, 2658040, 174411957, 'BaseMax/LinkShortener', 17, 'Link Shortener is a free and useful service to create a short link then redirect to other links.', 0, 14, ['BaseMax'], '2022-01-22T13:32:00.165922'),
+(11377, 33148009, 328272972, 'btholt/complete-intro-to-react-v6', 17, 'learn React.js with Brian Holt', 28, 1291, ['btholt','leahbrenny'], '2022-01-22T13:31:58.778758'),
+(11378, 2658040, 179887428, 'Asrez/Website', 16, 'The blog of Max Base with some developer, programmer, designer, researcher(s).', 0, 2, ['BaseMax'], '2022-01-22T13:31:59.135025'),
+(11379, 2237343, 30978978, 'jacobalberty/unifi-docker', 15, 'Unifi Docker files', 76, 1331, ['jacobalberty','rohanrns'], '2022-01-22T13:31:59.489145'),
 (11383, 622115, 15204860, 'papers-we-love/papers-we-love', 13, 'Papers from the computer science community to read and discuss.', 23, 52027, ['zeeshanlakhani','DarrenN'], '2022-01-22T13:32:00.372387'),
 (11384, 67872399, 344546342, 'hunterbecton/react-firebase-passwordless', 17, null, 1, 16, ['hunterbecton'], '2022-01-22T13:32:00.466139'),
 (11385, 2237343, 62712899, 'AdguardTeam/AdGuardHome', 16, 'Network-wide ads & trackers blocking DNS server', 513, 10218, ['szolin','ameshkov'], '2022-01-22T13:32:00.795738'),
