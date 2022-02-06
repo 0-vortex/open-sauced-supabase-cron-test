@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:44:15.925Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T12:49:33.906Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -11413,12 +11413,12 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11374, 2237343, 289810394, 'elewin/pi-weather-station', 14, null, 7, 146, ['elewin'], '2022-01-22T13:31:58.190411'),
 (11375, 622115, 38276507, 'mvillaloboz/open-source-cs-degree', 11, 'The Open Source Computer Science Degree', 6, 3003, ['mvillaloboz','DLambros91'], '2022-01-22T13:31:58.232833'),
 (11376, 67872399, 287542207, '0xPolygon/polygon-sdk', 16, 'A Framework for Building Ethereum-compatible Blockchain Networks', 29, 459, ['ferranbt','Kourin1996'], '2022-01-22T13:31:58.74212'),
-(11380, 33148009, 110055053, 'sts10/vim-pink-moon', 18, 'A vim/neovim colorscheme', 1, 127, ['sts10','Rexcrazy804'], '2022-01-22T13:31:59.800115'),
-(11381, 622115, 149024333, 'aspittel/learn-code-from-us', 12, 'People from underrepresented groups in tech who create awesome programming resources', 28, 132, ['aspittel','twhite96'], '2022-01-22T13:31:59.868059'),
-(11382, 2658040, 174411957, 'BaseMax/LinkShortener', 17, 'Link Shortener is a free and useful service to create a short link then redirect to other links.', 0, 14, ['BaseMax'], '2022-01-22T13:32:00.165922'),
 (11377, 33148009, 328272972, 'btholt/complete-intro-to-react-v6', 17, 'learn React.js with Brian Holt', 28, 1291, ['btholt','leahbrenny'], '2022-01-22T13:31:58.778758'),
 (11378, 2658040, 179887428, 'Asrez/Website', 16, 'The blog of Max Base with some developer, programmer, designer, researcher(s).', 0, 2, ['BaseMax'], '2022-01-22T13:31:59.135025'),
 (11379, 2237343, 30978978, 'jacobalberty/unifi-docker', 15, 'Unifi Docker files', 76, 1331, ['jacobalberty','rohanrns'], '2022-01-22T13:31:59.489145'),
+(11380, 33148009, 110055053, 'sts10/vim-pink-moon', 18, 'A vim/neovim colorscheme', 1, 127, ['sts10','Rexcrazy804'], '2022-01-22T13:31:59.800115'),
+(11381, 622115, 149024333, 'aspittel/learn-code-from-us', 12, 'People from underrepresented groups in tech who create awesome programming resources', 28, 132, ['aspittel','twhite96'], '2022-01-22T13:31:59.868059'),
+(11382, 2658040, 174411957, 'BaseMax/LinkShortener', 17, 'Link Shortener is a free and useful service to create a short link then redirect to other links.', 0, 14, ['BaseMax'], '2022-01-22T13:32:00.165922'),
 (11383, 622115, 15204860, 'papers-we-love/papers-we-love', 13, 'Papers from the computer science community to read and discuss.', 23, 52027, ['zeeshanlakhani','DarrenN'], '2022-01-22T13:32:00.372387'),
 (11384, 67872399, 344546342, 'hunterbecton/react-firebase-passwordless', 17, null, 1, 16, ['hunterbecton'], '2022-01-22T13:32:00.466139'),
 (11385, 2237343, 62712899, 'AdguardTeam/AdGuardHome', 16, 'Network-wide ads & trackers blocking DNS server', 513, 10218, ['szolin','ameshkov'], '2022-01-22T13:32:00.795738'),
