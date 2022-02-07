@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T14:44:23.657Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T16:51:34.953Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -57,8 +57,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (51, 19861960, 195277904, 'leoetlino/project-restoration', 24, 'A Majora''s Mask 3D patch that restores some mechanics from the original game to get the best of both worlds', 36, 517, ['leoetlino','PhlexPlexico'], '2022-01-20T18:40:33.961804'),
 (52, 3941856, 251039251, '1milligram/1loc', 23, 'What''s your favorite JavaScript single LOC (line of code)?', 38, 5213, ['phuoc-ng','robinpokorny'], '2022-01-20T18:40:33.971152'),
 (53, 3941856, 199173392, 'jessicarose/open-advice-1-1s', 24, 'A repo containing the tooling and process Jessica Rose uses to hold open advice 1:1s for technologists. This process would suit open advice calls held in any discipline. PRs very welcome, especially from folks using this with a non-technical audience ', 0, 78, ['jessicarose','morty'], '2022-01-20T18:40:35.346895'),
-(54, 19861960, 164019865, 'Nilsty/robotframework-demo', 25, 'Test suite to demo some of the capabilities of the Robotframework', 1, 5, ['Nilsty','kutayy'], '2022-01-20T18:40:35.413395'),
 (55, 19861960, 199571722, 'MumflrFumperdink/olcPGEMac', 26, 'A port of the PixelGameEngine by OneLoneCoder to Mac', 4, 47, ['MumflrFumperdink','Mumflr'], '2022-01-20T18:40:36.844998'),
+(54, 19861960, 164019865, 'Nilsty/robotframework-demo', 25, 'Test suite to demo some of the capabilities of the Robotframework', 1, 5, ['Nilsty','kutayy'], '2022-01-20T18:40:35.413395'),
 (56, 3941856, 262453387, 'rubymorillo/pocket-tech-writing-list', 25, 'A small but formidable list of technical writing resources for developers', 0, 595, ['rubymorillo','Markel'], '2022-01-20T18:40:36.868648'),
 (57, 3941856, 280929892, 'leanmotherfuckers/serverless-magic-links-poc', 26, 'A simple POC for user-friendly magic links via AWS Cognito.', 0, 52, ['tschoffelen','mojitocoder'], '2022-01-20T18:40:38.349123'),
 (58, 19861960, 78289422, 'ClusterM/hakchi2', 27, 'Tool that allows you to add more games to your NES/SNES Classic Mini', 341, 2892, ['ClusterM','asiansteev'], '2022-01-20T18:40:38.398486'),
@@ -2378,7 +2378,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2331, 1930729, 125241315, 'lordpoint/xorshift-sandbox-and-visualizer', 21, 'An implementation of the xorshift+ pseudo-random number generation (PRNG) algorithm in javascript that provides visualization of the algorithm''s outcome in order to help understand its apparent randomness', 3, 32, ['lordpoint'], '2022-01-21T00:13:16.016705'),
 (2332, 1930729, 213720286, 'eps1lon/dom-accessibility-api', 22, 'Implements https://w3c.github.io/accname/', 8, 49, ['eps1lon','calebeby'], '2022-01-21T00:13:16.620907'),
 (2333, 1930729, 149638165, 'testing-library/user-event', 23, '🐕 Simulate user events', 16, 1502, ['Gpx','ph-fritsche'], '2022-01-21T00:13:17.224603'),
-(2334, 1930729, 128778692, 'testing-library/jest-dom', 24, ':owl: Custom jest matchers to test the state of the DOM', 57, 2975, ['gnapse','smacpherson64'], '2022-01-21T00:13:18.711279'),
 (2335, 1930729, 64877453, 'paypal/paypal-checkout-components', 25, 'Javascript Integration for PayPal Button and PayPal Checkout', 34, 1029, ['bluepnume','gregjopa'], '2022-01-21T00:13:19.311832'),
 (2336, 1930729, 92266575, 'thinhvo0108/react-paypal-express-checkout', 26, 'React component that renders Paypal''s express check out button', 32, 105, ['thinhvo0108','grahamannett'], '2022-01-21T00:13:20.652042'),
 (2337, 1930729, 64782550, 'indiegogo/apple-pay-js-stubs', 27, 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', 1, 39, ['glentregoning','julianguyen'], '2022-01-21T00:13:21.361867'),
@@ -2394,6 +2393,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2347, 20727421, 345606467, 'themesberg/glass-ui', 5, 'CSS UI library based on the glassmorphism design specifications', 0, 170, ['zoltanszogyenyi'], '2022-01-21T00:14:52.512259'),
 (2348, 20727421, 214587193, 'supabase/supabase', 6, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 208, 26795, ['kiwicopple','MildTomato'], '2022-01-21T00:14:53.179406'),
 (2349, 20727421, 52631841, 'gothinkster/realworld', 7, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 52, 63259, ['EricSimons','anishkny'], '2022-01-21T00:14:53.85095'),
+(2334, 1930729, 128778692, 'testing-library/jest-dom', 24, ':owl: Custom jest matchers to test the state of the DOM', 57, 2975, ['gnapse','smacpherson64'], '2022-01-21T00:13:18.711279'),
 (2350, 20727421, 235943258, 'jason0x43/hacs-hubitat', 8, 'A Hubitat integration for Home Assistant', 27, 91, ['jason0x43','amosyuen'], '2022-01-21T00:14:54.532878'),
 (2351, 20727421, 128193054, 'keystonejs/keystone', 9, 'The most powerful headless CMS for Node.js — built with GraphQL and React', 141, 5639, ['timleslie','jesstelford'], '2022-01-21T00:14:55.210621'),
 (2352, 20727421, 156108442, 'myspaghetti/macos-virtualbox', 10, 'Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS', 5, 11762, ['myspaghetti','bronson'], '2022-01-21T00:14:56.665961'),
@@ -4306,8 +4306,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4259, 1228996, 351728562, 'lukeocodes/nuxt-contentful-starter', 9, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', 0, 2, ['lukeocodes'], '2022-01-21T03:55:16.053815'),
 (4260, 3861088, 4578898, 'HabitRPG/habitica', 9, 'A habit tracker app which treats your goals like a Role Playing Game.', 219, 8781, ['lefnire','SabreCat'], '2022-01-21T03:55:16.194072'),
 (4261, 6265396, 301136030, 'lukeocodes/dev-hearts', 12, 'SVG collection. Turn the pretty heart into your own branded heart using SVG ', 0, 31, ['lukeocodes','adsingh14'], '2022-01-21T03:55:16.464033'),
-(4262, 11777161, 74791366, 'ryanmcdermott/clean-code-javascript', 9, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62308, ['ryanmcdermott','vsemozhetbyt'], '2022-01-21T03:55:16.581803'),
 (4263, 908380, 54685234, 'okTurtles/group-income-simple', 11, 'Semi-centralized version of Group Income for prototyping and research', 219, 314, ['taoeffect','sandrina-p'], '2022-01-21T03:55:16.626684'),
+(4262, 11777161, 74791366, 'ryanmcdermott/clean-code-javascript', 9, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62308, ['ryanmcdermott','vsemozhetbyt'], '2022-01-21T03:55:16.581803'),
 (4264, 11777161, 103633984, 'goldbergyoni/nodebestpractices', 10, ':white_check_mark:  The Node.js best practices list (January 2022)', 42, 73973, ['goldbergyoni','anediaz'], '2022-01-21T03:55:17.082708'),
 (4265, 1228996, 340187605, 'dmitryvinn/awesome-dev-advocacy', 10, '🥑  List of Awesome Developer Advocacy Resources', 0, 139, ['dmitryvinn','dmitryvinn-fb'], '2022-01-21T03:55:17.223423'),
 (4266, 3861088, 131498, 'seattlerb/hoe', 10, 'Hoe is a rake/rubygems helper for project Rakefiles. It helps you manage, maintain, and release your project and includes a dynamic plug-in system allowing for easy extensibility. Hoe ships with plug-ins for all your usual project tasks including rdoc generation, testing, packaging, deployment, and announcement.', 7, 273, ['zenspider','drbrain'], '2022-01-21T03:55:17.401922'),
@@ -9292,9 +9292,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9207, 30334776, 343965132, 'microsoft/ML-For-Beginners', 27, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 9, 28783, ['jlooper','softchris'], '2022-01-22T10:49:04.506489'),
 (9208, 25867172, 18696257, 'qrohlf/trianglify', 29, 'Algorithmically generated triangle art', 14, 9825, ['qrohlf','enzuguri'], '2022-01-22T10:49:04.92081'),
 (9209, 58482194, 379496251, 'Borrus-sudo/jsgandalf', 28, '🌈 My new website ', 2, 5, ['Borrus-sudo'], '2022-01-22T10:49:05.349422'),
-(9210, 30334776, 342342885, 'moov-io/terms-dictionary', 28, 'Simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov.', 0, 33, ['nlakritz','josephineroh'], '2022-01-22T10:49:05.79157'),
 (9211, 58482194, 71995937, 'nuxt/nuxt.js', 29, 'The Intuitive Vue(2) Framework', 488, 39233, ['pi0','Atinux'], '2022-01-22T10:49:05.878507'),
 (9212, 30334776, 340187605, 'dmitryvinn/awesome-dev-advocacy', 29, '🥑  List of Awesome Developer Advocacy Resources', 0, 139, ['dmitryvinn','dmitryvinn-fb'], '2022-01-22T10:49:06.991368'),
+(9210, 30334776, 342342885, 'moov-io/terms-dictionary', 28, 'Simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov.', 0, 33, ['nlakritz','josephineroh'], '2022-01-22T10:49:05.79157'),
 (9213, 57017587, 119006816, 'Splode/pomotroid', 0, ':tomato: Simple and visually-pleasing Pomodoro timer', 81, 2090, ['Splode','TCWTEAM'], '2022-01-22T10:54:49.087178'),
 (9214, 8037469, 389568562, 'lahmatiy/react-render-tracker', 0, 'React render tracker – a tool to discover performance issues related to unintentional re-renders and unmounts', 8, 1556, ['lahmatiy','user1736'], '2022-01-22T10:54:49.097348'),
 (9215, 29648040, 367697425, 'iamtheozzy/react-fundamentals', 0, 'Material for my React Fundamentals Workshop', 0, 1, ['kentcdodds','Aprillion'], '2022-01-22T10:54:49.111701'),
@@ -10607,8 +10607,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10600, 31478648, 350240448, 'mhmzdev/DevFolio', 19, 'Live portfolio designed using Flutter 2.0 available for android and web.', 3, 295, ['mhmzdev'], '2022-01-22T12:19:42.81039'),
 (10601, 19475228, 275604, 'resque/resque', 19, 'Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.', 59, 9054, ['defunkt','steveklabnik'], '2022-01-22T12:19:43.604867'),
 (10602, 53687927, 218818213, 'dwaipayan05/Kinect-ProjecT1', 21, 'Xbox Kinect ', 0, 1, ['dwaipayan05'], '2022-01-22T12:19:43.972065'),
-(10604, 6935431, 52855516, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 132, 10644, ['BrewTestBot','chenrui333'], '2022-01-22T12:19:44.848788'),
 (10603, 31478648, 238514517, 'matteobruni/tsparticles', 20, 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', 28, 2816, ['matteobruni','VincentGarreau'], '2022-01-22T12:19:44.050939'),
+(10604, 6935431, 52855516, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 132, 10644, ['BrewTestBot','chenrui333'], '2022-01-22T12:19:44.848788'),
 (10605, 19475228, 129791, 'javan/whenever', 20, 'Cron jobs in Ruby', 89, 8560, ['javan','benlangfeld'], '2022-01-22T12:19:44.866178'),
 (10606, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-22T12:19:44.914854'),
 (10607, 31478648, 373919310, 'ionic-elements/crypto-starter-ionic', 21, 'Crypto app with market data, graphs and latest news.', 0, 9, ['fmendoza'], '2022-01-22T12:19:45.248306'),
@@ -11698,6 +11698,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11678, 5713670, 369652397, 'whitep4nth3r/unbreak.tech', 12, 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', 1, 6, ['whitep4nth3r'], '2022-01-22T13:51:29.460438'),
 (11679, 13173676, 4414698, 'compiler-explorer/compiler-explorer', 12, 'Run compilers interactively from your web browser and interact with the assembly', 487, 10056, ['mattgodbolt','RubenRBS'], '2022-01-22T13:51:30.082944'),
 (11680, 4199845, 145464445, 'ueberdosis/tiptap', 11, 'The headless editor framework for web artisans.', 63, 14010, ['philippkuehn','hanspagel'], '2022-01-22T13:51:30.204522'),
+(11681, 5713670, 406594497, 'bdougie/invite-automation', 13, 'This is a repo to automate invites to teams. ', 0, 3, ['bdougie'], '2022-01-22T13:51:30.510515'),
+(11682, 14043845, 5909706, 'yhirose/cpp-httplib', 13, 'A C++ header-only HTTP/HTTPS server and client library', 6, 6350, ['yhirose','sum01'], '2022-01-22T13:51:30.543153'),
+(11683, 14043845, 294816887, 'bdougie/git-twitch', 14, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T13:51:31.089494'),
 (11684, 13173676, 210179484, 'saschagrunert/kubernix', 13, 'Single dependency Kubernetes clusters for local testing, experimenting and development', 24, 617, ['saschagrunert','aij'], '2022-01-22T13:51:31.173132'),
 (11685, 4199845, 203041686, 'srenauld/loriot-sdk', 12, 'A prototype NodeJS SDK to facilitate interaction with the LORIOT data and management APIs.', 0, 5, ['srenauld'], '2022-01-22T13:51:31.486267'),
 (11686, 5713670, 411003249, 'mtfoley/pr-compliance-action', 14, 'Check PR for compliance on title, linked issues, and files changed', 5, 114, ['mtfoley','MichaelDeBoey'], '2022-01-22T13:51:31.65196'),
@@ -11954,7 +11957,4 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (379761757, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 276, 10698, ['peterp','thedavidprice'], '2022-01-22T22:26:05.446218'),
 (381361156, 72279316, 398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 0, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', 1, 155, ['imsiddhant07','dakshp07'], '2022-01-22T22:26:06.137631'),
 (379613100, 22154417, 4132857, 'insanum/gcalcli', 0, 'Google Calendar Command Line Interface', 175, 2687, ['tresni','jcrowgey'], '2022-01-22T22:26:06.181295'),
-(11681, 5713670, 406594497, 'bdougie/invite-automation', 13, 'This is a repo to automate invites to teams. ', 0, 3, ['bdougie'], '2022-01-22T13:51:30.510515'),
-(11682, 14043845, 5909706, 'yhirose/cpp-httplib', 13, 'A C++ header-only HTTP/HTTPS server and client library', 6, 6350, ['yhirose','sum01'], '2022-01-22T13:51:30.543153'),
-(11683, 14043845, 294816887, 'bdougie/git-twitch', 14, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T13:51:31.089494'),
 (379993090, 57826091, 412662918, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 26, 53, ['angeljgomezc','PBillingsby'], '2022-01-22T22:26:06.384376');
