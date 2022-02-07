@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T22:44:16.298Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T01:03:11.041Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3819,8 +3819,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3772, 33669114, 261283923, 'osohq/oso', 9, 'Oso is a batteries-included framework for building authorization in your application.', 71, 2034, ['gj','saolsen'], '2022-01-21T03:28:12.320277'),
 (3773, 8037469, 304344049, 'sveltejs/kit', 13, 'The fastest way to build Svelte apps', 369, 6601, ['Rich-Harris','benmccann'], '2022-01-21T03:28:12.503056'),
 (3774, 1431853, 180418592, 'molefrog/wouter', 11, '🥢 A minimalist-friendly ~1.5KB routing for React and Preact. Nothing else but HOOKS.', 12, 3798, ['molefrog','cbbfcd'], '2022-01-21T03:28:12.532074'),
-(3775, 49351279, 348060227, 'snowpackjs/astro', 7, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:28:12.776175'),
 (3776, 33669114, 301482830, 'policy-hub/policy-hub-cli', 10, 'CLI for searching Rego policies', 6, 98, ['Blokje5','xchapter7x'], '2022-01-21T03:28:13.499276'),
+(3775, 49351279, 348060227, 'snowpackjs/astro', 7, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:28:12.776175'),
 (3777, 57017587, 115559503, 'ChrisKnott/Eel', 12, 'A little Python library for making simple Electron-like HTML/JS GUI apps', 165, 4782, ['ChrisKnott','samuelhwilliams'], '2022-01-21T03:28:13.667074'),
 (3778, 8037469, 135786093, 'typescript-cheatsheets/react', 14, 'Cheatsheets for experienced React developers getting started with TypeScript', 2, 31032, ['sw-yx','eps1lon'], '2022-01-21T03:28:13.870312'),
 (3779, 1431853, 2744972, 'websockets/ws', 12, 'Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js', 6, 17588, ['lpinca','einaros'], '2022-01-21T03:28:14.250536'),
@@ -3888,8 +3888,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3839, 8037469, 43156818, 'microsoft/vscode-generator-code', 26, 'Visual Studio Code extension generator', 5, 786, ['aeschli','bpasero'], '2022-01-21T03:28:31.293729'),
 (3840, 1431853, 234231371, 'gofiber/fiber', 24, '⚡️ Express inspired web framework written in Go', 41, 17792, ['Fenny','kiyonlin'], '2022-01-21T03:28:31.304811'),
 (3841, 33669114, 116800189, 'dockersamples/k8s-wordsmith-demo', 23, 'Sample project with Docker containers running under Kubernetes', 4, 164, ['BretFisher','otherguy'], '2022-01-21T03:28:31.83004'),
-(3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
 (3843, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 230, 6291, ['martijnrusschen','rafeememon'], '2022-01-21T03:28:32.228163'),
+(3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
 (3844, 8037469, 207645083, 'tannerlinsley/react-query', 27, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 45, 25018, ['tannerlinsley','boschni'], '2022-01-21T03:28:32.910261'),
 (3845, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 873, 4215, ['schrockn','alangenfeld'], '2022-01-21T03:28:33.20379'),
 (3846, 57017587, 177588303, 'kris-hansen/notion-cli', 25, 'A CLI for Notion.so (in the tune of Taskbook)', 1, 56, ['kris-hansen','kevinjalbert'], '2022-01-21T03:28:33.297974'),
@@ -4037,8 +4037,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3990, 569510, 1535009, 'jazzband/tablib', 29, 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', 33, 4066, ['kennethreitz','claudep'], '2022-01-21T03:35:15.253743'),
 (3991, 57826091, 102210005, 'dethcrypto/TypeChain', 27, '🔌 TypeScript bindings for Ethereum smart contracts', 36, 1554, ['krzkaczor','zemse'], '2022-01-21T03:35:15.874639'),
 (3992, 72279316, 377305568, 'madebygps/self-taught-guide-to-cloud-computing', 26, 'Learn the fundamentals of cloud computing', 1, 2365, ['madebygps','rishabkumar7'], '2022-01-21T03:35:16.021626'),
-(3994, 57826091, 361722943, 'Dhaiwat10/simple-nft', 28, null, 0, 1, ['rhlsthrm','krzkaczor'], '2022-01-21T03:35:17.021735'),
 (3993, 5842360, 47419579, 'andreasgrill/auto-selfcontrol', 29, 'Small utility to schedule start and stop times of SelfControl', 31, 261, ['andreasgrill','sbibauw'], '2022-01-21T03:35:16.379209'),
+(3994, 57826091, 361722943, 'Dhaiwat10/simple-nft', 28, null, 0, 1, ['rhlsthrm','krzkaczor'], '2022-01-21T03:35:17.021735'),
 (3995, 72279316, 103633984, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (January 2022)', 42, 73973, ['goldbergyoni','anediaz'], '2022-01-21T03:35:17.876202'),
 (3996, 57826091, 135786093, 'typescript-cheatsheets/react', 29, 'Cheatsheets for experienced React developers getting started with TypeScript', 2, 31032, ['sw-yx','eps1lon'], '2022-01-21T03:35:18.471166'),
 (3997, 72279316, 109887187, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 126, 832, ['danthareja'], '2022-01-21T03:35:19.243383'),
@@ -4604,9 +4604,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4523, 46828701, 95876775, 'elsewhencode/project-guidelines', 10, 'A set of best practices for JavaScript projects', 12, 26125, ['Mohamed3on','ufoqhmdt'], '2022-01-21T04:11:19.06556'),
 (4524, 667716, 104394958, 'true-myth/true-myth', 11, 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', 3, 440, ['chriskrycho','bmakuh'], '2022-01-21T04:11:19.741101'),
 (4525, 13490604, 175681313, 'joernio/joern', 13, 'Open-source code analysis platform for C/C++/Java/Binary/Javascript/Kotlin based on code property graphs', 32, 761, ['fabsx00','mpollmeier'], '2022-01-21T04:11:20.152448'),
-(4526, 38725511, 85225942, 'bmorelli25/Become-A-Full-Stack-Web-Developer', 12, 'Free resources for learning Full Stack Web Development', 34, 14722, ['bmorelli25','Kartikkh'], '2022-01-21T04:11:20.380328'),
 (4527, 46828701, 118102098, 'lauragift21/awesome-learning-resources', 11, '🔥 Awesome list of resources on Web Development.', 0, 3978, ['lauragift21','wireguy'], '2022-01-21T04:11:20.801505'),
 (4528, 667716, 51588320, 'stryker-mutator/stryker-js', 12, 'Mutation testing for JavaScript and friends', 95, 2051, ['nicojs','simondel'], '2022-01-21T04:11:21.336217'),
+(4526, 38725511, 85225942, 'bmorelli25/Become-A-Full-Stack-Web-Developer', 12, 'Free resources for learning Full Stack Web Development', 34, 14722, ['bmorelli25','Kartikkh'], '2022-01-21T04:11:20.380328'),
 (4529, 13490604, 98999731, 'enkimute/ganja.js', 14, ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', 49, 1291, ['enkimute','utensil'], '2022-01-21T04:11:21.727038'),
 (4530, 38725511, 247630970, 'ousecTic/pern-jwt-tutorial', 13, null, 1, 40, ['ousecTic'], '2022-01-21T04:11:22.021643'),
 (4531, 46828701, 31168578, 'hemanth/functional-programming-jargon', 12, 'Jargon from the functional programming world in simple terms!', 22, 14378, ['hemanth','jethrolarson'], '2022-01-21T04:11:22.062987'),
@@ -6628,8 +6628,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6577, 20134767, 272047365, 'mscoutermarsh/mscoutermarsh', 12, 'SECRETS!', 4, 207, ['mscoutermarsh','Ilshidur'], '2022-01-22T03:57:45.99866'),
 (6578, 46695719, 41881900, 'microsoft/vscode', 9, 'Visual Studio Code', 5408, 126680, ['bpasero','jrieken'], '2022-01-22T03:57:46.034995'),
 (6579, 58392246, 394897014, 'Yryty-go-id/rsocket-cpp', 11, null, 0, 1, [], '2022-01-22T03:57:46.170197'),
-(6580, 11858762, 83716883, 'ngrx/platform', 15, 'Reactive libraries for Angular', 28, 7062, ['brandonroberts','timdeschryver'], '2022-01-22T03:57:46.265857'),
 (6581, 16165980, 6639959, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch'], '2022-01-22T03:57:46.270664'),
+(6580, 11858762, 83716883, 'ngrx/platform', 15, 'Reactive libraries for Angular', 28, 7062, ['brandonroberts','timdeschryver'], '2022-01-22T03:57:46.265857'),
 (6582, 1930729, 11481338, 'zloirock/core-js', 18, 'Standard Library', 21, 16097, ['zloirock','slowcheetah'], '2022-01-22T03:57:46.362982'),
 (6583, 27487712, 217796246, 'mudaliaraditya/EpollServer', 6, 'simple epoll server library', 0, 1, ['mudaliaraditya'], '2022-01-22T03:57:46.435863'),
 (6584, 1305623, 274055064, 'hassanhabib/OtripleS', 9, 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', 75, 182, ['viralpandya','eriadhami'], '2022-01-22T03:57:46.46543'),
@@ -10854,8 +10854,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10845, 6241164, 294816887, 'bdougie/git-twitch', 11, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T12:57:44.168724'),
 (10846, 60850993, 306971358, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', 12, null, 0, 35, ['imadovitch'], '2022-01-22T12:57:44.631765'),
 (10847, 351693, 143975804, 'LycheeOrg/Lychee', 12, ' A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.', 150, 1345, ['ildyria','kamil4'], '2022-01-22T12:57:44.648495'),
-(10849, 6241164, 72754695, 'styled-components/polished', 12, 'A lightweight toolset for writing styles in JavaScript ✨', 15, 7100, ['bhough','mxstbr'], '2022-01-22T12:57:45.312887'),
 (10848, 16259450, 79449949, 'VadimDez/ngx-order-pipe', 13, '▼ Angular 5+ orderBy pipe', 3, 235, ['VadimDez','DeepSnowNeeL'], '2022-01-22T12:57:45.046363'),
+(10849, 6241164, 72754695, 'styled-components/polished', 12, 'A lightweight toolset for writing styles in JavaScript ✨', 15, 7100, ['bhough','mxstbr'], '2022-01-22T12:57:45.312887'),
 (10850, 1645628, 2889328, 'WordPress/WordPress', 12, 'WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.', 2, 15862, ['SergeyBiryukov','nacin'], '2022-01-22T12:57:45.689803'),
 (10851, 6241164, 147350463, 'leonardomso/33-js-concepts', 13, '📜 33 JavaScript concepts every developer should know.', 9, 46146, ['leonardomso','ilker0'], '2022-01-22T12:57:45.780411'),
 (10852, 60850993, 171563505, 'Asabeneh/JavaScript-for-Everyone', 13, 'A step by step guide to learn JavaScript and programming', 0, 406, ['Asabeneh','engineerabdulsalam'], '2022-01-22T12:57:45.791575'),
