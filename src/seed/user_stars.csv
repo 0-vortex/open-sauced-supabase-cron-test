@@ -11400,6 +11400,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 11445,622115,21648001,akullpp/awesome-java,27,"A curated list of awesome frameworks, libraries and software for the Java programming language.",8,31239,"{""heldev"", ""krisskross""}",2022-01-22T13:32:19.56648
 11446,622115,2028724,cgeo/cgeo,28,c:geo - The powerful Android geocaching app.,634,1180,"{""Bananeweizen"", ""samueltardieu""}",2022-01-22T13:32:21.606513
 11447,622115,3116751,androidannotations/androidannotations,29,Fast Android Development. Easy maintainance.,50,11163,"{""pyricau"", ""WonderCsabo""}",2022-01-22T13:32:22.998576
+456168834,5381468,501689,antlr/stringtemplate4,0,StringTemplate 4,41,768,"{""parrt"", ""sharwell""}",2022-02-07T02:18:37.405973
 11369,622115,17634071,JabRef/jabref,10,Graphical Java application for managing BibTeX and biblatex (.bib) databases,279,2431,"{""koppor"", ""Siedlerchr""}",2022-01-22T13:31:56.964373
 11370,67872399,392375604,kiruba-r11/file-categorizer,14,It categorizes your files 📁 based on its extension type.,0,2,"{""kiruba-r11""}",2022-01-22T13:31:57.073546
 11371,33148009,314036011,bobbyiliev/introduction-to-bash-scripting,16,Free Introduction to Bash Scripting eBook,1,1920,"{""bobbyiliev"", ""shmick""}",2022-01-22T13:31:57.114817
