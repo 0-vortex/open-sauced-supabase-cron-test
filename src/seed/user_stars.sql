@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T18:45:12.581Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T20:44:32.321Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6914,8 +6914,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6850, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-22T04:20:56.024885'),
 (6851, 12410942, 33212527, 'RailsEventStore/rails_event_store', 4, 'A Ruby implementation of an Event Store based on Active Record', 81, 1080, ['pawelpacana','mpraglowski'], '2022-01-22T04:20:56.227971'),
 (6852, 289882, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T04:20:56.575523'),
-(6853, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1494, ['kevquirk','bobdenotter'], '2022-01-22T04:20:56.857287'),
 (6854, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T04:20:57.166474'),
+(6853, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1494, ['kevquirk','bobdenotter'], '2022-01-22T04:20:56.857287'),
 (6855, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6332, ['zerowidth','jbarnette'], '2022-01-22T04:20:57.447754'),
 (6856, 26007940, 230706417, 'DaveSkender/Stock.Indicators', 6, 'Stock Indicators for .NET is a C# library package that produces financial market technical indicators. Send in historical price quotes and get back desired indicators such as moving averages, Relative Strength Index, Stochastic Oscillator, Parabolic SAR, etc. Nothing more.  It can be used in any market analysis software using standard OHLCV price quotes for equities, commodities, forex, cryptocurrencies, and others. We had private trading algorithms, machine learning, and charting systems in mind when originally creating this community library.', 10, 379, ['DaveSkender','LeeDongGeon1996'], '2022-01-22T04:20:57.539624'),
 (6857, 289882, 36895421, 'jupyter/jupyter', 8, 'Jupyter metapackage for installation, docs and chat', 190, 13145, ['willingc','parente'], '2022-01-22T04:20:57.76673'),
@@ -10580,10 +10580,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10570, 31478648, 259447311, 'SufiaAshraf/UserAuth', 11, 'A demo page for building user authentication page using node.js', 1, 3, ['SufiaAshraf'], '2022-01-22T12:19:32.988964'),
 (10571, 19475228, 54244030, 'FarmBot-Labs/mqtt-gateway', 11, 'DEPRECATED. Realtime messaging server for Farmbot (MQTT broker).', 0, 41, ['RickCarlino','roryaronson'], '2022-01-22T12:19:33.736119'),
 (10572, 53687927, 350700403, 'dwaipayan05/IE.Recaptcha', 13, null, 0, 1, ['dwaipayan05','AK271'], '2022-01-22T12:19:33.89289'),
-(10573, 6935431, 322057964, 'kllund/sample-pipeline-files', 13, 'This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning', 1, 6, ['kllund','bthomas2622'], '2022-01-22T12:19:34.016956'),
 (10574, 31478648, 333228035, 'SufiaAshraf/Role_Based_Authentication', 12, 'In computer systems security, role-based access control or role-based security is an approach to restricting system access to authorized users. I have build a role-based authentication app to restrict access for manager , admin and superadmin', 0, 1, ['SufiaAshraf'], '2022-01-22T12:19:34.359627'),
 (10575, 19475228, 44142511, 'FarmBot-Labs/farmbot-web-frontend', 12, 'DEPRECATED: See Web API repo', 1, 211, ['RickCarlino','altruisticsoftware'], '2022-01-22T12:19:34.966332'),
 (10576, 53687927, 214710128, 'dwaipayan05/GravityInfiniteRunnerUnity5', 14, 'Entire Project with Kinect and Oculus Fully Integrated', 0, 1, ['KatVHarris'], '2022-01-22T12:19:35.144004'),
+(10573, 6935431, 322057964, 'kllund/sample-pipeline-files', 13, 'This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning', 1, 6, ['kllund','bthomas2622'], '2022-01-22T12:19:34.016956'),
 (10577, 6935431, 263721979, 'Build5Nines/azure-kung-fu-dockervm', 14, 'Azure Kung Fu Docker VM', 0, 5, ['deltadan'], '2022-01-22T12:19:35.24333'),
 (10578, 31478648, 262403451, 'vagnersabadi/8-ways-looping-arrays-javascript', 13, null, 0, 1, ['gabrielfroes','vinibispo'], '2022-01-22T12:19:35.704519'),
 (10579, 19475228, 17652873, 'FarmBot/Farmbot-Web-App', 13, 'Setup, customize, and control FarmBot from any device', 58, 770, ['RickCarlino','gabrielburnworth'], '2022-01-22T12:19:36.350433'),
@@ -11842,8 +11842,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (361187808, 1295334, 96395, 'faker-ruby/faker', 0, 'A library for generating fake data such as names, addresses, and phone numbers.', 162, 9708, ['stympy','vbrazo'], '2022-01-22T23:07:17.031626'),
 (422278376, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T14:35:38.765227'),
 (215550527, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 270, 510, ['mfuji09','SphinxKnight'], '2022-01-22T14:35:38.765673'),
-(422279691, 4910518, 205593063, 'tmc/dlp', 0, 'DLP (data loss prevention) tools.', 6, 2, ['tmc','snyk-bot'], '2022-01-22T14:35:38.773025'),
 (419462546, 29417643, 225979578, 'talkpython/python-for-absolute-beginners-course', 0, 'Code samples and other handouts for our course.', 0, 1703, ['mikeckennedy','amcinnes87'], '2022-01-22T14:35:38.794237'),
+(422279691, 4910518, 205593063, 'tmc/dlp', 0, 'DLP (data loss prevention) tools.', 6, 2, ['tmc','snyk-bot'], '2022-01-22T14:35:38.773025'),
 (420634958, 12410942, 127035128, 'Shopify/quilt', 0, 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', 103, 1129, ['lemonmade','michenly'], '2022-01-22T14:35:38.884981'),
 (306930407, 13173676, 202523140, 'alexellis/k3sup', 0, 'bootstrap Kubernetes with k3s over SSH < 1 min 🚀', 31, 4156, ['alexellis','Waterdrips'], '2022-01-23T01:43:17.554632'),
 (208603857, 5713670, 429658975, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42'], '2022-01-23T01:43:18.236331'),
