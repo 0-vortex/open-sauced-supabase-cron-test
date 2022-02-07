@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T02:47:56.757Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T04:47:58.392Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2844,13 +2844,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2797, 46695719, 14571443, 'up-for-grabs/up-for-grabs.net', 20, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2447, ['shiftkey','ritwik12'], '2022-01-21T01:12:02.177081'),
 (2798, 58392246, 388022569, 'muhammaddzaky/zuramai', 24, null, 0, 1, ['zuramai'], '2022-01-21T01:12:02.556269'),
 (2799, 9968219, 21317360, 'koding/koding', 23, 'The Simplest Way to Manage Your Entire Dev Infrastructure!', 252, 1960, ['gokmen','sinan'], '2022-01-21T01:12:02.717835'),
+(2800, 46695719, 130268121, 'tailwindlabs/tailwindcss-intellisense', 21, 'Intelligent Tailwind CSS tooling for Visual Studio Code', 34, 1592, ['bradlc','ledenis'], '2022-01-21T01:12:03.74094'),
 (2801, 9968219, 71230327, 'spring-projects-experimental/spring-boot-thin-launcher', 24, 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', 19, 563, ['dsyer','mnewquis'], '2022-01-21T01:12:04.144786'),
 (2802, 58392246, 387114155, 'muhammaddzaky/script', 25, 'script', 0, 1, ['muhammaddzaky'], '2022-01-21T01:12:04.252001'),
 (2803, 58392246, 390224428, 'muhammaddzaky/smamuhamamddiyah.github.io', 26, null, 0, 1, ['muhammaddzaky'], '2022-01-21T01:12:05.522181'),
 (2804, 46695719, 106017343, 'tailwindlabs/tailwindcss', 22, 'A utility-first CSS framework for rapid UI development.', 57, 52651, ['adamwathan','reinink'], '2022-01-21T01:12:05.715994'),
 (2805, 9968219, 134733282, 'spring-projects-experimental/spring-fu', 25, 'KoFu and JaFu configuration DSLs for Spring Boot', 46, 1578, ['sdeleuze','fteychene'], '2022-01-21T01:12:05.822085'),
 (2806, 58392246, 379769983, 'Dzaky-official/MhdraihandzakySaragih', 27, null, 0, 1, ['muhammaddzaky'], '2022-01-21T01:12:06.935137'),
-(2800, 46695719, 130268121, 'tailwindlabs/tailwindcss-intellisense', 21, 'Intelligent Tailwind CSS tooling for Visual Studio Code', 34, 1592, ['bradlc','ledenis'], '2022-01-21T01:12:03.74094'),
 (2807, 9968219, 248032165, 'spring-projects/spring-authorization-server', 26, 'The Spring Authorization Server project is focused on delivering OAuth 2.1 Authorization Server support to the Spring community.', 67, 3110, ['jgrandja','sjohnr'], '2022-01-21T01:12:07.376048'),
 (2808, 46695719, 62607227, 'yangshun/tech-interview-handbook', 23, '💯 Curated interview preparation materials for busy engineers', 7, 63716, ['yangshun','louietyj'], '2022-01-21T01:12:07.840241'),
 (2809, 58392246, 322785065, 'advanced-rest-client/arc-settings', 28, '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', 0, 2, ['jarrodek','arcauto'], '2022-01-21T01:12:08.264297'),
