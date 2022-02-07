@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T06:47:06.864Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T08:45:24.205Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6340,9 +6340,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6311, 12410942, 157626893, 'thematters/matters-server', 12, 'Server code for Matters', 34, 47, ['robertu7','devformatters'], '2022-01-22T03:57:28.861715'),
 (6312, 16165980, 215240608, 'SteveSandersonMS/presentation-2019-10-NDCSydney', 6, null, 1, 74, ['SteveSandersonMS'], '2022-01-22T03:57:29.043564'),
 (6313, 20727421, 235943258, 'jason0x43/hacs-hubitat', 8, 'A Hubitat integration for Home Assistant', 25, 90, ['jason0x43','amosyuen'], '2022-01-22T03:57:29.075718'),
-(6314, 71297412, 72453516, 'wp-graphql/wp-graphql', 5, ':rocket: GraphQL API for WordPress', 187, 3113, ['jasonbahl','CodeProKid'], '2022-01-22T03:57:29.122641'),
 (6315, 1917293, 117790649, 'psi-zimb/psi-config', 6, 'Repository for PSI Zimbabwe Bahmni implementation', 0, 1, ['yashdave','matirp235'], '2022-01-22T03:57:29.419608'),
 (6316, 9968219, 264558151, 'borakasmer/MicroservicesWithRabbitMQAndSocketIO', 1, 'In this application, we will try to informed customers who buy the stock papers when the price changed. We will use NodeJs for the backend application. For improving the performance, we will use RabbitMQ, and we will write microservice as a consumer. We will send updated stock data by using SocketIO to the clients. For front-end application, we will use Angular 9', 15, 30, ['borakasmer'], '2022-01-22T03:57:29.521713'),
+(6314, 71297412, 72453516, 'wp-graphql/wp-graphql', 5, ':rocket: GraphQL API for WordPress', 187, 3113, ['jasonbahl','CodeProKid'], '2022-01-22T03:57:29.122641'),
 (6317, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T03:57:29.52649'),
 (6318, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T03:57:29.598584'),
 (6319, 11858762, 393030139, 'atapas/promise-interview-ready', 3, 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', 0, 81, ['atapas','saideepd'], '2022-01-22T03:57:29.65102'),
