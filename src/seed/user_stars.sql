@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T12:50:40.509Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T14:44:23.657Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6048,10 +6048,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6014, 5467696, 398039380, 'vasspilka/bank', 20, 'Sample Bank application used for my 2021 ElixirConf presentation', 2, 15, ['vasspilka'], '2022-01-21T06:04:22.156033'),
 (6015, 3037127, 1280180, 'phacility/phabricator', 23, 'Effective June 1, 2021: Phabricator is no longer actively maintained.', 1, 12228, ['chadlittle','bobtrahan'], '2022-01-21T06:04:22.192704'),
 (6016, 19350071, 44185629, 'lysu/go-saga', 21, 'Implements saga-pattern in Go, another way to distribute transaction.', 5, 227, ['lysu'], '2022-01-21T06:04:22.401401'),
+(6017, 5467696, 184951641, 'zdenal/commanded_events_map', 21, 'Tool for analysing commanded projects and representing in flow diagram.', 0, 22, ['zdenal','jfornoff'], '2022-01-21T06:04:23.392591'),
 (6018, 26205172, 133442384, 'denoland/deno', 13, 'A modern runtime for JavaScript and TypeScript.', 718, 79885, ['ry','bartlomieju'], '2022-01-21T06:04:23.731831'),
 (6019, 3037127, 1828795, 'AFNetworking/AFNetworking', 24, 'A delightful networking framework for iOS, macOS, watchOS, and tvOS.', 79, 33280, ['mattt','kcharwood'], '2022-01-21T06:04:24.674807'),
-(6021, 26205172, 46853356, 'razorpay/razorpay-dot-net', 14, 'Razorpay .NET SDK', 21, 7, ['sunnyagg','jitendra-1217'], '2022-01-21T06:04:25.001178'),
 (6020, 5467696, 198782780, 'trbngr/commanded_messaging', 22, 'Common macros for messaging in a Commanded application', 3, 27, ['trbngr'], '2022-01-21T06:04:24.8927'),
+(6021, 26205172, 46853356, 'razorpay/razorpay-dot-net', 14, 'Razorpay .NET SDK', 21, 7, ['sunnyagg','jitendra-1217'], '2022-01-21T06:04:25.001178'),
 (6022, 5467696, 365123252, 'KeyValueSoftwareSystems/authentication-service', 23, 'A service to handle authentication and authorisation', 0, 26, ['nikhiljk-kv','johnspaulka'], '2022-01-21T06:04:26.416968'),
 (6023, 26205172, 82486590, 'JsonCSharpClassGenerator/JsonCSharpClassGenerator', 15, 'JsonCSharpClassGenerator from http://jsonclassgenerator.codeplex.com/', 1, 79, ['suntong','sabarnett'], '2022-01-21T06:04:26.525565'),
 (6024, 3037127, 2349728, 'pockethub/PocketHub', 25, 'PocketHub Android App', 128, 9462, ['kevinsawicki','Meisolsson'], '2022-01-21T06:04:26.654439'),
@@ -6125,7 +6126,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6092, 4199845, 244694174, 'project-chip/connectedhomeip', 6, 'Matter (formerly Project CHIP) is creating more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers,  guided by the Connectivity Standards Alliance (formerly Zigbee Alliance).', 2003, 3182, ['vivien-apple','bzbarsky-apple'], '2022-01-21T06:11:52.151425'),
 (6093, 14043845, 129543408, 'witchard/tutorial-react-parcel-express', 6, 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', 0, 40, ['witchard','aronhoyer'], '2022-01-21T06:11:52.960626'),
 (6094, 13173676, 283854962, 'operator-framework/kubectl-operator', 8, 'Manage Kubernetes Operators from the command line', 11, 56, ['joelanford','kensipe'], '2022-01-21T06:11:53.14289'),
-(6017, 5467696, 184951641, 'zdenal/commanded_events_map', 21, 'Tool for analysing commanded projects and representing in flow diagram.', 0, 22, ['zdenal','jfornoff'], '2022-01-21T06:04:23.392591'),
 (6095, 4199845, 116586047, 'ewilken/hap-rs', 7, 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', 10, 112, ['ewilken','Gaelan'], '2022-01-21T06:11:53.419011'),
 (6096, 14043845, 22424133, 'muaz-khan/RecordRTC', 7, 'RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.', 375, 5058, ['muaz-khan','thijstriemstra'], '2022-01-21T06:11:54.208766'),
 (6097, 13173676, 126738831, 'etiennedi/keycloak-nginx-https-self', 9, 'create a CA, self-sign a certificate and add https through an nginx in front of keycloak.', 0, 55, ['etiennedi'], '2022-01-21T06:11:54.408904'),
@@ -10607,8 +10607,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10600, 31478648, 350240448, 'mhmzdev/DevFolio', 19, 'Live portfolio designed using Flutter 2.0 available for android and web.', 3, 295, ['mhmzdev'], '2022-01-22T12:19:42.81039'),
 (10601, 19475228, 275604, 'resque/resque', 19, 'Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.', 59, 9054, ['defunkt','steveklabnik'], '2022-01-22T12:19:43.604867'),
 (10602, 53687927, 218818213, 'dwaipayan05/Kinect-ProjecT1', 21, 'Xbox Kinect ', 0, 1, ['dwaipayan05'], '2022-01-22T12:19:43.972065'),
-(10603, 31478648, 238514517, 'matteobruni/tsparticles', 20, 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', 28, 2816, ['matteobruni','VincentGarreau'], '2022-01-22T12:19:44.050939'),
 (10604, 6935431, 52855516, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 132, 10644, ['BrewTestBot','chenrui333'], '2022-01-22T12:19:44.848788'),
+(10603, 31478648, 238514517, 'matteobruni/tsparticles', 20, 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', 28, 2816, ['matteobruni','VincentGarreau'], '2022-01-22T12:19:44.050939'),
 (10605, 19475228, 129791, 'javan/whenever', 20, 'Cron jobs in Ruby', 89, 8560, ['javan','benlangfeld'], '2022-01-22T12:19:44.866178'),
 (10606, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-22T12:19:44.914854'),
 (10607, 31478648, 373919310, 'ionic-elements/crypto-starter-ionic', 21, 'Crypto app with market data, graphs and latest news.', 0, 9, ['fmendoza'], '2022-01-22T12:19:45.248306'),
@@ -11698,9 +11698,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11678, 5713670, 369652397, 'whitep4nth3r/unbreak.tech', 12, 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', 1, 6, ['whitep4nth3r'], '2022-01-22T13:51:29.460438'),
 (11679, 13173676, 4414698, 'compiler-explorer/compiler-explorer', 12, 'Run compilers interactively from your web browser and interact with the assembly', 487, 10056, ['mattgodbolt','RubenRBS'], '2022-01-22T13:51:30.082944'),
 (11680, 4199845, 145464445, 'ueberdosis/tiptap', 11, 'The headless editor framework for web artisans.', 63, 14010, ['philippkuehn','hanspagel'], '2022-01-22T13:51:30.204522'),
-(11681, 5713670, 406594497, 'bdougie/invite-automation', 13, 'This is a repo to automate invites to teams. ', 0, 3, ['bdougie'], '2022-01-22T13:51:30.510515'),
-(11682, 14043845, 5909706, 'yhirose/cpp-httplib', 13, 'A C++ header-only HTTP/HTTPS server and client library', 6, 6350, ['yhirose','sum01'], '2022-01-22T13:51:30.543153'),
-(11683, 14043845, 294816887, 'bdougie/git-twitch', 14, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T13:51:31.089494'),
 (11684, 13173676, 210179484, 'saschagrunert/kubernix', 13, 'Single dependency Kubernetes clusters for local testing, experimenting and development', 24, 617, ['saschagrunert','aij'], '2022-01-22T13:51:31.173132'),
 (11685, 4199845, 203041686, 'srenauld/loriot-sdk', 12, 'A prototype NodeJS SDK to facilitate interaction with the LORIOT data and management APIs.', 0, 5, ['srenauld'], '2022-01-22T13:51:31.486267'),
 (11686, 5713670, 411003249, 'mtfoley/pr-compliance-action', 14, 'Check PR for compliance on title, linked issues, and files changed', 5, 114, ['mtfoley','MichaelDeBoey'], '2022-01-22T13:51:31.65196'),
@@ -11957,4 +11954,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (379761757, 4247126, 191051391, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 276, 10698, ['peterp','thedavidprice'], '2022-01-22T22:26:05.446218'),
 (381361156, 72279316, 398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 0, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', 1, 155, ['imsiddhant07','dakshp07'], '2022-01-22T22:26:06.137631'),
 (379613100, 22154417, 4132857, 'insanum/gcalcli', 0, 'Google Calendar Command Line Interface', 175, 2687, ['tresni','jcrowgey'], '2022-01-22T22:26:06.181295'),
+(11681, 5713670, 406594497, 'bdougie/invite-automation', 13, 'This is a repo to automate invites to teams. ', 0, 3, ['bdougie'], '2022-01-22T13:51:30.510515'),
+(11682, 14043845, 5909706, 'yhirose/cpp-httplib', 13, 'A C++ header-only HTTP/HTTPS server and client library', 6, 6350, ['yhirose','sum01'], '2022-01-22T13:51:30.543153'),
+(11683, 14043845, 294816887, 'bdougie/git-twitch', 14, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners'], '2022-01-22T13:51:31.089494'),
 (379993090, 57826091, 412662918, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 26, 53, ['angeljgomezc','PBillingsby'], '2022-01-22T22:26:06.384376');
