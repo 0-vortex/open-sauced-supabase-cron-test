@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T16:51:07.705Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T18:44:42.550Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5671,9 +5671,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5662, 12400445, 172378503, 'romkatv/powerlevel10k', 13, 'A Zsh theme', 18, 24657, ['romkatv','dritter'], '2022-01-21T05:42:56.831545'),
 (5663, 59939260, 10270250, 'facebook/react', 17, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 924, 181074, ['zpao','bvaughn'], '2022-01-21T05:42:57.149446'),
 (5664, 61131314, 36502, 'git/git', 25, 'Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.', 94, 40789, ['gitster','peff'], '2022-01-21T05:42:58.098787'),
+(5665, 61131314, 305896956, 'Mogakamo/developer-community-stats', 26, '🚀 A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats', 0, 1, ['subeshb1','shankar524'], '2022-01-21T05:42:59.469706'),
 (5666, 59939260, 35969061, 'google/styleguide', 18, 'Style guides for Google-originated open-source projects', 291, 29697, ['IsaacG','tonyruscoe'], '2022-01-21T05:42:59.518363'),
 (5667, 61131314, 181575785, 'kentcdodds/react-hooks', 27, 'Learn React Hooks! 🎣 ⚛', 5, 2034, ['kentcdodds','Aprillion'], '2022-01-21T05:43:00.817092'),
-(5665, 61131314, 305896956, 'Mogakamo/developer-community-stats', 26, '🚀 A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats', 0, 1, ['subeshb1','shankar524'], '2022-01-21T05:42:59.469706'),
 (5668, 59939260, 299628763, 'Asabeneh/30-Days-Of-React', 19, '30 Days of  React challenge is a step by step guide to learn React in 30 days. It requires HTML, CSS, and JavaScript knowledge. You should be comfortable with JavaScript before you start to React.  If you are not comfortable with JavaScript check out 30DaysOfJavaScript. This is a continuation of 30 Days Of JS.  This challenge may take more than 100 days, follow your own pace. ', 55, 8913, ['Asabeneh','momin-riyadh'], '2022-01-21T05:43:00.839395'),
 (5669, 61131314, 65750241, 'expo/expo', 28, 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', 1332, 15777, ['brentvatne','terribleben'], '2022-01-21T05:43:02.380424'),
 (5670, 12400445, 11730342, 'vuejs/vue', 14, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 552, 192462, ['yyx990803','vue-bot'], '2022-01-21T05:43:02.398213'),
@@ -8424,8 +8424,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8350, 45036724, 50274171, 'vuejs/rollup-plugin-vue', 6, 'Roll .vue files', 70, 829, ['yyx990803','znck'], '2022-01-22T09:45:20.256225'),
 (8351, 20134767, 281443363, 'sindresorhus/css-in-readme-like-wat', 7, 'Style your readme using CSS with this simple trick', 1, 4770, ['sindresorhus','ImprovedTube'], '2022-01-22T09:45:20.401745'),
 (8352, 58392246, 394559625, 'muhammaddzaky/mhdraihandzaky.net', 7, 'membuatwebsite', 0, 1, ['muhammaddzaky'], '2022-01-22T09:45:21.29119'),
-(8354, 20134767, 97559842, 'bvaughn/react-error-boundary', 8, 'Simple reusable React error boundary component', 6, 3429, ['bvaughn','kentcdodds'], '2022-01-22T09:45:21.832726'),
 (8353, 45036724, 260554261, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 33, 2280, ['johnsoncodehk','IWANABETHATGUY'], '2022-01-22T09:45:21.667564'),
+(8354, 20134767, 97559842, 'bvaughn/react-error-boundary', 8, 'Simple reusable React error boundary component', 6, 3429, ['bvaughn','kentcdodds'], '2022-01-22T09:45:21.832726'),
 (8355, 59651629, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61404, ['tuvtran','sayands'], '2022-01-22T09:45:22.046021'),
 (8356, 58392246, 394954667, 'muhammaddzaky/BucinWibuX', 8, 'BucinWibuX', 0, 1, [], '2022-01-22T09:45:22.731134'),
 (8357, 45036724, 284707810, 'posva/vue-ts-lib', 8, 'Vue 3 library starter in TS with lint, auto release, changelog and tests', 8, 139, ['posva','renovate-bot'], '2022-01-22T09:45:23.107412'),
@@ -10645,8 +10645,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10637, 6935431, 317539399, 'SAP/project-portal-for-innersource', 27, 'Lists all InnerSource projects of a company in an interactive and easy to use way. Can be used as a template for implementing the ''InnerSource portal'' pattern by the InnerSource Commons community.', 2, 83, ['Michadelic','spier'], '2022-01-22T12:19:55.249382'),
 (10638, 6935431, 311865268, 'zkoppert/go-exercises', 28, 'random go exercises to learn golang', 0, 1, ['zkoppert'], '2022-01-22T12:19:56.460185'),
 (10639, 6935431, 13855476, 'go-gorm/gorm', 29, 'The fantastic ORM library for Golang, aims to be developer friendly', 62, 26596, ['jinzhu','emirb'], '2022-01-22T12:19:57.94612'),
-(10641, 68660520, 178137889, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury'], '2022-01-22T12:33:50.128238'),
 (10640, 22655167, 364474335, 'google/zx', 0, 'A tool for writing better scripts', 14, 26913, ['antonmedv','antongolub'], '2022-01-22T12:33:49.561025'),
+(10641, 68660520, 178137889, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury'], '2022-01-22T12:33:50.128238'),
 (10642, 46935495, 234290189, 'sarthakvarshney8081/kube-cluster', 0, 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', 0, 1, ['path2himanshu'], '2022-01-22T12:33:50.224817'),
 (10643, 72912813, 214587193, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 212, 26864, ['kiwicopple','MildTomato'], '2022-01-22T12:33:50.475655'),
 (10644, 22620727, 15204860, 'papers-we-love/papers-we-love', 0, 'Papers from the computer science community to read and discuss.', 23, 52027, ['zeeshanlakhani','DarrenN'], '2022-01-22T12:33:50.587207'),
@@ -11429,8 +11429,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11389, 2237343, 241303926, 'mikenye/docker-readsb', 17, 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', 0, 73, ['mikenye','SalazarBruno'], '2022-01-22T13:32:02.015021'),
 (11390, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20567, ['chenglou','nkbt'], '2022-01-22T13:32:02.443484'),
 (11391, 67872399, 148316989, 'WazirX/wazirx-api', 19, 'Wazirx API documentation', 29, 190, ['BuddhaSource','dibyajitgoswamidg'], '2022-01-22T13:32:02.681639'),
-(11393, 2658040, 174172286, 'BaseMax/MongoCSample', 19, 'Sample code for connecting to the MongoDB.', 0, 13, ['BaseMax'], '2022-01-22T13:32:03.2496'),
 (11392, 67872399, 112507086, '30-seconds/30-seconds-of-code', 20, 'Short JavaScript code snippets for all your development needs', 6, 91335, ['Chalarangelo','30secondsofcode'], '2022-01-22T13:32:03.221106'),
+(11393, 2658040, 174172286, 'BaseMax/MongoCSample', 19, 'Sample code for connecting to the MongoDB.', 0, 13, ['BaseMax'], '2022-01-22T13:32:03.2496'),
 (11394, 622115, 101296881, 'mtdvio/every-programmer-should-know', 15, 'A collection of (mostly) technical things every software developer should know about', 36, 51956, ['mr-mig','YellowFoxH4XOR'], '2022-01-22T13:32:03.465611'),
 (11395, 2237343, 167717410, 'wiedehopf/graphs1090', 18, 'Graphs for dump1090 (based on dump1090-tools by mutability)', 4, 205, ['wiedehopf','SaturnusDJ'], '2022-01-22T13:32:03.593076'),
 (11396, 33148009, 330695135, 'bradtraversy/react-crash-2021', 21, 'Task tracking application from the React crash course', 15, 988, ['bradtraversy','cnbrkkaya'], '2022-01-22T13:32:03.824476'),
@@ -11603,8 +11603,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11583, 9935383, 39785222, 'Droogans/unmaintainable-code', 9, 'A more maintainable, easier to share version of the infamous http://mindprod.com/jgloss/unmain.html', 0, 8921, ['Droogans','dfvalero'], '2022-01-22T13:44:48.780726'),
 (11584, 9935383, 66167428, 'millwrightjs/millwright', 10, 'The easiest build tool you''ll ever use.', 0, 26, ['erquhart'], '2022-01-22T13:44:50.094465'),
 (11585, 5467696, 71948498, 'localstack/localstack', 11, '💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!', 322, 38266, ['whummer','thrau'], '2022-01-22T13:44:50.441004'),
-(11587, 5467696, 262658866, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29'], '2022-01-22T13:44:51.637722'),
 (11586, 9935383, 5243041, 'revolunet/JSbooks', 11, 'Directory of free JavaScript ebooks', 8, 2479, ['revolunet','philippebarbosa'], '2022-01-22T13:44:51.35952'),
+(11587, 5467696, 262658866, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29'], '2022-01-22T13:44:51.637722'),
 (11588, 9935383, 14440270, 'getify/You-Dont-Know-JS', 12, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148638, ['getify','machineloop'], '2022-01-22T13:44:51.882685'),
 (11590, 5467696, 7737247, 'lelylan/simple-oauth2', 13, 'A simple Node.js client library for Oauth2', 3, 1371, ['jonathansamines','andreareginato'], '2022-01-22T13:44:52.911189'),
 (11591, 26205172, 87973266, 'grain-lang/grain', 9, 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', 190, 2257, ['ospencer','phated'], '2022-01-22T13:44:53.250718'),
