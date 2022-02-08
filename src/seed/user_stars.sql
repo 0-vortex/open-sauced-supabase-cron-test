@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T01:03:29.868Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T02:48:49.812Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2084,8 +2084,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2039, 17373317, 8459994, 'google/google.github.io', 11, null, 0, 211, ['willnorris','dazuma'], '2022-01-20T23:57:45.557786'),
 (2040, 43640229, 223971726, 'ryanheise/just_audio', 17, 'Audio Player', 119, 559, ['ryanheise','bdlukaa'], '2022-01-20T23:57:45.994286'),
 (2041, 17373317, 20723540, 'microsoft/microsoft.github.io', 12, 'Microsoft on GitHub', 0, 2081, ['vinhub','martinwoodward'], '2022-01-20T23:57:46.319376'),
-(2042, 505751, 290669864, 'KengoTODA/actions-setup-docker-compose', 14, 'the GitHub Action setting up docker-compose command', 3, 2, ['KengoTODA','semantic-release-bot'], '2022-01-20T23:57:46.405469'),
 (2043, 19617280, 191414235, 'orbit-love/orbit-model', 16, 'A framework for building high gravity communities 🪐', 4, 778, ['dzello','patrickjwoods'], '2022-01-20T23:57:46.503758'),
+(2042, 505751, 290669864, 'KengoTODA/actions-setup-docker-compose', 14, 'the GitHub Action setting up docker-compose command', 3, 2, ['KengoTODA','semantic-release-bot'], '2022-01-20T23:57:46.405469'),
 (2044, 43640229, 159527907, 'ryanheise/audio_service', 18, 'Flutter plugin to play audio in the background while the screen is off.', 105, 631, ['ryanheise','nt4f04uNd'], '2022-01-20T23:57:46.719903'),
 (2045, 19617280, 304344049, 'sveltejs/kit', 17, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:57:47.212358'),
 (2046, 17373317, 3310609, 'Netflix/netflix.github.com', 13, null, 36, 1152, ['Randgalt','PoorImpulseCtrl'], '2022-01-20T23:57:47.831285'),
@@ -10172,9 +10172,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10157, 6842883, 51980455, 'alacritty/alacritty', 18, 'A cross-platform, OpenGL terminal emulator.', 303, 37034, ['chrisduerr','jwilm'], '2022-01-22T11:46:36.524062'),
 (10163, 667716, 5210288, 'montagejs/collections', 20, 'This package contains JavaScript implementations of common data structures with idiomatic interfaces.', 72, 1988, ['kriskowal','marchant'], '2022-01-22T11:46:39.023503'),
 (10164, 6842883, 481366, 'nvie/gitflow', 20, 'Git extensions to provide high-level repository operations for Vincent Driessen''s branching model.', 310, 25519, ['nvie','hollow'], '2022-01-22T11:46:39.138661'),
+(10165, 46828701, 276193266, 'First-Steps-in-DDD-Community/first-steps-in-ddd-solutions', 21, 'Solutions to the First Steps in DDD training course', 0, 22, ['andrewharmellaw'], '2022-01-22T11:46:39.713485'),
 (10166, 667716, 140954496, 'tc39/proposal-built-in-modules', 21, null, 41, 839, ['msaboff','mattijs'], '2022-01-22T11:46:40.250179'),
 (10167, 6842883, 45010048, 'webpack-contrib/copy-webpack-plugin', 21, 'Copy files and directories with webpack', 8, 2693, ['kevlened','alexander-akait'], '2022-01-22T11:46:40.383224'),
-(10165, 46828701, 276193266, 'First-Steps-in-DDD-Community/first-steps-in-ddd-solutions', 21, 'Solutions to the First Steps in DDD training course', 0, 22, ['andrewharmellaw'], '2022-01-22T11:46:39.713485'),
 (10168, 46828701, 117770219, 'scottaohara/accessibility_interview_questions', 22, 'A starting point for questions to ask someone that wants you to give them a job', 0, 284, ['scottaohara','ericwbailey'], '2022-01-22T11:46:40.92629'),
 (10169, 667716, 243429404, 'eobrain/bajel', 22, 'A build system modeled on make.', 11, 13, ['eobrain'], '2022-01-22T11:46:41.512092'),
 (10170, 6842883, 169250119, 'evilmartians/lefthook', 22, 'Fast and powerful Git hooks manager for any type of projects.', 75, 1891, ['Envek','skryukov'], '2022-01-22T11:46:41.73268'),
