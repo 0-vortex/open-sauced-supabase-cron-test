@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T06:47:06.923Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T08:45:04.410Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -795,9 +795,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (787, 7860023, 148236762, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas'], '2022-01-20T20:49:46.128158'),
 (788, 61815862, 211595183, 'osamaqarem/spotify-lite', 4, 'Spotify Lite made with React Native for iOS and Android', 0, 307, ['osamaqarem'], '2022-01-20T20:49:46.282941'),
 (789, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T20:49:46.67771'),
-(790, 7860023, 93390294, 'lanten/electron-antd', 1, 'Create a desktop app with Electron + Typescript + React + Antd', 0, 308, ['lanten','ImgBotApp'], '2022-01-20T20:49:47.030368'),
 (791, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T20:49:47.108388'),
 (792, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T20:49:47.487448'),
+(790, 7860023, 93390294, 'lanten/electron-antd', 1, 'Create a desktop app with Electron + Typescript + React + Antd', 0, 308, ['lanten','ImgBotApp'], '2022-01-20T20:49:47.030368'),
 (793, 7860023, 231329928, 'kat-tax/ult', 2, 'The Ultimate App Dev Kit', 1, 49, ['Cavitt'], '2022-01-20T20:49:47.873071'),
 (794, 61815862, 56549856, 'fennifith/Pasta-for-Spotify', 6, 'A material design Spotify client for Android', 13, 101, ['fennifith','TheAndroidMaster'], '2022-01-20T20:49:47.98668'),
 (795, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T20:49:48.296364'),
@@ -1261,9 +1261,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1253, 24606613, 74791366, 'ryanmcdermott/clean-code-javascript', 1, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62275, ['ryanmcdermott','vsemozhetbyt'], '2022-01-20T22:36:42.814934'),
 (1254, 656318, 45103523, 'RubyStarters/RubyStarters.github.io', 7, 'project website', 0, 2, ['haslinger','ramonh'], '2022-01-20T22:36:43.32337'),
 (1255, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-20T22:36:43.630446'),
-(1256, 24606613, 8805592, 'szimek/signature_pad', 2, 'HTML5 canvas based smooth signature drawing', 6, 7693, ['szimek','UziTech'], '2022-01-20T22:36:44.541167'),
 (1257, 656318, 2454047, 'rubocop/rails-style-guide', 8, 'A community-driven Ruby on Rails style guide', 13, 6180, ['bbatsov','koic'], '2022-01-20T22:36:45.020617'),
 (1258, 469997, 211666, 'nodejs/node-v0.x-archive', 9, 'Moved to https://github.com/nodejs/node', 571, 34786, ['orangemocha','refack'], '2022-01-20T22:36:45.893087'),
+(1256, 24606613, 8805592, 'szimek/signature_pad', 2, 'HTML5 canvas based smooth signature drawing', 6, 7693, ['szimek','UziTech'], '2022-01-20T22:36:44.541167'),
 (1259, 24606613, 90798757, 'segmentio/kafka-go', 3, 'Kafka library in Go', 105, 4317, ['achille-roussel','yolken-segment'], '2022-01-20T22:36:45.998057'),
 (1260, 656318, 44002833, 'where2help/where2help', 9, 'Rails app for the Refugee Hack Vienna 2015', 24, 18, ['klappradla','haslinger'], '2022-01-20T22:36:46.480216'),
 (1261, 469997, 11115005, 'raveeshbhalla/startupmap', 10, 'Indian Startup Map', 0, 3, ['raveeshbhalla'], '2022-01-20T22:36:47.240428'),
