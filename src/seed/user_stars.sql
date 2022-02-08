@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T20:47:32.760Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T22:44:19.231Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3863,7 +3863,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3816, 1431853, 19208128, 'firasdib/Regex101', 19, 'This repository is currently only used for issue tracking for www.regex101.com', 61, 2402, ['firasdib','Zarthus'], '2022-01-21T03:28:24.383892'),
 (3817, 49351279, 240231984, 'mikbry/awesome-webgpu', 17, '😎 Curated list of awesome things around WebGPU ecosystem. ', 1, 434, ['mikbry','alex-usher'], '2022-01-21T03:28:25.276578'),
 (3818, 57017587, 79162682, 'laurent22/joplin', 20, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 290, 27713, ['laurent22','tessus'], '2022-01-21T03:28:25.281322'),
-(3819, 33669114, 1103607, 'jenkinsci/jenkins', 18, 'Jenkins automation server', 79, 18346, ['kohsuke','jglick'], '2022-01-21T03:28:25.572628'),
 (3820, 1431853, 158873969, 'GoogleChromeLabs/quicklink', 20, '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', 46, 9249, ['addyosmani','lukeed'], '2022-01-21T03:28:25.589907'),
 (3821, 8037469, 93265134, 'diegohaz/generact', 22, 'Generate React components by replicating your own', 10, 1472, ['diegohaz','Dennitz'], '2022-01-21T03:28:25.902901'),
 (3822, 49351279, 317639685, 'johnlindquist/kit', 18, 'Script Kit. Automate Anything.', 4, 1298, ['johnlindquist','jsjoeio'], '2022-01-21T03:28:26.379648'),
@@ -3986,9 +3985,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3939, 72279316, 50063599, 'mcdallas/wallstreet', 14, 'Real time stock and option data.', 15, 746, ['mcdallas','sorying'], '2022-01-21T03:34:57.510079'),
 (3941, 57826091, 348060227, 'withastro/astro', 14, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:34:57.970629'),
 (3942, 569510, 91948540, 'ranaroussi/yfinance', 16, 'Download market data from Yahoo! Finance''s API', 405, 6489, ['ranaroussi','bradmetz'], '2022-01-21T03:34:58.17011'),
+(3819, 33669114, 1103607, 'jenkinsci/jenkins', 18, 'Jenkins automation server', 79, 18346, ['kohsuke','jglick'], '2022-01-21T03:28:25.572628'),
 (3943, 57826091, 8843683, 'chartjs/Chart.js', 15, 'Simple HTML5 Charts using the <canvas> tag', 119, 55922, ['etimberg','kurkle'], '2022-01-21T03:34:58.482739'),
 (3944, 72279316, 13030144, 'janpaepke/ScrollMagic', 15, 'The javascript library for magical scroll interactions.', 504, 13571, ['janpaepke','johnpolacek'], '2022-01-21T03:34:58.973869'),
-(3945, 5842360, 9934117, 'phoboslab/jsmpeg', 17, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T03:34:59.295869'),
 (3946, 569510, 16773572, 'geerlingguy/mac-dev-playbook', 17, 'Mac setup and configuration via Ansible.', 7, 4289, ['geerlingguy','dspolleke'], '2022-01-21T03:34:59.460155'),
 (3947, 57826091, 392046190, 'Dhaiwat10/furniture-exchange', 16, '2021 Supabase launchweek hackathon entry', 0, 8, ['Dhaiwat10','Nazeeh21'], '2022-01-21T03:34:59.738476'),
 (3948, 72279316, 240795158, 'KSJaay/Alita', 16, 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', 0, 83, ['KSJaay','PegosStelios'], '2022-01-21T03:35:00.256361'),
@@ -4292,6 +4291,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4246, 1228996, 102371998, 'nuxt-community/auth-module', 6, null, 222, 1640, ['JoaoPedroAS51','pi0'], '2022-01-21T03:55:12.422712'),
 (4247, 908380, 79676261, 'iamcryptoki/snowden-archive', 8, '💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.', 0, 376, ['iamcryptoki','lionrouge'], '2022-01-21T03:55:12.49374'),
 (4475, 38725511, 172490214, 'rohanbaraskar/UiPath-11', 0, 'UiPath Projects', 0, 9, ['ishmeet1995'], '2022-01-21T04:11:00.425353'),
+(3945, 5842360, 9934117, 'phoboslab/jsmpeg', 17, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T03:34:59.295869'),
 (4248, 3861088, 206314801, 'jonathanyeong/personal-website', 6, 'Personal Website', 12, 2, ['jonathanyeong','kendallstrautman'], '2022-01-21T03:55:12.816564'),
 (4249, 11777161, 112507086, '30-seconds/30-seconds-of-code', 7, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T03:55:13.028635'),
 (4250, 6265396, 311443569, 'smarthomejunkie/MyDevices', 10, 'A list of all the Smart Home devices that I use.', 0, 15, ['smarthomejunkie'], '2022-01-21T03:55:13.51871'),
