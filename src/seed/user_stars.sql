@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T04:47:33.196Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T06:47:06.923Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10946,8 +10946,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10937, 3846874, 52630616, 'apollographql/apollo-client', 0, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 572, 17199, ['benjamn','renovate-bot'], '2022-01-22T13:06:04.999987'),
 (10938, 38838958, 156914027, 'isaachinman/next-i18next', 1, 'The easiest way to translate your NextJs apps.', 22, 2917, ['isaachinman','capellini'], '2022-01-22T13:06:06.331489'),
 (10939, 40713709, 73184139, 'fkhadra/react-toastify', 1, 'React notification made easy 🚀 !', 54, 8288, ['fkhadra','rhdeck'], '2022-01-22T13:06:06.481045'),
-(10941, 38838958, 383845459, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze'], '2022-01-22T13:06:07.947139'),
 (10940, 3846874, 14210523, 'yargs/yargs', 1, ' yargs the modern, pirate-themed successor to optimist.', 300, 9461, ['bcoe','substack'], '2022-01-22T13:06:06.762484'),
+(10941, 38838958, 383845459, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze'], '2022-01-22T13:06:07.947139'),
 (10942, 40713709, 367602396, 'prince776/discode', 2, 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', 2, 69, ['prince776','HarshKapadia2'], '2022-01-22T13:06:08.10182'),
 (10943, 3846874, 1341324, 'isaacs/rimraf', 2, 'A `rm -rf` util for nodejs', 63, 4570, ['isaacs','PeterDaveHello'], '2022-01-22T13:06:08.28582'),
 (10944, 38838958, 34134519, 'awvalenti/materialdidatico', 3, 'Material didático para assuntos gerais de desenvolvimento de software', 0, 4, ['awvalenti'], '2022-01-22T13:06:09.463249'),
