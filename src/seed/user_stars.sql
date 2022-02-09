@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T02:49:20.983Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T04:47:50.106Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2468,6 +2468,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2420, 79887, 235237823, 'dvarrazzo/replisome', 14, 'handsomely replicate something', 0, 6, ['dvarrazzo','eulerto'], '2022-01-21T00:17:13.959431'),
 (2454, 52336027, 286339134, 'csharpfritz/csharp_with_csharpfritz', 1, 'Show notes, slides, and samples from the CSharp with CSharpFritz show', 9, 390, ['csharpfritz','NikiforovAll'], '2022-01-21T00:19:07.247461'),
 (2421, 1917293, 303802332, 'vmware-tanzu/community-edition', 17, 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', 273, 871, ['dvonthenen','joshrosso'], '2022-01-21T00:17:15.000918'),
+(2422, 16165980, 6639959, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch'], '2022-01-21T00:17:15.211234'),
 (2423, 79887, 236569958, 'dvarrazzo/pg_seldump', 15, 'PostgreSQL selective data dump', 6, 6, ['dvarrazzo'], '2022-01-21T00:17:15.266338'),
 (2424, 79887, 3366934, 'dvarrazzo/py-setproctitle', 16, 'A Python module to customize the process title', 12, 390, ['dvarrazzo','ngie-eign'], '2022-01-21T00:17:16.580657'),
 (2425, 1917293, 74791366, 'ryanmcdermott/clean-code-javascript', 18, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62284, ['ryanmcdermott','vsemozhetbyt'], '2022-01-21T00:17:16.922541'),
@@ -2818,7 +2819,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2773, 20134767, 18062944, 'fatih/vim-go', 20, 'Go development plugin for Vim', 32, 14189, ['bhcleek','fatih'], '2022-01-21T01:11:51.359879'),
 (2774, 58392246, 386632210, 'muhammaddzaky/Mengambil-Data-Sekolah', 16, 'Mengambil Datang Sekolah ', 0, 1, ['muhammaddzaky'], '2022-01-21T01:11:51.634477'),
 (2775, 9968219, 86370198, 'mechero/spring-boot-testing-strategies', 17, 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', 0, 315, ['mechero'], '2022-01-21T01:11:52.379836'),
-(2422, 16165980, 6639959, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch'], '2022-01-21T00:17:15.211234'),
 (2776, 20134767, 124957167, 'brandonweiss/charge', 21, '⚡️ An opinionated, zero-config static site generator.', 34, 388, ['brandonweiss','mrpotatoes'], '2022-01-21T01:11:52.550139'),
 (2777, 58392246, 386633454, 'muhammaddzaky/Data-Pokok-Pendidikan', 17, 'Data Pokok Pendidikan', 0, 1, ['muhammaddzaky'], '2022-01-21T01:11:53.062885'),
 (2778, 46695719, 6093316, 'DefinitelyTyped/DefinitelyTyped', 15, 'The repository for high quality TypeScript type definitions.', 723, 37457, ['vvakame','sandersn'], '2022-01-21T01:11:53.728653'),
@@ -5309,8 +5309,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5299, 6241164, 25359717, 'vlachoudis/bCNC', 24, 'GRBL CNC command sender, autoleveler and g-code editor', 412, 1261, ['vlachoudis','Harvie'], '2022-01-21T05:22:32.574078'),
 (5300, 16259450, 13199036, 'thiderman/doge', 27, 'wow very terminal doge', 5, 948, ['thiderman','tonylazarew'], '2022-01-21T05:22:33.161321'),
 (5301, 351693, 96036483, 'ng-select/ng-select', 21, ':star: Native angular select component', 79, 2795, ['varnastadeus','anjmao'], '2022-01-21T05:22:33.260724'),
-(5302, 6241164, 4801382, 'winder/Universal-G-Code-Sender', 25, 'A cross-platform G-Code sender for GRBL, Smoothieware, TinyG and G2core.', 176, 1362, ['winder','breiler'], '2022-01-21T05:22:33.887121'),
 (5303, 351693, 355258557, 'technorabilia/portainer-templates', 22, 'Various Portainer App Templates', 0, 61, ['technorabilia'], '2022-01-21T05:22:34.43156'),
+(5302, 6241164, 4801382, 'winder/Universal-G-Code-Sender', 25, 'A cross-platform G-Code sender for GRBL, Smoothieware, TinyG and G2core.', 176, 1362, ['winder','breiler'], '2022-01-21T05:22:33.887121'),
 (5305, 6241164, 84692493, 'tc39/proposal-temporal', 26, 'Provides standard objects and functions for working with dates and times.', 152, 2125, ['ptomato','Ms2ger'], '2022-01-21T05:22:35.180859'),
 (5306, 351693, 391400895, 'TBens/lovelace-ui-minimalist', 23, '🌻 Lovelace UI • Minimalist', 6, 143, ['TBens'], '2022-01-21T05:22:35.638915'),
 (5307, 16259450, 46624643, 'zplug/zplug', 29, ':hibiscus: A next-generation plugin manager for zsh', 138, 4864, ['b4b4r07','NigoroJr'], '2022-01-21T05:22:35.98841'),
@@ -11308,8 +11308,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11298, 907680, 70908474, 'whitecatboard/Lua-RTOS-ESP32', 29, 'Lua RTOS for ESP32', 62, 927, ['jolivepetrus','chowette'], '2022-01-22T13:25:56.5792'),
 (11299, 59939260, 265855552, 'bdougie/gitActionTraction', 27, ':video_camera: Home video of GitHub Actions tips for better traction. ', 7, 17, ['bdougie'], '2022-01-22T13:25:57.191096'),
 (11300, 59939260, 328070675, 'MattMarquise/open-sauced-goals', 28, null, 1, 1, ['MattMarquise'], '2022-01-22T13:25:58.645312'),
-(11302, 2237343, 324649354, 'mik3y/airdash', 0, 'A standalone, alternative ADS-B (readsb) web frontend', 6, 35, ['mik3y'], '2022-01-22T13:31:39.30501'),
 (11301, 59939260, 71359796, 'open-sauced/open-sauced', 29, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T13:25:59.871885'),
+(11302, 2237343, 324649354, 'mik3y/airdash', 0, 'A standalone, alternative ADS-B (readsb) web frontend', 6, 35, ['mik3y'], '2022-01-22T13:31:39.30501'),
 (11303, 67872399, 45325973, 'zutrinken/bleak', 0, 'Ghost Theme', 12, 518, ['zutrinken','ManuelRauber'], '2022-01-22T13:31:39.30426'),
 (11304, 2658040, 279163614, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 5, 19, ['0-vortex'], '2022-01-22T13:31:39.326467'),
 (11305, 622115, 230011262, 'jbangdev/jbang', 0, 'Unleash the power of Java - JBang Lets Students, Educators and Professional Developers create, edit and run self-contained source-only Java programs with unprecedented ease.', 177, 905, ['maxandersen','quintesse'], '2022-01-22T13:31:39.335002'),
