@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T16:51:54.146Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T18:46:25.450Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4341,8 +4341,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4294, 6265396, 315776414, 'callowcreation/banwannabefamousbots', 18, 'ban wanna be famous bots', 0, 6, ['callowcreation'], '2022-01-21T03:55:26.110844'),
 (4295, 6265396, 293860197, 'lowlighter/metrics', 19, '📊 An infographics generator with 30+ plugins and 200+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!', 12, 4883, ['lowlighter','Nixinova'], '2022-01-21T03:55:26.637895'),
 (4296, 11777161, 47018239, 'DopplerHQ/awesome-interview-questions', 15, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', 3, 44802, ['MaksimAbramchuk','ryan-blunden'], '2022-01-21T03:55:26.677349'),
-(4298, 1228996, 166471416, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 13, 210, ['instafluff','AlcaDesign'], '2022-01-21T03:55:27.176359'),
 (4297, 908380, 52914213, 'infinitered/thesis-phoenix', 18, 'A lightweight, bolt-on, intuitive content editing system for Elixir/Phoenix websites. Star this repo and follow along with our progress!', 35, 650, ['jamonholmgren','yulolimum'], '2022-01-21T03:55:26.924661'),
+(4298, 1228996, 166471416, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 13, 210, ['instafluff','AlcaDesign'], '2022-01-21T03:55:27.176359'),
 (4299, 11777161, 60493101, 'jwasham/coding-interview-university', 16, 'A complete computer science study plan to become a software engineer.', 40, 203514, ['jwasham','avizmarlon'], '2022-01-21T03:55:27.228925'),
 (4300, 3861088, 39759882, 'nhn/tui.editor', 16, '🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.', 294, 14155, ['js87zz','seonim-ryu'], '2022-01-21T03:55:27.243417'),
 (4301, 6265396, 375015992, 'hacktivist123/content-plan-example', 20, 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', 0, 137, ['hacktivist123','Youngestdev'], '2022-01-21T03:55:27.88796'),
