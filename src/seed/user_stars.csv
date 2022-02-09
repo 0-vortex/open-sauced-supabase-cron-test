@@ -10328,6 +10328,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 10347,3777549,156332593,Yamazaki93/S3Uploader,9,A minimalistic UI to conveniently upload and download files from AWS S3,37,120,"{""Yamazaki93""}",2022-01-22T11:59:38.318036
 10348,3941126,43441403,strapi/strapi,9,🚀 Open source Node.js Headless CMS to easily build customisable APIs,535,42551,"{""soupette"", ""alexandrebodin""}",2022-01-22T11:59:38.961826
 10349,15052690,173377124,Gingertonic/movie-js-site-scraper-demo,10,Demo using Watir to scrape a JS loading website,2,1,"{""Gingertonic""}",2022-01-22T11:59:39.690224
+456471693,83277146,87715061,damienbod/AspNetCoreOpeniddict,0,OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ,1,63,"{""damienbod""}",2022-02-09T11:34:56.799895
 10320,527550,12080551,tsenart/vegeta,3,HTTP load testing tool and library. It's over 9000!,88,18922,"{""tsenart"", ""jpfuentes2""}",2022-01-22T11:59:30.442436
 10321,3777549,195307085,theopensourceway/guidebook,4,Guidebook of open source community management best practices; is somewhat opinionated.,44,104,"{""quaid"", ""semioticrobotic""}",2022-01-22T11:59:30.671861
 10322,3941126,70342215,bootstrap-vue/bootstrap-vue,4,BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.,172,13654,"{""tmorehouse"", ""pi0""}",2022-01-22T11:59:31.508183
