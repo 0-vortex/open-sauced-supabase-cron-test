@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T06:47:11.568Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T08:45:15.448Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3057,9 +3057,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3016, 27487712, 33157169, 'libcpr/cpr', 12, 'C++ Requests: Curl for People, a spiritual port of Python Requests.', 46, 4279, ['whoshuu','COM8'], '2022-01-21T02:02:28.967626'),
 (3017, 203683, 123572362, 'quii/learn-go-with-tests', 13, 'Learn Go with test-driven development', 17, 16421, ['quii','pityonline'], '2022-01-21T02:02:29.146204'),
 (3018, 55982424, 144109184, 'mrouhi13/djecrety', 12, 'Djecrety is a Django secret key generator.', 3, 62, ['mrouhi13','PhysicistSouravDas'], '2022-01-21T02:02:29.45775'),
+(3019, 27487712, 997856, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1340, ['mrtazz','lawmaestro'], '2022-01-21T02:02:30.301513'),
 (3020, 203683, 164026325, 'databricks/koalas', 14, 'Koalas: pandas API on Apache Spark', 102, 3062, ['ueshin','HyukjinKwon'], '2022-01-21T02:02:30.497104'),
 (3021, 55982424, 400865703, 'bilalbentoumi/win11-vue', 13, 'Windows 11 Simulator built with Vue.js', 0, 105, ['bilalbentoumi'], '2022-01-21T02:02:30.695635'),
-(3019, 27487712, 997856, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1340, ['mrtazz','lawmaestro'], '2022-01-21T02:02:30.301513'),
 (3022, 67718832, 21289110, 'vinta/awesome-python', 10, 'A curated list of awesome Python frameworks, libraries, software and resources', 227, 113787, ['vinta','dhamaniasad'], '2022-01-21T02:02:30.974285'),
 (3023, 27487712, 58152535, 'standardese/standardese', 14, 'A (work-in-progress) nextgen Doxygen for C++', 34, 776, ['foonathan','saraedum'], '2022-01-21T02:02:31.585288'),
 (3024, 203683, 103392636, 'berndruecker/flowing-retail', 15, 'Sample application demonstrating an order fulfillment system decomposed into multiple independant components (e.g. microservices). Showing concrete implementation alternatives using e.g. Java, Spring Boot, Apache Kafka, Camunda, Zeebe, ...', 11, 1116, ['berndruecker','jwulf'], '2022-01-21T02:02:31.732381'),
@@ -3069,8 +3069,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3028, 27487712, 227648949, 'willwray/type_codec_challenge', 15, 'The Modern C++ type CoDec Challenge', 0, 4, ['willwray'], '2022-01-21T02:02:32.876722'),
 (3029, 67718832, 11512043, 'tasks/tasks', 12, 'Bringing Astrid Tasks back from the dead', 450, 1925, ['abaker','FlorianLeChat'], '2022-01-21T02:02:33.805971'),
 (3030, 55982424, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 15, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10300, ['abhisheknaiidu','ABSphreak'], '2022-01-21T02:02:33.868027'),
-(3032, 27487712, 215346317, 'andrejtonev/cabpp', 16, 'C++ header-only library implementing a Cyclic Asynchronous Buffer (CAB)', 0, 6, ['andrejtonev'], '2022-01-21T02:02:34.288302'),
 (3031, 203683, 167450644, 'amazon-archives/aws-appsync-chat', 17, 'Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplify', 17, 537, ['jpeddicord','dabit3'], '2022-01-21T02:02:34.021604'),
+(3032, 27487712, 215346317, 'andrejtonev/cabpp', 16, 'C++ header-only library implementing a Cyclic Asynchronous Buffer (CAB)', 0, 6, ['andrejtonev'], '2022-01-21T02:02:34.288302'),
 (3033, 67718832, 144590939, 'VSCodium/vscodium', 13, 'binary releases of VS Code without MS branding/telemetry/licensing', 91, 14885, ['stripedpajamas','daiyam'], '2022-01-21T02:02:35.089292'),
 (3034, 55982424, 212110787, 'GoogleCloudPlatform/django-demo-app-unicodex', 16, 'Serverless Django on Google Cloud ✨', 0, 73, ['glasnt'], '2022-01-21T02:02:35.146916'),
 (3035, 203683, 146046573, 'dabit3/gatsby-auth-starter-aws-amplify', 18, 'Starter Project with Authentication with Gatsby & AWS Amplify', 13, 314, ['swaminator','dabit3'], '2022-01-21T02:02:35.244135'),
@@ -3790,7 +3790,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3743, 57017587, 14408715, 'jnv/lists', 5, 'The definitive list of lists (of lists) curated on GitHub and elsewhere', 0, 7789, ['jnv','benedekrozemberczki'], '2022-01-21T03:28:02.411439'),
 (3744, 49351279, 246273539, 'prisma/docs', 3, '📚 Prisma Documentation', 453, 434, ['nilubava','nikolasburk'], '2022-01-21T03:28:02.517953'),
 (3745, 33669114, 292940644, 'anderseknert/awesome-opa', 3, 'A curated list of OPA related tools, frameworks and articles', 1, 286, ['anderseknert','srenatus'], '2022-01-21T03:28:03.388764'),
-(3746, 8037469, 350874478, 'notrab/headless-dropshipping-starter', 7, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 2, 346, ['renovate-bot','notrab'], '2022-01-21T03:28:03.526052'),
 (3747, 1431853, 18193978, 'sindresorhus/got', 5, '🌐 Human-friendly and powerful HTTP request library for Node.js', 43, 10827, ['szmarczak','sindresorhus'], '2022-01-21T03:28:03.708802'),
 (3748, 57017587, 41793121, 'rossant/awesome-math', 6, 'A curated list of awesome mathematics resources', 7, 5565, ['rossant','jackdolgin'], '2022-01-21T03:28:03.984296'),
 (3749, 33669114, 248725819, 'swade1987/deprek8ion', 4, 'Rego policies to monitor Kubernetes APIs deprecations.', 3, 143, ['swade1987','ckotzbauer'], '2022-01-21T03:28:04.927498'),
@@ -3813,6 +3812,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
 (3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
 (3768, 8037469, 267429516, 'concrete-utopia/utopia', 12, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T03:28:11.000336'),
+(3746, 8037469, 350874478, 'notrab/headless-dropshipping-starter', 7, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 2, 346, ['renovate-bot','notrab'], '2022-01-21T03:28:03.526052'),
 (3769, 1431853, 286867459, 'pmndrs/jotai', 10, '👻 Primitive and flexible state management for React', 30, 6912, ['dai-shi','Aslemammad'], '2022-01-21T03:28:11.327605'),
 (3770, 49351279, 8162715, 'mirumee/saleor', 6, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 250, 14970, ['maarcingebala','dominik-zeglen'], '2022-01-21T03:28:11.901857'),
 (3771, 57017587, 228118187, 'BrandonArmand/Binari', 11, 'Interactive code editor with a live binary tree visual designed to teach new developers the fundamentals of dynamic programming.', 13, 89, ['BrandonArmand','NKaty'], '2022-01-21T03:28:12.140327'),
@@ -4137,8 +4137,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4091, 67359053, 336945933, 'learn-academy-2021-alpha/Syllabus', 1, null, 0, 2, ['sjproctor','JzGo'], '2022-01-21T03:49:06.256262'),
 (4092, 14868216, 40819979, 'frend/frend.co', 3, 'Frend — A collection of accessible, modern front-end components.', 16, 637, ['thomasdigby','adamduncan'], '2022-01-21T03:49:07.100542'),
 (4093, 57373172, 364413063, 'thebearingedge/global-installs-are-bad', 1, 'And unnecessary.', 0, 2, ['thebearingedge'], '2022-01-21T03:49:07.333148'),
-(4095, 57373172, 47997753, 'zo0r/react-native-push-notification', 2, 'React Native Local and Remote Notifications', 211, 6267, ['Dallas62','zo0r'], '2022-01-21T03:49:08.698701'),
 (4096, 14868216, 83222441, 'donnemartin/system-design-primer', 4, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159093, ['donnemartin','satob'], '2022-01-21T03:49:09.08372'),
+(4095, 57373172, 47997753, 'zo0r/react-native-push-notification', 2, 'React Native Local and Remote Notifications', 211, 6267, ['Dallas62','zo0r'], '2022-01-21T03:49:08.698701'),
 (4097, 67359053, 335105505, 'KenSikes/GitTest', 3, 'just learnining to use Github', 0, 1, ['KenSikes'], '2022-01-21T03:49:09.250522'),
 (4098, 57373172, 74421371, 'ryanburgess/engineer-manager', 3, 'A list of engineering manager resource links.', 1, 7456, ['ryanburgess','stve'], '2022-01-21T03:49:10.168473'),
 (4099, 118037, 228652973, '0xGG/crossnote', 0, '📝 An interesting markdown note taking application', 64, 770, ['shd101wyy','ImKcat'], '2022-01-21T03:49:10.406722'),
