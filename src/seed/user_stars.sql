@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T20:44:25.760Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T22:44:37.557Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -11361,10 +11361,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11350, 67872399, 284546323, 'Abhirup-99/DesktopWallpaper', 10, null, 0, 1, ['Abhirup-99','Abhirup-2019'], '2022-01-22T13:31:51.953719'),
 (11351, 2658040, 188243294, 'BaseMax/ChessDesktopElectron', 10, 'Chess game with two player based on electron. (SOON)', 0, 4, ['BaseMax'], '2022-01-22T13:31:52.026168'),
 (11352, 622115, 230314536, 'cgeo/WhereYouGo', 7, 'Clone of the unmaintained repository (biylda/WhereYouGo) to continue app development', 67, 55, ['biylda','Lineflyer'], '2022-01-22T13:31:52.150016'),
-(11353, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-22T13:31:52.434523'),
 (11354, 33148009, 75291705, 'unicodeveloper/awesome-nextjs', 11, ':notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ', 53, 6945, ['unicodeveloper','timneutkens'], '2022-01-22T13:31:52.615686'),
 (11355, 2658040, 186932654, 'BaseMax/FirstElectron', 11, 'Begin point and Getting start of the electron using node js.', 0, 2, ['BaseMax'], '2022-01-22T13:31:53.250632'),
 (11356, 67872399, 96266792, 'davidhu2000/react-spinners', 11, 'A collection of loading spinner components for react', 25, 2080, ['davidhu2000','MincedCutlet'], '2022-01-22T13:31:53.268985'),
+(11353, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-22T13:31:52.434523'),
 (11357, 622115, 5579613, 'mixu/singlepageappbook', 8, 'Content and site generator for Single page apps in depth (my book on single page applications)', 9, 1718, ['mixu','eeror'], '2022-01-22T13:31:53.482754'),
 (11358, 33148009, 36256540, 'css-modules/css-modules', 13, 'Documentation about css-modules', 114, 15665, ['geelen','markdalgleish'], '2022-01-22T13:31:53.995828'),
 (11359, 2237343, 272328835, 'timburgan/timburgan', 11, null, 26, 603, ['timburgan','kwacky1'], '2022-01-22T13:31:54.234969'),
@@ -11469,7 +11469,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11458, 19350071, 266974036, 'DistributedClocks/shiviz', 2, 'A tool to visualize distributed system logs', 64, 42, ['albertxing','pqperry'], '2022-01-22T13:38:06.922484'),
 (11459, 3037127, 255480054, 'jon-walton/linkerd2-gitops-example', 3, null, 0, 4, [], '2022-01-22T13:38:07.317395'),
 (11460, 29888641, 287743349, 'docker/login-action', 3, 'GitHub Action to login against a Docker registry', 8, 344, ['crazy-max','tonistiigi'], '2022-01-22T13:38:07.319758'),
-(11461, 3037127, 13491895, 'EbookFoundation/free-programming-books', 4, ':books: Freely available programming books', 36, 219606, ['vhf','MHM5000'], '2022-01-22T13:38:07.864431'),
 (11462, 4573607, 248011509, 'CodeForPhilly/chime', 2, 'COVID-19 Hospital Impact Model for Epidemics', 35, 207, ['jlubken','quinn-dougherty'], '2022-01-22T13:38:08.111349'),
 (11463, 19350071, 13044600, 'salesagility/SuiteCRM', 3, 'SuiteCRM - Open source CRM for the world', 1405, 2801, ['gymad','Dillon-Brown'], '2022-01-22T13:38:08.531669'),
 (11464, 29888641, 241092383, 'docker/build-push-action', 4, 'GitHub Action to build and push Docker images with Buildx', 22, 1992, ['crazy-max','zappy-shu'], '2022-01-22T13:38:08.656565'),
@@ -11500,6 +11499,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11489, 3037127, 187050643, 'openfaas/openfaas-linkerd-workshop', 13, 'Lightweight Serverless on Kubernetes with mTLS and traffic-splitting with Linkerd2', 0, 91, ['alexellis','matipan'], '2022-01-22T13:38:20.625928'),
 (11490, 19350071, 29514104, 'netlify/netlify-cms', 11, 'A Git-based CMS for Static Site Generators', 643, 14886, ['erquhart','erezrokah'], '2022-01-22T13:38:20.782152'),
 (11491, 3037127, 109512938, 'openfaas/openfaas-cloud', 14, 'The Multi-user OpenFaaS Platform', 37, 751, ['alexellis','martindekov'], '2022-01-22T13:38:22.006167'),
+(11461, 3037127, 13491895, 'EbookFoundation/free-programming-books', 4, ':books: Freely available programming books', 36, 219606, ['vhf','MHM5000'], '2022-01-22T13:38:07.864431'),
 (11492, 3037127, 81283571, 'linkerd/linkerd-zipkin', 15, 'linkerd telemeter plugins for writing trace data to zipkin', 9, 28, ['dadjeibaah','klingerf'], '2022-01-22T13:38:23.021893'),
 (11493, 3037127, 45723377, 'charlax/professional-programming', 16, 'A collection of full-stack resources for programmers.', 1, 16016, ['charlax','laithshadeed'], '2022-01-22T13:38:24.360724'),
 (11494, 19350071, 60243197, 'nextcloud/server', 12, '☁️ Nextcloud server, a safe home for all your data', 1911, 18048, ['rullzer','MorrisJobke'], '2022-01-22T13:38:24.375102'),
