@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T08:45:15.448Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T10:44:42.795Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2583,7 +2583,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2535, 1917293, 42172184, 'servinglynk/hslynk-open-source', 9, 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', 25, 5, ['logicsandeep','suryayadavalli'], '2022-01-21T00:24:43.406142'),
 (2536, 16165980, 78847475, 'rossmann-engineering/EasyModbusTCP.NET', 8, 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', 36, 485, ['rossmann-engineering','da66en'], '2022-01-21T00:24:43.660897'),
 (2537, 71297412, 43441403, 'strapi/strapi', 3, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 526, 42525, ['soupette','alexandrebodin'], '2022-01-21T00:24:43.681466'),
-(2538, 1917293, 33763522, 'alt-code/Research', 10, null, 0, 15, ['chrisparnin','denaefordrobin'], '2022-01-21T00:24:44.170914'),
 (2539, 71297412, 361335799, '100devs/todo-mvc-auth-local', 4, null, 1, 15, ['leonnoel','JeremySeckinger'], '2022-01-21T00:24:44.39256'),
 (2540, 79887, 409762235, 'rognan/deno-gradle-plugin', 7, 'Use Deno (https://deno.land/) as part of your Gradle build.', 1, 1, ['rognan'], '2022-01-21T00:24:44.687792'),
 (2541, 1917293, 75078016, 'coopcycle/coopcycle-app', 11, 'CoopCycle native app', 141, 122, ['alexsegura','Atala'], '2022-01-21T00:24:44.897111'),
@@ -2593,6 +2592,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2545, 16165980, 17620347, 'dotnet/aspnetcore', 9, 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', 2239, 27056, ['pranavkm','aspnetci'], '2022-01-21T00:24:46.122209'),
 (2546, 71297412, 196987768, 'TryGhost/eleventy-starter-ghost', 6, 'A starter template to build websites with Ghost & Eleventy', 14, 258, ['renovate-bot','daviddarnes'], '2022-01-21T00:24:46.473334'),
 (2547, 1917293, 102952, 'foodcoops/foodsoft', 13, 'Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling).', 207, 252, ['wvengen','paroga'], '2022-01-21T00:24:47.097104'),
+(2538, 1917293, 33763522, 'alt-code/Research', 10, null, 0, 15, ['chrisparnin','denaefordrobin'], '2022-01-21T00:24:44.170914'),
 (2548, 71297412, 375015992, 'hacktivist123/content-plan-example', 7, 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', 0, 137, ['hacktivist123','Youngestdev'], '2022-01-21T00:24:47.259937'),
 (2549, 79887, 306171501, 'shipa-corp/ketch', 9, 'Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface', 6, 552, ['aleksej-paschenko','stinkyfingers'], '2022-01-21T00:24:47.29021'),
 (2550, 16165980, 2682189, 'tmsmith/Dapper-Extensions', 10, 'Dapper Extensions is a small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs. For more advanced querying scenarios, Dapper Extensions provides a predicate system. The goal of this library is to keep your POCOs pure by not requiring any attributes or base class inheritance.', 87, 1553, ['tmsmith','pagebrooks'], '2022-01-21T00:24:47.749891'),
@@ -3790,6 +3790,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3743, 57017587, 14408715, 'jnv/lists', 5, 'The definitive list of lists (of lists) curated on GitHub and elsewhere', 0, 7789, ['jnv','benedekrozemberczki'], '2022-01-21T03:28:02.411439'),
 (3744, 49351279, 246273539, 'prisma/docs', 3, '📚 Prisma Documentation', 453, 434, ['nilubava','nikolasburk'], '2022-01-21T03:28:02.517953'),
 (3745, 33669114, 292940644, 'anderseknert/awesome-opa', 3, 'A curated list of OPA related tools, frameworks and articles', 1, 286, ['anderseknert','srenatus'], '2022-01-21T03:28:03.388764'),
+(3746, 8037469, 350874478, 'notrab/headless-dropshipping-starter', 7, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 2, 346, ['renovate-bot','notrab'], '2022-01-21T03:28:03.526052'),
 (3747, 1431853, 18193978, 'sindresorhus/got', 5, '🌐 Human-friendly and powerful HTTP request library for Node.js', 43, 10827, ['szmarczak','sindresorhus'], '2022-01-21T03:28:03.708802'),
 (3748, 57017587, 41793121, 'rossant/awesome-math', 6, 'A curated list of awesome mathematics resources', 7, 5565, ['rossant','jackdolgin'], '2022-01-21T03:28:03.984296'),
 (3749, 33669114, 248725819, 'swade1987/deprek8ion', 4, 'Rego policies to monitor Kubernetes APIs deprecations.', 3, 143, ['swade1987','ckotzbauer'], '2022-01-21T03:28:04.927498'),
@@ -3812,7 +3813,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
 (3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
 (3768, 8037469, 267429516, 'concrete-utopia/utopia', 12, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T03:28:11.000336'),
-(3746, 8037469, 350874478, 'notrab/headless-dropshipping-starter', 7, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 2, 346, ['renovate-bot','notrab'], '2022-01-21T03:28:03.526052'),
 (3769, 1431853, 286867459, 'pmndrs/jotai', 10, '👻 Primitive and flexible state management for React', 30, 6912, ['dai-shi','Aslemammad'], '2022-01-21T03:28:11.327605'),
 (3770, 49351279, 8162715, 'mirumee/saleor', 6, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 250, 14970, ['maarcingebala','dominik-zeglen'], '2022-01-21T03:28:11.901857'),
 (3771, 57017587, 228118187, 'BrandonArmand/Binari', 11, 'Interactive code editor with a live binary tree visual designed to teach new developers the fundamentals of dynamic programming.', 13, 89, ['BrandonArmand','NKaty'], '2022-01-21T03:28:12.140327'),
@@ -4137,8 +4137,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4091, 67359053, 336945933, 'learn-academy-2021-alpha/Syllabus', 1, null, 0, 2, ['sjproctor','JzGo'], '2022-01-21T03:49:06.256262'),
 (4092, 14868216, 40819979, 'frend/frend.co', 3, 'Frend — A collection of accessible, modern front-end components.', 16, 637, ['thomasdigby','adamduncan'], '2022-01-21T03:49:07.100542'),
 (4093, 57373172, 364413063, 'thebearingedge/global-installs-are-bad', 1, 'And unnecessary.', 0, 2, ['thebearingedge'], '2022-01-21T03:49:07.333148'),
-(4096, 14868216, 83222441, 'donnemartin/system-design-primer', 4, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159093, ['donnemartin','satob'], '2022-01-21T03:49:09.08372'),
 (4095, 57373172, 47997753, 'zo0r/react-native-push-notification', 2, 'React Native Local and Remote Notifications', 211, 6267, ['Dallas62','zo0r'], '2022-01-21T03:49:08.698701'),
+(4096, 14868216, 83222441, 'donnemartin/system-design-primer', 4, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159093, ['donnemartin','satob'], '2022-01-21T03:49:09.08372'),
 (4097, 67359053, 335105505, 'KenSikes/GitTest', 3, 'just learnining to use Github', 0, 1, ['KenSikes'], '2022-01-21T03:49:09.250522'),
 (4098, 57373172, 74421371, 'ryanburgess/engineer-manager', 3, 'A list of engineering manager resource links.', 1, 7456, ['ryanburgess','stve'], '2022-01-21T03:49:10.168473'),
 (4099, 118037, 228652973, '0xGG/crossnote', 0, '📝 An interesting markdown note taking application', 64, 770, ['shd101wyy','ImKcat'], '2022-01-21T03:49:10.406722'),
