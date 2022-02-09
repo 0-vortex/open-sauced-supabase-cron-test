@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T01:03:23.106Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T02:49:20.983Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2468,7 +2468,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2420, 79887, 235237823, 'dvarrazzo/replisome', 14, 'handsomely replicate something', 0, 6, ['dvarrazzo','eulerto'], '2022-01-21T00:17:13.959431'),
 (2454, 52336027, 286339134, 'csharpfritz/csharp_with_csharpfritz', 1, 'Show notes, slides, and samples from the CSharp with CSharpFritz show', 9, 390, ['csharpfritz','NikiforovAll'], '2022-01-21T00:19:07.247461'),
 (2421, 1917293, 303802332, 'vmware-tanzu/community-edition', 17, 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', 273, 871, ['dvonthenen','joshrosso'], '2022-01-21T00:17:15.000918'),
-(2422, 16165980, 6639959, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch'], '2022-01-21T00:17:15.211234'),
 (2423, 79887, 236569958, 'dvarrazzo/pg_seldump', 15, 'PostgreSQL selective data dump', 6, 6, ['dvarrazzo'], '2022-01-21T00:17:15.266338'),
 (2424, 79887, 3366934, 'dvarrazzo/py-setproctitle', 16, 'A Python module to customize the process title', 12, 390, ['dvarrazzo','ngie-eign'], '2022-01-21T00:17:16.580657'),
 (2425, 1917293, 74791366, 'ryanmcdermott/clean-code-javascript', 18, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62284, ['ryanmcdermott','vsemozhetbyt'], '2022-01-21T00:17:16.922541'),
@@ -2819,6 +2818,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2773, 20134767, 18062944, 'fatih/vim-go', 20, 'Go development plugin for Vim', 32, 14189, ['bhcleek','fatih'], '2022-01-21T01:11:51.359879'),
 (2774, 58392246, 386632210, 'muhammaddzaky/Mengambil-Data-Sekolah', 16, 'Mengambil Datang Sekolah ', 0, 1, ['muhammaddzaky'], '2022-01-21T01:11:51.634477'),
 (2775, 9968219, 86370198, 'mechero/spring-boot-testing-strategies', 17, 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', 0, 315, ['mechero'], '2022-01-21T01:11:52.379836'),
+(2422, 16165980, 6639959, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch'], '2022-01-21T00:17:15.211234'),
 (2776, 20134767, 124957167, 'brandonweiss/charge', 21, '⚡️ An opinionated, zero-config static site generator.', 34, 388, ['brandonweiss','mrpotatoes'], '2022-01-21T01:11:52.550139'),
 (2777, 58392246, 386633454, 'muhammaddzaky/Data-Pokok-Pendidikan', 17, 'Data Pokok Pendidikan', 0, 1, ['muhammaddzaky'], '2022-01-21T01:11:53.062885'),
 (2778, 46695719, 6093316, 'DefinitelyTyped/DefinitelyTyped', 15, 'The repository for high quality TypeScript type definitions.', 723, 37457, ['vvakame','sandersn'], '2022-01-21T01:11:53.728653'),
@@ -3635,8 +3635,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3589, 47711025, 211155535, 'tunakasif/Electromagnetic-Suspension-System', 24, 'Bilkent University - Fall 2019 - EEE 351 Best Project: Electromagnetic Suspension System', 0, 2, ['tunakasif'], '2022-01-21T03:08:57.38544'),
 (3590, 30334776, 389071137, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji'], '2022-01-21T03:08:57.694805'),
 (3591, 16942870, 114788369, 'cloudflare/worker-examples', 27, 'Examples of Javascript you can run on Cloudflare’s worldwide network', 34, 630, ['pmeenan','zackbloom'], '2022-01-21T03:08:58.043454'),
-(3593, 25867172, 316471703, 'teezzan/katacoda-scenarios', 15, 'Katacoda Scenarios', 0, 1, ['teezzan'], '2022-01-21T03:08:58.413501'),
 (3592, 30334776, 388004440, 'oscafrica/open-source-challenge-2021', 23, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', 1, 47, ['BolajiAyodeji','Petec0x0'], '2022-01-21T03:08:58.162817'),
+(3593, 25867172, 316471703, 'teezzan/katacoda-scenarios', 15, 'Katacoda Scenarios', 0, 1, ['teezzan'], '2022-01-21T03:08:58.413501'),
 (3594, 58482194, 67831372, 'PKief/vscode-material-icon-theme', 22, 'Available on the VSCode Marketplace', 331, 1041, ['PKief','AdrieanKhisbe'], '2022-01-21T03:08:58.559684'),
 (3595, 47711025, 399239075, 'mdisec/golang-for-hackers-turkish-edition', 25, 'Golang for Hackers', 0, 209, ['kutayakbas','mdisec'], '2022-01-21T03:08:58.713812'),
 (3596, 25867172, 90408889, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 16, 242, ['icebob','AndreMaz'], '2022-01-21T03:08:59.69776'),
@@ -11308,8 +11308,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11298, 907680, 70908474, 'whitecatboard/Lua-RTOS-ESP32', 29, 'Lua RTOS for ESP32', 62, 927, ['jolivepetrus','chowette'], '2022-01-22T13:25:56.5792'),
 (11299, 59939260, 265855552, 'bdougie/gitActionTraction', 27, ':video_camera: Home video of GitHub Actions tips for better traction. ', 7, 17, ['bdougie'], '2022-01-22T13:25:57.191096'),
 (11300, 59939260, 328070675, 'MattMarquise/open-sauced-goals', 28, null, 1, 1, ['MattMarquise'], '2022-01-22T13:25:58.645312'),
-(11301, 59939260, 71359796, 'open-sauced/open-sauced', 29, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T13:25:59.871885'),
 (11302, 2237343, 324649354, 'mik3y/airdash', 0, 'A standalone, alternative ADS-B (readsb) web frontend', 6, 35, ['mik3y'], '2022-01-22T13:31:39.30501'),
+(11301, 59939260, 71359796, 'open-sauced/open-sauced', 29, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T13:25:59.871885'),
 (11303, 67872399, 45325973, 'zutrinken/bleak', 0, 'Ghost Theme', 12, 518, ['zutrinken','ManuelRauber'], '2022-01-22T13:31:39.30426'),
 (11304, 2658040, 279163614, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 5, 19, ['0-vortex'], '2022-01-22T13:31:39.326467'),
 (11305, 622115, 230011262, 'jbangdev/jbang', 0, 'Unleash the power of Java - JBang Lets Students, Educators and Professional Developers create, edit and run self-contained source-only Java programs with unprecedented ease.', 177, 905, ['maxandersen','quintesse'], '2022-01-22T13:31:39.335002'),
