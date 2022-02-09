@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T04:47:50.106Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T06:47:11.568Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3057,9 +3057,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3016, 27487712, 33157169, 'libcpr/cpr', 12, 'C++ Requests: Curl for People, a spiritual port of Python Requests.', 46, 4279, ['whoshuu','COM8'], '2022-01-21T02:02:28.967626'),
 (3017, 203683, 123572362, 'quii/learn-go-with-tests', 13, 'Learn Go with test-driven development', 17, 16421, ['quii','pityonline'], '2022-01-21T02:02:29.146204'),
 (3018, 55982424, 144109184, 'mrouhi13/djecrety', 12, 'Djecrety is a Django secret key generator.', 3, 62, ['mrouhi13','PhysicistSouravDas'], '2022-01-21T02:02:29.45775'),
-(3019, 27487712, 997856, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1340, ['mrtazz','lawmaestro'], '2022-01-21T02:02:30.301513'),
 (3020, 203683, 164026325, 'databricks/koalas', 14, 'Koalas: pandas API on Apache Spark', 102, 3062, ['ueshin','HyukjinKwon'], '2022-01-21T02:02:30.497104'),
 (3021, 55982424, 400865703, 'bilalbentoumi/win11-vue', 13, 'Windows 11 Simulator built with Vue.js', 0, 105, ['bilalbentoumi'], '2022-01-21T02:02:30.695635'),
+(3019, 27487712, 997856, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1340, ['mrtazz','lawmaestro'], '2022-01-21T02:02:30.301513'),
 (3022, 67718832, 21289110, 'vinta/awesome-python', 10, 'A curated list of awesome Python frameworks, libraries, software and resources', 227, 113787, ['vinta','dhamaniasad'], '2022-01-21T02:02:30.974285'),
 (3023, 27487712, 58152535, 'standardese/standardese', 14, 'A (work-in-progress) nextgen Doxygen for C++', 34, 776, ['foonathan','saraedum'], '2022-01-21T02:02:31.585288'),
 (3024, 203683, 103392636, 'berndruecker/flowing-retail', 15, 'Sample application demonstrating an order fulfillment system decomposed into multiple independant components (e.g. microservices). Showing concrete implementation alternatives using e.g. Java, Spring Boot, Apache Kafka, Camunda, Zeebe, ...', 11, 1116, ['berndruecker','jwulf'], '2022-01-21T02:02:31.732381'),
@@ -3069,8 +3069,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3028, 27487712, 227648949, 'willwray/type_codec_challenge', 15, 'The Modern C++ type CoDec Challenge', 0, 4, ['willwray'], '2022-01-21T02:02:32.876722'),
 (3029, 67718832, 11512043, 'tasks/tasks', 12, 'Bringing Astrid Tasks back from the dead', 450, 1925, ['abaker','FlorianLeChat'], '2022-01-21T02:02:33.805971'),
 (3030, 55982424, 279064706, 'abhisheknaiidu/awesome-github-profile-readme', 15, '😎 A curated list of awesome GitHub Profile READMEs 📝', 341, 10300, ['abhisheknaiidu','ABSphreak'], '2022-01-21T02:02:33.868027'),
-(3031, 203683, 167450644, 'amazon-archives/aws-appsync-chat', 17, 'Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplify', 17, 537, ['jpeddicord','dabit3'], '2022-01-21T02:02:34.021604'),
 (3032, 27487712, 215346317, 'andrejtonev/cabpp', 16, 'C++ header-only library implementing a Cyclic Asynchronous Buffer (CAB)', 0, 6, ['andrejtonev'], '2022-01-21T02:02:34.288302'),
+(3031, 203683, 167450644, 'amazon-archives/aws-appsync-chat', 17, 'Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplify', 17, 537, ['jpeddicord','dabit3'], '2022-01-21T02:02:34.021604'),
 (3033, 67718832, 144590939, 'VSCodium/vscodium', 13, 'binary releases of VS Code without MS branding/telemetry/licensing', 91, 14885, ['stripedpajamas','daiyam'], '2022-01-21T02:02:35.089292'),
 (3034, 55982424, 212110787, 'GoogleCloudPlatform/django-demo-app-unicodex', 16, 'Serverless Django on Google Cloud ✨', 0, 73, ['glasnt'], '2022-01-21T02:02:35.146916'),
 (3035, 203683, 146046573, 'dabit3/gatsby-auth-starter-aws-amplify', 18, 'Starter Project with Authentication with Gatsby & AWS Amplify', 13, 314, ['swaminator','dabit3'], '2022-01-21T02:02:35.244135'),
@@ -5309,8 +5309,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5299, 6241164, 25359717, 'vlachoudis/bCNC', 24, 'GRBL CNC command sender, autoleveler and g-code editor', 412, 1261, ['vlachoudis','Harvie'], '2022-01-21T05:22:32.574078'),
 (5300, 16259450, 13199036, 'thiderman/doge', 27, 'wow very terminal doge', 5, 948, ['thiderman','tonylazarew'], '2022-01-21T05:22:33.161321'),
 (5301, 351693, 96036483, 'ng-select/ng-select', 21, ':star: Native angular select component', 79, 2795, ['varnastadeus','anjmao'], '2022-01-21T05:22:33.260724'),
-(5303, 351693, 355258557, 'technorabilia/portainer-templates', 22, 'Various Portainer App Templates', 0, 61, ['technorabilia'], '2022-01-21T05:22:34.43156'),
 (5302, 6241164, 4801382, 'winder/Universal-G-Code-Sender', 25, 'A cross-platform G-Code sender for GRBL, Smoothieware, TinyG and G2core.', 176, 1362, ['winder','breiler'], '2022-01-21T05:22:33.887121'),
+(5303, 351693, 355258557, 'technorabilia/portainer-templates', 22, 'Various Portainer App Templates', 0, 61, ['technorabilia'], '2022-01-21T05:22:34.43156'),
 (5305, 6241164, 84692493, 'tc39/proposal-temporal', 26, 'Provides standard objects and functions for working with dates and times.', 152, 2125, ['ptomato','Ms2ger'], '2022-01-21T05:22:35.180859'),
 (5306, 351693, 391400895, 'TBens/lovelace-ui-minimalist', 23, '🌻 Lovelace UI • Minimalist', 6, 143, ['TBens'], '2022-01-21T05:22:35.638915'),
 (5307, 16259450, 46624643, 'zplug/zplug', 29, ':hibiscus: A next-generation plugin manager for zsh', 138, 4864, ['b4b4r07','NigoroJr'], '2022-01-21T05:22:35.98841'),
