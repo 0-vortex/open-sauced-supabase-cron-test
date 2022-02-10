@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T06:46:28.523Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T08:45:03.535Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1390,8 +1390,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1380, 10951893, 167596974, 'pyenv-win/pyenv-win', 6, 'pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It''s simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.', 86, 1276, ['kirankotari','dedale'], '2022-01-20T22:51:56.78544'),
 (1381, 23166349, 507775, 'elastic/elasticsearch', 4, 'Free and Open, Distributed, RESTful Search Engine', 3744, 58222, ['kimchy','s1monw'], '2022-01-20T22:51:57.389818'),
 (1382, 45293863, 354291352, 'waf/CSharpRepl', 7, 'A command line C# REPL with syntax highlighting – explore the language, libraries and nuget packages interactively.', 13, 962, ['waf','kindermannhubert'], '2022-01-20T22:51:57.877152'),
-(1384, 23166349, 155368246, 'elastic/cloud-on-k8s', 5, 'Elastic Cloud on Kubernetes', 311, 1731, ['sebgl','pebrc'], '2022-01-20T22:51:58.892104'),
 (1383, 10951893, 153500249, 'sdras/awesome-actions', 7, 'A curated list of awesome actions to use on GitHub', 90, 17099, ['gep13','sdras'], '2022-01-20T22:51:58.282643'),
+(1384, 23166349, 155368246, 'elastic/cloud-on-k8s', 5, 'Elastic Cloud on Kubernetes', 311, 1731, ['sebgl','pebrc'], '2022-01-20T22:51:58.892104'),
 (1385, 45293863, 139870214, 'PragmaticFlow/NBomber', 8, 'Modern and flexible load testing framework for Pull and Push scenarios, designed to test any system regardless a protocol (HTTP/WebSockets/AMQP etc) or a semantic model (Pull/Push).', 26, 1272, ['AntyaDev','Yaroshvitaliy'], '2022-01-20T22:51:59.1507'),
 (1386, 10951893, 295774370, 'mdn/content', 8, 'The content behind MDN Web Docs', 644, 4064, ['hamishwillee','teoli2003'], '2022-01-20T22:52:00.084135'),
 (1387, 23166349, 50365232, 'werf/werf', 6, 'The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism', 234, 2914, ['distorhead','alexey-igrychev'], '2022-01-20T22:52:00.536571'),
@@ -7181,11 +7181,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7116, 3662109, 365005377, 'aristocratos/btop', 10, 'A monitor of resources', 55, 5935, ['aristocratos','kz6fittycent'], '2022-01-22T08:19:16.535561'),
 (7117, 19861960, 158025849, 'AutoDarkMode/Windows-Auto-Night-Mode', 9, 'Automatically switches between the dark and light theme of Windows 10 and Windows 11', 53, 3516, ['Spiritreader','Armin2208'], '2022-01-22T08:19:16.598762'),
 (7118, 3941856, 244749570, 'spinnaker-hackathon/gardening', 10, 'Spinnaker Gardening Virtual #CommunityHack - Read all about the fun, projects, and prizes!', 0, 12, ['dnilasor','ptr-dang'], '2022-01-22T08:19:16.60831'),
-(7119, 19861960, 70499242, 'cstoquer/MonkeyWarp', 10, 'Little platformer game made in 10 days for the Gameboy Jam #5', 0, 16, ['cstoquer'], '2022-01-22T08:19:18.064105'),
-(7177, 19861960, 320237098, 'brysonpdavis/grainstems', 0, 'frontend for grainstems: a toy granular synthesizer web app', 0, 2, ['brysonpdavis'], '2022-01-22T08:30:25.037154'),
 (7120, 3662109, 93163073, 'dependabot/dependabot-core', 11, '🤖 The core logic behind Dependabot''s update PR creation, and the public issue tracker for all things Dependabot Updates', 781, 2378, ['greysteil','feelepxyz'], '2022-01-22T08:19:18.078892'),
 (7121, 3941856, 187066133, 'spinnaker/governance', 11, 'Community documentation for Spinnaker', 1, 42, ['robzienert','ajordens'], '2022-01-22T08:19:18.083235'),
 (7122, 3941856, 196100645, 'cdfoundation/foundation', 12, 'Interactions with the CDF Staff and Board', 17, 19, ['danlopez00','tracymiranda'], '2022-01-22T08:19:19.387773'),
+(7119, 19861960, 70499242, 'cstoquer/MonkeyWarp', 10, 'Little platformer game made in 10 days for the Gameboy Jam #5', 0, 16, ['cstoquer'], '2022-01-22T08:19:18.064105'),
+(7177, 19861960, 320237098, 'brysonpdavis/grainstems', 0, 'frontend for grainstems: a toy granular synthesizer web app', 0, 2, ['brysonpdavis'], '2022-01-22T08:30:25.037154'),
 (7123, 19861960, 49579165, 'cstoquer/pixelbox', 11, 'A sandbox framework to fast-prototype tile-based games in HTML5 and JavaScript', 9, 394, ['cstoquer','polm'], '2022-01-22T08:19:19.418724'),
 (7124, 3941856, 189282896, 'wesbos/beginner-javascript', 13, 'Slam Dunk JavaScript', 28, 5163, ['Asjas','wesbos'], '2022-01-22T08:19:20.060952'),
 (7125, 19861960, 159886264, 'VIDA-NYU/shadow-accrual-maps', 12, 'Accumulated shadow data computed for New York City', 0, 14, ['fabio-miranda'], '2022-01-22T08:19:20.823581'),
@@ -8921,9 +8921,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8835, 42211, 71995937, 'nuxt/nuxt.js', 9, 'The Intuitive Vue(2) Framework', 488, 39233, ['pi0','Atinux'], '2022-01-22T10:26:49.135114'),
 (8836, 49831545, 211013566, 'karaoke-dev/karaoke', 12, 'Will be the best karaoke system.', 174, 101, ['andy840119','Yoyolick'], '2022-01-22T10:26:49.162692'),
 (8837, 39362365, 113866683, 'imyelo/docsify-pagination', 11, '↔️ Pagination for docsify', 9, 78, ['imyelo','jhildenbiddle'], '2022-01-22T10:26:50.425164'),
+(8840, 49831545, 93324270, 'shiftkey/desktop', 13, 'Fork of GitHub Desktop to support various Linux distributions', 52, 4106, ['niik','shiftkey'], '2022-01-22T10:26:50.739605'),
 (8838, 42211, 112150776, '11ty/eleventy', 10, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 444, 11200, ['zachleat','MadeByMike'], '2022-01-22T10:26:50.456245'),
 (8839, 34394719, 70092432, 'epool/firebase-cloning-tool', 11, 'Tool for cloning firebase remote config projects.', 1, 35, ['epool'], '2022-01-22T10:26:50.690952'),
-(8840, 49831545, 93324270, 'shiftkey/desktop', 13, 'Fork of GitHub Desktop to support various Linux distributions', 52, 4106, ['niik','shiftkey'], '2022-01-22T10:26:50.739605'),
 (8841, 66239105, 6498492, 'airbnb/javascript', 11, 'JavaScript Style Guide', 137, 118504, ['ljharb','hshoff'], '2022-01-22T10:26:51.821152'),
 (8842, 34394719, 344546342, 'hunterbecton/react-firebase-passwordless', 12, null, 1, 16, ['hunterbecton'], '2022-01-22T10:26:52.043802'),
 (8843, 49831545, 44303047, 'moses-palmer/pynput', 14, 'Sends virtual input commands', 75, 1063, ['moses-palmer','munsuri'], '2022-01-22T10:26:52.119688'),
