@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T10:44:27.008Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T12:50:12.151Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2750,10 +2750,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2702, 2609511, 75322405, 'istio/proxy', 28, 'The Istio proxy components.', 11, 609, ['istio-testing','qiwzhang'], '2022-01-21T00:44:35.985433'),
 (2703, 2609511, 88905488, 'ShangtongZhang/DeepRL', 29, 'Modularized Implementation of Deep RL Algorithms in PyTorch', 5, 2657, ['ShangtongZhang','wassname'], '2022-01-21T00:44:37.713721'),
 (2704, 9968219, 347604812, 'ramazansakin/ghclogger', 0, 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', 0, 7, ['ramazansakin'], '2022-01-21T01:11:18.897292'),
+(2705, 9968219, 264558151, 'borakasmer/MicroservicesWithRabbitMQAndSocketIO', 1, 'In this application, we will try to informed customers who buy the stock papers when the price changed. We will use NodeJs for the backend application. For improving the performance, we will use RabbitMQ, and we will write microservice as a consumer. We will send updated stock data by using SocketIO to the clients. For front-end application, we will use Angular 9', 15, 30, ['borakasmer'], '2022-01-21T01:11:20.452413'),
 (2706, 46695719, 71359796, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T01:11:20.940314'),
 (2707, 9968219, 204996263, 'umutphp/backend-best-practices', 2, 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', 1, 75, ['umutphp','ilkka'], '2022-01-21T01:11:22.059822'),
 (2708, 46695719, 1453143, 'jdesboeufs/connect-mongo', 1, 'MongoDB session store for Express', 12, 1842, ['jdesboeufs','mingchuno'], '2022-01-21T01:11:22.485419'),
-(2705, 9968219, 264558151, 'borakasmer/MicroservicesWithRabbitMQAndSocketIO', 1, 'In this application, we will try to informed customers who buy the stock papers when the price changed. We will use NodeJs for the backend application. For improving the performance, we will use RabbitMQ, and we will write microservice as a consumer. We will send updated stock data by using SocketIO to the clients. For front-end application, we will use Angular 9', 15, 30, ['borakasmer'], '2022-01-21T01:11:20.452413'),
 (2709, 20134767, 26500787, 'tonsky/FiraCode', 0, 'Free monospaced font with programming ligatures', 292, 61506, ['tonsky','thundernixon'], '2022-01-21T01:11:22.848312'),
 (2752, 20134767, 43441403, 'strapi/strapi', 14, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 526, 42525, ['soupette','alexandrebodin'], '2022-01-21T01:11:42.499883'),
 (2710, 9968219, 80814970, 'piomin/sample-spring-microservices', 3, 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', 10, 425, ['piomin','ramazansakin'], '2022-01-21T01:11:23.794313'),
@@ -3951,8 +3951,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3904, 57826091, 407233777, 'slipHQ/run-wasm', 6, 'Run WASM based code executions in the browser easily', 17, 362, ['kennethcassel','cameronmoreau'], '2022-01-21T03:34:47.29804'),
 (3905, 72279316, 198002487, 'jaewonhimnae/boilerplate-mern-stack', 8, 'Boilerplate when you use REACT JS, MONG DB, EXPRESS JS, REDUX', 40, 442, ['jaewonhimnae'], '2022-01-21T03:34:47.588176'),
 (3906, 4247126, 40892817, 'ethereum/solidity', 4, 'Solidity, the Smart Contract Programming Language', 959, 14326, ['chriseth','axic'], '2022-01-21T03:34:47.798431'),
-(3908, 5842360, 256725670, 'bansal-io/pattern.css', 8, 'CSS only library to fill empty background with beautiful patterns.', 17, 3495, ['bansal-io'], '2022-01-21T03:34:48.227621'),
 (3907, 569510, 383002759, 'gitpod-io/template-datasette', 8, 'The Datasette template, configured for Gitpod (www.gitpod.io) to give you pre-built, ephemeral development environments in the cloud.', 0, 2, ['ghuntley'], '2022-01-21T03:34:47.963588'),
+(3908, 5842360, 256725670, 'bansal-io/pattern.css', 8, 'CSS only library to fill empty background with beautiful patterns.', 17, 3495, ['bansal-io'], '2022-01-21T03:34:48.227621'),
 (3909, 57826091, 402841129, 'Developer-DAO/developer-dao-nft-contract', 7, null, 1, 129, ['dabit3'], '2022-01-21T03:34:48.479709'),
 (3910, 569510, 71359796, 'open-sauced/open-sauced', 9, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T03:34:49.299656'),
 (3911, 5842360, 80179717, 'alexlafroscia/alfred-switch-audio-source', 9, 'Alfred workflow to switch audio device', 1, 63, ['alexlafroscia','nodeselector'], '2022-01-21T03:34:49.468627'),
@@ -4222,9 +4222,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4176, 118037, 266856296, 'alexlee-dev/create-cli-application', 20, 'A bootstrapper for creating a cli application with Node.', 7, 5, ['alexlee-dev','MartinRosenberg'], '2022-01-21T03:49:39.250814'),
 (4177, 14868216, 49760504, 'samshadwell/TrumpScript', 23, 'Make Python great again', 5, 7416, ['samshadwell','CryoBrown'], '2022-01-21T03:49:39.258957'),
 (4178, 14868216, 2096358, 'rajkissu/brainfuck', 24, 'A Brainfuck interpreter running on node.js', 4, 14, ['rajkissu'], '2022-01-21T03:49:40.326362'),
-(4179, 57373172, 7363211, 'knex/knex', 22, 'A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.', 596, 15230, ['tgriesser','kibertoad'], '2022-01-21T03:49:40.351468'),
 (4180, 118037, 163492753, 'felipecustodio/p5-starter', 21, ':herb: Boilerplate for p5.js projects, including VSCode Intellisense and linting for HTML, CSS and JS.', 1, 8, ['felipecustodio'], '2022-01-21T03:49:40.385537'),
 (4181, 3340406, 182067506, 'quantumblacklabs/kedro', 20, 'A Python framework for creating reproducible, maintainable and modular data science code.', 56, 4920, ['lorenabalan','921kiyo'], '2022-01-21T03:49:40.624945'),
+(4179, 57373172, 7363211, 'knex/knex', 22, 'A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.', 596, 15230, ['tgriesser','kibertoad'], '2022-01-21T03:49:40.351468'),
 (4182, 118037, 161034589, 'joshwcomeau/tinkersynth', 22, 'An experimental art project. Create unique art through serendipitous discovery.', 1, 224, ['joshwcomeau','Harmon758'], '2022-01-21T03:49:41.836488'),
 (4183, 3340406, 83462592, 'asottile/pyupgrade', 21, 'A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.', 10, 1361, ['asottile','mxr'], '2022-01-21T03:49:42.050801'),
 (4184, 118037, 352170777, 'spieglt/Cloaker.js', 23, 'Simple password-based file encryption entirely in your browser, interoperable with Cloaker.', 0, 21, ['spieglt'], '2022-01-21T03:49:42.91088'),
@@ -9531,8 +9531,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9445, 5842360, 141058176, 'skidding/jobs-done', 21, 'Ritual app for ending the work day inspired by Deep Work', 4, 950, ['skidding','aausch'], '2022-01-22T11:02:14.054245'),
 (9446, 1431853, 158873969, 'GoogleChromeLabs/quicklink', 20, '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', 46, 9250, ['addyosmani','lukeed'], '2022-01-22T11:02:14.501343'),
 (9447, 49351279, 47878060, 'i18next/react-i18next', 21, 'Internationalization for react done right. Using the i18next i18n ecosystem.', 3, 7009, ['jamuhl','adrai'], '2022-01-22T11:02:14.535674'),
-(9449, 569510, 302416879, 'simonw/ca-fires-history', 23, 'Tracking fire data from www.fire.ca.gov', 2, 142, ['simonw'], '2022-01-22T11:02:15.030715'),
 (9448, 33669114, 113106184, 'linkerd/linkerd2', 22, 'Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.', 229, 8019, ['alpeb','olix0r'], '2022-01-22T11:02:14.931126'),
+(9449, 569510, 302416879, 'simonw/ca-fires-history', 23, 'Tracking fire data from www.fire.ca.gov', 2, 142, ['simonw'], '2022-01-22T11:02:15.030715'),
 (9450, 5842360, 68485692, 'rastapasta/mapscii', 22, '🗺  MapSCII is a Braille & ASCII world map renderer for your console - enter => telnet mapscii.me <= on Mac (brew install telnet) and Linux, connect with PuTTY on Windows', 36, 5950, ['rastapasta','jaller94'], '2022-01-22T11:02:15.270997'),
 (9451, 1431853, 241805592, 'rome/tools', 21, 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', 44, 17009, ['sebmck','ematipico'], '2022-01-22T11:02:15.918031'),
 (9452, 49351279, 21088356, 'Hacker0x01/react-datepicker', 22, 'A simple and reusable datepicker component for React', 235, 6294, ['martijnrusschen','rafeememon'], '2022-01-22T11:02:15.927155'),
