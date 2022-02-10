@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T02:47:25.343Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T04:47:23.344Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5373,8 +5373,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5364, 60850993, 306971358, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', 12, null, 0, 35, ['imadovitch'], '2022-01-21T05:29:10.390852'),
 (5365, 38838958, 246956544, 'alexandresanlim/Badges4-README.md-Profile', 13, '👩‍💻👨‍💻 Improve your README.md profile with these amazing badges.', 2, 3849, ['alexandresanlim','mrhrifat'], '2022-01-21T05:29:11.292598'),
 (5366, 1645628, 56717493, 'joshbuchea/HEAD', 13, 'A simple guide to HTML <head> elements', 19, 28968, ['joshbuchea','scottaohara'], '2022-01-21T05:29:11.368891'),
-(5367, 60850993, 171563505, 'Asabeneh/JavaScript-for-Everyone', 13, 'A step by step guide to learn JavaScript and programming', 0, 405, ['Asabeneh','engineerabdulsalam'], '2022-01-21T05:29:11.419601'),
-(5368, 3846874, 221981891, 'microsoft/playwright', 10, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 375, 32545, ['pavelfeldman','dgozman'], '2022-01-21T05:29:11.737924'),
 (5369, 38838958, 157554429, 'coralieco/workshop-git-rebase', 14, 'Learning git rebase with a poem', 0, 17, ['coralieco'], '2022-01-21T05:29:12.349879'),
 (5370, 1645628, 118656654, 'Automattic/themes', 14, 'Free WordPress themes made by Automattic for WordPress.org and WordPress.com.', 1305, 436, ['allancole','scruffian'], '2022-01-21T05:29:12.618742'),
 (5371, 60850993, 229764465, 'Asabeneh/30-Days-Of-JavaScript', 14, '30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. ', 44, 14624, ['Asabeneh','npnjuguna'], '2022-01-21T05:29:12.632728'),
@@ -5382,9 +5380,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5373, 38838958, 334657959, 'nopsteam/6502', 15, '6502 Emulator', 3, 32, ['rafaeldelboni','lucascebertin'], '2022-01-21T05:29:13.592689'),
 (5374, 60850993, 195070986, 'rogden/tailwind-config-viewer', 15, 'A local UI tool for visualizing your Tailwind CSS configuration file.', 20, 1220, ['rogden','olets'], '2022-01-21T05:29:13.860832'),
 (5375, 1645628, 267429516, 'concrete-utopia/utopia', 15, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T05:29:14.073304'),
+(5367, 60850993, 171563505, 'Asabeneh/JavaScript-for-Everyone', 13, 'A step by step guide to learn JavaScript and programming', 0, 405, ['Asabeneh','engineerabdulsalam'], '2022-01-21T05:29:11.419601'),
+(5368, 3846874, 221981891, 'microsoft/playwright', 10, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 375, 32545, ['pavelfeldman','dgozman'], '2022-01-21T05:29:11.737924'),
 (5376, 38838958, 296702877, 'rockerBOO/awesome-neovim', 16, 'Collections of awesome neovim plugins.', 0, 3393, ['rockerBOO','tversteeg'], '2022-01-21T05:29:14.090912'),
 (5377, 3846874, 156914027, 'isaachinman/next-i18next', 12, 'The easiest way to translate your NextJs apps.', 22, 2912, ['isaachinman','capellini'], '2022-01-21T05:29:14.773976'),
-(5378, 60850993, 50658096, 'kehers/paystack', 16, 'Nodejs API wrapper for Paystack', 10, 109, ['Subomi','kehers'], '2022-01-21T05:29:15.093443'),
 (5379, 38838958, 325101865, 'atcorrea/poshfiles', 17, 'my powershell profile', 0, 1, ['atcorreal3','atcorrea'], '2022-01-21T05:29:15.322373'),
 (5380, 1645628, 348060227, 'snowpackjs/astro', 16, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9931, ['FredKSchott','matthewp'], '2022-01-21T05:29:15.450995'),
 (5381, 38838958, 76679496, 'kuchin/awesome-cto', 18, 'A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups', 0, 10938, ['kuchin','MohamedBsh'], '2022-01-21T05:29:15.847379'),
@@ -5721,11 +5720,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5712, 907680, 258012772, 'index-machines/index', 7, 'The Index is an open source pick and place machine.', 44, 1585, ['G-Pereira','sphawes'], '2022-01-21T05:49:03.443211'),
 (5713, 55907631, 143416034, 'aagarwal1012/Animated-Text-Kit', 13, '🔔  A flutter package to create cool and beautiful text animations. [Flutter Favorite Package]', 31, 1284, ['aagarwal1012','awhitford'], '2022-01-21T05:49:04.030281'),
 (5714, 907680, 22091630, 'RangeNetworks/OpenBTS-UMTS', 8, '3G UMTS Data Radio Access Network Node', 37, 256, ['ttsou','iedemam'], '2022-01-21T05:49:04.689312'),
-(5715, 2237343, 24956772, 'Hammerspoon/hammerspoon', 8, 'Staggeringly powerful macOS desktop automation with Lua', 425, 8652, ['cmsj','asmagill'], '2022-01-21T05:49:04.884764'),
 (5716, 55907631, 172481928, 'londonappbrewery/Flutter-Course-Resources', 14, 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', 39, 8427, ['TheMuellenator','angelabauer'], '2022-01-21T05:49:05.638031'),
 (5717, 907680, 334274271, 'opensearch-project/OpenSearch', 9, '🔎 Open source distributed and RESTful search engine.', 345, 4381, ['kimchy','s1monw'], '2022-01-21T05:49:05.931279'),
 (5718, 2237343, 48623558, 'chubin/wttr.in', 9, ':partly_sunny: The right way to check the weather', 170, 16685, ['chubin','gregdan3'], '2022-01-21T05:49:06.436398'),
 (5719, 55907631, 26500787, 'tonsky/FiraCode', 15, 'Free monospaced font with programming ligatures', 292, 61514, ['tonsky','thundernixon'], '2022-01-21T05:49:06.700018'),
+(5715, 2237343, 24956772, 'Hammerspoon/hammerspoon', 8, 'Staggeringly powerful macOS desktop automation with Lua', 425, 8652, ['cmsj','asmagill'], '2022-01-21T05:49:04.884764'),
 (5720, 907680, 9405122, 'frida/frida', 10, 'Clone this repo to build Frida', 962, 9032, ['oleavr','s1341'], '2022-01-21T05:49:07.476315'),
 (5721, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-21T05:49:07.55648'),
 (5722, 2658040, 279163614, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 5, 19, ['0-vortex'], '2022-01-21T05:49:07.858303'),
@@ -5827,6 +5826,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5817, 33148009, 194513266, 'voidcosmos/npkill', 19, 'List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space.', 30, 5459, ['zaldih','NyaGarcia'], '2022-01-21T05:49:39.002088'),
 (5818, 2658040, 178029799, 'BaseMax/TinyShell', 26, 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', 0, 9, ['BaseMax'], '2022-01-21T05:49:40.191992'),
 (5819, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20565, ['chenglou','nkbt'], '2022-01-21T05:49:40.314104'),
+(5378, 60850993, 50658096, 'kehers/paystack', 16, 'Nodejs API wrapper for Paystack', 10, 109, ['Subomi','kehers'], '2022-01-21T05:29:15.093443'),
 (5820, 33148009, 330695135, 'bradtraversy/react-crash-2021', 21, 'Task tracking application from the React crash course', 15, 986, ['bradtraversy','cnbrkkaya'], '2022-01-21T05:49:41.388339'),
 (5821, 2658040, 179923974, 'BaseMax/MatPHP', 27, 'The tiny library to calculating the matrices and operations. (Soon)', 0, 3, ['BaseMax'], '2022-01-21T05:49:41.417351'),
 (5822, 2658040, 172362850, 'BaseMax/TrigonometricFunctions', 28, 'Analysis and thinking about trigonometry functions and how they work.', 0, 12, ['BaseMax'], '2022-01-21T05:49:42.491456'),
@@ -10317,8 +10317,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10309, 3941126, 5954, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4557, ['jeremyevans','ciconia'], '2022-01-22T11:59:27.158078'),
 (10310, 527550, 33739333, 'thoughtbot/administrate', 1, 'A Rails engine that helps you put together a super-flexible admin dashboard.', 144, 5273, ['gracewashere','nickcharlton'], '2022-01-22T11:59:27.360839'),
 (10311, 36890230, 112953694, 'digitallyinduced/ihp', 2, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2906, ['mpscholten','Laobiz'], '2022-01-22T11:59:27.911566'),
-(10312, 36890230, 357272600, 'nextapps-de/winbox', 3, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5241, ['ts-thomas','kodie'], '2022-01-22T11:59:28.659612'),
 (10313, 15052690, 388026773, 'elizabethsiegle/twilio-video-mask-ml5', 2, 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', 0, 4, ['elizabethsiegle'], '2022-01-22T11:59:28.685264'),
+(10312, 36890230, 357272600, 'nextapps-de/winbox', 3, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5241, ['ts-thomas','kodie'], '2022-01-22T11:59:28.659612'),
 (10314, 3941126, 184366, 'opal/opal', 2, 'Ruby ♥︎ JavaScript', 105, 4566, ['elia','adambeynon'], '2022-01-22T11:59:28.741079'),
 (10315, 527550, 100273476, 'CiviWiki/OpenCiviWiki', 2, 'Building a Better Democracy for the Internet Age', 48, 393, ['brylie','JOO33'], '2022-01-22T11:59:28.929323'),
 (10316, 3777549, 41654081, 'drduh/macOS-Security-and-Privacy-Guide', 3, 'Guide to securing and improving privacy on macOS', 16, 18801, ['drduh','sqrthree'], '2022-01-22T11:59:29.132547'),
