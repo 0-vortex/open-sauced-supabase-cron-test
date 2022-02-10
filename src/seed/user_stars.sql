@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T01:03:22.649Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T02:47:25.343Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10203,6 +10203,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10195, 1295334, 96395, 'faker-ruby/faker', 0, 'A library for generating fake data such as names, addresses, and phone numbers.', 162, 9708, ['stympy','vbrazo'], '2022-01-22T11:52:51.464197'),
 (10196, 51794934, 332861685, 'jeanrauwers/react-native-bootcamp', 0, 'React Native Bootcamp 2021 (completely free)', 0, 52, ['jeanrauwers'], '2022-01-22T11:52:51.707724'),
 (10197, 2808728, 71359796, 'open-sauced/open-sauced', 1, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T11:52:51.818041'),
+(10198, 2808728, 14440270, 'getify/You-Dont-Know-JS', 2, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148634, ['getify','machineloop'], '2022-01-22T11:52:52.356405'),
+(10199, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 87, 5315, ['easonlin404','ubogdan'], '2022-01-22T11:52:52.701507'),
+(10200, 25194960, 377680492, 'cnrad/lanyard-profile-readme', 1, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', 0, 171, ['cnrad','Looskie'], '2022-01-22T11:52:52.705062'),
 (10201, 1295334, 45350538, 'piotrmurach/tty-prompt', 1, 'A beautiful and powerful interactive command line prompt', 10, 1298, ['piotrmurach','slowbro'], '2022-01-22T11:52:52.721249'),
 (10202, 51794934, 342191787, 'LambdaSchool/build-week-scaffolding-node', 1, null, 0, 18, ['Ladrillo'], '2022-01-22T11:52:53.334471'),
 (10203, 1295334, 81089226, 'tminard/carnivores-ce-renderer', 2, 'Cross-platform C++ renderer inspired by Carnivores 2', 1, 3, ['tminard'], '2022-01-22T11:52:54.036196'),
@@ -10283,10 +10286,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10278, 2808728, 25155580, 'JuanitoFatas/fast-ruby', 21, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5193, ['JuanitoFatas','Arcovion'], '2022-01-22T11:53:19.326922'),
 (10279, 28281924, 237448876, 'qiangxue/go-rest-api', 22, 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', 10, 764, ['qiangxue','chartinmarrel'], '2022-01-22T11:53:19.990851'),
 (10280, 25194960, 63499650, 'bnb/awesome-hyper', 24, '🖥 Delightful Hyper plugins, themes, and resources', 17, 9709, ['bnb','darahak'], '2022-01-22T11:53:20.31647'),
-(10198, 2808728, 14440270, 'getify/You-Dont-Know-JS', 2, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148634, ['getify','machineloop'], '2022-01-22T11:52:52.356405'),
-(10199, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 87, 5315, ['easonlin404','ubogdan'], '2022-01-22T11:52:52.701507'),
 (10281, 2808728, 26743136, 'sumodirjo/engineering-blogs', 22, 'A curated list of engineering blogs of startup and enterprise companies', 1, 1161, ['sumodirjo','askhubchandani'], '2022-01-22T11:53:20.615644'),
-(10200, 25194960, 377680492, 'cnrad/lanyard-profile-readme', 1, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', 0, 171, ['cnrad','Looskie'], '2022-01-22T11:52:52.705062'),
 (10282, 28281924, 191531341, 'site-prism/site_prism', 23, null, 6, 214, ['luke-hill','natritmeyer'], '2022-01-22T11:53:21.26894'),
 (10283, 2808728, 76898822, 'skidding/illustrated-algorithms', 23, 'Interactive algorithm visualizations', 1, 2726, ['skidding','mathiasbynens'], '2022-01-22T11:53:21.666798'),
 (10284, 25194960, 237159, 'expressjs/express', 25, 'Fast, unopinionated, minimalist web framework for node.', 158, 55688, ['tj','dougwilson'], '2022-01-22T11:53:22.259868'),
@@ -10371,6 +10371,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10363, 527550, 35986723, 'pritunl/pritunl-client-electron', 14, 'Pritunl OpenVPN client', 7, 901, ['zachhuff386','kaskavalci'], '2022-01-22T11:59:44.939435'),
 (10364, 15052690, 2206953, 'tj/commander.js', 14, 'node.js command-line interfaces made easy', 16, 21969, ['shadowspawn','tj'], '2022-01-22T11:59:45.456243'),
 (10365, 3777549, 216153625, 'ohansemmanuel/advanced-react-patterns-ultrasimplified', 14, '👌🏿Simplified Advanced React Patterns for Everyone', 32, 168, ['ohansemmanuel'], '2022-01-22T11:59:45.474859'),
+(10366, 3941126, 100781035, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 283, 9418, ['zserge','rajivshah3'], '2022-01-22T11:59:45.68631'),
+(10367, 527550, 53698167, 'jonasbn/til', 15, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', 4, 31, ['jonasbn','Amorymeltzer'], '2022-01-22T11:59:46.443016'),
 (10368, 3941126, 270054, 'ffi/ffi', 13, 'Ruby FFI', 110, 1917, ['larskanis','tduehr'], '2022-01-22T11:59:47.165375'),
 (10369, 3777549, 51732606, 'jhu-ep-coursera/fullstack-course4', 15, 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', 3, 7103, ['ychaikin','jasonwr'], '2022-01-22T11:59:47.644537'),
 (10370, 3941126, 140947800, 'piotrmurach/tty-box', 14, 'Draw various frames and boxes in your terminal window', 1, 170, ['piotrmurach','DanielVartanov'], '2022-01-22T11:59:48.309147'),
@@ -10391,8 +10393,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10385, 3777549, 65666498, 'rtivital/react-pages-boilerplate', 19, 'Deliver react + react-router application to gh-pages', 7, 143, ['rtivital','4knort'], '2022-01-22T11:59:53.328958'),
 (10386, 15052690, 387630224, 'carmenkolohe/CodeSchoolQA', 18, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', 5, 11, ['carmenkolohe','jendevelops'], '2022-01-22T11:59:53.35698'),
 (10387, 527550, 14499588, 'AgileVentures/LocalSupport', 20, 'A directory of local support services and volunteer opportunities', 77, 61, ['tansaku','mtc2013'], '2022-01-22T11:59:53.880622'),
-(10366, 3941126, 100781035, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 283, 9418, ['zserge','rajivshah3'], '2022-01-22T11:59:45.68631'),
-(10367, 527550, 53698167, 'jonasbn/til', 15, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', 4, 31, ['jonasbn','Amorymeltzer'], '2022-01-22T11:59:46.443016'),
 (10388, 15052690, 215086062, 'fastruby/skunk', 19, 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', 8, 289, ['etagwerker','bronzdoc'], '2022-01-22T11:59:54.502842'),
 (10389, 3777549, 109592003, 'jepser/site-contentful', 20, 'Personal site with contentful', 5, 9, ['jepser'], '2022-01-22T11:59:54.522151'),
 (10390, 3941126, 2206953, 'tj/commander.js', 19, 'node.js command-line interfaces made easy', 16, 21969, ['shadowspawn','tj'], '2022-01-22T11:59:54.720345'),
