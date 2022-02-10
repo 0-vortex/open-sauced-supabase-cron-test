@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T22:44:37.557Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T01:03:22.649Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10203,9 +10203,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10195, 1295334, 96395, 'faker-ruby/faker', 0, 'A library for generating fake data such as names, addresses, and phone numbers.', 162, 9708, ['stympy','vbrazo'], '2022-01-22T11:52:51.464197'),
 (10196, 51794934, 332861685, 'jeanrauwers/react-native-bootcamp', 0, 'React Native Bootcamp 2021 (completely free)', 0, 52, ['jeanrauwers'], '2022-01-22T11:52:51.707724'),
 (10197, 2808728, 71359796, 'open-sauced/open-sauced', 1, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T11:52:51.818041'),
-(10198, 2808728, 14440270, 'getify/You-Dont-Know-JS', 2, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148634, ['getify','machineloop'], '2022-01-22T11:52:52.356405'),
-(10199, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 87, 5315, ['easonlin404','ubogdan'], '2022-01-22T11:52:52.701507'),
-(10200, 25194960, 377680492, 'cnrad/lanyard-profile-readme', 1, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', 0, 171, ['cnrad','Looskie'], '2022-01-22T11:52:52.705062'),
 (10201, 1295334, 45350538, 'piotrmurach/tty-prompt', 1, 'A beautiful and powerful interactive command line prompt', 10, 1298, ['piotrmurach','slowbro'], '2022-01-22T11:52:52.721249'),
 (10202, 51794934, 342191787, 'LambdaSchool/build-week-scaffolding-node', 1, null, 0, 18, ['Ladrillo'], '2022-01-22T11:52:53.334471'),
 (10203, 1295334, 81089226, 'tminard/carnivores-ce-renderer', 2, 'Cross-platform C++ renderer inspired by Carnivores 2', 1, 3, ['tminard'], '2022-01-22T11:52:54.036196'),
@@ -10286,7 +10283,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10278, 2808728, 25155580, 'JuanitoFatas/fast-ruby', 21, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5193, ['JuanitoFatas','Arcovion'], '2022-01-22T11:53:19.326922'),
 (10279, 28281924, 237448876, 'qiangxue/go-rest-api', 22, 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', 10, 764, ['qiangxue','chartinmarrel'], '2022-01-22T11:53:19.990851'),
 (10280, 25194960, 63499650, 'bnb/awesome-hyper', 24, '🖥 Delightful Hyper plugins, themes, and resources', 17, 9709, ['bnb','darahak'], '2022-01-22T11:53:20.31647'),
+(10198, 2808728, 14440270, 'getify/You-Dont-Know-JS', 2, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148634, ['getify','machineloop'], '2022-01-22T11:52:52.356405'),
+(10199, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 87, 5315, ['easonlin404','ubogdan'], '2022-01-22T11:52:52.701507'),
 (10281, 2808728, 26743136, 'sumodirjo/engineering-blogs', 22, 'A curated list of engineering blogs of startup and enterprise companies', 1, 1161, ['sumodirjo','askhubchandani'], '2022-01-22T11:53:20.615644'),
+(10200, 25194960, 377680492, 'cnrad/lanyard-profile-readme', 1, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', 0, 171, ['cnrad','Looskie'], '2022-01-22T11:52:52.705062'),
 (10282, 28281924, 191531341, 'site-prism/site_prism', 23, null, 6, 214, ['luke-hill','natritmeyer'], '2022-01-22T11:53:21.26894'),
 (10283, 2808728, 76898822, 'skidding/illustrated-algorithms', 23, 'Interactive algorithm visualizations', 1, 2726, ['skidding','mathiasbynens'], '2022-01-22T11:53:21.666798'),
 (10284, 25194960, 237159, 'expressjs/express', 25, 'Fast, unopinionated, minimalist web framework for node.', 158, 55688, ['tj','dougwilson'], '2022-01-22T11:53:22.259868'),
@@ -10371,8 +10371,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10363, 527550, 35986723, 'pritunl/pritunl-client-electron', 14, 'Pritunl OpenVPN client', 7, 901, ['zachhuff386','kaskavalci'], '2022-01-22T11:59:44.939435'),
 (10364, 15052690, 2206953, 'tj/commander.js', 14, 'node.js command-line interfaces made easy', 16, 21969, ['shadowspawn','tj'], '2022-01-22T11:59:45.456243'),
 (10365, 3777549, 216153625, 'ohansemmanuel/advanced-react-patterns-ultrasimplified', 14, '👌🏿Simplified Advanced React Patterns for Everyone', 32, 168, ['ohansemmanuel'], '2022-01-22T11:59:45.474859'),
-(10366, 3941126, 100781035, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 283, 9418, ['zserge','rajivshah3'], '2022-01-22T11:59:45.68631'),
-(10367, 527550, 53698167, 'jonasbn/til', 15, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', 4, 31, ['jonasbn','Amorymeltzer'], '2022-01-22T11:59:46.443016'),
 (10368, 3941126, 270054, 'ffi/ffi', 13, 'Ruby FFI', 110, 1917, ['larskanis','tduehr'], '2022-01-22T11:59:47.165375'),
 (10369, 3777549, 51732606, 'jhu-ep-coursera/fullstack-course4', 15, 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', 3, 7103, ['ychaikin','jasonwr'], '2022-01-22T11:59:47.644537'),
 (10370, 3941126, 140947800, 'piotrmurach/tty-box', 14, 'Draw various frames and boxes in your terminal window', 1, 170, ['piotrmurach','DanielVartanov'], '2022-01-22T11:59:48.309147'),
@@ -10393,6 +10391,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10385, 3777549, 65666498, 'rtivital/react-pages-boilerplate', 19, 'Deliver react + react-router application to gh-pages', 7, 143, ['rtivital','4knort'], '2022-01-22T11:59:53.328958'),
 (10386, 15052690, 387630224, 'carmenkolohe/CodeSchoolQA', 18, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', 5, 11, ['carmenkolohe','jendevelops'], '2022-01-22T11:59:53.35698'),
 (10387, 527550, 14499588, 'AgileVentures/LocalSupport', 20, 'A directory of local support services and volunteer opportunities', 77, 61, ['tansaku','mtc2013'], '2022-01-22T11:59:53.880622'),
+(10366, 3941126, 100781035, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 283, 9418, ['zserge','rajivshah3'], '2022-01-22T11:59:45.68631'),
+(10367, 527550, 53698167, 'jonasbn/til', 15, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', 4, 31, ['jonasbn','Amorymeltzer'], '2022-01-22T11:59:46.443016'),
 (10388, 15052690, 215086062, 'fastruby/skunk', 19, 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', 8, 289, ['etagwerker','bronzdoc'], '2022-01-22T11:59:54.502842'),
 (10389, 3777549, 109592003, 'jepser/site-contentful', 20, 'Personal site with contentful', 5, 9, ['jepser'], '2022-01-22T11:59:54.522151'),
 (10390, 3941126, 2206953, 'tj/commander.js', 19, 'node.js command-line interfaces made easy', 16, 21969, ['shadowspawn','tj'], '2022-01-22T11:59:54.720345'),
@@ -11361,10 +11361,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11350, 67872399, 284546323, 'Abhirup-99/DesktopWallpaper', 10, null, 0, 1, ['Abhirup-99','Abhirup-2019'], '2022-01-22T13:31:51.953719'),
 (11351, 2658040, 188243294, 'BaseMax/ChessDesktopElectron', 10, 'Chess game with two player based on electron. (SOON)', 0, 4, ['BaseMax'], '2022-01-22T13:31:52.026168'),
 (11352, 622115, 230314536, 'cgeo/WhereYouGo', 7, 'Clone of the unmaintained repository (biylda/WhereYouGo) to continue app development', 67, 55, ['biylda','Lineflyer'], '2022-01-22T13:31:52.150016'),
+(11353, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-22T13:31:52.434523'),
 (11354, 33148009, 75291705, 'unicodeveloper/awesome-nextjs', 11, ':notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ', 53, 6945, ['unicodeveloper','timneutkens'], '2022-01-22T13:31:52.615686'),
 (11355, 2658040, 186932654, 'BaseMax/FirstElectron', 11, 'Begin point and Getting start of the electron using node js.', 0, 2, ['BaseMax'], '2022-01-22T13:31:53.250632'),
 (11356, 67872399, 96266792, 'davidhu2000/react-spinners', 11, 'A collection of loading spinner components for react', 25, 2080, ['davidhu2000','MincedCutlet'], '2022-01-22T13:31:53.268985'),
-(11353, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-22T13:31:52.434523'),
 (11357, 622115, 5579613, 'mixu/singlepageappbook', 8, 'Content and site generator for Single page apps in depth (my book on single page applications)', 9, 1718, ['mixu','eeror'], '2022-01-22T13:31:53.482754'),
 (11358, 33148009, 36256540, 'css-modules/css-modules', 13, 'Documentation about css-modules', 114, 15665, ['geelen','markdalgleish'], '2022-01-22T13:31:53.995828'),
 (11359, 2237343, 272328835, 'timburgan/timburgan', 11, null, 26, 603, ['timburgan','kwacky1'], '2022-01-22T13:31:54.234969'),
@@ -11469,6 +11469,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11458, 19350071, 266974036, 'DistributedClocks/shiviz', 2, 'A tool to visualize distributed system logs', 64, 42, ['albertxing','pqperry'], '2022-01-22T13:38:06.922484'),
 (11459, 3037127, 255480054, 'jon-walton/linkerd2-gitops-example', 3, null, 0, 4, [], '2022-01-22T13:38:07.317395'),
 (11460, 29888641, 287743349, 'docker/login-action', 3, 'GitHub Action to login against a Docker registry', 8, 344, ['crazy-max','tonistiigi'], '2022-01-22T13:38:07.319758'),
+(11461, 3037127, 13491895, 'EbookFoundation/free-programming-books', 4, ':books: Freely available programming books', 36, 219606, ['vhf','MHM5000'], '2022-01-22T13:38:07.864431'),
 (11462, 4573607, 248011509, 'CodeForPhilly/chime', 2, 'COVID-19 Hospital Impact Model for Epidemics', 35, 207, ['jlubken','quinn-dougherty'], '2022-01-22T13:38:08.111349'),
 (11463, 19350071, 13044600, 'salesagility/SuiteCRM', 3, 'SuiteCRM - Open source CRM for the world', 1405, 2801, ['gymad','Dillon-Brown'], '2022-01-22T13:38:08.531669'),
 (11464, 29888641, 241092383, 'docker/build-push-action', 4, 'GitHub Action to build and push Docker images with Buildx', 22, 1992, ['crazy-max','zappy-shu'], '2022-01-22T13:38:08.656565'),
@@ -11499,7 +11500,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11489, 3037127, 187050643, 'openfaas/openfaas-linkerd-workshop', 13, 'Lightweight Serverless on Kubernetes with mTLS and traffic-splitting with Linkerd2', 0, 91, ['alexellis','matipan'], '2022-01-22T13:38:20.625928'),
 (11490, 19350071, 29514104, 'netlify/netlify-cms', 11, 'A Git-based CMS for Static Site Generators', 643, 14886, ['erquhart','erezrokah'], '2022-01-22T13:38:20.782152'),
 (11491, 3037127, 109512938, 'openfaas/openfaas-cloud', 14, 'The Multi-user OpenFaaS Platform', 37, 751, ['alexellis','martindekov'], '2022-01-22T13:38:22.006167'),
-(11461, 3037127, 13491895, 'EbookFoundation/free-programming-books', 4, ':books: Freely available programming books', 36, 219606, ['vhf','MHM5000'], '2022-01-22T13:38:07.864431'),
 (11492, 3037127, 81283571, 'linkerd/linkerd-zipkin', 15, 'linkerd telemeter plugins for writing trace data to zipkin', 9, 28, ['dadjeibaah','klingerf'], '2022-01-22T13:38:23.021893'),
 (11493, 3037127, 45723377, 'charlax/professional-programming', 16, 'A collection of full-stack resources for programmers.', 1, 16016, ['charlax','laithshadeed'], '2022-01-22T13:38:24.360724'),
 (11494, 19350071, 60243197, 'nextcloud/server', 12, '☁️ Nextcloud server, a safe home for all your data', 1911, 18048, ['rullzer','MorrisJobke'], '2022-01-22T13:38:24.375102'),
