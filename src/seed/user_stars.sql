@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T12:50:12.151Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T14:44:21.701Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4222,9 +4222,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4176, 118037, 266856296, 'alexlee-dev/create-cli-application', 20, 'A bootstrapper for creating a cli application with Node.', 7, 5, ['alexlee-dev','MartinRosenberg'], '2022-01-21T03:49:39.250814'),
 (4177, 14868216, 49760504, 'samshadwell/TrumpScript', 23, 'Make Python great again', 5, 7416, ['samshadwell','CryoBrown'], '2022-01-21T03:49:39.258957'),
 (4178, 14868216, 2096358, 'rajkissu/brainfuck', 24, 'A Brainfuck interpreter running on node.js', 4, 14, ['rajkissu'], '2022-01-21T03:49:40.326362'),
+(4179, 57373172, 7363211, 'knex/knex', 22, 'A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.', 596, 15230, ['tgriesser','kibertoad'], '2022-01-21T03:49:40.351468'),
 (4180, 118037, 163492753, 'felipecustodio/p5-starter', 21, ':herb: Boilerplate for p5.js projects, including VSCode Intellisense and linting for HTML, CSS and JS.', 1, 8, ['felipecustodio'], '2022-01-21T03:49:40.385537'),
 (4181, 3340406, 182067506, 'quantumblacklabs/kedro', 20, 'A Python framework for creating reproducible, maintainable and modular data science code.', 56, 4920, ['lorenabalan','921kiyo'], '2022-01-21T03:49:40.624945'),
-(4179, 57373172, 7363211, 'knex/knex', 22, 'A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.', 596, 15230, ['tgriesser','kibertoad'], '2022-01-21T03:49:40.351468'),
 (4182, 118037, 161034589, 'joshwcomeau/tinkersynth', 22, 'An experimental art project. Create unique art through serendipitous discovery.', 1, 224, ['joshwcomeau','Harmon758'], '2022-01-21T03:49:41.836488'),
 (4183, 3340406, 83462592, 'asottile/pyupgrade', 21, 'A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.', 10, 1361, ['asottile','mxr'], '2022-01-21T03:49:42.050801'),
 (4184, 118037, 352170777, 'spieglt/Cloaker.js', 23, 'Simple password-based file encryption entirely in your browser, interoperable with Cloaker.', 0, 21, ['spieglt'], '2022-01-21T03:49:42.91088'),
