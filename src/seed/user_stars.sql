@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T16:50:33.792Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T18:45:45.626Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3859,8 +3859,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3812, 33669114, 13143215, 'ngs-lang/ngs', 17, 'Next Generation Shell (NGS)', 270, 988, ['ilyash','organom'], '2022-01-21T03:28:23.236825'),
 (3813, 57017587, 40008106, 'MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-', 19, 'A beautiful cross platform Desktop Player for Google Play Music', 263, 8453, ['MarshallOfSound','jostrander'], '2022-01-21T03:28:23.673294'),
 (3814, 49351279, 257485422, 'vitejs/vite', 16, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:28:23.898739'),
-(3816, 1431853, 19208128, 'firasdib/Regex101', 19, 'This repository is currently only used for issue tracking for www.regex101.com', 61, 2402, ['firasdib','Zarthus'], '2022-01-21T03:28:24.383892'),
 (3815, 8037469, 22242868, 'edgarjs/alfred-github-repos', 21, 'Alfred workflow to easily open Github repositories', 3, 255, ['edgarjs','ileodo'], '2022-01-21T03:28:24.304108'),
+(3816, 1431853, 19208128, 'firasdib/Regex101', 19, 'This repository is currently only used for issue tracking for www.regex101.com', 61, 2402, ['firasdib','Zarthus'], '2022-01-21T03:28:24.383892'),
 (3817, 49351279, 240231984, 'mikbry/awesome-webgpu', 17, '😎 Curated list of awesome things around WebGPU ecosystem. ', 1, 434, ['mikbry','alex-usher'], '2022-01-21T03:28:25.276578'),
 (3818, 57017587, 79162682, 'laurent22/joplin', 20, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 290, 27713, ['laurent22','tessus'], '2022-01-21T03:28:25.281322'),
 (3819, 33669114, 1103607, 'jenkinsci/jenkins', 18, 'Jenkins automation server', 79, 18346, ['kohsuke','jglick'], '2022-01-21T03:28:25.572628'),
