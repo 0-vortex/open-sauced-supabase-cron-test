@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T22:44:20.224Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T01:04:21.528Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3961,8 +3961,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3914, 72279316, 278091381, 'jobream/List-of-Learning-Resources', 9, 'This collection provides a list of educational resources for Software Engineers. Feel free to add your favorite resources as well and help others in their journey of learning.', 8, 288, ['CodingSpecies','AvidCoder101'], '2022-01-21T03:34:50.541398'),
 (3915, 569510, 192372472, 'nix-community/poetry2nix', 10, 'Convert poetry projects to nix automagically [maintainer=@adisbladis] ', 47, 244, ['adisbladis','cpcloud'], '2022-01-21T03:34:50.596002'),
 (3916, 5842360, 88760614, 'automerge/automerge', 10, 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', 69, 11973, ['ept','orionz'], '2022-01-21T03:34:50.811561'),
-(3917, 57826091, 360522116, 'nextui-org/nextui', 9, '🚀   Beautiful, fast and modern React UI library.', 11, 1117, ['jrgarciadev','DaniAcu'], '2022-01-21T03:34:50.989144'),
 (3918, 4247126, 8681349, 'huginn/huginn', 6, 'Create agents that monitor and act on your behalf.  Your agents are standing by!', 581, 33022, ['cantino','knu'], '2022-01-21T03:34:51.658093'),
+(3917, 57826091, 360522116, 'nextui-org/nextui', 9, '🚀   Beautiful, fast and modern React UI library.', 11, 1117, ['jrgarciadev','DaniAcu'], '2022-01-21T03:34:50.989144'),
 (3919, 569510, 163883279, 'nektos/act', 11, 'Run your GitHub Actions locally 🚀', 78, 20599, ['cplee','catthehacker'], '2022-01-21T03:34:51.959158'),
 (3920, 72279316, 191778259, 'davehowson/chat-app', 10, 'MERN Stack Based Chat Application', 16, 182, ['davehowson'], '2022-01-21T03:34:52.049057'),
 (3921, 5842360, 118858739, 'dwmkerr/hacker-laws', 11, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', 122, 22629, ['dwmkerr','umutphp'], '2022-01-21T03:34:52.199694'),
@@ -4130,8 +4130,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4084, 13711044, 109059304, 'facebook/react-native-website', 28, 'Configuration and documentation powering the React Native website.', 77, 1528, ['hramos','Simek'], '2022-01-21T03:42:37.686032'),
 (4085, 13711044, 172473381, 'JamesUgbanu/react-native-woocommerce-api', 29, null, 0, 33, ['JamesUgbanu','anwar-gul'], '2022-01-21T03:42:39.011344'),
 (4086, 14868216, 35451268, 'Khan/tota11y', 0, 'an accessibility (a11y) visualization toolkit', 58, 4863, ['jdan','somewhatabstract'], '2022-01-21T03:49:02.481565'),
-(4088, 14868216, 331734784, 'GiTiramisuPush/bar-crawlz', 1, null, 0, 2, ['LionSnarl','summer-cook'], '2022-01-21T03:49:04.110057'),
 (4087, 67359053, 337544200, 'learn-academy-2021-alpha/lecture-examples', 0, null, 0, 1, ['minachuong','sjproctor'], '2022-01-21T03:49:03.359385'),
+(4088, 14868216, 331734784, 'GiTiramisuPush/bar-crawlz', 1, null, 0, 2, ['LionSnarl','summer-cook'], '2022-01-21T03:49:04.110057'),
 (4089, 14868216, 350802931, 'trainerroad/react-race-planner', 2, 'A coding challenge for prospective engineering hires', 0, 9, ['colinrobertbrooks','tah9m9'], '2022-01-21T03:49:05.608437'),
 (4090, 57373172, 15204860, 'papers-we-love/papers-we-love', 0, 'Papers from the computer science community to read and discuss.', 23, 52015, ['zeeshanlakhani','DarrenN'], '2022-01-21T03:49:05.759246'),
 (4091, 67359053, 336945933, 'learn-academy-2021-alpha/Syllabus', 1, null, 0, 2, ['sjproctor','JzGo'], '2022-01-21T03:49:06.256262'),
@@ -6280,8 +6280,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6245, 1255918, 64361364, 'kawaiidesune/kawaiidesune.github.io', 4, 'My github pages site.', 0, 1, ['kawaiidesune'], '2022-01-22T03:57:21.305261'),
 (6246, 79887, 414403319, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene'], '2022-01-22T03:57:21.347933'),
 (6247, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-22T03:57:21.829282'),
-(6248, 71297412, 428727515, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14'], '2022-01-22T03:57:21.946773'),
 (6249, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T03:57:22.085879'),
+(6248, 71297412, 428727515, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14'], '2022-01-22T03:57:21.946773'),
 (6250, 1930729, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1657, 84514, ['ry','Trott'], '2022-01-22T03:57:22.104653'),
 (6251, 16165980, 44758360, 'dotnet/pinvoke', 2, 'A library containing all P/Invoke code so you don''t have to import it every time. Maintained and updated to support the latest Windows OS.', 58, 1572, ['AArnott','vbfox'], '2022-01-22T03:57:22.4362'),
 (6252, 1917293, 124617017, 'DevOpsandSRE/tech-resources', 1, 'Useful Technical Resources', 1, 21, ['zigsphere','ym1234'], '2022-01-22T03:57:22.537022'),
