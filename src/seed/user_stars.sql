@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T18:45:53.109Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T22:44:20.386Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6344,11 +6344,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6315, 1917293, 117790649, 'psi-zimb/psi-config', 6, 'Repository for PSI Zimbabwe Bahmni implementation', 0, 1, ['yashdave','matirp235'], '2022-01-22T03:57:29.419608'),
 (6316, 9968219, 264558151, 'borakasmer/MicroservicesWithRabbitMQAndSocketIO', 1, 'In this application, we will try to informed customers who buy the stock papers when the price changed. We will use NodeJs for the backend application. For improving the performance, we will use RabbitMQ, and we will write microservice as a consumer. We will send updated stock data by using SocketIO to the clients. For front-end application, we will use Angular 9', 15, 30, ['borakasmer'], '2022-01-22T03:57:29.521713'),
 (6317, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T03:57:29.52649'),
+(6318, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T03:57:29.598584'),
+(6319, 11858762, 393030139, 'atapas/promise-interview-ready', 3, 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', 0, 81, ['atapas','saideepd'], '2022-01-22T03:57:29.65102'),
 (6320, 52336027, 78302226, 'hussien89aa/DataStructureAndAlgorithms', 5, 'Write code that run faster, use less memory and prepare for your Job Interview', 24, 622, ['hussien89aa'], '2022-01-22T03:57:29.674436'),
 (6321, 79887, 341544828, 'kotlin-graphics/build-logic', 6, null, 0, 1, ['elect86'], '2022-01-22T03:57:29.717666'),
 (6322, 44642314, 201403923, 'activeloopai/Hub', 4, 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', 72, 4215, ['AbhinavTuli','nollied'], '2022-01-22T03:57:30.031279'),
-(6318, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T03:57:29.598584'),
-(6319, 11858762, 393030139, 'atapas/promise-interview-ready', 3, 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', 0, 81, ['atapas','saideepd'], '2022-01-22T03:57:29.65102'),
 (6323, 46695719, 1453143, 'jdesboeufs/connect-mongo', 1, 'MongoDB session store for Express', 12, 1843, ['jdesboeufs','mingchuno'], '2022-01-22T03:57:30.157608'),
 (6324, 1255918, 52631841, 'gothinkster/realworld', 10, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 52, 63287, ['EricSimons','anishkny'], '2022-01-22T03:57:30.195063'),
 (6325, 2609511, 712530, 'fabricjs/fabric.js', 3, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 258, 20916, ['kangax','asturur'], '2022-01-22T03:57:30.263397'),
@@ -6394,9 +6394,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6355, 59651629, 402189545, 'juntossomosmais/frontend-guideline', 0, '📝 Front-end Guideline by Juntos Somos Mais', 1, 971, ['felipefialho','hick97'], '2022-01-22T03:57:32.534882'),
 (6356, 1255918, 24197449, 'plone/ansible-playbook', 12, 'An Ansible playbook for automated deployment of full-stack Plone servers.', 12, 91, ['smcmahon','stevepiercy'], '2022-01-22T03:57:32.715761'),
 (6357, 52336027, 14807173, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 7, 'How to Make a Computer Operating System in C++', 84, 19707, ['SamyPesse','mandliya'], '2022-01-22T03:57:32.720735'),
+(6358, 289882, 36616176, 'elixirschool/elixirschool', 9, 'The content behind Elixir School', 22, 3179, ['doomspork','nscyclone'], '2022-01-22T03:57:32.740725'),
 (6359, 46695719, 32711479, 'cpojer/js-codemod', 3, 'Codemod scripts to transform code to next generation JS', 3, 1116, ['cpojer','lencioni'], '2022-01-22T03:57:32.961184'),
 (6360, 12410942, 27291507, 'asdf-vm/asdf', 15, 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', 123, 12901, ['Stratus3D','HashNuke'], '2022-01-22T03:57:33.00914'),
-(6358, 289882, 36616176, 'elixirschool/elixirschool', 9, 'The content behind Elixir School', 22, 3179, ['doomspork','nscyclone'], '2022-01-22T03:57:32.740725'),
 (6366, 20134767, 40518025, 'graphql/graphiql', 2, 'GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.', 198, 13198, ['wincent','acao'], '2022-01-22T03:57:33.410316'),
 (6367, 26007940, 236383896, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania'], '2022-01-22T03:57:33.484897'),
 (6368, 9968219, 95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 4, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', 6, 320, ['callicoder'], '2022-01-22T03:57:33.574866'),
@@ -6895,8 +6895,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6831, 26007940, 297354816, 'zero-to-mastery/Keiko-Corp', 23, 'HTML challenge for Hacktoberfest 2020', 12, 204, ['brittneypostma','dpcoolmufa'], '2022-01-22T04:20:42.344859'),
 (6832, 289882, 8514, 'rails/rails', 13, 'Ruby on Rails', 599, 49953, ['rafaelfranca','tenderlove'], '2022-01-22T04:20:42.542475'),
 (6833, 12410942, 56171308, 'palkan/logidze', 26, 'Database changes log for Rails', 3, 1210, ['palkan','charlie-wasp'], '2022-01-22T04:20:42.972455'),
-(6835, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T04:20:52.314813'),
 (6834, 289882, 36470617, 'smpallen99/ex_admin', 14, 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', 135, 1189, ['smpallen99','romul'], '2022-01-22T04:20:43.141273'),
+(6835, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T04:20:52.314813'),
 (6836, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T04:20:53.024749'),
 (6837, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:53.060416'),
 (6838, 26007940, 421781906, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah'], '2022-01-22T04:20:53.651958'),
