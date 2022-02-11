@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T08:44:56.595Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T10:44:20.860Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4869,8 +4869,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4789, 15052690, 215086062, 'fastruby/skunk', 19, 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', 8, 289, ['etagwerker','bronzdoc'], '2022-01-21T04:36:17.152143'),
 (4790, 28281924, 46641250, 'codeceptjs/CodeceptJS', 24, 'Supercharged End 2 End Testing Framework for NodeJS', 307, 3609, ['DavertMik','PeterNgTr'], '2022-01-21T04:36:17.406575'),
 (4791, 3777549, 77558427, 'amejiarosario/dsa.js-data-structures-algorithms-javascript', 26, '🥞Data Structures and Algorithms explained and implemented in JavaScript + eBook', 3, 6313, ['amejiarosario','semantic-release-bot'], '2022-01-21T04:36:17.804118'),
-(4792, 25194960, 135224272, 'loomnetwork/solidity-social-example', 29, 'Super simple social network interaction, where users can post and comment on posts', 3, 65, ['mattkanwisher','eduardonunesp'], '2022-01-21T04:36:17.891803'),
 (4793, 3777549, 126577260, 'trekhleb/javascript-algorithms', 27, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 280, 132776, ['trekhleb','m-maksyutin'], '2022-01-21T04:36:18.526708'),
+(4792, 25194960, 135224272, 'loomnetwork/solidity-social-example', 29, 'Super simple social network interaction, where users can post and comment on posts', 3, 65, ['mattkanwisher','eduardonunesp'], '2022-01-21T04:36:17.891803'),
 (4794, 15052690, 275874438, 'sbrudz/accelerate-metrics', 20, 'Tool to calculate Accelerate DevOps metrics', 0, 4, ['sbrudz'], '2022-01-21T04:36:18.640504'),
 (4795, 28281924, 146218451, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 800, ['joeykilpatrick','seanpmaxwell'], '2022-01-21T04:36:18.837471'),
 (4796, 3777549, 26500787, 'tonsky/FiraCode', 28, 'Free monospaced font with programming ligatures', 292, 61512, ['tonsky','thundernixon'], '2022-01-21T04:36:19.279628'),
@@ -4980,8 +4980,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
 (4971, 53687927, 353360302, 'dwaipayan05/Proctoring-AI', 10, null, 0, 1, ['Harshalzzzzzzz'], '2022-01-21T04:57:17.439271'),
 (4972, 455338, 49516849, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 68, 3929, ['xwmx','heywoodlh'], '2022-01-21T04:57:17.499981'),
-(4974, 455338, 6887156, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 69, 3726, ['Yggdroot','stardiviner'], '2022-01-21T04:57:18.916609'),
 (4973, 53687927, 351880944, 'dwaipayan05/dwaipayan05', 11, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:18.841824'),
+(4974, 455338, 6887156, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 69, 3726, ['Yggdroot','stardiviner'], '2022-01-21T04:57:18.916609'),
 (4975, 6935431, 358525505, 'philips-forks/innersource-crawler', 12, 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', 0, 1, ['zkoppert','Brend-Smits'], '2022-01-21T04:57:19.158083'),
 (4976, 53687927, 350774992, 'dwaipayan05/Object-Detection-RealTime', 12, null, 0, 1, ['dwaipayan05','Harshalzzzzzzz'], '2022-01-21T04:57:20.182227'),
 (4977, 455338, 41906632, 'brookhong/Surfingkeys', 17, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', 356, 3849, ['brookhong','jgkamat'], '2022-01-21T04:57:20.370463'),
@@ -9541,13 +9541,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9455, 5842360, 49024192, 'himynameisdave/git-labelmaker', 23, ':flags: Manage your GitHub labels from the command line!', 29, 553, ['himynameisdave','Jameskmonger'], '2022-01-22T11:02:16.421608'),
 (9456, 49351279, 355601088, 'sdras/career-ladders', 23, 'A sample of career ladders I use for my organization, open sourced for anyone.', 2, 603, ['sdras','DanJFletcher'], '2022-01-22T11:02:16.896093'),
 (9457, 1431853, 2476162, 'fail2ban/fail2ban', 22, 'Daemon to ban hosts that cause multiple authentication errors', 177, 6792, ['sebres','yarikoptic'], '2022-01-22T11:02:17.218473'),
+(9458, 569510, 368859622, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 25, 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', 0, 2, ['umernalla'], '2022-01-22T11:02:17.327727'),
 (9459, 5842360, 35350496, 'evanyeung/terminal-slack', 24, 'Terminal client for slack', 26, 1034, ['evanyeung','passabilities'], '2022-01-22T11:02:17.454873'),
 (9460, 33669114, 131619646, 'dagster-io/dagster', 24, 'An orchestration platform for the development, production, and observation of data assets.', 871, 4223, ['schrockn','alangenfeld'], '2022-01-22T11:02:17.699857'),
 (9461, 49351279, 307143420, 'natemoo-re/microsite', 24, 'Do more with less JavaScript. Microsite is a smarter, performance-obsessed static site generator powered by Preact and Snowpack.', 24, 836, ['natemoo-re','abdusco'], '2022-01-22T11:02:18.157847'),
 (9462, 569510, 257854679, 'DavHau/mach-nix', 26, 'Create highly reproducible python environments', 138, 431, ['DavHau','tomprince'], '2022-01-22T11:02:18.41073'),
 (9463, 1431853, 93668776, 'dsznajder/vscode-es7-javascript-react-snippets', 23, 'Extension for React/Javascript snippets with search supporting ES7+ and babel features', 2, 560, ['dsznajder','Randagio13'], '2022-01-22T11:02:18.518449'),
 (9464, 33669114, 36817565, 'zaproxy/zaproxy', 25, 'The OWASP ZAP core project', 725, 9152, ['psiinon','thc202'], '2022-01-22T11:02:19.184006'),
-(9458, 569510, 368859622, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 25, 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', 0, 2, ['umernalla'], '2022-01-22T11:02:17.327727'),
 (9465, 5842360, 3100121, 'nwjs/nw.js', 25, 'Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.', 881, 38696, ['rogerwang','zcbenz'], '2022-01-22T11:02:19.273626'),
 (9466, 49351279, 105138356, 'AssemblyScript/assemblyscript', 25, 'A TypeScript-like language for WebAssembly.', 160, 13344, ['dcodeIO','MaxGraey'], '2022-01-22T11:02:19.405947'),
 (9467, 569510, 151837779, 'akosbalasko/yarle', 27, 'Yarle - The ultimate converter of Evernote notes to Markdown', 40, 418, ['akosbalasko','rodbv'], '2022-01-22T11:02:19.430676'),
@@ -9705,8 +9705,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9618, 18013532, 48009214, 'microsoft/react-native-windows', 0, 'A framework for building native Windows apps with React.', 698, 14373, ['rnbot','rozele'], '2022-01-22T11:19:37.970823'),
 (9619, 67359053, 336945933, 'learn-academy-2021-alpha/Syllabus', 1, null, 0, 2, ['sjproctor','JzGo'], '2022-01-22T11:19:39.388538'),
 (9620, 18013532, 399071719, 'Rohithgilla12/redwood-url-shortner', 1, null, 0, 3, ['Rohithgilla12'], '2022-01-22T11:19:39.471309'),
-(9622, 67359053, 336604631, 'KenSikes/data_science_bootcamp', 2, 'Winter bootcamp 2021', 0, 1, ['KenSikes'], '2022-01-22T11:19:40.930919'),
 (9621, 14868216, 331734784, 'GiTiramisuPush/bar-crawlz', 1, null, 0, 2, ['LionSnarl','summer-cook'], '2022-01-22T11:19:39.678574'),
+(9622, 67359053, 336604631, 'KenSikes/data_science_bootcamp', 2, 'Winter bootcamp 2021', 0, 1, ['KenSikes'], '2022-01-22T11:19:40.930919'),
 (9624, 14868216, 350802931, 'trainerroad/react-race-planner', 2, 'A coding challenge for prospective engineering hires', 0, 9, ['colinrobertbrooks','tah9m9'], '2022-01-22T11:19:41.285226'),
 (9625, 67359053, 335105505, 'KenSikes/GitTest', 3, 'just learnining to use Github', 0, 1, ['KenSikes'], '2022-01-22T11:19:42.415226'),
 (9626, 14868216, 40819979, 'frend/frend.co', 3, 'Frend — A collection of accessible, modern front-end components.', 16, 637, ['thomasdigby','adamduncan'], '2022-01-22T11:19:42.710384'),
