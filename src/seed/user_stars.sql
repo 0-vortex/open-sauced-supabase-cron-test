@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T02:48:54.831Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T04:47:41.316Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3871,9 +3871,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3824, 33669114, 65915265, 'cncf/foundation', 19, '☁️♮🏛File non-technical issues related to CNCF', 35, 319, ['amye','caniszczyk'], '2022-01-21T03:28:26.792379'),
 (3862, 57017587, 41796462, 'yanirs/established-remote', 29, 'A list of established remote companies', 0, 5060, ['yanirs','dcecile'], '2022-01-21T03:28:38.066535'),
 (3863, 1431853, 134571997, 'codingmamalabs/raspi-ansible', 28, 'Ansible stuff for setting up Raspeberry Pis', 0, 13, ['erikaheidi'], '2022-01-21T03:28:38.191694'),
+(3825, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1589, ['omeraplak','burcukaragozzz'], '2022-01-21T03:28:27.09457'),
 (3826, 57017587, 64478737, 'AllToMP3/alltomp3-app', 21, 'Download and Convert YouTube, SoundCloud & Spotify in MP3 with full tags (title, artist, genre, cover, lyrics 🔥)', 164, 1090, ['NTag','opera7133'], '2022-01-21T03:28:27.27744'),
 (3827, 49351279, 3604157, 'shelljs/shelljs', 19, ':shell: Portable Unix shell commands for Node.js', 95, 12973, ['nfischer','arturadib'], '2022-01-21T03:28:27.675005'),
-(3825, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1589, ['omeraplak','burcukaragozzz'], '2022-01-21T03:28:27.09457'),
 (3828, 33669114, 345722773, 'Dev-Simulator/8-bit-env', 20, null, 0, 22, ['mikedane'], '2022-01-21T03:28:27.891238'),
 (3829, 1431853, 2476162, 'fail2ban/fail2ban', 22, 'Daemon to ban hosts that cause multiple authentication errors', 177, 6787, ['sebres','yarikoptic'], '2022-01-21T03:28:28.411754'),
 (3830, 8037469, 162442403, 'pankod/next-boilerplate', 24, 'A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/', 18, 1259, ['omeraplak','BatuhanW'], '2022-01-21T03:28:28.575902'),
@@ -8740,8 +8740,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8655, 29004466, 93786445, 'sebastienros/fluid', 24, 'Fluid is an open-source .NET template engine based on the Liquid template language.', 22, 732, ['sebastienros','hishamco'], '2022-01-22T09:58:41.738594'),
 (8656, 29004466, 4421756, 'prose/gatekeeper', 25, 'Enables client-side applications to dance OAuth with GitHub.', 17, 735, ['dereklieu','michael'], '2022-01-22T09:58:42.871505'),
 (8657, 55982424, 60493101, 'jwasham/coding-interview-university', 26, 'A complete computer science study plan to become a software engineer.', 40, 203860, ['jwasham','avizmarlon'], '2022-01-22T09:58:43.264814'),
-(8658, 29004466, 14964475, 'AvaloniaUI/Avalonia', 26, 'A cross platform XAML framework for .NET', 1211, 12804, ['grokys','danwalmsley'], '2022-01-22T09:58:44.617857'),
 (8659, 55982424, 17274389, 'exercism/python', 27, 'Exercism exercises in Python.', 56, 1105, ['BethanyG','cmccandless'], '2022-01-22T09:58:44.855689'),
+(8658, 29004466, 14964475, 'AvaloniaUI/Avalonia', 26, 'A cross platform XAML framework for .NET', 1211, 12804, ['grokys','danwalmsley'], '2022-01-22T09:58:44.617857'),
 (8660, 29004466, 112103032, 'loic-sharma/BaGet', 27, 'A lightweight NuGet and symbol server', 218, 1898, ['loic-sharma','WernerMairl'], '2022-01-22T09:58:45.777522'),
 (8661, 55982424, 17884290, 'tschaub/gh-pages', 28, 'General purpose task for publishing files to a gh-pages branch on GitHub', 103, 2724, ['tschaub','greenkeeperio-bot'], '2022-01-22T09:58:46.288033'),
 (8662, 55982424, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 29, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 25, 7597, ['Ebazhanov','monkrus'], '2022-01-22T09:58:47.0389'),
