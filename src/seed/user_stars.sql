@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T01:04:21.528Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T02:48:54.831Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3871,9 +3871,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3824, 33669114, 65915265, 'cncf/foundation', 19, '☁️♮🏛File non-technical issues related to CNCF', 35, 319, ['amye','caniszczyk'], '2022-01-21T03:28:26.792379'),
 (3862, 57017587, 41796462, 'yanirs/established-remote', 29, 'A list of established remote companies', 0, 5060, ['yanirs','dcecile'], '2022-01-21T03:28:38.066535'),
 (3863, 1431853, 134571997, 'codingmamalabs/raspi-ansible', 28, 'Ansible stuff for setting up Raspeberry Pis', 0, 13, ['erikaheidi'], '2022-01-21T03:28:38.191694'),
-(3825, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1589, ['omeraplak','burcukaragozzz'], '2022-01-21T03:28:27.09457'),
 (3826, 57017587, 64478737, 'AllToMP3/alltomp3-app', 21, 'Download and Convert YouTube, SoundCloud & Spotify in MP3 with full tags (title, artist, genre, cover, lyrics 🔥)', 164, 1090, ['NTag','opera7133'], '2022-01-21T03:28:27.27744'),
 (3827, 49351279, 3604157, 'shelljs/shelljs', 19, ':shell: Portable Unix shell commands for Node.js', 95, 12973, ['nfischer','arturadib'], '2022-01-21T03:28:27.675005'),
+(3825, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1589, ['omeraplak','burcukaragozzz'], '2022-01-21T03:28:27.09457'),
 (3828, 33669114, 345722773, 'Dev-Simulator/8-bit-env', 20, null, 0, 22, ['mikedane'], '2022-01-21T03:28:27.891238'),
 (3829, 1431853, 2476162, 'fail2ban/fail2ban', 22, 'Daemon to ban hosts that cause multiple authentication errors', 177, 6787, ['sebres','yarikoptic'], '2022-01-21T03:28:28.411754'),
 (3830, 8037469, 162442403, 'pankod/next-boilerplate', 24, 'A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/', 18, 1259, ['omeraplak','BatuhanW'], '2022-01-21T03:28:28.575902'),
@@ -3961,8 +3961,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3914, 72279316, 278091381, 'jobream/List-of-Learning-Resources', 9, 'This collection provides a list of educational resources for Software Engineers. Feel free to add your favorite resources as well and help others in their journey of learning.', 8, 288, ['CodingSpecies','AvidCoder101'], '2022-01-21T03:34:50.541398'),
 (3915, 569510, 192372472, 'nix-community/poetry2nix', 10, 'Convert poetry projects to nix automagically [maintainer=@adisbladis] ', 47, 244, ['adisbladis','cpcloud'], '2022-01-21T03:34:50.596002'),
 (3916, 5842360, 88760614, 'automerge/automerge', 10, 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', 69, 11973, ['ept','orionz'], '2022-01-21T03:34:50.811561'),
-(3918, 4247126, 8681349, 'huginn/huginn', 6, 'Create agents that monitor and act on your behalf.  Your agents are standing by!', 581, 33022, ['cantino','knu'], '2022-01-21T03:34:51.658093'),
 (3917, 57826091, 360522116, 'nextui-org/nextui', 9, '🚀   Beautiful, fast and modern React UI library.', 11, 1117, ['jrgarciadev','DaniAcu'], '2022-01-21T03:34:50.989144'),
+(3918, 4247126, 8681349, 'huginn/huginn', 6, 'Create agents that monitor and act on your behalf.  Your agents are standing by!', 581, 33022, ['cantino','knu'], '2022-01-21T03:34:51.658093'),
 (3919, 569510, 163883279, 'nektos/act', 11, 'Run your GitHub Actions locally 🚀', 78, 20599, ['cplee','catthehacker'], '2022-01-21T03:34:51.959158'),
 (3920, 72279316, 191778259, 'davehowson/chat-app', 10, 'MERN Stack Based Chat Application', 16, 182, ['davehowson'], '2022-01-21T03:34:52.049057'),
 (3921, 5842360, 118858739, 'dwmkerr/hacker-laws', 11, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', 122, 22629, ['dwmkerr','umutphp'], '2022-01-21T03:34:52.199694'),
@@ -6280,8 +6280,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6245, 1255918, 64361364, 'kawaiidesune/kawaiidesune.github.io', 4, 'My github pages site.', 0, 1, ['kawaiidesune'], '2022-01-22T03:57:21.305261'),
 (6246, 79887, 414403319, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene'], '2022-01-22T03:57:21.347933'),
 (6247, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-22T03:57:21.829282'),
-(6249, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T03:57:22.085879'),
 (6248, 71297412, 428727515, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14'], '2022-01-22T03:57:21.946773'),
+(6249, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T03:57:22.085879'),
 (6250, 1930729, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1657, 84514, ['ry','Trott'], '2022-01-22T03:57:22.104653'),
 (6251, 16165980, 44758360, 'dotnet/pinvoke', 2, 'A library containing all P/Invoke code so you don''t have to import it every time. Maintained and updated to support the latest Windows OS.', 58, 1572, ['AArnott','vbfox'], '2022-01-22T03:57:22.4362'),
 (6252, 1917293, 124617017, 'DevOpsandSRE/tech-resources', 1, 'Useful Technical Resources', 1, 21, ['zigsphere','ym1234'], '2022-01-22T03:57:22.537022'),
