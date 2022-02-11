@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T10:44:20.860Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T12:50:05.699Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4869,8 +4869,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4789, 15052690, 215086062, 'fastruby/skunk', 19, 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', 8, 289, ['etagwerker','bronzdoc'], '2022-01-21T04:36:17.152143'),
 (4790, 28281924, 46641250, 'codeceptjs/CodeceptJS', 24, 'Supercharged End 2 End Testing Framework for NodeJS', 307, 3609, ['DavertMik','PeterNgTr'], '2022-01-21T04:36:17.406575'),
 (4791, 3777549, 77558427, 'amejiarosario/dsa.js-data-structures-algorithms-javascript', 26, '🥞Data Structures and Algorithms explained and implemented in JavaScript + eBook', 3, 6313, ['amejiarosario','semantic-release-bot'], '2022-01-21T04:36:17.804118'),
-(4793, 3777549, 126577260, 'trekhleb/javascript-algorithms', 27, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 280, 132776, ['trekhleb','m-maksyutin'], '2022-01-21T04:36:18.526708'),
 (4792, 25194960, 135224272, 'loomnetwork/solidity-social-example', 29, 'Super simple social network interaction, where users can post and comment on posts', 3, 65, ['mattkanwisher','eduardonunesp'], '2022-01-21T04:36:17.891803'),
+(4793, 3777549, 126577260, 'trekhleb/javascript-algorithms', 27, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 280, 132776, ['trekhleb','m-maksyutin'], '2022-01-21T04:36:18.526708'),
 (4794, 15052690, 275874438, 'sbrudz/accelerate-metrics', 20, 'Tool to calculate Accelerate DevOps metrics', 0, 4, ['sbrudz'], '2022-01-21T04:36:18.640504'),
 (4795, 28281924, 146218451, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 800, ['joeykilpatrick','seanpmaxwell'], '2022-01-21T04:36:18.837471'),
 (4796, 3777549, 26500787, 'tonsky/FiraCode', 28, 'Free monospaced font with programming ligatures', 292, 61512, ['tonsky','thundernixon'], '2022-01-21T04:36:19.279628'),
