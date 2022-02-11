@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T04:47:41.316Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T06:47:01.859Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8740,8 +8740,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8655, 29004466, 93786445, 'sebastienros/fluid', 24, 'Fluid is an open-source .NET template engine based on the Liquid template language.', 22, 732, ['sebastienros','hishamco'], '2022-01-22T09:58:41.738594'),
 (8656, 29004466, 4421756, 'prose/gatekeeper', 25, 'Enables client-side applications to dance OAuth with GitHub.', 17, 735, ['dereklieu','michael'], '2022-01-22T09:58:42.871505'),
 (8657, 55982424, 60493101, 'jwasham/coding-interview-university', 26, 'A complete computer science study plan to become a software engineer.', 40, 203860, ['jwasham','avizmarlon'], '2022-01-22T09:58:43.264814'),
-(8659, 55982424, 17274389, 'exercism/python', 27, 'Exercism exercises in Python.', 56, 1105, ['BethanyG','cmccandless'], '2022-01-22T09:58:44.855689'),
 (8658, 29004466, 14964475, 'AvaloniaUI/Avalonia', 26, 'A cross platform XAML framework for .NET', 1211, 12804, ['grokys','danwalmsley'], '2022-01-22T09:58:44.617857'),
+(8659, 55982424, 17274389, 'exercism/python', 27, 'Exercism exercises in Python.', 56, 1105, ['BethanyG','cmccandless'], '2022-01-22T09:58:44.855689'),
 (8660, 29004466, 112103032, 'loic-sharma/BaGet', 27, 'A lightweight NuGet and symbol server', 218, 1898, ['loic-sharma','WernerMairl'], '2022-01-22T09:58:45.777522'),
 (8661, 55982424, 17884290, 'tschaub/gh-pages', 28, 'General purpose task for publishing files to a gh-pages branch on GitHub', 103, 2724, ['tschaub','greenkeeperio-bot'], '2022-01-22T09:58:46.288033'),
 (8662, 55982424, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 29, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 25, 7597, ['Ebazhanov','monkrus'], '2022-01-22T09:58:47.0389'),
