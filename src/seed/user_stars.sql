@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T06:46:08.642Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T08:44:45.065Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -819,8 +819,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (811, 7860023, 32280638, 'bonigarcia/webdrivermanager', 8, 'Automated driver management and Docker builder for Selenium WebDriver', 15, 1837, ['bonigarcia','eliasnogueira'], '2022-01-20T20:49:53.068038'),
 (812, 61815862, 283323929, 'haimgel/display-switch', 12, 'Turn a $30 USB switch into a full-featured multi-monitor KVM switch', 20, 2015, ['haimgel','jrr'], '2022-01-20T20:49:53.226713'),
 (813, 16268467, 23083156, 'mui-org/material-ui', 11, 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', 901, 74533, ['oliviertassinari','dmtrKovalenko'], '2022-01-20T20:49:53.482638'),
-(815, 61815862, 438686004, 'xsky13/online-compiler', 14, 'An online code compiler', 0, 1, ['xsky13'], '2022-01-20T20:49:54.853327'),
 (814, 61815862, 368365410, 'xsky13/RedFeed', 13, 'RedFeed: a Reddit Feed', 0, 1, ['xsky13'], '2022-01-20T20:49:54.030898'),
+(815, 61815862, 438686004, 'xsky13/online-compiler', 14, 'An online code compiler', 0, 1, ['xsky13'], '2022-01-20T20:49:54.853327'),
 (816, 61815862, 82836080, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 423, ['matthewtoast','stristr'], '2022-01-20T20:51:25.826239'),
 (817, 61815862, 221316636, 'airsonic-advanced/airsonic-advanced', 1, null, 147, 455, ['randomnicode','muff1nman'], '2022-01-20T20:51:26.733923'),
 (818, 16268467, 14370955, 'sahat/hackathon-starter', 0, 'A boilerplate for Node.js web applications', 47, 32524, ['sahat','YasharF'], '2022-01-20T20:51:27.0432'),
@@ -4931,15 +4931,15 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4922, 527550, 117581345, 'grnet/archiving', 25, 'A Ruby-On-Rails Frontend for Bacula', 6, 1, ['parstra','ctrochalakis'], '2022-01-21T04:48:05.66624'),
 (4923, 211851, 4610553, 'aaronpk/webmention.io', 28, 'Easily enable webmentions and pingbacks on any web page', 40, 547, ['aaronpk','snarfed'], '2022-01-21T04:48:06.76329'),
 (4924, 3941126, 9393759, 'photonstorm/phaser', 29, 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', 148, 31106, ['photonstorm','pavle-goloskokovic'], '2022-01-21T04:48:07.1288'),
-(4926, 211851, 5373673, 'jlord/sheetsee.js', 29, ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', 63, 2689, ['jlord','mjhea0'], '2022-01-21T04:48:08.120313'),
 (4925, 527550, 115532550, 'kkentzo/mockit', 26, 'A development tool to quickly mock various aspects of an http endpoint using the command-line', 0, 2, ['kkentzo'], '2022-01-21T04:48:07.149496'),
+(4926, 211851, 5373673, 'jlord/sheetsee.js', 29, ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', 63, 2689, ['jlord','mjhea0'], '2022-01-21T04:48:08.120313'),
 (4927, 527550, 7710647, 'jedisct1/libsodium', 27, 'A modern, portable, easy to use crypto library.', 4, 9875, ['jedisct1','evoskuil'], '2022-01-21T04:48:08.742145'),
 (4928, 527550, 45502812, 'unrelentingtech/freepass', 28, '[DEPRECATED] password manager thing', 2, 310, ['unrelentingtech','quininer'], '2022-01-21T04:48:10.154992'),
 (4929, 527550, 4449421, 'karmi/elasticsearch-paramedic', 29, 'A simple tool to inspect the state and statistics about ElasticSearch clusters', 4, 672, ['karmi','walokra'], '2022-01-21T04:48:11.597573'),
 (4930, 455338, 388673420, 'linuxdotexe/nordic-wallpapers', 0, 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', 0, 555, ['linuxdotexe','Hooregi'], '2022-01-21T04:56:54.557458'),
 (4931, 455338, 309228394, 'Himujjal/libytdl', 1, 'A c library for downloading YT videos written in Nim', 0, 3, ['Himujjal'], '2022-01-21T04:56:56.148649'),
-(4933, 455338, 74505259, 'slundberg/shap', 2, 'A game theoretic approach to explain the output of any machine learning model.', 1325, 15172, ['slundberg','ryserrao'], '2022-01-21T04:56:57.94571'),
 (4932, 17671332, 395413091, 'Mintbean/junior-developer-job-boards', 0, null, 0, 1, ['Jc-008','monarchwadia'], '2022-01-21T04:56:57.262354'),
+(4933, 455338, 74505259, 'slundberg/shap', 2, 'A game theoretic approach to explain the output of any machine learning model.', 1325, 15172, ['slundberg','ryserrao'], '2022-01-21T04:56:57.94571'),
 (4934, 17671332, 62607227, 'yangshun/tech-interview-handbook', 1, '💯 Curated interview preparation materials for busy engineers', 7, 63745, ['yangshun','louietyj'], '2022-01-21T04:56:59.537727'),
 (4935, 455338, 362423752, 'folke/which-key.nvim', 3, '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', 79, 1052, ['folke','zeertzjq'], '2022-01-21T04:56:59.570047'),
 (4936, 6935431, 310766137, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo'], '2022-01-21T04:56:59.888867'),
