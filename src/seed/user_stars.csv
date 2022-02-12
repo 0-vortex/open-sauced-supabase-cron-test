@@ -11774,6 +11774,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 305867720,42211,307489284,remix-run/remix,0,"Build Better Websites. Create modern, resilient user experiences with web fundamentals.",612,11623,"{""mjackson"", ""ryanflorence""}",2022-01-22T21:39:39.348693
 374676867,6265396,390935630,HashLips/generative-art-node,0,Create generative art by using the canvas api and node js,114,1864,"{""HashLips"", ""grantreighard""}",2022-01-22T22:45:49.917059
 374469734,1228996,366871642,deepgram/python-sdk,0,Official Python SDK for Deepgram's automated speech recognition APIs.,4,2,"{""frumsdotxyz"", ""phazonoverload""}",2022-01-22T22:45:49.92237
+457526756,74566464,29059629,KabbAmine/yowish.vim,0,A dark & yellowish vim colorscheme,0,131,"{""KabbAmine"", ""Ajnasz""}",2022-02-12T09:22:20.714904
 382194702,7860023,148236762,BrunoMNDantas/TPL4J,0,Task Parallel Library for Java,2,8,"{""BrunoMNDantas""}",2022-01-22T14:17:56.457499
 436289040,61815862,82836080,HaikuTeam/animator,0,Design tool for creating Lottie animations and interactive web components,19,427,"{""matthewtoast"", ""stristr""}",2022-01-22T14:17:56.477287
 444433367,656318,136938012,vendure-ecommerce/vendure,0,A headless GraphQL ecommerce framework for the modern web,138,3101,"{""michaelbromley"", ""Draykee""}",2022-01-22T14:17:56.522481
