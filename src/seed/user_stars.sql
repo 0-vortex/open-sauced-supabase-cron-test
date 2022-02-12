@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:50:20.483Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T04:47:25.677Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1420,9 +1420,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1410, 10951893, 187915200, 'peaceiris/actions-gh-pages', 15, 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', 39, 2693, ['peaceiris','corollari'], '2022-01-20T22:52:14.107775'),
 (1411, 45293863, 129934884, 'dotnet/command-line-api', 16, 'Command line parsing, invocation, and rendering of terminal output.', 292, 2466, ['jonsequitur','Keboo'], '2022-01-20T22:52:14.480994'),
 (1412, 23166349, 237592115, '55-Degrees/worksheets', 16, 'Worksheets and other tools', 0, 1, ['julia-55d'], '2022-01-20T22:52:14.686349'),
-(1413, 10951893, 1195619, 'Frozen-Flask/Frozen-Flask', 16, 'Freezes a Flask application into a set of static files.', 24, 703, ['SimonSapin','tswast'], '2022-01-20T22:52:15.471981'),
 (1414, 45293863, 38182966, 'TelegramBots/Telegram.Bot', 17, '.NET Client for Telegram Bot API', 33, 2007, ['tuscen','poulad'], '2022-01-20T22:52:15.906683'),
 (1415, 10951893, 389731072, 'mikeckennedy/jinja_partials', 17, 'Simple reuse of partial HTML page templates in the Jinja template language for Python web frameworks.', 0, 48, ['mikeckennedy','vrslev'], '2022-01-20T22:52:16.876542'),
+(1413, 10951893, 1195619, 'Frozen-Flask/Frozen-Flask', 16, 'Freezes a Flask application into a set of static files.', 24, 703, ['SimonSapin','tswast'], '2022-01-20T22:52:15.471981'),
 (1416, 45293863, 330467286, 'wesdoyle/design-patterns-explained-with-food', 18, 'GoF Design Patterns with ''Real-World'' examples involving Food-Related Businesses and mock dependencies', 1, 2165, ['wesdoyle','davidterra'], '2022-01-20T22:52:17.250742'),
 (1417, 23166349, 23096959, 'golang/go', 17, 'The Go programming language', 7505, 94601, ['rsc','griesemer'], '2022-01-20T22:52:18.087429'),
 (1418, 10951893, 404249420, 'WardPearce/thanker', 18, 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', 0, 25, ['WardPearce'], '2022-01-20T22:52:18.248202'),
@@ -9216,8 +9216,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9130, 58482194, 397494904, 'Borrus-sudo/rapide-structs', 7, 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', 0, 2, ['Borrus-sudo'], '2022-01-22T10:48:34.381074'),
 (9131, 25867172, 23024191, 'neu-rah/ArduinoMenu', 7, 'Arduino generic menu/interactivity system', 73, 637, ['neu-rah','TamojitSaha'], '2022-01-22T10:48:34.502296'),
 (9132, 75340837, 44882201, 'MunGell/awesome-for-beginners', 5, 'A list of awesome beginners-friendly projects.', 57, 38055, ['MunGell','JefMari'], '2022-01-22T10:48:34.512968'),
-(9134, 75340837, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61407, ['tuvtran','sayands'], '2022-01-22T10:48:35.239158'),
 (9133, 30334776, 843222, 'scikit-learn/scikit-learn', 6, 'scikit-learn: machine learning in Python', 2504, 48631, ['ogrisel','amueller'], '2022-01-22T10:48:35.09843'),
+(9134, 75340837, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61407, ['tuvtran','sayands'], '2022-01-22T10:48:35.239158'),
 (9135, 349523, 4867238, 'rmzi/cyoa', 7, 'Coob Your Own Adventure -- An ARMMORPG', 0, 4, ['rmzi'], '2022-01-22T10:48:35.24858'),
 (9136, 75340837, 28457823, 'freeCodeCamp/freeCodeCamp', 7, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 168, 339281, ['QuincyLarson','raisedadead'], '2022-01-22T10:48:35.989548'),
 (9137, 58482194, 50565430, 'pnpm/pnpm', 8, 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', 693, 14920, ['zkochan','rstacruz'], '2022-01-22T10:48:35.994378'),
