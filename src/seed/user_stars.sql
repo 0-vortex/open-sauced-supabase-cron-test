@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T01:03:17.126Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:50:20.483Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9216,8 +9216,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9130, 58482194, 397494904, 'Borrus-sudo/rapide-structs', 7, 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', 0, 2, ['Borrus-sudo'], '2022-01-22T10:48:34.381074'),
 (9131, 25867172, 23024191, 'neu-rah/ArduinoMenu', 7, 'Arduino generic menu/interactivity system', 73, 637, ['neu-rah','TamojitSaha'], '2022-01-22T10:48:34.502296'),
 (9132, 75340837, 44882201, 'MunGell/awesome-for-beginners', 5, 'A list of awesome beginners-friendly projects.', 57, 38055, ['MunGell','JefMari'], '2022-01-22T10:48:34.512968'),
-(9133, 30334776, 843222, 'scikit-learn/scikit-learn', 6, 'scikit-learn: machine learning in Python', 2504, 48631, ['ogrisel','amueller'], '2022-01-22T10:48:35.09843'),
 (9134, 75340837, 88011908, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 22, 61407, ['tuvtran','sayands'], '2022-01-22T10:48:35.239158'),
+(9133, 30334776, 843222, 'scikit-learn/scikit-learn', 6, 'scikit-learn: machine learning in Python', 2504, 48631, ['ogrisel','amueller'], '2022-01-22T10:48:35.09843'),
 (9135, 349523, 4867238, 'rmzi/cyoa', 7, 'Coob Your Own Adventure -- An ARMMORPG', 0, 4, ['rmzi'], '2022-01-22T10:48:35.24858'),
 (9136, 75340837, 28457823, 'freeCodeCamp/freeCodeCamp', 7, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 168, 339281, ['QuincyLarson','raisedadead'], '2022-01-22T10:48:35.989548'),
 (9137, 58482194, 50565430, 'pnpm/pnpm', 8, 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', 693, 14920, ['zkochan','rstacruz'], '2022-01-22T10:48:35.994378'),
