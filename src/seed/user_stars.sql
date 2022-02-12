@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T10:44:15.692Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T12:49:40.766Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4977,8 +4977,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4967, 6935431, 44409210, 'RichardLitt/standard-readme', 10, 'A standard style for README files', 3, 4493, ['RichardLitt','JesseWeinstein'], '2022-01-21T04:57:15.598538'),
 (4968, 455338, 15505662, 'cknadler/vim-anywhere', 14, 'Use Vim everywhere you''ve always wanted to', 42, 3308, ['mmai','jtheoof'], '2022-01-21T04:57:15.946469'),
 (4969, 53687927, 353950870, 'dwaipayan05/Stress-Distribution-CO', 9, 'A Group of IPython Notebooks to Plot the Stress Distribution Around Single/Multiple Circular Openings along with Plots for Irregular Shape Openings using Kirsch Relations and Greenspan Method. ', 0, 1, ['dwaipayan05'], '2022-01-21T04:57:16.059276'),
-(4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
 (4971, 53687927, 353360302, 'dwaipayan05/Proctoring-AI', 10, null, 0, 1, ['Harshalzzzzzzz'], '2022-01-21T04:57:17.439271'),
+(4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
 (4972, 455338, 49516849, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 68, 3929, ['xwmx','heywoodlh'], '2022-01-21T04:57:17.499981'),
 (4973, 53687927, 351880944, 'dwaipayan05/dwaipayan05', 11, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:18.841824'),
 (4974, 455338, 6887156, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 69, 3726, ['Yggdroot','stardiviner'], '2022-01-21T04:57:18.916609'),
@@ -9784,8 +9784,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9698, 57373172, 109887187, 'danthareja/contribute-to-open-source', 4, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 126, 832, ['danthareja'], '2022-01-22T11:26:52.343217'),
 (9699, 908380, 36616176, 'elixirschool/elixirschool', 3, 'The content behind Elixir School', 22, 3179, ['doomspork','nscyclone'], '2022-01-22T11:26:53.163823'),
 (9700, 3340406, 366126259, 'slidevjs/themes', 4, 'Official themes for Slidev', 1, 73, ['antfu','JeremyMeissner'], '2022-01-22T11:26:53.237355'),
-(9701, 118037, 145050544, 'LunarVim/LunarVim', 5, 'An IDE layer for Neovim with sane defaults. Completely free and community driven.', 88, 7016, ['abzcoding','kylo252'], '2022-01-22T11:26:53.44775'),
-(9702, 57373172, 259354262, 'austintgriffith/scaffold-eth', 5, '🏗 forkable Ethereum dev stack focused on fast product iterations ', 52, 5297, ['austintgriffith','codenamejason'], '2022-01-22T11:26:53.806515'),
 (9852, 1228996, 101448498, 'SohoHouse/nuxt-oauth', 5, 'Simple OAuth2 integration for your Nuxt app', 29, 110, ['samtgarson','hamishhossack'], '2022-01-22T11:33:19.54395'),
 (9703, 57373172, 117372806, 'yangshun/front-end-interview-handbook', 6, '⚡️ Front End interview preparation materials for busy engineers', 15, 32561, ['yangshun','ysm0622'], '2022-01-22T11:26:54.309386'),
 (9704, 908380, 292476496, 'codingedward/ailing-planet', 4, 'An interactive timelapse of the COVID-19 pandemic.', 0, 21, ['codingedward','josiahmokob0'], '2022-01-22T11:26:54.423662'),
@@ -9833,6 +9831,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9746, 57373172, 274495425, 'remotion-dev/remotion', 14, '🎥      Create videos programmatically in React', 50, 9031, ['JonnyBurger','Iamshankhadeep'], '2022-01-22T11:27:05.94219'),
 (9747, 908380, 75262873, 'dwyl/learn-elixir', 12, ':droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!', 89, 1314, ['nelsonic','Cleop'], '2022-01-22T11:27:06.064833'),
 (9748, 118037, 256611909, 'fedecalendino/wrap-genius', 15, 'Unofficial python wrapper for genius'' API.', 0, 3, ['fedecalendino'], '2022-01-22T11:27:06.633828'),
+(9701, 118037, 145050544, 'LunarVim/LunarVim', 5, 'An IDE layer for Neovim with sane defaults. Completely free and community driven.', 88, 7016, ['abzcoding','kylo252'], '2022-01-22T11:26:53.44775'),
+(9702, 57373172, 259354262, 'austintgriffith/scaffold-eth', 5, '🏗 forkable Ethereum dev stack focused on fast product iterations ', 52, 5297, ['austintgriffith','codenamejason'], '2022-01-22T11:26:53.806515'),
 (9749, 11777161, 54346799, 'public-apis/public-apis', 11, 'A collective list of free APIs', 6, 176381, ['davemachado','matheusfelipeog'], '2022-01-22T11:27:07.009194'),
 (9750, 57373172, 147777488, 'philnash/react-web-audio', 15, 'A small example React app that listens to the microphone and visualises the audio', 0, 147, ['philnash','dev-segal'], '2022-01-22T11:27:07.057395'),
 (9751, 3340406, 175055371, 'manios/docker-nagios', 15, 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', 8, 32, ['manios'], '2022-01-22T11:27:07.213295'),
