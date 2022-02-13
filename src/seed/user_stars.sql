@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T01:03:29.028Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T02:48:21.215Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4522,9 +4522,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4463, 29547465, 182128976, 'devatquarxss/reusable-data-table-component-vue', 25, 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', 0, 15, ['devatquarxss'], '2022-01-21T04:02:02.268757'),
 (4464, 3792749, 265045658, 'jakedohm/vue-accessible-tabs', 24, 'An accessible, unstyled <Tabs> implementation for Vue 2', 7, 27, ['jakedohm','alexcarpenter'], '2022-01-21T04:02:02.977277'),
 (4465, 54776315, 217150613, 'deadlyjack/code-editor', 28, 'Acode - powerful text/code editor for android', 138, 668, ['deadlyjack','BlueWhaleYT'], '2022-01-21T04:02:03.389511'),
-(4466, 3450257, 184339195, 'graphiti-api/graphiti-rails', 27, null, 13, 38, ['wagenet','richmolj'], '2022-01-21T04:02:03.697342'),
 (4467, 29547465, 221095754, 'bundit/kord-app', 26, 'Spotify, Soundcloud, and YouTube all in one website!', 37, 533, ['bundit','Khaoz-Topsy'], '2022-01-21T04:02:03.767384'),
 (4468, 29547465, 316563886, 'svelte-add/svelte-add', 27, 'Easily add integrations and other functionality to Svelte apps', 25, 634, ['babichjacob','manuel3108'], '2022-01-21T04:02:04.875897'),
+(4466, 3450257, 184339195, 'graphiti-api/graphiti-rails', 27, null, 13, 38, ['wagenet','richmolj'], '2022-01-21T04:02:03.697342'),
 (4469, 54776315, 289123163, 'adamdehaven/vue-custom-tooltip', 29, 'A reusable tooltip component for Vue (and VuePress) projects.', 1, 39, ['adamdehaven'], '2022-01-21T04:02:04.949902'),
 (4470, 3792749, 24560307, 'babel/babel', 25, '🐠 Babel is a compiler for writing next generation JavaScript.', 787, 40290, ['sebmck','hzoo'], '2022-01-21T04:02:05.013311'),
 (4471, 3450257, 88741624, 'goabstract/Marketing-for-Engineers', 28, 'A curated collection of marketing articles & tools to grow your product. ', 20, 11898, ['LisaDziuba','Geek-1001'], '2022-01-21T04:02:05.661364'),
@@ -6538,8 +6538,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6487, 20134767, 97559842, 'bvaughn/react-error-boundary', 8, 'Simple reusable React error boundary component', 6, 3428, ['bvaughn','kentcdodds'], '2022-01-22T03:57:40.709279'),
 (6488, 58392246, 394559625, 'muhammaddzaky/mhdraihandzaky.net', 7, 'membuatwebsite', 0, 1, ['muhammaddzaky'], '2022-01-22T03:57:40.807684'),
 (6489, 44642314, 226202216, 'martinwoodward/smart-xmas', 11, 'Star this repo to add some sparkle to my tree', 0, 195, ['martinwoodward'], '2022-01-22T03:57:40.910727'),
-(6491, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 166, 339269, ['QuincyLarson','raisedadead'], '2022-01-22T03:57:40.965224'),
 (6490, 1305623, 132489983, 'arduosoft/RawCMS', 5, 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', 37, 151, ['zeppaman','marcuson'], '2022-01-22T03:57:40.955901'),
+(6491, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 166, 339269, ['QuincyLarson','raisedadead'], '2022-01-22T03:57:40.965224'),
 (6492, 55982424, 55313340, 'shlomif/fortune-mod', 2, 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', 1, 212, ['shlomif','telometto'], '2022-01-22T03:57:40.97901'),
 (6493, 46643864, 184130597, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 0, 'Angular 11.0 Firebase App - Online School , Student Management App', 0, 141, ['AmitXShukla'], '2022-01-22T03:57:41.017394'),
 (6494, 1930729, 49704723, 'okonet/lint-staged', 15, '🚫💩 — Run linters on git staged files', 121, 9647, ['okonet','iiroj'], '2022-01-22T03:57:41.031621'),
@@ -7265,10 +7265,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7255, 19861960, 215407032, 'gholcomb/OptionsCalc', 21, null, 1, 1, ['gholcomb'], '2022-01-22T08:30:44.378891'),
 (7256, 3662109, 438203240, 'fox-it/log4j-finder', 20, 'Find vulnerable Log4j2 versions on disk and also inside Java Archive Files (Log4Shell CVE-2021-44228, CVE-2021-45046, CVE-2021-45105)', 24, 397, ['yunzheng','taufderl'], '2022-01-22T08:30:44.8093'),
 (7257, 19861960, 130715483, 'Qyriad/fusee-launcher', 22, 'A reference implementation launcher for the Fusée Gelée Tegra X1 bootROM exploit', 19, 1321, ['Qyriad','ktemkin'], '2022-01-22T08:30:44.869288'),
-(7258, 3941856, 86486443, 'spinnaker/spinnaker.github.io', 20, 'spinnaker documentation site', 55, 79, ['lwander','dorbin'], '2022-01-22T08:30:44.896595'),
 (7259, 469997, 5316345, 'sobingt/testgithub', 14, 'Test', 0, 1, ['sobingt'], '2022-01-22T08:30:45.234594'),
 (7260, 19861960, 163968627, 'adi1090x/polybar-themes', 23, 'A huge collection of polybar themes with different styles, colors and variants.', 51, 3796, ['adi1090x'], '2022-01-22T08:30:45.37935'),
 (7261, 3941856, 195307085, 'theopensourceway/guidebook', 21, 'Guidebook of open source community management best practices; is somewhat opinionated.', 44, 104, ['quaid','semioticrobotic'], '2022-01-22T08:30:45.974486'),
+(7258, 3941856, 86486443, 'spinnaker/spinnaker.github.io', 20, 'spinnaker documentation site', 55, 79, ['lwander','dorbin'], '2022-01-22T08:30:44.896595'),
 (7262, 3662109, 437261211, 'logpresso/CVE-2021-44228-Scanner', 21, 'Vulnerability scanner and mitigation patch for Log4j2 CVE-2021-44228', 29, 746, ['xeraph','ChKemper'], '2022-01-22T08:30:46.249865'),
 (7263, 3941856, 57939112, 'kubernetes/community', 22, 'Kubernetes community content', 130, 9237, ['k8s-ci-robot','nikhita'], '2022-01-22T08:30:46.498156'),
 (7264, 19861960, 195277904, 'leoetlino/project-restoration', 24, 'A Majora''s Mask 3D patch that restores some mechanics from the original game to get the best of both worlds', 36, 518, ['leoetlino','PhlexPlexico'], '2022-01-22T08:30:46.545365'),
@@ -8889,8 +8889,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8803, 42211, 378070841, 'ngneat/elf', 3, '🧙‍♀️ A Reactive Store with Magical Powers', 0, 644, ['NetanelBasal','theblushingcrow'], '2022-01-22T10:26:40.060356'),
 (8804, 49831545, 265215050, 'asos-craigmorten/opine', 4, 'Fast, minimalist web framework for Deno ported from ExpressJS.', 1, 718, ['asos-craigmorten','cmorten'], '2022-01-22T10:26:40.14158'),
 (8805, 39362365, 73918606, 'tapestry-cloud/website', 4, 'Source Tapestry Project for tapestry.cloud', 18, 8, ['carbontwelve','leonstafford'], '2022-01-22T10:26:40.215604'),
-(8806, 66239105, 240315046, 'jina-ai/jina', 4, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 62, 13238, ['hanxiao','jina-bot'], '2022-01-22T10:26:40.390253'),
 (8807, 34394719, 54346799, 'public-apis/public-apis', 5, 'A collective list of free APIs', 6, 176364, ['davemachado','matheusfelipeog'], '2022-01-22T10:26:41.198787'),
+(8806, 66239105, 240315046, 'jina-ai/jina', 4, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 62, 13238, ['hanxiao','jina-bot'], '2022-01-22T10:26:40.390253'),
 (8808, 42211, 349217272, 'this-is-learning/rxjs-fundamentals-course', 4, 'RxJS Fundamentals, an Open Learning course by This is Learning.', 2, 92, ['Armenvardanyan95','LayZeeDK'], '2022-01-22T10:26:41.443936'),
 (8809, 39362365, 143078055, 'gridsome/gridsome', 5, '⚡️ The Jamstack framework for Vue.js', 554, 8060, ['hjvedvik','tomtev'], '2022-01-22T10:26:41.696013'),
 (8810, 66239105, 297714663, 'shahednasser/awesome-resources', 5, ':sunglasses: List of helpful resources added by the community for the community!', 15, 175, ['shahednasser','Korak-997'], '2022-01-22T10:26:41.817843'),
