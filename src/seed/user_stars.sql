@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T12:49:40.868Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T14:44:30.410Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -725,13 +725,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (717, 61815862, 165093478, 'stephane-r/HoloPlay', 2, 'React-Native app using Invidious API for listening Youtube audio source.', 9, 93, ['stephane-r','splyy'], '2022-01-20T20:46:12.152863'),
 (718, 16268467, 19415064, 'ossu/computer-science', 1, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105592, ['ericdouglas','joshmhanson'], '2022-01-20T20:46:12.461068'),
 (719, 7860023, 148236762, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas'], '2022-01-20T20:46:12.587699'),
-(720, 61815862, 185131263, 'calebnance/expo-spotify', 3, 'Spotify UI Clone with React Native & Expo', 9, 390, ['calebnance','bidah'], '2022-01-20T20:46:13.100837'),
 (721, 16268467, 177736533, '996icu/996.ICU', 2, 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', 16831, 260511, ['996icu','ChangedenCZD'], '2022-01-20T20:46:13.427122'),
 (722, 7860023, 93390294, 'lanten/electron-antd', 1, 'Create a desktop app with Electron + Typescript + React + Antd', 0, 308, ['lanten','ImgBotApp'], '2022-01-20T20:46:13.502795'),
 (723, 61815862, 211595183, 'osamaqarem/spotify-lite', 4, 'Spotify Lite made with React Native for iOS and Android', 0, 307, ['osamaqarem'], '2022-01-20T20:46:13.97769'),
 (724, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T20:46:14.334095'),
 (725, 7860023, 231329928, 'kat-tax/ult', 2, 'The Ultimate App Dev Kit', 1, 49, ['Cavitt'], '2022-01-20T20:46:14.394881'),
 (726, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T20:46:15.283022'),
+(720, 61815862, 185131263, 'calebnance/expo-spotify', 3, 'Spotify UI Clone with React Native & Expo', 9, 390, ['calebnance','bidah'], '2022-01-20T20:46:13.100837'),
 (727, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T20:46:15.302713'),
 (728, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T20:46:15.648342'),
 (729, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T20:46:16.205798'),
@@ -1921,8 +1921,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1876, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 476, 54922, ['manucorporat','javierprovecho'], '2022-01-20T23:50:57.497438'),
 (1877, 505751, 196530922, 'jorgenkg/promise-priority-queue', 1, 'Async bucket priority queue implemented in Typescript', 1, 3, ['renovate-bot','jorgengrimnes'], '2022-01-20T23:50:57.540117'),
 (1878, 43640229, 74293321, 'sveltejs/svelte', 5, 'Cybernetically enhanced web apps', 637, 54988, ['Rich-Harris','Conduitry'], '2022-01-20T23:50:57.708745'),
-(1879, 19617280, 266427736, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 182, ['5t3ph','Waterstraal'], '2022-01-20T23:50:57.928566'),
-(1880, 17373317, 13753636, 'jhipster/generator-jhipster', 3, 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', 256, 19248, ['jdubois','deepu105'], '2022-01-20T23:50:57.980903'),
 (1881, 505751, 177033748, 'atlassian/changesets', 2, '🦋       A way to manage your versioning and changelogs with a focus on monorepos', 177, 2530, ['Noviny','mitchellhamilton'], '2022-01-20T23:50:58.910709'),
 (1882, 43640229, 304344049, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:50:59.110367'),
 (1883, 19617280, 115110181, 'swc-project/swc', 9, 'Rust-based platform for the Web', 239, 19650, ['kdy1','dsherret'], '2022-01-20T23:50:59.230351'),
@@ -1949,6 +1947,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1904, 505751, 276976140, 'mergestat/mergestat', 7, 'Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊', 11, 2740, ['patrickdevivo','Vialeon'], '2022-01-20T23:51:06.492083'),
 (1905, 19617280, 145339012, 'angeloashmore/gatsby-plugin-local-search', 15, 'Gatsby plugin for providing client-side search for data available in Gatsby''s GraphQL layer using a variety of engines', 20, 47, ['angeloashmore','khwkang'], '2022-01-20T23:51:07.611047'),
 (1944, 505751, 278150898, 'GoogleCloudPlatform/fourkeys', 18, null, 27, 690, ['davidstanke','dinagraves'], '2022-01-20T23:51:20.266262'),
+(1879, 19617280, 266427736, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 182, ['5t3ph','Waterstraal'], '2022-01-20T23:50:57.928566'),
+(1880, 17373317, 13753636, 'jhipster/generator-jhipster', 3, 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', 256, 19248, ['jdubois','deepu105'], '2022-01-20T23:50:57.980903'),
 (1906, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-20T23:51:07.627481'),
 (1907, 505751, 221981891, 'microsoft/playwright', 8, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 369, 32539, ['pavelfeldman','dgozman'], '2022-01-20T23:51:07.839356'),
 (1908, 17373317, 65772720, 'docker/docker.github.io', 9, 'Source repo for Docker''s Documentation', 1535, 3411, ['vieux','thaJeztah'], '2022-01-20T23:51:08.240076'),
@@ -10312,8 +10312,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10304, 36890230, 321545207, 'motiondeveloper/create-expression-lib', 0, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', 1, 15, ['timhaywood'], '2022-01-22T11:59:25.616551'),
 (10305, 527550, 31504491, 'labstack/echo', 0, 'High performance, minimalist Go web framework', 81, 21496, ['vishr','lammel'], '2022-01-22T11:59:25.689203'),
 (10306, 3777549, 9394642, 'kristopolous/BOOTSTRA.386', 1, 'A vintage 1980s DOS inspired Twitter Bootstrap theme', 52, 6064, ['kristopolous','tomer'], '2022-01-22T11:59:26.96473'),
-(10308, 15052690, 220809393, 'willmcgugan/rich', 1, 'Rich is a Python library for rich text and beautiful formatting in the terminal.', 38, 33987, ['willmcgugan','nathanrpage97'], '2022-01-22T11:59:27.131431'),
 (10307, 36890230, 202834928, 'davidtorosyan/ti-js', 1, 'TI-Basic interpreter written in JavaScript.', 2, 5, ['davidtorosyan','JEbertPrime'], '2022-01-22T11:59:27.113408'),
+(10308, 15052690, 220809393, 'willmcgugan/rich', 1, 'Rich is a Python library for rich text and beautiful formatting in the terminal.', 38, 33987, ['willmcgugan','nathanrpage97'], '2022-01-22T11:59:27.131431'),
 (10309, 3941126, 5954, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4557, ['jeremyevans','ciconia'], '2022-01-22T11:59:27.158078'),
 (10310, 527550, 33739333, 'thoughtbot/administrate', 1, 'A Rails engine that helps you put together a super-flexible admin dashboard.', 144, 5273, ['gracewashere','nickcharlton'], '2022-01-22T11:59:27.360839'),
 (10311, 36890230, 112953694, 'digitallyinduced/ihp', 2, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2906, ['mpscholten','Laobiz'], '2022-01-22T11:59:27.911566'),
