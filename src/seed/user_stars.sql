@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T18:45:17.143Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T20:44:32.112Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4719,6 +4719,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4639, 4381106, 70777180, 'Foundry376/Mailspring', 13, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T04:21:36.388279'),
 (4640, 1295334, 18486300, 'lewagon/setup', 11, 'Setup instructions for Le Wagon''s students on their first day of Web Development Bootcamp', 4, 12078, ['ssaunier','dmilon'], '2022-01-21T04:21:36.496927'),
 (4641, 6842883, 279397536, 'ziulev/spotter', 13, '🔭 macOS productivity tool to launch everything', 6, 571, ['ziulev'], '2022-01-21T04:21:37.470694'),
+(4642, 1295334, 182075630, 'jamesctucker/Fantastic-Front-End-Toolbox', 12, 'A collection of tools, tutorials, and other resources for those learning web development.', 3, 719, ['jamesctucker','thewmh'], '2022-01-21T04:21:37.77631'),
 (4643, 2808728, 50264296, 'jgthms/bulma', 10, 'Modern CSS framework based on Flexbox', 356, 44957, ['jgthms','Wikiki'], '2022-01-21T04:21:37.814489'),
 (4644, 6842883, 48863418, 'coryhouse/react-slingshot', 14, 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', 60, 9769, ['coryhouse','kwelch'], '2022-01-21T04:21:38.85944'),
 (4645, 1295334, 8530831, 'kamens/jQuery-menu-aim', 13, 'jQuery plugin to fire events when user''s cursor aims at particular dropdown menu items. For making responsive mega dropdowns like Amazon''s.', 67, 7730, ['kamens'], '2022-01-21T04:21:39.09512'),
@@ -4746,7 +4747,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4667, 2808728, 2561582, 'animate-css/animate.css', 19, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', 23, 73428, ['daneden','eltonmesquita'], '2022-01-21T04:21:53.280947'),
 (4668, 6842883, 185327227, 'meriyah/meriyah', 24, 'A 100% compliant, self-hosted javascript parser  - https://meriyah.github.io/meriyah', 19, 769, ['KFlash','3cp'], '2022-01-21T04:21:53.298701'),
 (4669, 6842883, 157014461, 'welldone-software/why-did-you-render', 25, 'why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)', 15, 7879, ['vzaidman','Hypnosphi'], '2022-01-21T04:21:54.564921'),
-(4642, 1295334, 182075630, 'jamesctucker/Fantastic-Front-End-Toolbox', 12, 'A collection of tools, tutorials, and other resources for those learning web development.', 3, 719, ['jamesctucker','thewmh'], '2022-01-21T04:21:37.77631'),
+(4670, 2808728, 51618676, 'thread-pond/scrum-lint', 20, 'A toolkit to help manage a very specific Trello and Github workflow', 4, 1, ['mockdeep','raychatter'], '2022-01-21T04:21:54.575313'),
 (4671, 6842883, 226207937, 'airbnb/ts-migrate', 26, 'A tool to help migrate JavaScript code quickly and conveniently to TypeScript', 42, 4286, ['Rudeg','edsrzf'], '2022-01-21T04:21:55.795402'),
 (4672, 2808728, 25155580, 'JuanitoFatas/fast-ruby', 21, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5192, ['JuanitoFatas','Arcovion'], '2022-01-21T04:21:55.845735'),
 (4673, 2808728, 26743136, 'sumodirjo/engineering-blogs', 22, 'A curated list of engineering blogs of startup and enterprise companies', 1, 1161, ['sumodirjo','askhubchandani'], '2022-01-21T04:21:56.934569'),
@@ -4828,7 +4829,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4749, 25194960, 63541709, 'webmatze/hyperborder', 17, 'adds a gradient border to the Hyper terminal', 4, 207, ['webmatze','Xapphire13'], '2022-01-21T04:36:01.284628'),
 (4750, 3777549, 51732606, 'jhu-ep-coursera/fullstack-course4', 15, 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', 3, 7091, ['ychaikin','jasonwr'], '2022-01-21T04:36:01.540838'),
 (4751, 15052690, 10581067, 'kerryb/goos-ruby', 12, 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', 0, 60, ['kerryb'], '2022-01-21T04:36:02.202505'),
-(4670, 2808728, 51618676, 'thread-pond/scrum-lint', 20, 'A toolkit to help manage a very specific Trello and Github workflow', 4, 1, ['mockdeep','raychatter'], '2022-01-21T04:21:54.575313'),
+(4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
 (4753, 25194960, 20060596, 'ogham/exa', 18, 'A modern replacement for ‘ls’.', 215, 16258, ['ogham','ariasuni'], '2022-01-21T04:36:02.710897'),
 (4754, 3777549, 118858739, 'dwmkerr/hacker-laws', 16, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', 122, 22629, ['dwmkerr','umutphp'], '2022-01-21T04:36:02.917286'),
 (4755, 15052690, 1272424, 'nodemailer/nodemailer', 13, '✉️ Send e-mails with Node.JS – easy as cake!', 9, 14448, ['andris9','igorsechyn'], '2022-01-21T04:36:03.563459'),
@@ -4874,7 +4875,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4795, 28281924, 146218451, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 800, ['joeykilpatrick','seanpmaxwell'], '2022-01-21T04:36:18.837471'),
 (4796, 3777549, 26500787, 'tonsky/FiraCode', 28, 'Free monospaced font with programming ligatures', 292, 61512, ['tonsky','thundernixon'], '2022-01-21T04:36:19.279628'),
 (4797, 3777549, 3984904, 'jgillman/dotfiles', 29, 'jgillman''s special collection of configs', 0, 17, ['jgillman'], '2022-01-21T04:36:20.722971'),
-(4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
 (4798, 28281924, 52631841, 'gothinkster/realworld', 26, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 52, 63266, ['EricSimons','anishkny'], '2022-01-21T04:36:20.814853'),
 (4799, 15052690, 2500088, 'gitlabhq/gitlabhq', 21, 'GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com', 35, 22818, ['dzaporozhets','iamphill'], '2022-01-21T04:36:21.828851'),
 (4800, 28281924, 139914932, 'quarkusio/quarkus', 27, 'Quarkus: Supersonic Subatomic Java. ', 1852, 9258, ['gsmet','geoand'], '2022-01-21T04:36:22.559326'),
@@ -4973,8 +4973,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4963, 53687927, 256522821, 'SAY-droid427/DSAQuestions', 7, 'Collection of data-structures and algorithms along with resources and guidelines for mastering coding', 5, 39, ['SAY-droid427','dwaipayan05'], '2022-01-21T04:57:13.173853'),
 (4964, 6935431, 292700337, 'github/github-artifact-exporter', 9, 'A set of packages to make exporting artifacts from GitHub easier', 7, 238, ['Chocrates','zkoppert'], '2022-01-21T04:57:14.076819'),
 (4965, 455338, 71703548, 'liuchengxu/space-vim', 13, ':four_leaf_clover: Lean & mean spacemacs-ish Vim distribution', 14, 2784, ['liuchengxu','yesmeck'], '2022-01-21T04:57:14.462879'),
-(4966, 53687927, 353584901, 'dwaipayan05/Improved-Octo-Parakeet', 8, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:14.617456'),
 (4967, 6935431, 44409210, 'RichardLitt/standard-readme', 10, 'A standard style for README files', 3, 4493, ['RichardLitt','JesseWeinstein'], '2022-01-21T04:57:15.598538'),
+(4966, 53687927, 353584901, 'dwaipayan05/Improved-Octo-Parakeet', 8, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:14.617456'),
 (4968, 455338, 15505662, 'cknadler/vim-anywhere', 14, 'Use Vim everywhere you''ve always wanted to', 42, 3308, ['mmai','jtheoof'], '2022-01-21T04:57:15.946469'),
 (4969, 53687927, 353950870, 'dwaipayan05/Stress-Distribution-CO', 9, 'A Group of IPython Notebooks to Plot the Stress Distribution Around Single/Multiple Circular Openings along with Plots for Irregular Shape Openings using Kirsch Relations and Greenspan Method. ', 0, 1, ['dwaipayan05'], '2022-01-21T04:57:16.059276'),
 (4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
@@ -5125,7 +5125,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5116, 22620727, 286080143, 'upptime/upptime', 29, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', 48, 9072, ['upptime-bot','pabio-escobar'], '2022-01-21T05:03:29.105687'),
 (5117, 22655167, 364474335, 'google/zx', 0, 'A tool for writing better scripts', 14, 26809, ['antonmedv','antongolub'], '2022-01-21T05:12:50.627343'),
 (5118, 68660520, 178137889, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury'], '2022-01-21T05:12:50.989966'),
-(5119, 71386305, 112507086, '30-seconds/30-seconds-of-code', 0, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T05:12:51.06731'),
 (5120, 22655167, 105379569, 'actix/actix-web', 1, 'Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.', 108, 12993, ['fafhrd91','robjtede'], '2022-01-21T05:12:52.352128'),
 (5121, 71386305, 83603533, 'felipefialho/frontend-challenges', 1, ':boom: Listing some playful open-source''s challenges of companies to test your knowledge', 0, 7355, ['felipefialho','kvnol'], '2022-01-21T05:12:52.531818'),
 (5122, 3754311, 431137274, 'alexadam/reactive-doc', 0, 'Create Interactive Documents with Plain Text', 0, 16, ['alexadam'], '2022-01-21T05:12:53.530709'),
@@ -5133,6 +5132,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5124, 69519470, 71359796, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T05:12:53.996157'),
 (5125, 71386305, 122838124, '30-seconds/30-seconds-of-css', 2, 'Short CSS code snippets for all your development needs', 3, 15054, ['Chalarangelo','atomiks'], '2022-01-21T05:12:54.076311'),
 (5126, 3754311, 28573936, 'mahees/angular-nfc', 1, 'Angular and Ionic NFC wrapper for phonegap-nfc', 0, 4, ['mahees'], '2022-01-21T05:12:55.092543'),
+(5119, 71386305, 112507086, '30-seconds/30-seconds-of-code', 0, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T05:12:51.06731'),
 (5127, 71386305, 127910371, 'thedaviddias/Front-End-Design-Checklist', 3, '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', 0, 4167, ['thedaviddias','admpk'], '2022-01-21T05:12:55.587281'),
 (5128, 22655167, 44662669, 'dbeaver/dbeaver', 3, 'Free universal database tool and SQL client', 1379, 24190, ['serge-rider','LonwoLonwo'], '2022-01-21T05:12:55.746432'),
 (5129, 69519470, 133134007, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2957, 10973, ['wing328','fehguy'], '2022-01-21T05:12:55.870315'),
