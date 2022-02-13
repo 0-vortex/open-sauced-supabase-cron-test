@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T20:44:32.112Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T22:44:43.911Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4658,7 +4658,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4577, 667716, 277057483, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 11, 996, ['apparition47','danieldickison'], '2022-01-21T04:11:39.756254'),
 (4578, 46828701, 32787174, 'grommet/grommet', 25, 'a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package', 190, 7746, ['ericsoderberghp','alansouzati'], '2022-01-21T04:11:39.920146'),
 (4579, 13490604, 77369463, 'James-Yu/LaTeX-Workshop', 27, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8084, ['jlelong','tamuratak'], '2022-01-21T04:11:40.137322'),
-(4580, 667716, 5543112, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 146, 3132, ['jcs','pushcx'], '2022-01-21T04:11:41.114052'),
 (4581, 46828701, 98315735, 'downshift-js/downshift', 26, '🏎 A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete, combobox or select dropdown components.', 89, 10254, ['kentcdodds','silviuaavram'], '2022-01-21T04:11:41.24096'),
 (4582, 13490604, 53597382, 'learnbyexample/scripting_course', 28, ':notebook: Books, reference guides and resources on Regular Expressions, CLI one-liners, Scripting Languages and Vim.', 0, 993, ['learnbyexample','gitter-badger'], '2022-01-21T04:11:41.326983'),
 (4583, 667716, 177423398, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 90, ['getify','kaykayehnn'], '2022-01-21T04:11:42.552297'),
@@ -4888,12 +4887,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4808, 15052690, 346051525, 'CodingMoore/soil-ent-green-python', 27, null, 0, 1, ['CodingMoore'], '2022-01-21T04:36:31.640988'),
 (4809, 15052690, 347154449, 'CodingMoore/soil-ent-green-react-v2', 28, null, 1, 1, ['CodingMoore'], '2022-01-21T04:36:33.102231'),
 (4810, 15052690, 346534675, 'bitprj/Intro-To-Serverless', 29, 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', 0, 23, ['emsesc','ganning127'], '2022-01-21T04:36:34.67666'),
+(4580, 667716, 5543112, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 146, 3132, ['jcs','pushcx'], '2022-01-21T04:11:41.114052'),
 (4880, 211851, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T04:47:50.090389'),
 (4881, 3941126, 14747598, 'typicode/json-server', 17, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', 610, 59154, ['typicode','bahmutov'], '2022-01-21T04:47:50.355713'),
 (4882, 1884246, 369393119, 'zoneop/domans1', 19, null, 0, 1, ['zoneop'], '2022-01-21T04:47:50.747188'),
 (4883, 527550, 6899875, 'opf/openproject', 16, 'OpenProject is the leading open source project management software.', 34, 5418, ['oliverguenther','ulferts'], '2022-01-21T04:47:50.88866'),
-(4884, 211851, 30200039, 'osano/cookieconsent', 18, 'A free solution to the EU, GDPR, and California Cookie Laws', 80, 3042, ['alexmorleyfinch','piiupilt'], '2022-01-21T04:47:51.324767'),
 (4887, 1884246, 369443375, 'marcussaw123/something-idk', 20, null, 0, 1, ['marcussaw123'], '2022-01-21T04:47:51.942048'),
+(4884, 211851, 30200039, 'osano/cookieconsent', 18, 'A free solution to the EU, GDPR, and California Cookie Laws', 80, 3042, ['alexmorleyfinch','piiupilt'], '2022-01-21T04:47:51.324767'),
 (4888, 527550, 53410008, 'wearefriday/spectre', 17, 'A simple UI for browsing and inspecting diffs, and an API for runner scripts to submit screenshots to and receive a pass or fail in real time. (For use with Wraith, Backstop, Selenium etc)', 26, 448, ['nickdunn','fionnbharra'], '2022-01-21T04:47:52.352075'),
 (4889, 211851, 31024027, 'adamwulf/app-launch-guide', 19, 'This aims to be an indie dev''s definitive guide to building and launching your app, including pre-launch, marketing, building, QA, buzz building, and launch. More info at:', 8, 3867, ['adamwulf','douglashill'], '2022-01-21T04:47:52.849598'),
 (4890, 1884246, 345110055, 'Milrato-Development/Milrato', 21, 'The official Repository for MILRATO | invite: https://dc.milrato.eu', 0, 15, ['Tomato6966'], '2022-01-21T04:47:53.095548'),
@@ -4973,8 +4973,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4963, 53687927, 256522821, 'SAY-droid427/DSAQuestions', 7, 'Collection of data-structures and algorithms along with resources and guidelines for mastering coding', 5, 39, ['SAY-droid427','dwaipayan05'], '2022-01-21T04:57:13.173853'),
 (4964, 6935431, 292700337, 'github/github-artifact-exporter', 9, 'A set of packages to make exporting artifacts from GitHub easier', 7, 238, ['Chocrates','zkoppert'], '2022-01-21T04:57:14.076819'),
 (4965, 455338, 71703548, 'liuchengxu/space-vim', 13, ':four_leaf_clover: Lean & mean spacemacs-ish Vim distribution', 14, 2784, ['liuchengxu','yesmeck'], '2022-01-21T04:57:14.462879'),
-(4967, 6935431, 44409210, 'RichardLitt/standard-readme', 10, 'A standard style for README files', 3, 4493, ['RichardLitt','JesseWeinstein'], '2022-01-21T04:57:15.598538'),
 (4966, 53687927, 353584901, 'dwaipayan05/Improved-Octo-Parakeet', 8, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:14.617456'),
+(4967, 6935431, 44409210, 'RichardLitt/standard-readme', 10, 'A standard style for README files', 3, 4493, ['RichardLitt','JesseWeinstein'], '2022-01-21T04:57:15.598538'),
 (4968, 455338, 15505662, 'cknadler/vim-anywhere', 14, 'Use Vim everywhere you''ve always wanted to', 42, 3308, ['mmai','jtheoof'], '2022-01-21T04:57:15.946469'),
 (4969, 53687927, 353950870, 'dwaipayan05/Stress-Distribution-CO', 9, 'A Group of IPython Notebooks to Plot the Stress Distribution Around Single/Multiple Circular Openings along with Plots for Irregular Shape Openings using Kirsch Relations and Greenspan Method. ', 0, 1, ['dwaipayan05'], '2022-01-21T04:57:16.059276'),
 (4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
@@ -5125,6 +5125,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5116, 22620727, 286080143, 'upptime/upptime', 29, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', 48, 9072, ['upptime-bot','pabio-escobar'], '2022-01-21T05:03:29.105687'),
 (5117, 22655167, 364474335, 'google/zx', 0, 'A tool for writing better scripts', 14, 26809, ['antonmedv','antongolub'], '2022-01-21T05:12:50.627343'),
 (5118, 68660520, 178137889, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury'], '2022-01-21T05:12:50.989966'),
+(5119, 71386305, 112507086, '30-seconds/30-seconds-of-code', 0, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T05:12:51.06731'),
 (5120, 22655167, 105379569, 'actix/actix-web', 1, 'Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.', 108, 12993, ['fafhrd91','robjtede'], '2022-01-21T05:12:52.352128'),
 (5121, 71386305, 83603533, 'felipefialho/frontend-challenges', 1, ':boom: Listing some playful open-source''s challenges of companies to test your knowledge', 0, 7355, ['felipefialho','kvnol'], '2022-01-21T05:12:52.531818'),
 (5122, 3754311, 431137274, 'alexadam/reactive-doc', 0, 'Create Interactive Documents with Plain Text', 0, 16, ['alexadam'], '2022-01-21T05:12:53.530709'),
@@ -5132,7 +5133,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5124, 69519470, 71359796, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T05:12:53.996157'),
 (5125, 71386305, 122838124, '30-seconds/30-seconds-of-css', 2, 'Short CSS code snippets for all your development needs', 3, 15054, ['Chalarangelo','atomiks'], '2022-01-21T05:12:54.076311'),
 (5126, 3754311, 28573936, 'mahees/angular-nfc', 1, 'Angular and Ionic NFC wrapper for phonegap-nfc', 0, 4, ['mahees'], '2022-01-21T05:12:55.092543'),
-(5119, 71386305, 112507086, '30-seconds/30-seconds-of-code', 0, 'Short JavaScript code snippets for all your development needs', 6, 91301, ['Chalarangelo','30secondsofcode'], '2022-01-21T05:12:51.06731'),
 (5127, 71386305, 127910371, 'thedaviddias/Front-End-Design-Checklist', 3, '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', 0, 4167, ['thedaviddias','admpk'], '2022-01-21T05:12:55.587281'),
 (5128, 22655167, 44662669, 'dbeaver/dbeaver', 3, 'Free universal database tool and SQL client', 1379, 24190, ['serge-rider','LonwoLonwo'], '2022-01-21T05:12:55.746432'),
 (5129, 69519470, 133134007, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2957, 10973, ['wing328','fehguy'], '2022-01-21T05:12:55.870315'),
@@ -8725,9 +8725,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8639, 203683, 17967200, 'ngryman/reading-time', 23, ':books: Medium''s like reading time estimation.', 5, 1059, ['ngryman','Josh-Cena'], '2022-01-22T09:58:33.326814'),
 (8640, 55982424, 293860197, 'lowlighter/metrics', 21, '📊 An infographics generator with 30+ plugins and 200+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!', 11, 4896, ['lowlighter','Nixinova'], '2022-01-22T09:58:33.411065'),
 (8641, 29004466, 137724480, 'hasura/graphql-engine', 19, 'Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.', 1742, 25248, ['rikinsk','rakeshkky'], '2022-01-22T09:58:33.953472'),
-(8642, 55982424, 45978340, 'SathishGajendran/Board', 22, ' A simple paint PWA https://sathishgajendran.github.io/Board', 0, 2, ['SathishGajendran'], '2022-01-22T09:58:34.838629'),
 (8643, 203683, 136829328, 'jbarratt/lambdadb', 25, 'Serverless experiment: embedding a database', 0, 3, ['jbarratt'], '2022-01-22T09:58:34.956231'),
 (8644, 29004466, 173286031, 'input-output-hk/cardano-wallet', 20, 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', 78, 599, ['KtorZ','jonathanknowles'], '2022-01-22T09:58:35.129878'),
+(8642, 55982424, 45978340, 'SathishGajendran/Board', 22, ' A simple paint PWA https://sathishgajendran.github.io/Board', 0, 2, ['SathishGajendran'], '2022-01-22T09:58:34.838629'),
 (8645, 55982424, 351632872, 'jcv8000/Codex', 23, 'A free note-taking software for programmers and Computer Science students', 4, 122, ['jcv8000'], '2022-01-22T09:58:35.921947'),
 (8646, 203683, 78417495, 'notrab/create-react-app-redux', 26, 'React Router, Redux, Redux Thunk & Create React App boilerplate', 7, 906, ['renovate-bot','notrab'], '2022-01-22T09:58:36.092055'),
 (8647, 55982424, 175405157, 'JanDeDobbeleer/oh-my-posh', 24, 'A prompt theme engine for any shell.', 28, 4116, ['JanDeDobbeleer','lnu'], '2022-01-22T09:58:37.405818'),
