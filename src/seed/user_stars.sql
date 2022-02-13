@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T06:47:06.217Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T08:44:31.210Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6399,10 +6399,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6360, 12410942, 27291507, 'asdf-vm/asdf', 15, 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', 123, 12901, ['Stratus3D','HashNuke'], '2022-01-22T03:57:33.00914'),
 (6366, 20134767, 40518025, 'graphql/graphiql', 2, 'GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.', 198, 13198, ['wincent','acao'], '2022-01-22T03:57:33.410316'),
 (6367, 26007940, 236383896, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania'], '2022-01-22T03:57:33.484897'),
-(6368, 9968219, 95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 4, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', 6, 320, ['callicoder'], '2022-01-22T03:57:33.574866'),
 (6369, 44642314, 122299416, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 145, 5835, ['toshihikoyanase','hvy'], '2022-01-22T03:57:33.606519'),
-(6370, 45036724, 712530, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 258, 20916, ['kangax','asturur'], '2022-01-22T03:57:33.631932'),
 (6371, 2609511, 156157055, 'GokuMohandas/MadeWithML', 5, 'Learn how to responsibly deliver value with ML.', 3, 29418, ['GokuMohandas'], '2022-01-22T03:57:33.708277'),
+(6370, 45036724, 712530, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 258, 20916, ['kangax','asturur'], '2022-01-22T03:57:33.631932'),
 (6372, 11858762, 248862268, 'GregorBiswanger/rxjs-fruits', 6, 'A game for learning RxJS 🍎🍌', 16, 164, ['GregorBiswanger','hwanders'], '2022-01-22T03:57:33.796568'),
 (6373, 59651629, 258994492, 'HarshCasper/Data-Structures', 1, 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', 0, 9, ['HarshCasper'], '2022-01-22T03:57:33.828932'),
 (6374, 79887, 306171501, 'shipa-corp/ketch', 9, 'Ketch is an application delivery framework that facilitates the deployment and management of applications on Kubernetes using a simple command line interface', 6, 552, ['aleksej-paschenko','stinkyfingers'], '2022-01-22T03:57:33.929513'),
@@ -6415,8 +6414,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6381, 58392246, 403285296, 'muhammaddzaky/muhamamddzak.github.io', 2, 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', 0, 1, ['muhammaddzaky'], '2022-01-22T03:57:34.413948'),
 (6382, 1930729, 55176340, 'BretFisher/node-docker-good-defaults', 10, 'sample node app for Docker examples', 12, 1969, ['BretFisher','aidengaripoli'], '2022-01-22T03:57:34.428405'),
 (6409, 44642314, 579842, 'matlab2tikz/matlab2tikz', 8, 'This program converts MATLAB®/Octave figures to TikZ/pgfplots figures for smooth integration into LaTeX.', 235, 1177, ['egeerardyn','nschloe'], '2022-01-22T03:57:36.2892'),
-(6414, 11858762, 304940629, 'markodenic/web-development-resources', 8, 'Awesome Web Development Resources.', 15, 3206, ['markodenic','frankiefab100'], '2022-01-22T03:57:36.492447'),
 (6415, 46695719, 4568238, 'expressjs/expressjs.com', 5, null, 68, 4261, ['hacksparrow','crandmck'], '2022-01-22T03:57:36.513668'),
+(6414, 11858762, 304940629, 'markodenic/web-development-resources', 8, 'Awesome Web Development Resources.', 15, 3206, ['markodenic','frankiefab100'], '2022-01-22T03:57:36.492447'),
 (6416, 59651629, 345922282, 'Saul-Mirone/milkdown', 3, '🍼 Plugin driven WYSIWYG  markdown editor framework.', 8, 5591, ['Saul-Mirone','xiadd'], '2022-01-22T03:57:36.5697'),
 (6417, 79887, 237604676, 'dvarrazzo/weeder', 11, 'Remove unneeded historical files', 0, 1, ['dvarrazzo'], '2022-01-22T03:57:36.584963'),
 (6418, 2609511, 9934117, 'phoboslab/jsmpeg', 7, 'MPEG1 Video Decoder in JavaScript', 170, 5605, ['phoboslab','maikmerten'], '2022-01-22T03:57:36.60498'),
@@ -6464,6 +6463,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6412, 71297412, 9852918, 'TryGhost/Ghost', 10, 'Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.', 58, 39447, ['ErisDS','renovate-bot'], '2022-01-22T03:57:36.427027'),
 (6413, 1255918, 92954795, 'appstract/laravel-bootstrap-components', 15, 'Bootstrap components as Laravel components', 0, 195, ['ovanschie','gizburdt'], '2022-01-22T03:57:36.492155'),
 (6419, 3202514, 337850512, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 0, 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', 4, 10, ['krook','demilolu'], '2022-01-22T03:57:36.606982'),
+(6368, 9968219, 95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 4, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', 6, 320, ['callicoder'], '2022-01-22T03:57:33.574866'),
 (6420, 20134767, 71359796, 'open-sauced/open-sauced', 5, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-22T03:57:36.731198'),
 (6421, 16165980, 116160755, 'dotnet/blazor', 11, 'Blazor moved to https://github.com/dotnet/aspnetcore', 0, 9335, ['SteveSandersonMS','rynowak'], '2022-01-22T03:57:36.764471'),
 (6422, 58392246, 395205818, 'muhammaddzaky/muhammaddzaky.github.id', 4, 'membuatwebsitemuhammaddzaky.id', 0, 2, [], '2022-01-22T03:57:36.914481'),
@@ -6830,6 +6830,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6767, 12410942, 198864465, 'dragonman225/notablog', 28, 'Tell stories of your work with Notion', 8, 370, ['dragonman225','KixPanganiban'], '2022-01-22T04:17:36.24788'),
 (6768, 12410942, 2371106, 'rubocop/ruby-style-guide', 29, 'A community-driven Ruby coding style guide', 58, 15870, ['bbatsov','koic'], '2022-01-22T04:17:37.764185'),
 (6769, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T04:20:23.992455'),
+(6770, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:24.619024'),
 (6771, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T04:20:24.637921'),
 (6772, 26007940, 421781906, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah'], '2022-01-22T04:20:25.270172'),
 (6773, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T04:20:25.277984'),
@@ -6837,7 +6838,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6775, 26007940, 135786093, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 0, 31046, ['sw-yx','eps1lon'], '2022-01-22T04:20:25.86536'),
 (6776, 289882, 4095287, 'rubocop/rubocop', 3, 'A Ruby static code analyzer and formatter, based on the community Ruby style guide.', 224, 11632, ['bbatsov','koic'], '2022-01-22T04:20:25.942355'),
 (6777, 12410942, 283446239, 'enisdenjo/graphql-ws', 1, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', 0, 928, ['enisdenjo','semantic-release-bot'], '2022-01-22T04:20:26.081552'),
-(6770, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:24.619024'),
 (6778, 26007940, 374950494, 'lkrryba/weekly-web-dev-challenge-poll', 3, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', 6, 43, ['lkrryba','DoubleNemesis'], '2022-01-22T04:20:26.494517'),
 (6779, 289882, 33015583, 'keras-team/keras', 4, 'Deep Learning for humans', 263, 53765, ['fchollet','qlzh727'], '2022-01-22T04:20:26.605139'),
 (6780, 12410942, 214587193, 'supabase/supabase', 2, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 208, 26854, ['kiwicopple','MildTomato'], '2022-01-22T04:20:26.751902'),
