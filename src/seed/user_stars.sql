@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T10:44:22.368Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T12:49:40.868Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1159,9 +1159,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1151, 24606613, 63266213, 'open-guides/og-aws', 0, '📙 Amazon Web Services — a practical guide', 147, 30712, ['jlevy','QuinnyPig'], '2022-01-20T21:20:40.026358'),
 (1152, 656318, 60201474, 'RubyHabits/ruby-habits-library', 6, 'An app to run our Ruby Habits library :D', 2, 2, ['evatrostlos','alicetragedy'], '2022-01-20T21:20:40.6757'),
 (1153, 24606613, 74791366, 'ryanmcdermott/clean-code-javascript', 1, ':bathtub: Clean Code concepts adapted for JavaScript', 51, 62258, ['ryanmcdermott','vsemozhetbyt'], '2022-01-20T21:20:40.736195'),
+(1154, 469997, 18885925, 'reek/anti-adblock-killer', 7, 'Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.', 1933, 4993, ['reek','devnoname120'], '2022-01-20T21:20:41.235489'),
 (1155, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-20T21:20:41.893167'),
 (1156, 656318, 45103523, 'RubyStarters/RubyStarters.github.io', 7, 'project website', 0, 2, ['haslinger','ramonh'], '2022-01-20T21:20:42.120754'),
-(1154, 469997, 18885925, 'reek/anti-adblock-killer', 7, 'Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.', 1933, 4993, ['reek','devnoname120'], '2022-01-20T21:20:41.235489'),
 (1157, 24606613, 8805592, 'szimek/signature_pad', 2, 'HTML5 canvas based smooth signature drawing', 6, 7693, ['szimek','UziTech'], '2022-01-20T21:20:42.372506'),
 (1638, 20734038, 310047727, 'codeSTACKr/mega-menu', 13, null, 0, 19, ['codeSTACKr'], '2022-01-20T23:06:18.34806'),
 (1158, 469997, 211666, 'nodejs/node-v0.x-archive', 9, 'Moved to https://github.com/nodejs/node', 571, 34785, ['orangemocha','refack'], '2022-01-20T21:20:42.494603'),
@@ -6967,9 +6967,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6902, 12410942, 98687111, 'hopsoft/pipe_envy', 23, 'Elixir style pipe operator for Ruby', 0, 46, ['hopsoft'], '2022-01-22T04:21:09.2856'),
 (6903, 26007940, 207892857, 'pluralsight/web-dev-starter', 21, null, 20, 217, ['sullysaurus'], '2022-01-22T04:21:09.294259'),
 (6904, 26007940, 299642657, 'zero-to-mastery/ascii-art', 22, 'A ZTM Challenge for Hacktoberfest 2020', 4, 19, ['ndeoligence','sophiabrandt'], '2022-01-22T04:21:09.909337'),
+(6905, 26007940, 297354816, 'zero-to-mastery/Keiko-Corp', 23, 'HTML challenge for Hacktoberfest 2020', 12, 204, ['brittneypostma','dpcoolmufa'], '2022-01-22T04:21:10.56175'),
 (6906, 12410942, 247253582, 'sunny/actor', 24, 'Composable Ruby service objects', 4, 203, ['sunny','ylecuyer'], '2022-01-22T04:21:10.606033'),
 (6907, 26007940, 73648678, 'forem/forem', 24, 'For empowering community 🌱', 400, 18491, ['benhalpern','rhymes'], '2022-01-22T04:21:11.166246'),
-(6905, 26007940, 297354816, 'zero-to-mastery/Keiko-Corp', 23, 'HTML challenge for Hacktoberfest 2020', 12, 204, ['brittneypostma','dpcoolmufa'], '2022-01-22T04:21:10.56175'),
 (6908, 12410942, 202770236, 'unboundedsystems/adapt', 25, 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', 11, 328, ['mterrel','mvachhar'], '2022-01-22T04:21:11.217191'),
 (6909, 26007940, 51270739, 'viatsko/awesome-vscode', 25, '🎨 A curated list of delightful VS Code packages and resources.', 54, 19774, ['viatsko','lannonbr'], '2022-01-22T04:21:11.744628'),
 (6910, 12410942, 56171308, 'palkan/logidze', 26, 'Database changes log for Rails', 3, 1210, ['palkan','charlie-wasp'], '2022-01-22T04:21:11.805534'),
@@ -8495,10 +8495,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8421, 45036724, 160253491, 'fullstorydev/grpcui', 24, 'An interactive web UI for gRPC, along the lines of postman', 40, 2591, ['jhump','gtg471h'], '2022-01-22T09:45:45.12896'),
 (8422, 58392246, 390224428, 'muhammaddzaky/smamuhamamddiyah.github.io', 26, null, 0, 1, ['muhammaddzaky'], '2022-01-22T09:45:46.030658'),
 (8424, 45036724, 52034309, 'uber-go/zap', 25, 'Blazing fast, structured, leveled logging in Go.', 94, 14724, ['akshayjshah','abhinav'], '2022-01-22T09:45:46.287373'),
+(8425, 59651629, 403029798, 's-yadav/ask-me-anything', 24, 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', 0, 2, ['s-yadav'], '2022-01-22T09:45:47.146085'),
 (8426, 58392246, 379769983, 'Dzaky-official/MhdraihandzakySaragih', 27, null, 0, 1, ['muhammaddzaky'], '2022-01-22T09:45:47.238019'),
 (8427, 45036724, 373693162, 'imamdigmi/BicaraDANA', 26, null, 0, 5, ['imamdigmi'], '2022-01-22T09:45:47.465656'),
 (8428, 59651629, 396327436, 'devkodeio/the-dom-challenge', 25, 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', 0, 200, ['sunnypuri'], '2022-01-22T09:45:48.254042'),
-(8425, 59651629, 403029798, 's-yadav/ask-me-anything', 24, 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', 0, 2, ['s-yadav'], '2022-01-22T09:45:47.146085'),
 (8429, 58392246, 322785065, 'advanced-rest-client/arc-settings', 28, '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', 0, 2, ['jarrodek','arcauto'], '2022-01-22T09:45:48.671748'),
 (8430, 45036724, 273656785, 'jfeng45/servicetmpl1', 27, 'A self-evolved Microservice framework for Go and gRPC--an upgrade version for ''servicetmpl''', 1, 69, ['jfeng45'], '2022-01-22T09:45:48.873933'),
 (8431, 59651629, 374018112, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1233, ['sadanandpai','dth99'], '2022-01-22T09:45:49.343886'),
@@ -10312,8 +10312,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10304, 36890230, 321545207, 'motiondeveloper/create-expression-lib', 0, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', 1, 15, ['timhaywood'], '2022-01-22T11:59:25.616551'),
 (10305, 527550, 31504491, 'labstack/echo', 0, 'High performance, minimalist Go web framework', 81, 21496, ['vishr','lammel'], '2022-01-22T11:59:25.689203'),
 (10306, 3777549, 9394642, 'kristopolous/BOOTSTRA.386', 1, 'A vintage 1980s DOS inspired Twitter Bootstrap theme', 52, 6064, ['kristopolous','tomer'], '2022-01-22T11:59:26.96473'),
-(10307, 36890230, 202834928, 'davidtorosyan/ti-js', 1, 'TI-Basic interpreter written in JavaScript.', 2, 5, ['davidtorosyan','JEbertPrime'], '2022-01-22T11:59:27.113408'),
 (10308, 15052690, 220809393, 'willmcgugan/rich', 1, 'Rich is a Python library for rich text and beautiful formatting in the terminal.', 38, 33987, ['willmcgugan','nathanrpage97'], '2022-01-22T11:59:27.131431'),
+(10307, 36890230, 202834928, 'davidtorosyan/ti-js', 1, 'TI-Basic interpreter written in JavaScript.', 2, 5, ['davidtorosyan','JEbertPrime'], '2022-01-22T11:59:27.113408'),
 (10309, 3941126, 5954, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4557, ['jeremyevans','ciconia'], '2022-01-22T11:59:27.158078'),
 (10310, 527550, 33739333, 'thoughtbot/administrate', 1, 'A Rails engine that helps you put together a super-flexible admin dashboard.', 144, 5273, ['gracewashere','nickcharlton'], '2022-01-22T11:59:27.360839'),
 (10311, 36890230, 112953694, 'digitallyinduced/ihp', 2, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2906, ['mpscholten','Laobiz'], '2022-01-22T11:59:27.911566'),
@@ -10687,10 +10687,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10678, 22620727, 2019791, 'liquibase/liquibase', 17, 'Main Liquibase Source', 601, 2951, ['nvoxland','wwillard7800'], '2022-01-22T12:34:18.936504'),
 (10679, 22620727, 34987697, 'mfornos/awesome-microservices', 18, 'A curated list of Microservice Architecture related principles and technologies.', 3, 10737, ['mfornos','aalhour'], '2022-01-22T12:34:20.418312'),
 (10680, 22655167, 1529160, 'ether/etherpad-lite', 15, 'Etherpad: A modern really-real-time collaborative document editor.', 88, 12068, ['JohnMcLear','rhansen'], '2022-01-22T12:34:20.486071'),
+(10681, 22620727, 71297170, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11783, ['lorin','prytoegrian'], '2022-01-22T12:34:21.669648'),
 (10682, 22655167, 372240402, 'alan2207/bulletproof-react', 16, '🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ', 9, 8379, ['alan2207','ryota-murakami'], '2022-01-22T12:34:21.940564'),
 (10683, 22620727, 98446777, 'dastergon/awesome-chaos-engineering', 20, 'A curated list of Chaos Engineering resources.', 4, 4799, ['dastergon','seeker89'], '2022-01-22T12:34:22.864938'),
 (10684, 22655167, 22392639, 'yjs/yjs', 17, 'Shared data types for building collaborative software', 46, 6387, ['dmonad','nikgraf'], '2022-01-22T12:34:23.419807'),
-(10681, 22620727, 71297170, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11783, ['lorin','prytoegrian'], '2022-01-22T12:34:21.669648'),
 (10685, 22620727, 131081109, 'hiroppy/fusuma', 21, '✍️Fusuma makes slides with Markdown easily.', 65, 5081, ['hiroppy','renovate-bot'], '2022-01-22T12:34:24.353408'),
 (10686, 22655167, 388693827, 'antfu/vitesse-webext', 18, '⚡️ WebExtension Vite Starter Template', 4, 1080, ['antfu','tmkx'], '2022-01-22T12:34:24.561563'),
 (10687, 22620727, 192632000, 'dapr/dapr', 22, 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', 229, 16709, ['yaron2','youngbupark'], '2022-01-22T12:34:25.717183'),
