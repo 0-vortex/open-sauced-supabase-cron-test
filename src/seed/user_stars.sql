@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T16:49:48.610Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T18:45:17.143Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4719,7 +4719,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4639, 4381106, 70777180, 'Foundry376/Mailspring', 13, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T04:21:36.388279'),
 (4640, 1295334, 18486300, 'lewagon/setup', 11, 'Setup instructions for Le Wagon''s students on their first day of Web Development Bootcamp', 4, 12078, ['ssaunier','dmilon'], '2022-01-21T04:21:36.496927'),
 (4641, 6842883, 279397536, 'ziulev/spotter', 13, '🔭 macOS productivity tool to launch everything', 6, 571, ['ziulev'], '2022-01-21T04:21:37.470694'),
-(4642, 1295334, 182075630, 'jamesctucker/Fantastic-Front-End-Toolbox', 12, 'A collection of tools, tutorials, and other resources for those learning web development.', 3, 719, ['jamesctucker','thewmh'], '2022-01-21T04:21:37.77631'),
 (4643, 2808728, 50264296, 'jgthms/bulma', 10, 'Modern CSS framework based on Flexbox', 356, 44957, ['jgthms','Wikiki'], '2022-01-21T04:21:37.814489'),
 (4644, 6842883, 48863418, 'coryhouse/react-slingshot', 14, 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', 60, 9769, ['coryhouse','kwelch'], '2022-01-21T04:21:38.85944'),
 (4645, 1295334, 8530831, 'kamens/jQuery-menu-aim', 13, 'jQuery plugin to fire events when user''s cursor aims at particular dropdown menu items. For making responsive mega dropdowns like Amazon''s.', 67, 7730, ['kamens'], '2022-01-21T04:21:39.09512'),
@@ -4747,7 +4746,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4667, 2808728, 2561582, 'animate-css/animate.css', 19, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', 23, 73428, ['daneden','eltonmesquita'], '2022-01-21T04:21:53.280947'),
 (4668, 6842883, 185327227, 'meriyah/meriyah', 24, 'A 100% compliant, self-hosted javascript parser  - https://meriyah.github.io/meriyah', 19, 769, ['KFlash','3cp'], '2022-01-21T04:21:53.298701'),
 (4669, 6842883, 157014461, 'welldone-software/why-did-you-render', 25, 'why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)', 15, 7879, ['vzaidman','Hypnosphi'], '2022-01-21T04:21:54.564921'),
-(4670, 2808728, 51618676, 'thread-pond/scrum-lint', 20, 'A toolkit to help manage a very specific Trello and Github workflow', 4, 1, ['mockdeep','raychatter'], '2022-01-21T04:21:54.575313'),
+(4642, 1295334, 182075630, 'jamesctucker/Fantastic-Front-End-Toolbox', 12, 'A collection of tools, tutorials, and other resources for those learning web development.', 3, 719, ['jamesctucker','thewmh'], '2022-01-21T04:21:37.77631'),
 (4671, 6842883, 226207937, 'airbnb/ts-migrate', 26, 'A tool to help migrate JavaScript code quickly and conveniently to TypeScript', 42, 4286, ['Rudeg','edsrzf'], '2022-01-21T04:21:55.795402'),
 (4672, 2808728, 25155580, 'JuanitoFatas/fast-ruby', 21, ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', 72, 5192, ['JuanitoFatas','Arcovion'], '2022-01-21T04:21:55.845735'),
 (4673, 2808728, 26743136, 'sumodirjo/engineering-blogs', 22, 'A curated list of engineering blogs of startup and enterprise companies', 1, 1161, ['sumodirjo','askhubchandani'], '2022-01-21T04:21:56.934569'),
@@ -4829,7 +4828,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4749, 25194960, 63541709, 'webmatze/hyperborder', 17, 'adds a gradient border to the Hyper terminal', 4, 207, ['webmatze','Xapphire13'], '2022-01-21T04:36:01.284628'),
 (4750, 3777549, 51732606, 'jhu-ep-coursera/fullstack-course4', 15, 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', 3, 7091, ['ychaikin','jasonwr'], '2022-01-21T04:36:01.540838'),
 (4751, 15052690, 10581067, 'kerryb/goos-ruby', 12, 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', 0, 60, ['kerryb'], '2022-01-21T04:36:02.202505'),
-(4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
+(4670, 2808728, 51618676, 'thread-pond/scrum-lint', 20, 'A toolkit to help manage a very specific Trello and Github workflow', 4, 1, ['mockdeep','raychatter'], '2022-01-21T04:21:54.575313'),
 (4753, 25194960, 20060596, 'ogham/exa', 18, 'A modern replacement for ‘ls’.', 215, 16258, ['ogham','ariasuni'], '2022-01-21T04:36:02.710897'),
 (4754, 3777549, 118858739, 'dwmkerr/hacker-laws', 16, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', 122, 22629, ['dwmkerr','umutphp'], '2022-01-21T04:36:02.917286'),
 (4755, 15052690, 1272424, 'nodemailer/nodemailer', 13, '✉️ Send e-mails with Node.JS – easy as cake!', 9, 14448, ['andris9','igorsechyn'], '2022-01-21T04:36:03.563459'),
@@ -4875,6 +4874,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4795, 28281924, 146218451, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 800, ['joeykilpatrick','seanpmaxwell'], '2022-01-21T04:36:18.837471'),
 (4796, 3777549, 26500787, 'tonsky/FiraCode', 28, 'Free monospaced font with programming ligatures', 292, 61512, ['tonsky','thundernixon'], '2022-01-21T04:36:19.279628'),
 (4797, 3777549, 3984904, 'jgillman/dotfiles', 29, 'jgillman''s special collection of configs', 0, 17, ['jgillman'], '2022-01-21T04:36:20.722971'),
+(4752, 28281924, 409910141, 'FiretableProject/firetable', 14, null, 0, 5, ['shamsmosowi','notsidney'], '2022-01-21T04:36:02.451826'),
 (4798, 28281924, 52631841, 'gothinkster/realworld', 26, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 52, 63266, ['EricSimons','anishkny'], '2022-01-21T04:36:20.814853'),
 (4799, 15052690, 2500088, 'gitlabhq/gitlabhq', 21, 'GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com', 35, 22818, ['dzaporozhets','iamphill'], '2022-01-21T04:36:21.828851'),
 (4800, 28281924, 139914932, 'quarkusio/quarkus', 27, 'Quarkus: Supersonic Subatomic Java. ', 1852, 9258, ['gsmet','geoand'], '2022-01-21T04:36:22.559326'),
@@ -7815,10 +7815,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7777, 19617280, 304344049, 'sveltejs/kit', 17, 'The fastest way to build Svelte apps', 376, 6622, ['Rich-Harris','benmccann'], '2022-01-22T08:58:35.939735'),
 (7778, 2228196, 115736320, 'klutchell/balena-pihole', 14, 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', 1, 255, ['klutchell','chrisys'], '2022-01-22T08:58:36.095515'),
 (7779, 43640229, 383610774, 'Chronofit/chrono-ios', 15, null, 0, 3, ['sagar5534','harigovind1998'], '2022-01-22T08:58:36.753526'),
+(7780, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 59, 17895, ['antfu','nico-bachner'], '2022-01-22T08:58:37.382611'),
 (7781, 2228196, 260719813, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 199, ['NyaomiDEV','KorbsStudio'], '2022-01-22T08:58:37.529274'),
 (7782, 43640229, 383299223, 'Chronofit/chrono-website', 16, null, 0, 2, ['sahilsharma356','SVD6'], '2022-01-22T08:58:38.16005'),
 (7783, 19617280, 69574700, 'sindresorhus/ponyfill', 19, '🦄 Like polyfill but with pony pureness', 1, 1041, ['sindresorhus','lgarron'], '2022-01-22T08:58:38.680498'),
-(7780, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 59, 17895, ['antfu','nico-bachner'], '2022-01-22T08:58:37.382611'),
 (7784, 2228196, 203569485, 'IjzerenHein/react-navigation-shared-element', 16, 'React Navigation bindings for react-native-shared-element 💫', 66, 984, ['IjzerenHein','phamhoaivu911'], '2022-01-22T08:58:38.822023'),
 (7785, 2228196, 43830564, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12214, ['watson','auchenberg'], '2022-01-22T08:58:39.52953'),
 (7786, 43640229, 223971726, 'ryanheise/just_audio', 17, 'Audio Player', 117, 560, ['ryanheise','bdlukaa'], '2022-01-22T08:58:39.61955'),
