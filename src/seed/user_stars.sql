@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T04:47:18.072Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T06:47:06.217Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6830,7 +6830,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6767, 12410942, 198864465, 'dragonman225/notablog', 28, 'Tell stories of your work with Notion', 8, 370, ['dragonman225','KixPanganiban'], '2022-01-22T04:17:36.24788'),
 (6768, 12410942, 2371106, 'rubocop/ruby-style-guide', 29, 'A community-driven Ruby coding style guide', 58, 15870, ['bbatsov','koic'], '2022-01-22T04:17:37.764185'),
 (6769, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T04:20:23.992455'),
-(6770, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:24.619024'),
 (6771, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T04:20:24.637921'),
 (6772, 26007940, 421781906, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah'], '2022-01-22T04:20:25.270172'),
 (6773, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T04:20:25.277984'),
@@ -6838,6 +6837,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6775, 26007940, 135786093, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 0, 31046, ['sw-yx','eps1lon'], '2022-01-22T04:20:25.86536'),
 (6776, 289882, 4095287, 'rubocop/rubocop', 3, 'A Ruby static code analyzer and formatter, based on the community Ruby style guide.', 224, 11632, ['bbatsov','koic'], '2022-01-22T04:20:25.942355'),
 (6777, 12410942, 283446239, 'enisdenjo/graphql-ws', 1, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', 0, 928, ['enisdenjo','semantic-release-bot'], '2022-01-22T04:20:26.081552'),
+(6770, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:24.619024'),
 (6778, 26007940, 374950494, 'lkrryba/weekly-web-dev-challenge-poll', 3, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', 6, 43, ['lkrryba','DoubleNemesis'], '2022-01-22T04:20:26.494517'),
 (6779, 289882, 33015583, 'keras-team/keras', 4, 'Deep Learning for humans', 263, 53765, ['fchollet','qlzh727'], '2022-01-22T04:20:26.605139'),
 (6780, 12410942, 214587193, 'supabase/supabase', 2, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 208, 26854, ['kiwicopple','MildTomato'], '2022-01-22T04:20:26.751902'),
