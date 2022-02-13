@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T14:44:30.410Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T16:49:48.610Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -725,13 +725,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (717, 61815862, 165093478, 'stephane-r/HoloPlay', 2, 'React-Native app using Invidious API for listening Youtube audio source.', 9, 93, ['stephane-r','splyy'], '2022-01-20T20:46:12.152863'),
 (718, 16268467, 19415064, 'ossu/computer-science', 1, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105592, ['ericdouglas','joshmhanson'], '2022-01-20T20:46:12.461068'),
 (719, 7860023, 148236762, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas'], '2022-01-20T20:46:12.587699'),
+(720, 61815862, 185131263, 'calebnance/expo-spotify', 3, 'Spotify UI Clone with React Native & Expo', 9, 390, ['calebnance','bidah'], '2022-01-20T20:46:13.100837'),
 (721, 16268467, 177736533, '996icu/996.ICU', 2, 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', 16831, 260511, ['996icu','ChangedenCZD'], '2022-01-20T20:46:13.427122'),
 (722, 7860023, 93390294, 'lanten/electron-antd', 1, 'Create a desktop app with Electron + Typescript + React + Antd', 0, 308, ['lanten','ImgBotApp'], '2022-01-20T20:46:13.502795'),
 (723, 61815862, 211595183, 'osamaqarem/spotify-lite', 4, 'Spotify Lite made with React Native for iOS and Android', 0, 307, ['osamaqarem'], '2022-01-20T20:46:13.97769'),
 (724, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T20:46:14.334095'),
 (725, 7860023, 231329928, 'kat-tax/ult', 2, 'The Ultimate App Dev Kit', 1, 49, ['Cavitt'], '2022-01-20T20:46:14.394881'),
 (726, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T20:46:15.283022'),
-(720, 61815862, 185131263, 'calebnance/expo-spotify', 3, 'Spotify UI Clone with React Native & Expo', 9, 390, ['calebnance','bidah'], '2022-01-20T20:46:13.100837'),
 (727, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T20:46:15.302713'),
 (728, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T20:46:15.648342'),
 (729, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T20:46:16.205798'),
@@ -1921,6 +1921,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1876, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 476, 54922, ['manucorporat','javierprovecho'], '2022-01-20T23:50:57.497438'),
 (1877, 505751, 196530922, 'jorgenkg/promise-priority-queue', 1, 'Async bucket priority queue implemented in Typescript', 1, 3, ['renovate-bot','jorgengrimnes'], '2022-01-20T23:50:57.540117'),
 (1878, 43640229, 74293321, 'sveltejs/svelte', 5, 'Cybernetically enhanced web apps', 637, 54988, ['Rich-Harris','Conduitry'], '2022-01-20T23:50:57.708745'),
+(1879, 19617280, 266427736, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 182, ['5t3ph','Waterstraal'], '2022-01-20T23:50:57.928566'),
+(1880, 17373317, 13753636, 'jhipster/generator-jhipster', 3, 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', 256, 19248, ['jdubois','deepu105'], '2022-01-20T23:50:57.980903'),
 (1881, 505751, 177033748, 'atlassian/changesets', 2, '🦋       A way to manage your versioning and changelogs with a focus on monorepos', 177, 2530, ['Noviny','mitchellhamilton'], '2022-01-20T23:50:58.910709'),
 (1882, 43640229, 304344049, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:50:59.110367'),
 (1883, 19617280, 115110181, 'swc-project/swc', 9, 'Rust-based platform for the Web', 239, 19650, ['kdy1','dsherret'], '2022-01-20T23:50:59.230351'),
@@ -1947,8 +1949,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1904, 505751, 276976140, 'mergestat/mergestat', 7, 'Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊', 11, 2740, ['patrickdevivo','Vialeon'], '2022-01-20T23:51:06.492083'),
 (1905, 19617280, 145339012, 'angeloashmore/gatsby-plugin-local-search', 15, 'Gatsby plugin for providing client-side search for data available in Gatsby''s GraphQL layer using a variety of engines', 20, 47, ['angeloashmore','khwkang'], '2022-01-20T23:51:07.611047'),
 (1944, 505751, 278150898, 'GoogleCloudPlatform/fourkeys', 18, null, 27, 690, ['davidstanke','dinagraves'], '2022-01-20T23:51:20.266262'),
-(1879, 19617280, 266427736, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 182, ['5t3ph','Waterstraal'], '2022-01-20T23:50:57.928566'),
-(1880, 17373317, 13753636, 'jhipster/generator-jhipster', 3, 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', 256, 19248, ['jdubois','deepu105'], '2022-01-20T23:50:57.980903'),
 (1906, 43640229, 114687480, 'devrelcollective/awesome-devrel', 13, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 426, ['jerdog','mbbroberg'], '2022-01-20T23:51:07.627481'),
 (1907, 505751, 221981891, 'microsoft/playwright', 8, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 369, 32539, ['pavelfeldman','dgozman'], '2022-01-20T23:51:07.839356'),
 (1908, 17373317, 65772720, 'docker/docker.github.io', 9, 'Source repo for Docker''s Documentation', 1535, 3411, ['vieux','thaJeztah'], '2022-01-20T23:51:08.240076'),
@@ -7815,10 +7815,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7777, 19617280, 304344049, 'sveltejs/kit', 17, 'The fastest way to build Svelte apps', 376, 6622, ['Rich-Harris','benmccann'], '2022-01-22T08:58:35.939735'),
 (7778, 2228196, 115736320, 'klutchell/balena-pihole', 14, 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', 1, 255, ['klutchell','chrisys'], '2022-01-22T08:58:36.095515'),
 (7779, 43640229, 383610774, 'Chronofit/chrono-ios', 15, null, 0, 3, ['sagar5534','harigovind1998'], '2022-01-22T08:58:36.753526'),
-(7780, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 59, 17895, ['antfu','nico-bachner'], '2022-01-22T08:58:37.382611'),
 (7781, 2228196, 260719813, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 199, ['NyaomiDEV','KorbsStudio'], '2022-01-22T08:58:37.529274'),
 (7782, 43640229, 383299223, 'Chronofit/chrono-website', 16, null, 0, 2, ['sahilsharma356','SVD6'], '2022-01-22T08:58:38.16005'),
 (7783, 19617280, 69574700, 'sindresorhus/ponyfill', 19, '🦄 Like polyfill but with pony pureness', 1, 1041, ['sindresorhus','lgarron'], '2022-01-22T08:58:38.680498'),
+(7780, 19617280, 361044034, 'slidevjs/slidev', 18, 'Presentation Slides for Developers (Beta)', 59, 17895, ['antfu','nico-bachner'], '2022-01-22T08:58:37.382611'),
 (7784, 2228196, 203569485, 'IjzerenHein/react-navigation-shared-element', 16, 'React Navigation bindings for react-native-shared-element 💫', 66, 984, ['IjzerenHein','phamhoaivu911'], '2022-01-22T08:58:38.822023'),
 (7785, 2228196, 43830564, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12214, ['watson','auchenberg'], '2022-01-22T08:58:39.52953'),
 (7786, 43640229, 223971726, 'ryanheise/just_audio', 17, 'Audio Player', 117, 560, ['ryanheise','bdlukaa'], '2022-01-22T08:58:39.61955'),
