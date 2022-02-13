@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T22:44:28.014Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T01:03:29.028Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1861,8 +1861,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1852, 2228196, 51018409, 'appbaseio/dejavu', 25, 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', 50, 7615, ['lakhansamani','ShahAnuj2610'], '2022-01-20T23:46:04.149527'),
 (1853, 2228196, 128275689, 'cchen156/Learning-to-See-in-the-Dark', 26, 'Learning to See in the Dark. CVPR 2018', 62, 5151, ['cchen156','Jason-Cooke'], '2022-01-20T23:46:05.653062'),
 (1854, 2228196, 168927777, 'Mtihc/bustabit-script-simulator', 27, 'Simulate running a script on bustabit', 6, 15, ['Mtihc'], '2022-01-20T23:46:07.076963'),
-(1856, 2228196, 286132785, 'lesmo/gitfolio', 29, ':octocat: personal website + blog for every github user', 0, 1, ['imfunniee','bcliden'], '2022-01-20T23:46:10.097917'),
 (1855, 2228196, 220872906, 'lesmo/wubbalubbadubdub', 28, 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', 3, 1, ['lesmo'], '2022-01-20T23:46:08.516'),
+(1856, 2228196, 286132785, 'lesmo/gitfolio', 29, ':octocat: personal website + blog for every github user', 0, 1, ['imfunniee','bcliden'], '2022-01-20T23:46:10.097917'),
 (1857, 43640229, 431928942, 'SVD6/Personal-Site', 0, 'My personal website.', 0, 1, ['SVD6'], '2022-01-20T23:50:52.331334'),
 (1858, 19617280, 364915295, 'prismicio/prismic-types', 0, 'Type definitions for Prismic related structure', 0, 7, ['angeloashmore','lihbr'], '2022-01-20T23:50:52.576354'),
 (1859, 43640229, 358749842, 'CarletonComputerScienceSociety/merged', 1, 'Web application for viewing all upcoming events in the Carleton CS community', 3, 2, ['MathyouMB','DamiAdesola'], '2022-01-20T23:50:52.888765'),
@@ -3679,9 +3679,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3633, 57305940, 212639071, 'bregman-arie/devops-exercises', 0, 'Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions', 13, 20410, ['bregman-arie','surister'], '2022-01-21T03:17:31.703361'),
 (3634, 349523, 141352703, 'smallstep/cli', 2, '🧰  A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.', 90, 2202, ['maraino','dopey'], '2022-01-21T03:17:31.977751'),
 (3635, 75340837, 311525798, 'microsoft/Web-Dev-For-Beginners', 3, '24 Lessons, 12 Weeks, Get Started as a Web Developer', 12, 40068, ['jlooper','San1ay'], '2022-01-21T03:17:33.186252'),
+(3636, 349523, 1232043, 'lucaminudel/TDDwithMockObjectsAndDesignPrinciples', 3, 'TDD with Mock Objects: Design Principles and Emergent Properties (C#, JavaScript, Java, Python, Ruby)', 16, 262, ['lucaminudel','wubin28'], '2022-01-21T03:17:33.342955'),
 (3637, 57305940, 47018239, 'DopplerHQ/awesome-interview-questions', 1, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', 3, 44802, ['MaksimAbramchuk','ryan-blunden'], '2022-01-21T03:17:33.662189'),
 (3638, 237133, 215623243, 'ralexander-phi/license_approval', 0, 'Track licenses and approvals', 0, 5, ['ralexander-phi'], '2022-01-21T03:17:34.282492'),
-(3636, 349523, 1232043, 'lucaminudel/TDDwithMockObjectsAndDesignPrinciples', 3, 'TDD with Mock Objects: Design Principles and Emergent Properties (C#, JavaScript, Java, Python, Ruby)', 16, 262, ['lucaminudel','wubin28'], '2022-01-21T03:17:33.342955'),
 (3639, 349523, 5244169, 'jwalter/Sniper', 4, 'Coding along while reading GOOS', 0, 1, ['jwalter'], '2022-01-21T03:17:34.594438'),
 (3640, 237133, 220650639, 'kt3k/license_checker', 1, 'GitHub Action for checking the license lines of the files in a repository', 0, 10, ['kt3k','petrspelos'], '2022-01-21T03:17:35.486812'),
 (3641, 349523, 4928122, 'jwalter/NotesApp', 5, null, 0, 1, ['jwalter'], '2022-01-21T03:17:35.953486'),
@@ -6538,8 +6538,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6487, 20134767, 97559842, 'bvaughn/react-error-boundary', 8, 'Simple reusable React error boundary component', 6, 3428, ['bvaughn','kentcdodds'], '2022-01-22T03:57:40.709279'),
 (6488, 58392246, 394559625, 'muhammaddzaky/mhdraihandzaky.net', 7, 'membuatwebsite', 0, 1, ['muhammaddzaky'], '2022-01-22T03:57:40.807684'),
 (6489, 44642314, 226202216, 'martinwoodward/smart-xmas', 11, 'Star this repo to add some sparkle to my tree', 0, 195, ['martinwoodward'], '2022-01-22T03:57:40.910727'),
-(6490, 1305623, 132489983, 'arduosoft/RawCMS', 5, 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', 37, 151, ['zeppaman','marcuson'], '2022-01-22T03:57:40.955901'),
 (6491, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 166, 339269, ['QuincyLarson','raisedadead'], '2022-01-22T03:57:40.965224'),
+(6490, 1305623, 132489983, 'arduosoft/RawCMS', 5, 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', 37, 151, ['zeppaman','marcuson'], '2022-01-22T03:57:40.955901'),
 (6492, 55982424, 55313340, 'shlomif/fortune-mod', 2, 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', 1, 212, ['shlomif','telometto'], '2022-01-22T03:57:40.97901'),
 (6493, 46643864, 184130597, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 0, 'Angular 11.0 Firebase App - Online School , Student Management App', 0, 141, ['AmitXShukla'], '2022-01-22T03:57:41.017394'),
 (6494, 1930729, 49704723, 'okonet/lint-staged', 15, '🚫💩 — Run linters on git staged files', 121, 9647, ['okonet','iiroj'], '2022-01-22T03:57:41.031621'),
