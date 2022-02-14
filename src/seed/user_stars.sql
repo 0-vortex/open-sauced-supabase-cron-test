@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T08:44:49.327Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T10:44:18.879Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4793,8 +4793,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4713, 25194960, 93192704, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 36, 3402, ['LukeSmithxyz','narukeh'], '2022-01-21T04:35:49.221576'),
 (4714, 28281924, 361044034, 'slidevjs/slidev', 6, 'Presentation Slides for Developers (Beta)', 60, 17852, ['antfu','nico-bachner'], '2022-01-21T04:35:49.228122'),
 (4715, 15052690, 381833558, 'ganning127/catti', 3, null, 0, 3, ['ganning127'], '2022-01-21T04:35:49.826497'),
-(4719, 28281924, 93808874, 'bxcodec/go-clean-arch', 7, 'Go (Golang) Clean Architecture based on Reading Uncle Bob''s Clean Architecture', 18, 5242, ['bxcodec','h4yfans'], '2022-01-21T04:35:50.905265'),
 (4716, 3777549, 251039251, 'phuoc-ng/1loc', 7, 'What''s your favorite JavaScript single LOC (line of code)?', 38, 5215, ['phuoc-ng','robinpokorny'], '2022-01-21T04:35:50.358634'),
+(4717, 36890230, 30969188, 'react-boilerplate/react-boilerplate', 6, ':fire: A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.', 87, 28217, ['mxstbr','julienben'], '2022-01-21T04:35:50.55728'),
+(4718, 25194960, 3282, 'preservim/nerdtree', 9, 'A tree explorer plugin for vim.', 24, 16531, ['scrooloose','PhilRunninger'], '2022-01-21T04:35:50.586328'),
+(4719, 28281924, 93808874, 'bxcodec/go-clean-arch', 7, 'Go (Golang) Clean Architecture based on Reading Uncle Bob''s Clean Architecture', 18, 5242, ['bxcodec','h4yfans'], '2022-01-21T04:35:50.905265'),
 (4720, 15052690, 302250883, 'marcduiker/azure-functions-university', 4, 'Repository with training material to learn all about Azure Functions <⚡>', 18, 222, ['marcduiker','StacyCash'], '2022-01-21T04:35:51.253008'),
 (4721, 3777549, 172162514, 'bucky355/vue-wordpress', 8, 'Use Vue.js and the WP REST API to build WordPress themes as SPAs with dynamic routing, HMR for development, SEO enabled, and SSR capable. Demo:', 34, 442, ['bucky355'], '2022-01-21T04:35:51.546349'),
 (4722, 36890230, 93947448, 'twintproject/twint', 7, 'An advanced Twitter scraping & OSINT tool written in Python that doesn''t use Twitter''s API, allowing you to scrape a user''s followers, following, Tweets and more while evading most API limitations.', 523, 12323, ['pielco11','haccer'], '2022-01-21T04:35:51.837594'),
@@ -5300,8 +5302,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5292, 351693, 289188530, 'reptilex/tesla-style-solar-power-card', 18, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', 18, 96, ['reptilex','dgomes'], '2022-01-21T05:22:29.096004'),
 (5293, 6241164, 266309514, 'stackrole/gatsby-starter-foundation', 22, 'A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole', 4, 200, ['stackrole-dev','sksameer204'], '2022-01-21T05:22:30.207676'),
 (5294, 351693, 76020516, 'Mimetis/Dotmim.Sync', 19, 'A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0. https://dotmimsync.readthedocs.io/', 11, 510, ['Mimetis','vunder'], '2022-01-21T05:22:30.360018'),
-(4717, 36890230, 30969188, 'react-boilerplate/react-boilerplate', 6, ':fire: A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.', 87, 28217, ['mxstbr','julienben'], '2022-01-21T04:35:50.55728'),
-(4718, 25194960, 3282, 'preservim/nerdtree', 9, 'A tree explorer plugin for vim.', 24, 16531, ['scrooloose','PhilRunninger'], '2022-01-21T04:35:50.586328'),
 (5295, 16259450, 98029592, 'ziishaned/learn-regex', 25, 'Learn regex the easy way', 56, 40394, ['ziishaned','bueltge'], '2022-01-21T05:22:30.759855'),
 (5296, 6241164, 91537893, 'samyk/easel-driver', 23, 'Easel driver for Linux, Mac, Windows, ARM, Raspberry Pi, Intel, FTDI, CH340, CH341, FTDI clones, local, and remote access to GRBL-based CNC controllers', 1, 66, ['samyk','acavella'], '2022-01-21T05:22:31.364318'),
 (5297, 351693, 249563107, 'wouterst79/FluidSharp', 20, 'FluidSharp is a high performance mobile first multi-platform UI layout framework based on Skia.', 0, 17, ['wouterst79','wouterattoptal'], '2022-01-21T05:22:31.531748'),
