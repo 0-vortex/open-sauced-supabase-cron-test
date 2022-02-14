@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T22:44:43.911Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T01:03:05.704Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4658,6 +4658,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4577, 667716, 277057483, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 11, 996, ['apparition47','danieldickison'], '2022-01-21T04:11:39.756254'),
 (4578, 46828701, 32787174, 'grommet/grommet', 25, 'a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package', 190, 7746, ['ericsoderberghp','alansouzati'], '2022-01-21T04:11:39.920146'),
 (4579, 13490604, 77369463, 'James-Yu/LaTeX-Workshop', 27, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8084, ['jlelong','tamuratak'], '2022-01-21T04:11:40.137322'),
+(4580, 667716, 5543112, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 146, 3132, ['jcs','pushcx'], '2022-01-21T04:11:41.114052'),
 (4581, 46828701, 98315735, 'downshift-js/downshift', 26, '🏎 A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete, combobox or select dropdown components.', 89, 10254, ['kentcdodds','silviuaavram'], '2022-01-21T04:11:41.24096'),
 (4582, 13490604, 53597382, 'learnbyexample/scripting_course', 28, ':notebook: Books, reference guides and resources on Regular Expressions, CLI one-liners, Scripting Languages and Vim.', 0, 993, ['learnbyexample','gitter-badger'], '2022-01-21T04:11:41.326983'),
 (4583, 667716, 177423398, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 90, ['getify','kaykayehnn'], '2022-01-21T04:11:42.552297'),
@@ -4887,13 +4888,12 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4808, 15052690, 346051525, 'CodingMoore/soil-ent-green-python', 27, null, 0, 1, ['CodingMoore'], '2022-01-21T04:36:31.640988'),
 (4809, 15052690, 347154449, 'CodingMoore/soil-ent-green-react-v2', 28, null, 1, 1, ['CodingMoore'], '2022-01-21T04:36:33.102231'),
 (4810, 15052690, 346534675, 'bitprj/Intro-To-Serverless', 29, 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', 0, 23, ['emsesc','ganning127'], '2022-01-21T04:36:34.67666'),
-(4580, 667716, 5543112, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 146, 3132, ['jcs','pushcx'], '2022-01-21T04:11:41.114052'),
 (4880, 211851, 54173593, 'storybookjs/storybook', 17, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1640, 68231, ['shilman','ndelangen'], '2022-01-21T04:47:50.090389'),
 (4881, 3941126, 14747598, 'typicode/json-server', 17, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', 610, 59154, ['typicode','bahmutov'], '2022-01-21T04:47:50.355713'),
 (4882, 1884246, 369393119, 'zoneop/domans1', 19, null, 0, 1, ['zoneop'], '2022-01-21T04:47:50.747188'),
 (4883, 527550, 6899875, 'opf/openproject', 16, 'OpenProject is the leading open source project management software.', 34, 5418, ['oliverguenther','ulferts'], '2022-01-21T04:47:50.88866'),
-(4887, 1884246, 369443375, 'marcussaw123/something-idk', 20, null, 0, 1, ['marcussaw123'], '2022-01-21T04:47:51.942048'),
 (4884, 211851, 30200039, 'osano/cookieconsent', 18, 'A free solution to the EU, GDPR, and California Cookie Laws', 80, 3042, ['alexmorleyfinch','piiupilt'], '2022-01-21T04:47:51.324767'),
+(4887, 1884246, 369443375, 'marcussaw123/something-idk', 20, null, 0, 1, ['marcussaw123'], '2022-01-21T04:47:51.942048'),
 (4888, 527550, 53410008, 'wearefriday/spectre', 17, 'A simple UI for browsing and inspecting diffs, and an API for runner scripts to submit screenshots to and receive a pass or fail in real time. (For use with Wraith, Backstop, Selenium etc)', 26, 448, ['nickdunn','fionnbharra'], '2022-01-21T04:47:52.352075'),
 (4889, 211851, 31024027, 'adamwulf/app-launch-guide', 19, 'This aims to be an indie dev''s definitive guide to building and launching your app, including pre-launch, marketing, building, QA, buzz building, and launch. More info at:', 8, 3867, ['adamwulf','douglashill'], '2022-01-21T04:47:52.849598'),
 (4890, 1884246, 345110055, 'Milrato-Development/Milrato', 21, 'The official Repository for MILRATO | invite: https://dc.milrato.eu', 0, 15, ['Tomato6966'], '2022-01-21T04:47:53.095548'),
@@ -5911,8 +5911,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5900, 622115, 34039690, 'apache/groovy', 21, 'Apache Groovy: A powerful multi-faceted programming language for the JVM platform', 22, 4399, ['paulk-asert','danielsun1106'], '2022-01-21T05:56:39.585329'),
 (5901, 67872399, 137912077, 'gatsbyjs/store.gatsbyjs.org', 27, 'The Gatsby store for swag and other Gatsby goodies.', 31, 569, ['fk','jlengstorf'], '2022-01-21T05:56:40.065107'),
 (5902, 29888641, 208779429, 'gitpod-io/leeway', 17, 'Leeway is a heavily caching build system for Go, Typescript and Docker projects.', 12, 79, ['csweichel','aledbf'], '2022-01-21T05:56:40.394144'),
-(5903, 622115, 22336000, 'Pragmatists/JUnitParams', 22, 'Parameterised tests that don''t suck', 35, 853, ['plipinski','woprzech'], '2022-01-21T05:56:40.833183'),
 (5904, 67872399, 323120066, 'An-prog-hub/human-pose-estimation', 28, null, 0, 1, ['An-prog-hub'], '2022-01-21T05:56:41.289599'),
+(5903, 622115, 22336000, 'Pragmatists/JUnitParams', 22, 'Parameterised tests that don''t suck', 35, 853, ['plipinski','woprzech'], '2022-01-21T05:56:40.833183'),
 (5905, 29888641, 341816758, 'mrousavy/react-native-mmkv', 19, '⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!', 22, 1472, ['mrousavy','janicduplessis'], '2022-01-21T05:56:42.060243'),
 (5906, 622115, 29102367, 'junit-team/junit5', 23, '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', 140, 4961, ['sbrannen','marcphilipp'], '2022-01-21T05:56:42.190819'),
 (5907, 29888641, 379762817, 'expo/config-plugins', 20, 'Out-of-tree Expo config plugins for packages that haven''t adopted the config plugin system yet.', 4, 73, ['EvanBacon','Kerumen'], '2022-01-21T05:56:43.382651'),
@@ -8725,9 +8725,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8639, 203683, 17967200, 'ngryman/reading-time', 23, ':books: Medium''s like reading time estimation.', 5, 1059, ['ngryman','Josh-Cena'], '2022-01-22T09:58:33.326814'),
 (8640, 55982424, 293860197, 'lowlighter/metrics', 21, '📊 An infographics generator with 30+ plugins and 200+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!', 11, 4896, ['lowlighter','Nixinova'], '2022-01-22T09:58:33.411065'),
 (8641, 29004466, 137724480, 'hasura/graphql-engine', 19, 'Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.', 1742, 25248, ['rikinsk','rakeshkky'], '2022-01-22T09:58:33.953472'),
+(8642, 55982424, 45978340, 'SathishGajendran/Board', 22, ' A simple paint PWA https://sathishgajendran.github.io/Board', 0, 2, ['SathishGajendran'], '2022-01-22T09:58:34.838629'),
 (8643, 203683, 136829328, 'jbarratt/lambdadb', 25, 'Serverless experiment: embedding a database', 0, 3, ['jbarratt'], '2022-01-22T09:58:34.956231'),
 (8644, 29004466, 173286031, 'input-output-hk/cardano-wallet', 20, 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', 78, 599, ['KtorZ','jonathanknowles'], '2022-01-22T09:58:35.129878'),
-(8642, 55982424, 45978340, 'SathishGajendran/Board', 22, ' A simple paint PWA https://sathishgajendran.github.io/Board', 0, 2, ['SathishGajendran'], '2022-01-22T09:58:34.838629'),
 (8645, 55982424, 351632872, 'jcv8000/Codex', 23, 'A free note-taking software for programmers and Computer Science students', 4, 122, ['jcv8000'], '2022-01-22T09:58:35.921947'),
 (8646, 203683, 78417495, 'notrab/create-react-app-redux', 26, 'React Router, Redux, Redux Thunk & Create React App boilerplate', 7, 906, ['renovate-bot','notrab'], '2022-01-22T09:58:36.092055'),
 (8647, 55982424, 175405157, 'JanDeDobbeleer/oh-my-posh', 24, 'A prompt theme engine for any shell.', 28, 4116, ['JanDeDobbeleer','lnu'], '2022-01-22T09:58:37.405818'),
