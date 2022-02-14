@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T06:46:51.810Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T08:44:49.327Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2542,6 +2542,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2494, 44642314, 226202216, 'martinwoodward/smart-xmas', 11, 'Star this repo to add some sparkle to my tree', 0, 195, ['martinwoodward'], '2022-01-21T00:19:31.332108'),
 (2495, 71297412, 112150776, '11ty/eleventy', 20, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 445, 11183, ['zachleat','MadeByMike'], '2022-01-21T00:19:32.491196'),
 (2496, 44642314, 135363400, 'ros-planning/navigation2', 12, 'ROS2 Navigation Framework and System', 68, 795, ['SteveMacenski','bpwilcox'], '2022-01-21T00:19:32.720341'),
+(2497, 44642314, 80216474, 'ClementPinard/FlowNetPytorch', 13, 'Pytorch implementation of FlowNet by Dosovitskiy et al.', 12, 699, ['ClementPinard','mickaelseznec'], '2022-01-21T00:19:34.042937'),
 (2498, 71297412, 350383594, 'oasis-sh/oasis', 21, 'The chat and forums platform for communities', 24, 245, ['heybereket','HenryLeC'], '2022-01-21T00:19:34.267891'),
 (2499, 71297412, 273497516, 'bradtraversy/storybooks', 22, 'Node.js app with Google OAuth', 21, 388, ['bradtraversy','mellonis'], '2022-01-21T00:19:35.696316'),
 (2500, 71297412, 71858896, 'alecortega/portfolio-template', 23, 'A template to get started with your next portfolio README', 0, 65, [], '2022-01-21T00:19:37.133465'),
@@ -2870,7 +2871,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2860, 59651629, 210332258, 'hasura/learn-graphql', 9, 'Real world GraphQL tutorials for frontend developers with deadlines!', 21, 818, ['praveenweb','Yagger'], '2022-01-21T01:38:05.23704'),
 (2861, 1305623, 157736989, 'rafaelfgx/DotNetCore', 7, '.NET 6 Nuget Packages.', 0, 253, ['rafaelfgx'], '2022-01-21T01:38:05.298406'),
 (2862, 45036724, 96451164, 'sdras/intro-to-vue', 10, 'Workshop Materials for my Introduction to Vue.js Workshop', 114, 2679, ['sdras','1Marc'], '2022-01-21T01:38:05.688723'),
-(2497, 44642314, 80216474, 'ClementPinard/FlowNetPytorch', 13, 'Pytorch implementation of FlowNet by Dosovitskiy et al.', 12, 699, ['ClementPinard','mickaelseznec'], '2022-01-21T00:19:34.042937'),
 (2863, 4386534, 343520006, 'joehillen/sysz', 7, 'An fzf  terminal UI for systemctl', 2, 1167, ['joehillen','NullSense'], '2022-01-21T01:38:05.828079'),
 (2864, 35779241, 242139417, 'laurentS/slowapi', 7, 'A rate limiter for Starlette and FastAPI', 18, 366, ['laurentS','Rested'], '2022-01-21T01:38:06.267163'),
 (2865, 59651629, 57239556, 'ngx-rocket/generator-ngx-rocket', 10, ':rocket: Extensible Angular 13+ enterprise-grade project generator', 36, 1436, ['sinedied','captaincaius'], '2022-01-21T01:38:06.802718'),
@@ -4793,10 +4793,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4713, 25194960, 93192704, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 36, 3402, ['LukeSmithxyz','narukeh'], '2022-01-21T04:35:49.221576'),
 (4714, 28281924, 361044034, 'slidevjs/slidev', 6, 'Presentation Slides for Developers (Beta)', 60, 17852, ['antfu','nico-bachner'], '2022-01-21T04:35:49.228122'),
 (4715, 15052690, 381833558, 'ganning127/catti', 3, null, 0, 3, ['ganning127'], '2022-01-21T04:35:49.826497'),
-(4716, 3777549, 251039251, 'phuoc-ng/1loc', 7, 'What''s your favorite JavaScript single LOC (line of code)?', 38, 5215, ['phuoc-ng','robinpokorny'], '2022-01-21T04:35:50.358634'),
-(4717, 36890230, 30969188, 'react-boilerplate/react-boilerplate', 6, ':fire: A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.', 87, 28217, ['mxstbr','julienben'], '2022-01-21T04:35:50.55728'),
-(4718, 25194960, 3282, 'preservim/nerdtree', 9, 'A tree explorer plugin for vim.', 24, 16531, ['scrooloose','PhilRunninger'], '2022-01-21T04:35:50.586328'),
 (4719, 28281924, 93808874, 'bxcodec/go-clean-arch', 7, 'Go (Golang) Clean Architecture based on Reading Uncle Bob''s Clean Architecture', 18, 5242, ['bxcodec','h4yfans'], '2022-01-21T04:35:50.905265'),
+(4716, 3777549, 251039251, 'phuoc-ng/1loc', 7, 'What''s your favorite JavaScript single LOC (line of code)?', 38, 5215, ['phuoc-ng','robinpokorny'], '2022-01-21T04:35:50.358634'),
 (4720, 15052690, 302250883, 'marcduiker/azure-functions-university', 4, 'Repository with training material to learn all about Azure Functions <⚡>', 18, 222, ['marcduiker','StacyCash'], '2022-01-21T04:35:51.253008'),
 (4721, 3777549, 172162514, 'bucky355/vue-wordpress', 8, 'Use Vue.js and the WP REST API to build WordPress themes as SPAs with dynamic routing, HMR for development, SEO enabled, and SSR capable. Demo:', 34, 442, ['bucky355'], '2022-01-21T04:35:51.546349'),
 (4722, 36890230, 93947448, 'twintproject/twint', 7, 'An advanced Twitter scraping & OSINT tool written in Python that doesn''t use Twitter''s API, allowing you to scrape a user''s followers, following, Tweets and more while evading most API limitations.', 523, 12323, ['pielco11','haccer'], '2022-01-21T04:35:51.837594'),
@@ -5302,6 +5300,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5292, 351693, 289188530, 'reptilex/tesla-style-solar-power-card', 18, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', 18, 96, ['reptilex','dgomes'], '2022-01-21T05:22:29.096004'),
 (5293, 6241164, 266309514, 'stackrole/gatsby-starter-foundation', 22, 'A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole', 4, 200, ['stackrole-dev','sksameer204'], '2022-01-21T05:22:30.207676'),
 (5294, 351693, 76020516, 'Mimetis/Dotmim.Sync', 19, 'A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0. https://dotmimsync.readthedocs.io/', 11, 510, ['Mimetis','vunder'], '2022-01-21T05:22:30.360018'),
+(4717, 36890230, 30969188, 'react-boilerplate/react-boilerplate', 6, ':fire: A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.', 87, 28217, ['mxstbr','julienben'], '2022-01-21T04:35:50.55728'),
+(4718, 25194960, 3282, 'preservim/nerdtree', 9, 'A tree explorer plugin for vim.', 24, 16531, ['scrooloose','PhilRunninger'], '2022-01-21T04:35:50.586328'),
 (5295, 16259450, 98029592, 'ziishaned/learn-regex', 25, 'Learn regex the easy way', 56, 40394, ['ziishaned','bueltge'], '2022-01-21T05:22:30.759855'),
 (5296, 6241164, 91537893, 'samyk/easel-driver', 23, 'Easel driver for Linux, Mac, Windows, ARM, Raspberry Pi, Intel, FTDI, CH340, CH341, FTDI clones, local, and remote access to GRBL-based CNC controllers', 1, 66, ['samyk','acavella'], '2022-01-21T05:22:31.364318'),
 (5297, 351693, 249563107, 'wouterst79/FluidSharp', 20, 'FluidSharp is a high performance mobile first multi-platform UI layout framework based on Skia.', 0, 17, ['wouterst79','wouterattoptal'], '2022-01-21T05:22:31.531748'),
@@ -8001,6 +8001,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10142, 4381106, 70777180, 'Foundry376/Mailspring', 13, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12089, ['bengotow','emorikawa'], '2022-01-22T11:46:30.235719'),
 (10143, 667716, 10851820, 'ramda/ramda', 13, ':ram: Practical functional Javascript', 227, 21591, ['buzzdecafe','davidchambers'], '2022-01-22T11:46:30.506461'),
 (7928, 1930729, 32623292, 'basarat/typescript-book', 2, ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', 141, 16442, ['basarat','Marketionist'], '2022-01-22T09:15:38.89727'),
+(7929, 12410942, 5219382, 'rack/rack-attack', 3, 'Rack middleware for blocking & throttling', 16, 5034, ['grzuy','ktheory'], '2022-01-22T09:15:39.889776'),
 (7930, 4910518, 394663818, 'NickLiffen/ghas-enablement', 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', 3, 21, ['NickLiffen','LamarrD'], '2022-01-22T09:15:39.993363'),
 (7931, 26007940, 374950494, 'lkrryba/weekly-web-dev-challenge-poll', 3, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', 6, 43, ['lkrryba','DoubleNemesis'], '2022-01-22T09:15:40.274384'),
 (7932, 29417643, 24195339, 'angular/angular', 3, 'The modern web developer’s platform', 1877, 79111, ['gkalpak','petebacondarwin'], '2022-01-22T09:15:40.468867'),
@@ -8008,7 +8009,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7934, 4910518, 153500249, 'sdras/awesome-actions', 4, 'A curated list of awesome actions to use on GitHub', 90, 17108, ['gep13','sdras'], '2022-01-22T09:15:41.302362'),
 (7935, 1930729, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84517, ['ry','Trott'], '2022-01-22T09:15:41.529419'),
 (7936, 29417643, 26573009, 'semmypurewal/BeginningJavaScript', 4, 'This repo contains the examples, notes and problems for my O''Reilly video ''Beginning Programming with JavaScript''', 11, 176, ['semmypurewal'], '2022-01-22T09:15:41.670493'),
-(7929, 12410942, 5219382, 'rack/rack-attack', 3, 'Rack middleware for blocking & throttling', 16, 5034, ['grzuy','ktheory'], '2022-01-22T09:15:39.889776'),
 (7937, 26007940, 13812337, 'osmlab/name-suggestion-index', 4, 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', 100, 450, ['bhousel','kjonosm'], '2022-01-22T09:15:41.757787'),
 (7938, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1501, ['kevquirk','bobdenotter'], '2022-01-22T09:15:42.39694'),
 (7939, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-22T09:15:42.98353'),
