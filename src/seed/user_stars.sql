@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T10:44:18.879Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T12:50:25.705Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10973,8 +10973,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10963, 40713709, 6662075, 'joke2k/faker', 9, 'Faker is a Python package that generates fake data for you.', 172, 13576, ['fcurella','joke2k'], '2022-01-22T13:06:19.317298'),
 (10964, 38838958, 218586796, 'Lambda3/Simple.Bus', 10, 'A simple way to receive and send message to Azure Service Bus and RabbitMq', 1, 14, ['willsbctm','giggio'], '2022-01-22T13:06:19.845089'),
 (10965, 3846874, 221981891, 'microsoft/playwright', 10, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 378, 32582, ['pavelfeldman','dgozman'], '2022-01-22T13:06:20.498385'),
-(10966, 40713709, 365257282, 'sk1122/Bayze-Kanban', 10, 'Bayze - Manage your tasks like a Pro. Create Boards, Sort Tasks, Invite Team Members ', 0, 1, [], '2022-01-22T13:06:20.878831'),
 (10967, 38838958, 17845967, 'DevelopersPL/otshosting-provisioning', 11, 'Ansible playbook to provision OTS Hosting on Ubuntu 20.04', 1, 24, ['DSpeichert','Dzanar'], '2022-01-22T13:06:21.329719'),
+(10966, 40713709, 365257282, 'sk1122/Bayze-Kanban', 10, 'Bayze - Manage your tasks like a Pro. Create Boards, Sort Tasks, Invite Team Members ', 0, 1, [], '2022-01-22T13:06:20.878831'),
 (10968, 3846874, 958314, 'remy/nodemon', 11, 'Monitor for any changes in your node.js application and automatically restart the server - perfect for development', 40, 23505, ['remy','ChrisWren'], '2022-01-22T13:06:22.162283'),
 (10969, 40713709, 338348248, 'benawad/dogehouse', 11, 'Taking voice conversations to the moon 🚀', 232, 9195, ['benawad','amitojsingh366'], '2022-01-22T13:06:22.468171'),
 (10970, 38838958, 223212938, 'alura-cursos/kafka-introducao-e-microservicos', 12, null, 0, 57, ['guilhermesilveira'], '2022-01-22T13:06:22.639096'),
