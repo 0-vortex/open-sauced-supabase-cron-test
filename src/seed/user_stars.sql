@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T16:49:33.503Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T18:45:56.771Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3783,6 +3783,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3736, 1431853, 72365213, 'ahmadajmi/itcss', 3, '🐯 ITCSS code example', 0, 24, ['ahmadajmi'], '2022-01-21T03:28:00.49901'),
 (3737, 8037469, 291779008, 'get-woke/woke', 5, 'Detect non-inclusive language in your source code.', 15, 298, ['caitlinelfring','cognitivegears'], '2022-01-21T03:28:00.511245'),
 (3738, 57017587, 396038596, 'Liberontissauri/Ball-Physics-With-TypeScript', 4, '🏐 An experiment to try to recreate the physics of jumping balls with typescript and vector js', 0, 1, ['Liberontissauri'], '2022-01-21T03:28:00.51249'),
+(3739, 49351279, 16986405, 'liabru/matter-js', 2, 'a 2D rigid body physics engine for the web ▲● ■', 196, 12675, ['liabru','PlNG'], '2022-01-21T03:28:00.679236'),
 (3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
 (3741, 1431853, 230334310, 'accessible-ui/accordion', 4, '🅰 An accessible and versatile accordion for React with keyboard navigation and labeling features taught in w3.org''s WAI-ARIA accordion best practices example', 7, 6, ['jaredLunde'], '2022-01-21T03:28:01.891244'),
 (3742, 8037469, 299712981, 'raycast/script-commands', 6, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', 2, 3008, ['raycastbot','unnamedd'], '2022-01-21T03:28:01.891643'),
@@ -3817,7 +3818,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3771, 57017587, 228118187, 'BrandonArmand/Binari', 11, 'Interactive code editor with a live binary tree visual designed to teach new developers the fundamentals of dynamic programming.', 13, 89, ['BrandonArmand','NKaty'], '2022-01-21T03:28:12.140327'),
 (3772, 33669114, 261283923, 'osohq/oso', 9, 'Oso is a batteries-included framework for building authorization in your application.', 71, 2034, ['gj','saolsen'], '2022-01-21T03:28:12.320277'),
 (3773, 8037469, 304344049, 'sveltejs/kit', 13, 'The fastest way to build Svelte apps', 369, 6601, ['Rich-Harris','benmccann'], '2022-01-21T03:28:12.503056'),
-(3739, 49351279, 16986405, 'liabru/matter-js', 2, 'a 2D rigid body physics engine for the web ▲● ■', 196, 12675, ['liabru','PlNG'], '2022-01-21T03:28:00.679236'),
 (3774, 1431853, 180418592, 'molefrog/wouter', 11, '🥢 A minimalist-friendly ~1.5KB routing for React and Preact. Nothing else but HOOKS.', 12, 3798, ['molefrog','cbbfcd'], '2022-01-21T03:28:12.532074'),
 (3775, 49351279, 348060227, 'snowpackjs/astro', 7, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:28:12.776175'),
 (3776, 33669114, 301482830, 'policy-hub/policy-hub-cli', 10, 'CLI for searching Rego policies', 6, 98, ['Blokje5','xchapter7x'], '2022-01-21T03:28:13.499276'),
@@ -4576,8 +4576,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4496, 38725511, 367855379, 'sanjoli30/ExpandingCards', 6, 'This is a webpage where some pictures are displayed in form of cards which expands when the user clicks on them. ', 0, 1, ['sanjoli30'], '2022-01-21T04:11:08.718507'),
 (4497, 13490604, 71359796, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:09.473799'),
 (4498, 46828701, 152873434, 'NaturalCycles/dev-lib', 3, 'Configuration files and scripts shared between all js modules', 0, 3, ['kirillgroshkov','semantic-release-bot'], '2022-01-21T04:11:09.780927'),
-(4499, 667716, 285998667, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 250, ['keiya01','JulienBlacas'], '2022-01-21T04:11:10.220394'),
 (4500, 38725511, 82289483, 'moleculerjs/moleculer', 7, ':rocket: Progressive microservices framework for Node.js', 85, 4922, ['icebob','AndreMaz'], '2022-01-21T04:11:10.376269'),
+(4499, 667716, 285998667, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 250, ['keiya01','JulienBlacas'], '2022-01-21T04:11:10.220394'),
 (4501, 46828701, 70137417, 'corda/corda', 4, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', 235, 3794, ['Clintonio','exFalso'], '2022-01-21T04:11:10.57307'),
 (4502, 13490604, 351298555, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3413, ['tnylea','bobbyiliev'], '2022-01-21T04:11:10.961676'),
 (4503, 667716, 21978103, 'scottaohara/accessible_components', 6, 'Listing of accessible components & patterns', 0, 452, ['scottaohara','kethinov'], '2022-01-21T04:11:11.685429'),
@@ -4591,8 +4591,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4547, 13490604, 308573793, 'testsmt/yinyang', 18, 'A fuzzing framework for SMT solvers', 12, 125, ['wintered','muchang'], '2022-01-21T04:11:26.90209'),
 (4511, 38725511, 201912783, 'burkesquires/tech-books-library', 9, '📚e-books in PDF and ePub formats across a wide range of technology stacks and topics', 0, 827, ['ahmadassaf'], '2022-01-21T04:11:14.899064'),
 (4512, 667716, 62367558, 'vercel/hyper', 8, 'A terminal built on web technologies', 745, 37716, ['rauchg','LabhanshAgrawal'], '2022-01-21T04:11:15.223675'),
-(4514, 13490604, 36021747, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 22, 4090, ['pdubroy','alexwarth'], '2022-01-21T04:11:15.558682'),
 (4513, 46828701, 7548246, 'a11yproject/a11yproject.com', 7, 'The A11Y Project is a community-driven effort to make digital accessibility easier.', 47, 3453, ['ericwbailey','davatron5000'], '2022-01-21T04:11:15.471415'),
+(4514, 13490604, 36021747, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 22, 4090, ['pdubroy','alexwarth'], '2022-01-21T04:11:15.558682'),
 (4515, 38725511, 246241699, 'alexgurr/react-coding-challenges', 10, 'A series of ReactJS coding challenges with a variety of difficulties. ', 3, 1697, ['alexgurr','evans'], '2022-01-21T04:11:16.33968'),
 (4516, 667716, 236226196, 'springload/react-accessible-headings', 9, 'Makes it easier to keep heading levels semantic and accessible (WCAG)', 0, 21, ['holloway','twhitbeck'], '2022-01-21T04:11:16.710939'),
 (4517, 46828701, 315005960, 'KittyGiraudel/react-a11y-footnotes', 8, 'A reusable React implementation of accessible footnotes.', 1, 19, ['KittyGiraudel'], '2022-01-21T04:11:17.044925'),
@@ -7621,6 +7621,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7604, 7293310, 187916430, 'muety/wakapi', 21, '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics', 21, 678, ['muety','YC'], '2022-01-22T08:45:38.542535'),
 (7605, 1645545, 281297416, 'adityatelange/hugo-PaperMod', 21, 'A fast, clean, responsive Hugo theme.', 39, 2645, ['adityatelange','nanxiaobei'], '2022-01-22T08:45:38.936533'),
 (7606, 43814157, 127553476, 'rust-embedded/rust-raspberrypi-OS-tutorials', 23, ':books: Learn to write an embedded OS in Rust :crab:', 0, 7524, ['andre-richter','rahealy'], '2022-01-22T08:45:39.299332'),
+(7607, 2480219, 184754654, 'asamuzaK/webext-schema', 22, 'WebExtensions schemas fetched from hg.mozilla.org', 0, 1, ['asamuzaK'], '2022-01-22T08:45:39.496655'),
 (7608, 7293310, 289523918, 'ryo-ma/github-profile-trophy', 22, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', 24, 2033, ['ryo-ma','spenserblack'], '2022-01-22T08:45:40.090011'),
 (7609, 1645545, 11762897, 'golismero/golismero', 22, 'GoLismero - The Web Knife', 27, 779, ['MarioVilas','cr0hn'], '2022-01-22T08:45:40.137497'),
 (7611, 43814157, 114466145, 'yewstack/yew', 24, 'Rust / Wasm framework for building client web apps', 93, 18755, ['DenisKolodin','jstarry'], '2022-01-22T08:45:40.74312'),
@@ -7921,8 +7922,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7883, 289882, 8514, 'rails/rails', 13, 'Ruby on Rails', 599, 49954, ['rafaelfranca','tenderlove'], '2022-01-22T09:06:38.267619'),
 (7884, 17373317, 961036, 'hibernate/hibernate-orm', 18, 'Hibernate''s core Object/Relational Mapping functionality', 176, 4844, ['sebersole','dreab8'], '2022-01-22T09:06:39.027428'),
 (7885, 505751, 389078015, 'reactivedoc/poc', 21, null, 0, 2, ['KengoTODA'], '2022-01-22T09:06:39.596738'),
-(7887, 505751, 227803815, 'returntocorp/semgrep', 22, 'Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.', 290, 5778, ['aryx','brendongo'], '2022-01-22T09:06:40.97194'),
 (7886, 289882, 36470617, 'smpallen99/ex_admin', 14, 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', 135, 1189, ['smpallen99','romul'], '2022-01-22T09:06:40.232549'),
+(7887, 505751, 227803815, 'returntocorp/semgrep', 22, 'Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.', 290, 5778, ['aryx','brendongo'], '2022-01-22T09:06:40.97194'),
 (7888, 17373317, 1103607, 'jenkinsci/jenkins', 19, 'Jenkins automation server', 78, 18346, ['kohsuke','jglick'], '2022-01-22T09:06:41.024034'),
 (7889, 289882, 44623798, 'ASoftCo/leaky-gems', 15, 'A list of Ruby gems that have known memory leaks (and issues)', 1, 901, ['sergey-alekseev','benoittgt'], '2022-01-22T09:06:41.699797'),
 (7890, 505751, 125225914, 'reactiverse/es4x', 23, '🚀 fast JavaScript 4 Eclipse Vert.x', 40, 774, ['pmlopes','chengenzhao'], '2022-01-22T09:06:42.127469'),
@@ -8057,7 +8058,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7982, 1930729, 27971466, 'browserslist/browserslist', 17, '🦔 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env', 33, 10163, ['ai','AleshaOleg'], '2022-01-22T09:16:00.484559'),
 (7983, 12410942, 360794368, 'hschne/rails-mini-profiler', 20, 'Performance profiling for Rails, made simple 🦔', 12, 359, ['hschne','olleolleolle'], '2022-01-22T09:16:01.592025'),
 (7984, 26007940, 232429429, 'PizzaPokerGuy/ultimate-coding-resources', 20, 'A collection of the best resources for programming, web development, computer science and more.', 0, 3067, ['PizzaPokerGuy','samedwards1989'], '2022-01-22T09:16:01.926162'),
-(7607, 2480219, 184754654, 'asamuzaK/webext-schema', 22, 'WebExtensions schemas fetched from hg.mozilla.org', 0, 1, ['asamuzaK'], '2022-01-22T08:45:39.496655'),
 (7985, 1930729, 11481338, 'zloirock/core-js', 18, 'Standard Library', 21, 16097, ['zloirock','slowcheetah'], '2022-01-22T09:16:01.982182'),
 (7986, 12410942, 93502827, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 400, ['palkan','caalberts'], '2022-01-22T09:16:03.026948'),
 (7987, 1930729, 84238782, 'sapegin/jest-cheat-sheet', 19, 'Jest cheat sheet', 0, 4352, ['sapegin','bjoluc'], '2022-01-22T09:16:03.173562'),
