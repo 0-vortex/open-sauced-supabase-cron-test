@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T20:44:20.528Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T22:44:24.552Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1796,8 +1796,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1787, 88631894, 335819337, 'MonkeDev/API-bot', 0, 'The bot we use to manage our API.', 0, 1, ['Mafia-7777','BurnedBed'], '2022-01-20T23:37:25.801101'),
 (1788, 2228196, 396169668, 'lesmo/pinentry-wsl-ps1', 1, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 0, 1, ['diablodale'], '2022-01-20T23:37:26.323529'),
 (1789, 20374545, 334465533, 'Leonardo-Borba/auction-assistant', 0, 'A bot to monitor MGT auctions and do automatic bids', 0, 1, ['Leonardo-Borba'], '2022-01-20T23:37:26.656009'),
-(1790, 2228196, 121394755, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 65, ['diablodale'], '2022-01-20T23:37:26.980644'),
 (1791, 2228196, 292232897, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 8, 171, ['frederikme','acarter881'], '2022-01-20T23:37:28.634801'),
+(1790, 2228196, 121394755, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 65, ['diablodale'], '2022-01-20T23:37:26.980644'),
 (1792, 2228196, 127577160, 'jeffmli/TinderAutomation', 4, null, 9, 518, ['jeffmli'], '2022-01-20T23:37:29.298704'),
 (1793, 2228196, 270069811, 'lesmo/kms-cloud', 5, '''Nube'' de la extinta startup KMS', 0, 1, ['lesmo'], '2022-01-20T23:37:29.974348'),
 (1794, 2228196, 370005059, 'lesmo/LesmoMovies', 6, null, 0, 1, ['lesmo'], '2022-01-20T23:37:30.894993'),
@@ -3289,9 +3289,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3244, 66239105, 6498492, 'airbnb/javascript', 11, 'JavaScript Style Guide', 137, 118481, ['ljharb','hshoff'], '2022-01-21T02:45:53.895817'),
 (3245, 49831545, 314984533, 'LiveTL/LiveTL', 16, 'Get live translations for YouTube streams, crowdsourced from multilingual viewers!', 21, 402, ['KentoNishi','r2dev2'], '2022-01-21T02:45:54.11322'),
 (3246, 34903088, 398656870, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 15, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', 0, 13, ['gungunfebrianza'], '2022-01-21T02:45:54.126137'),
-(3247, 34394719, 247607046, 'jeffreybiles/vue-3-demo', 10, null, 15, 5, [], '2022-01-21T02:45:55.261052'),
 (3248, 66239105, 108510101, 'FaisalUmair/udemy-downloader-gui', 12, 'A desktop application for downloading Udemy Courses', 421, 5549, ['FaisalUmair','turkialawlqy'], '2022-01-21T02:45:55.570263'),
 (3249, 34903088, 128604122, 'praditautama/wwwid-pwa-challenge', 16, null, 0, 5, ['praditautama'], '2022-01-21T02:45:55.610409'),
+(3247, 34394719, 247607046, 'jeffreybiles/vue-3-demo', 10, null, 15, 5, [], '2022-01-21T02:45:55.261052'),
 (3250, 49831545, 365515491, 'Smart6502/plutonem', 17, 'A C, C++, Rust and COBOL library to draw graphics with pixels in the terminal', 0, 64, ['Smart6502','PQCraft'], '2022-01-21T02:45:55.695607'),
 (3251, 34394719, 70092432, 'epool/firebase-cloning-tool', 11, 'Tool for cloning firebase remote config projects.', 1, 35, ['epool'], '2022-01-21T02:45:56.819438'),
 (3252, 66239105, 394632350, 'SanchitaMishra170676/INNOGEEKS-2.0', 13, null, 0, 0, ['chinmoy12c','Harsh-Gupta9897'], '2022-01-21T02:45:57.056258'),
@@ -3504,8 +3504,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3458, 60254117, 335539458, 'udberg/forms', 15, null, 0, 2, ['Murodjon000','udberg'], '2022-01-21T03:00:09.564193'),
 (3459, 60254117, 337752915, 'udberg/TwitterClone', 16, null, 0, 4, ['udberg'], '2022-01-21T03:00:10.804539'),
 (3460, 60254117, 317192047, 'udberg/the-next-web-clone', 17, 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', 0, 2, ['SamArsanios','udberg'], '2022-01-21T03:00:12.015417'),
-(3461, 25217168, 221981891, 'microsoft/playwright', 11, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 374, 32544, ['pavelfeldman','dgozman'], '2022-01-21T03:00:12.652166'),
 (3462, 25217168, 153500249, 'sdras/awesome-actions', 12, 'A curated list of awesome actions to use on GitHub', 90, 17099, ['gep13','sdras'], '2022-01-21T03:00:14.016891'),
+(3461, 25217168, 221981891, 'microsoft/playwright', 11, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 374, 32544, ['pavelfeldman','dgozman'], '2022-01-21T03:00:12.652166'),
 (3463, 60254117, 339001070, 'udberg/members-only', 18, null, 0, 2, ['udberg','dibdas'], '2022-01-21T03:00:14.317287'),
 (3464, 25217168, 109964384, 'elizabeth-kamayangi/BANKING-SYSTEM', 13, null, 1, 1, ['elizabeth-kamayangi'], '2022-01-21T03:00:15.274361'),
 (3465, 60254117, 340027291, 'udberg/confs.tech', 19, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', 0, 2, ['nimzco','confs-tech-bot'], '2022-01-21T03:00:15.543449'),
@@ -4625,8 +4625,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4544, 38725511, 9309093, 'Semantic-Org/Semantic-UI', 17, 'Semantic is a UI component framework based around useful principles from natural language.', 1058, 49804, ['jlukic','quirkyjack'], '2022-01-21T04:11:25.961906'),
 (4545, 667716, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:26.321137'),
 (4546, 46828701, 269419110, 'madhuakula/kubernetes-goat', 16, 'Kubernetes Goat 🐐  is a ''Vulnerable by Design'' Kubernetes Cluster. Designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security 🔐', 5, 1770, ['madhuakula','mkcn'], '2022-01-21T04:11:26.889762'),
-(4585, 667716, 341346826, 'jvns/dns-lookup', 28, null, 1, 218, ['jvns'], '2022-01-21T04:11:43.738503'),
 (4548, 38725511, 295866175, 'coding-blocks-archives/Web-Dev-Roadmap-OneNote', 18, null, 0, 117, ['championswimmer'], '2022-01-21T04:11:27.46425'),
+(4585, 667716, 341346826, 'jvns/dns-lookup', 28, null, 1, 218, ['jvns'], '2022-01-21T04:11:43.738503'),
 (4549, 667716, 42455934, 'statelyai/xstate', 17, 'State machines and statecharts for the modern web.', 230, 18636, ['davidkpiano','Andarist'], '2022-01-21T04:11:27.947533'),
 (4550, 13490604, 22399826, 'lifting-bits/mcsema', 19, 'Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode', 110, 2221, ['artemdinaburg','pgoodman'], '2022-01-21T04:11:28.453103'),
 (4551, 46828701, 142967350, 'reach/reach-ui', 17, 'The Accessible Foundation for React Apps and Design Systems', 78, 4960, ['chaance','ryanflorence'], '2022-01-21T04:11:28.465888'),
@@ -7443,8 +7443,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7432, 23166349, 284951208, 'Threagile/threagile', 14, 'Agile Threat Modeling Toolkit', 19, 287, ['cschneider4711','scottbrown'], '2022-01-22T08:38:55.900848'),
 (7433, 50591491, 422821402, 'MangoDB-io/MangoDB', 15, 'A truly Open Source MongoDB alternative', 72, 4027, ['AlekSi','ekalinin'], '2022-01-22T08:38:56.111156'),
 (7436, 10951893, 4164482, 'django/django', 14, 'The Web framework for perfectionists with deadlines.', 169, 61899, ['timgraham','adrianholovaty'], '2022-01-22T08:38:56.832592'),
-(7437, 23166349, 85039965, 'litmuschaos/litmus', 15, 'Litmus helps  SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q', 253, 2472, ['ksatchit','rajdas98'], '2022-01-22T08:38:57.152878'),
 (7438, 50591491, 100061716, 'nrwl/nx', 16, 'Smart, Fast and Extensible Build System', 512, 10343, ['vsavkin','FrozenPandaz'], '2022-01-22T08:38:57.764985'),
+(7437, 23166349, 85039965, 'litmuschaos/litmus', 15, 'Litmus helps  SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q', 253, 2472, ['ksatchit','rajdas98'], '2022-01-22T08:38:57.152878'),
 (7439, 10951893, 187915200, 'peaceiris/actions-gh-pages', 15, 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', 39, 2697, ['peaceiris','corollari'], '2022-01-22T08:38:58.049669'),
 (7440, 45293863, 129934884, 'dotnet/command-line-api', 16, 'Command line parsing, invocation, and rendering of terminal output.', 293, 2466, ['jonsequitur','Keboo'], '2022-01-22T08:38:58.103761'),
 (7441, 24553355, 122842179, 'andrew--r/frontend-case-studies', 13, '💼 A curated list of technical talks and articles about real world enterprise frontend development', 27, 6353, ['andrew--r','globchastyy'], '2022-01-22T08:38:58.331214'),
@@ -10296,8 +10296,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10288, 28281924, 146218451, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 800, ['joeykilpatrick','seanpmaxwell'], '2022-01-22T11:53:23.951047'),
 (10289, 25194960, 305144746, 'geohot/tinygrad', 27, 'You like pytorch? You like micrograd? You love tinygrad! ❤️ ', 8, 5146, ['geohot','marcelbischoff'], '2022-01-22T11:53:24.015557'),
 (10290, 2808728, 31519188, 'qw3rtman/gg', 25, 'Git Goodies: At-A-Glance, Efficient, and Aesthetically Pleasing Git Shortcuts', 14, 1352, ['qw3rtman','cosinuz'], '2022-01-22T11:53:24.140743'),
-(10291, 25194960, 207117992, 'viraptor/reverse-interview', 28, 'Questions to ask the company during your interview', 25, 19956, ['viraptor','sherifsaleh'], '2022-01-22T11:53:24.357718'),
 (10292, 28281924, 52631841, 'gothinkster/realworld', 26, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 53, 63291, ['EricSimons','anishkny'], '2022-01-22T11:53:25.400845'),
+(10291, 25194960, 207117992, 'viraptor/reverse-interview', 28, 'Questions to ask the company during your interview', 25, 19956, ['viraptor','sherifsaleh'], '2022-01-22T11:53:24.357718'),
 (10293, 25194960, 135224272, 'loomnetwork/solidity-social-example', 29, 'Super simple social network interaction, where users can post and comment on posts', 3, 65, ['mattkanwisher','eduardonunesp'], '2022-01-22T11:53:25.433673'),
 (10294, 2808728, 37991989, 'coodict/javascript-in-one-pic', 26, 'Learn javascript in one picture.', 15, 6602, ['rainyear','alicona'], '2022-01-22T11:53:25.551147'),
 (10295, 28281924, 139914932, 'quarkusio/quarkus', 27, 'Quarkus: Supersonic Subatomic Java. ', 1851, 9265, ['gsmet','geoand'], '2022-01-22T11:53:26.862656'),
