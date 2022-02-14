@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T12:50:25.705Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T14:44:26.953Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8834,8 +8834,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8748, 34903088, 154829724, 'CSFrequency/react-firebase-hooks', 13, 'React Hooks for Firebase.', 6, 2293, ['chrisbianca','andipaetzold'], '2022-01-22T10:16:02.375432'),
 (8749, 30369246, 365339453, 'edoardottt/lit-bb-hack-tools', 12, 'Little Bug Bounty & Hacking Tools⚔️', 0, 73, ['edoardottt'], '2022-01-22T10:16:03.170939'),
 (8750, 34903088, 184879908, 'iwgx/downtown', 14, ':hourglass: Well-crafted countdown timer', 6, 10, ['iwgx'], '2022-01-22T10:16:03.522161'),
-(8751, 30369246, 362234372, 'edoardottt/cariddi', 13, 'Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...', 4, 358, ['edoardottt'], '2022-01-22T10:16:04.492995'),
 (8752, 34903088, 398656870, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 15, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', 0, 14, ['gungunfebrianza'], '2022-01-22T10:16:04.740954'),
+(8751, 30369246, 362234372, 'edoardottt/cariddi', 13, 'Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...', 4, 358, ['edoardottt'], '2022-01-22T10:16:04.492995'),
 (8753, 30369246, 298791469, 'edoardottt/scilla', 14, 'Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration', 2, 299, ['edoardottt','teezzan'], '2022-01-22T10:16:05.677312'),
 (8754, 34903088, 128604122, 'praditautama/wwwid-pwa-challenge', 16, null, 0, 5, ['praditautama'], '2022-01-22T10:16:05.906493'),
 (8755, 30369246, 27222050, 'vicky002/AlgoWiki', 15, 'Repository which contains links and resources on different topics of Computer Science.', 23, 3897, ['vicky002','Byte7'], '2022-01-22T10:16:06.970921'),
@@ -10973,8 +10973,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10963, 40713709, 6662075, 'joke2k/faker', 9, 'Faker is a Python package that generates fake data for you.', 172, 13576, ['fcurella','joke2k'], '2022-01-22T13:06:19.317298'),
 (10964, 38838958, 218586796, 'Lambda3/Simple.Bus', 10, 'A simple way to receive and send message to Azure Service Bus and RabbitMq', 1, 14, ['willsbctm','giggio'], '2022-01-22T13:06:19.845089'),
 (10965, 3846874, 221981891, 'microsoft/playwright', 10, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 378, 32582, ['pavelfeldman','dgozman'], '2022-01-22T13:06:20.498385'),
-(10967, 38838958, 17845967, 'DevelopersPL/otshosting-provisioning', 11, 'Ansible playbook to provision OTS Hosting on Ubuntu 20.04', 1, 24, ['DSpeichert','Dzanar'], '2022-01-22T13:06:21.329719'),
 (10966, 40713709, 365257282, 'sk1122/Bayze-Kanban', 10, 'Bayze - Manage your tasks like a Pro. Create Boards, Sort Tasks, Invite Team Members ', 0, 1, [], '2022-01-22T13:06:20.878831'),
+(10967, 38838958, 17845967, 'DevelopersPL/otshosting-provisioning', 11, 'Ansible playbook to provision OTS Hosting on Ubuntu 20.04', 1, 24, ['DSpeichert','Dzanar'], '2022-01-22T13:06:21.329719'),
 (10968, 3846874, 958314, 'remy/nodemon', 11, 'Monitor for any changes in your node.js application and automatically restart the server - perfect for development', 40, 23505, ['remy','ChrisWren'], '2022-01-22T13:06:22.162283'),
 (10969, 40713709, 338348248, 'benawad/dogehouse', 11, 'Taking voice conversations to the moon 🚀', 232, 9195, ['benawad','amitojsingh366'], '2022-01-22T13:06:22.468171'),
 (10970, 38838958, 223212938, 'alura-cursos/kafka-introducao-e-microservicos', 12, null, 0, 57, ['guilhermesilveira'], '2022-01-22T13:06:22.639096'),
