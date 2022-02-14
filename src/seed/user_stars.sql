@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T18:45:56.771Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T20:44:20.528Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4576,8 +4576,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4496, 38725511, 367855379, 'sanjoli30/ExpandingCards', 6, 'This is a webpage where some pictures are displayed in form of cards which expands when the user clicks on them. ', 0, 1, ['sanjoli30'], '2022-01-21T04:11:08.718507'),
 (4497, 13490604, 71359796, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:09.473799'),
 (4498, 46828701, 152873434, 'NaturalCycles/dev-lib', 3, 'Configuration files and scripts shared between all js modules', 0, 3, ['kirillgroshkov','semantic-release-bot'], '2022-01-21T04:11:09.780927'),
-(4500, 38725511, 82289483, 'moleculerjs/moleculer', 7, ':rocket: Progressive microservices framework for Node.js', 85, 4922, ['icebob','AndreMaz'], '2022-01-21T04:11:10.376269'),
 (4499, 667716, 285998667, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 250, ['keiya01','JulienBlacas'], '2022-01-21T04:11:10.220394'),
+(4500, 38725511, 82289483, 'moleculerjs/moleculer', 7, ':rocket: Progressive microservices framework for Node.js', 85, 4922, ['icebob','AndreMaz'], '2022-01-21T04:11:10.376269'),
 (4501, 46828701, 70137417, 'corda/corda', 4, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', 235, 3794, ['Clintonio','exFalso'], '2022-01-21T04:11:10.57307'),
 (4502, 13490604, 351298555, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3413, ['tnylea','bobbyiliev'], '2022-01-21T04:11:10.961676'),
 (4503, 667716, 21978103, 'scottaohara/accessible_components', 6, 'Listing of accessible components & patterns', 0, 452, ['scottaohara','kethinov'], '2022-01-21T04:11:11.685429'),
