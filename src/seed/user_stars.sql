@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T01:03:05.704Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T02:46:30.124Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5911,8 +5911,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5900, 622115, 34039690, 'apache/groovy', 21, 'Apache Groovy: A powerful multi-faceted programming language for the JVM platform', 22, 4399, ['paulk-asert','danielsun1106'], '2022-01-21T05:56:39.585329'),
 (5901, 67872399, 137912077, 'gatsbyjs/store.gatsbyjs.org', 27, 'The Gatsby store for swag and other Gatsby goodies.', 31, 569, ['fk','jlengstorf'], '2022-01-21T05:56:40.065107'),
 (5902, 29888641, 208779429, 'gitpod-io/leeway', 17, 'Leeway is a heavily caching build system for Go, Typescript and Docker projects.', 12, 79, ['csweichel','aledbf'], '2022-01-21T05:56:40.394144'),
-(5904, 67872399, 323120066, 'An-prog-hub/human-pose-estimation', 28, null, 0, 1, ['An-prog-hub'], '2022-01-21T05:56:41.289599'),
 (5903, 622115, 22336000, 'Pragmatists/JUnitParams', 22, 'Parameterised tests that don''t suck', 35, 853, ['plipinski','woprzech'], '2022-01-21T05:56:40.833183'),
+(5904, 67872399, 323120066, 'An-prog-hub/human-pose-estimation', 28, null, 0, 1, ['An-prog-hub'], '2022-01-21T05:56:41.289599'),
 (5905, 29888641, 341816758, 'mrousavy/react-native-mmkv', 19, '⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!', 22, 1472, ['mrousavy','janicduplessis'], '2022-01-21T05:56:42.060243'),
 (5906, 622115, 29102367, 'junit-team/junit5', 23, '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', 140, 4961, ['sbrannen','marcphilipp'], '2022-01-21T05:56:42.190819'),
 (5907, 29888641, 379762817, 'expo/config-plugins', 20, 'Out-of-tree Expo config plugins for packages that haven''t adopted the config plugin system yet.', 4, 73, ['EvanBacon','Kerumen'], '2022-01-21T05:56:43.382651'),
@@ -6833,9 +6833,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6770, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T04:20:24.619024'),
 (6771, 289882, 66096179, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox'], '2022-01-22T04:20:24.637921'),
 (6772, 26007940, 421781906, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah'], '2022-01-22T04:20:25.270172'),
-(6773, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T04:20:25.277984'),
 (6774, 12410942, 127035128, 'Shopify/quilt', 0, 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', 102, 1129, ['lemonmade','michenly'], '2022-01-22T04:20:25.396206'),
 (6775, 26007940, 135786093, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 0, 31046, ['sw-yx','eps1lon'], '2022-01-22T04:20:25.86536'),
+(6773, 289882, 30911832, 'DamirSvrtan/fasterer', 2, ':zap: Don''t make your Rubies go fast. Make them go fasterer ™. :zap: ', 13, 1534, ['DamirSvrtan','yous'], '2022-01-22T04:20:25.277984'),
 (6776, 289882, 4095287, 'rubocop/rubocop', 3, 'A Ruby static code analyzer and formatter, based on the community Ruby style guide.', 224, 11632, ['bbatsov','koic'], '2022-01-22T04:20:25.942355'),
 (6777, 12410942, 283446239, 'enisdenjo/graphql-ws', 1, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', 0, 928, ['enisdenjo','semantic-release-bot'], '2022-01-22T04:20:26.081552'),
 (6778, 26007940, 374950494, 'lkrryba/weekly-web-dev-challenge-poll', 3, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', 6, 43, ['lkrryba','DoubleNemesis'], '2022-01-22T04:20:26.494517'),
