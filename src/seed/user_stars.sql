@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T12:50:32.403Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T14:44:22.513Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2244,7 +2244,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2198, 29417643, 189282896, 'wesbos/beginner-javascript', 1, 'Slam Dunk JavaScript', 28, 5161, ['Asjas','wesbos'], '2022-01-21T00:10:59.125076'),
 (2199, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 251, 507, ['mfuji09','SphinxKnight'], '2022-01-21T00:10:59.594103'),
 (2200, 1255918, 11056820, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6325, ['erikflowers','fox91'], '2022-01-21T00:11:00.901955'),
-(2201, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, ['mikeckennedy','hclivess'], '2022-01-21T00:11:00.91452'),
 (2202, 1930729, 52630616, 'apollographql/apollo-client', 1, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 562, 17195, ['benjamn','renovate-bot'], '2022-01-21T00:11:01.614868'),
 (2203, 12849040, 287573157, 'Leniolabs/layoutit-grid', 0, 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', 14, 1107, ['patak-dev','agustin-capeletto-lenio'], '2022-01-21T00:11:02.296691'),
 (2204, 1255918, 357019331, 'arctic-hen7/bonnie', 1, 'Simple, cross-platform, and fast command aliases with superpowers.', 3, 34, ['arctic-hen7','qpwo'], '2022-01-21T00:11:02.938972'),
@@ -2708,6 +2707,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2660, 2609511, 119115406, 'wasdk/WebAssemblyStudio', 6, 'Learn, Teach, Work and Play in the WebAssembly Studio', 122, 2795, ['yurydelendik','mbebenita'], '2022-01-21T00:44:05.518252'),
 (2661, 2609511, 9934117, 'phoboslab/jsmpeg', 7, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T00:44:06.95403'),
 (2662, 2609511, 341483252, 'IncredibleDevHQ/incredible-dev-videos', 8, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', 0, 2, ['hemalathank-27','Pythonista7'], '2022-01-21T00:44:08.217459'),
+(2201, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, ['mikeckennedy','hclivess'], '2022-01-21T00:11:00.91452'),
 (2663, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 160, 339240, ['QuincyLarson','raisedadead'], '2022-01-21T00:44:08.723557'),
 (2664, 11858762, 27193779, 'nodejs/node', 11, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1662, 84493, ['ry','Trott'], '2022-01-21T00:44:09.250145'),
 (2665, 2609511, 195769741, 'gnes-ai/gnes', 9, 'GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. ', 16, 1217, ['Larryjianfeng','jemmyshin'], '2022-01-21T00:44:09.536124'),
@@ -5011,8 +5011,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5002, 455338, 6698053, 'vimwiki/vimwiki', 26, 'Personal Wiki for Vim', 151, 7034, ['EinfachToll','ranebrown'], '2022-01-21T04:57:33.723524'),
 (5003, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:34.018274'),
 (5004, 6935431, 263468232, 'samber/github-actions-runner', 20, '✅ Docker images for starting self-hosted Github Actions runner(s).', 2, 47, ['samber','kthompson'], '2022-01-21T04:57:34.671861'),
-(5005, 455338, 279310322, 'iggredible/Learn-Vim', 27, 'Learning Vim and Vimscript doesn''t have to be hard. This is the guide that you''re looking for 📖', 0, 7387, ['iggredible','victorhck'], '2022-01-21T04:57:35.22247'),
 (5006, 53687927, 281372288, 'dwaipayan05/Movie-Recommender', 23, null, 0, 1, ['Omanshu840','dwaipayan05'], '2022-01-21T04:57:35.512256'),
+(5005, 455338, 279310322, 'iggredible/Learn-Vim', 27, 'Learning Vim and Vimscript doesn''t have to be hard. This is the guide that you''re looking for 📖', 0, 7387, ['iggredible','victorhck'], '2022-01-21T04:57:35.22247'),
 (5007, 6935431, 290020584, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 63, ['dmnemec','sta-szek'], '2022-01-21T04:57:35.842685'),
 (5008, 455338, 49010787, 'mhinz/vim-galore', 28, ':mortar_board: All things Vim!', 3, 12721, ['mhinz','codeurge'], '2022-01-21T04:57:36.6812'),
 (5009, 53687927, 338258918, 'dwaipayan05/internet-archive-voice-apps', 24, 'Voice Apps (Actions on Google, Alexa Skill) of Internet Archive. Just say: ''Ok Google, Ask Internet Archive to Play Jazz'' or ''Alexa, Ask Internet Internet Archive to play Instrumental Music''', 0, 1, ['hyzhak','adaveinthelife'], '2022-01-21T04:57:36.961746'),
@@ -5291,9 +5291,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5281, 6241164, 319185224, 'ubenmackin/ACVM', 18, 'GUI frontend for qemu for Apple Silicon based Macs', 9, 106, ['ubenmackin','KhaosT'], '2022-01-21T05:22:25.391559'),
 (5282, 35429278, 253458494, 'bakkeby/patches', 28, 'Collection of patches for dwm, st and dmenu', 2, 135, ['bakkeby'], '2022-01-21T05:22:25.404213'),
 (5283, 351693, 298239008, 'cornflourblue/angular-10-custom-modal', 16, 'Angular 10 - Custom Modal Example', 0, 15, ['cornflourblue'], '2022-01-21T05:22:26.389064'),
-(5284, 6241164, 207877287, 'sandrinodimattia/nextjs-auth0-example', 19, 'A sample application showing how your users can sign in to your Next.js application using Auth0', 13, 38, ['sandrinodimattia'], '2022-01-21T05:22:26.556448'),
 (5285, 16259450, 53321815, 'picturepan2/spectre', 22, 'Spectre.css - A Lightweight, Responsive and Modern CSS Framework', 189, 10952, ['picturepan2','renegat59'], '2022-01-21T05:22:26.589221'),
 (5286, 35429278, 373396052, 'ri7nz/rescript-chakra', 29, '⚡️⚛️ ReScript bindings for @chakra-ui/react', 3, 46, ['ri7nz','semantic-release-bot'], '2022-01-21T05:22:26.607443'),
+(5284, 6241164, 207877287, 'sandrinodimattia/nextjs-auth0-example', 19, 'A sample application showing how your users can sign in to your Next.js application using Auth0', 13, 38, ['sandrinodimattia'], '2022-01-21T05:22:26.556448'),
 (5287, 6241164, 234399448, 'outsrc/my-app', 20, 'Secure NextJS App users with Auth0 and TypeScript', 7, 7, ['ernestofreyreg'], '2022-01-21T05:22:27.741619'),
 (5288, 16259450, 88367107, 'nusu/spectre.scss', 23, 'port of spectre.css to sass', 1, 16, ['nusu','mtancoigne'], '2022-01-21T05:22:27.801316'),
 (5289, 351693, 163753499, 'rungwiroon/BlazorGoogleMaps', 17, 'Blazor interop for GoogleMap library', 6, 155, ['valentasm1','valentasm'], '2022-01-21T05:22:27.883847'),
@@ -5828,6 +5828,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5818, 2658040, 178029799, 'BaseMax/TinyShell', 26, 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', 0, 9, ['BaseMax'], '2022-01-21T05:49:40.191992'),
 (5819, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20565, ['chenglou','nkbt'], '2022-01-21T05:49:40.314104'),
 (5820, 33148009, 330695135, 'bradtraversy/react-crash-2021', 21, 'Task tracking application from the React crash course', 15, 986, ['bradtraversy','cnbrkkaya'], '2022-01-21T05:49:41.388339'),
+(5821, 2658040, 179923974, 'BaseMax/MatPHP', 27, 'The tiny library to calculating the matrices and operations. (Soon)', 0, 3, ['BaseMax'], '2022-01-21T05:49:41.417351'),
 (5822, 2658040, 172362850, 'BaseMax/TrigonometricFunctions', 28, 'Analysis and thinking about trigonometry functions and how they work.', 0, 12, ['BaseMax'], '2022-01-21T05:49:42.491456'),
 (5823, 33148009, 323397287, 'reactjs/server-components-demo', 22, 'Demo app of React Server Components.', 18, 3343, ['poteto','gaearon'], '2022-01-21T05:49:42.633705'),
 (5824, 2658040, 178404439, 'BaseMax/ColorConvertPy', 29, 'Tiny library to convert various colored units. (rgb, hex)', 0, 4, ['BaseMax'], '2022-01-21T05:49:43.754473'),
@@ -5838,7 +5839,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5829, 33148009, 161979323, 'Remix-Design/RemixIcon', 27, 'Open source neutral style icon system', 214, 4051, ['xiaochunjimmy','wendygaoyuan'], '2022-01-21T05:49:48.555669'),
 (5830, 33148009, 147943107, 'you-dont-need/You-Dont-Need-Momentjs', 28, 'List of functions which you can use to replace moment.js + ESLint Plugin', 24, 12513, ['stevemao','cht8687'], '2022-01-21T05:49:49.622952'),
 (5831, 33148009, 113267532, 'mjackson/dotfiles', 29, 'My dotfiles', 2, 56, ['mjackson'], '2022-01-21T05:49:50.649594'),
-(5821, 2658040, 179923974, 'BaseMax/MatPHP', 27, 'The tiny library to calculating the matrices and operations. (Soon)', 0, 3, ['BaseMax'], '2022-01-21T05:49:41.417351'),
 (5832, 67872399, 45325973, 'zutrinken/bleak', 0, 'Ghost Theme', 12, 518, ['zutrinken','ManuelRauber'], '2022-01-21T05:56:04.060864'),
 (5833, 67872399, 124257233, 'pmndrs/react-spring', 1, '✌️ A spring physics based React animation library', 42, 22162, ['aleclarson','drcmda'], '2022-01-21T05:56:04.892206'),
 (5834, 67872399, 176777353, 'rainbow-me/rainbow', 2, '🌈‒ the Ethereum wallet that lives in your pocket ', 48, 2166, ['jinchung','mikedemarais'], '2022-01-21T05:56:06.242344'),
@@ -7489,11 +7489,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7472, 10951893, 22258112, 'quantifiedcode/python-anti-patterns', 21, 'An open collection of Python anti-patterns and worst practices.', 34, 1564, ['kaycebasques','adewes'], '2022-01-22T08:39:07.543997'),
 (7473, 24553355, 29749635, 'donnemartin/data-science-ipython-notebooks', 19, 'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.', 22, 22351, ['donnemartin','besirkurtulmus'], '2022-01-22T08:39:08.320385'),
 (7474, 45293863, 253254795, 'olexale/flutter_roadmap', 24, 'Highly Subjective Roadmap to Flutter Development', 1, 2979, ['olexale','NauCode'], '2022-01-22T08:39:08.758239'),
-(7478, 24553355, 278641419, 'madd86/awesome-system-design', 20, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', 3, 5112, ['madd86','KashMoneyMillionaire'], '2022-01-22T08:39:09.553938'),
 (7475, 23166349, 164419238, 'bregman-arie/devops-resources', 22, 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', 7, 4025, ['bregman-arie','RishiKumarRay'], '2022-01-22T08:39:08.884589'),
 (7476, 10951893, 11276147, 'cmderdev/cmder', 22, 'Lovely console emulator package for Windows', 24, 23229, ['daxgames','Stanzilla'], '2022-01-22T08:39:08.901437'),
-(7479, 23166349, 415122580, 'm3o/m3o', 23, 'Next Generation Cloud Platform', 29, 1990, ['asim','martinv678'], '2022-01-22T08:39:10.268551'),
 (7477, 50591491, 13584262, 'webtorrent/webtorrent', 24, '⚡️ Streaming torrent client for the web', 109, 25793, ['feross','DiegoRBaquero'], '2022-01-22T08:39:09.048708'),
+(7478, 24553355, 278641419, 'madd86/awesome-system-design', 20, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', 3, 5112, ['madd86','KashMoneyMillionaire'], '2022-01-22T08:39:09.553938'),
+(7479, 23166349, 415122580, 'm3o/m3o', 23, 'Next Generation Cloud Platform', 29, 1990, ['asim','martinv678'], '2022-01-22T08:39:10.268551'),
 (7480, 10951893, 4578002, 'faif/python-patterns', 23, 'A collection of design patterns/idioms in Python', 14, 30082, ['faif','gyermolenko'], '2022-01-22T08:39:10.783502'),
 (7481, 24553355, 210796618, 'puncsky/system-design-and-architecture', 21, 'Learn how to design large-scale systems. Prep for the system design interview.', 23, 1421, ['puncsky','jorgedfbranco'], '2022-01-22T08:39:10.84344'),
 (7482, 50591491, 384915975, 'DarthBenro008/rchore', 25, 'An feature packed Google Tasks CLI written purely in Rust', 8, 27, ['DarthBenro008','caioeverest'], '2022-01-22T08:39:11.088993'),
