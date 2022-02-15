@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T02:49:11.970Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T04:47:44.674Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3734,7 +3734,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3687, 237133, 207840450, 'jonabc/setup-licensed', 14, 'Set up your GitHub Actions workflow with a specific version of github/licensed', 0, 10, ['jonabc','mmorel-35'], '2022-01-21T03:17:51.720223'),
 (3688, 57305940, 242229368, 'EskiMojo14/keycaplendar', 13, 'React app documenting current, future and past keycap GBs.', 3, 48, ['EskiMojo14'], '2022-01-21T03:17:52.735135'),
 (3689, 29648040, 14440270, 'getify/You-Dont-Know-JS', 6, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148573, ['getify','machineloop'], '2022-01-21T03:17:53.015102'),
-(3690, 237133, 120039636, 'github/licensed', 16, 'A Ruby gem to cache and verify the licenses of dependencies', 11, 837, ['jonabc','sridharavinash'], '2022-01-21T03:17:53.720882'),
 (3691, 29648040, 145359429, 'sagecodes/intro-to-python', 7, 'Introduction to Python', 0, 5, ['sagecodes'], '2022-01-21T03:17:54.258199'),
 (3692, 57305940, 61893399, 'brillout/awesome-react-components', 14, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T03:17:54.298009'),
 (3693, 57305940, 191529732, 'lydiahallie/javascript-questions', 15, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', 74, 40485, ['lydiahallie','Tarabass'], '2022-01-21T03:17:54.836023'),
@@ -3753,6 +3752,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3706, 237133, 425372890, '0-vortex/polywork-handbook', 27, 'An opinionated guide on how to maximize social value using Polywork', 0, 1, ['0-vortex'], '2022-01-21T03:18:08.298691'),
 (3707, 237133, 425941587, '0-vortex/open-sauced-conventional-commit-test', 28, 'Experimenting with commitizen configuration repository for opensauced.pizza', 0, 2, ['0-vortex'], '2022-01-21T03:18:09.72455'),
 (3708, 57305940, 131340928, 'jmkoni/interview-questions', 19, 'My favorite questions to ask when I am being interviewed', 0, 86, ['jmkoni'], '2022-01-21T03:18:09.904575'),
+(3690, 237133, 120039636, 'github/licensed', 16, 'A Ruby gem to cache and verify the licenses of dependencies', 11, 837, ['jonabc','sridharavinash'], '2022-01-21T03:17:53.720882'),
 (3709, 237133, 432296669, '0-vortex/semantic-release-docker-mini', 29, 'Opinionated fork of @semantic-release-plus/docker with minimal features', 0, 1, ['0-vortex'], '2022-01-21T03:18:11.076179'),
 (3710, 57305940, 24774658, 'boto/boto3', 20, 'AWS SDK for Python', 276, 6969, ['aws-sdk-python-automation','awstools'], '2022-01-21T03:18:11.211502'),
 (3711, 57305940, 74293321, 'sveltejs/svelte', 21, 'Cybernetically enhanced web apps', 637, 54993, ['Rich-Harris','Conduitry'], '2022-01-21T03:18:12.607361'),
@@ -3772,16 +3772,16 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3725, 8037469, 175666043, 'microsoft/vscode-edge-devtools', 2, 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', 92, 489, ['mliao95','vidorteg'], '2022-01-21T03:27:56.879237'),
 (3726, 57017587, 82211360, 'webhintio/hint', 2, '💡 A hinting engine for the web', 330, 3296, ['alrra','molant'], '2022-01-21T03:27:57.343233'),
 (3727, 1431853, 34526884, 'ant-design/ant-design', 1, 'An enterprise-class UI design language and React UI library', 774, 77185, ['afc163','zombieJ'], '2022-01-21T03:27:57.467397'),
-(3728, 49351279, 3655872, 'vercel/ms', 0, 'Tiny millisecond conversion utility', 18, 3807, ['leo','rauchg'], '2022-01-21T03:27:57.489202'),
 (3729, 8037469, 257485422, 'vitejs/vite', 3, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:27:57.595389'),
 (3730, 33669114, 56087776, 'ramboxapp/community-edition', 0, 'Free and Open Source messaging and emailing app that combines common web applications into one.', 247, 6209, ['saenzramiro','fvulich'], '2022-01-21T03:27:58.366301'),
+(3728, 49351279, 3655872, 'vercel/ms', 0, 'Tiny millisecond conversion utility', 18, 3807, ['leo','rauchg'], '2022-01-21T03:27:57.489202'),
 (3731, 57017587, 348060227, 'snowpackjs/astro', 3, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:27:59.015574'),
 (3732, 1431853, 264742473, 'fontsource/fontsource', 2, 'Self-host Open Source fonts in neatly bundled NPM packages.', 26, 1975, ['DecliningLotus','fontsource-bot'], '2022-01-21T03:27:59.033423'),
 (3733, 49351279, 17576966, 'stackgl/shader-school', 1, ':mortar_board: A workshopper for GLSL shaders and graphics programming', 49, 3897, ['mikolalysenko','hughsk'], '2022-01-21T03:27:59.032794'),
-(3734, 8037469, 200424238, 'icons-pack/react-simple-icons', 4, '📦 This package provides the Simple Icons packaged as a set of React components.', 5, 113, ['wootsbot','jackmerrill'], '2022-01-21T03:27:59.063997'),
 (3735, 33669114, 143890171, 'mbrt/gmailctl', 1, 'Declarative configuration for Gmail filters', 9, 1302, ['mbrt','chenrui333'], '2022-01-21T03:27:59.894097'),
 (3736, 1431853, 72365213, 'ahmadajmi/itcss', 3, '🐯 ITCSS code example', 0, 24, ['ahmadajmi'], '2022-01-21T03:28:00.49901'),
 (3737, 8037469, 291779008, 'get-woke/woke', 5, 'Detect non-inclusive language in your source code.', 15, 298, ['caitlinelfring','cognitivegears'], '2022-01-21T03:28:00.511245'),
+(3734, 8037469, 200424238, 'icons-pack/react-simple-icons', 4, '📦 This package provides the Simple Icons packaged as a set of React components.', 5, 113, ['wootsbot','jackmerrill'], '2022-01-21T03:27:59.063997'),
 (3738, 57017587, 396038596, 'Liberontissauri/Ball-Physics-With-TypeScript', 4, '🏐 An experiment to try to recreate the physics of jumping balls with typescript and vector js', 0, 1, ['Liberontissauri'], '2022-01-21T03:28:00.51249'),
 (3739, 49351279, 16986405, 'liabru/matter-js', 2, 'a 2D rigid body physics engine for the web ▲● ■', 196, 12675, ['liabru','PlNG'], '2022-01-21T03:28:00.679236'),
 (3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
@@ -4619,8 +4619,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4538, 13490604, 232444831, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 70, 251, ['g4s8','olegmoz'], '2022-01-21T04:11:24.449655'),
 (4539, 38725511, 242789911, 'zaydek/heroicons.dev', 15, 'Heroicons web viewer, Next.js and Tailwind CSS. 🕶', 16, 1009, ['zaydek','Bur0'], '2022-01-21T04:11:24.702372'),
 (4540, 46828701, 29371034, 'micro/micro', 15, 'A distributed cloud platform', 87, 10862, ['asim','ben-toogood'], '2022-01-21T04:11:25.414463'),
-(4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
 (4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
+(4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
 (4543, 667716, 364474335, 'google/zx', 15, 'A tool for writing better scripts', 14, 26806, ['antonmedv','antongolub'], '2022-01-21T04:11:25.821609'),
 (4544, 38725511, 9309093, 'Semantic-Org/Semantic-UI', 17, 'Semantic is a UI component framework based around useful principles from natural language.', 1058, 49804, ['jlukic','quirkyjack'], '2022-01-21T04:11:25.961906'),
 (4545, 667716, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:26.321137'),
@@ -10645,9 +10645,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10636, 31478648, 161691324, 'drwpow/openapi-typescript', 29, 'Generate TypeScript types from Swagger OpenAPI specs', 26, 1455, ['drwpow','DangoDev'], '2022-01-22T12:19:54.884488'),
 (10637, 6935431, 317539399, 'SAP/project-portal-for-innersource', 27, 'Lists all InnerSource projects of a company in an interactive and easy to use way. Can be used as a template for implementing the ''InnerSource portal'' pattern by the InnerSource Commons community.', 2, 83, ['Michadelic','spier'], '2022-01-22T12:19:55.249382'),
 (10638, 6935431, 311865268, 'zkoppert/go-exercises', 28, 'random go exercises to learn golang', 0, 1, ['zkoppert'], '2022-01-22T12:19:56.460185'),
-(10639, 6935431, 13855476, 'go-gorm/gorm', 29, 'The fantastic ORM library for Golang, aims to be developer friendly', 62, 26596, ['jinzhu','emirb'], '2022-01-22T12:19:57.94612'),
 (10640, 22655167, 364474335, 'google/zx', 0, 'A tool for writing better scripts', 14, 26913, ['antonmedv','antongolub'], '2022-01-22T12:33:49.561025'),
 (10641, 68660520, 178137889, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury'], '2022-01-22T12:33:50.128238'),
+(10639, 6935431, 13855476, 'go-gorm/gorm', 29, 'The fantastic ORM library for Golang, aims to be developer friendly', 62, 26596, ['jinzhu','emirb'], '2022-01-22T12:19:57.94612'),
 (10642, 46935495, 234290189, 'sarthakvarshney8081/kube-cluster', 0, 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', 0, 1, ['path2himanshu'], '2022-01-22T12:33:50.224817'),
 (10643, 72912813, 214587193, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 212, 26864, ['kiwicopple','MildTomato'], '2022-01-22T12:33:50.475655'),
 (10644, 22620727, 15204860, 'papers-we-love/papers-we-love', 0, 'Papers from the computer science community to read and discuss.', 23, 52027, ['zeeshanlakhani','DarrenN'], '2022-01-22T12:33:50.587207'),
