@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T01:03:45.303Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T02:49:11.970Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4619,8 +4619,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4538, 13490604, 232444831, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 70, 251, ['g4s8','olegmoz'], '2022-01-21T04:11:24.449655'),
 (4539, 38725511, 242789911, 'zaydek/heroicons.dev', 15, 'Heroicons web viewer, Next.js and Tailwind CSS. 🕶', 16, 1009, ['zaydek','Bur0'], '2022-01-21T04:11:24.702372'),
 (4540, 46828701, 29371034, 'micro/micro', 15, 'A distributed cloud platform', 87, 10862, ['asim','ben-toogood'], '2022-01-21T04:11:25.414463'),
-(4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
 (4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
+(4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
 (4543, 667716, 364474335, 'google/zx', 15, 'A tool for writing better scripts', 14, 26806, ['antonmedv','antongolub'], '2022-01-21T04:11:25.821609'),
 (4544, 38725511, 9309093, 'Semantic-Org/Semantic-UI', 17, 'Semantic is a UI component framework based around useful principles from natural language.', 1058, 49804, ['jlukic','quirkyjack'], '2022-01-21T04:11:25.961906'),
 (4545, 667716, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:26.321137'),
@@ -6121,6 +6121,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6087, 29295102, 108510101, 'FaisalUmair/udemy-downloader-gui', 9, 'A desktop application for downloading Udemy Courses', 421, 5549, ['FaisalUmair','turkialawlqy'], '2022-01-21T06:11:50.659861'),
 (6088, 13173676, 71002855, 'muryoimpl/slippr', 6, 'markdown presentation app by Electron', 0, 12, ['muryoimpl','takkanm'], '2022-01-21T06:11:50.685925'),
 (6089, 14043845, 329140702, 'enochndika/kimia-UI', 5, 'A collection of UI Components  for React built with Tailwind CSS 3', 1, 243, ['enochndika'], '2022-01-21T06:11:51.734026'),
+(6090, 29295102, 213368792, 'gabolera/3D-Helper', 10, null, 0, 1, ['gabolera'], '2022-01-21T06:11:51.9757'),
 (6091, 13173676, 288234242, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 128, 823, ['nolar','dlmiddlecote'], '2022-01-21T06:11:52.076486'),
 (6092, 4199845, 244694174, 'project-chip/connectedhomeip', 6, 'Matter (formerly Project CHIP) is creating more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers,  guided by the Connectivity Standards Alliance (formerly Zigbee Alliance).', 2003, 3182, ['vivien-apple','bzbarsky-apple'], '2022-01-21T06:11:52.151425'),
 (6093, 14043845, 129543408, 'witchard/tutorial-react-parcel-express', 6, 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', 0, 40, ['witchard','aronhoyer'], '2022-01-21T06:11:52.960626'),
@@ -6168,8 +6169,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6134, 14043845, 89766385, 'cassidoo/todometer', 25, 'A meter-based to-do list', 30, 1561, ['cassidoo','farskid'], '2022-01-21T06:12:16.495136'),
 (6135, 4199845, 71995937, 'nuxt/nuxt.js', 21, 'The Intuitive Vue(2) Framework', 486, 39218, ['pi0','Atinux'], '2022-01-21T06:12:16.597127'),
 (6136, 13173676, 39315600, 'be5invis/Iosevka', 18, 'Versatile typeface for code, from code.', 27, 13351, ['be5invis','alexeyten'], '2022-01-21T06:12:16.734642'),
-(6138, 4199845, 144133419, 'balenalabs/balena-cam', 22, 'Network Camera with Raspberry Pi and WebRTC. Tutorial:', 17, 140, ['mbalamat','balena-ci'], '2022-01-21T06:12:17.860442'),
 (6137, 14043845, 48453449, 'channingallen/tower-defense', 26, 'Tower Defense with a twist: all towers must be positioned with CSS Flexbox.', 12, 535, ['channingallen','BudgieInWA'], '2022-01-21T06:12:17.672992'),
+(6138, 4199845, 144133419, 'balenalabs/balena-cam', 22, 'Network Camera with Raspberry Pi and WebRTC. Tutorial:', 17, 140, ['mbalamat','balena-ci'], '2022-01-21T06:12:17.860442'),
 (6139, 13173676, 138089001, 'rust-secure-code/cargo-geiger', 19, 'Detects usage of unsafe Rust in a Rust crate and its dependencies.', 40, 887, ['anderejd','sfackler'], '2022-01-21T06:12:18.071675'),
 (6140, 13173676, 380315094, 'mhadidg/software-architecture-books', 20, 'A comprehensive list of books on Software Architecture.', 3, 6037, ['mhadidg','alesaudate'], '2022-01-21T06:12:19.072184'),
 (6141, 4199845, 135990829, 'fomantic/Fomantic-UI-Docs', 23, 'Official Documentation for Fomantic-UI', 18, 23, ['jlukic','quirkyjack'], '2022-01-21T06:12:19.23747'),
@@ -6431,7 +6432,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6443, 16165980, 105649273, 'ElectronNET/Electron.NET', 12, ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', 134, 6128, ['GregorBiswanger','robertmuehsig'], '2022-01-22T03:57:38.057465'),
 (6444, 59651629, 21911597, 'tayllan/awesome-algorithms', 4, 'A curated list of awesome places to learn and/or practice algorithms.', 0, 10805, ['tayllan','mostafatouny'], '2022-01-22T03:57:38.093964'),
 (6445, 58392246, 394956867, 'muhammaddzaky/muhamamddzaky', 5, 'hello', 1, 2, [], '2022-01-22T03:57:38.173729'),
-(6090, 29295102, 213368792, 'gabolera/3D-Helper', 10, null, 0, 1, ['gabolera'], '2022-01-21T06:11:51.9757'),
 (6446, 55982424, 69609, 'internetarchive/openlibrary', 0, 'One webpage for every book ever published!', 753, 3352, ['mekarpeles','anandology'], '2022-01-22T03:57:38.309957'),
 (6383, 20727421, 339838063, 'ryan3738/bellingham3d-frontend', 12, 'Front End for the Bellingham 3D Webstore', 3, 2, ['ryan3738','wesbos'], '2022-01-22T03:57:34.429626'),
 (6384, 1917293, 33763522, 'alt-code/Research', 10, null, 0, 15, ['chrisparnin','denaefordrobin'], '2022-01-22T03:57:34.60345'),
