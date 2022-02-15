@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T10:44:39.747Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T12:50:32.403Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5828,7 +5828,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5818, 2658040, 178029799, 'BaseMax/TinyShell', 26, 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', 0, 9, ['BaseMax'], '2022-01-21T05:49:40.191992'),
 (5819, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20565, ['chenglou','nkbt'], '2022-01-21T05:49:40.314104'),
 (5820, 33148009, 330695135, 'bradtraversy/react-crash-2021', 21, 'Task tracking application from the React crash course', 15, 986, ['bradtraversy','cnbrkkaya'], '2022-01-21T05:49:41.388339'),
-(5821, 2658040, 179923974, 'BaseMax/MatPHP', 27, 'The tiny library to calculating the matrices and operations. (Soon)', 0, 3, ['BaseMax'], '2022-01-21T05:49:41.417351'),
 (5822, 2658040, 172362850, 'BaseMax/TrigonometricFunctions', 28, 'Analysis and thinking about trigonometry functions and how they work.', 0, 12, ['BaseMax'], '2022-01-21T05:49:42.491456'),
 (5823, 33148009, 323397287, 'reactjs/server-components-demo', 22, 'Demo app of React Server Components.', 18, 3343, ['poteto','gaearon'], '2022-01-21T05:49:42.633705'),
 (5824, 2658040, 178404439, 'BaseMax/ColorConvertPy', 29, 'Tiny library to convert various colored units. (rgb, hex)', 0, 4, ['BaseMax'], '2022-01-21T05:49:43.754473'),
@@ -5839,6 +5838,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5829, 33148009, 161979323, 'Remix-Design/RemixIcon', 27, 'Open source neutral style icon system', 214, 4051, ['xiaochunjimmy','wendygaoyuan'], '2022-01-21T05:49:48.555669'),
 (5830, 33148009, 147943107, 'you-dont-need/You-Dont-Need-Momentjs', 28, 'List of functions which you can use to replace moment.js + ESLint Plugin', 24, 12513, ['stevemao','cht8687'], '2022-01-21T05:49:49.622952'),
 (5831, 33148009, 113267532, 'mjackson/dotfiles', 29, 'My dotfiles', 2, 56, ['mjackson'], '2022-01-21T05:49:50.649594'),
+(5821, 2658040, 179923974, 'BaseMax/MatPHP', 27, 'The tiny library to calculating the matrices and operations. (Soon)', 0, 3, ['BaseMax'], '2022-01-21T05:49:41.417351'),
 (5832, 67872399, 45325973, 'zutrinken/bleak', 0, 'Ghost Theme', 12, 518, ['zutrinken','ManuelRauber'], '2022-01-21T05:56:04.060864'),
 (5833, 67872399, 124257233, 'pmndrs/react-spring', 1, '✌️ A spring physics based React animation library', 42, 22162, ['aleclarson','drcmda'], '2022-01-21T05:56:04.892206'),
 (5834, 67872399, 176777353, 'rainbow-me/rainbow', 2, '🌈‒ the Ethereum wallet that lives in your pocket ', 48, 2166, ['jinchung','mikedemarais'], '2022-01-21T05:56:06.242344'),
@@ -7489,11 +7489,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7472, 10951893, 22258112, 'quantifiedcode/python-anti-patterns', 21, 'An open collection of Python anti-patterns and worst practices.', 34, 1564, ['kaycebasques','adewes'], '2022-01-22T08:39:07.543997'),
 (7473, 24553355, 29749635, 'donnemartin/data-science-ipython-notebooks', 19, 'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.', 22, 22351, ['donnemartin','besirkurtulmus'], '2022-01-22T08:39:08.320385'),
 (7474, 45293863, 253254795, 'olexale/flutter_roadmap', 24, 'Highly Subjective Roadmap to Flutter Development', 1, 2979, ['olexale','NauCode'], '2022-01-22T08:39:08.758239'),
+(7478, 24553355, 278641419, 'madd86/awesome-system-design', 20, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', 3, 5112, ['madd86','KashMoneyMillionaire'], '2022-01-22T08:39:09.553938'),
 (7475, 23166349, 164419238, 'bregman-arie/devops-resources', 22, 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', 7, 4025, ['bregman-arie','RishiKumarRay'], '2022-01-22T08:39:08.884589'),
 (7476, 10951893, 11276147, 'cmderdev/cmder', 22, 'Lovely console emulator package for Windows', 24, 23229, ['daxgames','Stanzilla'], '2022-01-22T08:39:08.901437'),
-(7477, 50591491, 13584262, 'webtorrent/webtorrent', 24, '⚡️ Streaming torrent client for the web', 109, 25793, ['feross','DiegoRBaquero'], '2022-01-22T08:39:09.048708'),
-(7478, 24553355, 278641419, 'madd86/awesome-system-design', 20, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', 3, 5112, ['madd86','KashMoneyMillionaire'], '2022-01-22T08:39:09.553938'),
 (7479, 23166349, 415122580, 'm3o/m3o', 23, 'Next Generation Cloud Platform', 29, 1990, ['asim','martinv678'], '2022-01-22T08:39:10.268551'),
+(7477, 50591491, 13584262, 'webtorrent/webtorrent', 24, '⚡️ Streaming torrent client for the web', 109, 25793, ['feross','DiegoRBaquero'], '2022-01-22T08:39:09.048708'),
 (7480, 10951893, 4578002, 'faif/python-patterns', 23, 'A collection of design patterns/idioms in Python', 14, 30082, ['faif','gyermolenko'], '2022-01-22T08:39:10.783502'),
 (7481, 24553355, 210796618, 'puncsky/system-design-and-architecture', 21, 'Learn how to design large-scale systems. Prep for the system design interview.', 23, 1421, ['puncsky','jorgedfbranco'], '2022-01-22T08:39:10.84344'),
 (7482, 50591491, 384915975, 'DarthBenro008/rchore', 25, 'An feature packed Google Tasks CLI written purely in Rust', 8, 27, ['DarthBenro008','caioeverest'], '2022-01-22T08:39:11.088993'),
