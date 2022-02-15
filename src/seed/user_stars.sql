@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T14:44:22.513Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T16:48:57.284Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2244,6 +2244,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2198, 29417643, 189282896, 'wesbos/beginner-javascript', 1, 'Slam Dunk JavaScript', 28, 5161, ['Asjas','wesbos'], '2022-01-21T00:10:59.125076'),
 (2199, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 251, 507, ['mfuji09','SphinxKnight'], '2022-01-21T00:10:59.594103'),
 (2200, 1255918, 11056820, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6325, ['erikflowers','fox91'], '2022-01-21T00:11:00.901955'),
+(2201, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, ['mikeckennedy','hclivess'], '2022-01-21T00:11:00.91452'),
 (2202, 1930729, 52630616, 'apollographql/apollo-client', 1, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 562, 17195, ['benjamn','renovate-bot'], '2022-01-21T00:11:01.614868'),
 (2203, 12849040, 287573157, 'Leniolabs/layoutit-grid', 0, 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', 14, 1107, ['patak-dev','agustin-capeletto-lenio'], '2022-01-21T00:11:02.296691'),
 (2204, 1255918, 357019331, 'arctic-hen7/bonnie', 1, 'Simple, cross-platform, and fast command aliases with superpowers.', 3, 34, ['arctic-hen7','qpwo'], '2022-01-21T00:11:02.938972'),
@@ -2707,7 +2708,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2660, 2609511, 119115406, 'wasdk/WebAssemblyStudio', 6, 'Learn, Teach, Work and Play in the WebAssembly Studio', 122, 2795, ['yurydelendik','mbebenita'], '2022-01-21T00:44:05.518252'),
 (2661, 2609511, 9934117, 'phoboslab/jsmpeg', 7, 'MPEG1 Video Decoder in JavaScript', 170, 5606, ['phoboslab','maikmerten'], '2022-01-21T00:44:06.95403'),
 (2662, 2609511, 341483252, 'IncredibleDevHQ/incredible-dev-videos', 8, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', 0, 2, ['hemalathank-27','Pythonista7'], '2022-01-21T00:44:08.217459'),
-(2201, 29417643, 59826401, 'mikeckennedy/write-pythonic-code-demos', 2, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', 0, 663, ['mikeckennedy','hclivess'], '2022-01-21T00:11:00.91452'),
 (2663, 11858762, 28457823, 'freeCodeCamp/freeCodeCamp', 10, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 160, 339240, ['QuincyLarson','raisedadead'], '2022-01-21T00:44:08.723557'),
 (2664, 11858762, 27193779, 'nodejs/node', 11, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1662, 84493, ['ry','Trott'], '2022-01-21T00:44:09.250145'),
 (2665, 2609511, 195769741, 'gnes-ai/gnes', 9, 'GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. ', 16, 1217, ['Larryjianfeng','jemmyshin'], '2022-01-21T00:44:09.536124'),
@@ -5011,8 +5011,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5002, 455338, 6698053, 'vimwiki/vimwiki', 26, 'Personal Wiki for Vim', 151, 7034, ['EinfachToll','ranebrown'], '2022-01-21T04:57:33.723524'),
 (5003, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:34.018274'),
 (5004, 6935431, 263468232, 'samber/github-actions-runner', 20, '✅ Docker images for starting self-hosted Github Actions runner(s).', 2, 47, ['samber','kthompson'], '2022-01-21T04:57:34.671861'),
-(5006, 53687927, 281372288, 'dwaipayan05/Movie-Recommender', 23, null, 0, 1, ['Omanshu840','dwaipayan05'], '2022-01-21T04:57:35.512256'),
 (5005, 455338, 279310322, 'iggredible/Learn-Vim', 27, 'Learning Vim and Vimscript doesn''t have to be hard. This is the guide that you''re looking for 📖', 0, 7387, ['iggredible','victorhck'], '2022-01-21T04:57:35.22247'),
+(5006, 53687927, 281372288, 'dwaipayan05/Movie-Recommender', 23, null, 0, 1, ['Omanshu840','dwaipayan05'], '2022-01-21T04:57:35.512256'),
 (5007, 6935431, 290020584, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 63, ['dmnemec','sta-szek'], '2022-01-21T04:57:35.842685'),
 (5008, 455338, 49010787, 'mhinz/vim-galore', 28, ':mortar_board: All things Vim!', 3, 12721, ['mhinz','codeurge'], '2022-01-21T04:57:36.6812'),
 (5009, 53687927, 338258918, 'dwaipayan05/internet-archive-voice-apps', 24, 'Voice Apps (Actions on Google, Alexa Skill) of Internet Archive. Just say: ''Ok Google, Ask Internet Archive to Play Jazz'' or ''Alexa, Ask Internet Internet Archive to play Instrumental Music''', 0, 1, ['hyzhak','adaveinthelife'], '2022-01-21T04:57:36.961746'),
@@ -5216,8 +5216,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5206, 16259450, 349213562, 'cassidoo/next-context-example', 1, 'Here''s an example of using React Context and useReducer with Next.js for state management.', 0, 22, ['cassidoo'], '2022-01-21T05:21:55.379925'),
 (5207, 35429278, 58842707, 'trailofbits/algo', 8, 'Set up a personal VPN in the cloud', 107, 24466, ['jackivanov','dguido'], '2022-01-21T05:21:56.564929'),
 (5208, 16259450, 3319040, 'id-Software/DOOM', 2, 'DOOM Open Source Release', 5, 7808, ['id-travis-bradshaw'], '2022-01-21T05:21:56.968805'),
-(5209, 35429278, 273871859, 'juanfont/headscale', 9, 'An open source, self-hosted implementation of the Tailscale control server', 32, 2930, ['juanfont','kradalby'], '2022-01-21T05:21:58.074355'),
 (5210, 16259450, 128416969, 'archlinux/archinstall', 3, 'Arch Linux installer - guided, templates etc.', 84, 2788, ['Torxed','dylanmtaylor'], '2022-01-21T05:21:58.593033'),
+(5209, 35429278, 273871859, 'juanfont/headscale', 9, 'An open source, self-hosted implementation of the Tailscale control server', 32, 2930, ['juanfont','kradalby'], '2022-01-21T05:21:58.074355'),
 (5211, 6241164, 379900883, 'Deveshb15/real-twitter-banner', 0, null, 0, 42, ['Deveshb15','jainaayush01'], '2022-01-21T05:21:58.967886'),
 (5212, 35429278, 355109043, 'ml-tooling/opyrator', 10, '🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more.', 3, 2557, ['LukasMasuch','raethlein'], '2022-01-21T05:22:00.098752'),
 (5213, 16259450, 91599439, 'KatDevsGames/z3randomizer', 4, 'Zelda 3 Randomizer Template ASM', 7, 42, ['KatDevsGames','KevinCathcart'], '2022-01-21T05:22:00.173799'),
@@ -5291,9 +5291,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5281, 6241164, 319185224, 'ubenmackin/ACVM', 18, 'GUI frontend for qemu for Apple Silicon based Macs', 9, 106, ['ubenmackin','KhaosT'], '2022-01-21T05:22:25.391559'),
 (5282, 35429278, 253458494, 'bakkeby/patches', 28, 'Collection of patches for dwm, st and dmenu', 2, 135, ['bakkeby'], '2022-01-21T05:22:25.404213'),
 (5283, 351693, 298239008, 'cornflourblue/angular-10-custom-modal', 16, 'Angular 10 - Custom Modal Example', 0, 15, ['cornflourblue'], '2022-01-21T05:22:26.389064'),
+(5284, 6241164, 207877287, 'sandrinodimattia/nextjs-auth0-example', 19, 'A sample application showing how your users can sign in to your Next.js application using Auth0', 13, 38, ['sandrinodimattia'], '2022-01-21T05:22:26.556448'),
 (5285, 16259450, 53321815, 'picturepan2/spectre', 22, 'Spectre.css - A Lightweight, Responsive and Modern CSS Framework', 189, 10952, ['picturepan2','renegat59'], '2022-01-21T05:22:26.589221'),
 (5286, 35429278, 373396052, 'ri7nz/rescript-chakra', 29, '⚡️⚛️ ReScript bindings for @chakra-ui/react', 3, 46, ['ri7nz','semantic-release-bot'], '2022-01-21T05:22:26.607443'),
-(5284, 6241164, 207877287, 'sandrinodimattia/nextjs-auth0-example', 19, 'A sample application showing how your users can sign in to your Next.js application using Auth0', 13, 38, ['sandrinodimattia'], '2022-01-21T05:22:26.556448'),
 (5287, 6241164, 234399448, 'outsrc/my-app', 20, 'Secure NextJS App users with Auth0 and TypeScript', 7, 7, ['ernestofreyreg'], '2022-01-21T05:22:27.741619'),
 (5288, 16259450, 88367107, 'nusu/spectre.scss', 23, 'port of spectre.css to sass', 1, 16, ['nusu','mtancoigne'], '2022-01-21T05:22:27.801316'),
 (5289, 351693, 163753499, 'rungwiroon/BlazorGoogleMaps', 17, 'Blazor interop for GoogleMap library', 6, 155, ['valentasm1','valentasm'], '2022-01-21T05:22:27.883847'),
