@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T12:50:25.969Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T14:44:29.256Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4668,8 +4668,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4588, 667716, 137308605, 'tamino-martinius/node-ts-dedent', 29, 'TypeScript package which smartly trims and strips indentation from multi-line strings', 4, 99, ['tamino-martinius','AviVahl'], '2022-01-21T04:11:45.18442'),
 (4589, 46828701, 258812961, 'cyrildiagne/ar-facedoodle', 29, 'Doodle AR masks right from the browser with tensorflow.js', 11, 508, ['cyrildiagne'], '2022-01-21T04:11:45.463398'),
 (4590, 6842883, 231669432, 'morellodev/react-test-attributes', 0, 'React library to add data-* attributes to DOM elements.', 12, 23, ['morellodev','BrunoAderaldo'], '2022-01-21T04:21:18.54777'),
-(4592, 51794934, 332861685, 'jeanrauwers/react-native-bootcamp', 0, 'React Native Bootcamp 2021 (completely free)', 0, 52, ['jeanrauwers'], '2022-01-21T04:21:19.57'),
 (4591, 4381106, 345529420, 'sophiezhng/pomopy', 0, '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', 1, 1, ['sophiezhng'], '2022-01-21T04:21:19.384624'),
+(4592, 51794934, 332861685, 'jeanrauwers/react-native-bootcamp', 0, 'React Native Bootcamp 2021 (completely free)', 0, 52, ['jeanrauwers'], '2022-01-21T04:21:19.57'),
 (4593, 6842883, 369362064, 'reactwg/react-18', 1, 'Workgroup for React 18 release.', 0, 3911, ['caabernathy','gaearon'], '2022-01-21T04:21:19.808327'),
 (4594, 1295334, 96395, 'faker-ruby/faker', 0, 'A library for generating fake data such as names, addresses, and phone numbers.', 162, 9705, ['stympy','vbrazo'], '2022-01-21T04:21:20.126169'),
 (4595, 2808728, 272753737, 'WomenWhoCode/wwcsf-algos', 0, 'Algorithms and whiteboarding interview prep for the WWCSF community', 25, 171, ['elaguerta','beginner789'], '2022-01-21T04:21:20.219517'),
@@ -10559,11 +10559,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (10597, 31478648, 377196642, 'alanmontgomery/ionic-react-hook-form-example', 18, 'Example with React Hook Form', 0, 3, ['alanmontgomery'], '2022-01-22T12:19:41.629456'),
 (10549, 6935431, 399220892, '3cpt/recorrente', 7, 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', 0, 5, ['3cpt'], '2022-01-22T12:19:26.692139'),
 (10550, 31478648, 393105235, 'abuanwar072/Flutter-Custom-Animation-Grocery-App', 7, null, 0, 133, ['abuanwar072'], '2022-01-22T12:19:26.796338'),
+(10551, 53687927, 256522821, 'SAY-droid427/DSAQuestions', 7, 'Collection of data-structures and algorithms along with resources and guidelines for mastering coding', 5, 40, ['SAY-droid427','dwaipayan05'], '2022-01-22T12:19:26.87259'),
 (10552, 19475228, 38119334, 'aarenson/PHPCap', 6, 'PHP Classes for using the REDCap API', 1, 16, ['mullen2','aarenson'], '2022-01-22T12:19:27.023399'),
 (10553, 6935431, 14759456, 'sec-edgar/sec-edgar', 8, ' Download all companies  periodic reports, filings and forms from EDGAR database.', 17, 637, ['jackmoody11','npsolve'], '2022-01-22T12:19:27.961463'),
 (10554, 53687927, 353584901, 'dwaipayan05/Improved-Octo-Parakeet', 8, null, 0, 1, ['dwaipayan05'], '2022-01-22T12:19:28.10028'),
 (10555, 19475228, 64889181, 'jmtyszka/bidskit', 7, 'Utility functions for working with DICOM and BIDS neuroimaging data', 14, 49, ['jmtyszka','nair-r'], '2022-01-22T12:19:28.224702'),
-(10551, 53687927, 256522821, 'SAY-droid427/DSAQuestions', 7, 'Collection of data-structures and algorithms along with resources and guidelines for mastering coding', 5, 40, ['SAY-droid427','dwaipayan05'], '2022-01-22T12:19:26.87259'),
 (10556, 31478648, 269906903, 'piyalidas10/piyalidas10.github.io', 8, 'Personal Website of Piyali Das ', 0, 1, ['piyalidas10'], '2022-01-22T12:19:28.356541'),
 (10557, 6935431, 292700337, 'github/github-artifact-exporter', 9, 'A set of packages to make exporting artifacts from GitHub easier', 7, 238, ['Chocrates','zkoppert'], '2022-01-22T12:19:29.200963'),
 (10558, 53687927, 353950870, 'dwaipayan05/Stress-Distribution-CO', 9, 'A Group of IPython Notebooks to Plot the Stress Distribution Around Single/Multiple Circular Openings along with Plots for Irregular Shape Openings using Kirsch Relations and Greenspan Method. ', 0, 1, ['dwaipayan05'], '2022-01-22T12:19:29.261828'),
@@ -11184,8 +11184,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11174, 12400445, 285782908, 'jmc265/dotfiles', 0, null, 0, 2, ['bw-jamescross','jmc265'], '2022-01-22T13:25:14.37997'),
 (11175, 42392347, 62500776, 'cerebroapp/cerebro', 0, 'Open-source productivity booster with a brain', 130, 7212, ['KELiON','Stanzilla'], '2022-01-22T13:25:14.471501'),
 (11176, 55907631, 399772846, 'commclassroom/mobileapp', 0, 'This is an official mobile app for community classroom', 5, 58, ['thisisamank','VarunSAthreya'], '2022-01-22T13:25:14.492264'),
-(11178, 12400445, 21900980, 'webpro/awesome-dotfiles', 1, 'A curated list of dotfiles resources.', 3, 6388, ['webpro','driesvints'], '2022-01-22T13:25:15.6285'),
 (11177, 907680, 399821046, 'varbhat/exatorrent', 0, 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', 3, 1369, ['varbhat'], '2022-01-22T13:25:14.638941'),
+(11178, 12400445, 21900980, 'webpro/awesome-dotfiles', 1, 'A curated list of dotfiles resources.', 3, 6388, ['webpro','driesvints'], '2022-01-22T13:25:15.6285'),
 (11179, 59939260, 239791048, 'kihosk/kiosk-raspberry', 1, null, 8, 20, ['justinask7','MihaiNueleanu'], '2022-01-22T13:25:15.655505'),
 (11180, 42392347, 315780024, 'ColomboJuan/CountDownMyBirthDay', 1, ' https://colombojuan.github.io/CountDownMyBirthDay/', 0, 1, ['ColomboJuan'], '2022-01-22T13:25:15.817268'),
 (11181, 55907631, 79162682, 'laurent22/joplin', 1, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 292, 27735, ['laurent22','tessus'], '2022-01-22T13:25:16.033171'),
