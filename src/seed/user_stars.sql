@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T08:44:57.096Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T10:44:34.456Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4000,11 +4000,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3954, 5842360, 166504843, 'ForrestKnight/open-source-cs', 19, 'Video discussing this curriculum:', 10, 15186, ['ForrestKnight','0xflotus'], '2022-01-21T03:35:03.510128'),
 (3955, 72279316, 230963289, 'Paol-imi/muuri-react', 18, 'The layout engine for React', 25, 242, ['Paol-imi','In-dev-paolo'], '2022-01-21T03:35:03.621572'),
 (3956, 57826091, 214587193, 'supabase/supabase', 18, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 209, 26807, ['kiwicopple','MildTomato'], '2022-01-21T03:35:03.692544'),
+(3957, 569510, 345796271, 'george-hawkins/financials', 20, null, 0, 1, ['george-hawkins'], '2022-01-21T03:35:03.74626'),
 (3958, 5842360, 88511852, 'skleinei/alfred-confluence', 20, 'Alfred workflow to search for Confluence content and open it.', 4, 80, ['skleinei'], '2022-01-21T03:35:04.600203'),
 (3959, 72279316, 324575078, 'Kushal997-das/Project-Guidance', 19, ':octocat:🌟 The Ultimate resources for beginner to advance level projects all at  one place 💻 🎯🚀 ', 3, 130, ['Kushal997-das','SamarpanCoder2002'], '2022-01-21T03:35:05.107161'),
 (3960, 57826091, 69495170, 'fastify/fastify', 19, 'Fast and low overhead web framework, for Node.js', 71, 21842, ['delvedor','mcollina'], '2022-01-21T03:35:05.252499'),
 (3961, 569510, 83516498, 'norvig/pytudes', 21, 'Python programs, usually short, of considerable difficulty, to perfect particular skills.', 16, 18111, ['norvig','ghurley'], '2022-01-21T03:35:05.302132'),
-(3957, 569510, 345796271, 'george-hawkins/financials', 20, null, 0, 1, ['george-hawkins'], '2022-01-21T03:35:03.74626'),
 (3962, 5842360, 141058176, 'skidding/jobs-done', 21, 'Ritual app for ending the work day inspired by Deep Work', 4, 950, ['skidding','aausch'], '2022-01-21T03:35:05.649121'),
 (3963, 72279316, 41029539, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 312, ['wegamekinglc'], '2022-01-21T03:35:06.447545'),
 (3964, 57826091, 381747084, 'Nazeeh21/Lottery-Contract', 20, null, 0, 14, ['Nazeeh21'], '2022-01-21T03:35:06.521588'),
@@ -9057,9 +9057,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8970, 80793630, 35561605, 'wongmjane/snake-pong', 18, 'i had too much time on plane so i made this', 0, 7, ['wongmjane','apptivators'], '2022-01-22T10:35:04.363728'),
 (8971, 26586086, 217963207, 'Umuzi-org/django-react-stack', 18, 'This is a template repo to be used when kicking off projects that make use of Django and React together', 1, 1, ['sheenarbw'], '2022-01-22T10:35:05.079399'),
 (8972, 80793630, 274357906, 't-bast/lightning-docs', 19, 'Some in-depth articles about the Lightning Network', 2, 100, ['t-bast','joostjager'], '2022-01-22T10:35:05.819326'),
+(8973, 80793630, 377452626, 'atapas/webapis-playground', 20, 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', 22, 175, ['atapas','mverissimo'], '2022-01-22T10:35:06.557296'),
 (8974, 26586086, 328584124, 'mdbootstrap/mdb4-vue-ui-kit', 19, 'Vue Bootstrap with Material Design - Powerful and free UI KIT', 0, 73, ['marlucz','bwsky-a'], '2022-01-22T10:35:06.657039'),
 (8975, 25217168, 221981891, 'microsoft/playwright', 11, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 378, 32581, ['pavelfeldman','dgozman'], '2022-01-22T10:35:07.783571'),
-(8973, 80793630, 377452626, 'atapas/webapis-playground', 20, 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', 22, 175, ['atapas','mverissimo'], '2022-01-22T10:35:06.557296'),
 (8976, 80793630, 391775174, 'mercyharbo/myShoppingList', 21, 'This is a shopping cart that performs a simple tasks like adding, removing a shopping list.', 0, 1, ['mercyharbo'], '2022-01-22T10:35:08.052879'),
 (8977, 26586086, 167647146, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 20, 'Build a Quiz App with HTML, CSS, and JavaScript', 8, 406, ['jamesqquick','thedamian'], '2022-01-22T10:35:08.173484'),
 (8978, 25217168, 153500249, 'sdras/awesome-actions', 12, 'A curated list of awesome actions to use on GitHub', 90, 17108, ['gep13','sdras'], '2022-01-22T10:35:09.290713'),
