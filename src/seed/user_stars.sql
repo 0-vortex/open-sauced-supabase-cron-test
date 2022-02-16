@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T20:44:18.863Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T22:44:30.381Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4575,7 +4575,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4495, 667716, 213346952, 'cesanta/elk', 4, 'A low footprint JavaScript engine for embedded systems', 0, 1270, ['cpq'], '2022-01-21T04:11:08.706976'),
 (4496, 38725511, 367855379, 'sanjoli30/ExpandingCards', 6, 'This is a webpage where some pictures are displayed in form of cards which expands when the user clicks on them. ', 0, 1, ['sanjoli30'], '2022-01-21T04:11:08.718507'),
 (4497, 13490604, 71359796, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:09.473799'),
-(4498, 46828701, 152873434, 'NaturalCycles/dev-lib', 3, 'Configuration files and scripts shared between all js modules', 0, 3, ['kirillgroshkov','semantic-release-bot'], '2022-01-21T04:11:09.780927'),
 (4499, 667716, 285998667, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 250, ['keiya01','JulienBlacas'], '2022-01-21T04:11:10.220394'),
 (4500, 38725511, 82289483, 'moleculerjs/moleculer', 7, ':rocket: Progressive microservices framework for Node.js', 85, 4922, ['icebob','AndreMaz'], '2022-01-21T04:11:10.376269'),
 (4501, 46828701, 70137417, 'corda/corda', 4, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', 235, 3794, ['Clintonio','exFalso'], '2022-01-21T04:11:10.57307'),
@@ -4702,12 +4701,12 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4622, 1295334, 3946572, 'PostgresApp/PostgresApp', 8, 'The easiest way to get started with PostgreSQL on the Mac', 122, 6178, ['jakob','chrispysoft'], '2022-01-21T04:21:30.269219'),
 (4623, 4381106, 8514, 'rails/rails', 9, 'Ruby on Rails', 594, 49947, ['rafaelfranca','tenderlove'], '2022-01-21T04:21:30.310646'),
 (4624, 6842883, 331700882, 'kyleshevlin/eslint-plugin', 8, 'A collection of my own ESLint rules.', 0, 77, ['kyleshevlin'], '2022-01-21T04:21:30.86689'),
-(4625, 2808728, 142616550, 'bernaferrari/EmojiSlider', 5, '🤯 A slider widget rich in emoji and highly customisable.', 4, 569, ['bernaferrari','ImgBotApp'], '2022-01-21T04:21:31.142196'),
 (4626, 1295334, 261787758, 'bradtraversy/design-resources-for-developers', 9, 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', 1, 35109, ['Alaev','StefanSelfTaught'], '2022-01-21T04:21:32.134161'),
 (4627, 6842883, 172378503, 'romkatv/powerlevel10k', 9, 'A Zsh theme', 18, 24656, ['romkatv','dritter'], '2022-01-21T04:21:32.224083'),
 (4628, 2808728, 24516196, 'nhat-nguyen/bittersweet', 6, 'a color scheme for Sublime Text', 0, 7, ['nhat-nguyen'], '2022-01-21T04:21:32.397424'),
 (4629, 4381106, 65252, 'jekyll/jekyll', 10, ':globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby', 170, 43965, ['parkr','jekyllbot'], '2022-01-21T04:21:32.591316'),
 (4630, 6842883, 229802493, 'GianCastle/dotfiles', 10, 'Personal dotfiles 🗂', 0, 1, ['GianCastle'], '2022-01-21T04:21:33.494743'),
+(4625, 2808728, 142616550, 'bernaferrari/EmojiSlider', 5, '🤯 A slider widget rich in emoji and highly customisable.', 4, 569, ['bernaferrari','ImgBotApp'], '2022-01-21T04:21:31.142196'),
 (4631, 2808728, 78819190, 'prettier/prettier-eslint', 7, 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', 37, 3456, ['zimme','kentcdodds'], '2022-01-21T04:21:33.645992'),
 (4632, 4381106, 175685939, 'JoonasN/Flutter-Speed-coding---Greenery-App', 11, null, 2, 47, ['ivangn03'], '2022-01-21T04:21:33.780572'),
 (4633, 2808728, 128468095, 'llSourcell/Learn_Computer_Science_in_5_Months', 8, 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', 9, 1800, ['llSourcell','SaumoPal97'], '2022-01-21T04:21:34.707306'),
@@ -4860,13 +4859,14 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4780, 25194960, 71359796, 'open-sauced/open-sauced', 26, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:36:13.686882'),
 (4781, 15052690, 372263341, 'ChaelCodes/ConfBuddies', 17, 'An app to help you find and meet up with your buddies at conferences.', 20, 18, ['ChaelCodes','yagosansz'], '2022-01-21T04:36:14.115524'),
 (4782, 28281924, 237448876, 'qiangxue/go-rest-api', 22, 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', 10, 761, ['qiangxue','chartinmarrel'], '2022-01-21T04:36:14.329973'),
-(4783, 3777549, 19415064, 'ossu/computer-science', 24, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105611, ['ericdouglas','joshmhanson'], '2022-01-21T04:36:14.777231'),
 (4784, 25194960, 305144746, 'geohot/tinygrad', 27, 'You like pytorch? You like micrograd? You love tinygrad! ❤️ ', 8, 5145, ['geohot','marcelbischoff'], '2022-01-21T04:36:14.880911'),
+(4783, 3777549, 19415064, 'ossu/computer-science', 24, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 105611, ['ericdouglas','joshmhanson'], '2022-01-21T04:36:14.777231'),
 (4785, 15052690, 387630224, 'carmenkolohe/CodeSchoolQA', 18, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', 5, 11, ['carmenkolohe','jendevelops'], '2022-01-21T04:36:15.667307'),
 (4786, 28281924, 191531341, 'site-prism/site_prism', 23, null, 6, 214, ['luke-hill','natritmeyer'], '2022-01-21T04:36:15.817709'),
 (4787, 3777549, 184808988, 'selfdefined/devsofcolour', 25, 'A searchable and sortable database to find devs of colour of all skill levels, languages, frameworks.', 2, 76, ['aarongustafson','tatianamac'], '2022-01-21T04:36:16.240525'),
 (4788, 25194960, 207117992, 'viraptor/reverse-interview', 28, 'Questions to ask the company during your interview', 25, 19953, ['viraptor','sherifsaleh'], '2022-01-21T04:36:16.447153'),
 (4789, 15052690, 215086062, 'fastruby/skunk', 19, 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', 8, 289, ['etagwerker','bronzdoc'], '2022-01-21T04:36:17.152143'),
+(4498, 46828701, 152873434, 'NaturalCycles/dev-lib', 3, 'Configuration files and scripts shared between all js modules', 0, 3, ['kirillgroshkov','semantic-release-bot'], '2022-01-21T04:11:09.780927'),
 (4790, 28281924, 46641250, 'codeceptjs/CodeceptJS', 24, 'Supercharged End 2 End Testing Framework for NodeJS', 307, 3609, ['DavertMik','PeterNgTr'], '2022-01-21T04:36:17.406575'),
 (4791, 3777549, 77558427, 'amejiarosario/dsa.js-data-structures-algorithms-javascript', 26, '🥞Data Structures and Algorithms explained and implemented in JavaScript + eBook', 3, 6313, ['amejiarosario','semantic-release-bot'], '2022-01-21T04:36:17.804118'),
 (4792, 25194960, 135224272, 'loomnetwork/solidity-social-example', 29, 'Super simple social network interaction, where users can post and comment on posts', 3, 65, ['mattkanwisher','eduardonunesp'], '2022-01-21T04:36:17.891803'),
