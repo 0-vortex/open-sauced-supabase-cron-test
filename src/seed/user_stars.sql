@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T18:45:40.691Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T20:44:18.863Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3042,8 +3042,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3001, 27487712, 81021705, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st'], '2022-01-21T02:02:23.55184'),
 (3002, 203683, 110749551, 'jgperrin/net.jgp.books.spark.ch01', 9, 'Spark in Action, 2nd edition - chapter 1 - Introduction', 0, 65, ['jgperrin','rambabu-posa'], '2022-01-21T02:02:23.864413'),
 (3003, 55982424, 220251820, 'gerardog/gsudo', 8, 'A Sudo for Windows - run elevated without spawning a new Console Host Window', 15, 1982, ['gerardog','ddavness'], '2022-01-21T02:02:24.128384'),
-(3005, 67718832, 21648001, 'akullpp/awesome-java', 7, 'A curated list of awesome frameworks, libraries and software for the Java programming language.', 8, 31225, ['heldev','krisskross'], '2022-01-21T02:02:24.981738'),
 (3004, 27487712, 23123294, 'angrave/SystemProgramming', 9, 'Angrave''s Crowd-Sourced System Programming Book used at UIUC', 0, 5174, ['angrave'], '2022-01-21T02:02:24.953133'),
+(3005, 67718832, 21648001, 'akullpp/awesome-java', 7, 'A curated list of awesome frameworks, libraries and software for the Java programming language.', 8, 31225, ['heldev','krisskross'], '2022-01-21T02:02:24.981738'),
 (3006, 203683, 216532683, 'go-goyave/goyave', 10, '🍐 Elegant Golang REST API Framework', 5, 940, ['System-Glitch','agbaraka'], '2022-01-21T02:02:25.139556'),
 (3007, 55982424, 82729529, 'google/python-fire', 9, 'Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.', 136, 21790, ['dbieber','joejoevictor'], '2022-01-21T02:02:25.506686'),
 (3008, 67718832, 115478820, 'binhnguyennus/awesome-scalability', 8, 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', 10, 37154, ['binhnguyennus','avidLearnerInProgress'], '2022-01-21T02:02:25.540875'),
