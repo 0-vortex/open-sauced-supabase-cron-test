@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T01:03:29.570Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T02:49:11.346Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2656,6 +2656,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2608, 79887, 2928944, 'Azure/azure-sdk-for-net', 29, 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', 1598, 3222, ['azure-sdk','pakrym'], '2022-01-21T00:25:07.394431'),
 (2609, 1917293, 13491895, 'EbookFoundation/free-programming-books', 28, ':books: Freely available programming books', 36, 219514, ['vhf','MHM5000'], '2022-01-21T00:25:07.513525'),
 (2610, 71297412, 311205362, '5t3ph/11ty-email-generator', 25, 'Generate simple, responsive email templates, with inlined CSS on build using 11ty.', 0, 44, ['5t3ph'], '2022-01-21T00:25:07.542769'),
+(2611, 71297412, 254060596, 'zellwk/crud-demo', 26, 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', 4, 76, ['zellwk'], '2022-01-21T00:25:09.024469'),
+(2612, 1917293, 401300251, 'Gen-R/organisation', 29, 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', 0, 2, ['mrchristian'], '2022-01-21T00:25:09.183218'),
+(2613, 71297412, 251457314, 'marcamos/jet', 27, 'It‘s (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it‘s still *really* small though.', 0, 201, ['marcamos','ryanccn'], '2022-01-21T00:25:09.7479'),
 (2614, 71297412, 40214070, 'graphql/express-graphql', 28, 'Create a GraphQL HTTP server with Express.', 58, 6205, ['wincent','IvanGoncharov'], '2022-01-21T00:25:11.097056'),
 (2615, 71297412, 55631449, 'jamstack/jamstack.org', 29, 'The official Jamstack site', 89, 2133, ['philhawksworth','zachleat'], '2022-01-21T00:25:12.521848'),
 (2616, 52336027, 124227308, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 125, ['entityframeworktutorial'], '2022-01-21T00:43:44.650829'),
@@ -2856,10 +2859,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2812, 58392246, 373681744, 'muhammaddzaky/project-kalian', 29, 'Hello', 0, 1, ['muhammaddzaky'], '2022-01-21T01:12:09.596204'),
 (2813, 9968219, 243274141, 'ramazansakin/spring-microservices', 28, 'Example of a microservice architecture using Spring Cloud', 0, 1, ['ramazansakin'], '2022-01-21T01:12:10.475958'),
 (2814, 9968219, 283210438, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 29, 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', 0, 1, ['cassiomolin','ramazansakin'], '2022-01-21T01:12:11.682745'),
-(2611, 71297412, 254060596, 'zellwk/crud-demo', 26, 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', 4, 76, ['zellwk'], '2022-01-21T00:25:09.024469'),
-(2612, 1917293, 401300251, 'Gen-R/organisation', 29, 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', 0, 2, ['mrchristian'], '2022-01-21T00:25:09.183218'),
 (2815, 46695719, 576201, 'mrdoob/three.js', 25, 'JavaScript 3D Library.', 469, 77929, ['mrdoob','Mugen87'], '2022-01-21T01:12:14.211473'),
-(2613, 71297412, 251457314, 'marcamos/jet', 27, 'It‘s (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it‘s still *really* small though.', 0, 201, ['marcamos','ryanccn'], '2022-01-21T00:25:09.7479'),
 (2816, 46695719, 291930234, 'testjavascript/nodejs-integration-tests-best-practices', 26, '✅  Master the art of the most powerful testing technique for Node.js: Component tests. Including super-comprehensive best practices list and an example app (November 2021)', 43, 1821, ['goldbergyoni','mikicho'], '2022-01-21T01:12:15.431936'),
 (2817, 46695719, 71220757, 'swisskyrepo/PayloadsAllTheThings', 27, 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', 17, 33661, ['swisskyrepo','p0dalirius'], '2022-01-21T01:12:17.7236'),
 (2818, 46695719, 144873815, 'prisma/prisma-examples', 28, ' 🚀 Ready-to-run Prisma example projects', 68, 3147, ['renovate-bot','nikolasburk'], '2022-01-21T01:12:19.118391'),
