@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T02:49:11.346Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T04:47:46.792Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -834,8 +834,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (826, 7860023, 231329928, 'kat-tax/ult', 2, 'The Ultimate App Dev Kit', 1, 49, ['Cavitt'], '2022-01-20T20:51:30.647012'),
 (827, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T20:51:31.051274'),
 (828, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T20:51:31.109301'),
-(829, 61815862, 56549856, 'fennifith/Pasta-for-Spotify', 6, 'A material design Spotify client for Android', 13, 101, ['fennifith','TheAndroidMaster'], '2022-01-20T20:51:31.868006'),
 (830, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T20:51:32.010259'),
+(829, 61815862, 56549856, 'fennifith/Pasta-for-Spotify', 6, 'A material design Spotify client for Android', 13, 101, ['fennifith','TheAndroidMaster'], '2022-01-20T20:51:31.868006'),
 (831, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T20:51:32.453696'),
 (832, 61815862, 165434192, 'dvx/lofi', 7, '🎵🔉 A mini Spotify player with WebGL visualizations.', 41, 673, ['dvx','stamoun'], '2022-01-20T20:51:32.717876'),
 (833, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T20:51:32.909285'),
