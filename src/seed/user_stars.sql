@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T08:44:40.175Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T10:44:27.633Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4788,8 +4788,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4708, 28281924, 368642007, 'ulissesdias/si700-2021-1st-backend-', 5, null, 0, 1, ['ulissesdias'], '2022-01-21T04:35:47.737911'),
 (4709, 25194960, 62367558, 'vercel/hyper', 7, 'A terminal built on web technologies', 745, 37716, ['rauchg','LabhanshAgrawal'], '2022-01-21T04:35:47.96134'),
 (4710, 15052690, 388026773, 'elizabethsiegle/twilio-video-mask-ml5', 2, 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', 0, 4, ['elizabethsiegle'], '2022-01-21T04:35:48.576189'),
-(4712, 3777549, 55631449, 'jamstack/jamstack.org', 6, 'The official Jamstack site', 89, 2134, ['philhawksworth','zachleat'], '2022-01-21T04:35:48.997888'),
 (4711, 36890230, 216906912, 'ideditor/country-coder', 5, '📍➡️ 🇩🇰 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally', 3, 168, ['quincylvania','bhousel'], '2022-01-21T04:35:48.803485'),
+(4712, 3777549, 55631449, 'jamstack/jamstack.org', 6, 'The official Jamstack site', 89, 2134, ['philhawksworth','zachleat'], '2022-01-21T04:35:48.997888'),
 (4713, 25194960, 93192704, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 36, 3402, ['LukeSmithxyz','narukeh'], '2022-01-21T04:35:49.221576'),
 (4714, 28281924, 361044034, 'slidevjs/slidev', 6, 'Presentation Slides for Developers (Beta)', 60, 17852, ['antfu','nico-bachner'], '2022-01-21T04:35:49.228122'),
 (4715, 15052690, 381833558, 'ganning127/catti', 3, null, 0, 3, ['ganning127'], '2022-01-21T04:35:49.826497'),
@@ -4908,8 +4908,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4899, 211851, 44882201, 'MunGell/awesome-for-beginners', 22, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:47:55.924397'),
 (4900, 1884246, 256327195, 'twbs/bootstrap-npm-starter', 24, 'Starter template for new Bootstrap-powered npm projects.', 21, 847, ['mdo','XhmikosR'], '2022-01-21T04:47:56.555699'),
 (4901, 3941126, 1239151, 'cmatsuoka/figlet', 23, 'Claudio''s FIGlet tree', 13, 876, ['cmatsuoka','jmccrohan'], '2022-01-21T04:47:57.307026'),
-(4903, 1884246, 355472453, 'Willd27/Avoidoids', 25, 'Small addictive game where you avoid asteroids', 0, 4, ['Willd27'], '2022-01-21T04:47:58.026519'),
 (4902, 527550, 14499588, 'AgileVentures/LocalSupport', 20, 'A directory of local support services and volunteer opportunities', 76, 61, ['tansaku','mtc2013'], '2022-01-21T04:47:57.533442'),
+(4903, 1884246, 355472453, 'Willd27/Avoidoids', 25, 'Small addictive game where you avoid asteroids', 0, 4, ['Willd27'], '2022-01-21T04:47:58.026519'),
 (4904, 211851, 36040894, 'gatsbyjs/gatsby', 23, 'Build blazing fast, modern apps and websites with React', 355, 52195, ['KyleAMathews','pieh'], '2022-01-21T04:47:58.778396'),
 (4905, 527550, 5911225, 'openSUSE/osem', 21, 'Open Source Event Manager. An event management tool tailored to Free and Open Source Software conferences.', 248, 700, ['hennevogel','differentreality'], '2022-01-21T04:47:58.791661'),
 (4906, 3941126, 1672647, 'clojure/core.logic', 24, null, 1, 1336, ['swannodette','namin'], '2022-01-21T04:47:58.829844'),
