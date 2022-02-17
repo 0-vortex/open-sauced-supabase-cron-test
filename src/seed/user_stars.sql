@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T18:46:15.274Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T20:44:17.820Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -941,7 +941,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (931, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T21:04:38.245707'),
 (932, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T21:04:38.978413'),
 (933, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T21:04:39.647176'),
-(934, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T21:04:39.738274'),
 (1047, 31227151, 4484451, 'amix/vimrc', 1, 'The ultimate Vim configuration (vimrc)', 28, 26216, ['amix','daniilguit'], '2022-01-20T21:13:00.597509'),
 (935, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T21:04:39.768716'),
 (936, 16268467, 16194327, 'adamschwartz/magic-of-css', 6, 'A CSS course to turn you into a magician.', 10, 5553, ['adamschwartz','cvrebert'], '2022-01-20T21:04:40.322891'),
@@ -953,6 +952,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (942, 7860023, 105649273, 'ElectronNET/Electron.NET', 4, ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', 133, 6128, ['GregorBiswanger','robertmuehsig'], '2022-01-20T21:04:42.960028'),
 (943, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1494, 49169, ['balloob','fabaff'], '2022-01-20T21:04:43.448725'),
 (944, 7860023, 205812745, 'mitesh77/Best-Flutter-UI-Templates', 5, 'completely free for everyone. Its build-in Flutter Dart.', 13, 13723, ['mitesh77','IAmSarthakVerma'], '2022-01-20T21:04:43.547026'),
+(934, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T21:04:39.738274'),
 (945, 16268467, 333421996, 'therealsreehari/Learn-Data-Science-For-Free', 9, 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', 5, 4764, ['therealsreehari','tuxiqae'], '2022-01-20T21:04:43.904965'),
 (946, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T21:04:44.23015'),
 (947, 16268467, 132757250, 'charlax/entrepreneurship-resources', 10, 'A list of articles, books, videos related to entrepreneurship', 0, 64, ['charlax'], '2022-01-20T21:04:44.596421'),
@@ -2983,10 +2983,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4838, 211851, 141334515, 'kormyen/memex', 6, 'Simple bookmarks and notes', 3, 364, ['kormyen','lcb931023'], '2022-01-21T04:47:35.908271'),
 (4839, 527550, 110759796, 'librespot-org/librespot', 5, 'Open Source Spotify client library', 18, 2772, ['plietar','sashahilton00'], '2022-01-21T04:47:35.922602'),
 (4885, 3941126, 140805170, 'aravindnc/A-to-Z-List-of-Useful-Node.js-Modules', 18, 'Collection of most awesome node modules that will extend the capability of your node.js application.', 0, 338, ['aravindnc','iasjem'], '2022-01-21T04:47:51.478261'),
-(2945, 59651629, 374018112, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1229, ['sadanandpai','dth99'], '2022-01-21T01:38:29.05149'),
 (2946, 1305623, 2247604, 'joaomatossilva/DateTimeExtensions', 25, 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', 10, 404, ['joaomatossilva','schulz3000'], '2022-01-21T01:38:29.431912'),
 (2947, 4386534, 117398892, 'lenadroid/awesome-oss-mentors', 24, 'List of OSS contributors willing to help others with their first pull requests!', 3, 490, ['lenadroid','seanknox'], '2022-01-21T01:38:29.961654'),
 (2948, 59651629, 262286900, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant'], '2022-01-21T01:38:30.068405'),
+(2945, 59651629, 374018112, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1229, ['sadanandpai','dth99'], '2022-01-21T01:38:29.05149'),
 (2949, 35779241, 40276274, 'ziglang/zig', 21, 'General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.', 1971, 12184, ['andrewrk','kubkon'], '2022-01-21T01:38:30.337996'),
 (2950, 1305623, 174936961, 'aspnetrun/run-aspnetcore', 26, 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', 3, 321, ['mehmetozkaya'], '2022-01-21T01:38:30.545679'),
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
@@ -3668,8 +3668,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3622, 25867172, 43623432, 'qw3rtman/git-fire', 24, ':fire: Save Your Code in an Emergency', 13, 3713, ['qw3rtman','edwinbalani'], '2022-01-21T03:09:11.088477'),
 (3623, 25867172, 265925036, 'teezzan/halqah', 25, 'A lectureHub frontend  web app', 16, 1, ['teezzan','brokewhale'], '2022-01-21T03:09:12.332458'),
 (3624, 25867172, 202445312, 'open-wa/wa-automate-nodejs', 26, ' 💬 🤖  The most advanced NodeJS WhatsApp library for chatbots with advanced features. Be sure to 🌟 this repository for updates! ', 38, 2034, ['smashah','danielcardeenas'], '2022-01-21T03:09:13.680598'),
-(3626, 25867172, 93996923, 'jaweii/Vueg----page-transition-plugin', 28, '为Vue应用添加页面间的转场特效( Page level transition plugin for vue-router)', 10, 1039, ['jaweii'], '2022-01-21T03:09:16.318005'),
 (3625, 25867172, 262434521, 'kbeckmann/pergola_projects', 27, 'My pergola FPGA projects', 0, 25, ['kbeckmann','whitequark'], '2022-01-21T03:09:14.929538'),
+(3626, 25867172, 93996923, 'jaweii/Vueg----page-transition-plugin', 28, '为Vue应用添加页面间的转场特效( Page level transition plugin for vue-router)', 10, 1039, ['jaweii'], '2022-01-21T03:09:16.318005'),
 (3627, 25867172, 18696257, 'qrohlf/trianglify', 29, 'Algorithmically generated triangle art', 14, 9823, ['qrohlf','enzuguri'], '2022-01-21T03:09:17.793455'),
 (3628, 75340837, 322542582, 'EthWorks/useDApp', 0, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', 78, 798, ['nezouse','marekkirejczyk'], '2022-01-21T03:17:28.38078'),
 (3629, 349523, 11765017, 'JetBrains/Exposed', 0, 'Kotlin SQL Framework', 304, 5849, ['Tapac','shafirov'], '2022-01-21T03:17:29.205124'),
