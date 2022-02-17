@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T20:44:17.820Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T22:44:18.449Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -941,6 +941,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (931, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T21:04:38.245707'),
 (932, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T21:04:38.978413'),
 (933, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T21:04:39.647176'),
+(934, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T21:04:39.738274'),
 (1047, 31227151, 4484451, 'amix/vimrc', 1, 'The ultimate Vim configuration (vimrc)', 28, 26216, ['amix','daniilguit'], '2022-01-20T21:13:00.597509'),
 (935, 61815862, 341582109, 'trungk18/angular-spotify', 5, 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', 8, 1806, ['trungk18','nikosanif'], '2022-01-20T21:04:39.768716'),
 (936, 16268467, 16194327, 'adamschwartz/magic-of-css', 6, 'A CSS course to turn you into a magician.', 10, 5553, ['adamschwartz','cvrebert'], '2022-01-20T21:04:40.322891'),
@@ -952,7 +953,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (942, 7860023, 105649273, 'ElectronNET/Electron.NET', 4, ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', 133, 6128, ['GregorBiswanger','robertmuehsig'], '2022-01-20T21:04:42.960028'),
 (943, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1494, 49169, ['balloob','fabaff'], '2022-01-20T21:04:43.448725'),
 (944, 7860023, 205812745, 'mitesh77/Best-Flutter-UI-Templates', 5, 'completely free for everyone. Its build-in Flutter Dart.', 13, 13723, ['mitesh77','IAmSarthakVerma'], '2022-01-20T21:04:43.547026'),
-(934, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T21:04:39.738274'),
 (945, 16268467, 333421996, 'therealsreehari/Learn-Data-Science-For-Free', 9, 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', 5, 4764, ['therealsreehari','tuxiqae'], '2022-01-20T21:04:43.904965'),
 (946, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T21:04:44.23015'),
 (947, 16268467, 132757250, 'charlax/entrepreneurship-resources', 10, 'A list of articles, books, videos related to entrepreneurship', 0, 64, ['charlax'], '2022-01-20T21:04:44.596421'),
@@ -2983,10 +2983,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4838, 211851, 141334515, 'kormyen/memex', 6, 'Simple bookmarks and notes', 3, 364, ['kormyen','lcb931023'], '2022-01-21T04:47:35.908271'),
 (4839, 527550, 110759796, 'librespot-org/librespot', 5, 'Open Source Spotify client library', 18, 2772, ['plietar','sashahilton00'], '2022-01-21T04:47:35.922602'),
 (4885, 3941126, 140805170, 'aravindnc/A-to-Z-List-of-Useful-Node.js-Modules', 18, 'Collection of most awesome node modules that will extend the capability of your node.js application.', 0, 338, ['aravindnc','iasjem'], '2022-01-21T04:47:51.478261'),
+(2945, 59651629, 374018112, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1229, ['sadanandpai','dth99'], '2022-01-21T01:38:29.05149'),
 (2946, 1305623, 2247604, 'joaomatossilva/DateTimeExtensions', 25, 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', 10, 404, ['joaomatossilva','schulz3000'], '2022-01-21T01:38:29.431912'),
 (2947, 4386534, 117398892, 'lenadroid/awesome-oss-mentors', 24, 'List of OSS contributors willing to help others with their first pull requests!', 3, 490, ['lenadroid','seanknox'], '2022-01-21T01:38:29.961654'),
 (2948, 59651629, 262286900, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant'], '2022-01-21T01:38:30.068405'),
-(2945, 59651629, 374018112, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1229, ['sadanandpai','dth99'], '2022-01-21T01:38:29.05149'),
 (2949, 35779241, 40276274, 'ziglang/zig', 21, 'General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.', 1971, 12184, ['andrewrk','kubkon'], '2022-01-21T01:38:30.337996'),
 (2950, 1305623, 174936961, 'aspnetrun/run-aspnetcore', 26, 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', 3, 321, ['mehmetozkaya'], '2022-01-21T01:38:30.545679'),
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
@@ -3486,9 +3486,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3440, 60254117, 315604447, 'udberg/tribute-page', 3, null, 0, 2, ['udberg'], '2022-01-21T02:59:53.092947'),
 (3441, 42749147, 323331240, 'akobepeter/myapp', 6, null, 0, 1, ['akobepeter'], '2022-01-21T02:59:53.427964'),
 (3442, 25217168, 60656871, 'zulip/zulip-desktop', 6, 'Zulip Desktop Client', 138, 624, ['akashnimare','andersk'], '2022-01-21T02:59:53.713099'),
-(3443, 60254117, 315872513, 'udberg/clone-new-york-times-article', 4, 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', 0, 2, ['udberg','KCnick'], '2022-01-21T02:59:54.185941'),
 (3444, 25217168, 58298428, 'zulip/zulip-mobile', 7, 'The Zulip app for Android and iOS.', 711, 980, ['gnprice','chrisbobbe'], '2022-01-21T02:59:54.967232'),
 (3445, 25217168, 43160685, 'zulip/zulip', 8, 'Zulip server and web app—powerful open source team chat', 2392, 15060, ['timabbott','showell'], '2022-01-21T02:59:55.483411'),
+(3443, 60254117, 315872513, 'udberg/clone-new-york-times-article', 4, 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', 0, 2, ['udberg','KCnick'], '2022-01-21T02:59:54.185941'),
 (3446, 60254117, 320016849, 'udberg/MGF-Conference-Page', 5, 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', 0, 7, ['udberg'], '2022-01-21T02:59:55.532861'),
 (3447, 42749147, 323663755, 'akobepeter/materializeProject', 8, null, 0, 1, ['akobepeter'], '2022-01-21T02:59:55.541727'),
 (3448, 60254117, 323872491, 'udberg/bubble-sort', 6, 'Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.', 0, 2, ['udberg'], '2022-01-21T02:59:56.76798'),
@@ -8819,9 +8819,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8733, 30369246, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 6, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 25, 7597, ['Ebazhanov','monkrus'], '2022-01-22T10:15:54.471951'),
 (8734, 78520194, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T10:15:54.651858'),
 (8735, 34903088, 392073567, 'open-sauced/docs.opensauced.pizza', 7, 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', 4, 8, ['0-vortex','samuelsycamore'], '2022-01-22T10:15:55.039538'),
-(8736, 78520194, 62260083, 'withspectrum/spectrum', 7, 'Simple, powerful online communities.', 268, 10340, ['brianlovin','mxstbr'], '2022-01-22T10:15:55.14389'),
 (8737, 30369246, 61426855, 'jainaman224/Algo_Ds_Notes', 7, 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', 220, 1924, ['jainaman224','somya-kapoor'], '2022-01-22T10:15:55.793475'),
 (8738, 34903088, 266346243, 'open-sauced/goals-template', 8, 'This is the template repo for managing your contributions through opensauced.pizza', 3, 16, ['bdougie','gr2m'], '2022-01-22T10:15:56.232318'),
+(8736, 78520194, 62260083, 'withspectrum/spectrum', 7, 'Simple, powerful online communities.', 268, 10340, ['brianlovin','mxstbr'], '2022-01-22T10:15:55.14389'),
 (8739, 78520194, 96767206, 'gitcoinco/web', 8, 'Grow Open Source', 498, 1438, ['owocki','thelostone-mc'], '2022-01-22T10:15:56.4233'),
 (8740, 30369246, 136062240, 'DovAmir/awesome-design-patterns', 8, 'A curated list of software and architecture related design patterns.', 6, 15704, ['DovAmir','LeoColomb'], '2022-01-22T10:15:57.068704'),
 (8741, 34903088, 246322368, 'dayhaysoos/use-shopping-cart', 9, 'Shopping cart state and logic for Stripe', 28, 685, ['dayhaysoos','andria-dev'], '2022-01-22T10:15:57.346889'),
