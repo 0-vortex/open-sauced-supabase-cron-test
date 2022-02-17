@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T01:02:50.074Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T02:46:33.423Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7288,8 +7288,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7278, 19861960, 172359440, 'microsoft/frontend-bootcamp', 28, 'Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux', 17, 10514, ['kenotron','micahgodbolt'], '2022-01-22T08:30:49.393008'),
 (7279, 469997, 3648410, 'mrandmm/Android-PC-Sync', 18, 'Android PC Sync', 0, 2, [], '2022-01-22T08:30:49.580899'),
 (7280, 3662109, 221654678, 'deepset-ai/haystack', 27, ':mag: Haystack is an open source NLP framework that leverages Transformer models. It enables developers to implement production-ready neural search, question answering, semantic document search and summarization for a wide range of applications.', 175, 3793, ['tholor','tanaysoni'], '2022-01-22T08:30:49.605667'),
-(7282, 3941856, 280929892, 'leanmotherfuckers/serverless-magic-links-poc', 26, 'A simple POC for user-friendly magic links via AWS Cognito.', 0, 52, ['tschoffelen','mojitocoder'], '2022-01-22T08:30:50.333308'),
 (7281, 3662109, 221981891, 'microsoft/playwright', 28, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 378, 32580, ['pavelfeldman','dgozman'], '2022-01-22T08:30:50.146889'),
+(7282, 3941856, 280929892, 'leanmotherfuckers/serverless-magic-links-poc', 26, 'A simple POC for user-friendly magic links via AWS Cognito.', 0, 52, ['tschoffelen','mojitocoder'], '2022-01-22T08:30:50.333308'),
 (7283, 19861960, 190845267, 'n64decomp/sm64', 29, 'A Super Mario 64 decompilation, brought to you by a bunch of clever folks.', 10, 5869, ['mountainflaw','ahouts'], '2022-01-22T08:30:50.837883'),
 (7284, 3941856, 160402426, 'samanthabretous/black-speakers-in-tech', 27, null, 2, 157, ['samanthabretous','alexasomba'], '2022-01-22T08:30:50.845151'),
 (10085, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7948, ['cyrus-and','alfunx'], '2022-01-22T11:46:11.615873'),
