@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T14:44:19.966Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T16:50:15.256Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3466,13 +3466,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3420, 42211, 250512911, 'apivideo/browserLiveStream', 29, 'Use webcam, browser and Node to stream live video. From api.video (https://api.video)', 5, 130, ['dougsillars','erikkai'], '2022-01-21T02:54:27.085287'),
 (3421, 66696421, 147350463, 'leonardomso/33-js-concepts', 0, '📜 33 JavaScript concepts every developer should know.', 9, 46048, ['leonardomso','ilker0'], '2022-01-21T02:59:42.236696'),
 (3422, 66696421, 229764465, 'Asabeneh/30-Days-Of-JavaScript', 1, '30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. ', 44, 14618, ['Asabeneh','npnjuguna'], '2022-01-21T02:59:43.79424'),
+(3423, 66696421, 343441919, 'wildanalifr/belajar-javascript', 2, 'Repository ini merupakan hasil belajar javascript dari kursus jonas di udemy', 0, 1, ['wildanalifr'], '2022-01-21T02:59:45.124911'),
+(3424, 25217168, 383495767, 'osoc21/wepod-sandbox', 0, null, 1, 1, ['barbarebelge'], '2022-01-21T02:59:45.626186'),
 (3425, 85258143, 388004440, 'oscafrica/open-source-challenge-2021', 0, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', 1, 47, ['BolajiAyodeji','Petec0x0'], '2022-01-21T02:59:46.395838'),
 (3426, 66696421, 272382323, 'cozyCodr/coderXcoded.github.io', 3, 'practice of what i have learnt on freecodecamp.org', 0, 1, ['cozyCodr'], '2022-01-21T02:59:46.433434'),
 (3427, 42749147, 391916620, 'vicktoh/dataphyte_index', 0, null, 0, 1, ['vicktoh'], '2022-01-21T02:59:47.068904'),
 (3428, 25217168, 373301717, 'oscakampala/made-in-uganda', 1, 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', 0, 10, ['oscakampala','KakoozaJerry'], '2022-01-21T02:59:47.123811'),
-(3423, 66696421, 343441919, 'wildanalifr/belajar-javascript', 2, 'Repository ini merupakan hasil belajar javascript dari kursus jonas di udemy', 0, 1, ['wildanalifr'], '2022-01-21T02:59:45.124911'),
 (3429, 42749147, 385244918, 'vicktoh/nocopo_scrapping', 1, 'Script to scrape data from the NOCOPO platform in order to assess disclosure level of MDAs on the platform using python selenium', 0, 1, ['vicktoh'], '2022-01-21T02:59:48.322844'),
-(3424, 25217168, 383495767, 'osoc21/wepod-sandbox', 0, null, 1, 1, ['barbarebelge'], '2022-01-21T02:59:45.626186'),
 (3430, 25217168, 272529198, 'telekom/das-schiff', 2, 'This is home of Das Schiff - Deutsche Telekom Technik''s engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs. ', 0, 224, ['vukg','Cellebyte'], '2022-01-21T02:59:48.383954'),
 (3431, 42749147, 44604597, 'delight-im/PHP-Auth', 2, 'Authentication for PHP. Simple, lightweight and secure.', 30, 845, ['ocram','maxsenft'], '2022-01-21T02:59:49.594506'),
 (3432, 25217168, 85039965, 'litmuschaos/litmus', 3, 'Litmus helps  SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q', 252, 2468, ['ksatchit','rajdas98'], '2022-01-21T02:59:49.783091'),
@@ -3869,6 +3869,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3822, 49351279, 317639685, 'johnlindquist/kit', 18, 'Script Kit. Automate Anything.', 4, 1298, ['johnlindquist','jsjoeio'], '2022-01-21T03:28:26.379648'),
 (3823, 1431853, 241805592, 'rome/tools', 21, 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', 41, 17007, ['sebmck','ematipico'], '2022-01-21T03:28:26.784582'),
 (3824, 33669114, 65915265, 'cncf/foundation', 19, '☁️♮🏛File non-technical issues related to CNCF', 35, 319, ['amye','caniszczyk'], '2022-01-21T03:28:26.792379'),
+(3862, 57017587, 41796462, 'yanirs/established-remote', 29, 'A list of established remote companies', 0, 5060, ['yanirs','dcecile'], '2022-01-21T03:28:38.066535'),
 (3863, 1431853, 134571997, 'codingmamalabs/raspi-ansible', 28, 'Ansible stuff for setting up Raspeberry Pis', 0, 13, ['erikaheidi'], '2022-01-21T03:28:38.191694'),
 (3825, 8037469, 317859910, 'pankod/superplate', 23, 'A well-structured production-ready frontend boilerplate with Typescript, Jest, testing-library, styled-component, Sass, Css, .env, Fetch, Axios, Reverse Proxy, Bundle Analyzer and 30+ plugin. For now, only creates projects for React and Next.js. https://pankod.github.io/superplate/', 19, 1589, ['omeraplak','burcukaragozzz'], '2022-01-21T03:28:27.09457'),
 (3826, 57017587, 64478737, 'AllToMP3/alltomp3-app', 21, 'Download and Convert YouTube, SoundCloud & Spotify in MP3 with full tags (title, artist, genre, cover, lyrics 🔥)', 164, 1090, ['NTag','opera7133'], '2022-01-21T03:28:27.27744'),
@@ -3885,7 +3886,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3837, 49351279, 47878060, 'i18next/react-i18next', 21, 'Internationalization for react done right. Using the i18next i18n ecosystem.', 3, 7007, ['jamuhl','adrai'], '2022-01-21T03:28:30.813783'),
 (3838, 57017587, 132750724, 'danistefanovic/build-your-own-x', 23, '🤓 Build your own (insert technology here)', 208, 127966, ['danistefanovic','bauripalash'], '2022-01-21T03:28:31.043973'),
 (3839, 8037469, 43156818, 'microsoft/vscode-generator-code', 26, 'Visual Studio Code extension generator', 5, 786, ['aeschli','bpasero'], '2022-01-21T03:28:31.293729'),
-(3862, 57017587, 41796462, 'yanirs/established-remote', 29, 'A list of established remote companies', 0, 5060, ['yanirs','dcecile'], '2022-01-21T03:28:38.066535'),
 (3840, 1431853, 234231371, 'gofiber/fiber', 24, '⚡️ Express inspired web framework written in Go', 41, 17792, ['Fenny','kiyonlin'], '2022-01-21T03:28:31.304811'),
 (3841, 33669114, 116800189, 'dockersamples/k8s-wordsmith-demo', 23, 'Sample project with Docker containers running under Kubernetes', 4, 164, ['BretFisher','otherguy'], '2022-01-21T03:28:31.83004'),
 (3842, 57017587, 31267860, 'therebelrobot/awesome-workshopper', 24, 'A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.', 4, 947, ['therebelrobot','bitdeli-chef'], '2022-01-21T03:28:32.194558'),
