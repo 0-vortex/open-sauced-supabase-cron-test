@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T22:44:18.449Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T01:03:40.412Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3486,9 +3486,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3440, 60254117, 315604447, 'udberg/tribute-page', 3, null, 0, 2, ['udberg'], '2022-01-21T02:59:53.092947'),
 (3441, 42749147, 323331240, 'akobepeter/myapp', 6, null, 0, 1, ['akobepeter'], '2022-01-21T02:59:53.427964'),
 (3442, 25217168, 60656871, 'zulip/zulip-desktop', 6, 'Zulip Desktop Client', 138, 624, ['akashnimare','andersk'], '2022-01-21T02:59:53.713099'),
+(3443, 60254117, 315872513, 'udberg/clone-new-york-times-article', 4, 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', 0, 2, ['udberg','KCnick'], '2022-01-21T02:59:54.185941'),
 (3444, 25217168, 58298428, 'zulip/zulip-mobile', 7, 'The Zulip app for Android and iOS.', 711, 980, ['gnprice','chrisbobbe'], '2022-01-21T02:59:54.967232'),
 (3445, 25217168, 43160685, 'zulip/zulip', 8, 'Zulip server and web app—powerful open source team chat', 2392, 15060, ['timabbott','showell'], '2022-01-21T02:59:55.483411'),
-(3443, 60254117, 315872513, 'udberg/clone-new-york-times-article', 4, 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', 0, 2, ['udberg','KCnick'], '2022-01-21T02:59:54.185941'),
 (3446, 60254117, 320016849, 'udberg/MGF-Conference-Page', 5, 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', 0, 7, ['udberg'], '2022-01-21T02:59:55.532861'),
 (3447, 42749147, 323663755, 'akobepeter/materializeProject', 8, null, 0, 1, ['akobepeter'], '2022-01-21T02:59:55.541727'),
 (3448, 60254117, 323872491, 'udberg/bubble-sort', 6, 'Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.', 0, 2, ['udberg'], '2022-01-21T02:59:56.76798'),
@@ -8819,9 +8819,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8733, 30369246, 196760810, 'Ebazhanov/linkedin-skill-assessments-quizzes', 6, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 25, 7597, ['Ebazhanov','monkrus'], '2022-01-22T10:15:54.471951'),
 (8734, 78520194, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T10:15:54.651858'),
 (8735, 34903088, 392073567, 'open-sauced/docs.opensauced.pizza', 7, 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', 4, 8, ['0-vortex','samuelsycamore'], '2022-01-22T10:15:55.039538'),
+(8736, 78520194, 62260083, 'withspectrum/spectrum', 7, 'Simple, powerful online communities.', 268, 10340, ['brianlovin','mxstbr'], '2022-01-22T10:15:55.14389'),
 (8737, 30369246, 61426855, 'jainaman224/Algo_Ds_Notes', 7, 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', 220, 1924, ['jainaman224','somya-kapoor'], '2022-01-22T10:15:55.793475'),
 (8738, 34903088, 266346243, 'open-sauced/goals-template', 8, 'This is the template repo for managing your contributions through opensauced.pizza', 3, 16, ['bdougie','gr2m'], '2022-01-22T10:15:56.232318'),
-(8736, 78520194, 62260083, 'withspectrum/spectrum', 7, 'Simple, powerful online communities.', 268, 10340, ['brianlovin','mxstbr'], '2022-01-22T10:15:55.14389'),
 (8739, 78520194, 96767206, 'gitcoinco/web', 8, 'Grow Open Source', 498, 1438, ['owocki','thelostone-mc'], '2022-01-22T10:15:56.4233'),
 (8740, 30369246, 136062240, 'DovAmir/awesome-design-patterns', 8, 'A curated list of software and architecture related design patterns.', 6, 15704, ['DovAmir','LeoColomb'], '2022-01-22T10:15:57.068704'),
 (8741, 34903088, 246322368, 'dayhaysoos/use-shopping-cart', 9, 'Shopping cart state and logic for Stripe', 28, 685, ['dayhaysoos','andria-dev'], '2022-01-22T10:15:57.346889'),
