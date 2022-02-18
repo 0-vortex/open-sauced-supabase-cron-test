@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T08:44:39.811Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:44:28.366Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3798,8 +3798,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3751, 8037469, 216279084, 'shellbear/shellbear.me', 8, 'Source code of my personal website and blog ✨', 4, 110, ['shellbear'], '2022-01-21T03:28:05.098625'),
 (3752, 57017587, 68968979, 'nukeop/nuclear', 7, 'Streaming music player that finds free music for you', 123, 7226, ['nukeop','trekiteasy'], '2022-01-21T03:28:05.77562'),
 (3753, 33669114, 307575939, 'kelseyhightower/opa-on-cloud-run', 5, 'Tutorial: Open Policy Agent on Cloud Run', 0, 26, ['kelseyhightower'], '2022-01-21T03:28:06.404096'),
-(3755, 8037469, 377602613, 'hasura/hasura-ecommerce', 9, null, 1, 164, ['GavinRay97'], '2022-01-21T03:28:06.685535'),
 (3754, 1431853, 116050135, 'pascaldevink/spaceship-zsh-theme', 7, ':star: :rocket: An “Oh My ZSH!” theme for Astronauts.', 0, 88, ['denysdovhan','salmanulfarzy'], '2022-01-21T03:28:06.677195'),
+(3755, 8037469, 377602613, 'hasura/hasura-ecommerce', 9, null, 1, 164, ['GavinRay97'], '2022-01-21T03:28:06.685535'),
 (3756, 57017587, 36554250, 'hackerkid/Mind-Expanding-Books', 8, ' :books: Books everyone should read!', 56, 8402, ['hackerkid','himanshub16'], '2022-01-21T03:28:07.038942'),
 (3757, 33669114, 387501063, 'cassidoo/shopify-next-netlify', 6, 'A Shopify Next.js demo', 1, 30, ['cassidoo','verythorough'], '2022-01-21T03:28:07.900881'),
 (3758, 49351279, 60493101, 'jwasham/coding-interview-university', 4, 'A complete computer science study plan to become a software engineer.', 40, 203499, ['jwasham','avizmarlon'], '2022-01-21T03:28:08.108548'),
