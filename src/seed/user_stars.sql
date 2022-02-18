@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T01:03:40.412Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T02:49:08.834Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5331,8 +5331,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5322, 60850993, 144107489, 'sudheerj/vuejs-interview-questions', 1, 'List of 300 VueJS Interview Questions And Answers', 3, 1418, ['sudheerj','bekliev'], '2022-01-21T05:28:54.397426'),
 (5323, 1645628, 303861532, 'WordPress/pattern-directory', 3, 'The WordPress Block Pattern Directory', 39, 68, ['ryelle','StevenDufresne'], '2022-01-21T05:28:55.19515'),
 (5324, 38838958, 156914027, 'isaachinman/next-i18next', 1, 'The easiest way to translate your NextJs apps.', 22, 2912, ['isaachinman','capellini'], '2022-01-21T05:28:55.503498'),
-(5325, 1645628, 289205582, 'kr1sp1n/awesome-gemini', 4, 'A collection of awesome things regarding the gemini protocol ecosystem.', 8, 544, ['kr1sp1n','pitr'], '2022-01-21T05:28:56.370077'),
 (5326, 38838958, 383845459, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze'], '2022-01-21T05:28:56.770022'),
+(5325, 1645628, 289205582, 'kr1sp1n/awesome-gemini', 4, 'A collection of awesome things regarding the gemini protocol ecosystem.', 8, 544, ['kr1sp1n','pitr'], '2022-01-21T05:28:56.370077'),
 (5327, 60850993, 386951260, 'dabit3/nuxt-supabase-full-multi-user-blog', 2, 'Build a mult-user blogging app with Supabase and Nuxt.js', 1, 48, ['dabit3'], '2022-01-21T05:28:56.921425'),
 (5328, 3846874, 52630616, 'apollographql/apollo-client', 0, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 564, 17195, ['benjamn','renovate-bot'], '2022-01-21T05:28:57.394803'),
 (5329, 1645628, 343964517, 'module-federation/microlib-examples', 5, 'This template project provides the scaffolding to build a federated application on ÆGIS. It also contains an example of an Order, Customer and Inventory service streaming to / running in the same ÆGIS host server process; and demonstrates integration with, and orchestration of, an Address, Payment, Inventory, Shipping, Event (Kafka, WebSockets), and Persistence service (MongoDB) via Aegis federated ports. ', 1, 22, ['tysonrm','ScriptedAlchemy'], '2022-01-21T05:28:57.773417'),
