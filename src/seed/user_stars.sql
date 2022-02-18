@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T16:50:15.256Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T18:46:25.270Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4572,8 +4572,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4492, 13490604, 21179164, 'qTox/qTox', 4, 'qTox is a chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol.', 631, 3874, ['tux3','sudden6'], '2022-01-21T04:11:06.980354'),
 (4493, 46828701, 57252451, 'gradle/kotlin-dsl-samples', 2, 'Samples builds using the Gradle Kotlin DSL', 38, 3501, ['bamboo','eskatos'], '2022-01-21T04:11:08.351204'),
 (4494, 13490604, 35017238, 'hackmdio/codimd', 5, 'CodiMD - Realtime collaborative markdown notes on all platforms.', 300, 7660, ['jackycute','SISheogorath'], '2022-01-21T04:11:08.670833'),
-(4495, 667716, 213346952, 'cesanta/elk', 4, 'A low footprint JavaScript engine for embedded systems', 0, 1270, ['cpq'], '2022-01-21T04:11:08.706976'),
 (4496, 38725511, 367855379, 'sanjoli30/ExpandingCards', 6, 'This is a webpage where some pictures are displayed in form of cards which expands when the user clicks on them. ', 0, 1, ['sanjoli30'], '2022-01-21T04:11:08.718507'),
+(4495, 667716, 213346952, 'cesanta/elk', 4, 'A low footprint JavaScript engine for embedded systems', 0, 1270, ['cpq'], '2022-01-21T04:11:08.706976'),
 (4497, 13490604, 71359796, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:09.473799'),
 (4498, 46828701, 152873434, 'NaturalCycles/dev-lib', 3, 'Configuration files and scripts shared between all js modules', 0, 3, ['kirillgroshkov','semantic-release-bot'], '2022-01-21T04:11:09.780927'),
 (4499, 667716, 285998667, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 250, ['keiya01','JulienBlacas'], '2022-01-21T04:11:10.220394'),
@@ -4767,7 +4767,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4687, 25194960, 336889949, 'NYRI4/Comfy', 2, 'Stay comfy while talking to your friends', 4, 207, ['NYRI4'], '2022-01-21T04:35:40.490135'),
 (4688, 3777549, 266346243, 'open-sauced/goals-template', 0, 'This is the template repo for managing your contributions through opensauced.pizza', 3, 16, ['bdougie','gr2m'], '2022-01-21T04:35:40.522464'),
 (4689, 28281924, 93928882, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 86, 5312, ['easonlin404','ubogdan'], '2022-01-21T04:35:41.585363'),
-(4690, 3777549, 9394642, 'kristopolous/BOOTSTRA.386', 1, 'A vintage 1980s DOS inspired Twitter Bootstrap theme', 52, 6062, ['kristopolous','tomer'], '2022-01-21T04:35:42.049271'),
 (4691, 25194960, 207645083, 'tannerlinsley/react-query', 3, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 45, 25020, ['tannerlinsley','boschni'], '2022-01-21T04:35:42.068435'),
 (4692, 36890230, 321545207, 'motiondeveloper/create-expression-lib', 0, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', 1, 15, ['timhaywood'], '2022-01-21T04:35:43.198797'),
 (4693, 28281924, 175425051, 'kumahq/kuma', 2, '🐻 The Universal Service Mesh. CNCF Sandbox Project.', 326, 2550, ['yskopets','jakubdyszkiewicz'], '2022-01-21T04:35:43.291836'),
@@ -4852,6 +4851,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4772, 25194960, 63499650, 'bnb/awesome-hyper', 24, '🖥 Delightful Hyper plugins, themes, and resources', 17, 9708, ['bnb','darahak'], '2022-01-21T04:36:10.68796'),
 (4773, 3777549, 9897616, 'gmacdougall/dotfiles', 22, null, 0, 4, ['gmacdougall'], '2022-01-21T04:36:11.049486'),
 (4774, 15052690, 10270250, 'facebook/react', 15, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 924, 181071, ['zpao','bvaughn'], '2022-01-21T04:36:11.06461'),
+(4690, 3777549, 9394642, 'kristopolous/BOOTSTRA.386', 1, 'A vintage 1980s DOS inspired Twitter Bootstrap theme', 52, 6062, ['kristopolous','tomer'], '2022-01-21T04:35:42.049271'),
 (4775, 28281924, 320609581, 'HeavyBR/adventofcode', 20, 'My solutions for Advent Of Code 2020, all of made with Go Language', 0, 1, ['HeavyBR'], '2022-01-21T04:36:11.483926'),
 (4776, 3777549, 210982919, 'jasonswett/exosuit', 23, 'Deploy Rails apps to AWS as easily as with Heroku, but retain the ability to manage your own infrastructure', 8, 80, ['jasonswett','peterdenham'], '2022-01-21T04:36:12.243534'),
 (4777, 15052690, 1661758, 'restify/node-restify', 16, 'The future of Node.js REST development', 100, 10355, ['mcavage','yunong'], '2022-01-21T04:36:12.623816'),
