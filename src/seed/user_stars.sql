@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:44:28.366Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T12:50:39.979Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4562,10 +4562,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4482, 13490604, 230595891, 'launchbadge/sqlx', 2, '🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, SQLite, and MSSQL.', 337, 5238, ['mehcode','abonander'], '2022-01-21T04:11:03.577288'),
 (4483, 667716, 222103697, 'simbathesailor/use-what-changed', 1, 'A React hook and an easy to use babel-pugin to debug various React official hooks', 23, 349, ['simbathesailor','LiuL0703'], '2022-01-21T04:11:03.95512'),
 (4484, 38725511, 368311388, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal'], '2022-01-21T04:11:04.13858'),
-(4485, 13490604, 4930716, 'zeek/zeek', 3, 'Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.', 82, 4225, ['jsiwek','rsmmr'], '2022-01-21T04:11:05.235397'),
 (4486, 4838867, 5405654, 'pcottle/learnGitBranching', 1, 'An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!', 15, 23262, ['pcottle','hong4rc'], '2022-01-21T04:11:05.434627'),
 (4487, 667716, 178148244, 'sbmpost/AutoRaise', 2, 'AutoRaise (and focus) a window when hovering over it with the mouse', 10, 272, ['sbmpost','Dimentium'], '2022-01-21T04:11:05.526231'),
 (4488, 38725511, 345219371, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz'], '2022-01-21T04:11:05.848353'),
+(4485, 13490604, 4930716, 'zeek/zeek', 3, 'Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.', 82, 4225, ['jsiwek','rsmmr'], '2022-01-21T04:11:05.235397'),
 (4489, 46828701, 35174991, 'openfoodfacts/openfoodfacts-androidapp', 1, 'Native version of Open Food Facts on Android - Coders & Decoders welcome 🤳🥫 ', 329, 620, ['teolemon','VaiTon'], '2022-01-21T04:11:06.544896'),
 (4490, 38725511, 172562475, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T04:11:06.607893'),
 (4491, 667716, 370814753, 'ossf/oss-vulnerability-guide', 3, 'A guide on coordinated vulnerability disclosure for open source projects. Includes templates for security policies (security.md) and disclosure notifications.', 4, 37, ['david-a-wheeler','annabellegoth2boss'], '2022-01-21T04:11:06.955499'),
@@ -9896,10 +9896,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9809, 3340406, 289523918, 'ryo-ma/github-profile-trophy', 28, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', 24, 2035, ['ryo-ma','spenserblack'], '2022-01-22T11:27:23.26876'),
 (9810, 908380, 1206546, 'winstonjs/winston', 24, 'A logger for just about everything.', 421, 18307, ['indexzero','chjj'], '2022-01-22T11:27:23.696038'),
 (9811, 11777161, 215954800, 'PurpleBooth/a-good-readme-template', 23, 'A template to make good README.md', 0, 287, ['PurpleBooth','caduzeraa'], '2022-01-22T11:27:24.044675'),
-(9812, 3340406, 219294494, 'xxh/xxh', 29, '🚀 Bring your favorite shell wherever you go through the ssh.', 10, 3044, ['anki-code','idkjs'], '2022-01-22T11:27:24.526968'),
 (9813, 908380, 107290035, 'sumup-oss/foundry', 25, 'A toolkit for building JavaScript & TypeScript applications.', 11, 26, ['connor-baer','felixjung'], '2022-01-22T11:27:24.755451'),
 (9814, 11777161, 161215159, 'othneildrew/Best-README-Template', 24, 'An awesome README template to jumpstart your projects! ', 9, 5032, ['othneildrew','douglascayers'], '2022-01-22T11:27:25.712869'),
 (9815, 57373172, 23083156, 'mui-org/material-ui', 26, 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', 910, 74571, ['oliviertassinari','dmtrKovalenko'], '2022-01-22T11:27:25.96722'),
+(9812, 3340406, 219294494, 'xxh/xxh', 29, '🚀 Bring your favorite shell wherever you go through the ssh.', 10, 3044, ['anki-code','idkjs'], '2022-01-22T11:27:24.526968'),
 (9816, 908380, 215145057, 'freeCodeCamp/chapter', 26, 'A self-hosted event management tool for nonprofits', 48, 1789, ['renovate-bot','ojeytonwilliams'], '2022-01-22T11:27:26.020414'),
 (9817, 57373172, 103633984, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (January 2022)', 42, 74028, ['goldbergyoni','anediaz'], '2022-01-22T11:27:26.492282'),
 (9818, 908380, 115458656, 'hwayne/awesome-cold-showers', 27, 'For when people get too hyped up about things', 11, 4621, ['hwayne','ahnberg'], '2022-01-22T11:27:27.03263'),
