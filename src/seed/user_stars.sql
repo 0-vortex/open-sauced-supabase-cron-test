@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T20:44:34.060Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T22:44:16.541Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6101,8 +6101,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6067, 13173676, 311485110, 'epinio/epinio', 1, 'Opinionated platform that runs on Kubernetes, that takes you from App to URL in one step.', 71, 195, ['andreas-kupries','jimmykarily'], '2022-01-21T06:11:44.452572'),
 (6068, 10012151, 61276677, 'Eschults/useful_stuff', 6, 'Memo for my beloved students', 0, 251, ['Eschults','cveneziani'], '2022-01-21T06:11:44.957119'),
 (6069, 4199845, 371973401, 'zylkowski/SSSF', 1, 'SSSF stands for Super Simple Simulation Framework.', 0, 5, ['zylkowski'], '2022-01-21T06:11:45.221115'),
-(6071, 29295102, 169371413, 'MoienTajik/AspNetCore-Developer-Roadmap', 6, 'Roadmap to becoming an ASP.NET Core developer in 2022', 2, 9186, ['MoienTajik','ImgBotApp'], '2022-01-21T06:11:45.563046'),
 (6070, 14043845, 277911948, 'bdougie/awesome-black-developers', 1, 'Amplifying the voices of Black developers in open source because #BlackLivesMatter ✊🏾', 1, 172, ['bdougie','damaneice'], '2022-01-21T06:11:45.342426'),
+(6071, 29295102, 169371413, 'MoienTajik/AspNetCore-Developer-Roadmap', 6, 'Roadmap to becoming an ASP.NET Core developer in 2022', 2, 9186, ['MoienTajik','ImgBotApp'], '2022-01-21T06:11:45.563046'),
 (6072, 13173676, 307788549, 'pretzelhands/notebag', 2, 'A note taking app that does not break your workflow', 3, 124, ['pretzelhands','lukyanov'], '2022-01-21T06:11:45.776285'),
 (6073, 10012151, 18486300, 'lewagon/setup', 7, 'Setup instructions for Le Wagon''s students on their first day of Web Development Bootcamp', 4, 12078, ['ssaunier','dmilon'], '2022-01-21T06:11:46.151362'),
 (6074, 4199845, 243554283, 'mloberg/openapi-stitcher', 2, 'Stitch together multiple files into an OpenAPI specification', 0, 2, ['mloberg'], '2022-01-21T06:11:46.50439'),
