@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T16:49:51.857Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T18:45:27.092Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2799,8 +2799,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2750, 46695719, 49704723, 'okonet/lint-staged', 10, '🚫💩 — Run linters on git staged files', 121, 9641, ['okonet','iiroj'], '2022-01-21T01:11:41.150868'),
 (2754, 46695719, 22119721, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38243, ['RichardLitt','simaki'], '2022-01-21T01:11:42.894757'),
 (2755, 58392246, 394896456, 'muhammaddzaky/rsocket-cpp', 12, null, 0, 1, [], '2022-01-21T01:11:43.40006'),
-(2756, 20134767, 18351848, 'typicode/lowdb', 15, 'Simple to use local JSON database (supports Node, Electron and the browser)', 4, 17048, ['typicode','etiktin'], '2022-01-21T01:11:43.744885'),
-(2757, 9968219, 1644196, 'JuliaLang/julia', 11, 'The Julia Programming Language', 4336, 37941, ['JeffBezanson','StefanKarpinski'], '2022-01-21T01:11:44.85369'),
 (2758, 20134767, 197588792, 'babel/actions', 16, 'Babel specific github actions 🤖', 1, 22, ['JLHwung','danez'], '2022-01-21T01:11:45.047476'),
 (2759, 46695719, 14370955, 'sahat/hackathon-starter', 12, 'A boilerplate for Node.js web applications', 47, 32523, ['sahat','YasharF'], '2022-01-21T01:11:45.203823'),
 (2760, 9968219, 21125024, 'typicode/husky', 12, 'Git hooks made easy 🐶 woof!', 34, 25294, ['typicode','branneman'], '2022-01-21T01:11:46.370358'),
@@ -2995,6 +2993,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2954, 1305623, 778828, 'MassTransit/MassTransit', 27, 'Distributed Application Framework for .NET', 6, 4170, ['phatboyg','drusellers'], '2022-01-21T01:38:31.876736'),
 (2955, 4386534, 408664831, 'ai/nanocolors', 26, 'Use picocolors instead. It is 3 times smaller and 50% faster.', 0, 907, ['jorgebucaran','ai'], '2022-01-21T01:38:32.544001'),
 (2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
+(2756, 20134767, 18351848, 'typicode/lowdb', 15, 'Simple to use local JSON database (supports Node, Electron and the browser)', 4, 17048, ['typicode','etiktin'], '2022-01-21T01:11:43.744885'),
+(2757, 9968219, 1644196, 'JuliaLang/julia', 11, 'The Julia Programming Language', 4336, 37941, ['JeffBezanson','StefanKarpinski'], '2022-01-21T01:11:44.85369'),
 (2957, 35779241, 234798675, 'bevyengine/bevy', 23, 'A refreshingly simple data-driven game engine built in Rust', 895, 13634, ['cart','mockersf'], '2022-01-21T01:38:33.035661'),
 (2958, 1305623, 49020217, 'petehunt/react-howto', 28, 'Your guide to the (sometimes overwhelming!) React ecosystem.', 41, 11508, ['petehunt','jurgob'], '2022-01-21T01:38:33.18767'),
 (2959, 4386534, 119162419, 'nextauthjs/next-auth', 27, 'Authentication for Next.js', 79, 8669, ['iaincollins','balazsorban44'], '2022-01-21T01:38:33.770177'),
