@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T01:03:21.265Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T02:48:38.718Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6918,8 +6918,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6854, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 195, 6543, ['minrk','willingc'], '2022-01-22T04:20:57.166474'),
 (6855, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6332, ['zerowidth','jbarnette'], '2022-01-22T04:20:57.447754'),
 (6856, 26007940, 230706417, 'DaveSkender/Stock.Indicators', 6, 'Stock Indicators for .NET is a C# library package that produces financial market technical indicators. Send in historical price quotes and get back desired indicators such as moving averages, Relative Strength Index, Stochastic Oscillator, Parabolic SAR, etc. Nothing more.  It can be used in any market analysis software using standard OHLCV price quotes for equities, commodities, forex, cryptocurrencies, and others. We had private trading algorithms, machine learning, and charting systems in mind when originally creating this community library.', 10, 379, ['DaveSkender','LeeDongGeon1996'], '2022-01-22T04:20:57.539624'),
-(6857, 289882, 36895421, 'jupyter/jupyter', 8, 'Jupyter metapackage for installation, docs and chat', 190, 13145, ['willingc','parente'], '2022-01-22T04:20:57.76673'),
 (6858, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-22T04:20:58.060966'),
+(6857, 289882, 36895421, 'jupyter/jupyter', 8, 'Jupyter metapackage for installation, docs and chat', 190, 13145, ['willingc','parente'], '2022-01-22T04:20:57.76673'),
 (7539, 43814157, 430868786, 'Milo123459/atomix', 5, 'A simple and fast shell.', 0, 2, ['Milo123459'], '2022-01-22T08:45:18.628519'),
 (6859, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T04:20:58.140073'),
 (6860, 289882, 36616176, 'elixirschool/elixirschool', 9, 'The content behind Elixir School', 22, 3179, ['doomspork','nscyclone'], '2022-01-22T04:20:58.339745'),
