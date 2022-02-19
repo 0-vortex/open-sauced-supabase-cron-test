@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T18:45:27.092Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:44:16.046Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2799,6 +2799,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2750, 46695719, 49704723, 'okonet/lint-staged', 10, '🚫💩 — Run linters on git staged files', 121, 9641, ['okonet','iiroj'], '2022-01-21T01:11:41.150868'),
 (2754, 46695719, 22119721, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38243, ['RichardLitt','simaki'], '2022-01-21T01:11:42.894757'),
 (2755, 58392246, 394896456, 'muhammaddzaky/rsocket-cpp', 12, null, 0, 1, [], '2022-01-21T01:11:43.40006'),
+(2756, 20134767, 18351848, 'typicode/lowdb', 15, 'Simple to use local JSON database (supports Node, Electron and the browser)', 4, 17048, ['typicode','etiktin'], '2022-01-21T01:11:43.744885'),
+(2757, 9968219, 1644196, 'JuliaLang/julia', 11, 'The Julia Programming Language', 4336, 37941, ['JeffBezanson','StefanKarpinski'], '2022-01-21T01:11:44.85369'),
 (2758, 20134767, 197588792, 'babel/actions', 16, 'Babel specific github actions 🤖', 1, 22, ['JLHwung','danez'], '2022-01-21T01:11:45.047476'),
 (2759, 46695719, 14370955, 'sahat/hackathon-starter', 12, 'A boilerplate for Node.js web applications', 47, 32523, ['sahat','YasharF'], '2022-01-21T01:11:45.203823'),
 (2760, 9968219, 21125024, 'typicode/husky', 12, 'Git hooks made easy 🐶 woof!', 34, 25294, ['typicode','branneman'], '2022-01-21T01:11:46.370358'),
@@ -2993,8 +2995,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2954, 1305623, 778828, 'MassTransit/MassTransit', 27, 'Distributed Application Framework for .NET', 6, 4170, ['phatboyg','drusellers'], '2022-01-21T01:38:31.876736'),
 (2955, 4386534, 408664831, 'ai/nanocolors', 26, 'Use picocolors instead. It is 3 times smaller and 50% faster.', 0, 907, ['jorgebucaran','ai'], '2022-01-21T01:38:32.544001'),
 (2956, 59651629, 206410838, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17833, ['code-health-devguide-copybara','adambender'], '2022-01-21T01:38:32.587505'),
-(2756, 20134767, 18351848, 'typicode/lowdb', 15, 'Simple to use local JSON database (supports Node, Electron and the browser)', 4, 17048, ['typicode','etiktin'], '2022-01-21T01:11:43.744885'),
-(2757, 9968219, 1644196, 'JuliaLang/julia', 11, 'The Julia Programming Language', 4336, 37941, ['JeffBezanson','StefanKarpinski'], '2022-01-21T01:11:44.85369'),
 (2957, 35779241, 234798675, 'bevyengine/bevy', 23, 'A refreshingly simple data-driven game engine built in Rust', 895, 13634, ['cart','mockersf'], '2022-01-21T01:38:33.035661'),
 (2958, 1305623, 49020217, 'petehunt/react-howto', 28, 'Your guide to the (sometimes overwhelming!) React ecosystem.', 41, 11508, ['petehunt','jurgob'], '2022-01-21T01:38:33.18767'),
 (2959, 4386534, 119162419, 'nextauthjs/next-auth', 27, 'Authentication for Next.js', 79, 8669, ['iaincollins','balazsorban44'], '2022-01-21T01:38:33.770177'),
@@ -5004,9 +5004,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4994, 53687927, 212095891, 'dwaipayan05/Repo1', 18, null, 0, 1, [], '2022-01-21T04:57:28.735888'),
 (4995, 455338, 38782303, 'donnemartin/dev-setup', 23, 'macOS development environment setup:  Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.', 32, 5627, ['donnemartin','pahaz'], '2022-01-21T04:57:29.044421'),
 (4996, 53687927, 215637699, 'dwaipayan05/Django-Task', 19, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:29.887284'),
-(4997, 455338, 3073296, 'SirVer/ultisnips', 24, 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', 88, 6521, ['SirVer','seletskiy'], '2022-01-21T04:57:30.610522'),
 (4998, 53687927, 216617424, 'dwaipayan05/website', 20, 'Coding Train website', 0, 1, ['shiffman','gruselhaus'], '2022-01-21T04:57:31.459612'),
 (4999, 455338, 67747748, 'dense-analysis/ale', 25, 'Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support', 468, 11448, ['w0rp','hsanson'], '2022-01-21T04:57:32.213114'),
+(4997, 455338, 3073296, 'SirVer/ultisnips', 24, 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', 88, 6521, ['SirVer','seletskiy'], '2022-01-21T04:57:30.610522'),
 (5001, 6935431, 52855516, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 131, 10639, ['BrewTestBot','chenrui333'], '2022-01-21T04:57:33.274045'),
 (5002, 455338, 6698053, 'vimwiki/vimwiki', 26, 'Personal Wiki for Vim', 151, 7034, ['EinfachToll','ranebrown'], '2022-01-21T04:57:33.723524'),
 (5003, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:34.018274'),
