@@ -11813,6 +11813,7 @@ id,user_id,star_id,repo_name,recency_score,description,issues,stars,contributors
 422332797,4066445,383194995,kclejeune/TMobile-ISP-Client,0,"mobile friendly, self hosted status dashboard for T-Mobile ISP routers",6,23,"{""kclejeune"", ""bryanbartow""}",2022-01-22T14:23:19.514449
 427924349,2480219,120149974,fonoster/fonoster,0,🚀 The open-source alternative to Twilio,19,3832,"{""psanders"", ""wardner""}",2022-01-22T14:23:19.540015
 363282160,4381106,345529420,sophiezhng/pomopy,0,"🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.",1,1,"{""sophiezhng""}",2022-01-22T22:58:49.890854
+460725612,8200073,444501538,salindae25/Dev-challenges,0,,2,1,"{""salindae25"", ""semantic-release-bot""}",2022-02-19T06:16:07.160419
 425152049,20734038,424955569,falconmasters/como-conectarse-a-una-api-javascript,0,Código del tutorial: Como conectarse a una API con Javascript,0,17,"{""falconmasters""}",2022-01-22T14:25:43.124863
 424360680,5901851,130597640,GantMan/ReactStateMuseum,0,A whirlwind tour of React state management systems by example,21,1483,"{""GantMan"", ""marcelkalveram""}",2022-01-22T14:25:43.134741
 424945913,2339101,243288155,abertschi/graalphp,0,An efficient PHP implementation built on GraalVM ,25,260,"{""abertschi"", ""COil""}",2022-01-22T14:25:43.541811
