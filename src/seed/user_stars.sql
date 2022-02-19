@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T10:44:18.399Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T12:49:55.962Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7294,7 +7294,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7284, 3941856, 160402426, 'samanthabretous/black-speakers-in-tech', 27, null, 2, 157, ['samanthabretous','alexasomba'], '2022-01-22T08:30:50.845151'),
 (10085, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7948, ['cyrus-and','alfunx'], '2022-01-22T11:46:11.615873'),
 (7286, 3662109, 334169919, 'projectdiscovery/interactsh', 29, 'An OOB interaction gathering server and client library', 33, 1162, ['ehsandeep','Mzack9999'], '2022-01-22T08:30:51.313299'),
-(7287, 3941856, 281443363, 'sindresorhus/css-in-readme-like-wat', 28, 'Style your readme using CSS with this simple trick', 1, 4770, ['sindresorhus','ImprovedTube'], '2022-01-22T08:30:51.342398'),
 (7288, 3941856, 263146261, 'MaggieAppleton/digital-gardeners', 29, 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', 14, 1838, ['MaggieAppleton','theianjones'], '2022-01-22T08:30:51.655918'),
 (7289, 469997, 2906877, 'jasonwebb/Augmented-Reality-Pong', 20, 'Table-top augmented reality pong using IR markers and projectors', 0, 2, ['jasonwebb'], '2022-01-22T08:30:52.138926'),
 (7290, 469997, 2067467, 'chethiya/Augmented-Reality', 21, null, 0, 2, ['vpj'], '2022-01-22T08:30:53.494724'),
@@ -7303,6 +7302,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7293, 7860023, 148236762, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas'], '2022-01-22T08:32:25.75631'),
 (7294, 656318, 136938012, 'vendure-ecommerce/vendure', 0, 'A headless GraphQL ecommerce framework for the modern web', 138, 3102, ['michaelbromley','Draykee'], '2022-01-22T08:32:25.854414'),
 (7295, 61815862, 82836080, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 426, ['matthewtoast','stristr'], '2022-01-22T08:32:25.901502'),
+(7287, 3941856, 281443363, 'sindresorhus/css-in-readme-like-wat', 28, 'Style your readme using CSS with this simple trick', 1, 4770, ['sindresorhus','ImprovedTube'], '2022-01-22T08:30:51.342398'),
 (7296, 24606613, 63266213, 'open-guides/og-aws', 0, '📙 Amazon Web Services — a practical guide', 147, 30720, ['jlevy','QuinnyPig'], '2022-01-22T08:32:26.00022'),
 (7297, 16268467, 14370955, 'sahat/hackathon-starter', 0, 'A boilerplate for Node.js web applications', 47, 32520, ['sahat','YasharF'], '2022-01-22T08:32:26.229551'),
 (7298, 7860023, 93390294, 'lanten/electron-antd', 1, 'Create a desktop app with Electron + Typescript + React + Antd', 0, 308, ['lanten','ImgBotApp'], '2022-01-22T08:32:27.022325'),
