@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T06:46:39.007Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T08:44:34.082Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -836,8 +836,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (828, 16268467, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84488, ['ry','Trott'], '2022-01-20T20:51:31.109301'),
 (829, 61815862, 56549856, 'fennifith/Pasta-for-Spotify', 6, 'A material design Spotify client for Android', 13, 101, ['fennifith','TheAndroidMaster'], '2022-01-20T20:51:31.868006'),
 (830, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T20:51:32.010259'),
-(831, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T20:51:32.453696'),
 (832, 61815862, 165434192, 'dvx/lofi', 7, '🎵🔉 A mini Spotify player with WebGL visualizations.', 41, 673, ['dvx','stamoun'], '2022-01-20T20:51:32.717876'),
+(831, 7860023, 86981224, 'maximegris/angular-electron', 3, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', 6, 4946, ['maximegris','whyboris'], '2022-01-20T20:51:32.453696'),
 (833, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T20:51:32.909285'),
 (834, 7860023, 105649273, 'ElectronNET/Electron.NET', 4, ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', 133, 6128, ['GregorBiswanger','robertmuehsig'], '2022-01-20T20:51:34.148905'),
 (835, 61815862, 51870853, 'SimpleMobileTools/Simple-Gallery', 8, 'Browse your memories without any interruptions with this photo and video gallery', 277, 2165, ['tibbi','solokot'], '2022-01-20T20:51:34.380024'),
@@ -4030,7 +4030,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3983, 57826091, 368185844, 'Nazeeh21/Devdit-Blockchain', 25, 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', 2, 2, ['Nazeeh21'], '2022-01-21T03:35:13.447707'),
 (3984, 72279316, 48356217, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 84, 9829, ['niklasramo','aslakhellesoy'], '2022-01-21T03:35:13.561555'),
 (3985, 5842360, 82423413, 'bshu2/generals-io-helper', 27, 'Chrome extension for generals.io', 1, 2, ['bshu2'], '2022-01-21T03:35:13.823622'),
-(3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
 (3987, 57826091, 369719645, 'Dhaiwat10/react-link-preview', 26, 'A React library that generates beautiful previews for your links.', 2, 77, ['Dhaiwat10','semantic-release-bot'], '2022-01-21T03:35:14.600284'),
 (3988, 72279316, 297419763, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1387, ['mvkaran','GitHubIndiaBot'], '2022-01-21T03:35:14.890078'),
 (3989, 5842360, 80395811, 'ivanseidel/Is-Now-Illegal', 28, '🚫 A NERD protest against Trump''s Immigration ban', 15, 1393, ['brunolemos','ivanseidel'], '2022-01-21T03:35:15.123764'),
@@ -4358,6 +4357,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4849, 527550, 93192704, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 36, 3402, ['LukeSmithxyz','narukeh'], '2022-01-21T04:47:39.569751'),
 (4850, 211851, 15776379, 'nprapps/pym.js', 9, 'Resize an iframe responsively depending on the height of its content and the width of its container.', 2, 790, ['onyxfish','jjelosua'], '2022-01-21T04:47:40.074893'),
 (4851, 3941126, 43441403, 'strapi/strapi', 9, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 526, 42526, ['soupette','alexandrebodin'], '2022-01-21T04:47:40.125695'),
+(3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
 (4852, 3941126, 11730342, 'vuejs/vue', 10, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 552, 192461, ['yyx990803','vue-bot'], '2022-01-21T04:47:40.900807'),
 (4853, 527550, 28735637, 'volatiletech/authboss', 9, 'The boss of http auth.', 31, 2978, ['aarondl','kris-runzer'], '2022-01-21T04:47:41.134481'),
 (4854, 1884246, 257485422, 'vitejs/vite', 11, 'Next generation frontend tooling. It''s fast!', 808, 36487, ['yyx990803','patak-dev'], '2022-01-21T04:47:41.206369'),
