@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:44:16.046Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T22:44:23.803Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5004,9 +5004,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4994, 53687927, 212095891, 'dwaipayan05/Repo1', 18, null, 0, 1, [], '2022-01-21T04:57:28.735888'),
 (4995, 455338, 38782303, 'donnemartin/dev-setup', 23, 'macOS development environment setup:  Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.', 32, 5627, ['donnemartin','pahaz'], '2022-01-21T04:57:29.044421'),
 (4996, 53687927, 215637699, 'dwaipayan05/Django-Task', 19, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:29.887284'),
+(4997, 455338, 3073296, 'SirVer/ultisnips', 24, 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', 88, 6521, ['SirVer','seletskiy'], '2022-01-21T04:57:30.610522'),
 (4998, 53687927, 216617424, 'dwaipayan05/website', 20, 'Coding Train website', 0, 1, ['shiffman','gruselhaus'], '2022-01-21T04:57:31.459612'),
 (4999, 455338, 67747748, 'dense-analysis/ale', 25, 'Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support', 468, 11448, ['w0rp','hsanson'], '2022-01-21T04:57:32.213114'),
-(4997, 455338, 3073296, 'SirVer/ultisnips', 24, 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', 88, 6521, ['SirVer','seletskiy'], '2022-01-21T04:57:30.610522'),
 (5001, 6935431, 52855516, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 131, 10639, ['BrewTestBot','chenrui333'], '2022-01-21T04:57:33.274045'),
 (5002, 455338, 6698053, 'vimwiki/vimwiki', 26, 'Personal Wiki for Vim', 151, 7034, ['EinfachToll','ranebrown'], '2022-01-21T04:57:33.723524'),
 (5003, 53687927, 228170563, 'dwaipayan05/Django-Simple-Login', 22, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:34.018274'),
