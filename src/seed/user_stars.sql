@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T10:44:24.709Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T12:50:02.510Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1557,8 +1557,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1547, 2480219, 3058202, 'rdfjs/N3.js', 3, 'Lightning fast, spec-compatible, streaming RDF for JavaScript', 20, 560, ['RubenVerborgh','rubensworks'], '2022-01-20T23:03:11.578905'),
 (1548, 4066445, 208143342, 'github-craftwork/start-here', 1, 'You should open this repo first', 6, 85, ['bdougie','JayantGoel001'], '2022-01-20T23:03:12.598213'),
 (1549, 43814157, 225602090, 'farbenmeer/react-spring-slider', 0, 'A slider component for react', 13, 160, ['mstruebing','Tobi-mmt'], '2022-01-20T23:03:12.739474'),
-(1550, 2480219, 417782582, 'mgdigital/tsinject', 4, 'Lightweight dependency injection container for TypeScript', 0, 32, ['mgdigital'], '2022-01-20T23:03:12.926173'),
-(1551, 4066445, 222791010, 'twilio/rtc-diagnostics', 2, null, 2, 35, ['mhuynh5757','charliesantos'], '2022-01-20T23:03:13.964115'),
 (1552, 43814157, 385045892, 'gmrchk/blobity', 1, 'The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀', 5, 754, ['gmrchk','0xflotus'], '2022-01-20T23:03:14.113656'),
 (1553, 2480219, 141430876, 'rubensworks/jsonld-streaming-parser.js', 5, 'A fast and lightweight streaming JSON-LD parser for JavaScript', 8, 50, ['rubensworks','renovate-bot'], '2022-01-20T23:03:14.243325'),
 (1554, 4066445, 268546030, 'philnash/github-weekends', 3, 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', 6, 5, ['philnash'], '2022-01-20T23:03:15.284931'),
@@ -2042,6 +2040,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1997, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 476, 54922, ['manucorporat','javierprovecho'], '2022-01-20T23:57:35.153525'),
 (1998, 17373317, 9603429, 'sagefy/sagefy', 4, ':telescope: Learn anything, adapted for you. Free.', 6, 88, ['heiskr','waffle-iron'], '2022-01-20T23:57:35.505087'),
 (1999, 43640229, 304344049, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:57:35.545134'),
+(1550, 2480219, 417782582, 'mgdigital/tsinject', 4, 'Lightweight dependency injection container for TypeScript', 0, 32, ['mgdigital'], '2022-01-20T23:03:12.926173'),
+(1551, 4066445, 222791010, 'twilio/rtc-diagnostics', 2, null, 2, 35, ['mhuynh5757','charliesantos'], '2022-01-20T23:03:13.964115'),
 (2000, 19617280, 389974232, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 17, 202, ['Holben888','ArkaneMoose'], '2022-01-20T23:57:35.677646'),
 (2001, 505751, 14173176, 'EsotericSoftware/kryo', 0, 'Java binary serialization and cloning: fast, efficient, automatic', 17, 5278, ['NathanSweet','magro'], '2022-01-20T23:57:35.815394'),
 (2002, 43640229, 147973047, 'brianlovin/briOS', 7, 'My personal website.', 4, 1180, ['brianlovin','timneutkens'], '2022-01-20T23:57:36.234842'),
@@ -2725,8 +2725,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2677, 2609511, 237519983, 'nicklanng/plusminus', 15, 'A query builder for https://dgraph.io/', 0, 10, ['nicklanng'], '2022-01-21T00:44:17.772677'),
 (2678, 11858762, 39514089, 'ccoenraets/es6-tutorial', 18, 'ECMAScript 6 Tutorial', 14, 292, ['ccoenraets'], '2022-01-21T00:44:18.198905'),
 (2679, 11858762, 24195339, 'angular/angular', 19, 'The modern web developer’s platform', 1883, 79084, ['gkalpak','petebacondarwin'], '2022-01-21T00:44:18.735322'),
-(2681, 11858762, 30233740, 'hwz/chirp', 20, 'A teaching example of the MEAN stack, by building a simple Twitter clone', 34, 328, ['hwz','sedouard'], '2022-01-21T00:44:19.84729'),
 (2680, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 194, 6719, ['soamvasani','life1347'], '2022-01-21T00:44:19.297059'),
+(2681, 11858762, 30233740, 'hwz/chirp', 20, 'A teaching example of the MEAN stack, by building a simple Twitter clone', 34, 328, ['hwz','sedouard'], '2022-01-21T00:44:19.84729'),
 (2682, 2609511, 77512018, 'nikhita/tech-conferences-india', 17, 'A comprehensive list of tech conferences in India :india:', 10, 703, ['nikhita','championshuttler'], '2022-01-21T00:44:20.976008'),
 (2683, 11858762, 11481338, 'zloirock/core-js', 21, 'Standard Library', 21, 16093, ['zloirock','slowcheetah'], '2022-01-21T00:44:21.220255'),
 (2684, 2609511, 220651147, 'pathivu/pathivu', 18, 'An efficient log ingestion and log aggregation system https://pathivu.io/', 4, 145, ['poonai','L04DB4L4NC3R'], '2022-01-21T00:44:22.33469'),
