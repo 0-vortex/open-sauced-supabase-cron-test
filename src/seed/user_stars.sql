@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T06:46:19.484Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T08:44:22.086Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3541,8 +3541,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3495, 30334776, 127968704, 'tensorflow/tfjs-models', 2, 'Pretrained models for TensorFlow.js', 97, 10546, ['lina128','oveddan'], '2022-01-21T03:08:26.545373'),
 (3496, 47711025, 327584479, 'funbeedev/BibleBeforeBread', 6, 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', 12, 6, ['funbeedev','sabderemane'], '2022-01-21T03:08:26.888169'),
 (3497, 16942870, 208362715, 'adobe/react-spectrum', 7, 'A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.', 357, 5998, ['devongovett','snowystinger'], '2022-01-21T03:08:27.300716'),
-(3499, 30334776, 261861733, 'keras-team/keras-io', 3, 'Keras documentation, hosted live at keras.io', 199, 1314, ['fchollet','ksalama'], '2022-01-21T03:08:28.060831'),
 (3498, 25867172, 108761645, 'nocodb/nocodb', 1, '🔥 🔥 🔥 Open Source Airtable Alternative', 186, 21556, ['pranavxc','o1lab'], '2022-01-21T03:08:27.351769'),
+(3499, 30334776, 261861733, 'keras-team/keras-io', 3, 'Keras documentation, hosted live at keras.io', 199, 1314, ['fchollet','ksalama'], '2022-01-21T03:08:28.060831'),
 (3500, 58482194, 227978903, 'vueuse/vueuse', 0, 'Collection of essential Vue Composition Utilities for Vue 2 and 3', 109, 7719, ['antfu','wheatjs'], '2022-01-21T03:08:28.252882'),
 (3501, 47711025, 371708649, 'rep2recall/r2r-cli', 7, 'CLI and programmability-focused memorizing flashcard app.', 0, 3, ['patarapolw'], '2022-01-21T03:08:28.281423'),
 (3502, 25867172, 277194853, 'atc1441/CH_HID_Arduino', 2, null, 1, 14, ['atc1441'], '2022-01-21T03:08:28.81393'),
@@ -4553,8 +4553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4877, 1884246, 367843131, 'Avi2427/jdffhAfG', 18, null, 0, 1, [], '2022-01-21T04:47:49.581793'),
 (4878, 211851, 161588836, 'microsoft/PowerPlatformConnectors', 16, 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', 75, 390, ['sriyen-msft','mamurshe'], '2022-01-21T04:47:49.644548'),
 (4879, 3941126, 132750724, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 208, 127970, ['danistefanovic','bauripalash'], '2022-01-21T04:47:49.93093'),
-(4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
 (4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
+(4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
 (4478, 667716, 101814136, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 59, 901, ['theKashey','ai'], '2022-01-21T04:11:02.287643'),
 (4479, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-21T04:11:02.390265'),
 (4480, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7945, ['cyrus-and','alfunx'], '2022-01-21T04:11:03.273317'),
