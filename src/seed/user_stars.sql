@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T12:50:02.510Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:44:18.966Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1557,6 +1557,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1547, 2480219, 3058202, 'rdfjs/N3.js', 3, 'Lightning fast, spec-compatible, streaming RDF for JavaScript', 20, 560, ['RubenVerborgh','rubensworks'], '2022-01-20T23:03:11.578905'),
 (1548, 4066445, 208143342, 'github-craftwork/start-here', 1, 'You should open this repo first', 6, 85, ['bdougie','JayantGoel001'], '2022-01-20T23:03:12.598213'),
 (1549, 43814157, 225602090, 'farbenmeer/react-spring-slider', 0, 'A slider component for react', 13, 160, ['mstruebing','Tobi-mmt'], '2022-01-20T23:03:12.739474'),
+(1550, 2480219, 417782582, 'mgdigital/tsinject', 4, 'Lightweight dependency injection container for TypeScript', 0, 32, ['mgdigital'], '2022-01-20T23:03:12.926173'),
+(1551, 4066445, 222791010, 'twilio/rtc-diagnostics', 2, null, 2, 35, ['mhuynh5757','charliesantos'], '2022-01-20T23:03:13.964115'),
 (1552, 43814157, 385045892, 'gmrchk/blobity', 1, 'The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀', 5, 754, ['gmrchk','0xflotus'], '2022-01-20T23:03:14.113656'),
 (1553, 2480219, 141430876, 'rubensworks/jsonld-streaming-parser.js', 5, 'A fast and lightweight streaming JSON-LD parser for JavaScript', 8, 50, ['rubensworks','renovate-bot'], '2022-01-20T23:03:14.243325'),
 (1554, 4066445, 268546030, 'philnash/github-weekends', 3, 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', 6, 5, ['philnash'], '2022-01-20T23:03:15.284931'),
@@ -2040,8 +2042,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1997, 2607477, 20904437, 'gin-gonic/gin', 2, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 476, 54922, ['manucorporat','javierprovecho'], '2022-01-20T23:57:35.153525'),
 (1998, 17373317, 9603429, 'sagefy/sagefy', 4, ':telescope: Learn anything, adapted for you. Free.', 6, 88, ['heiskr','waffle-iron'], '2022-01-20T23:57:35.505087'),
 (1999, 43640229, 304344049, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 370, 6597, ['Rich-Harris','benmccann'], '2022-01-20T23:57:35.545134'),
-(1550, 2480219, 417782582, 'mgdigital/tsinject', 4, 'Lightweight dependency injection container for TypeScript', 0, 32, ['mgdigital'], '2022-01-20T23:03:12.926173'),
-(1551, 4066445, 222791010, 'twilio/rtc-diagnostics', 2, null, 2, 35, ['mhuynh5757','charliesantos'], '2022-01-20T23:03:13.964115'),
 (2000, 19617280, 389974232, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 17, 202, ['Holben888','ArkaneMoose'], '2022-01-20T23:57:35.677646'),
 (2001, 505751, 14173176, 'EsotericSoftware/kryo', 0, 'Java binary serialization and cloning: fast, efficient, automatic', 17, 5278, ['NathanSweet','magro'], '2022-01-20T23:57:35.815394'),
 (2002, 43640229, 147973047, 'brianlovin/briOS', 7, 'My personal website.', 4, 1180, ['brianlovin','timneutkens'], '2022-01-20T23:57:36.234842'),
@@ -2987,8 +2987,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2946, 1305623, 2247604, 'joaomatossilva/DateTimeExtensions', 25, 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', 10, 404, ['joaomatossilva','schulz3000'], '2022-01-21T01:38:29.431912'),
 (2947, 4386534, 117398892, 'lenadroid/awesome-oss-mentors', 24, 'List of OSS contributors willing to help others with their first pull requests!', 3, 490, ['lenadroid','seanknox'], '2022-01-21T01:38:29.961654'),
 (2948, 59651629, 262286900, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant'], '2022-01-21T01:38:30.068405'),
-(2949, 35779241, 40276274, 'ziglang/zig', 21, 'General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.', 1971, 12184, ['andrewrk','kubkon'], '2022-01-21T01:38:30.337996'),
 (2950, 1305623, 174936961, 'aspnetrun/run-aspnetcore', 26, 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', 3, 321, ['mehmetozkaya'], '2022-01-21T01:38:30.545679'),
+(2949, 35779241, 40276274, 'ziglang/zig', 21, 'General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.', 1971, 12184, ['andrewrk','kubkon'], '2022-01-21T01:38:30.337996'),
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
 (2952, 59651629, 62932724, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 6, ['nem035'], '2022-01-21T01:38:31.290578'),
 (2953, 35779241, 326460518, 'ratfactor/ziglings', 22, 'Learn the Zig programming language by fixing tiny broken programs.', 5, 1185, ['ratfactor','Palm404'], '2022-01-21T01:38:31.597253'),
