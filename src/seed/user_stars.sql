@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T04:47:39.795Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T06:46:19.484Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3541,8 +3541,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3495, 30334776, 127968704, 'tensorflow/tfjs-models', 2, 'Pretrained models for TensorFlow.js', 97, 10546, ['lina128','oveddan'], '2022-01-21T03:08:26.545373'),
 (3496, 47711025, 327584479, 'funbeedev/BibleBeforeBread', 6, 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', 12, 6, ['funbeedev','sabderemane'], '2022-01-21T03:08:26.888169'),
 (3497, 16942870, 208362715, 'adobe/react-spectrum', 7, 'A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.', 357, 5998, ['devongovett','snowystinger'], '2022-01-21T03:08:27.300716'),
-(3498, 25867172, 108761645, 'nocodb/nocodb', 1, '🔥 🔥 🔥 Open Source Airtable Alternative', 186, 21556, ['pranavxc','o1lab'], '2022-01-21T03:08:27.351769'),
 (3499, 30334776, 261861733, 'keras-team/keras-io', 3, 'Keras documentation, hosted live at keras.io', 199, 1314, ['fchollet','ksalama'], '2022-01-21T03:08:28.060831'),
+(3498, 25867172, 108761645, 'nocodb/nocodb', 1, '🔥 🔥 🔥 Open Source Airtable Alternative', 186, 21556, ['pranavxc','o1lab'], '2022-01-21T03:08:27.351769'),
 (3500, 58482194, 227978903, 'vueuse/vueuse', 0, 'Collection of essential Vue Composition Utilities for Vue 2 and 3', 109, 7719, ['antfu','wheatjs'], '2022-01-21T03:08:28.252882'),
 (3501, 47711025, 371708649, 'rep2recall/r2r-cli', 7, 'CLI and programmability-focused memorizing flashcard app.', 0, 3, ['patarapolw'], '2022-01-21T03:08:28.281423'),
 (3502, 25867172, 277194853, 'atc1441/CH_HID_Arduino', 2, null, 1, 14, ['atc1441'], '2022-01-21T03:08:28.81393'),
@@ -5200,8 +5200,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5190, 22655167, 320393623, 'kentcdodds/remix-kentcdodds', 27, 'My personal website', 23, 1029, ['kentcdodds','smeijer'], '2022-01-21T05:13:41.80194'),
 (5191, 22655167, 144869712, 'dai-shi/remote-faces', 28, 'A tool for Working From Home: Share your webcam images with your colleagues', 23, 68, ['dai-shi','kobatastu'], '2022-01-21T05:13:43.024112'),
 (5192, 22655167, 126813008, 'mobz/lag-radar', 29, 'Trace frame rate lag with a sexy performance radar', 0, 830, ['mobz','andywer'], '2022-01-21T05:13:44.523892'),
-(5194, 35429278, 15204860, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 23, 52015, ['zeeshanlakhani','DarrenN'], '2022-01-21T05:21:45.237073'),
 (5193, 35429278, 68414068, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 31, 7428, ['bkeepers','gr2m'], '2022-01-21T05:21:44.300372'),
+(5194, 35429278, 15204860, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 23, 52015, ['zeeshanlakhani','DarrenN'], '2022-01-21T05:21:45.237073'),
 (5195, 35429278, 91653269, 'akiraux/Akira', 2, 'Native Linux App for UI and UX Design built in Vala and GTK', 39, 4641, ['Alecaddd','giacomoalbe'], '2022-01-21T05:21:46.941417'),
 (5196, 35429278, 181462414, 'Alikhll/golang-developer-roadmap', 3, 'Roadmap to becoming a Go developer in 2020', 16, 13464, ['Alikhll','roblaszczak'], '2022-01-21T05:21:48.675702'),
 (5197, 15004099, 138393139, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 49, 58036, ['trimstray','lbonanomi'], '2022-01-21T05:21:49.639368'),
@@ -5727,11 +5727,11 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5718, 2237343, 48623558, 'chubin/wttr.in', 9, ':partly_sunny: The right way to check the weather', 170, 16685, ['chubin','gregdan3'], '2022-01-21T05:49:06.436398'),
 (5719, 55907631, 26500787, 'tonsky/FiraCode', 15, 'Free monospaced font with programming ligatures', 292, 61514, ['tonsky','thundernixon'], '2022-01-21T05:49:06.700018'),
 (5720, 907680, 9405122, 'frida/frida', 10, 'Clone this repo to build Frida', 962, 9032, ['oleavr','s1341'], '2022-01-21T05:49:07.476315'),
+(5721, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-21T05:49:07.55648'),
 (5722, 2658040, 279163614, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 5, 19, ['0-vortex'], '2022-01-21T05:49:07.858303'),
 (5723, 55907631, 165292266, 'puneetsl/lotion', 16, 'Unofficial Notion.so app for Linux', 20, 1739, ['puneetsl','joshpetit'], '2022-01-21T05:49:08.159986'),
 (5724, 55907631, 202787876, 'Rigellute/spotify-tui', 17, 'Spotify for the terminal written in Rust 🚀', 185, 11356, ['Rigellute','jfaltis'], '2022-01-21T05:49:09.492642'),
 (5725, 907680, 22887094, 'tesseract-ocr/tesseract', 11, 'Tesseract Open Source OCR Engine (main repository)', 350, 43642, ['stweil','zdenop'], '2022-01-21T05:49:09.655348'),
-(5721, 2237343, 26971815, 'schachmat/wego', 10, 'weather app for the terminal', 43, 6944, ['schachmat','mattn'], '2022-01-21T05:49:07.55648'),
 (5726, 2658040, 315899862, 'POSSF/POSSF', 1, 'Persian Open Source Software Festival - اولین جشنواره نرم افزار اوپن سورس فارسی (جشنواره متن باز و منبع باز فارسی)', 11, 30, ['BaseMax','imirazimi'], '2022-01-21T05:49:09.749891'),
 (5727, 2237343, 272328835, 'timburgan/timburgan', 11, null, 120, 603, ['timburgan','kwacky1'], '2022-01-21T05:49:10.336177'),
 (5728, 55907631, 69813387, 'iberianpig/fusuma', 18, 'Multitouch gestures with libinput driver on Linux', 13, 2907, ['iberianpig','irq'], '2022-01-21T05:49:10.743891'),
