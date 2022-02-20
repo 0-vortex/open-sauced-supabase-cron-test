@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:44:18.966Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T16:49:38.537Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2987,8 +2987,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2946, 1305623, 2247604, 'joaomatossilva/DateTimeExtensions', 25, 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', 10, 404, ['joaomatossilva','schulz3000'], '2022-01-21T01:38:29.431912'),
 (2947, 4386534, 117398892, 'lenadroid/awesome-oss-mentors', 24, 'List of OSS contributors willing to help others with their first pull requests!', 3, 490, ['lenadroid','seanknox'], '2022-01-21T01:38:29.961654'),
 (2948, 59651629, 262286900, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant'], '2022-01-21T01:38:30.068405'),
-(2950, 1305623, 174936961, 'aspnetrun/run-aspnetcore', 26, 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', 3, 321, ['mehmetozkaya'], '2022-01-21T01:38:30.545679'),
 (2949, 35779241, 40276274, 'ziglang/zig', 21, 'General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.', 1971, 12184, ['andrewrk','kubkon'], '2022-01-21T01:38:30.337996'),
+(2950, 1305623, 174936961, 'aspnetrun/run-aspnetcore', 26, 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', 3, 321, ['mehmetozkaya'], '2022-01-21T01:38:30.545679'),
 (2951, 4386534, 145147121, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 23, 1203, ['kitten','karlhorky'], '2022-01-21T01:38:31.248151'),
 (2952, 59651629, 62932724, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 6, ['nem035'], '2022-01-21T01:38:31.290578'),
 (2953, 35779241, 326460518, 'ratfactor/ziglings', 22, 'Learn the Zig programming language by fixing tiny broken programs.', 5, 1185, ['ratfactor','Palm404'], '2022-01-21T01:38:31.597253'),
