@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T16:49:38.537Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T18:45:30.639Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1127,7 +1127,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1119, 469997, 18885925, 'reek/anti-adblock-killer', 7, 'Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.', 1933, 4993, ['reek','devnoname120'], '2022-01-20T21:14:23.446727'),
 (1120, 24606613, 8805592, 'szimek/signature_pad', 2, 'HTML5 canvas based smooth signature drawing', 6, 7693, ['szimek','UziTech'], '2022-01-20T21:14:23.554749'),
 (1121, 656318, 45103523, 'RubyStarters/RubyStarters.github.io', 7, 'project website', 0, 2, ['haslinger','ramonh'], '2022-01-20T21:14:23.704641'),
-(1122, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-20T21:14:24.792943'),
 (1123, 24606613, 90798757, 'segmentio/kafka-go', 3, 'Kafka library in Go', 105, 4317, ['achille-roussel','yolken-segment'], '2022-01-20T21:14:24.994336'),
 (1124, 656318, 2454047, 'rubocop/rails-style-guide', 8, 'A community-driven Ruby on Rails style guide', 13, 6180, ['bbatsov','koic'], '2022-01-20T21:14:25.28093'),
 (1125, 656318, 44002833, 'where2help/where2help', 9, 'Rails app for the Refugee Hack Vienna 2015', 24, 18, ['klappradla','haslinger'], '2022-01-20T21:14:26.702998'),
@@ -1139,6 +1138,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1131, 24606613, 13510786, 'tantaman/LargeLocalStorage', 6, 'Problem: You need to store a large amount of key-value based data in IE, Chrome, Safari, AND Firefox', 8, 525, ['tantaman'], '2022-01-20T21:14:29.70748'),
 (1132, 469997, 3168392, 'david0178418/Backbone-RequireJS-Todo-Example', 11, 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', 0, 6, ['david0178418'], '2022-01-20T21:14:29.731693'),
 (1133, 469997, 2015790, 'timwis/PhillySNAP-v1', 12, 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', 0, 3, ['timwis'], '2022-01-20T21:14:31.081596'),
+(1122, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-20T21:14:24.792943'),
 (1134, 24606613, 116848168, 'Marcisbee/radi', 7, '🌀Tiny (in size) front-end framework with no extra browser re-flows', 0, 952, ['Marcisbee','rafaelklaessen'], '2022-01-20T21:14:31.151715'),
 (1135, 469997, 2798894, 'j-mcnally/PhoneGap-ios-PhoneDialer', 13, 'A plugin for ios phone gap to launch the dialer programatically in ios >= 5', 2, 44, ['peutetre','mcfedr'], '2022-01-20T21:14:32.44213'),
 (1136, 24606613, 6106472, 'survivingwithandroid/Surviving-with-android', 8, 'Source code related to the posts in the blog', 14, 1278, ['survivingwithandroid'], '2022-01-20T21:14:32.975842'),
