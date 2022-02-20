@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T08:44:22.086Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T10:44:24.709Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2725,8 +2725,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2677, 2609511, 237519983, 'nicklanng/plusminus', 15, 'A query builder for https://dgraph.io/', 0, 10, ['nicklanng'], '2022-01-21T00:44:17.772677'),
 (2678, 11858762, 39514089, 'ccoenraets/es6-tutorial', 18, 'ECMAScript 6 Tutorial', 14, 292, ['ccoenraets'], '2022-01-21T00:44:18.198905'),
 (2679, 11858762, 24195339, 'angular/angular', 19, 'The modern web developer’s platform', 1883, 79084, ['gkalpak','petebacondarwin'], '2022-01-21T00:44:18.735322'),
-(2680, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 194, 6719, ['soamvasani','life1347'], '2022-01-21T00:44:19.297059'),
 (2681, 11858762, 30233740, 'hwz/chirp', 20, 'A teaching example of the MEAN stack, by building a simple Twitter clone', 34, 328, ['hwz','sedouard'], '2022-01-21T00:44:19.84729'),
+(2680, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 194, 6719, ['soamvasani','life1347'], '2022-01-21T00:44:19.297059'),
 (2682, 2609511, 77512018, 'nikhita/tech-conferences-india', 17, 'A comprehensive list of tech conferences in India :india:', 10, 703, ['nikhita','championshuttler'], '2022-01-21T00:44:20.976008'),
 (2683, 11858762, 11481338, 'zloirock/core-js', 21, 'Standard Library', 21, 16093, ['zloirock','slowcheetah'], '2022-01-21T00:44:21.220255'),
 (2684, 2609511, 220651147, 'pathivu/pathivu', 18, 'An efficient log ingestion and log aggregation system https://pathivu.io/', 4, 145, ['poonai','L04DB4L4NC3R'], '2022-01-21T00:44:22.33469'),
@@ -4553,8 +4553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4877, 1884246, 367843131, 'Avi2427/jdffhAfG', 18, null, 0, 1, [], '2022-01-21T04:47:49.581793'),
 (4878, 211851, 161588836, 'microsoft/PowerPlatformConnectors', 16, 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', 75, 390, ['sriyen-msft','mamurshe'], '2022-01-21T04:47:49.644548'),
 (4879, 3941126, 132750724, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 208, 127970, ['danistefanovic','bauripalash'], '2022-01-21T04:47:49.93093'),
-(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
+(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4478, 667716, 101814136, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 59, 901, ['theKashey','ai'], '2022-01-21T04:11:02.287643'),
 (4479, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-21T04:11:02.390265'),
 (4480, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7945, ['cyrus-and','alfunx'], '2022-01-21T04:11:03.273317'),
