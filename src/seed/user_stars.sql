@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T14:44:22.842Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T16:50:24.297Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3563,9 +3563,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3517, 25867172, 170738310, 'trustwallet/wallet-core', 5, 'Cross-platform, cross-blockchain wallet library.', 12, 1282, ['hewigovens','alejandro-isaza'], '2022-01-21T03:08:33.457529'),
 (3518, 16942870, 117156031, 'prysmaticlabs/prysm', 11, 'Go implementation of Ethereum proof of stake', 161, 2364, ['terencechain','prestonvanloon'], '2022-01-21T03:08:33.851811'),
 (3519, 47711025, 145022044, 'HiKaylum/SpaceX-PY', 11, 'Python wrapper for the SpaceX API', 3, 11, ['HiKaylum'], '2022-01-21T03:08:34.283587'),
-(3520, 58482194, 24579238, 'vuejs/devtools', 5, '⚙️ Browser devtools extension for debugging Vue.js applications.', 367, 21609, ['Akryum','yyx990803'], '2022-01-21T03:08:34.589309'),
 (3521, 30334776, 843222, 'scikit-learn/scikit-learn', 6, 'scikit-learn: machine learning in Python', 2507, 48615, ['ogrisel','amueller'], '2022-01-21T03:08:35.127412'),
 (3522, 25867172, 15340074, 'leemunroe/responsive-html-email-template', 6, 'A free simple responsive HTML email template', 5, 10924, ['leemunroe','webketje'], '2022-01-21T03:08:35.183952'),
+(3520, 58482194, 24579238, 'vuejs/devtools', 5, '⚙️ Browser devtools extension for debugging Vue.js applications.', 367, 21609, ['Akryum','yyx990803'], '2022-01-21T03:08:34.589309'),
 (3523, 16942870, 147802356, 'ConsenSys/teku', 12, 'Java Implementation of the Ethereum 2.0 Beacon Chain', 100, 340, ['ajsutton','rolfyone'], '2022-01-21T03:08:35.327644'),
 (3524, 47711025, 212270676, 'edoardottt/programming-fundamentals', 12, 'Programming fundamentals.🧠 Material useful for learning Python, start coding and learn how to solve logically a real world problem.', 1, 10, ['edoardottt','POP1912'], '2022-01-21T03:08:35.729521'),
 (3525, 58482194, 281975310, 'type-challenges/type-challenges', 6, 'Collection of TypeScript type challenges with online judge', 5345, 11999, ['antfu','jiangshanmeta'], '2022-01-21T03:08:36.193505'),
@@ -4137,9 +4137,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4091, 67359053, 336945933, 'learn-academy-2021-alpha/Syllabus', 1, null, 0, 2, ['sjproctor','JzGo'], '2022-01-21T03:49:06.256262'),
 (4092, 14868216, 40819979, 'frend/frend.co', 3, 'Frend — A collection of accessible, modern front-end components.', 16, 637, ['thomasdigby','adamduncan'], '2022-01-21T03:49:07.100542'),
 (4093, 57373172, 364413063, 'thebearingedge/global-installs-are-bad', 1, 'And unnecessary.', 0, 2, ['thebearingedge'], '2022-01-21T03:49:07.333148'),
-(4095, 57373172, 47997753, 'zo0r/react-native-push-notification', 2, 'React Native Local and Remote Notifications', 211, 6267, ['Dallas62','zo0r'], '2022-01-21T03:49:08.698701'),
 (4096, 14868216, 83222441, 'donnemartin/system-design-primer', 4, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159093, ['donnemartin','satob'], '2022-01-21T03:49:09.08372'),
 (4097, 67359053, 335105505, 'KenSikes/GitTest', 3, 'just learnining to use Github', 0, 1, ['KenSikes'], '2022-01-21T03:49:09.250522'),
+(4095, 57373172, 47997753, 'zo0r/react-native-push-notification', 2, 'React Native Local and Remote Notifications', 211, 6267, ['Dallas62','zo0r'], '2022-01-21T03:49:08.698701'),
 (4098, 57373172, 74421371, 'ryanburgess/engineer-manager', 3, 'A list of engineering manager resource links.', 1, 7456, ['ryanburgess','stve'], '2022-01-21T03:49:10.168473'),
 (4099, 118037, 228652973, '0xGG/crossnote', 0, '📝 An interesting markdown note taking application', 64, 770, ['shd101wyy','ImKcat'], '2022-01-21T03:49:10.406722'),
 (4100, 14868216, 217388629, 'ReactTraining/react-workshop', 5, 'The course material for our React Hooks workshop', 4, 233, ['bradwestfall','chaance'], '2022-01-21T03:49:10.557604'),
