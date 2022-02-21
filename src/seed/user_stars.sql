@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:44:19.253Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:44:22.578Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4553,8 +4553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4877, 1884246, 367843131, 'Avi2427/jdffhAfG', 18, null, 0, 1, [], '2022-01-21T04:47:49.581793'),
 (4878, 211851, 161588836, 'microsoft/PowerPlatformConnectors', 16, 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', 75, 390, ['sriyen-msft','mamurshe'], '2022-01-21T04:47:49.644548'),
 (4879, 3941126, 132750724, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 208, 127970, ['danistefanovic','bauripalash'], '2022-01-21T04:47:49.93093'),
-(4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
 (4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
+(4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
 (4478, 667716, 101814136, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 59, 901, ['theKashey','ai'], '2022-01-21T04:11:02.287643'),
 (4479, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-21T04:11:02.390265'),
 (4480, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7945, ['cyrus-and','alfunx'], '2022-01-21T04:11:03.273317'),
@@ -4619,8 +4619,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4538, 13490604, 232444831, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 70, 251, ['g4s8','olegmoz'], '2022-01-21T04:11:24.449655'),
 (4539, 38725511, 242789911, 'zaydek/heroicons.dev', 15, 'Heroicons web viewer, Next.js and Tailwind CSS. 🕶', 16, 1009, ['zaydek','Bur0'], '2022-01-21T04:11:24.702372'),
 (4540, 46828701, 29371034, 'micro/micro', 15, 'A distributed cloud platform', 87, 10862, ['asim','ben-toogood'], '2022-01-21T04:11:25.414463'),
-(4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
 (4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
+(4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
 (4543, 667716, 364474335, 'google/zx', 15, 'A tool for writing better scripts', 14, 26806, ['antonmedv','antongolub'], '2022-01-21T04:11:25.821609'),
 (4544, 38725511, 9309093, 'Semantic-Org/Semantic-UI', 17, 'Semantic is a UI component framework based around useful principles from natural language.', 1058, 49804, ['jlukic','quirkyjack'], '2022-01-21T04:11:25.961906'),
 (4545, 667716, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:26.321137'),
@@ -7058,9 +7058,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6992, 289882, 2122421, 'lhanson/cognition-caps', 21, 'Web app which formerly powered the Cognition Caps website (now defunct)', 0, 3, ['lhanson','gwincr11'], '2022-01-22T07:34:05.424939'),
 (6993, 26007940, 249842476, 'nytimes/covid-19-data', 27, 'An ongoing repository of data on coronavirus cases and deaths in the U.S.', 82, 6720, ['nyt-covid-19-bot','albertsun'], '2022-01-22T07:34:05.488553'),
 (6994, 12410942, 83222441, 'donnemartin/system-design-primer', 27, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159191, ['donnemartin','satob'], '2022-01-22T07:34:06.056926'),
-(6995, 26007940, 32883944, 'mcleonard/blog_posts', 28, 'Blog posts for matatat.org', 1, 171, ['mcleonard'], '2022-01-22T07:34:06.842049'),
 (6996, 289882, 661127, 'lhanson/tomcookery', 22, 'A social recipe website.', 0, 2, ['lhanson','gwincr11'], '2022-01-22T07:34:06.889373'),
 (6997, 12410942, 198864465, 'dragonman225/notablog', 28, 'Tell stories of your work with Notion', 8, 370, ['dragonman225','KixPanganiban'], '2022-01-22T07:34:07.460591'),
+(6995, 26007940, 32883944, 'mcleonard/blog_posts', 28, 'Blog posts for matatat.org', 1, 171, ['mcleonard'], '2022-01-22T07:34:06.842049'),
 (6998, 12410942, 2371106, 'rubocop/ruby-style-guide', 29, 'A community-driven Ruby coding style guide', 58, 15870, ['bbatsov','koic'], '2022-01-22T07:34:08.963235'),
 (6999, 1255918, 11056820, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6327, ['erikflowers','fox91'], '2022-01-22T07:36:05.390718'),
 (7000, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 265, 509, ['mfuji09','SphinxKnight'], '2022-01-22T07:36:05.411165'),
