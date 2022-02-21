@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T12:51:00.505Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T14:44:22.842Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1840,9 +1840,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1831, 2228196, 292232897, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 8, 171, ['frederikme','acarter881'], '2022-01-20T23:45:36.127934'),
 (1832, 2228196, 127577160, 'jeffmli/TinderAutomation', 4, null, 9, 518, ['jeffmli'], '2022-01-20T23:45:36.789344'),
 (1833, 2228196, 270069811, 'lesmo/kms-cloud', 5, '''Nube'' de la extinta startup KMS', 0, 1, ['lesmo'], '2022-01-20T23:45:37.492723'),
+(1834, 2228196, 370005059, 'lesmo/LesmoMovies', 6, null, 0, 1, ['lesmo'], '2022-01-20T23:45:38.166958'),
 (1835, 2228196, 74627617, 'commaai/openpilot', 7, 'openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 150 supported car makes and models.', 171, 32152, ['adeebshihadeh','pd0wm'], '2022-01-20T23:45:38.836616'),
 (1836, 2228196, 123807729, 'jaakkopasanen/AutoEq', 9, 'Automatic headphone equalization from frequency responses', 27, 6295, ['jaakkopasanen','jaakkoai'], '2022-01-20T23:45:40.941551'),
-(1834, 2228196, 370005059, 'lesmo/LesmoMovies', 6, null, 0, 1, ['lesmo'], '2022-01-20T23:45:38.166958'),
 (1837, 2228196, 117895247, 'bitcoinvsalts/node-binance-trader', 10, '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖', 5, 969, ['dargmuesli','bitcoinvsalts'], '2022-01-20T23:45:42.397335'),
 (1838, 2228196, 326532559, 'lesmo/pi-home', 11, 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', 0, 2, ['balena-ci','chrisys'], '2022-01-20T23:45:43.848742'),
 (1839, 2228196, 88077974, 'tanhauhau/react-web-config', 12, 'react-native-config for Web', 4, 16, ['tanhauhau'], '2022-01-20T23:45:45.230868'),
@@ -2006,8 +2006,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (1961, 505751, 227803815, 'returntocorp/semgrep', 22, 'Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.', 290, 5772, ['aryx','brendongo'], '2022-01-20T23:51:25.481548'),
 (1962, 43640229, 249388299, 'TheJoin95/covid19-market-waiting-times', 28, 'A project to help people stand in line at the market as little as possible', 15, 95, ['TheJoin95','evanBurg'], '2022-01-20T23:51:26.434893'),
 (1963, 17373317, 147130632, 'twhite96/js-dev-reads', 22, 'A list of books 📚and articles 📝 for the discerning web developer to read.', 0, 3789, ['twhite96','geocine'], '2022-01-20T23:51:26.512074'),
-(1965, 43640229, 201108929, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 29, 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', 7, 692, ['ChrisDryden','andkerr'], '2022-01-20T23:51:27.632754'),
 (1964, 505751, 125225914, 'reactiverse/es4x', 23, '🚀 fast JavaScript 4 Eclipse Vert.x', 40, 774, ['pmlopes','chengenzhao'], '2022-01-20T23:51:26.763976'),
+(1965, 43640229, 201108929, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 29, 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', 7, 692, ['ChrisDryden','andkerr'], '2022-01-20T23:51:27.632754'),
 (1966, 17373317, 27291507, 'asdf-vm/asdf', 23, 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', 124, 12891, ['Stratus3D','HashNuke'], '2022-01-20T23:51:27.841441'),
 (1967, 505751, 384304404, 'KengoTODA/unexpected-groovydoc-reproduction', 24, 'A MCVE to reproduce a strange Groovydoc for enum', 0, 1, ['KengoTODA'], '2022-01-20T23:51:27.947729'),
 (1968, 505751, 370668507, 'rhysd/actionlint', 25, ':octocat: Static checker for GitHub Actions workflow files', 32, 590, ['rhysd','xsc27'], '2022-01-20T23:51:29.380663'),
@@ -3494,6 +3494,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3448, 60254117, 323872491, 'udberg/bubble-sort', 6, 'Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.', 0, 2, ['udberg'], '2022-01-21T02:59:56.76798'),
 (3449, 25217168, 338348248, 'benawad/dogehouse', 9, 'Taking voice conversations to the moon 🚀', 232, 9197, ['benawad','amitojsingh366'], '2022-01-21T02:59:57.043368'),
 (3450, 60254117, 325221053, 'udberg/ruby-enumerables', 7, 'This project  re-creates the ruby enumerables algorithm codes including Each, Each_with_index, Select, all?, none, any?, count, map and inject', 1, 2, ['udberg'], '2022-01-21T02:59:58.044471'),
+(3451, 60254117, 328981878, 'udberg/NearbyRestaurants', 8, 'This project showcases a Telegram bot that helps you check for the restaurants closest to you.', 0, 1, ['udberg'], '2022-01-21T02:59:59.342949'),
 (3452, 60254117, 329252220, 'udberg/Dr-Robot', 9, 'A Twitter bot that tracks tweets about Coronavirus, suggests the nearby hospitals, the most common symptoms of it, and the number of cases in five countries including Nigeria, South Africa, Cameroun, Rwanda, and Kenya.', 0, 4, ['udberg','abeidahmed'], '2022-01-21T03:00:00.424761'),
 (3453, 60254117, 330614682, 'udberg/sqlZoo', 10, 'This project completes the SQL quizzes from https://sqlzoo.net/wiki/SQL_Tutorial which lets you build and run queries against existing tables. Each tutorial will show you a table and then have you run queries against it to answer specific questions.', 0, 1, ['udberg'], '2022-01-21T03:00:02.023899'),
 (3454, 60254117, 331521421, 'udberg/RailsCarApp', 11, null, 0, 2, ['udberg'], '2022-01-21T03:00:03.593503'),
@@ -3720,7 +3721,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3674, 57305940, 129855787, 'namvdo/CS-and-Programming-Books', 9, 'Free computer science, programming books. Code examples, programming project guidlines, and more...', 0, 327, ['namvdo','suvasish114'], '2022-01-21T03:17:47.440413'),
 (3675, 349523, 1780761, 'jwalter/SMSParkera', 14, null, 0, 1, ['jwalter'], '2022-01-21T03:17:47.457272'),
 (3676, 29648040, 75867720, 'wesbos/JavaScript30', 4, '30 Day Vanilla JS Challenge', 27, 17694, ['wesbos','palashmon'], '2022-01-21T03:17:47.680042'),
-(3451, 60254117, 328981878, 'udberg/NearbyRestaurants', 8, 'This project showcases a Telegram bot that helps you check for the restaurants closest to you.', 0, 1, ['udberg'], '2022-01-21T02:59:59.342949'),
 (3677, 237133, 432493110, 'divyakelaskar/MagicHat', 11, 'An AR filter of a hat 🎩', 0, 1, ['divyakelaskar'], '2022-01-21T03:17:48.097287'),
 (3678, 57305940, 71667498, 'lirantal/dockly', 10, 'Immersive terminal interface for managing docker containers and services', 5, 3041, ['lirantal','snyk-bot'], '2022-01-21T03:17:48.85122'),
 (3679, 349523, 1626929, 'teamrabu/rabu-schedule', 15, 'Tools and ideas for product scheduling, with the goal of creating exemplary customer relationships.', 2, 19, ['jamesshore','curious-attempt-bunny'], '2022-01-21T03:17:48.872803'),
