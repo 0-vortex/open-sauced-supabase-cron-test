@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T18:45:59.065Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:44:19.253Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3409,6 +3409,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3363, 39362365, 78186814, 'apache/incubator-weex', 14, 'Apache Weex (Incubating)', 248, 13977, ['sospartan','acton393'], '2022-01-21T02:53:59.513788'),
 (3364, 26586086, 135259420, 'tailwindadmin/admin', 13, 'admin panel template built on tailwind css :tada:', 2, 359, ['riteshsingh1','wassimbj'], '2022-01-21T02:53:59.701431'),
 (3365, 42211, 11730342, 'vuejs/vue', 11, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 552, 192459, ['yyx990803','vue-bot'], '2022-01-21T02:53:59.71733'),
+(3366, 80793630, 421838343, 'nguyenphuminh/JeChain', 12, 'An educational-purpose, light smart-contract-supported blockchain network', 0, 126, ['nguyenphuminh'], '2022-01-21T02:54:00.40513'),
+(3367, 39362365, 72931382, 'vuelidate/vuelidate', 15, 'Simple, lightweight model-based validation for Vue.js', 108, 6210, ['dobromir-hristov','Frizi'], '2022-01-21T02:54:00.833022'),
 (3368, 42211, 373327367, 'rx-mind/ngrx-plugins', 12, 'Reactive Angular Plugins', 0, 30, ['markostanimirovic'], '2022-01-21T02:54:01.224623'),
 (3369, 26586086, 236750354, 'bradtraversy/vanillawebprojects', 14, 'Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries', 29, 12151, ['bradtraversy','ni3gup'], '2022-01-21T02:54:01.504591'),
 (3370, 80793630, 280585832, 'dannydeezy/bitcoin-book', 13, 'A light technical introduction to bitcoin', 0, 6, ['dannydeezy','Zero-1729'], '2022-01-21T02:54:02.309722'),
@@ -3513,9 +3515,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3469, 25217168, 32538871, 'google/gson', 15, 'A Java serialization/deserialization library to convert Java Objects into JSON and back', 635, 20494, ['inder123','swankjesse'], '2022-01-21T03:00:18.332668'),
 (3470, 60254117, 346275226, 'udberg/ror-social-scaffold', 22, 'This repo includes intial code for social media app. Its purpose is to be a starting point for Microverse students.', 0, 2, ['udberg','dibdas'], '2022-01-21T03:00:19.431076'),
 (3471, 60254117, 346048523, 'udberg/Tasklist', 23, 'Go from idea to action in seconds with Tasklist’s simple boards, list, and cards. This is a fun, flexible, and free way to organize plans, projects, and more. It has an elegant design and makes doing things fun. In this project, you can list tasks you want to perform in order of their priorities. The tasks automatically clear after it has been marked as completed.', 0, 3, ['udberg'], '2022-01-21T03:00:20.713582'),
-(3366, 80793630, 421838343, 'nguyenphuminh/JeChain', 12, 'An educational-purpose, light smart-contract-supported blockchain network', 0, 126, ['nguyenphuminh'], '2022-01-21T02:54:00.40513'),
 (3472, 60254117, 348324348, 'udberg/Transaction-App', 24, 'This project is based on an app for grouping payments by a goal with your family/friends. The contents of this website are personalized, i.e., - it can be for grouping hours spent on different projects at your university or for grouping kilometers by means of transportations in your family - anything that you can share with other people and group by some category. You can access all the design info (color, typography, layouts) in this link: https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding Design idea by Gregoire Vella on Behance.', 0, 6, ['udberg'], '2022-01-21T03:00:21.849883'),
-(3367, 39362365, 72931382, 'vuelidate/vuelidate', 15, 'Simple, lightweight model-based validation for Vue.js', 108, 6210, ['dobromir-hristov','Frizi'], '2022-01-21T02:54:00.833022'),
 (3473, 25217168, 7691631, 'moby/moby', 16, 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', 4219, 62018, ['thaJeztah','cpuguy83'], '2022-01-21T03:00:21.872357'),
 (3474, 60254117, 355825750, 'udberg/JSLibrary', 25, 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', 0, 4, ['udberg','keneogu'], '2022-01-21T03:00:23.156016'),
 (3475, 60254117, 359410930, 'udberg/Restaurant', 26, 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', 0, 5, ['udberg'], '2022-01-21T03:00:24.464357'),
