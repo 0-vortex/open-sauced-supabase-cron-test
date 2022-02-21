@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T22:44:21.244Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:07:15.065Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3601,9 +3601,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3555, 47711025, 413169379, 'MohmedIkram/Hacktoberfest2021', 16, 'This Repository for Hacktoberfest Fest 2021. Contribute anything for your T-shirt, must be relevant that can add some value to this repo.', 6, 60, ['MohmedIkram','8G6'], '2022-01-21T03:08:45.556507'),
 (3556, 58482194, 342028554, 'wheatjs/vite-plugin-vue-gql', 13, '⚡ GraphQL Tags for your Vue SFC ⚡', 2, 166, ['wheatjs','jojoxd'], '2022-01-21T03:08:45.972448'),
 (3557, 30334776, 267311267, 'yomaokobiah/email_analysis', 14, 'Email data analysis', 0, 2, ['yomaokobiah'], '2022-01-21T03:08:46.298485'),
+(3558, 16942870, 117300524, 'gitcoinco/community', 20, 'index of all the community stuff associated with gitcoin', 2, 24, ['owocki','vs77bb'], '2022-01-21T03:08:47.029836'),
 (3559, 47711025, 39890704, 'arviz-devs/arviz', 17, 'Exploratory analysis of Bayesian models with Python', 146, 1145, ['aloctavodia','ahartikainen'], '2022-01-21T03:08:47.114452'),
 (3560, 30334776, 295391772, 'yomaokobiah/imagecaptiongenerator', 15, null, 0, 2, ['yomaokobiah','jamessandy'], '2022-01-21T03:08:47.482539'),
-(3558, 16942870, 117300524, 'gitcoinco/community', 20, 'index of all the community stuff associated with gitcoin', 2, 24, ['owocki','vs77bb'], '2022-01-21T03:08:47.029836'),
 (3561, 58482194, 249064639, 'znck/vue-developer-experience', 14, 'A collection of tools for vue ecosystem.', 76, 1215, ['znck','cawa-93'], '2022-01-21T03:08:47.534942'),
 (3562, 47711025, 2870911, 'MvvmCross/MvvmCross', 18, 'The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac.', 277, 3608, ['martijn00','hollywoof'], '2022-01-21T03:08:48.505731'),
 (3563, 30334776, 216213331, 'yomaokobiah/yono', 16, 'Yono is a python numerical methods library. The aim of Yono is to provide solutions to engineering problems that different numerical methods can solve.', 0, 8, ['yomaokobiah'], '2022-01-21T03:08:48.86283'),
@@ -3770,9 +3770,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3723, 57017587, 51769689, 'sindresorhus/refined-github', 1, ':octocat: Browser extension that simplifies the GitHub interface and adds useful features', 138, 16642, ['fregante','yakov116'], '2022-01-21T03:27:55.507303'),
 (3724, 1431853, 98927279, 'google/gts', 0, '☂️ TypeScript style guide, formatter, and linter.  ', 41, 3754, ['renovate-bot','ofrobots'], '2022-01-21T03:27:55.542926'),
 (3725, 8037469, 175666043, 'microsoft/vscode-edge-devtools', 2, 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', 92, 489, ['mliao95','vidorteg'], '2022-01-21T03:27:56.879237'),
+(3726, 57017587, 82211360, 'webhintio/hint', 2, '💡 A hinting engine for the web', 330, 3296, ['alrra','molant'], '2022-01-21T03:27:57.343233'),
 (3727, 1431853, 34526884, 'ant-design/ant-design', 1, 'An enterprise-class UI design language and React UI library', 774, 77185, ['afc163','zombieJ'], '2022-01-21T03:27:57.467397'),
 (3728, 49351279, 3655872, 'vercel/ms', 0, 'Tiny millisecond conversion utility', 18, 3807, ['leo','rauchg'], '2022-01-21T03:27:57.489202'),
-(3726, 57017587, 82211360, 'webhintio/hint', 2, '💡 A hinting engine for the web', 330, 3296, ['alrra','molant'], '2022-01-21T03:27:57.343233'),
 (3729, 8037469, 257485422, 'vitejs/vite', 3, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:27:57.595389'),
 (3730, 33669114, 56087776, 'ramboxapp/community-edition', 0, 'Free and Open Source messaging and emailing app that combines common web applications into one.', 247, 6209, ['saenzramiro','fvulich'], '2022-01-21T03:27:58.366301'),
 (3731, 57017587, 348060227, 'snowpackjs/astro', 3, 'Build fast websites, faster. 🚀🧑‍🚀✨', 126, 9922, ['FredKSchott','matthewp'], '2022-01-21T03:27:59.015574'),
@@ -3784,7 +3784,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3737, 8037469, 291779008, 'get-woke/woke', 5, 'Detect non-inclusive language in your source code.', 15, 298, ['caitlinelfring','cognitivegears'], '2022-01-21T03:28:00.511245'),
 (3738, 57017587, 396038596, 'Liberontissauri/Ball-Physics-With-TypeScript', 4, '🏐 An experiment to try to recreate the physics of jumping balls with typescript and vector js', 0, 1, ['Liberontissauri'], '2022-01-21T03:28:00.51249'),
 (3739, 49351279, 16986405, 'liabru/matter-js', 2, 'a 2D rigid body physics engine for the web ▲● ■', 196, 12675, ['liabru','PlNG'], '2022-01-21T03:28:00.679236'),
-(3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
 (3741, 1431853, 230334310, 'accessible-ui/accordion', 4, '🅰 An accessible and versatile accordion for React with keyboard navigation and labeling features taught in w3.org''s WAI-ARIA accordion best practices example', 7, 6, ['jaredLunde'], '2022-01-21T03:28:01.891244'),
 (3742, 8037469, 299712981, 'raycast/script-commands', 6, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', 2, 3008, ['raycastbot','unnamedd'], '2022-01-21T03:28:01.891643'),
 (3743, 57017587, 14408715, 'jnv/lists', 5, 'The definitive list of lists (of lists) curated on GitHub and elsewhere', 0, 7789, ['jnv','benedekrozemberczki'], '2022-01-21T03:28:02.411439'),
@@ -4033,6 +4032,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
 (3987, 57826091, 369719645, 'Dhaiwat10/react-link-preview', 26, 'A React library that generates beautiful previews for your links.', 2, 77, ['Dhaiwat10','semantic-release-bot'], '2022-01-21T03:35:14.600284'),
 (3988, 72279316, 297419763, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1387, ['mvkaran','GitHubIndiaBot'], '2022-01-21T03:35:14.890078'),
+(3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
 (3989, 5842360, 80395811, 'ivanseidel/Is-Now-Illegal', 28, '🚫 A NERD protest against Trump''s Immigration ban', 15, 1393, ['brunolemos','ivanseidel'], '2022-01-21T03:35:15.123764'),
 (3990, 569510, 1535009, 'jazzband/tablib', 29, 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', 33, 4066, ['kennethreitz','claudep'], '2022-01-21T03:35:15.253743'),
 (3991, 57826091, 102210005, 'dethcrypto/TypeChain', 27, '🔌 TypeScript bindings for Ethereum smart contracts', 36, 1554, ['krzkaczor','zemse'], '2022-01-21T03:35:15.874639'),
