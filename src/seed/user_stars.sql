@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T08:44:58.315Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T10:44:30.832Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4729,8 +4729,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4649, 1295334, 76404, 'rails-sqlserver/activerecord-sqlserver-adapter', 15, 'SQL Server Adapter For Rails', 32, 935, ['metaskills','wpolicarpo'], '2022-01-21T04:21:41.587798'),
 (4650, 6842883, 22858482, 'fonttools/region-flags', 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', 16, 160, ['behdad','behnam'], '2022-01-21T04:21:41.880716'),
 (4651, 2808728, 21737465, 'sindresorhus/awesome', 12, '😎 Awesome lists about all kinds of interesting topics', 39, 185451, ['sindresorhus','davisonio'], '2022-01-21T04:21:42.464498'),
-(4653, 6842883, 26115910, 'ruimarinho/google-libphonenumber', 17, 'The up-to-date and reliable Google''s libphonenumber package for node.js.', 6, 1114, ['ruimarinho','mathieumg'], '2022-01-21T04:21:43.104217'),
 (4652, 1295334, 488514, 'rubygems/bundler', 16, 'Manage your Ruby application''s gem dependencies', 0, 4850, ['indirect','segiddins'], '2022-01-21T04:21:42.894714'),
+(4653, 6842883, 26115910, 'ruimarinho/google-libphonenumber', 17, 'The up-to-date and reliable Google''s libphonenumber package for node.js.', 6, 1114, ['ruimarinho','mathieumg'], '2022-01-21T04:21:43.104217'),
 (4654, 2808728, 54748620, 'kamranahmedse/githunt', 13, 'Hunt the most starred projects on any date on GitHub', 13, 2218, ['kamranahmedse','tarungarg546'], '2022-01-21T04:21:43.705796'),
 (4655, 1295334, 906834, 'avdgaag/nanoc-template', 17, 'A simple template project for websites built with Nanoc', 7, 80, ['avdgaag','rolfvandekrol'], '2022-01-21T04:21:43.989849'),
 (4656, 6842883, 51980455, 'alacritty/alacritty', 18, 'A cross-platform, OpenGL terminal emulator.', 304, 37005, ['chrisduerr','jwilm'], '2022-01-21T04:21:44.417121'),
