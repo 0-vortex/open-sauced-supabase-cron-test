@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:47:26.567Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T04:48:00.402Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3034,8 +3034,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2993, 27487712, 217796246, 'mudaliaraditya/EpollServer', 6, 'simple epoll server library', 0, 1, ['mudaliaraditya'], '2022-01-21T02:02:20.704973'),
 (2994, 55982424, 395006251, 'Lalit2005/paperclip', 6, 'The only note taking and productivity tool you will ever need From notes, todo lists, sticky notes to pomorodo timer and HTML-CSS playgorund, Paperclip is everything you will ever need', 5, 40, ['Lalit2005'], '2022-01-21T02:02:21.460247'),
 (2995, 203683, 257887579, 'adrianchifor/Bigbucket', 7, 'Serverless Bigtable-like database, backed by Cloud Storage', 0, 34, ['adrianchifor'], '2022-01-21T02:02:21.507836'),
-(2997, 27487712, 36307949, 'sagielevy/C2Py', 7, 'Convert C Structs to Python with ease!', 3, 9, ['sagielevy','sagielightricks'], '2022-01-21T02:02:22.46201'),
 (2996, 67718832, 21552971, 'alebcay/awesome-shell', 5, 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.', 76, 22797, ['alebcay','xuxiaodong'], '2022-01-21T02:02:21.759368'),
+(2997, 27487712, 36307949, 'sagielevy/C2Py', 7, 'Convert C Structs to Python with ease!', 3, 9, ['sagielevy','sagielightricks'], '2022-01-21T02:02:22.46201'),
 (2998, 55982424, 389448238, 'avinash201199/Free-courses-with-Certificates', 7, 'Collection of free courses with certificates', 0, 26, ['avinash201199','ojasjain24'], '2022-01-21T02:02:22.68129'),
 (2999, 203683, 128707215, 'ksindi/managers-playbook', 8, ':book: Heuristics for effective management', 0, 4550, ['ksindi','jonnydubowsky'], '2022-01-21T02:02:22.762581'),
 (3000, 67718832, 42956467, 'herrbischoff/awesome-macos-command-line', 6, 'Use your macOS terminal shell to do awesome things.', 0, 25621, ['herrbischoff'], '2022-01-21T02:02:23.174845'),
@@ -7849,7 +7849,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7811, 19617280, 384524698, 'salvia-kit/salvia-kit', 28, 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', 0, 324, ['enochndika'], '2022-01-22T08:58:50.943933'),
 (7812, 2228196, 128275689, 'cchen156/Learning-to-See-in-the-Dark', 26, 'Learning to See in the Dark. CVPR 2018', 62, 5151, ['cchen156','Jason-Cooke'], '2022-01-22T08:58:51.057662'),
 (7813, 43640229, 32838582, 'kengz/Risk-game', 26, 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', 2, 14, ['kengz'], '2022-01-22T08:58:52.237195'),
-(7814, 2228196, 168927777, 'Mtihc/bustabit-script-simulator', 27, 'Simulate running a script on bustabit', 6, 15, ['Mtihc'], '2022-01-22T08:58:52.286881'),
 (7815, 19617280, 333980205, 'cassidoo/cass.run', 29, 'My own lil URL shortener', 0, 140, ['cassidoo','Jadhielv'], '2022-01-22T08:58:52.353396'),
 (7816, 43640229, 99263247, 'joncardasis/ultimate-api', 27, ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', 3, 44, ['joncardasis'], '2022-01-22T08:58:53.388017'),
 (7817, 2228196, 220872906, 'lesmo/wubbalubbadubdub', 28, 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', 3, 1, ['lesmo'], '2022-01-22T08:58:53.750119'),
@@ -8010,6 +8009,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7935, 1930729, 27193779, 'nodejs/node', 3, 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', 1660, 84517, ['ry','Trott'], '2022-01-22T09:15:41.529419'),
 (7936, 29417643, 26573009, 'semmypurewal/BeginningJavaScript', 4, 'This repo contains the examples, notes and problems for my O''Reilly video ''Beginning Programming with JavaScript''', 11, 176, ['semmypurewal'], '2022-01-22T09:15:41.670493'),
 (7937, 26007940, 13812337, 'osmlab/name-suggestion-index', 4, 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', 100, 450, ['bhousel','kjonosm'], '2022-01-22T09:15:41.757787'),
+(7814, 2228196, 168927777, 'Mtihc/bustabit-script-simulator', 27, 'Simulate running a script on bustabit', 6, 15, ['Mtihc'], '2022-01-22T08:58:52.286881'),
 (7938, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1501, ['kevquirk','bobdenotter'], '2022-01-22T09:15:42.39694'),
 (7939, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-22T09:15:42.98353'),
 (7940, 4910518, 114484885, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald'], '2022-01-22T09:15:43.854367'),
