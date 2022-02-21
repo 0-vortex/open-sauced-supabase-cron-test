@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:07:15.065Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:47:26.567Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3034,8 +3034,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (2993, 27487712, 217796246, 'mudaliaraditya/EpollServer', 6, 'simple epoll server library', 0, 1, ['mudaliaraditya'], '2022-01-21T02:02:20.704973'),
 (2994, 55982424, 395006251, 'Lalit2005/paperclip', 6, 'The only note taking and productivity tool you will ever need From notes, todo lists, sticky notes to pomorodo timer and HTML-CSS playgorund, Paperclip is everything you will ever need', 5, 40, ['Lalit2005'], '2022-01-21T02:02:21.460247'),
 (2995, 203683, 257887579, 'adrianchifor/Bigbucket', 7, 'Serverless Bigtable-like database, backed by Cloud Storage', 0, 34, ['adrianchifor'], '2022-01-21T02:02:21.507836'),
-(2996, 67718832, 21552971, 'alebcay/awesome-shell', 5, 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.', 76, 22797, ['alebcay','xuxiaodong'], '2022-01-21T02:02:21.759368'),
 (2997, 27487712, 36307949, 'sagielevy/C2Py', 7, 'Convert C Structs to Python with ease!', 3, 9, ['sagielevy','sagielightricks'], '2022-01-21T02:02:22.46201'),
+(2996, 67718832, 21552971, 'alebcay/awesome-shell', 5, 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.', 76, 22797, ['alebcay','xuxiaodong'], '2022-01-21T02:02:21.759368'),
 (2998, 55982424, 389448238, 'avinash201199/Free-courses-with-Certificates', 7, 'Collection of free courses with certificates', 0, 26, ['avinash201199','ojasjain24'], '2022-01-21T02:02:22.68129'),
 (2999, 203683, 128707215, 'ksindi/managers-playbook', 8, ':book: Heuristics for effective management', 0, 4550, ['ksindi','jonnydubowsky'], '2022-01-21T02:02:22.762581'),
 (3000, 67718832, 42956467, 'herrbischoff/awesome-macos-command-line', 6, 'Use your macOS terminal shell to do awesome things.', 0, 25621, ['herrbischoff'], '2022-01-21T02:02:23.174845'),
@@ -3784,6 +3784,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3737, 8037469, 291779008, 'get-woke/woke', 5, 'Detect non-inclusive language in your source code.', 15, 298, ['caitlinelfring','cognitivegears'], '2022-01-21T03:28:00.511245'),
 (3738, 57017587, 396038596, 'Liberontissauri/Ball-Physics-With-TypeScript', 4, '🏐 An experiment to try to recreate the physics of jumping balls with typescript and vector js', 0, 1, ['Liberontissauri'], '2022-01-21T03:28:00.51249'),
 (3739, 49351279, 16986405, 'liabru/matter-js', 2, 'a 2D rigid body physics engine for the web ▲● ■', 196, 12675, ['liabru','PlNG'], '2022-01-21T03:28:00.679236'),
+(3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
 (3741, 1431853, 230334310, 'accessible-ui/accordion', 4, '🅰 An accessible and versatile accordion for React with keyboard navigation and labeling features taught in w3.org''s WAI-ARIA accordion best practices example', 7, 6, ['jaredLunde'], '2022-01-21T03:28:01.891244'),
 (3742, 8037469, 299712981, 'raycast/script-commands', 6, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', 2, 3008, ['raycastbot','unnamedd'], '2022-01-21T03:28:01.891643'),
 (3743, 57017587, 14408715, 'jnv/lists', 5, 'The definitive list of lists (of lists) curated on GitHub and elsewhere', 0, 7789, ['jnv','benedekrozemberczki'], '2022-01-21T03:28:02.411439'),
@@ -4032,7 +4033,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3986, 569510, 354689732, 'Tow-Boot/Tow-Boot', 28, 'An opinionated distribution of U-Boot. — https://matrix.to/#/#Tow-Boot:matrix.org?via=matrix.org', 42, 73, ['samueldr','L-as'], '2022-01-21T03:35:13.945979'),
 (3987, 57826091, 369719645, 'Dhaiwat10/react-link-preview', 26, 'A React library that generates beautiful previews for your links.', 2, 77, ['Dhaiwat10','semantic-release-bot'], '2022-01-21T03:35:14.600284'),
 (3988, 72279316, 297419763, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1387, ['mvkaran','GitHubIndiaBot'], '2022-01-21T03:35:14.890078'),
-(3740, 33669114, 70777180, 'Foundry376/Mailspring', 2, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', 9, 12077, ['bengotow','emorikawa'], '2022-01-21T03:28:01.844469'),
 (3989, 5842360, 80395811, 'ivanseidel/Is-Now-Illegal', 28, '🚫 A NERD protest against Trump''s Immigration ban', 15, 1393, ['brunolemos','ivanseidel'], '2022-01-21T03:35:15.123764'),
 (3990, 569510, 1535009, 'jazzband/tablib', 29, 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', 33, 4066, ['kennethreitz','claudep'], '2022-01-21T03:35:15.253743'),
 (3991, 57826091, 102210005, 'dethcrypto/TypeChain', 27, '🔌 TypeScript bindings for Ethereum smart contracts', 36, 1554, ['krzkaczor','zemse'], '2022-01-21T03:35:15.874639'),
