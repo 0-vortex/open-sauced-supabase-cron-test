@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T08:44:59.418Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T10:44:36.682Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3809,8 +3809,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3762, 33669114, 387624468, 'gremlin/bootcamp-infrastructure', 7, null, 3, 3, ['jyee'], '2022-01-21T03:28:09.370578'),
 (3763, 49351279, 265122478, 'ManimCommunity/manim', 5, 'A community-maintained Python framework for creating mathematical animations. ', 345, 8309, ['3b1b','leotrs'], '2022-01-21T03:28:09.385704'),
 (3764, 8037469, 283489816, 'netlify/framework-info', 11, 'Framework detection utility', 11, 104, ['renovate-bot','ehmicky'], '2022-01-21T03:28:09.47242'),
-(3768, 8037469, 267429516, 'concrete-utopia/utopia', 12, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T03:28:11.000336'),
 (3765, 1431853, 257485422, 'vitejs/vite', 9, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:28:09.782764'),
+(3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
+(3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
+(3768, 8037469, 267429516, 'concrete-utopia/utopia', 12, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T03:28:11.000336'),
 (3769, 1431853, 286867459, 'pmndrs/jotai', 10, '👻 Primitive and flexible state management for React', 30, 6912, ['dai-shi','Aslemammad'], '2022-01-21T03:28:11.327605'),
 (3770, 49351279, 8162715, 'mirumee/saleor', 6, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 250, 14970, ['maarcingebala','dominik-zeglen'], '2022-01-21T03:28:11.901857'),
 (3771, 57017587, 228118187, 'BrandonArmand/Binari', 11, 'Interactive code editor with a live binary tree visual designed to teach new developers the fundamentals of dynamic programming.', 13, 89, ['BrandonArmand','NKaty'], '2022-01-21T03:28:12.140327'),
@@ -3914,8 +3916,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3870, 569510, 13840241, 'freeCodeCamp/devdocs', 0, 'API Documentation Browser', 120, 27509, ['Thibaut','simon04'], '2022-01-21T03:34:35.517261'),
 (3871, 5842360, 138393139, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 49, 58028, ['trimstray','lbonanomi'], '2022-01-21T03:34:36.085494'),
 (3872, 569510, 34369372, 'shd101wyy/markdown-preview-enhanced', 1, 'One of the ''BEST'' markdown preview extensions for Atom editor!', 821, 3522, ['shd101wyy','kachkaev'], '2022-01-21T03:34:36.952822'),
-(3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
-(3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
 (3873, 72279316, 398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 0, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', 1, 154, ['imsiddhant07','dakshp07'], '2022-01-21T03:34:37.386238'),
 (3874, 5842360, 240673378, 'phuoc-ng/html-dom', 1, 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', 23, 4373, ['phuoc-ng','surajhell88'], '2022-01-21T03:34:38.16517'),
 (3875, 569510, 257022147, 'simonw/til', 2, 'Today I Learned', 7, 422, ['simonw','davidbgk'], '2022-01-21T03:34:38.278388'),
