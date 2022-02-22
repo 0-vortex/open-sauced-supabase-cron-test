@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T06:46:54.326Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T08:44:59.418Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3809,10 +3809,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3762, 33669114, 387624468, 'gremlin/bootcamp-infrastructure', 7, null, 3, 3, ['jyee'], '2022-01-21T03:28:09.370578'),
 (3763, 49351279, 265122478, 'ManimCommunity/manim', 5, 'A community-maintained Python framework for creating mathematical animations. ', 345, 8309, ['3b1b','leotrs'], '2022-01-21T03:28:09.385704'),
 (3764, 8037469, 283489816, 'netlify/framework-info', 11, 'Framework detection utility', 11, 104, ['renovate-bot','ehmicky'], '2022-01-21T03:28:09.47242'),
-(3765, 1431853, 257485422, 'vitejs/vite', 9, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:28:09.782764'),
-(3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
-(3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
 (3768, 8037469, 267429516, 'concrete-utopia/utopia', 12, 'Design ❤️ Code', 185, 3318, ['Rheeseyb','balazsbajorics'], '2022-01-21T03:28:11.000336'),
+(3765, 1431853, 257485422, 'vitejs/vite', 9, 'Next generation frontend tooling. It''s fast!', 808, 36484, ['yyx990803','patak-dev'], '2022-01-21T03:28:09.782764'),
 (3769, 1431853, 286867459, 'pmndrs/jotai', 10, '👻 Primitive and flexible state management for React', 30, 6912, ['dai-shi','Aslemammad'], '2022-01-21T03:28:11.327605'),
 (3770, 49351279, 8162715, 'mirumee/saleor', 6, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 250, 14970, ['maarcingebala','dominik-zeglen'], '2022-01-21T03:28:11.901857'),
 (3771, 57017587, 228118187, 'BrandonArmand/Binari', 11, 'Interactive code editor with a live binary tree visual designed to teach new developers the fundamentals of dynamic programming.', 13, 89, ['BrandonArmand','NKaty'], '2022-01-21T03:28:12.140327'),
@@ -3916,6 +3914,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3870, 569510, 13840241, 'freeCodeCamp/devdocs', 0, 'API Documentation Browser', 120, 27509, ['Thibaut','simon04'], '2022-01-21T03:34:35.517261'),
 (3871, 5842360, 138393139, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 49, 58028, ['trimstray','lbonanomi'], '2022-01-21T03:34:36.085494'),
 (3872, 569510, 34369372, 'shd101wyy/markdown-preview-enhanced', 1, 'One of the ''BEST'' markdown preview extensions for Atom editor!', 821, 3522, ['shd101wyy','kachkaev'], '2022-01-21T03:34:36.952822'),
+(3766, 57017587, 60492769, 'rsuite/rsuite', 10, '🧱 A suite of React components .', 122, 6437, ['simonguo','hiyangguo'], '2022-01-21T03:28:10.08753'),
+(3767, 33669114, 315699740, 'meilisearch/devrel', 8, 'Anything Developer Relations at Meili', 80, 17, ['CaroFG','fharper'], '2022-01-21T03:28:10.861043'),
 (3873, 72279316, 398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 0, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', 1, 154, ['imsiddhant07','dakshp07'], '2022-01-21T03:34:37.386238'),
 (3874, 5842360, 240673378, 'phuoc-ng/html-dom', 1, 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', 23, 4373, ['phuoc-ng','surajhell88'], '2022-01-21T03:34:38.16517'),
 (3875, 569510, 257022147, 'simonw/til', 2, 'Today I Learned', 7, 422, ['simonw','davidbgk'], '2022-01-21T03:34:38.278388'),
@@ -5470,8 +5470,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5461, 1033332, 28548699, 'cassidoo/getting-a-gig', 3, 'Guide for getting a gig as a tech student.', 0, 6262, ['cassidoo','dsouzarc'], '2022-01-21T05:36:39.493621'),
 (5462, 1368727, 148701531, 'zmwangx/rust-ffmpeg', 7, 'Safe FFmpeg wrapper.', 23, 370, ['meh','zmwangx'], '2022-01-21T05:36:39.692674'),
 (5463, 40713709, 184609434, 'fhkingma/bitswap', 8, 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', 3, 202, ['fhkingma'], '2022-01-21T05:36:40.005362'),
-(5465, 1368727, 232485720, 'alfg/mp4-rust', 8, ':movie_camera: MP4 reader and writer library in Rust! 🦀', 5, 73, ['alfg','ian-spoonradio'], '2022-01-21T05:36:40.86391'),
 (5464, 9696352, 400468445, 'g-plane/typacro', 7, 'TypeCake is a language that compiles to TypeScript types. (WIP)', 0, 28, ['g-plane'], '2022-01-21T05:36:40.187065'),
+(5465, 1368727, 232485720, 'alfg/mp4-rust', 8, ':movie_camera: MP4 reader and writer library in Rust! 🦀', 5, 73, ['alfg','ian-spoonradio'], '2022-01-21T05:36:40.86391'),
 (5466, 1033332, 279153765, 'thmsgbrt/thmsgbrt', 4, 'My awesome README.md', 2, 232, ['thmsgbrt','Devesh225'], '2022-01-21T05:36:40.981278'),
 (5467, 9696352, 195281293, 'wepublish/wepublish', 8, null, 36, 29, ['roosnic1','per2plex'], '2022-01-21T05:36:41.697079'),
 (5468, 40713709, 6662075, 'joke2k/faker', 9, 'Faker is a Python package that generates fake data for you.', 171, 13567, ['fcurella','joke2k'], '2022-01-21T05:36:41.707361'),
@@ -5542,8 +5542,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5531, 1033332, 302734740, 'maxkostinevich/Chakra-UI-Admin-Dashboard-Template', 22, 'Collection of custom made components using Chakra UI.', 1, 49, ['maxkostinevich','abshekh'], '2022-01-21T05:37:04.856429'),
 (5532, 1368727, 423179172, 'thlorenz/v8-snapshot', 24, 'Tool to create a snapshot for Electron applications.', 0, 0, ['thlorenz'], '2022-01-21T05:37:05.632814'),
 (5533, 9696352, 385261169, 'unjs/unplugin', 24, 'Unified plugin system for Vite, Rollup, Webpack, and more', 11, 944, ['antfu','tropicalraisel'], '2022-01-21T05:37:05.889328'),
-(5535, 1033332, 283003335, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio'], '2022-01-21T05:37:06.345894'),
 (5534, 40713709, 3507455, 'ornicar/lila', 25, '♞ lichess.org: the forever free, adless and open source chess server ♞', 548, 10750, ['ornicar','niklasf'], '2022-01-21T05:37:06.245684'),
+(5535, 1033332, 283003335, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio'], '2022-01-21T05:37:06.345894'),
 (5536, 1368727, 338335614, 'leafac/caxa', 25, '📦 Package Node.js applications into executable binaries 📦', 14, 131, ['leafac','maxb2'], '2022-01-21T05:37:07.107791'),
 (5537, 9696352, 399574627, 'orta/typescript-api-shim', 25, null, 1, 6, ['orta','johnnyreilly'], '2022-01-21T05:37:07.203793'),
 (5538, 40713709, 191051391, 'redwoodjs/redwood', 26, 'The App Framework for Startups', 277, 10680, ['peterp','thedavidprice'], '2022-01-21T05:37:07.570247'),
