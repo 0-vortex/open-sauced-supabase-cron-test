@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T02:48:20.441Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T04:47:49.022Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4995,8 +4995,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4985, 53687927, 214632600, 'dwaipayan05/InfinityRunner-Unity', 15, null, 0, 1, ['SagarB-97'], '2022-01-21T04:57:24.372987'),
 (4986, 6935431, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:57:24.594339'),
 (4987, 455338, 3287, 'preservim/nerdcommenter', 20, 'Vim plugin for intensely nerdy commenting powers', 91, 4481, ['alerque','scrooloose'], '2022-01-21T04:57:24.607385'),
-(4989, 6935431, 293923529, 'peter-murray/github-security-report-action', 17, null, 5, 49, ['peter-murray','nateous'], '2022-01-21T04:57:26.031847'),
 (4988, 53687927, 337699246, 'dwaipayan05/breakingcaptcha', 16, 'Breaking captchas!!', 0, 1, ['nud3l','tharidu'], '2022-01-21T04:57:25.821636'),
+(4989, 6935431, 293923529, 'peter-murray/github-security-report-action', 17, null, 5, 49, ['peter-murray','nateous'], '2022-01-21T04:57:26.031847'),
 (4990, 455338, 12785573, 'sheerun/vim-polyglot', 21, 'A solid language pack for Vim.', 42, 4744, ['sheerun','CH-DanReif'], '2022-01-21T04:57:26.062196'),
 (4991, 53687927, 212107200, 'dwaipayan05/Spamassassin-GSoC', 17, 'SVM for spamassassin statistical classifier plugin', 0, 1, ['sjs253'], '2022-01-21T04:57:27.28475'),
 (4992, 6935431, 342451583, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert'], '2022-01-21T04:57:27.519598'),
@@ -7010,8 +7010,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6944, 12410942, 240574799, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 59, ['tmartin8080','bigx333'], '2022-01-22T07:33:39.417508'),
 (6945, 26007940, 367395197, 'Pumpkin-from-Scrimba/NapScript', 11, 'The only true cat programming language. Made by a cat for people. This is the way. ', 0, 1, ['Pumpkin-from-Scrimba'], '2022-01-22T07:33:40.691629'),
 (6946, 12410942, 52710065, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 81, 5969, ['jakebolam','kentcdodds'], '2022-01-22T07:33:40.882493'),
-(6947, 289882, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T07:33:40.945264'),
 (6948, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T07:33:42.345577'),
+(6947, 289882, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T07:33:40.945264'),
 (6949, 12410942, 157626893, 'thematters/matters-server', 12, 'Server code for Matters', 34, 47, ['robertu7','devformatters'], '2022-01-22T07:33:42.409132'),
 (6950, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 196, 6544, ['minrk','willingc'], '2022-01-22T07:33:42.61557'),
 (6951, 26007940, 362290213, 'OlliesWorld/softball_roster', 13, null, 0, 1, ['OlliesWorld'], '2022-01-22T07:33:43.695387'),
@@ -7419,8 +7419,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7408, 45293863, 69673033, 'ardalis/CleanArchitecture', 11, 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', 18, 9261, ['ardalis','sdepouw'], '2022-01-22T08:38:48.453445'),
 (7409, 23166349, 432722169, 'mrwilson/advent-of-code-2021', 9, 'It''s back. It''s worse.', 0, 4, ['mrwilson'], '2022-01-22T08:38:48.768144'),
 (7410, 24553355, 147919799, 'yandexdataschool/nlp_course', 6, 'YSDA course in Natural Language Processing', 6, 7625, ['justheuristic','drt7'], '2022-01-22T08:38:48.836649'),
-(7411, 50591491, 12732573, 'junegunn/vim-plug', 10, ':hibiscus: Minimalist Vim Plugin Manager', 90, 26131, ['junegunn','starcraftman'], '2022-01-22T08:38:48.985214'),
 (7412, 10951893, 420484145, 'jramirez857/email-cleaner', 10, 'Analyze and organize your gmail inbox from your command line to achieve the coveted inbox zero', 1, 2, ['jramirez857'], '2022-01-22T08:38:49.242965'),
+(7411, 50591491, 12732573, 'junegunn/vim-plug', 10, ':hibiscus: Minimalist Vim Plugin Manager', 90, 26131, ['junegunn','starcraftman'], '2022-01-22T08:38:48.985214'),
 (7413, 45293863, 364474335, 'google/zx', 12, 'A tool for writing better scripts', 14, 26902, ['antonmedv','antongolub'], '2022-01-22T08:38:49.981891'),
 (7414, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-22T08:38:50.240265'),
 (7415, 23166349, 59522149, 'gruntwork-io/terragrunt', 10, 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', 364, 5530, ['brikis98','yorinasub17'], '2022-01-22T08:38:50.279061'),
