@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T16:50:46.349Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T18:46:29.718Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -360,9 +360,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (353, 7860023, 205812745, 'mitesh77/Best-Flutter-UI-Templates', 5, 'completely free for everyone. Its build-in Flutter Dart.', 13, 13723, ['mitesh77','IAmSarthakVerma'], '2022-01-20T19:54:08.746413'),
 (354, 16268467, 189098079, 'lmammino/streams-workshop', 4, 'A workshop on Node.js Streams', 2, 109, ['lmammino','brian-childress'], '2022-01-20T19:54:08.826165'),
 (355, 7860023, 193344063, 'JideGuru/FlutterFoodybite', 6, 'Flutter representation of a Restaurant app UI.', 3, 1153, ['JideGuru','Shamsudeen12'], '2022-01-20T19:54:10.209708'),
+(356, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T19:54:10.265452'),
 (357, 61815862, 12888993, 'home-assistant/core', 9, ':house_with_garden: Open source home automation that puts local control and privacy first.', 1499, 49169, ['balloob','fabaff'], '2022-01-20T19:54:11.158354'),
 (358, 16268467, 16194327, 'adamschwartz/magic-of-css', 6, 'A CSS course to turn you into a magician.', 10, 5553, ['adamschwartz','cvrebert'], '2022-01-20T19:54:11.687388'),
-(356, 16268467, 16604381, 'sergtitov/NodeJS-Learning', 5, 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', 5, 1675, ['sergtitov','Saurabh-hooda'], '2022-01-20T19:54:10.265452'),
 (359, 7860023, 14862081, 'adiel/coypu', 7, 'Intuitive, robust browser automation for .Net', 0, 1, ['adiel','citizenmatt'], '2022-01-20T19:54:11.721188'),
 (360, 16268467, 172471552, 'aliyr/Nodejs-Developer-Roadmap', 7, 'A Developer Roadmap to becoming a Node.js developer in 2019', 5, 3760, ['aliyr','AGrant24'], '2022-01-20T19:54:12.287828'),
 (361, 61815862, 416408131, 'mattn/tailscale-systray', 10, 'Linux port of tailscale system tray menu.', 7, 77, ['mattn','codenoid'], '2022-01-20T19:54:12.553164'),
@@ -4941,9 +4941,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4932, 17671332, 395413091, 'Mintbean/junior-developer-job-boards', 0, null, 0, 1, ['Jc-008','monarchwadia'], '2022-01-21T04:56:57.262354'),
 (4933, 455338, 74505259, 'slundberg/shap', 2, 'A game theoretic approach to explain the output of any machine learning model.', 1325, 15172, ['slundberg','ryserrao'], '2022-01-21T04:56:57.94571'),
 (4934, 17671332, 62607227, 'yangshun/tech-interview-handbook', 1, '💯 Curated interview preparation materials for busy engineers', 7, 63745, ['yangshun','louietyj'], '2022-01-21T04:56:59.537727'),
+(4935, 455338, 362423752, 'folke/which-key.nvim', 3, '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', 79, 1052, ['folke','zeertzjq'], '2022-01-21T04:56:59.570047'),
 (4936, 6935431, 310766137, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo'], '2022-01-21T04:56:59.888867'),
 (4937, 25751316, 316188570, 'Tom-Wyszkowski/Python', 0, 'All Algorithms implemented in Python', 0, 1, ['harshildarji','cclauss'], '2022-01-21T04:57:00.787318'),
-(4935, 455338, 362423752, 'folke/which-key.nvim', 3, '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', 79, 1052, ['folke','zeertzjq'], '2022-01-21T04:56:59.570047'),
 (4938, 455338, 95915087, 'tjdevries/train.nvim', 4, 'Train yourself with vim motions and make your own train tracks :)', 2, 75, ['tjdevries'], '2022-01-21T04:57:01.060069'),
 (4939, 6935431, 372449229, 'GeekMasher/advanced-security-compliance', 1, 'GitHub Advance Security Compliance Action', 16, 79, ['GeekMasher','pholleran'], '2022-01-21T04:57:01.5664'),
 (4940, 455338, 360319672, 'folke/trouble.nvim', 5, '🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.', 45, 1244, ['folke','echasnovski'], '2022-01-21T04:57:02.744825'),
@@ -4979,8 +4979,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4969, 53687927, 353950870, 'dwaipayan05/Stress-Distribution-CO', 9, 'A Group of IPython Notebooks to Plot the Stress Distribution Around Single/Multiple Circular Openings along with Plots for Irregular Shape Openings using Kirsch Relations and Greenspan Method. ', 0, 1, ['dwaipayan05'], '2022-01-21T04:57:16.059276'),
 (4970, 6935431, 348300013, 'github/ghas-jira-integration', 11, null, 12, 18, ['zbazztian','cmboling'], '2022-01-21T04:57:17.069077'),
 (4971, 53687927, 353360302, 'dwaipayan05/Proctoring-AI', 10, null, 0, 1, ['Harshalzzzzzzz'], '2022-01-21T04:57:17.439271'),
-(4972, 455338, 49516849, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 68, 3929, ['xwmx','heywoodlh'], '2022-01-21T04:57:17.499981'),
 (4973, 53687927, 351880944, 'dwaipayan05/dwaipayan05', 11, null, 0, 1, ['dwaipayan05'], '2022-01-21T04:57:18.841824'),
+(4972, 455338, 49516849, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 68, 3929, ['xwmx','heywoodlh'], '2022-01-21T04:57:17.499981'),
 (4974, 455338, 6887156, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 69, 3726, ['Yggdroot','stardiviner'], '2022-01-21T04:57:18.916609'),
 (4975, 6935431, 358525505, 'philips-forks/innersource-crawler', 12, 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', 0, 1, ['zkoppert','Brend-Smits'], '2022-01-21T04:57:19.158083'),
 (4976, 53687927, 350774992, 'dwaipayan05/Object-Detection-RealTime', 12, null, 0, 1, ['dwaipayan05','Harshalzzzzzzz'], '2022-01-21T04:57:20.182227'),
@@ -5568,9 +5568,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5557, 12292047, 383273098, 'scandum/blitsort', 2, 'Blitsort is an in-place stable adaptive rotate merge sort', 1, 331, ['scandum'], '2022-01-21T05:42:09.218873'),
 (5558, 12292047, 377267871, 'gaearon/react-lag-radar', 3, null, 0, 254, ['gaearon'], '2022-01-21T05:42:10.555206'),
 (5559, 12292047, 222375662, 'shrutikapoor08/blogs', 4, 'A collection of blog post articles on JavaScript, React, GraphQL and front-end development', 2, 21, ['shrutikapoor08','mstuart'], '2022-01-21T05:42:11.872139'),
+(5560, 12292047, 218163448, 'phenomnomnominal/screen-reader-reader', 5, 'A general purpose screen reader reader', 12, 53, ['phenomnomnominal','BBlackwo'], '2022-01-21T05:42:13.183572'),
 (5561, 12292047, 369362064, 'reactwg/react-18', 6, 'Workgroup for React 18 release.', 0, 3911, ['caabernathy','gaearon'], '2022-01-21T05:42:14.502115'),
 (5562, 12292047, 273950652, 'ckundo/auto-vo', 7, null, 0, 89, ['ckundo','stephenmathieson'], '2022-01-21T05:42:15.96453'),
-(5560, 12292047, 218163448, 'phenomnomnominal/screen-reader-reader', 5, 'A general purpose screen reader reader', 12, 53, ['phenomnomnominal','BBlackwo'], '2022-01-21T05:42:13.183572'),
 (5563, 61131314, 230951254, 'Singh-Shivani/Merlin-Fashion', 0, 'A custom website for online fashion.', 2, 13, ['Singh-Shivani','imsouravstyles'], '2022-01-21T05:42:16.429988'),
 (5564, 12292047, 371645725, 'jaymrobinson/PoETools', 8, null, 1, 18, ['jaymrobinson'], '2022-01-21T05:42:17.225323'),
 (5565, 61131314, 336203723, 'Mogakamo/Number-Guesser', 1, 'Number Guesser', 0, 1, ['Mogakamo'], '2022-01-21T05:42:17.753865'),
@@ -6681,8 +6681,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7221, 3941856, 244749570, 'spinnaker-hackathon/gardening', 10, 'Spinnaker Gardening Virtual #CommunityHack - Read all about the fun, projects, and prizes!', 0, 12, ['dnilasor','ptr-dang'], '2022-01-22T08:30:34.911637'),
 (7222, 3662109, 93163073, 'dependabot/dependabot-core', 11, '🤖 The core logic behind Dependabot''s update PR creation, and the public issue tracker for all things Dependabot Updates', 781, 2378, ['greysteil','feelepxyz'], '2022-01-22T08:30:35.531561'),
 (7223, 19861960, 159886264, 'VIDA-NYU/shadow-accrual-maps', 12, 'Accumulated shadow data computed for New York City', 0, 14, ['fabio-miranda'], '2022-01-22T08:30:35.605055'),
-(7225, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-22T08:30:36.090855'),
 (7224, 3662109, 41881900, 'microsoft/vscode', 12, 'Visual Studio Code', 5407, 126685, ['bpasero','jrieken'], '2022-01-22T08:30:36.079051'),
+(7225, 469997, 41147622, 'sobingt/angular-node-seed', 8, 'Seed project: nodejs angularjs with login', 0, 2, ['sobingt'], '2022-01-22T08:30:36.090855'),
 (7236, 469997, 211666, 'nodejs/node-v0.x-archive', 9, 'Moved to https://github.com/nodejs/node', 571, 34786, ['orangemocha','refack'], '2022-01-22T08:30:38.023964'),
 (7237, 3662109, 437325263, 'hillu/local-log4j-vuln-scanner', 16, 'Simple local scanner for vulnerable log4j instances', 6, 364, ['hillu','martin-schlossarek'], '2022-01-22T08:30:38.212719'),
 (7238, 19861960, 190038729, 'kefranabg/readme-md-generator', 16, '📄 CLI that generates beautiful README.md files', 30, 9263, ['kefranabg','anku255'], '2022-01-22T08:30:38.256351'),
