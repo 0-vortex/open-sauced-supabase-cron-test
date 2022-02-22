@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:44:22.578Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:03:19.794Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4553,8 +4553,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4877, 1884246, 367843131, 'Avi2427/jdffhAfG', 18, null, 0, 1, [], '2022-01-21T04:47:49.581793'),
 (4878, 211851, 161588836, 'microsoft/PowerPlatformConnectors', 16, 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', 75, 390, ['sriyen-msft','mamurshe'], '2022-01-21T04:47:49.644548'),
 (4879, 3941126, 132750724, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 208, 127970, ['danistefanovic','bauripalash'], '2022-01-21T04:47:49.93093'),
-(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
+(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4478, 667716, 101814136, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 59, 901, ['theKashey','ai'], '2022-01-21T04:11:02.287643'),
 (4479, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-21T04:11:02.390265'),
 (4480, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7945, ['cyrus-and','alfunx'], '2022-01-21T04:11:03.273317'),
@@ -4619,8 +4619,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4538, 13490604, 232444831, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 70, 251, ['g4s8','olegmoz'], '2022-01-21T04:11:24.449655'),
 (4539, 38725511, 242789911, 'zaydek/heroicons.dev', 15, 'Heroicons web viewer, Next.js and Tailwind CSS. 🕶', 16, 1009, ['zaydek','Bur0'], '2022-01-21T04:11:24.702372'),
 (4540, 46828701, 29371034, 'micro/micro', 15, 'A distributed cloud platform', 87, 10862, ['asim','ben-toogood'], '2022-01-21T04:11:25.414463'),
-(4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
 (4541, 38725511, 61893399, 'brillout/awesome-react-components', 16, 'Curated List of React Components & Libraries.', 1, 28826, ['bluepeter','devarchy-bot'], '2022-01-21T04:11:25.443509'),
+(4542, 13490604, 11297301, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 349, ['Drugoy','Stevoisiak'], '2022-01-21T04:11:25.669059'),
 (4543, 667716, 364474335, 'google/zx', 15, 'A tool for writing better scripts', 14, 26806, ['antonmedv','antongolub'], '2022-01-21T04:11:25.821609'),
 (4544, 38725511, 9309093, 'Semantic-Org/Semantic-UI', 17, 'Semantic is a UI component framework based around useful principles from natural language.', 1058, 49804, ['jlukic','quirkyjack'], '2022-01-21T04:11:25.961906'),
 (4545, 667716, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:11:26.321137'),
@@ -7058,9 +7058,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6992, 289882, 2122421, 'lhanson/cognition-caps', 21, 'Web app which formerly powered the Cognition Caps website (now defunct)', 0, 3, ['lhanson','gwincr11'], '2022-01-22T07:34:05.424939'),
 (6993, 26007940, 249842476, 'nytimes/covid-19-data', 27, 'An ongoing repository of data on coronavirus cases and deaths in the U.S.', 82, 6720, ['nyt-covid-19-bot','albertsun'], '2022-01-22T07:34:05.488553'),
 (6994, 12410942, 83222441, 'donnemartin/system-design-primer', 27, 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', 283, 159191, ['donnemartin','satob'], '2022-01-22T07:34:06.056926'),
+(6995, 26007940, 32883944, 'mcleonard/blog_posts', 28, 'Blog posts for matatat.org', 1, 171, ['mcleonard'], '2022-01-22T07:34:06.842049'),
 (6996, 289882, 661127, 'lhanson/tomcookery', 22, 'A social recipe website.', 0, 2, ['lhanson','gwincr11'], '2022-01-22T07:34:06.889373'),
 (6997, 12410942, 198864465, 'dragonman225/notablog', 28, 'Tell stories of your work with Notion', 8, 370, ['dragonman225','KixPanganiban'], '2022-01-22T07:34:07.460591'),
-(6995, 26007940, 32883944, 'mcleonard/blog_posts', 28, 'Blog posts for matatat.org', 1, 171, ['mcleonard'], '2022-01-22T07:34:06.842049'),
 (6998, 12410942, 2371106, 'rubocop/ruby-style-guide', 29, 'A community-driven Ruby coding style guide', 58, 15870, ['bbatsov','koic'], '2022-01-22T07:34:08.963235'),
 (6999, 1255918, 11056820, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6327, ['erikflowers','fox91'], '2022-01-22T07:36:05.390718'),
 (7000, 1930729, 319742187, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 265, 509, ['mfuji09','SphinxKnight'], '2022-01-22T07:36:05.411165'),
@@ -8013,9 +8013,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7938, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1501, ['kevquirk','bobdenotter'], '2022-01-22T09:15:42.39694'),
 (7939, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-22T09:15:42.98353'),
 (7940, 4910518, 114484885, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald'], '2022-01-22T09:15:43.854367'),
+(7943, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6333, ['zerowidth','jbarnette'], '2022-01-22T09:15:44.608243'),
 (7941, 1930729, 15062869, 'facebook/jest', 4, 'Delightful JavaScript Testing.', 1721, 37708, ['SimenB','cpojer'], '2022-01-22T09:15:43.894779'),
 (7942, 26007940, 230706417, 'DaveSkender/Stock.Indicators', 6, 'Stock Indicators for .NET is a C# library package that produces financial market technical indicators. Send in historical price quotes and get back desired indicators such as moving averages, Relative Strength Index, Stochastic Oscillator, Parabolic SAR, etc. Nothing more.  It can be used in any market analysis software using standard OHLCV price quotes for equities, commodities, forex, cryptocurrencies, and others. We had private trading algorithms, machine learning, and charting systems in mind when originally creating this community library.', 10, 379, ['DaveSkender','LeeDongGeon1996'], '2022-01-22T09:15:44.208167'),
-(7943, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6333, ['zerowidth','jbarnette'], '2022-01-22T09:15:44.608243'),
 (7944, 1930729, 6720403, 'simple-icons/simple-icons', 5, 'SVG icons for popular brands', 608, 12334, ['PeterShaggyNoble','birjolaxew'], '2022-01-22T09:15:45.307759'),
 (7945, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T09:15:45.385357'),
 (7946, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-22T09:15:45.84487'),
@@ -8155,8 +8155,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8080, 1255918, 1062897, 'github/gitignore', 20, 'A collection of useful .gitignore templates', 210, 128621, ['shiftkey','arcresu'], '2022-01-22T09:25:28.873389'),
 (8081, 20727421, 200928051, 'HospitalRun/hospitalrun', 27, 'Monorepo that holds all of HospitalRun''s v2 projects.', 29, 699, ['tehKapa','hospitalrunbot'], '2022-01-22T09:25:30.004319'),
 (8082, 1255918, 6326227, 'metamaps/metamaps', 21, 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', 195, 117, ['devvmh','Connoropolous'], '2022-01-22T09:25:30.231505'),
-(8083, 20727421, 14571443, 'up-for-grabs/up-for-grabs.net', 28, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2448, ['shiftkey','ritwik12'], '2022-01-22T09:25:31.478383'),
 (8084, 20727421, 218282453, 'saadpasta/developerFolio', 29, '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', 17, 2911, ['saadpasta','kartikcho'], '2022-01-22T09:25:32.77925'),
+(8083, 20727421, 14571443, 'up-for-grabs/up-for-grabs.net', 28, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2448, ['shiftkey','ritwik12'], '2022-01-22T09:25:31.478383'),
 (8085, 44642314, 268098312, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 8, 17, ['ZedThree','kgfoundrydig'], '2022-01-22T09:31:48.063603'),
 (8086, 52336027, 124227308, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 125, ['entityframeworktutorial'], '2022-01-22T09:31:48.108274'),
 (8087, 79887, 414403319, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene'], '2022-01-22T09:31:48.113517'),
