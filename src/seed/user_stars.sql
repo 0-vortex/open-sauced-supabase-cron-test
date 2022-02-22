@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:03:19.794Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T02:48:20.441Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4995,8 +4995,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4985, 53687927, 214632600, 'dwaipayan05/InfinityRunner-Unity', 15, null, 0, 1, ['SagarB-97'], '2022-01-21T04:57:24.372987'),
 (4986, 6935431, 71359796, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 28, 568, ['bdougie','0-vortex'], '2022-01-21T04:57:24.594339'),
 (4987, 455338, 3287, 'preservim/nerdcommenter', 20, 'Vim plugin for intensely nerdy commenting powers', 91, 4481, ['alerque','scrooloose'], '2022-01-21T04:57:24.607385'),
-(4988, 53687927, 337699246, 'dwaipayan05/breakingcaptcha', 16, 'Breaking captchas!!', 0, 1, ['nud3l','tharidu'], '2022-01-21T04:57:25.821636'),
 (4989, 6935431, 293923529, 'peter-murray/github-security-report-action', 17, null, 5, 49, ['peter-murray','nateous'], '2022-01-21T04:57:26.031847'),
+(4988, 53687927, 337699246, 'dwaipayan05/breakingcaptcha', 16, 'Breaking captchas!!', 0, 1, ['nud3l','tharidu'], '2022-01-21T04:57:25.821636'),
 (4990, 455338, 12785573, 'sheerun/vim-polyglot', 21, 'A solid language pack for Vim.', 42, 4744, ['sheerun','CH-DanReif'], '2022-01-21T04:57:26.062196'),
 (4991, 53687927, 212107200, 'dwaipayan05/Spamassassin-GSoC', 17, 'SVM for spamassassin statistical classifier plugin', 0, 1, ['sjs253'], '2022-01-21T04:57:27.28475'),
 (4992, 6935431, 342451583, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert'], '2022-01-21T04:57:27.519598'),
@@ -8013,9 +8013,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7938, 12410942, 326420723, 'kevquirk/simple.css', 5, 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', 1, 1501, ['kevquirk','bobdenotter'], '2022-01-22T09:15:42.39694'),
 (7939, 26007940, 407666234, 'zero-to-mastery/coding_challenge-42', 5, 'Hacktoberfest 2021', 0, 38, ['MattCSmith'], '2022-01-22T09:15:42.98353'),
 (7940, 4910518, 114484885, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald'], '2022-01-22T09:15:43.854367'),
-(7943, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6333, ['zerowidth','jbarnette'], '2022-01-22T09:15:44.608243'),
 (7941, 1930729, 15062869, 'facebook/jest', 4, 'Delightful JavaScript Testing.', 1721, 37708, ['SimenB','cpojer'], '2022-01-22T09:15:43.894779'),
 (7942, 26007940, 230706417, 'DaveSkender/Stock.Indicators', 6, 'Stock Indicators for .NET is a C# library package that produces financial market technical indicators. Send in historical price quotes and get back desired indicators such as moving averages, Relative Strength Index, Stochastic Oscillator, Parabolic SAR, etc. Nothing more.  It can be used in any market analysis software using standard OHLCV price quotes for equities, commodities, forex, cryptocurrencies, and others. We had private trading algorithms, machine learning, and charting systems in mind when originally creating this community library.', 10, 379, ['DaveSkender','LeeDongGeon1996'], '2022-01-22T09:15:44.208167'),
+(7943, 12410942, 16549503, 'github/scientist', 6, ':microscope: A Ruby library for carefully refactoring critical paths.', 10, 6333, ['zerowidth','jbarnette'], '2022-01-22T09:15:44.608243'),
 (7944, 1930729, 6720403, 'simple-icons/simple-icons', 5, 'SVG icons for popular brands', 608, 12334, ['PeterShaggyNoble','birjolaxew'], '2022-01-22T09:15:45.307759'),
 (7945, 26007940, 402030436, 'mikerobards/100-days-of-code', 7, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', 0, 1, ['kallaway','AurelieBayre'], '2022-01-22T09:15:45.385357'),
 (7946, 12410942, 3515902, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl'], '2022-01-22T09:15:45.84487'),
@@ -8155,8 +8155,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (8080, 1255918, 1062897, 'github/gitignore', 20, 'A collection of useful .gitignore templates', 210, 128621, ['shiftkey','arcresu'], '2022-01-22T09:25:28.873389'),
 (8081, 20727421, 200928051, 'HospitalRun/hospitalrun', 27, 'Monorepo that holds all of HospitalRun''s v2 projects.', 29, 699, ['tehKapa','hospitalrunbot'], '2022-01-22T09:25:30.004319'),
 (8082, 1255918, 6326227, 'metamaps/metamaps', 21, 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', 195, 117, ['devvmh','Connoropolous'], '2022-01-22T09:25:30.231505'),
-(8084, 20727421, 218282453, 'saadpasta/developerFolio', 29, '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', 17, 2911, ['saadpasta','kartikcho'], '2022-01-22T09:25:32.77925'),
 (8083, 20727421, 14571443, 'up-for-grabs/up-for-grabs.net', 28, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', 48, 2448, ['shiftkey','ritwik12'], '2022-01-22T09:25:31.478383'),
+(8084, 20727421, 218282453, 'saadpasta/developerFolio', 29, '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', 17, 2911, ['saadpasta','kartikcho'], '2022-01-22T09:25:32.77925'),
 (8085, 44642314, 268098312, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 8, 17, ['ZedThree','kgfoundrydig'], '2022-01-22T09:31:48.063603'),
 (8086, 52336027, 124227308, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 125, ['entityframeworktutorial'], '2022-01-22T09:31:48.108274'),
 (8087, 79887, 414403319, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene'], '2022-01-22T09:31:48.113517'),
