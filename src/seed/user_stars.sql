@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T12:51:32.704Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T14:44:24.216Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4702,10 +4702,10 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4622, 1295334, 3946572, 'PostgresApp/PostgresApp', 8, 'The easiest way to get started with PostgreSQL on the Mac', 122, 6178, ['jakob','chrispysoft'], '2022-01-21T04:21:30.269219'),
 (4623, 4381106, 8514, 'rails/rails', 9, 'Ruby on Rails', 594, 49947, ['rafaelfranca','tenderlove'], '2022-01-21T04:21:30.310646'),
 (4624, 6842883, 331700882, 'kyleshevlin/eslint-plugin', 8, 'A collection of my own ESLint rules.', 0, 77, ['kyleshevlin'], '2022-01-21T04:21:30.86689'),
-(4625, 2808728, 142616550, 'bernaferrari/EmojiSlider', 5, '🤯 A slider widget rich in emoji and highly customisable.', 4, 569, ['bernaferrari','ImgBotApp'], '2022-01-21T04:21:31.142196'),
 (4626, 1295334, 261787758, 'bradtraversy/design-resources-for-developers', 9, 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', 1, 35109, ['Alaev','StefanSelfTaught'], '2022-01-21T04:21:32.134161'),
 (4627, 6842883, 172378503, 'romkatv/powerlevel10k', 9, 'A Zsh theme', 18, 24656, ['romkatv','dritter'], '2022-01-21T04:21:32.224083'),
 (4628, 2808728, 24516196, 'nhat-nguyen/bittersweet', 6, 'a color scheme for Sublime Text', 0, 7, ['nhat-nguyen'], '2022-01-21T04:21:32.397424'),
+(4625, 2808728, 142616550, 'bernaferrari/EmojiSlider', 5, '🤯 A slider widget rich in emoji and highly customisable.', 4, 569, ['bernaferrari','ImgBotApp'], '2022-01-21T04:21:31.142196'),
 (4629, 4381106, 65252, 'jekyll/jekyll', 10, ':globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby', 170, 43965, ['parkr','jekyllbot'], '2022-01-21T04:21:32.591316'),
 (4630, 6842883, 229802493, 'GianCastle/dotfiles', 10, 'Personal dotfiles 🗂', 0, 1, ['GianCastle'], '2022-01-21T04:21:33.494743'),
 (4631, 2808728, 78819190, 'prettier/prettier-eslint', 7, 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', 37, 3456, ['zimme','kentcdodds'], '2022-01-21T04:21:33.645992'),
@@ -10042,13 +10042,13 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (9956, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 57, 38056, ['MunGell','JefMari'], '2022-01-22T11:39:40.244101'),
 (9957, 3792749, 221981891, 'microsoft/playwright', 1, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', 378, 32581, ['pavelfeldman','dgozman'], '2022-01-22T11:39:40.25159'),
 (9958, 29547465, 261049563, 'LottieFiles/svelte-lottie-player', 1, 'Lottie Player component for Svelte', 5, 80, ['jawish','karamalie'], '2022-01-22T11:39:40.923688'),
-(9959, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-22T11:39:40.943824'),
 (9960, 3792749, 426820139, 'open-sauced/hot', 2, '🍕The site that recommends the hottest projects on GitHub.', 11, 39, ['bdougie','hokagedemehin'], '2022-01-22T11:39:41.317674'),
 (9961, 54776315, 399495186, 'tiangolo/sqlmodel', 2, 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', 146, 6658, ['tiangolo','Batalex'], '2022-01-22T11:39:41.575867'),
 (9962, 13490604, 230595891, 'launchbadge/sqlx', 2, '🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, SQLite, and MSSQL.', 336, 5247, ['mehcode','abonander'], '2022-01-22T11:39:41.582572'),
 (9963, 29547465, 52595226, 'xtaci/kcptun', 2, 'A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64。KCPプロトコルに基づく安全なトンネル。KCP 프로토콜을 기반으로 하는 보안 터널입니다。', 78, 12740, ['xtaci','HigherSY'], '2022-01-22T11:39:42.21408'),
 (9964, 38725511, 368311388, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal'], '2022-01-22T11:39:42.222766'),
 (9966, 54776315, 90943218, 'bluz71/vim-moonfly-statusline', 4, 'A simple statusline for Vim', 0, 57, ['bluz71','PyGamer0'], '2022-01-22T11:39:42.889584'),
+(9959, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-22T11:39:40.943824'),
 (9967, 13490604, 4930716, 'zeek/zeek', 3, 'Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.', 82, 4227, ['jsiwek','rsmmr'], '2022-01-22T11:39:43.08504'),
 (9968, 38725511, 345219371, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz'], '2022-01-22T11:39:43.492787'),
 (9969, 29547465, 20653934, 'google/cadvisor', 3, 'Analyzes resource usage and performance characteristics of running containers.', 511, 12960, ['vmarmol','dashpole'], '2022-01-22T11:39:43.627914'),
