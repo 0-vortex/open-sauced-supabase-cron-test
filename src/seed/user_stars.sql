@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T04:47:49.022Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T06:46:54.326Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5470,8 +5470,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5461, 1033332, 28548699, 'cassidoo/getting-a-gig', 3, 'Guide for getting a gig as a tech student.', 0, 6262, ['cassidoo','dsouzarc'], '2022-01-21T05:36:39.493621'),
 (5462, 1368727, 148701531, 'zmwangx/rust-ffmpeg', 7, 'Safe FFmpeg wrapper.', 23, 370, ['meh','zmwangx'], '2022-01-21T05:36:39.692674'),
 (5463, 40713709, 184609434, 'fhkingma/bitswap', 8, 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', 3, 202, ['fhkingma'], '2022-01-21T05:36:40.005362'),
-(5464, 9696352, 400468445, 'g-plane/typacro', 7, 'TypeCake is a language that compiles to TypeScript types. (WIP)', 0, 28, ['g-plane'], '2022-01-21T05:36:40.187065'),
 (5465, 1368727, 232485720, 'alfg/mp4-rust', 8, ':movie_camera: MP4 reader and writer library in Rust! 🦀', 5, 73, ['alfg','ian-spoonradio'], '2022-01-21T05:36:40.86391'),
+(5464, 9696352, 400468445, 'g-plane/typacro', 7, 'TypeCake is a language that compiles to TypeScript types. (WIP)', 0, 28, ['g-plane'], '2022-01-21T05:36:40.187065'),
 (5466, 1033332, 279153765, 'thmsgbrt/thmsgbrt', 4, 'My awesome README.md', 2, 232, ['thmsgbrt','Devesh225'], '2022-01-21T05:36:40.981278'),
 (5467, 9696352, 195281293, 'wepublish/wepublish', 8, null, 36, 29, ['roosnic1','per2plex'], '2022-01-21T05:36:41.697079'),
 (5468, 40713709, 6662075, 'joke2k/faker', 9, 'Faker is a Python package that generates fake data for you.', 171, 13567, ['fcurella','joke2k'], '2022-01-21T05:36:41.707361'),
@@ -5542,8 +5542,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5531, 1033332, 302734740, 'maxkostinevich/Chakra-UI-Admin-Dashboard-Template', 22, 'Collection of custom made components using Chakra UI.', 1, 49, ['maxkostinevich','abshekh'], '2022-01-21T05:37:04.856429'),
 (5532, 1368727, 423179172, 'thlorenz/v8-snapshot', 24, 'Tool to create a snapshot for Electron applications.', 0, 0, ['thlorenz'], '2022-01-21T05:37:05.632814'),
 (5533, 9696352, 385261169, 'unjs/unplugin', 24, 'Unified plugin system for Vite, Rollup, Webpack, and more', 11, 944, ['antfu','tropicalraisel'], '2022-01-21T05:37:05.889328'),
-(5534, 40713709, 3507455, 'ornicar/lila', 25, '♞ lichess.org: the forever free, adless and open source chess server ♞', 548, 10750, ['ornicar','niklasf'], '2022-01-21T05:37:06.245684'),
 (5535, 1033332, 283003335, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio'], '2022-01-21T05:37:06.345894'),
+(5534, 40713709, 3507455, 'ornicar/lila', 25, '♞ lichess.org: the forever free, adless and open source chess server ♞', 548, 10750, ['ornicar','niklasf'], '2022-01-21T05:37:06.245684'),
 (5536, 1368727, 338335614, 'leafac/caxa', 25, '📦 Package Node.js applications into executable binaries 📦', 14, 131, ['leafac','maxb2'], '2022-01-21T05:37:07.107791'),
 (5537, 9696352, 399574627, 'orta/typescript-api-shim', 25, null, 1, 6, ['orta','johnnyreilly'], '2022-01-21T05:37:07.203793'),
 (5538, 40713709, 191051391, 'redwoodjs/redwood', 26, 'The App Framework for Startups', 277, 10680, ['peterp','thedavidprice'], '2022-01-21T05:37:07.570247'),
@@ -7010,8 +7010,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6944, 12410942, 240574799, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 59, ['tmartin8080','bigx333'], '2022-01-22T07:33:39.417508'),
 (6945, 26007940, 367395197, 'Pumpkin-from-Scrimba/NapScript', 11, 'The only true cat programming language. Made by a cat for people. This is the way. ', 0, 1, ['Pumpkin-from-Scrimba'], '2022-01-22T07:33:40.691629'),
 (6946, 12410942, 52710065, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 81, 5969, ['jakebolam','kentcdodds'], '2022-01-22T07:33:40.882493'),
-(6948, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T07:33:42.345577'),
 (6947, 289882, 60374819, 'jupyterlab/jupyterlab', 6, 'JupyterLab computational environment.', 2070, 11742, ['blink1073','afshin'], '2022-01-22T07:33:40.945264'),
+(6948, 26007940, 44150497, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 29, 17973, ['dougaitken','jessicard'], '2022-01-22T07:33:42.345577'),
 (6949, 12410942, 157626893, 'thematters/matters-server', 12, 'Server code for Matters', 34, 47, ['robertu7','devformatters'], '2022-01-22T07:33:42.409132'),
 (6950, 289882, 20785986, 'jupyterhub/jupyterhub', 7, 'Multi-user server for Jupyter notebooks', 196, 6544, ['minrk','willingc'], '2022-01-22T07:33:42.61557'),
 (6951, 26007940, 362290213, 'OlliesWorld/softball_roster', 13, null, 0, 1, ['OlliesWorld'], '2022-01-22T07:33:43.695387'),
@@ -7419,8 +7419,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (7408, 45293863, 69673033, 'ardalis/CleanArchitecture', 11, 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', 18, 9261, ['ardalis','sdepouw'], '2022-01-22T08:38:48.453445'),
 (7409, 23166349, 432722169, 'mrwilson/advent-of-code-2021', 9, 'It''s back. It''s worse.', 0, 4, ['mrwilson'], '2022-01-22T08:38:48.768144'),
 (7410, 24553355, 147919799, 'yandexdataschool/nlp_course', 6, 'YSDA course in Natural Language Processing', 6, 7625, ['justheuristic','drt7'], '2022-01-22T08:38:48.836649'),
-(7412, 10951893, 420484145, 'jramirez857/email-cleaner', 10, 'Analyze and organize your gmail inbox from your command line to achieve the coveted inbox zero', 1, 2, ['jramirez857'], '2022-01-22T08:38:49.242965'),
 (7411, 50591491, 12732573, 'junegunn/vim-plug', 10, ':hibiscus: Minimalist Vim Plugin Manager', 90, 26131, ['junegunn','starcraftman'], '2022-01-22T08:38:48.985214'),
+(7412, 10951893, 420484145, 'jramirez857/email-cleaner', 10, 'Analyze and organize your gmail inbox from your command line to achieve the coveted inbox zero', 1, 2, ['jramirez857'], '2022-01-22T08:38:49.242965'),
 (7413, 45293863, 364474335, 'google/zx', 12, 'A tool for writing better scripts', 14, 26902, ['antonmedv','antongolub'], '2022-01-22T08:38:49.981891'),
 (7414, 24553355, 301706792, 'rolling-scopes-school/nodejs-aws-tasks', 7, null, 0, 32, ['SergeyKovalchuk','angry-coconut'], '2022-01-22T08:38:50.240265'),
 (7415, 23166349, 59522149, 'gruntwork-io/terragrunt', 10, 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', 364, 5530, ['brikis98','yorinasub17'], '2022-01-22T08:38:50.279061'),
