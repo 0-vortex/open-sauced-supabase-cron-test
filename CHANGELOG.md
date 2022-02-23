@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.8.6](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.5...v1.8.6) (2022-02-23)
+
+
+### 🐛 Bug Fixes
+
+* correct npm requirements ([eb3cdb1](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/eb3cdb1c303f9ef34e5ce026e39f38981818fe5c))
+
 ### [1.8.5](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.4...v1.8.5) (2022-02-17)
 
 
