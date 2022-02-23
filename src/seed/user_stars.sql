@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T08:44:52.342Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T10:44:30.473Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3395,9 +3395,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3349, 80793630, 285504186, 'didicodes/javascript-dev-bookmarks', 6, 'A collection of articles that will help you get better at JavaScript.', 1, 358, ['didicodes','emmanuellar'], '2022-01-21T02:53:52.235133'),
 (3350, 42211, 71995937, 'nuxt/nuxt.js', 9, 'The Intuitive Vue(2) Framework', 486, 39218, ['pi0','Atinux'], '2022-01-21T02:53:52.940766'),
 (3351, 80793630, 113125572, 'hnasr/javascript-by-example', 7, 'Javascript by Example Series', 2, 7, ['hnasr'], '2022-01-21T02:53:53.440486'),
+(3352, 26586086, 350770929, 'academind/react-complete-guide-code', 9, 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', 51, 2341, ['maxschwarzmueller'], '2022-01-21T02:53:53.583357'),
 (3353, 42211, 112150776, '11ty/eleventy', 10, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 445, 11189, ['zachleat','MadeByMike'], '2022-01-21T02:53:54.493639'),
 (3354, 80793630, 357309038, 'interledger/rafiki', 8, 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', 35, 77, ['wilsonianb','cairin'], '2022-01-21T02:53:54.978092'),
-(3352, 26586086, 350770929, 'academind/react-complete-guide-code', 9, 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', 51, 2341, ['maxschwarzmueller'], '2022-01-21T02:53:53.583357'),
 (3355, 26586086, 198390410, 'maitraysuthar/rest-api-nodejs-mongodb', 10, 'A boilerplate for REST API Development with  Node.js, Express, and MongoDB', 21, 863, ['maitraysuthar','GitAds'], '2022-01-21T02:53:55.064954'),
 (3356, 80793630, 152766602, 'ssaleem/Front-End-Practice', 9, 'Front-end playground; my solutions to Pramp, FCC, and Fullstack Academy challenges and projects', 0, 14, ['ssaleem'], '2022-01-21T02:53:56.450874'),
 (3357, 39362365, 2126244, 'twbs/bootstrap', 12, 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', 477, 154998, ['mdo','cvrebert'], '2022-01-21T02:53:56.457225'),
@@ -4594,7 +4594,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4513, 46828701, 7548246, 'a11yproject/a11yproject.com', 7, 'The A11Y Project is a community-driven effort to make digital accessibility easier.', 47, 3453, ['ericwbailey','davatron5000'], '2022-01-21T04:11:15.471415'),
 (4514, 13490604, 36021747, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 22, 4090, ['pdubroy','alexwarth'], '2022-01-21T04:11:15.558682'),
 (4515, 38725511, 246241699, 'alexgurr/react-coding-challenges', 10, 'A series of ReactJS coding challenges with a variety of difficulties. ', 3, 1697, ['alexgurr','evans'], '2022-01-21T04:11:16.33968'),
-(4516, 667716, 236226196, 'springload/react-accessible-headings', 9, 'Makes it easier to keep heading levels semantic and accessible (WCAG)', 0, 21, ['holloway','twhitbeck'], '2022-01-21T04:11:16.710939'),
 (4517, 46828701, 315005960, 'KittyGiraudel/react-a11y-footnotes', 8, 'A reusable React implementation of accessible footnotes.', 1, 19, ['KittyGiraudel'], '2022-01-21T04:11:17.044925'),
 (4518, 13490604, 175219507, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 0, 129, ['chimay'], '2022-01-21T04:11:17.078045'),
 (4519, 46828701, 172562475, 'florinpop17/app-ideas', 9, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T04:11:17.57405'),
@@ -4809,6 +4808,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4729, 28281924, 74175805, 'istio/istio', 9, 'Connect, secure, control, and observe services.', 629, 29303, ['howardjohn','istio-testing'], '2022-01-21T04:35:54.090491'),
 (4730, 15052690, 70487339, 'ang3lkar/pretty-diffs', 6, 'Enable fancy colored diffs in your minitest assertions', 0, 31, ['ang3lkar'], '2022-01-21T04:35:54.180899'),
 (4731, 3777549, 18609427, 'tc39/ecma262', 10, 'Status, process, and documents for ECMA-262', 351, 12878, ['jmdyck','anba'], '2022-01-21T04:35:54.303937'),
+(4516, 667716, 236226196, 'springload/react-accessible-headings', 9, 'Makes it easier to keep heading levels semantic and accessible (WCAG)', 0, 21, ['holloway','twhitbeck'], '2022-01-21T04:11:16.710939'),
 (4732, 25194960, 88243408, 'powerman/wcwidth-icons', 12, 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', 0, 33, ['powerman'], '2022-01-21T04:35:54.753528'),
 (4733, 15052690, 12029945, 'uhop/stream-json', 7, 'The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory footprint. It can parse JSON files far exceeding available memory streaming individual primitives using a SAX-inspired API.', 3, 588, ['uhop','delta62'], '2022-01-21T04:35:55.391866'),
 (4734, 3777549, 85669707, 'pluwen/awesome-iconjar', 11, '44 Collect free icon sets for iconjar. 收集免费的图标包，iconjar 格式（44套）。', 0, 209, ['pluwen'], '2022-01-21T04:35:55.473933'),
@@ -11141,8 +11141,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11131, 9696352, 104307778, 'halturin/ergo', 22, 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', 8, 1272, ['halturin','Zert'], '2022-01-22T13:16:18.21128'),
 (11132, 1033332, 283003335, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio'], '2022-01-22T13:16:18.249678'),
 (11133, 1368727, 205765900, 'ebkalderon/tower-lsp', 21, 'Language Server Protocol implementation written in Rust', 20, 172, ['ebkalderon','icsaszar'], '2022-01-22T13:16:18.622173'),
-(11135, 12292047, 120012609, 'xi/babelacc', 23, 'compare different implementations of the text alternative computation', 0, 3, ['xi'], '2022-01-22T13:16:19.081829'),
 (11134, 61131314, 308578276, 'KalleHallden/workflow_automation', 18, null, 1, 108, ['scaldings','KalleHallden'], '2022-01-22T13:16:18.887892'),
+(11135, 12292047, 120012609, 'xi/babelacc', 23, 'compare different implementations of the text alternative computation', 0, 3, ['xi'], '2022-01-22T13:16:19.081829'),
 (11136, 9696352, 111935215, 'oaijs/ajv-oai', 23, 'OpenAPI''s JsonSchema validator.', 3, 12, ['amazing-gao','javi11'], '2022-01-22T13:16:19.40218'),
 (11137, 1033332, 297045708, 'FormidableLabs/use-editable', 24, 'A small React hook to turn elements into fully renderable & editable content surfaces, like code editors, using contenteditable (and magic)', 5, 350, ['kitten','DmytroLitvinov'], '2022-01-22T13:16:19.669268'),
 (11138, 1368727, 307916666, 'heyheyhello/esbuild-macros', 22, 'Porting the ideas of babel-plugin-macro over to esbuild', 0, 2, ['heyheyhello'], '2022-01-22T13:16:20.15034'),
