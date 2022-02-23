@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T04:47:41.404Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T06:47:16.211Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3324,8 +3324,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3278, 66239105, 320489195, 'chait04/reactjs-interview-questions', 18, 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', 0, 5, ['sudheerj','sakhidamaulik'], '2022-01-21T02:46:07.632919'),
 (3279, 49831545, 375445655, 'facebookresearch/AugLy', 25, 'A data augmentations library for audio, image, text, and video.', 12, 4236, ['jbitton','zpapakipos'], '2022-01-21T02:46:07.793919'),
 (3280, 34394719, 138280152, 'GuoQichen/vue-pswipe', 19, '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', 5, 96, ['GuoQichen','chawyehsu'], '2022-01-21T02:46:07.823083'),
-(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3282, 66239105, 286448779, 'kunal-kushwaha/Competitive-Programming-Resources', 19, 'Competitive Programming & System Design Resources.', 1, 1725, ['kunal-kushwaha','gcnit'], '2022-01-21T02:46:08.921555'),
+(3281, 34903088, 271148211, 'ezralazuardy/bookstore', 24, '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', 0, 7, ['ezralazuardy','ImgBotApp'], '2022-01-21T02:46:07.996314'),
 (3283, 49831545, 233472199, 'massgravel/Microsoft-Activation-Scripts', 26, 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', 3, 10027, ['WindowsAddict','mspaintmsi'], '2022-01-21T02:46:09.215975'),
 (3284, 34394719, 264324449, 'kaeducation/LeetCode_JS_Classic', 20, '🖌 Course code for the Classic Edition of JavaScript & LeetCode: The Interview Bootcamp', 1, 23, ['KevinRSDNguyen','alexandander'], '2022-01-21T02:46:09.297423'),
 (3285, 34903088, 375581675, 'ezralazuardy/cats', 25, '😷 Contactless Automatic Thermal Scanner', 0, 3, ['ezralazuardy'], '2022-01-21T02:46:09.483632'),
@@ -3354,9 +3354,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3308, 34394719, 176940773, 'rleija703/react-examples', 27, null, 38, 38, [], '2022-01-21T02:46:32.125614'),
 (3309, 34394719, 60027534, 'Awesome-Windows/Awesome', 28, ':computer: 🎉 An awesome & curated list of best applications and tools for Windows.', 78, 17829, ['rahulkapoor90','alex-lit'], '2022-01-21T02:46:33.617393'),
 (3310, 34394719, 250355030, 'schneefux/vscode-winddown', 29, 'VS Code extension that encourages you to take a break.', 0, 314, ['schneefux'], '2022-01-21T02:46:34.98259'),
-(3311, 39362365, 398914163, 'dabit3/chicken-tikka-masala-recipe', 0, 'Nader''s chicken tikka masala recipe', 7, 188, ['dabit3','maksimovic'], '2022-01-21T02:53:29.687585'),
 (3312, 39362365, 352188463, 'writewithocto/ink', 1, 'The configurable, embeddable, extensible JavaScript Markdown editor that powers https://octo.app.', 1, 43, ['voraciousdev'], '2022-01-21T02:53:31.313877'),
 (3313, 39362365, 281778548, 'writewithocto/octo', 2, 'A lightweight word processor for technical writers', 9, 213, ['voraciousdev','austenmadden'], '2022-01-21T02:53:33.015961'),
+(3311, 39362365, 398914163, 'dabit3/chicken-tikka-masala-recipe', 0, 'Nader''s chicken tikka masala recipe', 7, 188, ['dabit3','maksimovic'], '2022-01-21T02:53:29.687585'),
 (3314, 39362365, 62104779, 'SortableJS/Vue.Draggable', 3, 'Vue drag-and-drop component based on Sortable.js', 176, 16704, ['David-Desmaisons','cgarnier'], '2022-01-21T02:53:34.961958'),
 (3315, 42211, 307489284, 'remix-run/remix', 0, 'Build Better Websites. Create modern, resilient user experiences with web fundamentals.', 602, 11464, ['mjackson','ryanflorence'], '2022-01-21T02:53:34.988865'),
 (3316, 39362365, 73918606, 'tapestry-cloud/website', 4, 'Source Tapestry Project for tapestry.cloud', 18, 8, ['carbontwelve','leonstafford'], '2022-01-21T02:53:36.586298'),
@@ -3690,8 +3690,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (3644, 349523, 4887890, 'jwalter/try_git', 6, null, 0, 1, [], '2022-01-21T03:17:37.242516'),
 (3645, 57305940, 22790488, 'iluwatar/java-design-patterns', 2, 'Design patterns implemented in Java', 261, 72699, ['iluwatar','npathai'], '2022-01-21T03:17:37.665426'),
 (3646, 237133, 331884475, 'philips-software/spdx-action', 3, 'GitHub Action to get a license overview in SPDX format', 1, 11, ['JeroenKnoops','npalm'], '2022-01-21T03:17:38.130297'),
-(3647, 349523, 4867238, 'rmzi/cyoa', 7, 'Coob Your Own Adventure -- An ARMMORPG', 0, 4, ['rmzi'], '2022-01-21T03:17:38.559544'),
 (3648, 75340837, 44882201, 'MunGell/awesome-for-beginners', 5, 'A list of awesome beginners-friendly projects.', 56, 38036, ['MunGell','JefMari'], '2022-01-21T03:17:38.686804'),
+(3647, 349523, 4867238, 'rmzi/cyoa', 7, 'Coob Your Own Adventure -- An ARMMORPG', 0, 4, ['rmzi'], '2022-01-21T03:17:38.559544'),
 (3649, 57305940, 393262482, 'YearOne-Prep/YearOne-prep-challenges', 3, 'A YearOne interview prep open-source project. Provide an interview prep resource by opening a pull request!', 5, 9, ['KGmajor','rafawelsh'], '2022-01-21T03:17:38.981576'),
 (3650, 237133, 390458643, 'thalleslmF/actions-license', 4, null, 3, 2, ['thalleslmF','thallesfreitaszup'], '2022-01-21T03:17:39.419216'),
 (3651, 349523, 3779263, 'jwalter/lets_play_tdd', 8, 'Let''s Play: Test-Driven Development', 0, 1, ['jamesshore','luontola'], '2022-01-21T03:17:39.82168'),
@@ -4554,8 +4554,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4878, 211851, 161588836, 'microsoft/PowerPlatformConnectors', 16, 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', 75, 390, ['sriyen-msft','mamurshe'], '2022-01-21T04:47:49.644548'),
 (4879, 3941126, 132750724, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 208, 127970, ['danistefanovic','bauripalash'], '2022-01-21T04:47:49.93093'),
 (4476, 13490604, 357272600, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5239, ['ts-thomas','kodie'], '2022-01-21T04:11:00.860375'),
-(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4478, 667716, 101814136, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 59, 901, ['theKashey','ai'], '2022-01-21T04:11:02.287643'),
+(4477, 13490604, 44882201, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 56, 38037, ['MunGell','JefMari'], '2022-01-21T04:11:01.826183'),
 (4479, 38725511, 399619886, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic'], '2022-01-21T04:11:02.390265'),
 (4480, 4838867, 42191943, 'cyrus-and/gdb-dashboard', 0, 'Modular visual interface for GDB in Python', 10, 7945, ['cyrus-and','alfunx'], '2022-01-21T04:11:03.273317'),
 (4481, 46828701, 269174002, 'counterpoint-studio/artgift', 0, 'An open source web application for booking and managing Art Gifts', 0, 5, ['teropa','samueldiggins'], '2022-01-21T04:11:03.383822'),
@@ -6654,8 +6654,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6619, 289882, 2558910, 'gwincr11/Better-than-Cheddar', 19, null, 0, 1, ['gwincr11'], '2022-01-22T03:57:48.487095'),
 (6620, 2609511, 66050533, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6727, ['soamvasani','life1347'], '2022-01-22T03:57:48.690466'),
 (6621, 11858762, 48808013, 'rangle/angular2-redux-example', 17, 'Angular 2 Redux Example', 4, 231, ['SethDavenport','greenkeeperio-bot'], '2022-01-22T03:57:48.918742'),
-(6622, 71297412, 112150776, '11ty/eleventy', 20, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 444, 11198, ['zachleat','MadeByMike'], '2022-01-22T03:57:48.967642'),
 (6623, 46695719, 22119721, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38245, ['RichardLitt','simaki'], '2022-01-22T03:57:48.985725'),
+(6622, 71297412, 112150776, '11ty/eleventy', 20, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 444, 11198, ['zachleat','MadeByMike'], '2022-01-22T03:57:48.967642'),
 (6624, 20727421, 931135, 'Leaflet/Leaflet', 21, ' :leaves: JavaScript library for mobile-friendly interactive maps', 539, 32780, ['mourner','IvanSanchez'], '2022-01-22T03:57:48.993334'),
 (6625, 27487712, 81021705, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st'], '2022-01-22T03:57:49.002157'),
 (6626, 35779241, 324322539, 'Jijun/fastapi-cprofile', 9, 'A FastAPI Middleware with cProfile to help stats your service performance', 0, 13, ['Jijun'], '2022-01-22T03:57:49.073876'),
@@ -6728,8 +6728,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (6663, 9968219, 576201, 'mrdoob/three.js', 10, 'JavaScript 3D Library.', 466, 77970, ['mrdoob','Mugen87'], '2022-01-22T03:57:51.508699'),
 (6664, 20727421, 172773684, 'wesbos/eslint-config-wesbos', 23, 'No-Sweat™ Eslint and Prettier Setup - with or without VS Code', 2, 2330, ['wesbos','Asjas'], '2022-01-22T03:57:51.61259'),
 (6665, 1255918, 1062897, 'github/gitignore', 20, 'A collection of useful .gitignore templates', 210, 128617, ['shiftkey','arcresu'], '2022-01-22T03:57:51.616554'),
-(6666, 27487712, 83875228, 'AndsonYe/MultipartEncoder', 10, 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', 2, 44, ['AndsonYe'], '2022-01-22T03:57:51.645474'),
 (6667, 4386534, 385400671, 'dabit3/supabase-nextjs-auth', 12, 'Example project implementing authentication, authorization, and routing with Next.js and Supabase', 1, 89, ['dabit3'], '2022-01-22T03:57:51.799307'),
+(6666, 27487712, 83875228, 'AndsonYe/MultipartEncoder', 10, 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', 2, 44, ['AndsonYe'], '2022-01-22T03:57:51.645474'),
 (6668, 1917293, 104443108, 'ukncsc/secure-development-and-deployment', 22, 'NCSC Guidance for secure development and deployment', 4, 387, ['toby-ncsc','HowWeRollingham'], '2022-01-22T03:57:51.837513'),
 (6669, 289882, 16072585, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 29, 17557, ['chrismccord','josevalim'], '2022-01-22T03:59:54.452965'),
 (6670, 26007940, 325571244, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user'], '2022-01-22T03:59:55.144563'),
