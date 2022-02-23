@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS public.users
     open_issues bigint NOT NULL DEFAULT 0,
     private boolean NOT NULL DEFAULT false,
     stars_data boolean NOT NULL DEFAULT false,
-    login text COLLATE pg_catalog."default" NOT NULL,
+    login text COLLATE pg_catalog."default",
     created_at timestamp with time zone DEFAULT now(),
     CONSTRAINT users_pkey PRIMARY KEY (id),
     CONSTRAINT users_login_key UNIQUE (login)
