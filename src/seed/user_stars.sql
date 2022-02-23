@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T22:44:15.859Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:04:08.167Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5486,8 +5486,8 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5477, 1033332, 348038429, 'PrathamKumar14/CSS-Layout-Notes', 7, 'HTML, CSS and JavaScript handwritten cheat sheets you💖', 2, 335, ['PrathamKumar14'], '2022-01-21T05:36:45.893724'),
 (5478, 40713709, 42409958, 'inloop/sqlite-viewer', 12, 'View SQLite file online', 16, 507, ['yuraj11','kyle-seongwoo-jun'], '2022-01-21T05:36:46.089219'),
 (5479, 1368727, 43830564, 'auchenberg/volkswagen', 11, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12214, ['watson','auchenberg'], '2022-01-21T05:36:46.180834'),
-(5481, 1033332, 311734871, '10up/wp-scaffold', 8, '10up WordPress project scaffold.', 35, 60, ['tlovett1','fabiankaegy'], '2022-01-21T05:36:47.378753'),
 (5480, 9696352, 399087415, 'ged-odoo/blockdom', 11, 'A fast virtual dom library', 7, 176, ['ged-odoo','HamedFathi'], '2022-01-21T05:36:47.113448'),
+(5481, 1033332, 311734871, '10up/wp-scaffold', 8, '10up WordPress project scaffold.', 35, 60, ['tlovett1','fabiankaegy'], '2022-01-21T05:36:47.378753'),
 (5482, 40713709, 357782342, 'sk1122/Kanban-Board', 13, 'Kanban Board - You can create Boards, Manage you Day', 0, 1, ['sk1122'], '2022-01-21T05:36:47.557112'),
 (5483, 1368727, 257631498, 'onelittlenightmusic/graphql-mesh-docker', 12, 'Dockerfile / docker-compose / Kubernetes manifest / Helm chart for GraphQL Mesh', 1, 31, ['onelittlenightmusic','raveinid'], '2022-01-21T05:36:47.631263'),
 (5484, 9696352, 95331263, 'samccone/bundle-buddy', 12, 'A tool to understand your bundle size and why files are in your bundle', 22, 2869, ['samccone','susielu'], '2022-01-21T05:36:48.529167'),
