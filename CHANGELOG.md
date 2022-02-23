@@ -5,6 +5,14 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.9.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.1...v1.9.2) (2022-02-23)
+
+
+### 🐛 Bug Fixes
+
+* correct local seeding mechanism ([af4f447](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/af4f4477722b2a41238066cdecb87101bee4564c))
+* correct user login null condition ([e369d9e](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/e369d9eca06018752ebf123bdd30c87343099880))
+
 ### [1.9.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.0...v1.9.1) (2022-02-23)
 
 
