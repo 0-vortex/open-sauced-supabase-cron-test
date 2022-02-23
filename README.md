@@ -25,7 +25,11 @@
 
 ## 📖 Prerequisites
 
-In order to run the project from a container we need `node>=16`, `npm>=8` and `docker>=20` installed on our development machines.
+In order to run the project we need the following software binaries installed on our development machines: 
+- `node>=16.7.0`
+- `npm>=8.0.0`
+- `docker>=20.10.12`
+- `supabase>=0.18.0`
 
 # 🔑 Database commands
 
