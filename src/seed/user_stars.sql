@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T10:44:30.473Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T12:51:10.585Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4594,6 +4594,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4513, 46828701, 7548246, 'a11yproject/a11yproject.com', 7, 'The A11Y Project is a community-driven effort to make digital accessibility easier.', 47, 3453, ['ericwbailey','davatron5000'], '2022-01-21T04:11:15.471415'),
 (4514, 13490604, 36021747, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 22, 4090, ['pdubroy','alexwarth'], '2022-01-21T04:11:15.558682'),
 (4515, 38725511, 246241699, 'alexgurr/react-coding-challenges', 10, 'A series of ReactJS coding challenges with a variety of difficulties. ', 3, 1697, ['alexgurr','evans'], '2022-01-21T04:11:16.33968'),
+(4516, 667716, 236226196, 'springload/react-accessible-headings', 9, 'Makes it easier to keep heading levels semantic and accessible (WCAG)', 0, 21, ['holloway','twhitbeck'], '2022-01-21T04:11:16.710939'),
 (4517, 46828701, 315005960, 'KittyGiraudel/react-a11y-footnotes', 8, 'A reusable React implementation of accessible footnotes.', 1, 19, ['KittyGiraudel'], '2022-01-21T04:11:17.044925'),
 (4518, 13490604, 175219507, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 0, 129, ['chimay'], '2022-01-21T04:11:17.078045'),
 (4519, 46828701, 172562475, 'florinpop17/app-ideas', 9, 'A Collection of application ideas which can be used to improve your coding skills.', 283, 47399, ['florinpop17','jdmedlock'], '2022-01-21T04:11:17.57405'),
@@ -4808,7 +4809,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (4729, 28281924, 74175805, 'istio/istio', 9, 'Connect, secure, control, and observe services.', 629, 29303, ['howardjohn','istio-testing'], '2022-01-21T04:35:54.090491'),
 (4730, 15052690, 70487339, 'ang3lkar/pretty-diffs', 6, 'Enable fancy colored diffs in your minitest assertions', 0, 31, ['ang3lkar'], '2022-01-21T04:35:54.180899'),
 (4731, 3777549, 18609427, 'tc39/ecma262', 10, 'Status, process, and documents for ECMA-262', 351, 12878, ['jmdyck','anba'], '2022-01-21T04:35:54.303937'),
-(4516, 667716, 236226196, 'springload/react-accessible-headings', 9, 'Makes it easier to keep heading levels semantic and accessible (WCAG)', 0, 21, ['holloway','twhitbeck'], '2022-01-21T04:11:16.710939'),
 (4732, 25194960, 88243408, 'powerman/wcwidth-icons', 12, 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', 0, 33, ['powerman'], '2022-01-21T04:35:54.753528'),
 (4733, 15052690, 12029945, 'uhop/stream-json', 7, 'The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory footprint. It can parse JSON files far exceeding available memory streaming individual primitives using a SAX-inspired API.', 3, 588, ['uhop','delta62'], '2022-01-21T04:35:55.391866'),
 (4734, 3777549, 85669707, 'pluwen/awesome-iconjar', 11, '44 Collect free icon sets for iconjar. 收集免费的图标包，iconjar 格式（44套）。', 0, 209, ['pluwen'], '2022-01-21T04:35:55.473933'),
