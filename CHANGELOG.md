@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.9.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.0...v1.9.1) (2022-02-23)
+
+
+### 🤖 Build System
+
+* update supabase studio development version ([a9a8c98](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/a9a8c98c7a04575b74ee987b0900d6d872d19fa5))
+
 ## [1.9.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.8.7...v1.9.0) (2022-02-23)
 
 
