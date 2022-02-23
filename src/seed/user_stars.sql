@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:04:08.167Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:49:08.154Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5150,9 +5150,9 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (5141, 71386305, 14440270, 'getify/You-Dont-Know-JS', 6, 'A book series on JavaScript. @YDKJS on twitter.', 131, 148577, ['getify','machineloop'], '2022-01-21T05:13:03.059545'),
 (5142, 3754311, 420110494, 'louelladev/Helpful-Tech-Resources', 7, 'A collection of helpful and educational resources I found on social media', 0, 144, ['louelladev'], '2022-01-21T05:13:04.035978'),
 (5143, 22655167, 299482335, 'withfig/autocomplete', 8, 'Fig adds autocomplete to your terminal.', 109, 8888, ['cstrnt','mschrage'], '2022-01-21T05:13:04.205687'),
-(5144, 71386305, 107111421, 'thedaviddias/Front-End-Checklist', 7, '🗂 The perfect Front-End Checklist for modern websites and meticulous developers', 9, 57803, ['thedaviddias','jochenkirstaetter'], '2022-01-21T05:13:05.157061'),
 (5145, 3754311, 197915964, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 43, ['albertopoljak','HuyaneMatsu'], '2022-01-21T05:13:05.660733'),
 (5146, 22655167, 310456670, 'BuilderIO/mitosis', 9, 'Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more. ', 21, 3926, ['steve8708','Dkendal'], '2022-01-21T05:13:05.825887'),
+(5144, 71386305, 107111421, 'thedaviddias/Front-End-Checklist', 7, '🗂 The perfect Front-End Checklist for modern websites and meticulous developers', 9, 57803, ['thedaviddias','jochenkirstaetter'], '2022-01-21T05:13:05.157061'),
 (5147, 71386305, 365479906, 'Ajaykumarrachuri/starter', 8, null, 0, 2, ['Ajaykumarrachuri'], '2022-01-21T05:13:06.671915'),
 (5148, 3754311, 405353162, 'james-a-rob/mega-feed', 9, 'Aggregates events across digital tools.', 0, 4, ['james-a-rob'], '2022-01-21T05:13:07.150747'),
 (5149, 71386305, 227475713, 'antoine92190/vue-advanced-chat', 9, 'A beautiful chat rooms component made with Vue.js - compatible with Vue 2, Vue 3, React & Angular', 5, 723, ['antoine92190','LouisMazel'], '2022-01-21T05:13:08.107271'),
