@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T18:46:20.078Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T20:44:20.991Z
 -- COPY user_stars(id, user_id, star_id, repo_name, recency_score, description, issues, stars, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -11428,7 +11428,6 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11387, 622115, 23324450, 'biylda/WhereYouGo', 14, 'android app for Wherigo', 15, 25, ['biylda','Lineflyer'], '2022-01-22T13:32:01.554598'),
 (11388, 2658040, 172915698, 'BaseMax/WebSinatra', 18, 'The Sample web project using ruby sinatra.', 0, 12, ['BaseMax'], '2022-01-22T13:32:01.613382'),
 (11389, 2237343, 241303926, 'mikenye/docker-readsb', 17, 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', 0, 73, ['mikenye','SalazarBruno'], '2022-01-22T13:32:02.015021'),
-(11390, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20567, ['chenglou','nkbt'], '2022-01-22T13:32:02.443484'),
 (11391, 67872399, 148316989, 'WazirX/wazirx-api', 19, 'Wazirx API documentation', 29, 190, ['BuddhaSource','dibyajitgoswamidg'], '2022-01-22T13:32:02.681639'),
 (11392, 67872399, 112507086, '30-seconds/30-seconds-of-code', 20, 'Short JavaScript code snippets for all your development needs', 6, 91335, ['Chalarangelo','30secondsofcode'], '2022-01-22T13:32:03.221106'),
 (11393, 2658040, 174172286, 'BaseMax/MongoCSample', 19, 'Sample code for connecting to the MongoDB.', 0, 13, ['BaseMax'], '2022-01-22T13:32:03.2496'),
@@ -11443,6 +11442,7 @@ INSERT INTO user_stars(id, user_id, star_id, repo_name, recency_score, descripti
 (11421, 2658040, 181125170, 'BaseMax/FlaskSample', 25, 'A sample project based on python and flask.', 0, 1, ['BaseMax'], '2022-01-22T13:32:10.582468'),
 (11422, 67872399, 361446965, 'An-prog-hub/covidstar', 26, null, 0, 3, ['An-prog-hub','javascript-spec'], '2022-01-22T13:32:10.855073'),
 (11423, 622115, 512295, 'grails/grails-core', 20, 'The Grails Web Application Framework', 227, 2641, ['graemerocher','jeffbrown'], '2022-01-22T13:32:11.081431'),
+(11390, 33148009, 37246537, 'chenglou/react-motion', 20, 'A spring that solves your animation problems.', 187, 20567, ['chenglou','nkbt'], '2022-01-22T13:32:02.443484'),
 (11424, 2237343, 265610202, 'Millefeuille42/covidTerm', 24, 'A Covid Terminal Application', 0, 4, ['Millefeuille42','deepsourcebot'], '2022-01-22T13:32:11.174254'),
 (11425, 33148009, 161979323, 'Remix-Design/RemixIcon', 27, 'Open source neutral style icon system', 214, 4055, ['xiaochunjimmy','wendygaoyuan'], '2022-01-22T13:32:11.455891'),
 (11426, 2658040, 178029799, 'BaseMax/TinyShell', 26, 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', 0, 9, ['BaseMax'], '2022-01-22T13:32:11.583907'),
