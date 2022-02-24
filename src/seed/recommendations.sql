@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T14:44:23.551Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T16:50:43.150Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3135,6 +3135,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (346534675, 23, 0, 1, 0, 29, 'bitprj/Intro-To-Serverless', 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', ARRAY['emsesc', 'ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (347154449, 1, 1, 1, 0, 28, 'CodingMoore/soil-ent-green-react-v2', null, ARRAY['CodingMoore'], '2022-02-23T23:35:41.043146+00:00'),
 (347225766, 25, 0, 1, 0, 6, 'atymic/mylot-article-scraper', 'Scrapes historical mylot articles to PDF 🤖', ARRAY['atymic', 'abhinav4848'], '2022-02-23T23:35:41.043146+00:00'),
+(344546342, 14, 1, 2, 0, 14.5, 'hunterbecton/react-firebase-passwordless', null, ARRAY['hunterbecton'], '2022-02-23T23:35:41.043146+00:00'),
 (347502287, 3656, 6, 1, 0, 19, 'kingoflolz/mesh-transformer-jax', 'Model parallel transformers in JAX and Haiku', ARRAY['kingoflolz', 'nostalgebraist'], '2022-02-23T23:35:41.043146+00:00'),
 (347604812, 7, 0, 2, 0, 0, 'ramazansakin/ghclogger', 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', ARRAY['ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
 (347707512, 8, 0, 1, 0, 18, 'Sharan-Babu/GPT3-LinkedIn-Helper', 'Generate headlines and descriptions for your LinkedIn profile with the help of GPT-3! ', ARRAY['Sharan-Babu'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3371,7 +3372,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381092723, 36, 0, 1, 0, 5, 'yousefvand/secret-service', 'Service to keep secrets of applications', ARRAY['yousefvand', 'juergenhoetzel'], '2022-02-23T23:35:41.043146+00:00'),
 (381240280, 5, 2, 1, 0, 21, 'Dhaiwat10/react-agora', 'Plug-and-play React wrapper for AgoraRTC.', ARRAY['Dhaiwat10', 'Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381428539, 11, 0, 1, 0, 18, 'satyawikananda/elucidator-blog-starter', 'Opinionated Vue 3 + Vite + Typescript blog starter ⚔', ARRAY['satyawikananda', 'ifirmawan'], '2022-02-23T23:35:41.043146+00:00'),
-(344546342, 14, 1, 2, 0, 14.5, 'hunterbecton/react-firebase-passwordless', null, ARRAY['hunterbecton'], '2022-02-23T23:35:41.043146+00:00'),
 (381575565, 25, 12, 1, 0, 20, 'tjhorner/archivebox-exporter', 'Automatically or manually send pages from your browser to your ArchiveBox for archival.', ARRAY['tjhorner'], '2022-02-23T23:35:41.043146+00:00'),
 (381629965, 8, 0, 1, 0, 20, 'zuramai/go-microservice-starter', 'Microservice Boilerplate for Golang with gRPC and RESTful API. Multiple database and client supported', ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
 (381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
