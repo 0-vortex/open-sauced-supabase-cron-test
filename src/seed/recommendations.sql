@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:03:44.777Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T02:49:49.893Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2462,8 +2462,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (255471368, 6, 17, 1, 0, 11, 'braydoncoyer/officeapi', 'RESTful API built with NodeJS, Express, MongoDB and Mongoose', ARRAY['braydoncoyer'], '2022-02-23T23:35:41.043146+00:00'),
 (255480054, 3, 0, 1, 0, 3, 'jon-walton/linkerd2-gitops-example', null, ARRAY['jon-walton'], '2022-02-23T23:35:41.043146+00:00'),
 (255501302, 68, 8, 1, 0, 2, 'evilarceus/sp-playcount-librespot', 'Modification of librespot-java to provide play count info from Spotify', ARRAY['devgianlu', 'evilarceus'], '2022-02-23T23:35:41.043146+00:00'),
-(255535907, 4436, 56, 2, 0, 7, 'modulz/stitches', 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', ARRAY['jonathantneal', 'christianalfoni'], '2022-02-23T23:35:41.043146+00:00'),
 (255770685, 20, 11, 1, 0, 14, 'rdbeach/wb', 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', ARRAY['lovasoa', 'rdbeach'], '2022-02-23T23:35:41.043146+00:00'),
+(255535907, 4436, 56, 2, 0, 7, 'modulz/stitches', 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', ARRAY['jonathantneal', 'christianalfoni'], '2022-02-23T23:35:41.043146+00:00'),
 (255803302, 286, 16, 1, 0, 13, 'abelljs/abell', 'a Static-Site-Generator for JavaScript Developers. Build fast, vanilla websites in the syntax you almost already know. [In alpha] 🌀', ARRAY['saurabhdaware', 'harshilparmar'], '2022-02-23T23:35:41.043146+00:00'),
 (255919240, 758, 2, 1, 0, 7, 'smv1999/CompetitiveProgrammingQuestionBank', 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', ARRAY['smv1999', 'Saviour1001'], '2022-02-23T23:35:41.043146+00:00'),
 (191529732, 39905, 69, 8, 1, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3253,8 +3253,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (364674634, 6, 5, 2, 0, 2, 'teambit/react-tailwind-env', 'An example of a custom react env with basic support for tailwindcss', ARRAY['GiladShoham', 'guysaar223'], '2022-02-23T23:35:41.043146+00:00'),
 (364915295, 7, 0, 1, 0, 0, 'prismicio/prismic-types', 'Type definitions for Prismic related structure', ARRAY['angeloashmore', 'lihbr'], '2022-02-23T23:35:41.043146+00:00'),
 (365123252, 26, 0, 1, 0, 23, 'KeyValueSoftwareSystems/authentication-service', 'A service to handle authentication and authorisation', ARRAY['nikhiljk-kv', 'johnspaulka'], '2022-02-23T23:35:41.043146+00:00'),
-(365306037, 91, 0, 1, 0, 16, 'sdras/recipe-box', null, ARRAY['sdras'], '2022-02-23T23:35:41.043146+00:00'),
 (365257282, 1, 0, 1, 0, 10, 'sk1122/Bayze-Kanban', 'Bayze - Manage your tasks like a Pro. Create Boards, Sort Tasks, Invite Team Members ', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
+(365306037, 91, 0, 1, 0, 16, 'sdras/recipe-box', null, ARRAY['sdras'], '2022-02-23T23:35:41.043146+00:00'),
 (365339453, 72, 0, 1, 0, 12, 'edoardottt/lit-bb-hack-tools', 'Little Bug Bounty & Hacking Tools⚔️', ARRAY['edoardottt'], '2022-02-23T23:35:41.043146+00:00'),
 (365437792, 259, 17, 1, 0, 12, 'avinassh/fast-sqlite3-inserts', 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', ARRAY['avinassh', 'captn3m0'], '2022-02-23T23:35:41.043146+00:00'),
 (365466475, 3, 0, 1, 0, 1, 'DenisMirand4/Bot_Albion_Labour', null, ARRAY['DenisMirand4'], '2022-02-23T23:35:41.043146+00:00'),
