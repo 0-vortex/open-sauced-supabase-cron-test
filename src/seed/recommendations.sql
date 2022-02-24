@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T18:46:37.676Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T20:44:18.749Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1857,11 +1857,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (169250119, 1855, 72, 1, 0, 22, 'evilmartians/lefthook', 'Fast and powerful Git hooks manager for any type of projects.', ARRAY['Envek', 'skryukov'], '2022-02-23T23:35:41.043146+00:00'),
 (169371413, 8282, 4, 2, 0, 5, 'MoienTajik/AspNetCore-Developer-Roadmap', 'Roadmap to becoming an ASP.NET Core developer in 2021', ARRAY['MoienTajik', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (169529444, 9, 0, 1, 0, 24, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-23T23:35:41.043146+00:00'),
-(169556401, 1402, 32, 1, 0, 3, 'radzenhq/radzen-blazor', 'The home of the Radzen Blazor components.', ARRAY['enchev', 'akorchev'], '2022-02-23T23:35:41.043146+00:00'),
 (169604606, 2012, 12, 1, 0, 28, 'MayaPosch/NymphCast', 'Audio and video casting system with support for custom applications.', ARRAY['MayaPosch', 'PureTryOut'], '2022-02-23T23:35:41.043146+00:00'),
 (169677297, 26331, 647, 2, 0, 3, 'vlang/v', 'Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. https://vlang.io', ARRAY['medvednikov', 'spytheman'], '2022-02-23T23:35:41.043146+00:00'),
 (170029630, 156, 8, 1, 0, 17, 'ben182/laravel-auto-translate', 'Automatically translate your language files using a translator service', ARRAY['ben182', 'aerjotl'], '2022-02-23T23:35:41.043146+00:00'),
 (170041458, 268, 19, 1, 0, 18, 'skovy/typed-scss-modules', '🎁 Generate type definitions (.d.ts) for CSS Modules using SCSS', ARRAY['skovy', 'lkarmelo'], '2022-02-23T23:35:41.043146+00:00'),
+(169556401, 1402, 32, 1, 0, 3, 'radzenhq/radzen-blazor', 'The home of the Radzen Blazor components.', ARRAY['enchev', 'akorchev'], '2022-02-23T23:35:41.043146+00:00'),
 (170392546, 135, 0, 1, 0, 12, 'tailwindtoolbox/Ghostwind', 'Tailwind CSS Starter Template - Ghostwind (Ghost Casper theme in Tailwind CSS)', ARRAY['tailwindtoolbox', 'diomed'], '2022-02-23T23:35:41.043146+00:00'),
 (170444343, 1065, 8, 1, 0, 0, 'DevonCrawford/Video-Editing-Automation', 'Toolkit of algorithms to automate the video editing process', ARRAY['DevonCrawford'], '2022-02-23T23:35:41.043146+00:00'),
 (170738310, 1217, 14, 1, 0, 5, 'trustwallet/wallet-core', 'Cross-platform, cross-blockchain wallet library.', ARRAY['hewigovens', 'alejandro-isaza'], '2022-02-23T23:35:41.043146+00:00'),
