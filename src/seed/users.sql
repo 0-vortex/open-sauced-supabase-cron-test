@@ -1,26 +1,12 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T23:38:36.066Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:03:44.484Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUES
 (12292047, 4, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (42392347, 8, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(3941856, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(31227151, 2, true, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(656318, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (61131314, 2, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(16268467, 0, true, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(24606613, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(7860023, 2, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(24553355, 2, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(10951893, 2, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(50591491, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(23166349, 4, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(1645545, 4, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(2480219, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(7293310, 5, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
-(4066445, 13, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (20734038, 25, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (43814157, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (11067335, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
@@ -140,6 +126,16 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (35429278, 3, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (71386305, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (16259450, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
+(24606613, 0, false, true, 'udhaykumarbala', '2022-02-23T23:37:08.741086+00:00'),
+(656318, 0, false, true, 'ramonh', '2022-02-23T23:37:08.741086+00:00'),
+(7860023, 2, false, true, 'anis00723', '2022-02-23T23:37:08.741086+00:00'),
+(16268467, 0, true, true, 'Wisheechia', '2022-02-23T23:37:08.741086+00:00'),
+(24553355, 2, false, true, 'vtcaregorodtcev', '2022-02-23T23:37:08.741086+00:00'),
+(10951893, 2, false, true, 'jramirez857', '2022-02-23T23:37:08.741086+00:00'),
+(2480219, 0, false, true, 'eriber', '2022-02-23T23:37:08.741086+00:00'),
+(1645545, 4, false, true, 'Parijat-K', '2022-02-23T23:37:08.741086+00:00'),
+(4066445, 13, false, true, 'johnyu0424', '2022-02-23T23:37:08.741086+00:00'),
+(7293310, 6, false, true, 'saitho', '2022-02-23T23:37:08.741086+00:00'),
 (6241164, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (351693, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (15004099, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
@@ -171,4 +167,12 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (5713670, 13, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (6499373, 0, false, true, 'yasir2000', '2022-02-23T23:37:34.69748+00:00'),
 (3662109, 1, false, true, 'djdefi', '2022-02-23T23:37:43.693951+00:00'),
-(74566464, 0, true, true, 'Pandademic', '2022-02-23T23:37:46.275917+00:00');
+(74566464, 0, true, true, 'Pandademic', '2022-02-23T23:37:46.275917+00:00'),
+(31227151, 2, true, true, 'chodges7', '2022-02-23T23:37:08.741086+00:00'),
+(469997, 3, false, true, 'sobingt', '2022-02-23T23:43:59.766768+00:00'),
+(3941856, 0, false, true, 'prophen', '2022-02-23T23:37:08.741086+00:00'),
+(61815862, 2, false, true, 'thebiblelover7', '2022-02-23T23:50:46.64108+00:00'),
+(23166349, 4, false, true, 'ChamMach', '2022-02-23T23:37:08.741086+00:00'),
+(45293863, 0, true, true, 'bagatka', '2022-02-24T00:11:30.050462+00:00'),
+(50591491, 1, false, true, 'cryptus-neoxys', '2022-02-23T23:37:08.741086+00:00'),
+(57008950, 0, false, true, 'prasadbobby', '2022-02-24T00:45:27.629486+00:00');
