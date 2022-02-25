@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T02:49:24.739Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T04:47:49.921Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1560,7 +1560,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (128396076, 2757, 63, 1, 0, 5, 'testing-library/dom-testing-library', '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ARRAY['kentcdodds', 'eps1lon'], '2022-02-23T23:35:41.043146+00:00'),
 (128416969, 2674, 93, 1, 0, 3, 'archlinux/archinstall', 'Arch Linux installer - guided, templates etc.', ARRAY['Torxed', 'dylanmtaylor'], '2022-02-23T23:35:41.043146+00:00'),
 (128468095, 1800, 9, 1, 0, 8, 'llSourcell/Learn_Computer_Science_in_5_Months', 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', ARRAY['llSourcell', 'SaumoPal97'], '2022-02-23T23:35:41.043146+00:00'),
-(128564293, 9422, 14, 1, 0, 19, '30-seconds/30-seconds-of-interviews', 'A curated collection of common interview questions to help you prepare for your next interview.', ARRAY['30secondsofcode', 'fejes713'], '2022-02-23T23:35:41.043146+00:00'),
 (128565937, 21036, 0, 2, 0, 24.5, 'iamadamdev/bypass-paywalls-chrome', 'Bypass Paywalls web browser extension for Chrome and Firefox.', ARRAY['iamadamdev', 'iscreamcoke'], '2022-02-23T23:35:41.043146+00:00'),
 (128604122, 5, 0, 1, 0, 16, 'praditautama/wwwid-pwa-challenge', null, ARRAY['praditautama'], '2022-02-23T23:35:41.043146+00:00'),
 (128778692, 2924, 51, 1, 0, 24, 'testing-library/jest-dom', ':owl: Custom jest matchers to test the state of the DOM', ARRAY['gnapse', 'smacpherson64'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1584,8 +1583,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (131636871, 36, 0, 1, 0, 27, 'graphqlworkshop/student-resources', 'Samples, examples, and helpful links for GraphQL Workshop', ARRAY['eveporcello', 'zieka'], '2022-02-23T23:35:41.043146+00:00'),
 (131741405, 25, 0, 1, 0, 2, 'xero/startpage', 'a custom new tab homepage', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (131770422, 18326, 37, 2, 0, 11, 'neoclide/coc.nvim', 'Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.', ARRAY['chemzqm', 'fannheyward'], '2022-02-23T23:35:41.043146+00:00'),
-(131910983, 217, 10, 1, 0, 4, 'sveltejs/svelte-scroller', 'A <Scroller> component for Svelte apps', ARRAY['Rich-Harris', 'ddnn55'], '2022-02-23T23:35:41.043146+00:00'),
 (132255727, 737, 4, 1, 0, 11, 'ahmadawais/Emoji-Log', 'Emoji-Log — An Emoji Git commit log messages spec standard. [  📦👌🐛📖🚀🤖 ‼️]', ARRAY['ahmadawais', 'tallguyjenks'], '2022-02-23T23:35:41.043146+00:00'),
+(131910983, 217, 10, 1, 0, 4, 'sveltejs/svelte-scroller', 'A <Scroller> component for Svelte apps', ARRAY['Rich-Harris', 'ddnn55'], '2022-02-23T23:35:41.043146+00:00'),
 (132489983, 153, 37, 1, 0, 5, 'arduosoft/RawCMS', 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', ARRAY['zeppaman', 'marcuson'], '2022-02-23T23:35:41.043146+00:00'),
 (132554890, 591, 0, 1, 0, 1, 'michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide', 'An in-depth Guide for getting started with the Windows Subsystem for Linux!', ARRAY['michaeltreat', 'hh-shiung'], '2022-02-23T23:35:41.043146+00:00'),
 (132720941, 55, 5, 1, 0, 8, 'AndrewKishino/sotez', 'A JS Library for Tezos', ARRAY['AndrewKishino', 'CherryDT'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1627,6 +1626,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (138085677, 1, 24, 1, 0, 8, 'CodePartnersMD/MD201-01', null, ARRAY['zdiehlio'], '2022-02-23T23:35:41.043146+00:00'),
 (138280152, 95, 4, 1, 0, 19, 'GuoQichen/vue-pswipe', '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', ARRAY['GuoQichen', 'chawyehsu'], '2022-02-23T23:35:41.043146+00:00'),
 (138313497, 554, 205, 1, 0, 9, 'ChainSafe/lodestar', '🌟 Ethereum 2.0: TypeScript Implementation of the Beacon Chain ', ARRAY['wemeetagain', 'mpetrunic'], '2022-02-23T23:35:41.043146+00:00'),
+(128564293, 9422, 14, 1, 0, 19, '30-seconds/30-seconds-of-interviews', 'A curated collection of common interview questions to help you prepare for your next interview.', ARRAY['30secondsofcode', 'fejes713'], '2022-02-23T23:35:41.043146+00:00'),
 (138393139, 58967, 52, 1, 0, 0, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-23T23:35:41.043146+00:00'),
 (138463948, 325, 0, 1, 0, 5, 'mochow13/competitive-programming-library', 'Templates, algorithms and data structures implemented and collected for programming contests. Check README.md for an overview.', ARRAY['mochow13'], '2022-02-23T23:35:41.043146+00:00'),
 (138547797, 33107, 104, 1, 0, 25, 'FiloSottile/mkcert', 'A simple zero-config tool to make locally trusted development certificates with any names you''d like.', ARRAY['FiloSottile', 'adamdecaf'], '2022-02-23T23:35:41.043146+00:00'),
