@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T14:44:34.098Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T16:50:28.566Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -28,12 +28,12 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (74208843, 0, false, true, 'juanramollino', '2022-02-23T23:37:08.741086+00:00'),
 (289882, 1, false, true, 'gwincr11', '2022-02-23T23:37:08.741086+00:00'),
 (29417643, 0, false, true, 'ASRicketts', '2022-02-23T23:37:08.741086+00:00'),
-(63254295, 11, true, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (12410942, 17, false, true, 'choznerol', '2022-02-23T23:37:08.741086+00:00'),
+(63254295, 11, true, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (1930729, 1, false, true, 'nersoh', '2022-02-23T23:37:08.741086+00:00'),
 (20727421, 0, false, true, 'ryan3738', '2022-02-23T23:37:08.741086+00:00'),
 (72912813, 3, false, true, 'earltacs96', '2022-02-23T23:37:08.741086+00:00'),
-(79887, 0, false, true, 'cybernetics', '2022-02-23T23:37:08.741086+00:00'),
+(71458737, 0, false, true, 'sans-eng', '2022-02-23T23:37:08.741086+00:00'),
 (1917293, 0, false, true, 'ronna', '2022-02-23T23:37:08.741086+00:00'),
 (52336027, 0, false, true, 'mohamedabotir', '2022-02-23T23:37:08.741086+00:00'),
 (11858762, 12, false, true, 'git-srinivas', '2022-02-23T23:37:08.741086+00:00'),
@@ -42,11 +42,11 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (83433840, 1, false, true, 'abirismyname', '2022-02-23T23:37:08.741086+00:00'),
 (20134767, 0, false, true, 'notBdougie', '2022-02-23T23:37:08.741086+00:00'),
 (46695719, 0, false, true, 'Mich45', '2022-02-23T23:37:08.741086+00:00'),
-(45036724, 0, false, true, 'zuramai', '2022-02-23T23:37:08.741086+00:00'),
 (59651629, 0, false, true, 'codertushar', '2022-02-23T23:37:08.741086+00:00'),
-(3202514, 0, false, true, 'demilolu', '2022-02-23T23:37:08.741086+00:00'),
 (1305623, 0, false, true, 'phucthaidoan', '2022-02-23T23:37:08.741086+00:00'),
+(45036724, 0, false, true, 'zuramai', '2022-02-23T23:37:08.741086+00:00'),
 (35779241, 0, false, true, 'rgreen32', '2022-02-23T23:37:08.741086+00:00'),
+(3202514, 0, false, true, 'demilolu', '2022-02-23T23:37:08.741086+00:00'),
 (67718832, 0, false, true, 'matt-wiley', '2022-02-23T23:37:08.741086+00:00'),
 (55982424, 1, false, true, 'mukeshgurpude', '2022-02-23T23:37:08.741086+00:00'),
 (29004466, 0, false, true, 'davidackroyd99', '2022-02-23T23:37:08.741086+00:00'),
@@ -112,7 +112,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (24606613, 0, false, true, 'udhaykumarbala', '2022-02-23T23:37:08.741086+00:00'),
 (42392347, 8, false, true, 'ColomboJuan', '2022-02-23T23:37:08.741086+00:00'),
 (656318, 0, false, true, 'ramonh', '2022-02-23T23:37:08.741086+00:00'),
-(71458737, 0, false, true, 'sans-eng', '2022-02-23T23:37:08.741086+00:00'),
+(79887, 0, false, true, 'cybernetics', '2022-02-23T23:37:08.741086+00:00'),
 (351693, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (43081882, 1, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (1368727, 4, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
@@ -130,8 +130,8 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (11589902, 0, false, true, 'pac96', '2022-02-24T01:45:17.011728+00:00'),
 (24910512, 0, false, true, 'CyberFlameGO', '2022-02-24T01:46:11.298244+00:00'),
 (88631894, 0, false, true, 'Aarondevp', '2022-02-23T23:37:08.741086+00:00'),
-(2228196, 1, false, true, 'lesmo', '2022-02-24T02:12:45.833161+00:00'),
 (505751, 4, false, true, 'KengoTODA', '2022-02-24T02:29:25.064683+00:00'),
+(2228196, 1, false, true, 'lesmo', '2022-02-24T02:12:45.833161+00:00'),
 (4910518, 0, false, true, 'leftrightleft', '2022-02-23T23:37:08.741086+00:00'),
 (26007940, 0, false, true, 'mikerobards', '2022-02-24T02:55:28.432183+00:00'),
 (83277146, 1, false, true, 'ashwth', '2022-02-24T03:01:15.154484+00:00'),
