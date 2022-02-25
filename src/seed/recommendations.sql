@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T16:50:28.896Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T18:46:37.638Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1791,6 +1791,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (158731101, 80, 4, 1, 0, 14, 'cdimascio/essence', 'Automatically extract the main text content (and more) from an HTML document', ARRAY['Cleymax', 'cdimascio'], '2022-02-23T23:35:41.043146+00:00'),
 (158606045, 5828, 60, 1, 0, 26, 'remoteinterview/zero', 'Zero is a web server to simplify web development.', ARRAY['asadm', 'aykutkardas'], '2022-02-23T23:35:41.043146+00:00'),
 (158873969, 9185, 46, 1, 0, 20, 'GoogleChromeLabs/quicklink', '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', ARRAY['addyosmani', 'lukeed'], '2022-02-23T23:35:41.043146+00:00'),
+(158882433, 4450, 180, 1, 0, 8, 'SoftwareBrothers/adminjs', 'AdminJS is an admin panel for apps written in node.js', ARRAY['wojtek-krysiak', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (159349307, 331, 5, 1, 0, 23, 'sButtons/sbuttons', ':bulb: Simple buttons you can use easily for your next project.', ARRAY['shahednasser', 'Caleb335'], '2022-02-23T23:35:41.043146+00:00'),
 (159527907, 624, 101, 1, 0, 18, 'ryanheise/audio_service', 'Flutter plugin to play audio in the background while the screen is off.', ARRAY['ryanheise', 'nt4f04uNd'], '2022-02-23T23:35:41.043146+00:00'),
 (159774835, 719, 0, 1, 0, 2, 'rajasegar/awesome-micro-frontends', 'An Awesome list of posts, videos and tutorials on Micro Frontends', ARRAY['rajasegar', 'marconi1992'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1804,7 +1805,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (161215159, 4767, 9, 1, 0, 24, 'othneildrew/Best-README-Template', 'An awesome README template to jumpstart your projects! ', ARRAY['othneildrew', 'douglascayers'], '2022-02-23T23:35:41.043146+00:00'),
 (160939449, 1, 0, 1, 0, 3, 'fabtjar/advent-of-code', 'A few attempts of Advent of Code', ARRAY['fabtjar'], '2022-02-23T23:35:41.043146+00:00'),
 (161588836, 380, 75, 1, 0, 16, 'microsoft/PowerPlatformConnectors', 'This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors', ARRAY['sriyen-msft', 'mamurshe'], '2022-02-23T23:35:41.043146+00:00'),
-(158882433, 4450, 180, 1, 0, 8, 'SoftwareBrothers/adminjs', 'AdminJS is an admin panel for apps written in node.js', ARRAY['wojtek-krysiak', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (161603821, 4, 0, 1, 0, 15, 'Axeflower/localsToJson', null, ARRAY['Axeflower'], '2022-02-23T23:35:41.043146+00:00'),
 (161012019, 12730, 594, 1, 0, 15, 'jellyfin/jellyfin', 'The Free Software Media System', ARRAY['LukePulverenti', 'Bond-009'], '2022-02-23T23:35:41.043146+00:00'),
 (161628058, 575, 7, 1, 0, 3, 'zhmushan/abc', 'A better Deno framework to create web application.', ARRAY['zhmushan', 'LarsVomMars'], '2022-02-23T23:35:41.043146+00:00'),
