@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T18:45:48.492Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T20:44:22.825Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3119,8 +3119,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (344191198, 7798, 27, 1, 0, 2, 'microsoft/Data-Science-For-Beginners', '10 Weeks, 20 Lessons, Data Science for All!', ARRAY['paladique', 'jlooper'], '2022-02-23T23:35:41.043146+00:00'),
 (344493260, 2, 0, 1, 0, 10, 'abdulsamodazeez/Fake-news-detection', 'A type of yellow journalism, fake news encapsulates pieces of news that may be hoaxes and is generally spread through social media and other online media.', ARRAY['abdulsamodazeez'], '2022-02-23T23:35:41.043146+00:00'),
 (345145789, 80, 12, 1, 0, 19, 'BertrandBev/code_field', 'A customizable code text field supporting syntax highlighting', ARRAY['BertrandBev', 'leoshusar'], '2022-02-23T23:35:41.043146+00:00'),
-(345219371, 19, 0, 1, 0, 3, 'lukexyz/lightweight', 'algorithmic booty maximiser 💪🎯💪 ', ARRAY['lukexyz'], '2022-02-23T23:35:41.043146+00:00'),
 (345368765, 7448, 11, 2, 0, 21, 'NvChad/NvChad', 'An attempt to make neovim cli as functional as an IDE while being very beautiful, blazing fast.', ARRAY['siduck', 'Akianonymus'], '2022-02-23T23:35:41.043146+00:00'),
+(345219371, 19, 0, 1, 0, 3, 'lukexyz/lightweight', 'algorithmic booty maximiser 💪🎯💪 ', ARRAY['lukexyz'], '2022-02-23T23:35:41.043146+00:00'),
 (345376495, 94, 1, 1, 0, 8, 'levelsio/inflationchart', 'The stock market inflation adjusted for the US-money supply', ARRAY['levelsio', 'daniellockyer'], '2022-02-23T23:35:41.043146+00:00'),
 (345529420, 1, 1, 2, 0, 0, 'sophiezhng/pomopy', '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', ARRAY['sophiezhng'], '2022-02-23T23:35:41.043146+00:00'),
 (345606467, 159, 0, 1, 0, 5, 'themesberg/glass-ui', 'CSS UI library based on the glassmorphism design specifications', ARRAY['zoltanszogyenyi'], '2022-02-23T23:35:41.043146+00:00'),
