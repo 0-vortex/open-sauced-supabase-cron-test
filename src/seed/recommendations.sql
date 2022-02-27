@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T08:44:26.409Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T10:44:16.056Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -173,8 +173,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (3105906, 7276, 29, 1, 0, 26, 'PharkMillups/beautiful-docs', 'Pointers to useful, well-written, and otherwise beautiful documentation.', ARRAY['PharkMillups', 'logankoester'], '2022-02-23T23:35:41.043146+00:00'),
 (3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-23T23:35:41.043146+00:00'),
 (3168392, 6, 0, 1, 0, 11, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-23T23:35:41.043146+00:00'),
-(3214406, 42747, 123, 1, 0, 4, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-23T23:35:41.043146+00:00'),
 (3310609, 1133, 36, 1, 0, 13, 'Netflix/netflix.github.com', null, ARRAY['Randgalt', 'PoorImpulseCtrl'], '2022-02-23T23:35:41.043146+00:00'),
+(3214406, 42747, 123, 1, 0, 4, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-23T23:35:41.043146+00:00'),
 (3319040, 7738, 5, 1, 0, 2, 'id-Software/DOOM', 'DOOM Open Source Release', ARRAY['id-travis-bradshaw'], '2022-02-23T23:35:41.043146+00:00'),
 (3327382, 10468, 65, 1, 0, 1, 'Automattic/_s', 'Hi. I''m a starter theme called _s, or underscores, if you like. I''m a theme meant for hacking so don''t use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That''s what I''m here for.', ARRAY['obenland', 'davidakennedy'], '2022-02-23T23:35:41.043146+00:00'),
 (3366934, 389, 12, 1, 0, 16, 'dvarrazzo/py-setproctitle', 'A Python module to customize the process title', ARRAY['dvarrazzo', 'ngie-eign'], '2022-02-23T23:35:41.043146+00:00'),
