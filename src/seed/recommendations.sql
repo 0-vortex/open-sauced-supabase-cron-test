@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T10:45:11.813Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T12:51:10.357Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -843,9 +843,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (48750547, 594, 46, 1, 0, 17, 'circleci/circleci-docs', 'Documentation for CircleCI.', ARRAY['michelle-luna', 'rosieyohannan'], '2022-02-23T23:35:41.043146+00:00'),
 (48246447, 9328, 1, 1, 0, 7, 'analysis-tools-dev/static-analysis', '⚙️ A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.', ARRAY['mre', 'AristoChen'], '2022-02-23T23:35:41.043146+00:00'),
 (48808013, 232, 4, 1, 0, 17, 'rangle/angular2-redux-example', 'Angular 2 Redux Example', ARRAY['SethDavenport', 'greenkeeperio-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(48769241, 6387, 168, 1, 0, 1, 'penpot/penpot', 'Penpot - The Open-Source design & prototyping platform', ARRAY['niwinz', 'Alotor'], '2022-02-23T23:35:41.043146+00:00'),
 (48701042, 2355, 34, 1, 0, 24, 'thechangelog/changelog.com', 'Changelog is news and podcast for developers. This is our open source platform.', ARRAY['jerodsanto', 'gerhard'], '2022-02-23T23:35:41.043146+00:00'),
 (49010787, 12634, 2, 2, 0, 14.5, 'mhinz/vim-galore', ':mortar_board: All things Vim!', ARRAY['mhinz', 'codeurge'], '2022-02-23T23:35:41.043146+00:00'),
-(48769241, 6387, 168, 1, 0, 1, 'penpot/penpot', 'Penpot - The Open-Source design & prototyping platform', ARRAY['niwinz', 'Alotor'], '2022-02-23T23:35:41.043146+00:00'),
 (49016322, 22382, 2088, 1, 0, 28, 'angular/components', 'Component infrastructure and Material Design components for Angular', ARRAY['crisbeto', 'devversion'], '2022-02-23T23:35:41.043146+00:00'),
 (48935181, 2459, 0, 1, 0, 12, 'cjcenizal/flexbox-patterns', 'Patterns for using flexbox CSS to build awesome UI components.', ARRAY['cjcenizal'], '2022-02-23T23:35:41.043146+00:00'),
 (49372256, 265, 1, 1, 0, 21, 'nuket/google-sheets-geocoding-macro', 'Geocode from addresses to latitude / longitude, and vice versa using Google Sheets', ARRAY['nuket', 'MrCsabaToth'], '2022-02-23T23:35:41.043146+00:00'),
