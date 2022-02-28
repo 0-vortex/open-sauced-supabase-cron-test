@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T16:51:14.782Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T18:46:58.951Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1165,6 +1165,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (80294918, 5101, 116, 1, 0, 23, 'gcanti/io-ts', 'Runtime type system for IO decoding/encoding', ARRAY['gcanti', 'osdiab'], '2022-02-23T23:35:41.043146+00:00'),
 (80472665, 15135, 54, 1, 0, 16, 'salomonelli/best-resume-ever', ':necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.', ARRAY['salomonelli', 'pubkey'], '2022-02-23T23:35:41.043146+00:00'),
 (80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
+(80669528, 1144, 122, 1, 0, 2, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-23T23:35:41.043146+00:00'),
 (80724464, 4295, 11, 1, 0, 7, 'nuxt-community/awesome-nuxt', 'A curated list of awesome things related to Nuxt.js', ARRAY['limichange', 'manniL'], '2022-02-23T23:35:41.043146+00:00'),
 (80814970, 419, 10, 1, 0, 3, 'piomin/sample-spring-microservices', 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', ARRAY['piomin', 'ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
 (81021705, 21, 0, 1, 0, 8, 'x0st/snake', 'A console snake written in C++', ARRAY['x0st'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1505,7 +1506,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (121457286, 3, 0, 1, 0, 24, '734m/734m.github.io', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (121494170, 2059, 20, 1, 0, 25, 'vuegg/vuegg', ':hatching_chick: vue GUI generator', ARRAY['alxpez', 'laghimp'], '2022-02-23T23:35:41.043146+00:00'),
 (121814210, 1504, 67, 1, 0, 1, 'primer/react', 'An implementation of GitHub''s Primer Design System using React', ARRAY['shawnbot', 'colebemis'], '2022-02-23T23:35:41.043146+00:00'),
-(80669528, 1144, 122, 1, 0, 2, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-23T23:35:41.043146+00:00'),
 (121921584, 3910, 86, 1, 0, 9, 'swapagarwal/swag-for-dev', '😎 swag opportunities for developers', ARRAY['aslafy-z', 'swapagarwal'], '2022-02-23T23:35:41.043146+00:00'),
 (121945586, 485, 18, 1, 0, 7, 'qeesung/HighlightBracketPair', ':high_brightness: Highlight bracket pair plugin for intellij', ARRAY['qeesung'], '2022-02-23T23:35:41.043146+00:00'),
 (122079092, 350, 1, 1, 0, 3, 'rockita/criticalML', 'Toward ethical, transparent and fair AI/ML: a critical reading list for engineers, designers, and policy makers', ARRAY['rockita'], '2022-02-23T23:35:41.043146+00:00'),
