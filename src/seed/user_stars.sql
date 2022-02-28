@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T01:03:35.440Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T02:49:19.305Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4236,8 +4236,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4177, 469997, 108859514, 2, 0, 2287, 'atulmy/crate', '👕 👖 📦  A sample web and mobile application built with Node, Express, React, React Native, Redux and GraphQL. Very basic replica of stitchfix.com / krate.in (allows users to get monthly subscription of trendy clothes and accessories).', ARRAY['atulmy', 'ebouJ'], '2022-02-23T23:36:47.4623'),
 (356891260, 1884246, 133969505, 29, 14, 111, 'wessberg/Polyfiller', 'Never worry about polyfills again.', ARRAY['wessberg', 'tommedema'], '2022-02-23T23:36:47.4623'),
 (314182635, 19350071, 146164792, 29, 0, 165, 'g-plane/tiny-package-manager', 'Learn how npm or Yarn v1 works.', ARRAY['g-plane', 'voskresla'], '2022-02-23T23:36:47.4623'),
-(436289040, 61815862, 7715820, 29, 67, 8729, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-23T23:36:47.4623'),
+(436289040, 61815862, 7715820, 29, 67, 8733, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-23T23:36:47.4623'),
 (379761757, 4247126, 196662111, 9, 0, 2, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-23T23:36:47.4623'),
+(357041459, 16315404, 112507086, 1, 6, 92538, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-23T23:36:47.4623'),
 (302938010, 211851, 5373673, 29, 66, 2712, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-23T23:36:47.4623'),
 (381465486, 5842360, 47419579, 29, 32, 265, 'andreasgrill/auto-selfcontrol', 'Small utility to schedule start and stop times of SelfControl', ARRAY['andreasgrill', 'sbibauw'], '2022-02-23T23:36:47.4623'),
 (403681762, 203683, 118986156, 29, 1, 12, 'myoung34/docker-jenkins', null, ARRAY['myoung34'], '2022-02-23T23:36:47.4623'),
@@ -4247,7 +4248,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (312341626, 9935383, 13900913, 14, 49, 17994, 'dracula/dracula-theme', '🧛🏻‍♂️ One theme. All platforms.', ARRAY['zenorocha', 'heinst'], '2022-02-23T23:36:47.4623'),
 (381361156, 72279316, 109887187, 28, 128, 861, 'danthareja/contribute-to-open-source', 'Learn the GitHub workflow by contributing code in a fun simulation project ', ARRAY['danthareja'], '2022-02-23T23:36:47.4623'),
 (452075032, 22186029, 337208358, 29, 0, 14, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-23T23:36:47.4623'),
-(357041459, 16315404, 112507086, 1, 6, 92511, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-23T23:36:47.4623'),
 (379613100, 22154417, 311543987, 29, 8, 1, 'ReagentX/Logria', 'A powerful CLI tool that puts log analytics at your fingertips.', ARRAY['ReagentX'], '2022-02-23T23:36:47.4623'),
 (451044473, 11589902, 38547977, 0, 1, 1, 'nifemim/MosaicPlus', 'Just a repo to set up the website.', ARRAY['charlesinjoroge', 'sarasolano'], '2022-02-23T23:36:47.4623'),
 (314317770, 4573607, 49760504, 5, 5, 7423, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-23T23:36:47.4623'),
@@ -4282,7 +4282,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (353955008, 53687927, 345420003, 29, 0, 1, 'dwaipayan05/android-gif-drawable', 'Views and Drawable for displaying animated GIFs on Android', ARRAY['koral--', 'os97673'], '2022-02-23T23:36:47.4623'),
 (399569599, 78520194, 96767206, 8, 542, 1467, 'gitcoinco/web', 'Grow Open Source', ARRAY['owocki', 'thelostone-mc'], '2022-02-23T23:36:47.4623'),
 (422332797, 4066445, 3214406, 4, 111, 42817, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-23T23:36:47.4623'),
-(354119247, 6935431, 13855476, 29, 34, 26990, 'go-gorm/gorm', 'The fantastic ORM library for Golang, aims to be developer friendly', ARRAY['jinzhu', 'emirb'], '2022-02-23T23:36:47.4623'),
+(354119247, 6935431, 13855476, 29, 33, 26993, 'go-gorm/gorm', 'The fantastic ORM library for Golang, aims to be developer friendly', ARRAY['jinzhu', 'emirb'], '2022-02-23T23:36:47.4623'),
 (375762962, 11777161, 25304276, 29, 127, 127, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-23T23:36:47.4623'),
 (425311105, 57008950, 300932149, 15, 0, 1, 'RitikaJain8818/Programmers-Community', 'This repository contains various solution of a problem in Ruby, C, C++, Python and Java.', ARRAY['pooja-git11', 'Kuljeet-123'], '2022-02-23T23:36:47.4623'),
 (422702314, 2607477, 20904437, 2, 487, 55919, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-23T23:36:47.4623'),
@@ -4296,7 +4296,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (306906348, 4199845, 190091795, 29, 19, 4363, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-23T23:36:47.4623'),
 (353169129, 72912813, 214587193, 0, 239, 29036, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-23T23:36:47.4623'),
 (359953680, 3777549, 3984904, 29, 0, 17, 'jgillman/dotfiles', 'jgillman''s special collection of configs', ARRAY['jgillman'], '2022-02-23T23:36:47.4623'),
-(353612066, 31478648, 161691324, 29, 28, 1548, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-23T23:36:47.4623'),
+(353612066, 31478648, 161691324, 29, 28, 1549, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-23T23:36:47.4623'),
 (374469734, 1228996, 20619036, 29, 35, 35207, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-23T23:36:47.4623'),
 (381571653, 569510, 1535009, 29, 34, 4084, 'jazzband/tablib', 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', ARRAY['kennethreitz', 'claudep'], '2022-02-23T23:36:47.4623'),
 (379460859, 13711044, 172473381, 29, 2, 35, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-23T23:36:47.4623'),
@@ -4385,7 +4385,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (330475048, 61131314, 31792824, 29, 10470, 136913, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-23T23:36:47.4623'),
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T07:14:06.199012'),
 (431463238, 24553355, 362276202, 29, 6, 494, 'Azure/counterfit', 'a CLI that provides a generic automation layer for assessing the security of ML models', ARRAY['moohax', 'rdheekonda'], '2022-02-23T23:36:47.4623'),
-(382194702, 7860023, 32280638, 8, 6, 1872, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'altus34'], '2022-02-23T23:36:47.4623'),
+(435800079, 16268467, 23083156, 11, 991, 76007, 'mui-org/material-ui', 'MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-23T23:36:47.4623'),
 (425791199, 7293310, 1039520, 29, 4885, 106666, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-23T23:36:47.4623'),
 (432242215, 10951893, 254660586, 29, 11, 2017, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-23T23:36:47.4623'),
 (447732936, 3941856, 263146261, 29, 16, 1932, 'MaggieAppleton/digital-gardeners', 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', ARRAY['MaggieAppleton', 'theianjones'], '2022-02-23T23:36:47.4623'),
@@ -4405,11 +4405,11 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (391419133, 58482194, 71995937, 29, 504, 39493, 'nuxt/nuxt.js', 'The Intuitive Vue(2) Framework', ARRAY['pi0', 'Atinux'], '2022-02-23T23:36:47.4623'),
 (386705185, 349523, 902266, 17, 0, 73, 'jamesshore/lets_play_tdd', 'Let''s Play: Test-Driven Development', ARRAY['jamesshore', 'luontola'], '2022-02-23T23:36:47.4623'),
 (456471693, 83277146, 90528830, 4, 37, 39544, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-23T23:36:47.4623'),
+(442470627, 24606613, 6106472, 8, 14, 1278, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-23T23:36:47.4623'),
 (455678420, 6499373, 36040894, 24, 328, 52425, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-23T23:36:47.4623'),
 (408008691, 45036724, 61059364, 29, 38, 665, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-23T23:36:47.4623'),
-(442470627, 24606613, 6106472, 8, 14, 1278, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-23T23:36:47.4623'),
 (407102326, 4386534, 15393566, 29, 32, 5478, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'AndrewPrifer'], '2022-02-23T23:36:47.4623'),
-(435800079, 16268467, 23083156, 11, 989, 75998, 'mui-org/material-ui', 'MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-23T23:36:47.4623'),
+(382194702, 7860023, 32280638, 8, 6, 1872, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'altus34'], '2022-02-23T23:36:47.4623'),
 (336575400, 9696352, 341707514, 29, 38, 147, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-23T23:36:47.4623'),
 (429224238, 1645545, 81075897, 29, 47, 253, 'SciML/Catalyst.jl', 'Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software', ARRAY['isaacsas', 'TorkelE'], '2022-02-23T23:36:47.4623'),
 (418175317, 1917293, 401300251, 29, 0, 2, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:36:47.4623'),
@@ -4421,9 +4421,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (351353449, 35429278, 373396052, 29, 1, 46, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-23T23:36:47.4623'),
 (418672791, 20727421, 218282453, 29, 18, 3007, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-23T23:36:47.4623'),
 (363497692, 4838867, 1062897, 2, 216, 130046, 'github/gitignore', 'A collection of useful .gitignore templates', ARRAY['shiftkey', 'arcresu'], '2022-02-23T23:36:47.4623'),
+(354384496, 17671332, 369905667, 3, 12, 32, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-23T23:36:47.4623'),
 (321809845, 907680, 70908474, 29, 62, 933, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:36:47.4623'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-23T23:36:47.4623'),
 (399559931, 30369246, 21405028, 29, 2, 10259, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-23T23:36:47.4623'),
-(354384496, 17671332, 369905667, 3, 12, 32, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-23T23:36:47.4623'),
 (348380714, 1645628, 18609427, 29, 361, 13001, 'tc39/ecma262', 'Status, process, and documents for ECMA-262', ARRAY['jmdyck', 'anba'], '2022-02-23T23:36:47.4623'),
 (375812408, 908380, 7670022, 29, 55, 956, 'salomvary/soundcleod', 'SoundCloud for macOS and Windows', ARRAY['salomvary', 'rmaes4'], '2022-02-23T23:36:47.4623');
