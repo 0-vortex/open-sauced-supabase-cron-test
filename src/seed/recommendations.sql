@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T20:44:22.741Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T22:44:19.603Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3445,7 +3445,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
 (388026773, 4, 0, 1, 0, 2, 'elizabethsiegle/twilio-video-mask-ml5', 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ARRAY['elizabethsiegle'], '2022-02-23T23:35:41.043146+00:00'),
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-23T23:35:41.043146+00:00'),
-(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-23T23:35:41.043146+00:00'),
 (388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-23T23:35:41.043146+00:00'),
 (388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3514,6 +3513,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395205818, 2, 0, 1, 0, 4, 'muhammaddzaky/muhammaddzaky.github.id', 'membuatwebsitemuhammaddzaky.id', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (395376449, 1, 0, 2, 0, 0, 'flan6/ml-cv-bot', 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', ARRAY['flan6'], '2022-02-23T23:35:41.043146+00:00'),
 (395413091, 1, 0, 1, 0, 0, 'Mintbean/junior-developer-job-boards', null, ARRAY['Jc-008', 'monarchwadia'], '2022-02-23T23:35:41.043146+00:00'),
+(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-23T23:35:41.043146+00:00'),
 (395433628, 4, 0, 1, 0, 9, 'exegeteio/dapr-mini-api', null, ARRAY['exegeteio'], '2022-02-23T23:35:41.043146+00:00'),
 (395536461, 1456, 62, 1, 0, 26, 'mTvare6/hello-world.rs', '🚀Memory safe, blazing fast, configurable, minimal hello world written in rust(🚀) in a few lines of code with few(1092🚀) dependencies🚀', ARRAY['mTvare6', 'monosans'], '2022-02-23T23:35:41.043146+00:00'),
 (395575559, 10, 3, 1, 0, 21, 'teknologi-umum/blog', 'Blog for Teknologi Umum', ARRAY['aldy505', 'elianiva'], '2022-02-23T23:35:41.043146+00:00'),
