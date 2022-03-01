@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T04:47:58.991Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T06:47:49.132Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1156,8 +1156,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (79676261, 371, 0, 1, 0, 8, 'iamcryptoki/snowden-archive', '💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.', ARRAY['iamcryptoki', 'lionrouge'], '2022-02-23T23:35:41.043146+00:00'),
 (79723839, 14465, 201, 1, 0, 27, 'teambit/bit', 'A tool for component-driven application development. ', ARRAY['davidfirst', 'GiladShoham'], '2022-02-23T23:35:41.043146+00:00'),
 (79804720, 1341, 4, 1, 0, 18, 'tuchk4/awesome-create-react-app', 'Awesome list of Create React App articles / tutorials / videos and FAQ', ARRAY['tuchk4', 'andreiduca'], '2022-02-23T23:35:41.043146+00:00'),
-(80016159, 7698, 372, 1, 0, 3, 'graphql/graphql-playground', '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', ARRAY['timsuchanek', 'huv1k'], '2022-02-23T23:35:41.043146+00:00'),
 (79833715, 42, 4, 1, 0, 2, 'calculist/calculist-web', 'source code for app.calculist.io', ARRAY['danallison'], '2022-02-23T23:35:41.043146+00:00'),
+(80016159, 7698, 372, 1, 0, 3, 'graphql/graphql-playground', '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', ARRAY['timsuchanek', 'huv1k'], '2022-02-23T23:35:41.043146+00:00'),
 (80149262, 20673, 484, 1, 0, 17, 'react-navigation/react-navigation', 'Routing and navigation for your React Native apps', ARRAY['satya164', 'brentvatne'], '2022-02-23T23:35:41.043146+00:00'),
 (80179717, 61, 1, 1, 0, 9, 'alexlafroscia/alfred-switch-audio-source', 'Alfred workflow to switch audio device', ARRAY['alexlafroscia', 'nodeselector'], '2022-02-23T23:35:41.043146+00:00'),
 (80216474, 696, 12, 1, 0, 13, 'ClementPinard/FlowNetPytorch', 'Pytorch implementation of FlowNet by Dosovitskiy et al.', ARRAY['ClementPinard', 'mickaelseznec'], '2022-02-23T23:35:41.043146+00:00'),
