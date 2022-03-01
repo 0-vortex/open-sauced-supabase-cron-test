@@ -6,8 +6,13 @@
 
 ## Tables
 
-| Name | Columns | Comment | Type |
-| ---- | ------- | ------- | ---- |
+| Name                                                | Columns | Comment | Type       |
+| --------------------------------------------------- | ------- | ------- | ---------- |
+| [public.user_stars](public.user_stars.md)           | 10      |         | BASE TABLE |
+| [public.stars](public.stars.md)                     | 6       |         | BASE TABLE |
+| [public.users](public.users.md)                     | 6       |         | BASE TABLE |
+| [public.recommendations](public.recommendations.md) | 10      |         | BASE TABLE |
+| [public.votes](public.votes.md)                     | 5       |         | BASE TABLE |
 
 ## Relations
 
