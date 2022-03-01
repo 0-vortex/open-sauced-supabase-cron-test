@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T12:51:40.864Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T14:44:28.033Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -883,9 +883,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (51769689, 16481, 123, 1, 0, 1, 'sindresorhus/refined-github', ':octocat: Browser extension that simplifies the GitHub interface and adds useful features', ARRAY['fregante', 'yakov116'], '2022-02-23T23:35:41.043146+00:00'),
 (51870853, 2158, 277, 1, 0, 8, 'SimpleMobileTools/Simple-Gallery', 'Browse your memories without any interruptions with this photo and video gallery', ARRAY['tibbi', 'solokot'], '2022-02-23T23:35:41.043146+00:00'),
 (51270739, 19677, 49, 3, 0, 19, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-23T23:35:41.043146+00:00'),
-(51771177, 1117, 8, 1, 0, 4, 'whitfin/cachex', 'A powerful caching library for Elixir with support for transactions, fallbacks and expirations', ARRAY['whitfin', 'ivan'], '2022-02-23T23:35:41.043146+00:00'),
 (51462299, 10556, 67, 1, 0, 9, 'jaredpalmer/razzle', '✨ Create server-rendered universal JavaScript applications with no configuration', ARRAY['fivethreeo', 'jaredpalmer'], '2022-02-23T23:35:41.043146+00:00'),
 (52034309, 14441, 93, 1, 0, 25, 'uber-go/zap', 'Blazing fast, structured, leveled logging in Go.', ARRAY['akshayjshah', 'abhinav'], '2022-02-23T23:35:41.043146+00:00'),
+(51771177, 1117, 8, 1, 0, 4, 'whitfin/cachex', 'A powerful caching library for Elixir with support for transactions, fallbacks and expirations', ARRAY['whitfin', 'ivan'], '2022-02-23T23:35:41.043146+00:00'),
 (52056522, 202, 14, 1, 0, 5, 'LGoodDatePicker/LGoodDatePicker', 'Java Swing Date Picker. Easy to use, good looking, nice features, and localized. Uses the JSR-310 standard. ', ARRAY['BlakeTNC', 'WiseEagleOwl'], '2022-02-23T23:35:41.043146+00:00'),
 (52595226, 12720, 80, 1, 0, 2, 'xtaci/kcptun', 'A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64。KCPプロトコルに基づく安全なトンネル。KCP 프로토콜을 기반으로 하는 보안 터널입니다。', ARRAY['xtaci', 'HigherSY'], '2022-02-23T23:35:41.043146+00:00'),
 (52630616, 17257, 573, 1, 0, 0, 'apollographql/apollo-client', ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', ARRAY['benjamn', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
