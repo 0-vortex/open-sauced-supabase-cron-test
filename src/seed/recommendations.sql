@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T02:54:41.562Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T04:47:58.991Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -172,8 +172,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (3100494, 3610, 147, 1, 0, 23, 'fzaninotto/uptime', 'A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.', ARRAY['fzaninotto', 'PopDaph'], '2022-02-23T23:35:41.043146+00:00'),
 (3105906, 7276, 29, 1, 0, 26, 'PharkMillups/beautiful-docs', 'Pointers to useful, well-written, and otherwise beautiful documentation.', ARRAY['PharkMillups', 'logankoester'], '2022-02-23T23:35:41.043146+00:00'),
 (3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-23T23:35:41.043146+00:00'),
-(3214406, 42747, 123, 1, 0, 4, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-23T23:35:41.043146+00:00'),
 (3168392, 6, 0, 1, 0, 11, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-23T23:35:41.043146+00:00'),
+(3214406, 42747, 123, 1, 0, 4, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-23T23:35:41.043146+00:00'),
 (3310609, 1133, 36, 1, 0, 13, 'Netflix/netflix.github.com', null, ARRAY['Randgalt', 'PoorImpulseCtrl'], '2022-02-23T23:35:41.043146+00:00'),
 (3319040, 7738, 5, 1, 0, 2, 'id-Software/DOOM', 'DOOM Open Source Release', ARRAY['id-travis-bradshaw'], '2022-02-23T23:35:41.043146+00:00'),
 (3327382, 10468, 65, 1, 0, 1, 'Automattic/_s', 'Hi. I''m a starter theme called _s, or underscores, if you like. I''m a theme meant for hacking so don''t use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That''s what I''m here for.', ARRAY['obenland', 'davidakennedy'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1156,8 +1156,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (79676261, 371, 0, 1, 0, 8, 'iamcryptoki/snowden-archive', '💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.', ARRAY['iamcryptoki', 'lionrouge'], '2022-02-23T23:35:41.043146+00:00'),
 (79723839, 14465, 201, 1, 0, 27, 'teambit/bit', 'A tool for component-driven application development. ', ARRAY['davidfirst', 'GiladShoham'], '2022-02-23T23:35:41.043146+00:00'),
 (79804720, 1341, 4, 1, 0, 18, 'tuchk4/awesome-create-react-app', 'Awesome list of Create React App articles / tutorials / videos and FAQ', ARRAY['tuchk4', 'andreiduca'], '2022-02-23T23:35:41.043146+00:00'),
-(79833715, 42, 4, 1, 0, 2, 'calculist/calculist-web', 'source code for app.calculist.io', ARRAY['danallison'], '2022-02-23T23:35:41.043146+00:00'),
 (80016159, 7698, 372, 1, 0, 3, 'graphql/graphql-playground', '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', ARRAY['timsuchanek', 'huv1k'], '2022-02-23T23:35:41.043146+00:00'),
+(79833715, 42, 4, 1, 0, 2, 'calculist/calculist-web', 'source code for app.calculist.io', ARRAY['danallison'], '2022-02-23T23:35:41.043146+00:00'),
 (80149262, 20673, 484, 1, 0, 17, 'react-navigation/react-navigation', 'Routing and navigation for your React Native apps', ARRAY['satya164', 'brentvatne'], '2022-02-23T23:35:41.043146+00:00'),
 (80179717, 61, 1, 1, 0, 9, 'alexlafroscia/alfred-switch-audio-source', 'Alfred workflow to switch audio device', ARRAY['alexlafroscia', 'nodeselector'], '2022-02-23T23:35:41.043146+00:00'),
 (80216474, 696, 12, 1, 0, 13, 'ClementPinard/FlowNetPytorch', 'Pytorch implementation of FlowNet by Dosovitskiy et al.', ARRAY['ClementPinard', 'mickaelseznec'], '2022-02-23T23:35:41.043146+00:00'),
