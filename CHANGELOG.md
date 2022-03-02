@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.9.5](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.4...v1.9.5) (2022-03-02)
+
+
+### 🐛 Bug Fixes
+
+* correct csv casting of booleans ([2bd9567](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/2bd9567900c88d7ebb724fd5ce603d2366079e63))
+
 ### [1.9.4](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.3...v1.9.4) (2022-03-01)
 
 
