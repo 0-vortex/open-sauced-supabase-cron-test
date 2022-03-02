@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T01:03:53.094Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T02:51:26.280Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3201,13 +3201,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-23T23:35:41.043146+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-23T23:35:41.043146+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-23T23:35:41.043146+00:00'),
+(357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-23T23:35:41.043146+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-23T23:35:41.043146+00:00'),
 (357732194, 1, 0, 1, 0, 6, 'gilesvessey/ms3-hl-driver', 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', ARRAY['gilesvessey'], '2022-02-23T23:35:41.043146+00:00'),
 (357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-23T23:35:41.043146+00:00'),
 (358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-23T23:35:41.043146+00:00'),
 (358596380, 119, 2, 1, 0, 17, 'developedbyed/explore', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (358604857, 1, 0, 1, 0, 3, 'ppdcNG/storytime-disi', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
-(357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-23T23:35:41.043146+00:00'),
 (358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-23T23:35:41.043146+00:00'),
 (358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
 (358985215, 21, 20, 1, 0, 2, 'jitterted/mobreg', 'Remote Mob Programming Organizer', ARRAY['tedyoung'], '2022-02-23T23:35:41.043146+00:00'),
