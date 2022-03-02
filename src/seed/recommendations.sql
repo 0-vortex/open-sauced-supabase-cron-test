@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T14:44:30.652Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T16:50:45.910Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -427,8 +427,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
 (14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
-(14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-23T23:35:41.043146+00:00'),
 (14902556, 6705, 26, 1, 0, 22, 'offensive-security/exploitdb', 'The official Exploit Database repository', ARRAY['g0tmi1k', 'unix-ninja'], '2022-02-23T23:35:41.043146+00:00'),
+(14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-23T23:35:41.043146+00:00'),
 (14887195, 8193, 80, 1, 0, 6, 'gzc/CLRS', ':notebook:Solutions to Introduction to Algorithms', ARRAY['gzc', 'Jingru'], '2022-02-23T23:35:41.043146+00:00'),
 (14964475, 12633, 1221, 1, 0, 26, 'AvaloniaUI/Avalonia', 'A cross platform XAML framework for .NET', ARRAY['grokys', 'danwalmsley'], '2022-02-23T23:35:41.043146+00:00'),
 (14747598, 58651, 608, 2, 0, 21.5, 'typicode/json-server', 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', ARRAY['typicode', 'bahmutov'], '2022-02-23T23:35:41.043146+00:00'),
