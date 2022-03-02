@@ -4229,7 +4229,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 4236,61815862,368365410,13,0,1,xsky13/RedFeed,RedFeed: a Reddit Feed,{'xsky13'},2022-02-23T23:36:47.4623
 355430347,455338,388673420,0,0,575,linuxdotexe/nordic-wallpapers,A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme,"{'linuxdotexe', 'Hooregi'}",2022-02-23T23:36:47.4623
 4177,469997,108859514,2,0,2287,atulmy/crate,"👕 👖 📦  A sample web and mobile application built with Node, Express, React, React Native, Redux and GraphQL. Very basic replica of stitchfix.com / krate.in (allows users to get monthly subscription of trendy clothes and accessories).","{'atulmy', 'ebouJ'}",2022-02-23T23:36:47.4623
-357041459,16315404,112507086,1,7,92601,30-seconds/30-seconds-of-code,Short JavaScript code snippets for all your development needs,"{'Chalarangelo', '30secondsofcode'}",2022-02-23T23:36:47.4623
+357041459,16315404,112507086,1,6,92623,30-seconds/30-seconds-of-code,Short JavaScript code snippets for all your development needs,"{'Chalarangelo', '30secondsofcode'}",2022-02-23T23:36:47.4623
 278088103,5467696,257665403,29,26,444,google/triage-party,🎉 Triage Party: massively multi-player GitHub triage 🎉,"{'tstromberg', 'vavilen84'}",2022-02-23T23:36:47.4623
 403681762,203683,118986156,29,1,12,myoung34/docker-jenkins,,{'myoung34'},2022-02-23T23:36:47.4623
 314182635,19350071,146164792,29,0,165,g-plane/tiny-package-manager,Learn how npm or Yarn v1 works.,"{'g-plane', 'voskresla'}",2022-02-23T23:36:47.4623
@@ -4238,14 +4238,14 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 314317770,4573607,49760504,5,5,7425,samshadwell/TrumpScript,Make Python great again,"{'samshadwell', 'CryoBrown'}",2022-02-23T23:36:47.4623
 379613100,22154417,311543987,29,8,1,ReagentX/Logria,A powerful CLI tool that puts log analytics at your fingertips.,{'ReagentX'},2022-02-23T23:36:47.4623
 382153724,49351279,174038031,29,17,26421,react-hook-form/react-hook-form,📋 React Hooks for form state management and validation (Web + React Native),"{'bluebill1049', 'kotarella1110'}",2022-02-23T23:36:47.4623
-302938010,211851,5373673,29,66,2712,jlord/sheetsee.js,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,"{'jlord', 'mjhea0'}",2022-02-23T23:36:47.4623
 451044473,11589902,38547977,0,1,1,nifemim/MosaicPlus,Just a repo to set up the website.,"{'charlesinjoroge', 'sarasolano'}",2022-02-23T23:36:47.4623
+436289040,61815862,7715820,29,67,8746,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{'DaveDavenport', 'sardemff7'}",2022-02-23T23:36:47.4623
 445282270,31227151,134042266,2,9,1030,HackerPoet/PySpace,GLSL Fractal Ray Marcher in Python,"{'HackerPoet', 'brainfubar'}",2022-02-23T23:36:47.4623
 379761757,4247126,196662111,9,0,2,mdb1710/mnmlurl,🔗 Modern URL shortener with support for custom alias,"{'liyasthomas', 'mdb1710'}",2022-02-23T23:36:47.4623
 406428542,3202514,302085558,1,17,23,Call-for-Code-for-Racial-Justice/TakeTwo,TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content,"{'johnwalicki', 'eliallen89'}",2022-02-23T23:36:47.4623
 444433367,656318,38612708,10,2,1,TeamTessie/tessietodo-static,Our static Tessie To-do App,"{'tamacodechi', 'ShellyCoen'}",2022-02-23T23:36:47.4623
 313760653,3037127,2349728,25,127,9455,pockethub/PocketHub,PocketHub Android App,"{'kevinsawicki', 'Meisolsson'}",2022-02-23T23:36:47.4623
-436289040,61815862,7715820,29,67,8742,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{'DaveDavenport', 'sardemff7'}",2022-02-23T23:36:47.4623
+302938010,211851,5373673,29,66,2712,jlord/sheetsee.js,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,"{'jlord', 'mjhea0'}",2022-02-23T23:36:47.4623
 312341626,9935383,13900913,14,50,18007,dracula/dracula-theme,🧛🏻‍♂️ One theme. All platforms.,"{'zenorocha', 'heinst'}",2022-02-23T23:36:47.4623
 356891260,1884246,133969505,29,14,111,wessberg/Polyfiller,Never worry about polyfills again.,"{'wessberg', 'tommedema'}",2022-02-23T23:36:47.4623
 381465486,5842360,47419579,29,32,265,andreasgrill/auto-selfcontrol,Small utility to schedule start and stop times of SelfControl,"{'andreasgrill', 'sbibauw'}",2022-02-23T23:36:47.4623
@@ -4376,16 +4376,15 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 400813204,20134767,36040894,24,337,52436,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{'KyleAMathews', 'pieh'}",2022-02-23T23:36:47.4623
 336566384,1368727,268086996,0,30,11,dotellie/nestjs-graphql-pagination,Decorators to allow easily building up relay compatible pagination types,"{'renovate-bot', 'dotellie'}",2022-02-23T23:36:47.4623
 359971541,28281924,361310,29,26,9528,teamcapybara/capybara,Acceptance test framework for web applications,"{'twalpole', 'jnicklas'}",2022-02-23T23:36:47.4623
-450574015,3662109,334169919,29,22,1276,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{'ehsandeep', 'Mzack9999'}",2022-02-23T23:36:47.4623
+455678420,6499373,36040894,24,336,52439,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{'KyleAMathews', 'pieh'}",2022-02-23T23:36:47.4623
 460725612,8200073,439686345,2,0,1,salindae25/frontend-challenges,frontend mentor challenges,{'salindae25'},2022-02-24T07:14:06.199012
-442470627,24606613,6106472,8,14,1278,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{'survivingwithandroid'},2022-02-23T23:36:47.4623
 407102326,4386534,15393566,29,32,5481,AriaMinaei/theatre,Motion design editor for the web,"{'AriaMinaei', 'AndrewPrifer'}",2022-02-23T23:36:47.4623
 435800079,16268467,23083156,11,980,76053,mui-org/material-ui,"MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{'oliviertassinari', 'dmtrKovalenko'}",2022-02-23T23:36:47.4623
 425791199,7293310,39213332,29,0,4,TheNaoX/woodo,Sudo woodo script in Go,{'TheNaoX'},2022-02-23T23:36:47.4623
 408008691,45036724,61059364,29,38,667,metaverse/truss,Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.,"{'adamryman', 'lelandbatey'}",2022-02-23T23:36:47.4623
-447732936,3941856,263146261,29,16,1933,MaggieAppleton/digital-gardeners,"Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs","{'MaggieAppleton', 'theianjones'}",2022-02-23T23:36:47.4623
-455678420,6499373,36040894,24,336,52436,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{'KyleAMathews', 'pieh'}",2022-02-23T23:36:47.4623
-457526756,74566464,400851369,29,1,534,lewis6991/impatient.nvim,Improve startup time for Neovim,"{'lewis6991', 'clason'}",2022-02-23T23:36:47.4623
+444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{'g-ben-wiz'},2022-02-23T23:36:47.4623
+450574015,3662109,334169919,29,22,1278,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{'ehsandeep', 'Mzack9999'}",2022-02-23T23:36:47.4623
+457526756,74566464,400851369,29,1,536,lewis6991/impatient.nvim,Improve startup time for Neovim,"{'lewis6991', 'clason'}",2022-02-23T23:36:47.4623
 427924349,2480219,257404606,29,3,51,textileio/js-examples,Examples and demos using Textile's Javascript/Typescript libraries and clients.,"{'andrewxhill', 'carsonfarmer'}",2022-02-23T23:36:47.4623
 215550527,1930729,202787876,29,197,11683,Rigellute/spotify-tui,Spotify for the terminal written in Rust 🚀,"{'Rigellute', 'jfaltis'}",2022-02-23T23:36:47.4623
 407663252,35779241,4067434,29,219,2735,andialbrecht/sqlparse,A non-validating SQL parser module for Python,"{'andialbrecht', 'vmuriart'}",2022-02-23T23:36:47.4623
@@ -4401,11 +4400,12 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{'jamesshore', 'luontola'}",2022-02-23T23:36:47.4623
 333601244,12292047,37205440,29,171,4409,dequelabs/axe-core,Accessibility engine for automated Web UI testing,"{'WilcoFiers', 'straker'}",2022-02-23T23:36:47.4623
 422464827,505751,24594933,29,60,5122,Unleash/unleash,Unleash is the open source feature toggle service.,"{'ivarconr', 'thomasheartman'}",2022-02-23T23:36:47.4623
-444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{'g-ben-wiz'},2022-02-23T23:36:47.4623
+447732936,3941856,263146261,29,16,1934,MaggieAppleton/digital-gardeners,"Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs","{'MaggieAppleton', 'theianjones'}",2022-02-23T23:36:47.4623
 330475048,61131314,31792824,29,10455,136987,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{'engine-flutter-autoroll', 'abarth'}",2022-02-23T23:36:47.4623
 417381369,79887,2928944,29,1607,3337,Azure/azure-sdk-for-net,This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ,"{'azure-sdk', 'pakrym'}",2022-02-23T23:36:47.4623
 359508510,36890230,114416028,8,0,4,datadesk/audiogram,Turn audio into a shareable video.,"{'veltman', 'palewire'}",2022-02-23T23:36:47.4623
 456471693,83277146,90528830,4,37,39577,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{'Solido', 'jogboms'}",2022-02-23T23:36:47.4623
+442470627,24606613,6106472,8,14,1278,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{'survivingwithandroid'},2022-02-23T23:36:47.4623
 429224238,1645545,81075897,29,49,253,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{'isaacsas', 'TorkelE'}",2022-02-23T23:36:47.4623
 418175317,1917293,401300251,29,0,2,Gen-R/organisation,GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu,{'mrchristian'},2022-02-23T23:36:47.4623
 456168834,5381468,95863194,29,22,9821,kettanaito/naming-cheatsheet,Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.,"{'kettanaito', 'mhizterkeyz'}",2022-02-23T23:36:47.4623
@@ -4421,7 +4421,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 463772639,56942462,287081652,13,0,1,ugwustanley/search-countries,,{'ugwustanley'},2022-03-02T07:02:22.745225
 363497692,4838867,1062897,2,217,130150,github/gitignore,A collection of useful .gitignore templates,"{'shiftkey', 'arcresu'}",2022-02-23T23:36:47.4623
 351353449,35429278,373396052,29,1,46,ri7nz/rescript-chakra,⚡️⚛️ ReScript bindings for @chakra-ui/react,"{'ri7nz', 'semantic-release-bot'}",2022-02-23T23:36:47.4623
+354384496,17671332,369905667,3,12,32,Mintbean/DevCollective.io,"DevCollective.io is an open source community of developers, by developers, for developers. If you like what we're doing, don't pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We're a diverse, inclusive and newbie-friendly project.","{'monarchwadia', 'CoderDill'}",2022-02-23T23:36:47.4623
 321809845,907680,70908474,29,62,933,whitecatboard/Lua-RTOS-ESP32,Lua RTOS for ESP32,"{'jolivepetrus', 'chowette'}",2022-02-23T23:36:47.4623
 399559931,30369246,21405028,29,2,10270,ardanlabs/gotraining,Go Training Class Material : ,"{'ardan-bkennedy', 'jcbwlkr'}",2022-02-23T23:36:47.4623
 348380714,1645628,18609427,29,363,13014,tc39/ecma262,"Status, process, and documents for ECMA-262","{'jmdyck', 'anba'}",2022-02-23T23:36:47.4623
-354384496,17671332,369905667,3,12,32,Mintbean/DevCollective.io,"DevCollective.io is an open source community of developers, by developers, for developers. If you like what we're doing, don't pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We're a diverse, inclusive and newbie-friendly project.","{'monarchwadia', 'CoderDill'}",2022-02-23T23:36:47.4623
