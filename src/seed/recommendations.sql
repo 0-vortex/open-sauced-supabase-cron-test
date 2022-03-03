@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T08:45:06.026Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T12:51:27.919Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1956,8 +1956,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (181125170, 1, 0, 1, 0, 25, 'BaseMax/FlaskSample', 'A sample project based on python and flask.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (181308113, 605, 18, 1, 0, 23, 'calintamas/react-native-toast-message', 'Animated toast message component for React Native', ARRAY['calintamas', 'ioanabudai'], '2022-02-23T23:35:41.043146+00:00'),
 (181462414, 13269, 14, 2, 0, 9, 'Alikhll/golang-developer-roadmap', 'Roadmap to becoming a Go developer in 2020', ARRAY['Alikhll', 'roblaszczak'], '2022-02-23T23:35:41.043146+00:00'),
-(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (180687624, 9785, 167, 1, 0, 5, 'aquasecurity/trivy', 'Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues', ARRAY['knqyf263', 'simar7'], '2022-02-23T23:35:41.043146+00:00'),
+(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (181209141, 1, 0, 1, 0, 23, 'BaseMax/ShowAli', 'Display the ''Ali'' name as art and pattern using * character.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (181575785, 2009, 5, 2, 0, 18, 'kentcdodds/react-hooks', 'Learn React Hooks! 🎣 ⚛', ARRAY['kentcdodds', 'Aprillion'], '2022-02-23T23:35:41.043146+00:00'),
 (182067506, 4780, 48, 1, 0, 20, 'quantumblacklabs/kedro', 'A Python framework for creating reproducible, maintainable and modular data science code.', ARRAY['lorenabalan', '921kiyo'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3429,11 +3429,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
-(387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
+(387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
-(387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
+(387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387286310, 1, 0, 1, 0, 4, 'eventhorizongames/EventHorizon.Game.Server.Zone', null, ARRAY['canhorn'], '2022-02-23T23:35:41.043146+00:00'),
 (387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-23T23:35:41.043146+00:00'),
 (387461341, 1, 0, 1, 0, 19, 'muhammaddzaky/alfathir.github.io', null, ARRAY['alfathir', 'giadev25'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3519,8 +3519,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395575559, 10, 3, 1, 0, 21, 'teknologi-umum/blog', 'Blog for Teknologi Umum', ARRAY['aldy505', 'elianiva'], '2022-02-23T23:35:41.043146+00:00'),
 (395667322, 35, 1, 1, 0, 13, 'stack-on-fire/fire-flags', 'Dead simple and blazing fast feature-flags platform. Get started in minutes. Be confident when releasing new features for your application!', ARRAY['d-ivashchuk', 'edoardoc'], '2022-02-23T23:35:41.043146+00:00'),
 (396086379, 54, 6, 1, 0, 21, 'kb24x7/rustyvibes', 'A Rust CLI that makes mechanical keyboard sound effects on every key press', ARRAY['kb24x7', 'binarybana'], '2022-02-23T23:35:41.043146+00:00'),
-(396327436, 181, 0, 1, 0, 25, 'devkodeio/the-dom-challenge', 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ARRAY['sunnypuri'], '2022-02-23T23:35:41.043146+00:00'),
 (396169668, 1, 0, 1, 0, 1, 'lesmo/pinentry-wsl-ps1', 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', ARRAY['diablodale'], '2022-02-23T23:35:41.043146+00:00'),
+(396327436, 181, 0, 1, 0, 25, 'devkodeio/the-dom-challenge', 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ARRAY['sunnypuri'], '2022-02-23T23:35:41.043146+00:00'),
 (396178107, 1, 0, 1, 0, 1, 'abdamah/SpringBoot2SecurityJwt', null, ARRAY['abdamah'], '2022-02-23T23:35:41.043146+00:00'),
 (396419975, 2, 0, 1, 0, 5, 'shubhank-saxena/GSoC-Final-Report', null, ARRAY['shubhank-saxena'], '2022-02-23T23:35:41.043146+00:00'),
 (396613541, 305, 3, 1, 0, 29, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'userquin'], '2022-02-23T23:35:41.043146+00:00'),
