@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T22:44:22.779Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T01:03:54.776Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2885,9 +2885,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (311888571, 125, 2, 1, 0, 25, 'ngneat/dag', '🐠 An Angular service for managing directed acyclic graphs', ARRAY['pjlamb12', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (311916226, 1553, 81, 1, 0, 14, 'TeamPiped/Piped', 'An alternative privacy-friendly YouTube frontend which is efficient by design.', ARRAY['FireMasterK', 'weblate'], '2022-02-23T23:35:41.043146+00:00'),
 (312555705, 101, 16, 1, 0, 18, 'kubowania/burger-api', 'My Burger Api', ARRAY['kubowania', 'brandonleboeuf'], '2022-02-23T23:35:41.043146+00:00'),
-(312818155, 21, 1, 1, 0, 15, 'abdalrahman-ali/vim-remembers', 'A vim plugin that emulates Notepad++ ''remembering'' the contents of unnamed files.', ARRAY['abdalrahman-ali'], '2022-02-23T23:35:41.043146+00:00'),
-(313285274, 669, 2, 1, 0, 25, 'oleg-agapov/data-engineering-book', 'Accumulated knowledge and experience in the field of Data Engineering', ARRAY['oleg-agapov', 'evelinesurbakti'], '2022-02-23T23:35:41.043146+00:00'),
-(313360710, 38, 1, 1, 0, 15, 'satyawikananda/cardivo', 'Get your card name and put it in your magic readme 📇', ARRAY['satyawikananda', 'yanchespenda'], '2022-02-23T23:35:41.043146+00:00'),
 (313452056, 2, 0, 1, 0, 8, 'cdfoundation/the-pipeline-podcast', 'The Pipeline: All things CD & DevOps playbook', ARRAY['jsalinas29'], '2022-02-23T23:35:41.043146+00:00'),
 (313722736, 54, 0, 1, 0, 15, 'ko1/ractor-tvar', null, ARRAY['ko1'], '2022-02-23T23:35:41.043146+00:00'),
 (313958197, 25, 2, 1, 0, 21, 'fthx/workspaces-bar', 'GNOME Shell extension that shows workspaces buttons in top panel', ARRAY['fthx', 'null-git'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2937,6 +2934,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (319167362, 1139, 56, 1, 0, 23, 'hay-kot/mealie', 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ARRAY['hay-kot', 'sephrat'], '2022-02-23T23:35:41.043146+00:00'),
 (319185224, 103, 9, 1, 0, 18, 'ubenmackin/ACVM', 'GUI frontend for qemu for Apple Silicon based Macs', ARRAY['ubenmackin', 'KhaosT'], '2022-02-23T23:35:41.043146+00:00'),
 (319302752, 1311, 64, 1, 0, 3, 'whittlem/pycryptobot', 'Python Crypto Bot', ARRAY['whittlem', 'markhollingworth-worthit'], '2022-02-23T23:35:41.043146+00:00'),
+(312818155, 21, 1, 1, 0, 15, 'abdalrahman-ali/vim-remembers', 'A vim plugin that emulates Notepad++ ''remembering'' the contents of unnamed files.', ARRAY['abdalrahman-ali'], '2022-02-23T23:35:41.043146+00:00'),
+(313285274, 669, 2, 1, 0, 25, 'oleg-agapov/data-engineering-book', 'Accumulated knowledge and experience in the field of Data Engineering', ARRAY['oleg-agapov', 'evelinesurbakti'], '2022-02-23T23:35:41.043146+00:00'),
+(313360710, 38, 1, 1, 0, 15, 'satyawikananda/cardivo', 'Get your card name and put it in your magic readme 📇', ARRAY['satyawikananda', 'yanchespenda'], '2022-02-23T23:35:41.043146+00:00'),
 (319475939, 6, 2, 1, 0, 26, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ARRAY['tapjdey', 'WillemJiang'], '2022-02-23T23:35:41.043146+00:00'),
 (319742187, 523, 296, 1, 0, 0, 'mdn/translated-content', 'All translated MDN content in raw form', ARRAY['mfuji09', 'SphinxKnight'], '2022-02-23T23:35:41.043146+00:00'),
 (319935795, 8, 0, 1, 0, 12, 'zawad2221/Twitter-Django-Bot', 'Twitter Bot who like and retweet #django #python. ', ARRAY['zawad2221'], '2022-02-23T23:35:41.043146+00:00'),
