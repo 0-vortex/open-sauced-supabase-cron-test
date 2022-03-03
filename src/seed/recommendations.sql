@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T02:53:49.071Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T04:47:56.829Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -696,8 +696,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (36077404, 2306, 91, 1, 0, 10, 'jolibrain/deepdetect', 'Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE', ARRAY['beniz', 'fantes'], '2022-02-23T23:35:41.043146+00:00'),
 (36256540, 15611, 114, 2, 0, 10, 'css-modules/css-modules', 'Documentation about css-modules', ARRAY['geelen', 'markdalgleish'], '2022-02-23T23:35:41.043146+00:00'),
 (36307949, 8, 3, 1, 0, 7, 'sagielevy/C2Py', 'Convert C Structs to Python with ease!', ARRAY['sagielevy', 'sagielightricks'], '2022-02-23T23:35:41.043146+00:00'),
-(36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-23T23:35:41.043146+00:00'),
 (36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-23T23:35:41.043146+00:00'),
+(36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-23T23:35:41.043146+00:00'),
 (36616176, 3175, 16, 2, 0, 6, 'elixirschool/elixirschool', 'The content behind Elixir School', ARRAY['doomspork', 'nscyclone'], '2022-02-23T23:35:41.043146+00:00'),
 (36633370, 74663, 141, 1, 0, 4, 'awesome-selfhosted/awesome-selfhosted', 'A list of Free Software network services and web applications which can be hosted on your own servers', ARRAY['nodiscc', 'n8225'], '2022-02-23T23:35:41.043146+00:00'),
 (36732731, 3636, 13, 1, 0, 23, 'ganqqwerty/123-Essential-JavaScript-Interview-Questions', 'JavaScript interview Questions', ARRAY['ganqqwerty', 'nishant8BITS'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1378,8 +1378,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (106867604, 2088, 144, 1, 0, 28, 'cloudflare/cloudflared', 'Cloudflare Tunnel client (formerly Argo Tunnel)', ARRAY['adamchalmers', 'chungthuang'], '2022-02-23T23:35:41.043146+00:00'),
 (107111421, 57431, 8, 3, 0, 5, 'thedaviddias/Front-End-Checklist', '🗂 The perfect Front-End Checklist for modern websites and meticulous developers', ARRAY['thedaviddias', 'jochenkirstaetter'], '2022-02-23T23:35:41.043146+00:00'),
 (106974487, 23, 14, 1, 0, 22, 'gitcoinco/ios', 'Push Open Source Forward', ARRAY['cheneveld', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
-(107235160, 23, 0, 1, 0, 15, 'ZennerIoT/element-parsers', 'Parsers for LoRaWAN Sensors on ELEMENT-IoT', ARRAY['h4cc', 'datensalat'], '2022-02-23T23:35:41.043146+00:00'),
 (107290035, 26, 11, 1, 0, 25, 'sumup-oss/foundry', 'A toolkit for building JavaScript & TypeScript applications.', ARRAY['connor-baer', 'felixjung'], '2022-02-23T23:35:41.043146+00:00'),
+(107235160, 23, 0, 1, 0, 15, 'ZennerIoT/element-parsers', 'Parsers for LoRaWAN Sensors on ELEMENT-IoT', ARRAY['h4cc', 'datensalat'], '2022-02-23T23:35:41.043146+00:00'),
 (107150504, 1, 0, 1, 0, 17, 'whuang8/herp-derp', 'Speed Game', ARRAY['whuang8', 'jonathanyeong'], '2022-02-23T23:35:41.043146+00:00'),
 (124451758, 13, 9, 1, 0, 24, 'gitcoinco/GIPs', 'Gitcoin Improvement Proposals', ARRAY['pirapira', 'fulldecent'], '2022-02-23T23:35:41.043146+00:00'),
 (107446339, 59, 0, 1, 0, 26, 'yugabyte/yb-iot-fleet-management', 'Sample IoT application simulating a monitoring dashboard for a fleet management/shipping company.', ARRAY['rkarthik007', 'baghelamit'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2367,8 +2367,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-23T23:35:41.043146+00:00'),
 (240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-23T23:35:41.043146+00:00'),
 (240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-23T23:35:41.043146+00:00'),
-(240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-23T23:35:41.043146+00:00'),
 (241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-23T23:35:41.043146+00:00'),
+(240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-23T23:35:41.043146+00:00'),
 (241092383, 1931, 27, 1, 0, 4, 'docker/build-push-action', 'GitHub Action to build and push Docker images with Buildx', ARRAY['crazy-max', 'zappy-shu'], '2022-02-23T23:35:41.043146+00:00'),
 (241303926, 73, 0, 1, 0, 17, 'mikenye/docker-readsb', 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ARRAY['mikenye', 'SalazarBruno'], '2022-02-23T23:35:41.043146+00:00'),
 (241529345, 691, 14, 1, 0, 25, 'wellyshen/react-cool-portal', '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', ARRAY['wellyshen', 'hinok'], '2022-02-23T23:35:41.043146+00:00'),
