@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T22:44:20.724Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T01:04:15.206Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2509,8 +2509,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (260008253, 28, 5, 1, 0, 4, 'helium/console-decoders', 'Payload decoder functions for console.', ARRAY['jas-williams', 'illperipherals'], '2022-02-23T23:35:41.043146+00:00'),
 (260360088, 1, 0, 1, 0, 9, 'live2o3/live2o3-archived', 'Yet another simple rtmp server.', ARRAY['gengteng'], '2022-02-23T23:35:41.043146+00:00'),
 (260432296, 1756, 14, 1, 0, 28, 'H-M-H/Weylus', 'Use your tablet as graphic tablet/touch screen on your computer.', ARRAY['H-M-H', 'rschroll'], '2022-02-23T23:35:41.043146+00:00'),
-(260669334, 1, 22, 1, 0, 27, 'SchoolOfFreelancing/Docker-Child-Protection', 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ARRAY['UbuntuEvangelist', 'goldshtofsara'], '2022-02-23T23:35:41.043146+00:00'),
 (260554261, 2137, 30, 1, 0, 7, 'johnsoncodehk/volar', '⚡ Explore high-performance tooling for Vue', ARRAY['johnsoncodehk', 'IWANABETHATGUY'], '2022-02-23T23:35:41.043146+00:00'),
+(260669334, 1, 22, 1, 0, 27, 'SchoolOfFreelancing/Docker-Child-Protection', 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ARRAY['UbuntuEvangelist', 'goldshtofsara'], '2022-02-23T23:35:41.043146+00:00'),
 (260719813, 196, 7, 1, 0, 15, 'NyaomiDEV/Glasstron', 'The go-to solution to Electron composition effects, such as blurry windows.', ARRAY['NyaomiDEV', 'KorbsStudio'], '2022-02-23T23:35:41.043146+00:00'),
 (260751863, 14214, 44, 1, 0, 0, 'cyrildiagne/ar-cutpaste', 'Cut and paste your surroundings using AR', ARRAY['cyrildiagne', 'xraymemory'], '2022-02-23T23:35:41.043146+00:00'),
 (260800773, 3316, 0, 1, 0, 21, 'huangsam/ultimate-python', 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ARRAY['huangsam', 'Add1solver'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3134,6 +3134,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (346301397, 2, 0, 1, 0, 2, 'jebitok-dev/stay-in-touch', 'Building a social app called ''Stay-in-Touch''. The aim of this project is to implement and test advanced RoR methods & lessons.', ARRAY['jebitok-dev', 'nidalaa'], '2022-02-23T23:35:41.043146+00:00'),
 (346534675, 23, 0, 1, 0, 29, 'bitprj/Intro-To-Serverless', 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', ARRAY['emsesc', 'ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (347154449, 1, 1, 1, 0, 28, 'CodingMoore/soil-ent-green-react-v2', null, ARRAY['CodingMoore'], '2022-02-23T23:35:41.043146+00:00'),
+(347225766, 25, 0, 1, 0, 6, 'atymic/mylot-article-scraper', 'Scrapes historical mylot articles to PDF 🤖', ARRAY['atymic', 'abhinav4848'], '2022-02-23T23:35:41.043146+00:00'),
 (344546342, 14, 1, 2, 0, 14.5, 'hunterbecton/react-firebase-passwordless', null, ARRAY['hunterbecton'], '2022-02-23T23:35:41.043146+00:00'),
 (347502287, 3656, 6, 1, 0, 19, 'kingoflolz/mesh-transformer-jax', 'Model parallel transformers in JAX and Haiku', ARRAY['kingoflolz', 'nostalgebraist'], '2022-02-23T23:35:41.043146+00:00'),
 (347604812, 7, 0, 2, 0, 0, 'ramazansakin/ghclogger', 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', ARRAY['ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3144,7 +3145,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (348038429, 334, 2, 1, 0, 7, 'PrathamKumar14/CSS-Layout-Notes', 'HTML, CSS and JavaScript handwritten cheat sheets you💖', ARRAY['PrathamKumar14'], '2022-02-23T23:35:41.043146+00:00'),
 (348045692, 2, 1, 1, 0, 17, 'edemaine/shtml2html', 'Convert Apache server-side rendered HTML to static HTML', ARRAY['edemaine'], '2022-02-23T23:35:41.043146+00:00'),
 (348300013, 17, 12, 1, 0, 11, 'github/ghas-jira-integration', null, ARRAY['zbazztian', 'cmboling'], '2022-02-23T23:35:41.043146+00:00'),
-(347225766, 25, 0, 1, 0, 6, 'atymic/mylot-article-scraper', 'Scrapes historical mylot articles to PDF 🤖', ARRAY['atymic', 'abhinav4848'], '2022-02-23T23:35:41.043146+00:00'),
 (347280413, 7, 1, 1, 0, 22, 'victorfarias98/arrayswithjavascript', null, ARRAY['victorfarias98', 'adrcav'], '2022-02-23T23:35:41.043146+00:00'),
 (348324348, 6, 0, 1, 0, 24, 'udberg/Transaction-App', 'This project is based on an app for grouping payments by a goal with your family/friends. The contents of this website are personalized, i.e., - it can be for grouping hours spent on different projects at your university or for grouping kilometers by means of transportations in your family - anything that you can share with other people and group by some category. You can access all the design info (color, typography, layouts) in this link: https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding Design idea by Gregoire Vella on Behance.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (348959590, 303, 5, 1, 0, 7, 'HotPotatoC/twitter-clone', '🕊 Twitter Clone developed using Go + Vue 3 + Vite + TailwindCSS + PostgreSQL + Redis', ARRAY['HotPotatoC'], '2022-02-23T23:35:41.043146+00:00'),
