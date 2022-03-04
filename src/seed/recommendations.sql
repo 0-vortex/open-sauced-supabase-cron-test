@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T14:44:18.938Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T16:50:53.796Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1658,13 +1658,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (141061403, 65, 5, 1, 0, 13, 'zloylos/grsync', 'Golang rsync wrapper', ARRAY['zloylos', 'chenCL667'], '2022-02-23T23:35:41.043146+00:00'),
 (141334515, 359, 3, 1, 0, 6, 'kormyen/memex', 'Simple bookmarks and notes', ARRAY['kormyen', 'lcb931023'], '2022-02-23T23:35:41.043146+00:00'),
 (141430876, 48, 8, 1, 0, 5, 'rubensworks/jsonld-streaming-parser.js', 'A fast and lightweight streaming JSON-LD parser for JavaScript', ARRAY['rubensworks', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (141717232, 250, 170, 1, 0, 14, 'status-im/nimbus-eth2', 'Nim implementation of the Ethereum 2.0 blockchain', ARRAY['tersec', 'zah'], '2022-02-23T23:35:41.043146+00:00'),
 (141843316, 289, 8, 1, 0, 1, 'demystifyfp/FsToolkit.ErrorHandling', 'An opinionated F# Library for error handling', ARRAY['TheAngryByrd', 'tamizhvendan'], '2022-02-23T23:35:41.043146+00:00'),
 (141380542, 1706, 10, 1, 0, 10, 'minamarkham/formation', '💻 macOS setup script for front-end development', ARRAY['minamarkham', 'bentsai'], '2022-02-23T23:35:41.043146+00:00'),
 (141166490, 581, 9, 1, 0, 7, 'operatortc/tonic', 'A Low Profile Component Framework – Stable, minimal, easy to audit, zero-dependencies and build-tool-free.', ARRAY['Raynos', 'heapwolf'], '2022-02-23T23:35:41.043146+00:00'),
 (141352703, 2157, 81, 1, 0, 2, 'smallstep/cli', '🧰  A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.', ARRAY['maraino', 'dopey'], '2022-02-23T23:35:41.043146+00:00'),
 (141910081, 12184, 102, 1, 0, 9, 'faressoft/terminalizer', '🦄 Record your terminal and generate animated gif images or share a web player', ARRAY['faressoft', 'noplanman'], '2022-02-23T23:35:41.043146+00:00'),
-(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (142616550, 569, 4, 1, 0, 5, 'bernaferrari/EmojiSlider', '🤯 A slider widget rich in emoji and highly customisable.', ARRAY['bernaferrari', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (142700177, 12, 1, 1, 0, 4, 'JulianSchmid/someip-parse-rs', 'A Rust library for parsing the SOME/IP network protocol (without payload interpretation).', ARRAY['JulianSchmid', 'marcelbuesing'], '2022-02-23T23:35:41.043146+00:00'),
 (142714512, 10493, 133, 1, 0, 21, 'jxnblk/mdx-deck', '♠️ React MDX-based presentation decks', ARRAY['jxnblk', 'busypeoples'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2166,13 +2166,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (210796618, 1386, 22, 1, 0, 21, 'puncsky/system-design-and-architecture', 'Learn how to design large-scale systems. Prep for the system design interview.', ARRAY['puncsky', 'jorgedfbranco'], '2022-02-23T23:35:41.043146+00:00'),
 (210903466, 84, 9, 1, 0, 17, 'redwoodjs/example-blog', 'Example Blog app written with Redwood', ARRAY['peterp', 'thedavidprice'], '2022-02-23T23:35:41.043146+00:00'),
 (211467758, 1806, 32, 1, 0, 7, 'liuchengxu/vim-clap', ':clap: Modern performant fuzzy picker for Vim and NeoVim', ARRAY['liuchengxu', 'romgrk'], '2022-02-23T23:35:41.043146+00:00'),
-(211288349, 10113, 72, 1, 0, 8, 'android/compose-samples', 'Official Jetpack Compose samples.', ARRAY['JoseAlcerreca', 'nickbutcher'], '2022-02-23T23:35:41.043146+00:00'),
-(211540698, 1413, 110, 1, 0, 24, 'kmonad/kmonad', 'An advanced keyboard manager', ARRAY['david-janssen', 'slotThe'], '2022-02-23T23:35:41.043146+00:00'),
 (211665033, 5129, 43, 1, 0, 21, 'andreasbm/web-skills', 'A visual overview of useful skills to learn as a web developer', ARRAY['andreasbm', 'AkshatJen'], '2022-02-23T23:35:41.043146+00:00'),
 (211698592, 29, 0, 1, 0, 28, 'alex2844/js-events', null, ARRAY['alex2844'], '2022-02-23T23:35:41.043146+00:00'),
 (211340922, 278, 22, 1, 0, 11, 'uraimo/run-on-arch-action', 'A Github Action that executes jobs/commands on non-x86 cpu architectures (ARMv6, ARMv7, aarch64, s390x, ppc64le)', ARRAY['uraimo', 'elijahr'], '2022-02-23T23:35:41.043146+00:00'),
 (211976003, 25, 7, 1, 0, 11, 'BekahHW/postpartum-wellness-app', 'An app to help moms monitor their well-being during the post-partum stage.', ARRAY['BekahHW', 'dominicduffin1'], '2022-02-23T23:35:41.043146+00:00'),
 (211595183, 308, 0, 1, 0, 4, 'osamaqarem/spotify-lite', 'Spotify Lite made with React Native for iOS and Android', ARRAY['osamaqarem'], '2022-02-23T23:35:41.043146+00:00'),
+(211288349, 10113, 72, 1, 0, 8, 'android/compose-samples', 'Official Jetpack Compose samples.', ARRAY['JoseAlcerreca', 'nickbutcher'], '2022-02-23T23:35:41.043146+00:00'),
+(211540698, 1413, 110, 1, 0, 24, 'kmonad/kmonad', 'An advanced keyboard manager', ARRAY['david-janssen', 'slotThe'], '2022-02-23T23:35:41.043146+00:00'),
 (210450402, 1735, 49, 1, 0, 5, 'adelsz/pgtyped', 'pgTyped - Typesafe SQL in TypeScript', ARRAY['adelsz', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (212270500, 29, 3, 1, 0, 22, '101t/jasmin-web-panel', '📨 Jasmin Web Panel for Jasmin SMS Gateway', ARRAY['101t', 'rakibulinux'], '2022-02-23T23:35:41.043146+00:00'),
 (212270676, 10, 1, 1, 0, 12, 'edoardottt/programming-fundamentals', 'Programming fundamentals.🧠 Material useful for learning Python, start coding and learn how to solve logically a real world problem.', ARRAY['edoardottt', 'POP1912'], '2022-02-23T23:35:41.043146+00:00'),
