@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T12:51:35.972Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T14:44:18.938Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1658,13 +1658,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (141061403, 65, 5, 1, 0, 13, 'zloylos/grsync', 'Golang rsync wrapper', ARRAY['zloylos', 'chenCL667'], '2022-02-23T23:35:41.043146+00:00'),
 (141334515, 359, 3, 1, 0, 6, 'kormyen/memex', 'Simple bookmarks and notes', ARRAY['kormyen', 'lcb931023'], '2022-02-23T23:35:41.043146+00:00'),
 (141430876, 48, 8, 1, 0, 5, 'rubensworks/jsonld-streaming-parser.js', 'A fast and lightweight streaming JSON-LD parser for JavaScript', ARRAY['rubensworks', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (141717232, 250, 170, 1, 0, 14, 'status-im/nimbus-eth2', 'Nim implementation of the Ethereum 2.0 blockchain', ARRAY['tersec', 'zah'], '2022-02-23T23:35:41.043146+00:00'),
 (141843316, 289, 8, 1, 0, 1, 'demystifyfp/FsToolkit.ErrorHandling', 'An opinionated F# Library for error handling', ARRAY['TheAngryByrd', 'tamizhvendan'], '2022-02-23T23:35:41.043146+00:00'),
 (141380542, 1706, 10, 1, 0, 10, 'minamarkham/formation', '💻 macOS setup script for front-end development', ARRAY['minamarkham', 'bentsai'], '2022-02-23T23:35:41.043146+00:00'),
 (141166490, 581, 9, 1, 0, 7, 'operatortc/tonic', 'A Low Profile Component Framework – Stable, minimal, easy to audit, zero-dependencies and build-tool-free.', ARRAY['Raynos', 'heapwolf'], '2022-02-23T23:35:41.043146+00:00'),
 (141352703, 2157, 81, 1, 0, 2, 'smallstep/cli', '🧰  A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.', ARRAY['maraino', 'dopey'], '2022-02-23T23:35:41.043146+00:00'),
 (141910081, 12184, 102, 1, 0, 9, 'faressoft/terminalizer', '🦄 Record your terminal and generate animated gif images or share a web player', ARRAY['faressoft', 'noplanman'], '2022-02-23T23:35:41.043146+00:00'),
+(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (142616550, 569, 4, 1, 0, 5, 'bernaferrari/EmojiSlider', '🤯 A slider widget rich in emoji and highly customisable.', ARRAY['bernaferrari', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (142700177, 12, 1, 1, 0, 4, 'JulianSchmid/someip-parse-rs', 'A Rust library for parsing the SOME/IP network protocol (without payload interpretation).', ARRAY['JulianSchmid', 'marcelbuesing'], '2022-02-23T23:35:41.043146+00:00'),
 (142714512, 10493, 133, 1, 0, 21, 'jxnblk/mdx-deck', '♠️ React MDX-based presentation decks', ARRAY['jxnblk', 'busypeoples'], '2022-02-23T23:35:41.043146+00:00'),
