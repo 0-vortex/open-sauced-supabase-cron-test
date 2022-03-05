@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T18:45:57.703Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T20:44:18.294Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -556,12 +556,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (22790488, 72008, 264, 1, 0, 2, 'iluwatar/java-design-patterns', 'Design patterns implemented in Java', ARRAY['iluwatar', 'npathai'], '2022-02-23T23:35:41.043146+00:00'),
 (22858482, 159, 16, 1, 0, 16, 'fonttools/region-flags', 'Collection of flags for BCP 47 region codes in SVG / PNG', ARRAY['behdad', 'behnam'], '2022-02-23T23:35:41.043146+00:00'),
 (22887094, 43251, 346, 1, 0, 11, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-23T23:35:41.043146+00:00'),
-(22895156, 1811, 1, 1, 0, 2, 'StartBootstrap/startbootstrap-agency', 'A one page HTML theme for agencies created by Start Bootstrap', ARRAY['davidtmiller', 'initplatform'], '2022-02-23T23:35:41.043146+00:00'),
-(23024191, 625, 71, 1, 0, 7, 'neu-rah/ArduinoMenu', 'Arduino generic menu/interactivity system', ARRAY['neu-rah', 'TamojitSaha'], '2022-02-23T23:35:41.043146+00:00'),
-(23083156, 73874, 909, 1, 0, 26, 'mui-org/material-ui', 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-23T23:35:41.043146+00:00'),
 (23096959, 93649, 7473, 4, 2, 14, 'golang/go', 'The Go programming language', ARRAY['rsc', 'griesemer'], '2022-02-23T23:35:41.043146+00:00'),
+(22895156, 1811, 1, 1, 0, 2, 'StartBootstrap/startbootstrap-agency', 'A one page HTML theme for agencies created by Start Bootstrap', ARRAY['davidtmiller', 'initplatform'], '2022-02-23T23:35:41.043146+00:00'),
 (23120157, 1661, 293, 1, 0, 28, 'overtake/telegram', 'Source code of deprecated Telegram for macos version', ARRAY['overtake', 'yangshun'], '2022-02-23T23:35:41.043146+00:00'),
 (23123294, 5162, 0, 1, 0, 9, 'angrave/SystemProgramming', 'Angrave''s Crowd-Sourced System Programming Book used at UIUC', ARRAY['angrave'], '2022-02-23T23:35:41.043146+00:00'),
+(23024191, 625, 71, 1, 0, 7, 'neu-rah/ArduinoMenu', 'Arduino generic menu/interactivity system', ARRAY['neu-rah', 'TamojitSaha'], '2022-02-23T23:35:41.043146+00:00'),
 (23202799, 6641, 766, 1, 0, 11, 'microsoft/cpprestsdk', 'The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.', ARRAY['stgates', 'ras0219-msft'], '2022-02-23T23:35:41.043146+00:00'),
 (23324450, 25, 15, 1, 0, 14, 'biylda/WhereYouGo', 'android app for Wherigo', ARRAY['biylda', 'Lineflyer'], '2022-02-23T23:35:41.043146+00:00'),
 (23404128, 1541, 68, 1, 0, 1, 'alephdata/aleph', 'Search and browse documents and data; find the people and companies you look for.', ARRAY['pudo', 'kjacks'], '2022-02-23T23:35:41.043146+00:00'),
@@ -655,6 +654,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (32688481, 560, 2, 1, 0, 26, 'frontendfront/front-end-conferences', 'This is a list of upcoming front-end related conferences.', ARRAY['frontendfront', 'AllThingsSmitty'], '2022-02-23T23:35:41.043146+00:00'),
 (32689863, 39860, 324, 1, 0, 11, '3b1b/manim', 'Animation engine for explanatory math videos', ARRAY['3b1b', 'TonyCrane'], '2022-02-23T23:35:41.043146+00:00'),
 (32711479, 1110, 3, 1, 0, 3, 'cpojer/js-codemod', 'Codemod scripts to transform code to next generation JS', ARRAY['cpojer', 'lencioni'], '2022-02-23T23:35:41.043146+00:00'),
+(23083156, 73874, 909, 1, 0, 26, 'mui-org/material-ui', 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-23T23:35:41.043146+00:00'),
 (32727687, 4507, 77, 1, 0, 27, 'mysticatea/npm-run-all', 'A CLI tool to run multiple npm-scripts in parallel or sequential.', ARRAY['mysticatea', 'k88hudson'], '2022-02-23T23:35:41.043146+00:00'),
 (32787174, 7698, 177, 1, 0, 25, 'grommet/grommet', 'a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package', ARRAY['ericsoderberghp', 'alansouzati'], '2022-02-23T23:35:41.043146+00:00'),
 (32838582, 14, 2, 1, 0, 26, 'kengz/Risk-game', 'Implementation of the 2-player Risk game and the AI to play it, for Math 335 Probability project.', ARRAY['kengz'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3431,15 +3431,15 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
-(387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
 (387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387286310, 1, 0, 1, 0, 4, 'eventhorizongames/EventHorizon.Game.Server.Zone', null, ARRAY['canhorn'], '2022-02-23T23:35:41.043146+00:00'),
 (387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-23T23:35:41.043146+00:00'),
 (387461341, 1, 0, 1, 0, 19, 'muhammaddzaky/alfathir.github.io', null, ARRAY['alfathir', 'giadev25'], '2022-02-23T23:35:41.043146+00:00'),
 (387501063, 31, 1, 1, 0, 6, 'cassidoo/shopify-next-netlify', 'A Shopify Next.js demo', ARRAY['cassidoo', 'verythorough'], '2022-02-23T23:35:41.043146+00:00'),
-(387466937, 1, 0, 1, 0, 21, 'muhammaddzaky/docker-radarr', null, ARRAY['sparklyballs', 'thelamer'], '2022-02-23T23:35:41.043146+00:00'),
+(387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
 (387624468, 3, 3, 1, 0, 7, 'gremlin/bootcamp-infrastructure', null, ARRAY['jyee'], '2022-02-23T23:35:41.043146+00:00'),
+(387466937, 1, 0, 1, 0, 21, 'muhammaddzaky/docker-radarr', null, ARRAY['sparklyballs', 'thelamer'], '2022-02-23T23:35:41.043146+00:00'),
 (387630224, 11, 4, 1, 0, 18, 'carmenkolohe/CodeSchoolQA', 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ARRAY['carmenkolohe', 'jendevelops'], '2022-02-23T23:35:41.043146+00:00'),
 (388004440, 47, 1, 1, 0, 0, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-23T23:35:41.043146+00:00'),
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
