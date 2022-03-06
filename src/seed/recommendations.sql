@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T18:45:56.590Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T20:44:17.622Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3648,8 +3648,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (426671225, 1, 0, 1, 0, 14, 'bmorrisondev/go-notion', null, ARRAY['bmorrisondev'], '2022-02-23T23:35:41.043146+00:00'),
 (426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-23T23:35:41.043146+00:00'),
 (426988203, 15, 0, 1, 0, 2, 'vunderkind/ethereum-dappiverse', 'A hitchhiker''s guide to the Ethereum dAppiverse', ARRAY['vunderkind'], '2022-02-23T23:35:41.043146+00:00'),
-(427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-23T23:35:41.043146+00:00'),
-(427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-23T23:35:41.043146+00:00'),
 (428727515, 1, 0, 2, 0, 0, 'HMTEUNIS/react-beats', null, ARRAY['WBian618', 'dandesantis14'], '2022-02-23T23:35:41.043146+00:00'),
 (429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-23T23:35:41.043146+00:00'),
 (429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-23T23:35:41.043146+00:00'),
+(427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
