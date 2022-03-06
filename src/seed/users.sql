@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T14:44:28.867Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T16:49:56.631Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -142,6 +142,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (74566464, 0, true, true, 'Pandademic', '2022-02-23T23:37:46.275917+00:00'),
 (3662109, 1, false, true, 'djdefi', '2022-02-23T23:37:43.693951+00:00'),
 (469997, 3, false, true, 'sobingt', '2022-02-23T23:43:59.766768+00:00'),
+(3941856, 0, false, true, 'prophen', '2022-02-23T23:37:08.741086+00:00'),
 (17671332, 1, false, true, 'CoderDill', '2022-02-24T09:03:27.949696+00:00'),
 (68660520, 2, false, true, 'code-in-public', '2022-02-23T23:37:08.741086+00:00'),
 (35429278, 3, false, true, 'enjinerd', '2022-02-23T23:37:08.741086+00:00'),
@@ -160,20 +161,19 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (66696421, 1, false, true, 'cozyCodr', '2022-02-23T23:37:08.741086+00:00'),
 (1645628, 8, false, true, 'mikachan', '2022-02-23T23:37:08.741086+00:00'),
 (76665107, 1, false, true, 'carrollsa', '2022-02-24T08:13:29.760807+00:00'),
-(3941856, 0, false, true, 'prophen', '2022-02-23T23:37:08.741086+00:00'),
+(61815862, 2, false, true, 'thebiblelover7', '2022-02-23T23:50:46.64108+00:00'),
 (34394719, 0, false, true, 'MiKr13', '2022-02-24T05:35:49.66888+00:00'),
 (57305940, 0, false, true, 'mgcarbonell', '2022-02-24T06:23:09.39846+00:00'),
-(61815862, 2, false, true, 'thebiblelover7', '2022-02-23T23:50:46.64108+00:00'),
-(5842360, 1, false, true, 'haffmaestro', '2022-02-24T06:58:00.310582+00:00'),
-(45293863, 0, true, true, 'bagatka', '2022-02-24T00:11:30.050462+00:00'),
 (11589902, 0, false, true, 'pac96', '2022-02-24T01:45:17.011728+00:00'),
-(24910512, 0, false, true, 'CyberFlameGO', '2022-02-24T01:46:11.298244+00:00'),
-(33669114, 1, false, true, 'peteroneilljr', '2022-02-23T23:37:08.741086+00:00'),
-(23166349, 4, false, true, 'ChamMach', '2022-02-23T23:37:08.741086+00:00'),
-(33148009, 9, false, true, 'papadavis47', '2022-02-24T10:36:07.682284+00:00'),
+(5842360, 1, false, true, 'haffmaestro', '2022-02-24T06:58:00.310582+00:00'),
 (50591491, 1, false, true, 'cryptus-neoxys', '2022-02-23T23:37:08.741086+00:00'),
-(22186029, 0, true, true, 'BenjaminMichaelis', '2022-02-24T05:02:31.03017+00:00'),
+(24910512, 1, false, true, 'CyberFlameGO', '2022-02-24T01:46:11.298244+00:00'),
+(23166349, 4, false, true, 'ChamMach', '2022-02-23T23:37:08.741086+00:00'),
+(33669114, 1, false, true, 'peteroneilljr', '2022-02-23T23:37:08.741086+00:00'),
+(45293863, 0, true, true, 'bagatka', '2022-02-24T00:11:30.050462+00:00'),
+(33148009, 9, false, true, 'papadavis47', '2022-02-24T10:36:07.682284+00:00'),
 (57008950, 0, false, true, 'prasadbobby', '2022-02-24T00:45:27.629486+00:00'),
+(22186029, 0, true, true, 'BenjaminMichaelis', '2022-02-24T05:02:31.03017+00:00'),
 (83277146, 1, false, true, 'ashwth', '2022-02-24T03:01:15.154484+00:00'),
 (88631894, 0, false, true, 'Aarondevp', '2022-02-23T23:37:08.741086+00:00'),
 (16315404, 1, false, true, 'dhuvikamboj', '2022-02-23T23:37:08.741086+00:00'),
@@ -223,8 +223,8 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (71297412, 1, false, true, 'samuelsycamore', '2022-02-23T23:37:08.741086+00:00'),
 (2658040, 2, true, true, 'BaseMax', '2022-02-23T23:37:08.741086+00:00'),
 (18013532, 1, false, true, 'simoncrypta', '2022-02-24T07:24:06.623061+00:00'),
-(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:46:49.288539+00:00'),
 (11489171, 0, false, true, 'asasmith', '2022-03-04T16:58:30.680915+00:00'),
 (66284362, 0, false, true, 'kohasummons', '2022-03-05T05:34:52.490265+00:00'),
 (13867651, 2, false, true, 'cescfamadas', '2022-03-01T20:17:49.222472+00:00'),
-(907680, 5, false, true, 'deenadayalancs', '2022-02-23T23:37:08.741086+00:00');
+(907680, 5, false, true, 'deenadayalancs', '2022-02-23T23:37:08.741086+00:00'),
+(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:46:49.288539+00:00');
