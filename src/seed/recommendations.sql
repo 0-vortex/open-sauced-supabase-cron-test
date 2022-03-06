@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T12:50:30.026Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T14:44:29.339Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3572,7 +3572,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-23T23:35:41.043146+00:00'),
 (402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-23T23:35:41.043146+00:00'),
 (402841129, 128, 1, 1, 0, 7, 'Developer-DAO/developer-dao-nft-contract', null, ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
-(402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-23T23:35:41.043146+00:00'),
 (403029798, 2, 0, 1, 0, 24, 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ARRAY['s-yadav'], '2022-02-23T23:35:41.043146+00:00'),
 (403159506, 314, 11, 1, 0, 8, 'Developer-DAO/developerdao.com', 'A community of builders who believe in collective ownership of the internet', ARRAY['with-heart', 'fmoliveira'], '2022-02-23T23:35:41.043146+00:00'),
 (403285296, 1, 0, 1, 0, 2, 'muhammaddzaky/muhamamddzak.github.io', 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
