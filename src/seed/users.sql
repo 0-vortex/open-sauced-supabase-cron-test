@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T12:51:42.042Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T14:44:29.238Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -70,8 +70,8 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (67359053, 1, false, true, 'DevenPerkins', '2022-02-23T23:37:08.741086+00:00'),
 (51794934, 1, false, true, 'RubesWorld', '2022-02-23T23:37:08.741086+00:00'),
 (6842883, 1, false, true, 'GianCastle', '2022-02-23T23:37:08.741086+00:00'),
-(46828701, 0, false, true, 'idanceinbetween', '2022-02-23T23:37:08.741086+00:00'),
 (2808728, 0, false, true, 'raychatter', '2022-02-23T23:37:08.741086+00:00'),
+(46828701, 0, false, true, 'idanceinbetween', '2022-02-23T23:37:08.741086+00:00'),
 (36890230, 1, false, true, 'JEbertPrime', '2022-02-23T23:37:08.741086+00:00'),
 (28281924, 1, false, true, 'HeavyBR', '2022-02-23T23:37:08.741086+00:00'),
 (527550, 2, false, true, 'atzorvas', '2022-02-23T23:37:08.741086+00:00'),
@@ -130,11 +130,11 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (2237343, 0, false, true, null, '2022-02-23T23:37:08.741086+00:00'),
 (3792749, 9, false, true, 'mtfoley', '2022-02-24T07:56:49.561732+00:00'),
 (10012151, 1, true, true, 'joaoapel', '2022-02-23T23:37:08.741086+00:00'),
-(25194960, 1, false, true, 'ghgoodreau', '2022-02-24T08:43:52.638358+00:00'),
-(3777549, 2, false, true, 'alotoftype', '2022-02-24T08:43:55.896472+00:00'),
-(32903278, 1, false, true, 'onurbayraktar', '2022-02-23T23:37:08.741086+00:00'),
+(5713670, 14, false, true, 'bdougie', '2022-02-23T23:37:08.741086+00:00'),
 (1295334, 1, false, true, 'applesnort', '2022-02-24T08:35:50.235576+00:00'),
+(32903278, 1, false, true, 'onurbayraktar', '2022-02-23T23:37:08.741086+00:00'),
 (4573607, 1, false, true, 'lorenanicole', '2022-02-23T23:37:08.741086+00:00'),
+(3777549, 2, false, true, 'alotoftype', '2022-02-24T08:43:55.896472+00:00'),
 (19350071, 1, false, true, 'atosh502', '2022-02-24T10:50:19.311924+00:00'),
 (6499373, 0, false, true, 'yasir2000', '2022-02-23T23:37:34.69748+00:00'),
 (74566464, 0, true, true, 'Pandademic', '2022-02-23T23:37:46.275917+00:00'),
@@ -152,7 +152,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (56942462, 0, false, true, 'ugwustanley', '2022-02-26T06:24:02.261865+00:00'),
 (64662324, 0, false, true, 'techn0gichida2', '2022-02-23T23:37:08.741086+00:00'),
 (40713709, 1, false, true, 'sk1122', '2022-02-23T23:37:08.741086+00:00'),
-(14043845, 10, false, true, 'jasonericdavis', '2022-02-24T11:12:14.732772+00:00'),
+(4199845, 6, false, true, 'Wachiwi', '2022-02-23T23:37:08.741086+00:00'),
 (35429278, 3, false, true, 'enjinerd', '2022-02-23T23:37:08.741086+00:00'),
 (76665107, 1, false, true, 'carrollsa', '2022-02-24T08:13:29.760807+00:00'),
 (59939260, 1, false, true, 'MattMarquise', '2022-02-23T23:37:08.741086+00:00'),
@@ -219,10 +219,10 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (9696352, 2, false, true, 'cometkim', '2022-02-23T23:37:08.741086+00:00'),
 (72279316, 5, false, true, 'Samikmalhotra', '2022-02-24T07:05:31.742057+00:00'),
 (12400445, 1, false, true, 'AvantSekai', '2022-02-24T10:27:33.444974+00:00'),
-(4199845, 6, false, true, 'Wachiwi', '2022-02-23T23:37:08.741086+00:00'),
+(25194960, 1, false, true, 'ghgoodreau', '2022-02-24T08:43:52.638358+00:00'),
 (71297412, 1, false, true, 'samuelsycamore', '2022-02-23T23:37:08.741086+00:00'),
 (33148009, 9, false, true, 'papadavis47', '2022-02-24T10:36:07.682284+00:00'),
-(5713670, 14, false, true, 'bdougie', '2022-02-23T23:37:08.741086+00:00'),
+(14043845, 10, false, true, 'jasonericdavis', '2022-02-24T11:12:14.732772+00:00'),
 (60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:46:49.288539+00:00'),
 (11489171, 0, false, true, 'asasmith', '2022-03-04T16:58:30.680915+00:00'),
 (66284362, 0, false, true, 'kohasummons', '2022-03-05T05:34:52.490265+00:00'),
