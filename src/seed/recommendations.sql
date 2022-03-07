@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T01:03:50.097Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T02:51:01.790Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3037,8 +3037,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (332757634, 3633, 8, 2, 0, 18.5, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-23T23:35:41.043146+00:00'),
 (333421996, 4756, 5, 1, 0, 9, 'therealsreehari/Learn-Data-Science-For-Free', 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ARRAY['therealsreehari', 'tuxiqae'], '2022-02-23T23:35:41.043146+00:00'),
 (333719667, 1, 2, 1, 0, 22, 'EliseeCode/exolingo', 'Opensource flashCard system optimised for languages.', ARRAY['EliseeCode', 'nobalpha'], '2022-02-23T23:35:41.043146+00:00'),
-(332792912, 3, 0, 1, 0, 14, 'udberg/RailsFullApp', null, ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (333280676, 1, 0, 1, 0, 18, 'juliobonon/learn-rust', 'Just a small project to learn rust lang.', ARRAY['juliobonon'], '2022-02-23T23:35:41.043146+00:00'),
+(332792912, 3, 0, 1, 0, 14, 'udberg/RailsFullApp', null, ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (334167971, 86, 16, 1, 0, 2, 'ashishsahu1/ML-ProjectYard', 'This repo consists of multiple machine learning based projects with frontend ', ARRAY['ashishsahu1', 'Amit366'], '2022-02-23T23:35:41.043146+00:00'),
 (334195792, 1, 0, 1, 0, 11, 'teezzan/flw_validator', 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
 (333980205, 129, 0, 1, 0, 29, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3092,8 +3092,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (341483252, 2, 0, 1, 0, 8, 'IncredibleDevHQ/incredible-dev-videos', 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', ARRAY['hemalathank-27', 'Pythonista7'], '2022-02-23T23:35:41.043146+00:00'),
 (341544828, 1, 0, 1, 0, 6, 'kotlin-graphics/build-logic', null, ARRAY['elect86'], '2022-02-23T23:35:41.043146+00:00'),
 (341547220, 2, 0, 1, 0, 20, 'udberg/private-events', null, ARRAY['udberg', 'dibdas'], '2022-02-23T23:35:41.043146+00:00'),
-(341704034, 2579, 27, 1, 0, 24, 'microsoft/Power-Fx', 'Power Fx low-code programming language', ARRAY['gregli-msft', 'bryancroteau-MSFT'], '2022-02-23T23:35:41.043146+00:00'),
 (341582109, 1806, 8, 1, 0, 5, 'trungk18/angular-spotify', 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', ARRAY['trungk18', 'nikosanif'], '2022-02-23T23:35:41.043146+00:00'),
+(341704034, 2579, 27, 1, 0, 24, 'microsoft/Power-Fx', 'Power Fx low-code programming language', ARRAY['gregli-msft', 'bryancroteau-MSFT'], '2022-02-23T23:35:41.043146+00:00'),
 (341707514, 110, 20, 1, 0, 29, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-23T23:35:41.043146+00:00'),
 (341721634, 154, 0, 1, 0, 0, 'helins/wasm.cljc', 'Spec compliant WebAssembly compiler, decompiler, and generator', ARRAY['helins'], '2022-02-23T23:35:41.043146+00:00'),
 (341877399, 10, 0, 1, 0, 21, 'tush-tr/car-rental-system', 'A car rental System Web Application project made using Node js, Express js, EJS, MongoDB along with REST API. Implemented features like user authentication, image uploading, database encryption, and many else.', ARRAY['tush-tr', 'ttury'], '2022-02-23T23:35:41.043146+00:00'),
