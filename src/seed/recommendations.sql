@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T22:44:25.581Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T01:05:23.107Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2703,8 +2703,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (281778548, 212, 9, 1, 0, 2, 'writewithocto/octo', 'A lightweight word processor for technical writers', ARRAY['voraciousdev', 'austenmadden'], '2022-02-23T23:35:41.043146+00:00'),
 (281975310, 11063, 4751, 1, 0, 6, 'type-challenges/type-challenges', 'Collection of TypeScript type challenges with online judge', ARRAY['antfu', 'jiangshanmeta'], '2022-02-23T23:35:41.043146+00:00'),
 (282194280, 1, 5, 1, 0, 10, 'SanchitaMishra170676/To-Do-Blockchain', 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', ARRAY['SanchitaMishra170676'], '2022-02-23T23:35:41.043146+00:00'),
-(283210438, 1, 0, 1, 0, 29, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
 (283003335, 70, 4, 1, 0, 23, 'fireship-io/3.1-firebase-basics', 'Firebase - The Basics', ARRAY['codediodeio'], '2022-02-23T23:35:41.043146+00:00'),
+(283210438, 1, 0, 1, 0, 29, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
 (283323929, 2007, 19, 1, 0, 12, 'haimgel/display-switch', 'Turn a $30 USB switch into a full-featured multi-monitor KVM switch', ARRAY['haimgel', 'jrr'], '2022-02-23T23:35:41.043146+00:00'),
 (283329479, 65, 1, 1, 0, 10, 'LarsRosenkilde/Instagram-Posted-Sources', 'Different small scripts, i''ve posted on Instagram', ARRAY['LarsRosenkilde'], '2022-02-23T23:35:41.043146+00:00'),
 (283370985, 150, 27, 1, 0, 4, 'toastdotdev/toast', 'The best place to stack your JAM. Toast is a Jamstack framework', ARRAY['ChristopherBiscardi', 'jbolda'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3650,8 +3650,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (426988203, 15, 0, 1, 0, 2, 'vunderkind/ethereum-dappiverse', 'A hitchhiker''s guide to the Ethereum dAppiverse', ARRAY['vunderkind'], '2022-02-23T23:35:41.043146+00:00'),
 (427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-23T23:35:41.043146+00:00'),
 (427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-23T23:35:41.043146+00:00'),
-(429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-23T23:35:41.043146+00:00'),
 (428727515, 1, 0, 2, 0, 0, 'HMTEUNIS/react-beats', null, ARRAY['WBian618', 'dandesantis14'], '2022-02-23T23:35:41.043146+00:00'),
+(429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-23T23:35:41.043146+00:00'),
 (429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-23T23:35:41.043146+00:00'),
 (429658975, 4, 0, 2, 0, 0, 'open-sauced/party-line', null, ARRAY['regexident', 'jessmitch42'], '2022-02-23T23:35:41.043146+00:00'),
 (430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-23T23:35:41.043146+00:00'),
