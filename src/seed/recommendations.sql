@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T02:51:52.328Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T04:48:02.873Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3429,7 +3429,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
-(387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
