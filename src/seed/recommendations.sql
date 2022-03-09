@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T10:44:44.340Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T12:51:41.557Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3538,7 +3538,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (398345592, 1, 0, 1, 0, 24, '3mer3wadh/CustomUI', 'Trying to create nice UI with xamarin forms ', ARRAY['3mer3wadh'], '2022-02-23T23:35:41.043146+00:00'),
 (398550050, 158, 1, 1, 0, 0, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ARRAY['imsiddhant07', 'dakshp07'], '2022-02-23T23:35:41.043146+00:00'),
 (398627486, 8, 0, 1, 0, 3, 'jquense/sass-tailwind-functions', 'Sass plugin implementing TailwindCSS functions', ARRAY['jquense'], '2022-02-23T23:35:41.043146+00:00'),
-(398656870, 12, 0, 1, 0, 15, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ARRAY['gungunfebrianza'], '2022-02-23T23:35:41.043146+00:00'),
 (398666208, 194, 0, 1, 0, 13, 'nachtfunke/basic-pattern-repository', 'Simple patterns for <use>. Just SVG - for your delight!', ARRAY['nachtfunke'], '2022-02-23T23:35:41.043146+00:00'),
 (398684826, 6, 2, 1, 0, 6, 'MichaelJolley/discord-guy-bot', 'A friendly Discord bot that helps server members use more inclusive language.', ARRAY['MichaelJolley'], '2022-02-23T23:35:41.043146+00:00'),
 (398914163, 188, 7, 2, 0, 0, 'dabit3/chicken-tikka-masala-recipe', 'Nader''s chicken tikka masala recipe', ARRAY['dabit3', 'maksimovic'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3568,6 +3567,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (401300251, 2, 0, 1, 0, 29, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:35:41.043146+00:00'),
 (401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-23T23:35:41.043146+00:00'),
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-23T23:35:41.043146+00:00'),
+(398656870, 12, 0, 1, 0, 15, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ARRAY['gungunfebrianza'], '2022-02-23T23:35:41.043146+00:00'),
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-23T23:35:41.043146+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-23T23:35:41.043146+00:00'),
 (402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-23T23:35:41.043146+00:00'),
