@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T04:48:02.873Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T06:47:30.289Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1024,9 +1024,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (66228200, 885, 66, 1, 0, 3, 'HackerShackOfficial/Smart-Mirror', 'Raspberry powered mirror which can display news, weather, calendar events', ARRAY['atainter', 'ewized'], '2022-02-23T23:35:41.043146+00:00'),
 (66287660, 535, 38, 1, 0, 18, 'json-api-dotnet/JsonApiDotNetCore', 'A framework for building JSON:API compliant REST APIs using ASP.NET and Entity Framework Core.', ARRAY['jaredcnance', 'bart-degreed'], '2022-02-23T23:35:41.043146+00:00'),
 (66722341, 577, 8, 1, 0, 6, 'daviddarnes/alembic', '⚗️ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website', ARRAY['daviddarnes', 'trenki2'], '2022-02-23T23:35:41.043146+00:00'),
-(66777429, 694, 3, 1, 0, 27, 'jhu-ep-coursera/fullstack-course5', 'All of the source code for the Single Page Web Applications with AngularJS course.', ARRAY['ychaikin', 'mpatelpa'], '2022-02-23T23:35:41.043146+00:00'),
 (66794377, 502, 5, 1, 0, 10, 'lmammino/jwt-cracker', 'Simple HS256 JWT token brute force cracker', ARRAY['lmammino', 'mvetsch'], '2022-02-23T23:35:41.043146+00:00'),
 (67043714, 8165, 4, 1, 0, 21, 'heynickc/awesome-ddd', 'A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources', ARRAY['heynickc', 'witek1902'], '2022-02-23T23:35:41.043146+00:00'),
+(66777429, 694, 3, 1, 0, 27, 'jhu-ep-coursera/fullstack-course5', 'All of the source code for the Single Page Web Applications with AngularJS course.', ARRAY['ychaikin', 'mpatelpa'], '2022-02-23T23:35:41.043146+00:00'),
 (67375557, 3726, 2, 1, 0, 13, 'mgechev/angular-performance-checklist', '⚡ Cheatsheet for developing lightning fast progressive Angular applications', ARRAY['mgechev', 'Hugoer'], '2022-02-23T23:35:41.043146+00:00'),
 (67410923, 859, 54, 1, 0, 22, 'LiquidPlayer/LiquidCore', 'Node.js virtual machine for Android and iOS', ARRAY['ericwlange', 'j0j00'], '2022-02-23T23:35:41.043146+00:00'),
 (67709808, 21789, 111, 1, 0, 15, 'react-native-elements/react-native-elements', 'Cross-Platform React Native UI Toolkit', ARRAY['iRoachie', 'Monte9'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2601,7 +2601,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (270069811, 1, 0, 1, 0, 5, 'lesmo/kms-cloud', '''Nube'' de la extinta startup KMS', ARRAY['lesmo'], '2022-02-23T23:35:41.043146+00:00'),
 (270657720, 898, 22, 1, 0, 1, 'vuesomedev/awesome-vue-3', 'A curated list of awesome things related to Vue 3', ARRAY['vuesomedev', 'HJ29'], '2022-02-23T23:35:41.043146+00:00'),
 (271148211, 7, 0, 1, 0, 24, 'ezralazuardy/bookstore', '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
-(271363286, 10, 5, 1, 0, 10, 'raulsperoni/magnesium-wordcloud-panel', 'Wordcloud / Tagcloud Panel Plugin for Grafana', ARRAY['raulsperoni', 'Almyk'], '2022-02-23T23:35:41.043146+00:00'),
 (271377309, 2707, 43, 1, 0, 17, 'Layout-Parser/layout-parser', 'A Unified Toolkit for Deep Learning Based Document Image Analysis', ARRAY['lolipopshock', 'RosenZhang'], '2022-02-23T23:35:41.043146+00:00'),
 (271436599, 32, 9, 2, 0, 0, 'lowerbarriers/finished-starter', 'Free website ready to go in one click, with blog, events, e-commerce, search, and everything else. Blazing fast JAMstack performance, vanilla JS and utility-first CSS, and opinionated in all the right ways.', ARRAY['ao5357'], '2022-02-23T23:35:41.043146+00:00'),
 (271593527, 464, 6, 1, 0, 4, 'CRED-CLUB/synth-ios', 'Synth is CRED''s inbuilt library for using Neumorphic components in your app.', ARRAY['prashant-shrivastava91', 'DominatorVbN'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2611,6 +2610,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (272047365, 204, 4, 1, 0, 12, 'mscoutermarsh/mscoutermarsh', 'SECRETS!', ARRAY['mscoutermarsh', 'Ilshidur'], '2022-02-23T23:35:41.043146+00:00'),
 (272131819, 112, 5, 1, 0, 5, 'rg3915/dicas-de-django', 'Várias dicas de Django', ARRAY['rg3915'], '2022-02-23T23:35:41.043146+00:00'),
 (272328835, 592, 135, 1, 0, 11, 'timburgan/timburgan', null, ARRAY['timburgan', 'kwacky1'], '2022-02-23T23:35:41.043146+00:00'),
+(271363286, 10, 5, 1, 0, 10, 'raulsperoni/magnesium-wordcloud-panel', 'Wordcloud / Tagcloud Panel Plugin for Grafana', ARRAY['raulsperoni', 'Almyk'], '2022-02-23T23:35:41.043146+00:00'),
 (272382323, 1, 0, 1, 0, 3, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-23T23:35:41.043146+00:00'),
 (272492043, 2571, 98, 2, 0, 26, 'shuding/nextra', 'The Next.js Static Site Generator', ARRAY['shuding', 'pacocoursey'], '2022-02-23T23:35:41.043146+00:00'),
 (272529198, 216, 2, 1, 0, 2, 'telekom/das-schiff', 'This is home of Das Schiff - Deutsche Telekom Technik''s engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs. ', ARRAY['vukg', 'Cellebyte'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3429,6 +3429,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
+(387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
