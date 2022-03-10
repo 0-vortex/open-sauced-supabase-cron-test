@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T14:44:28.723Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T16:51:07.660Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1548,10 +1548,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (127493242, 109, 3, 1, 0, 17, 'szferguson/Binance-Trailing-Stop-Loss', 'Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)', ARRAY['szferguson'], '2022-02-23T23:35:41.043146+00:00'),
 (127553476, 7360, 0, 2, 0, 25, 'rust-embedded/rust-raspberrypi-OS-tutorials', ':books: Learn to write an embedded OS in Rust :crab:', ARRAY['andre-richter', 'rahealy'], '2022-02-23T23:35:41.043146+00:00'),
 (127577160, 516, 9, 1, 0, 4, 'jeffmli/TinderAutomation', null, ARRAY['jeffmli'], '2022-02-23T23:35:41.043146+00:00'),
+(127672595, 158, 10, 1, 0, 13, 'chimbori/crux', 'Crux parses Web pages to identify the crux of an article — the very essential points — minus all the fluff.', ARRAY['chimbori', 'karussell'], '2022-02-23T23:35:41.043146+00:00'),
 (127769231, 18180, 625, 1, 0, 14, 'DIYgod/RSSHub', '🍰 Everything is RSSible', ARRAY['DIYgod', 'nczitzk'], '2022-02-23T23:35:41.043146+00:00'),
 (127910371, 4141, 0, 1, 0, 3, 'thedaviddias/Front-End-Design-Checklist', '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', ARRAY['thedaviddias', 'admpk'], '2022-02-23T23:35:41.043146+00:00'),
 (127968704, 10424, 82, 1, 0, 2, 'tensorflow/tfjs-models', 'Pretrained models for TensorFlow.js', ARRAY['lina128', 'oveddan'], '2022-02-23T23:35:41.043146+00:00'),
-(127672595, 158, 10, 1, 0, 13, 'chimbori/crux', 'Crux parses Web pages to identify the crux of an article — the very essential points — minus all the fluff.', ARRAY['chimbori', 'karussell'], '2022-02-23T23:35:41.043146+00:00'),
 (128151112, 62, 17, 1, 0, 10, 'purplship/purplship', 'The Open Source Multi-carrier Shipping API', ARRAY['danh91', 'jacobshilitz'], '2022-02-23T23:35:41.043146+00:00'),
 (128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-23T23:35:41.043146+00:00'),
 (128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-23T23:35:41.043146+00:00'),
