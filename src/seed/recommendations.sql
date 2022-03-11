@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T18:47:08.672Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T20:44:19.950Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1983,7 +1983,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (184879908, 10, 4, 1, 0, 14, 'iwgx/downtown', ':hourglass: Well-crafted countdown timer', ARRAY['iwgx'], '2022-02-23T23:35:41.043146+00:00'),
 (184951641, 21, 4, 1, 0, 21, 'zdenal/commanded_events_map', 'Tool for analysing commanded projects and representing in flow diagram.', ARRAY['zdenal', 'jfornoff'], '2022-02-23T23:35:41.043146+00:00'),
 (185054404, 18, 0, 1, 0, 19, 'GoogleCloudPlatform/air-draw-demo', null, ARRAY['jamesward'], '2022-02-23T23:35:41.043146+00:00'),
-(185131263, 390, 9, 1, 0, 3, 'calebnance/expo-spotify', 'Spotify UI Clone with React Native & Expo', ARRAY['calebnance', 'bidah'], '2022-02-23T23:35:41.043146+00:00'),
 (185327227, 764, 19, 1, 0, 24, 'meriyah/meriyah', 'A 100% compliant, self-hosted javascript parser  - https://meriyah.github.io/meriyah', ARRAY['KFlash', '3cp'], '2022-02-23T23:35:41.043146+00:00'),
 (186228401, 4, 0, 1, 0, 12, 'BaseMax/ChessWeb', 'Chess game with two player. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (186470218, 1, 0, 1, 0, 8, 'Gingertonic/london-spas-cli', 'Demo CLI app showing API usage with authentication using HTTParty and Yelp Fusion API', ARRAY['Gingertonic'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2057,6 +2056,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (196530922, 3, 5, 1, 0, 1, 'jorgenkg/promise-priority-queue', 'Async bucket priority queue implemented in Typescript', ARRAY['renovate-bot', 'jorgengrimnes'], '2022-02-23T23:35:41.043146+00:00'),
 (196654655, 6, 18, 1, 0, 23, 'mvarona/CartasContraLaHumanidad', '¡El juego Cartas Contra la Humanidad, por fin, en español, gratuito y con las cartas oficiales! Juégalo con dos amigos más, ¡O con dos pestañas más si no tienes tantos amigos! :D', ARRAY['hparcells', 'mvarona'], '2022-02-23T23:35:41.043146+00:00'),
 (196662111, 2, 0, 1, 0, 9, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-23T23:35:41.043146+00:00'),
+(185131263, 390, 9, 1, 0, 3, 'calebnance/expo-spotify', 'Spotify UI Clone with React Native & Expo', ARRAY['calebnance', 'bidah'], '2022-02-23T23:35:41.043146+00:00'),
 (196760810, 7094, 13, 4, 0, 15.25, 'Ebazhanov/linkedin-skill-assessments-quizzes', 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', ARRAY['Ebazhanov', 'monkrus'], '2022-02-23T23:35:41.043146+00:00'),
 (196946519, 36, 2, 1, 0, 10, 'JRasmusBm/vim-peculiar', null, ARRAY['JRasmusBm'], '2022-02-23T23:35:41.043146+00:00'),
 (196987768, 255, 12, 1, 0, 6, 'TryGhost/eleventy-starter-ghost', 'A starter template to build websites with Ghost & Eleventy', ARRAY['renovate-bot', 'daviddarnes'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3566,8 +3566,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-23T23:35:41.043146+00:00'),
 (401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-23T23:35:41.043146+00:00'),
 (401300251, 2, 0, 1, 0, 29, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:35:41.043146+00:00'),
-(401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-23T23:35:41.043146+00:00'),
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-23T23:35:41.043146+00:00'),
+(401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-23T23:35:41.043146+00:00'),
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-23T23:35:41.043146+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-23T23:35:41.043146+00:00'),
 (402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-23T23:35:41.043146+00:00'),
