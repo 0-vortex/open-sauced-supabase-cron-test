@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T06:47:36.333Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T08:45:27.069Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3423,9 +3423,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386633454, 1, 0, 1, 0, 17, 'muhammaddzaky/Data-Pokok-Pendidikan', 'Data Pokok Pendidikan', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386632210, 1, 0, 1, 0, 16, 'muhammaddzaky/Mengambil-Data-Sekolah', 'Mengambil Datang Sekolah ', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386673780, 198, 1, 1, 0, 9, 'P0ssuidao/terraguard', '🛡️ 🔒 This project''s goal is to be simple to create and destroy your own VPN service using WireGuard.', ARRAY['P0ssuidao', '0xdutra'], '2022-02-23T23:35:41.043146+00:00'),
-(386693970, 35, 0, 1, 0, 2, 'avinash201199/Competitions-and-Programs-List', 'List of competitions with details for college students to participate and  to enhance their skills.', ARRAY['avinash201199', 'priya-singh07'], '2022-02-23T23:35:41.043146+00:00'),
 (386740498, 46, 5, 1, 0, 19, 'lukesmurray/scrawl', 'A chrome extension which lets you draw on any web page with excalidraw', ARRAY['lukesmurray'], '2022-02-23T23:35:41.043146+00:00'),
 (386777766, 1, 0, 1, 0, 25, 'a-trost/component-carousel', 'The website for the Component Carousel show', ARRAY['a-trost'], '2022-02-23T23:35:41.043146+00:00'),
+(386693970, 35, 0, 1, 0, 2, 'avinash201199/Competitions-and-Programs-List', 'List of competitions with details for college students to participate and  to enhance their skills.', ARRAY['avinash201199', 'priya-singh07'], '2022-02-23T23:35:41.043146+00:00'),
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3485,7 +3485,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-23T23:35:41.043146+00:00'),
 (392662562, 1, 4, 1, 0, 2, 'onaio/ansible-collection-rapidpro', 'RapidPro Ansible Collection', ARRAY['morrismukiri', 'jasonrogena'], '2022-02-23T23:35:41.043146+00:00'),
 (392935241, 1, 0, 1, 0, 9, 'piyalidas10/Angular-Error-Handling', 'Error Handling in Angular uing HttpInterceptor, HttpClient, Component', ARRAY['piyalidas10'], '2022-02-23T23:35:41.043146+00:00'),
-(393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-23T23:35:41.043146+00:00'),
 (393089347, 32, 0, 1, 0, 18, 'antoniolofiego/Batteries-Included-Next.js', 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', ARRAY['antoniolofiego', 'kriswuollett'], '2022-02-23T23:35:41.043146+00:00'),
 (393105235, 129, 0, 1, 0, 7, 'abuanwar072/Flutter-Custom-Animation-Grocery-App', null, ARRAY['abuanwar072'], '2022-02-23T23:35:41.043146+00:00'),
 (393117769, 429, 3, 1, 0, 3, 'antfu/drauu', 'Headless SVG-based drawboard in browser.', ARRAY['antfu', 'btea'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
