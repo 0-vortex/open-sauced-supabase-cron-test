@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T12:51:39.803Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T14:44:22.706Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -392,8 +392,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-23T23:35:41.043146+00:00'),
 (12888993, 48911, 1522, 1, 0, 9, 'home-assistant/core', ':house_with_garden: Open source home automation that puts local control and privacy first.', ARRAY['balloob', 'fabaff'], '2022-02-23T23:35:41.043146+00:00'),
 (12973222, 3052, 38, 1, 0, 4, 'depcheck/depcheck', 'Check your npm module for unused dependencies', ARRAY['lijunle', 'rumpl'], '2022-02-23T23:35:41.043146+00:00'),
-(13030144, 13528, 504, 1, 0, 15, 'janpaepke/ScrollMagic', 'The javascript library for magical scroll interactions.', ARRAY['janpaepke', 'johnpolacek'], '2022-02-23T23:35:41.043146+00:00'),
 (13044600, 2772, 1377, 1, 0, 3, 'salesagility/SuiteCRM', 'SuiteCRM - Open source CRM for the world', ARRAY['gymad', 'Dillon-Brown'], '2022-02-23T23:35:41.043146+00:00'),
+(13030144, 13528, 504, 1, 0, 15, 'janpaepke/ScrollMagic', 'The javascript library for magical scroll interactions.', ARRAY['janpaepke', 'johnpolacek'], '2022-02-23T23:35:41.043146+00:00'),
 (13060236, 3877, 7, 1, 0, 16, 'christopheradams/elixir_style_guide', 'A community driven style guide for Elixir', ARRAY['christopheradams', 'nessamurmur'], '2022-02-23T23:35:41.043146+00:00'),
 (13078968, 25651, 10, 1, 0, 24, 'postcss/postcss', 'Transforming styles with JS plugins', ARRAY['ai', 'ben-eb'], '2022-02-23T23:35:41.043146+00:00'),
 (13143215, 986, 266, 1, 0, 17, 'ngs-lang/ngs', 'Next Generation Shell (NGS)', ARRAY['ilyash', 'organom'], '2022-02-23T23:35:41.043146+00:00'),
