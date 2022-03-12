@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T08:45:02.074Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T10:44:24.329Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1011,8 +1011,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (65089884, 60, 2, 1, 0, 3, 'jonschlinkert/dry', 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ARRAY['jonschlinkert'], '2022-02-23T23:35:41.043146+00:00'),
 (65144724, 2465, 42, 1, 0, 11, 'metakirby5/codi.vim', ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ARRAY['metakirby5', 'still-dreaming-1'], '2022-02-23T23:35:41.043146+00:00'),
 (65626639, 182, 3, 1, 0, 24, 'freeman-lab/pixel-grid', 'render a grid of small squares', ARRAY['freeman-lab', 'joehand'], '2022-02-23T23:35:41.043146+00:00'),
-(65678789, 13847, 32, 1, 0, 12, 'FormidableLabs/webpack-dashboard', 'A CLI dashboard for webpack dev server', ARRAY['kenwheeler', 'ryan-roemer'], '2022-02-23T23:35:41.043146+00:00'),
 (65750241, 15588, 1328, 2, 0, 16.5, 'expo/expo', 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', ARRAY['brentvatne', 'terribleben'], '2022-02-23T23:35:41.043146+00:00'),
+(65678789, 13847, 32, 1, 0, 12, 'FormidableLabs/webpack-dashboard', 'A CLI dashboard for webpack dev server', ARRAY['kenwheeler', 'ryan-roemer'], '2022-02-23T23:35:41.043146+00:00'),
 (65772720, 3392, 1516, 1, 0, 9, 'docker/docker.github.io', 'Source repo for Docker''s Documentation', ARRAY['vieux', 'thaJeztah'], '2022-02-23T23:35:41.043146+00:00'),
 (65848095, 15013, 110, 1, 0, 17, 'Requarks/wiki', 'Wiki.js | A modern and powerful wiki app built on Node.js', ARRAY['NGPixel', 'regevbr'], '2022-02-23T23:35:41.043146+00:00'),
 (65915265, 313, 37, 1, 0, 19, 'cncf/foundation', '☁️♮🏛File non-technical issues related to CNCF', ARRAY['amye', 'caniszczyk'], '2022-02-23T23:35:41.043146+00:00'),
