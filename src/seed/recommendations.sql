@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T18:46:05.034Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T20:44:14.015Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -647,8 +647,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (31792824, 133601, 10100, 1, 2, 29, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-23T23:35:41.043146+00:00'),
 (31985475, 5, 1, 1, 0, 2, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-23T23:35:41.043146+00:00'),
 (32222044, 5343, 45, 1, 0, 25, 'erincatto/box2d', 'Box2D is a 2D physics engine for games', ARRAY['erincatto', 'wub'], '2022-02-23T23:35:41.043146+00:00'),
-(32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-23T23:35:41.043146+00:00'),
 (32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
+(32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-23T23:35:41.043146+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-23T23:35:41.043146+00:00'),
 (32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-23T23:35:41.043146+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3230,11 +3230,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (362234372, 345, 4, 1, 0, 13, 'edoardottt/cariddi', 'Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...', ARRAY['edoardottt'], '2022-02-23T23:35:41.043146+00:00'),
 (362276202, 474, 10, 1, 0, 29, 'Azure/counterfit', 'a CLI that provides a generic automation layer for assessing the security of ML models', ARRAY['moohax', 'drhyrum'], '2022-02-23T23:35:41.043146+00:00'),
 (362290213, 1, 0, 1, 0, 13, 'OlliesWorld/softball_roster', null, ARRAY['OlliesWorld'], '2022-02-23T23:35:41.043146+00:00'),
-(362423752, 954, 64, 1, 0, 3, 'folke/which-key.nvim', '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', ARRAY['folke', 'zeertzjq'], '2022-02-23T23:35:41.043146+00:00'),
 (362443125, 10, 0, 1, 0, 0, 'NayamAmarshe/Cyberpunk-GRUB-Theme', 'Cyberpunk 2077 Grub Theme', ARRAY['anoopmsivadas', 'NayamAmarshe'], '2022-02-23T23:35:41.043146+00:00'),
 (362580720, 18, 2, 1, 0, 2, 'wesbos/cobalt2-obsidian', 'Cobalt2 Obsidian Theme', ARRAY['wesbos'], '2022-02-23T23:35:41.043146+00:00'),
 (362605682, 17, 1, 1, 0, 11, 's-kngstn/wu-loremipsum', 'This is a small web application I made using Vanilla Javascript. It''s a text generator that cooks up classic lyrics (lorem ispum style) from the rap collective Wu Tang Clan. This was a blast to make and I hope others can get some use out of it, or at least a good laugh.', ARRAY['s-kngstn'], '2022-02-23T23:35:41.043146+00:00'),
 (362711256, 2466, 1, 1, 0, 20, 'Renovamen/playground-macos', 'My portfolio website simulating macOS''s GUI, developed with React and Tailwind CSS.', ARRAY['Renovamen', 'jhonleeee'], '2022-02-23T23:35:41.043146+00:00'),
+(362423752, 954, 64, 1, 0, 3, 'folke/which-key.nvim', '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', ARRAY['folke', 'zeertzjq'], '2022-02-23T23:35:41.043146+00:00'),
 (362869006, 4, 0, 1, 0, 6, 'demo-days/innersource-faq-template', 'InnerSource FAQ Starter template GitHub Pages', ARRAY['ppremk'], '2022-02-23T23:35:41.043146+00:00'),
 (362935638, 19, 1, 1, 0, 28, 'commanded/generator', 'Commanded application generator', ARRAY['slashdotdash'], '2022-02-23T23:35:41.043146+00:00'),
 (363500480, 1, 0, 1, 0, 20, 'Helewud/Vidly', null, ARRAY['Helewud'], '2022-02-23T23:35:41.043146+00:00'),
