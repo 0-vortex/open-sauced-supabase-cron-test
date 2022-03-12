@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T22:44:20.855Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T01:03:32.216Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1722,8 +1722,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (148504330, 62, 12, 1, 0, 20, 'IBM/newrelic-cli', 'New Relic CLI is a command line tool which is used to operate New Relic objects(Synthetic monitors, alert policies, conditions, account users etc). You can use it easily to list/get/create/delete these objects. It can be used to backup your New Relic configuration data and restore in the future. It is easy to be used other than calling different REST API endpoints.', ARRAY['gailtang', 'mlvazqu2'], '2022-02-23T23:35:41.043146+00:00'),
 (148829497, 3690, 6, 1, 0, 22, 'o2sh/onefetch', 'Git repository summary on your terminal', ARRAY['o2sh', 'spenserblack'], '2022-02-23T23:35:41.043146+00:00'),
 (149024333, 132, 28, 1, 0, 12, 'aspittel/learn-code-from-us', 'People from underrepresented groups in tech who create awesome programming resources', ARRAY['aspittel', 'twhite96'], '2022-02-23T23:35:41.043146+00:00'),
-(148630726, 5212, 26, 1, 0, 3, 'wechat-miniprogram/miniprogram-demo', '微信小程序组件 / API / 云开发示例', ARRAY['TtTRz', 'ele828'], '2022-02-23T23:35:41.043146+00:00'),
 (148948562, 1898, 28, 1, 0, 2, 'krzkaczor/ts-essentials', 'All basic TypeScript types in one place 🤙', ARRAY['krzkaczor', 'Beraliv'], '2022-02-23T23:35:41.043146+00:00'),
+(148630726, 5212, 26, 1, 0, 3, 'wechat-miniprogram/miniprogram-demo', '微信小程序组件 / API / 云开发示例', ARRAY['TtTRz', 'ele828'], '2022-02-23T23:35:41.043146+00:00'),
 (148701531, 348, 21, 1, 0, 7, 'zmwangx/rust-ffmpeg', 'Safe FFmpeg wrapper.', ARRAY['meh', 'zmwangx'], '2022-02-23T23:35:41.043146+00:00'),
 (149157946, 247, 0, 1, 0, 10, 'lucianomlima/react-ui-kits', 'A list of UI Kits available for React and React Native.', ARRAY['lucianomlima', 'ednofedulo'], '2022-02-23T23:35:41.043146+00:00'),
 (149731937, 729, 6, 2, 0, 6.5, 'remotemobprogramming/mob', 'Tool for smooth git handover.', ARRAY['simonharrer', 'gregorriegler'], '2022-02-23T23:35:41.043146+00:00'),
