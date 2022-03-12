@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T10:44:24.329Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T12:50:32.929Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1011,8 +1011,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (65089884, 60, 2, 1, 0, 3, 'jonschlinkert/dry', 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ARRAY['jonschlinkert'], '2022-02-23T23:35:41.043146+00:00'),
 (65144724, 2465, 42, 1, 0, 11, 'metakirby5/codi.vim', ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ARRAY['metakirby5', 'still-dreaming-1'], '2022-02-23T23:35:41.043146+00:00'),
 (65626639, 182, 3, 1, 0, 24, 'freeman-lab/pixel-grid', 'render a grid of small squares', ARRAY['freeman-lab', 'joehand'], '2022-02-23T23:35:41.043146+00:00'),
-(65750241, 15588, 1328, 2, 0, 16.5, 'expo/expo', 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', ARRAY['brentvatne', 'terribleben'], '2022-02-23T23:35:41.043146+00:00'),
 (65678789, 13847, 32, 1, 0, 12, 'FormidableLabs/webpack-dashboard', 'A CLI dashboard for webpack dev server', ARRAY['kenwheeler', 'ryan-roemer'], '2022-02-23T23:35:41.043146+00:00'),
+(65750241, 15588, 1328, 2, 0, 16.5, 'expo/expo', 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', ARRAY['brentvatne', 'terribleben'], '2022-02-23T23:35:41.043146+00:00'),
 (65772720, 3392, 1516, 1, 0, 9, 'docker/docker.github.io', 'Source repo for Docker''s Documentation', ARRAY['vieux', 'thaJeztah'], '2022-02-23T23:35:41.043146+00:00'),
 (65848095, 15013, 110, 1, 0, 17, 'Requarks/wiki', 'Wiki.js | A modern and powerful wiki app built on Node.js', ARRAY['NGPixel', 'regevbr'], '2022-02-23T23:35:41.043146+00:00'),
 (65915265, 313, 37, 1, 0, 19, 'cncf/foundation', '☁️♮🏛File non-technical issues related to CNCF', ARRAY['amye', 'caniszczyk'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1864,7 +1864,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (170041458, 268, 19, 1, 0, 18, 'skovy/typed-scss-modules', '🎁 Generate type definitions (.d.ts) for CSS Modules using SCSS', ARRAY['skovy', 'lkarmelo'], '2022-02-23T23:35:41.043146+00:00'),
 (170392546, 135, 0, 1, 0, 12, 'tailwindtoolbox/Ghostwind', 'Tailwind CSS Starter Template - Ghostwind (Ghost Casper theme in Tailwind CSS)', ARRAY['tailwindtoolbox', 'diomed'], '2022-02-23T23:35:41.043146+00:00'),
 (170444343, 1065, 8, 1, 0, 0, 'DevonCrawford/Video-Editing-Automation', 'Toolkit of algorithms to automate the video editing process', ARRAY['DevonCrawford'], '2022-02-23T23:35:41.043146+00:00'),
-(170738310, 1217, 14, 1, 0, 5, 'trustwallet/wallet-core', 'Cross-platform, cross-blockchain wallet library.', ARRAY['hewigovens', 'alejandro-isaza'], '2022-02-23T23:35:41.043146+00:00'),
 (170907813, 174, 8, 1, 0, 20, 'victor-perez/nuxt-helmet', ':construction_worker: Helmet for Nuxt', ARRAY['victor-perez', 'doron2402'], '2022-02-23T23:35:41.043146+00:00'),
 (170973676, 237, 1, 1, 0, 12, 'devefy/Flutter-Streaming-Service-App-UI', null, ARRAY['devefy'], '2022-02-23T23:35:41.043146+00:00'),
 (171061051, 898, 36, 1, 0, 6, 'lostpebble/pullstate', 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', ARRAY['lostpebble', 'schummar'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2086,6 +2085,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-23T23:35:41.043146+00:00'),
 (199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-23T23:35:41.043146+00:00'),
 (199486441, 24, 60, 1, 0, 9, 'esmero/archipelago-deployment', 'Archipelago Commons Docker Deployment Repository', ARRAY['DiegoPino', 'alliomeria'], '2022-02-23T23:35:41.043146+00:00'),
+(170738310, 1217, 14, 1, 0, 5, 'trustwallet/wallet-core', 'Cross-platform, cross-blockchain wallet library.', ARRAY['hewigovens', 'alejandro-isaza'], '2022-02-23T23:35:41.043146+00:00'),
 (199880606, 301, 16, 1, 0, 12, 'takeshape/shape-form', 'A form library that uses JSON schema and works with Redux. Originally a part of the TakeShape React web client.', ARRAY['mshick', 'mcat'], '2022-02-23T23:35:41.043146+00:00'),
 (200094171, 47, 3, 1, 0, 6, 'oskros/MF_run_counter', 'MF run counter developed for Diablo 2. Allows users to collect stats about their run times and found items, and can track your holy grail progress', ARRAY['oskros'], '2022-02-23T23:35:41.043146+00:00'),
 (200212195, 4, 14, 1, 0, 25, 'xinlc/react-native-typescript-template', 'this is a template for reac native + TS + redux + saga architecture', ARRAY['xinlc'], '2022-02-23T23:35:41.043146+00:00'),
