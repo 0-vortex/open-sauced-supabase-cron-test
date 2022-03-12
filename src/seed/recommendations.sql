@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T12:50:32.929Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T14:44:19.608Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -422,8 +422,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14370955, 32521, 48, 1, 0, 0, 'sahat/hackathon-starter', 'A boilerplate for Node.js web applications', ARRAY['sahat', 'YasharF'], '2022-02-23T23:35:41.043146+00:00'),
 (14440270, 147708, 130, 4, 1, 6.5, 'getify/You-Dont-Know-JS', 'A book series on JavaScript. @YDKJS on twitter.', ARRAY['getify', 'machineloop'], '2022-02-23T23:35:41.043146+00:00'),
 (14499588, 61, 75, 1, 0, 20, 'AgileVentures/LocalSupport', 'A directory of local support services and volunteer opportunities', ARRAY['tansaku', 'mtc2013'], '2022-02-23T23:35:41.043146+00:00'),
-(14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
 (14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
+(14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
 (14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1864,6 +1864,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (170041458, 268, 19, 1, 0, 18, 'skovy/typed-scss-modules', '🎁 Generate type definitions (.d.ts) for CSS Modules using SCSS', ARRAY['skovy', 'lkarmelo'], '2022-02-23T23:35:41.043146+00:00'),
 (170392546, 135, 0, 1, 0, 12, 'tailwindtoolbox/Ghostwind', 'Tailwind CSS Starter Template - Ghostwind (Ghost Casper theme in Tailwind CSS)', ARRAY['tailwindtoolbox', 'diomed'], '2022-02-23T23:35:41.043146+00:00'),
 (170444343, 1065, 8, 1, 0, 0, 'DevonCrawford/Video-Editing-Automation', 'Toolkit of algorithms to automate the video editing process', ARRAY['DevonCrawford'], '2022-02-23T23:35:41.043146+00:00'),
+(170738310, 1217, 14, 1, 0, 5, 'trustwallet/wallet-core', 'Cross-platform, cross-blockchain wallet library.', ARRAY['hewigovens', 'alejandro-isaza'], '2022-02-23T23:35:41.043146+00:00'),
 (170907813, 174, 8, 1, 0, 20, 'victor-perez/nuxt-helmet', ':construction_worker: Helmet for Nuxt', ARRAY['victor-perez', 'doron2402'], '2022-02-23T23:35:41.043146+00:00'),
 (170973676, 237, 1, 1, 0, 12, 'devefy/Flutter-Streaming-Service-App-UI', null, ARRAY['devefy'], '2022-02-23T23:35:41.043146+00:00'),
 (171061051, 898, 36, 1, 0, 6, 'lostpebble/pullstate', 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', ARRAY['lostpebble', 'schummar'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2085,7 +2086,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-23T23:35:41.043146+00:00'),
 (199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-23T23:35:41.043146+00:00'),
 (199486441, 24, 60, 1, 0, 9, 'esmero/archipelago-deployment', 'Archipelago Commons Docker Deployment Repository', ARRAY['DiegoPino', 'alliomeria'], '2022-02-23T23:35:41.043146+00:00'),
-(170738310, 1217, 14, 1, 0, 5, 'trustwallet/wallet-core', 'Cross-platform, cross-blockchain wallet library.', ARRAY['hewigovens', 'alejandro-isaza'], '2022-02-23T23:35:41.043146+00:00'),
 (199880606, 301, 16, 1, 0, 12, 'takeshape/shape-form', 'A form library that uses JSON schema and works with Redux. Originally a part of the TakeShape React web client.', ARRAY['mshick', 'mcat'], '2022-02-23T23:35:41.043146+00:00'),
 (200094171, 47, 3, 1, 0, 6, 'oskros/MF_run_counter', 'MF run counter developed for Diablo 2. Allows users to collect stats about their run times and found items, and can track your holy grail progress', ARRAY['oskros'], '2022-02-23T23:35:41.043146+00:00'),
 (200212195, 4, 14, 1, 0, 25, 'xinlc/react-native-typescript-template', 'this is a template for reac native + TS + redux + saga architecture', ARRAY['xinlc'], '2022-02-23T23:35:41.043146+00:00'),
