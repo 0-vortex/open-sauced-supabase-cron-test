@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T01:03:32.216Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T02:49:15.310Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -650,9 +650,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-23T23:35:41.043146+00:00'),
 (32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-23T23:35:41.043146+00:00'),
-(32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-23T23:35:41.043146+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-23T23:35:41.043146+00:00'),
 (32688481, 560, 2, 1, 0, 26, 'frontendfront/front-end-conferences', 'This is a list of upcoming front-end related conferences.', ARRAY['frontendfront', 'AllThingsSmitty'], '2022-02-23T23:35:41.043146+00:00'),
+(32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-23T23:35:41.043146+00:00'),
 (32689863, 39860, 324, 1, 0, 11, '3b1b/manim', 'Animation engine for explanatory math videos', ARRAY['3b1b', 'TonyCrane'], '2022-02-23T23:35:41.043146+00:00'),
 (32711479, 1110, 3, 1, 0, 3, 'cpojer/js-codemod', 'Codemod scripts to transform code to next generation JS', ARRAY['cpojer', 'lencioni'], '2022-02-23T23:35:41.043146+00:00'),
 (32727687, 4507, 77, 1, 0, 27, 'mysticatea/npm-run-all', 'A CLI tool to run multiple npm-scripts in parallel or sequential.', ARRAY['mysticatea', 'k88hudson'], '2022-02-23T23:35:41.043146+00:00'),
