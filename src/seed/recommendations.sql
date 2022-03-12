@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T14:44:19.608Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T16:49:54.601Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -422,8 +422,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14370955, 32521, 48, 1, 0, 0, 'sahat/hackathon-starter', 'A boilerplate for Node.js web applications', ARRAY['sahat', 'YasharF'], '2022-02-23T23:35:41.043146+00:00'),
 (14440270, 147708, 130, 4, 1, 6.5, 'getify/You-Dont-Know-JS', 'A book series on JavaScript. @YDKJS on twitter.', ARRAY['getify', 'machineloop'], '2022-02-23T23:35:41.043146+00:00'),
 (14499588, 61, 75, 1, 0, 20, 'AgileVentures/LocalSupport', 'A directory of local support services and volunteer opportunities', ARRAY['tansaku', 'mtc2013'], '2022-02-23T23:35:41.043146+00:00'),
-(14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
+(14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
 (14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
