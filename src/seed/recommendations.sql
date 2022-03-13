@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T04:48:56.557Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T06:47:50.472Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3398,9 +3398,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-23T23:35:41.043146+00:00'),
 (381989425, 1, 0, 1, 0, 26, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ARRAY['Djohnnie'], '2022-02-23T23:35:41.043146+00:00'),
 (382308978, 49, 0, 1, 0, 29, 'tediko/planets-fact', 'Planets fact site with animated solar system built with ReactJS. ', ARRAY['tediko'], '2022-02-23T23:35:41.043146+00:00'),
-(384302754, 2977, 24, 1, 0, 11, 'jlongster/absurd-sql', 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ARRAY['jlongster', 'quolpr'], '2022-02-23T23:35:41.043146+00:00'),
 (384320581, 2, 0, 1, 0, 3, 'muhammaddzak/muhamamddzak.github.io', 'website for muhammaddzaky', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (384147961, 128, 5, 1, 0, 11, 'hashicorp/nextjs-bundle-analysis', 'A github action that provides detailed bundle analysis on PRs for next.js apps', ARRAY['jescalan', 'BRKalow'], '2022-02-23T23:35:41.043146+00:00'),
+(384302754, 2977, 24, 1, 0, 11, 'jlongster/absurd-sql', 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ARRAY['jlongster', 'quolpr'], '2022-02-23T23:35:41.043146+00:00'),
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-23T23:35:41.043146+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-23T23:35:41.043146+00:00'),
 (384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
