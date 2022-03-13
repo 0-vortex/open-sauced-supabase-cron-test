@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T10:44:13.966Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T12:50:43.244Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3481,8 +3481,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-23T23:35:41.043146+00:00'),
 (392242345, 37, 0, 1, 0, 24, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (392172833, 16, 146, 1, 0, 17, 'SidHacksCommunity/support', 'Reach out for any support you need', ARRAY['siddharthdayalwal', 'verma-kunal'], '2022-02-23T23:35:41.043146+00:00'),
-(392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-23T23:35:41.043146+00:00'),
 (392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-23T23:35:41.043146+00:00'),
+(392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-23T23:35:41.043146+00:00'),
 (392662562, 1, 4, 1, 0, 2, 'onaio/ansible-collection-rapidpro', 'RapidPro Ansible Collection', ARRAY['morrismukiri', 'jasonrogena'], '2022-02-23T23:35:41.043146+00:00'),
 (392935241, 1, 0, 1, 0, 9, 'piyalidas10/Angular-Error-Handling', 'Error Handling in Angular uing HttpInterceptor, HttpClient, Component', ARRAY['piyalidas10'], '2022-02-23T23:35:41.043146+00:00'),
 (393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-23T23:35:41.043146+00:00'),
