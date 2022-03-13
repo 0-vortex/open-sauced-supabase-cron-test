@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T18:45:59.276Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T20:44:22.381Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -602,8 +602,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (27840307, 1471, 10, 1, 0, 14, 'watson-developer-cloud/node-sdk', ':comet: Node.js library to access IBM Watson services.', ARRAY['nfriedly', 'germanattanasio'], '2022-02-23T23:35:41.043146+00:00'),
 (27971466, 10046, 33, 1, 0, 17, 'browserslist/browserslist', '🦔 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env', ARRAY['ai', 'AleshaOleg'], '2022-02-23T23:35:41.043146+00:00'),
 (28160576, 235, 10, 2, 0, 9.5, 'Asana/python-asana', 'Official Python client library for the Asana API v1', ARRAY['rossgrambo-zz', 'tlrobinson'], '2022-02-23T23:35:41.043146+00:00'),
-(28320207, 8899, 78, 1, 0, 19, 'majodev/google-webfonts-helper', 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', ARRAY['majodev', 'maiadeutsch'], '2022-02-23T23:35:41.043146+00:00'),
 (28223437, 1216, 3, 1, 0, 1, 'riverrun/comeonin', 'Password hashing specification for the Elixir programming language', ARRAY['riverrun', 'mutablestate'], '2022-02-23T23:35:41.043146+00:00'),
+(28320207, 8899, 78, 1, 0, 19, 'majodev/google-webfonts-helper', 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', ARRAY['majodev', 'maiadeutsch'], '2022-02-23T23:35:41.043146+00:00'),
 (28421899, 75, 2, 1, 0, 1, 'ratracegrad/coderbyte-Beginner', 'The Beginner Challenges at Coderbyte.com', ARRAY['ratracegrad'], '2022-02-23T23:35:41.043146+00:00'),
 (28457823, 337699, 122, 5, 1, 19.2, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-02-23T23:35:41.043146+00:00'),
 (28548699, 6193, 2, 1, 0, 3, 'cassidoo/getting-a-gig', 'Guide for getting a gig as a tech student.', ARRAY['cassidoo', 'dsouzarc'], '2022-02-23T23:35:41.043146+00:00'),
