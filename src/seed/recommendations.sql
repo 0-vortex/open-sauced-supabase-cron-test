@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T06:47:50.472Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T10:44:13.966Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3398,9 +3398,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-23T23:35:41.043146+00:00'),
 (381989425, 1, 0, 1, 0, 26, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ARRAY['Djohnnie'], '2022-02-23T23:35:41.043146+00:00'),
 (382308978, 49, 0, 1, 0, 29, 'tediko/planets-fact', 'Planets fact site with animated solar system built with ReactJS. ', ARRAY['tediko'], '2022-02-23T23:35:41.043146+00:00'),
+(384302754, 2977, 24, 1, 0, 11, 'jlongster/absurd-sql', 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ARRAY['jlongster', 'quolpr'], '2022-02-23T23:35:41.043146+00:00'),
 (384320581, 2, 0, 1, 0, 3, 'muhammaddzak/muhamamddzak.github.io', 'website for muhammaddzaky', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (384147961, 128, 5, 1, 0, 11, 'hashicorp/nextjs-bundle-analysis', 'A github action that provides detailed bundle analysis on PRs for next.js apps', ARRAY['jescalan', 'BRKalow'], '2022-02-23T23:35:41.043146+00:00'),
-(384302754, 2977, 24, 1, 0, 11, 'jlongster/absurd-sql', 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ARRAY['jlongster', 'quolpr'], '2022-02-23T23:35:41.043146+00:00'),
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-23T23:35:41.043146+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-23T23:35:41.043146+00:00'),
 (384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3481,8 +3481,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-23T23:35:41.043146+00:00'),
 (392242345, 37, 0, 1, 0, 24, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (392172833, 16, 146, 1, 0, 17, 'SidHacksCommunity/support', 'Reach out for any support you need', ARRAY['siddharthdayalwal', 'verma-kunal'], '2022-02-23T23:35:41.043146+00:00'),
-(392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-23T23:35:41.043146+00:00'),
 (392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-23T23:35:41.043146+00:00'),
+(392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-23T23:35:41.043146+00:00'),
 (392662562, 1, 4, 1, 0, 2, 'onaio/ansible-collection-rapidpro', 'RapidPro Ansible Collection', ARRAY['morrismukiri', 'jasonrogena'], '2022-02-23T23:35:41.043146+00:00'),
 (392935241, 1, 0, 1, 0, 9, 'piyalidas10/Angular-Error-Handling', 'Error Handling in Angular uing HttpInterceptor, HttpClient, Component', ARRAY['piyalidas10'], '2022-02-23T23:35:41.043146+00:00'),
 (393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-23T23:35:41.043146+00:00'),
