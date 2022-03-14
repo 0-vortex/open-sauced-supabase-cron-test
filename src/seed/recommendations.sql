@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T01:03:51.528Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T02:51:44.201Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -753,10 +753,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (40545736, 120, 23, 1, 0, 25, 'DATA-DOG/DataDogAuditBundle', 'Stores all database changes for doctrine ORM', ARRAY['l3pp4rd', 'chancegarcia'], '2022-02-23T23:35:41.043146+00:00'),
 (40819979, 638, 16, 1, 0, 3, 'frend/frend.co', 'Frend — A collection of accessible, modern front-end components.', ARRAY['thomasdigby', 'adamduncan'], '2022-02-23T23:35:41.043146+00:00'),
 (40984778, 686, 60, 1, 0, 23, 'discordrb/discordrb', 'Discord API for Ruby', ARRAY['meew0', 'z64'], '2022-02-23T23:35:41.043146+00:00'),
-(41029539, 303, 7, 1, 0, 20, 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', ARRAY['wegamekinglc'], '2022-02-23T23:35:41.043146+00:00'),
-(41589399, 337, 3, 1, 0, 13, 'gilbox/react-track', 'Track the position of DOM elements. Create cool animations.', ARRAY['gilbox', 'andreypopp'], '2022-02-23T23:35:41.043146+00:00'),
 (41147622, 2, 0, 1, 0, 8, 'sobingt/angular-node-seed', 'Seed project: nodejs angularjs with login', ARRAY['sobingt'], '2022-02-23T23:35:41.043146+00:00'),
 (41440228, 1521, 41, 1, 0, 7, 'sanathp/statusok', 'Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected. ', ARRAY['sanathp', 'damarte'], '2022-02-23T23:35:41.043146+00:00'),
+(41029539, 303, 7, 1, 0, 20, 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', ARRAY['wegamekinglc'], '2022-02-23T23:35:41.043146+00:00'),
+(41589399, 337, 3, 1, 0, 13, 'gilbox/react-track', 'Track the position of DOM elements. Create cool animations.', ARRAY['gilbox', 'andreypopp'], '2022-02-23T23:35:41.043146+00:00'),
 (41592744, 20305, 10, 1, 0, 19, 'AllThingsSmitty/css-protips', 'A collection of tips to help take your CSS skills pro', ARRAY['AllThingsSmitty', 'manolasn'], '2022-02-23T23:35:41.043146+00:00'),
 (40892817, 13816, 939, 1, 0, 4, 'ethereum/solidity', 'Solidity, the Smart Contract Programming Language', ARRAY['chriseth', 'axic'], '2022-02-23T23:35:41.043146+00:00'),
 (41571541, 2454, 448, 1, 0, 15, 'inspec/inspec', 'InSpec: Auditing and Testing Framework', ARRAY['chris-rock', 'clintoncwolfe'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1465,7 +1465,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (117300524, 25, 2, 1, 0, 20, 'gitcoinco/community', 'index of all the community stuff associated with gitcoin', ARRAY['owocki', 'vs77bb'], '2022-02-23T23:35:41.043146+00:00'),
 (117372806, 32314, 14, 2, 0, 10.5, 'yangshun/front-end-interview-handbook', '⚡️ Front End interview preparation materials for busy engineers', ARRAY['yangshun', 'ysm0622'], '2022-02-23T23:35:41.043146+00:00'),
 (117398892, 490, 3, 1, 0, 24, 'lenadroid/awesome-oss-mentors', 'List of OSS contributors willing to help others with their first pull requests!', ARRAY['lenadroid', 'seanknox'], '2022-02-23T23:35:41.043146+00:00'),
-(117464254, 312, 24, 1, 0, 3, 'bojidaryovchev/nest-angular', 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ARRAY['bojidaryovchev', 'heralight'], '2022-02-23T23:35:41.043146+00:00'),
 (117581345, 1, 6, 1, 0, 25, 'grnet/archiving', 'A Ruby-On-Rails Frontend for Bacula', ARRAY['parstra', 'ctrochalakis'], '2022-02-23T23:35:41.043146+00:00'),
 (117610654, 1576, 12, 1, 0, 8, 'maticzav/nookies', '🍪 A set of cookie helpers for Next.js', ARRAY['renovate-bot', 'maticzav'], '2022-02-23T23:35:41.043146+00:00'),
 (117618207, 96, 2, 1, 0, 14, 'ChakriCherukuri/mlviz', 'Visualizations of machine learning models and algorithms', ARRAY['ChakriCherukuri'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1607,8 +1606,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-23T23:35:41.043146+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-23T23:35:41.043146+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-23T23:35:41.043146+00:00'),
-(135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-23T23:35:41.043146+00:00'),
 (135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-23T23:35:41.043146+00:00'),
+(135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-23T23:35:41.043146+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-23T23:35:41.043146+00:00'),
 (135989792, 2759, 238, 1, 0, 24, 'fomantic/Fomantic-UI', 'Fomantic-UI is a community fork of Semantic-UI', ARRAY['jlukic', 'lubber-de'], '2022-02-23T23:35:41.043146+00:00'),
 (135990829, 23, 17, 1, 0, 23, 'fomantic/Fomantic-UI-Docs', 'Official Documentation for Fomantic-UI', ARRAY['jlukic', 'quirkyjack'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1771,6 +1770,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (156108442, 11649, 4, 1, 0, 10, 'myspaghetti/macos-virtualbox', 'Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS', ARRAY['myspaghetti', 'bronson'], '2022-02-23T23:35:41.043146+00:00'),
 (156217558, 2736, 129, 1, 0, 20, 'microsoft/vscode-dev-containers', 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', ARRAY['Chuxel', 'chrmarti'], '2022-02-23T23:35:41.043146+00:00'),
 (156242271, 3, 0, 1, 0, 3, 'oussj/big_brother_for_dummies', null, ARRAY['oussj'], '2022-02-23T23:35:41.043146+00:00'),
+(117464254, 312, 24, 1, 0, 3, 'bojidaryovchev/nest-angular', 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ARRAY['bojidaryovchev', 'heralight'], '2022-02-23T23:35:41.043146+00:00'),
 (156157055, 29279, 3, 2, 0, 5.5, 'GokuMohandas/MadeWithML', 'Learn how to responsibly deliver value with ML.', ARRAY['GokuMohandas'], '2022-02-23T23:35:41.043146+00:00'),
 (156453051, 90, 7, 1, 0, 27, 'jkrems/proposal-pkg-exports', 'Proposal for Bare Module Specifier Resolution in node.js', ARRAY['jkrems', 'guybedford'], '2022-02-23T23:35:41.043146+00:00'),
 (156488590, 1, 0, 1, 0, 8, 'b-marie/StackUnderflow', 'This was a group project for a back end course, which is why the front end is HORRENDOUS.', ARRAY['b-marie', 'RiverMerrill'], '2022-02-23T23:35:41.043146+00:00'),
