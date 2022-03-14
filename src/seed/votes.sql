@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T06:47:46.339Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T10:45:04.186Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -35,8 +35,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (57, 5713670, 'photonstorm/phaser', '5713670-photonstorm/phaser', '2022-01-17T05:35:43.447998+00:00'),
 (60, 5713670, 'golang/go', '5713670-golang/go', '2022-01-17T07:16:40.352999+00:00'),
 (61, 5713670, 'open-sauced/hot', '5713670-open-sauced/hot', '2022-01-17T07:24:18.452165+00:00'),
-(70, 62628408, 'open-sauced/hot', '62628408-open-sauced/hot', '2022-01-18T18:22:32.005557+00:00'),
 (64, 16826624, 'supabase/supabase', '16826624-supabase/supabase', '2022-01-17T22:42:21.64514+00:00'),
+(70, 62628408, 'open-sauced/hot', '62628408-open-sauced/hot', '2022-01-18T18:22:32.005557+00:00'),
 (71, 44076215, 'open-sauced/hot', '44076215-open-sauced/hot', '2022-01-18T19:59:10.341079+00:00'),
 (73, 44076215, 'flutter/flutter', '44076215-flutter/flutter', '2022-01-18T20:01:27.390085+00:00'),
 (74, 44076215, 'rust-lang/rust', '44076215-rust-lang/rust', '2022-01-18T20:01:34.320373+00:00'),
