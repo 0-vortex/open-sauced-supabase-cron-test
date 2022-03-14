@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T22:44:15.265Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T01:03:51.528Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -753,10 +753,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (40545736, 120, 23, 1, 0, 25, 'DATA-DOG/DataDogAuditBundle', 'Stores all database changes for doctrine ORM', ARRAY['l3pp4rd', 'chancegarcia'], '2022-02-23T23:35:41.043146+00:00'),
 (40819979, 638, 16, 1, 0, 3, 'frend/frend.co', 'Frend — A collection of accessible, modern front-end components.', ARRAY['thomasdigby', 'adamduncan'], '2022-02-23T23:35:41.043146+00:00'),
 (40984778, 686, 60, 1, 0, 23, 'discordrb/discordrb', 'Discord API for Ruby', ARRAY['meew0', 'z64'], '2022-02-23T23:35:41.043146+00:00'),
-(41147622, 2, 0, 1, 0, 8, 'sobingt/angular-node-seed', 'Seed project: nodejs angularjs with login', ARRAY['sobingt'], '2022-02-23T23:35:41.043146+00:00'),
-(41440228, 1521, 41, 1, 0, 7, 'sanathp/statusok', 'Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected. ', ARRAY['sanathp', 'damarte'], '2022-02-23T23:35:41.043146+00:00'),
 (41029539, 303, 7, 1, 0, 20, 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', ARRAY['wegamekinglc'], '2022-02-23T23:35:41.043146+00:00'),
 (41589399, 337, 3, 1, 0, 13, 'gilbox/react-track', 'Track the position of DOM elements. Create cool animations.', ARRAY['gilbox', 'andreypopp'], '2022-02-23T23:35:41.043146+00:00'),
+(41147622, 2, 0, 1, 0, 8, 'sobingt/angular-node-seed', 'Seed project: nodejs angularjs with login', ARRAY['sobingt'], '2022-02-23T23:35:41.043146+00:00'),
+(41440228, 1521, 41, 1, 0, 7, 'sanathp/statusok', 'Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected. ', ARRAY['sanathp', 'damarte'], '2022-02-23T23:35:41.043146+00:00'),
 (41592744, 20305, 10, 1, 0, 19, 'AllThingsSmitty/css-protips', 'A collection of tips to help take your CSS skills pro', ARRAY['AllThingsSmitty', 'manolasn'], '2022-02-23T23:35:41.043146+00:00'),
 (40892817, 13816, 939, 1, 0, 4, 'ethereum/solidity', 'Solidity, the Smart Contract Programming Language', ARRAY['chriseth', 'axic'], '2022-02-23T23:35:41.043146+00:00'),
 (41571541, 2454, 448, 1, 0, 15, 'inspec/inspec', 'InSpec: Auditing and Testing Framework', ARRAY['chris-rock', 'clintoncwolfe'], '2022-02-23T23:35:41.043146+00:00'),
