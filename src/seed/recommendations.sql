@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T02:51:44.201Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T04:54:35.976Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1465,6 +1465,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (117300524, 25, 2, 1, 0, 20, 'gitcoinco/community', 'index of all the community stuff associated with gitcoin', ARRAY['owocki', 'vs77bb'], '2022-02-23T23:35:41.043146+00:00'),
 (117372806, 32314, 14, 2, 0, 10.5, 'yangshun/front-end-interview-handbook', '⚡️ Front End interview preparation materials for busy engineers', ARRAY['yangshun', 'ysm0622'], '2022-02-23T23:35:41.043146+00:00'),
 (117398892, 490, 3, 1, 0, 24, 'lenadroid/awesome-oss-mentors', 'List of OSS contributors willing to help others with their first pull requests!', ARRAY['lenadroid', 'seanknox'], '2022-02-23T23:35:41.043146+00:00'),
+(117464254, 312, 24, 1, 0, 3, 'bojidaryovchev/nest-angular', 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ARRAY['bojidaryovchev', 'heralight'], '2022-02-23T23:35:41.043146+00:00'),
 (117581345, 1, 6, 1, 0, 25, 'grnet/archiving', 'A Ruby-On-Rails Frontend for Bacula', ARRAY['parstra', 'ctrochalakis'], '2022-02-23T23:35:41.043146+00:00'),
 (117610654, 1576, 12, 1, 0, 8, 'maticzav/nookies', '🍪 A set of cookie helpers for Next.js', ARRAY['renovate-bot', 'maticzav'], '2022-02-23T23:35:41.043146+00:00'),
 (117618207, 96, 2, 1, 0, 14, 'ChakriCherukuri/mlviz', 'Visualizations of machine learning models and algorithms', ARRAY['ChakriCherukuri'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1606,8 +1607,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-23T23:35:41.043146+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-23T23:35:41.043146+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-23T23:35:41.043146+00:00'),
-(135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-23T23:35:41.043146+00:00'),
 (135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-23T23:35:41.043146+00:00'),
+(135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-23T23:35:41.043146+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-23T23:35:41.043146+00:00'),
 (135989792, 2759, 238, 1, 0, 24, 'fomantic/Fomantic-UI', 'Fomantic-UI is a community fork of Semantic-UI', ARRAY['jlukic', 'lubber-de'], '2022-02-23T23:35:41.043146+00:00'),
 (135990829, 23, 17, 1, 0, 23, 'fomantic/Fomantic-UI-Docs', 'Official Documentation for Fomantic-UI', ARRAY['jlukic', 'quirkyjack'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1770,7 +1771,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (156108442, 11649, 4, 1, 0, 10, 'myspaghetti/macos-virtualbox', 'Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS', ARRAY['myspaghetti', 'bronson'], '2022-02-23T23:35:41.043146+00:00'),
 (156217558, 2736, 129, 1, 0, 20, 'microsoft/vscode-dev-containers', 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', ARRAY['Chuxel', 'chrmarti'], '2022-02-23T23:35:41.043146+00:00'),
 (156242271, 3, 0, 1, 0, 3, 'oussj/big_brother_for_dummies', null, ARRAY['oussj'], '2022-02-23T23:35:41.043146+00:00'),
-(117464254, 312, 24, 1, 0, 3, 'bojidaryovchev/nest-angular', 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ARRAY['bojidaryovchev', 'heralight'], '2022-02-23T23:35:41.043146+00:00'),
 (156157055, 29279, 3, 2, 0, 5.5, 'GokuMohandas/MadeWithML', 'Learn how to responsibly deliver value with ML.', ARRAY['GokuMohandas'], '2022-02-23T23:35:41.043146+00:00'),
 (156453051, 90, 7, 1, 0, 27, 'jkrems/proposal-pkg-exports', 'Proposal for Bare Module Specifier Resolution in node.js', ARRAY['jkrems', 'guybedford'], '2022-02-23T23:35:41.043146+00:00'),
 (156488590, 1, 0, 1, 0, 8, 'b-marie/StackUnderflow', 'This was a group project for a back end course, which is why the front end is HORRENDOUS.', ARRAY['b-marie', 'RiverMerrill'], '2022-02-23T23:35:41.043146+00:00'),
