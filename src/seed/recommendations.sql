@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T12:51:53.303Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T14:44:30.506Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -475,12 +475,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (17576966, 3878, 49, 1, 0, 1, 'stackgl/shader-school', ':mortar_board: A workshopper for GLSL shaders and graphics programming', ARRAY['mikolalysenko', 'hughsk'], '2022-02-23T23:35:41.043146+00:00'),
 (17620347, 27158, 2234, 1, 0, 0, 'dotnet/aspnetcore', 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', ARRAY['pranavkm', 'aspnetci'], '2022-02-23T23:35:41.043146+00:00'),
 (17634071, 2390, 253, 1, 0, 10, 'JabRef/jabref', 'Graphical Java application for managing BibTeX and biblatex (.bib) databases', ARRAY['koppor', 'Siedlerchr'], '2022-02-23T23:35:41.043146+00:00'),
+(17580043, 732, 12, 1, 0, 17, 'bitcoinjs/bip39', 'JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys', ARRAY['dcousens', 'weilu'], '2022-02-23T23:35:41.043146+00:00'),
 (17652873, 766, 59, 1, 0, 13, 'FarmBot/Farmbot-Web-App', 'Setup, customize, and control FarmBot from any device', ARRAY['RickCarlino', 'gabrielburnworth'], '2022-02-23T23:35:41.043146+00:00'),
 (17654723, 112, 2, 1, 0, 21, 'koding/kd', 'UI Framework for web applications.', ARRAY['sinan', 'gokmen'], '2022-02-23T23:35:41.043146+00:00'),
 (17689377, 7113, 23, 1, 0, 3, 'pre-commit/pre-commit', 'A framework for managing and maintaining multi-language pre-commit hooks.', ARRAY['asottile', 'struys'], '2022-02-23T23:35:41.043146+00:00'),
 (17763202, 442, 19, 1, 0, 23, 'evgenyneu/js-evaluator-for-android', 'A library for running JavaScript in Android apps.', ARRAY['evgenyneu', 'codebymikey'], '2022-02-23T23:35:41.043146+00:00'),
 (17884290, 2689, 101, 3, 0, 20.333333333333332, 'tschaub/gh-pages', 'General purpose task for publishing files to a gh-pages branch on GitHub', ARRAY['tschaub', 'greenkeeperio-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(17580043, 732, 12, 1, 0, 17, 'bitcoinjs/bip39', 'JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys', ARRAY['dcousens', 'weilu'], '2022-02-23T23:35:41.043146+00:00'),
 (17959555, 4923, 22, 1, 0, 14, 'anishathalye/dotbot', 'A tool that bootstraps your dotfiles ⚡️', ARRAY['anishathalye', 'robobenklein'], '2022-02-23T23:35:41.043146+00:00'),
 (17985532, 502, 52, 1, 0, 21, 'RangeNetworks/dev', 'Start Here! Development Environment Tools and System Releases', ARRAY['iedemam', 'oleyka'], '2022-02-23T23:35:41.043146+00:00'),
 (18154829, 3107, 0, 1, 0, 6, 'jasonlong/isometric-contributions', 'Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.', ARRAY['jasonlong', 'bahlo'], '2022-02-23T23:35:41.043146+00:00'),
