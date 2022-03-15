@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T20:44:17.890Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T22:44:19.201Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9,7 +9,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (3287, 4457, 94, 1, 0, 20, 'preservim/nerdcommenter', 'Vim plugin for intensely nerdy commenting powers', ARRAY['alerque', 'scrooloose'], '2022-02-23T23:35:41.043146+00:00'),
 (5954, 4541, 0, 1, 0, 1, 'jeremyevans/sequel', 'Sequel: The Database Toolkit for Ruby', ARRAY['jeremyevans', 'ciconia'], '2022-02-23T23:35:41.043146+00:00'),
 (7497, 5150, 18, 1, 0, 15, 'formtastic/formtastic', 'A Rails form builder plugin with semantically rich and accessible markup.', ARRAY['justinfrench', 'mjonuschat'], '2022-02-23T23:35:41.043146+00:00'),
-(8514, 49762, 598, 3, 0, 14.666666666666666, 'rails/rails', 'Ruby on Rails', ARRAY['rafaelfranca', 'tenderlove'], '2022-02-23T23:35:41.043146+00:00'),
 (36502, 40523, 90, 1, 0, 25, 'git/git', 'Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.', ARRAY['gitster', 'peff'], '2022-02-23T23:35:41.043146+00:00'),
 (65252, 43822, 165, 1, 0, 10, 'jekyll/jekyll', ':globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby', ARRAY['parkr', 'jekyllbot'], '2022-02-23T23:35:41.043146+00:00'),
 (69609, 3374, 758, 1, 0, 0, 'internetarchive/openlibrary', 'One webpage for every book ever published!', ARRAY['mekarpeles', 'anandology'], '2022-02-23T23:35:41.043146+00:00'),
@@ -142,6 +141,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2238035, 4347, 33, 1, 0, 9, 'tpope/vim-commentary', 'commentary.vim: comment stuff out', ARRAY['tpope', 'chaoren'], '2022-02-23T23:35:41.043146+00:00'),
 (2247604, 400, 11, 1, 0, 25, 'joaomatossilva/DateTimeExtensions', 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', ARRAY['joaomatossilva', 'schulz3000'], '2022-02-23T23:35:41.043146+00:00'),
 (2271913, 1, 0, 1, 0, 20, 'gwincr11/cognition-caps', 'Web app which will power the Cognition Caps website', ARRAY['lhanson', 'gwincr11'], '2022-02-23T23:35:41.043146+00:00'),
+(8514, 49762, 598, 3, 0, 14.666666666666666, 'rails/rails', 'Ruby on Rails', ARRAY['rafaelfranca', 'tenderlove'], '2022-02-23T23:35:41.043146+00:00'),
 (2371106, 15846, 59, 2, 0, 19, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-23T23:35:41.043146+00:00'),
 (2454047, 6179, 13, 1, 0, 8, 'rubocop/rails-style-guide', 'A community-driven Ruby on Rails style guide', ARRAY['bbatsov', 'koic'], '2022-02-23T23:35:41.043146+00:00'),
 (2476162, 6696, 184, 1, 0, 22, 'fail2ban/fail2ban', 'Daemon to ban hosts that cause multiple authentication errors', ARRAY['sebres', 'yarikoptic'], '2022-02-23T23:35:41.043146+00:00'),
