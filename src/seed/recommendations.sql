@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T01:03:56.415Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T02:52:28.842Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2212,6 +2212,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (216936227, 12, 50, 1, 0, 0, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-23T23:35:41.043146+00:00'),
 (217388629, 231, 3, 1, 0, 5, 'ReactTraining/react-workshop', 'The course material for our React Hooks workshop', ARRAY['bradwestfall', 'chaance'], '2022-02-23T23:35:41.043146+00:00'),
 (217530318, 15, 1, 1, 0, 10, 'blueluna/psila', 'Work in progress Zigbee stack in Rust', ARRAY['blueluna'], '2022-02-23T23:35:41.043146+00:00'),
+(217545172, 1507, 34, 1, 0, 29, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-23T23:35:41.043146+00:00'),
+(217547293, 556, 4, 1, 0, 5, 'ruby-next/ruby-next', 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', ARRAY['palkan', 'sl4vr'], '2022-02-23T23:35:41.043146+00:00'),
 (217654199, 2508, 80, 1, 0, 10, 'microsoft/msquic', 'Cross-platform, C implementation of the IETF QUIC protocol.', ARRAY['nibanks', 'ThadHouse'], '2022-02-23T23:35:41.043146+00:00'),
 (217796246, 1, 0, 1, 0, 6, 'mudaliaraditya/EpollServer', 'simple epoll server library', ARRAY['mudaliaraditya'], '2022-02-23T23:35:41.043146+00:00'),
 (217963207, 1, 1, 1, 0, 18, 'Umuzi-org/django-react-stack', 'This is a template repo to be used when kicking off projects that make use of Django and React together', ARRAY['sheenarbw'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2225,8 +2227,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (219294494, 2617, 7, 1, 0, 29, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'idkjs'], '2022-02-23T23:35:41.043146+00:00'),
 (219324014, 118, 11, 1, 0, 29, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-23T23:35:41.043146+00:00'),
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-23T23:35:41.043146+00:00'),
-(217545172, 1507, 34, 1, 0, 29, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-23T23:35:41.043146+00:00'),
-(217547293, 556, 4, 1, 0, 5, 'ruby-next/ruby-next', 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', ARRAY['palkan', 'sl4vr'], '2022-02-23T23:35:41.043146+00:00'),
 (219415760, 33, 0, 1, 0, 11, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-23T23:35:41.043146+00:00'),
 (219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-23T23:35:41.043146+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-23T23:35:41.043146+00:00'),
