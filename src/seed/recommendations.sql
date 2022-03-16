@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T01:04:07.938Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T02:55:08.327Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1363,9 +1363,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (104443108, 383, 4, 1, 0, 22, 'ukncsc/secure-development-and-deployment', 'NCSC Guidance for secure development and deployment', ARRAY['toby-ncsc', 'HowWeRollingham'], '2022-02-23T23:35:41.043146+00:00'),
 (104957153, 5074, 21, 1, 0, 20, 'nestjs/awesome-nestjs', 'A curated list of awesome things related to NestJS 😎', ARRAY['juliandavidmr', 'Tony133'], '2022-02-23T23:35:41.043146+00:00'),
 (105006329, 40, 13, 1, 0, 1, 'shiplab/vesseljs', 'Vessel.js Ship Design Library', ARRAY['icarofonseca', 'ferrari212'], '2022-02-23T23:35:41.043146+00:00'),
+(105079548, 213, 769, 1, 0, 21, 'BaReinhard/Hacktoberfest-Data-Structure-and-Algorithms', 'A repo to contains data structure s and algorithms, regardless of language.', ARRAY['BaReinhard', 'vaibhavsingh97'], '2022-02-23T23:35:41.043146+00:00'),
 (105279544, 15599, 141, 1, 0, 12, 'gocolly/colly', 'Elegant Scraper and Crawler Framework for Golang', ARRAY['asciimoo', 'vosmith'], '2022-02-23T23:35:41.043146+00:00'),
 (105300337, 739, 0, 1, 0, 27, 'Orbiter/yacy_grid_ui', 'YaCy Grid Front Page', ARRAY['Orbiter', 'luccioman'], '2022-02-23T23:35:41.043146+00:00'),
-(105079548, 213, 769, 1, 0, 21, 'BaReinhard/Hacktoberfest-Data-Structure-and-Algorithms', 'A repo to contains data structure s and algorithms, regardless of language.', ARRAY['BaReinhard', 'vaibhavsingh97'], '2022-02-23T23:35:41.043146+00:00'),
 (105355904, 19, 0, 1, 0, 9, 'garro95/zigbee', 'A zigbee API for the Rust programming language', ARRAY['danielwelch'], '2022-02-23T23:35:41.043146+00:00'),
 (105379569, 12793, 114, 1, 0, 1, 'actix/actix-web', 'Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.', ARRAY['fafhrd91', 'robjtede'], '2022-02-23T23:35:41.043146+00:00'),
 (105412971, 4574, 168, 1, 0, 10, 'stereobooster/react-snap', '👻 Zero-configuration framework-agnostic static prerendering for SPAs', ARRAY['stereobooster', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
