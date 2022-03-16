@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T18:47:00.917Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T20:44:22.286Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1074,8 +1074,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-23T23:35:41.043146+00:00'),
 (71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-23T23:35:41.043146+00:00'),
 (71359796, 573, 29, 4, 1, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-23T23:35:41.043146+00:00'),
-(71551629, 10979, 8, 2, 0, 10, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-23T23:35:41.043146+00:00'),
 (71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-23T23:35:41.043146+00:00'),
+(71551629, 10979, 8, 2, 0, 10, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-23T23:35:41.043146+00:00'),
 (71583602, 25417, 2, 1, 0, 8, 'Developer-Y/cs-video-courses', 'List of Computer Science courses with video lectures.', ARRAY['Developer-Y', 'DateBro'], '2022-02-23T23:35:41.043146+00:00'),
 (71788837, 1, 0, 1, 0, 5, 'sobingt/tesseract.js', 'Pure Javascript OCR for 62 Languages 📖🎉🖥', ARRAY['bijection', 'antimatter15'], '2022-02-23T23:35:41.043146+00:00'),
 (71823870, 3750, 151, 1, 0, 0, 'prometheus-operator/kube-prometheus', 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', ARRAY['brancz', 'paulfantom'], '2022-02-23T23:35:41.043146+00:00'),
