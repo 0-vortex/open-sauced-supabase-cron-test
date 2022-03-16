@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T02:55:08.327Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T04:47:54.366Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -66,13 +66,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (661127, 2, 0, 1, 0, 22, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-23T23:35:41.043146+00:00'),
 (667561, 34373, 303, 2, 0, 22, 'Marak/faker.js', 'generate massive amounts of realistic fake data in Node.js and the browser', ARRAY['Marak', 'FotoVerite'], '2022-02-23T23:35:41.043146+00:00'),
 (712530, 20981, 263, 1, 0, 0, 'fabricjs/fabric.js', 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', ARRAY['kangax', 'asturur'], '2022-02-23T23:35:41.043146+00:00'),
-(715082, 6719, 65, 1, 0, 16, 'reactiveui/ReactiveUI', 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', ARRAY['anaisbetts', 'jlaanstra'], '2022-02-23T23:35:41.043146+00:00'),
-(724712, 61717, 8143, 2, 1, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-23T23:35:41.043146+00:00'),
-(734957, 7279, 105, 1, 0, 0, 'kelektiv/node-cron', 'Cron for NodeJS.', ARRAY['ncb000gt', 'jodevsa'], '2022-02-23T23:35:41.043146+00:00'),
 (778828, 4111, 8, 1, 0, 27, 'MassTransit/MassTransit', 'Distributed Application Framework for .NET', ARRAY['phatboyg', 'drusellers'], '2022-02-23T23:35:41.043146+00:00'),
 (790359, 25465, 825, 1, 0, 8, 'sequelize/sequelize', 'An easy-to-use and promise-based multi SQL dialects ORM tool for Node.js', ARRAY['sdepold', 'mickhansen'], '2022-02-23T23:35:41.043146+00:00'),
 (802006, 7773, 169, 1, 0, 29, 'mediaelement/mediaelement', 'HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.', ARRAY['johndyer', 'rafa8626'], '2022-02-23T23:35:41.043146+00:00'),
 (809601, 16346, 86, 1, 0, 29, 'handlebars-lang/handlebars.js', 'Minimal templating on steroids.', ARRAY['kpdecker', 'nknapp'], '2022-02-23T23:35:41.043146+00:00'),
+(715082, 6719, 65, 1, 0, 16, 'reactiveui/ReactiveUI', 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', ARRAY['anaisbetts', 'jlaanstra'], '2022-02-23T23:35:41.043146+00:00'),
+(724712, 61717, 8143, 2, 1, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-23T23:35:41.043146+00:00'),
+(734957, 7279, 105, 1, 0, 0, 'kelektiv/node-cron', 'Cron for NodeJS.', ARRAY['ncb000gt', 'jodevsa'], '2022-02-23T23:35:41.043146+00:00'),
 (842037, 12310, 2146, 1, 0, 17, 'nim-lang/Nim', 'Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority).', ARRAY['Araq', 'dom96'], '2022-02-23T23:35:41.043146+00:00'),
 (843222, 48368, 2478, 1, 0, 6, 'scikit-learn/scikit-learn', 'scikit-learn: machine learning in Python', ARRAY['ogrisel', 'amueller'], '2022-02-23T23:35:41.043146+00:00'),
 (892275, 39212, 156, 1, 0, 23, 'square/retrofit', 'A type-safe HTTP client for Android and the JVM', ARRAY['JakeWharton', 'swankjesse'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3596,8 +3596,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (407327246, 2, 1, 1, 0, 5, 'angeloashmore/gatsby-4-prismic-demo', null, ARRAY['angeloashmore'], '2022-02-23T23:35:41.043146+00:00'),
 (407507122, 1, 0, 2, 0, 0, 'dimassuam/project-kalian', 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ARRAY['sandhikagalih'], '2022-02-23T23:35:41.043146+00:00'),
 (407666234, 36, 0, 1, 0, 5, 'zero-to-mastery/coding_challenge-42', 'Hacktoberfest 2021', ARRAY['MattCSmith'], '2022-02-23T23:35:41.043146+00:00'),
-(408664831, 917, 0, 1, 0, 26, 'ai/nanocolors', 'Use picocolors instead. It is 3 times smaller and 50% faster.', ARRAY['jorgebucaran', 'ai'], '2022-02-23T23:35:41.043146+00:00'),
 (409285729, 5, 1, 1, 0, 5, 'Buckcli/Buck-python', 'Run multiple commands all in one . getbuck.tech', ARRAY['Pleasant-tech'], '2022-02-23T23:35:41.043146+00:00'),
+(408664831, 917, 0, 1, 0, 26, 'ai/nanocolors', 'Use picocolors instead. It is 3 times smaller and 50% faster.', ARRAY['jorgebucaran', 'ai'], '2022-02-23T23:35:41.043146+00:00'),
 (409591032, 35, 2, 1, 0, 23, 'CornerBit/HikSink', 'Converts Hikvision camera events to MQTT', ARRAY['CornerBit'], '2022-02-23T23:35:41.043146+00:00'),
 (409743854, 5, 0, 1, 0, 16, 'mtfoley/gh-user-search', 'GitHub User Search', ARRAY['mtfoley'], '2022-02-23T23:35:41.043146+00:00'),
 (409762235, 1, 0, 1, 0, 7, 'rognan/deno-gradle-plugin', 'Use Deno (https://deno.land/) as part of your Gradle build.', ARRAY['rognan'], '2022-02-23T23:35:41.043146+00:00'),
