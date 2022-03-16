@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T06:47:31.890Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T08:45:29.578Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -84,7 +84,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (959908, 10261, 1614, 1, 0, 21, 'OpenRA/OpenRA', 'Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.', ARRAY['pchote', 'chrisforbes'], '2022-02-23T23:35:41.043146+00:00'),
 (961036, 4811, 171, 1, 0, 18, 'hibernate/hibernate-orm', 'Hibernate''s core Object/Relational Mapping functionality', ARRAY['sebersole', 'dreab8'], '2022-02-23T23:35:41.043146+00:00'),
 (970625, 48, 1, 1, 0, 8, 'uwmadison-chm/bioread', 'Utilities to work with files from BIOPAC''s AcqKnowlege software', ARRAY['njvack', 'smoia'], '2022-02-23T23:35:41.043146+00:00'),
-(976994, 6903, 285, 1, 0, 6, 'pennersr/django-allauth', 'Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.', ARRAY['pennersr', 'jleclanche'], '2022-02-23T23:35:41.043146+00:00'),
 (997856, 1332, 21, 1, 0, 13, 'mrtazz/restclient-cpp', 'C++ client for making HTTP/REST requests', ARRAY['mrtazz', 'lawmaestro'], '2022-02-23T23:35:41.043146+00:00'),
 (1020601, 1901, 202, 1, 0, 19, 'modelmapper/modelmapper', 'Intelligent object mapping', ARRAY['jhalterman', 'chhsiao90'], '2022-02-23T23:35:41.043146+00:00'),
 (1039520, 103987, 4973, 1, 0, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-23T23:35:41.043146+00:00'),
@@ -100,6 +99,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (1239151, 862, 11, 1, 0, 23, 'cmatsuoka/figlet', 'Claudio''s FIGlet tree', ARRAY['cmatsuoka', 'jmccrohan'], '2022-02-23T23:35:41.043146+00:00'),
 (1244792, 908, 28, 1, 0, 14, 'fukamachi/clack', 'Web server abstraction layer for Common Lisp', ARRAY['fukamachi', 'doomchild'], '2022-02-23T23:35:41.043146+00:00'),
 (1272424, 14368, 7, 1, 0, 13, 'nodemailer/nodemailer', '✉️ Send e-mails with Node.JS – easy as cake!', ARRAY['andris9', 'igorsechyn'], '2022-02-23T23:35:41.043146+00:00'),
+(976994, 6903, 285, 1, 0, 6, 'pennersr/django-allauth', 'Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.', ARRAY['pennersr', 'jleclanche'], '2022-02-23T23:35:41.043146+00:00'),
 (1300192, 10657, 12717, 1, 0, 18, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-23T23:35:41.043146+00:00'),
 (1334369, 50406, 48, 2, 0, 17, 'resume/resume.github.com', 'Resumes generated using the GitHub informations', ARRAY['u2', 'NumEricR'], '2022-02-23T23:35:41.043146+00:00'),
 (1341324, 4532, 63, 1, 0, 2, 'isaacs/rimraf', 'A `rm -rf` util for nodejs', ARRAY['isaacs', 'PeterDaveHello'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1062,7 +1062,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70487339, 31, 0, 1, 0, 6, 'ang3lkar/pretty-diffs', 'Enable fancy colored diffs in your minitest assertions', ARRAY['ang3lkar'], '2022-02-23T23:35:41.043146+00:00'),
 (70745419, 2989, 0, 1, 0, 11, 'Naereen/badges', ':pencil: Markdown code for lots of small badges :ribbon: :pushpin: (shields.io, forthebadge.com etc) :sunglasses:. Contributions are welcome! Please add yours!', ARRAY['Naereen', 'yuri-norwood'], '2022-02-23T23:35:41.043146+00:00'),
 (70777180, 11976, 9, 2, 0, 7.5, 'Foundry376/Mailspring', ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', ARRAY['bengotow', 'emorikawa'], '2022-02-23T23:35:41.043146+00:00'),
-(70848287, 2338, 41, 1, 0, 23, 'yairEO/tagify', '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', ARRAY['yairEO', 'LironHazan'], '2022-02-23T23:35:41.043146+00:00'),
 (70860064, 1025, 1, 1, 0, 19, 'Yonet/Angular-Interview-Questions', 'A list of helpful Angular interview questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['Yonet', 'bhanu7755'], '2022-02-23T23:35:41.043146+00:00'),
 (70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:35:41.043146+00:00'),
 (70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1483,6 +1482,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (118695306, 6623, 24, 1, 0, 18, 'FormidableLabs/urql', 'The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.', ARRAY['kitten', 'JoviDeCroock'], '2022-02-23T23:35:41.043146+00:00'),
 (118858739, 18579, 112, 1, 0, 11, 'dwmkerr/hacker-laws', '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', ARRAY['dwmkerr', 'umutphp'], '2022-02-23T23:35:41.043146+00:00'),
 (118870669, 1, 1, 1, 0, 5, 'psi-zimb/psi-module', 'For dev changes', ARRAY['Mahitha1467', 'gopikrishna-yaramothu'], '2022-02-23T23:35:41.043146+00:00'),
+(70848287, 2338, 41, 1, 0, 23, 'yairEO/tagify', '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', ARRAY['yairEO', 'LironHazan'], '2022-02-23T23:35:41.043146+00:00'),
 (118893601, 253, 25, 1, 0, 9, 'tc39/proposal-explicit-resource-management', 'ECMAScript Explicit Resource Management', ARRAY['rbuckton', 'littledan'], '2022-02-23T23:35:41.043146+00:00'),
 (118970914, 15030, 695, 1, 0, 27, 'debauchee/barrier', 'Open-source KVM software', ARRAY['p12tic', 'shymega'], '2022-02-23T23:35:41.043146+00:00'),
 (119006816, 2124, 81, 1, 0, 0, 'Splode/pomotroid', ':tomato: Simple and visually-pleasing Pomodoro timer', ARRAY['Splode', 'TCWTEAM'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1941,8 +1941,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (178991158, 20608, 323, 1, 0, 26, 'starship/starship', '☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!', ARRAY['matchai', 'andytom'], '2022-02-23T23:35:41.043146+00:00'),
 (179344069, 598, 117, 1, 0, 4, 'woodpecker-ci/woodpecker', 'Woodpecker is a community fork of the Drone CI system.', ARRAY['bradrydzewski', 'laszlocph'], '2022-02-23T23:35:41.043146+00:00'),
 (179149772, 2074, 3, 1, 0, 7, 'davebs/AgileLite', 'Agile software development without all the burnout.', ARRAY['uran1980', 'davebs'], '2022-02-23T23:35:41.043146+00:00'),
-(179063508, 3099, 69, 1, 0, 6, 'rancher/k3d', 'Little helper to run Rancher Lab''s k3s in Docker', ARRAY['iwilltry42', 'andyz-dev'], '2022-02-23T23:35:41.043146+00:00'),
 (179377705, 4164, 80, 1, 0, 20, 'system-ui/theme-ui', 'Build consistent, themeable React apps based on constraint-based design principles', ARRAY['jxnblk', 'hasparus'], '2022-02-23T23:35:41.043146+00:00'),
+(179063508, 3099, 69, 1, 0, 6, 'rancher/k3d', 'Little helper to run Rancher Lab''s k3s in Docker', ARRAY['iwilltry42', 'andyz-dev'], '2022-02-23T23:35:41.043146+00:00'),
 (179623816, 240, 16, 1, 0, 5, 'GraphQLGuide/apollo-datasource-mongodb', 'Apollo data source for MongoDB', ARRAY['lorensr', '9at8'], '2022-02-23T23:35:41.043146+00:00'),
 (179887428, 2, 0, 1, 0, 16, 'Asrez/Website', 'The blog of Max Base with some developer, programmer, designer, researcher(s).', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (180190854, 14673, 435, 1, 0, 0, 'appwrite/appwrite', 'Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀', ARRAY['eldadfux', 'TorstenDittmann'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3000,10 +3000,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (327400204, 2, 0, 1, 0, 8, 'speijnik/myhome', 'Python library for interacting with MyHomeSERVER1', ARRAY['speijnik'], '2022-02-23T23:35:41.043146+00:00'),
 (327406312, 562, 1, 1, 0, 16, 'tailwindlabs/tailwindcss-line-clamp', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-23T23:35:41.043146+00:00'),
 (327443948, 13, 3, 1, 0, 22, 'zkoppert/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'sicot-f'], '2022-02-23T23:35:41.043146+00:00'),
+(327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-23T23:35:41.043146+00:00'),
 (328584124, 73, 0, 1, 0, 19, 'mdbootstrap/mdb4-vue-ui-kit', 'Vue Bootstrap with Material Design - Powerful and free UI KIT', ARRAY['marlucz', 'bwsky-a'], '2022-02-23T23:35:41.043146+00:00'),
 (328070675, 1, 1, 1, 0, 28, 'MattMarquise/open-sauced-goals', null, ARRAY['MattMarquise'], '2022-02-23T23:35:41.043146+00:00'),
 (328121260, 1665, 2, 1, 0, 5, 'timlrx/tailwind-nextjs-starter-blog', 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', ARRAY['timlrx', 'Music47ell'], '2022-02-23T23:35:41.043146+00:00'),
-(327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-23T23:35:41.043146+00:00'),
 (328981878, 1, 0, 1, 0, 8, 'udberg/NearbyRestaurants', 'This project showcases a Telegram bot that helps you check for the restaurants closest to you.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (328831244, 18508, 57, 1, 0, 3, 'ibraheemdev/modern-unix', 'A collection of modern/faster/saner alternatives to common unix commands.', ARRAY['ibraheemdev', 'hderms'], '2022-02-23T23:35:41.043146+00:00'),
 (329025126, 4, 6, 1, 0, 3, 'keithtelliott/FlipAgain', 'Flashcard app', ARRAY['keithtelliott', 'jtoar'], '2022-02-23T23:35:41.043146+00:00'),
