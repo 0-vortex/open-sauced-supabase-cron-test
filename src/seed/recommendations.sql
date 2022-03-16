@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T16:51:15.397Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T18:47:00.917Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1074,8 +1074,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-23T23:35:41.043146+00:00'),
 (71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-23T23:35:41.043146+00:00'),
 (71359796, 573, 29, 4, 1, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-23T23:35:41.043146+00:00'),
-(71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-23T23:35:41.043146+00:00'),
 (71551629, 10979, 8, 2, 0, 10, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-23T23:35:41.043146+00:00'),
+(71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-23T23:35:41.043146+00:00'),
 (71583602, 25417, 2, 1, 0, 8, 'Developer-Y/cs-video-courses', 'List of Computer Science courses with video lectures.', ARRAY['Developer-Y', 'DateBro'], '2022-02-23T23:35:41.043146+00:00'),
 (71788837, 1, 0, 1, 0, 5, 'sobingt/tesseract.js', 'Pure Javascript OCR for 62 Languages 📖🎉🖥', ARRAY['bijection', 'antimatter15'], '2022-02-23T23:35:41.043146+00:00'),
 (71823870, 3750, 151, 1, 0, 0, 'prometheus-operator/kube-prometheus', 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', ARRAY['brancz', 'paulfantom'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1463,10 +1463,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (117156031, 2326, 151, 1, 0, 11, 'prysmaticlabs/prysm', 'Go implementation of Ethereum proof of stake', ARRAY['terencechain', 'prestonvanloon'], '2022-02-23T23:35:41.043146+00:00'),
 (117296026, 934, 55, 1, 0, 25, 'wowthemesnet/mediumish-theme-jekyll', 'Jekyll Template - Mediumish', ARRAY['wowthemesnet', 'GiacomoLaw'], '2022-02-23T23:35:41.043146+00:00'),
 (117300524, 25, 2, 1, 0, 20, 'gitcoinco/community', 'index of all the community stuff associated with gitcoin', ARRAY['owocki', 'vs77bb'], '2022-02-23T23:35:41.043146+00:00'),
+(117372806, 32314, 14, 2, 0, 10.5, 'yangshun/front-end-interview-handbook', '⚡️ Front End interview preparation materials for busy engineers', ARRAY['yangshun', 'ysm0622'], '2022-02-23T23:35:41.043146+00:00'),
 (117398892, 490, 3, 1, 0, 24, 'lenadroid/awesome-oss-mentors', 'List of OSS contributors willing to help others with their first pull requests!', ARRAY['lenadroid', 'seanknox'], '2022-02-23T23:35:41.043146+00:00'),
 (117464254, 312, 24, 1, 0, 3, 'bojidaryovchev/nest-angular', 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ARRAY['bojidaryovchev', 'heralight'], '2022-02-23T23:35:41.043146+00:00'),
 (117581345, 1, 6, 1, 0, 25, 'grnet/archiving', 'A Ruby-On-Rails Frontend for Bacula', ARRAY['parstra', 'ctrochalakis'], '2022-02-23T23:35:41.043146+00:00'),
-(117372806, 32314, 14, 2, 0, 10.5, 'yangshun/front-end-interview-handbook', '⚡️ Front End interview preparation materials for busy engineers', ARRAY['yangshun', 'ysm0622'], '2022-02-23T23:35:41.043146+00:00'),
 (117610654, 1576, 12, 1, 0, 8, 'maticzav/nookies', '🍪 A set of cookie helpers for Next.js', ARRAY['renovate-bot', 'maticzav'], '2022-02-23T23:35:41.043146+00:00'),
 (117618207, 96, 2, 1, 0, 14, 'ChakriCherukuri/mlviz', 'Visualizations of machine learning models and algorithms', ARRAY['ChakriCherukuri'], '2022-02-23T23:35:41.043146+00:00'),
 (117683849, 191, 23, 1, 0, 11, 'ponnamkarthik/RichLinkPreview', 'A Rich Link Preview Library for Android', ARRAY['ponnamkarthik'], '2022-02-23T23:35:41.043146+00:00'),
