@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T16:51:40.202Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T18:46:53.607Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1986,9 +1986,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (185131263, 390, 9, 1, 0, 3, 'calebnance/expo-spotify', 'Spotify UI Clone with React Native & Expo', ARRAY['calebnance', 'bidah'], '2022-02-23T23:35:41.043146+00:00'),
 (185327227, 764, 19, 1, 0, 24, 'meriyah/meriyah', 'A 100% compliant, self-hosted javascript parser  - https://meriyah.github.io/meriyah', ARRAY['KFlash', '3cp'], '2022-02-23T23:35:41.043146+00:00'),
 (186228401, 4, 0, 1, 0, 12, 'BaseMax/ChessWeb', 'Chess game with two player. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
-(186932654, 2, 0, 1, 0, 11, 'BaseMax/FirstElectron', 'Begin point and Getting start of the electron using node js.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (186470218, 1, 0, 1, 0, 8, 'Gingertonic/london-spas-cli', 'Demo CLI app showing API usage with authentication using HTTParty and Yelp Fusion API', ARRAY['Gingertonic'], '2022-02-23T23:35:41.043146+00:00'),
 (186662363, 7340, 70, 1, 0, 20, 'nodegui/nodegui', 'A library for building cross-platform native desktop applications with Node.js and CSS  🚀.  React NodeGui : https://react.nodegui.org and Vue NodeGui: https://vue.nodegui.org', ARRAY['a7ul', 'sedwards2009'], '2022-02-23T23:35:41.043146+00:00'),
+(186932654, 2, 0, 1, 0, 11, 'BaseMax/FirstElectron', 'Begin point and Getting start of the electron using node js.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (187066133, 42, 1, 1, 0, 11, 'spinnaker/governance', 'Community documentation for Spinnaker', ARRAY['robzienert', 'ajordens'], '2022-02-23T23:35:41.043146+00:00'),
 (187325459, 7, 5, 1, 0, 21, 'mheap/markdown-to-jira', 'Create Jira tickets from a plain text format', ARRAY['mheap'], '2022-02-23T23:35:41.043146+00:00'),
 (186702057, 280, 159, 1, 0, 7, 'solid/specification', 'Solid Technical Reports', ARRAY['csarven', 'RubenVerborgh'], '2022-02-23T23:35:41.043146+00:00'),
