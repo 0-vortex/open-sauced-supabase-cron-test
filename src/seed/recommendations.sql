@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T10:44:33.244Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T12:50:55.741Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2206,8 +2206,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (216243012, 5459, 31, 1, 0, 7, 'muhammed/vue-interactive-paycard', 'Credit card form with smooth and sweet micro-interactions', ARRAY['muhammed', 'saraiva1989'], '2022-02-23T23:35:41.043146+00:00'),
 (216279084, 103, 4, 1, 0, 8, 'shellbear/shellbear.me', 'Source code of my personal website and blog ✨', ARRAY['shellbear'], '2022-02-23T23:35:41.043146+00:00'),
 (216432317, 69, 2, 1, 0, 20, 'WebDevSimplified/Learn-React-In-30-Minutes', null, ARRAY['WebDevSimplified'], '2022-02-23T23:35:41.043146+00:00'),
-(216546495, 1, 0, 1, 0, 18, 'firasdib/fastify', 'Fast and low overhead web framework, for Node.js', ARRAY['delvedor', 'mcollina'], '2022-02-23T23:35:41.043146+00:00'),
-(216647402, 444, 0, 1, 0, 2, 'jeffreyvr/tailpress', 'TailPress is a minimal boilerplate theme for WordPress using Tailwind CSS.', ARRAY['jeffreyvr'], '2022-02-23T23:35:41.043146+00:00'),
 (216906912, 165, 3, 1, 0, 5, 'ideditor/country-coder', '📍➡️ 🇩🇰 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally', ARRAY['quincylvania', 'bhousel'], '2022-02-23T23:35:41.043146+00:00'),
 (216936227, 12, 50, 1, 0, 0, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-23T23:35:41.043146+00:00'),
 (217388629, 231, 3, 1, 0, 5, 'ReactTraining/react-workshop', 'The course material for our React Hooks workshop', ARRAY['bradwestfall', 'chaance'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2328,6 +2326,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (235469871, 1548, 304, 1, 0, 3, 'dotnet/interactive', '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ARRAY['colombod', 'jonsequitur'], '2022-02-23T23:35:41.043146+00:00'),
 (235943258, 86, 26, 1, 0, 8, 'jason0x43/hacs-hubitat', 'A Hubitat integration for Home Assistant', ARRAY['jason0x43', 'amosyuen'], '2022-02-23T23:35:41.043146+00:00'),
 (235970716, 1, 0, 1, 0, 17, 'yomaokobiah/nairaland-visualisation', 'A visualisation of members on nairaland.com ages.', ARRAY['yomaokobiah'], '2022-02-23T23:35:41.043146+00:00'),
+(216546495, 1, 0, 1, 0, 18, 'firasdib/fastify', 'Fast and low overhead web framework, for Node.js', ARRAY['delvedor', 'mcollina'], '2022-02-23T23:35:41.043146+00:00'),
+(216647402, 444, 0, 1, 0, 2, 'jeffreyvr/tailpress', 'TailPress is a minimal boilerplate theme for WordPress using Tailwind CSS.', ARRAY['jeffreyvr'], '2022-02-23T23:35:41.043146+00:00'),
 (236156799, 21, 2, 1, 0, 5, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (236226196, 21, 0, 1, 0, 9, 'springload/react-accessible-headings', 'Makes it easier to keep heading levels semantic and accessible (WCAG)', ARRAY['holloway', 'twhitbeck'], '2022-02-23T23:35:41.043146+00:00'),
 (236263651, 7, 0, 1, 0, 23, 'siddiqus/useful-scripts', null, ARRAY['siddiqus'], '2022-02-23T23:35:41.043146+00:00'),
