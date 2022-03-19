@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T18:46:08.728Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T20:44:23.927Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -18,8 +18,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (106, 237133, 'forem/forem', '237133-forem/forem', '2022-02-04T00:58:10.457586+00:00'),
 (107, 7221308, 'open-sauced/hot', '7221308-open-sauced/hot', '2022-02-04T15:07:36.221438+00:00'),
 (108, 7221308, 'redwoodjs/redwood', '7221308-redwoodjs/redwood', '2022-02-04T15:08:55.728481+00:00'),
-(19, 5713670, 'sveltejs/kit', '5713670-sveltejs/kit', '2022-01-13T07:10:03.331997+00:00'),
 (20, 5713670, 'vitejs/vite', '5713670-vitejs/vite', '2022-01-13T07:10:27.974549+00:00'),
+(19, 5713670, 'sveltejs/kit', '5713670-sveltejs/kit', '2022-01-13T07:10:03.331997+00:00'),
 (111, 5713670, 'go-gorm/gorm', '5713670-go-gorm/gorm', '2022-02-09T22:23:32.517646+00:00'),
 (113, 14043845, 'kelseyhightower/nocode', '14043845-kelseyhightower/nocode', '2022-02-12T13:38:47.018442+00:00'),
 (115, 5713670, 'lydiahallie/javascript-questions', '5713670-lydiahallie/javascript-questions', '2022-02-22T17:47:32.149643+00:00'),
