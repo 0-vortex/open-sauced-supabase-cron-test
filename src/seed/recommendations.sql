@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T20:44:24.318Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T01:03:45.134Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2705,9 +2705,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (282194280, 1, 5, 1, 0, 10, 'SanchitaMishra170676/To-Do-Blockchain', 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', ARRAY['SanchitaMishra170676'], '2022-02-23T23:35:41.043146+00:00'),
 (283003335, 70, 4, 1, 0, 23, 'fireship-io/3.1-firebase-basics', 'Firebase - The Basics', ARRAY['codediodeio'], '2022-02-23T23:35:41.043146+00:00'),
 (283210438, 1, 0, 1, 0, 29, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
-(283370985, 150, 27, 1, 0, 4, 'toastdotdev/toast', 'The best place to stack your JAM. Toast is a Jamstack framework', ARRAY['ChristopherBiscardi', 'jbolda'], '2022-02-23T23:35:41.043146+00:00'),
 (283323929, 2007, 19, 1, 0, 12, 'haimgel/display-switch', 'Turn a $30 USB switch into a full-featured multi-monitor KVM switch', ARRAY['haimgel', 'jrr'], '2022-02-23T23:35:41.043146+00:00'),
 (283329479, 65, 1, 1, 0, 10, 'LarsRosenkilde/Instagram-Posted-Sources', 'Different small scripts, i''ve posted on Instagram', ARRAY['LarsRosenkilde'], '2022-02-23T23:35:41.043146+00:00'),
+(283370985, 150, 27, 1, 0, 4, 'toastdotdev/toast', 'The best place to stack your JAM. Toast is a Jamstack framework', ARRAY['ChristopherBiscardi', 'jbolda'], '2022-02-23T23:35:41.043146+00:00'),
 (283416444, 6, 0, 1, 0, 28, 'nrwl/zack-live-stream', 'The code base being worked on by Zack''s livestream', ARRAY['ZackDeRose'], '2022-02-23T23:35:41.043146+00:00'),
 (283446239, 884, 0, 1, 0, 1, 'enisdenjo/graphql-ws', 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', ARRAY['enisdenjo', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (283489816, 104, 12, 1, 0, 11, 'netlify/framework-info', 'Framework detection utility', ARRAY['renovate-bot', 'ehmicky'], '2022-02-23T23:35:41.043146+00:00'),
