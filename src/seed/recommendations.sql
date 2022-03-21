@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T14:44:22.275Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T18:47:09.160Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1240,9 +1240,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (88905488, 2640, 5, 1, 0, 29, 'ShangtongZhang/DeepRL', 'Modularized Implementation of Deep RL Algorithms in PyTorch', ARRAY['ShangtongZhang', 'wassname'], '2022-02-23T23:35:41.043146+00:00'),
 (89035461, 263, 40, 1, 0, 19, 'rubyforgood/human-essentials', 'Human Essentials is an inventory management system for essentials banks, to aid them in distributing items to their partners, tracking their inventory, and providing statistics about their inventory flows.', ARRAY['seanmarcia', 'armahillo'], '2022-02-23T23:35:41.043146+00:00'),
 (89116094, 5787, 109, 1, 0, 5, 'utterance/utterances', ':crystal_ball: A lightweight comments widget built on GitHub issues', ARRAY['jdanyow', 'polyrain'], '2022-02-23T23:35:41.043146+00:00'),
+(89379547, 943, 27, 1, 0, 19, 'zostera/django-bootstrap4', 'Bootstrap 4 integration with Django.', ARRAY['dyve', 'jieter'], '2022-02-23T23:35:41.043146+00:00'),
 (89426061, 22, 0, 1, 0, 10, 'McFunkypants/CYOAwesome', 'An easy-to-use html5 text adventure game engine.     PLAY THE DEMO:', ARRAY['McFunkypants'], '2022-02-23T23:35:41.043146+00:00'),
 (89600573, 998, 0, 1, 0, 14, 'sergey-pimenov/awesome-web-animation', 'A list of awesome web animation libraries, books, apps etc.', ARRAY['sergey-pimenov', 'corocoto'], '2022-02-23T23:35:41.043146+00:00'),
-(89379547, 943, 27, 1, 0, 19, 'zostera/django-bootstrap4', 'Bootstrap 4 integration with Django.', ARRAY['dyve', 'jieter'], '2022-02-23T23:35:41.043146+00:00'),
 (89766385, 1561, 30, 1, 0, 21, 'cassidoo/todometer', 'A meter-based to-do list', ARRAY['cassidoo', 'farskid'], '2022-02-23T23:35:41.043146+00:00'),
 (90080868, 2289, 65, 1, 0, 16, 'saadq/resumake.io', '📝 A website for automatically generating elegant LaTeX resumes.', ARRAY['saadq', 'mmngreco'], '2022-02-23T23:35:41.043146+00:00'),
 (90194616, 8436, 421, 1, 0, 19, 'samuelcolvin/pydantic', 'Data parsing and validation using Python type hints', ARRAY['samuelcolvin', 'PrettyWood'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1281,6 +1281,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (94253765, 2593, 57, 1, 0, 7, 'ctubio/Krypto-trading-bot', 'Self-hosted crypto trading bot (automated high frequency market making) written in C++', ARRAY['ctubio', 'michaelgrosner'], '2022-02-23T23:35:41.043146+00:00'),
 (94090278, 34, 1, 1, 0, 29, 'timbru31/docker-ruby-node', '🐳 Ruby 2.6, 2.7 or 3.0 with Node.js 12 LTS (Erbium), 14 LTS (Fermium) or 16 LTS (Gallium) Docker image', ARRAY['renovate-bot', 'timbru31'], '2022-02-23T23:35:41.043146+00:00'),
 (94437060, 62, 5, 1, 0, 11, 'Lusitaniae/phpfpm_exporter', 'Prometheus exporter for PHP-FPM.', ARRAY['Lusitaniae', 'EdSchouten'], '2022-02-23T23:35:41.043146+00:00'),
+(94473513, 2864, 22, 1, 0, 1, 'ritz078/transform', 'A polyglot web converter.', ARRAY['ritz078', 'gyandeeps'], '2022-02-23T23:35:41.043146+00:00'),
+(94554082, 5910, 121, 1, 0, 15, 'dylanaraps/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-23T23:35:41.043146+00:00'),
 (94808954, 599, 30, 1, 0, 21, 'tabrindle/envinfo', 'Generate a report about your development environment for debugging and issue reporting', ARRAY['tabrindle', 'gengjiawen'], '2022-02-23T23:35:41.043146+00:00'),
 (95011980, 6029, 50, 1, 0, 5, 'go-ego/riot', 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ARRAY['vcaesar', 'szyhf'], '2022-02-23T23:35:41.043146+00:00'),
 (95114338, 2190, 5, 1, 0, 18, 'github/accessibilityjs', 'Client side accessibility error scanner.', ARRAY['muan', 'mislav'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1300,8 +1302,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (96451164, 2671, 108, 1, 0, 10, 'sdras/intro-to-vue', 'Workshop Materials for my Introduction to Vue.js Workshop', ARRAY['sdras', '1Marc'], '2022-02-23T23:35:41.043146+00:00'),
 (96455158, 293, 107, 1, 0, 5, 'zulip/python-zulip-api', null, ARRAY['timabbott', 'roberthoenig'], '2022-02-23T23:35:41.043146+00:00'),
 (96662897, 493, 0, 1, 0, 7, 'supercomputra/SF-Mono-Font', 'SF Mono Font', ARRAY['supercomputra', 'balcsida'], '2022-02-23T23:35:41.043146+00:00'),
-(94473513, 2864, 22, 1, 0, 1, 'ritz078/transform', 'A polyglot web converter.', ARRAY['ritz078', 'gyandeeps'], '2022-02-23T23:35:41.043146+00:00'),
-(94554082, 5910, 121, 1, 0, 15, 'dylanaraps/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-23T23:35:41.043146+00:00'),
 (96767206, 1428, 480, 1, 0, 8, 'gitcoinco/web', 'Grow Open Source', ARRAY['owocki', 'thelostone-mc'], '2022-02-23T23:35:41.043146+00:00'),
 (96770248, 47, 50, 1, 0, 23, 'gitcoinco/browser-extension', 'Grow Open Source', ARRAY['owocki', 'jclancy93'], '2022-02-23T23:35:41.043146+00:00'),
 (97014480, 1470, 292, 1, 0, 22, 'nesdis/djongo', 'Django and MongoDB database connector', ARRAY['nesdis', 'jay20162016'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2489,12 +2489,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (257567981, 1132, 14, 1, 0, 28, 'chandrikadeb7/Face-Mask-Detection', 'Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras', ARRAY['chandrikadeb7', 'vaishnavi-1'], '2022-02-23T23:35:41.043146+00:00'),
 (257631498, 30, 1, 1, 0, 12, 'onelittlenightmusic/graphql-mesh-docker', 'Dockerfile / docker-compose / Kubernetes manifest / Helm chart for GraphQL Mesh', ARRAY['onelittlenightmusic', 'raveinid'], '2022-02-23T23:35:41.043146+00:00'),
 (257665403, 432, 26, 1, 0, 29, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-23T23:35:41.043146+00:00'),
-(257854679, 414, 132, 1, 0, 26, 'DavHau/mach-nix', 'Create highly reproducible python environments', ARRAY['DavHau', 'tomprince'], '2022-02-23T23:35:41.043146+00:00'),
 (258012772, 1569, 46, 1, 0, 7, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-23T23:35:41.043146+00:00'),
 (258031644, 24, 0, 1, 0, 2, 'jhutchings1/thank-you-builder', null, ARRAY['jhutchings1', 'hmarr'], '2022-02-23T23:35:41.043146+00:00'),
 (258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-23T23:35:41.043146+00:00'),
-(258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-23T23:35:41.043146+00:00'),
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-23T23:35:41.043146+00:00'),
+(258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-23T23:35:41.043146+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-23T23:35:41.043146+00:00'),
 (258513101, 26, 9, 1, 0, 3, 'omariosouto/spotcast', ':sound: A Spotify + Pocket Casts merge, feito com React Native', ARRAY['omariosouto'], '2022-02-23T23:35:41.043146+00:00'),
 (258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2918,6 +2917,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (316749438, 1, 3, 1, 0, 10, 'Mogakamo/Digital-Clock', 'made with javascript ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (316807711, 73, 1, 1, 0, 15, 'ngneat/variabless', 'JS & CSS - A Match Made in Heaven 💎', ARRAY['shaharkazaz', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (316836816, 6860, 22, 2, 0, 13.5, 'saadeghi/daisyui', '⭐️ ⭐️ ⭐️ ⭐️ ⭐️  Tailwind Components', ARRAY['saadeghi', 'actions-user'], '2022-02-23T23:35:41.043146+00:00'),
+(257854679, 414, 132, 1, 0, 26, 'DavHau/mach-nix', 'Create highly reproducible python environments', ARRAY['DavHau', 'tomprince'], '2022-02-23T23:35:41.043146+00:00'),
 (320588096, 183, 4, 1, 0, 0, 'DarkSecDevelopers/LitePhish', 'lite weight phishing tool with graphical panel and 19+ pages', ARRAY['graysuit', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (316988921, 4435, 2, 1, 0, 24, 'Sairyss/domain-driven-hexagon', 'Guide on Domain-Driven Design, software architecture, design patterns, best practices etc. with code examples', ARRAY['Sairyss', 'timonback'], '2022-02-23T23:35:41.043146+00:00'),
 (317192047, 2, 0, 1, 0, 17, 'udberg/the-next-web-clone', 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', ARRAY['SamArsanios', 'udberg'], '2022-02-23T23:35:41.043146+00:00'),
