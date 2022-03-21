@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T22:44:28.770Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T01:03:44.980Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1823,8 +1823,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (163346054, 8022, 176, 1, 0, 24, 'ludwig-ai/ludwig', 'Data-centric declarative deep learning framework', ARRAY['w4nderlust', 'jimthompson5802'], '2022-02-23T23:35:41.043146+00:00'),
 (163492753, 8, 1, 1, 0, 21, 'felipecustodio/p5-starter', ':herb: Boilerplate for p5.js projects, including VSCode Intellisense and linting for HTML, CSS and JS.', ARRAY['felipecustodio'], '2022-02-23T23:35:41.043146+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-23T23:35:41.043146+00:00'),
-(163630911, 20, 2, 1, 0, 7, 'jsvine/visidata-plugins', 'A place for me to share VisiData plugins I''ve written.', ARRAY['jsvine', 'aborruso'], '2022-02-23T23:35:41.043146+00:00'),
 (163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-23T23:35:41.043146+00:00'),
+(163630911, 20, 2, 1, 0, 7, 'jsvine/visidata-plugins', 'A place for me to share VisiData plugins I''ve written.', ARRAY['jsvine', 'aborruso'], '2022-02-23T23:35:41.043146+00:00'),
 (163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-23T23:35:41.043146+00:00'),
 (164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-23T23:35:41.043146+00:00'),
 (164332663, 624, 0, 1, 0, 11, 'DrWaleedAYousef/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2913,9 +2913,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (316340692, 12, 0, 1, 0, 18, 'CyanBook/spotipy2', 'The next generation Spotify Web API wrapper for Python 3.7+', ARRAY['CyanBook'], '2022-02-23T23:35:41.043146+00:00'),
 (316471703, 1, 0, 1, 0, 15, 'teezzan/katacoda-scenarios', 'Katacoda Scenarios', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
 (316563886, 579, 23, 1, 0, 27, 'svelte-add/svelte-add', 'Easily add integrations and other functionality to Svelte apps', ARRAY['babichjacob', 'manuel3108'], '2022-02-23T23:35:41.043146+00:00'),
-(316567096, 4, 0, 1, 0, 7, 'ilithya/abstract-sketches-p5js', 'Short Tutorial for #GitHubUniverse 2020.', ARRAY['ilithya'], '2022-02-23T23:35:41.043146+00:00'),
-(316676750, 1, 0, 1, 0, 27, 'Lahirutech/three.js', 'JavaScript 3D library.', ARRAY['mrdoob', 'Mugen87'], '2022-02-23T23:35:41.043146+00:00'),
-(316749438, 1, 3, 1, 0, 10, 'Mogakamo/Digital-Clock', 'made with javascript ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (316807711, 73, 1, 1, 0, 15, 'ngneat/variabless', 'JS & CSS - A Match Made in Heaven 💎', ARRAY['shaharkazaz', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (316836816, 6860, 22, 2, 0, 13.5, 'saadeghi/daisyui', '⭐️ ⭐️ ⭐️ ⭐️ ⭐️  Tailwind Components', ARRAY['saadeghi', 'actions-user'], '2022-02-23T23:35:41.043146+00:00'),
 (320588096, 183, 4, 1, 0, 0, 'DarkSecDevelopers/LitePhish', 'lite weight phishing tool with graphical panel and 19+ pages', ARRAY['graysuit', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2968,7 +2965,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-23T23:35:41.043146+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-23T23:35:41.043146+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-23T23:35:41.043146+00:00'),
+(316567096, 4, 0, 1, 0, 7, 'ilithya/abstract-sketches-p5js', 'Short Tutorial for #GitHubUniverse 2020.', ARRAY['ilithya'], '2022-02-23T23:35:41.043146+00:00'),
 (322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-23T23:35:41.043146+00:00'),
+(316676750, 1, 0, 1, 0, 27, 'Lahirutech/three.js', 'JavaScript 3D library.', ARRAY['mrdoob', 'Mugen87'], '2022-02-23T23:35:41.043146+00:00'),
+(316749438, 1, 3, 1, 0, 10, 'Mogakamo/Digital-Clock', 'made with javascript ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-23T23:35:41.043146+00:00'),
 (322936836, 568, 31, 1, 0, 3, 'awtkns/fastapi-crudrouter', 'A dynamic FastAPI router that automatically creates CRUD routes for your models', ARRAY['awtkns', 'collerek'], '2022-02-23T23:35:41.043146+00:00'),
 (323048702, 8791, 27, 1, 0, 25, 'GamestonkTerminal/GamestonkTerminal', 'Investment Research for Everyone.', ARRAY['DidierRLopes', 'aia'], '2022-02-23T23:35:41.043146+00:00'),
