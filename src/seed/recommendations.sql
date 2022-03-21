@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T18:47:09.160Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T20:44:23.455Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2489,11 +2489,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (257567981, 1132, 14, 1, 0, 28, 'chandrikadeb7/Face-Mask-Detection', 'Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras', ARRAY['chandrikadeb7', 'vaishnavi-1'], '2022-02-23T23:35:41.043146+00:00'),
 (257631498, 30, 1, 1, 0, 12, 'onelittlenightmusic/graphql-mesh-docker', 'Dockerfile / docker-compose / Kubernetes manifest / Helm chart for GraphQL Mesh', ARRAY['onelittlenightmusic', 'raveinid'], '2022-02-23T23:35:41.043146+00:00'),
 (257665403, 432, 26, 1, 0, 29, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-23T23:35:41.043146+00:00'),
+(257854679, 414, 132, 1, 0, 26, 'DavHau/mach-nix', 'Create highly reproducible python environments', ARRAY['DavHau', 'tomprince'], '2022-02-23T23:35:41.043146+00:00'),
 (258012772, 1569, 46, 1, 0, 7, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-23T23:35:41.043146+00:00'),
 (258031644, 24, 0, 1, 0, 2, 'jhutchings1/thank-you-builder', null, ARRAY['jhutchings1', 'hmarr'], '2022-02-23T23:35:41.043146+00:00'),
 (258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-23T23:35:41.043146+00:00'),
-(258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-23T23:35:41.043146+00:00'),
 (258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-23T23:35:41.043146+00:00'),
+(258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-23T23:35:41.043146+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-23T23:35:41.043146+00:00'),
 (258513101, 26, 9, 1, 0, 3, 'omariosouto/spotcast', ':sound: A Spotify + Pocket Casts merge, feito com React Native', ARRAY['omariosouto'], '2022-02-23T23:35:41.043146+00:00'),
 (258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2917,7 +2918,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (316749438, 1, 3, 1, 0, 10, 'Mogakamo/Digital-Clock', 'made with javascript ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (316807711, 73, 1, 1, 0, 15, 'ngneat/variabless', 'JS & CSS - A Match Made in Heaven 💎', ARRAY['shaharkazaz', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (316836816, 6860, 22, 2, 0, 13.5, 'saadeghi/daisyui', '⭐️ ⭐️ ⭐️ ⭐️ ⭐️  Tailwind Components', ARRAY['saadeghi', 'actions-user'], '2022-02-23T23:35:41.043146+00:00'),
-(257854679, 414, 132, 1, 0, 26, 'DavHau/mach-nix', 'Create highly reproducible python environments', ARRAY['DavHau', 'tomprince'], '2022-02-23T23:35:41.043146+00:00'),
 (320588096, 183, 4, 1, 0, 0, 'DarkSecDevelopers/LitePhish', 'lite weight phishing tool with graphical panel and 19+ pages', ARRAY['graysuit', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (316988921, 4435, 2, 1, 0, 24, 'Sairyss/domain-driven-hexagon', 'Guide on Domain-Driven Design, software architecture, design patterns, best practices etc. with code examples', ARRAY['Sairyss', 'timonback'], '2022-02-23T23:35:41.043146+00:00'),
 (317192047, 2, 0, 1, 0, 17, 'udberg/the-next-web-clone', 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', ARRAY['SamArsanios', 'udberg'], '2022-02-23T23:35:41.043146+00:00'),
