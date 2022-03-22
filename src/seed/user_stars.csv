@@ -4260,7 +4260,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 354119247,6935431,13855476,29,53,27265,go-gorm/gorm,"The fantastic ORM library for Golang, aims to be developer friendly","{jinzhu,emirb}",2022-02-23T23:36:47.4623
 435647165,23166349,164225648,29,0,767,David-VTUK/CKA-StudyGuide,Study guide for the CKA exam,"{David-VTUK,chipzoller}",2022-02-23T23:36:47.4623
 353859750,19475228,5575055,27,127,714,restforce/restforce,A Ruby client for the Salesforce REST API.,"{ejholmes,timrogers}",2022-02-23T23:36:47.4623
-382167794,1431853,135516270,29,430,19454,k3s-io/k3s,Lightweight Kubernetes,"{erikwilson,ibuildthecloud}",2022-02-23T23:36:47.4623
 425311105,57008950,300932149,15,0,1,RitikaJain8818/Programmers-Community,"This repository contains various solution of a problem in Ruby, C, C++, Python and Java.","{pooja-git11,Kuljeet-123}",2022-02-23T23:36:47.4623
 434506268,45293863,300313988,29,1,40,cyberpartizans/face_recognition,,"{allyouneediscv,feanor-on-fire}",2022-02-23T23:36:47.4623
 377924746,14868216,802006,29,171,7799,mediaelement/mediaelement,"HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.","{johndyer,rafa8626}",2022-02-23T23:36:47.4623
@@ -4272,8 +4271,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 376456966,118037,159981830,29,28,10196,khanhas/spicetify-cli,"Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux.","{khanhas,afonsojramos}",2022-02-23T23:36:47.4623
 399569599,78520194,96767206,8,468,1475,gitcoinco/web,Grow Open Source,"{owocki,thelostone-mc}",2022-02-23T23:36:47.4623
 423934343,43640229,201108929,29,8,707,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-23T23:36:47.4623
-403088539,37635083,400898185,0,0,1,NsdHSO/storybook,"📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!","{shilman,ndelangen}",2022-02-23T23:36:47.4623
 382418792,57017587,41796462,29,0,5273,yanirs/established-remote,A list of established remote companies,"{yanirs,dcecile}",2022-02-23T23:36:47.4623
+403088539,37635083,400898185,0,0,1,NsdHSO/storybook,"📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!","{shilman,ndelangen}",2022-02-23T23:36:47.4623
+382167794,1431853,135516270,29,431,19457,k3s-io/k3s,Lightweight Kubernetes,"{erikwilson,ibuildthecloud}",2022-02-23T23:36:47.4623
 377960470,67359053,12299718,4,13,71,twilio/starter-python,A starter app for Python developers embarking on their first Twilio quest!,"{kwhinnery,smendes}",2022-02-23T23:36:47.4623
 401824794,65249694,3678731,12,295,60702,webpack/webpack,"A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ""loaders"", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.","{sokra,timse}",2022-02-23T23:36:47.4623
 400276715,10235902,152145851,1,0,2,rlnx/cpp-course-ffs,Materials on practical C++ course for foreign students,{rlnx},2022-02-23T23:36:47.4623
@@ -4346,6 +4346,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 415612821,44642314,268098312,0,6,17,ZedThree/clang-tidy-review,Create a pull request review based on clang-tidy warnings,"{ZedThree,kgfoundrydig}",2022-02-23T23:36:47.4623
 408066383,58392246,407507122,0,0,1,dimassuam/project-kalian,Menyimpan daftar Project Kalian yang sudah disubmit di Discord,{sandhikagalih},2022-02-23T23:36:47.4623
 370530334,3792749,1451352,28,266,21225,mochajs/mocha,"☕️ simple, flexible, fun javascript test framework for node.js & the browser","{tj,boneskull}",2022-02-23T23:36:47.4623
+349125611,237133,223333090,29,46,947,jsartisan/react-native-magnus,A Utility-First React Native UI Framework 🚀🧩,"{jsartisan,erickriva}",2022-02-23T23:36:47.4623
 364454628,13490604,216099642,29,24,26,EvanBacon/react-native-ink,React Native for CLIs,{EvanBacon},2022-02-23T23:36:47.4623
 363981975,46828701,258812961,29,12,515,cyrildiagne/ar-facedoodle,Doodle AR masks right from the browser with tensorflow.js,{cyrildiagne},2022-02-23T23:36:47.4623
 410258743,91016903,374901515,0,55,100,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-23T23:36:47.4623
@@ -4353,21 +4354,20 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 340929223,40713709,8424040,29,219,17136,processing/p5.js,"p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —","{lmccart,outofambit}",2022-02-23T23:36:47.4623
 409008084,46695719,382308978,29,0,56,tediko/planets-fact,Planets fact site with animated solar system built with ReactJS. ,{tediko},2022-02-23T23:36:47.4623
 345032271,60850993,8936633,29,17,9372,maxogden/art-of-node,:snowflake: a short introduction to node.js,"{maxogden,zeke}",2022-02-23T23:36:47.4623
-382468183,8037469,172741073,29,384,19746,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-23T23:36:47.4623
 344970841,38838958,248295170,29,5,2958,geist-org/react,A design system for building modern websites and applications.,"{unix,ofekashery}",2022-02-23T23:36:47.4623
 375196206,57305940,54496479,29,119,214,ppb/pursuedpybear,A python game engine.,"{pathunstrom,AstraLuma}",2022-02-23T23:36:47.4623
 381467530,83433840,206060082,0,6,67,octodemo/awesome-actions,Repository template used to showcase Actions that tie into pull request and issue events,"{jonico,pmanlukas}",2022-02-23T23:36:47.4623
-388653553,75340837,28457823,7,159,342686,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-23T23:36:47.4623
+388653553,75340837,28457823,7,159,342711,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-23T23:36:47.4623
 281077014,30334776,340187605,29,0,148,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-23T23:36:47.4623
 417287027,52336027,19415064,12,16,110465,ossu/computer-science,:mortar_board: Path to a free self-taught education in Computer Science!,"{ericdouglas,joshmhanson}",2022-02-23T23:36:47.4623
 414641681,11858762,6750158,29,5,7181,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-23T23:36:47.4623
-349125611,237133,59293418,29,11,2150,robinweser/fela,State-Driven Styling in JavaScript,"{robinweser,tajo}",2022-02-23T23:36:47.4623
+382468183,8037469,172741073,29,384,19746,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-23T23:36:47.4623
 323523231,55907631,209391513,29,30,1075,CppCon/CppCon2019, Slides and other materials from CppCon 2019,"{kernhanda,Quuxplusone}",2022-02-23T23:36:47.4623
 363319540,6842883,15062869,29,1610,38345,facebook/jest,Delightful JavaScript Testing.,"{SimenB,cpojer}",2022-02-23T23:36:47.4623
+382469096,29648040,120953088,9,0,28,pioneerworks/lib-bash,BASH utilities shared by several projects.,"{kigster,skyeagle}",2022-02-23T23:36:47.4623
 328070675,59939260,71359796,29,27,620,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-23T23:36:47.4623
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-23T23:36:47.4623
 391706360,25867172,18696257,29,15,9864,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-23T23:36:47.4623
-382469096,29648040,120953088,9,0,28,pioneerworks/lib-bash,BASH utilities shared by several projects.,"{kigster,skyeagle}",2022-02-23T23:36:47.4623
 350456159,15004099,87873787,3,57,708,theNewDynamic/gohugo-theme-ananke,Ananke: A theme for Hugo Sites,"{budparr,regisphilibert}",2022-02-23T23:36:47.4623
 364328935,667716,137308605,29,4,104,tamino-martinius/node-ts-dedent,TypeScript package which smartly trims and strips indentation from multi-line strings,"{tamino-martinius,AviVahl}",2022-02-23T23:36:47.4623
 400813204,20134767,36040894,24,326,52590,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-23T23:36:47.4623
@@ -4394,7 +4394,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 432242215,10951893,254660586,29,11,2029,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-23T23:36:47.4623
 404487277,67718832,59239347,15,854,21131,portainer/portainer,Making Docker and Kubernetes management easy.,"{deviantony,chiptus}",2022-02-23T23:36:47.4623
 393518546,47711025,5082119,29,16,378,deiv/driftnet," Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display","{deiv,FauxFaux}",2022-02-23T23:36:47.4623
-391419133,58482194,71995937,29,518,39630,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-23T23:36:47.4623
+391419133,58482194,71995937,29,517,39638,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-23T23:36:47.4623
 447732936,3941856,263146261,29,19,1971,MaggieAppleton/digital-gardeners,"Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs","{MaggieAppleton,theianjones}",2022-02-23T23:36:47.4623
 272558455,42392347,254889040,22,0,1,ColomboJuan/AppCodvid19,Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/,{ColomboJuan},2022-02-23T23:36:47.4623
 330475048,61131314,31792824,29,10593,137659,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{engine-flutter-autoroll,abarth}",2022-02-23T23:36:47.4623
