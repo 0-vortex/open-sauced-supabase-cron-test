@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T20:44:16.639Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T22:44:18.937Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3561,8 +3561,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-23T23:35:41.043146+00:00'),
 (400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-23T23:35:41.043146+00:00'),
-(400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-23T23:35:41.043146+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-23T23:35:41.043146+00:00'),
+(400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-23T23:35:41.043146+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-23T23:35:41.043146+00:00'),
 (401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-23T23:35:41.043146+00:00'),
 (401300251, 2, 0, 1, 0, 29, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:35:41.043146+00:00'),
