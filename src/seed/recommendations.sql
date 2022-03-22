@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T22:44:27.947Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T01:04:33.181Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -732,8 +732,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (39152554, 1181, 166, 1, 0, 22, 'consul/consul', 'Consul - Open Government and E-Participation Web Software', ARRAY['javierm', 'decabeza'], '2022-02-23T23:35:41.043146+00:00'),
 (39213332, 4, 0, 1, 0, 26, 'TheNaoX/woodo', 'Sudo woodo script in Go', ARRAY['TheNaoX'], '2022-02-23T23:35:41.043146+00:00'),
 (39415880, 1276, 6, 1, 0, 24, 'gatsbyjs/gatsby-starter-default', 'The default Gatsby starter', ARRAY['gatsbybot', 'KyleAMathews'], '2022-02-23T23:35:41.043146+00:00'),
-(39433529, 1169, 0, 1, 0, 23, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-23T23:35:41.043146+00:00'),
 (39514089, 292, 14, 1, 0, 18, 'ccoenraets/es6-tutorial', 'ECMAScript 6 Tutorial', ARRAY['ccoenraets'], '2022-02-23T23:35:41.043146+00:00'),
+(39433529, 1169, 0, 1, 0, 23, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-23T23:35:41.043146+00:00'),
 (39575101, 8148, 50, 1, 0, 25, 'phil-opp/blog_os', 'Writing an OS in Rust', ARRAY['phil-opp', 'drprofesq'], '2022-02-23T23:35:41.043146+00:00'),
 (39583294, 160, 22, 1, 0, 14, 'nprapps/lunchbox', 'Image tools for social media sharing', ARRAY['TylerFisher', 'alykat'], '2022-02-23T23:35:41.043146+00:00'),
 (39654623, 23, 21, 1, 0, 19, 'inkatze/wildfly', 'Ansible role for wildfly', ARRAY['kostyrev', 'akostyrev'], '2022-02-23T23:35:41.043146+00:00'),
