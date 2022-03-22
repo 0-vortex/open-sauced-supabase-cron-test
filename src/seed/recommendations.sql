@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T04:48:03.001Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T06:47:29.623Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3580,7 +3580,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (403714743, 53, 7, 1, 0, 16, 'MilkyDeveloper/cb-linux', 'Linux for Chromebooks', ARRAY['MilkyDeveloper'], '2022-02-23T23:35:41.043146+00:00'),
 (404249420, 25, 0, 1, 0, 18, 'WardPearce/thanker', 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', ARRAY['WardPearce'], '2022-02-23T23:35:41.043146+00:00'),
 (404324019, 43, 3, 1, 0, 7, 'arpit456jain/Getting-Started-with-open-source', 'step by step guide for beginners for getting started with open source ', ARRAY['arpit456jain', 'astha2412'], '2022-02-23T23:35:41.043146+00:00'),
-(405353162, 4, 0, 1, 0, 9, 'james-a-rob/mega-feed', 'Aggregates events across digital tools.', ARRAY['james-a-rob'], '2022-02-23T23:35:41.043146+00:00'),
 (405641780, 73, 0, 1, 0, 13, 'd3r1n/dotman', 'better manager for your dotfiles.', ARRAY['d3r1n'], '2022-02-23T23:35:41.043146+00:00'),
 (405751585, 1, 0, 1, 0, 10, 'Dhaiwat10/sol-escrow', null, ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (405839494, 3, 0, 1, 0, 4, 'BolajiAyodeji/credit_card_fraud_detection', 'A basic machine learning model that will detect potential fraud cases from transactions so that customers won’t be charged for the items they did not purchase.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(405353162, 4, 0, 1, 0, 9, 'james-a-rob/mega-feed', 'Aggregates events across digital tools.', ARRAY['james-a-rob'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
