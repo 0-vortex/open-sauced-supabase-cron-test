@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T20:44:14.254Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T22:44:26.036Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -36,8 +36,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (242316, 56, 0, 1, 0, 16, 'morgoth/alexa', 'Alexa Web Information Service', ARRAY['morgoth', 'jasongill'], '2022-02-23T23:35:41.043146+00:00'),
 (270054, 1900, 111, 1, 0, 13, 'ffi/ffi', 'Ruby FFI', ARRAY['larskanis', 'tduehr'], '2022-02-23T23:35:41.043146+00:00'),
 (275604, 9036, 58, 1, 0, 19, 'resque/resque', 'Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.', ARRAY['defunkt', 'steveklabnik'], '2022-02-23T23:35:41.043146+00:00'),
-(286061, 8024, 6, 1, 0, 23, 'sitaramc/gitolite', 'Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.', ARRAY['sitaramc', 'robbat2'], '2022-02-23T23:35:41.043146+00:00'),
 (291137, 138393, 654, 1, 0, 29, 'ohmyzsh/ohmyzsh', '🙃   A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.', ARRAY['robbyrussell', 'mcornella'], '2022-02-23T23:35:41.043146+00:00'),
+(286061, 8024, 6, 1, 0, 23, 'sitaramc/gitolite', 'Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.', ARRAY['sitaramc', 'robbat2'], '2022-02-23T23:35:41.043146+00:00'),
 (292525, 7510, 345, 1, 0, 14, 'Stuk/jszip', 'Create, read and edit .zip files with Javascript', ARRAY['dduponchel', 'Stuk'], '2022-02-23T23:35:41.043146+00:00'),
 (294972, 3501, 13, 1, 0, 3, 'fnando/i18n-js', 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', ARRAY['PikachuEXE', 'fnando'], '2022-02-23T23:35:41.043146+00:00'),
 (308770, 22166, 183, 1, 0, 0, 'heartcombo/devise', 'Flexible authentication solution for Rails with Warden.', ARRAY['josevalim', 'carlosantoniodasilva'], '2022-02-23T23:35:41.043146+00:00'),
