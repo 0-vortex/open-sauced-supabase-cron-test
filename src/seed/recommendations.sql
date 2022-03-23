@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T18:47:28.846Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T20:44:14.254Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1658,6 +1658,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (141061403, 65, 5, 1, 0, 13, 'zloylos/grsync', 'Golang rsync wrapper', ARRAY['zloylos', 'chenCL667'], '2022-02-23T23:35:41.043146+00:00'),
 (141334515, 359, 3, 1, 0, 6, 'kormyen/memex', 'Simple bookmarks and notes', ARRAY['kormyen', 'lcb931023'], '2022-02-23T23:35:41.043146+00:00'),
 (141430876, 48, 8, 1, 0, 5, 'rubensworks/jsonld-streaming-parser.js', 'A fast and lightweight streaming JSON-LD parser for JavaScript', ARRAY['rubensworks', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (141717232, 250, 170, 1, 0, 14, 'status-im/nimbus-eth2', 'Nim implementation of the Ethereum 2.0 blockchain', ARRAY['tersec', 'zah'], '2022-02-23T23:35:41.043146+00:00'),
 (141843316, 289, 8, 1, 0, 1, 'demystifyfp/FsToolkit.ErrorHandling', 'An opinionated F# Library for error handling', ARRAY['TheAngryByrd', 'tamizhvendan'], '2022-02-23T23:35:41.043146+00:00'),
 (141380542, 1706, 10, 1, 0, 10, 'minamarkham/formation', '💻 macOS setup script for front-end development', ARRAY['minamarkham', 'bentsai'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1980,7 +1981,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (184609434, 202, 3, 1, 0, 8, 'fhkingma/bitswap', 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', ARRAY['fhkingma'], '2022-02-23T23:35:41.043146+00:00'),
 (184754654, 1, 0, 1, 0, 22, 'asamuzaK/webext-schema', 'WebExtensions schemas fetched from hg.mozilla.org', ARRAY['asamuzaK'], '2022-02-23T23:35:41.043146+00:00'),
 (184879908, 10, 4, 1, 0, 14, 'iwgx/downtown', ':hourglass: Well-crafted countdown timer', ARRAY['iwgx'], '2022-02-23T23:35:41.043146+00:00'),
-(141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-23T23:35:41.043146+00:00'),
 (184951641, 21, 4, 1, 0, 21, 'zdenal/commanded_events_map', 'Tool for analysing commanded projects and representing in flow diagram.', ARRAY['zdenal', 'jfornoff'], '2022-02-23T23:35:41.043146+00:00'),
 (185054404, 18, 0, 1, 0, 19, 'GoogleCloudPlatform/air-draw-demo', null, ARRAY['jamesward'], '2022-02-23T23:35:41.043146+00:00'),
 (185131263, 390, 9, 1, 0, 3, 'calebnance/expo-spotify', 'Spotify UI Clone with React Native & Expo', ARRAY['calebnance', 'bidah'], '2022-02-23T23:35:41.043146+00:00'),
