@@ -4331,9 +4331,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 396048780,42749147,323663755,8,0,1,akobepeter/materializeProject,,{akobepeter},2022-02-23T23:36:47.4623
 455114859,24910512,61051155,29,24,1885,ulid/javascript,Universally Unique Lexicographically Sortable Identifier,"{alizain,jansenignacio}",2022-02-23T23:36:47.4623
 304890007,69519470,133134007,1,3100,11588,OpenAPITools/openapi-generator,"OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)","{wing328,fehguy}",2022-02-23T23:36:47.4623
+349215600,16259450,46624643,29,139,4964,zplug/zplug,:hibiscus: A next-generation plugin manager for zsh,"{b4b4r07,NigoroJr}",2022-02-23T23:36:47.4623
 342917803,68660520,178137889,0,0,3,mpsalisbury/raytracer,Ray Tracer from Ray Tracer Challenge,{mpsalisbury},2022-02-23T23:36:47.4623
 396051716,66696421,272382323,3,0,1,cozyCodr/coderXcoded.github.io,practice of what i have learnt on freecodecamp.org,{cozyCodr},2022-02-23T23:36:47.4623
-349215600,16259450,46624643,29,139,4963,zplug/zplug,:hibiscus: A next-generation plugin manager for zsh,"{b4b4r07,NigoroJr}",2022-02-23T23:36:47.4623
 364902007,38725511,63477612,22,57,18661,TheAlgorithms/C-Plus-Plus,"Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.","{kvedala,ayaankhan98}",2022-02-23T23:36:47.4623
 360376415,25194960,135224272,29,3,67,loomnetwork/solidity-social-example,"Super simple social network interaction, where users can post and comment on posts","{mattkanwisher,eduardonunesp}",2022-02-23T23:36:47.4623
 351754863,3754311,132750724,29,212,136082,danistefanovic/build-your-own-x,🤓 Build your own (insert technology here),"{danistefanovic,bauripalash}",2022-02-23T23:36:47.4623
@@ -4346,27 +4346,27 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 415612821,44642314,268098312,0,6,17,ZedThree/clang-tidy-review,Create a pull request review based on clang-tidy warnings,"{ZedThree,kgfoundrydig}",2022-02-23T23:36:47.4623
 408066383,58392246,407507122,0,0,1,dimassuam/project-kalian,Menyimpan daftar Project Kalian yang sudah disubmit di Discord,{sandhikagalih},2022-02-23T23:36:47.4623
 363981975,46828701,258812961,29,12,515,cyrildiagne/ar-facedoodle,Doodle AR masks right from the browser with tensorflow.js,{cyrildiagne},2022-02-23T23:36:47.4623
-349125611,237133,223333090,29,46,947,jsartisan/react-native-magnus,A Utility-First React Native UI Framework 🚀🧩,"{jsartisan,erickriva}",2022-02-23T23:36:47.4623
+382469096,29648040,120953088,9,0,28,pioneerworks/lib-bash,BASH utilities shared by several projects.,"{kigster,skyeagle}",2022-02-23T23:36:47.4623
 414641681,11858762,6750158,29,5,7181,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-23T23:36:47.4623
 363319540,6842883,15062869,29,1610,38356,facebook/jest,Delightful JavaScript Testing.,"{SimenB,cpojer}",2022-02-23T23:36:47.4623
+349125611,237133,223333090,29,46,947,jsartisan/react-native-magnus,A Utility-First React Native UI Framework 🚀🧩,"{jsartisan,erickriva}",2022-02-23T23:36:47.4623
 375196206,57305940,54496479,29,119,214,ppb/pursuedpybear,A python game engine.,"{pathunstrom,AstraLuma}",2022-02-23T23:36:47.4623
 323523231,55907631,209391513,29,30,1075,CppCon/CppCon2019, Slides and other materials from CppCon 2019,"{kernhanda,Quuxplusone}",2022-02-23T23:36:47.4623
 400813204,20134767,36040894,24,323,52593,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-23T23:36:47.4623
 345032271,60850993,8936633,29,17,9375,maxogden/art-of-node,:snowflake: a short introduction to node.js,"{maxogden,zeke}",2022-02-23T23:36:47.4623
 381467530,83433840,206060082,0,6,67,octodemo/awesome-actions,Repository template used to showcase Actions that tie into pull request and issue events,"{jonico,pmanlukas}",2022-02-23T23:36:47.4623
 344970841,38838958,248295170,29,5,2964,geist-org/react,A design system for building modern websites and applications.,"{unix,ofekashery}",2022-02-23T23:36:47.4623
-281077014,30334776,340187605,29,0,148,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-23T23:36:47.4623
-388653553,75340837,28457823,7,156,342766,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-23T23:36:47.4623
+388653553,75340837,28457823,7,145,342797,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-23T23:36:47.4623
 382468183,8037469,172741073,29,384,19747,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-23T23:36:47.4623
 410258743,91016903,374901515,0,55,99,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-23T23:36:47.4623
-382469096,29648040,120953088,9,0,28,pioneerworks/lib-bash,BASH utilities shared by several projects.,"{kigster,skyeagle}",2022-02-23T23:36:47.4623
 364454628,13490604,216099642,29,24,26,EvanBacon/react-native-ink,React Native for CLIs,{EvanBacon},2022-02-23T23:36:47.4623
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-23T23:36:47.4623
 341168991,3846874,809601,29,85,16484,handlebars-lang/handlebars.js,Minimal templating on steroids.,"{kpdecker,nknapp}",2022-02-23T23:36:47.4623
 370530334,3792749,1451352,28,264,21225,mochajs/mocha,"☕️ simple, flexible, fun javascript test framework for node.js & the browser","{tj,boneskull}",2022-02-23T23:36:47.4623
+391706360,25867172,18696257,29,15,9865,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-23T23:36:47.4623
 409008084,46695719,382308978,29,0,56,tediko/planets-fact,Planets fact site with animated solar system built with ReactJS. ,{tediko},2022-02-23T23:36:47.4623
 328070675,59939260,71359796,29,27,620,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-23T23:36:47.4623
-391706360,25867172,18696257,29,15,9865,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-23T23:36:47.4623
+281077014,30334776,340187605,29,0,148,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-23T23:36:47.4623
 350456159,15004099,87873787,3,57,708,theNewDynamic/gohugo-theme-ananke,Ananke: A theme for Hugo Sites,"{budparr,regisphilibert}",2022-02-23T23:36:47.4623
 364328935,667716,137308605,29,4,104,tamino-martinius/node-ts-dedent,TypeScript package which smartly trims and strips indentation from multi-line strings,"{tamino-martinius,AviVahl}",2022-02-23T23:36:47.4623
 417287027,52336027,19415064,12,14,110530,ossu/computer-science,:mortar_board: Path to a free self-taught education in Computer Science!,"{ericdouglas,joshmhanson}",2022-02-23T23:36:47.4623
@@ -4395,10 +4395,10 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 432242215,10951893,254660586,29,11,2030,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-23T23:36:47.4623
 404487277,67718832,59239347,15,857,21142,portainer/portainer,Making Docker and Kubernetes management easy.,"{deviantony,chiptus}",2022-02-23T23:36:47.4623
 393518546,47711025,5082119,29,16,378,deiv/driftnet," Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display","{deiv,FauxFaux}",2022-02-23T23:36:47.4623
-391419133,58482194,71995937,29,517,39639,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-23T23:36:47.4623
+386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{jamesshore,luontola}",2022-02-23T23:36:47.4623
 456471693,83277146,90528830,4,33,39861,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{Solido,jogboms}",2022-02-23T23:36:47.4623
 272558455,42392347,254889040,22,0,1,ColomboJuan/AppCodvid19,Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/,{ColomboJuan},2022-02-23T23:36:47.4623
-386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{jamesshore,luontola}",2022-02-23T23:36:47.4623
+391419133,58482194,71995937,29,517,39639,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-23T23:36:47.4623
 407663252,35779241,4067434,29,220,2767,andialbrecht/sqlparse,A non-validating SQL parser module for Python,"{andialbrecht,vmuriart}",2022-02-23T23:36:47.4623
 336575400,9696352,341707514,29,40,159,bytecodealliance/witx-bindgen,A language binding generator for WebAssembly interface types,"{alexcrichton,peterhuene}",2022-02-23T23:36:47.4623
 359971541,28281924,361310,29,30,9548,teamcapybara/capybara,Acceptance test framework for web applications,"{twalpole,jnicklas}",2022-02-23T23:36:47.4623
@@ -4414,14 +4414,14 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 467181761,1862184,136690766,4,0,248,paperbits/paperbits-core,This repository contains core Paperbits components,"{azaslonov,ygrik}",2022-03-09T05:11:24.662569
 470199505,11030551,61969625,17,12,4055,angus-c/just,A library of dependency-free JavaScript functions that do just do one thing.,"{angus-c,Masa-Shin}",2022-03-16T02:38:24.760878
 363497692,4838867,1062897,2,231,130935,github/gitignore,A collection of useful .gitignore templates,"{shiftkey,arcresu}",2022-02-23T23:36:47.4623
-467288570,13059091,14682677,18,0,2,spaetow/ShibbolethECPAuthClient,A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP,{spaetow},2022-03-09T11:24:32.851348
 321809845,907680,70908474,29,62,940,whitecatboard/Lua-RTOS-ESP32,Lua RTOS for ESP32,"{jolivepetrus,chowette}",2022-02-23T23:36:47.4623
 467358729,9283692,66291203,2,0,37,margyle/heyMugsy,Mugsy is a Raspberry Pi and Arduino powered coffee making robot.,{margyle},2022-03-09T04:12:31.761937
+351353449,35429278,373396052,29,1,46,ri7nz/rescript-chakra,⚡️⚛️ ReScript bindings for @chakra-ui/react,"{ri7nz,semantic-release-bot}",2022-02-23T23:36:47.4623
 422278376,26007940,32883944,28,1,171,mcleonard/blog_posts,Blog posts for matatat.org,{mcleonard},2022-02-23T23:36:47.4623
 375812408,908380,7670022,29,55,957,salomvary/soundcleod,SoundCloud for macOS and Windows,"{salomvary,rmaes4}",2022-02-23T23:36:47.4623
-351353449,35429278,373396052,29,1,46,ri7nz/rescript-chakra,⚡️⚛️ ReScript bindings for @chakra-ui/react,"{ri7nz,semantic-release-bot}",2022-02-23T23:36:47.4623
 354384496,17671332,369905667,3,12,34,Mintbean/DevCollective.io,"DevCollective.io is an open source community of developers, by developers, for developers. If you like what we're doing, don't pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We're a diverse, inclusive and newbie-friendly project.","{monarchwadia,CoderDill}",2022-02-23T23:36:47.4623
 463772639,56942462,287081652,13,0,1,ugwustanley/search-countries,,{ugwustanley},2022-03-02T07:02:22.745225
+467288570,13059091,14682677,18,0,2,spaetow/ShibbolethECPAuthClient,A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP,{spaetow},2022-03-09T11:24:32.851348
 468472328,28269,39769,23,0,64,mzslater/learning-rails-sample-app,Sample application for the Learning Rails free online course in Ruby on Rails,"{michael-slater,learningrails}",2022-03-12T07:01:51.482242
 348380714,1645628,18609427,29,368,13068,tc39/ecma262,"Status, process, and documents for ECMA-262","{jmdyck,anba}",2022-02-23T23:36:47.4623
 399559931,30369246,21405028,29,2,10334,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-23T23:36:47.4623
