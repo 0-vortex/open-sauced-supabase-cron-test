@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T04:48:22.566Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T06:47:40.196Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1027,11 +1027,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (66777429, 694, 3, 1, 0, 27, 'jhu-ep-coursera/fullstack-course5', 'All of the source code for the Single Page Web Applications with AngularJS course.', ARRAY['ychaikin', 'mpatelpa'], '2022-02-23T23:35:41.043146+00:00'),
 (66794377, 502, 5, 1, 0, 10, 'lmammino/jwt-cracker', 'Simple HS256 JWT token brute force cracker', ARRAY['lmammino', 'mvetsch'], '2022-02-23T23:35:41.043146+00:00'),
 (67043714, 8165, 4, 1, 0, 21, 'heynickc/awesome-ddd', 'A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources', ARRAY['heynickc', 'witek1902'], '2022-02-23T23:35:41.043146+00:00'),
-(67410923, 859, 54, 1, 0, 22, 'LiquidPlayer/LiquidCore', 'Node.js virtual machine for Android and iOS', ARRAY['ericwlange', 'j0j00'], '2022-02-23T23:35:41.043146+00:00'),
 (67375557, 3726, 2, 1, 0, 13, 'mgechev/angular-performance-checklist', '⚡ Cheatsheet for developing lightning fast progressive Angular applications', ARRAY['mgechev', 'Hugoer'], '2022-02-23T23:35:41.043146+00:00'),
+(67410923, 859, 54, 1, 0, 22, 'LiquidPlayer/LiquidCore', 'Node.js virtual machine for Android and iOS', ARRAY['ericwlange', 'j0j00'], '2022-02-23T23:35:41.043146+00:00'),
 (67709808, 21789, 111, 1, 0, 15, 'react-native-elements/react-native-elements', 'Cross-Platform React Native UI Toolkit', ARRAY['iRoachie', 'Monte9'], '2022-02-23T23:35:41.043146+00:00'),
 (67747748, 11394, 467, 1, 0, 25, 'dense-analysis/ale', 'Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support', ARRAY['w0rp', 'hsanson'], '2022-02-23T23:35:41.043146+00:00'),
 (67759339, 2499, 10, 1, 0, 14, 'postlight/awesome-cms', '📚 A collection of open and closed source Content Management Systems (CMS) for your perusal.', ARRAY['mutewinter', 'philwareham'], '2022-02-23T23:35:41.043146+00:00'),
+(67773065, 16, 0, 1, 0, 22, 'amiller/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller'], '2022-02-23T23:35:41.043146+00:00'),
+(67831372, 1011, 319, 1, 0, 22, 'PKief/vscode-material-icon-theme', 'Available on the VSCode Marketplace', ARRAY['PKief', 'AdrieanKhisbe'], '2022-02-23T23:35:41.043146+00:00'),
 (67834502, 3439, 5, 1, 0, 28, 'lk-geimfari/mimesis', 'Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages.', ARRAY['lk-geimfari', 'sobolevn'], '2022-02-23T23:35:41.043146+00:00'),
 (67985685, 29, 14, 1, 0, 5, 'PanoptikumIO/pan', 'The podcast showcase & community / Phoenix based web application', ARRAY['haslinger', 'optikfluffel'], '2022-02-23T23:35:41.043146+00:00'),
 (68084693, 13, 0, 1, 0, 6, 'dotcypress/hyper-material', 'Material Theme for Hyper', ARRAY['dotcypress', 'MiracleBlue'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1039,9 +1041,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (68678413, 1033, 0, 1, 0, 1, 'ai/nanoevents', 'Simple and tiny (72 bytes) event emitter library for JavaScript', ARRAY['ai', 'subzey'], '2022-02-23T23:35:41.043146+00:00'),
 (68720867, 22172, 1527, 1, 0, 0, 'firstcontributions/first-contributions', '🚀✨ Help beginners to contribute to open source projects', ARRAY['firstcontributions-bot', 'Roshanjossey'], '2022-02-23T23:35:41.043146+00:00'),
 (68753325, 16, 0, 1, 0, 20, 'koding/koding-kubernetes', 'Run Koding with Kubernetes', ARRAY['sibblegp'], '2022-02-23T23:35:41.043146+00:00'),
-(67773065, 16, 0, 1, 0, 22, 'amiller/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller'], '2022-02-23T23:35:41.043146+00:00'),
 (68851623, 171, 2, 1, 0, 12, 'samyk/awesome-raspberrypi', 'A curated list of awesome Raspberry Pi tools, projects, images and resources', ARRAY['thibmaek', 'Oliver2213'], '2022-02-23T23:35:41.043146+00:00'),
-(67831372, 1011, 319, 1, 0, 22, 'PKief/vscode-material-icon-theme', 'Available on the VSCode Marketplace', ARRAY['PKief', 'AdrieanKhisbe'], '2022-02-23T23:35:41.043146+00:00'),
 (68956484, 4509, 79, 1, 0, 9, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-23T23:35:41.043146+00:00'),
 (69193081, 5972, 74, 3, 0, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-23T23:35:41.043146+00:00'),
 (69291380, 5013, 10, 1, 0, 20, 'dbacinski/Design-Patterns-In-Kotlin', 'Design Patterns implemented in Kotlin', ARRAY['dbacinski', 'Net-Geek'], '2022-02-23T23:35:41.043146+00:00'),
