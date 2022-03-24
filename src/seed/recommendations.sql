@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T06:47:40.196Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T10:45:01.546Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2497,8 +2497,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-23T23:35:41.043146+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-23T23:35:41.043146+00:00'),
 (258513101, 26, 9, 1, 0, 3, 'omariosouto/spotcast', ':sound: A Spotify + Pocket Casts merge, feito com React Native', ARRAY['omariosouto'], '2022-02-23T23:35:41.043146+00:00'),
-(258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-23T23:35:41.043146+00:00'),
 (258812961, 507, 11, 1, 0, 29, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-23T23:35:41.043146+00:00'),
+(258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-23T23:35:41.043146+00:00'),
 (258862770, 8, 0, 1, 0, 1, 'kuasha/jvm', 'Home made java virtual machine', ARRAY['kuasha'], '2022-02-23T23:35:41.043146+00:00'),
 (258922512, 585, 22, 1, 0, 2, 'ShizukuIchi/pdf-editor', 'Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀', ARRAY['ShizukuIchi', 'realdennis'], '2022-02-23T23:35:41.043146+00:00'),
 (258994492, 9, 0, 1, 0, 1, 'HarshCasper/Data-Structures', 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', ARRAY['HarshCasper'], '2022-02-23T23:35:41.043146+00:00'),
