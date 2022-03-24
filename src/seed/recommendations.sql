@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T18:47:06.053Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T20:44:24.242Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3377,8 +3377,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
 (381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
-(381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
 (381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
+(381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
 (381913988, 13, 0, 1, 0, 11, 'fosskers/validated', 'The cumulative sibling of `Result` and `Either`.', ARRAY['fosskers'], '2022-02-23T23:35:41.043146+00:00'),
 (382172039, 4, 1, 1, 0, 18, 'Helewud/Travel-Log-App', null, ARRAY['Helewud'], '2022-02-23T23:35:41.043146+00:00'),
 (382567662, 21, 0, 1, 0, 26, 'avishmehta68710/linkedinBot', 'Automate the process of sending referral request and cold mailing on LinkedIn', ARRAY['avishmehta68710', 'Saviour1001'], '2022-02-23T23:35:41.043146+00:00'),
