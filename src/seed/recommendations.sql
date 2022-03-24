@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T10:45:01.546Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T12:53:59.115Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1744,9 +1744,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (152370823, 4702, 19, 1, 0, 1, 'davidfowl/AspNetCoreDiagnosticScenarios', 'This repository has examples of broken patterns in ASP.NET Core applications', ARRAY['davidfowl', 'AArnott'], '2022-02-23T23:35:41.043146+00:00'),
 (152447206, 9, 2, 1, 0, 16, 'OpenKudos/python_client', null, ARRAY['zoek1', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
 (152453428, 10, 8, 1, 0, 17, 'OpenKudos/OpenKudos', null, ARRAY['zoek1', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
-(152766602, 12, 0, 1, 0, 9, 'ssaleem/Front-End-Practice', 'Front-end playground; my solutions to Pramp, FCC, and Fullstack Academy challenges and projects', ARRAY['ssaleem'], '2022-02-23T23:35:41.043146+00:00'),
 (168709940, 259, 7, 1, 0, 6, 'kudulab/dojo', 'Containerize your development and operations environment', ARRAY['xmik', 'tomzo'], '2022-02-23T23:35:41.043146+00:00'),
 (152975883, 1930, 13, 1, 0, 24, 'stimulusreflex/stimulus_reflex', 'Build reactive applications with the Rails tooling you already know and love.', ARRAY['leastbad', 'hopsoft'], '2022-02-23T23:35:41.043146+00:00'),
+(152766602, 12, 0, 1, 0, 9, 'ssaleem/Front-End-Practice', 'Front-end playground; my solutions to Pramp, FCC, and Fullstack Academy challenges and projects', ARRAY['ssaleem'], '2022-02-23T23:35:41.043146+00:00'),
 (153099672, 11870, 6, 1, 0, 28, 'inancgumus/learngo', '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', ARRAY['inancgumus', 'firasuke'], '2022-02-23T23:35:41.043146+00:00'),
 (152873434, 3, 0, 1, 0, 3, 'NaturalCycles/dev-lib', 'Configuration files and scripts shared between all js modules', ARRAY['kirillgroshkov', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (153251691, 542, 403, 1, 0, 19, 'Ishaan28malik/Hacktoberfest-2021', 'Make this Hacktoberfest a learning period and contribute to Great Open Source Projects.', ARRAY['Ishaan28malik', 'orestotel'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2497,8 +2497,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-23T23:35:41.043146+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-23T23:35:41.043146+00:00'),
 (258513101, 26, 9, 1, 0, 3, 'omariosouto/spotcast', ':sound: A Spotify + Pocket Casts merge, feito com React Native', ARRAY['omariosouto'], '2022-02-23T23:35:41.043146+00:00'),
-(258812961, 507, 11, 1, 0, 29, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-23T23:35:41.043146+00:00'),
 (258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-23T23:35:41.043146+00:00'),
+(258812961, 507, 11, 1, 0, 29, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-23T23:35:41.043146+00:00'),
 (258862770, 8, 0, 1, 0, 1, 'kuasha/jvm', 'Home made java virtual machine', ARRAY['kuasha'], '2022-02-23T23:35:41.043146+00:00'),
 (258922512, 585, 22, 1, 0, 2, 'ShizukuIchi/pdf-editor', 'Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀', ARRAY['ShizukuIchi', 'realdennis'], '2022-02-23T23:35:41.043146+00:00'),
 (258994492, 9, 0, 1, 0, 1, 'HarshCasper/Data-Structures', 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', ARRAY['HarshCasper'], '2022-02-23T23:35:41.043146+00:00'),
