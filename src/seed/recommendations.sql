@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T20:44:24.242Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T22:44:20.280Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3275,10 +3275,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-23T23:35:41.043146+00:00'),
 (367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-23T23:35:41.043146+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-23T23:35:41.043146+00:00'),
-(367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-23T23:35:41.043146+00:00'),
 (367697425, 1, 0, 2, 0, 0, 'iamtheozzy/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'Aprillion'], '2022-02-23T23:35:41.043146+00:00'),
 (367829938, 2, 1, 2, 0, 0, 'dwaipayan05/CovCNN-WebApp', null, ARRAY['dwaipayan05'], '2022-02-23T23:35:41.043146+00:00'),
 (368112125, 13, 0, 1, 0, 14, 'jansche/oss-advisors', 'A corporate DevRel program for honoring open source contributions', ARRAY['jansche'], '2022-02-23T23:35:41.043146+00:00'),
+(367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-23T23:35:41.043146+00:00'),
 (368185844, 2, 2, 1, 0, 25, 'Nazeeh21/Devdit-Blockchain', 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (368311388, 2, 1, 1, 0, 2, 'pranshudobhal/quiz-master', 'A quiz app on your favorite topics', ARRAY['pranshudobhal'], '2022-02-23T23:35:41.043146+00:00'),
 (368365410, 1, 0, 2, 0, 13, 'xsky13/RedFeed', 'RedFeed: a Reddit Feed', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3377,8 +3377,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
 (381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
-(381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
 (381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
+(381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
 (381913988, 13, 0, 1, 0, 11, 'fosskers/validated', 'The cumulative sibling of `Result` and `Either`.', ARRAY['fosskers'], '2022-02-23T23:35:41.043146+00:00'),
 (382172039, 4, 1, 1, 0, 18, 'Helewud/Travel-Log-App', null, ARRAY['Helewud'], '2022-02-23T23:35:41.043146+00:00'),
 (382567662, 21, 0, 1, 0, 26, 'avishmehta68710/linkedinBot', 'Automate the process of sending referral request and cold mailing on LinkedIn', ARRAY['avishmehta68710', 'Saviour1001'], '2022-02-23T23:35:41.043146+00:00'),
