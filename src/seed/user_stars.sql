@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T12:53:58.933Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T14:44:34.637Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3038,10 +3038,10 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3041, 6935431, 3710711, 5, 49, 1069, 'sigmavirus24/github3.py', ' Hi, I''m a library for interacting with GItHub''s REST API in a convenient and ergonomic way. I work on Python 3.6+.', ARRAY['sigmavirus24', 'itsmemattchung'], '2022-02-23T23:36:47.4623'),
 (3042, 6935431, 225862895, 6, 14, 116, 'srggrs/assign-one-project-github-action', 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', ARRAY['srggrs', 'adamdmharvey'], '2022-02-23T23:36:47.4623'),
 (3043, 6935431, 399220892, 7, 0, 5, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-23T23:36:47.4623'),
+(3044, 6935431, 14759456, 8, 21, 632, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:36:47.4623'),
 (3045, 6935431, 292700337, 9, 7, 237, 'github/github-artifact-exporter', 'A set of packages to make exporting artifacts from GitHub easier', ARRAY['Chocrates', 'zkoppert'], '2022-02-23T23:36:47.4623'),
 (3046, 6935431, 44409210, 10, 3, 4430, 'RichardLitt/standard-readme', 'A standard style for README files', ARRAY['RichardLitt', 'JesseWeinstein'], '2022-02-23T23:36:47.4623'),
 (3047, 6935431, 348300013, 11, 12, 17, 'github/ghas-jira-integration', null, ARRAY['zbazztian', 'cmboling'], '2022-02-23T23:36:47.4623'),
-(3044, 6935431, 14759456, 8, 21, 632, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:36:47.4623'),
 (3048, 6935431, 358525505, 12, 0, 1, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-23T23:36:47.4623'),
 (3049, 6935431, 322057964, 13, 2, 6, 'kllund/sample-pipeline-files', 'This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning', ARRAY['kllund', 'bthomas2622'], '2022-02-23T23:36:47.4623'),
 (3050, 6935431, 263721979, 14, 0, 5, 'Build5Nines/azure-kung-fu-dockervm', 'Azure Kung Fu Docker VM', ARRAY['deltadan'], '2022-02-23T23:36:47.4623'),
@@ -4320,7 +4320,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (419128913, 1255918, 6326227, 21, 195, 119, 'metamaps/metamaps', 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', ARRAY['devvmh', 'Connoropolous'], '2022-02-23T23:36:47.4623'),
 (208603857, 5713670, 157397583, 29, 48, 8685, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-23T23:36:47.4623'),
 (396050805, 25217168, 7691631, 16, 4251, 62482, 'moby/moby', 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', ARRAY['thaJeztah', 'cpuguy83'], '2022-02-23T23:36:47.4623'),
-(394896505, 16942870, 175043545, 29, 107, 2832, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-23T23:36:47.4623'),
+(394896505, 16942870, 175043545, 29, 107, 2833, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-23T23:36:47.4623'),
 (348860575, 6241164, 219324014, 29, 11, 119, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-23T23:36:47.4623'),
 (342917803, 68660520, 178137889, 0, 0, 3, 'mpsalisbury/raytracer', 'Ray Tracer from Ray Tracer Challenge', ARRAY['mpsalisbury'], '2022-02-23T23:36:47.4623'),
 (364902007, 38725511, 63477612, 22, 57, 18689, 'TheAlgorithms/C-Plus-Plus', 'Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.', ARRAY['kvedala', 'ayaankhan98'], '2022-02-23T23:36:47.4623'),
@@ -4356,8 +4356,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (363319540, 6842883, 15062869, 29, 1614, 38372, 'facebook/jest', 'Delightful JavaScript Testing.', ARRAY['SimenB', 'cpojer'], '2022-02-23T23:36:47.4623'),
 (391706360, 25867172, 18696257, 29, 15, 9864, 'qrohlf/trianglify', 'Algorithmically generated triangle art', ARRAY['qrohlf', 'enzuguri'], '2022-02-23T23:36:47.4623'),
 (344970841, 38838958, 248295170, 29, 5, 2967, 'geist-org/react', 'A design system for building modern websites and applications.', ARRAY['unix', 'ofekashery'], '2022-02-23T23:36:47.4623'),
+(281077014, 30334776, 340187605, 29, 0, 150, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-23T23:36:47.4623'),
 (370530334, 3792749, 1451352, 28, 262, 21230, 'mochajs/mocha', '☕️ simple, flexible, fun javascript test framework for node.js & the browser', ARRAY['tj', 'boneskull'], '2022-02-23T23:36:47.4623'),
-(281077014, 30334776, 340187605, 29, 0, 149, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-23T23:36:47.4623'),
 (363981975, 46828701, 258812961, 29, 12, 515, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-23T23:36:47.4623'),
 (417287027, 52336027, 19415064, 12, 13, 110594, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-23T23:36:47.4623'),
 (340929223, 40713709, 8424040, 29, 221, 17156, 'processing/p5.js', 'p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —', ARRAY['lmccart', 'outofambit'], '2022-02-23T23:36:47.4623'),
@@ -4372,7 +4372,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (323523231, 55907631, 209391513, 29, 30, 1076, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-23T23:36:47.4623'),
 (341168991, 3846874, 809601, 29, 86, 16493, 'handlebars-lang/handlebars.js', 'Minimal templating on steroids.', ARRAY['kpdecker', 'nknapp'], '2022-02-23T23:36:47.4623'),
 (375196206, 57305940, 54496479, 29, 119, 214, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-23T23:36:47.4623'),
-(350456159, 15004099, 87873787, 3, 57, 708, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:36:47.4623'),
+(350456159, 15004099, 87873787, 3, 57, 709, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:36:47.4623'),
 (414641681, 11858762, 6750158, 29, 5, 7186, 'mgechev/javascript-algorithms', '💻 JavaScript implementations of computer science algorithms', ARRAY['mgechev', 'AndriiHeonia'], '2022-02-23T23:36:47.4623'),
 (336566384, 1368727, 268086996, 0, 30, 11, 'dotellie/nestjs-graphql-pagination', 'Decorators to allow easily building up relay compatible pagination types', ARRAY['renovate-bot', 'dotellie'], '2022-02-23T23:36:47.4623'),
 (417381369, 79887, 2928944, 29, 1626, 3396, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-23T23:36:47.4623'),
@@ -4408,9 +4408,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (429224238, 1645545, 81075897, 29, 44, 254, 'SciML/Catalyst.jl', 'Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software', ARRAY['isaacsas', 'TorkelE'], '2022-02-23T23:36:47.4623'),
 (418175317, 1917293, 401300251, 29, 0, 2, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:36:47.4623'),
 (456168834, 5381468, 38383584, 29, 0, 9, 'snicoll/spring-boot-configuration-binding', 'Showcase Spring Boot configuration support', ARRAY['snicoll'], '2022-02-23T23:36:47.4623'),
+(396048872, 60254117, 365976998, 29, 0, 2, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-23T23:36:47.4623'),
 (408029805, 59651629, 206410838, 29, 6, 18031, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-23T23:36:47.4623'),
 (408003690, 1305623, 51270739, 29, 56, 20009, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-23T23:36:47.4623'),
-(396048872, 60254117, 365976998, 29, 0, 2, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-23T23:36:47.4623'),
 (402886161, 29004466, 37860317, 29, 455, 1399, 'TASVideos/BizHawk', 'BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ', ARRAY['adelikat', 'zeromus'], '2022-02-23T23:36:47.4623'),
 (399559931, 30369246, 21405028, 29, 2, 10339, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-23T23:36:47.4623'),
 (363497692, 4838867, 1062897, 2, 231, 130991, 'github/gitignore', 'A collection of useful .gitignore templates', ARRAY['shiftkey', 'arcresu'], '2022-02-23T23:36:47.4623'),
@@ -4419,8 +4419,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (467181761, 1862184, 136690766, 4, 0, 248, 'paperbits/paperbits-core', 'This repository contains core Paperbits components', ARRAY['azaslonov', 'ygrik'], '2022-03-09T05:11:24.662569'),
 (306906348, 4199845, 190091795, 29, 19, 4390, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-23T23:36:47.4623'),
 (354384496, 17671332, 369905667, 3, 13, 34, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-23T23:36:47.4623'),
-(351353449, 35429278, 373396052, 29, 1, 46, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-23T23:36:47.4623'),
 (464086557, 20733994, 189649243, 3, 3, 3634, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-03-02T08:49:45.299116'),
+(351353449, 35429278, 373396052, 29, 1, 46, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-23T23:36:47.4623'),
 (467581742, 7222344, 3452519, 7, 23, 531, 'humanmade/Custom-Meta-Boxes', 'Lets you easily create metaboxes with custom fields that will blow your mind.   ', ARRAY['mattheu', 'mikeselander'], '2022-03-09T10:31:04.244926'),
 (465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:23:45.082904'),
 (467358729, 9283692, 66291203, 2, 0, 37, 'margyle/heyMugsy', 'Mugsy is a Raspberry Pi and Arduino powered coffee making robot.', ARRAY['margyle'], '2022-03-09T04:12:31.761937'),
