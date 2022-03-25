@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.9.7](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.6...v1.9.7) (2022-03-25)
+
+
+### ✅ Tests
+
+* add minimal contributor fetch ([#1](https://github.com/0-vortex/open-sauced-supabase-cron-test/issues/1)) ([740cb4d](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/740cb4da3010f8df5c04a309f0a69258433e6aa3))
+
 ### [1.9.6](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.5...v1.9.6) (2022-03-02)
 
 

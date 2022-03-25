@@ -4,18 +4,19 @@
 
 ## Columns
 
-| Name          | Type                        | Default | Nullable | Children | Parents                         | Comment |
-| ------------- | --------------------------- | ------- | -------- | -------- | ------------------------------- | ------- |
-| id            | bigint                      |         | false    |          |                                 |         |
-| user_id       | bigint                      |         | false    |          | [public.users](public.users.md) |         |
-| star_id       | bigint                      |         | false    |          | [public.stars](public.stars.md) |         |
-| recency_score | numeric                     |         | true     |          |                                 |         |
-| issues        | bigint                      | 0       | false    |          |                                 |         |
-| stars         | bigint                      | 0       | false    |          |                                 |         |
-| repo_name     | text                        |         | true     |          |                                 |         |
-| description   | text                        |         | true     |          |                                 |         |
-| contributors  | text[]                      |         | false    |          |                                 |         |
-| created_at    | timestamp without time zone | now()   | true     |          |                                 |         |
+| Name          | Type                        | Default     | Nullable | Children | Parents                         | Comment |
+| ------------- | --------------------------- | ----------- | -------- | -------- | ------------------------------- | ------- |
+| id            | bigint                      |             | false    |          |                                 |         |
+| user_id       | bigint                      |             | false    |          | [public.users](public.users.md) |         |
+| star_id       | bigint                      |             | false    |          | [public.stars](public.stars.md) |         |
+| recency_score | numeric                     |             | true     |          |                                 |         |
+| issues        | bigint                      | 0           | false    |          |                                 |         |
+| stars         | bigint                      | 0           | false    |          |                                 |         |
+| repo_name     | text                        |             | true     |          |                                 |         |
+| description   | text                        |             | true     |          |                                 |         |
+| contributors  | text[]                      |             | false    |          |                                 |         |
+| created_at    | timestamp without time zone | now()       | true     |          |                                 |         |
+| contributions | jsonb                       | '[]'::jsonb | false    |          |                                 |         |
 
 ## Constraints
 
