@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T06:47:54.182Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T08:45:53.197Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3328,8 +3328,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (374341212, 196, 4, 1, 0, 22, 'rickclephas/KMP-NativeCoroutines', 'Library to use Kotlin Coroutines from Swift code in KMP apps', ARRAY['rickclephas'], '2022-02-23T23:35:41.043146+00:00'),
 (374712857, 5, 0, 1, 0, 27, 'shijithpk/music-discovery', 'How to find new music on Spotify by aggregating the choices of tastemakers', ARRAY['shijithpk'], '2022-02-23T23:35:41.043146+00:00'),
 (374729902, 19, 0, 1, 0, 14, 'sagars007/Proton-UI-connected-rounded-tabs', 'Firefox Proton UI minimal changes with nav-bar-connected rounded tabs, reduced compact mode, nightly color gradient accents etc..', ARRAY['sagars007'], '2022-02-23T23:35:41.043146+00:00'),
-(374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-23T23:35:41.043146+00:00'),
 (374950494, 42, 6, 1, 0, 3, 'lkrryba/weekly-web-dev-challenge-poll', 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', ARRAY['lkrryba', 'DoubleNemesis'], '2022-02-23T23:35:41.043146+00:00'),
+(374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-23T23:35:41.043146+00:00'),
 (375445655, 4142, 12, 1, 0, 16, 'facebookresearch/AugLy', 'A data augmentations library for audio, image, text, and video.', ARRAY['jbitton', 'zpapakipos'], '2022-02-23T23:35:41.043146+00:00'),
 (375581675, 3, 0, 1, 0, 25, 'ezralazuardy/cats', '😷 Contactless Automatic Thermal Scanner', ARRAY['ezralazuardy'], '2022-02-23T23:35:41.043146+00:00'),
 (375818901, 1, 0, 1, 0, 15, 'henrik-ch/financials', null, ARRAY['henrik-ch', 'george-hawkins'], '2022-02-23T23:35:41.043146+00:00'),
