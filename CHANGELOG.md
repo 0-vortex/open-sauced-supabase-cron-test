@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.9.8](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.7...v1.9.8) (2022-03-25)
+
+
+### 🐛 Bug Fixes
+
+* correct null contributors clause and lower rate limit ([cd13628](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/cd136280861fce7438300933b384215896bb6f5b))
+
 ### [1.9.7](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.6...v1.9.7) (2022-03-25)
 
 
