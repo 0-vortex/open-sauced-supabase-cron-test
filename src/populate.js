@@ -184,11 +184,11 @@ async function run() {
 
             const contributions = []
 
-            await p(contributorNames.slice(0, 20))
+            await p(contributorNames.slice(0, 10))
               .map(async (contributor) => {
                 const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
                 const {data, errors} = await api.persistedGitHubContributions({query});
-                const prCount = data.gitHub.search.nodes.length;
+                const prCount = typeof data.gitHub.search.nodes !== "undefined" && data.gitHub.search.nodes.length || 0;
 
                 if (errors && errors.length > 0) {
                   console.log(`Error executing persistedQuery: ${query}`, errors);
