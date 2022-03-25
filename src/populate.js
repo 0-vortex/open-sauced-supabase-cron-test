@@ -184,7 +184,7 @@ async function run() {
 
             const contributions = []
 
-            await p(contributorNames)
+            await p(contributorNames.slice(0, 20))
               .map(async (contributor) => {
                 const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
                 const {data, errors} = await api.persistedGitHubContributions({query});
@@ -196,20 +196,14 @@ async function run() {
                 }
 
                 if (prCount > 0) {
-                  contributions.push({
+                  return contributions.push({
                     name: contributor,
                     count: prCount,
                     lastMergedAt: data.gitHub.search.nodes[0].mergedAt,
                     url: data.gitHub.search.nodes[0].url,
                   });
                 }
-
-                console.log(`No PRs for ${contributor}`);
               })
-
-            console.log(contributions.sort((a, b) => a.count > b.count ? -1 : 1))
-            console.log(contributions.slice(0, 5));
-            process.exit(0);
 
             item.id = id
 
@@ -223,7 +217,9 @@ async function run() {
               issues: open_issues,
               stars: stargazers_count,
               contributors: contributorNames.slice(0,2), // grab first two names only
-              contributions,
+              // don't limit the json field for now
+              // unsure of final format or sort order
+              contributions: contributions.sort((a, b) => a.count > b.count ? -1 : 1),
             }
 
             await supabase
