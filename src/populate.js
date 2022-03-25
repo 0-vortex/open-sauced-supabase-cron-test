@@ -1,5 +1,6 @@
 import { App } from 'octokit'
 import { writeFile } from 'node:fs/promises'
+import { p } from '@antfu/utils'
 
 import { supabase } from './lib/supabase.js'
 import api from './lib/persistedGraphQL.js'
@@ -181,6 +182,35 @@ async function run() {
 
             const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
+            const contributions = []
+
+            await p(contributorNames)
+              .map(async (contributor) => {
+                const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
+                const {data, errors} = await api.persistedGitHubContributions({query});
+                const prCount = data.gitHub.search.nodes.length;
+
+                if (errors && errors.length > 0) {
+                  console.log(`Error executing persistedQuery: ${query}`, errors);
+                  return;
+                }
+
+                if (prCount > 0) {
+                  contributions.push({
+                    name: contributor,
+                    count: prCount,
+                    lastMergedAt: data.gitHub.search.nodes[0].mergedAt,
+                    url: data.gitHub.search.nodes[0].url,
+                  });
+                }
+
+                console.log(`No PRs for ${contributor}`);
+              })
+
+            console.log(contributions.sort((a, b) => a.count > b.count ? -1 : 1))
+            console.log(contributions.slice(0, 5));
+            process.exit(0);
+
             item.id = id
 
             const userStars = {
@@ -192,7 +222,8 @@ async function run() {
               description: description,
               issues: open_issues,
               stars: stargazers_count,
-              contributors: contributorNames.slice(0,2) // grab first two names only
+              contributors: contributorNames.slice(0,2), // grab first two names only
+              contributions,
             }
 
             await supabase
