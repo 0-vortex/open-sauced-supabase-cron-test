@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T20:44:38.427Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T22:44:23.002Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3412,6 +3412,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (385244918, 1, 0, 1, 0, 1, 'vicktoh/nocopo_scrapping', 'Script to scrape data from the NOCOPO platform in order to assess disclosure level of MDAs on the platform using python selenium', ARRAY['vicktoh'], '2022-02-23T23:35:41.043146+00:00'),
 (385261169, 902, 10, 2, 0, 13, 'unjs/unplugin', 'Unified plugin system for Vite, Rollup, Webpack, and more', ARRAY['antfu', 'tropicalraisel'], '2022-02-23T23:35:41.043146+00:00'),
 (385045892, 748, 5, 1, 0, 1, 'gmrchk/blobity', 'The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀', ARRAY['gmrchk', '0xflotus'], '2022-02-23T23:35:41.043146+00:00'),
+(385332374, 5305, 16, 2, 0, 13, 'blueedgetechno/win11React', 'Windows 11 in React 💻🌈⚡', ARRAY['andrewstech', 'blueedgetechno'], '2022-02-23T23:35:41.043146+00:00'),
 (385400671, 86, 1, 1, 0, 12, 'dabit3/supabase-nextjs-auth', 'Example project implementing authentication, authorization, and routing with Next.js and Supabase', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (385568535, 5, 0, 1, 0, 16, 'zuramai/binary-search-tree', 'BST and AVL Balancing created with HTML, CSS and JS', ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
 (385575717, 1, 0, 1, 0, 14, 'adil-Pathan/ionic5-starter-app-tutorial', 'Free Ionic Starter Template - Ionic 5 example app. Learn how to start using Ionic 5 to create a simple app with lists, forms and navigation and more!.', ARRAY['djabif', 'agustinhaller'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(385332374, 5305, 16, 2, 0, 13, 'blueedgetechno/win11React', 'Windows 11 in React 💻🌈⚡', ARRAY['andrewstech', 'blueedgetechno'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
