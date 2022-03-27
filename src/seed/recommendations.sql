@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T18:46:09.715Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T20:44:20.760Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -613,9 +613,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (28748255, 13957, 8, 1, 0, 17, 'sweetalert2/sweetalert2', 'A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript''s popup boxes. Zero dependencies.', ARRAY['limonte', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (28944251, 5033, 41, 1, 0, 1, 'arwes/arwes', 'Futuristic Sci-Fi UI Web Framework', ARRAY['romelperez', 'jdpnielsen'], '2022-02-23T23:35:41.043146+00:00'),
 (29028775, 100073, 2176, 2, 0, 17.5, 'facebook/react-native', 'A framework for building native applications using React', ARRAY['shergin', 'mdvacca'], '2022-02-23T23:35:41.043146+00:00'),
-(29102367, 4936, 138, 1, 0, 23, 'junit-team/junit5', '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ARRAY['sbrannen', 'marcphilipp'], '2022-02-23T23:35:41.043146+00:00'),
-(29217054, 17390, 53, 1, 0, 18, 'asim/go-micro', 'A framework for distributed systems development', ARRAY['asim', 'milosgajdos'], '2022-02-23T23:35:41.043146+00:00'),
-(29227314, 320, 2, 1, 0, 17, 'hackclub/dinosaurs', 'dinoooooooooos', ARRAY['maxwofford', 'zachlatta'], '2022-02-23T23:35:41.043146+00:00'),
 (29357796, 15367, 58, 1, 0, 22, 'jbhuang0604/awesome-computer-vision', 'A curated list of awesome computer vision resources', ARRAY['jbhuang0604', 'davidstutz'], '2022-02-23T23:35:41.043146+00:00'),
 (29371034, 10808, 83, 1, 0, 15, 'micro/micro', 'A distributed cloud operating system', ARRAY['asim', 'ben-toogood'], '2022-02-23T23:35:41.043146+00:00'),
 (29420377, 14988, 183, 1, 0, 9, 'posquit0/Awesome-CV', ':page_facing_up: Awesome CV is LaTeX template for your outstanding job application', ARRAY['posquit0', 'nitrogl'], '2022-02-23T23:35:41.043146+00:00'),
@@ -624,7 +621,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (29994403, 844, 26, 1, 0, 6, 'K-Phoen/rulerz', 'Powerful implementation of the Specification pattern in PHP', ARRAY['K-Phoen', 'bobdercole'], '2022-02-23T23:35:41.043146+00:00'),
 (30025372, 6034, 104, 1, 0, 10, 'Huxpro/huxpro.github.io', 'My Blog / Jekyll Themes / PWA', ARRAY['Huxpro', 'BruceZhaoR'], '2022-02-23T23:35:41.043146+00:00'),
 (30153200, 960, 29, 1, 0, 23, 'junegunn/vim-peekaboo', ':eyes: '' / @ / CTRL-R', ARRAY['junegunn', 'gelguy'], '2022-02-23T23:35:41.043146+00:00'),
+(29102367, 4936, 138, 1, 0, 23, 'junit-team/junit5', '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ARRAY['sbrannen', 'marcphilipp'], '2022-02-23T23:35:41.043146+00:00'),
+(29217054, 17390, 53, 1, 0, 18, 'asim/go-micro', 'A framework for distributed systems development', ARRAY['asim', 'milosgajdos'], '2022-02-23T23:35:41.043146+00:00'),
 (30200039, 3022, 80, 1, 0, 18, 'osano/cookieconsent', 'A free solution to the EU, GDPR, and California Cookie Laws', ARRAY['alexmorleyfinch', 'piiupilt'], '2022-02-23T23:35:41.043146+00:00'),
+(29227314, 320, 2, 1, 0, 17, 'hackclub/dinosaurs', 'dinoooooooooos', ARRAY['maxwofford', 'zachlatta'], '2022-02-23T23:35:41.043146+00:00'),
 (30215630, 21973, 46, 1, 0, 18, 'go-kit/kit', 'A standard library for microservices.', ARRAY['peterbourgon', 'ChrisHines'], '2022-02-23T23:35:41.043146+00:00'),
 (30233740, 328, 34, 1, 0, 20, 'hwz/chirp', 'A teaching example of the MEAN stack, by building a simple Twitter clone', ARRAY['hwz', 'sedouard'], '2022-02-23T23:35:41.043146+00:00'),
 (30717673, 648, 30, 1, 0, 8, 'dwyl/learn-api-design', ':innocent: Essential learning for people building APIs', ARRAY['nelsonic', 'besarthoxhaj'], '2022-02-23T23:35:41.043146+00:00'),
