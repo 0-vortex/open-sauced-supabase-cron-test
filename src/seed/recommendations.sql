@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T12:51:09.023Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T14:44:18.987Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2093,12 +2093,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (200590949, 2949, 29, 1, 0, 1, 'rsalmei/alive-progress', 'A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!', ARRAY['rsalmei'], '2022-02-23T23:35:41.043146+00:00'),
 (200731758, 353, 12, 1, 0, 10, 'serradura/u-case', 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', ARRAY['serradura', 'tomascco'], '2022-02-23T23:35:41.043146+00:00'),
 (200877850, 510, 27, 1, 0, 13, 'digitalocean/hacktoberfest', 'Hacktoberfest - App to manage the annual open-source challenge, used for the 2019 & 2020 seasons.', ARRAY['mkcode', 'fridaland'], '2022-02-23T23:35:41.043146+00:00'),
-(200928051, 684, 29, 1, 0, 27, 'HospitalRun/hospitalrun', 'Monorepo that holds all of HospitalRun''s v2 projects.', ARRAY['tehKapa', 'hospitalrunbot'], '2022-02-23T23:35:41.043146+00:00'),
 (201108929, 676, 7, 1, 0, 29, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-23T23:35:41.043146+00:00'),
-(201147574, 720, 5, 1, 0, 8, 'octokit/core.js', 'Extendable client for GitHub''s REST & GraphQL APIs', ARRAY['gr2m', 'wolfy1339'], '2022-02-23T23:35:41.043146+00:00'),
 (201148576, 3, 0, 1, 0, 16, 'mithereal/speedtest', 'speedtest.net client for elixir', ARRAY['mithereal'], '2022-02-23T23:35:41.043146+00:00'),
 (201327718, 515, 0, 1, 0, 4, 'odpi/OpenDS4All', 'OpenDS4All project, hosted by LF AI & Data', ARRAY['Frenchhorn005', 'zackives'], '2022-02-23T23:35:41.043146+00:00'),
 (201403923, 4084, 69, 1, 0, 4, 'activeloopai/Hub', 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', ARRAY['AbhinavTuli', 'nollied'], '2022-02-23T23:35:41.043146+00:00'),
+(201147574, 720, 5, 1, 0, 8, 'octokit/core.js', 'Extendable client for GitHub''s REST & GraphQL APIs', ARRAY['gr2m', 'wolfy1339'], '2022-02-23T23:35:41.043146+00:00'),
+(200928051, 684, 29, 1, 0, 27, 'HospitalRun/hospitalrun', 'Monorepo that holds all of HospitalRun''s v2 projects.', ARRAY['tehKapa', 'hospitalrunbot'], '2022-02-23T23:35:41.043146+00:00'),
 (201438745, 3, 0, 1, 0, 2, 'jatinderji/StudentMS', null, ARRAY['jatinderji'], '2022-02-23T23:35:41.043146+00:00'),
 (201535836, 1796, 26, 1, 0, 5, 'onderceylan/pwa-asset-generator', 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', ARRAY['onderceylan', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (201570219, 14466, 107, 1, 0, 5, 'responsively-org/responsively-app', 'A modified web browser that helps in responsive web development. A web developer''s must have dev-tool.', ARRAY['manojVivek', 'jjavierdguezas'], '2022-02-23T23:35:41.043146+00:00'),
