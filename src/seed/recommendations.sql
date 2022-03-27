@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T02:55:42.203Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T04:48:00.870Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3160,8 +3160,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (350383594, 249, 18, 1, 0, 21, 'oasis-sh/oasis', 'The chat and forums platform for communities', ARRAY['heybereket', 'HenryLeC'], '2022-02-23T23:35:41.043146+00:00'),
 (350770929, 2153, 49, 1, 0, 9, 'academind/react-complete-guide-code', 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ARRAY['maxschwarzmueller'], '2022-02-23T23:35:41.043146+00:00'),
 (350802931, 9, 0, 1, 0, 2, 'trainerroad/react-race-planner', 'A coding challenge for prospective engineering hires', ARRAY['colinrobertbrooks', 'tah9m9'], '2022-02-23T23:35:41.043146+00:00'),
-(350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-23T23:35:41.043146+00:00'),
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-23T23:35:41.043146+00:00'),
+(350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-23T23:35:41.043146+00:00'),
 (351005162, 55, 1, 1, 0, 8, 'salvatoreraccardi/OBJEX_LINK', 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle.', ARRAY['salvatoreraccardi', 'Vetozz'], '2022-02-23T23:35:41.043146+00:00'),
 (351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-23T23:35:41.043146+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-23T23:35:41.043146+00:00'),
