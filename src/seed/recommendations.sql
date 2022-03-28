@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T16:51:35.754Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T18:47:13.233Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -867,16 +867,16 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (50565430, 14382, 661, 1, 0, 8, 'pnpm/pnpm', 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', ARRAY['zkochan', 'rstacruz'], '2022-02-23T23:35:41.043146+00:00'),
 (50658096, 108, 10, 1, 0, 16, 'kehers/paystack', 'Nodejs API wrapper for Paystack', ARRAY['Subomi', 'kehers'], '2022-02-23T23:35:41.043146+00:00'),
 (50685592, 1059, 52, 1, 0, 15, 'GoogleCloudPlatform/cloud-vision', 'Sample code for Google Cloud Vision', ARRAY['tswast', 'amygdala'], '2022-02-23T23:35:41.043146+00:00'),
-(51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-23T23:35:41.043146+00:00'),
 (50874860, 813, 26, 1, 0, 10, 'go-ping/ping', 'ICMP Ping library for Go', ARRAY['sparrc', 'CHTJonas'], '2022-02-23T23:35:41.043146+00:00'),
+(50961078, 36, 0, 1, 0, 5, 'leggetter/devrelometer', 'DevRelOMeter: Are you practicing Developer Evangelism or Advocacy?', ARRAY['leggetter'], '2022-02-23T23:35:41.043146+00:00'),
+(51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-23T23:35:41.043146+00:00'),
+(51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-23T23:35:41.043146+00:00'),
+(48863418, 9769, 60, 1, 0, 14, 'coryhouse/react-slingshot', 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', ARRAY['coryhouse', 'kwelch'], '2022-02-23T23:35:41.043146+00:00'),
 (49020217, 11504, 41, 1, 0, 28, 'petehunt/react-howto', 'Your guide to the (sometimes overwhelming!) React ecosystem.', ARRAY['petehunt', 'jurgob'], '2022-02-23T23:35:41.043146+00:00'),
 (51568094, 2490, 43, 1, 0, 1, 'careercup/CtCI-6th-Edition-JavaScript', 'Cracking the Coding Interview 6th Ed. JavaScript Solutions', ARRAY['dawsbot', 'profnandaa'], '2022-02-23T23:35:41.043146+00:00'),
 (51588320, 2043, 82, 1, 0, 12, 'stryker-mutator/stryker-js', 'Mutation testing for JavaScript and friends', ARRAY['nicojs', 'simondel'], '2022-02-23T23:35:41.043146+00:00'),
 (51595028, 1289, 68, 1, 0, 0, 'OPCFoundation/UA-.NETStandard', 'OPC Unified Architecture .NET Standard', ARRAY['mregen', 'barnstee'], '2022-02-23T23:35:41.043146+00:00'),
 (51618676, 1, 4, 1, 0, 20, 'thread-pond/scrum-lint', 'A toolkit to help manage a very specific Trello and Github workflow', ARRAY['mockdeep', 'raychatter'], '2022-02-23T23:35:41.043146+00:00'),
-(50961078, 36, 0, 1, 0, 5, 'leggetter/devrelometer', 'DevRelOMeter: Are you practicing Developer Evangelism or Advocacy?', ARRAY['leggetter'], '2022-02-23T23:35:41.043146+00:00'),
-(51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-23T23:35:41.043146+00:00'),
-(48863418, 9769, 60, 1, 0, 14, 'coryhouse/react-slingshot', 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', ARRAY['coryhouse', 'kwelch'], '2022-02-23T23:35:41.043146+00:00'),
 (48869446, 620, 74, 1, 0, 2, 'kogosoftwarellc/open-api', 'A Monorepo of various packages to power OpenAPI in node', ARRAY['jsdevel', 'MugeSo'], '2022-02-23T23:35:41.043146+00:00'),
 (51732606, 6953, 4, 1, 0, 9, 'jhu-ep-coursera/fullstack-course4', 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', ARRAY['ychaikin', 'jasonwr'], '2022-02-23T23:35:41.043146+00:00'),
 (51762221, 4933, 48, 1, 0, 8, 'yinxin630/fiora', 'An interesting open source chat application. Developed with node.js, mongoDB, socket.io and react', ARRAY['yinxin630', 'imjonat'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1382,8 +1382,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (107290035, 26, 11, 1, 0, 25, 'sumup-oss/foundry', 'A toolkit for building JavaScript & TypeScript applications.', ARRAY['connor-baer', 'felixjung'], '2022-02-23T23:35:41.043146+00:00'),
 (107150504, 1, 0, 1, 0, 17, 'whuang8/herp-derp', 'Speed Game', ARRAY['whuang8', 'jonathanyeong'], '2022-02-23T23:35:41.043146+00:00'),
 (124451758, 13, 9, 1, 0, 24, 'gitcoinco/GIPs', 'Gitcoin Improvement Proposals', ARRAY['pirapira', 'fulldecent'], '2022-02-23T23:35:41.043146+00:00'),
-(107699164, 993, 0, 1, 0, 28, 'jpantunes/awesome-cryptoeconomics', 'An awesome curated list of Cryptoeconomic research and learning materials', ARRAY['jpantunes', 'Genysys'], '2022-02-23T23:35:41.043146+00:00'),
 (107446339, 59, 0, 1, 0, 26, 'yugabyte/yb-iot-fleet-management', 'Sample IoT application simulating a monitoring dashboard for a fleet management/shipping company.', ARRAY['rkarthik007', 'baghelamit'], '2022-02-23T23:35:41.043146+00:00'),
+(107699164, 993, 0, 1, 0, 28, 'jpantunes/awesome-cryptoeconomics', 'An awesome curated list of Cryptoeconomic research and learning materials', ARRAY['jpantunes', 'Genysys'], '2022-02-23T23:35:41.043146+00:00'),
 (107914493, 5654, 336, 1, 0, 13, 'simonw/datasette', 'An open source multi-tool for exploring and publishing data', ARRAY['simonw', 'russss'], '2022-02-23T23:35:41.043146+00:00'),
 (107937815, 6356, 613, 1, 0, 5, 'aws/amazon-sagemaker-examples', 'Example 📓 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using 🧠 Amazon SageMaker. ', ARRAY['djarpin', 'hsl89'], '2022-02-23T23:35:41.043146+00:00'),
 (108161548, 399, 14, 1, 0, 13, 'googlecreativelab/ar-drawing-java', 'A simple AR drawing experiment build in Java using ARCore. ', ARRAY['HalfdanJ', 'brijeshshah13'], '2022-02-23T23:35:41.043146+00:00'),
