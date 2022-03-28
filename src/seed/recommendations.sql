@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T01:04:27.921Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T03:02:17.734Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1067,8 +1067,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:35:41.043146+00:00'),
 (70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-23T23:35:41.043146+00:00'),
 (71002855, 12, 0, 1, 0, 6, 'muryoimpl/slippr', 'markdown presentation app by Electron', ARRAY['muryoimpl', 'takkanm'], '2022-02-23T23:35:41.043146+00:00'),
-(71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-23T23:35:41.043146+00:00'),
 (71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-23T23:35:41.043146+00:00'),
 (71230327, 559, 18, 1, 0, 24, 'spring-projects-experimental/spring-boot-thin-launcher', 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ARRAY['dsyer', 'mnewquis'], '2022-02-23T23:35:41.043146+00:00'),
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-23T23:35:41.043146+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1241,8 +1241,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (89035461, 263, 40, 1, 0, 19, 'rubyforgood/human-essentials', 'Human Essentials is an inventory management system for essentials banks, to aid them in distributing items to their partners, tracking their inventory, and providing statistics about their inventory flows.', ARRAY['seanmarcia', 'armahillo'], '2022-02-23T23:35:41.043146+00:00'),
 (89116094, 5787, 109, 1, 0, 5, 'utterance/utterances', ':crystal_ball: A lightweight comments widget built on GitHub issues', ARRAY['jdanyow', 'polyrain'], '2022-02-23T23:35:41.043146+00:00'),
 (89379547, 943, 27, 1, 0, 19, 'zostera/django-bootstrap4', 'Bootstrap 4 integration with Django.', ARRAY['dyve', 'jieter'], '2022-02-23T23:35:41.043146+00:00'),
-(89600573, 998, 0, 1, 0, 14, 'sergey-pimenov/awesome-web-animation', 'A list of awesome web animation libraries, books, apps etc.', ARRAY['sergey-pimenov', 'corocoto'], '2022-02-23T23:35:41.043146+00:00'),
 (89426061, 22, 0, 1, 0, 10, 'McFunkypants/CYOAwesome', 'An easy-to-use html5 text adventure game engine.     PLAY THE DEMO:', ARRAY['McFunkypants'], '2022-02-23T23:35:41.043146+00:00'),
+(89600573, 998, 0, 1, 0, 14, 'sergey-pimenov/awesome-web-animation', 'A list of awesome web animation libraries, books, apps etc.', ARRAY['sergey-pimenov', 'corocoto'], '2022-02-23T23:35:41.043146+00:00'),
 (89766385, 1561, 30, 1, 0, 21, 'cassidoo/todometer', 'A meter-based to-do list', ARRAY['cassidoo', 'farskid'], '2022-02-23T23:35:41.043146+00:00'),
 (90080868, 2289, 65, 1, 0, 16, 'saadq/resumake.io', '📝 A website for automatically generating elegant LaTeX resumes.', ARRAY['saadq', 'mmngreco'], '2022-02-23T23:35:41.043146+00:00'),
 (90194616, 8436, 421, 1, 0, 19, 'samuelcolvin/pydantic', 'Data parsing and validation using Python type hints', ARRAY['samuelcolvin', 'PrettyWood'], '2022-02-23T23:35:41.043146+00:00'),
