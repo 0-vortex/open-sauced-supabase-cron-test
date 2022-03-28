@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T20:44:20.760Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T01:04:27.921Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -613,6 +613,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (28748255, 13957, 8, 1, 0, 17, 'sweetalert2/sweetalert2', 'A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript''s popup boxes. Zero dependencies.', ARRAY['limonte', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (28944251, 5033, 41, 1, 0, 1, 'arwes/arwes', 'Futuristic Sci-Fi UI Web Framework', ARRAY['romelperez', 'jdpnielsen'], '2022-02-23T23:35:41.043146+00:00'),
 (29028775, 100073, 2176, 2, 0, 17.5, 'facebook/react-native', 'A framework for building native applications using React', ARRAY['shergin', 'mdvacca'], '2022-02-23T23:35:41.043146+00:00'),
+(29102367, 4936, 138, 1, 0, 23, 'junit-team/junit5', '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ARRAY['sbrannen', 'marcphilipp'], '2022-02-23T23:35:41.043146+00:00'),
+(29217054, 17390, 53, 1, 0, 18, 'asim/go-micro', 'A framework for distributed systems development', ARRAY['asim', 'milosgajdos'], '2022-02-23T23:35:41.043146+00:00'),
+(29227314, 320, 2, 1, 0, 17, 'hackclub/dinosaurs', 'dinoooooooooos', ARRAY['maxwofford', 'zachlatta'], '2022-02-23T23:35:41.043146+00:00'),
 (29357796, 15367, 58, 1, 0, 22, 'jbhuang0604/awesome-computer-vision', 'A curated list of awesome computer vision resources', ARRAY['jbhuang0604', 'davidstutz'], '2022-02-23T23:35:41.043146+00:00'),
 (29371034, 10808, 83, 1, 0, 15, 'micro/micro', 'A distributed cloud operating system', ARRAY['asim', 'ben-toogood'], '2022-02-23T23:35:41.043146+00:00'),
 (29420377, 14988, 183, 1, 0, 9, 'posquit0/Awesome-CV', ':page_facing_up: Awesome CV is LaTeX template for your outstanding job application', ARRAY['posquit0', 'nitrogl'], '2022-02-23T23:35:41.043146+00:00'),
@@ -621,10 +624,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (29994403, 844, 26, 1, 0, 6, 'K-Phoen/rulerz', 'Powerful implementation of the Specification pattern in PHP', ARRAY['K-Phoen', 'bobdercole'], '2022-02-23T23:35:41.043146+00:00'),
 (30025372, 6034, 104, 1, 0, 10, 'Huxpro/huxpro.github.io', 'My Blog / Jekyll Themes / PWA', ARRAY['Huxpro', 'BruceZhaoR'], '2022-02-23T23:35:41.043146+00:00'),
 (30153200, 960, 29, 1, 0, 23, 'junegunn/vim-peekaboo', ':eyes: '' / @ / CTRL-R', ARRAY['junegunn', 'gelguy'], '2022-02-23T23:35:41.043146+00:00'),
-(29102367, 4936, 138, 1, 0, 23, 'junit-team/junit5', '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ARRAY['sbrannen', 'marcphilipp'], '2022-02-23T23:35:41.043146+00:00'),
-(29217054, 17390, 53, 1, 0, 18, 'asim/go-micro', 'A framework for distributed systems development', ARRAY['asim', 'milosgajdos'], '2022-02-23T23:35:41.043146+00:00'),
 (30200039, 3022, 80, 1, 0, 18, 'osano/cookieconsent', 'A free solution to the EU, GDPR, and California Cookie Laws', ARRAY['alexmorleyfinch', 'piiupilt'], '2022-02-23T23:35:41.043146+00:00'),
-(29227314, 320, 2, 1, 0, 17, 'hackclub/dinosaurs', 'dinoooooooooos', ARRAY['maxwofford', 'zachlatta'], '2022-02-23T23:35:41.043146+00:00'),
 (30215630, 21973, 46, 1, 0, 18, 'go-kit/kit', 'A standard library for microservices.', ARRAY['peterbourgon', 'ChrisHines'], '2022-02-23T23:35:41.043146+00:00'),
 (30233740, 328, 34, 1, 0, 20, 'hwz/chirp', 'A teaching example of the MEAN stack, by building a simple Twitter clone', ARRAY['hwz', 'sedouard'], '2022-02-23T23:35:41.043146+00:00'),
 (30717673, 648, 30, 1, 0, 8, 'dwyl/learn-api-design', ':innocent: Essential learning for people building APIs', ARRAY['nelsonic', 'besarthoxhaj'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1067,8 +1067,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:35:41.043146+00:00'),
 (70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-23T23:35:41.043146+00:00'),
 (71002855, 12, 0, 1, 0, 6, 'muryoimpl/slippr', 'markdown presentation app by Electron', ARRAY['muryoimpl', 'takkanm'], '2022-02-23T23:35:41.043146+00:00'),
-(71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-23T23:35:41.043146+00:00'),
+(71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (71230327, 559, 18, 1, 0, 24, 'spring-projects-experimental/spring-boot-thin-launcher', 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ARRAY['dsyer', 'mnewquis'], '2022-02-23T23:35:41.043146+00:00'),
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-23T23:35:41.043146+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1241,8 +1241,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (89035461, 263, 40, 1, 0, 19, 'rubyforgood/human-essentials', 'Human Essentials is an inventory management system for essentials banks, to aid them in distributing items to their partners, tracking their inventory, and providing statistics about their inventory flows.', ARRAY['seanmarcia', 'armahillo'], '2022-02-23T23:35:41.043146+00:00'),
 (89116094, 5787, 109, 1, 0, 5, 'utterance/utterances', ':crystal_ball: A lightweight comments widget built on GitHub issues', ARRAY['jdanyow', 'polyrain'], '2022-02-23T23:35:41.043146+00:00'),
 (89379547, 943, 27, 1, 0, 19, 'zostera/django-bootstrap4', 'Bootstrap 4 integration with Django.', ARRAY['dyve', 'jieter'], '2022-02-23T23:35:41.043146+00:00'),
-(89426061, 22, 0, 1, 0, 10, 'McFunkypants/CYOAwesome', 'An easy-to-use html5 text adventure game engine.     PLAY THE DEMO:', ARRAY['McFunkypants'], '2022-02-23T23:35:41.043146+00:00'),
 (89600573, 998, 0, 1, 0, 14, 'sergey-pimenov/awesome-web-animation', 'A list of awesome web animation libraries, books, apps etc.', ARRAY['sergey-pimenov', 'corocoto'], '2022-02-23T23:35:41.043146+00:00'),
+(89426061, 22, 0, 1, 0, 10, 'McFunkypants/CYOAwesome', 'An easy-to-use html5 text adventure game engine.     PLAY THE DEMO:', ARRAY['McFunkypants'], '2022-02-23T23:35:41.043146+00:00'),
 (89766385, 1561, 30, 1, 0, 21, 'cassidoo/todometer', 'A meter-based to-do list', ARRAY['cassidoo', 'farskid'], '2022-02-23T23:35:41.043146+00:00'),
 (90080868, 2289, 65, 1, 0, 16, 'saadq/resumake.io', '📝 A website for automatically generating elegant LaTeX resumes.', ARRAY['saadq', 'mmngreco'], '2022-02-23T23:35:41.043146+00:00'),
 (90194616, 8436, 421, 1, 0, 19, 'samuelcolvin/pydantic', 'Data parsing and validation using Python type hints', ARRAY['samuelcolvin', 'PrettyWood'], '2022-02-23T23:35:41.043146+00:00'),
