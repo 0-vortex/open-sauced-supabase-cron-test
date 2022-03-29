@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T08:46:09.644Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T12:54:32.032Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1358,8 +1358,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (104133653, 5321, 46, 1, 0, 24, 'reakit/reakit', 'Toolkit for building accessible rich web apps with React', ARRAY['diegohaz', 'tcodes0'], '2022-02-23T23:35:41.043146+00:00'),
 (104184716, 179, 7, 1, 0, 8, 'vatz88/Pluralsight-Course-Downloader', 'Chrome Extension: Easily download course video from pluralsight. Videos renamed and organized in folder.', ARRAY['vatz88', 'richie777cfc'], '2022-02-23T23:35:41.043146+00:00'),
 (104307778, 1235, 6, 1, 0, 22, 'halturin/ergo', 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ARRAY['halturin', 'Zert'], '2022-02-23T23:35:41.043146+00:00'),
-(104394958, 427, 6, 1, 0, 11, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-23T23:35:41.043146+00:00'),
 (104366016, 1242, 3, 1, 0, 22, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-23T23:35:41.043146+00:00'),
+(104394958, 427, 6, 1, 0, 11, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-23T23:35:41.043146+00:00'),
 (104443108, 383, 4, 1, 0, 22, 'ukncsc/secure-development-and-deployment', 'NCSC Guidance for secure development and deployment', ARRAY['toby-ncsc', 'HowWeRollingham'], '2022-02-23T23:35:41.043146+00:00'),
 (104957153, 5074, 21, 1, 0, 20, 'nestjs/awesome-nestjs', 'A curated list of awesome things related to NestJS 😎', ARRAY['juliandavidmr', 'Tony133'], '2022-02-23T23:35:41.043146+00:00'),
 (105006329, 40, 13, 1, 0, 1, 'shiplab/vesseljs', 'Vessel.js Ship Design Library', ARRAY['icarofonseca', 'ferrari212'], '2022-02-23T23:35:41.043146+00:00'),
