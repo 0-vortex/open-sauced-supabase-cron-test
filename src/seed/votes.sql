@@ -1,13 +1,13 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T18:47:12.442Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T22:44:26.536Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (4, 5713670, 'kamranahmedse/developer-roadmap', '5713670-kamranahmedse/developer-roadmap', '2022-01-13T06:47:12.647373+00:00'),
 (98, 20134767, 'nuxt/nuxt.js', '20134767-nuxt/nuxt.js', '2022-01-25T21:29:10.802486+00:00'),
-(100, 5713670, 'flutter/flutter', '5713670-flutter/flutter', '2022-01-25T23:48:23.190923+00:00'),
 (6, 5713670, 'slidevjs/slidev', '5713670-slidevjs/slidev', '2022-01-13T06:48:50.894315+00:00'),
+(100, 5713670, 'flutter/flutter', '5713670-flutter/flutter', '2022-01-25T23:48:23.190923+00:00'),
 (101, 5713670, 'AriaMinaei/theatre', '5713670-AriaMinaei/theatre', '2022-01-26T22:47:52.020398+00:00'),
 (10, 5713670, 'papers-we-love/papers-we-love', '5713670-papers-we-love/papers-we-love', '2022-01-13T06:55:51.030046+00:00'),
 (102, 237133, 'open-sauced/hot', '237133-open-sauced/hot', '2022-02-04T00:57:41.260295+00:00'),
