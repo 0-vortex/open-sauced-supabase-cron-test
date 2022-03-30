@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T12:54:33.385Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T14:44:20.455Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2739,16 +2739,16 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (287464616, 799, 2, 1, 0, 7, 'migueravila/Bento', '🍱 The minimalist, elegant and hackable startpage.', ARRAY['migueravila', 'Swiddis'], '2022-02-23T23:35:41.043146+00:00'),
 (287500642, 7, 0, 1, 0, 15, 'DeepARSDK/vonage-web-js', 'Video call using Vonage SDK with face masks provided by DeepAR SDK for Web', ARRAY['Sikter', 'Luka-M'], '2022-02-23T23:35:41.043146+00:00'),
 (287542207, 397, 20, 1, 0, 16, '0xPolygon/polygon-sdk', 'A Framework for Building Ethereum-compatible Blockchain Networks', ARRAY['ferranbt', 'Kourin1996'], '2022-02-23T23:35:41.043146+00:00'),
+(287573157, 1123, 12, 1, 0, 0, 'Leniolabs/layoutit-grid', 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ARRAY['patak-dev', 'agustin-capeletto-lenio'], '2022-02-23T23:35:41.043146+00:00'),
+(287743349, 327, 7, 1, 0, 3, 'docker/login-action', 'GitHub Action to login against a Docker registry', ARRAY['crazy-max', 'tonistiigi'], '2022-02-23T23:35:41.043146+00:00'),
+(288234242, 803, 125, 1, 0, 7, 'nolar/kopf', 'A Python framework to write Kubernetes operators in just a few lines of code', ARRAY['nolar', 'dlmiddlecote'], '2022-02-23T23:35:41.043146+00:00'),
 (288511462, 2, 0, 1, 0, 14, 'teezzan/commitSpy-Core', 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
 (288627285, 655, 0, 1, 0, 25, 'wobsoriano/v-dashboard', 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ARRAY['wobsoriano', 'sebassu'], '2022-02-23T23:35:41.043146+00:00'),
 (289072201, 5, 0, 1, 0, 27, 'sounishnath003/Educatify', 'The Classroom made in India - Digital India Project - (BGI)', ARRAY['sounishnath003', 'sayancoding'], '2022-02-23T23:35:41.043146+00:00'),
 (289141880, 1, 0, 1, 0, 9, 'sjproctor/cat-tinder-buildout', 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ARRAY['sjproctor'], '2022-02-23T23:35:41.043146+00:00'),
 (289188530, 96, 17, 1, 0, 18, 'reptilex/tesla-style-solar-power-card', 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ARRAY['reptilex', 'dgomes'], '2022-02-23T23:35:41.043146+00:00'),
 (289205582, 530, 5, 1, 0, 4, 'kr1sp1n/awesome-gemini', 'A collection of awesome things regarding the gemini protocol ecosystem.', ARRAY['kr1sp1n', 'pitr'], '2022-02-23T23:35:41.043146+00:00'),
-(287573157, 1123, 12, 1, 0, 0, 'Leniolabs/layoutit-grid', 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ARRAY['patak-dev', 'agustin-capeletto-lenio'], '2022-02-23T23:35:41.043146+00:00'),
 (289256448, 2261, 18, 1, 0, 22, 'themesberg/volt-bootstrap-5-dashboard', 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ARRAY['zoltanszogyenyi', 'robert1508'], '2022-02-23T23:35:41.043146+00:00'),
-(287743349, 327, 7, 1, 0, 3, 'docker/login-action', 'GitHub Action to login against a Docker registry', ARRAY['crazy-max', 'tonistiigi'], '2022-02-23T23:35:41.043146+00:00'),
-(288234242, 803, 125, 1, 0, 7, 'nolar/kopf', 'A Python framework to write Kubernetes operators in just a few lines of code', ARRAY['nolar', 'dlmiddlecote'], '2022-02-23T23:35:41.043146+00:00'),
 (289278036, 1, 0, 1, 0, 2, 'leooverlord/ConsoleAppSamples', 'Repositório com exemplos.', ARRAY['leooverlord'], '2022-02-23T23:35:41.043146+00:00'),
 (289516607, 27, 0, 1, 0, 7, 'khang-nd/khang-nd.github.io', '📝 My window-styled portfolio', ARRAY['khang-nd'], '2022-02-23T23:35:41.043146+00:00'),
 (289523918, 1940, 17, 2, 0, 25, 'ryo-ma/github-profile-trophy', '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', ARRAY['ryo-ma', 'spenserblack'], '2022-02-23T23:35:41.043146+00:00'),
