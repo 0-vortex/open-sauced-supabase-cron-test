@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T01:04:49.262Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T03:01:42.183Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2314,8 +2314,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (233675781, 3, 0, 1, 0, 9, 'learn-co-curriculum/cli-project-planning', null, ARRAY['maxwellbenton', 'cernanb'], '2022-02-23T23:35:41.043146+00:00'),
 (234231371, 17421, 50, 2, 0, 22.5, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-23T23:35:41.043146+00:00'),
 (234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-23T23:35:41.043146+00:00'),
-(234739976, 5580, 124, 1, 0, 0, 'medusajs/medusa', 'The open-source Shopify alternative ⚡️', ARRAY['srindom', 'olivermrbl'], '2022-02-23T23:35:41.043146+00:00'),
 (234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-23T23:35:41.043146+00:00'),
+(234739976, 5580, 124, 1, 0, 0, 'medusajs/medusa', 'The open-source Shopify alternative ⚡️', ARRAY['srindom', 'olivermrbl'], '2022-02-23T23:35:41.043146+00:00'),
 (234399448, 7, 7, 1, 0, 20, 'outsrc/my-app', 'Secure NextJS App users with Auth0 and TypeScript', ARRAY['ernestofreyreg'], '2022-02-23T23:35:41.043146+00:00'),
 (234755443, 1, 0, 1, 0, 1, 'sarthakvarshney8081/dockerlabs', 'Docker  - Beginners | Intermediate | Advanced', ARRAY['collabnix', 'sangam14'], '2022-02-23T23:35:41.043146+00:00'),
 (234798675, 12364, 800, 2, 0, 20.5, 'bevyengine/bevy', 'A refreshingly simple data-driven game engine built in Rust', ARRAY['cart', 'mockersf'], '2022-02-23T23:35:41.043146+00:00'),
