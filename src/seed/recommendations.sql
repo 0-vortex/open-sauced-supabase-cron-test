@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T16:50:16.230Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T18:47:20.168Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3515,9 +3515,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395376449, 1, 0, 2, 0, 0, 'flan6/ml-cv-bot', 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', ARRAY['flan6'], '2022-02-23T23:35:41.043146+00:00'),
 (395413091, 1, 0, 1, 0, 0, 'Mintbean/junior-developer-job-boards', null, ARRAY['Jc-008', 'monarchwadia'], '2022-02-23T23:35:41.043146+00:00'),
 (395433628, 4, 0, 1, 0, 9, 'exegeteio/dapr-mini-api', null, ARRAY['exegeteio'], '2022-02-23T23:35:41.043146+00:00'),
+(395536461, 1456, 62, 1, 0, 26, 'mTvare6/hello-world.rs', '🚀Memory safe, blazing fast, configurable, minimal hello world written in rust(🚀) in a few lines of code with few(1092🚀) dependencies🚀', ARRAY['mTvare6', 'monosans'], '2022-02-23T23:35:41.043146+00:00'),
 (395575559, 10, 3, 1, 0, 21, 'teknologi-umum/blog', 'Blog for Teknologi Umum', ARRAY['aldy505', 'elianiva'], '2022-02-23T23:35:41.043146+00:00'),
 (395667322, 35, 1, 1, 0, 13, 'stack-on-fire/fire-flags', 'Dead simple and blazing fast feature-flags platform. Get started in minutes. Be confident when releasing new features for your application!', ARRAY['d-ivashchuk', 'edoardoc'], '2022-02-23T23:35:41.043146+00:00'),
-(395536461, 1456, 62, 1, 0, 26, 'mTvare6/hello-world.rs', '🚀Memory safe, blazing fast, configurable, minimal hello world written in rust(🚀) in a few lines of code with few(1092🚀) dependencies🚀', ARRAY['mTvare6', 'monosans'], '2022-02-23T23:35:41.043146+00:00'),
 (396086379, 54, 6, 1, 0, 21, 'kb24x7/rustyvibes', 'A Rust CLI that makes mechanical keyboard sound effects on every key press', ARRAY['kb24x7', 'binarybana'], '2022-02-23T23:35:41.043146+00:00'),
 (396169668, 1, 0, 1, 0, 1, 'lesmo/pinentry-wsl-ps1', 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', ARRAY['diablodale'], '2022-02-23T23:35:41.043146+00:00'),
 (396327436, 181, 0, 1, 0, 25, 'devkodeio/the-dom-challenge', 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ARRAY['sunnypuri'], '2022-02-23T23:35:41.043146+00:00'),
