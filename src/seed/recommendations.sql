@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T08:46:20.673Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T10:45:20.414Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -551,10 +551,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (22424133, 5020, 373, 1, 0, 7, 'muaz-khan/RecordRTC', 'RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.', ARRAY['muaz-khan', 'thijstriemstra'], '2022-02-23T23:35:41.043146+00:00'),
 (22654023, 901, 0, 1, 0, 28, 'MBMIT/interges.github.io', 'Interges Website', ARRAY['mariobehling'], '2022-02-23T23:35:41.043146+00:00'),
 (22670857, 46333, 118, 1, 0, 2, 'enaqx/awesome-react', 'A collection of awesome things regarding React ecosystem', ARRAY['enaqx', 'browniefed'], '2022-02-23T23:35:41.043146+00:00'),
-(22731172, 492, 0, 1, 0, 11, 'cassidoo/talks', 'Talks at conferences, meetups, hackathons, and more, plus my speaker rider for good measure.', ARRAY['cassidoo', 'andrewfleer'], '2022-02-23T23:35:41.043146+00:00'),
 (22781617, 451, 0, 1, 0, 0, 'cclauss/Ten-lines-or-less', 'Python scripts that are short but useful or interesting', ARRAY['cclauss'], '2022-02-23T23:35:41.043146+00:00'),
 (22790488, 72008, 264, 1, 0, 2, 'iluwatar/java-design-patterns', 'Design patterns implemented in Java', ARRAY['iluwatar', 'npathai'], '2022-02-23T23:35:41.043146+00:00'),
 (22858482, 159, 16, 1, 0, 16, 'fonttools/region-flags', 'Collection of flags for BCP 47 region codes in SVG / PNG', ARRAY['behdad', 'behnam'], '2022-02-23T23:35:41.043146+00:00'),
+(22731172, 492, 0, 1, 0, 11, 'cassidoo/talks', 'Talks at conferences, meetups, hackathons, and more, plus my speaker rider for good measure.', ARRAY['cassidoo', 'andrewfleer'], '2022-02-23T23:35:41.043146+00:00'),
 (22887094, 43251, 346, 1, 0, 11, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-23T23:35:41.043146+00:00'),
 (22895156, 1811, 1, 1, 0, 2, 'StartBootstrap/startbootstrap-agency', 'A one page HTML theme for agencies created by Start Bootstrap', ARRAY['davidtmiller', 'initplatform'], '2022-02-23T23:35:41.043146+00:00'),
 (23024191, 625, 71, 1, 0, 7, 'neu-rah/ArduinoMenu', 'Arduino generic menu/interactivity system', ARRAY['neu-rah', 'TamojitSaha'], '2022-02-23T23:35:41.043146+00:00'),
