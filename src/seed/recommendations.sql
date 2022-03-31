@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T14:44:19.830Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T16:51:57.671Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3570,9 +3570,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-23T23:35:41.043146+00:00'),
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-23T23:35:41.043146+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-23T23:35:41.043146+00:00'),
-(402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-23T23:35:41.043146+00:00'),
 (402841129, 128, 1, 1, 0, 7, 'Developer-DAO/developer-dao-nft-contract', null, ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-23T23:35:41.043146+00:00'),
+(402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-23T23:35:41.043146+00:00'),
 (403029798, 2, 0, 1, 0, 24, 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ARRAY['s-yadav'], '2022-02-23T23:35:41.043146+00:00'),
 (403159506, 314, 11, 1, 0, 8, 'Developer-DAO/developerdao.com', 'A community of builders who believe in collective ownership of the internet', ARRAY['with-heart', 'fmoliveira'], '2022-02-23T23:35:41.043146+00:00'),
 (403285296, 1, 0, 1, 0, 2, 'muhammaddzaky/muhamamddzak.github.io', 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
