@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-01T08:46:04.995Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-01T10:45:38.953Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -959,11 +959,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-23T23:35:41.043146+00:00'),
 (59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-23T23:35:41.043146+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-23T23:35:41.043146+00:00'),
-(59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-23T23:35:41.043146+00:00'),
-(59573221, 3485, 16, 1, 0, 23, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-23T23:35:41.043146+00:00'),
 (59669326, 2737, 70, 1, 0, 28, 'xoofx/markdig', 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ARRAY['xoofx', 'MihaZupan'], '2022-02-23T23:35:41.043146+00:00'),
 (59826401, 663, 0, 1, 0, 2, 'mikeckennedy/write-pythonic-code-demos', 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', ARRAY['mikeckennedy', 'hclivess'], '2022-02-23T23:35:41.043146+00:00'),
 (59904484, 243, 8, 1, 0, 10, 'tc39/proposal-set-methods', 'Strawman for new Set methods', ARRAY['Ginden', 'gsathya'], '2022-02-23T23:35:41.043146+00:00'),
+(59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-23T23:35:41.043146+00:00'),
 (59909973, 1365, 24, 1, 0, 16, 'ngrx/example-app', 'Example app showcasing the ngrx platform', ARRAY['MikeRyanDev', 'krjordan'], '2022-02-23T23:35:41.043146+00:00'),
 (60125647, 2791, 48, 1, 0, 12, 'jimmywarting/StreamSaver.js', 'StreamSaver writes stream to the filesystem directly asynchronous', ARRAY['jimmywarting', 'TexKiller'], '2022-02-23T23:35:41.043146+00:00'),
 (60201474, 2, 2, 1, 0, 6, 'RubyHabits/ruby-habits-library', 'An app to run our Ruby Habits library :D', ARRAY['evatrostlos', 'alicetragedy'], '2022-02-23T23:35:41.043146+00:00'),
@@ -974,6 +973,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (60537144, 12613, 1027, 1, 0, 10, 'microsoft/fluentui', 'Fluent UI web represents a collection of utilities, React components, and web components for building web applications.', ARRAY['dzearing', 'ecraig12345'], '2022-02-23T23:35:41.043146+00:00'),
 (60656871, 622, 137, 1, 0, 6, 'zulip/zulip-desktop', 'Zulip Desktop Client', ARRAY['akashnimare', 'andersk'], '2022-02-23T23:35:41.043146+00:00'),
 (61059364, 641, 38, 1, 0, 29, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-23T23:35:41.043146+00:00'),
+(59573221, 3485, 16, 1, 0, 23, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-23T23:35:41.043146+00:00'),
 (61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-23T23:35:41.043146+00:00'),
 (61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-23T23:35:41.043146+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-23T23:35:41.043146+00:00'),
