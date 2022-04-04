@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T03:03:23.002Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T08:46:31.176Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -879,9 +879,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (51618676, 1, 4, 1, 0, 20, 'thread-pond/scrum-lint', 'A toolkit to help manage a very specific Trello and Github workflow', ARRAY['mockdeep', 'raychatter'], '2022-02-23T23:35:41.043146+00:00'),
 (48869446, 620, 74, 1, 0, 2, 'kogosoftwarellc/open-api', 'A Monorepo of various packages to power OpenAPI in node', ARRAY['jsdevel', 'MugeSo'], '2022-02-23T23:35:41.043146+00:00'),
 (51732606, 6953, 4, 1, 0, 9, 'jhu-ep-coursera/fullstack-course4', 'Example code for HTML, CSS, and Javascript for Web Developers Coursera Course', ARRAY['ychaikin', 'jasonwr'], '2022-02-23T23:35:41.043146+00:00'),
+(51870853, 2158, 277, 1, 0, 8, 'SimpleMobileTools/Simple-Gallery', 'Browse your memories without any interruptions with this photo and video gallery', ARRAY['tibbi', 'solokot'], '2022-02-23T23:35:41.043146+00:00'),
 (51762221, 4933, 48, 1, 0, 8, 'yinxin630/fiora', 'An interesting open source chat application. Developed with node.js, mongoDB, socket.io and react', ARRAY['yinxin630', 'imjonat'], '2022-02-23T23:35:41.043146+00:00'),
 (51769689, 16481, 123, 1, 0, 1, 'sindresorhus/refined-github', ':octocat: Browser extension that simplifies the GitHub interface and adds useful features', ARRAY['fregante', 'yakov116'], '2022-02-23T23:35:41.043146+00:00'),
-(51870853, 2158, 277, 1, 0, 8, 'SimpleMobileTools/Simple-Gallery', 'Browse your memories without any interruptions with this photo and video gallery', ARRAY['tibbi', 'solokot'], '2022-02-23T23:35:41.043146+00:00'),
 (51270739, 19677, 49, 3, 0, 19, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-23T23:35:41.043146+00:00'),
 (51771177, 1117, 8, 1, 0, 4, 'whitfin/cachex', 'A powerful caching library for Elixir with support for transactions, fallbacks and expirations', ARRAY['whitfin', 'ivan'], '2022-02-23T23:35:41.043146+00:00'),
 (51462299, 10556, 67, 1, 0, 9, 'jaredpalmer/razzle', '✨ Create server-rendered universal JavaScript applications with no configuration', ARRAY['fivethreeo', 'jaredpalmer'], '2022-02-23T23:35:41.043146+00:00'),
