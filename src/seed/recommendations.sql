@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T01:04:39.867Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T03:00:21.163Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -388,8 +388,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (12574344, 25044, 357, 1, 0, 0, 'spf13/cobra', 'A Commander for modern Go CLI interactions', ARRAY['eparis', 'bogem'], '2022-02-23T23:35:41.043146+00:00'),
 (12658090, 6634, 36, 1, 0, 3, 'raineorshine/npm-check-updates', 'Find newer versions of package dependencies than what your package.json allows', ARRAY['raineorshine', 'XhmikosR'], '2022-02-23T23:35:41.043146+00:00'),
 (12663196, 2215, 6, 1, 0, 3, 'nosir/obelisk.js', 'Build pixel isometric graphics with HTML5 canvas', ARRAY['rison', 'nosir'], '2022-02-23T23:35:41.043146+00:00'),
-(12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-23T23:35:41.043146+00:00'),
 (12732573, 25803, 88, 2, 0, 6.5, 'junegunn/vim-plug', ':hibiscus: Minimalist Vim Plugin Manager', ARRAY['junegunn', 'starcraftman'], '2022-02-23T23:35:41.043146+00:00'),
+(12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-23T23:35:41.043146+00:00'),
 (12888993, 48911, 1522, 1, 0, 9, 'home-assistant/core', ':house_with_garden: Open source home automation that puts local control and privacy first.', ARRAY['balloob', 'fabaff'], '2022-02-23T23:35:41.043146+00:00'),
 (12973222, 3052, 38, 1, 0, 4, 'depcheck/depcheck', 'Check your npm module for unused dependencies', ARRAY['lijunle', 'rumpl'], '2022-02-23T23:35:41.043146+00:00'),
 (13030144, 13528, 504, 1, 0, 15, 'janpaepke/ScrollMagic', 'The javascript library for magical scroll interactions.', ARRAY['janpaepke', 'johnpolacek'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2012,8 +2012,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (189470052, 137, 146, 1, 0, 13, 'thundernest/import-export-tools-ng', 'Import Export Tools that supports Thunderbird 68/78.', ARRAY['cleidigh', 'jobisoft'], '2022-02-23T23:35:41.043146+00:00'),
 (189649243, 3271, 9, 1, 0, 3, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-02-23T23:35:41.043146+00:00'),
 (189761262, 190, 1, 1, 0, 2, 'borisowsky/next-advanced-apollo-starter', 'Advanced, but minimalistic Next.js and Apollo starter', ARRAY['borisowsky', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(190091795, 4311, 19, 1, 0, 29, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-23T23:35:41.043146+00:00'),
 (189879002, 64, 13, 1, 0, 5, 'ngx-builders/netlify-builder', 'Deploy your Angular app to netlify from CLI', ARRAY['santoshyadavdev', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(190091795, 4311, 19, 1, 0, 29, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-23T23:35:41.043146+00:00'),
 (190142142, 132, 3, 1, 0, 21, 'liyasthomas/banner', '🚩 A simple and clean banner generator - Banners on the go. https://liyasthomas.github.io/banner', ARRAY['liyasthomas', 'izzqz'], '2022-02-23T23:35:41.043146+00:00'),
 (190276130, 7, 0, 1, 0, 8, 'One-Language/Book', 'The book for a tutorial on ET Programming Language.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (190828339, 3, 0, 1, 0, 7, 'BaseMax/phpMusselBook', 'Documentation for phpMussel.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
