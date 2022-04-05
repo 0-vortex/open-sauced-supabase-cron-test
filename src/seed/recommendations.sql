@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T12:53:45.252Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T14:44:28.499Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -554,8 +554,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (22731172, 492, 0, 1, 0, 11, 'cassidoo/talks', 'Talks at conferences, meetups, hackathons, and more, plus my speaker rider for good measure.', ARRAY['cassidoo', 'andrewfleer'], '2022-02-23T23:35:41.043146+00:00'),
 (22781617, 451, 0, 1, 0, 0, 'cclauss/Ten-lines-or-less', 'Python scripts that are short but useful or interesting', ARRAY['cclauss'], '2022-02-23T23:35:41.043146+00:00'),
 (22790488, 72008, 264, 1, 0, 2, 'iluwatar/java-design-patterns', 'Design patterns implemented in Java', ARRAY['iluwatar', 'npathai'], '2022-02-23T23:35:41.043146+00:00'),
-(22858482, 159, 16, 1, 0, 16, 'fonttools/region-flags', 'Collection of flags for BCP 47 region codes in SVG / PNG', ARRAY['behdad', 'behnam'], '2022-02-23T23:35:41.043146+00:00'),
 (22887094, 43251, 346, 1, 0, 11, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-23T23:35:41.043146+00:00'),
+(22858482, 159, 16, 1, 0, 16, 'fonttools/region-flags', 'Collection of flags for BCP 47 region codes in SVG / PNG', ARRAY['behdad', 'behnam'], '2022-02-23T23:35:41.043146+00:00'),
 (22895156, 1811, 1, 1, 0, 2, 'StartBootstrap/startbootstrap-agency', 'A one page HTML theme for agencies created by Start Bootstrap', ARRAY['davidtmiller', 'initplatform'], '2022-02-23T23:35:41.043146+00:00'),
 (23024191, 625, 71, 1, 0, 7, 'neu-rah/ArduinoMenu', 'Arduino generic menu/interactivity system', ARRAY['neu-rah', 'TamojitSaha'], '2022-02-23T23:35:41.043146+00:00'),
 (23083156, 73874, 909, 1, 0, 26, 'mui-org/material-ui', 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-23T23:35:41.043146+00:00'),
