@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T16:52:15.738Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T18:47:56.984Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1752,8 +1752,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (153251691, 542, 403, 1, 0, 19, 'Ishaan28malik/Hacktoberfest-2021', 'Make this Hacktoberfest a learning period and contribute to Great Open Source Projects.', ARRAY['Ishaan28malik', 'orestotel'], '2022-02-23T23:35:41.043146+00:00'),
 (153500249, 16972, 85, 2, 0, 5.5, 'sdras/awesome-actions', 'A curated list of awesome actions to use on GitHub', ARRAY['gep13', 'sdras'], '2022-02-23T23:35:41.043146+00:00'),
 (154143869, 381, 13, 1, 0, 2, 'OdeToCode/OdeToFood', 'A repo for the ASP.NET Core Pluralsight Project', ARRAY['OdeToCode', 'ameyer117'], '2022-02-23T23:35:41.043146+00:00'),
-(154178913, 29, 11, 1, 0, 26, 'wazo-platform/wazo-react-native-demo', 'A simple demonstration of Wazo''s SDK with React Native', ARRAY['manuquentin'], '2022-02-23T23:35:41.043146+00:00'),
-(154181635, 86, 0, 1, 0, 8, 'microbium/microbium-app', 'Draw new worlds', ARRAY['jpweeks', 'courdek'], '2022-02-23T23:35:41.043146+00:00'),
 (154401464, 1790, 3, 1, 0, 4, 'lirantal/awesome-nodejs-security', 'Awesome Node.js Security resources', ARRAY['lirantal', 'alemagio'], '2022-02-23T23:35:41.043146+00:00'),
 (154548852, 11, 2, 1, 0, 23, 'amazon-archives/aws-media-services-workflow-composer', 'Create flexible, intelligent file-based video workflows on AWS using dynamic rules.', ARRAY['aburkleaux-amazon', 'jamesiri'], '2022-02-23T23:35:41.043146+00:00'),
 (154688866, 2406, 42, 1, 0, 1, 'nakov/Practical-Cryptography-for-Developers-Book', 'Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems, RSA, Elliptic Curves, ECC, secp256k1, ECDH, ECIES, Digital Signatures, ECDSA, EdDSA', ARRAY['nakov', 'kasperkarlsson'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1767,6 +1765,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (155071757, 87, 3, 1, 0, 4, 'EmielH/hallo-hugo', 'Hallo is a single-page Hugo theme to introduce yourself.', ARRAY['EmielH', 'Aldarone'], '2022-02-23T23:35:41.043146+00:00'),
 (155368246, 1714, 311, 1, 0, 5, 'elastic/cloud-on-k8s', 'Elastic Cloud on Kubernetes', ARRAY['sebgl', 'pebrc'], '2022-02-23T23:35:41.043146+00:00'),
 (155288604, 2880, 35, 3, 0, 15, 'shikijs/shiki', 'A beautiful Syntax Highlighter.', ARRAY['octref', 'orta'], '2022-02-23T23:35:41.043146+00:00'),
+(154178913, 29, 11, 1, 0, 26, 'wazo-platform/wazo-react-native-demo', 'A simple demonstration of Wazo''s SDK with React Native', ARRAY['manuquentin'], '2022-02-23T23:35:41.043146+00:00'),
+(154181635, 86, 0, 1, 0, 8, 'microbium/microbium-app', 'Draw new worlds', ARRAY['jpweeks', 'courdek'], '2022-02-23T23:35:41.043146+00:00'),
 (155220641, 56055, 421, 1, 0, 1, 'huggingface/transformers', '🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.', ARRAY['thomwolf', 'LysandreJik'], '2022-02-23T23:35:41.043146+00:00'),
 (156108442, 11649, 4, 1, 0, 10, 'myspaghetti/macos-virtualbox', 'Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS', ARRAY['myspaghetti', 'bronson'], '2022-02-23T23:35:41.043146+00:00'),
 (156217558, 2736, 129, 1, 0, 20, 'microsoft/vscode-dev-containers', 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', ARRAY['Chuxel', 'chrmarti'], '2022-02-23T23:35:41.043146+00:00'),
