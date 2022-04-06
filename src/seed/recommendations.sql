@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T22:44:26.957Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T01:04:18.345Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2670,10 +2670,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-23T23:35:41.043146+00:00'),
 (278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-23T23:35:41.043146+00:00'),
 (278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-23T23:35:41.043146+00:00'),
+(278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-23T23:35:41.043146+00:00'),
 (278342702, 35, 0, 1, 0, 7, 'jmkitavi/interview-questions', 'Collections of Interview Questions from different Companies', ARRAY['jmkitavi'], '2022-02-23T23:35:41.043146+00:00'),
 (278388013, 1, 0, 1, 0, 16, 'shadowruge/mega_sena', 'Gerador de números da Mega-Sena aleatório(não é previsão)', ARRAY['shadowruge'], '2022-02-23T23:35:41.043146+00:00'),
 (278451816, 1, 0, 1, 0, 21, 'mgroves/couchbasefakeit', 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ARRAY['brantburnett', 'clupo'], '2022-02-23T23:35:41.043146+00:00'),
-(278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-23T23:35:41.043146+00:00'),
 (278454783, 18, 4, 1, 0, 25, 'Virtual-Coffee/open-source', 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ARRAY['tkshill', 'BekahHW'], '2022-02-23T23:35:41.043146+00:00'),
 (278455556, 13, 2, 1, 0, 5, 'bkegley/dotfiles', null, ARRAY['bkegley'], '2022-02-23T23:35:41.043146+00:00'),
 (278641419, 5016, 2, 1, 0, 20, 'madd86/awesome-system-design', 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', ARRAY['madd86', 'KashMoneyMillionaire'], '2022-02-23T23:35:41.043146+00:00'),
