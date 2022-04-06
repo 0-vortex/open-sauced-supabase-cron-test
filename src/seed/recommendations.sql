@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T12:54:55.028Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T16:51:24.286Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2744,8 +2744,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (288234242, 803, 125, 1, 0, 7, 'nolar/kopf', 'A Python framework to write Kubernetes operators in just a few lines of code', ARRAY['nolar', 'dlmiddlecote'], '2022-02-23T23:35:41.043146+00:00'),
 (288511462, 2, 0, 1, 0, 14, 'teezzan/commitSpy-Core', 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
 (288627285, 655, 0, 1, 0, 25, 'wobsoriano/v-dashboard', 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ARRAY['wobsoriano', 'sebassu'], '2022-02-23T23:35:41.043146+00:00'),
-(289141880, 1, 0, 1, 0, 9, 'sjproctor/cat-tinder-buildout', 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ARRAY['sjproctor'], '2022-02-23T23:35:41.043146+00:00'),
 (289072201, 5, 0, 1, 0, 27, 'sounishnath003/Educatify', 'The Classroom made in India - Digital India Project - (BGI)', ARRAY['sounishnath003', 'sayancoding'], '2022-02-23T23:35:41.043146+00:00'),
+(289141880, 1, 0, 1, 0, 9, 'sjproctor/cat-tinder-buildout', 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ARRAY['sjproctor'], '2022-02-23T23:35:41.043146+00:00'),
 (289188530, 96, 17, 1, 0, 18, 'reptilex/tesla-style-solar-power-card', 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ARRAY['reptilex', 'dgomes'], '2022-02-23T23:35:41.043146+00:00'),
 (289205582, 530, 5, 1, 0, 4, 'kr1sp1n/awesome-gemini', 'A collection of awesome things regarding the gemini protocol ecosystem.', ARRAY['kr1sp1n', 'pitr'], '2022-02-23T23:35:41.043146+00:00'),
 (289256448, 2261, 18, 1, 0, 22, 'themesberg/volt-bootstrap-5-dashboard', 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ARRAY['zoltanszogyenyi', 'robert1508'], '2022-02-23T23:35:41.043146+00:00'),
