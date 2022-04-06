@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T01:04:18.345Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T03:00:53.895Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2996,8 +2996,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-23T23:35:41.043146+00:00'),
 (326622912, 9, 1, 1, 0, 5, 'davidteren/rails61-tailwind2', 'Rails 6.1, TailwindCSS 2.0 & PostCSS 8.0 setup.', ARRAY['davidteren'], '2022-02-23T23:35:41.043146+00:00'),
 (327036990, 1, 0, 1, 0, 13, 'MattMarquise/Lifestyle-Blog', null, ARRAY['MattMarquise'], '2022-02-23T23:35:41.043146+00:00'),
-(327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-23T23:35:41.043146+00:00'),
 (327400204, 2, 0, 1, 0, 8, 'speijnik/myhome', 'Python library for interacting with MyHomeSERVER1', ARRAY['speijnik'], '2022-02-23T23:35:41.043146+00:00'),
+(327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-23T23:35:41.043146+00:00'),
 (327406312, 562, 1, 1, 0, 16, 'tailwindlabs/tailwindcss-line-clamp', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-23T23:35:41.043146+00:00'),
 (327443948, 13, 3, 1, 0, 22, 'zkoppert/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'sicot-f'], '2022-02-23T23:35:41.043146+00:00'),
 (327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-23T23:35:41.043146+00:00'),
