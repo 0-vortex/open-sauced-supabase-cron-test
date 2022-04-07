@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T12:58:28.165Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T14:44:27.131Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3444,8 +3444,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388004440, 47, 1, 1, 0, 0, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-23T23:35:41.043146+00:00'),
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
 (388026773, 4, 0, 1, 0, 2, 'elizabethsiegle/twilio-video-mask-ml5', 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ARRAY['elizabethsiegle'], '2022-02-23T23:35:41.043146+00:00'),
-(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-23T23:35:41.043146+00:00'),
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-23T23:35:41.043146+00:00'),
+(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-23T23:35:41.043146+00:00'),
 (388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-23T23:35:41.043146+00:00'),
 (388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-23T23:35:41.043146+00:00'),
