@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T06:48:12.930Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T08:46:11.555Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2505,9 +2505,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (259122536, 3, 3, 1, 0, 23, 'SVD6/chrono-android', null, ARRAY['SVD6', 'harigovind1998'], '2022-02-23T23:35:41.043146+00:00'),
 (259354262, 4818, 44, 1, 0, 5, 'austintgriffith/scaffold-eth', '🏗 forkable Ethereum dev stack focused on fast product iterations ', ARRAY['austintgriffith', 'codenamejason'], '2022-02-23T23:35:41.043146+00:00'),
 (259447311, 3, 1, 1, 0, 11, 'SufiaAshraf/UserAuth', 'A demo page for building user authentication page using node.js', ARRAY['SufiaAshraf'], '2022-02-23T23:35:41.043146+00:00'),
-(259556924, 187, 6, 1, 0, 15, 'cassidoo/next-netlify-blog-starter', 'A lightweight markdown blog starter built with Next.js 11.1+ and Netlify', ARRAY['cassidoo', 'jamtur01'], '2022-02-23T23:35:41.043146+00:00'),
-(260008253, 28, 5, 1, 0, 4, 'helium/console-decoders', 'Payload decoder functions for console.', ARRAY['jas-williams', 'illperipherals'], '2022-02-23T23:35:41.043146+00:00'),
-(260360088, 1, 0, 1, 0, 9, 'live2o3/live2o3-archived', 'Yet another simple rtmp server.', ARRAY['gengteng'], '2022-02-23T23:35:41.043146+00:00'),
 (260432296, 1756, 14, 1, 0, 28, 'H-M-H/Weylus', 'Use your tablet as graphic tablet/touch screen on your computer.', ARRAY['H-M-H', 'rschroll'], '2022-02-23T23:35:41.043146+00:00'),
 (260554261, 2137, 30, 1, 0, 7, 'johnsoncodehk/volar', '⚡ Explore high-performance tooling for Vue', ARRAY['johnsoncodehk', 'IWANABETHATGUY'], '2022-02-23T23:35:41.043146+00:00'),
 (260669334, 1, 22, 1, 0, 27, 'SchoolOfFreelancing/Docker-Child-Protection', 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ARRAY['UbuntuEvangelist', 'goldshtofsara'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2526,7 +2523,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (261393739, 2, 0, 1, 0, 8, 'Layla-P/YodaTranslator', 'A quick Yoda translator app using Azure Functions and Twilio', ARRAY['Layla-P'], '2022-02-23T23:35:41.043146+00:00'),
 (261538171, 391, 11, 1, 0, 2, 'panorama-ed/memo_wise', 'The wise choice for Ruby memoization', ARRAY['ms-ati', 'JacobEvelyn'], '2022-02-23T23:35:41.043146+00:00'),
 (261787758, 34354, 1, 1, 0, 9, 'bradtraversy/design-resources-for-developers', 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', ARRAY['Alaev', 'StefanSelfTaught'], '2022-02-23T23:35:41.043146+00:00'),
+(260008253, 28, 5, 1, 0, 4, 'helium/console-decoders', 'Payload decoder functions for console.', ARRAY['jas-williams', 'illperipherals'], '2022-02-23T23:35:41.043146+00:00'),
+(259556924, 187, 6, 1, 0, 15, 'cassidoo/next-netlify-blog-starter', 'A lightweight markdown blog starter built with Next.js 11.1+ and Netlify', ARRAY['cassidoo', 'jamtur01'], '2022-02-23T23:35:41.043146+00:00'),
 (261861733, 1258, 190, 1, 0, 3, 'keras-team/keras-io', 'Keras documentation, hosted live at keras.io', ARRAY['fchollet', 'ksalama'], '2022-02-23T23:35:41.043146+00:00'),
+(260360088, 1, 0, 1, 0, 9, 'live2o3/live2o3-archived', 'Yet another simple rtmp server.', ARRAY['gengteng'], '2022-02-23T23:35:41.043146+00:00'),
 (261871717, 2111, 21, 1, 0, 0, 'ThreeDotsLabs/wild-workouts-go-ddd-example', 'Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.', ARRAY['roblaszczak', 'm110'], '2022-02-23T23:35:41.043146+00:00'),
 (262286900, 17, 0, 1, 0, 27, 'know-prashant/vanilla-js-components', 'A list of 50 Components created in vanilla JS', ARRAY['know-prashant'], '2022-02-23T23:35:41.043146+00:00'),
 (262296122, 18296, 994, 1, 0, 5, 'PaddlePaddle/PaddleOCR', 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', ARRAY['LDOUBLEV', 'WenmuZhou'], '2022-02-23T23:35:41.043146+00:00'),
