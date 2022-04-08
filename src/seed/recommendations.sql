@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T16:52:32.720Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T18:47:38.541Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -648,8 +648,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (31985475, 5, 1, 1, 0, 2, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-23T23:35:41.043146+00:00'),
 (32222044, 5343, 45, 1, 0, 25, 'erincatto/box2d', 'Box2D is a 2D physics engine for games', ARRAY['erincatto', 'wub'], '2022-02-23T23:35:41.043146+00:00'),
 (32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-23T23:35:41.043146+00:00'),
-(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-23T23:35:41.043146+00:00'),
+(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
 (32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-23T23:35:41.043146+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-23T23:35:41.043146+00:00'),
 (32688481, 560, 2, 1, 0, 26, 'frontendfront/front-end-conferences', 'This is a list of upcoming front-end related conferences.', ARRAY['frontendfront', 'AllThingsSmitty'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3335,8 +3335,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (375818901, 1, 0, 1, 0, 15, 'henrik-ch/financials', null, ARRAY['henrik-ch', 'george-hawkins'], '2022-02-23T23:35:41.043146+00:00'),
 (376296039, 294, 2, 1, 0, 29, 'vibalijoshi/List-of-Opportunities', 'Keep track of opportunities and never miss a deadline again!', ARRAY['vibalijoshi', 'sadn1ck'], '2022-02-23T23:35:41.043146+00:00'),
 (376475936, 1, 0, 1, 0, 23, 'adil-Pathan/ionic-tk-social-network', 'Ionic 5 - social network starter project', ARRAY['thenaim'], '2022-02-23T23:35:41.043146+00:00'),
-(376492865, 2792, 3, 1, 0, 9, 'six-ddc/plow', 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ARRAY['six-ddc', 'chenrui333'], '2022-02-23T23:35:41.043146+00:00'),
 (376732923, 1, 0, 1, 0, 15, 'kibybyte/kibybyte', 'Kibybyte''s Website', ARRAY['kibybyte'], '2022-02-23T23:35:41.043146+00:00'),
+(376492865, 2792, 3, 1, 0, 9, 'six-ddc/plow', 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ARRAY['six-ddc', 'chenrui333'], '2022-02-23T23:35:41.043146+00:00'),
 (376953303, 91, 3, 1, 0, 13, 'cloudflare/zkp-ecdsa', 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ARRAY['wbl'], '2022-02-23T23:35:41.043146+00:00'),
 (377196642, 3, 0, 1, 0, 18, 'alanmontgomery/ionic-react-hook-form-example', 'Example with React Hook Form', ARRAY['alanmontgomery'], '2022-02-23T23:35:41.043146+00:00'),
 (377267871, 254, 0, 1, 0, 3, 'gaearon/react-lag-radar', null, ARRAY['gaearon'], '2022-02-23T23:35:41.043146+00:00'),
