@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T16:50:32.041Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T18:46:55.999Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1857,6 +1857,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (169250119, 1855, 72, 1, 0, 22, 'evilmartians/lefthook', 'Fast and powerful Git hooks manager for any type of projects.', ARRAY['Envek', 'skryukov'], '2022-02-23T23:35:41.043146+00:00'),
 (169371413, 8282, 4, 2, 0, 5, 'MoienTajik/AspNetCore-Developer-Roadmap', 'Roadmap to becoming an ASP.NET Core developer in 2021', ARRAY['MoienTajik', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (169529444, 9, 0, 1, 0, 24, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-23T23:35:41.043146+00:00'),
+(169556401, 1402, 32, 1, 0, 3, 'radzenhq/radzen-blazor', 'The home of the Radzen Blazor components.', ARRAY['enchev', 'akorchev'], '2022-02-23T23:35:41.043146+00:00'),
+(169604606, 2012, 12, 1, 0, 28, 'MayaPosch/NymphCast', 'Audio and video casting system with support for custom applications.', ARRAY['MayaPosch', 'PureTryOut'], '2022-02-23T23:35:41.043146+00:00'),
+(169677297, 26331, 647, 2, 0, 3, 'vlang/v', 'Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. https://vlang.io', ARRAY['medvednikov', 'spytheman'], '2022-02-23T23:35:41.043146+00:00'),
 (170029630, 156, 8, 1, 0, 17, 'ben182/laravel-auto-translate', 'Automatically translate your language files using a translator service', ARRAY['ben182', 'aerjotl'], '2022-02-23T23:35:41.043146+00:00'),
 (170041458, 268, 19, 1, 0, 18, 'skovy/typed-scss-modules', '🎁 Generate type definitions (.d.ts) for CSS Modules using SCSS', ARRAY['skovy', 'lkarmelo'], '2022-02-23T23:35:41.043146+00:00'),
 (170392546, 135, 0, 1, 0, 12, 'tailwindtoolbox/Ghostwind', 'Tailwind CSS Starter Template - Ghostwind (Ghost Casper theme in Tailwind CSS)', ARRAY['tailwindtoolbox', 'diomed'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1870,10 +1873,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (170326929, 23768, 49, 1, 0, 4, 'goabstract/Awesome-Design-Tools', 'The best design tools and plugins for everything 👉', ARRAY['berezovskycom', 'valianka'], '2022-02-23T23:35:41.043146+00:00'),
 (171563505, 385, 0, 1, 0, 13, 'Asabeneh/JavaScript-for-Everyone', 'A step by step guide to learn JavaScript and programming', ARRAY['Asabeneh', 'engineerabdulsalam'], '2022-02-23T23:35:41.043146+00:00'),
 (170284360, 3227, 37, 1, 0, 12, 'run-youngjoo/SC-FEGAN', 'SC-FEGAN : Face Editing Generative Adversarial Network with User''s Sketch and Color (ICCV2019)', ARRAY['run-youngjoo', '0xflotus'], '2022-02-23T23:35:41.043146+00:00'),
-(169556401, 1402, 32, 1, 0, 3, 'radzenhq/radzen-blazor', 'The home of the Radzen Blazor components.', ARRAY['enchev', 'akorchev'], '2022-02-23T23:35:41.043146+00:00'),
-(169604606, 2012, 12, 1, 0, 28, 'MayaPosch/NymphCast', 'Audio and video casting system with support for custom applications.', ARRAY['MayaPosch', 'PureTryOut'], '2022-02-23T23:35:41.043146+00:00'),
 (171566590, 2995, 150, 1, 0, 15, 'serverless-nextjs/serverless-next.js', '⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components', ARRAY['dphang', 'danielcondemarin'], '2022-02-23T23:35:41.043146+00:00'),
-(169677297, 26331, 647, 2, 0, 3, 'vlang/v', 'Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. https://vlang.io', ARRAY['medvednikov', 'spytheman'], '2022-02-23T23:35:41.043146+00:00'),
 (171914326, 1, 0, 1, 0, 28, 'dimonga/OMNIA-AI-TRUCK', 'We are trying to build an escape room truck that will go all across people to alleviate their fear of AI by educating them about AI.', ARRAY['dimonga', 'tartarJR'], '2022-02-23T23:35:41.043146+00:00'),
 (172227885, 7691, 183, 1, 0, 16, 'tiangolo/full-stack-fastapi-postgresql', 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ARRAY['tiangolo', 'ebreton'], '2022-02-23T23:35:41.043146+00:00'),
 (172362850, 12, 0, 1, 0, 28, 'BaseMax/TrigonometricFunctions', 'Analysis and thinking about trigonometry functions and how they work.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
