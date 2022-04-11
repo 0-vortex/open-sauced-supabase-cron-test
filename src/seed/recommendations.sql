@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T04:48:48.984Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T06:48:14.091Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2147,6 +2147,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (207840450, 7, 2, 1, 0, 14, 'jonabc/setup-licensed', 'Set up your GitHub Actions workflow with a specific version of github/licensed', ARRAY['jonabc', 'mmorel-35'], '2022-02-23T23:35:41.043146+00:00'),
 (207877287, 39, 13, 1, 0, 19, 'sandrinodimattia/nextjs-auth0-example', 'A sample application showing how your users can sign in to your Next.js application using Auth0', ARRAY['sandrinodimattia'], '2022-02-23T23:35:41.043146+00:00'),
 (207892857, 215, 19, 1, 0, 21, 'pluralsight/web-dev-starter', null, ARRAY['sullysaurus'], '2022-02-23T23:35:41.043146+00:00'),
+(208143342, 82, 5, 3, 0, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-23T23:35:41.043146+00:00'),
 (208155014, 109, 0, 1, 0, 14, 'qdm12/godevcontainer', 'Golang development container for Visual Studio Code Remote Containers Development', ARRAY['qdm12'], '2022-02-23T23:35:41.043146+00:00'),
 (208319207, 59, 31, 1, 0, 16, 'awslabs/smithy-typescript', 'Smithy code generators for TypeScript. (in development)', ARRAY['JordonPhillips', 'trivikr'], '2022-02-23T23:35:41.043146+00:00'),
 (208509888, 579, 117, 1, 0, 20, 'dosbox-staging/dosbox-staging', 'DOS/x86 emulator focusing on ease of use', ARRAY['kcgen', 'dreamer'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2254,7 +2255,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-23T23:35:41.043146+00:00'),
 (224247781, 1480, 5, 1, 0, 27, 'nikhilpanju/FabFilter', 'Android app to showcase complex UI/Animations with and without MotionLayout', ARRAY['nikhilpanju'], '2022-02-23T23:35:41.043146+00:00'),
 (224663696, 19387, 9, 1, 0, 15, 'alpinejs/alpine', 'A rugged, minimal framework for composing JavaScript behavior in your markup. ', ARRAY['calebporzio', 'SimoTod'], '2022-02-23T23:35:41.043146+00:00'),
-(208143342, 82, 5, 3, 0, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-23T23:35:41.043146+00:00'),
 (224928799, 260, 25, 1, 0, 26, 'rwmt/Multiplayer', 'Zetrith''s Multiplayer mod for RimWorld', ARRAY['Zetrith', 'notfood'], '2022-02-23T23:35:41.043146+00:00'),
 (225260962, 1152, 59, 1, 0, 17, 'udecode/plate', 'A plugin framework for building rich text editors with slate.', ARRAY['zbeyens', 'dylans'], '2022-02-23T23:35:41.043146+00:00'),
 (225295587, 6, 0, 1, 0, 5, 'BaseMax/JavaMyString', 'A tiny implementation of String class in java as final project.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2566,6 +2566,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266346243, 17, 1, 1, 0, 0, 'open-sauced/goals-template', 'This is the template repo for managing your contributions through opensauced.pizza', ARRAY['bdougie', 'gr2m'], '2022-02-23T23:35:41.043146+00:00'),
 (266427736, 175, 0, 1, 0, 8, '5t3ph/11ty-netlify-jumpstart', 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', ARRAY['5t3ph', 'Waterstraal'], '2022-02-23T23:35:41.043146+00:00'),
 (266445736, 5394, 100, 1, 0, 22, 'owncast/owncast', 'Take control over your live stream video by running it yourself.  Streaming + chat out of the box.', ARRAY['gabek', 'gingervitis'], '2022-02-23T23:35:41.043146+00:00'),
+(266602206, 194, 65, 1, 0, 3, 'athensresearch/ClojureFam', 'Clojure Learning Program', ARRAY['nthd3gr33', 'Bardia95'], '2022-02-23T23:35:41.043146+00:00'),
 (266701578, 1, 0, 1, 0, 10, 'mohamedabotir/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-23T23:35:41.043146+00:00'),
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-23T23:35:41.043146+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2590,7 +2591,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (268672917, 16, 1, 1, 0, 7, 'billydh/zoom-reporting', null, ARRAY['billydh'], '2022-02-23T23:35:41.043146+00:00'),
 (268972184, 87, 7, 1, 0, 10, 'shilohc/map2gazebo', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (269152507, 29, 26, 1, 0, 11, 'smfils1/youtube-clone', 'A YouTube Clone using the MERN stack', ARRAY['smfils1'], '2022-02-23T23:35:41.043146+00:00'),
-(266602206, 194, 65, 1, 0, 3, 'athensresearch/ClojureFam', 'Clojure Learning Program', ARRAY['nthd3gr33', 'Bardia95'], '2022-02-23T23:35:41.043146+00:00'),
 (269174002, 5, 0, 1, 0, 0, 'counterpoint-studio/artgift', 'An open source web application for booking and managing Art Gifts', ARRAY['teropa', 'samueldiggins'], '2022-02-23T23:35:41.043146+00:00'),
 (269211843, 727, 8, 1, 0, 9, 'seek-oss/capsize', 'Flipping how we define typography in CSS.', ARRAY['michaeltaranto', 'mattcompiles'], '2022-02-23T23:35:41.043146+00:00'),
 (269230051, 3, 0, 1, 0, 3, 'BaseMax/WebMoleGame', 'Mole game with HTML, CSS, JavaScript. (Web-based)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3604,8 +3604,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (409910141, 4, 0, 1, 0, 14, 'FiretableProject/firetable', null, ARRAY['shamsmosowi', 'notsidney'], '2022-02-23T23:35:41.043146+00:00'),
 (410474951, 5, 8, 1, 0, 4, 'moonshotcollective/moonswap', null, ARRAY['farque65', 'QEDK'], '2022-02-23T23:35:41.043146+00:00'),
 (411003249, 14, 2, 2, 0, 10, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-23T23:35:41.043146+00:00'),
-(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-23T23:35:41.043146+00:00'),
 (411618332, 15, 0, 1, 0, 4, 'avinash201199/Hacktoberfest-Guide', 'Beginner''s guide to Hacktoberfest', ARRAY['avinash201199', 'sd78912'], '2022-02-23T23:35:41.043146+00:00'),
+(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-23T23:35:41.043146+00:00'),
 (412480152, 56, 22, 1, 0, 12, 'pyGuru123/HackFest21', 'Only valid pull requests will be allowed. Use python only and readme changes will not be accepted.', ARRAY['pyGuru123', 'alphasingh'], '2022-02-23T23:35:41.043146+00:00'),
 (412662918, 57, 24, 1, 0, 0, 'Developer-DAO/DAO-job-board', 'A job board connecting DAOs with talent.', ARRAY['angeljgomezc', 'PBillingsby'], '2022-02-23T23:35:41.043146+00:00'),
 (412750377, 1036, 11, 1, 0, 0, 'Panshak/arcinvoice', 'Fullstack open source Invoicing application made with MongoDB, Express, React & Nodejs (MERN)', ARRAY['panshak', 'Orivoir'], '2022-02-23T23:35:41.043146+00:00'),
