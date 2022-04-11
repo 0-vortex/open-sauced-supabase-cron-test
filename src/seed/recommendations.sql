@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T14:44:24.734Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T18:48:19.333Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2882,7 +2882,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (311734871, 55, 32, 1, 0, 8, '10up/wp-scaffold', '10up WordPress project scaffold.', ARRAY['tlovett1', 'fabiankaegy'], '2022-02-23T23:35:41.043146+00:00'),
 (311865268, 1, 0, 1, 0, 28, 'zkoppert/go-exercises', 'random go exercises to learn golang', ARRAY['zkoppert'], '2022-02-23T23:35:41.043146+00:00'),
 (311865672, 1405, 12, 1, 0, 16, 'vercel/nextjs-subscription-payments', 'Clone, deploy, and fully customize a SaaS subscription application with Next.js.', ARRAY['thorwebdev', 'leerob'], '2022-02-23T23:35:41.043146+00:00'),
-(311888571, 125, 2, 1, 0, 25, 'ngneat/dag', '🐠 An Angular service for managing directed acyclic graphs', ARRAY['pjlamb12', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (311916226, 1553, 81, 1, 0, 14, 'TeamPiped/Piped', 'An alternative privacy-friendly YouTube frontend which is efficient by design.', ARRAY['FireMasterK', 'weblate'], '2022-02-23T23:35:41.043146+00:00'),
 (312555705, 101, 16, 1, 0, 18, 'kubowania/burger-api', 'My Burger Api', ARRAY['kubowania', 'brandonleboeuf'], '2022-02-23T23:35:41.043146+00:00'),
 (312818155, 21, 1, 1, 0, 15, 'abdalrahman-ali/vim-remembers', 'A vim plugin that emulates Notepad++ ''remembering'' the contents of unnamed files.', ARRAY['abdalrahman-ali'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2939,6 +2938,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (319302752, 1311, 64, 1, 0, 3, 'whittlem/pycryptobot', 'Python Crypto Bot', ARRAY['whittlem', 'markhollingworth-worthit'], '2022-02-23T23:35:41.043146+00:00'),
 (319475939, 6, 2, 1, 0, 26, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ARRAY['tapjdey', 'WillemJiang'], '2022-02-23T23:35:41.043146+00:00'),
 (319742187, 523, 296, 1, 0, 0, 'mdn/translated-content', 'All translated MDN content in raw form', ARRAY['mfuji09', 'SphinxKnight'], '2022-02-23T23:35:41.043146+00:00'),
+(311888571, 125, 2, 1, 0, 25, 'ngneat/dag', '🐠 An Angular service for managing directed acyclic graphs', ARRAY['pjlamb12', 'NetanelBasal'], '2022-02-23T23:35:41.043146+00:00'),
 (319935795, 8, 0, 1, 0, 12, 'zawad2221/Twitter-Django-Bot', 'Twitter Bot who like and retweet #django #python. ', ARRAY['zawad2221'], '2022-02-23T23:35:41.043146+00:00'),
 (320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (320029758, 1, 0, 1, 0, 17, 'lokeshn011101/nextjs-tailwind-starter', 'A Next.js-Tailwind starter', ARRAY['lokeshn011101'], '2022-02-23T23:35:41.043146+00:00'),
