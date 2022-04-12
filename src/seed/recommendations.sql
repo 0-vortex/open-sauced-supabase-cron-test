@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T12:54:50.635Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T14:44:23.406Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3549,10 +3549,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-23T23:35:41.043146+00:00'),
 (399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-23T23:35:41.043146+00:00'),
 (399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-23T23:35:41.043146+00:00'),
+(399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-23T23:35:41.043146+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-23T23:35:41.043146+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-23T23:35:41.043146+00:00'),
 (399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-23T23:35:41.043146+00:00'),
-(399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-23T23:35:41.043146+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-23T23:35:41.043146+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-23T23:35:41.043146+00:00'),
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-23T23:35:41.043146+00:00'),
