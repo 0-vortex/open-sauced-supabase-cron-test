@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T03:03:33.742Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T04:49:14.801Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1415,7 +1415,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (111935215, 12, 3, 1, 0, 23, 'oaijs/ajv-oai', 'OpenAPI''s JsonSchema validator.', ARRAY['amazing-gao', 'javi11'], '2022-02-23T23:35:41.043146+00:00'),
 (112027892, 7556, 44, 1, 0, 20, 'brianegan/flutter_architecture_samples', 'TodoMVC for Flutter', ARRAY['brianegan', 'mmcc007'], '2022-02-23T23:35:41.043146+00:00'),
 (112103032, 1863, 212, 1, 0, 27, 'loic-sharma/BaGet', 'A lightweight NuGet and symbol server', ARRAY['loic-sharma', 'WernerMairl'], '2022-02-23T23:35:41.043146+00:00'),
-(112150776, 10908, 441, 5, 1, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-23T23:35:41.043146+00:00'),
 (112287150, 1262, 12, 1, 0, 16, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-23T23:35:41.043146+00:00'),
 (112369276, 266, 20, 1, 0, 29, 'Unity-Technologies/com.unity.cinemachine', 'Smart camera tools for passionate creators', ARRAY['glabute', 'gaborkb'], '2022-02-23T23:35:41.043146+00:00'),
 (112475135, 5, 0, 1, 0, 1, 'AndreiShenets/code-styles', 'Styles I recommend at the moment', ARRAY['AndreiShenets', 'andrei-shenets-itechart'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1426,6 +1425,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (113125572, 7, 2, 1, 0, 7, 'hnasr/javascript-by-example', 'Javascript by Example Series', ARRAY['hnasr'], '2022-02-23T23:35:41.043146+00:00'),
 (113412457, 3387, 8, 1, 0, 13, 'gnif/LookingGlass', 'An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.', ARRAY['gnif', 'quantum5'], '2022-02-23T23:35:41.043146+00:00'),
 (113593022, 47, 210, 1, 0, 21, 'gitcoinco/skunkworks', 'experimental laboratory', ARRAY['stojce', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
+(112150776, 10908, 441, 5, 1, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-23T23:35:41.043146+00:00'),
 (113807330, 5896, 84, 1, 0, 23, 'migueldeicaza/gui.cs', 'Console-based user interface toolkit for .NET applications.', ARRAY['tig', 'BDisp'], '2022-02-23T23:35:41.043146+00:00'),
 (113813718, 51, 3, 1, 0, 23, 'xvik/gradle-use-python-plugin', 'Use python modules in gradle build', ARRAY['xvik', 'yellowsquid'], '2022-02-23T23:35:41.043146+00:00'),
 (113865039, 7178, 270, 2, 0, 15.5, 'sveltejs/sapper', 'The next small thing in web development, powered by Svelte', ARRAY['Rich-Harris', 'benmccann'], '2022-02-23T23:35:41.043146+00:00'),
