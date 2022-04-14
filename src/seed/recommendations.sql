@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-14T03:04:11.650Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-14T04:48:17.452Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -974,8 +974,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (60537144, 12613, 1027, 1, 0, 10, 'microsoft/fluentui', 'Fluent UI web represents a collection of utilities, React components, and web components for building web applications.', ARRAY['dzearing', 'ecraig12345'], '2022-02-23T23:35:41.043146+00:00'),
 (60656871, 622, 137, 1, 0, 6, 'zulip/zulip-desktop', 'Zulip Desktop Client', ARRAY['akashnimare', 'andersk'], '2022-02-23T23:35:41.043146+00:00'),
 (61059364, 641, 38, 1, 0, 29, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-23T23:35:41.043146+00:00'),
-(61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-23T23:35:41.043146+00:00'),
-(61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-23T23:35:41.043146+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-23T23:35:41.043146+00:00'),
 (61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-23T23:35:41.043146+00:00'),
 (61426855, 1903, 218, 2, 0, 12.5, 'jainaman224/Algo_Ds_Notes', 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', ARRAY['jainaman224', 'somya-kapoor'], '2022-02-23T23:35:41.043146+00:00'),
@@ -997,6 +995,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (63239929, 139, 39, 1, 0, 21, 'markop159/KODI-Popcorn-Time', 'With KODI Popcorn Time you can search for movies that you can see immediately in KODI.', ARRAY['markop159', 'Diblo'], '2022-02-23T23:35:41.043146+00:00'),
 (63266213, 30747, 147, 1, 0, 0, 'open-guides/og-aws', '📙 Amazon Web Services — a practical guide', ARRAY['jlevy', 'QuinnyPig'], '2022-02-23T23:35:41.043146+00:00'),
 (63476337, 125891, 211, 1, 0, 29, 'TheAlgorithms/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-23T23:35:41.043146+00:00'),
+(61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-23T23:35:41.043146+00:00'),
+(61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-23T23:35:41.043146+00:00'),
 (63508378, 1314, 5, 1, 0, 24, 'sindresorhus/hyper-snazzy', 'Elegant Hyper theme with bright colors', ARRAY['sindresorhus', 'connorholyday'], '2022-02-23T23:35:41.043146+00:00'),
 (63537249, 92462, 1423, 1, 0, 2, 'facebook/create-react-app', 'Set up a modern web app by running one command.', ARRAY['gaearon', 'Timer'], '2022-02-23T23:35:41.043146+00:00'),
 (63902889, 851, 46, 1, 0, 3, 'nypublicradio/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'marineb'], '2022-02-23T23:35:41.043146+00:00'),
