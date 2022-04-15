@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T04:54:36.174Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T06:48:11.688Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3660,8 +3660,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-23T23:35:41.043146+00:00'),
 (431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-23T23:35:41.043146+00:00'),
-(431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (432493110, 1, 0, 1, 0, 11, 'divyakelaskar/MagicHat', 'An AR filter of a hat 🎩', ARRAY['divyakelaskar'], '2022-02-23T23:35:41.043146+00:00'),
+(431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (432685277, 209, 0, 1, 0, 0, 'joelthelion/life_web', 'Life simulation written in rust', ARRAY['joelthelion', 'Robbepop'], '2022-02-23T23:35:41.043146+00:00'),
 (432722169, 4, 0, 1, 0, 9, 'mrwilson/advent-of-code-2021', 'It''s back. It''s worse.', ARRAY['mrwilson'], '2022-02-23T23:35:41.043146+00:00'),
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-23T23:35:41.043146+00:00'),
