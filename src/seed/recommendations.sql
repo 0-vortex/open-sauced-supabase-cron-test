@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T16:52:57.595Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T18:47:35.549Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -647,8 +647,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (31792824, 133601, 10100, 1, 2, 29, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-23T23:35:41.043146+00:00'),
 (31985475, 5, 1, 1, 0, 2, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-23T23:35:41.043146+00:00'),
 (32222044, 5343, 45, 1, 0, 25, 'erincatto/box2d', 'Box2D is a 2D physics engine for games', ARRAY['erincatto', 'wub'], '2022-02-23T23:35:41.043146+00:00'),
-(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
 (32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-23T23:35:41.043146+00:00'),
+(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-23T23:35:41.043146+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-23T23:35:41.043146+00:00'),
 (32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-23T23:35:41.043146+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-23T23:35:41.043146+00:00'),
@@ -951,8 +951,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-23T23:35:41.043146+00:00'),
 (57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-23T23:35:41.043146+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-23T23:35:41.043146+00:00'),
-(58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-23T23:35:41.043146+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-23T23:35:41.043146+00:00'),
+(58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-23T23:35:41.043146+00:00'),
 (58298428, 977, 704, 1, 0, 7, 'zulip/zulip-mobile', 'The Zulip app for Android and iOS.', ARRAY['gnprice', 'chrisbobbe'], '2022-02-23T23:35:41.043146+00:00'),
 (58842707, 24303, 110, 1, 0, 8, 'trailofbits/algo', 'Set up a personal VPN in the cloud', ARRAY['jackivanov', 'dguido'], '2022-02-23T23:35:41.043146+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1049,8 +1049,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (69495170, 21557, 80, 1, 0, 2, 'fastify/fastify', 'Fast and low overhead web framework, for Node.js', ARRAY['delvedor', 'mcollina'], '2022-02-23T23:35:41.043146+00:00'),
 (69574700, 1034, 1, 1, 0, 19, 'sindresorhus/ponyfill', '🦄 Like polyfill but with pony pureness', ARRAY['sindresorhus', 'lgarron'], '2022-02-23T23:35:41.043146+00:00'),
 (69590701, 6402, 156, 2, 0, 12.5, 'vmware/clarity', 'Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.', ARRAY['coryrylan', 'hippee-lee'], '2022-02-23T23:35:41.043146+00:00'),
-(69746176, 5900, 0, 1, 0, 12, 'hackergrrl/art-of-readme', ':love_letter: Things I''ve learned about writing good READMEs.', ARRAY['noffle', 'hackergrrl'], '2022-02-23T23:35:41.043146+00:00'),
 (69673033, 8995, 26, 1, 0, 17, 'ardalis/CleanArchitecture', 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', ARRAY['ardalis', 'sdepouw'], '2022-02-23T23:35:41.043146+00:00'),
+(69746176, 5900, 0, 1, 0, 12, 'hackergrrl/art-of-readme', ':love_letter: Things I''ve learned about writing good READMEs.', ARRAY['noffle', 'hackergrrl'], '2022-02-23T23:35:41.043146+00:00'),
 (69813387, 2877, 16, 1, 0, 18, 'iberianpig/fusuma', 'Multitouch gestures with libinput driver on Linux', ARRAY['iberianpig', 'irq'], '2022-02-23T23:35:41.043146+00:00'),
 (70092432, 35, 1, 1, 0, 11, 'epool/firebase-cloning-tool', 'Tool for cloning firebase remote config projects.', ARRAY['epool'], '2022-02-23T23:35:41.043146+00:00'),
 (70107786, 78667, 1236, 2, 0, 14, 'vercel/next.js', 'The React Framework', ARRAY['timneutkens', 'ijjk'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1340,8 +1340,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (101296881, 50059, 32, 1, 0, 15, 'mtdvio/every-programmer-should-know', 'A collection of (mostly) technical things every software developer should know about', ARRAY['mr-mig', 'YellowFoxH4XOR'], '2022-02-23T23:35:41.043146+00:00'),
 (101448498, 110, 29, 1, 0, 5, 'SohoHouse/nuxt-oauth', 'Simple OAuth2 integration for your Nuxt app', ARRAY['samtgarson', 'hamishhossack'], '2022-02-23T23:35:41.043146+00:00'),
 (101704343, 3122, 28, 1, 0, 12, 'unidoc/unioffice', 'Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents', ARRAY['tbaliance', 'gunnsth'], '2022-02-23T23:35:41.043146+00:00'),
-(101770883, 1872, 1, 1, 0, 9, 'tortuvshin/open-source-flutter-apps', ':iphone: List of open source Flutter applications :octocat:', ARRAY['tortuvshin', 'j-j-gajjar'], '2022-02-23T23:35:41.043146+00:00'),
 (101752630, 16, 0, 1, 0, 6, 'joaocarmo/vcard-creator', 'A JavaScript vCard creator library for both Node.js and the web.', ARRAY['joaocarmo', 'Falklian'], '2022-02-23T23:35:41.043146+00:00'),
+(101770883, 1872, 1, 1, 0, 9, 'tortuvshin/open-source-flutter-apps', ':iphone: List of open source Flutter applications :octocat:', ARRAY['tortuvshin', 'j-j-gajjar'], '2022-02-23T23:35:41.043146+00:00'),
 (101814136, 905, 59, 1, 0, 0, 'theKashey/react-focus-lock', 'It is a trap! A lock for a Focus. 🔓', ARRAY['theKashey', 'ai'], '2022-02-23T23:35:41.043146+00:00'),
 (102210005, 1470, 35, 1, 0, 27, 'dethcrypto/TypeChain', '🔌 TypeScript bindings for Ethereum smart contracts', ARRAY['krzkaczor', 'zemse'], '2022-02-23T23:35:41.043146+00:00'),
 (102371998, 1623, 320, 1, 0, 6, 'nuxt-community/auth-module', null, ARRAY['JoaoPedroAS51', 'pi0'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1790,8 +1790,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (157626893, 46, 37, 1, 0, 12, 'thematters/matters-server', 'Server code for Matters', ARRAY['robertu7', 'devformatters'], '2022-02-23T23:35:41.043146+00:00'),
 (158731101, 80, 4, 1, 0, 14, 'cdimascio/essence', 'Automatically extract the main text content (and more) from an HTML document', ARRAY['Cleymax', 'cdimascio'], '2022-02-23T23:35:41.043146+00:00'),
 (158606045, 5828, 60, 1, 0, 26, 'remoteinterview/zero', 'Zero is a web server to simplify web development.', ARRAY['asadm', 'aykutkardas'], '2022-02-23T23:35:41.043146+00:00'),
-(158882433, 4450, 180, 1, 0, 8, 'SoftwareBrothers/adminjs', 'AdminJS is an admin panel for apps written in node.js', ARRAY['wojtek-krysiak', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (158873969, 9185, 46, 1, 0, 20, 'GoogleChromeLabs/quicklink', '⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time', ARRAY['addyosmani', 'lukeed'], '2022-02-23T23:35:41.043146+00:00'),
+(158882433, 4450, 180, 1, 0, 8, 'SoftwareBrothers/adminjs', 'AdminJS is an admin panel for apps written in node.js', ARRAY['wojtek-krysiak', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (159349307, 331, 5, 1, 0, 23, 'sButtons/sbuttons', ':bulb: Simple buttons you can use easily for your next project.', ARRAY['shahednasser', 'Caleb335'], '2022-02-23T23:35:41.043146+00:00'),
 (159527907, 624, 101, 1, 0, 18, 'ryanheise/audio_service', 'Flutter plugin to play audio in the background while the screen is off.', ARRAY['ryanheise', 'nt4f04uNd'], '2022-02-23T23:35:41.043146+00:00'),
 (159774835, 719, 0, 1, 0, 2, 'rajasegar/awesome-micro-frontends', 'An Awesome list of posts, videos and tutorials on Micro Frontends', ARRAY['rajasegar', 'marconi1992'], '2022-02-23T23:35:41.043146+00:00'),
