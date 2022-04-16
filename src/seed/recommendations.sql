@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T08:46:14.085Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T10:45:24.122Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2349,8 +2349,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (238197045, 196, 10, 1, 0, 22, 'bradtraversy/react_native_shopping_list', 'React Native app from crash course', ARRAY['bradtraversy', 'leosuncin'], '2022-02-23T23:35:41.043146+00:00'),
 (238514517, 2706, 24, 2, 0, 13, 'matteobruni/tsparticles', 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', ARRAY['matteobruni', 'VincentGarreau'], '2022-02-23T23:35:41.043146+00:00'),
 (238537897, 31, 7, 1, 0, 9, 'michal-wrzosek/cntl', 'Small library that helps you write your class names in a more clear, readable and composable way. Especially useful with tailwind css.', ARRAY['michal-wrzosek', 'brightpixels'], '2022-02-23T23:35:41.043146+00:00'),
-(238892079, 382, 45, 1, 0, 13, 'mirumee/saleor-platform', 'All Saleor services started from a single repository with docker-compose.', ARRAY['maarcingebala', 'tomaszszymanski129'], '2022-02-23T23:35:41.043146+00:00'),
 (238851101, 2263, 0, 1, 0, 12, 'naver/fe-news', 'FE 기술 소식 큐레이션 뉴스레터', ARRAY['netil', 'sculove'], '2022-02-23T23:35:41.043146+00:00'),
+(238892079, 382, 45, 1, 0, 13, 'mirumee/saleor-platform', 'All Saleor services started from a single repository with docker-compose.', ARRAY['maarcingebala', 'tomaszszymanski129'], '2022-02-23T23:35:41.043146+00:00'),
 (239150878, 84, 2, 1, 0, 28, 'wobsoriano/coderstats', '📊 Data visualizations of your top languages, starred repositories and top repos.', ARRAY['wobsoriano'], '2022-02-23T23:35:41.043146+00:00'),
 (239002506, 953, 17, 1, 0, 27, 'sbstp/kubie', 'A more powerful alternative to kubectx and kubens', ARRAY['sbstp', 'TyBrown'], '2022-02-23T23:35:41.043146+00:00'),
 (239233346, 1467, 11, 1, 0, 11, 'ardalis/ApiEndpoints', 'A project for supporting API Endpoints in ASP.NET Core web applications.', ARRAY['ardalis', 'maxkoshevoi'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3447,8 +3447,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-23T23:35:41.043146+00:00'),
 (388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-23T23:35:41.043146+00:00'),
 (388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
-(388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-23T23:35:41.043146+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-23T23:35:41.043146+00:00'),
+(388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-23T23:35:41.043146+00:00'),
 (388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-23T23:35:41.043146+00:00'),
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-23T23:35:41.043146+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
