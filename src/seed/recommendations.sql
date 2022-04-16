@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T01:04:25.074Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T02:59:22.622Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1606,7 +1606,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (134777298, 1773, 278, 1, 0, 6, 'microsoft/vscode-pull-request-github', 'GitHub Pull Requests for Visual Studio Code', ARRAY['alexr00', 'rebornix'], '2022-02-23T23:35:41.043146+00:00'),
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-23T23:35:41.043146+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-23T23:35:41.043146+00:00'),
-(135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-23T23:35:41.043146+00:00'),
 (135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-23T23:35:41.043146+00:00'),
 (135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-23T23:35:41.043146+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1639,6 +1638,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (139186454, 48, 26, 1, 0, 1, 'FordLabs/retroquest', 'RetroQuest is a website that enables teams to run retrospectives online.', ARRAY['Druage', 'rkennel'], '2022-02-23T23:35:41.043146+00:00'),
 (168267539, 115, 3, 1, 0, 15, 'andrersp/controleEstoque', 'Controle de Estoque PyQt5', ARRAY['andrersp', 'rhenter'], '2022-02-23T23:35:41.043146+00:00'),
 (139218477, 9, 0, 1, 0, 15, 'EwJs/EwJs', 'Tiny JavaScript framework for building UI on the web. (Being coding,Soon)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
+(135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-23T23:35:41.043146+00:00'),
 (139329396, 4917, 11, 1, 0, 22, 'rhysd/vim.wasm', 'Vim editor ported to WebAssembly', ARRAY['brammool', 'rhysd'], '2022-02-23T23:35:41.043146+00:00'),
 (139596105, 13847, 11, 1, 0, 4, 'thedaviddias/Front-End-Performance-Checklist', '🎮 The only Front-End Performance Checklist that runs faster than the others', ARRAY['thedaviddias', 'prayagverma'], '2022-02-23T23:35:41.043146+00:00'),
 (139633235, 571, 9, 2, 0, 24.5, 'MoonHighway/learning-graphql', 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', ARRAY['eveporcello', 'MoonTahoe'], '2022-02-23T23:35:41.043146+00:00'),
