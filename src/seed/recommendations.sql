@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T12:52:31.693Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T14:44:28.175Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1911,7 +1911,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175425051, 2523, 359, 1, 0, 2, 'kumahq/kuma', '🐻 The Universal Service Mesh. CNCF Sandbox Project.', ARRAY['yskopets', 'jakubdyszkiewicz'], '2022-02-23T23:35:41.043146+00:00'),
 (175565742, 3, 0, 1, 0, 20, 'BaseMax/NumbersToWordsPHP', 'Tiny library to convert numbers to words. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (174715721, 914, 1, 1, 0, 17, 'pr0g/cmake-examples', 'A collection of as simple as possible, modern CMake projects', ARRAY['pr0g', '0xflotus'], '2022-02-23T23:35:41.043146+00:00'),
-(175219507, 122, 1, 1, 0, 11, 'chimay/wheel', 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', ARRAY['chimay'], '2022-02-23T23:35:41.043146+00:00'),
 (175666043, 477, 93, 1, 0, 2, 'microsoft/vscode-edge-devtools', 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', ARRAY['mliao95', 'vidorteg'], '2022-02-23T23:35:41.043146+00:00'),
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-23T23:35:41.043146+00:00'),
 (176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1924,6 +1923,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-23T23:35:41.043146+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-23T23:35:41.043146+00:00'),
 (177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-23T23:35:41.043146+00:00'),
+(175219507, 122, 1, 1, 0, 11, 'chimay/wheel', 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', ARRAY['chimay'], '2022-02-23T23:35:41.043146+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-23T23:35:41.043146+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-23T23:35:41.043146+00:00'),
