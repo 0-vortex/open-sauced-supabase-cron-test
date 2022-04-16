@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T04:48:28.482Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T06:47:39.572Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3453,9 +3453,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-23T23:35:41.043146+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
 (389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-23T23:35:41.043146+00:00'),
+(389156199, 91, 2, 1, 0, 24, '5t3ph/htmlrecipes', 'A collection of quick copy HTML snippets for a variety of common scenarios.', ARRAY['5t3ph', 'MWDelaney'], '2022-02-23T23:35:41.043146+00:00'),
+(389247129, 2, 0, 1, 0, 1, 'lukasschwab/podcast-transcriber', 'Fully automated Cloud Function podcast transcriptions with Deepgram.', ARRAY['lukasschwab'], '2022-02-23T23:35:41.043146+00:00'),
 (389264260, 59, 0, 1, 0, 7, 'bernaferrari/CashBalancer', 'It is too hard to balance money across different assets and accounts.', ARRAY['bernaferrari', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (389448238, 25, 0, 1, 0, 7, 'avinash201199/Free-courses-with-Certificates', 'Collection of free courses with certificates', ARRAY['avinash201199', 'ojasjain24'], '2022-02-23T23:35:41.043146+00:00'),
-(389247129, 2, 0, 1, 0, 1, 'lukasschwab/podcast-transcriber', 'Fully automated Cloud Function podcast transcriptions with Deepgram.', ARRAY['lukasschwab'], '2022-02-23T23:35:41.043146+00:00'),
 (389568562, 1562, 8, 1, 0, 0, 'lahmatiy/react-render-tracker', 'React render tracker – a tool to discover performance issues related to unintentional re-renders and unmounts', ARRAY['lahmatiy', 'user1736'], '2022-02-23T23:35:41.043146+00:00'),
 (389585704, 1191, 2, 1, 0, 1, 'benyaminahmed/nft-image-generator', null, ARRAY['benyaminahmed', 'BuddyBob'], '2022-02-23T23:35:41.043146+00:00'),
 (389664802, 1, 0, 1, 0, 19, 'Helewud/MapLog', null, ARRAY['Helewud'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(389156199, 91, 2, 1, 0, 24, '5t3ph/htmlrecipes', 'A collection of quick copy HTML snippets for a variety of common scenarios.', ARRAY['5t3ph', 'MWDelaney'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
