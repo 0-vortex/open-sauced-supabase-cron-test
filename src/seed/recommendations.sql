@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T18:47:11.330Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T20:44:30.499Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -731,8 +731,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (39150065, 4550, 3, 1, 0, 7, 'negomi/react-burger-menu', ':hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations', ARRAY['negomi', 'badtant'], '2022-02-23T23:35:41.043146+00:00'),
 (39152554, 1181, 166, 1, 0, 22, 'consul/consul', 'Consul - Open Government and E-Participation Web Software', ARRAY['javierm', 'decabeza'], '2022-02-23T23:35:41.043146+00:00'),
 (39213332, 4, 0, 1, 0, 26, 'TheNaoX/woodo', 'Sudo woodo script in Go', ARRAY['TheNaoX'], '2022-02-23T23:35:41.043146+00:00'),
-(39415880, 1276, 6, 1, 0, 24, 'gatsbyjs/gatsby-starter-default', 'The default Gatsby starter', ARRAY['gatsbybot', 'KyleAMathews'], '2022-02-23T23:35:41.043146+00:00'),
 (39433529, 1169, 0, 1, 0, 23, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-23T23:35:41.043146+00:00'),
+(39415880, 1276, 6, 1, 0, 24, 'gatsbyjs/gatsby-starter-default', 'The default Gatsby starter', ARRAY['gatsbybot', 'KyleAMathews'], '2022-02-23T23:35:41.043146+00:00'),
 (39514089, 292, 14, 1, 0, 18, 'ccoenraets/es6-tutorial', 'ECMAScript 6 Tutorial', ARRAY['ccoenraets'], '2022-02-23T23:35:41.043146+00:00'),
 (39575101, 8148, 50, 1, 0, 25, 'phil-opp/blog_os', 'Writing an OS in Rust', ARRAY['phil-opp', 'drprofesq'], '2022-02-23T23:35:41.043146+00:00'),
 (39583294, 160, 22, 1, 0, 14, 'nprapps/lunchbox', 'Image tools for social media sharing', ARRAY['TylerFisher', 'alykat'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2044,8 +2044,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (194018943, 8, 18, 1, 0, 21, 'adam-mccormick/moleculer-axios', 'Axios based HTTP client for Moleculer services', ARRAY['adam-mccormick', 'iwd-mccormicka'], '2022-02-23T23:35:41.043146+00:00'),
 (195070986, 1184, 20, 1, 0, 15, 'rogden/tailwind-config-viewer', 'A local UI tool for visualizing your Tailwind CSS configuration file.', ARRAY['rogden', 'olets'], '2022-02-23T23:35:41.043146+00:00'),
 (195126456, 2, 0, 1, 0, 24, 'fmendoza/ion-bottom-drawer', 'Bottom drawer component for Ionic 4', ARRAY['toniantunovi'], '2022-02-23T23:35:41.043146+00:00'),
-(195281293, 28, 31, 1, 0, 8, 'wepublish/wepublish', null, ARRAY['roosnic1', 'per2plex'], '2022-02-23T23:35:41.043146+00:00'),
 (195459553, 171, 10, 1, 0, 24, 'NewBieBR/typescript-react-native-starter', 'A highly scalable foundation with a focus on best pratices and simplicity to start your React Native project in seconds.', ARRAY['NewBieBR', 'DevHabit'], '2022-02-23T23:35:41.043146+00:00'),
+(195281293, 28, 31, 1, 0, 8, 'wepublish/wepublish', null, ARRAY['roosnic1', 'per2plex'], '2022-02-23T23:35:41.043146+00:00'),
 (195583152, 47, 0, 1, 0, 0, 'JeremyJaydan/programming-challenges', 'Spin the wheel of 100+ challenges', ARRAY['JeremyJaydan'], '2022-02-23T23:35:41.043146+00:00'),
 (195769741, 1214, 16, 1, 0, 9, 'gnes-ai/gnes', 'GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. ', ARRAY['Larryjianfeng', 'jemmyshin'], '2022-02-23T23:35:41.043146+00:00'),
 (195897446, 2894, 3, 1, 0, 9, 'CollabCodeTech/backend-challenges', 'A public list of open-source challenges from jobs around the world', ARRAY['joviane', 'vinigmoraes'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3617,8 +3617,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414238384, 35, 0, 1, 0, 3, 'Dzoukr/Funcaster', '⚡ Serverless .NET solution for hosting your 🔊 podcasts with (nearly) zero costs using Azure Functions and Azure Storage Account.', ARRAY['Dzoukr'], '2022-02-23T23:35:41.043146+00:00'),
 (414403319, 14, 0, 2, 0, 0, 'polarene/micro-template', 'A very tiny and simple text templating library for Kotlin.', ARRAY['polarene'], '2022-02-23T23:35:41.043146+00:00'),
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-23T23:35:41.043146+00:00'),
-(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-23T23:35:41.043146+00:00'),
+(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-23T23:35:41.043146+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-23T23:35:41.043146+00:00'),
 (416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-23T23:35:41.043146+00:00'),
