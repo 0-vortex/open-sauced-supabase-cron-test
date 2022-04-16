@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T22:44:40.617Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T01:04:25.074Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -448,8 +448,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15776379, 789, 1, 1, 0, 9, 'nprapps/pym.js', 'Resize an iframe responsively depending on the height of its content and the width of its container.', ARRAY['onyxfish', 'jjelosua'], '2022-02-23T23:35:41.043146+00:00'),
 (15585444, 25707, 36, 1, 0, 9, 'IanLunn/Hover', 'A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.', ARRAY['IanLunn', 'Minimalistic'], '2022-02-23T23:35:41.043146+00:00'),
 (15884926, 5630, 319, 1, 0, 22, 'hishamhm/htop', 'htop is an interactive text-mode process viewer for Unix systems. It aims to be a better ''top''.', ARRAY['hishamhm', 'Explorer09'], '2022-02-23T23:35:41.043146+00:00'),
-(16072585, 17590, 32, 1, 0, 0, 'phoenixframework/phoenix', 'Peace of mind from prototype to production', ARRAY['chrismccord', 'josevalim'], '2022-02-23T23:35:41.043146+00:00'),
 (15936793, 801, 13, 1, 0, 5, 'tsironis/lockr', 'A minimal API wrapper for localStorage', ARRAY['tsironis', 'avgerin0s'], '2022-02-23T23:35:41.043146+00:00'),
+(16072585, 17590, 32, 1, 0, 0, 'phoenixframework/phoenix', 'Peace of mind from prototype to production', ARRAY['chrismccord', 'josevalim'], '2022-02-23T23:35:41.043146+00:00'),
 (16120959, 1407, 128, 1, 0, 12, 'evennia/evennia', 'Python MUD/MUX/MUSH/MU* development system', ARRAY['Griatch', 'gtaylor'], '2022-02-23T23:35:41.043146+00:00'),
 (16194327, 5546, 10, 1, 0, 6, 'adamschwartz/magic-of-css', 'A CSS course to turn you into a magician.', ARRAY['adamschwartz', 'cvrebert'], '2022-02-23T23:35:41.043146+00:00'),
 (15910832, 179, 31, 1, 0, 13, 'MadKudu/node-hubspot', 'Node wrapper for the HubSpot API', ARRAY['pcothenet', 'vkhomiv-hubspot'], '2022-02-23T23:35:41.043146+00:00'),
