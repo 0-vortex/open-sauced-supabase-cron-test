@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T08:46:02.101Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T10:45:03.440Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -711,6 +711,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (37652385, 2110, 63, 1, 0, 28, 'killercup/cargo-edit', 'A utility for managing cargo dependencies from the command line.', ARRAY['killercup', 'ordian'], '2022-02-23T23:35:41.043146+00:00'),
 (37726036, 69, 0, 1, 0, 8, 'rudymatela/fitspec', 'refine properties for testing Haskell programs', ARRAY['rudymatela', 'JonasDuregard'], '2022-02-23T23:35:41.043146+00:00'),
 (37860317, 1337, 422, 1, 0, 29, 'TASVideos/BizHawk', 'BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ', ARRAY['adelikat', 'zeromus'], '2022-02-23T23:35:41.043146+00:00'),
+(37864995, 2420, 0, 1, 0, 3, 'github/scripts-to-rule-them-all', 'Set of boilerplate scripts describing the normalized script pattern that GitHub uses in its projects.', ARRAY['maddox', 'MikeMcQuaid'], '2022-02-23T23:35:41.043146+00:00'),
 (37958358, 25278, 112, 1, 0, 27, 'naptha/tesseract.js', 'Pure Javascript OCR for more than 100 Languages 📖🎉🖥', ARRAY['jeromewu', 'bijection'], '2022-02-23T23:35:41.043146+00:00'),
 (37991989, 6598, 15, 1, 0, 26, 'coodict/javascript-in-one-pic', 'Learn javascript in one picture.', ARRAY['rainyear', 'alicona'], '2022-02-23T23:35:41.043146+00:00'),
 (38106307, 2489, 7, 1, 0, 26, 'survivejs/webpack-merge', 'Merge designed for webpack', ARRAY['bebraw', 'GreenGremlin'], '2022-02-23T23:35:41.043146+00:00'),
@@ -724,7 +725,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (38782303, 5594, 32, 1, 0, 23, 'donnemartin/dev-setup', 'macOS development environment setup:  Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.', ARRAY['donnemartin', 'pahaz'], '2022-02-23T23:35:41.043146+00:00'),
 (38796348, 432, 39, 1, 0, 8, 'souporserious/react-media-player', 'React audio and video player.', ARRAY['souporserious', 'dobrite'], '2022-02-23T23:35:41.043146+00:00'),
 (38832942, 8825, 24, 1, 0, 0, 'agarrharr/awesome-cli-apps', '🖥 📊 🕹 🛠 A curated list of command line apps', ARRAY['Aharris88', 'jneidel'], '2022-02-23T23:35:41.043146+00:00'),
-(37864995, 2420, 0, 1, 0, 3, 'github/scripts-to-rule-them-all', 'Set of boilerplate scripts describing the normalized script pattern that GitHub uses in its projects.', ARRAY['maddox', 'MikeMcQuaid'], '2022-02-23T23:35:41.043146+00:00'),
 (38951273, 57, 0, 1, 0, 20, 'cnlohr/pylotron', 'Embedded VNC-based FPS.', ARRAY['cnlohr', 'mishailovic'], '2022-02-23T23:35:41.043146+00:00'),
 (38982731, 2063, 467, 1, 0, 13, 'home-assistant/frontend', ':lollipop: Frontend for Home Assistant', ARRAY['balloob', 'bramkragten'], '2022-02-23T23:35:41.043146+00:00'),
 (39111193, 9602, 111, 1, 0, 27, 'TypeStrong/ts-node', 'TypeScript execution and REPL for node.js', ARRAY['blakeembrey', 'cspotcode'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3586,9 +3586,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (405839494, 3, 0, 1, 0, 4, 'BolajiAyodeji/credit_card_fraud_detection', 'A basic machine learning model that will detect potential fraud cases from transactions so that customers won’t be charged for the items they did not purchase.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
 (406196482, 2, 0, 1, 0, 1, 'careBT/carebt_core', 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', ARRAY['AndiSteck'], '2022-02-23T23:35:41.043146+00:00'),
 (406327361, 456, 0, 1, 0, 27, 'terrakok/kmm-awesome', 'An awesome list that curates the best KMM libraries, tools and more. ', ARRAY['terrakok', 'PStrelchenko'], '2022-02-23T23:35:41.043146+00:00'),
+(406390419, 5, 0, 1, 0, 2, 'NickLiffen/GCSMTTR', 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ARRAY['NickLiffen'], '2022-02-23T23:35:41.043146+00:00'),
 (406390867, 1, 0, 1, 0, 1, 'muhammaddzaky/polisi.html', 'polisi.html', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (406448834, 1, 0, 1, 0, 23, 'willcl-ark/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller', 'willcl-ark'], '2022-02-23T23:35:41.043146+00:00'),
-(406390419, 5, 0, 1, 0, 2, 'NickLiffen/GCSMTTR', 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ARRAY['NickLiffen'], '2022-02-23T23:35:41.043146+00:00'),
 (406493930, 10, 6, 1, 0, 21, 'blackgirlbytes/git-emojis', 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ARRAY['blackgirlbytes'], '2022-02-23T23:35:41.043146+00:00'),
 (406594497, 3, 0, 1, 0, 13, 'bdougie/invite-automation', 'This is a repo to automate invites to teams. ', ARRAY['bdougie'], '2022-02-23T23:35:41.043146+00:00'),
 (407233777, 355, 17, 1, 0, 6, 'slipHQ/run-wasm', 'Run WASM based code executions in the browser easily', ARRAY['kennethcassel', 'cameronmoreau'], '2022-02-23T23:35:41.043146+00:00'),
