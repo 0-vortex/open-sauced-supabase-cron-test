@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T03:01:15.922Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T04:48:22.565Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1964,8 +1964,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (182075630, 714, 3, 1, 0, 12, 'jamesctucker/Fantastic-Front-End-Toolbox', 'A collection of tools, tutorials, and other resources for those learning web development.', ARRAY['jamesctucker', 'thewmh'], '2022-02-23T23:35:41.043146+00:00'),
 (193344063, 1127, 3, 1, 0, 6, 'JideGuru/FlutterFoodybite', 'Flutter representation of a Restaurant app UI.', ARRAY['JideGuru', 'Shamsudeen12'], '2022-02-23T23:35:41.043146+00:00'),
 (182128976, 15, 0, 1, 0, 25, 'devatquarxss/reusable-data-table-component-vue', 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', ARRAY['devatquarxss'], '2022-02-23T23:35:41.043146+00:00'),
-(182764801, 340, 20, 1, 0, 20, 'whatsplay/whatsapp-play', 'Command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. ', ARRAY['rpotter12', 'xandao6'], '2022-02-23T23:35:41.043146+00:00'),
 (182764313, 510, 15, 1, 0, 20, 'wiedehopf/tar1090', 'Provides an improved webinterface for use with ADS-B decoders readsb / dump1090-fa', ARRAY['wiedehopf', 'vkirienko'], '2022-02-23T23:35:41.043146+00:00'),
+(182764801, 340, 20, 1, 0, 20, 'whatsplay/whatsapp-play', 'Command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. ', ARRAY['rpotter12', 'xandao6'], '2022-02-23T23:35:41.043146+00:00'),
 (182849188, 3910, 149, 1, 0, 1, 'delta-io/delta', 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ARRAY['zsxwing', 'brkyvz'], '2022-02-23T23:35:41.043146+00:00'),
 (182957374, 6, 0, 1, 0, 6, 'imajkumar/laravel-binary-tree', null, ARRAY['imajkumar'], '2022-02-23T23:35:41.043146+00:00'),
 (183260314, 196, 1, 1, 0, 28, 'chinasaokolo/csGraduateFellowships', 'A curated list of fellowships for graduate students in Computer Science and related fields.', ARRAY['chinasaokolo'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3111,9 +3111,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (343520006, 1147, 2, 1, 0, 7, 'joehillen/sysz', 'An fzf  terminal UI for systemctl', ARRAY['joehillen', 'NullSense'], '2022-02-23T23:35:41.043146+00:00'),
 (343553753, 524, 4, 1, 0, 28, 'PatrickAlphaC/nft-mix', null, ARRAY['PatrickAlphaC', 'albertoxamin'], '2022-02-23T23:35:41.043146+00:00'),
 (343757632, 1633, 28, 1, 0, 21, 'olmps/memo', 'Memo is an open-source, programming-oriented spaced repetition software (SRS) written in Flutter.', ARRAY['matuella', 'ggirotto'], '2022-02-23T23:35:41.043146+00:00'),
+(343877885, 42, 2, 1, 0, 4, 'daily-demos/party-line', 'multiplatform audio only demos', ARRAY['regexident', 'jessmitch42'], '2022-02-23T23:35:41.043146+00:00'),
 (343891771, 10, 22, 1, 0, 12, 'builders-club/onlythemes', 'VS Code themes that match your personality profile.', ARRAY['MichaelJolley', 'parithon'], '2022-02-23T23:35:41.043146+00:00'),
 (343910759, 2787, 25, 1, 0, 19, 'gskinnerTeam/flutter-folio', 'A platform adaptive Flutter app for desktop, mobile and web.', ARRAY['esDotDev', 'cenomla'], '2022-02-23T23:35:41.043146+00:00'),
-(343877885, 42, 2, 1, 0, 4, 'daily-demos/party-line', 'multiplatform audio only demos', ARRAY['regexident', 'jessmitch42'], '2022-02-23T23:35:41.043146+00:00'),
 (343964517, 22, 1, 1, 0, 5, 'module-federation/microlib-examples', 'This template project provides the scaffolding to build a federated application on ÆGIS. It also contains an example of an Order, Customer and Inventory service streaming to / running in the same ÆGIS host server process; and demonstrates integration with, and orchestration of, an Address, Payment, Inventory, Shipping, Event (Kafka, WebSockets), and Persistence service (MongoDB) via Aegis federated ports. ', ARRAY['tysonrm', 'ScriptedAlchemy'], '2022-02-23T23:35:41.043146+00:00'),
 (343965132, 28909, 6, 1, 0, 0, 'microsoft/ML-For-Beginners', '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ARRAY['jlooper', 'softchris'], '2022-02-23T23:35:41.043146+00:00'),
 (344191198, 7798, 27, 1, 0, 2, 'microsoft/Data-Science-For-Beginners', '10 Weeks, 20 Lessons, Data Science for All!', ARRAY['paladique', 'jlooper'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3194,8 +3194,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-23T23:35:41.043146+00:00'),
 (356597963, 75, 0, 1, 0, 3, 'charliegerard/dark-mode-clap-extension', 'Chrome extension to toggle dark mode on Netlify by clapping hands 👏', ARRAY['charliegerard'], '2022-02-23T23:35:41.043146+00:00'),
 (357019331, 28, 3, 1, 0, 1, 'arctic-hen7/bonnie', 'Simple, cross-platform, and fast command aliases with superpowers.', ARRAY['arctic-hen7', 'ostev'], '2022-02-23T23:35:41.043146+00:00'),
-(351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-23T23:35:41.043146+00:00'),
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
+(351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-23T23:35:41.043146+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-23T23:35:41.043146+00:00'),
 (357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-23T23:35:41.043146+00:00'),
