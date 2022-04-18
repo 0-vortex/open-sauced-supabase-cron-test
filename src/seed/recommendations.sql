@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T08:46:59.336Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T14:44:15.933Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -792,8 +792,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-23T23:35:41.043146+00:00'),
 (44409210, 4430, 3, 1, 0, 10, 'RichardLitt/standard-readme', 'A standard style for README files', ARRAY['RichardLitt', 'JesseWeinstein'], '2022-02-23T23:35:41.043146+00:00'),
 (44455471, 205, 9, 1, 0, 12, 'Lusitaniae/apache_exporter', 'Prometheus exporter for Apache.', ARRAY['Lusitaniae', 'neezgee'], '2022-02-23T23:35:41.043146+00:00'),
-(44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-23T23:35:41.043146+00:00'),
 (44580889, 2023, 11, 1, 0, 15, 'aickin/react-dom-stream', 'A streaming server-side rendering library for React.', ARRAY['aickin'], '2022-02-23T23:35:41.043146+00:00'),
+(44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-23T23:35:41.043146+00:00'),
 (44604597, 839, 29, 1, 0, 2, 'delight-im/PHP-Auth', 'Authentication for PHP. Simple, lightweight and secure.', ARRAY['ocram', 'maxsenft'], '2022-02-23T23:35:41.043146+00:00'),
 (44623798, 900, 1, 1, 0, 15, 'ASoftCo/leaky-gems', 'A list of Ruby gems that have known memory leaks (and issues)', ARRAY['sergey-alekseev', 'benoittgt'], '2022-02-23T23:35:41.043146+00:00'),
 (44662669, 23837, 1366, 1, 0, 3, 'dbeaver/dbeaver', 'Free universal database tool and SQL client', ARRAY['serge-rider', 'LonwoLonwo'], '2022-02-23T23:35:41.043146+00:00'),
@@ -830,12 +830,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-23T23:35:41.043146+00:00'),
 (46958040, 2720, 37, 1, 0, 11, 'tapaswenipathak/Open-Source-Programs', 'A list of open source programs.', ARRAY['tapaswenipathak', 'emetowinner'], '2022-02-23T23:35:41.043146+00:00'),
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-23T23:35:41.043146+00:00'),
-(47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-23T23:35:41.043146+00:00'),
 (47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-23T23:35:41.043146+00:00'),
-(48009214, 14402, 689, 1, 0, 0, 'microsoft/react-native-windows', 'A framework for building native Windows apps with React.', ARRAY['rnbot', 'rozele'], '2022-02-23T23:35:41.043146+00:00'),
 (47996258, 1325, 42, 1, 0, 13, 'thoughtworks/talisman', 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ARRAY['svishwanath-tw', 'harinee'], '2022-02-23T23:35:41.043146+00:00'),
-(47403260, 60, 3, 1, 0, 10, 'instana/nodejs', 'Node.js in-process collectors for Instana', ARRAY['basti1302', 'bripkens'], '2022-02-23T23:35:41.043146+00:00'),
+(47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-23T23:35:41.043146+00:00'),
+(48009214, 14402, 689, 1, 0, 0, 'microsoft/react-native-windows', 'A framework for building native Windows apps with React.', ARRAY['rnbot', 'rozele'], '2022-02-23T23:35:41.043146+00:00'),
 (48242990, 10256, 156, 1, 0, 5, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-23T23:35:41.043146+00:00'),
+(47403260, 60, 3, 1, 0, 10, 'instana/nodejs', 'Node.js in-process collectors for Instana', ARRAY['basti1302', 'bripkens'], '2022-02-23T23:35:41.043146+00:00'),
+(48356217, 9798, 83, 1, 0, 24, 'haltu/muuri', 'Infinite responsive, sortable, filterable and draggable layouts', ARRAY['niklasramo', 'aslakhellesoy'], '2022-02-23T23:35:41.043146+00:00'),
+(48623558, 16375, 171, 1, 0, 9, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-23T23:35:41.043146+00:00'),
 (48003886, 17971, 60, 1, 0, 13, 'tmrts/go-patterns', 'Curated list of Go design patterns, recipes and idioms', ARRAY['tmrts', 'sha1sum'], '2022-02-23T23:35:41.043146+00:00'),
 (48714685, 5997, 268, 1, 0, 13, 'open-policy-agent/opa', 'An open source, general-purpose policy engine.', ARRAY['tsandall', 'patrick-east'], '2022-02-23T23:35:41.043146+00:00'),
 (48750547, 594, 46, 1, 0, 17, 'circleci/circleci-docs', 'Documentation for CircleCI.', ARRAY['michelle-luna', 'rosieyohannan'], '2022-02-23T23:35:41.043146+00:00'),
@@ -910,8 +912,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (53698167, 29, 4, 1, 0, 15, 'jonasbn/til', 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', ARRAY['jonasbn', 'Amorymeltzer'], '2022-02-23T23:35:41.043146+00:00'),
 (54068301, 36, 3, 1, 0, 15, 'velocityzen/meta-extractor', 'Super simple and fast html page meta data extractor with low memory footprint', ARRAY['velocityzen', 'bevacqua'], '2022-02-23T23:35:41.043146+00:00'),
 (54168759, 15836, 120, 1, 0, 21, 'SergioBenitez/Rocket', 'A web framework for Rust.', ARRAY['SergioBenitez', 'jebrosen'], '2022-02-23T23:35:41.043146+00:00'),
-(48356217, 9798, 83, 1, 0, 24, 'haltu/muuri', 'Infinite responsive, sortable, filterable and draggable layouts', ARRAY['niklasramo', 'aslakhellesoy'], '2022-02-23T23:35:41.043146+00:00'),
-(48623558, 16375, 171, 1, 0, 9, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-23T23:35:41.043146+00:00'),
 (54173593, 67642, 1641, 1, 0, 6, 'storybookjs/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-23T23:35:41.043146+00:00'),
 (54226191, 5049, 0, 1, 0, 13, 'JanDeDobbeleer/oh-my-posh2', 'A prompt theming engine for Powershell', ARRAY['JanDeDobbeleer', 'rashil2000'], '2022-02-23T23:35:41.043146+00:00'),
 (54244030, 41, 0, 1, 0, 11, 'FarmBot-Labs/mqtt-gateway', 'DEPRECATED. Realtime messaging server for Farmbot (MQTT broker).', ARRAY['RickCarlino', 'roryaronson'], '2022-02-23T23:35:41.043146+00:00'),
