@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T16:53:26.821Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T18:48:25.720Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1373,9 +1373,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (105563728, 174, 11, 1, 0, 12, 'basarat/typescript-react', 'Use TypeScript to develop react applications', ARRAY['basarat'], '2022-02-23T23:35:41.043146+00:00'),
 (105649273, 6089, 129, 2, 0, 8, 'ElectronNET/Electron.NET', ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', ARRAY['GregorBiswanger', 'robertmuehsig'], '2022-02-23T23:35:41.043146+00:00'),
 (105802846, 1737, 241, 1, 0, 4, 'aws/jsii', 'jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!', ARRAY['RomainMuller', 'rix0rrr'], '2022-02-23T23:35:41.043146+00:00'),
+(106017343, 51300, 77, 1, 0, 27, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-23T23:35:41.043146+00:00'),
 (106144134, 2292, 0, 1, 0, 20, 'rafaelfgx/Architecture', '.NET 6, ASP.NET Core 6, Entity Framework Core 6, C# 10, Angular 13, Clean Code, SOLID, DDD.', ARRAY['rafaelfgx'], '2022-02-23T23:35:41.043146+00:00'),
 (106867604, 2088, 144, 1, 0, 28, 'cloudflare/cloudflared', 'Cloudflare Tunnel client (formerly Argo Tunnel)', ARRAY['adamchalmers', 'chungthuang'], '2022-02-23T23:35:41.043146+00:00'),
-(106017343, 51300, 77, 1, 0, 27, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-23T23:35:41.043146+00:00'),
 (107111421, 57431, 8, 3, 0, 5, 'thedaviddias/Front-End-Checklist', '🗂 The perfect Front-End Checklist for modern websites and meticulous developers', ARRAY['thedaviddias', 'jochenkirstaetter'], '2022-02-23T23:35:41.043146+00:00'),
 (106974487, 23, 14, 1, 0, 22, 'gitcoinco/ios', 'Push Open Source Forward', ARRAY['cheneveld', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
 (107235160, 23, 0, 1, 0, 15, 'ZennerIoT/element-parsers', 'Parsers for LoRaWAN Sensors on ELEMENT-IoT', ARRAY['h4cc', 'datensalat'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2833,7 +2833,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (303743342, 22, 0, 1, 0, 24, 'zebp/wasm-remapper-web', 'Remap WebAssembly binaries automatically in the browser built with ReactJS and Rust using WebAssembly', ARRAY['zebp'], '2022-02-23T23:35:41.043146+00:00'),
 (303802332, 858, 277, 1, 0, 17, 'vmware-tanzu/community-edition', 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', ARRAY['dvonthenen', 'joshrosso'], '2022-02-23T23:35:41.043146+00:00'),
 (303830736, 154, 9, 1, 0, 16, 'tidbyt/pixlet', 'Build apps for pixel-based displays.', ARRAY['matslina', 'rohansingh'], '2022-02-23T23:35:41.043146+00:00'),
-(303861532, 66, 39, 1, 0, 3, 'WordPress/pattern-directory', 'The WordPress Block Pattern Directory', ARRAY['ryelle', 'StevenDufresne'], '2022-02-23T23:35:41.043146+00:00'),
 (304026138, 11, 0, 1, 0, 27, 'masaun/NFT-auth-token', 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', ARRAY['masaun'], '2022-02-23T23:35:41.043146+00:00'),
 (304177900, 251, 1, 1, 0, 4, 'RyanFitzgerald/devfolio', 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', ARRAY['RyanFitzgerald', 'zielinsm'], '2022-02-23T23:35:41.043146+00:00'),
 (304243554, 1171, 10, 1, 0, 15, 'craftzdog/dotfiles-public', 'My personal dotfiles', ARRAY['craftzdog', 'IlanCosman'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2948,6 +2947,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (320237098, 2, 0, 1, 0, 0, 'brysonpdavis/grainstems', 'frontend for grainstems: a toy granular synthesizer web app', ARRAY['brysonpdavis'], '2022-02-23T23:35:41.043146+00:00'),
 (320365682, 2, 0, 1, 0, 20, 'thembari/API', null, ARRAY['vinosamari'], '2022-02-23T23:35:41.043146+00:00'),
 (320393623, 923, 23, 1, 0, 27, 'kentcdodds/remix-kentcdodds', 'My personal website', ARRAY['kentcdodds', 'smeijer'], '2022-02-23T23:35:41.043146+00:00'),
+(303861532, 66, 39, 1, 0, 3, 'WordPress/pattern-directory', 'The WordPress Block Pattern Directory', ARRAY['ryelle', 'StevenDufresne'], '2022-02-23T23:35:41.043146+00:00'),
 (320489195, 5, 0, 1, 0, 18, 'chait04/reactjs-interview-questions', 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', ARRAY['sudheerj', 'sakhidamaulik'], '2022-02-23T23:35:41.043146+00:00'),
 (320544192, 914, 40, 1, 0, 18, 'supabase/ui', 'Supabase UI Library', ARRAY['MildTomato', 'jonthomp'], '2022-02-23T23:35:41.043146+00:00'),
 (345728485, 9, 0, 1, 0, 6, 'khang-nd/DEV-stats', 'Display DEV.to stat card anywhere', ARRAY['khang-nd'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3037,9 +3037,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (332757634, 3633, 8, 2, 0, 18.5, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-23T23:35:41.043146+00:00'),
 (333421996, 4756, 5, 1, 0, 9, 'therealsreehari/Learn-Data-Science-For-Free', 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ARRAY['therealsreehari', 'tuxiqae'], '2022-02-23T23:35:41.043146+00:00'),
 (333719667, 1, 2, 1, 0, 22, 'EliseeCode/exolingo', 'Opensource flashCard system optimised for languages.', ARRAY['EliseeCode', 'nobalpha'], '2022-02-23T23:35:41.043146+00:00'),
+(333280676, 1, 0, 1, 0, 18, 'juliobonon/learn-rust', 'Just a small project to learn rust lang.', ARRAY['juliobonon'], '2022-02-23T23:35:41.043146+00:00'),
 (332792912, 3, 0, 1, 0, 14, 'udberg/RailsFullApp', null, ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (334167971, 86, 16, 1, 0, 2, 'ashishsahu1/ML-ProjectYard', 'This repo consists of multiple machine learning based projects with frontend ', ARRAY['ashishsahu1', 'Amit366'], '2022-02-23T23:35:41.043146+00:00'),
-(333280676, 1, 0, 1, 0, 18, 'juliobonon/learn-rust', 'Just a small project to learn rust lang.', ARRAY['juliobonon'], '2022-02-23T23:35:41.043146+00:00'),
 (334195792, 1, 0, 1, 0, 11, 'teezzan/flw_validator', 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
 (333980205, 129, 0, 1, 0, 29, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-23T23:35:41.043146+00:00'),
 (334274271, 4265, 321, 1, 0, 9, 'opensearch-project/OpenSearch', '🔎 Open source distributed and RESTful search engine.', ARRAY['kimchy', 's1monw'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3418,8 +3418,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (385575717, 1, 0, 1, 0, 14, 'adil-Pathan/ionic5-starter-app-tutorial', 'Free Ionic Starter Template - Ionic 5 example app. Learn how to start using Ionic 5 to create a simple app with lists, forms and navigation and more!.', ARRAY['djabif', 'agustinhaller'], '2022-02-23T23:35:41.043146+00:00'),
 (385850163, 53, 0, 1, 0, 26, 'Borrus-sudo/vue-generator-graph', '🌌 An extension which will create a graph of a vuejs app by statically analyzing imports and auto imported components', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
 (386384568, 1429, 1, 1, 0, 14, 'sniptt-official/ots', '🔐 Share end-to-end encrypted secrets with others via a one-time URL', ARRAY['slavovojacek', 'rogerthebest'], '2022-02-23T23:35:41.043146+00:00'),
-(386607658, 37, 0, 1, 0, 12, 'mrezkys/readky', 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', ARRAY['mrezkys'], '2022-02-23T23:35:41.043146+00:00'),
 (386572538, 1, 0, 1, 0, 18, 'muhammaddzaky/https-codeigniter.com-', 'https://codeigniter.com/', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
+(386607658, 37, 0, 1, 0, 12, 'mrezkys/readky', 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', ARRAY['mrezkys'], '2022-02-23T23:35:41.043146+00:00'),
 (386633454, 1, 0, 1, 0, 17, 'muhammaddzaky/Data-Pokok-Pendidikan', 'Data Pokok Pendidikan', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386632210, 1, 0, 1, 0, 16, 'muhammaddzaky/Mengambil-Data-Sekolah', 'Mengambil Datang Sekolah ', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386673780, 198, 1, 1, 0, 9, 'P0ssuidao/terraguard', '🛡️ 🔒 This project''s goal is to be simple to create and destroy your own VPN service using WireGuard.', ARRAY['P0ssuidao', '0xdutra'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3585,8 +3585,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (405751585, 1, 0, 1, 0, 10, 'Dhaiwat10/sol-escrow', null, ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (405839494, 3, 0, 1, 0, 4, 'BolajiAyodeji/credit_card_fraud_detection', 'A basic machine learning model that will detect potential fraud cases from transactions so that customers won’t be charged for the items they did not purchase.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
 (406196482, 2, 0, 1, 0, 1, 'careBT/carebt_core', 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', ARRAY['AndiSteck'], '2022-02-23T23:35:41.043146+00:00'),
-(406390419, 5, 0, 1, 0, 2, 'NickLiffen/GCSMTTR', 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ARRAY['NickLiffen'], '2022-02-23T23:35:41.043146+00:00'),
 (406327361, 456, 0, 1, 0, 27, 'terrakok/kmm-awesome', 'An awesome list that curates the best KMM libraries, tools and more. ', ARRAY['terrakok', 'PStrelchenko'], '2022-02-23T23:35:41.043146+00:00'),
+(406390419, 5, 0, 1, 0, 2, 'NickLiffen/GCSMTTR', 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ARRAY['NickLiffen'], '2022-02-23T23:35:41.043146+00:00'),
 (406390867, 1, 0, 1, 0, 1, 'muhammaddzaky/polisi.html', 'polisi.html', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (406448834, 1, 0, 1, 0, 23, 'willcl-ark/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller', 'willcl-ark'], '2022-02-23T23:35:41.043146+00:00'),
 (406493930, 10, 6, 1, 0, 21, 'blackgirlbytes/git-emojis', 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ARRAY['blackgirlbytes'], '2022-02-23T23:35:41.043146+00:00'),
