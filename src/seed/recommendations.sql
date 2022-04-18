@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T03:07:49.773Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T04:49:57.516Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1904,6 +1904,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175043545, 2638, 194, 1, 0, 29, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-23T23:35:41.043146+00:00'),
 (175055371, 32, 6, 1, 0, 15, 'manios/docker-nagios', 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', ARRAY['manios'], '2022-02-23T23:35:41.043146+00:00'),
 (175176201, 8354, 5, 1, 0, 0, 'alexfoxy/lax.js', 'Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.', ARRAY['alexfoxy', 'afanjul'], '2022-02-23T23:35:41.043146+00:00'),
+(174936961, 312, 3, 1, 0, 26, 'aspnetrun/run-aspnetcore', 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', ARRAY['mehmetozkaya'], '2022-02-23T23:35:41.043146+00:00'),
 (174960187, 221, 3, 1, 0, 2, 'PEZ/rn-rf-shadow', 'An example project to get you started with React Native using shadow-cljs in 3 minutes', ARRAY['PEZ', 'bpringe'], '2022-02-23T23:35:41.043146+00:00'),
 (175317664, 23, 0, 1, 0, 18, 'br3ndonland/dotfiles', 'Computer setup and settings. Apple Silicon ready.', ARRAY['br3ndonland'], '2022-02-23T23:35:41.043146+00:00'),
 (175405157, 3787, 29, 1, 0, 24, 'JanDeDobbeleer/oh-my-posh', 'A prompt theme engine for any shell.', ARRAY['JanDeDobbeleer', 'lnu'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1917,7 +1918,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (176456339, 5, 3, 1, 0, 14, 'upgrad-edu/Solidity-Exercise-Solutions', null, ARRAY['upgrad-edu'], '2022-02-23T23:35:41.043146+00:00'),
 (175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-23T23:35:41.043146+00:00'),
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-23T23:35:41.043146+00:00'),
-(174936961, 312, 3, 1, 0, 26, 'aspnetrun/run-aspnetcore', 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', ARRAY['mehmetozkaya'], '2022-02-23T23:35:41.043146+00:00'),
 (176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-23T23:35:41.043146+00:00'),
 (177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
