@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T01:05:11.283Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T03:20:19.543Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2756,6 +2756,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (290171658, 160, 9, 1, 0, 1, 'pankod/canvas2video', 'canvas2video is a backend solution for creating and rendering dynamic videos.', ARRAY['aliemir', 'omeraplak'], '2022-02-23T23:35:41.043146+00:00'),
 (290020584, 61, 12, 1, 0, 21, 'dmnemec/copy_file_to_another_repo_action', 'This GitHub Action copies a file from the current repository to a location in another repository', ARRAY['dmnemec', 'sta-szek'], '2022-02-23T23:35:41.043146+00:00'),
 (290234921, 2828, 1, 1, 0, 4, 'JoseDeFreitas/awesome-youtubers', '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ARRAY['JoseDeFreitas', 'akaashsinha'], '2022-02-23T23:35:41.043146+00:00'),
+(290247146, 2101, 16, 1, 0, 7, 'mitmath/18S191', 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ARRAY['fonsp', 'shashi'], '2022-02-23T23:35:41.043146+00:00'),
+(290264556, 4, 0, 1, 0, 27, 'Gloryness/Multiprocessing-in-PyQt5', 'Use this program to test how many threads can run at once while doing the same tasks.', ARRAY['Gloryness'], '2022-02-23T23:35:41.043146+00:00'),
 (290625948, 241, 60, 1, 0, 15, 'joincomet/comet', 'All-in-one chat and forums for communities.', ARRAY['danb10', 'insuusvenerati'], '2022-02-23T23:35:41.043146+00:00'),
 (290703027, 339, 17, 1, 0, 21, 'kothariji/competitive-programming', 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', ARRAY['kothariji', 'AK-I-RA'], '2022-02-23T23:35:41.043146+00:00'),
 (291055052, 622, 191, 1, 0, 3, 'OpenSourceTogether/Hacktoberfest-2020', ':octocat: Welcome to Open-source! Simply add your details to contributors | Repo for Hacktoberfest 2020 ✅', ARRAY['chandan-reddy-k', 'CodesbyUnnati'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2764,8 +2766,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (291694523, 2, 0, 1, 0, 27, 'ramazansakin/sample-spring-microservices', 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', ARRAY['ramazansakin', 'piomin'], '2022-02-23T23:35:41.043146+00:00'),
 (291779008, 294, 15, 1, 0, 5, 'get-woke/woke', 'Detect non-inclusive language in your source code.', ARRAY['caitlinelfring', 'cognitivegears'], '2022-02-23T23:35:41.043146+00:00'),
 (291783886, 3, 0, 1, 0, 4, 'teezzan/cdEnv', 'cdEnv is a self-hostable and secured system for storing keys and variables for different environments and projects. It allows easy access via HTTP API and CLI.', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
-(290247146, 2101, 16, 1, 0, 7, 'mitmath/18S191', 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ARRAY['fonsp', 'shashi'], '2022-02-23T23:35:41.043146+00:00'),
-(290264556, 4, 0, 1, 0, 27, 'Gloryness/Multiprocessing-in-PyQt5', 'Use this program to test how many threads can run at once while doing the same tasks.', ARRAY['Gloryness'], '2022-02-23T23:35:41.043146+00:00'),
 (291930234, 1527, 41, 2, 0, 24, 'testjavascript/nodejs-integration-tests-best-practices', '✅  Master the art of the most powerful testing technique for Node.js: Component tests. Including super-comprehensive best practices list and an example app (November 2021)', ARRAY['goldbergyoni', 'mikicho'], '2022-02-23T23:35:41.043146+00:00'),
 (291985571, 106, 5, 1, 0, 20, 'Praful932/Kitabe', 'Book Recommendation System built for Book Lovers📖. Simply Rate ⭐ some books and get immediate recommendations🤩', ARRAY['Praful932', 'maneprajakta'], '2022-02-23T23:35:41.043146+00:00'),
 (292232897, 158, 6, 1, 0, 3, 'frederikme/TinderBotz', 'Automated Tinder bot and scraper using selenium in python.', ARRAY['frederikme', 'acarter881'], '2022-02-23T23:35:41.043146+00:00'),
