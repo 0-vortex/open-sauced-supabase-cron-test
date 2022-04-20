@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T16:55:40.909Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T18:46:33.998Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2551,7 +2551,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (264742473, 1906, 29, 1, 0, 2, 'fontsource/fontsource', 'Self-host Open Source fonts in neatly bundled NPM packages.', ARRAY['DecliningLotus', 'fontsource-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (264748339, 232, 18, 1, 0, 23, 'amiantos/pibar', 'PiBar for Pi-hole - Manage your Pi-hole(s) from your macOS menu bar!', ARRAY['amiantos'], '2022-02-23T23:35:41.043146+00:00'),
 (264806346, 24, 0, 1, 0, 24, 'justmedude/pylotoncycle', 'Python Library for getting your Peloton workout data', ARRAY['justmedude', 'fabaff'], '2022-02-23T23:35:41.043146+00:00'),
-(265001174, 2, 0, 1, 0, 27, 'misterhtmlcss/twitter-todo-app', 'Twitterati - TODO App', ARRAY['misterhtmlcss'], '2022-02-23T23:35:41.043146+00:00'),
 (265122478, 8080, 322, 2, 0, 12, 'ManimCommunity/manim', 'A community-maintained Python framework for creating mathematical animations. ', ARRAY['3b1b', 'leotrs'], '2022-02-23T23:35:41.043146+00:00'),
 (265215050, 705, 7, 2, 0, 10, 'asos-craigmorten/opine', 'Fast, minimalist web framework for Deno ported from ExpressJS.', ARRAY['asos-craigmorten', 'cmorten'], '2022-02-23T23:35:41.043146+00:00'),
 (265283491, 39, 0, 1, 0, 11, 'open-sauced/beybot', 'This is a twitch bot built with the ComfyJS library 💅🏾', ARRAY['bdougie', 'filiptronicek'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2572,6 +2571,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-23T23:35:41.043146+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-23T23:35:41.043146+00:00'),
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-23T23:35:41.043146+00:00'),
+(265001174, 2, 0, 1, 0, 27, 'misterhtmlcss/twitter-todo-app', 'Twitterati - TODO App', ARRAY['misterhtmlcss'], '2022-02-23T23:35:41.043146+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-23T23:35:41.043146+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-23T23:35:41.043146+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-23T23:35:41.043146+00:00'),
