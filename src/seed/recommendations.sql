@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T14:44:29.062Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T16:55:08.808Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2866,8 +2866,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (310047727, 19, 0, 1, 0, 13, 'codeSTACKr/mega-menu', null, ARRAY['codeSTACKr'], '2022-02-23T23:35:41.043146+00:00'),
 (308573793, 123, 11, 1, 0, 18, 'testsmt/yinyang', 'A fuzzing framework for SMT solvers', ARRAY['wintered', 'muchang'], '2022-02-23T23:35:41.043146+00:00'),
 (310064429, 2, 0, 1, 0, 17, 'fedecalendino/spotify-data-reader', null, ARRAY['fedecalendino'], '2022-02-23T23:35:41.043146+00:00'),
-(309228394, 3, 0, 1, 0, 1, 'Himujjal/libytdl', 'A c library for downloading YT videos written in Nim', ARRAY['Himujjal'], '2022-02-23T23:35:41.043146+00:00'),
 (310226997, 857, 8, 1, 0, 2, 'antfu/ni', '💡 Use the right package manager', ARRAY['antfu', 'privatenumber'], '2022-02-23T23:35:41.043146+00:00'),
+(309228394, 3, 0, 1, 0, 1, 'Himujjal/libytdl', 'A c library for downloading YT videos written in Nim', ARRAY['Himujjal'], '2022-02-23T23:35:41.043146+00:00'),
 (309068302, 26, 4, 1, 0, 17, 'KalleHallden/NameGenRoulette', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (310456670, 3780, 22, 1, 0, 9, 'BuilderIO/mitosis', 'Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more. ', ARRAY['steve8708', 'Dkendal'], '2022-02-23T23:35:41.043146+00:00'),
 (310490480, 16, 0, 1, 0, 17, 'cachecleanerjeet/readme-stats-github', 'Generate your GitHub''s Stats in SVG', ARRAY['avipatilpro'], '2022-02-23T23:35:41.043146+00:00'),
