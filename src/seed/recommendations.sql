@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T01:04:38.626Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T03:17:12.523Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3122,10 +3122,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (345219371, 19, 0, 1, 0, 3, 'lukexyz/lightweight', 'algorithmic booty maximiser 💪🎯💪 ', ARRAY['lukexyz'], '2022-02-23T23:35:41.043146+00:00'),
 (345368765, 7448, 11, 2, 0, 21, 'NvChad/NvChad', 'An attempt to make neovim cli as functional as an IDE while being very beautiful, blazing fast.', ARRAY['siduck', 'Akianonymus'], '2022-02-23T23:35:41.043146+00:00'),
 (345376495, 94, 1, 1, 0, 8, 'levelsio/inflationchart', 'The stock market inflation adjusted for the US-money supply', ARRAY['levelsio', 'daniellockyer'], '2022-02-23T23:35:41.043146+00:00'),
-(345529420, 1, 1, 2, 0, 0, 'sophiezhng/pomopy', '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', ARRAY['sophiezhng'], '2022-02-23T23:35:41.043146+00:00'),
 (345606467, 159, 0, 1, 0, 5, 'themesberg/glass-ui', 'CSS UI library based on the glassmorphism design specifications', ARRAY['zoltanszogyenyi'], '2022-02-23T23:35:41.043146+00:00'),
 (345707949, 13, 5, 1, 0, 21, 'kotest/kotest-assertions-arrow', 'Kotest extentsions for Arrow', ARRAY['sksamuel', 'i-walker'], '2022-02-23T23:35:41.043146+00:00'),
 (345722773, 21, 0, 1, 0, 20, 'Dev-Simulator/8-bit-env', null, ARRAY['mikedane'], '2022-02-23T23:35:41.043146+00:00'),
+(345529420, 1, 1, 2, 0, 0, 'sophiezhng/pomopy', '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', ARRAY['sophiezhng'], '2022-02-23T23:35:41.043146+00:00'),
 (345922282, 5108, 8, 1, 0, 3, 'Saul-Mirone/milkdown', '🍼 Plugin driven WYSIWYG  markdown editor framework.', ARRAY['Saul-Mirone', 'xiadd'], '2022-02-23T23:35:41.043146+00:00'),
 (345956598, 196, 3, 1, 0, 25, 'irevenko/octotui', '🐙🐱🖥️ GitHub stats in your terminal', ARRAY['irevenko', 'spenserblack'], '2022-02-23T23:35:41.043146+00:00'),
 (346048523, 3, 0, 1, 0, 23, 'udberg/Tasklist', 'Go from idea to action in seconds with Tasklist’s simple boards, list, and cards. This is a fun, flexible, and free way to organize plans, projects, and more. It has an elegant design and makes doing things fun. In this project, you can list tasks you want to perform in order of their priorities. The tasks automatically clear after it has been marked as completed.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
