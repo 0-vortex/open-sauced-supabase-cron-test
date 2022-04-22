@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T06:48:37.928Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T10:46:31.670Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -827,9 +827,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (46624643, 4842, 138, 1, 0, 29, 'zplug/zplug', ':hibiscus: A next-generation plugin manager for zsh', ARRAY['b4b4r07', 'NigoroJr'], '2022-02-23T23:35:41.043146+00:00'),
 (46641250, 3596, 297, 1, 0, 24, 'codeceptjs/CodeceptJS', 'Supercharged End 2 End Testing Framework for NodeJS', ARRAY['DavertMik', 'PeterNgTr'], '2022-02-23T23:35:41.043146+00:00'),
 (46853356, 7, 20, 1, 0, 14, 'razorpay/razorpay-dot-net', 'Razorpay .NET SDK', ARRAY['sunnyagg', 'jitendra-1217'], '2022-02-23T23:35:41.043146+00:00'),
+(47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-23T23:35:41.043146+00:00'),
 (46958040, 2720, 37, 1, 0, 11, 'tapaswenipathak/Open-Source-Programs', 'A list of open source programs.', ARRAY['tapaswenipathak', 'emetowinner'], '2022-02-23T23:35:41.043146+00:00'),
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-23T23:35:41.043146+00:00'),
-(47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-23T23:35:41.043146+00:00'),
 (47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-23T23:35:41.043146+00:00'),
 (47996258, 1325, 42, 1, 0, 13, 'thoughtworks/talisman', 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ARRAY['svishwanath-tw', 'harinee'], '2022-02-23T23:35:41.043146+00:00'),
 (47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-23T23:35:41.043146+00:00'),
