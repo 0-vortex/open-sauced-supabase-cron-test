@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T06:47:46.674Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T08:46:12.756Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3605,8 +3605,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (410474951, 5, 8, 1, 0, 4, 'moonshotcollective/moonswap', null, ARRAY['farque65', 'QEDK'], '2022-02-23T23:35:41.043146+00:00'),
 (411003249, 14, 2, 2, 0, 10, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-23T23:35:41.043146+00:00'),
 (411618332, 15, 0, 1, 0, 4, 'avinash201199/Hacktoberfest-Guide', 'Beginner''s guide to Hacktoberfest', ARRAY['avinash201199', 'sd78912'], '2022-02-23T23:35:41.043146+00:00'),
-(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-23T23:35:41.043146+00:00'),
 (412480152, 56, 22, 1, 0, 12, 'pyGuru123/HackFest21', 'Only valid pull requests will be allowed. Use python only and readme changes will not be accepted.', ARRAY['pyGuru123', 'alphasingh'], '2022-02-23T23:35:41.043146+00:00'),
+(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-23T23:35:41.043146+00:00'),
 (412662918, 57, 24, 1, 0, 0, 'Developer-DAO/DAO-job-board', 'A job board connecting DAOs with talent.', ARRAY['angeljgomezc', 'PBillingsby'], '2022-02-23T23:35:41.043146+00:00'),
 (412750377, 1036, 11, 1, 0, 0, 'Panshak/arcinvoice', 'Fullstack open source Invoicing application made with MongoDB, Express, React & Nodejs (MERN)', ARRAY['panshak', 'Orivoir'], '2022-02-23T23:35:41.043146+00:00'),
 (413169379, 65, 6, 1, 0, 16, 'MohmedIkram/Hacktoberfest2021', 'This Repository for Hacktoberfest Fest 2021. Contribute anything for your T-shirt, must be relevant that can add some value to this repo.', ARRAY['MohmedIkram', '8G6'], '2022-02-23T23:35:41.043146+00:00'),
