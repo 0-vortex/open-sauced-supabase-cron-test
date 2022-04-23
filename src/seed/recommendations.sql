@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T16:51:10.403Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T18:47:05.955Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3144,8 +3144,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (345038999, 1, 1, 1, 0, 1, 'brokorus/lilship', null, ARRAY['brokorus'], '2022-02-23T23:35:41.043146+00:00'),
 (348038429, 334, 2, 1, 0, 7, 'PrathamKumar14/CSS-Layout-Notes', 'HTML, CSS and JavaScript handwritten cheat sheets you💖', ARRAY['PrathamKumar14'], '2022-02-23T23:35:41.043146+00:00'),
 (348045692, 2, 1, 1, 0, 17, 'edemaine/shtml2html', 'Convert Apache server-side rendered HTML to static HTML', ARRAY['edemaine'], '2022-02-23T23:35:41.043146+00:00'),
-(347280413, 7, 1, 1, 0, 22, 'victorfarias98/arrayswithjavascript', null, ARRAY['victorfarias98', 'adrcav'], '2022-02-23T23:35:41.043146+00:00'),
 (348300013, 17, 12, 1, 0, 11, 'github/ghas-jira-integration', null, ARRAY['zbazztian', 'cmboling'], '2022-02-23T23:35:41.043146+00:00'),
+(347280413, 7, 1, 1, 0, 22, 'victorfarias98/arrayswithjavascript', null, ARRAY['victorfarias98', 'adrcav'], '2022-02-23T23:35:41.043146+00:00'),
 (348324348, 6, 0, 1, 0, 24, 'udberg/Transaction-App', 'This project is based on an app for grouping payments by a goal with your family/friends. The contents of this website are personalized, i.e., - it can be for grouping hours spent on different projects at your university or for grouping kilometers by means of transportations in your family - anything that you can share with other people and group by some category. You can access all the design info (color, typography, layouts) in this link: https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding Design idea by Gregoire Vella on Behance.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (348959590, 303, 5, 1, 0, 7, 'HotPotatoC/twitter-clone', '🕊 Twitter Clone developed using Go + Vue 3 + Vite + TailwindCSS + PostgreSQL + Redis', ARRAY['HotPotatoC'], '2022-02-23T23:35:41.043146+00:00'),
 (349217272, 92, 2, 1, 0, 0, 'this-is-learning/rxjs-fundamentals-course', 'RxJS Fundamentals, an Open Learning course by This is Learning.', ARRAY['Armenvardanyan95', 'LayZeeDK'], '2022-02-23T23:35:41.043146+00:00'),
