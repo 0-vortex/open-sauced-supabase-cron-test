@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T10:45:28.577Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T12:52:44.346Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3619,8 +3619,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-23T23:35:41.043146+00:00'),
 (414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-23T23:35:41.043146+00:00'),
-(415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-23T23:35:41.043146+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-23T23:35:41.043146+00:00'),
+(415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-23T23:35:41.043146+00:00'),
 (416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-23T23:35:41.043146+00:00'),
 (416667263, 6, 0, 1, 0, 10, 'hwslabs/grpc-kotlin-starter', 'A gRPC Kotlin based server and client starter that builds with Gradle and runs on the JVM', ARRAY['kartickvijayakumar'], '2022-02-23T23:35:41.043146+00:00'),
 (417156746, 29, 0, 1, 0, 1, 'mpetuska/kon', 'Kotlin Object Notation - Lightweight DSL to build fluid JSON trees', ARRAY['mpetuska'], '2022-02-23T23:35:41.043146+00:00'),
