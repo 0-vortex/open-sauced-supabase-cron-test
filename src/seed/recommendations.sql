@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T08:46:20.080Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T10:45:28.533Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -942,8 +942,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (56459948, 5675, 186, 1, 0, 14, 'GoogleCloudPlatform/training-data-analyst', 'Labs and demos for courses for GCP Training (http://cloud.google.com/training).', ARRAY['lakshmanok', 'gstripling'], '2022-02-23T23:35:41.043146+00:00'),
 (56471910, 65, 0, 1, 0, 8, 'nathanchapman/mayonnaise.js', '🎺  Fake data generator for JS, courtesy of Patrick Star', ARRAY['nathanchapman', 'YoshGuenther'], '2022-02-23T23:35:41.043146+00:00'),
 (56549856, 101, 13, 2, 0, 6, 'fennifith/Pasta-for-Spotify', 'A material design Spotify client for Android', ARRAY['fennifith', 'TheAndroidMaster'], '2022-02-23T23:35:41.043146+00:00'),
-(56717493, 28904, 18, 1, 0, 13, 'joshbuchea/HEAD', 'A simple guide to HTML <head> elements', ARRAY['joshbuchea', 'scottaohara'], '2022-02-23T23:35:41.043146+00:00'),
-(56791509, 745, 3, 1, 0, 26, 'andrzejchm/RESTMock', 'HTTP Server for Android Instrumentation tests', ARRAY['andrzejchm', 'jwir3'], '2022-02-23T23:35:41.043146+00:00'),
 (56894212, 4635, 33, 1, 0, 4, 'jvm-profiling-tools/async-profiler', 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ARRAY['apangin', 'incubos'], '2022-02-23T23:35:41.043146+00:00'),
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-23T23:35:41.043146+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-23T23:35:41.043146+00:00'),
@@ -954,6 +952,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-23T23:35:41.043146+00:00'),
 (58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-23T23:35:41.043146+00:00'),
 (58298428, 977, 704, 1, 0, 7, 'zulip/zulip-mobile', 'The Zulip app for Android and iOS.', ARRAY['gnprice', 'chrisbobbe'], '2022-02-23T23:35:41.043146+00:00'),
+(56717493, 28904, 18, 1, 0, 13, 'joshbuchea/HEAD', 'A simple guide to HTML <head> elements', ARRAY['joshbuchea', 'scottaohara'], '2022-02-23T23:35:41.043146+00:00'),
+(56791509, 745, 3, 1, 0, 26, 'andrzejchm/RESTMock', 'HTTP Server for Android Instrumentation tests', ARRAY['andrzejchm', 'jwir3'], '2022-02-23T23:35:41.043146+00:00'),
 (58842707, 24303, 110, 1, 0, 8, 'trailofbits/algo', 'Set up a personal VPN in the cloud', ARRAY['jackivanov', 'dguido'], '2022-02-23T23:35:41.043146+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-23T23:35:41.043146+00:00'),
 (59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1260,8 +1260,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (91599439, 42, 7, 1, 0, 4, 'KatDevsGames/z3randomizer', 'Zelda 3 Randomizer Template ASM', ARRAY['KatDevsGames', 'KevinCathcart'], '2022-02-23T23:35:41.043146+00:00'),
 (91653269, 4605, 38, 1, 0, 2, 'akiraux/Akira', 'Native Linux App for UI and UX Design built in Vala and GTK', ARRAY['Alecaddd', 'giacomoalbe'], '2022-02-23T23:35:41.043146+00:00'),
 (91948540, 6180, 393, 1, 0, 16, 'ranaroussi/yfinance', 'Download market data from Yahoo! Finance''s API', ARRAY['ranaroussi', 'bradmetz'], '2022-02-23T23:35:41.043146+00:00'),
-(92283780, 364, 6, 1, 0, 28, 'fastify/fastify-nextjs', 'React server side rendering support for Fastify with Next', ARRAY['mcollina', 'delvedor'], '2022-02-23T23:35:41.043146+00:00'),
 (92266575, 105, 32, 1, 0, 26, 'thinhvo0108/react-paypal-express-checkout', 'React component that renders Paypal''s express check out button', ARRAY['thinhvo0108', 'grahamannett'], '2022-02-23T23:35:41.043146+00:00'),
+(92283780, 364, 6, 1, 0, 28, 'fastify/fastify-nextjs', 'React server side rendering support for Fastify with Next', ARRAY['mcollina', 'delvedor'], '2022-02-23T23:35:41.043146+00:00'),
 (92865843, 1308, 22, 1, 0, 21, 'vmbrasseur/Public_Speaking', 'A repository of resources about public speaking, specifically in the context of software development and IT conferences.', ARRAY['vmbrasseur', 'lisaychuang'], '2022-02-23T23:35:41.043146+00:00'),
 (92945094, 1093, 117, 1, 0, 21, 'uswitch/kiam', 'Integrate AWS IAM with Kubernetes', ARRAY['pingles', 'rhysemmas'], '2022-02-23T23:35:41.043146+00:00'),
 (93098251, 11, 0, 1, 0, 10, 'gradvohl/tese-ft', 'Template para trabalhos de conclusão de curso, dissertações e teses da Faculdade de Tecnologia da UNICAMP', ARRAY['gradvohl'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3197,9 +3197,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-23T23:35:41.043146+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-23T23:35:41.043146+00:00'),
+(357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-23T23:35:41.043146+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-23T23:35:41.043146+00:00'),
-(357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-23T23:35:41.043146+00:00'),
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-23T23:35:41.043146+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-23T23:35:41.043146+00:00'),
