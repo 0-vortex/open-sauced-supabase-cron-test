@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T04:48:35.152Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T08:46:20.080Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1260,8 +1260,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (91599439, 42, 7, 1, 0, 4, 'KatDevsGames/z3randomizer', 'Zelda 3 Randomizer Template ASM', ARRAY['KatDevsGames', 'KevinCathcart'], '2022-02-23T23:35:41.043146+00:00'),
 (91653269, 4605, 38, 1, 0, 2, 'akiraux/Akira', 'Native Linux App for UI and UX Design built in Vala and GTK', ARRAY['Alecaddd', 'giacomoalbe'], '2022-02-23T23:35:41.043146+00:00'),
 (91948540, 6180, 393, 1, 0, 16, 'ranaroussi/yfinance', 'Download market data from Yahoo! Finance''s API', ARRAY['ranaroussi', 'bradmetz'], '2022-02-23T23:35:41.043146+00:00'),
-(92266575, 105, 32, 1, 0, 26, 'thinhvo0108/react-paypal-express-checkout', 'React component that renders Paypal''s express check out button', ARRAY['thinhvo0108', 'grahamannett'], '2022-02-23T23:35:41.043146+00:00'),
 (92283780, 364, 6, 1, 0, 28, 'fastify/fastify-nextjs', 'React server side rendering support for Fastify with Next', ARRAY['mcollina', 'delvedor'], '2022-02-23T23:35:41.043146+00:00'),
+(92266575, 105, 32, 1, 0, 26, 'thinhvo0108/react-paypal-express-checkout', 'React component that renders Paypal''s express check out button', ARRAY['thinhvo0108', 'grahamannett'], '2022-02-23T23:35:41.043146+00:00'),
 (92865843, 1308, 22, 1, 0, 21, 'vmbrasseur/Public_Speaking', 'A repository of resources about public speaking, specifically in the context of software development and IT conferences.', ARRAY['vmbrasseur', 'lisaychuang'], '2022-02-23T23:35:41.043146+00:00'),
 (92945094, 1093, 117, 1, 0, 21, 'uswitch/kiam', 'Integrate AWS IAM with Kubernetes', ARRAY['pingles', 'rhysemmas'], '2022-02-23T23:35:41.043146+00:00'),
 (93098251, 11, 0, 1, 0, 10, 'gradvohl/tese-ft', 'Template para trabalhos de conclusão de curso, dissertações e teses da Faculdade de Tecnologia da UNICAMP', ARRAY['gradvohl'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3197,9 +3197,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-23T23:35:41.043146+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-23T23:35:41.043146+00:00'),
-(357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-23T23:35:41.043146+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-23T23:35:41.043146+00:00'),
+(357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-23T23:35:41.043146+00:00'),
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-23T23:35:41.043146+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-23T23:35:41.043146+00:00'),
