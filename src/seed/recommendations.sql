@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T14:44:26.351Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T16:53:06.696Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -425,7 +425,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
 (14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
-(14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
 (14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-23T23:35:41.043146+00:00'),
 (14902556, 6705, 26, 1, 0, 22, 'offensive-security/exploitdb', 'The official Exploit Database repository', ARRAY['g0tmi1k', 'unix-ninja'], '2022-02-23T23:35:41.043146+00:00'),
@@ -437,6 +436,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15117334, 3, 1, 1, 0, 5, 'thlorenz/update-section', 'Updates a section inside a file with newer content while removing the old content.', ARRAY['thlorenz'], '2022-02-23T23:35:41.043146+00:00'),
 (15062869, 37455, 1686, 2, 0, 5, 'facebook/jest', 'Delightful JavaScript Testing.', ARRAY['SimenB', 'cpojer'], '2022-02-23T23:35:41.043146+00:00'),
 (15185110, 392, 25, 1, 0, 17, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'danyshaanan'], '2022-02-23T23:35:41.043146+00:00'),
+(14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (15204860, 52941, 26, 2, 1, 0, 'papers-we-love/papers-we-love', 'Papers from the computer science community to read and discuss.', ARRAY['zeeshanlakhani', 'DarrenN'], '2022-02-23T23:35:41.043146+00:00'),
 (15393566, 5075, 21, 1, 1, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-23T23:35:41.043146+00:00'),
 (15367540, 968, 190, 1, 0, 27, 'jruizgit/rules', 'Durable Rules Engine', ARRAY['jruizgit', 'hea-lab'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2992,8 +2992,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326460518, 1130, 7, 1, 0, 22, 'ratfactor/ziglings', 'Learn the Zig programming language by fixing tiny broken programs.', ARRAY['ratfactor', 'Palm404'], '2022-02-23T23:35:41.043146+00:00'),
 (326532559, 2, 0, 1, 0, 11, 'lesmo/pi-home', 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', ARRAY['balena-ci', 'chrisys'], '2022-02-23T23:35:41.043146+00:00'),
 (326604100, 89, 9, 1, 0, 24, 'jthegedus/svelte-adapter-firebase', 'SvelteKit adapter for Firebase Hosting rewrites to Cloud Functions for a Svelte SSR experience', ARRAY['jthegedus', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-23T23:35:41.043146+00:00'),
 (326619924, 110, 1, 1, 0, 5, 'samuelkraft/samuelkraft-next', 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', ARRAY['samuelkraft'], '2022-02-23T23:35:41.043146+00:00'),
+(326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-23T23:35:41.043146+00:00'),
 (326622912, 9, 1, 1, 0, 5, 'davidteren/rails61-tailwind2', 'Rails 6.1, TailwindCSS 2.0 & PostCSS 8.0 setup.', ARRAY['davidteren'], '2022-02-23T23:35:41.043146+00:00'),
 (327036990, 1, 0, 1, 0, 13, 'MattMarquise/Lifestyle-Blog', null, ARRAY['MattMarquise'], '2022-02-23T23:35:41.043146+00:00'),
 (327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-23T23:35:41.043146+00:00'),
