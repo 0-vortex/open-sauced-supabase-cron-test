@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T06:48:56.686Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T10:46:25.976Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -64,9 +64,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (611921, 9097, 392, 1, 0, 24, 'activeadmin/activeadmin', 'The administration framework for Ruby on Rails applications.', ARRAY['deivid-rodriguez', 'seanlinsley'], '2022-02-23T23:35:41.043146+00:00'),
 (612230, 54085, 335, 1, 0, 9, 'nvm-sh/nvm', 'Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions', ARRAY['ljharb', 'PeterDaveHello'], '2022-02-23T23:35:41.043146+00:00'),
 (661127, 2, 0, 1, 0, 22, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-23T23:35:41.043146+00:00'),
-(667561, 34373, 303, 2, 0, 22, 'Marak/faker.js', 'generate massive amounts of realistic fake data in Node.js and the browser', ARRAY['Marak', 'FotoVerite'], '2022-02-23T23:35:41.043146+00:00'),
 (712530, 20981, 263, 1, 0, 0, 'fabricjs/fabric.js', 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', ARRAY['kangax', 'asturur'], '2022-02-23T23:35:41.043146+00:00'),
 (715082, 6719, 65, 1, 0, 16, 'reactiveui/ReactiveUI', 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', ARRAY['anaisbetts', 'jlaanstra'], '2022-02-23T23:35:41.043146+00:00'),
+(667561, 34373, 303, 2, 0, 22, 'Marak/faker.js', 'generate massive amounts of realistic fake data in Node.js and the browser', ARRAY['Marak', 'FotoVerite'], '2022-02-23T23:35:41.043146+00:00'),
 (724712, 61717, 8143, 2, 1, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-23T23:35:41.043146+00:00'),
 (734957, 7279, 105, 1, 0, 0, 'kelektiv/node-cron', 'Cron for NodeJS.', ARRAY['ncb000gt', 'jodevsa'], '2022-02-23T23:35:41.043146+00:00'),
 (778828, 4111, 8, 1, 0, 27, 'MassTransit/MassTransit', 'Distributed Application Framework for .NET', ARRAY['phatboyg', 'drusellers'], '2022-02-23T23:35:41.043146+00:00'),
