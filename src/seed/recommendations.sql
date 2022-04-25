@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T12:55:57.191Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T14:44:26.351Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2992,8 +2992,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326460518, 1130, 7, 1, 0, 22, 'ratfactor/ziglings', 'Learn the Zig programming language by fixing tiny broken programs.', ARRAY['ratfactor', 'Palm404'], '2022-02-23T23:35:41.043146+00:00'),
 (326532559, 2, 0, 1, 0, 11, 'lesmo/pi-home', 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', ARRAY['balena-ci', 'chrisys'], '2022-02-23T23:35:41.043146+00:00'),
 (326604100, 89, 9, 1, 0, 24, 'jthegedus/svelte-adapter-firebase', 'SvelteKit adapter for Firebase Hosting rewrites to Cloud Functions for a Svelte SSR experience', ARRAY['jthegedus', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(326619924, 110, 1, 1, 0, 5, 'samuelkraft/samuelkraft-next', 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', ARRAY['samuelkraft'], '2022-02-23T23:35:41.043146+00:00'),
 (326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-23T23:35:41.043146+00:00'),
+(326619924, 110, 1, 1, 0, 5, 'samuelkraft/samuelkraft-next', 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', ARRAY['samuelkraft'], '2022-02-23T23:35:41.043146+00:00'),
 (326622912, 9, 1, 1, 0, 5, 'davidteren/rails61-tailwind2', 'Rails 6.1, TailwindCSS 2.0 & PostCSS 8.0 setup.', ARRAY['davidteren'], '2022-02-23T23:35:41.043146+00:00'),
 (327036990, 1, 0, 1, 0, 13, 'MattMarquise/Lifestyle-Blog', null, ARRAY['MattMarquise'], '2022-02-23T23:35:41.043146+00:00'),
 (327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-23T23:35:41.043146+00:00'),
