@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T16:53:06.696Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T18:49:09.698Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -425,6 +425,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
 (14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
+(14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
 (14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-23T23:35:41.043146+00:00'),
 (14902556, 6705, 26, 1, 0, 22, 'offensive-security/exploitdb', 'The official Exploit Database repository', ARRAY['g0tmi1k', 'unix-ninja'], '2022-02-23T23:35:41.043146+00:00'),
@@ -436,7 +437,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15117334, 3, 1, 1, 0, 5, 'thlorenz/update-section', 'Updates a section inside a file with newer content while removing the old content.', ARRAY['thlorenz'], '2022-02-23T23:35:41.043146+00:00'),
 (15062869, 37455, 1686, 2, 0, 5, 'facebook/jest', 'Delightful JavaScript Testing.', ARRAY['SimenB', 'cpojer'], '2022-02-23T23:35:41.043146+00:00'),
 (15185110, 392, 25, 1, 0, 17, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'danyshaanan'], '2022-02-23T23:35:41.043146+00:00'),
-(14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (15204860, 52941, 26, 2, 1, 0, 'papers-we-love/papers-we-love', 'Papers from the computer science community to read and discuss.', ARRAY['zeeshanlakhani', 'DarrenN'], '2022-02-23T23:35:41.043146+00:00'),
 (15393566, 5075, 21, 1, 1, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-23T23:35:41.043146+00:00'),
 (15367540, 968, 190, 1, 0, 27, 'jruizgit/rules', 'Durable Rules Engine', ARRAY['jruizgit', 'hea-lab'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3404,8 +3404,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-23T23:35:41.043146+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-23T23:35:41.043146+00:00'),
 (384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
-(384524698, 320, 0, 1, 0, 28, 'salvia-kit/salvia-kit', 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ARRAY['enochndika'], '2022-02-23T23:35:41.043146+00:00'),
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-23T23:35:41.043146+00:00'),
+(384524698, 320, 0, 1, 0, 28, 'salvia-kit/salvia-kit', 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ARRAY['enochndika'], '2022-02-23T23:35:41.043146+00:00'),
 (384873391, 42, 1, 1, 0, 17, 'developer-student-club-thapar/GSoC-Proposals-Archive', 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ARRAY['specter25', 'Saurav-Shrivastav'], '2022-02-23T23:35:41.043146+00:00'),
 (384915975, 29, 8, 1, 0, 25, 'DarthBenro008/rchore', 'An feature packed Google Tasks CLI written purely in Rust', ARRAY['DarthBenro008', 'caioeverest'], '2022-02-23T23:35:41.043146+00:00'),
 (385037052, 1133, 27, 1, 0, 22, 'ahrm/sioyek', 'Sioyek is a PDF viewer designed for reading research papers and technical books.', ARRAY['ahrm', 'Endle'], '2022-02-23T23:35:41.043146+00:00'),
