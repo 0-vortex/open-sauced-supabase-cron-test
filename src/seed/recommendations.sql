@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T12:59:19.588Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T14:44:22.421Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -661,8 +661,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (32883944, 171, 1, 1, 0, 28, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-23T23:35:41.043146+00:00'),
 (33015583, 53532, 262, 1, 0, 4, 'keras-team/keras', 'Deep Learning for humans', ARRAY['fchollet', 'qlzh727'], '2022-02-23T23:35:41.043146+00:00'),
 (33082868, 11194, 13, 1, 0, 18, 'sqshq/piggymetrics', 'Microservice Architecture with Spring Boot, Spring Cloud and Docker', ARRAY['sqshq', 'chidov'], '2022-02-23T23:35:41.043146+00:00'),
-(33157169, 4217, 50, 1, 0, 12, 'libcpr/cpr', 'C++ Requests: Curl for People, a spiritual port of Python Requests.', ARRAY['whoshuu', 'COM8'], '2022-02-23T23:35:41.043146+00:00'),
 (33212527, 1074, 75, 1, 0, 4, 'RailsEventStore/rails_event_store', 'A Ruby implementation of an Event Store based on Active Record', ARRAY['pawelpacana', 'mpraglowski'], '2022-02-23T23:35:41.043146+00:00'),
+(33157169, 4217, 50, 1, 0, 12, 'libcpr/cpr', 'C++ Requests: Curl for People, a spiritual port of Python Requests.', ARRAY['whoshuu', 'COM8'], '2022-02-23T23:35:41.043146+00:00'),
 (33294473, 6769, 177, 1, 0, 28, 'snowie2000/mactype', 'Better font rendering for Windows.', ARRAY['snowie2000', 'sammilucia'], '2022-02-23T23:35:41.043146+00:00'),
 (33546872, 834, 11, 1, 0, 6, 'cimgui/cimgui', 'c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets', ARRAY['sonoro1234', 'extrawurst'], '2022-02-23T23:35:41.043146+00:00'),
 (33614304, 65272, 234, 1, 0, 12, 'nvbn/thefuck', 'Magnificent app which corrects your previous console command.', ARRAY['nvbn', 'scorphus'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2228,11 +2228,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (219324014, 118, 11, 1, 0, 29, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-23T23:35:41.043146+00:00'),
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-23T23:35:41.043146+00:00'),
 (219415760, 33, 0, 1, 0, 11, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-23T23:35:41.043146+00:00'),
-(219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-23T23:35:41.043146+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-23T23:35:41.043146+00:00'),
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-23T23:35:41.043146+00:00'),
 (220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-23T23:35:41.043146+00:00'),
+(219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-23T23:35:41.043146+00:00'),
 (220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-23T23:35:41.043146+00:00'),
 (220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-23T23:35:41.043146+00:00'),
 (220809393, 31786, 40, 2, 0, 1.5, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-23T23:35:41.043146+00:00'),
