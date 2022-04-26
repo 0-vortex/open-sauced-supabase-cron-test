@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T04:52:16.738Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T06:48:28.773Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3208,8 +3208,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-23T23:35:41.043146+00:00'),
 (358596380, 119, 2, 1, 0, 17, 'developedbyed/explore', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (358604857, 1, 0, 1, 0, 3, 'ppdcNG/storytime-disi', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
-(358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
 (358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-23T23:35:41.043146+00:00'),
+(358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
 (358985215, 21, 20, 1, 0, 2, 'jitterted/mobreg', 'Remote Mob Programming Organizer', ARRAY['tedyoung'], '2022-02-23T23:35:41.043146+00:00'),
 (359410930, 5, 0, 1, 0, 26, 'udberg/Restaurant', 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (359620519, 2, 0, 1, 0, 4, 'UbuntuEvangelist/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
