@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T10:46:38.555Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T12:59:19.588Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -661,8 +661,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (32883944, 171, 1, 1, 0, 28, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-23T23:35:41.043146+00:00'),
 (33015583, 53532, 262, 1, 0, 4, 'keras-team/keras', 'Deep Learning for humans', ARRAY['fchollet', 'qlzh727'], '2022-02-23T23:35:41.043146+00:00'),
 (33082868, 11194, 13, 1, 0, 18, 'sqshq/piggymetrics', 'Microservice Architecture with Spring Boot, Spring Cloud and Docker', ARRAY['sqshq', 'chidov'], '2022-02-23T23:35:41.043146+00:00'),
-(33212527, 1074, 75, 1, 0, 4, 'RailsEventStore/rails_event_store', 'A Ruby implementation of an Event Store based on Active Record', ARRAY['pawelpacana', 'mpraglowski'], '2022-02-23T23:35:41.043146+00:00'),
 (33157169, 4217, 50, 1, 0, 12, 'libcpr/cpr', 'C++ Requests: Curl for People, a spiritual port of Python Requests.', ARRAY['whoshuu', 'COM8'], '2022-02-23T23:35:41.043146+00:00'),
+(33212527, 1074, 75, 1, 0, 4, 'RailsEventStore/rails_event_store', 'A Ruby implementation of an Event Store based on Active Record', ARRAY['pawelpacana', 'mpraglowski'], '2022-02-23T23:35:41.043146+00:00'),
 (33294473, 6769, 177, 1, 0, 28, 'snowie2000/mactype', 'Better font rendering for Windows.', ARRAY['snowie2000', 'sammilucia'], '2022-02-23T23:35:41.043146+00:00'),
 (33546872, 834, 11, 1, 0, 6, 'cimgui/cimgui', 'c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets', ARRAY['sonoro1234', 'extrawurst'], '2022-02-23T23:35:41.043146+00:00'),
 (33614304, 65272, 234, 1, 0, 12, 'nvbn/thefuck', 'Magnificent app which corrects your previous console command.', ARRAY['nvbn', 'scorphus'], '2022-02-23T23:35:41.043146+00:00'),
