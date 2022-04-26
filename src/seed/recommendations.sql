@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T01:04:42.838Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T03:14:16.887Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1797,9 +1797,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (159774835, 719, 0, 1, 0, 2, 'rajasegar/awesome-micro-frontends', 'An Awesome list of posts, videos and tutorials on Micro Frontends', ARRAY['rajasegar', 'marconi1992'], '2022-02-23T23:35:41.043146+00:00'),
 (160651810, 210, 4, 1, 0, 3, 'markjprice/cs8dotnetcore3', 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', ARRAY['markjprice', 'Semro'], '2022-02-23T23:35:41.043146+00:00'),
 (160834617, 572, 144, 1, 0, 27, 'react-native-webrtc/react-native-callkeep', 'iOS CallKit framework and Android ConnectionService for React Native', ARRAY['manuquentin', 'ianlin'], '2022-02-23T23:35:41.043146+00:00'),
+(160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-23T23:35:41.043146+00:00'),
 (159876616, 6315, 207, 1, 0, 14, 'gaearon/overreacted.io', 'Personal blog by Dan Abramov.', ARRAY['gaearon', 'carburo'], '2022-02-23T23:35:41.043146+00:00'),
 (160253491, 2506, 40, 1, 0, 24, 'fullstorydev/grpcui', 'An interactive web UI for gRPC, along the lines of postman', ARRAY['jhump', 'gtg471h'], '2022-02-23T23:35:41.043146+00:00'),
-(160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-23T23:35:41.043146+00:00'),
 (160919119, 39896, 1277, 1, 0, 6, 'tiangolo/fastapi', 'FastAPI framework, high performance, easy to learn, fast to code, ready for production', ARRAY['tiangolo', 'waynerv'], '2022-02-23T23:35:41.043146+00:00'),
 (161034589, 222, 1, 1, 0, 22, 'joshwcomeau/tinkersynth', 'An experimental art project. Create unique art through serendipitous discovery.', ARRAY['joshwcomeau', 'Harmon758'], '2022-02-23T23:35:41.043146+00:00'),
 (161215159, 4767, 9, 1, 0, 24, 'othneildrew/Best-README-Template', 'An awesome README template to jumpstart your projects! ', ARRAY['othneildrew', 'douglascayers'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3374,8 +3374,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381428539, 11, 0, 1, 0, 18, 'satyawikananda/elucidator-blog-starter', 'Opinionated Vue 3 + Vite + Typescript blog starter ⚔', ARRAY['satyawikananda', 'ifirmawan'], '2022-02-23T23:35:41.043146+00:00'),
 (381575565, 25, 12, 1, 0, 20, 'tjhorner/archivebox-exporter', 'Automatically or manually send pages from your browser to your ArchiveBox for archival.', ARRAY['tjhorner'], '2022-02-23T23:35:41.043146+00:00'),
 (381629965, 8, 0, 1, 0, 20, 'zuramai/go-microservice-starter', 'Microservice Boilerplate for Golang with gRPC and RESTful API. Multiple database and client supported', ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
-(381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
+(381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
 (381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
