@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T03:14:16.887Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T04:52:16.738Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3208,8 +3208,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-23T23:35:41.043146+00:00'),
 (358596380, 119, 2, 1, 0, 17, 'developedbyed/explore', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (358604857, 1, 0, 1, 0, 3, 'ppdcNG/storytime-disi', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
-(358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-23T23:35:41.043146+00:00'),
 (358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
+(358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-23T23:35:41.043146+00:00'),
 (358985215, 21, 20, 1, 0, 2, 'jitterted/mobreg', 'Remote Mob Programming Organizer', ARRAY['tedyoung'], '2022-02-23T23:35:41.043146+00:00'),
 (359410930, 5, 0, 1, 0, 26, 'udberg/Restaurant', 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (359620519, 2, 0, 1, 0, 4, 'UbuntuEvangelist/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3374,8 +3374,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381428539, 11, 0, 1, 0, 18, 'satyawikananda/elucidator-blog-starter', 'Opinionated Vue 3 + Vite + Typescript blog starter ⚔', ARRAY['satyawikananda', 'ifirmawan'], '2022-02-23T23:35:41.043146+00:00'),
 (381575565, 25, 12, 1, 0, 20, 'tjhorner/archivebox-exporter', 'Automatically or manually send pages from your browser to your ArchiveBox for archival.', ARRAY['tjhorner'], '2022-02-23T23:35:41.043146+00:00'),
 (381629965, 8, 0, 1, 0, 20, 'zuramai/go-microservice-starter', 'Microservice Boilerplate for Golang with gRPC and RESTful API. Multiple database and client supported', ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
-(381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
 (381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
+(381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
 (381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
 (381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
