@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T18:49:09.698Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T01:04:42.838Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1797,9 +1797,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (159774835, 719, 0, 1, 0, 2, 'rajasegar/awesome-micro-frontends', 'An Awesome list of posts, videos and tutorials on Micro Frontends', ARRAY['rajasegar', 'marconi1992'], '2022-02-23T23:35:41.043146+00:00'),
 (160651810, 210, 4, 1, 0, 3, 'markjprice/cs8dotnetcore3', 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', ARRAY['markjprice', 'Semro'], '2022-02-23T23:35:41.043146+00:00'),
 (160834617, 572, 144, 1, 0, 27, 'react-native-webrtc/react-native-callkeep', 'iOS CallKit framework and Android ConnectionService for React Native', ARRAY['manuquentin', 'ianlin'], '2022-02-23T23:35:41.043146+00:00'),
-(160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-23T23:35:41.043146+00:00'),
 (159876616, 6315, 207, 1, 0, 14, 'gaearon/overreacted.io', 'Personal blog by Dan Abramov.', ARRAY['gaearon', 'carburo'], '2022-02-23T23:35:41.043146+00:00'),
 (160253491, 2506, 40, 1, 0, 24, 'fullstorydev/grpcui', 'An interactive web UI for gRPC, along the lines of postman', ARRAY['jhump', 'gtg471h'], '2022-02-23T23:35:41.043146+00:00'),
+(160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-23T23:35:41.043146+00:00'),
 (160919119, 39896, 1277, 1, 0, 6, 'tiangolo/fastapi', 'FastAPI framework, high performance, easy to learn, fast to code, ready for production', ARRAY['tiangolo', 'waynerv'], '2022-02-23T23:35:41.043146+00:00'),
 (161034589, 222, 1, 1, 0, 22, 'joshwcomeau/tinkersynth', 'An experimental art project. Create unique art through serendipitous discovery.', ARRAY['joshwcomeau', 'Harmon758'], '2022-02-23T23:35:41.043146+00:00'),
 (161215159, 4767, 9, 1, 0, 24, 'othneildrew/Best-README-Template', 'An awesome README template to jumpstart your projects! ', ARRAY['othneildrew', 'douglascayers'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3404,8 +3404,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-23T23:35:41.043146+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-23T23:35:41.043146+00:00'),
 (384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
-(383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-23T23:35:41.043146+00:00'),
 (384524698, 320, 0, 1, 0, 28, 'salvia-kit/salvia-kit', 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ARRAY['enochndika'], '2022-02-23T23:35:41.043146+00:00'),
+(383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-23T23:35:41.043146+00:00'),
 (384873391, 42, 1, 1, 0, 17, 'developer-student-club-thapar/GSoC-Proposals-Archive', 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ARRAY['specter25', 'Saurav-Shrivastav'], '2022-02-23T23:35:41.043146+00:00'),
 (384915975, 29, 8, 1, 0, 25, 'DarthBenro008/rchore', 'An feature packed Google Tasks CLI written purely in Rust', ARRAY['DarthBenro008', 'caioeverest'], '2022-02-23T23:35:41.043146+00:00'),
 (385037052, 1133, 27, 1, 0, 22, 'ahrm/sioyek', 'Sioyek is a PDF viewer designed for reading research papers and technical books.', ARRAY['ahrm', 'Endle'], '2022-02-23T23:35:41.043146+00:00'),
