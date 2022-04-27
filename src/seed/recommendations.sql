@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T08:46:53.222Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T10:46:12.145Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2723,8 +2723,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (285135417, 3, 0, 1, 0, 29, 'erkrnt/sample-web-frameworks', 'This repo includes a variety of current frameworks and bundlers.', ARRAY['erkrnt'], '2022-02-23T23:35:41.043146+00:00'),
 (285261414, 312, 2, 1, 0, 14, 'codrops/MagneticButtons', 'A set of buttons with a magnetic interaction and a hover effect.', ARRAY['botelho', 'crnacura'], '2022-02-23T23:35:41.043146+00:00'),
 (285504186, 356, 1, 1, 0, 6, 'didicodes/javascript-dev-bookmarks', 'A collection of articles that will help you get better at JavaScript.', ARRAY['didicodes', 'emmanuellar'], '2022-02-23T23:35:41.043146+00:00'),
-(285625792, 14, 1, 1, 0, 1, 'stripe-samples/connect-onboarding-for-express', 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ARRAY['kho-stripe', 'cjavilla-stripe'], '2022-02-23T23:35:41.043146+00:00'),
 (285635423, 59, 4, 1, 0, 18, 'magiclabs/example-nextjs', null, ARRAY['hcote', 'FYJen'], '2022-02-23T23:35:41.043146+00:00'),
+(285625792, 14, 1, 1, 0, 1, 'stripe-samples/connect-onboarding-for-express', 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ARRAY['kho-stripe', 'cjavilla-stripe'], '2022-02-23T23:35:41.043146+00:00'),
 (285695824, 19, 0, 1, 0, 6, 'beamkenya/ex_pesa', 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ARRAY['manuelgeek', 'lenileiro'], '2022-02-23T23:35:41.043146+00:00'),
 (285782908, 3, 0, 1, 0, 0, 'jmc265/dotfiles', null, ARRAY['bw-jamescross', 'jmc265'], '2022-02-23T23:35:41.043146+00:00'),
 (285998667, 245, 6, 1, 0, 5, 'keiya01/react-performance-testing', 'A library to test runtime performance in React', ARRAY['keiya01', 'JulienBlacas'], '2022-02-23T23:35:41.043146+00:00'),
