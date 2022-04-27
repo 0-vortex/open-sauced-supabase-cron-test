@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T12:56:43.809Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T14:44:38.219Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3270,8 +3270,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (366871642, 6, 6, 1, 0, 0, 'deepgram/python-sdk', 'Official Python SDK for Deepgram''s automated speech recognition APIs.', ARRAY['frumsdotxyz', 'phazonoverload'], '2022-02-23T23:35:41.043146+00:00'),
 (367045564, 549, 9, 1, 0, 25, 'trekhleb/self-parking-car-evolution', '🧬 Training the car to do self-parking using a genetic algorithm', ARRAY['trekhleb', 'martincostello'], '2022-02-23T23:35:41.043146+00:00'),
 (367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-23T23:35:41.043146+00:00'),
-(367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-23T23:35:41.043146+00:00'),
 (367390690, 289, 0, 1, 0, 1, 'MarcoWorms/learn.js', '📒 A fast introduction to programming with JavaScript modern features', ARRAY['MarcoWorms', 'otaviopace'], '2022-02-23T23:35:41.043146+00:00'),
+(367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-23T23:35:41.043146+00:00'),
 (367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-23T23:35:41.043146+00:00'),
 (367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-23T23:35:41.043146+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3522,8 +3522,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (396169668, 1, 0, 1, 0, 1, 'lesmo/pinentry-wsl-ps1', 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', ARRAY['diablodale'], '2022-02-23T23:35:41.043146+00:00'),
 (396327436, 181, 0, 1, 0, 25, 'devkodeio/the-dom-challenge', 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ARRAY['sunnypuri'], '2022-02-23T23:35:41.043146+00:00'),
 (396178107, 1, 0, 1, 0, 1, 'abdamah/SpringBoot2SecurityJwt', null, ARRAY['abdamah'], '2022-02-23T23:35:41.043146+00:00'),
-(396613541, 305, 3, 1, 0, 29, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'userquin'], '2022-02-23T23:35:41.043146+00:00'),
 (396419975, 2, 0, 1, 0, 5, 'shubhank-saxena/GSoC-Final-Report', null, ARRAY['shubhank-saxena'], '2022-02-23T23:35:41.043146+00:00'),
+(396613541, 305, 3, 1, 0, 29, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'userquin'], '2022-02-23T23:35:41.043146+00:00'),
 (396850383, 5, 21, 1, 0, 2, 'pixiebrix/webext-messenger', 'Browser Extension component messaging framework', ARRAY['fregante', 'twschiller'], '2022-02-23T23:35:41.043146+00:00'),
 (396905552, 5, 0, 1, 0, 5, 'chuvakpavel/MKDemoApp', null, ARRAY['chuvakpavel'], '2022-02-23T23:35:41.043146+00:00'),
 (397041032, 15, 82, 1, 0, 0, 'WordPress/Documentation-Issue-Tracker', 'Issue Tracker for the WordPress Documentation team.', ARRAY['Kenshino', 'zzap'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3660,10 +3660,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-23T23:35:41.043146+00:00'),
 (431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-23T23:35:41.043146+00:00'),
+(431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (432493110, 1, 0, 1, 0, 11, 'divyakelaskar/MagicHat', 'An AR filter of a hat 🎩', ARRAY['divyakelaskar'], '2022-02-23T23:35:41.043146+00:00'),
 (432685277, 209, 0, 1, 0, 0, 'joelthelion/life_web', 'Life simulation written in rust', ARRAY['joelthelion', 'Robbepop'], '2022-02-23T23:35:41.043146+00:00'),
 (432722169, 4, 0, 1, 0, 9, 'mrwilson/advent-of-code-2021', 'It''s back. It''s worse.', ARRAY['mrwilson'], '2022-02-23T23:35:41.043146+00:00'),
-(431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-23T23:35:41.043146+00:00'),
 (438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-23T23:35:41.043146+00:00'),
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
