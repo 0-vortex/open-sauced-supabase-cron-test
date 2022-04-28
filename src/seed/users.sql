@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T03:36:22.156Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T05:03:42.234Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -229,12 +229,6 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (103691815, 0, false, true, 'TheTestTestington', '2022-04-14T21:04:32.10666+00:00'),
 (33100863, 1, false, true, 'cedriking', '2022-04-19T23:17:02.535163+00:00'),
 (907680, 5, false, true, 'deenadayalancs', '2022-02-23T23:37:08.741086+00:00'),
-(55883854, 2, false, true, 'nworiekingslee', '2022-04-22T13:52:09.951643+00:00'),
-(48335772, 0, false, true, 'LauraLangdon', '2022-04-25T15:33:25.895366+00:00'),
-(87914378, 0, false, true, 'Y4HYA4', '2022-04-26T15:47:22.368505+00:00'),
-(79736938, 0, false, true, 'Nyanjuimarvin', '2022-04-26T15:47:22.36396+00:00'),
-(33266556, 0, false, true, 'honeynegi', '2022-04-26T16:21:27.177287+00:00'),
-(12782646, 4, false, true, 'lcy101u', '2022-04-26T16:22:00.864109+00:00'),
 (47524279, 0, true, true, 'projectashik', '2022-04-19T14:53:36.973741+00:00'),
 (28269, 0, false, true, 'coloradobum', '2022-03-10T18:55:01.828769+00:00'),
 (19353972, 2, false, true, 'TaEduard', '2022-04-06T21:45:31.143476+00:00'),
@@ -253,5 +247,11 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (9283692, 0, true, true, 'mpmccauley', '2022-03-08T04:08:54.779609+00:00'),
 (60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:46:49.288539+00:00'),
 (91504362, 0, false, true, 'AHTHneeuhl', '2022-04-21T08:52:29.625503+00:00'),
+(48335772, 0, false, true, 'LauraLangdon', '2022-04-25T15:33:25.895366+00:00'),
+(87914378, 0, false, true, 'Y4HYA4', '2022-04-26T15:47:22.368505+00:00'),
+(79736938, 0, false, true, 'Nyanjuimarvin', '2022-04-26T15:47:22.36396+00:00'),
+(33266556, 0, false, true, 'honeynegi', '2022-04-26T16:21:27.177287+00:00'),
+(55883854, 2, false, true, 'nworiekingslee', '2022-04-22T13:52:09.951643+00:00'),
+(12782646, 4, false, true, 'lcy101u', '2022-04-26T16:22:00.864109+00:00'),
 (2207, 0, false, true, 'spirozh', '2022-04-16T19:25:27.542326+00:00'),
 (33669114, 1, false, true, 'peteroneilljr', '2022-02-23T23:37:08.741086+00:00');
