@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T12:57:27.165Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T16:52:56.704Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2849,8 +2849,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (306759773, 27, 1, 1, 0, 12, 'Daggy1234/polaroid', 'Hyper Fast and safe image manipulation library for python . Powered by rust.', ARRAY['Daggy1234', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (306617095, 348, 16, 1, 0, 4, 'developedbyed/3d-card-effect', null, ARRAY['Shubhamdutta2000', 'developedbyed'], '2022-02-23T23:35:41.043146+00:00'),
 (306762726, 33, 0, 1, 0, 16, 'ZihanWangKi/XClass', null, ARRAY['ZihanWangKi', 'lakshaymehra'], '2022-02-23T23:35:41.043146+00:00'),
-(306971358, 35, 0, 1, 0, 12, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', null, ARRAY['imadovitch'], '2022-02-23T23:35:41.043146+00:00'),
 (306969638, 9, 0, 1, 0, 6, 'ShallotJS/shallot', 'A middleware framework for serverless functions written in TypeScript or JavaScript.', ARRAY['baileytincher'], '2022-02-23T23:35:41.043146+00:00'),
+(306971358, 35, 0, 1, 0, 12, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', null, ARRAY['imadovitch'], '2022-02-23T23:35:41.043146+00:00'),
 (307058658, 5, 0, 1, 0, 7, 'maxgallo/talk-micro-frontends-migration', 'Slides and resources for the talk', ARRAY['maxgallo'], '2022-02-23T23:35:41.043146+00:00'),
 (307397117, 90, 25, 1, 0, 20, 'getsentry/sentry-capacitor', 'The official Sentry SDK for Capacitor', ARRAY['cSparkle', 'jennmueng'], '2022-02-23T23:35:41.043146+00:00'),
 (307489284, 12408, 642, 1, 0, 0, 'remix-run/remix', 'Build Better Websites. Create modern, resilient user experiences with web fundamentals.', ARRAY['mjackson', 'ryanflorence'], '2022-02-23T23:35:41.043146+00:00'),
