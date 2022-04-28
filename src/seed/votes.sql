@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T05:03:42.545Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T06:49:40.389Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -40,8 +40,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (71, 44076215, 'open-sauced/hot', '44076215-open-sauced/hot', '2022-01-18T19:59:10.341079+00:00'),
 (73, 44076215, 'flutter/flutter', '44076215-flutter/flutter', '2022-01-18T20:01:27.390085+00:00'),
 (74, 44076215, 'rust-lang/rust', '44076215-rust-lang/rust', '2022-01-18T20:01:34.320373+00:00'),
-(67, 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners', '2022-01-17T22:42:32.01327+00:00'),
 (77, 44076215, 'tensorflow/tensorflow', '44076215-tensorflow/tensorflow', '2022-01-18T20:01:59.3206+00:00'),
+(67, 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners', '2022-01-17T22:42:32.01327+00:00'),
 (80, 11777161, 'poliva/pyqtggpo', '11777161-poliva/pyqtggpo', '2022-01-19T21:01:27.264885+00:00'),
 (79, 11777161, 'typescript-cheatsheets/react', '11777161-typescript-cheatsheets/react', '2022-01-19T19:55:40.067419+00:00'),
 (83, 5713670, '11ty/eleventy', '5713670-11ty/eleventy', '2022-01-19T22:23:08.528674+00:00'),

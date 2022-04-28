@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T05:03:43.044Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T06:49:40.769Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -114,8 +114,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (1542281, 1140, 13, 1, 0, 6, 'ChrisMarinos/FSharpKoans', 'A simple, fun, and interactive way to learn the F# language through testing.', ARRAY['ChrisMarinos', 'dsyme'], '2022-02-23T23:35:41.043146+00:00'),
 (1548202, 15727, 1880, 1, 0, 10, 'matomo-org/matomo', 'Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! ', ARRAY['mattab', 'tsteur'], '2022-02-23T23:35:41.043146+00:00'),
 (1626929, 19, 2, 1, 0, 15, 'teamrabu/rabu-schedule', 'Tools and ideas for product scheduling, with the goal of creating exemplary customer relationships.', ARRAY['jamesshore', 'curious-attempt-bunny'], '2022-02-23T23:35:41.043146+00:00'),
-(1644196, 37569, 4370, 2, 0, 12.5, 'JuliaLang/julia', 'The Julia Programming Language', ARRAY['JeffBezanson', 'StefanKarpinski'], '2022-02-23T23:35:41.043146+00:00'),
 (1661758, 10340, 98, 1, 0, 16, 'restify/node-restify', 'The future of Node.js REST development', ARRAY['mcavage', 'yunong'], '2022-02-23T23:35:41.043146+00:00'),
+(1644196, 37569, 4370, 2, 0, 12.5, 'JuliaLang/julia', 'The Julia Programming Language', ARRAY['JeffBezanson', 'StefanKarpinski'], '2022-02-23T23:35:41.043146+00:00'),
 (1685764, 18468, 144, 1, 0, 28, 'dhg/Skeleton', 'Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development', ARRAY['dhg', 'rauchg'], '2022-02-23T23:35:41.043146+00:00'),
 (1672647, 1333, 1, 1, 0, 24, 'clojure/core.logic', null, ARRAY['swannodette', 'namin'], '2022-02-23T23:35:41.043146+00:00'),
 (1700621, 46228, 68, 1, 0, 21, 'necolas/normalize.css', 'A modern alternative to CSS resets', ARRAY['necolas', 'jonathantneal'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3657,8 +3657,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-23T23:35:41.043146+00:00'),
 (430789888, 111, 22, 1, 0, 2, 'Developer-DAO/web3-ui', 'The UI library for web3', ARRAY['etr2460', 'Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-23T23:35:41.043146+00:00'),
-(431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-23T23:35:41.043146+00:00'),
+(431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-23T23:35:41.043146+00:00'),
 (431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (432493110, 1, 0, 1, 0, 11, 'divyakelaskar/MagicHat', 'An AR filter of a hat 🎩', ARRAY['divyakelaskar'], '2022-02-23T23:35:41.043146+00:00'),
