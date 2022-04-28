@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T06:49:40.769Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T08:47:19.188Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -114,8 +114,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (1542281, 1140, 13, 1, 0, 6, 'ChrisMarinos/FSharpKoans', 'A simple, fun, and interactive way to learn the F# language through testing.', ARRAY['ChrisMarinos', 'dsyme'], '2022-02-23T23:35:41.043146+00:00'),
 (1548202, 15727, 1880, 1, 0, 10, 'matomo-org/matomo', 'Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! ', ARRAY['mattab', 'tsteur'], '2022-02-23T23:35:41.043146+00:00'),
 (1626929, 19, 2, 1, 0, 15, 'teamrabu/rabu-schedule', 'Tools and ideas for product scheduling, with the goal of creating exemplary customer relationships.', ARRAY['jamesshore', 'curious-attempt-bunny'], '2022-02-23T23:35:41.043146+00:00'),
-(1661758, 10340, 98, 1, 0, 16, 'restify/node-restify', 'The future of Node.js REST development', ARRAY['mcavage', 'yunong'], '2022-02-23T23:35:41.043146+00:00'),
 (1644196, 37569, 4370, 2, 0, 12.5, 'JuliaLang/julia', 'The Julia Programming Language', ARRAY['JeffBezanson', 'StefanKarpinski'], '2022-02-23T23:35:41.043146+00:00'),
+(1661758, 10340, 98, 1, 0, 16, 'restify/node-restify', 'The future of Node.js REST development', ARRAY['mcavage', 'yunong'], '2022-02-23T23:35:41.043146+00:00'),
 (1685764, 18468, 144, 1, 0, 28, 'dhg/Skeleton', 'Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development', ARRAY['dhg', 'rauchg'], '2022-02-23T23:35:41.043146+00:00'),
 (1672647, 1333, 1, 1, 0, 24, 'clojure/core.logic', null, ARRAY['swannodette', 'namin'], '2022-02-23T23:35:41.043146+00:00'),
 (1700621, 46228, 68, 1, 0, 21, 'necolas/normalize.css', 'A modern alternative to CSS resets', ARRAY['necolas', 'jonathantneal'], '2022-02-23T23:35:41.043146+00:00'),
