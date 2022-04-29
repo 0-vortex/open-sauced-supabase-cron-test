@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T01:04:39.602Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T03:17:18.296Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -166,10 +166,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2935735, 33717, 2791, 1, 0, 7, 'adobe/brackets', 'An open source code editor for the web, written in JavaScript, HTML and CSS.', ARRAY['redmunds', 'jasonsanjose'], '2022-02-23T23:35:41.043146+00:00'),
 (2994517, 5983, 2, 1, 0, 16, 'i18next/i18next', ' i18next: learn once - translate everywhere', ARRAY['jamuhl', 'adrai'], '2022-02-23T23:35:41.043146+00:00'),
 (3028781, 4988, 171, 1, 0, 17, 'petervanderdoes/gitflow-avh', 'AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen''s branching model', ARRAY['petervanderdoes', 'nvie'], '2022-02-23T23:35:41.043146+00:00'),
-(3058202, 552, 22, 1, 0, 3, 'rdfjs/N3.js', 'Lightning fast, spec-compatible, streaming RDF for JavaScript', ARRAY['RubenVerborgh', 'rubensworks'], '2022-02-23T23:35:41.043146+00:00'),
 (3073296, 6477, 86, 1, 0, 24, 'SirVer/ultisnips', 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', ARRAY['SirVer', 'seletskiy'], '2022-02-23T23:35:41.043146+00:00'),
 (3100121, 38634, 884, 1, 0, 2, 'nwjs/nw.js', 'Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.', ARRAY['rogerwang', 'zcbenz'], '2022-02-23T23:35:41.043146+00:00'),
 (3100494, 3610, 147, 1, 0, 23, 'fzaninotto/uptime', 'A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.', ARRAY['fzaninotto', 'PopDaph'], '2022-02-23T23:35:41.043146+00:00'),
+(3058202, 552, 22, 1, 0, 3, 'rdfjs/N3.js', 'Lightning fast, spec-compatible, streaming RDF for JavaScript', ARRAY['RubenVerborgh', 'rubensworks'], '2022-02-23T23:35:41.043146+00:00'),
 (3105906, 7276, 29, 1, 0, 26, 'PharkMillups/beautiful-docs', 'Pointers to useful, well-written, and otherwise beautiful documentation.', ARRAY['PharkMillups', 'logankoester'], '2022-02-23T23:35:41.043146+00:00'),
 (3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-23T23:35:41.043146+00:00'),
 (3168392, 6, 0, 1, 0, 11, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2002,6 +2002,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198025959, 1201, 0, 1, 0, 23, 'layrjs/layr', 'Dramatically simplify full‑stack development', ARRAY['mvila', 'Igsu-Bravo'], '2022-02-23T23:35:41.043146+00:00'),
 (188299874, 2401, 420, 1, 0, 21, 'input-output-hk/cardano-node', 'The core component that is used to participate in a Cardano decentralised blockchain.', ARRAY['dcoutts', 'Jimbo4350'], '2022-02-23T23:35:41.043146+00:00'),
 (188380025, 688, 41, 1, 0, 27, 'nice-boys/product-boilerplate', 'Quickly ship your apps with the power of code generation.', ARRAY['mxstbr', 'brianlovin'], '2022-02-23T23:35:41.043146+00:00'),
+(188450833, 130, 7, 1, 0, 3, 'jkettmann/graphql-passport', 'Strategy and utilities to use passport.js with GraphQL server', ARRAY['jkettmann', 'gforge'], '2022-02-23T23:35:41.043146+00:00'),
+(188660663, 32215, 57, 1, 0, 13, 'CorentinJ/Real-Time-Voice-Cloning', 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', ARRAY['CorentinJ', 'alexpeattie'], '2022-02-23T23:35:41.043146+00:00'),
 (188710490, 1646, 73, 1, 0, 20, 'davidteather/TikTok-Api', 'The Unofficial TikTok API Wrapper In Python', ARRAY['davidteather', 'hoylemd'], '2022-02-23T23:35:41.043146+00:00'),
 (188897728, 22, 37, 1, 0, 14, 'csinn/CSInn', 'C# Inn community website.', ARRAY['Almantask', 'HelloWorld183L'], '2022-02-23T23:35:41.043146+00:00'),
 (189098079, 105, 2, 1, 0, 4, 'lmammino/streams-workshop', 'A workshop on Node.js Streams', ARRAY['lmammino', 'brian-childress'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2016,8 +2018,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (190276130, 7, 0, 1, 0, 8, 'One-Language/Book', 'The book for a tutorial on ET Programming Language.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (190828339, 3, 0, 1, 0, 7, 'BaseMax/phpMusselBook', 'Documentation for phpMussel.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (191051391, 10799, 278, 1, 3, 0, 'redwoodjs/redwood', 'The App Framework for Startups', ARRAY['peterp', 'thedavidprice'], '2022-02-23T23:35:41.043146+00:00'),
-(188450833, 130, 7, 1, 0, 3, 'jkettmann/graphql-passport', 'Strategy and utilities to use passport.js with GraphQL server', ARRAY['jkettmann', 'gforge'], '2022-02-23T23:35:41.043146+00:00'),
-(188660663, 32215, 57, 1, 0, 13, 'CorentinJ/Real-Time-Voice-Cloning', 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', ARRAY['CorentinJ', 'alexpeattie'], '2022-02-23T23:35:41.043146+00:00'),
 (191302278, 125, 5, 1, 0, 10, 'mjackson/rollup-plugin-url-resolve', 'Use URLs in your Rollup imports', ARRAY['mreinstein', 'mjackson'], '2022-02-23T23:35:41.043146+00:00'),
 (191414235, 758, 4, 4, 0, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-23T23:35:41.043146+00:00'),
 (191445024, 462, 14, 2, 0, 15.5, 'sastava007/Tech-Interview-Preparation', 'A one stop solution to ace your next coding interview 👨‍💻', ARRAY['sastava007', 'skrishan07'], '2022-02-23T23:35:41.043146+00:00'),
