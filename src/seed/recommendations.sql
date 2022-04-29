@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T03:17:18.296Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T04:52:30.818Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -166,10 +166,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2935735, 33717, 2791, 1, 0, 7, 'adobe/brackets', 'An open source code editor for the web, written in JavaScript, HTML and CSS.', ARRAY['redmunds', 'jasonsanjose'], '2022-02-23T23:35:41.043146+00:00'),
 (2994517, 5983, 2, 1, 0, 16, 'i18next/i18next', ' i18next: learn once - translate everywhere', ARRAY['jamuhl', 'adrai'], '2022-02-23T23:35:41.043146+00:00'),
 (3028781, 4988, 171, 1, 0, 17, 'petervanderdoes/gitflow-avh', 'AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen''s branching model', ARRAY['petervanderdoes', 'nvie'], '2022-02-23T23:35:41.043146+00:00'),
+(3058202, 552, 22, 1, 0, 3, 'rdfjs/N3.js', 'Lightning fast, spec-compatible, streaming RDF for JavaScript', ARRAY['RubenVerborgh', 'rubensworks'], '2022-02-23T23:35:41.043146+00:00'),
 (3073296, 6477, 86, 1, 0, 24, 'SirVer/ultisnips', 'UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!', ARRAY['SirVer', 'seletskiy'], '2022-02-23T23:35:41.043146+00:00'),
 (3100121, 38634, 884, 1, 0, 2, 'nwjs/nw.js', 'Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.', ARRAY['rogerwang', 'zcbenz'], '2022-02-23T23:35:41.043146+00:00'),
 (3100494, 3610, 147, 1, 0, 23, 'fzaninotto/uptime', 'A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.', ARRAY['fzaninotto', 'PopDaph'], '2022-02-23T23:35:41.043146+00:00'),
-(3058202, 552, 22, 1, 0, 3, 'rdfjs/N3.js', 'Lightning fast, spec-compatible, streaming RDF for JavaScript', ARRAY['RubenVerborgh', 'rubensworks'], '2022-02-23T23:35:41.043146+00:00'),
 (3105906, 7276, 29, 1, 0, 26, 'PharkMillups/beautiful-docs', 'Pointers to useful, well-written, and otherwise beautiful documentation.', ARRAY['PharkMillups', 'logankoester'], '2022-02-23T23:35:41.043146+00:00'),
 (3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-23T23:35:41.043146+00:00'),
 (3168392, 6, 0, 1, 0, 11, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-23T23:35:41.043146+00:00'),
