@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T08:48:01.561Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T12:57:47.887Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2953,8 +2953,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (345728485, 9, 0, 1, 0, 6, 'khang-nd/DEV-stats', 'Display DEV.to stat card anywhere', ARRAY['khang-nd'], '2022-02-23T23:35:41.043146+00:00'),
 (320609581, 1, 0, 1, 0, 20, 'HeavyBR/adventofcode', 'My solutions for Advent Of Code 2020, all of made with Go Language', ARRAY['HeavyBR'], '2022-02-23T23:35:41.043146+00:00'),
 (320826343, 21, 1, 1, 0, 16, 'RainerChiang/simpleness', 'hugo theme simpleness', ARRAY['RainerChiang', 'yzwdroid'], '2022-02-23T23:35:41.043146+00:00'),
-(320945731, 9, 0, 1, 0, 25, 'kyleoneill/CipherPunk', null, ARRAY['kyleoneill'], '2022-02-23T23:35:41.043146+00:00'),
 (321110055, 24, 3, 1, 0, 14, 'TriPSs/nx-extend', 'Nx Workspaces builders and tools', ARRAY['TriPSs', 'chrene'], '2022-02-23T23:35:41.043146+00:00'),
+(320945731, 9, 0, 1, 0, 25, 'kyleoneill/CipherPunk', null, ARRAY['kyleoneill'], '2022-02-23T23:35:41.043146+00:00'),
 (321294152, 895, 7, 1, 0, 18, 'singerdmx/flutter-quill', 'Rich text editor for Flutter', ARRAY['singerdmx', 'li3317'], '2022-02-23T23:35:41.043146+00:00'),
 (321331966, 344, 3, 1, 0, 28, 'aashrafh/Mozart', 'An optical music recognition (OMR) system. Converts sheet music to a machine-readable version.', ARRAY['aashrafh', 'AhmedMGZ7'], '2022-02-23T23:35:41.043146+00:00'),
 (321545207, 15, 1, 1, 0, 0, 'motiondeveloper/create-expression-lib', '🐱‍👤 CLI to create an After Effects expression library in TypeScript', ARRAY['timhaywood'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3376,8 +3376,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381629965, 8, 0, 1, 0, 20, 'zuramai/go-microservice-starter', 'Microservice Boilerplate for Golang with gRPC and RESTful API. Multiple database and client supported', ARRAY['zuramai'], '2022-02-23T23:35:41.043146+00:00'),
 (381747084, 14, 0, 1, 0, 20, 'Nazeeh21/Lottery-Contract', null, ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (381813837, 31, 1, 1, 0, 12, 'Servatom/Notion-DiscordBot', 'A discord bot consuming Notion API to add, retrieve data to Notion databases.', ARRAY['raghavTinker', 'rdotjain'], '2022-02-23T23:35:41.043146+00:00'),
-(381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (381881172, 233, 4, 1, 0, 7, 'sdras/js-explorer', 'Find the method you need without digging through the docs, directly on the command line!', ARRAY['sdras', 'anandshenoy14'], '2022-02-23T23:35:41.043146+00:00'),
+(381833558, 3, 0, 1, 0, 3, 'ganning127/catti', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-23T23:35:41.043146+00:00'),
 (381913988, 13, 0, 1, 0, 11, 'fosskers/validated', 'The cumulative sibling of `Result` and `Either`.', ARRAY['fosskers'], '2022-02-23T23:35:41.043146+00:00'),
 (382172039, 4, 1, 1, 0, 18, 'Helewud/Travel-Log-App', null, ARRAY['Helewud'], '2022-02-23T23:35:41.043146+00:00'),

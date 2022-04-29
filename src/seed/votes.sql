@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T08:48:00.748Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T12:57:47.541Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
