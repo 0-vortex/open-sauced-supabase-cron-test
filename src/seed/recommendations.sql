@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T14:44:18.920Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T16:52:52.706Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1817,10 +1817,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (162815665, 19104, 613, 1, 0, 0, 'notable/notable', 'The Markdown-based note-taking app that doesn''t suck.', ARRAY['fabiospampinato', 'RomanKornev'], '2022-02-23T23:35:41.043146+00:00'),
 (162442403, 1242, 15, 1, 0, 24, 'pankod/next-boilerplate', 'A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/', ARRAY['omeraplak', 'BatuhanW'], '2022-02-23T23:35:41.043146+00:00'),
 (162723104, 19367, 36, 2, 0, 7.5, 'OWASP/CheatSheetSeries', 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', ARRAY['righettod', 'jmanico'], '2022-02-23T23:35:41.043146+00:00'),
-(162405963, 4508, 38, 1, 0, 11, 'gradio-app/gradio', 'Create UIs for your machine learning model in Python in 3 minutes', ARRAY['abidlabs', 'aliabd'], '2022-02-23T23:35:41.043146+00:00'),
 (162977720, 1293, 1, 2, 0, 23.5, 'romenrg/evergreen-skills-developers', 'List of evergreen skills, based on software development best practices & cross-framework principles, that should serve as a fair assessment of skilled software engineers / developers', ARRAY['romenrg', 'axelhzf'], '2022-02-23T23:35:41.043146+00:00'),
 (163068024, 40, 0, 1, 0, 14, 'h44z/gitlab_to_gitea', 'Gitlab to Gitea migration script.', ARRAY['h44z', 'trailfog'], '2022-02-23T23:35:41.043146+00:00'),
 (163346054, 8022, 176, 1, 0, 24, 'ludwig-ai/ludwig', 'Data-centric declarative deep learning framework', ARRAY['w4nderlust', 'jimthompson5802'], '2022-02-23T23:35:41.043146+00:00'),
+(162405963, 4508, 38, 1, 0, 11, 'gradio-app/gradio', 'Create UIs for your machine learning model in Python in 3 minutes', ARRAY['abidlabs', 'aliabd'], '2022-02-23T23:35:41.043146+00:00'),
 (163492753, 8, 1, 1, 0, 21, 'felipecustodio/p5-starter', ':herb: Boilerplate for p5.js projects, including VSCode Intellisense and linting for HTML, CSS and JS.', ARRAY['felipecustodio'], '2022-02-23T23:35:41.043146+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-23T23:35:41.043146+00:00'),
 (163630911, 20, 2, 1, 0, 7, 'jsvine/visidata-plugins', 'A place for me to share VisiData plugins I''ve written.', ARRAY['jsvine', 'aborruso'], '2022-02-23T23:35:41.043146+00:00'),
