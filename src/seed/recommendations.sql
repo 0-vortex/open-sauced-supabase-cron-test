@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T01:04:43.737Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T03:09:50.878Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1597,13 +1597,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (133681780, 585, 3, 1, 0, 28, 'shalvah/DownloadThisVideo', 'Twitter bot for easily downloading videos/GIFs off tweets', ARRAY['shalvah', 'notpushkin'], '2022-02-23T23:35:41.043146+00:00'),
 (134035452, 13286, 379, 1, 0, 16, 'justadudewhohacks/face-api.js', 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', ARRAY['justadudewhohacks', 'jderrough'], '2022-02-23T23:35:41.043146+00:00'),
 (134042266, 1004, 8, 1, 0, 2, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-23T23:35:41.043146+00:00'),
-(134188447, 319, 14, 2, 0, 15, 'zero-to-mastery/JS_Fun_Practice', 'A list of small & fun functional programming exercises in JavaScript', ARRAY['SamirJouni', 'MattCSmith'], '2022-02-23T23:35:41.043146+00:00'),
 (134440972, 1226, 7, 1, 0, 13, 'prettier/plugin-ruby', 'Prettier Ruby Plugin', ARRAY['kddnewton', 'AlanFoster'], '2022-02-23T23:35:41.043146+00:00'),
 (134571997, 13, 0, 1, 0, 28, 'codingmamalabs/raspi-ansible', 'Ansible stuff for setting up Raspeberry Pis', ARRAY['erikaheidi'], '2022-02-23T23:35:41.043146+00:00'),
 (134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-23T23:35:41.043146+00:00'),
 (139191418, 192, 33, 1, 0, 7, 'accessibilitysupported/a11ysupport.io', 'Accessibility Support data for various HTML, ARIA, CSS, and SVG features', ARRAY['mfairchild365', 'RavenAlly'], '2022-02-23T23:35:41.043146+00:00'),
 (134734981, 32, 26, 1, 0, 2, 'berliCRM/berlicrm', 'From Berlin to Germany and Europe - an open source CRM Solution mainly for small and medium-sized businesses:  Visit https://www.berlicrm.de/', ARRAY['bbommer', 'AlexKay85'], '2022-02-23T23:35:41.043146+00:00'),
 (134777298, 1773, 278, 1, 0, 6, 'microsoft/vscode-pull-request-github', 'GitHub Pull Requests for Visual Studio Code', ARRAY['alexr00', 'rebornix'], '2022-02-23T23:35:41.043146+00:00'),
+(134188447, 319, 14, 2, 0, 15, 'zero-to-mastery/JS_Fun_Practice', 'A list of small & fun functional programming exercises in JavaScript', ARRAY['SamirJouni', 'MattCSmith'], '2022-02-23T23:35:41.043146+00:00'),
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-23T23:35:41.043146+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-23T23:35:41.043146+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2691,8 +2691,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (280068470, 739, 19, 1, 0, 19, 'Brooooooklyn/swc-node', 'Faster ts-node without typecheck', ARRAY['Brooooooklyn', 'h-a-n-a'], '2022-02-23T23:35:41.043146+00:00'),
 (280203463, 243, 10, 1, 0, 6, 'sadanandpai/single-page-resume-builder', 'Build a standard and professional single page resume', ARRAY['sadanandpai', 'gopal1996'], '2022-02-23T23:35:41.043146+00:00'),
 (280585832, 6, 0, 1, 0, 13, 'dannydeezy/bitcoin-book', 'A light technical introduction to bitcoin', ARRAY['dannydeezy', 'Zero-1729'], '2022-02-23T23:35:41.043146+00:00'),
-(280770211, 16, 8, 1, 0, 6, 'open-sauced/slaybot', 'Kind of like beybot, but this one slays 😎', ARRAY['bdougie', 'filiptronicek'], '2022-02-23T23:35:41.043146+00:00'),
 (280606117, 130, 3, 1, 0, 7, 'teoxoy/profile-readme-stats', 'Showcase your github stats on your profile README.md', ARRAY['teoxoy', 'aitikgupta'], '2022-02-23T23:35:41.043146+00:00'),
+(280770211, 16, 8, 1, 0, 6, 'open-sauced/slaybot', 'Kind of like beybot, but this one slays 😎', ARRAY['bdougie', 'filiptronicek'], '2022-02-23T23:35:41.043146+00:00'),
 (280940271, 1, 0, 1, 0, 23, 'Maduflavins/paystackimplementation', null, ARRAY['Maduflavins'], '2022-02-23T23:35:41.043146+00:00'),
 (280970918, 30, 0, 1, 0, 6, 'waynegakuo/portfolio', 'This is a simple & responsive personal portfolio that showcases one''s but not limited to experiences, education, projects, community work, profile and technical stack. Currently Open-Sourced', ARRAY['waynegakuo', 'Souravdey777'], '2022-02-23T23:35:41.043146+00:00'),
 (281151556, 466, 9, 2, 0, 12, 'Schrodinger-Hat/ImageGoNord', 'A tool that can convert your rgb images to nordtheme palette', ARRAY['TheJoin95', 'Wabri'], '2022-02-23T23:35:41.043146+00:00'),
