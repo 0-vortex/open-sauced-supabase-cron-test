@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T22:45:37.370Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T01:04:43.737Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2691,8 +2691,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (280068470, 739, 19, 1, 0, 19, 'Brooooooklyn/swc-node', 'Faster ts-node without typecheck', ARRAY['Brooooooklyn', 'h-a-n-a'], '2022-02-23T23:35:41.043146+00:00'),
 (280203463, 243, 10, 1, 0, 6, 'sadanandpai/single-page-resume-builder', 'Build a standard and professional single page resume', ARRAY['sadanandpai', 'gopal1996'], '2022-02-23T23:35:41.043146+00:00'),
 (280585832, 6, 0, 1, 0, 13, 'dannydeezy/bitcoin-book', 'A light technical introduction to bitcoin', ARRAY['dannydeezy', 'Zero-1729'], '2022-02-23T23:35:41.043146+00:00'),
-(280606117, 130, 3, 1, 0, 7, 'teoxoy/profile-readme-stats', 'Showcase your github stats on your profile README.md', ARRAY['teoxoy', 'aitikgupta'], '2022-02-23T23:35:41.043146+00:00'),
 (280770211, 16, 8, 1, 0, 6, 'open-sauced/slaybot', 'Kind of like beybot, but this one slays 😎', ARRAY['bdougie', 'filiptronicek'], '2022-02-23T23:35:41.043146+00:00'),
+(280606117, 130, 3, 1, 0, 7, 'teoxoy/profile-readme-stats', 'Showcase your github stats on your profile README.md', ARRAY['teoxoy', 'aitikgupta'], '2022-02-23T23:35:41.043146+00:00'),
 (280940271, 1, 0, 1, 0, 23, 'Maduflavins/paystackimplementation', null, ARRAY['Maduflavins'], '2022-02-23T23:35:41.043146+00:00'),
 (280970918, 30, 0, 1, 0, 6, 'waynegakuo/portfolio', 'This is a simple & responsive personal portfolio that showcases one''s but not limited to experiences, education, projects, community work, profile and technical stack. Currently Open-Sourced', ARRAY['waynegakuo', 'Souravdey777'], '2022-02-23T23:35:41.043146+00:00'),
 (281151556, 466, 9, 2, 0, 12, 'Schrodinger-Hat/ImageGoNord', 'A tool that can convert your rgb images to nordtheme palette', ARRAY['TheJoin95', 'Wabri'], '2022-02-23T23:35:41.043146+00:00'),
