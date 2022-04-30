@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T12:52:58.479Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T14:44:17.418Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3510,8 +3510,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395006251, 32, 5, 1, 0, 6, 'Lalit2005/paperclip', 'The only note taking and productivity tool you will ever need From notes, todo lists, sticky notes to pomorodo timer and HTML-CSS playgorund, Paperclip is everything you will ever need', ARRAY['Lalit2005'], '2022-02-23T23:35:41.043146+00:00'),
 (395073750, 5, 1, 1, 0, 15, 'CodingGarden/stream-topic-overlay', 'A simple overlay to display the current stream topic.', ARRAY['w3cj'], '2022-02-23T23:35:41.043146+00:00'),
 (395280574, 12, 1, 1, 0, 2, 'NdR91/NdR-PhoneUI', null, ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
-(395315972, 1, 0, 1, 0, 4, 'Rosh3639/tsf', 'Payment-Gateway-Integration', ARRAY['Rosh3639'], '2022-02-23T23:35:41.043146+00:00'),
 (395205818, 2, 0, 1, 0, 4, 'muhammaddzaky/muhammaddzaky.github.id', 'membuatwebsitemuhammaddzaky.id', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
+(395315972, 1, 0, 1, 0, 4, 'Rosh3639/tsf', 'Payment-Gateway-Integration', ARRAY['Rosh3639'], '2022-02-23T23:35:41.043146+00:00'),
 (395376449, 1, 0, 2, 0, 0, 'flan6/ml-cv-bot', 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', ARRAY['flan6'], '2022-02-23T23:35:41.043146+00:00'),
 (395413091, 1, 0, 1, 0, 0, 'Mintbean/junior-developer-job-boards', null, ARRAY['Jc-008', 'monarchwadia'], '2022-02-23T23:35:41.043146+00:00'),
 (395433628, 4, 0, 1, 0, 9, 'exegeteio/dapr-mini-api', null, ARRAY['exegeteio'], '2022-02-23T23:35:41.043146+00:00'),
