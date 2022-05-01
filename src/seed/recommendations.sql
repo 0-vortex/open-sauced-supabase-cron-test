@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T18:47:27.907Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T20:44:58.953Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3181,11 +3181,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (353859812, 176, 0, 1, 0, 19, 'btahir/next-shopify-starter', 'Nextjs + Tailwind CSS + Shopify Starter', ARRAY['btahir'], '2022-02-23T23:35:41.043146+00:00'),
 (354689732, 67, 38, 1, 0, 28, 'Tow-Boot/Tow-Boot', 'An opinionated distribution of U-Boot. — https://matrix.to/#/!JWXGMHFqMxxehcSBEN:matrix.org?via=matrix.org', ARRAY['samueldr', 'IreneKnapp'], '2022-02-23T23:35:41.043146+00:00'),
 (355109043, 2512, 1, 2, 0, 12.5, 'ml-tooling/opyrator', '🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more.', ARRAY['LukasMasuch', 'raethlein'], '2022-02-23T23:35:41.043146+00:00'),
-(355258557, 57, 0, 1, 0, 22, 'technorabilia/portainer-templates', 'Various Portainer App Templates', ARRAY['technorabilia'], '2022-02-23T23:35:41.043146+00:00'),
 (355298453, 20, 0, 1, 0, 26, 'myriadrf/lc-website', 'LibreCellular website', ARRAY['9600'], '2022-02-23T23:35:41.043146+00:00'),
 (355321589, 6, 0, 1, 0, 5, 'nuxtclub/feathericons', 'An easy way to integrate Feather Icons with NuxtJS', ARRAY['imlautaro'], '2022-02-23T23:35:41.043146+00:00'),
 (355395936, 56, 2, 1, 0, 6, 'xizon/poemkit', 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', ARRAY['xizon'], '2022-02-23T23:35:41.043146+00:00'),
 (355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-23T23:35:41.043146+00:00'),
+(355258557, 57, 0, 1, 0, 22, 'technorabilia/portainer-templates', 'Various Portainer App Templates', ARRAY['technorabilia'], '2022-02-23T23:35:41.043146+00:00'),
 (355825750, 4, 0, 1, 0, 25, 'udberg/JSLibrary', 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', ARRAY['udberg', 'keneogu'], '2022-02-23T23:35:41.043146+00:00'),
 (356007050, 2270, 13, 1, 0, 7, 'octokatherine/readme.so', null, ARRAY['octokatherine', 'jose-vale'], '2022-02-23T23:35:41.043146+00:00'),
 (356079886, 5, 2, 1, 0, 26, 'ezralazuardy/pathfinder', 'A simple, no-nonsense pathfinding algorithm visualizer web app ✨', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
