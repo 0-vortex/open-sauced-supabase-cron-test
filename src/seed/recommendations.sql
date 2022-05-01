@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T14:44:17.039Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T16:51:35.683Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2940,6 +2940,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (319475939, 6, 2, 1, 0, 26, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ARRAY['tapjdey', 'WillemJiang'], '2022-02-23T23:35:41.043146+00:00'),
 (319742187, 523, 296, 1, 0, 0, 'mdn/translated-content', 'All translated MDN content in raw form', ARRAY['mfuji09', 'SphinxKnight'], '2022-02-23T23:35:41.043146+00:00'),
 (319935795, 8, 0, 1, 0, 12, 'zawad2221/Twitter-Django-Bot', 'Twitter Bot who like and retweet #django #python. ', ARRAY['zawad2221'], '2022-02-23T23:35:41.043146+00:00'),
+(320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (320029758, 1, 0, 1, 0, 17, 'lokeshn011101/nextjs-tailwind-starter', 'A Next.js-Tailwind starter', ARRAY['lokeshn011101'], '2022-02-23T23:35:41.043146+00:00'),
 (320073577, 987, 2, 1, 0, 19, 'discord/focus-rings', 'A centralized system for displaying and stylizing focus indicators anywhere on a webpage.', ARRAY['faultyserver', 'aweary'], '2022-02-23T23:35:41.043146+00:00'),
 (320142424, 92, 1, 1, 0, 5, 'rern/rAudio-1', 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', ARRAY['rern'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2966,7 +2967,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322346823, 54, 1, 1, 0, 13, 'dimitrisraptis96/chakra-ui-navbar', 'Fully-responsive NavBar component for landing pages built with Chakra-UI. Check the full tutorial on my blog 👇', ARRAY['dimitrisraptis96'], '2022-02-23T23:35:41.043146+00:00'),
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-23T23:35:41.043146+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-23T23:35:41.043146+00:00'),
-(320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-23T23:35:41.043146+00:00'),
 (322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-23T23:35:41.043146+00:00'),
 (322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3188,7 +3188,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-23T23:35:41.043146+00:00'),
 (355825750, 4, 0, 1, 0, 25, 'udberg/JSLibrary', 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', ARRAY['udberg', 'keneogu'], '2022-02-23T23:35:41.043146+00:00'),
 (356007050, 2270, 13, 1, 0, 7, 'octokatherine/readme.so', null, ARRAY['octokatherine', 'jose-vale'], '2022-02-23T23:35:41.043146+00:00'),
-(356079886, 5, 2, 1, 0, 26, 'ezralazuardy/pathfinder', 'A simple, no-nonsense pathfinding algorithm visualizer web app ✨', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (356166032, 521, 0, 1, 0, 3, 'dabit3/full-stack-ethereum', 'Building full stack apps with Solidity, Ethers.js, Hardhat, and The Graph', ARRAY['dabit3', 'sJJdGG'], '2022-02-23T23:35:41.043146+00:00'),
 (356593669, 357, 2, 1, 0, 9, 'penk/ruha.camera', '3D Printable Retro-style Raspberry Pi HQ Camera', ARRAY['penk', 'meafs'], '2022-02-23T23:35:41.043146+00:00'),
 (351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3197,6 +3196,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-23T23:35:41.043146+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-23T23:35:41.043146+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-23T23:35:41.043146+00:00'),
+(356079886, 5, 2, 1, 0, 26, 'ezralazuardy/pathfinder', 'A simple, no-nonsense pathfinding algorithm visualizer web app ✨', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
 (357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-23T23:35:41.043146+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-23T23:35:41.043146+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3359,8 +3359,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (378961149, 6, 0, 1, 0, 11, 'me-rakib/javascript-projects-learning', null, ARRAY['me-rakib'], '2022-02-23T23:35:41.043146+00:00'),
 (379496251, 5, 1, 1, 0, 28, 'Borrus-sudo/jsgandalf', '🌈 My new website ', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
 (379608568, 36, 0, 1, 0, 1, 'Codesee-io/remote-companies', 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', ARRAY['jessicarose', 'ramonh'], '2022-02-23T23:35:41.043146+00:00'),
-(379649965, 2, 0, 1, 0, 10, 'defadels/defadels', null, ARRAY['defadels'], '2022-02-23T23:35:41.043146+00:00'),
 (379769983, 1, 0, 1, 0, 27, 'Dzaky-official/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
+(379649965, 2, 0, 1, 0, 10, 'defadels/defadels', null, ARRAY['defadels'], '2022-02-23T23:35:41.043146+00:00'),
 (379900883, 42, 0, 1, 0, 0, 'Deveshb15/real-twitter-banner', null, ARRAY['Deveshb15', 'jainaayush01'], '2022-02-23T23:35:41.043146+00:00'),
 (380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-23T23:35:41.043146+00:00'),
 (380298833, 59, 9, 1, 0, 21, 'prisma-labs/bema', '🐎 Delightful benchmarking for Node.js ', ARRAY['jasonkuhrt', 'iheyunfei'], '2022-02-23T23:35:41.043146+00:00'),
