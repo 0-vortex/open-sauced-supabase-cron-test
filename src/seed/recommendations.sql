@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T12:53:55.473Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T14:44:17.039Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2940,7 +2940,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (319475939, 6, 2, 1, 0, 26, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ARRAY['tapjdey', 'WillemJiang'], '2022-02-23T23:35:41.043146+00:00'),
 (319742187, 523, 296, 1, 0, 0, 'mdn/translated-content', 'All translated MDN content in raw form', ARRAY['mfuji09', 'SphinxKnight'], '2022-02-23T23:35:41.043146+00:00'),
 (319935795, 8, 0, 1, 0, 12, 'zawad2221/Twitter-Django-Bot', 'Twitter Bot who like and retweet #django #python. ', ARRAY['zawad2221'], '2022-02-23T23:35:41.043146+00:00'),
-(320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (320029758, 1, 0, 1, 0, 17, 'lokeshn011101/nextjs-tailwind-starter', 'A Next.js-Tailwind starter', ARRAY['lokeshn011101'], '2022-02-23T23:35:41.043146+00:00'),
 (320073577, 987, 2, 1, 0, 19, 'discord/focus-rings', 'A centralized system for displaying and stylizing focus indicators anywhere on a webpage.', ARRAY['faultyserver', 'aweary'], '2022-02-23T23:35:41.043146+00:00'),
 (320142424, 92, 1, 1, 0, 5, 'rern/rAudio-1', 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', ARRAY['rern'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2967,6 +2966,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322346823, 54, 1, 1, 0, 13, 'dimitrisraptis96/chakra-ui-navbar', 'Fully-responsive NavBar component for landing pages built with Chakra-UI. Check the full tutorial on my blog 👇', ARRAY['dimitrisraptis96'], '2022-02-23T23:35:41.043146+00:00'),
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-23T23:35:41.043146+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-23T23:35:41.043146+00:00'),
+(320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-23T23:35:41.043146+00:00'),
 (322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-23T23:35:41.043146+00:00'),
 (322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-23T23:35:41.043146+00:00'),
