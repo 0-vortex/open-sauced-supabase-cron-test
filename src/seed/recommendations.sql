@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T16:54:24.731Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T18:48:16.080Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3584,8 +3584,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (405641780, 73, 0, 1, 0, 13, 'd3r1n/dotman', 'better manager for your dotfiles.', ARRAY['d3r1n'], '2022-02-23T23:35:41.043146+00:00'),
 (405751585, 1, 0, 1, 0, 10, 'Dhaiwat10/sol-escrow', null, ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
 (405839494, 3, 0, 1, 0, 4, 'BolajiAyodeji/credit_card_fraud_detection', 'A basic machine learning model that will detect potential fraud cases from transactions so that customers won’t be charged for the items they did not purchase.', ARRAY['BolajiAyodeji'], '2022-02-23T23:35:41.043146+00:00'),
-(406196482, 2, 0, 1, 0, 1, 'careBT/carebt_core', 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', ARRAY['AndiSteck'], '2022-02-23T23:35:41.043146+00:00'),
 (406327361, 456, 0, 1, 0, 27, 'terrakok/kmm-awesome', 'An awesome list that curates the best KMM libraries, tools and more. ', ARRAY['terrakok', 'PStrelchenko'], '2022-02-23T23:35:41.043146+00:00'),
+(406196482, 2, 0, 1, 0, 1, 'careBT/carebt_core', 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', ARRAY['AndiSteck'], '2022-02-23T23:35:41.043146+00:00'),
 (406390419, 5, 0, 1, 0, 2, 'NickLiffen/GCSMTTR', 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ARRAY['NickLiffen'], '2022-02-23T23:35:41.043146+00:00'),
 (406390867, 1, 0, 1, 0, 1, 'muhammaddzaky/polisi.html', 'polisi.html', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (406448834, 1, 0, 1, 0, 23, 'willcl-ark/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller', 'willcl-ark'], '2022-02-23T23:35:41.043146+00:00'),
