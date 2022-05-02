@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T20:44:18.497Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T22:45:10.765Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2011,6 +2011,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (189282896, 5142, 32, 1, 0, 13, 'wesbos/beginner-javascript', 'Slam Dunk JavaScript', ARRAY['Asjas', 'wesbos'], '2022-02-23T23:35:41.043146+00:00'),
 (189470052, 137, 146, 1, 0, 13, 'thundernest/import-export-tools-ng', 'Import Export Tools that supports Thunderbird 68/78.', ARRAY['cleidigh', 'jobisoft'], '2022-02-23T23:35:41.043146+00:00'),
 (189649243, 3271, 9, 1, 0, 3, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-02-23T23:35:41.043146+00:00'),
+(189761262, 190, 1, 1, 0, 2, 'borisowsky/next-advanced-apollo-starter', 'Advanced, but minimalistic Next.js and Apollo starter', ARRAY['borisowsky', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (189879002, 64, 13, 1, 0, 5, 'ngx-builders/netlify-builder', 'Deploy your Angular app to netlify from CLI', ARRAY['santoshyadavdev', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (190091795, 4311, 19, 1, 0, 29, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-23T23:35:41.043146+00:00'),
 (190142142, 132, 3, 1, 0, 21, 'liyasthomas/banner', '🚩 A simple and clean banner generator - Banners on the go. https://liyasthomas.github.io/banner', ARRAY['liyasthomas', 'izzqz'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2024,7 +2025,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (191613522, 8, 0, 1, 0, 6, 'BaseMax/CheckReverseString', 'Tiny Program to check the reverse of the string using C/C++.', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (191759944, 1402, 9, 1, 0, 23, 'srevinsaju/guiscrcpy', 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', ARRAY['srevinsaju', 'restyled-commits'], '2022-02-23T23:35:41.043146+00:00'),
 (191778259, 172, 15, 1, 0, 10, 'davehowson/chat-app', 'MERN Stack Based Chat Application', ARRAY['davehowson'], '2022-02-23T23:35:41.043146+00:00'),
-(189761262, 190, 1, 1, 0, 2, 'borisowsky/next-advanced-apollo-starter', 'Advanced, but minimalistic Next.js and Apollo starter', ARRAY['borisowsky', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (192129633, 1167, 1, 1, 0, 0, 'sinwindie/OSINT', 'Collections of tools and methods created to aid in OSINT collection', ARRAY['sinwindie', 'OsintDojo'], '2022-02-23T23:35:41.043146+00:00'),
 (192372472, 229, 82, 1, 0, 10, 'nix-community/poetry2nix', 'Convert poetry projects to nix automagically [maintainer=@adisbladis] ', ARRAY['adisbladis', 'gilligan'], '2022-02-23T23:35:41.043146+00:00'),
 (192428445, 3, 8, 1, 0, 29, 'bitcoin-studio/LightningNespressoUI', 'Nespresso capsule vending machine - UI code', ARRAY['Janaka-Steph'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3637,6 +3637,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (420688085, 7, 0, 1, 0, 11, 'koladev32/node-express-jwt-tutorial', null, ARRAY['koladev32'], '2022-02-23T23:35:41.043146+00:00'),
 (421008345, 424, 21, 1, 0, 6, 'vercel/examples', 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', ARRAY['lfades', 'steven-tey'], '2022-02-23T23:35:41.043146+00:00'),
 (421781906, 3, 0, 1, 0, 1, 'alanmynah/node-scrimba-stream', 'Code to go along with Scrimba''s Node stream', ARRAY['alanmynah'], '2022-02-23T23:35:41.043146+00:00'),
+(421838343, 114, 0, 1, 0, 12, 'nguyenphuminh/JeChain', 'An experimental, educational purpose proof-of-work blockchain network', ARRAY['nguyenphuminh'], '2022-02-23T23:35:41.043146+00:00'),
 (422215956, 1, 0, 1, 0, 14, 'Blazing-Mike/Monogram-Frontend-starter-files', 'starter files for monogram shop frontend challenge from frontendpratice.com', ARRAY['Blazing-Mike'], '2022-02-23T23:35:41.043146+00:00'),
 (422821402, 3808, 61, 2, 0, 8.5, 'MangoDB-io/MangoDB', 'A truly Open Source MongoDB alternative', ARRAY['AlekSi', 'OpenSauce'], '2022-02-23T23:35:41.043146+00:00'),
 (423179172, 0, 0, 1, 0, 24, 'thlorenz/v8-snapshot', 'Tool to create a snapshot for Electron applications.', ARRAY['thlorenz'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(421838343, 114, 0, 1, 0, 12, 'nguyenphuminh/JeChain', 'An experimental, educational purpose proof-of-work blockchain network', ARRAY['nguyenphuminh'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
