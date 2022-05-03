@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T12:58:12.425Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T14:44:22.660Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -452,9 +452,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (16072585, 17590, 32, 1, 0, 0, 'phoenixframework/phoenix', 'Peace of mind from prototype to production', ARRAY['chrismccord', 'josevalim'], '2022-02-23T23:35:41.043146+00:00'),
 (16120959, 1407, 128, 1, 0, 12, 'evennia/evennia', 'Python MUD/MUX/MUSH/MU* development system', ARRAY['Griatch', 'gtaylor'], '2022-02-23T23:35:41.043146+00:00'),
 (16194327, 5546, 10, 1, 0, 6, 'adamschwartz/magic-of-css', 'A CSS course to turn you into a magician.', ARRAY['adamschwartz', 'cvrebert'], '2022-02-23T23:35:41.043146+00:00'),
+(15910832, 179, 31, 1, 0, 13, 'MadKudu/node-hubspot', 'Node wrapper for the HubSpot API', ARRAY['pcothenet', 'vkhomiv-hubspot'], '2022-02-23T23:35:41.043146+00:00'),
 (15823460, 18027, 254, 1, 0, 7, 'redisson/redisson', 'Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...', ARRAY['mrniko', 'jackygurui'], '2022-02-23T23:35:41.043146+00:00'),
 (16408992, 49562, 1524, 1, 0, 15, 'neovim/neovim', 'Vim-fork focused on extensibility and usability', ARRAY['justinmk', 'janlazo'], '2022-02-23T23:35:41.043146+00:00'),
-(15910832, 179, 31, 1, 0, 13, 'MadKudu/node-hubspot', 'Node wrapper for the HubSpot API', ARRAY['pcothenet', 'vkhomiv-hubspot'], '2022-02-23T23:35:41.043146+00:00'),
 (16202183, 105, 2, 1, 0, 4, 'ivanlanin/kateglo', 'Indonesian dictionary, thesaurus, and glossary application', ARRAY['ivanlanin'], '2022-02-23T23:35:41.043146+00:00'),
 (16549503, 6304, 11, 1, 0, 6, 'github/scientist', ':microscope: A Ruby library for carefully refactoring critical paths.', ARRAY['zerowidth', 'jbarnette'], '2022-02-23T23:35:41.043146+00:00'),
 (16334982, 14808, 6, 1, 0, 13, 'Olshansk/interview', 'Everything you need to prepare for your technical interview', ARRAY['andreis', 'Olshansk'], '2022-02-23T23:35:41.043146+00:00'),
@@ -572,8 +572,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24297122, 20907, 1, 1, 0, 4, 'veggiemonk/awesome-docker', ':whale: A curated list of Docker resources and projects', ARRAY['veggiemonk', 'vegasbrianc'], '2022-02-23T23:35:41.043146+00:00'),
 (24470090, 3398, 53, 1, 0, 0, 'OpenDroneMap/ODM', 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', ARRAY['pierotofy', 'dakotabenjamin'], '2022-02-23T23:35:41.043146+00:00'),
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-23T23:35:41.043146+00:00'),
-(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-23T23:35:41.043146+00:00'),
 (24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-23T23:35:41.043146+00:00'),
+(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-23T23:35:41.043146+00:00'),
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-23T23:35:41.043146+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-23T23:35:41.043146+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-23T23:35:41.043146+00:00'),
@@ -731,8 +731,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (39150065, 4550, 3, 1, 0, 7, 'negomi/react-burger-menu', ':hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations', ARRAY['negomi', 'badtant'], '2022-02-23T23:35:41.043146+00:00'),
 (39152554, 1181, 166, 1, 0, 22, 'consul/consul', 'Consul - Open Government and E-Participation Web Software', ARRAY['javierm', 'decabeza'], '2022-02-23T23:35:41.043146+00:00'),
 (39213332, 4, 0, 1, 0, 26, 'TheNaoX/woodo', 'Sudo woodo script in Go', ARRAY['TheNaoX'], '2022-02-23T23:35:41.043146+00:00'),
-(39433529, 1169, 0, 1, 0, 23, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-23T23:35:41.043146+00:00'),
 (39415880, 1276, 6, 1, 0, 24, 'gatsbyjs/gatsby-starter-default', 'The default Gatsby starter', ARRAY['gatsbybot', 'KyleAMathews'], '2022-02-23T23:35:41.043146+00:00'),
+(39433529, 1169, 0, 1, 0, 23, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-23T23:35:41.043146+00:00'),
 (39514089, 292, 14, 1, 0, 18, 'ccoenraets/es6-tutorial', 'ECMAScript 6 Tutorial', ARRAY['ccoenraets'], '2022-02-23T23:35:41.043146+00:00'),
 (39575101, 8148, 50, 1, 0, 25, 'phil-opp/blog_os', 'Writing an OS in Rust', ARRAY['phil-opp', 'drprofesq'], '2022-02-23T23:35:41.043146+00:00'),
 (39583294, 160, 22, 1, 0, 14, 'nprapps/lunchbox', 'Image tools for social media sharing', ARRAY['TylerFisher', 'alykat'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2367,8 +2367,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-23T23:35:41.043146+00:00'),
 (240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-23T23:35:41.043146+00:00'),
 (240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-23T23:35:41.043146+00:00'),
-(241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-23T23:35:41.043146+00:00'),
 (240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-23T23:35:41.043146+00:00'),
+(241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-23T23:35:41.043146+00:00'),
 (241092383, 1931, 27, 1, 0, 4, 'docker/build-push-action', 'GitHub Action to build and push Docker images with Buildx', ARRAY['crazy-max', 'zappy-shu'], '2022-02-23T23:35:41.043146+00:00'),
 (241303926, 73, 0, 1, 0, 17, 'mikenye/docker-readsb', 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ARRAY['mikenye', 'SalazarBruno'], '2022-02-23T23:35:41.043146+00:00'),
 (241529345, 691, 14, 1, 0, 25, 'wellyshen/react-cool-portal', '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', ARRAY['wellyshen', 'hinok'], '2022-02-23T23:35:41.043146+00:00'),
