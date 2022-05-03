@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T14:44:22.660Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T16:55:18.160Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2896,8 +2896,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (314553426, 281, 71, 1, 0, 24, 'maplibre/maplibre-gl-native', 'The open-source fork of Mapbox GL Native: Code & SDK for iOS, Android and other platforms', ARRAY['kkaefer', 'jfirebaugh'], '2022-02-23T23:35:41.043146+00:00'),
 (314859745, 1, 0, 1, 0, 11, 'Mogakamo/LoveMeNowBook', 'An app for a novel', ARRAY['Mogakamo', 'Ochoki'], '2022-02-23T23:35:41.043146+00:00'),
 (314866842, 23, 5, 1, 0, 15, 'yashvardhan-kukreja/whatsupstream', '🚀 A tool to keep you up-to-date with the issues (good first issues, for eg. ;) of your favorite open source repositories', ARRAY['yashvardhan-kukreja'], '2022-02-23T23:35:41.043146+00:00'),
-(314878604, 1, 1, 1, 0, 14, 'Mogakamo/dynamic-web-starter', null, ARRAY['Mogakamo', 'sharon-siekay'], '2022-02-23T23:35:41.043146+00:00'),
 (315005960, 19, 1, 1, 0, 8, 'KittyGiraudel/react-a11y-footnotes', 'A reusable React implementation of accessible footnotes.', ARRAY['KittyGiraudel'], '2022-02-23T23:35:41.043146+00:00'),
+(314878604, 1, 1, 1, 0, 14, 'Mogakamo/dynamic-web-starter', null, ARRAY['Mogakamo', 'sharon-siekay'], '2022-02-23T23:35:41.043146+00:00'),
 (315604447, 2, 0, 1, 0, 3, 'udberg/tribute-page', null, ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (315605990, 2, 0, 1, 0, 21, 'udberg/Book-List', 'A simple app that lets you make a list of books in order of read priority.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
 (315699740, 17, 71, 1, 0, 8, 'meilisearch/devrel', 'Anything Developer Relations at Meili', ARRAY['CaroFG', 'fharper'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3617,7 +3617,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414238384, 35, 0, 1, 0, 3, 'Dzoukr/Funcaster', '⚡ Serverless .NET solution for hosting your 🔊 podcasts with (nearly) zero costs using Azure Functions and Azure Storage Account.', ARRAY['Dzoukr'], '2022-02-23T23:35:41.043146+00:00'),
 (414403319, 14, 0, 2, 0, 0, 'polarene/micro-template', 'A very tiny and simple text templating library for Kotlin.', ARRAY['polarene'], '2022-02-23T23:35:41.043146+00:00'),
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-23T23:35:41.043146+00:00'),
-(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-23T23:35:41.043146+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-23T23:35:41.043146+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
