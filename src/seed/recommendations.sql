@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T04:52:36.031Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T06:48:34.268Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1226,9 +1226,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (87860806, 1313, 2, 1, 0, 19, 'udhos/update-golang', 'update-golang is a script to easily fetch and install new Golang releases with minimum system intrusion', ARRAY['udhos', 'adntgv'], '2022-02-23T23:35:41.043146+00:00'),
 (87715061, 63, 1, 1, 0, 0, 'damienbod/AspNetCoreOpeniddict', 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', ARRAY['damienbod'], '2022-02-23T23:35:41.043146+00:00'),
 (87702856, 620, 20, 1, 0, 14, 'arcanis/clipanion', 'Type-safe CLI library / framework with no runtime dependencies', ARRAY['arcanis', 'paul-soporan'], '2022-02-23T23:35:41.043146+00:00'),
-(87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-23T23:35:41.043146+00:00'),
-(87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:35:41.043146+00:00'),
-(88011908, 60354, 28, 4, 0, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-23T23:35:41.043146+00:00'),
 (88077974, 15, 4, 1, 0, 12, 'tanhauhau/react-web-config', 'react-native-config for Web', ARRAY['tanhauhau'], '2022-02-23T23:35:41.043146+00:00'),
 (88243408, 33, 0, 1, 0, 12, 'powerman/wcwidth-icons', 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', ARRAY['powerman'], '2022-02-23T23:35:41.043146+00:00'),
 (88367107, 16, 1, 1, 0, 23, 'nusu/spectre.scss', 'port of spectre.css to sass', ARRAY['nusu', 'mtancoigne'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1297,6 +1294,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (96036483, 2781, 85, 1, 0, 21, 'ng-select/ng-select', ':star: Native angular select component', ARRAY['varnastadeus', 'anjmao'], '2022-02-23T23:35:41.043146+00:00'),
 (96111593, 2456, 61, 1, 0, 11, 'huggingface/neuralcoref', '✨Fast Coreference Resolution in spaCy with Neural Networks', ARRAY['thomwolf', 'svlandeg'], '2022-02-23T23:35:41.043146+00:00'),
 (96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-23T23:35:41.043146+00:00'),
+(87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-23T23:35:41.043146+00:00'),
+(87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:35:41.043146+00:00'),
+(88011908, 60354, 28, 4, 0, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-23T23:35:41.043146+00:00'),
 (96234685, 390, 16, 1, 0, 25, 'tiagoad/suicide-linux', '@qntm''s Suicide Linux, now available on Docker!', ARRAY['ssebs'], '2022-02-23T23:35:41.043146+00:00'),
 (96266792, 2054, 25, 1, 0, 11, 'davidhu2000/react-spinners', 'A collection of loading spinner components for react', ARRAY['davidhu2000', 'MincedCutlet'], '2022-02-23T23:35:41.043146+00:00'),
 (96451164, 2671, 108, 1, 0, 10, 'sdras/intro-to-vue', 'Workshop Materials for my Introduction to Vue.js Workshop', ARRAY['sdras', '1Marc'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2934,6 +2934,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (318264472, 31, 0, 1, 0, 20, 'tomhicks/react-audible-debug', 'Audio debugging for React applications', ARRAY['tomhicks'], '2022-02-23T23:35:41.043146+00:00'),
 (318616207, 40, 25, 1, 0, 10, 'colinhemphill/nextjs-resume', null, ARRAY['colinhemphill'], '2022-02-23T23:35:41.043146+00:00'),
 (319118126, 1, 1, 1, 0, 2, 'teaminformaticainclusiva/Vida_de_TI', 'Repositorio baseado em Python para facilitar a vido do Brother Ti!', ARRAY['shadowruge'], '2022-02-23T23:35:41.043146+00:00'),
+(319167362, 1139, 56, 1, 0, 23, 'hay-kot/mealie', 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ARRAY['hay-kot', 'sephrat'], '2022-02-23T23:35:41.043146+00:00'),
 (319185224, 103, 9, 1, 0, 18, 'ubenmackin/ACVM', 'GUI frontend for qemu for Apple Silicon based Macs', ARRAY['ubenmackin', 'KhaosT'], '2022-02-23T23:35:41.043146+00:00'),
 (319302752, 1311, 64, 1, 0, 3, 'whittlem/pycryptobot', 'Python Crypto Bot', ARRAY['whittlem', 'markhollingworth-worthit'], '2022-02-23T23:35:41.043146+00:00'),
 (319475939, 6, 2, 1, 0, 26, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ARRAY['tapjdey', 'WillemJiang'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3537,8 +3538,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (398345592, 1, 0, 1, 0, 24, '3mer3wadh/CustomUI', 'Trying to create nice UI with xamarin forms ', ARRAY['3mer3wadh'], '2022-02-23T23:35:41.043146+00:00'),
 (398550050, 158, 1, 1, 0, 0, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ARRAY['imsiddhant07', 'dakshp07'], '2022-02-23T23:35:41.043146+00:00'),
 (398627486, 8, 0, 1, 0, 3, 'jquense/sass-tailwind-functions', 'Sass plugin implementing TailwindCSS functions', ARRAY['jquense'], '2022-02-23T23:35:41.043146+00:00'),
-(398666208, 194, 0, 1, 0, 13, 'nachtfunke/basic-pattern-repository', 'Simple patterns for <use>. Just SVG - for your delight!', ARRAY['nachtfunke'], '2022-02-23T23:35:41.043146+00:00'),
 (398656870, 12, 0, 1, 0, 15, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ARRAY['gungunfebrianza'], '2022-02-23T23:35:41.043146+00:00'),
+(398666208, 194, 0, 1, 0, 13, 'nachtfunke/basic-pattern-repository', 'Simple patterns for <use>. Just SVG - for your delight!', ARRAY['nachtfunke'], '2022-02-23T23:35:41.043146+00:00'),
 (398684826, 6, 2, 1, 0, 6, 'MichaelJolley/discord-guy-bot', 'A friendly Discord bot that helps server members use more inclusive language.', ARRAY['MichaelJolley'], '2022-02-23T23:35:41.043146+00:00'),
 (398914163, 188, 7, 2, 0, 0, 'dabit3/chicken-tikka-masala-recipe', 'Nader''s chicken tikka masala recipe', ARRAY['dabit3', 'maksimovic'], '2022-02-23T23:35:41.043146+00:00'),
 (399061560, 1, 0, 1, 0, 2, 'creeperkafasi/linux-ip', 'Deno.js package for the Linux ip command', ARRAY['creeperkafasi'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3665,8 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (432722169, 4, 0, 1, 0, 9, 'mrwilson/advent-of-code-2021', 'It''s back. It''s worse.', ARRAY['mrwilson'], '2022-02-23T23:35:41.043146+00:00'),
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-23T23:35:41.043146+00:00'),
 (438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-23T23:35:41.043146+00:00'),
-(319167362, 1139, 56, 1, 0, 23, 'hay-kot/mealie', 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ARRAY['hay-kot', 'sephrat'], '2022-02-23T23:35:41.043146+00:00'),
+(438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
