@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T06:48:34.268Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T10:47:25.138Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -584,8 +584,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (26102180, 19127, 109, 1, 0, 9, 'afollestad/material-dialogs', '😍 A beautiful, fluid, and extensible dialogs API for Kotlin & Android.', ARRAY['afollestad', 'ZacSweers'], '2022-02-23T23:35:41.043146+00:00'),
 (26115910, 1111, 11, 1, 0, 17, 'ruimarinho/google-libphonenumber', 'The up-to-date and reliable Google''s libphonenumber package for node.js.', ARRAY['ruimarinho', 'mathieumg'], '2022-02-23T23:35:41.043146+00:00'),
 (26291683, 13632, 56, 1, 0, 20, 'twitter/twemoji', 'Emoji for everyone. https://twemoji.twitter.com/', ARRAY['WebReflection', 'n8downs'], '2022-02-23T23:35:41.043146+00:00'),
-(26500787, 61794, 295, 1, 0, 0, 'tonsky/FiraCode', 'Free monospaced font with programming ligatures', ARRAY['tonsky', 'thundernixon'], '2022-02-23T23:35:41.043146+00:00'),
 (26522697, 2513, 210, 1, 0, 12, 'neomake/neomake', 'Asynchronous linting and make framework for Neovim/Vim', ARRAY['blueyed', 'benekastah'], '2022-02-23T23:35:41.043146+00:00'),
+(26500787, 61794, 295, 1, 0, 0, 'tonsky/FiraCode', 'Free monospaced font with programming ligatures', ARRAY['tonsky', 'thundernixon'], '2022-02-23T23:35:41.043146+00:00'),
 (26557412, 1024, 55, 1, 0, 27, 'wordpress-clients/hybrid', '[I don''t have time to work on this anymore. Use at your own risk] Build WordPress based PWA, iOS, Android & Windows phones apps in minutes!', ARRAY['shprink', 'mingxia'], '2022-02-23T23:35:41.043146+00:00'),
 (26573009, 174, 11, 1, 0, 4, 'semmypurewal/BeginningJavaScript', 'This repo contains the examples, notes and problems for my O''Reilly video ''Beginning Programming with JavaScript''', ARRAY['semmypurewal'], '2022-02-23T23:35:41.043146+00:00'),
 (26689598, 38766, 53, 1, 0, 17, 'prakhar1989/awesome-courses', ':books: List of awesome university courses for learning Computer Science!', ARRAY['prakhar1989', 'awelch83'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1226,6 +1226,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (87860806, 1313, 2, 1, 0, 19, 'udhos/update-golang', 'update-golang is a script to easily fetch and install new Golang releases with minimum system intrusion', ARRAY['udhos', 'adntgv'], '2022-02-23T23:35:41.043146+00:00'),
 (87715061, 63, 1, 1, 0, 0, 'damienbod/AspNetCoreOpeniddict', 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', ARRAY['damienbod'], '2022-02-23T23:35:41.043146+00:00'),
 (87702856, 620, 20, 1, 0, 14, 'arcanis/clipanion', 'Type-safe CLI library / framework with no runtime dependencies', ARRAY['arcanis', 'paul-soporan'], '2022-02-23T23:35:41.043146+00:00'),
+(87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-23T23:35:41.043146+00:00'),
+(87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:35:41.043146+00:00'),
+(88011908, 60354, 28, 4, 0, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-23T23:35:41.043146+00:00'),
 (88077974, 15, 4, 1, 0, 12, 'tanhauhau/react-web-config', 'react-native-config for Web', ARRAY['tanhauhau'], '2022-02-23T23:35:41.043146+00:00'),
 (88243408, 33, 0, 1, 0, 12, 'powerman/wcwidth-icons', 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', ARRAY['powerman'], '2022-02-23T23:35:41.043146+00:00'),
 (88367107, 16, 1, 1, 0, 23, 'nusu/spectre.scss', 'port of spectre.css to sass', ARRAY['nusu', 'mtancoigne'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1294,9 +1297,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (96036483, 2781, 85, 1, 0, 21, 'ng-select/ng-select', ':star: Native angular select component', ARRAY['varnastadeus', 'anjmao'], '2022-02-23T23:35:41.043146+00:00'),
 (96111593, 2456, 61, 1, 0, 11, 'huggingface/neuralcoref', '✨Fast Coreference Resolution in spaCy with Neural Networks', ARRAY['thomwolf', 'svlandeg'], '2022-02-23T23:35:41.043146+00:00'),
 (96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-23T23:35:41.043146+00:00'),
-(87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-23T23:35:41.043146+00:00'),
-(87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-23T23:35:41.043146+00:00'),
-(88011908, 60354, 28, 4, 0, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-23T23:35:41.043146+00:00'),
 (96234685, 390, 16, 1, 0, 25, 'tiagoad/suicide-linux', '@qntm''s Suicide Linux, now available on Docker!', ARRAY['ssebs'], '2022-02-23T23:35:41.043146+00:00'),
 (96266792, 2054, 25, 1, 0, 11, 'davidhu2000/react-spinners', 'A collection of loading spinner components for react', ARRAY['davidhu2000', 'MincedCutlet'], '2022-02-23T23:35:41.043146+00:00'),
 (96451164, 2671, 108, 1, 0, 10, 'sdras/intro-to-vue', 'Workshop Materials for my Introduction to Vue.js Workshop', ARRAY['sdras', '1Marc'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3091,9 +3091,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (341346826, 212, 1, 1, 0, 28, 'jvns/dns-lookup', null, ARRAY['jvns'], '2022-02-23T23:35:41.043146+00:00'),
 (341483252, 2, 0, 1, 0, 8, 'IncredibleDevHQ/incredible-dev-videos', 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', ARRAY['hemalathank-27', 'Pythonista7'], '2022-02-23T23:35:41.043146+00:00'),
 (341544828, 1, 0, 1, 0, 6, 'kotlin-graphics/build-logic', null, ARRAY['elect86'], '2022-02-23T23:35:41.043146+00:00'),
-(341547220, 2, 0, 1, 0, 20, 'udberg/private-events', null, ARRAY['udberg', 'dibdas'], '2022-02-23T23:35:41.043146+00:00'),
-(341582109, 1806, 8, 1, 0, 5, 'trungk18/angular-spotify', 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', ARRAY['trungk18', 'nikosanif'], '2022-02-23T23:35:41.043146+00:00'),
 (341704034, 2579, 27, 1, 0, 24, 'microsoft/Power-Fx', 'Power Fx low-code programming language', ARRAY['gregli-msft', 'bryancroteau-MSFT'], '2022-02-23T23:35:41.043146+00:00'),
+(341547220, 2, 0, 1, 0, 20, 'udberg/private-events', null, ARRAY['udberg', 'dibdas'], '2022-02-23T23:35:41.043146+00:00'),
 (341707514, 110, 20, 1, 0, 29, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-23T23:35:41.043146+00:00'),
 (341721634, 154, 0, 1, 0, 0, 'helins/wasm.cljc', 'Spec compliant WebAssembly compiler, decompiler, and generator', ARRAY['helins'], '2022-02-23T23:35:41.043146+00:00'),
 (341877399, 10, 0, 1, 0, 21, 'tush-tr/car-rental-system', 'A car rental System Web Application project made using Node js, Express js, EJS, MongoDB along with REST API. Implemented features like user authentication, image uploading, database encryption, and many else.', ARRAY['tush-tr', 'ttury'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3437,6 +3436,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387286310, 1, 0, 1, 0, 4, 'eventhorizongames/EventHorizon.Game.Server.Zone', null, ARRAY['canhorn'], '2022-02-23T23:35:41.043146+00:00'),
 (387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-23T23:35:41.043146+00:00'),
 (387461341, 1, 0, 1, 0, 19, 'muhammaddzaky/alfathir.github.io', null, ARRAY['alfathir', 'giadev25'], '2022-02-23T23:35:41.043146+00:00'),
+(341582109, 1806, 8, 1, 0, 5, 'trungk18/angular-spotify', 'Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro', ARRAY['trungk18', 'nikosanif'], '2022-02-23T23:35:41.043146+00:00'),
 (387501063, 31, 1, 1, 0, 6, 'cassidoo/shopify-next-netlify', 'A Shopify Next.js demo', ARRAY['cassidoo', 'verythorough'], '2022-02-23T23:35:41.043146+00:00'),
 (387466937, 1, 0, 1, 0, 21, 'muhammaddzaky/docker-radarr', null, ARRAY['sparklyballs', 'thelamer'], '2022-02-23T23:35:41.043146+00:00'),
 (387624468, 3, 3, 1, 0, 7, 'gremlin/bootcamp-infrastructure', null, ARRAY['jyee'], '2022-02-23T23:35:41.043146+00:00'),
