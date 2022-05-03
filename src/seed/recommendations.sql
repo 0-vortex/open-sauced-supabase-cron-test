@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T22:45:10.765Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T01:04:46.230Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1682,8 +1682,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (143890171, 1288, 7, 1, 0, 1, 'mbrt/gmailctl', 'Declarative configuration for Gmail filters', ARRAY['mbrt', 'chenrui333'], '2022-02-23T23:35:41.043146+00:00'),
 (143896900, 4969, 387, 1, 0, 26, 'tilt-dev/tilt', 'Define your dev environment as code. For microservice apps on Kubernetes.', ARRAY['nicks', 'landism'], '2022-02-23T23:35:41.043146+00:00'),
 (143975804, 1307, 144, 1, 0, 12, 'LycheeOrg/Lychee', ' A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.', ARRAY['ildyria', 'kamil4'], '2022-02-23T23:35:41.043146+00:00'),
-(144107489, 1379, 3, 1, 0, 1, 'sudheerj/vuejs-interview-questions', 'List of 300 VueJS Interview Questions And Answers', ARRAY['sudheerj', 'bekliev'], '2022-02-23T23:35:41.043146+00:00'),
 (144109184, 60, 3, 1, 0, 12, 'mrouhi13/djecrety', 'Djecrety is a Django secret key generator.', ARRAY['mrouhi13', 'PhysicistSouravDas'], '2022-02-23T23:35:41.043146+00:00'),
+(144107489, 1379, 3, 1, 0, 1, 'sudheerj/vuejs-interview-questions', 'List of 300 VueJS Interview Questions And Answers', ARRAY['sudheerj', 'bekliev'], '2022-02-23T23:35:41.043146+00:00'),
 (144133419, 137, 17, 1, 0, 22, 'balenalabs/balena-cam', 'Network Camera with Raspberry Pi and WebRTC. Tutorial:', ARRAY['mbalamat', 'balena-ci'], '2022-02-23T23:35:41.043146+00:00'),
 (144185831, 18, 6, 1, 0, 27, 'MetaMask/extension-provider', 'A module for allowing a WebExtension to access the web3 provider from an installed MetaMask instance', ARRAY['danfinlay', 'zhouhanseng'], '2022-02-23T23:35:41.043146+00:00'),
 (144329209, 666, 21, 1, 0, 0, 'CrowCpp/Crow', 'A Fast and Easy to use microframework for the web.', ARRAY['The-EDev', 'ipkn'], '2022-02-23T23:35:41.043146+00:00'),
