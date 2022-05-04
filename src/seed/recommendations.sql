@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T08:47:12.417Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T10:46:13.808Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2263,6 +2263,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (225862895, 116, 14, 1, 0, 6, 'srggrs/assign-one-project-github-action', 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', ARRAY['srggrs', 'adamdmharvey'], '2022-02-23T23:35:41.043146+00:00'),
 (225979578, 1711, 0, 1, 0, 0, 'talkpython/python-for-absolute-beginners-course', 'Code samples and other handouts for our course.', ARRAY['mikeckennedy', 'amcinnes87'], '2022-02-23T23:35:41.043146+00:00'),
 (226112204, 1, 1, 1, 0, 8, 'rodridev77/crud-cadastro', null, ARRAY['markusbue'], '2022-02-23T23:35:41.043146+00:00'),
+(226202216, 195, 0, 1, 0, 11, 'martinwoodward/smart-xmas', 'Star this repo to add some sparkle to my tree', ARRAY['martinwoodward'], '2022-02-23T23:35:41.043146+00:00'),
 (226207937, 4257, 41, 1, 0, 26, 'airbnb/ts-migrate', 'A tool to help migrate JavaScript code quickly and conveniently to TypeScript', ARRAY['Rudeg', 'edsrzf'], '2022-02-23T23:35:41.043146+00:00'),
 (226408450, 5746, 165, 1, 0, 2, 'neovide/neovide', 'No Nonsense Neovim Client in Rust', ARRAY['Kethku', 'jonvaldes'], '2022-02-23T23:35:41.043146+00:00'),
 (226668668, 3246, 7, 1, 0, 8, 'nomi-sec/PoC-in-GitHub', '📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.', ARRAY['motikan2010-bot'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2270,7 +2271,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (227265548, 1255, 49, 1, 0, 0, 'gluesql/gluesql', 'GlueSQL is quite sticky, it attaches to anywhere.', ARRAY['panarch', 'ever0de'], '2022-02-23T23:35:41.043146+00:00'),
 (227427615, 11, 0, 1, 0, 16, 'hiteshchoudhary/docker-youtube', 'A repo for docker series on youtube', ARRAY['hiteshchoudhary', 'lcobootcamp'], '2022-02-23T23:35:41.043146+00:00'),
 (227475713, 676, 13, 1, 0, 9, 'antoine92190/vue-advanced-chat', 'A beautiful chat rooms component made with Vue.js - compatible with Vue 2, Vue 3, React & Angular', ARRAY['antoine92190', 'LouisMazel'], '2022-02-23T23:35:41.043146+00:00'),
-(226202216, 195, 0, 1, 0, 11, 'martinwoodward/smart-xmas', 'Star this repo to add some sparkle to my tree', ARRAY['martinwoodward'], '2022-02-23T23:35:41.043146+00:00'),
 (227648949, 4, 0, 1, 0, 15, 'willwray/type_codec_challenge', 'The Modern C++ type CoDec Challenge', ARRAY['willwray'], '2022-02-23T23:35:41.043146+00:00'),
 (227695638, 148, 13, 1, 0, 20, 'codeshow/003-arquitetura-flask', 'Arquitetura definitiva para projetos Flask', ARRAY['rochacbruno', 'thiagojobson'], '2022-02-23T23:35:41.043146+00:00'),
 (227978903, 7885, 124, 1, 0, 0, 'vueuse/vueuse', 'Collection of essential Vue Composition Utilities for Vue 2 and 3', ARRAY['antfu', 'wheatjs'], '2022-02-23T23:35:41.043146+00:00'),
