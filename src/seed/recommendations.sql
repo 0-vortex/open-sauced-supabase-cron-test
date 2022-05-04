@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T18:52:20.863Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T20:45:27.698Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2174,6 +2174,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (211976003, 25, 7, 1, 0, 11, 'BekahHW/postpartum-wellness-app', 'An app to help moms monitor their well-being during the post-partum stage.', ARRAY['BekahHW', 'dominicduffin1'], '2022-02-23T23:35:41.043146+00:00'),
 (211595183, 308, 0, 1, 0, 4, 'osamaqarem/spotify-lite', 'Spotify Lite made with React Native for iOS and Android', ARRAY['osamaqarem'], '2022-02-23T23:35:41.043146+00:00'),
 (210450402, 1735, 49, 1, 0, 5, 'adelsz/pgtyped', 'pgTyped - Typesafe SQL in TypeScript', ARRAY['adelsz', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
+(212270500, 29, 3, 1, 0, 22, '101t/jasmin-web-panel', '📨 Jasmin Web Panel for Jasmin SMS Gateway', ARRAY['101t', 'rakibulinux'], '2022-02-23T23:35:41.043146+00:00'),
 (212270676, 10, 1, 1, 0, 12, 'edoardottt/programming-fundamentals', 'Programming fundamentals.🧠 Material useful for learning Python, start coding and learn how to solve logically a real world problem.', ARRAY['edoardottt', 'POP1912'], '2022-02-23T23:35:41.043146+00:00'),
 (212487543, 501, 58, 1, 0, 10, 'ash-project/ash', 'A resource based framework for building Elixir applications', ARRAY['zachdaniel', 'andrewcallahan'], '2022-02-23T23:35:41.043146+00:00'),
 (212606516, 2, 13, 1, 0, 5, 'boorje/react-news-app', 'A simple React app which uses the News API.', ARRAY['boorje'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2201,7 +2202,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (215623243, 4, 0, 1, 0, 0, 'ralexander-phi/license_approval', 'Track licenses and approvals', ARRAY['ralexander-phi'], '2022-02-23T23:35:41.043146+00:00'),
 (215954800, 283, 0, 1, 0, 23, 'PurpleBooth/a-good-readme-template', 'A template to make good README.md', ARRAY['PurpleBooth', 'caduzeraa'], '2022-02-23T23:35:41.043146+00:00'),
 (216099642, 26, 24, 1, 0, 29, 'EvanBacon/react-native-ink', 'React Native for CLIs', ARRAY['EvanBacon'], '2022-02-23T23:35:41.043146+00:00'),
-(212270500, 29, 3, 1, 0, 22, '101t/jasmin-web-panel', '📨 Jasmin Web Panel for Jasmin SMS Gateway', ARRAY['101t', 'rakibulinux'], '2022-02-23T23:35:41.043146+00:00'),
 (216213331, 8, 0, 1, 0, 16, 'yomaokobiah/yono', 'Yono is a python numerical methods library. The aim of Yono is to provide solutions to engineering problems that different numerical methods can solve.', ARRAY['yomaokobiah'], '2022-02-23T23:35:41.043146+00:00'),
 (216243012, 5459, 31, 1, 0, 7, 'muhammed/vue-interactive-paycard', 'Credit card form with smooth and sweet micro-interactions', ARRAY['muhammed', 'saraiva1989'], '2022-02-23T23:35:41.043146+00:00'),
 (216279084, 103, 4, 1, 0, 8, 'shellbear/shellbear.me', 'Source code of my personal website and blog ✨', ARRAY['shellbear'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3403,6 +3403,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (384147961, 128, 5, 1, 0, 11, 'hashicorp/nextjs-bundle-analysis', 'A github action that provides detailed bundle analysis on PRs for next.js apps', ARRAY['jescalan', 'BRKalow'], '2022-02-23T23:35:41.043146+00:00'),
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-23T23:35:41.043146+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-23T23:35:41.043146+00:00'),
+(384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
 (384524698, 320, 0, 1, 0, 28, 'salvia-kit/salvia-kit', 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ARRAY['enochndika'], '2022-02-23T23:35:41.043146+00:00'),
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-23T23:35:41.043146+00:00'),
 (384873391, 42, 1, 1, 0, 17, 'developer-student-club-thapar/GSoC-Proposals-Archive', 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ARRAY['specter25', 'Saurav-Shrivastav'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
-(384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
