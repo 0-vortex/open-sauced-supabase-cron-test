@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T12:58:25.911Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T16:55:07.864Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1570,7 +1570,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (129456680, 509, 48, 1, 0, 21, 'altangent/ccxws', 'WebSocket client for 38 cryptocurrency exchanges', ARRAY['bmancini55', 'ejfrancis'], '2022-02-23T23:35:41.043146+00:00'),
 (129855787, 316, 0, 1, 0, 9, 'namvdo/CS-and-Programming-Books', 'Free computer science, programming books. Code examples, programming project guidlines, and more...', ARRAY['namvdo', 'suvasish114'], '2022-02-23T23:35:41.043146+00:00'),
 (129936360, 1114, 140, 1, 0, 3, 'PennyLaneAI/pennylane', 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', ARRAY['josh146', 'co9olguy'], '2022-02-23T23:35:41.043146+00:00'),
-(129543408, 38, 0, 1, 0, 6, 'witchard/tutorial-react-parcel-express', 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', ARRAY['witchard', 'aronhoyer'], '2022-02-23T23:35:41.043146+00:00'),
 (130268121, 1544, 56, 1, 0, 21, 'tailwindlabs/tailwindcss-intellisense', 'Intelligent Tailwind CSS tooling for Visual Studio Code', ARRAY['bradlc', 'ledenis'], '2022-02-23T23:35:41.043146+00:00'),
 (130464961, 30920, 115, 1, 0, 7, 'sharkdp/bat', 'A cat(1) clone with wings.', ARRAY['sharkdp', 'Enselic'], '2022-02-23T23:35:41.043146+00:00'),
 (130597640, 1489, 21, 1, 0, 0, 'GantMan/ReactStateMuseum', 'A whirlwind tour of React state management systems by example', ARRAY['GantMan', 'marcelkalveram'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1673,6 +1672,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (143185400, 6, 53, 1, 0, 17, 'duckietown/duckietown-shell-commands', 'Commands for the Duckietown Shell', ARRAY['afdaniele', 'AndreaCensi'], '2022-02-23T23:35:41.043146+00:00'),
 (143305698, 24, 87, 1, 0, 14, 'takeshape/takeshape-samples', 'Sample Project Templates for TakeShape', ARRAY['mcat', 'mshick'], '2022-02-23T23:35:41.043146+00:00'),
 (142967350, 4895, 75, 2, 0, 15, 'reach/reach-ui', 'The Accessible Foundation for React Apps and Design Systems', ARRAY['chaance', 'ryanflorence'], '2022-02-23T23:35:41.043146+00:00'),
+(129543408, 38, 0, 1, 0, 6, 'witchard/tutorial-react-parcel-express', 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', ARRAY['witchard', 'aronhoyer'], '2022-02-23T23:35:41.043146+00:00'),
 (143329936, 495, 0, 1, 0, 5, 'aikho/awesome-feature-engineering', 'A curated list of resources dedicated to Feature Engineering Techniques for Machine Learning', ARRAY['aikho', 'turtlemonvh'], '2022-02-23T23:35:41.043146+00:00'),
 (143078055, 8026, 548, 2, 0, 9, 'gridsome/gridsome', '⚡️ The Jamstack framework for Vue.js', ARRAY['hjvedvik', 'tomtev'], '2022-02-23T23:35:41.043146+00:00'),
 (143339508, 361, 38, 1, 0, 4, 'hankchizljaw/beedle', 'A tiny library inspired by Redux & Vuex to help you manage state in your JavaScript apps', ARRAY['hankchizljaw', '0xflotus'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2618,8 +2618,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (272753737, 177, 25, 1, 0, 0, 'WomenWhoCode/wwcsf-algos', 'Algorithms and whiteboarding interview prep for the WWCSF community', ARRAY['elaguerta', 'beginner789'], '2022-02-23T23:35:41.043146+00:00'),
 (272942303, 50, 5, 1, 0, 25, 'theanam/webaudio-oscilloscope', 'A highly customizable oscilloscope for Web Audio 🔈 🎤', ARRAY['theanam'], '2022-02-23T23:35:41.043146+00:00'),
 (273019730, 24, 20, 1, 0, 26, 'etesync/etebase-docs', 'The Etebase documentation', ARRAY['tasn', 'Salt-Factory'], '2022-02-23T23:35:41.043146+00:00'),
-(273497516, 385, 20, 1, 0, 22, 'bradtraversy/storybooks', 'Node.js app with Google OAuth', ARRAY['bradtraversy', 'mellonis'], '2022-02-23T23:35:41.043146+00:00'),
 (273319786, 1, 0, 1, 0, 24, 'mgroves/IntegrationTestPractice', 'practicing integration tests with github actions', ARRAY['mgroves', 'brantburnett'], '2022-02-23T23:35:41.043146+00:00'),
+(273497516, 385, 20, 1, 0, 22, 'bradtraversy/storybooks', 'Node.js app with Google OAuth', ARRAY['bradtraversy', 'mellonis'], '2022-02-23T23:35:41.043146+00:00'),
 (273499522, 2622, 85, 2, 0, 7, 'radix-ui/primitives', 'An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.', ARRAY['jjenzz', 'benoitgrelard'], '2022-02-23T23:35:41.043146+00:00'),
 (273546408, 11043, 98, 1, 0, 5, 'foambubble/foam', 'A personal knowledge management and sharing system for VSCode', ARRAY['riccardoferretti', 'jevakallio'], '2022-02-23T23:35:41.043146+00:00'),
 (273622373, 6, 14, 1, 0, 19, 'guiaramos/ts-graphql-server', '🗄️  Start server with TypeScript, GraphQL, PG, Redis and TypeORM. Contains e2e and integration tests', ARRAY['guiaramos'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3555,8 +3555,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-23T23:35:41.043146+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-23T23:35:41.043146+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-23T23:35:41.043146+00:00'),
-(400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-23T23:35:41.043146+00:00'),
-(400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-23T23:35:41.043146+00:00'),
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-23T23:35:41.043146+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3602,9 +3600,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (409743854, 5, 0, 1, 0, 16, 'mtfoley/gh-user-search', 'GitHub User Search', ARRAY['mtfoley'], '2022-02-23T23:35:41.043146+00:00'),
 (409762235, 1, 0, 1, 0, 7, 'rognan/deno-gradle-plugin', 'Use Deno (https://deno.land/) as part of your Gradle build.', ARRAY['rognan'], '2022-02-23T23:35:41.043146+00:00'),
 (409910141, 4, 0, 1, 0, 14, 'FiretableProject/firetable', null, ARRAY['shamsmosowi', 'notsidney'], '2022-02-23T23:35:41.043146+00:00'),
+(410474951, 5, 8, 1, 0, 4, 'moonshotcollective/moonswap', null, ARRAY['farque65', 'QEDK'], '2022-02-23T23:35:41.043146+00:00'),
 (411003249, 14, 2, 2, 0, 10, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-23T23:35:41.043146+00:00'),
 (411618332, 15, 0, 1, 0, 4, 'avinash201199/Hacktoberfest-Guide', 'Beginner''s guide to Hacktoberfest', ARRAY['avinash201199', 'sd78912'], '2022-02-23T23:35:41.043146+00:00'),
-(410474951, 5, 8, 1, 0, 4, 'moonshotcollective/moonswap', null, ARRAY['farque65', 'QEDK'], '2022-02-23T23:35:41.043146+00:00'),
 (411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-23T23:35:41.043146+00:00'),
 (412480152, 56, 22, 1, 0, 12, 'pyGuru123/HackFest21', 'Only valid pull requests will be allowed. Use python only and readme changes will not be accepted.', ARRAY['pyGuru123', 'alphasingh'], '2022-02-23T23:35:41.043146+00:00'),
 (412662918, 57, 24, 1, 0, 0, 'Developer-DAO/DAO-job-board', 'A job board connecting DAOs with talent.', ARRAY['angeljgomezc', 'PBillingsby'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3617,6 +3615,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414238384, 35, 0, 1, 0, 3, 'Dzoukr/Funcaster', '⚡ Serverless .NET solution for hosting your 🔊 podcasts with (nearly) zero costs using Azure Functions and Azure Storage Account.', ARRAY['Dzoukr'], '2022-02-23T23:35:41.043146+00:00'),
 (414403319, 14, 0, 2, 0, 0, 'polarene/micro-template', 'A very tiny and simple text templating library for Kotlin.', ARRAY['polarene'], '2022-02-23T23:35:41.043146+00:00'),
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-23T23:35:41.043146+00:00'),
+(400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-23T23:35:41.043146+00:00'),
+(400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-23T23:35:41.043146+00:00'),
 (414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-23T23:35:41.043146+00:00'),
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-23T23:35:41.043146+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-23T23:35:41.043146+00:00'),
