@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T22:45:07.473Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T01:04:44.294Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -577,8 +577,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-23T23:35:41.043146+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-23T23:35:41.043146+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-23T23:35:41.043146+00:00'),
-(25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-23T23:35:41.043146+00:00'),
 (25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-23T23:35:41.043146+00:00'),
+(25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-23T23:35:41.043146+00:00'),
 (25714588, 9047, 64, 1, 0, 3, 'StartBootstrap/startbootstrap-sb-admin-2', 'A free, open source, Bootstrap admin theme created by Start Bootstrap', ARRAY['davidtmiller', 'challgren'], '2022-02-23T23:35:41.043146+00:00'),
 (26066727, 39139, 523, 1, 0, 24, 'mermaid-js/mermaid', 'Generation of diagram and flowchart from text in a similar manner as markdown', ARRAY['knsv', 'NeilCuzon'], '2022-02-23T23:35:41.043146+00:00'),
 (26102180, 19127, 109, 1, 0, 9, 'afollestad/material-dialogs', '😍 A beautiful, fluid, and extensible dialogs API for Kotlin & Android.', ARRAY['afollestad', 'ZacSweers'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1845,13 +1845,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (166671359, 20, 1, 1, 0, 20, 'finallyayo/pusher-code-playground', null, ARRAY['ayoisaiah'], '2022-02-23T23:35:41.043146+00:00'),
 (167032345, 5100, 10, 1, 0, 16, 'labs42io/clean-code-typescript', 'Clean Code concepts adapted for TypeScript', ARRAY['dimadeveatii', 'asimionese'], '2022-02-23T23:35:41.043146+00:00'),
 (167304464, 7630, 106, 1, 0, 14, 'cortexlabs/cortex', 'Production infrastructure for machine learning at scale', ARRAY['deliahu', 'vishalbollu'], '2022-02-23T23:35:41.043146+00:00'),
-(167596974, 1230, 81, 1, 0, 6, 'pyenv-win/pyenv-win', 'pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It''s simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.', ARRAY['kirankotari', 'dedale'], '2022-02-23T23:35:41.043146+00:00'),
 (167368839, 9049, 205, 1, 0, 20, 'jaredpalmer/tsdx', 'Zero-config CLI for TypeScript package development', ARRAY['jaredpalmer', 'agilgur5'], '2022-02-23T23:35:41.043146+00:00'),
 (167632962, 253, 26, 1, 0, 29, 'bmoscon/cryptostore', 'A storage engine for cryptocurrency data', ARRAY['bmoscon', 'yohplala'], '2022-02-23T23:35:41.043146+00:00'),
 (167647146, 395, 8, 1, 0, 20, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 'Build a Quiz App with HTML, CSS, and JavaScript', ARRAY['jamesqquick', 'thedamian'], '2022-02-23T23:35:41.043146+00:00'),
 (167697129, 16, 7, 1, 0, 20, 'rajatjindal/goodfirstissue', 'openfaas function to handle webhooks for goodfirstissue github app', ARRAY['rajatjindal', 'alexellis'], '2022-02-23T23:35:41.043146+00:00'),
 (167717410, 195, 3, 1, 0, 18, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-23T23:35:41.043146+00:00'),
 (168101431, 2, 0, 1, 0, 13, 'KubqoA/nginx-conf', 'Nginx configuration manager', ARRAY['KubqoA'], '2022-02-23T23:35:41.043146+00:00'),
+(167596974, 1230, 81, 1, 0, 6, 'pyenv-win/pyenv-win', 'pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It''s simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.', ARRAY['kirankotari', 'dedale'], '2022-02-23T23:35:41.043146+00:00'),
 (168251225, 8, 1, 1, 0, 10, 'LEARNAcademy/Syllabus', null, ARRAY['sjproctor', 'JzGo'], '2022-02-23T23:35:41.043146+00:00'),
 (169100692, 12163, 10, 1, 0, 0, 'NVlabs/stylegan', 'StyleGAN - Official TensorFlow Implementation', ARRAY['tkarras', 'nurpax'], '2022-02-23T23:35:41.043146+00:00'),
 (169250119, 1855, 72, 1, 0, 22, 'evilmartians/lefthook', 'Fast and powerful Git hooks manager for any type of projects.', ARRAY['Envek', 'skryukov'], '2022-02-23T23:35:41.043146+00:00'),
