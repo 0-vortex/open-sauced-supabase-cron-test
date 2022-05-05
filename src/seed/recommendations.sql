@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T01:05:22.109Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T03:13:09.300Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -515,8 +515,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (20723540, 2073, 0, 1, 0, 12, 'microsoft/microsoft.github.io', 'Microsoft on GitHub', ARRAY['vinhub', 'martinwoodward'], '2022-02-23T23:35:41.043146+00:00'),
 (20785986, 6496, 190, 1, 0, 7, 'jupyterhub/jupyterhub', 'Multi-user server for Jupyter notebooks', ARRAY['minrk', 'willingc'], '2022-02-23T23:35:41.043146+00:00'),
 (20653934, 12878, 511, 1, 0, 3, 'google/cadvisor', 'Analyzes resource usage and performance characteristics of running containers.', ARRAY['vmarmol', 'dashpole'], '2022-02-23T23:35:41.043146+00:00'),
-(20904437, 54157, 461, 1, 0, 2, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-23T23:35:41.043146+00:00'),
 (20893207, 7047, 9, 1, 0, 17, 'primer/octicons', 'A scalable set of icons handcrafted with <3 by GitHub', ARRAY['jonrohan', 'colebemis'], '2022-02-23T23:35:41.043146+00:00'),
+(20904437, 54157, 461, 1, 0, 2, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-23T23:35:41.043146+00:00'),
 (20929025, 76845, 5382, 1, 1, 19, 'microsoft/TypeScript', 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', ARRAY['ahejlsberg', 'sheetalkamat'], '2022-02-23T23:35:41.043146+00:00'),
 (20976138, 5655, 53, 1, 0, 8, 'official-stockfish/Stockfish', 'UCI chess engine', ARRAY['mcostalba', 'zamar'], '2022-02-23T23:35:41.043146+00:00'),
 (21017766, 1435, 0, 1, 0, 3, 'jaehyunp/stanfordacm', 'Stanford ACM-ICPC related materials', ARRAY['jaehyunp', 'simonlindholm'], '2022-02-23T23:35:41.043146+00:00'),
