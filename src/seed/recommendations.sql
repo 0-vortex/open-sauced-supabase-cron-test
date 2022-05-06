@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T18:48:02.847Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T20:45:25.189Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -463,8 +463,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (16773572, 4215, 7, 1, 0, 17, 'geerlingguy/mac-dev-playbook', 'Mac setup and configuration via Ansible.', ARRAY['geerlingguy', 'dspolleke'], '2022-02-23T23:35:41.043146+00:00'),
 (16986405, 12559, 191, 2, 0, 1.5, 'liabru/matter-js', 'a 2D rigid body physics engine for the web ▲● ■', ARRAY['liabru', 'PlNG'], '2022-02-23T23:35:41.043146+00:00'),
 (17035868, 3106, 33, 1, 0, 22, 'koding/kite', 'Micro-service framework in Go', ARRAY['cenkalti', 'fatih'], '2022-02-23T23:35:41.043146+00:00'),
-(16685462, 5587, 551, 1, 0, 19, 'humhub/humhub', 'HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.', ARRAY['luke-', 'buddh4'], '2022-02-23T23:35:41.043146+00:00'),
 (17209875, 1644, 10, 1, 0, 16, 'romeovs/creep', 'a pretty sweet 4px wide pixel font.', ARRAY['romeovs', 'chase'], '2022-02-23T23:35:41.043146+00:00'),
+(16685462, 5587, 551, 1, 0, 19, 'humhub/humhub', 'HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.', ARRAY['luke-', 'buddh4'], '2022-02-23T23:35:41.043146+00:00'),
 (17274389, 1085, 56, 1, 0, 27, 'exercism/python', 'Exercism exercises in Python.', ARRAY['BethanyG', 'cmccandless'], '2022-02-23T23:35:41.043146+00:00'),
 (16554739, 10536, 1557, 1, 0, 3, 'elastic/beats', ':tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash ', ARRAY['ruflin', 'andrewkroh'], '2022-02-23T23:35:41.043146+00:00'),
 (17224877, 192, 18, 1, 0, 2, 'defunkt/Zen', 'Distraction free writing for Atom.', ARRAY['braver', 'defunkt'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3025,11 +3025,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (330878745, 28, 6, 1, 0, 25, 'pankajkumarbij/easy-job-intern', 'The main motive behind the design of this project to provide the best job and internship opportunities.', ARRAY['pankajkumarbij', 'EkjotKaur'], '2022-02-23T23:35:41.043146+00:00'),
 (331438435, 3, 0, 1, 0, 16, 'MattMarquise/CANOO-ev-app-redesign', 'CANOO ev app redesign', ARRAY['MattMarquise'], '2022-02-23T23:35:41.043146+00:00'),
 (331734784, 2, 0, 1, 0, 1, 'GiTiramisuPush/bar-crawlz', null, ARRAY['LionSnarl', 'summer-cook'], '2022-02-23T23:35:41.043146+00:00'),
+(331884475, 11, 1, 1, 0, 3, 'philips-software/spdx-action', 'GitHub Action to get a license overview in SPDX format', ARRAY['JeroenKnoops', 'npalm'], '2022-02-23T23:35:41.043146+00:00'),
+(332449101, 1, 14, 1, 0, 3, 'Mogakamo/reddit-lite', 'unofficial reddit lite app ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (331869302, 7, 0, 1, 0, 14, 'sanderdebr/react-usereducer-context-tutorial', null, ARRAY['sanderdebr'], '2022-02-23T23:35:41.043146+00:00'),
 (332479921, 207, 26, 1, 0, 14, 'nix-community/lorri', 'Your project’s nix-env [maintainer=@Profpatsch]', ARRAY['Profpatsch', 'grahamc'], '2022-02-23T23:35:41.043146+00:00'),
 (332684562, 3, 0, 1, 0, 12, 'udberg/BlogApp', 'This project is a Twitter-styled microblog, with only users and short(micro) posts. Users have a unique identifier called id(of type integer), a publicly viewable name(of type string), and an email address(also of type string) that will double as a unique username. You can create, edit and destroy posts on the blog.', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
-(331884475, 11, 1, 1, 0, 3, 'philips-software/spdx-action', 'GitHub Action to get a license overview in SPDX format', ARRAY['JeroenKnoops', 'npalm'], '2022-02-23T23:35:41.043146+00:00'),
-(332449101, 1, 14, 1, 0, 3, 'Mogakamo/reddit-lite', 'unofficial reddit lite app ', ARRAY['Mogakamo'], '2022-02-23T23:35:41.043146+00:00'),
 (332744719, 5, 0, 1, 0, 11, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', null, ARRAY['imadovitch'], '2022-02-23T23:35:41.043146+00:00'),
 (332861685, 53, 0, 1, 0, 0, 'jeanrauwers/react-native-bootcamp', 'React Native Bootcamp 2021 (completely free)', ARRAY['jeanrauwers'], '2022-02-23T23:35:41.043146+00:00'),
 (332880689, 1940, 29, 1, 0, 10, 'coollabsio/coolify', 'An open-source, hassle-free, self-hostable Heroku & Netlify alternative', ARRAY['andrasbacsai'], '2022-02-23T23:35:41.043146+00:00'),
