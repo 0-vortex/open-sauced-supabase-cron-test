@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T10:46:08.889Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T12:56:50.268Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -832,11 +832,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-23T23:35:41.043146+00:00'),
 (47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-23T23:35:41.043146+00:00'),
 (47996258, 1325, 42, 1, 0, 13, 'thoughtworks/talisman', 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ARRAY['svishwanath-tw', 'harinee'], '2022-02-23T23:35:41.043146+00:00'),
-(47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-23T23:35:41.043146+00:00'),
 (48009214, 14402, 689, 1, 0, 0, 'microsoft/react-native-windows', 'A framework for building native Windows apps with React.', ARRAY['rnbot', 'rozele'], '2022-02-23T23:35:41.043146+00:00'),
 (48242990, 10256, 156, 1, 0, 5, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-23T23:35:41.043146+00:00'),
 (47403260, 60, 3, 1, 0, 10, 'instana/nodejs', 'Node.js in-process collectors for Instana', ARRAY['basti1302', 'bripkens'], '2022-02-23T23:35:41.043146+00:00'),
 (48356217, 9798, 83, 1, 0, 24, 'haltu/muuri', 'Infinite responsive, sortable, filterable and draggable layouts', ARRAY['niklasramo', 'aslakhellesoy'], '2022-02-23T23:35:41.043146+00:00'),
+(47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-23T23:35:41.043146+00:00'),
 (48623558, 16375, 171, 1, 0, 9, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-23T23:35:41.043146+00:00'),
 (48003886, 17971, 60, 1, 0, 13, 'tmrts/go-patterns', 'Curated list of Go design patterns, recipes and idioms', ARRAY['tmrts', 'sha1sum'], '2022-02-23T23:35:41.043146+00:00'),
 (48714685, 5997, 268, 1, 0, 13, 'open-policy-agent/opa', 'An open source, general-purpose policy engine.', ARRAY['tsandall', 'patrick-east'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3591,9 +3591,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (406448834, 1, 0, 1, 0, 23, 'willcl-ark/tinybitcoinpeer', 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ARRAY['amiller', 'willcl-ark'], '2022-02-23T23:35:41.043146+00:00'),
 (406493930, 10, 6, 1, 0, 21, 'blackgirlbytes/git-emojis', 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ARRAY['blackgirlbytes'], '2022-02-23T23:35:41.043146+00:00'),
 (406594497, 3, 0, 1, 0, 13, 'bdougie/invite-automation', 'This is a repo to automate invites to teams. ', ARRAY['bdougie'], '2022-02-23T23:35:41.043146+00:00'),
+(407233777, 355, 17, 1, 0, 6, 'slipHQ/run-wasm', 'Run WASM based code executions in the browser easily', ARRAY['kennethcassel', 'cameronmoreau'], '2022-02-23T23:35:41.043146+00:00'),
 (407283196, 1163, 84, 1, 0, 16, 'buildspace/buildspace-projects', 'The home of our open-source projects.', ARRAY['adilanchian', 'farzaa'], '2022-02-23T23:35:41.043146+00:00'),
 (407327246, 2, 1, 1, 0, 5, 'angeloashmore/gatsby-4-prismic-demo', null, ARRAY['angeloashmore'], '2022-02-23T23:35:41.043146+00:00'),
-(407233777, 355, 17, 1, 0, 6, 'slipHQ/run-wasm', 'Run WASM based code executions in the browser easily', ARRAY['kennethcassel', 'cameronmoreau'], '2022-02-23T23:35:41.043146+00:00'),
 (407507122, 1, 0, 2, 0, 0, 'dimassuam/project-kalian', 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ARRAY['sandhikagalih'], '2022-02-23T23:35:41.043146+00:00'),
 (407666234, 36, 0, 1, 0, 5, 'zero-to-mastery/coding_challenge-42', 'Hacktoberfest 2021', ARRAY['MattCSmith'], '2022-02-23T23:35:41.043146+00:00'),
 (408664831, 917, 0, 1, 0, 26, 'ai/nanocolors', 'Use picocolors instead. It is 3 times smaller and 50% faster.', ARRAY['jorgebucaran', 'ai'], '2022-02-23T23:35:41.043146+00:00'),
