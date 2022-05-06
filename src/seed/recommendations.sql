@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T06:49:16.021Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T08:47:27.738Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -423,8 +423,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14440270, 147708, 130, 4, 1, 6.5, 'getify/You-Dont-Know-JS', 'A book series on JavaScript. @YDKJS on twitter.', ARRAY['getify', 'machineloop'], '2022-02-23T23:35:41.043146+00:00'),
 (14499588, 61, 75, 1, 0, 20, 'AgileVentures/LocalSupport', 'A directory of local support services and volunteer opportunities', ARRAY['tansaku', 'mtc2013'], '2022-02-23T23:35:41.043146+00:00'),
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-23T23:35:41.043146+00:00'),
-(14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-23T23:35:41.043146+00:00'),
+(14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-23T23:35:41.043146+00:00'),
 (14862081, 1, 0, 1, 0, 7, 'adiel/coypu', 'Intuitive, robust browser automation for .Net', ARRAY['adiel', 'citizenmatt'], '2022-02-23T23:35:41.043146+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-23T23:35:41.043146+00:00'),
 (14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3428,7 +3428,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386777766, 1, 0, 1, 0, 25, 'a-trost/component-carousel', 'The website for the Component Carousel show', ARRAY['a-trost'], '2022-02-23T23:35:41.043146+00:00'),
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
-(386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3549,6 +3548,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-23T23:35:41.043146+00:00'),
 (399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-23T23:35:41.043146+00:00'),
 (399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-23T23:35:41.043146+00:00'),
+(386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-23T23:35:41.043146+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-23T23:35:41.043146+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-23T23:35:41.043146+00:00'),
