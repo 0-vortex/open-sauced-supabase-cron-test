@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T20:45:25.189Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T01:04:16.435Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2353,10 +2353,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (238892079, 382, 45, 1, 0, 13, 'mirumee/saleor-platform', 'All Saleor services started from a single repository with docker-compose.', ARRAY['maarcingebala', 'tomaszszymanski129'], '2022-02-23T23:35:41.043146+00:00'),
 (239150878, 84, 2, 1, 0, 28, 'wobsoriano/coderstats', '📊 Data visualizations of your top languages, starred repositories and top repos.', ARRAY['wobsoriano'], '2022-02-23T23:35:41.043146+00:00'),
 (239002506, 953, 17, 1, 0, 27, 'sbstp/kubie', 'A more powerful alternative to kubectx and kubens', ARRAY['sbstp', 'TyBrown'], '2022-02-23T23:35:41.043146+00:00'),
-(239233346, 1467, 11, 1, 0, 11, 'ardalis/ApiEndpoints', 'A project for supporting API Endpoints in ASP.NET Core web applications.', ARRAY['ardalis', 'maxkoshevoi'], '2022-02-23T23:35:41.043146+00:00'),
 (239281641, 197, 1, 1, 0, 17, 'TryGhost/Dawn', 'A minimal newsletter theme for Ghost', ARRAY['minimaluminium', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(239469541, 92, 31, 1, 0, 8, 'dialogflow/selfservicekiosk-audio-streaming', 'A best practice for streaming audio from a browser microphone to Dialogflow or Google Cloud STT by using websockets.', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (239656008, 1580, 14, 1, 0, 3, 'jamstack-cms/jamstack-ecommerce', 'A starter project for building performant ECommerce applications with Next.js and React', ARRAY['dabit3', 'thorsten-stripe'], '2022-02-23T23:35:41.043146+00:00'),
+(239469541, 92, 31, 1, 0, 8, 'dialogflow/selfservicekiosk-audio-streaming', 'A best practice for streaming audio from a browser microphone to Dialogflow or Google Cloud STT by using websockets.', ARRAY[''], '2022-02-23T23:35:41.043146+00:00'),
 (239791048, 20, 8, 1, 0, 1, 'kihosk/kiosk-raspberry', null, ARRAY['justinask7', 'MihaiNueleanu'], '2022-02-23T23:35:41.043146+00:00'),
 (240215314, 14033, 35, 1, 0, 6, 'docker/awesome-compose', 'Awesome Docker Compose samples', ARRAY['aiordache', 'glours'], '2022-02-23T23:35:41.043146+00:00'),
 (240312952, 3462, 44, 1, 0, 20, 'benawad/destiny', 'Prettier for File Structures', ARRAY['benawad', 'sQVe'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2369,6 +2368,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-23T23:35:41.043146+00:00'),
 (240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-23T23:35:41.043146+00:00'),
 (241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-23T23:35:41.043146+00:00'),
+(239233346, 1467, 11, 1, 0, 11, 'ardalis/ApiEndpoints', 'A project for supporting API Endpoints in ASP.NET Core web applications.', ARRAY['ardalis', 'maxkoshevoi'], '2022-02-23T23:35:41.043146+00:00'),
 (241092383, 1931, 27, 1, 0, 4, 'docker/build-push-action', 'GitHub Action to build and push Docker images with Buildx', ARRAY['crazy-max', 'zappy-shu'], '2022-02-23T23:35:41.043146+00:00'),
 (241303926, 73, 0, 1, 0, 17, 'mikenye/docker-readsb', 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ARRAY['mikenye', 'SalazarBruno'], '2022-02-23T23:35:41.043146+00:00'),
 (241529345, 691, 14, 1, 0, 25, 'wellyshen/react-cool-portal', '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', ARRAY['wellyshen', 'hinok'], '2022-02-23T23:35:41.043146+00:00'),
