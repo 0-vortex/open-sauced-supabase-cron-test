@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T18:47:24.079Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T20:45:06.675Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1040,9 +1040,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (68414068, 7457, 31, 1, 0, 0, 'probot/probot', '🤖 A framework for building GitHub Apps to automate and improve your workflow', ARRAY['bkeepers', 'gr2m'], '2022-02-23T23:35:41.043146+00:00'),
 (68678413, 1033, 0, 1, 0, 1, 'ai/nanoevents', 'Simple and tiny (72 bytes) event emitter library for JavaScript', ARRAY['ai', 'subzey'], '2022-02-23T23:35:41.043146+00:00'),
 (68720867, 22172, 1527, 1, 0, 0, 'firstcontributions/first-contributions', '🚀✨ Help beginners to contribute to open source projects', ARRAY['firstcontributions-bot', 'Roshanjossey'], '2022-02-23T23:35:41.043146+00:00'),
-(68753325, 16, 0, 1, 0, 20, 'koding/koding-kubernetes', 'Run Koding with Kubernetes', ARRAY['sibblegp'], '2022-02-23T23:35:41.043146+00:00'),
 (68851623, 171, 2, 1, 0, 12, 'samyk/awesome-raspberrypi', 'A curated list of awesome Raspberry Pi tools, projects, images and resources', ARRAY['thibmaek', 'Oliver2213'], '2022-02-23T23:35:41.043146+00:00'),
 (68956484, 4509, 79, 1, 0, 9, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-23T23:35:41.043146+00:00'),
+(68753325, 16, 0, 1, 0, 20, 'koding/koding-kubernetes', 'Run Koding with Kubernetes', ARRAY['sibblegp'], '2022-02-23T23:35:41.043146+00:00'),
 (69193081, 5972, 74, 3, 0, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-23T23:35:41.043146+00:00'),
 (69291380, 5013, 10, 1, 0, 20, 'dbacinski/Design-Patterns-In-Kotlin', 'Design Patterns implemented in Kotlin', ARRAY['dbacinski', 'Net-Geek'], '2022-02-23T23:35:41.043146+00:00'),
 (69343521, 1124, 44, 1, 0, 12, 'radovskyb/watcher', 'watcher is a Go package for watching for files or directory changes without using filesystem events.', ARRAY['radovskyb', 'ericmdantas'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1195,10 +1195,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (83821669, 3179, 706, 1, 0, 2, 'Qiskit/qiskit-terra', 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', ARRAY['mtreinish', 'jaygambetta'], '2022-02-23T23:35:41.043146+00:00'),
 (83875228, 44, 2, 1, 0, 10, 'AndsonYe/MultipartEncoder', 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', ARRAY['AndsonYe'], '2022-02-23T23:35:41.043146+00:00'),
 (84084628, 191, 7, 1, 0, 20, 'danieldiekmeier/vue-slide-up-down', 'Like jQuery''s slideUp/slideDown, but for Vue!', ARRAY['danieldiekmeier', 'martyf'], '2022-02-23T23:35:41.043146+00:00'),
-(83999700, 45685, 626, 1, 0, 0, 'sdmg15/Best-websites-a-programmer-should-visit', ':link: Some useful websites for programmers.', ARRAY['sdmg15', 'ityler'], '2022-02-23T23:35:41.043146+00:00'),
 (83720379, 643, 21, 1, 0, 26, 'AnomalyInnovations/serverless-stack-demo-client', 'Source for the demo app client in the Serverless Stack Guide', ARRAY['jayair', 'fwang'], '2022-02-23T23:35:41.043146+00:00'),
 (84123508, 123, 7, 1, 0, 6, 'beautifulinteractions/node-quadstore', 'A LevelDB-backed graph database for Node.js and the browser supporting SPARQL queries and the RDF/JS interface.', ARRAY['jacoscaz', 'teomurgi'], '2022-02-23T23:35:41.043146+00:00'),
 (84238782, 4315, 0, 1, 0, 19, 'sapegin/jest-cheat-sheet', 'Jest cheat sheet', ARRAY['sapegin', 'bjoluc'], '2022-02-23T23:35:41.043146+00:00'),
+(83999700, 45685, 626, 1, 0, 0, 'sdmg15/Best-websites-a-programmer-should-visit', ':link: Some useful websites for programmers.', ARRAY['sdmg15', 'ityler'], '2022-02-23T23:35:41.043146+00:00'),
 (84312659, 50, 0, 1, 0, 2, 't4t5/messengyr', 'A clone of Facebook Messenger. Built with Elixir + Phoenix.', ARRAY['t4t5'], '2022-02-23T23:35:41.043146+00:00'),
 (84347372, 2499, 227, 1, 0, 28, 'WebThingsIO/gateway', 'WebThings Gateway', ARRAY['mrstegeman', 'hobinjk'], '2022-02-23T23:35:41.043146+00:00'),
 (85031126, 1080, 0, 1, 0, 7, 'ivbeg/awesome-status-pages', 'Awesome list of status page open source software, services and public status pages of major internet companies', ARRAY['ivbeg', 'mynameismax'], '2022-02-23T23:35:41.043146+00:00'),
