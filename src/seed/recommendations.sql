@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T03:02:54.969Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T04:48:52.607Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -339,8 +339,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (9967702, 620, 653, 1, 0, 17, 'w3c/wcag', 'Web Content Accessibility Guidelines', ARRAY['michael-n-cooper', 'awkawk'], '2022-02-23T23:35:41.043146+00:00'),
 (10114077, 15408, 206, 1, 0, 22, 'SBoudrias/Inquirer.js', 'A collection of common interactive command line user interfaces.', ARRAY['SBoudrias', 'LitoMore'], '2022-02-23T23:35:41.043146+00:00'),
 (10182011, 413, 0, 1, 0, 18, 'AzureAD/passport-azure-ad', 'The code for Passport Azure AD has been moved to the MSAL.js repo. Please open any issues or PRs at the link below.', ARRAY['lovemaths', 'brandwe'], '2022-02-23T23:35:41.043146+00:00'),
-(10299255, 1422, 6, 1, 0, 23, 'haileys/rustboot', 'A tiny 32 bit kernel written in Rust', ARRAY['haileys', 'igstan'], '2022-02-23T23:35:41.043146+00:00'),
 (10270250, 179681, 922, 1, 0, 11, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-23T23:35:41.043146+00:00'),
+(10299255, 1422, 6, 1, 0, 23, 'haileys/rustboot', 'A tiny 32 bit kernel written in Rust', ARRAY['haileys', 'igstan'], '2022-02-23T23:35:41.043146+00:00'),
 (10379106, 1785, 40, 1, 0, 26, 'browserify/watchify', 'watch mode for browserify builds', ARRAY['substack', 'zertosh'], '2022-02-23T23:35:41.043146+00:00'),
 (10395188, 6481, 287, 1, 0, 21, 'exercism/exercism', 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', ARRAY['iHiD', 'exercism-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (10489882, 2436, 1, 1, 0, 8, 'nginx-boilerplate/nginx-boilerplate', 'Awesome Nginx configuration template', ARRAY['Umkus', 'agarzon'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3538,9 +3538,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (398345592, 1, 0, 1, 0, 24, '3mer3wadh/CustomUI', 'Trying to create nice UI with xamarin forms ', ARRAY['3mer3wadh'], '2022-02-23T23:35:41.043146+00:00'),
 (398550050, 158, 1, 1, 0, 0, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ARRAY['imsiddhant07', 'dakshp07'], '2022-02-23T23:35:41.043146+00:00'),
 (398627486, 8, 0, 1, 0, 3, 'jquense/sass-tailwind-functions', 'Sass plugin implementing TailwindCSS functions', ARRAY['jquense'], '2022-02-23T23:35:41.043146+00:00'),
+(398656870, 12, 0, 1, 0, 15, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ARRAY['gungunfebrianza'], '2022-02-23T23:35:41.043146+00:00'),
 (398666208, 194, 0, 1, 0, 13, 'nachtfunke/basic-pattern-repository', 'Simple patterns for <use>. Just SVG - for your delight!', ARRAY['nachtfunke'], '2022-02-23T23:35:41.043146+00:00'),
 (398684826, 6, 2, 1, 0, 6, 'MichaelJolley/discord-guy-bot', 'A friendly Discord bot that helps server members use more inclusive language.', ARRAY['MichaelJolley'], '2022-02-23T23:35:41.043146+00:00'),
-(398656870, 12, 0, 1, 0, 15, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ARRAY['gungunfebrianza'], '2022-02-23T23:35:41.043146+00:00'),
 (398914163, 188, 7, 2, 0, 0, 'dabit3/chicken-tikka-masala-recipe', 'Nader''s chicken tikka masala recipe', ARRAY['dabit3', 'maksimovic'], '2022-02-23T23:35:41.043146+00:00'),
 (399061560, 1, 0, 1, 0, 2, 'creeperkafasi/linux-ip', 'Deno.js package for the Linux ip command', ARRAY['creeperkafasi'], '2022-02-23T23:35:41.043146+00:00'),
 (399071719, 2, 0, 1, 0, 1, 'Rohithgilla12/redwood-url-shortner', null, ARRAY['Rohithgilla12'], '2022-02-23T23:35:41.043146+00:00'),
