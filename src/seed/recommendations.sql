@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T12:53:41.828Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T14:44:20.399Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2081,7 +2081,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-23T23:35:41.043146+00:00'),
 (199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-23T23:35:41.043146+00:00'),
 (199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-23T23:35:41.043146+00:00'),
-(199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-23T23:35:41.043146+00:00'),
 (199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-23T23:35:41.043146+00:00'),
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-23T23:35:41.043146+00:00'),
 (199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2092,11 +2091,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (200424238, 112, 4, 1, 0, 4, 'icons-pack/react-simple-icons', '📦 This package provides the Simple Icons packaged as a set of React components.', ARRAY['wootsbot', 'jackmerrill'], '2022-02-23T23:35:41.043146+00:00'),
 (200590949, 2949, 29, 1, 0, 1, 'rsalmei/alive-progress', 'A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!', ARRAY['rsalmei'], '2022-02-23T23:35:41.043146+00:00'),
 (200731758, 353, 12, 1, 0, 10, 'serradura/u-case', 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', ARRAY['serradura', 'tomascco'], '2022-02-23T23:35:41.043146+00:00'),
+(199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-23T23:35:41.043146+00:00'),
 (200877850, 510, 27, 1, 0, 13, 'digitalocean/hacktoberfest', 'Hacktoberfest - App to manage the annual open-source challenge, used for the 2019 & 2020 seasons.', ARRAY['mkcode', 'fridaland'], '2022-02-23T23:35:41.043146+00:00'),
 (200928051, 684, 29, 1, 0, 27, 'HospitalRun/hospitalrun', 'Monorepo that holds all of HospitalRun''s v2 projects.', ARRAY['tehKapa', 'hospitalrunbot'], '2022-02-23T23:35:41.043146+00:00'),
 (201108929, 676, 7, 1, 0, 29, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-23T23:35:41.043146+00:00'),
-(201147574, 720, 5, 1, 0, 8, 'octokit/core.js', 'Extendable client for GitHub''s REST & GraphQL APIs', ARRAY['gr2m', 'wolfy1339'], '2022-02-23T23:35:41.043146+00:00'),
 (201148576, 3, 0, 1, 0, 16, 'mithereal/speedtest', 'speedtest.net client for elixir', ARRAY['mithereal'], '2022-02-23T23:35:41.043146+00:00'),
+(201147574, 720, 5, 1, 0, 8, 'octokit/core.js', 'Extendable client for GitHub''s REST & GraphQL APIs', ARRAY['gr2m', 'wolfy1339'], '2022-02-23T23:35:41.043146+00:00'),
 (201327718, 515, 0, 1, 0, 4, 'odpi/OpenDS4All', 'OpenDS4All project, hosted by LF AI & Data', ARRAY['Frenchhorn005', 'zackives'], '2022-02-23T23:35:41.043146+00:00'),
 (201403923, 4084, 69, 1, 0, 4, 'activeloopai/Hub', 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', ARRAY['AbhinavTuli', 'nollied'], '2022-02-23T23:35:41.043146+00:00'),
 (201438745, 3, 0, 1, 0, 2, 'jatinderji/StudentMS', null, ARRAY['jatinderji'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3212,8 +3212,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
 (358985215, 21, 20, 1, 0, 2, 'jitterted/mobreg', 'Remote Mob Programming Organizer', ARRAY['tedyoung'], '2022-02-23T23:35:41.043146+00:00'),
 (359410930, 5, 0, 1, 0, 26, 'udberg/Restaurant', 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
-(359630124, 1, 0, 1, 0, 3, 'Digital-Bangladesh/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
 (359620519, 2, 0, 1, 0, 4, 'UbuntuEvangelist/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
+(359630124, 1, 0, 1, 0, 3, 'Digital-Bangladesh/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
 (359729337, 775, 0, 1, 0, 23, 'cruip/tailwind-dashboard-template', 'Mosaic Lite is a free admin dashboard template built on top of Tailwind CSS and fully coded in React. Made by', ARRAY['pasqualevitiello'], '2022-02-23T23:35:41.043146+00:00'),
 (359917554, 2, 0, 1, 0, 2, 'gaurangrshah/next-supabase-starter', null, ARRAY['gaurangrshah'], '2022-02-23T23:35:41.043146+00:00'),
 (360319672, 1123, 40, 1, 0, 5, 'folke/trouble.nvim', '🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.', ARRAY['folke', 'echasnovski'], '2022-02-23T23:35:41.043146+00:00'),
