@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T10:45:43.331Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T12:53:41.828Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3212,8 +3212,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (358749842, 2, 3, 1, 0, 1, 'CarletonComputerScienceSociety/merged', 'Web application for viewing all upcoming events in the Carleton CS community', ARRAY['MathyouMB', 'DamiAdesola'], '2022-02-23T23:35:41.043146+00:00'),
 (358985215, 21, 20, 1, 0, 2, 'jitterted/mobreg', 'Remote Mob Programming Organizer', ARRAY['tedyoung'], '2022-02-23T23:35:41.043146+00:00'),
 (359410930, 5, 0, 1, 0, 26, 'udberg/Restaurant', 'This project was meant to enhance the knowledge of DOM manipulation by dynamically rendering a simple restaurant homepage. In this project, I have created a web page of a local restaurant from where I live. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).', ARRAY['udberg'], '2022-02-23T23:35:41.043146+00:00'),
-(359620519, 2, 0, 1, 0, 4, 'UbuntuEvangelist/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
 (359630124, 1, 0, 1, 0, 3, 'Digital-Bangladesh/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
+(359620519, 2, 0, 1, 0, 4, 'UbuntuEvangelist/sms-gateway-software', 'SMS Gateway Software Installation Service From Scratch', ARRAY['UbuntuEvangelist'], '2022-02-23T23:35:41.043146+00:00'),
 (359729337, 775, 0, 1, 0, 23, 'cruip/tailwind-dashboard-template', 'Mosaic Lite is a free admin dashboard template built on top of Tailwind CSS and fully coded in React. Made by', ARRAY['pasqualevitiello'], '2022-02-23T23:35:41.043146+00:00'),
 (359917554, 2, 0, 1, 0, 2, 'gaurangrshah/next-supabase-starter', null, ARRAY['gaurangrshah'], '2022-02-23T23:35:41.043146+00:00'),
 (360319672, 1123, 40, 1, 0, 5, 'folke/trouble.nvim', '🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.', ARRAY['folke', 'echasnovski'], '2022-02-23T23:35:41.043146+00:00'),
