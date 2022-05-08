@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T04:49:23.068Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T06:48:25.029Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2907,8 +2907,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (315782535, 69, 7, 1, 0, 27, 'SaraVieira/blender-resources', 'A list of resources and tools that have helped me learn blender', ARRAY['SaraVieira', 'mikeesto'], '2022-02-23T23:35:41.043146+00:00'),
 (315872513, 2, 0, 1, 0, 4, 'udberg/clone-new-york-times-article', 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', ARRAY['udberg', 'KCnick'], '2022-02-23T23:35:41.043146+00:00'),
 (315899862, 29, 12, 1, 0, 1, 'POSSF/POSSF', 'Persian Open Source Software Festival - اولین جشنواره نرم افزار اوپن سورس فارسی (جشنواره متن باز و منبع باز فارسی)', ARRAY['BaseMax', 'alirezababae'], '2022-02-23T23:35:41.043146+00:00'),
-(316078264, 1, 0, 1, 0, 2, 'ColomboJuan/PokemonApi', 'Simple app with PokemonApi.', ARRAY['ColomboJuan'], '2022-02-23T23:35:41.043146+00:00'),
 (316188570, 1, 0, 1, 0, 0, 'Tom-Wyszkowski/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-23T23:35:41.043146+00:00'),
+(316078264, 1, 0, 1, 0, 2, 'ColomboJuan/PokemonApi', 'Simple app with PokemonApi.', ARRAY['ColomboJuan'], '2022-02-23T23:35:41.043146+00:00'),
 (316281608, 675, 5, 1, 0, 21, 'artart222/CodeArt', 'Use NeoVim as general purpose IDE', ARRAY['artart222', 'Ashraf-wan'], '2022-02-23T23:35:41.043146+00:00'),
 (316340692, 12, 0, 1, 0, 18, 'CyanBook/spotipy2', 'The next generation Spotify Web API wrapper for Python 3.7+', ARRAY['CyanBook'], '2022-02-23T23:35:41.043146+00:00'),
 (316471703, 1, 0, 1, 0, 15, 'teezzan/katacoda-scenarios', 'Katacoda Scenarios', ARRAY['teezzan'], '2022-02-23T23:35:41.043146+00:00'),
