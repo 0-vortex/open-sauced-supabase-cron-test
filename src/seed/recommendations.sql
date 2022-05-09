@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T12:56:50.231Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T14:46:31.746Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3544,11 +3544,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (398914163, 188, 7, 2, 0, 0, 'dabit3/chicken-tikka-masala-recipe', 'Nader''s chicken tikka masala recipe', ARRAY['dabit3', 'maksimovic'], '2022-02-23T23:35:41.043146+00:00'),
 (399061560, 1, 0, 1, 0, 2, 'creeperkafasi/linux-ip', 'Deno.js package for the Linux ip command', ARRAY['creeperkafasi'], '2022-02-23T23:35:41.043146+00:00'),
 (399071719, 2, 0, 1, 0, 1, 'Rohithgilla12/redwood-url-shortner', null, ARRAY['Rohithgilla12'], '2022-02-23T23:35:41.043146+00:00'),
-(399087415, 173, 7, 1, 0, 11, 'ged-odoo/blockdom', 'A fast virtual dom library', ARRAY['ged-odoo', 'HamedFathi'], '2022-02-23T23:35:41.043146+00:00'),
 (399197552, 6, 0, 1, 0, 7, 'CrossGeeks/ScrollRevealXFSample', null, ARRAY['Char0394'], '2022-02-23T23:35:41.043146+00:00'),
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-23T23:35:41.043146+00:00'),
-(399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-23T23:35:41.043146+00:00'),
 (399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-23T23:35:41.043146+00:00'),
+(399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-23T23:35:41.043146+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-23T23:35:41.043146+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-23T23:35:41.043146+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
+(399087415, 173, 7, 1, 0, 11, 'ged-odoo/blockdom', 'A fast virtual dom library', ARRAY['ged-odoo', 'HamedFathi'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
