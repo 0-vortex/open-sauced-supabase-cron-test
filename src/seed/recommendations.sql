@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T16:54:56.233Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T18:48:09.998Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3184,8 +3184,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (355258557, 57, 0, 1, 0, 22, 'technorabilia/portainer-templates', 'Various Portainer App Templates', ARRAY['technorabilia'], '2022-02-23T23:35:41.043146+00:00'),
 (355298453, 20, 0, 1, 0, 26, 'myriadrf/lc-website', 'LibreCellular website', ARRAY['9600'], '2022-02-23T23:35:41.043146+00:00'),
 (355321589, 6, 0, 1, 0, 5, 'nuxtclub/feathericons', 'An easy way to integrate Feather Icons with NuxtJS', ARRAY['imlautaro'], '2022-02-23T23:35:41.043146+00:00'),
-(355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-23T23:35:41.043146+00:00'),
 (355395936, 56, 2, 1, 0, 6, 'xizon/poemkit', 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', ARRAY['xizon'], '2022-02-23T23:35:41.043146+00:00'),
+(355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-23T23:35:41.043146+00:00'),
 (355825750, 4, 0, 1, 0, 25, 'udberg/JSLibrary', 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', ARRAY['udberg', 'keneogu'], '2022-02-23T23:35:41.043146+00:00'),
 (356007050, 2270, 13, 1, 0, 7, 'octokatherine/readme.so', null, ARRAY['octokatherine', 'jose-vale'], '2022-02-23T23:35:41.043146+00:00'),
 (356079886, 5, 2, 1, 0, 26, 'ezralazuardy/pathfinder', 'A simple, no-nonsense pathfinding algorithm visualizer web app ✨', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3656,9 +3656,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (429658975, 4, 0, 2, 0, 0, 'open-sauced/party-line', null, ARRAY['regexident', 'jessmitch42'], '2022-02-23T23:35:41.043146+00:00'),
 (430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-23T23:35:41.043146+00:00'),
 (430789888, 111, 22, 1, 0, 2, 'Developer-DAO/web3-ui', 'The UI library for web3', ARRAY['etr2460', 'Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
+(430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-23T23:35:41.043146+00:00'),
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-23T23:35:41.043146+00:00'),
 (431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-23T23:35:41.043146+00:00'),
-(430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-23T23:35:41.043146+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-23T23:35:41.043146+00:00'),
 (431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (432493110, 1, 0, 1, 0, 11, 'divyakelaskar/MagicHat', 'An AR filter of a hat 🎩', ARRAY['divyakelaskar'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3667,6 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-23T23:35:41.043146+00:00'),
 (438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-23T23:35:41.043146+00:00'),
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
-(439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-23T23:35:41.043146+00:00'),
+(439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-23T23:35:41.043146+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-23T23:35:41.043146+00:00');
