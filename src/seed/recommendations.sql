@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T22:44:48.231Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T01:04:32.173Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -122,14 +122,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (1732211, 2720, 162, 1, 0, 2, 'FactoryBoy/factory_boy', 'A test fixtures replacement for Python', ARRAY['rbarrois', 'francoisfreitag'], '2022-02-23T23:35:41.043146+00:00'),
 (1780761, 1, 0, 1, 0, 14, 'jwalter/SMSParkera', null, ARRAY['jwalter'], '2022-02-23T23:35:41.043146+00:00'),
 (1910390, 171, 22, 1, 0, 28, 'rails-oceania/roro', 'The Ruby on Rails Oceania (RORO) Sydney meetup', ARRAY['paulfioravanti', 'mathewdbutton'], '2022-02-23T23:35:41.043146+00:00'),
+(1927511, 216, 5, 1, 0, 26, 'Sutto/api_smith', 'API Smith makes building structured API clients even simpler.', ARRAY['Sutto', 'pranas'], '2022-02-23T23:35:41.043146+00:00'),
+(1953222, 1, 0, 1, 0, 13, 'jwalter/garnisonen', 'Dagens lunch på garnisonsområdet i Linköping', ARRAY['jwalter'], '2022-02-23T23:35:41.043146+00:00'),
 (1953385, 1635, 12, 1, 0, 13, 'stripe/stripe-ruby', 'Ruby library for the Stripe API.    ', ARRAY['brandur', 'brandur-stripe'], '2022-02-23T23:35:41.043146+00:00'),
 (1988969, 1, 0, 1, 0, 12, 'jwalter/zombiedice', null, ARRAY['jwalter'], '2022-02-23T23:35:41.043146+00:00'),
 (2003232, 1, 0, 1, 0, 11, 'jwalter/zombiedicejava', null, ARRAY['jwalter'], '2022-02-23T23:35:41.043146+00:00'),
 (2013896, 2, 0, 1, 0, 10, 'GhostRabbit/GameUtil', 'Collection of classes to represent various boardgame components', ARRAY['GhostRabbit'], '2022-02-23T23:35:41.043146+00:00'),
 (2015790, 3, 0, 1, 0, 12, 'timwis/PhillySNAP-v1', 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', ARRAY['timwis'], '2022-02-23T23:35:41.043146+00:00'),
-(1927511, 216, 5, 1, 0, 26, 'Sutto/api_smith', 'API Smith makes building structured API clients even simpler.', ARRAY['Sutto', 'pranas'], '2022-02-23T23:35:41.043146+00:00'),
 (2019791, 2918, 560, 1, 0, 17, 'liquibase/liquibase', 'Main Liquibase Source', ARRAY['nvoxland', 'wwillard7800'], '2022-02-23T23:35:41.043146+00:00'),
-(1953222, 1, 0, 1, 0, 13, 'jwalter/garnisonen', 'Dagens lunch på garnisonsområdet i Linköping', ARRAY['jwalter'], '2022-02-23T23:35:41.043146+00:00'),
 (2028724, 1174, 633, 1, 0, 28, 'cgeo/cgeo', 'c:geo - The powerful Android geocaching app.', ARRAY['Bananeweizen', 'samueltardieu'], '2022-02-23T23:35:41.043146+00:00'),
 (2051226, 18155, 153, 1, 0, 13, 'eligrey/FileSaver.js', 'An HTML5 saveAs() FileSaver implementation', ARRAY['eligrey', 'jimmywarting'], '2022-02-23T23:35:41.043146+00:00'),
 (2096358, 14, 4, 1, 0, 24, 'rajkissu/brainfuck', 'A Brainfuck interpreter running on node.js', ARRAY['rajkissu'], '2022-02-23T23:35:41.043146+00:00'),
@@ -816,8 +816,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (45723377, 15953, 2, 1, 0, 7, 'charlax/professional-programming', 'A collection of full-stack resources for programmers.', ARRAY['charlax', 'laithshadeed'], '2022-02-23T23:35:41.043146+00:00'),
 (45750507, 2935, 21, 1, 0, 24, 'davidtheclark/cosmiconfig', 'Find and load configuration from a package.json property, rc file, or CommonJS module', ARRAY['davidtheclark', 'chrisblossom'], '2022-02-23T23:35:41.043146+00:00'),
 (45879586, 1512, 17, 1, 0, 4, 'lexborisov/myhtml', 'Fast C/C++ HTML 5 Parser. Using threads.', ARRAY['lexborisov', 'Azq2'], '2022-02-23T23:35:41.043146+00:00'),
-(45947467, 5428, 164, 1, 0, 20, 'insin/nwb', 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', ARRAY['insin', 'ntwcklng'], '2022-02-23T23:35:41.043146+00:00'),
 (45936895, 11967, 3814, 1, 0, 0, 'Automattic/wp-calypso', 'The JavaScript and API powered WordPress.com', ARRAY['tyxla', 'aduth'], '2022-02-23T23:35:41.043146+00:00'),
+(45947467, 5428, 164, 1, 0, 20, 'insin/nwb', 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', ARRAY['insin', 'ntwcklng'], '2022-02-23T23:35:41.043146+00:00'),
 (45978340, 2, 0, 1, 0, 22, 'SathishGajendran/Board', ' A simple paint PWA https://sathishgajendran.github.io/Board', ARRAY['SathishGajendran'], '2022-02-23T23:35:41.043146+00:00'),
 (46041284, 9811, 1152, 2, 0, 14.5, 'VSCodeVim/Vim', ':star: Vim for Visual Studio Code', ARRAY['jpoon', 'johnfn'], '2022-02-23T23:35:41.043146+00:00'),
 (46212429, 60, 0, 1, 0, 28, 'shantnu/Titanic-Machine-Learning', null, ARRAY['shantnu'], '2022-02-23T23:35:41.043146+00:00'),
@@ -854,8 +854,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (49668250, 5078, 256, 1, 0, 6, 'dear-github/dear-github', ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', ARRAY['jamiebuilds', 'gaearon'], '2022-02-23T23:35:41.043146+00:00'),
 (49704723, 9521, 116, 3, 0, 18, 'okonet/lint-staged', '🚫💩 — Run linters on git staged files', ARRAY['okonet', 'iiroj'], '2022-02-23T23:35:41.043146+00:00'),
 (49760504, 7401, 5, 2, 0, 14, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-23T23:35:41.043146+00:00'),
-(49970642, 40330, 1967, 1, 0, 17, 'yarnpkg/yarn', 'The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry', ARRAY['kittens', 'bestander'], '2022-02-23T23:35:41.043146+00:00'),
 (49767244, 7187, 1083, 1, 0, 16, 'primefaces/primeng', 'The Most Complete Angular UI Component Library', ARRAY['cagataycivici', 'yigitfindikli'], '2022-02-23T23:35:41.043146+00:00'),
+(49970642, 40330, 1967, 1, 0, 17, 'yarnpkg/yarn', 'The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry', ARRAY['kittens', 'bestander'], '2022-02-23T23:35:41.043146+00:00'),
 (50063599, 732, 15, 1, 0, 14, 'mcdallas/wallstreet', 'Real time stock and option data.', ARRAY['mcdallas', 'sorying'], '2022-02-23T23:35:41.043146+00:00'),
 (50182994, 2888, 145, 1, 0, 12, 'googlecodelabs/tools', 'Codelabs management & hosting tools', ARRAY['cassierecher', 'nicolasgarnier'], '2022-02-23T23:35:41.043146+00:00'),
 (50190034, 1077, 46, 1, 0, 2, 'futurice/chilipie-kiosk', 'Easy-to-use Raspberry Pi image for booting directly into full-screen Chrome, with built-in convenience features for unattended operation. Perfect for dashboards and build monitors.', ARRAY['jareware', 'cedricwalter'], '2022-02-23T23:35:41.043146+00:00'),
