@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T22:45:17.112Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T01:04:12.214Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2142,6 +2142,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (206573022, 243, 15, 1, 0, 3, 'HA6Bots/Automatic-Youtube-Reddit-Text-To-Speech-Video-Generator-and-Uploader', 'A series of 3 programs that will automatically receive scripts from Reddit, allow the user to edit them, then be sent off to a video generator where they will be uploaded to YouTube automatically.', ARRAY['HA6Bots'], '2022-02-23T23:35:41.043146+00:00'),
 (206950992, 7, 2, 1, 0, 27, 'SaurabhLpRocks/vscode-workflow', 'Fullstack app to demonstrate end to end workflow of Angular and ASP Net Core app inside VS Code.', ARRAY['SaurabhLpRocks', 'Saurabh-Palatkar-Spok'], '2022-02-23T23:35:41.043146+00:00'),
 (206982984, 1728, 107, 1, 0, 3, 'kamranahmedse/roadmap.sh', 'Community driven roadmaps, articles and resources for developers', ARRAY['kamranahmedse', 'lex111'], '2022-02-23T23:35:41.043146+00:00'),
+(207085951, 42, 169, 1, 0, 1, 'hackjunction/JunctionApp', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-23T23:35:41.043146+00:00'),
+(207645083, 24542, 33, 3, 0, 18.333333333333332, 'tannerlinsley/react-query', '⚛️ Hooks for fetching, caching and updating asynchronous data in React', ARRAY['tannerlinsley', 'boschni'], '2022-02-23T23:35:41.043146+00:00'),
 (207840450, 7, 2, 1, 0, 14, 'jonabc/setup-licensed', 'Set up your GitHub Actions workflow with a specific version of github/licensed', ARRAY['jonabc', 'mmorel-35'], '2022-02-23T23:35:41.043146+00:00'),
 (207877287, 39, 13, 1, 0, 19, 'sandrinodimattia/nextjs-auth0-example', 'A sample application showing how your users can sign in to your Next.js application using Auth0', ARRAY['sandrinodimattia'], '2022-02-23T23:35:41.043146+00:00'),
 (207892857, 215, 19, 1, 0, 21, 'pluralsight/web-dev-starter', null, ARRAY['sullysaurus'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2158,8 +2160,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (210540791, 1216, 32, 1, 0, 11, 'dylanaraps/pfetch', '🐧 A pretty system information tool written in POSIX sh.', ARRAY['dylanaraps', 'Crestwave'], '2022-02-23T23:35:41.043146+00:00'),
 (208498644, 21, 0, 1, 0, 13, 'jonabc/licensed-ci', 'Update and check cached licenses in a GitHub Actions workflow', ARRAY['jonabc', 'andymckay'], '2022-02-23T23:35:41.043146+00:00'),
 (210716005, 7775, 7744, 1, 0, 23, 'dotnet/runtime', '.NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.', ARRAY['vargaz', 'stephentoub'], '2022-02-23T23:35:41.043146+00:00'),
-(207085951, 42, 169, 1, 0, 1, 'hackjunction/JunctionApp', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-23T23:35:41.043146+00:00'),
-(207645083, 24542, 33, 3, 0, 18.333333333333332, 'tannerlinsley/react-query', '⚛️ Hooks for fetching, caching and updating asynchronous data in React', ARRAY['tannerlinsley', 'boschni'], '2022-02-23T23:35:41.043146+00:00'),
 (210179484, 615, 24, 1, 0, 13, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-23T23:35:41.043146+00:00'),
 (210683857, 83, 2, 1, 0, 9, 'WrathChaos/react-native-login-screen', 'One Line of Code to Plug & Play | Fully Customizable Beautiful React Native Login Screen', ARRAY['WrathChaos', 'pasdoy'], '2022-02-23T23:35:41.043146+00:00'),
 (211155535, 2, 0, 1, 0, 24, 'tunakasif/Electromagnetic-Suspension-System', 'Bilkent University - Fall 2019 - EEE 351 Best Project: Electromagnetic Suspension System', ARRAY['tunakasif'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3432,8 +3432,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
-(387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
+(387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387286310, 1, 0, 1, 0, 4, 'eventhorizongames/EventHorizon.Game.Server.Zone', null, ARRAY['canhorn'], '2022-02-23T23:35:41.043146+00:00'),
 (387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-23T23:35:41.043146+00:00'),
 (387461341, 1, 0, 1, 0, 19, 'muhammaddzaky/alfathir.github.io', null, ARRAY['alfathir', 'giadev25'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3563,8 +3563,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-23T23:35:41.043146+00:00'),
 (400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-23T23:35:41.043146+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-23T23:35:41.043146+00:00'),
-(401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-23T23:35:41.043146+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-23T23:35:41.043146+00:00'),
+(401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-23T23:35:41.043146+00:00'),
 (401300251, 2, 0, 1, 0, 29, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-23T23:35:41.043146+00:00'),
 (401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-23T23:35:41.043146+00:00'),
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-23T23:35:41.043146+00:00'),
