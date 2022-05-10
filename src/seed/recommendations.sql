@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T01:04:12.214Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T02:58:08.548Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -916,8 +916,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (54226191, 5049, 0, 1, 0, 13, 'JanDeDobbeleer/oh-my-posh2', 'A prompt theming engine for Powershell', ARRAY['JanDeDobbeleer', 'rashil2000'], '2022-02-23T23:35:41.043146+00:00'),
 (54244030, 41, 0, 1, 0, 11, 'FarmBot-Labs/mqtt-gateway', 'DEPRECATED. Realtime messaging server for Farmbot (MQTT broker).', ARRAY['RickCarlino', 'roryaronson'], '2022-02-23T23:35:41.043146+00:00'),
 (54254815, 8, 2, 1, 0, 4, 'geo242/angular-tawk-to', 'Angular service and directive to angularify the tawk.to javascript API', ARRAY['tamvm', 'geo242'], '2022-02-23T23:35:41.043146+00:00'),
-(54346799, 172342, 7, 3, 0, 18.333333333333332, 'public-apis/public-apis', 'A collective list of free APIs', ARRAY['davemachado', 'matheusfelipeog'], '2022-02-23T23:35:41.043146+00:00'),
 (59096058, 586, 43, 1, 0, 7, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-23T23:35:41.043146+00:00'),
+(54346799, 172342, 7, 3, 0, 18.333333333333332, 'public-apis/public-apis', 'A collective list of free APIs', ARRAY['davemachado', 'matheusfelipeog'], '2022-02-23T23:35:41.043146+00:00'),
 (54377519, 1466, 109, 1, 0, 16, 'PiranhaCMS/piranha.core', 'Piranha CMS is the friendly editor-focused CMS for .NET6 that can be used both as an integrated CMS or as a headless API.', ARRAY['tidyui', 'filipjansson'], '2022-02-23T23:35:41.043146+00:00'),
 (54421302, 330, 13, 1, 0, 20, 'iCatButler/pcsxr', 'https://pcsxr.svn.codeplex.com/svn/pcsxr', ARRAY['iCatButler', 'loathingKernel'], '2022-02-23T23:35:41.043146+00:00'),
 (54427752, 59, 5, 1, 0, 24, 'cloudflare/docker-phan', 'Dockerization of the Phan PHP static analysis tool', ARRAY['terinjokes', 'darthsteven'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1569,8 +1569,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (129313877, 141, 16, 1, 0, 11, 'woubuc/sweep', 'Reduce the disk usage of your projects by removing dependencies & builds', ARRAY['woubuc', 'Atul9'], '2022-02-23T23:35:41.043146+00:00'),
 (129456680, 509, 48, 1, 0, 21, 'altangent/ccxws', 'WebSocket client for 38 cryptocurrency exchanges', ARRAY['bmancini55', 'ejfrancis'], '2022-02-23T23:35:41.043146+00:00'),
 (129855787, 316, 0, 1, 0, 9, 'namvdo/CS-and-Programming-Books', 'Free computer science, programming books. Code examples, programming project guidlines, and more...', ARRAY['namvdo', 'suvasish114'], '2022-02-23T23:35:41.043146+00:00'),
-(129936360, 1114, 140, 1, 0, 3, 'PennyLaneAI/pennylane', 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', ARRAY['josh146', 'co9olguy'], '2022-02-23T23:35:41.043146+00:00'),
 (129543408, 38, 0, 1, 0, 6, 'witchard/tutorial-react-parcel-express', 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', ARRAY['witchard', 'aronhoyer'], '2022-02-23T23:35:41.043146+00:00'),
+(129936360, 1114, 140, 1, 0, 3, 'PennyLaneAI/pennylane', 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', ARRAY['josh146', 'co9olguy'], '2022-02-23T23:35:41.043146+00:00'),
 (130268121, 1544, 56, 1, 0, 21, 'tailwindlabs/tailwindcss-intellisense', 'Intelligent Tailwind CSS tooling for Visual Studio Code', ARRAY['bradlc', 'ledenis'], '2022-02-23T23:35:41.043146+00:00'),
 (130464961, 30920, 115, 1, 0, 7, 'sharkdp/bat', 'A cat(1) clone with wings.', ARRAY['sharkdp', 'Enselic'], '2022-02-23T23:35:41.043146+00:00'),
 (130597640, 1489, 21, 1, 0, 0, 'GantMan/ReactStateMuseum', 'A whirlwind tour of React state management systems by example', ARRAY['GantMan', 'marcelkalveram'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1682,8 +1682,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (143890171, 1288, 7, 1, 0, 1, 'mbrt/gmailctl', 'Declarative configuration for Gmail filters', ARRAY['mbrt', 'chenrui333'], '2022-02-23T23:35:41.043146+00:00'),
 (143896900, 4969, 387, 1, 0, 26, 'tilt-dev/tilt', 'Define your dev environment as code. For microservice apps on Kubernetes.', ARRAY['nicks', 'landism'], '2022-02-23T23:35:41.043146+00:00'),
 (143975804, 1307, 144, 1, 0, 12, 'LycheeOrg/Lychee', ' A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.', ARRAY['ildyria', 'kamil4'], '2022-02-23T23:35:41.043146+00:00'),
-(144107489, 1379, 3, 1, 0, 1, 'sudheerj/vuejs-interview-questions', 'List of 300 VueJS Interview Questions And Answers', ARRAY['sudheerj', 'bekliev'], '2022-02-23T23:35:41.043146+00:00'),
 (144109184, 60, 3, 1, 0, 12, 'mrouhi13/djecrety', 'Djecrety is a Django secret key generator.', ARRAY['mrouhi13', 'PhysicistSouravDas'], '2022-02-23T23:35:41.043146+00:00'),
+(144107489, 1379, 3, 1, 0, 1, 'sudheerj/vuejs-interview-questions', 'List of 300 VueJS Interview Questions And Answers', ARRAY['sudheerj', 'bekliev'], '2022-02-23T23:35:41.043146+00:00'),
 (144133419, 137, 17, 1, 0, 22, 'balenalabs/balena-cam', 'Network Camera with Raspberry Pi and WebRTC. Tutorial:', ARRAY['mbalamat', 'balena-ci'], '2022-02-23T23:35:41.043146+00:00'),
 (144185831, 18, 6, 1, 0, 27, 'MetaMask/extension-provider', 'A module for allowing a WebExtension to access the web3 provider from an installed MetaMask instance', ARRAY['danfinlay', 'zhouhanseng'], '2022-02-23T23:35:41.043146+00:00'),
 (144329209, 666, 21, 1, 0, 0, 'CrowCpp/Crow', 'A Fast and Easy to use microframework for the web.', ARRAY['The-EDev', 'ipkn'], '2022-02-23T23:35:41.043146+00:00'),
