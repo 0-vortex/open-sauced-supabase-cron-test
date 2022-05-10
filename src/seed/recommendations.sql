@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T10:46:20.788Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T13:00:18.272Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1741,11 +1741,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (151890069, 135, 2, 1, 0, 1, 'jacobaustin123/Coral', 'The Coral Programming Language: a blazingly-fast, gradually-typed Python compiler with optional static typing for optimization and safety.', ARRAY['jacobaustin123', 'mlb2251'], '2022-02-23T23:35:41.043146+00:00'),
 (152145851, 2, 0, 1, 0, 1, 'rlnx/cpp-course-ffs', 'Materials on practical C++ course for foreign students', ARRAY['rlnx'], '2022-02-23T23:35:41.043146+00:00'),
 (152327151, 2598, 380, 1, 0, 7, 'SamProf/MatBlazor', 'Material Design components for Blazor and Razor Components', ARRAY['SamProf', 'enkodellc'], '2022-02-23T23:35:41.043146+00:00'),
+(152370823, 4702, 19, 1, 0, 1, 'davidfowl/AspNetCoreDiagnosticScenarios', 'This repository has examples of broken patterns in ASP.NET Core applications', ARRAY['davidfowl', 'AArnott'], '2022-02-23T23:35:41.043146+00:00'),
 (152447206, 9, 2, 1, 0, 16, 'OpenKudos/python_client', null, ARRAY['zoek1', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
 (152453428, 10, 8, 1, 0, 17, 'OpenKudos/OpenKudos', null, ARRAY['zoek1', 'owocki'], '2022-02-23T23:35:41.043146+00:00'),
 (152766602, 12, 0, 1, 0, 9, 'ssaleem/Front-End-Practice', 'Front-end playground; my solutions to Pramp, FCC, and Fullstack Academy challenges and projects', ARRAY['ssaleem'], '2022-02-23T23:35:41.043146+00:00'),
 (168709940, 259, 7, 1, 0, 6, 'kudulab/dojo', 'Containerize your development and operations environment', ARRAY['xmik', 'tomzo'], '2022-02-23T23:35:41.043146+00:00'),
 (152975883, 1930, 13, 1, 0, 24, 'stimulusreflex/stimulus_reflex', 'Build reactive applications with the Rails tooling you already know and love.', ARRAY['leastbad', 'hopsoft'], '2022-02-23T23:35:41.043146+00:00'),
+(153099672, 11870, 6, 1, 0, 28, 'inancgumus/learngo', '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', ARRAY['inancgumus', 'firasuke'], '2022-02-23T23:35:41.043146+00:00'),
 (152873434, 3, 0, 1, 0, 3, 'NaturalCycles/dev-lib', 'Configuration files and scripts shared between all js modules', ARRAY['kirillgroshkov', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (153251691, 542, 403, 1, 0, 19, 'Ishaan28malik/Hacktoberfest-2021', 'Make this Hacktoberfest a learning period and contribute to Great Open Source Projects.', ARRAY['Ishaan28malik', 'orestotel'], '2022-02-23T23:35:41.043146+00:00'),
 (153500249, 16972, 85, 2, 0, 5.5, 'sdras/awesome-actions', 'A curated list of awesome actions to use on GitHub', ARRAY['gep13', 'sdras'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1754,8 +1756,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (154181635, 86, 0, 1, 0, 8, 'microbium/microbium-app', 'Draw new worlds', ARRAY['jpweeks', 'courdek'], '2022-02-23T23:35:41.043146+00:00'),
 (154401464, 1790, 3, 1, 0, 4, 'lirantal/awesome-nodejs-security', 'Awesome Node.js Security resources', ARRAY['lirantal', 'alemagio'], '2022-02-23T23:35:41.043146+00:00'),
 (154548852, 11, 2, 1, 0, 23, 'amazon-archives/aws-media-services-workflow-composer', 'Create flexible, intelligent file-based video workflows on AWS using dynamic rules.', ARRAY['aburkleaux-amazon', 'jamesiri'], '2022-02-23T23:35:41.043146+00:00'),
-(152370823, 4702, 19, 1, 0, 1, 'davidfowl/AspNetCoreDiagnosticScenarios', 'This repository has examples of broken patterns in ASP.NET Core applications', ARRAY['davidfowl', 'AArnott'], '2022-02-23T23:35:41.043146+00:00'),
-(153099672, 11870, 6, 1, 0, 28, 'inancgumus/learngo', '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', ARRAY['inancgumus', 'firasuke'], '2022-02-23T23:35:41.043146+00:00'),
 (154688866, 2406, 42, 1, 0, 1, 'nakov/Practical-Cryptography-for-Developers-Book', 'Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems, RSA, Elliptic Curves, ECC, secp256k1, ECDH, ECIES, Digital Signatures, ECDSA, EdDSA', ARRAY['nakov', 'kasperkarlsson'], '2022-02-23T23:35:41.043146+00:00'),
 (154704604, 623, 0, 1, 0, 16, 'iLoveCodingOrg/javascript-cheatsheet', 'Learn the basic terminologies, concepts and syntax of JavaScript', ARRAY['azizali'], '2022-02-23T23:35:41.043146+00:00'),
 (153687898, 264, 14, 1, 0, 23, 'googlecreativelab/creatability-components', 'Web components for making creative tools more accessible.', ARRAY['hapticdata', 'alexanderchen'], '2022-02-23T23:35:41.043146+00:00'),
