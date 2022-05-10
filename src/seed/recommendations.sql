@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T18:48:32.471Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T20:45:33.570Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2225,9 +2225,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (218282453, 2827, 16, 1, 0, 29, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-23T23:35:41.043146+00:00'),
 (219261940, 961, 93, 1, 0, 4, 'znck/grammarly', 'Unofficial Grammarly VS Code Extension', ARRAY['znck', 'jaguarfi'], '2022-02-23T23:35:41.043146+00:00'),
 (219294494, 2617, 7, 1, 0, 29, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'idkjs'], '2022-02-23T23:35:41.043146+00:00'),
+(219324014, 118, 11, 1, 0, 29, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-23T23:35:41.043146+00:00'),
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-23T23:35:41.043146+00:00'),
 (219415760, 33, 0, 1, 0, 11, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-23T23:35:41.043146+00:00'),
-(219324014, 118, 11, 1, 0, 29, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-23T23:35:41.043146+00:00'),
 (219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-23T23:35:41.043146+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-23T23:35:41.043146+00:00'),
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-23T23:35:41.043146+00:00'),
