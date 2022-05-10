@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-10T05:52:38.247Z",
+  "lastExecuted": "2022-05-10T05:59:03.416Z",
   "checked": {
     "siddharth2798": {
       "owner": "siddharth2798",
@@ -479,7 +479,7 @@
     "davidackroyd99": {
       "owner": "davidackroyd99",
       "notFound": true,
-      "lastExecuted": "2022-05-09T17:54:33.836Z"
+      "lastExecuted": "2022-05-10T05:59:03.416Z"
     },
     "h4h18": {
       "owner": "h4h18",
@@ -489,7 +489,7 @@
     "NsdHSO": {
       "owner": "NsdHSO",
       "notFound": false,
-      "lastExecuted": "2022-05-09T17:54:33.836Z"
+      "lastExecuted": "2022-05-10T05:59:03.416Z"
     },
     "ketsindian": {
       "owner": "ketsindian",
@@ -734,7 +734,7 @@
     "mdb1710": {
       "owner": "mdb1710",
       "notFound": false,
-      "lastExecuted": "2022-05-09T17:54:33.836Z"
+      "lastExecuted": "2022-05-10T05:59:03.416Z"
     },
     "miralsuthar": {
       "owner": "miralsuthar",
@@ -1935,6 +1935,11 @@
       "owner": "Ramghimirecr7",
       "notFound": false,
       "lastExecuted": "2022-05-10T05:12:15.384Z"
+    },
+    "NinjaAung": {
+      "owner": "NinjaAung",
+      "notFound": false,
+      "lastExecuted": "2022-05-10T05:59:03.416Z"
     }
   }
 }
