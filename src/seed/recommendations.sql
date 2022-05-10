@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T04:49:13.914Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T06:48:39.675Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2699,8 +2699,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (281182128, 37, 17, 1, 0, 21, 'jonyw4/pagarme-js-types', '📖 A simple typescript definition file for pagarme-js repository', ARRAY['jonyw4', 'abrantesarthur'], '2022-02-23T23:35:41.043146+00:00'),
 (281297416, 2461, 32, 1, 0, 21, 'adityatelange/hugo-PaperMod', 'A fast, clean, responsive Hugo theme.', ARRAY['adityatelange', 'nanxiaobei'], '2022-02-23T23:35:41.043146+00:00'),
 (281443363, 4754, 1, 1, 0, 7, 'sindresorhus/css-in-readme-like-wat', 'Style your readme using CSS with this simple trick', ARRAY['sindresorhus', 'ImprovedTube'], '2022-02-23T23:35:41.043146+00:00'),
-(281778548, 212, 9, 1, 0, 2, 'writewithocto/octo', 'A lightweight word processor for technical writers', ARRAY['voraciousdev', 'austenmadden'], '2022-02-23T23:35:41.043146+00:00'),
 (281520747, 69, 2, 1, 0, 2, 'kentcdodds/managing-state-management-slides', null, ARRAY['kentcdodds'], '2022-02-23T23:35:41.043146+00:00'),
+(281778548, 212, 9, 1, 0, 2, 'writewithocto/octo', 'A lightweight word processor for technical writers', ARRAY['voraciousdev', 'austenmadden'], '2022-02-23T23:35:41.043146+00:00'),
 (281975310, 11063, 4751, 1, 0, 6, 'type-challenges/type-challenges', 'Collection of TypeScript type challenges with online judge', ARRAY['antfu', 'jiangshanmeta'], '2022-02-23T23:35:41.043146+00:00'),
 (282194280, 1, 5, 1, 0, 10, 'SanchitaMishra170676/To-Do-Blockchain', 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', ARRAY['SanchitaMishra170676'], '2022-02-23T23:35:41.043146+00:00'),
 (283003335, 70, 4, 1, 0, 23, 'fireship-io/3.1-firebase-basics', 'Firebase - The Basics', ARRAY['codediodeio'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3282,8 +3282,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (368185844, 2, 2, 1, 0, 25, 'Nazeeh21/Devdit-Blockchain', 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', ARRAY['Nazeeh21'], '2022-02-23T23:35:41.043146+00:00'),
 (368311388, 2, 1, 1, 0, 2, 'pranshudobhal/quiz-master', 'A quiz app on your favorite topics', ARRAY['pranshudobhal'], '2022-02-23T23:35:41.043146+00:00'),
 (368365410, 1, 0, 2, 0, 13, 'xsky13/RedFeed', 'RedFeed: a Reddit Feed', ARRAY['xsky13'], '2022-02-23T23:35:41.043146+00:00'),
-(368658267, 829, 35, 1, 0, 0, 'Rich-Harris/svelte-cubed', 'Svelte ❤️ Three', ARRAY['Rich-Harris', 'gonfva'], '2022-02-23T23:35:41.043146+00:00'),
 (368642007, 1, 0, 1, 0, 5, 'ulissesdias/si700-2021-1st-backend-', null, ARRAY['ulissesdias'], '2022-02-23T23:35:41.043146+00:00'),
+(368658267, 829, 35, 1, 0, 0, 'Rich-Harris/svelte-cubed', 'Svelte ❤️ Three', ARRAY['Rich-Harris', 'gonfva'], '2022-02-23T23:35:41.043146+00:00'),
 (368859622, 2, 0, 1, 0, 25, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', ARRAY['umernalla'], '2022-02-23T23:35:41.043146+00:00'),
 (368917877, 1271, 17, 1, 0, 22, 'BuilderIO/qwik', 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', ARRAY['mhevery', 'adamdbradley'], '2022-02-23T23:35:41.043146+00:00'),
 (369362064, 3777, 0, 2, 0, 3.5, 'reactwg/react-18', 'Workgroup for React 18 release.', ARRAY['caabernathy', 'gaearon'], '2022-02-23T23:35:41.043146+00:00'),
