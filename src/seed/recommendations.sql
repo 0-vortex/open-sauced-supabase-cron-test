@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T10:47:02.814Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T12:58:20.291Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2160,6 +2160,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (210540791, 1216, 32, 1, 0, 11, 'dylanaraps/pfetch', '🐧 A pretty system information tool written in POSIX sh.', ARRAY['dylanaraps', 'Crestwave'], '2022-02-23T23:35:41.043146+00:00'),
 (208498644, 21, 0, 1, 0, 13, 'jonabc/licensed-ci', 'Update and check cached licenses in a GitHub Actions workflow', ARRAY['jonabc', 'andymckay'], '2022-02-23T23:35:41.043146+00:00'),
 (210716005, 7775, 7744, 1, 0, 23, 'dotnet/runtime', '.NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.', ARRAY['vargaz', 'stephentoub'], '2022-02-23T23:35:41.043146+00:00'),
+(210179484, 615, 24, 1, 0, 13, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-23T23:35:41.043146+00:00'),
+(210683857, 83, 2, 1, 0, 9, 'WrathChaos/react-native-login-screen', 'One Line of Code to Plug & Play | Fully Customizable Beautiful React Native Login Screen', ARRAY['WrathChaos', 'pasdoy'], '2022-02-23T23:35:41.043146+00:00'),
+(211155535, 2, 0, 1, 0, 24, 'tunakasif/Electromagnetic-Suspension-System', 'Bilkent University - Fall 2019 - EEE 351 Best Project: Electromagnetic Suspension System', ARRAY['tunakasif'], '2022-02-23T23:35:41.043146+00:00'),
 (210796618, 1386, 22, 1, 0, 21, 'puncsky/system-design-and-architecture', 'Learn how to design large-scale systems. Prep for the system design interview.', ARRAY['puncsky', 'jorgedfbranco'], '2022-02-23T23:35:41.043146+00:00'),
 (210903466, 84, 9, 1, 0, 17, 'redwoodjs/example-blog', 'Example Blog app written with Redwood', ARRAY['peterp', 'thedavidprice'], '2022-02-23T23:35:41.043146+00:00'),
 (211467758, 1806, 32, 1, 0, 7, 'liuchengxu/vim-clap', ':clap: Modern performant fuzzy picker for Vim and NeoVim', ARRAY['liuchengxu', 'romgrk'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2173,10 +2176,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (210450402, 1735, 49, 1, 0, 5, 'adelsz/pgtyped', 'pgTyped - Typesafe SQL in TypeScript', ARRAY['adelsz', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (212270500, 29, 3, 1, 0, 22, '101t/jasmin-web-panel', '📨 Jasmin Web Panel for Jasmin SMS Gateway', ARRAY['101t', 'rakibulinux'], '2022-02-23T23:35:41.043146+00:00'),
 (212270676, 10, 1, 1, 0, 12, 'edoardottt/programming-fundamentals', 'Programming fundamentals.🧠 Material useful for learning Python, start coding and learn how to solve logically a real world problem.', ARRAY['edoardottt', 'POP1912'], '2022-02-23T23:35:41.043146+00:00'),
-(210179484, 615, 24, 1, 0, 13, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-23T23:35:41.043146+00:00'),
-(210683857, 83, 2, 1, 0, 9, 'WrathChaos/react-native-login-screen', 'One Line of Code to Plug & Play | Fully Customizable Beautiful React Native Login Screen', ARRAY['WrathChaos', 'pasdoy'], '2022-02-23T23:35:41.043146+00:00'),
 (212487543, 501, 58, 1, 0, 10, 'ash-project/ash', 'A resource based framework for building Elixir applications', ARRAY['zachdaniel', 'andrewcallahan'], '2022-02-23T23:35:41.043146+00:00'),
-(211155535, 2, 0, 1, 0, 24, 'tunakasif/Electromagnetic-Suspension-System', 'Bilkent University - Fall 2019 - EEE 351 Best Project: Electromagnetic Suspension System', ARRAY['tunakasif'], '2022-02-23T23:35:41.043146+00:00'),
 (212606516, 2, 13, 1, 0, 5, 'boorje/react-news-app', 'A simple React app which uses the News API.', ARRAY['boorje'], '2022-02-23T23:35:41.043146+00:00'),
 (212077752, 371, 10, 1, 0, 23, 'MichaelBarney/LinkFree', 'A free and open source alternative to LinkTree', ARRAY['MichaelBarney', 'farellfaiz'], '2022-02-23T23:35:41.043146+00:00'),
 (212613049, 26706, 410, 1, 0, 15, 'cli/cli', 'GitHub’s official command line tool', ARRAY['mislav', 'vilmibm'], '2022-02-23T23:35:41.043146+00:00'),
