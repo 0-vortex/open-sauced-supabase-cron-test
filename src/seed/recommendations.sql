@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T03:12:52.972Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T04:55:56.198Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2382,6 +2382,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (242775289, 264, 66, 1, 0, 28, 'VulcanJS/vulcan-next', 'The Next starter for GraphQL developers', ARRAY['eric-burel', 'Timi-Duban'], '2022-02-23T23:35:41.043146+00:00'),
 (242870159, 2233, 2, 1, 0, 13, 'Machine-Learning-Tokyo/AI_Curriculum', 'Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.', ARRAY['suzana-ilic', 'tejasmorkar'], '2022-02-23T23:35:41.043146+00:00'),
 (243274141, 1, 0, 1, 0, 28, 'ramazansakin/spring-microservices', 'Example of a microservice architecture using Spring Cloud', ARRAY['ramazansakin'], '2022-02-23T23:35:41.043146+00:00'),
+(243288155, 260, 25, 2, 0, 0, 'abertschi/graalphp', 'An efficient PHP implementation built on GraalVM ', ARRAY['abertschi', 'COil'], '2022-02-23T23:35:41.043146+00:00'),
+(243429404, 13, 11, 1, 0, 22, 'eobrain/bajel', 'A build system modeled on make.', ARRAY['eobrain'], '2022-02-23T23:35:41.043146+00:00'),
 (243545135, 11, 8, 1, 0, 12, 'Kyonru/just-a-review-app', 'A review app', ARRAY['Kyonru'], '2022-02-23T23:35:41.043146+00:00'),
 (243554283, 2, 0, 1, 0, 2, 'mloberg/openapi-stitcher', 'Stitch together multiple files into an OpenAPI specification', ARRAY['mloberg'], '2022-02-23T23:35:41.043146+00:00'),
 (243834124, 60, 33, 1, 0, 16, 'cncf/tag-contributor-strategy', 'CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.', ARRAY['carolynvs', 'jberkus'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2473,8 +2475,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (256401220, 1396, 0, 1, 0, 8, 'alexeygrigorev/mlbookcamp-code', 'The code from the Machine Learning Bookcamp book and a free course based on the book', ARRAY['alexeygrigorev', 'ziritrion'], '2022-02-23T23:35:41.043146+00:00'),
 (256611909, 2, 0, 1, 0, 15, 'fedecalendino/wrap-genius', 'Unofficial python wrapper for genius'' API.', ARRAY['fedecalendino'], '2022-02-23T23:35:41.043146+00:00'),
 (256629525, 303, 1, 1, 0, 26, 'davidgrzyb/tailwind-admin-template', 'An admin dashboard template built with Tailwind and Alpine.js', ARRAY['davidgrzyb', 'iftikharyk'], '2022-02-23T23:35:41.043146+00:00'),
-(243288155, 260, 25, 2, 0, 0, 'abertschi/graalphp', 'An efficient PHP implementation built on GraalVM ', ARRAY['abertschi', 'COil'], '2022-02-23T23:35:41.043146+00:00'),
-(243429404, 13, 11, 1, 0, 22, 'eobrain/bajel', 'A build system modeled on make.', ARRAY['eobrain'], '2022-02-23T23:35:41.043146+00:00'),
 (256710922, 282, 1, 1, 0, 22, 'web3coach/the-blockchain-bar', 'The source-code for: ''Build a Blockchain from Scratch in Go'' eBook.', ARRAY['web3coach', 'cmaahs'], '2022-02-23T23:35:41.043146+00:00'),
 (256725670, 3482, 18, 1, 0, 8, 'bansal-io/pattern.css', 'CSS only library to fill empty background with beautiful patterns.', ARRAY['bansal-io'], '2022-02-23T23:35:41.043146+00:00'),
 (256742063, 1, 2, 1, 0, 9, 'NyashaNziramasanga/facebook-navbar-ui-clone', '🌃  A clone of Facebooks dark theme nav bar 🌆', ARRAY['NyashaNziramasanga'], '2022-02-23T23:35:41.043146+00:00'),
