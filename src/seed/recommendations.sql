@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T06:49:44.318Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T08:48:00.759Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -494,8 +494,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (18765044, 3948, 151, 1, 0, 19, 'golang/oauth2', 'Go OAuth2', ARRAY['rakyll', 'adg'], '2022-02-23T23:35:41.043146+00:00'),
 (18957477, 67, 1, 1, 0, 16, 'gwincr11/shopify-starter', null, ARRAY['gwincr11'], '2022-02-23T23:35:41.043146+00:00'),
 (18935740, 1242, 32, 1, 0, 19, 'ifmeorg/ifme', 'Free, open source mental health communication web app to share experiences with loved ones', ARRAY['julianguyen', 'HashNotAdam'], '2022-02-23T23:35:41.043146+00:00'),
-(18885925, 4988, 1933, 1, 0, 7, 'reek/anti-adblock-killer', 'Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.', ARRAY['reek', 'devnoname120'], '2022-02-23T23:35:41.043146+00:00'),
 (19029120, 1347, 101, 1, 0, 16, 'indutny/elliptic', 'Fast Elliptic Curve Cryptography in plain javascript', ARRAY['indutny', 'fanatid'], '2022-02-23T23:35:41.043146+00:00'),
+(18885925, 4988, 1933, 1, 0, 7, 'reek/anti-adblock-killer', 'Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.', ARRAY['reek', 'devnoname120'], '2022-02-23T23:35:41.043146+00:00'),
 (19126114, 4215, 115, 1, 0, 13, 'rust-lang/rust-by-example', 'Learn Rust with examples (Live code editor included)', ARRAY['steveklabnik', 'marioidival'], '2022-02-23T23:35:41.043146+00:00'),
 (19148949, 34413, 2015, 1, 0, 17, 'PhilJay/MPAndroidChart', 'A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.', ARRAY['PhilJay', 'danielgindi'], '2022-02-23T23:35:41.043146+00:00'),
 (19208128, 2371, 55, 1, 0, 19, 'firasdib/Regex101', 'This repository is currently only used for issue tracking for www.regex101.com', ARRAY['firasdib', 'Zarthus'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1051,8 +1051,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (69590701, 6402, 156, 2, 0, 12.5, 'vmware/clarity', 'Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.', ARRAY['coryrylan', 'hippee-lee'], '2022-02-23T23:35:41.043146+00:00'),
 (69673033, 8995, 26, 1, 0, 17, 'ardalis/CleanArchitecture', 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', ARRAY['ardalis', 'sdepouw'], '2022-02-23T23:35:41.043146+00:00'),
 (69746176, 5900, 0, 1, 0, 12, 'hackergrrl/art-of-readme', ':love_letter: Things I''ve learned about writing good READMEs.', ARRAY['noffle', 'hackergrrl'], '2022-02-23T23:35:41.043146+00:00'),
-(70092432, 35, 1, 1, 0, 11, 'epool/firebase-cloning-tool', 'Tool for cloning firebase remote config projects.', ARRAY['epool'], '2022-02-23T23:35:41.043146+00:00'),
 (69813387, 2877, 16, 1, 0, 18, 'iberianpig/fusuma', 'Multitouch gestures with libinput driver on Linux', ARRAY['iberianpig', 'irq'], '2022-02-23T23:35:41.043146+00:00'),
+(70092432, 35, 1, 1, 0, 11, 'epool/firebase-cloning-tool', 'Tool for cloning firebase remote config projects.', ARRAY['epool'], '2022-02-23T23:35:41.043146+00:00'),
 (70107786, 78667, 1236, 2, 0, 14, 'vercel/next.js', 'The React Framework', ARRAY['timneutkens', 'ijjk'], '2022-02-23T23:35:41.043146+00:00'),
 (70137417, 3779, 233, 2, 0, 3.5, 'corda/corda', 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ARRAY['Clintonio', 'exFalso'], '2022-02-23T23:35:41.043146+00:00'),
 (70198875, 32219, 46, 1, 0, 24, 'airbnb/lottie-android', 'Render After Effects animations natively on Android and iOS, Web, and React Native', ARRAY['gpeal', 'felipecsl'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1927,11 +1927,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-23T23:35:41.043146+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
 (178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-23T23:35:41.043146+00:00'),
-(178148244, 254, 9, 1, 0, 2, 'sbmpost/AutoRaise', 'AutoRaise (and focus) a window when hovering over it with the mouse', ARRAY['sbmpost', 'Dimentium'], '2022-02-23T23:35:41.043146+00:00'),
-(178387930, 365, 0, 1, 0, 1, 'billyjov/microfrontend-resources', ':fire: A curated list of resources about  Micro frontends grouped by types', ARRAY['billyjov', 'one-aalam'], '2022-02-23T23:35:41.043146+00:00'),
 (177987738, 2507, 96, 1, 0, 1, 'hedgedoc/hedgedoc', 'HedgeDoc - The best platform to write and share markdown.', ARRAY['jackycute', 'davidmehren'], '2022-02-23T23:35:41.043146+00:00'),
 (178066495, 488, 1, 1, 0, 20, 'world-class/REPL', 'The Learning Hub for UoL''s Online CS Students', ARRAY['sglavoie', 'actions-user'], '2022-02-23T23:35:41.043146+00:00'),
 (178137889, 3, 0, 2, 0, 0, 'mpsalisbury/raytracer', 'Ray Tracer from Ray Tracer Challenge', ARRAY['mpsalisbury'], '2022-02-23T23:35:41.043146+00:00'),
+(178148244, 254, 9, 1, 0, 2, 'sbmpost/AutoRaise', 'AutoRaise (and focus) a window when hovering over it with the mouse', ARRAY['sbmpost', 'Dimentium'], '2022-02-23T23:35:41.043146+00:00'),
+(178387930, 365, 0, 1, 0, 1, 'billyjov/microfrontend-resources', ':fire: A curated list of resources about  Micro frontends grouped by types', ARRAY['billyjov', 'one-aalam'], '2022-02-23T23:35:41.043146+00:00'),
 (178381879, 77, 1, 1, 0, 13, 'kubernetes-sigs/slack-infra', 'Tooling for kubernetes.slack.com', ARRAY['Katharine', 'k8s-ci-robot'], '2022-02-23T23:35:41.043146+00:00'),
 (178393328, 6, 18, 1, 0, 5, 'researchgate/tooling', '🛠 ResearchGate''s JavaScript Tooling', ARRAY['danez', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (178404439, 4, 0, 1, 0, 29, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3427,9 +3427,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386740498, 46, 5, 1, 0, 19, 'lukesmurray/scrawl', 'A chrome extension which lets you draw on any web page with excalidraw', ARRAY['lukesmurray'], '2022-02-23T23:35:41.043146+00:00'),
 (386777766, 1, 0, 1, 0, 25, 'a-trost/component-carousel', 'The website for the Component Carousel show', ARRAY['a-trost'], '2022-02-23T23:35:41.043146+00:00'),
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
-(387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-23T23:35:41.043146+00:00'),
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
+(387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-23T23:35:41.043146+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-23T23:35:41.043146+00:00'),
 (387277996, 19, 2, 1, 0, 15, 'ibywaks/cookbook', 'A simple Express Node.js recipe API using Sequelize ORM ', ARRAY['ibywaks'], '2022-02-23T23:35:41.043146+00:00'),
 (387459183, 1, 0, 1, 0, 3, 'george-hawkins/aletsch-2021', null, ARRAY['george-hawkins', 'henrik-ch'], '2022-02-23T23:35:41.043146+00:00'),
