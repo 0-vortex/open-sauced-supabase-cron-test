@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T05:02:03.538Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T06:50:52.569Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1345,12 +1345,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (101814136, 905, 59, 1, 0, 0, 'theKashey/react-focus-lock', 'It is a trap! A lock for a Focus. 🔓', ARRAY['theKashey', 'ai'], '2022-02-23T23:35:41.043146+00:00'),
 (102210005, 1470, 35, 1, 0, 27, 'dethcrypto/TypeChain', '🔌 TypeScript bindings for Ethereum smart contracts', ARRAY['krzkaczor', 'zemse'], '2022-02-23T23:35:41.043146+00:00'),
 (102371998, 1623, 320, 1, 0, 6, 'nuxt-community/auth-module', null, ARRAY['JoaoPedroAS51', 'pi0'], '2022-02-23T23:35:41.043146+00:00'),
+(102488287, 105, 0, 1, 0, 4, 'aleha84/simple.canvas.core2', 'SCG v2', ARRAY['aleha84'], '2022-02-23T23:35:41.043146+00:00'),
+(102664411, 1282, 4, 1, 0, 4, 'alinebastos/dev-practice', 'Practice your skills with these ideas.', ARRAY['alinebastos', 'adeonir'], '2022-02-23T23:35:41.043146+00:00'),
 (102784450, 1927, 108, 1, 0, 22, 'klaussinani/ao', 'Elegant Microsoft To-Do desktop app', ARRAY['klaussinani', 'mariosinani'], '2022-02-23T23:35:41.043146+00:00'),
 (102969245, 28432, 71, 1, 0, 14, 'golang-standards/project-layout', 'Standard Go Project Layout', ARRAY['kcq', 'xis'], '2022-02-23T23:35:41.043146+00:00'),
 (103084166, 2698, 94, 1, 0, 8, 'accurics/terrascan', 'Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.', ARRAY['cesar-rodriguez', 'kanchwala-yusuf'], '2022-02-23T23:35:41.043146+00:00'),
 (103279624, 4, 6, 1, 0, 9, 'moleculerjs/moleculer-template-nano', ':mortar_board: Minimal project template for one microservice.', ARRAY['icebob'], '2022-02-23T23:35:41.043146+00:00'),
 (103313840, 674, 26, 1, 0, 21, 'wesbos/cobalt2-vscode', 'Cobalt2 Theme for VS Code', ARRAY['wesbos', 'palashmon'], '2022-02-23T23:35:41.043146+00:00'),
-(102488287, 105, 0, 1, 0, 4, 'aleha84/simple.canvas.core2', 'SCG v2', ARRAY['aleha84'], '2022-02-23T23:35:41.043146+00:00'),
 (103633984, 72884, 38, 3, 0, 21.333333333333332, 'goldbergyoni/nodebestpractices', ':white_check_mark:  The Node.js best practices list (December 2021)', ARRAY['goldbergyoni', 'anediaz'], '2022-02-23T23:35:41.043146+00:00'),
 (103674850, 55, 0, 1, 0, 5, 'vikpe/mongoose-mpath', 'Mongoose plugin for tree hierarchy using the materialized path pattern.', ARRAY['vikpe', 'florianbepunkt'], '2022-02-23T23:35:41.043146+00:00'),
 (103749180, 12942, 2460, 1, 0, 27, 'OpenGenus/cosmos', 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', ARRAY['AdiChat', 'arnavb'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1361,7 +1362,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (104394958, 427, 6, 1, 0, 11, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-23T23:35:41.043146+00:00'),
 (104443108, 383, 4, 1, 0, 22, 'ukncsc/secure-development-and-deployment', 'NCSC Guidance for secure development and deployment', ARRAY['toby-ncsc', 'HowWeRollingham'], '2022-02-23T23:35:41.043146+00:00'),
 (104957153, 5074, 21, 1, 0, 20, 'nestjs/awesome-nestjs', 'A curated list of awesome things related to NestJS 😎', ARRAY['juliandavidmr', 'Tony133'], '2022-02-23T23:35:41.043146+00:00'),
-(102664411, 1282, 4, 1, 0, 4, 'alinebastos/dev-practice', 'Practice your skills with these ideas.', ARRAY['alinebastos', 'adeonir'], '2022-02-23T23:35:41.043146+00:00'),
 (105006329, 40, 13, 1, 0, 1, 'shiplab/vesseljs', 'Vessel.js Ship Design Library', ARRAY['icarofonseca', 'ferrari212'], '2022-02-23T23:35:41.043146+00:00'),
 (105079548, 213, 769, 1, 0, 21, 'BaReinhard/Hacktoberfest-Data-Structure-and-Algorithms', 'A repo to contains data structure s and algorithms, regardless of language.', ARRAY['BaReinhard', 'vaibhavsingh97'], '2022-02-23T23:35:41.043146+00:00'),
 (105279544, 15599, 141, 1, 0, 12, 'gocolly/colly', 'Elegant Scraper and Crawler Framework for Golang', ARRAY['asciimoo', 'vosmith'], '2022-02-23T23:35:41.043146+00:00'),
