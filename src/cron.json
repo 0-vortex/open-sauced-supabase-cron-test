@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-12T23:55:43.489Z",
+  "lastExecuted": "2022-05-13T00:11:29.637Z",
   "checked": {
     "siddharth2798": {
       "owner": "siddharth2798",
@@ -309,7 +309,7 @@
     "ryan3738": {
       "owner": "ryan3738",
       "notFound": false,
-      "lastExecuted": "2022-05-12T11:58:57.548Z"
+      "lastExecuted": "2022-05-13T00:11:29.637Z"
     },
     "ihordyrman": {
       "owner": "ihordyrman",
@@ -619,7 +619,7 @@
     "ThomasErhel": {
       "owner": "ThomasErhel",
       "notFound": false,
-      "lastExecuted": "2022-05-12T11:58:57.548Z"
+      "lastExecuted": "2022-05-13T00:11:29.637Z"
     },
     "nobalpha": {
       "owner": "nobalpha",
@@ -1953,8 +1953,8 @@
     },
     "FunIsDangerous": {
       "owner": "FunIsDangerous",
-      "notFound": true,
-      "lastExecuted": "2022-05-12T12:08:49.049Z"
+      "notFound": false,
+      "lastExecuted": "2022-05-13T00:11:29.637Z"
     }
   }
 }
