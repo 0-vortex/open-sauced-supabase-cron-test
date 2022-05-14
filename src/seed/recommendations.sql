@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T01:07:03.345Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T03:29:53.125Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -809,8 +809,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (45325973, 517, 8, 1, 0, 0, 'zutrinken/bleak', 'Ghost Theme', ARRAY['zutrinken', 'ManuelRauber'], '2022-02-23T23:35:41.043146+00:00'),
 (45350538, 1284, 10, 1, 0, 1, 'piotrmurach/tty-prompt', 'A beautiful and powerful interactive command line prompt', ARRAY['piotrmurach', 'slowbro'], '2022-02-23T23:35:41.043146+00:00'),
 (45355064, 4834, 2, 2, 0, 4, 'jarun/buku', ':bookmark: Personal mini-web in text', ARRAY['jarun', 'rachmadaniHaryono'], '2022-02-23T23:35:41.043146+00:00'),
-(45356931, 2597, 138, 1, 0, 18, 'bwmarrin/discordgo', ' (Golang) Go bindings for Discord', ARRAY['bwmarrin', 'iopred'], '2022-02-23T23:35:41.043146+00:00'),
 (45502812, 310, 2, 1, 0, 28, 'unrelentingtech/freepass', '[DEPRECATED] password manager thing', ARRAY['unrelentingtech', 'quininer'], '2022-02-23T23:35:41.043146+00:00'),
+(45356931, 2597, 138, 1, 0, 18, 'bwmarrin/discordgo', ' (Golang) Go bindings for Discord', ARRAY['bwmarrin', 'iopred'], '2022-02-23T23:35:41.043146+00:00'),
 (45603512, 4976, 60, 1, 0, 12, 'microsoft/vscode-extension-samples', 'Sample code illustrating the VS Code extension API.', ARRAY['octref', 'mjbvz'], '2022-02-23T23:35:41.043146+00:00'),
 (45717250, 161444, 2691, 1, 1, 5, 'tensorflow/tensorflow', 'An Open Source Machine Learning Framework for Everyone', ARRAY['tensorflower-gardener', 'yongtang'], '2022-02-23T23:35:41.043146+00:00'),
 (45723377, 15953, 2, 1, 0, 7, 'charlax/professional-programming', 'A collection of full-stack resources for programmers.', ARRAY['charlax', 'laithshadeed'], '2022-02-23T23:35:41.043146+00:00'),
@@ -1706,8 +1706,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (145908919, 124, 12, 1, 0, 6, 'kubernetes-sigs/contributor-playground', null, ARRAY['k8s-ci-robot', 'atoato88'], '2022-02-23T23:35:41.043146+00:00'),
 (146486679, 181, 26, 1, 0, 11, 'beyonk-adventures/svelte-carousel', 'A super lightweight, super simple Carousel for Svelte 3', ARRAY['antony', 'jokin'], '2022-02-23T23:35:41.043146+00:00'),
 (146619556, 11500, 9, 1, 0, 8, 'trekhleb/learn-python', '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.', ARRAY['trekhleb', 'vilmacio'], '2022-02-23T23:35:41.043146+00:00'),
-(146435241, 838, 5, 1, 0, 9, 'Matoking/protontricks', 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', ARRAY['Matoking', 'Sirmentio'], '2022-02-23T23:35:41.043146+00:00'),
 (146033470, 2, 0, 1, 0, 6, 'ernestomancebo/angular-native-dialog', 'Implementation example of how to use a native dialog in an Angular project.', ARRAY['ernestomancebo', 'angular-cli'], '2022-02-23T23:35:41.043146+00:00'),
+(146435241, 838, 5, 1, 0, 9, 'Matoking/protontricks', 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', ARRAY['Matoking', 'Sirmentio'], '2022-02-23T23:35:41.043146+00:00'),
 (146218451, 792, 12, 1, 0, 25, 'seanpmaxwell/overnight', 'TypeScript decorators for the ExpressJS Server.', ARRAY['joeykilpatrick', 'seanpmaxwell'], '2022-02-23T23:35:41.043146+00:00'),
 (146790989, 2, 28, 1, 0, 24, 'jgettings/food-planner', 'Simple single-page app for planning meals and shopping lists', ARRAY['jgettings'], '2022-02-23T23:35:41.043146+00:00'),
 (147130632, 3783, 0, 1, 0, 22, 'twhite96/js-dev-reads', 'A list of books 📚and articles 📝 for the discerning web developer to read.', ARRAY['twhite96', 'geocine'], '2022-02-23T23:35:41.043146+00:00'),
