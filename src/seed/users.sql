@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T03:29:52.763Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T05:08:13.544Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -225,15 +225,11 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (71297412, 1, false, true, 'samuelsycamore', '2022-02-23T23:37:08.741086+00:00'),
 (29648040, 1, false, true, 'iamtheozzy', '2022-02-23T23:37:08.741086+00:00'),
 (46935495, 1, false, true, 'sarthakvarshney8081', '2022-02-23T23:37:08.741086+00:00'),
+(577424, 1, false, true, 'matthewdeanmartin', '2022-05-07T13:59:28.754749+00:00'),
 (103691815, 0, false, true, 'TheTestTestington', '2022-04-14T21:04:32.10666+00:00'),
 (3792749, 9, false, true, 'mtfoley', '2022-02-24T07:56:49.561732+00:00'),
-(104824933, 0, false, true, 'JIFswe', '2022-05-10T15:25:04.011427+00:00'),
-(33100863, 1, false, true, 'cedriking', '2022-04-19T23:17:02.535163+00:00'),
-(65788728, 2, false, true, 'j-dogcoder', '2022-05-09T14:12:22.878639+00:00'),
-(34839258, 0, false, true, 'adwinang', '2022-05-08T14:51:57.177362+00:00'),
-(47293786, 0, false, true, 'tahabenammar', '2022-05-02T12:51:03.618514+00:00'),
 (3650761, 0, false, true, 'dariye', '2022-05-06T12:32:17.444109+00:00'),
-(577424, 1, false, true, 'matthewdeanmartin', '2022-05-07T13:59:28.754749+00:00'),
+(33100863, 1, false, true, 'cedriking', '2022-04-19T23:17:02.535163+00:00'),
 (101365565, 0, false, true, '1ynmuldrow', '2022-03-15T01:41:06.052824+00:00'),
 (10264785, 0, false, true, 'mabvmex', '2022-05-07T16:24:16.746694+00:00'),
 (5941125, 1, false, true, 'pnxdxt', '2022-05-03T12:43:09.667856+00:00'),
@@ -279,4 +275,8 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (42341383, 0, false, true, 'tiamatu', '2022-04-02T14:29:08.174702+00:00'),
 (17364711, 0, false, true, 'FunIsDangerous', '2022-05-13T00:11:33.876636+00:00'),
 (52573981, 0, false, true, 'mrsantons', '2022-05-08T12:12:17.579034+00:00'),
-(907680, 5, false, true, 'deenadayalancs', '2022-02-23T23:37:08.741086+00:00');
+(104824933, 0, false, true, 'JIFswe', '2022-05-10T15:25:04.011427+00:00'),
+(65788728, 2, false, true, 'j-dogcoder', '2022-05-09T14:12:22.878639+00:00'),
+(34839258, 0, false, true, 'adwinang', '2022-05-08T14:51:57.177362+00:00'),
+(907680, 5, false, true, 'deenadayalancs', '2022-02-23T23:37:08.741086+00:00'),
+(47293786, 0, false, true, 'tahabenammar', '2022-05-02T12:51:03.618514+00:00');
