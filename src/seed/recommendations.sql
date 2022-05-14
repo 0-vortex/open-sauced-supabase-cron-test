@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T06:55:06.352Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T10:46:34.440Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1064,12 +1064,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70777180, 11976, 9, 2, 0, 7.5, 'Foundry376/Mailspring', ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', ARRAY['bengotow', 'emorikawa'], '2022-02-23T23:35:41.043146+00:00'),
 (70848287, 2338, 41, 1, 0, 23, 'yairEO/tagify', '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', ARRAY['yairEO', 'LironHazan'], '2022-02-23T23:35:41.043146+00:00'),
 (70860064, 1025, 1, 1, 0, 19, 'Yonet/Angular-Interview-Questions', 'A list of helpful Angular interview questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['Yonet', 'bhanu7755'], '2022-02-23T23:35:41.043146+00:00'),
-(70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:35:41.043146+00:00'),
 (70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-23T23:35:41.043146+00:00'),
 (71002855, 12, 0, 1, 0, 6, 'muryoimpl/slippr', 'markdown presentation app by Electron', ARRAY['muryoimpl', 'takkanm'], '2022-02-23T23:35:41.043146+00:00'),
 (71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-23T23:35:41.043146+00:00'),
 (71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-23T23:35:41.043146+00:00'),
 (71230327, 559, 18, 1, 0, 24, 'spring-projects-experimental/spring-boot-thin-launcher', 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ARRAY['dsyer', 'mnewquis'], '2022-02-23T23:35:41.043146+00:00'),
+(70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-23T23:35:41.043146+00:00'),
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-23T23:35:41.043146+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-23T23:35:41.043146+00:00'),
 (71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-23T23:35:41.043146+00:00'),
