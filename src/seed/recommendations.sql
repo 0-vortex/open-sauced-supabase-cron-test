@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T20:45:12.074Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T22:45:17.320Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3304,9 +3304,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (371645725, 18, 1, 1, 0, 8, 'jaymrobinson/PoETools', null, ARRAY['jaymrobinson'], '2022-02-23T23:35:41.043146+00:00'),
 (371708649, 3, 0, 1, 0, 7, 'rep2recall/r2r-cli', 'CLI and programmability-focused memorizing flashcard app.', ARRAY['patarapolw'], '2022-02-23T23:35:41.043146+00:00'),
 (371738496, 2, 0, 1, 0, 19, 'Borrus-sudo/FileQuery', 'A command line utility to help you manage files seamlessly!', ARRAY['Borrus-sudo'], '2022-02-23T23:35:41.043146+00:00'),
-(371872698, 36, 1, 1, 0, 14, 'huibizhang/vitawind', 'Install and Setting Tailwindcss automatically for Vite', ARRAY['huibizhang', 'alesvaupotic'], '2022-02-23T23:35:41.043146+00:00'),
 (371973401, 5, 0, 1, 0, 1, 'zylkowski/SSSF', 'SSSF stands for Super Simple Simulation Framework.', ARRAY['zylkowski'], '2022-02-23T23:35:41.043146+00:00'),
 (372046384, 1380, 0, 1, 0, 11, 'aidenybai/million', '🦁 <1kb compiler-augmented virtual DOM. It''s fast!', ARRAY['aidenybai', 'willdoescode'], '2022-02-23T23:35:41.043146+00:00'),
+(371872698, 36, 1, 1, 0, 14, 'huibizhang/vitawind', 'Install and Setting Tailwindcss automatically for Vite', ARRAY['huibizhang', 'alesvaupotic'], '2022-02-23T23:35:41.043146+00:00'),
 (372068780, 20, 0, 1, 0, 8, 'ibhagwan/pancake-swap-interface-v1', ':pancakes: Pancake trading interface V1', ARRAY['moodysalem', 'NoahZinsmeister'], '2022-02-23T23:35:41.043146+00:00'),
 (372098732, 47, 0, 1, 0, 14, 'nartc/ngrx-slice', 'createSlice for NgRX', ARRAY['nartc'], '2022-02-23T23:35:41.043146+00:00'),
 (372240402, 7954, 7, 1, 0, 16, 'alan2207/bulletproof-react', '🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ', ARRAY['alan2207', 'ryota-murakami'], '2022-02-23T23:35:41.043146+00:00'),
