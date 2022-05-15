@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS public.repos
     created_at timestamp without time zone DEFAULT now(),
     updated_at timestamp without time zone DEFAULT now(),
     pushed_at timestamp without time zone DEFAULT now(),
-    last_fetched_contributors_at timestamp without time zone DEFAULT null,
+    last_fetched_contributors_at timestamp without time zone DEFAULT to_timestamp(0),
 
     -- Elastic columns
     name character varying(255) COLLATE pg_catalog."default",

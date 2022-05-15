@@ -1,4 +1,4 @@
-name: backup database cron
+name: Backup database cron
 on:
   schedule:
     - cron: '42 */2 * * *'

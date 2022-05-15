@@ -1,4 +1,4 @@
-name: user stars cron
+name: User stars cron
 on:
   schedule:
     - cron: '*/5 * * * *'

@@ -6,7 +6,7 @@
   "author": "TED Vortex <ted.vortex@gmail.com>",
   "private": true,
   "license": "MIT",
-  "main": "src/populate.js",
+  "main": "src/user-stars.js",
   "type": "module",
   "homepage": "https://github.com/0-vortex/open-sauced-supabase-cron-test#readme",
   "bugs": {

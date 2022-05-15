@@ -5,7 +5,7 @@ include:
   - public.*
 
 detectVirtualRelations:
-  enabled: true
+  enabled: false
   strategy: default
 
 format:

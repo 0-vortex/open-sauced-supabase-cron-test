@@ -13,12 +13,21 @@ consoleHeader(' OPEN |SAUCED', {
 console.log(`Started execution at ${lastExecuted}`)
 
 async function run() {
-  const getAvailableRepos = await supabase
+  const testDate = new Date(lastExecuted.getTime() - (limitDays * 24 * 60 * 60 * 1000))
+
+  const {data: getAvailableRepo, error} = await supabase
     .from('repos')
     .select('*')
-    .gt('last_fetched_contributors_at', new Date(lastExecuted.getTime() - (limitDays * 24 * 60 * 60 * 1000)))
+    .lte('last_fetched_contributors_at', testDate)
+    .limit(1)
+    .single()
 
-  console.log(getAvailableRepos);
+  if (error) {
+    console.log(`Unable to fetch repos from supabase`, error)
+    return
+  }
+
+  console.log(getAvailableRepo);
   process.exit(1);
 }
 
