@@ -31,10 +31,8 @@
     "push": "npx @open-sauced/conventional-commit",
     "seed": "node --experimental-json-modules ./src/seed.js",
     "seed:dev": "node --experimental-json-modules -r dotenv/config ./src/seed.js",
-    "stars": "node --experimental-json-modules ./src/user-stars.js",
-    "stars:dev": "node --experimental-json-modules -r dotenv/config ./src/user-stars.js",
-    "start": "node --experimental-json-modules ./src/populate.js",
-    "start:dev": "node --experimental-json-modules -r dotenv/config ./src/populate.js"
+    "start": "node --experimental-json-modules ./src/user-stars.js",
+    "start:dev": "node --experimental-json-modules -r dotenv/config ./src/user-stars.js"
   },
   "dependencies": {
     "@antfu/utils": "^0.5.2",
