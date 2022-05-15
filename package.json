@@ -37,8 +37,8 @@
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src/populate.js"
   },
   "dependencies": {
-    "@antfu/utils": "^0.5.1",
-    "@supabase/supabase-js": "^1.35.2",
+    "@antfu/utils": "^0.5.2",
+    "@supabase/supabase-js": "^1.35.3",
     "cfonts": "^2.10.1",
     "csv-stringify": "^6.0.5",
     "node-fetch": "^3.2.4",
@@ -47,6 +47,6 @@
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.1"
   }
 }

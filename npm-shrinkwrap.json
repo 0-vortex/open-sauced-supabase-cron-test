@@ -9,8 +9,8 @@
       "version": "1.9.8",
       "license": "MIT",
       "dependencies": {
-        "@antfu/utils": "^0.5.1",
-        "@supabase/supabase-js": "^1.35.2",
+        "@antfu/utils": "^0.5.2",
+        "@supabase/supabase-js": "^1.35.3",
         "cfonts": "^2.10.1",
         "csv-stringify": "^6.0.5",
         "node-fetch": "^3.2.4",
@@ -19,7 +19,7 @@
       "devDependencies": {
         "@open-sauced/check-engines": "^1.2.0",
         "@open-sauced/conventional-commit": "^1.0.1",
-        "dotenv": "^16.0.0"
+        "dotenv": "^16.0.1"
       },
       "engines": {
         "node": ">= 16.7.0",
@@ -27,9 +27,9 @@
       }
     },
     "node_modules/@antfu/utils": {
-      "version": "0.5.1",
-      "resolved": "https://registry.npmjs.org/@antfu/utils/-/utils-0.5.1.tgz",
-      "integrity": "sha512-8Afo0+xvYe1K8Wm4xHTymfTkpzy36aaqDvhXIayUwl+mecMG9Xzl3XjXa6swG6Bk8FBeQ646RyvmsYt6+2Be9g==",
+      "version": "0.5.2",
+      "resolved": "https://registry.npmjs.org/@antfu/utils/-/utils-0.5.2.tgz",
+      "integrity": "sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==",
       "funding": {
         "url": "https://github.com/sponsors/antfu"
       }
@@ -631,9 +631,9 @@
       }
     },
     "node_modules/@supabase/gotrue-js": {
-      "version": "1.22.13",
-      "resolved": "https://registry.npmjs.org/@supabase/gotrue-js/-/gotrue-js-1.22.13.tgz",
-      "integrity": "sha512-Ylus1KWkLRo6Hy9wLzzE4jAr+Fkt8Bi8a1YnX9aWIXPl/R8PxMb4fL928UAEm9fuyFZ1Z1F+BTTK2RM6NLReUQ==",
+      "version": "1.22.15",
+      "resolved": "https://registry.npmjs.org/@supabase/gotrue-js/-/gotrue-js-1.22.15.tgz",
+      "integrity": "sha512-7/mwnd1hR/bpkCmbDvjnwPfWyRcE2B1ZnfxthqgVaZ5oJHS/CQibyuLBL8DA75fxmgY9nIfednDZSydSm6zK0w==",
       "dependencies": {
         "cross-fetch": "^3.0.6"
       }
@@ -664,12 +664,12 @@
       }
     },
     "node_modules/@supabase/supabase-js": {
-      "version": "1.35.2",
-      "resolved": "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-1.35.2.tgz",
-      "integrity": "sha512-ItXfniG+GRFVYvYEoc7L0uXj6Zp8MZz7aQDCz9qbYdt6dUvIWxeu0cfcy/qkUcPJfpFzSYCOt8nsus0QJCjgbg==",
+      "version": "1.35.3",
+      "resolved": "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-1.35.3.tgz",
+      "integrity": "sha512-uwO8OVdMFsGZNZ1xQhFz22+PSW0EWYZ5xVq+jQeGz8nhabEu+Q9Uyep/bcNzOpyPJRzbGfxSPRzgAdAxfJgFhw==",
       "dependencies": {
         "@supabase/functions-js": "^1.3.3",
-        "@supabase/gotrue-js": "^1.22.13",
+        "@supabase/gotrue-js": "^1.22.14",
         "@supabase/postgrest-js": "^0.37.2",
         "@supabase/realtime-js": "^1.7.2",
         "@supabase/storage-js": "^1.7.0"
@@ -1290,9 +1290,9 @@
       }
     },
     "node_modules/dotenv": {
-      "version": "16.0.0",
-      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.0.0.tgz",
-      "integrity": "sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==",
+      "version": "16.0.1",
+      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.0.1.tgz",
+      "integrity": "sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==",
       "dev": true,
       "engines": {
         "node": ">=12"
