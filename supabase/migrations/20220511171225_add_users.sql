@@ -8,8 +8,9 @@ CREATE TABLE IF NOT EXISTS public.users
   -- Static columns
   id bigint NOT NULL,
   open_issues bigint NOT NULL DEFAULT 0,
-  private boolean NOT NULL DEFAULT false,
-  stars_data boolean NOT NULL DEFAULT false,
+  has_stars_data boolean NOT NULL DEFAULT false,
+  is_private boolean NOT NULL DEFAULT false,
+  is_open_sauced_member boolean NOT NULL DEFAULT false,
   created_at timestamp with time zone DEFAULT now(),
 
   -- Elastic columns

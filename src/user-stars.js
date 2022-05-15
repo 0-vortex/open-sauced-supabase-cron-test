@@ -1,8 +1,6 @@
 import consoleHeader from './lib/consoleHeader.js'
 import cron from './cron.json' assert { type: 'json' }
 import {App} from "octokit";
-import api from "./lib/persistedGraphQL.js";
-import fetchContributorNames from "./lib/contributorNameHelper.js";
 import {p} from "@antfu/utils";
 import {supabase} from "./lib/supabase.js";
 import {writeFile} from "node:fs/promises";
@@ -141,8 +139,9 @@ async function run() {
         .upsert({
           id: installation.account.id,
           open_issues,
-          private: isPrivate,
-          stars_data: starsJsonExists,
+          is_private: isPrivate,
+          is_open_sauced_member: true,
+          has_stars_data: starsJsonExists,
           login: installation.account.login,
         }, {
           onConflict: 'id',
