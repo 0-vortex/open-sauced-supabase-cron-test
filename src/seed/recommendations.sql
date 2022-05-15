@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T12:56:53.714Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T14:44:20.475Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3392,8 +3392,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383299223, 2, 0, 1, 0, 16, 'Chronofit/chrono-website', null, ARRAY['sahilsharma356', 'SVD6'], '2022-02-23T23:35:41.043146+00:00'),
 (383495767, 1, 1, 2, 0, 0, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-23T23:35:41.043146+00:00'),
 (382263397, 5, 2, 1, 0, 9, 'commercelayer/commercelayer-sdk', null, ARRAY['pviti', 'acasazza'], '2022-02-23T23:35:41.043146+00:00'),
-(383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-23T23:35:41.043146+00:00'),
 (383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-23T23:35:41.043146+00:00'),
+(383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-23T23:35:41.043146+00:00'),
 (383784099, 37, 6, 1, 0, 6, 'microsoft/powerbi-client-angular', 'Power BI Angular component. This library lets you embed Power BI report, dashboard, dashboard tile, report visual, or Q&A in your Angular application.', ARRAY['parth-007', 'may-hartov'], '2022-02-23T23:35:41.043146+00:00'),
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-23T23:35:41.043146+00:00'),
 (381989425, 1, 0, 1, 0, 26, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ARRAY['Djohnnie'], '2022-02-23T23:35:41.043146+00:00'),
