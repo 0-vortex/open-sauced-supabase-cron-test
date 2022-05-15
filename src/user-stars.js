@@ -5,6 +5,7 @@ import api from "./lib/persistedGraphQL.js";
 import fetchContributorNames from "./lib/contributorNameHelper.js";
 import {p} from "@antfu/utils";
 import {supabase} from "./lib/supabase.js";
+import {writeFile} from "node:fs/promises";
 
 const limitDays = parseInt(process.env.LIMIT_DAYS) || 1
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
@@ -14,6 +15,7 @@ const lastExecuted = new Date()
 const cache = {
   users: {},
   repos: {},
+  stars: {},
   contributions: {},
 }
 const que = {
@@ -104,7 +106,10 @@ async function run() {
     if (installationExists) {
       const octokit = await app.getInstallationOctokit(installation.id)
 
-      const {data: goalsRepo} = await octokit.rest.repos.get({
+      const {data: {
+        open_issues,
+        private: isPrivate,
+      }} = await octokit.rest.repos.get({
         owner: installation.account.login,
         repo: 'open-sauced-goals',
       }).catch((err) => {
@@ -131,20 +136,37 @@ async function run() {
         installationId: installation.id
       }))
 
-      que.installations.push({
-        installation,
-        starsRepos,
-        starsJsonExists,
-        goalsRepo,
-      })
+      const {data: [dbUser], error} = await supabase
+        .from('users')
+        .upsert({
+          id: installation.account.id,
+          open_issues,
+          private: isPrivate,
+          stars_data: starsJsonExists,
+          login: installation.account.login,
+        }, {
+          onConflict: 'id',
+        })
+
+      error && console.log(`Unable to insert supabase user with id #${installation.account.id}`, error);
+
+      if (starsJsonExists && !error) {
+        que.installations.push({
+          starsRepos,
+          dbUser,
+        })
+
+        checked[installation.account.login] = {
+          owner: installation.account.login,
+          notFound: false,
+          lastExecuted,
+        }
+      }
     }
   }
 
-  consoleHeader('Parsing stars')
-  console.log(`Existing cron queue was ${que.users.length}`)
-  console.log(`Attempting to parse ${que.installations.length} users out of ${limitUsers} env.LIMIT_USERS`)
-
-  const parsedRepos = await p(que.repos)
+  consoleHeader('Parsing repos')
+  await p(que.repos)
     .map(async (namedRepo) => {
       const [owner, repo] = namedRepo.full_name.split("/")
       const octokit = await app.getInstallationOctokit(namedRepo.installationId)
@@ -175,28 +197,84 @@ async function run() {
         watchers: fetchedRepo.watchers_count,
         subscribers: fetchedRepo.subscribers_count,
         license: fetchedRepo.license ? fetchedRepo.license.spdx_id : `UNLICENSED`,
-        isFork: !!fetchedRepo.fork,
+        is_fork: !!fetchedRepo.fork,
         created_at: fetchedRepo.created_at,
         updated_at: fetchedRepo.updated_at,
         pushed_at: fetchedRepo.pushed_at,
       }
 
-      await supabase
+      const {data: [dbRepository], error} = await supabase
         .from('repos')
         .upsert(repository, {
           onConflict: "id"
         })
 
-      cache.repos[namedRepo.full_name] = repository;
+      !error && (cache.repos[namedRepo.full_name] = dbRepository);
     })
+
+
+  consoleHeader('Parsing stars')
+  console.log(`Existing cron queue was ${que.users.length}`)
+  console.log(`Attempting to parse ${que.installations.length} users out of ${limitUsers} env.LIMIT_USERS`)
 
   await p(que.installations)
-    .map(async ({installation, starsRepos, starsJsonExists, goalsRepo}) => {
-      console.log(`Processing installation #${installation.id}, ${installation.account.login} stars.json`)
-      const octokit = await app.getInstallationOctokit(installation.id)
+    .map(async ({
+      starsRepos,
+      dbUser: {
+        id: user_id,
+        login,
+      },
+    }) => {
+      console.log(`Processing user ${login} stars.json data`)
 
-      // for await (const item of parsedData) {}
+      // const {error, data, count} = await supabase
+      // delete all previous associations (if any)
+      await supabase
+        .from('users_to_repos_stars')
+        .delete({
+          returning: true,
+          count: true,
+        })
+        .match({
+          user_id,
+        })
+
+      for await (const item of starsRepos) {
+        const repo = cache.repos[item.full_name];
+
+        if (!repo) {
+          console.log(`Repo ${item.full_name} not found in cache`)
+          continue
+        }
+
+        const {data: [star], error} = await supabase
+          .from('users_to_repos_stars')
+          .upsert({
+            user_id,
+            repo_id: repo.id,
+          })
+
+        !error && (cache.stars[star.id] = star);
+      }
     })
+
+  // check whether we have new data to cache
+  consoleHeader('Versioning changes')
+  if (Object.keys(cache.stars).length > 0) {
+    console.log('cron.json cached users: ', Object.keys(cron.checked).length)
+    console.log('cron.json parsed users: ', que.installations.length)
+
+    // write to file and commit block
+    await writeFile('./src/cron.json', JSON.stringify({
+      lastExecuted,
+      checked
+    }, null, 2))
+    console.log('Wrote changes to cron.json, make sure to commit this file')
+  } else {
+    console.log('Nothing to commit to cron.json')
+  }
+
+  consoleHeader('Finished')
 }
 
 await run()
