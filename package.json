@@ -1,36 +1,23 @@
 {
+  "name": "open-sauced-supabase-cron-test",
+  "keywords": [],
+  "version": "1.9.7",
   "author": "TED Vortex <ted.vortex@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "main": "src/populate.js",
+  "type": "module",
+  "homepage": "https://github.com/0-vortex/open-sauced-supabase-cron-test#readme",
   "bugs": {
     "url": "https://github.com/0-vortex/open-sauced-supabase-cron-test/issues"
   },
-  "dependencies": {
-    "@antfu/utils": "^0.5.1",
-    "@supabase/supabase-js": "^1.35.2",
-    "cfonts": "^2.10.1",
-    "csv-stringify": "^6.0.5",
-    "node-fetch": "^3.2.4",
-    "octokit": "^1.7.1"
-  },
-  "description": "The open-sauced actions",
-  "devDependencies": {
-    "@open-sauced/check-engines": "^1.2.0",
-    "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^16.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-vortex/open-sauced-supabase-cron-test.git"
   },
   "engines": {
     "node": ">= 16.7.0",
     "npm": ">= 8.0.0"
-  },
-  "homepage": "https://github.com/0-vortex/open-sauced-supabase-cron-test#readme",
-  "keywords": [],
-  "license": "MIT",
-  "main": "src/populate.js",
-  "name": "open-sauced-supabase-cron-test",
-  "version": "1.9.7",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/0-vortex/open-sauced-supabase-cron-test.git"
   },
   "scripts": {
     "db": "supabase",
@@ -48,5 +35,18 @@
     "start": "node --experimental-json-modules ./src/populate.js",
     "start:dev": "node --experimental-json-modules -r dotenv/config ./src/populate.js"
   },
-  "type": "module"
+  "dependencies": {
+    "@antfu/utils": "^0.5.1",
+    "@supabase/supabase-js": "^1.35.2",
+    "cfonts": "^2.10.1",
+    "csv-stringify": "^6.0.5",
+    "node-fetch": "^3.2.4",
+    "octokit": "^1.7.1"
+  },
+  "description": "The open-sauced actions",
+  "devDependencies": {
+    "@open-sauced/check-engines": "^1.2.0",
+    "@open-sauced/conventional-commit": "^1.0.1",
+    "dotenv": "^16.0.0"
+  }
 }
