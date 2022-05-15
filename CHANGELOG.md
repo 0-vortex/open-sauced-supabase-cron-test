@@ -5,6 +5,34 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.10.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.8...v1.10.0) (2022-05-15)
+
+
+### 🐛 Bug Fixes
+
+* correct merge commits ([73ab78d](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/73ab78d2f80a51522adb1f931b3d898020510918))
+
+
+### 🤖 Build System
+
+* update deps to latest versions ([8cb8b53](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/8cb8b53b19d7124d2abf245e08208506c3035d75))
+* update package manifest ([5a824a0](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/5a824a0c32e0e3b61e9516ecc9da70504e53b410))
+
+
+### 🧑‍💻 Code Refactoring
+
+* migrate scripts over to the new structure ([3aae0e1](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/3aae0e1b9ad73a93f8713c0d9add34a12cf6848a))
+
+
+### 🍕 Features
+
+* adjust tables to attach delayed contributors updates ([a222377](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/a222377825d5af0872dd3b5f68623df85afa0fac))
+* replace populate script with new relationship db ([4950fba](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/4950fba7ab3068afe0c2ce8b629f5f6e6044238f))
+* update database configuration ([c84c5a2](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/c84c5a2698869307eb572e1baaf0d9ad4aa8b29c))
+* update seed scripts to new structure ([79fd3ef](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/79fd3ef78ddb7ce9443bb3110022ae00300583ef))
+* wip contributors script and 100 users backfill ([07b81c6](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/07b81c68bd71cf28186456964cff2784a3ccf9ce))
+* wip improve user stars into standalone repos ([17ba4ef](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/17ba4efbed38d9b19650bd7955466a2c6039e1ed))
+
 ### [1.9.8](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.7...v1.9.8) (2022-03-25)
 
 
