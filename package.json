@@ -29,6 +29,8 @@
     "db:start": "npm run db -- start",
     "db:stop": "npm run db -- stop",
     "push": "npx @open-sauced/conventional-commit",
+    "contrib": "node --experimental-json-modules ./src/contributors.js",
+    "contrib:dev": "node --experimental-json-modules -r dotenv/config ./src/contributors.js",
     "seed": "node --experimental-json-modules ./src/seed.js",
     "seed:dev": "node --experimental-json-modules -r dotenv/config ./src/seed.js",
     "start": "node --experimental-json-modules ./src/user-stars.js",
