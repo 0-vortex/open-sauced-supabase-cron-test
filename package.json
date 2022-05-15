@@ -1,5 +1,6 @@
 {
   "name": "open-sauced-supabase-cron-test",
+  "description": "The open-sauced actions",
   "keywords": [],
   "version": "1.9.8",
   "author": "TED Vortex <ted.vortex@gmail.com>",
@@ -43,7 +44,6 @@
     "node-fetch": "^3.2.4",
     "octokit": "^1.7.1"
   },
-  "description": "The open-sauced actions",
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
