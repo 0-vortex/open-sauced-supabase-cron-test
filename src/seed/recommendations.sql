@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T08:46:42.111Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T10:46:10.679Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2313,6 +2313,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (233472199, 9336, 31, 1, 0, 12, 'massgravel/Microsoft-Activation-Scripts', 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', ARRAY['WindowsAddict', 'mspaintmsi'], '2022-02-23T23:35:41.043146+00:00'),
 (233675781, 3, 0, 1, 0, 9, 'learn-co-curriculum/cli-project-planning', null, ARRAY['maxwellbenton', 'cernanb'], '2022-02-23T23:35:41.043146+00:00'),
 (234231371, 17421, 50, 2, 0, 22.5, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-23T23:35:41.043146+00:00'),
+(234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-23T23:35:41.043146+00:00'),
 (234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-23T23:35:41.043146+00:00'),
 (234739976, 5580, 124, 1, 0, 0, 'medusajs/medusa', 'The open-source Shopify alternative ⚡️', ARRAY['srindom', 'olivermrbl'], '2022-02-23T23:35:41.043146+00:00'),
 (234399448, 7, 7, 1, 0, 20, 'outsrc/my-app', 'Secure NextJS App users with Auth0 and TypeScript', ARRAY['ernestofreyreg'], '2022-02-23T23:35:41.043146+00:00'),
@@ -2328,7 +2329,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (235943258, 86, 26, 1, 0, 8, 'jason0x43/hacs-hubitat', 'A Hubitat integration for Home Assistant', ARRAY['jason0x43', 'amosyuen'], '2022-02-23T23:35:41.043146+00:00'),
 (235970716, 1, 0, 1, 0, 17, 'yomaokobiah/nairaland-visualisation', 'A visualisation of members on nairaland.com ages.', ARRAY['yomaokobiah'], '2022-02-23T23:35:41.043146+00:00'),
 (236156799, 21, 2, 1, 0, 5, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-23T23:35:41.043146+00:00'),
-(234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-23T23:35:41.043146+00:00'),
 (236226196, 21, 0, 1, 0, 9, 'springload/react-accessible-headings', 'Makes it easier to keep heading levels semantic and accessible (WCAG)', ARRAY['holloway', 'twhitbeck'], '2022-02-23T23:35:41.043146+00:00'),
 (236263651, 7, 0, 1, 0, 23, 'siddiqus/useful-scripts', null, ARRAY['siddiqus'], '2022-02-23T23:35:41.043146+00:00'),
 (236750354, 11702, 26, 2, 0, 17.5, 'bradtraversy/vanillawebprojects', 'Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries', ARRAY['bradtraversy', 'ni3gup'], '2022-02-23T23:35:41.043146+00:00'),
@@ -3158,11 +3158,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (348060227, 8725, 118, 3, 0, 9, 'withastro/astro', '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', ARRAY['FredKSchott', 'matthewp'], '2022-02-23T23:35:41.043146+00:00'),
 (350360184, 9101, 121, 1, 0, 0, 'calendso/calendso', 'Scheduling infrastructure for absolutely everyone.', ARRAY['baileypumfleet', 'PeerRich'], '2022-02-23T23:35:41.043146+00:00'),
 (350383594, 249, 18, 1, 0, 21, 'oasis-sh/oasis', 'The chat and forums platform for communities', ARRAY['heybereket', 'HenryLeC'], '2022-02-23T23:35:41.043146+00:00'),
+(350770929, 2153, 49, 1, 0, 9, 'academind/react-complete-guide-code', 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ARRAY['maxschwarzmueller'], '2022-02-23T23:35:41.043146+00:00'),
 (350802931, 9, 0, 1, 0, 2, 'trainerroad/react-race-planner', 'A coding challenge for prospective engineering hires', ARRAY['colinrobertbrooks', 'tah9m9'], '2022-02-23T23:35:41.043146+00:00'),
 (350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-23T23:35:41.043146+00:00'),
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-23T23:35:41.043146+00:00'),
 (351005162, 55, 1, 1, 0, 8, 'salvatoreraccardi/OBJEX_LINK', 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle.', ARRAY['salvatoreraccardi', 'Vetozz'], '2022-02-23T23:35:41.043146+00:00'),
-(350770929, 2153, 49, 1, 0, 9, 'academind/react-complete-guide-code', 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ARRAY['maxschwarzmueller'], '2022-02-23T23:35:41.043146+00:00'),
 (351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-23T23:35:41.043146+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-23T23:35:41.043146+00:00'),
 (351877820, 12, 5, 1, 0, 6, 'GuillaumeFalourd/poc-github-actions', 'Various proofs of concept examples using Github Actions 🤖', ARRAY['GuillaumeFalourd'], '2022-02-23T23:35:41.043146+00:00'),
