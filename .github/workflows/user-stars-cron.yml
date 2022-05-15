@@ -1,7 +1,7 @@
-name: Seed the Supabase
+name: user stars cron
 on:
   schedule:
-    - cron: '42 */2 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -9,8 +9,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  seed-the-supabase:
-    name: run dump
+  populate-the-supabase:
+    name: run update
     runs-on: ubuntu-latest
     steps:
       - name: "☁️ checkout repository"
@@ -27,16 +27,20 @@ jobs:
       - name: "📦 install dependencies"
         uses: bahmutov/npm-install@v1
 
-      - name: "🔍 seed supabase"
-        run: npm run seed
+      - name: "🔍 populate supabase"
+        run: npm run start
         env:
+          OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
+          OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          LIMIT_DAYS: 1
+          LIMIT_USERS: 3
 
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: ./src/seed/ supabase/seed.sql
-          commit_message: "chore: seed supabase data [skip ci]"
+          file_pattern: ./src/*.json
+          commit_message: "chore: update supabase data [skip ci]"
           commit_user_name: 0-vortex
           commit_user_email: 237133+0-vortex@users.noreply.github.com

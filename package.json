@@ -21,30 +21,32 @@
     "npm": ">= 8.0.0"
   },
   "scripts": {
-    "push": "npx @open-sauced/conventional-commit",
     "db": "supabase",
-    "db:start": "npm run db -- start",
-    "db:stop": "npm run db -- stop",
     "db:changes": "npm run db -- db changes",
     "db:commit": "npm run db -- db commit -- ",
-    "db:reset": "npm run db -- db reset",
     "db:push": "npm run db -- db push",
-    "start": "node --experimental-json-modules ./src/populate.js",
-    "start:dev": "node --experimental-json-modules -r dotenv/config ./src/populate.js",
+    "db:reset": "npm run db -- db reset",
+    "db:start": "npm run db -- start",
+    "db:stop": "npm run db -- stop",
+    "push": "npx @open-sauced/conventional-commit",
+    "contrib": "node --experimental-json-modules ./src/contributors.js",
+    "contrib:dev": "node --experimental-json-modules -r dotenv/config ./src/contributors.js",
     "seed": "node --experimental-json-modules ./src/seed.js",
-    "seed:dev": "node --experimental-json-modules -r dotenv/config ./src/seed.js"
+    "seed:dev": "node --experimental-json-modules -r dotenv/config ./src/seed.js",
+    "start": "node --experimental-json-modules ./src/user-stars.js",
+    "start:dev": "node --experimental-json-modules -r dotenv/config ./src/user-stars.js"
   },
   "dependencies": {
-    "@antfu/utils": "^0.5.0",
-    "@supabase/supabase-js": "^1.30.6",
-    "cfonts": "^2.10.0",
+    "@antfu/utils": "^0.5.2",
+    "@supabase/supabase-js": "^1.35.3",
+    "cfonts": "^2.10.1",
     "csv-stringify": "^6.0.5",
-    "node-fetch": "^3.2.0",
+    "node-fetch": "^3.2.4",
     "octokit": "^1.7.1"
   },
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.1"
   }
 }

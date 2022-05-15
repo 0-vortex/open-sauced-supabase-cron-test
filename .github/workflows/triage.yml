@@ -1,4 +1,4 @@
-name: "Assign issues"
+name: Triage
 
 on:
   issue_comment:
