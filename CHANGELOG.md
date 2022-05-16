@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.11.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.11.0...v1.11.1) (2022-05-16)
+
+
+### 🐛 Bug Fixes
+
+* refresh cron job cacbe ([205ef16](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/205ef1651272903f58da9b3683515603eec0ffaa))
+
 ## [1.11.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.10.1...v1.11.0) (2022-05-16)
 
 
