@@ -5,8 +5,9 @@ import consoleHeader from "./lib/consoleHeader.js";
 
 const lastExecuted = new Date()
 const tables = [
-  'repos',
   'users',
+  'repos',
+  'contributions',
   'users_to_repos_stars',
   'users_to_repos_votes',
 ]
