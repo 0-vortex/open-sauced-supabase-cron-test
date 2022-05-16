@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-16T10:54:41.398Z",
+  "lastExecuted": "2022-05-16T11:08:13.945Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1015,6 +1015,21 @@
       "owner": "akobepeter",
       "notFound": false,
       "lastExecuted": "2022-05-16T10:54:41.398Z"
+    },
+    "jebitok-dev": {
+      "owner": "jebitok-dev",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:08:13.945Z"
+    },
+    "ThomasErhel": {
+      "owner": "ThomasErhel",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:08:13.945Z"
+    },
+    "nobalpha": {
+      "owner": "nobalpha",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:08:13.945Z"
     }
   }
 }
