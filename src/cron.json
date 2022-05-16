@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-16T11:08:13.945Z",
+  "lastExecuted": "2022-05-16T11:14:41.357Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1030,6 +1030,21 @@
       "owner": "nobalpha",
       "notFound": false,
       "lastExecuted": "2022-05-16T11:08:13.945Z"
+    },
+    "BolajiAyodeji": {
+      "owner": "BolajiAyodeji",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:14:41.357Z"
+    },
+    "teezzan": {
+      "owner": "teezzan",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:14:41.357Z"
+    },
+    "Borrus-sudo": {
+      "owner": "Borrus-sudo",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T11:14:41.357Z"
     }
   }
 }
