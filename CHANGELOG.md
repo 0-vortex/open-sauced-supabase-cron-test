@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.10.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.10.0...v1.10.1) (2022-05-16)
+
+
+### 🐛 Bug Fixes
+
+* correct some minor inconsistencies with new tables ([b6ce092](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/b6ce0924408773708653ac0f85e0f2c2b7c8a96b))
+
 ## [1.10.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.9.8...v1.10.0) (2022-05-15)
 
 
