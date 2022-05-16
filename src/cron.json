@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-16T14:51:28.059Z",
+  "lastExecuted": "2022-05-16T15:04:42.107Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1305,6 +1305,21 @@
       "owner": "applesnort",
       "notFound": false,
       "lastExecuted": "2022-05-16T14:51:28.059Z"
+    },
+    "raychatter": {
+      "owner": "raychatter",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T15:04:42.107Z"
+    },
+    "ghgoodreau": {
+      "owner": "ghgoodreau",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T15:04:42.107Z"
+    },
+    "HeavyBR": {
+      "owner": "HeavyBR",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T15:04:42.107Z"
     }
   }
 }
