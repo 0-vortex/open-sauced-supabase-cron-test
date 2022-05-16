@@ -10,8 +10,8 @@
 | ------------------------------------------------------------- | ------- | ------- | ---------- |
 | [public.repos](public.repos.md)                               | 17      |         | BASE TABLE |
 | [public.users](public.users.md)                               | 7       |         | BASE TABLE |
-| [public.users_to_repos_stars](public.users_to_repos_stars.md) | 4       |         | BASE TABLE |
-| [public.users_to_repos_votes](public.users_to_repos_votes.md) | 4       |         | BASE TABLE |
+| [public.users_to_repos_stars](public.users_to_repos_stars.md) | 0       |         | BASE TABLE |
+| [public.users_to_repos_votes](public.users_to_repos_votes.md) | 0       |         | BASE TABLE |
 
 ## Relations
 
