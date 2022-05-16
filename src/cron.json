@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-16T07:59:09.987Z",
+  "lastExecuted": "2022-05-16T08:14:30.678Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -685,6 +685,21 @@
       "owner": "cmdaltent",
       "notFound": false,
       "lastExecuted": "2022-05-16T07:59:09.987Z"
+    },
+    "KengoTODA": {
+      "owner": "KengoTODA",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T08:14:30.678Z"
+    },
+    "juanramollino": {
+      "owner": "juanramollino",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T08:14:30.678Z"
+    },
+    "gwincr11": {
+      "owner": "gwincr11",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T08:14:30.678Z"
     }
   }
 }
