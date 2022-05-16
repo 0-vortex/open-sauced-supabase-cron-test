@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.12.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.12.1...v1.12.2) (2022-05-16)
+
+
+### 🤖 Build System
+
+* add current seeds to fix mkdir fallacy ([71fdeaf](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/71fdeaf4d972e08102dd836d167ca4c1553bcd77))
+
 ### [1.12.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.12.0...v1.12.1) (2022-05-16)
 
 
