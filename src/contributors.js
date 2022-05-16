@@ -18,7 +18,7 @@ async function run() {
   const {data: getAvailableRepo, error} = await supabase
     .from('repos')
     .select('*')
-    .lte('last_fetched_contributors_at', testDate)
+    .lte('last_fetched_contributors_at', JSON.stringify(testDate))
     .limit(1)
     .single()
 
@@ -27,7 +27,61 @@ async function run() {
     return
   }
 
-  console.log(getAvailableRepo);
+  const [owner, repo] = getAvailableRepo.full_name.split('/');
+  const {data, errors} = await api.persistedRepoDataFetch({owner, repo})
+
+  if (errors && errors.length > 0) {
+    console.log(`ERROR for ${owner}/${repo}`, errors)
+    return
+  }
+
+  if (
+    data.gitHub.repositoryOwner === null
+    || typeof data.gitHub.repositoryOwner.repository !== "object"
+  ) {
+    console.log(`ERROR for ${owner}/${repo}`, "No owner")
+    return
+  }
+
+  const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository
+
+  const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
+
+  const contributions = []
+
+  await p(contributorNames.slice(0, 10))
+    .map(async (contributor) => {
+      const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
+      const {data, errors} = await api.persistedGitHubContributions({query});
+      const prCount = typeof data.gitHub.search.nodes !== "undefined" && data.gitHub.search.nodes.length || 0;
+
+      if (errors && errors.length > 0) {
+        console.log(`Error executing persistedQuery: ${query}`, errors);
+        return;
+      }
+
+      const contribution = {
+        repo_id: getAvailableRepo.id,
+        contributor,
+        count: prCount,
+        last_merged_at: data.gitHub.search.nodes[0].mergedAt,
+        url: data.gitHub.search.nodes[0].url,
+      }
+
+      console.log(contribution)
+      process.exit(1)
+
+      if (prCount > 0) {
+        contributions.push(contribution)
+
+        return contribution
+      }
+    })
+
+  console.log(contributions);
+
+  // console.log(data);
+  // console.log(errors);
   process.exit(1);
 }
 

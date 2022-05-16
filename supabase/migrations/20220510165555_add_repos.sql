@@ -5,28 +5,28 @@
 
 CREATE TABLE IF NOT EXISTS public.repos
 (
-    -- Static columns
-    id bigint NOT NULL,
-    user_id bigint NOT NULL,
-    issues bigint NOT NULL DEFAULT 0,
-    stars bigint NOT NULL DEFAULT 0,
-    watchers bigint NOT NULL DEFAULT 0,
-    subscribers bigint NOT NULL DEFAULT 0,
-    is_fork boolean NOT NULL DEFAULT false,
-    created_at timestamp without time zone DEFAULT now(),
-    updated_at timestamp without time zone DEFAULT now(),
-    pushed_at timestamp without time zone DEFAULT now(),
-    last_fetched_contributors_at timestamp without time zone DEFAULT to_timestamp(0),
+  -- Static columns
+  id bigint NOT NULL,
+  user_id bigint NOT NULL,
+  issues bigint NOT NULL DEFAULT 0,
+  stars bigint NOT NULL DEFAULT 0,
+  watchers bigint NOT NULL DEFAULT 0,
+  subscribers bigint NOT NULL DEFAULT 0,
+  is_fork boolean NOT NULL DEFAULT false,
+  created_at timestamp without time zone DEFAULT now(),
+  updated_at timestamp without time zone DEFAULT now(),
+  pushed_at timestamp without time zone DEFAULT now(),
+  last_fetched_contributors_at timestamp without time zone DEFAULT to_timestamp(0),
 
-    -- Elastic columns
-    name character varying(255) COLLATE pg_catalog."default",
-    full_name character varying(255) COLLATE pg_catalog."default",
-    description text COLLATE pg_catalog."default",
-    language character varying(64) COLLATE pg_catalog."default",
-    license character varying(64) COLLATE pg_catalog."default",
-    url character varying(255) COLLATE pg_catalog."default",
+  -- Elastic columns
+  name character varying(255) COLLATE pg_catalog."default",
+  full_name character varying(255) COLLATE pg_catalog."default",
+  description text COLLATE pg_catalog."default",
+  language character varying(64) COLLATE pg_catalog."default",
+  license character varying(64) COLLATE pg_catalog."default",
+  url character varying(255) COLLATE pg_catalog."default",
 
-    CONSTRAINT user_stars_pkey PRIMARY KEY (id)
+  CONSTRAINT user_stars_pkey PRIMARY KEY (id)
 )
 
 TABLESPACE pg_default;
