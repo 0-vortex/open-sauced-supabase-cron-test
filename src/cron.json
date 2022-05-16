@@ -1,4 +1,25 @@
 {
-  "lastExecuted": "2022-05-16T00:25:22.188Z",
-  "checked": {}
+  "lastExecuted": "2022-05-16T00:48:37.370Z",
+  "checked": {
+    "Lamiiine": {
+      "owner": "Lamiiine",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T00:48:37.370Z"
+    },
+    "karnatisrinivas": {
+      "owner": "karnatisrinivas",
+      "notFound": true,
+      "lastExecuted": "2022-05-16T00:48:37.370Z"
+    },
+    "rperez2021": {
+      "owner": "rperez2021",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T00:48:37.370Z"
+    },
+    "FunIsDangerous": {
+      "owner": "FunIsDangerous",
+      "notFound": false,
+      "lastExecuted": "2022-05-16T00:48:37.370Z"
+    }
+  }
 }
