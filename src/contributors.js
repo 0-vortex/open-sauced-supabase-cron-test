@@ -43,13 +43,16 @@ async function run() {
     return
   }
 
+  console.log(`Fetched repo ${getAvailableRepo.full_name}, getting contributor graph`,)
+
   const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository
 
   const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
   const contributions = []
 
-  await p(contributorNames.slice(0, 10))
+  consoleHeader('Parsing contributions')
+  await p(contributorNames.slice(0, 100))
     .map(async (contributor) => {
       const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
       const {data, errors} = await api.persistedGitHubContributions({query});
@@ -68,21 +71,43 @@ async function run() {
         url: data.gitHub.search.nodes[0].url,
       }
 
-      console.log(contribution)
-      process.exit(1)
-
       if (prCount > 0) {
+        console.log(`Pushing ${prCount} contributions from ${contributor} to ${getAvailableRepo.full_name}`)
         contributions.push(contribution)
 
         return contribution
       }
     })
 
-  console.log(contributions);
+  const {count, error: bulkInsertError} = await supabase
+    .from('contributions')
+    .upsert(contributions, {
+      onConflict: 'repo_id, contributor',
+      count: 'exact'
+    })
 
-  // console.log(data);
-  // console.log(errors);
-  process.exit(1);
+  if (bulkInsertError) {
+    console.log(`Unable to upsert contributions`, bulkInsertError)
+    return
+  }
+
+  consoleHeader('Versioning changes')
+
+  const {error: timestampUpdateError} = await supabase
+    .from('repos')
+    .update({
+      last_fetched_contributors_at: JSON.stringify(lastExecuted),
+    }, {})
+    .eq('id', getAvailableRepo.id)
+
+  if (timestampUpdateError) {
+    console.log(`Unable to update timestamp`, timestampUpdateError)
+    return
+  }
+
+  console.log('Total parsed contributors: ', count)
+
+  consoleHeader('Finished')
 }
 
 await run()
