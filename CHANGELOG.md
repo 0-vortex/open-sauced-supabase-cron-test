@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.13.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.12.2...v1.13.0) (2022-05-17)
+
+
+### 🍕 Features
+
+* add all contributors cron job ([b0bb698](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/b0bb69862f7afa5ae8c425b1afeaac42a7cb9476))
+
 ### [1.12.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.12.1...v1.12.2) (2022-05-16)
 
 
