@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T03:10:50.421Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T04:53:00.982Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -842,8 +842,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1085, 1234714, 4, '2014-10-29T12:47:37', 'mururu', 'https://github.com/elixir-lang/elixir/pull/2858'),
 (1086, 1234714, 4, '2016-09-08T19:50:41', 'jwarwick', 'https://github.com/elixir-lang/elixir/pull/5195'),
 (1087, 1234714, 4, '2022-05-16T19:58:35', 'eksperimental', 'https://github.com/elixir-lang/elixir/pull/11842'),
-(1089, 1234714, 4, '2013-06-16T16:20:16', 'rafaelfranca', 'https://github.com/elixir-lang/elixir/pull/1263'),
 (1088, 1234714, 4, '2014-05-10T16:46:11', 'meh', 'https://github.com/elixir-lang/elixir/pull/2266'),
+(1089, 1234714, 4, '2013-06-16T16:20:16', 'rafaelfranca', 'https://github.com/elixir-lang/elixir/pull/1263'),
 (1090, 1234714, 4, '2015-02-03T13:06:37', 'zhew2013', 'https://github.com/elixir-lang/elixir/pull/3047'),
 (1091, 1234714, 4, '2021-09-23T09:38:13', 'hauleth', 'https://github.com/elixir-lang/elixir/pull/11271'),
 (1092, 1234714, 4, '2017-09-25T08:20:44', 'ericentin', 'https://github.com/elixir-lang/elixir/pull/6552'),
