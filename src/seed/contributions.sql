@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T16:54:59.164Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T18:48:38.503Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -305,8 +305,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (604, 32247847, 4, '2017-06-12T16:42:15', 'SangKa', 'https://github.com/ReactiveX/rxjs/pull/2653'),
 (605, 32247847, 2, '2015-11-11T18:17:52', 'jinroh', 'https://github.com/ReactiveX/rxjs/pull/699'),
 (606, 32247847, 4, '2022-04-16T08:21:56', 'cartant', 'https://github.com/ReactiveX/rxjs/pull/6934'),
-(607, 32247847, 4, '2018-04-10T20:29:03', 'jasonaden', 'https://github.com/ReactiveX/rxjs/pull/3542'),
 (608, 32247847, 4, '2019-08-01T19:34:18', 'timdeschryver', 'https://github.com/ReactiveX/rxjs/pull/4396'),
+(607, 32247847, 4, '2018-04-10T20:29:03', 'jasonaden', 'https://github.com/ReactiveX/rxjs/pull/3542'),
 (609, 32247847, 1, '2018-04-19T20:07:38', 'darthtrevino', 'https://github.com/ReactiveX/rxjs/pull/3565'),
 (610, 32247847, 4, '2022-03-10T00:15:08', 'benlesh', 'https://github.com/ReactiveX/rxjs/pull/6878'),
 (611, 32247847, 4, '2017-08-29T17:10:33', 'mpodlasin', 'https://github.com/ReactiveX/rxjs/pull/2740'),
@@ -3257,7 +3257,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3589, 31792824, 4, '2022-05-16T20:44:24', 'yjbanov', 'https://github.com/flutter/flutter/pull/103754'),
 (3590, 31792824, 4, '2022-02-04T20:45:20', 'devoncarew', 'https://github.com/flutter/flutter/pull/97749'),
 (3591, 31792824, 4, '2022-05-17T18:11:42', 'gspencergoog', 'https://github.com/flutter/flutter/pull/103518'),
-(3592, 7670022, 1, '2014-10-14T06:13:39', 'joelekstrom', 'https://github.com/salomvary/soundcleod/pull/57'),
 (3593, 316807711, 1, '2021-06-30T06:14:13', 'danzrou', 'https://github.com/ngneat/variabless/pull/3'),
 (3594, 7670022, 1, '2016-01-22T07:46:29', 'swrobel', 'https://github.com/salomvary/soundcleod/pull/97'),
 (3595, 45350538, 1, '2016-07-17T16:29:18', 'Burgestrand', 'https://github.com/piotrmurach/tty-prompt/pull/18'),
@@ -3283,6 +3282,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3615, 45350538, 1, '2020-06-25T19:49:32', 'piotrmurach', 'https://github.com/piotrmurach/tty-prompt/pull/146'),
 (3616, 45350538, 1, '2017-12-27T18:47:42', 'ab', 'https://github.com/piotrmurach/tty-prompt/pull/63'),
 (3617, 45350538, 4, '2020-09-18T11:32:17', 'slowbro', 'https://github.com/piotrmurach/tty-prompt/pull/150'),
+(3592, 7670022, 1, '2014-10-14T06:13:39', 'joelekstrom', 'https://github.com/salomvary/soundcleod/pull/57'),
 (3618, 7670022, 1, '2017-10-17T07:37:48', 'tersers', 'https://github.com/salomvary/soundcleod/pull/155'),
 (3619, 45350538, 1, '2019-05-19T10:27:57', 'hellola', 'https://github.com/piotrmurach/tty-prompt/pull/95'),
 (3620, 7670022, 2, '2017-04-28T12:55:27', 'rmaes4', 'https://github.com/salomvary/soundcleod/pull/146'),
@@ -3448,4 +3448,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3780, 144873815, 4, '2020-09-13T04:47:41', 'steebchen', 'https://github.com/prisma/prisma-examples/pull/2010'),
 (3781, 144873815, 4, '2020-02-18T15:06:54', 'matthewmueller', 'https://github.com/prisma/prisma-examples/pull/1412'),
 (3782, 144873815, 4, '2021-08-20T07:42:14', 'ryands17', 'https://github.com/prisma/prisma-examples/pull/3088'),
-(3783, 144873815, 2, '2020-08-10T13:59:44', 'timsuchanek', 'https://github.com/prisma/prisma-examples/pull/1938');
+(3783, 144873815, 2, '2020-08-10T13:59:44', 'timsuchanek', 'https://github.com/prisma/prisma-examples/pull/1938'),
+(3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
+(3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21'),
+(3786, 176946161, 2, '2021-06-17T17:48:12', 'sealedtx', 'https://github.com/sealedtx/java-youtube-downloader/pull/83'),
+(3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
+(3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23'),
+(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63'),
+(3790, 176946161, 2, '2020-09-07T17:44:24', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/49');

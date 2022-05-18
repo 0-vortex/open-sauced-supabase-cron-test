@@ -3443,3 +3443,10 @@ id,repo_id,count,last_merged_at,contributor,url
 3780,144873815,4,2020-09-13T04:47:41,steebchen,https://github.com/prisma/prisma-examples/pull/2010
 3781,144873815,4,2020-02-18T15:06:54,matthewmueller,https://github.com/prisma/prisma-examples/pull/1412
 3782,144873815,4,2021-08-20T07:42:14,ryands17,https://github.com/prisma/prisma-examples/pull/3088
+3783,144873815,2,2020-08-10T13:59:44,timsuchanek,https://github.com/prisma/prisma-examples/pull/1938
+3784,176946161,1,2021-01-07T10:40:40,Fabulierer,https://github.com/sealedtx/java-youtube-downloader/pull/71
+3785,176946161,1,2020-06-02T20:11:09,Josemaralves,https://github.com/sealedtx/java-youtube-downloader/pull/21
+3786,176946161,2,2021-06-17T17:48:12,sealedtx,https://github.com/sealedtx/java-youtube-downloader/pull/83
+3787,176946161,1,2021-04-16T06:28:06,jamesvickers19,https://github.com/sealedtx/java-youtube-downloader/pull/80
+3788,176946161,1,2020-06-12T07:52:13,poornerd,https://github.com/sealedtx/java-youtube-downloader/pull/23
+3789,176946161,3,2020-11-06T13:56:14,kangsLee,https://github.com/sealedtx/java-youtube-downloader/pull/63
