@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T06:49:15.953Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T08:47:41.565Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -585,10 +585,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (828, 330218376, 1, '2022-03-02T07:14:27', 'srihari-tw', 'https://github.com/pereiren/dotnet-template-onion/pull/4'),
 (829, 208397359, 4, '2021-08-25T04:53:29', 'proudmonkey', 'https://github.com/proudmonkey/AutoWrapper/pull/121'),
 (830, 208397359, 1, '2021-03-08T16:08:09', 'chen1tian', 'https://github.com/proudmonkey/AutoWrapper/pull/101'),
+(831, 208397359, 4, '2020-08-26T03:28:40', 'hueifeng', 'https://github.com/proudmonkey/AutoWrapper/pull/73'),
 (832, 208397359, 1, '2020-08-24T21:02:36', 'nick-cromwell', 'https://github.com/proudmonkey/AutoWrapper/pull/72'),
 (833, 208397359, 1, '2020-02-18T16:15:57', 'arhen', 'https://github.com/proudmonkey/AutoWrapper/pull/31'),
 (834, 208397359, 1, '2020-01-07T23:20:57', 'ITninja04', 'https://github.com/proudmonkey/AutoWrapper/pull/20'),
-(831, 208397359, 4, '2020-08-26T03:28:40', 'hueifeng', 'https://github.com/proudmonkey/AutoWrapper/pull/73'),
 (835, 208397359, 1, '2021-08-03T20:23:57', 'wylanosorio', 'https://github.com/proudmonkey/AutoWrapper/pull/114'),
 (836, 208397359, 1, '2019-10-29T01:28:39', 'swissarmytech', 'https://github.com/proudmonkey/AutoWrapper/pull/10'),
 (837, 206060082, 1, '2019-09-03T12:21:11', 'pmanlukas', 'https://github.com/octodemo/awesome-actions/pull/7'),
