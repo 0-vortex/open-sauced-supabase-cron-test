@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T01:05:33.077Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T03:16:33.745Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3396,9 +3396,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3728, 2823326, 1, '2021-12-13T20:55:07', 'avmnu-sng', 'https://github.com/asciinema/asciinema/pull/448'),
 (3729, 2823326, 1, '2013-10-02T06:18:46', 'caseyscarborough', 'https://github.com/asciinema/asciinema/pull/38'),
 (3730, 3946572, 1, '2018-05-10T07:32:09', 'AlexTugarev', 'https://github.com/PostgresApp/PostgresApp/pull/421'),
+(3731, 109179063, 1, '2022-01-27T23:25:43', 'Gitoffthelawn', 'https://github.com/privacypass/challenge-bypass-extension/pull/287'),
 (3732, 3946572, 1, '2016-12-12T15:09:50', 'ultimate-deej', 'https://github.com/PostgresApp/PostgresApp/pull/362'),
 (3733, 3946572, 1, '2015-02-17T10:27:05', 'nemesis', 'https://github.com/PostgresApp/PostgresApp/pull/253'),
-(3731, 109179063, 1, '2022-01-27T23:25:43', 'Gitoffthelawn', 'https://github.com/privacypass/challenge-bypass-extension/pull/287'),
 (3734, 3946572, 1, '2022-05-13T08:42:04', 'aswerve97', 'https://github.com/PostgresApp/PostgresApp/pull/657'),
 (3735, 3946572, 1, '2021-02-11T11:24:19', 'rathboma', 'https://github.com/PostgresApp/PostgresApp/pull/613'),
 (3736, 3946572, 1, '2017-05-15T08:51:11', 'bunkrich', 'https://github.com/PostgresApp/PostgresApp/pull/392'),
@@ -3738,4 +3738,39 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4070, 381979, 1, '2019-01-10T16:49:31', 'alexander-schranz', 'https://github.com/fullcalendar/fullcalendar/pull/4233'),
 (4071, 381979, 1, '2017-07-17T18:01:15', 'nemanja947', 'https://github.com/fullcalendar/fullcalendar/pull/3656'),
 (4072, 369896619, 1, '2021-07-10T13:06:54', 'lauzaki', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/30'),
-(4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31');
+(4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31'),
+(4074, 240786294, 4, '2021-03-31T09:07:36', 'vybhav72954', 'https://github.com/HarshCasper/Rotten-Scripts/pull/922'),
+(4075, 240786294, 4, '2020-08-25T14:08:10', 'HeroicHitesh', 'https://github.com/HarshCasper/Rotten-Scripts/pull/255'),
+(4076, 240786294, 2, '2020-09-12T04:54:44', 'basketcase03', 'https://github.com/HarshCasper/Rotten-Scripts/pull/343'),
+(4077, 240786294, 4, '2022-05-13T18:35:27', 'HarshCasper', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1379'),
+(4078, 240786294, 4, '2020-08-10T02:10:07', 'seema1711', 'https://github.com/HarshCasper/Rotten-Scripts/pull/180'),
+(4079, 240786294, 3, '2020-10-02T06:10:47', 'sharur7', 'https://github.com/HarshCasper/Rotten-Scripts/pull/352'),
+(4080, 240786294, 3, '2020-06-30T02:39:10', 'sanket143', 'https://github.com/HarshCasper/Rotten-Scripts/pull/42'),
+(4081, 240786294, 4, '2020-08-18T04:11:27', 'mbcse', 'https://github.com/HarshCasper/Rotten-Scripts/pull/215'),
+(4082, 240786294, 4, '2020-09-28T12:00:14', 'kaustubhgupta', 'https://github.com/HarshCasper/Rotten-Scripts/pull/383'),
+(4083, 240786294, 4, '2020-09-26T06:00:34', 'AdityaJ7', 'https://github.com/HarshCasper/Rotten-Scripts/pull/379'),
+(4084, 240786294, 1, '2020-08-23T05:51:37', 'bagofcodes', 'https://github.com/HarshCasper/Rotten-Scripts/pull/217'),
+(4085, 240786294, 1, '2020-08-23T05:49:16', 'aastha985', 'https://github.com/HarshCasper/Rotten-Scripts/pull/221'),
+(4086, 240786294, 4, '2020-10-02T07:31:48', 'sameersrivastava13', 'https://github.com/HarshCasper/Rotten-Scripts/pull/413'),
+(4087, 240786294, 4, '2020-10-03T04:47:13', 'rutujadhanawade', 'https://github.com/HarshCasper/Rotten-Scripts/pull/412'),
+(4088, 240786294, 4, '2021-03-30T06:42:16', 'pritamp17', 'https://github.com/HarshCasper/Rotten-Scripts/pull/777'),
+(4089, 240786294, 4, '2021-06-19T03:14:11', 'RohiniRG', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1131'),
+(4090, 240786294, 4, '2021-01-26T03:37:48', 'avinal', 'https://github.com/HarshCasper/Rotten-Scripts/pull/719'),
+(4091, 240786294, 4, '2020-07-27T05:44:57', 'AnkitaxPriya', 'https://github.com/HarshCasper/Rotten-Scripts/pull/151'),
+(4092, 240786294, 4, '2021-10-03T09:19:17', 'Sukriti-sood', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1212'),
+(4093, 240786294, 4, '2020-10-16T03:50:10', 'srimani-programmer', 'https://github.com/HarshCasper/Rotten-Scripts/pull/450'),
+(4094, 240786294, 4, '2020-09-26T06:27:51', 'AkM-2018', 'https://github.com/HarshCasper/Rotten-Scripts/pull/353'),
+(4095, 240786294, 3, '2021-01-14T04:03:31', 'Blastoise', 'https://github.com/HarshCasper/Rotten-Scripts/pull/690'),
+(4096, 240786294, 1, '2020-11-07T15:53:30', 'KmrAnish04', 'https://github.com/HarshCasper/Rotten-Scripts/pull/511'),
+(4097, 240786294, 2, '2021-05-12T14:21:21', 'devRawnie', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1016'),
+(4098, 240786294, 4, '2020-08-10T02:39:04', 'Sanketwable', 'https://github.com/HarshCasper/Rotten-Scripts/pull/170'),
+(4099, 240786294, 3, '2020-08-10T02:36:52', 'Anushka-S10', 'https://github.com/HarshCasper/Rotten-Scripts/pull/169'),
+(4100, 240786294, 1, '2021-02-14T14:54:11', 'oshi36', 'https://github.com/HarshCasper/Rotten-Scripts/pull/724'),
+(4101, 240786294, 3, '2020-09-09T14:09:51', 'avinashkranjan', 'https://github.com/HarshCasper/Rotten-Scripts/pull/267'),
+(4102, 240786294, 4, '2020-09-12T05:20:11', 'Namyalg', 'https://github.com/HarshCasper/Rotten-Scripts/pull/324'),
+(4103, 182075630, 1, '2019-04-23T03:48:43', 'thewmh', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/1'),
+(4104, 182075630, 2, '2020-05-11T23:16:18', 'jamesctucker', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/7'),
+(4105, 182075630, 1, '2019-09-25T16:46:41', 'forresthopkinsa', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/4'),
+(4106, 182075630, 1, '2019-09-20T18:24:27', 'scmmishra', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/2'),
+(4107, 182075630, 1, '2019-10-11T14:47:14', 'ika-codes', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/5'),
+(4108, 182075630, 1, '2019-09-25T16:48:26', 'vitorfreitas', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/3');
