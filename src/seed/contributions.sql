@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T01:04:52.160Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T03:07:56.956Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3041,8 +3041,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3338, 501689, 1, '2012-08-13T20:11:45', 'pgelinas', 'https://github.com/antlr/stringtemplate4/pull/13'),
 (3339, 28928917, 2, '2021-01-22T15:16:11', 'yingjie-xu', 'https://github.com/prmr/JetUML/pull/411'),
 (3340, 501689, 1, '2018-11-11T21:49:03', 'adityanarkar', 'https://github.com/antlr/stringtemplate4/pull/209'),
-(3342, 28928917, 1, '2020-11-24T18:01:18', 'Lercerss', 'https://github.com/prmr/JetUML/pull/389'),
 (3341, 28928917, 4, '2018-11-28T21:20:36', 'kkutschera', 'https://github.com/prmr/JetUML/pull/290'),
+(3342, 28928917, 1, '2020-11-24T18:01:18', 'Lercerss', 'https://github.com/prmr/JetUML/pull/389'),
 (3343, 28928917, 4, '2016-06-09T15:05:26', 'CharlotteXiaoYeDing', 'https://github.com/prmr/JetUML/pull/179'),
 (3344, 28928917, 1, '2015-12-30T14:07:47', 'henray', 'https://github.com/prmr/JetUML/pull/137'),
 (3345, 501689, 1, '2020-04-21T02:20:16', 'steinybot', 'https://github.com/antlr/stringtemplate4/pull/254'),
@@ -3075,6 +3075,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3372, 28928917, 4, '2018-10-19T13:55:36', 'jc-chen157', 'https://github.com/prmr/JetUML/pull/282'),
 (3373, 501689, 2, '2017-07-20T22:56:16', 'jeff5', 'https://github.com/antlr/stringtemplate4/pull/158'),
 (3374, 28928917, 4, '2021-05-14T20:27:18', 'yannsartori', 'https://github.com/prmr/JetUML/pull/430'),
+(3375, 501689, 1, '2017-07-20T22:49:09', 'IInspectable', 'https://github.com/antlr/stringtemplate4/pull/177'),
 (3376, 28928917, 4, '2021-12-16T18:39:24', 'delphinepilon', 'https://github.com/prmr/JetUML/pull/447'),
 (3377, 501689, 4, '2022-04-02T16:49:31', 'parrt', 'https://github.com/antlr/stringtemplate4/pull/299'),
 (3378, 28928917, 4, '2020-11-30T19:54:08', 'OlivierGL', 'https://github.com/prmr/JetUML/pull/396'),
@@ -3111,7 +3112,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3409, 293844582, 4, '2021-03-31T18:19:37', 'JeroenGoddijn', 'https://github.com/spicygreenbook/greenbook-app/pull/374'),
 (3410, 293844582, 3, '2021-03-28T14:10:17', 'ktgr', 'https://github.com/spicygreenbook/greenbook-app/pull/354'),
 (3411, 293844582, 4, '2021-09-06T20:26:00', 'orsolyalukacs', 'https://github.com/spicygreenbook/greenbook-app/pull/421'),
-(3375, 501689, 1, '2017-07-20T22:49:09', 'IInspectable', 'https://github.com/antlr/stringtemplate4/pull/177'),
 (3412, 293844582, 4, '2021-05-22T19:45:10', 'lirondco', 'https://github.com/spicygreenbook/greenbook-app/pull/403'),
 (3413, 293844582, 2, '2022-05-04T16:02:43', 'danilobatson', 'https://github.com/spicygreenbook/greenbook-app/pull/431'),
 (3414, 293844582, 1, '2020-12-29T22:01:50', 'joshkwannacode', 'https://github.com/spicygreenbook/greenbook-app/pull/197'),
@@ -4602,8 +4602,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4934, 72931382, 4, '2022-03-27T16:50:52', 'dobromir-hristov', 'https://github.com/vuelidate/vuelidate/pull/1023'),
 (4935, 72931382, 3, '2017-08-27T13:41:39', 'hootlex', 'https://github.com/vuelidate/vuelidate/pull/177'),
 (4936, 72931382, 1, '2017-10-06T17:04:49', 'FelipeBohnertPaetzold', 'https://github.com/vuelidate/vuelidate/pull/157'),
-(4937, 72931382, 4, '2021-01-31T18:47:26', 'shentao', 'https://github.com/vuelidate/vuelidate/pull/790'),
 (4938, 72931382, 3, '2020-11-14T09:53:07', 'aethr', 'https://github.com/vuelidate/vuelidate/pull/750'),
+(4937, 72931382, 4, '2021-01-31T18:47:26', 'shentao', 'https://github.com/vuelidate/vuelidate/pull/790'),
 (4939, 72931382, 2, '2022-03-28T19:30:07', 'A-Ghorab', 'https://github.com/vuelidate/vuelidate/pull/1024'),
 (4940, 72931382, 4, '2017-12-15T09:19:46', '38elements', 'https://github.com/vuelidate/vuelidate/pull/232'),
 (4941, 72931382, 2, '2022-03-27T10:30:33', 'chalkygames123', 'https://github.com/vuelidate/vuelidate/pull/1004'),
