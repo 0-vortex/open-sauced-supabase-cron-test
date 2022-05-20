@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T12:57:54.194Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T14:44:55.695Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4232,8 +4232,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4564, 488514, 4, '2016-06-02T15:19:23', 'RochesterinNYC', 'https://github.com/rubygems/bundler/pull/4636'),
 (4565, 488514, 4, '2015-11-28T01:15:04', 'TimMoore', 'https://github.com/rubygems/bundler/pull/4127'),
 (4566, 488514, 4, '2014-12-08T07:26:26', 'Who828', 'https://github.com/rubygems/bundler/pull/3290'),
-(4568, 488514, 4, '2016-07-29T22:30:22', 'b-ggs', 'https://github.com/rubygems/bundler/pull/4820'),
 (4567, 488514, 4, '2018-07-30T23:53:05', 'agrim123', 'https://github.com/rubygems/bundler/pull/6627'),
+(4568, 488514, 4, '2016-07-29T22:30:22', 'b-ggs', 'https://github.com/rubygems/bundler/pull/4820'),
 (4569, 488514, 3, '2017-06-23T20:45:04', 'andremedeiros', 'https://github.com/rubygems/bundler/pull/5813'),
 (4570, 488514, 4, '2017-04-28T04:43:57', 'denniss', 'https://github.com/rubygems/bundler/pull/5619'),
 (4571, 488514, 3, '2015-08-04T18:22:55', 'sferik', 'https://github.com/rubygems/bundler/pull/3912'),
@@ -5237,8 +5237,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5569, 234739976, 4, '2022-05-18T13:57:40', 'mkaychuks', 'https://github.com/medusajs/medusa/pull/1532'),
 (5570, 234739976, 4, '2021-09-15T17:12:19', 'FuzzyReason', 'https://github.com/medusajs/medusa/pull/401'),
 (5571, 234739976, 3, '2021-10-26T18:01:30', 'leodeleone', 'https://github.com/medusajs/medusa/pull/654'),
-(5573, 234739976, 2, '2021-11-10T16:37:23', 'Ajordat', 'https://github.com/medusajs/medusa/pull/549'),
 (5572, 234739976, 2, '2021-07-22T16:28:12', 'klefcodes', 'https://github.com/medusajs/medusa/pull/314'),
+(5573, 234739976, 2, '2021-11-10T16:37:23', 'Ajordat', 'https://github.com/medusajs/medusa/pull/549'),
 (5574, 234739976, 3, '2021-10-26T06:41:46', 'aloks98', 'https://github.com/medusajs/medusa/pull/592'),
 (5575, 234739976, 4, '2021-10-25T06:55:38', 'timothy22000', 'https://github.com/medusajs/medusa/pull/646'),
 (5576, 234739976, 4, '2021-12-06T08:58:04', 'dwene', 'https://github.com/medusajs/medusa/pull/879'),
