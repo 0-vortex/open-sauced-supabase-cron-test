@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T04:51:06.998Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T06:49:04.788Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3068,8 +3068,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3365, 28928917, 3, '2022-05-02T20:04:58', 'maddy0218', 'https://github.com/prmr/JetUML/pull/460'),
 (3366, 28928917, 1, '2022-01-13T17:59:27', 'StephenChen', 'https://github.com/prmr/JetUML/pull/448'),
 (3367, 501689, 1, '2022-04-12T18:29:55', 'pzygielo', 'https://github.com/antlr/stringtemplate4/pull/301'),
-(3369, 501689, 1, '2019-07-07T15:51:34', 'marcohu', 'https://github.com/antlr/stringtemplate4/pull/218'),
 (3368, 501689, 4, '2019-02-03T18:51:35', 'sharwell', 'https://github.com/antlr/stringtemplate4/pull/215'),
+(3369, 501689, 1, '2019-07-07T15:51:34', 'marcohu', 'https://github.com/antlr/stringtemplate4/pull/218'),
 (3370, 501689, 1, '2017-07-20T22:46:11', 'alex-sherwin', 'https://github.com/antlr/stringtemplate4/pull/139'),
 (3371, 501689, 1, '2021-12-13T20:57:56', 'jcking', 'https://github.com/antlr/stringtemplate4/pull/292'),
 (3372, 28928917, 4, '2018-10-19T13:55:36', 'jc-chen157', 'https://github.com/prmr/JetUML/pull/282'),
