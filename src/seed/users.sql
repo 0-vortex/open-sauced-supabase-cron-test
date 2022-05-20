@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T22:45:09.620Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T01:04:52.131Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -127,11 +127,11 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (237133, 14, true, false, true, '2022-05-16T11:34:54.194659+00:00', '0-vortex'),
 (29648040, 1, true, false, true, '2022-05-16T11:34:55.499587+00:00', 'iamtheozzy'),
 (8037469, 1, true, false, true, '2022-05-16T11:34:56.322833+00:00', 'waxidiotic'),
+(9283692, 0, true, true, true, '2022-05-16T05:23:33.036711+00:00', 'mpmccauley'),
 (1431853, 0, true, false, true, '2022-05-16T11:42:50.309636+00:00', 'mbchoa'),
 (49351279, 2, true, false, true, '2022-05-16T11:42:51.311437+00:00', 'gogocharli'),
 (569510, 6, true, false, true, '2022-05-16T11:42:52.321312+00:00', 'henrik-ch'),
 (5842360, 1, true, false, true, '2022-05-16T11:50:54.958045+00:00', 'haffmaestro'),
-(9283692, 0, true, true, true, '2022-05-16T05:23:33.036711+00:00', 'mpmccauley'),
 (22186029, 0, true, true, true, '2022-05-16T06:28:43.660068+00:00', 'BenjaminMichaelis'),
 (57826091, 1, true, false, true, '2022-05-16T11:50:58.397762+00:00', 'miralsuthar'),
 (22154417, 1, true, false, true, '2022-05-16T11:58:47.687041+00:00', 'SamuelWitke'),
