@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T10:46:08.950Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T12:54:18.842Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1859,8 +1859,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2158, 85031442, 1, '2020-09-04T20:59:17', 'ChristianVermeulen', 'https://github.com/poteto/hiring-without-whiteboards/pull/965'),
 (2159, 85031442, 1, '2019-08-11T22:35:47', 'amirsch', 'https://github.com/poteto/hiring-without-whiteboards/pull/853'),
 (2160, 85031442, 4, '2021-06-21T22:20:47', 'poteto', 'https://github.com/poteto/hiring-without-whiteboards/pull/1103'),
-(2162, 85031442, 1, '2021-02-24T18:55:54', 'aledeltoro', 'https://github.com/poteto/hiring-without-whiteboards/pull/1058'),
 (2161, 85031442, 1, '2022-01-17T18:30:09', 'evansagge', 'https://github.com/poteto/hiring-without-whiteboards/pull/1162'),
+(2162, 85031442, 1, '2021-02-24T18:55:54', 'aledeltoro', 'https://github.com/poteto/hiring-without-whiteboards/pull/1058'),
 (2163, 85031442, 1, '2019-03-07T02:54:49', 'ahmednuaman', 'https://github.com/poteto/hiring-without-whiteboards/pull/719'),
 (2164, 85031442, 1, '2019-10-14T18:43:44', 'ExodusActual', 'https://github.com/poteto/hiring-without-whiteboards/pull/866'),
 (2165, 85031442, 1, '2019-03-04T23:58:01', 'micheleriva', 'https://github.com/poteto/hiring-without-whiteboards/pull/709'),
