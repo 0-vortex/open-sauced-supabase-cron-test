@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T01:04:15.980Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T02:58:53.691Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -121,8 +121,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (58482194, 4, true, false, true, '2022-05-16T11:14:46.253043+00:00', 'Borrus-sudo'),
 (9283692, 0, true, true, true, '2022-05-16T05:23:33.036711+00:00', 'mpmccauley'),
 (19475228, 1, true, false, true, '2022-05-16T21:32:16.87189+00:00', 'ajoeofalltrades'),
+(141381, 4, true, false, true, '2022-05-20T13:38:36.2163+00:00', 'mauvehed'),
 (5901851, 1, true, false, true, '2022-05-16T07:51:11.59179+00:00', 'jayteealao'),
-(22186029, 0, true, true, true, '2022-05-16T06:28:43.660068+00:00', 'BenjaminMichaelis'),
 (29648040, 1, true, false, true, '2022-05-16T11:34:55.499587+00:00', 'iamtheozzy'),
 (8037469, 1, true, false, true, '2022-05-16T11:34:56.322833+00:00', 'waxidiotic'),
 (6265396, 0, true, false, true, '2022-05-16T13:52:30.983584+00:00', 'clarkio'),
@@ -131,7 +131,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (5842360, 1, true, false, true, '2022-05-16T11:50:54.958045+00:00', 'haffmaestro'),
 (72279316, 5, true, false, true, '2022-05-16T11:50:56.636409+00:00', 'Samikmalhotra'),
 (57826091, 1, true, false, true, '2022-05-16T11:50:58.397762+00:00', 'miralsuthar'),
-(141381, 1, true, false, true, '2022-05-20T13:38:36.2163+00:00', 'mauvehed'),
 (1295334, 1, true, false, true, '2022-05-16T14:51:35.502557+00:00', 'applesnort'),
 (22154417, 1, true, false, true, '2022-05-16T11:58:47.687041+00:00', 'SamuelWitke'),
 (88112004, 0, true, false, true, '2022-05-16T03:44:58.140929+00:00', 'SClay345'),
@@ -200,4 +199,5 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (3861088, 3, true, false, true, '2022-05-16T13:52:32.624113+00:00', 'jonathanyeong'),
 (57305940, 0, true, false, true, '2022-05-16T11:26:06.090408+00:00', 'mgcarbonell'),
 (11777161, 3, true, false, true, '2022-05-16T12:46:35.337849+00:00', 'chadstewart'),
-(237133, 14, true, false, true, '2022-05-16T11:34:54.194659+00:00', '0-vortex');
+(237133, 14, true, false, true, '2022-05-16T11:34:54.194659+00:00', '0-vortex'),
+(22186029, 0, true, true, true, '2022-05-16T06:28:43.660068+00:00', 'BenjaminMichaelis');
