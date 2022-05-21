@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T18:47:45.487Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T22:45:08.940Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3065,8 +3065,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3362, 28928917, 1, '2019-11-28T15:59:31', 'jiahao-c', 'https://github.com/prmr/JetUML/pull/313'),
 (3363, 501689, 1, '2019-01-21T18:17:36', 'cfraizer', 'https://github.com/antlr/stringtemplate4/pull/213'),
 (3364, 501689, 1, '2020-10-02T18:39:11', 'beccagaspard', 'https://github.com/antlr/stringtemplate4/pull/268'),
-(3366, 28928917, 1, '2022-01-13T17:59:27', 'StephenChen', 'https://github.com/prmr/JetUML/pull/448'),
 (3365, 28928917, 3, '2022-05-02T20:04:58', 'maddy0218', 'https://github.com/prmr/JetUML/pull/460'),
+(3366, 28928917, 1, '2022-01-13T17:59:27', 'StephenChen', 'https://github.com/prmr/JetUML/pull/448'),
 (3367, 501689, 1, '2022-04-12T18:29:55', 'pzygielo', 'https://github.com/antlr/stringtemplate4/pull/301'),
 (3368, 501689, 4, '2019-02-03T18:51:35', 'sharwell', 'https://github.com/antlr/stringtemplate4/pull/215'),
 (3369, 501689, 1, '2019-07-07T15:51:34', 'marcohu', 'https://github.com/antlr/stringtemplate4/pull/218'),
@@ -3617,8 +3617,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3949, 274165785, 1, '2020-07-05T16:00:01', 'Mohammadreza99A', 'https://github.com/bradtraversy/ui_components/pull/3'),
 (3950, 73131897, 3, '2021-03-29T12:08:11', 'csknns', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/74'),
 (3951, 73131897, 1, '2018-02-02T08:58:23', 'monkeywithacupcake', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/28'),
-(3953, 73131897, 1, '2019-07-27T13:52:47', 'ShanghaiTimes', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/48'),
 (3952, 73131897, 1, '2020-02-24T12:45:42', 'TwoDollarsEsq', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/62'),
+(3953, 73131897, 1, '2019-07-27T13:52:47', 'ShanghaiTimes', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/48'),
 (3954, 73131897, 1, '2017-03-29T07:57:40', 'frederik-jacques', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/11'),
 (3955, 73131897, 1, '2019-01-12T21:49:12', 'e-sung', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/43'),
 (3956, 73131897, 1, '2018-03-20T10:51:53', 's4cha', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/24'),
@@ -3740,8 +3740,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4072, 369896619, 1, '2021-07-10T13:06:54', 'lauzaki', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/30'),
 (4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31'),
 (4074, 240786294, 4, '2021-03-31T09:07:36', 'vybhav72954', 'https://github.com/HarshCasper/Rotten-Scripts/pull/922'),
-(4076, 240786294, 2, '2020-09-12T04:54:44', 'basketcase03', 'https://github.com/HarshCasper/Rotten-Scripts/pull/343'),
 (4075, 240786294, 4, '2020-08-25T14:08:10', 'HeroicHitesh', 'https://github.com/HarshCasper/Rotten-Scripts/pull/255'),
+(4076, 240786294, 2, '2020-09-12T04:54:44', 'basketcase03', 'https://github.com/HarshCasper/Rotten-Scripts/pull/343'),
 (4077, 240786294, 4, '2022-05-13T18:35:27', 'HarshCasper', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1379'),
 (4078, 240786294, 4, '2020-08-10T02:10:07', 'seema1711', 'https://github.com/HarshCasper/Rotten-Scripts/pull/180'),
 (4079, 240786294, 3, '2020-10-02T06:10:47', 'sharur7', 'https://github.com/HarshCasper/Rotten-Scripts/pull/352'),
@@ -3835,8 +3835,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4167, 143078055, 2, '2020-01-31T07:57:39', 'smokeyfro', 'https://github.com/gridsome/gridsome/pull/958'),
 (4168, 143078055, 4, '2021-05-12T15:48:48', 'jbampton', 'https://github.com/gridsome/gridsome/pull/1493'),
 (4169, 143078055, 3, '2019-08-16T22:36:24', 'fl0cke', 'https://github.com/gridsome/gridsome/pull/609'),
-(4171, 143078055, 1, '2019-01-20T15:56:42', 'hagata', 'https://github.com/gridsome/gridsome/pull/132'),
 (4170, 143078055, 2, '2020-08-10T10:34:35', 'Mini-ghost', 'https://github.com/gridsome/gridsome/pull/1293'),
+(4171, 143078055, 1, '2019-01-20T15:56:42', 'hagata', 'https://github.com/gridsome/gridsome/pull/132'),
 (4172, 143078055, 2, '2019-12-13T09:31:00', 'emilol', 'https://github.com/gridsome/gridsome/pull/872'),
 (4173, 143078055, 2, '2020-02-16T09:42:54', 'clorichel', 'https://github.com/gridsome/gridsome/pull/982'),
 (4174, 143078055, 2, '2019-03-19T10:53:38', 'vberlier', 'https://github.com/gridsome/gridsome/pull/295'),
@@ -4653,8 +4653,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4985, 37140605, 1, '2017-11-10T13:15:19', 'blunket', 'https://github.com/dwyl/learn-tdd/pull/103'),
 (4986, 37140605, 1, '2017-07-03T09:10:15', 'adeluccar', 'https://github.com/dwyl/learn-tdd/pull/96'),
 (4987, 37140605, 1, '2017-02-27T15:23:00', 'RhodesPeter', 'https://github.com/dwyl/learn-tdd/pull/83'),
-(4988, 37140605, 1, '2015-09-05T08:16:16', 'jalcine', 'https://github.com/dwyl/learn-tdd/pull/24'),
 (4989, 219881030, 3, '2019-12-09T01:50:00', 'ddesir', 'https://github.com/jseg787/random-playlist-generator/pull/3'),
+(4988, 37140605, 1, '2015-09-05T08:16:16', 'jalcine', 'https://github.com/dwyl/learn-tdd/pull/24'),
 (4990, 139156354, 4, '2022-03-16T08:49:04', 'kirill-sizov', 'https://github.com/openvinotoolkit/cvat/pull/4403'),
 (4991, 139156354, 4, '2021-07-15T11:27:25', 'zhiltsov-max', 'https://github.com/openvinotoolkit/cvat/pull/3411'),
 (4992, 139156354, 3, '2021-06-01T09:26:58', 'Jooong', 'https://github.com/openvinotoolkit/cvat/pull/3235'),
