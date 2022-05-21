@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T04:49:30.625Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T06:49:26.093Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2737,10 +2737,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3034, 100060912, 4, '2021-10-18T21:24:35', 'NotWearingPants', 'https://github.com/microsoft/terminal/pull/11520'),
 (3035, 100060912, 4, '2019-11-16T00:58:25', 'bitcrazed', 'https://github.com/microsoft/terminal/pull/3204'),
 (3036, 100060912, 4, '2022-05-17T00:07:48', 'lhecker', 'https://github.com/microsoft/terminal/pull/13100'),
-(3037, 100060912, 4, '2020-07-01T19:43:28', 'greg904', 'https://github.com/microsoft/terminal/pull/6631'),
 (3038, 100060912, 4, '2020-07-17T19:27:33', 'jtippet', 'https://github.com/microsoft/terminal/pull/6965'),
 (3039, 100060912, 4, '2022-05-02T20:05:35', 'ianjoneill', 'https://github.com/microsoft/terminal/pull/13018'),
 (3040, 100060912, 4, '2021-07-20T14:05:46', 'skyline75489', 'https://github.com/microsoft/terminal/pull/10685'),
+(3037, 100060912, 4, '2020-07-01T19:43:28', 'greg904', 'https://github.com/microsoft/terminal/pull/6631'),
 (3041, 100060912, 4, '2019-12-21T01:35:32', 'KaiyuWang16', 'https://github.com/microsoft/terminal/pull/4028'),
 (3042, 100060912, 4, '2021-09-10T17:16:41', 'Don-Vito', 'https://github.com/microsoft/terminal/pull/11139'),
 (3043, 100060912, 4, '2020-04-17T17:15:20', 'oising', 'https://github.com/microsoft/terminal/pull/4852'),
@@ -3821,7 +3821,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4153, 239233346, 1, '2020-07-13T20:46:33', 'smithgeek', 'https://github.com/ardalis/ApiEndpoints/pull/22'),
 (4154, 239233346, 1, '2020-07-14T22:15:39', 'tbalasavage', 'https://github.com/ardalis/ApiEndpoints/pull/24'),
 (4155, 143078055, 1, '2020-12-01T15:20:37', 'merceyz', 'https://github.com/gridsome/gridsome/pull/1313'),
-(4156, 143078055, 4, '2021-05-11T09:49:21', 'jamesgeorge007', 'https://github.com/gridsome/gridsome/pull/1486'),
 (4157, 143078055, 4, '2021-08-13T10:22:20', 'hjvedvik', 'https://github.com/gridsome/gridsome/pull/1543'),
 (4158, 143078055, 4, '2019-09-21T13:34:22', 'tomtev', 'https://github.com/gridsome/gridsome/pull/691'),
 (4159, 143078055, 3, '2019-05-03T11:16:41', 'crsten', 'https://github.com/gridsome/gridsome/pull/399'),
@@ -4079,9 +4078,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4411, 16986405, 3, '2021-01-12T23:47:19', 'jmfd', 'https://github.com/liabru/matter-js/pull/639'),
 (4412, 16986405, 1, '2018-06-11T15:07:29', 'Qriva', 'https://github.com/liabru/matter-js/pull/628'),
 (4413, 16986405, 4, '2021-12-15T18:30:42', 'liabru', 'https://github.com/liabru/matter-js/pull/1069'),
+(4156, 143078055, 4, '2021-05-11T09:49:21', 'jamesgeorge007', 'https://github.com/gridsome/gridsome/pull/1486'),
 (4414, 16986405, 1, '2015-05-24T12:43:49', 'PlNG', 'https://github.com/liabru/matter-js/pull/60'),
 (4415, 16986405, 1, '2014-03-01T16:29:39', 'sethvincent', 'https://github.com/liabru/matter-js/pull/6'),
-(4416, 16986405, 1, '2016-04-05T22:57:54', 'Misiur', 'https://github.com/liabru/matter-js/pull/166'),
 (4417, 16986405, 1, '2016-12-02T00:29:25', 'RobertHerhold', 'https://github.com/liabru/matter-js/pull/288'),
 (4418, 16986405, 1, '2016-02-01T11:00:03', 'kevinboudot', 'https://github.com/liabru/matter-js/pull/199'),
 (4419, 16986405, 1, '2017-11-26T21:59:49', 'Quoteme', 'https://github.com/liabru/matter-js/pull/463'),
@@ -4325,6 +4324,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4657, 22790488, 1, '2018-04-08T17:01:42', 'dheeraj-mummareddy', 'https://github.com/iluwatar/java-design-patterns/pull/714'),
 (4658, 22790488, 1, '2017-05-29T18:41:27', '4lexis', 'https://github.com/iluwatar/java-design-patterns/pull/572'),
 (4659, 22790488, 1, '2016-07-12T16:47:48', 'colinbut', 'https://github.com/iluwatar/java-design-patterns/pull/434'),
+(4416, 16986405, 1, '2016-04-05T22:57:54', 'Misiur', 'https://github.com/liabru/matter-js/pull/166'),
 (4660, 22790488, 2, '2015-02-10T17:09:47', 'ruslanpa', 'https://github.com/iluwatar/java-design-patterns/pull/30'),
 (4661, 22790488, 1, '2016-04-18T18:12:29', 'gwildor28', 'https://github.com/iluwatar/java-design-patterns/pull/397'),
 (4662, 22790488, 1, '2020-09-06T16:33:04', 'samilAyoub', 'https://github.com/iluwatar/java-design-patterns/pull/1516'),
@@ -5268,9 +5268,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5600, 163776268, 1, '2020-08-14T23:07:54', 'heytulsiprasad', 'https://github.com/vercel/og-image/pull/132'),
 (5601, 163776268, 1, '2020-04-14T20:08:00', 'mikebarkmin', 'https://github.com/vercel/og-image/pull/111'),
 (5602, 384153639, 4, '2021-11-01T12:50:49', 'j-dogcoder', 'https://github.com/Heptagram-Bot-Project/website/pull/61'),
-(5603, 384153639, 2, '2021-10-30T01:20:31', 'aserputov', 'https://github.com/Heptagram-Bot-Project/website/pull/75'),
 (5604, 384153639, 4, '2022-02-26T21:15:52', 'MidouWebDev', 'https://github.com/Heptagram-Bot-Project/website/pull/125'),
 (5605, 384153639, 4, '2021-11-06T23:52:13', 'Kevan-Y', 'https://github.com/Heptagram-Bot-Project/website/pull/100'),
+(5603, 384153639, 2, '2021-10-30T01:20:31', 'aserputov', 'https://github.com/Heptagram-Bot-Project/website/pull/75'),
 (5606, 384153639, 4, '2021-11-24T13:20:40', 'Panquesito7', 'https://github.com/Heptagram-Bot-Project/website/pull/109'),
 (5607, 384153639, 4, '2021-10-26T22:04:42', 'anubhav06', 'https://github.com/Heptagram-Bot-Project/website/pull/74'),
 (5608, 384153639, 1, '2022-05-06T02:01:40', 'Sam-Radnus', 'https://github.com/Heptagram-Bot-Project/website/pull/136'),
