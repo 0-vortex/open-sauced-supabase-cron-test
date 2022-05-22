@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T01:04:47.535Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T03:04:59.668Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -115,6 +115,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (42749147, 0, true, false, true, '2022-05-16T10:54:45.768326+00:00', 'akobepeter'),
 (60254117, 0, true, false, true, '2022-05-16T11:08:16.888048+00:00', 'jebitok-dev'),
 (47711025, 4, true, false, true, '2022-05-16T11:08:18.931416+00:00', 'nobalpha'),
+(141381, 4, true, false, true, '2022-05-20T13:38:36.2163+00:00', 'mauvehed'),
 (25867172, 1, true, false, true, '2022-05-16T11:14:45.432843+00:00', 'teezzan'),
 (58482194, 4, true, false, true, '2022-05-16T11:14:46.253043+00:00', 'Borrus-sudo'),
 (667716, 10, true, false, true, '2022-05-16T14:34:24.603609+00:00', 'diminutivesloop'),
@@ -178,7 +179,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (28281924, 1, true, false, true, '2022-05-16T15:04:49.752109+00:00', 'HeavyBR'),
 (3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR'),
 (3777549, 2, true, false, true, '2022-05-16T15:23:40.172714+00:00', 'alotoftype'),
-(141381, 4, true, false, true, '2022-05-20T13:38:36.2163+00:00', 'mauvehed'),
 (15052690, 3, true, false, true, '2022-05-16T15:23:42.61745+00:00', 'creaturenex'),
 (527550, 2, true, false, true, '2022-05-16T15:56:15.686488+00:00', 'atzorvas'),
 (3941126, 5, true, false, true, '2022-05-16T15:56:17.50627+00:00', 'm-anwr'),
