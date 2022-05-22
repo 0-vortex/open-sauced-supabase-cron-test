@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T08:46:59.674Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T10:46:04.812Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2680,7 +2680,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2977, 229504810, 2, '2022-02-07T13:45:48', 'Samuel-Hoskin', 'https://github.com/sethcottle/littlelink/pull/37'),
 (2978, 229504810, 1, '2020-12-12T18:44:58', 'iooner', 'https://github.com/sethcottle/littlelink/pull/5'),
 (2979, 172227885, 2, '2020-04-17T12:20:49', 'br3ndonland', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/121'),
-(2980, 172227885, 1, '2020-04-17T06:04:42', 'gucharbon', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/98'),
 (2981, 172227885, 1, '2020-04-17T12:54:48', 'Nonameentered', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/135'),
 (2982, 172227885, 1, '2020-04-17T05:56:10', 'StephenBrown2', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/87'),
 (2983, 172227885, 4, '2019-05-22T11:19:00', 'ebreton', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/32'),
@@ -2839,10 +2838,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3136, 30969188, 4, '2017-04-20T00:55:42', 'samit4me', 'https://github.com/react-boilerplate/react-boilerplate/pull/1604'),
 (3137, 30969188, 1, '2016-04-05T17:47:42', 'grabbou', 'https://github.com/react-boilerplate/react-boilerplate/pull/211'),
 (3138, 30969188, 4, '2016-01-20T22:34:36', 'philihp', 'https://github.com/react-boilerplate/react-boilerplate/pull/104'),
-(3139, 30969188, 2, '2016-04-07T10:11:38', 'maxmantz', 'https://github.com/react-boilerplate/react-boilerplate/pull/265'),
 (3140, 30969188, 2, '2016-06-11T11:44:00', 'jurekbarth', 'https://github.com/react-boilerplate/react-boilerplate/pull/529'),
 (3141, 30969188, 4, '2016-11-02T20:06:54', 'amilajack', 'https://github.com/react-boilerplate/react-boilerplate/pull/1174'),
 (3142, 30969188, 4, '2016-11-07T07:03:54', 'chaintng', 'https://github.com/react-boilerplate/react-boilerplate/pull/1199'),
+(3139, 30969188, 2, '2016-04-07T10:11:38', 'maxmantz', 'https://github.com/react-boilerplate/react-boilerplate/pull/265'),
 (3143, 30969188, 1, '2016-06-06T08:44:22', 'benjaminlgt-littlelives', 'https://github.com/react-boilerplate/react-boilerplate/pull/473'),
 (3144, 30969188, 4, '2016-03-06T20:39:59', 'somus', 'https://github.com/react-boilerplate/react-boilerplate/pull/208'),
 (3145, 30969188, 4, '2016-05-31T15:52:34', 'rog', 'https://github.com/react-boilerplate/react-boilerplate/pull/428'),
@@ -3020,6 +3019,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3317, 280531604, 4, '2022-05-12T18:59:46', 'joelhooks', 'https://github.com/eggheadio/egghead-next/pull/1111'),
 (3318, 89948774, 1, '2020-06-30T05:51:34', 'seansund', 'https://github.com/dtzar/helm-kubectl/pull/58'),
 (3319, 89948774, 1, '2018-09-26T18:25:20', 'leejones', 'https://github.com/dtzar/helm-kubectl/pull/19'),
+(2980, 172227885, 1, '2020-04-17T06:04:42', 'gucharbon', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/98'),
 (3320, 89948774, 1, '2020-06-08T23:35:02', 'mcritchlow', 'https://github.com/dtzar/helm-kubectl/pull/56'),
 (3321, 239656008, 1, '2021-01-22T01:59:09', 'petermekhaeil', 'https://github.com/jamstack-cms/jamstack-ecommerce/pull/21'),
 (3322, 28928917, 1, '2021-03-09T13:52:49', 'Farihatanjin', 'https://github.com/prmr/JetUML/pull/421'),
@@ -4367,8 +4367,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4699, 183267843, 1, '2020-10-21T13:30:48', 'alexfertel', 'https://github.com/kentcdodds/advanced-react-hooks/pull/84'),
 (4700, 183267843, 1, '2021-10-10T00:36:46', 'diegotc86', 'https://github.com/kentcdodds/advanced-react-hooks/pull/151'),
 (4701, 183267843, 1, '2022-05-10T21:06:26', 'jacobparis', 'https://github.com/kentcdodds/advanced-react-hooks/pull/178'),
-(4702, 183267843, 1, '2021-04-03T04:50:27', 'aosante', 'https://github.com/kentcdodds/advanced-react-hooks/pull/130'),
 (4703, 183267843, 1, '2021-05-17T19:55:18', 'giancarlol', 'https://github.com/kentcdodds/advanced-react-hooks/pull/137'),
+(4702, 183267843, 1, '2021-04-03T04:50:27', 'aosante', 'https://github.com/kentcdodds/advanced-react-hooks/pull/130'),
 (4704, 183267843, 2, '2020-10-20T04:33:51', 'rbusquet', 'https://github.com/kentcdodds/advanced-react-hooks/pull/80'),
 (4705, 183267843, 1, '2019-07-25T03:12:47', 'JonathanBruce', 'https://github.com/kentcdodds/advanced-react-hooks/pull/15'),
 (4706, 183267843, 1, '2021-08-15T04:24:48', 'Hillsie', 'https://github.com/kentcdodds/advanced-react-hooks/pull/146'),
