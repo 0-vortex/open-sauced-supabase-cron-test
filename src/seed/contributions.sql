@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-23T14:47:09.602Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-23T16:52:46.025Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2017,18 +2017,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3298, 184571651, 1, '2022-01-10T08:49:51', 'bakennedy', 'https://github.com/material-shell/material-shell/pull/751'),
 (3301, 184571651, 4, '2022-05-04T21:44:05', 'HalfVoxel', 'https://github.com/material-shell/material-shell/pull/795'),
 (3315, 184571651, 1, '2020-12-11T15:12:14', 'Pajn', 'https://github.com/material-shell/material-shell/pull/518'),
-(3318, 89948774, 1, '2020-06-30T05:51:34', 'seansund', 'https://github.com/dtzar/helm-kubectl/pull/58'),
-(3319, 89948774, 1, '2018-09-26T18:25:20', 'leejones', 'https://github.com/dtzar/helm-kubectl/pull/19'),
-(3320, 89948774, 1, '2020-06-08T23:35:02', 'mcritchlow', 'https://github.com/dtzar/helm-kubectl/pull/56'),
-(3323, 89948774, 1, '2020-02-13T18:14:00', 'heydonovan', 'https://github.com/dtzar/helm-kubectl/pull/51'),
-(3325, 89948774, 1, '2020-12-23T03:23:26', 'massimilianobraglia', 'https://github.com/dtzar/helm-kubectl/pull/70'),
-(3326, 89948774, 1, '2018-04-30T15:42:25', 'n0madic', 'https://github.com/dtzar/helm-kubectl/pull/13'),
-(3327, 89948774, 1, '2019-02-22T03:32:47', 'karlAlnebratt', 'https://github.com/dtzar/helm-kubectl/pull/27'),
-(3328, 89948774, 4, '2022-04-19T04:03:36', 'gaby', 'https://github.com/dtzar/helm-kubectl/pull/110'),
-(3330, 89948774, 1, '2019-05-15T19:43:45', 'therealmitchconnors', 'https://github.com/dtzar/helm-kubectl/pull/30'),
-(3332, 89948774, 1, '2021-04-14T22:50:28', 'BlackHole1', 'https://github.com/dtzar/helm-kubectl/pull/82'),
-(3335, 89948774, 4, '2021-09-22T20:49:53', 'dtzar', 'https://github.com/dtzar/helm-kubectl/pull/95'),
-(3337, 89948774, 1, '2020-05-09T18:54:25', 'funkypenguin', 'https://github.com/dtzar/helm-kubectl/pull/55'),
 (3304, 274495425, 4, '2022-02-03T15:36:02', 'Iamshankhadeep', 'https://github.com/remotion-dev/remotion/pull/819'),
 (3299, 274495425, 4, '2022-01-19T16:31:36', 'arthurdenner', 'https://github.com/remotion-dev/remotion/pull/788'),
 (3297, 274495425, 2, '2021-04-20T12:57:13', 'calvin-f', 'https://github.com/remotion-dev/remotion/pull/275'),
@@ -2061,6 +2049,18 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3350, 501689, 2, '2018-11-06T20:07:49', 'drealeed', 'https://github.com/antlr/stringtemplate4/pull/208'),
 (3351, 501689, 1, '2013-04-18T16:14:26', 'hellojinjie', 'https://github.com/antlr/stringtemplate4/pull/56'),
 (3336, 501689, 1, '2020-07-24T16:56:28', 'mma-tapad', 'https://github.com/antlr/stringtemplate4/pull/259'),
+(3328, 89948774, 4, '2022-05-19T13:25:22', 'gaby', 'https://github.com/dtzar/helm-kubectl/pull/116'),
+(3332, 89948774, 1, '2021-04-14T22:50:28', 'BlackHole1', 'https://github.com/dtzar/helm-kubectl/pull/82'),
+(3327, 89948774, 1, '2019-02-22T03:32:47', 'karlAlnebratt', 'https://github.com/dtzar/helm-kubectl/pull/27'),
+(3335, 89948774, 4, '2021-09-22T20:49:53', 'dtzar', 'https://github.com/dtzar/helm-kubectl/pull/95'),
+(3323, 89948774, 1, '2020-02-13T18:14:00', 'heydonovan', 'https://github.com/dtzar/helm-kubectl/pull/51'),
+(3337, 89948774, 1, '2020-05-09T18:54:25', 'funkypenguin', 'https://github.com/dtzar/helm-kubectl/pull/55'),
+(3325, 89948774, 1, '2020-12-23T03:23:26', 'massimilianobraglia', 'https://github.com/dtzar/helm-kubectl/pull/70'),
+(3319, 89948774, 1, '2018-09-26T18:25:20', 'leejones', 'https://github.com/dtzar/helm-kubectl/pull/19'),
+(3326, 89948774, 1, '2018-04-30T15:42:25', 'n0madic', 'https://github.com/dtzar/helm-kubectl/pull/13'),
+(3318, 89948774, 1, '2020-06-30T05:51:34', 'seansund', 'https://github.com/dtzar/helm-kubectl/pull/58'),
+(3330, 89948774, 1, '2019-05-15T19:43:45', 'therealmitchconnors', 'https://github.com/dtzar/helm-kubectl/pull/30'),
+(3320, 89948774, 1, '2020-06-08T23:35:02', 'mcritchlow', 'https://github.com/dtzar/helm-kubectl/pull/56'),
 (3379, 344025728, 1, '2021-03-17T03:33:29', 'codedawi', 'https://github.com/adhikary97/girlfriend_text/pull/3'),
 (3380, 344025728, 1, '2021-03-12T05:34:01', 'HelixAchaos', 'https://github.com/adhikary97/girlfriend_text/pull/2'),
 (3381, 390399632, 2, '2021-10-06T07:08:44', 'parodia', 'https://github.com/codrops/SuperfluidLayout/pull/2'),
