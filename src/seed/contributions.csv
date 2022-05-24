@@ -4381,10 +4381,6 @@ id,repo_id,count,last_merged_at,contributor,url
 5630,74029823,1,2021-11-05T22:10:53,garyboyle,https://github.com/rcruzper/express-actuator/pull/57
 5651,293860197,1,2021-04-28T21:04:08,MeerBiene,https://github.com/lowlighter/metrics/pull/276
 5654,293860197,1,2022-05-16T17:24:39,Pysics,https://github.com/lowlighter/metrics/pull/1051
-5676,365515491,2,2021-07-11T10:38:44,mTvare6,https://github.com/Smart6502/plutonem/pull/14
-5677,365515491,1,2021-07-31T11:25:46,wxwisiasdf,https://github.com/Smart6502/plutonem/pull/16
-5678,365515491,4,2021-06-21T14:31:30,PQCraft,https://github.com/Smart6502/plutonem/pull/13
-5679,365515491,1,2021-06-17T13:00:36,ethan4984,https://github.com/Smart6502/plutonem/pull/7
 5680,161588836,4,2022-01-04T20:50:18,sriyen-msft,https://github.com/microsoft/PowerPlatformConnectors/pull/1342
 5681,161588836,4,2022-05-19T00:11:57,troystaylor,https://github.com/microsoft/PowerPlatformConnectors/pull/1640
 5682,161588836,4,2021-09-13T22:15:14,ridlees,https://github.com/microsoft/PowerPlatformConnectors/pull/1103
@@ -4429,6 +4425,10 @@ id,repo_id,count,last_merged_at,contributor,url
 5721,126577260,4,2022-01-22T08:58:38,trekhleb,https://github.com/trekhleb/javascript-algorithms/pull/841
 5722,126577260,3,2018-08-27T13:59:44,tapaswenipathak,https://github.com/trekhleb/javascript-algorithms/pull/155
 5723,126577260,2,2018-09-08T08:55:52,hanhdt,https://github.com/trekhleb/javascript-algorithms/pull/194
+5677,365515491,1,2021-07-31T11:25:46,wxwisiasdf,https://github.com/Smart6502/plutonem/pull/16
+5678,365515491,4,2021-06-21T14:31:30,PQCraft,https://github.com/Smart6502/plutonem/pull/13
+5676,365515491,2,2021-07-11T10:38:44,mTvare6,https://github.com/Smart6502/plutonem/pull/14
+5679,365515491,1,2021-06-17T13:00:36,ethan4984,https://github.com/Smart6502/plutonem/pull/7
 5724,126577260,1,2018-05-24T06:22:08,albertstill,https://github.com/trekhleb/javascript-algorithms/pull/10
 5725,126577260,2,2018-10-01T14:15:08,agusnavce,https://github.com/trekhleb/javascript-algorithms/pull/218
 5726,126577260,2,2022-01-26T19:35:45,muhammederdinc,https://github.com/trekhleb/javascript-algorithms/pull/740
