@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-24T12:58:43.723Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-24T14:54:30.474Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2787,6 +2787,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4088, 240786294, 4, '2021-03-30T06:42:16', 'pritamp17', 'https://github.com/HarshCasper/Rotten-Scripts/pull/777'),
 (4089, 240786294, 4, '2021-06-19T03:14:11', 'RohiniRG', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1131'),
 (4090, 240786294, 4, '2021-01-26T03:37:48', 'avinal', 'https://github.com/HarshCasper/Rotten-Scripts/pull/719'),
+(4091, 240786294, 4, '2020-07-27T05:44:57', 'AnkitaxPriya', 'https://github.com/HarshCasper/Rotten-Scripts/pull/151'),
 (4092, 240786294, 4, '2021-10-03T09:19:17', 'Sukriti-sood', 'https://github.com/HarshCasper/Rotten-Scripts/pull/1212'),
 (4093, 240786294, 4, '2020-10-16T03:50:10', 'srimani-programmer', 'https://github.com/HarshCasper/Rotten-Scripts/pull/450'),
 (4094, 240786294, 4, '2020-09-26T06:27:51', 'AkM-2018', 'https://github.com/HarshCasper/Rotten-Scripts/pull/353'),
@@ -2872,7 +2873,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4174, 143078055, 2, '2019-03-19T10:53:38', 'vberlier', 'https://github.com/gridsome/gridsome/pull/295'),
 (4175, 143078055, 2, '2019-03-20T13:01:25', 'ThomOrlo', 'https://github.com/gridsome/gridsome/pull/266'),
 (4176, 143078055, 2, '2020-03-30T15:25:36', 'oliverpool', 'https://github.com/gridsome/gridsome/pull/994'),
-(4091, 240786294, 4, '2020-07-27T05:44:57', 'AnkitaxPriya', 'https://github.com/HarshCasper/Rotten-Scripts/pull/151'),
 (4177, 143078055, 2, '2019-10-24T21:48:44', 'gilesbutler', 'https://github.com/gridsome/gridsome/pull/778'),
 (4178, 143078055, 2, '2020-10-29T23:11:39', 'Erbenos', 'https://github.com/gridsome/gridsome/pull/1373'),
 (4179, 143078055, 2, '2019-10-12T14:10:06', 'tyankatsu0105', 'https://github.com/gridsome/gridsome/pull/741'),
