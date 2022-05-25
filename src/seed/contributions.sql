@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T20:45:56.707Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T22:46:14.527Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3405,8 +3405,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4480, 18442377, 1, '2017-10-03T20:26:59', 'atmosfeer', 'https://github.com/lewagon/dotfiles/pull/15'),
 (4481, 18442377, 1, '2022-01-06T13:13:42', 'TedHartDavis', 'https://github.com/lewagon/dotfiles/pull/98'),
 (4482, 276414382, 4, '2022-05-09T13:48:50', 'mxschmitt', 'https://github.com/microsoft/playwright-python/pull/1288'),
-(4484, 276414382, 1, '2020-12-09T16:36:58', 'Mattwmaster58', 'https://github.com/microsoft/playwright-python/pull/353'),
 (4483, 276414382, 4, '2021-08-12T19:25:11', 'pavelfeldman', 'https://github.com/microsoft/playwright-python/pull/845'),
+(4484, 276414382, 1, '2020-12-09T16:36:58', 'Mattwmaster58', 'https://github.com/microsoft/playwright-python/pull/353'),
 (4485, 276414382, 1, '2021-02-18T08:39:18', 'avodovnik', 'https://github.com/microsoft/playwright-python/pull/478'),
 (4486, 276414382, 4, '2021-12-02T23:01:47', 'dgozman', 'https://github.com/microsoft/playwright-python/pull/1059'),
 (4487, 276414382, 2, '2022-02-23T12:16:51', 'x0day', 'https://github.com/microsoft/playwright-python/pull/1167'),
@@ -3845,8 +3845,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4920, 468515960, 1, '2022-03-14T02:12:49', 'jasonplatts', 'https://github.com/CodeEditApp/CodeEdit/pull/8'),
 (4921, 468515960, 3, '2022-05-14T20:50:57', 'Kyle-Ye', 'https://github.com/CodeEditApp/CodeEdit/pull/609'),
 (4922, 468515960, 2, '2022-04-20T03:00:51', 'jav-solo', 'https://github.com/CodeEditApp/CodeEdit/pull/500'),
-(4923, 468515960, 1, '2022-03-21T22:01:45', 'eravse', 'https://github.com/CodeEditApp/CodeEdit/pull/158'),
 (4924, 468515960, 1, '2022-03-20T22:10:19', 'cestef', 'https://github.com/CodeEditApp/CodeEdit/pull/127'),
+(4923, 468515960, 1, '2022-03-21T22:01:45', 'eravse', 'https://github.com/CodeEditApp/CodeEdit/pull/158'),
 (4925, 468515960, 2, '2022-03-18T23:32:26', 'highjeans', 'https://github.com/CodeEditApp/CodeEdit/pull/75'),
 (4926, 468515960, 2, '2022-03-23T00:47:50', 'thecoolwinter', 'https://github.com/CodeEditApp/CodeEdit/pull/196'),
 (4927, 468515960, 2, '2022-04-18T17:13:58', 'Pythonen', 'https://github.com/CodeEditApp/CodeEdit/pull/460'),
