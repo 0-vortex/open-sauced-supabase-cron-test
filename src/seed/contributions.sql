@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T18:49:10.182Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T20:47:15.111Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3747,9 +3747,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4795, 4302287, 1, '2018-06-15T02:39:14', 'AlexElin', 'https://github.com/plutext/docx4j/pull/291'),
 (4796, 4302287, 1, '2015-12-09T21:22:37', 'jerryorr', 'https://github.com/plutext/docx4j/pull/169'),
 (4797, 4302287, 1, '2018-11-15T00:13:16', 'P2EQgf', 'https://github.com/plutext/docx4j/pull/329'),
-(4798, 4302287, 1, '2015-12-07T05:51:54', 'pwarncke', 'https://github.com/plutext/docx4j/pull/157'),
 (4799, 4302287, 2, '2012-10-15T07:56:45', 'tstirrat', 'https://github.com/plutext/docx4j/pull/30'),
 (4800, 4302287, 1, '2018-11-03T05:45:13', 'verkhovin', 'https://github.com/plutext/docx4j/pull/326'),
+(4798, 4302287, 1, '2015-12-07T05:51:54', 'pwarncke', 'https://github.com/plutext/docx4j/pull/157'),
 (4801, 4302287, 1, '2017-10-04T07:05:09', 'Exandra', 'https://github.com/plutext/docx4j/pull/257'),
 (4802, 4302287, 1, '2017-01-19T06:03:37', 'ashtonbatty', 'https://github.com/plutext/docx4j/pull/231'),
 (4803, 4302287, 1, '2014-07-24T20:55:32', 'BobFleischman', 'https://github.com/plutext/docx4j/pull/129'),
