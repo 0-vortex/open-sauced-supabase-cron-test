@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T01:05:34.300Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T03:16:17.500Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2277,8 +2277,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3274, 199486441, 1, '2020-12-30T18:55:33', 'giancarlobi', 'https://github.com/esmero/archipelago-deployment/pull/85'),
 (3259, 199486441, 3, '2022-03-08T20:23:23', 'mnyrop', 'https://github.com/esmero/archipelago-deployment/pull/166'),
 (3250, 199486441, 2, '2020-02-19T00:45:43', 'marlo-longley', 'https://github.com/esmero/archipelago-deployment/pull/40'),
-(3246, 199486441, 1, '2019-07-30T16:49:41', 't4k', 'https://github.com/esmero/archipelago-deployment/pull/3'),
 (3285, 199486441, 2, '2020-12-16T19:43:57', 'patdunlavey', 'https://github.com/esmero/archipelago-deployment/pull/84'),
+(3246, 199486441, 1, '2019-07-30T16:49:41', 't4k', 'https://github.com/esmero/archipelago-deployment/pull/3'),
 (3261, 280531604, 4, '2022-05-14T00:22:10', 'jbranchaud', 'https://github.com/eggheadio/egghead-next/pull/1113'),
 (3266, 280531604, 4, '2022-03-24T04:00:21', 'lsminter', 'https://github.com/eggheadio/egghead-next/pull/1077'),
 (3268, 280531604, 4, '2021-09-21T18:32:07', 'MaggieAppleton', 'https://github.com/eggheadio/egghead-next/pull/879'),
@@ -4596,8 +4596,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5750, 281297416, 3, '2021-04-17T04:55:04', 'geeqla', 'https://github.com/adityatelange/hugo-PaperMod/pull/364'),
 (5746, 281297416, 3, '2021-01-26T05:27:15', 'muhammadhanif', 'https://github.com/adityatelange/hugo-PaperMod/pull/197'),
 (5747, 281297416, 3, '2020-10-18T14:51:43', 'Northerner-coder', 'https://github.com/adityatelange/hugo-PaperMod/pull/44'),
-(5745, 281297416, 4, '2021-09-03T13:27:37', 'danielfdickinson', 'https://github.com/adityatelange/hugo-PaperMod/pull/552'),
 (5757, 281297416, 2, '2022-05-08T02:59:45', 'RichardSlater', 'https://github.com/adityatelange/hugo-PaperMod/pull/906'),
+(5745, 281297416, 4, '2021-09-03T13:27:37', 'danielfdickinson', 'https://github.com/adityatelange/hugo-PaperMod/pull/552'),
 (5760, 281297416, 3, '2021-04-09T09:25:56', 'mohnoor94', 'https://github.com/adityatelange/hugo-PaperMod/pull/343'),
 (5751, 281297416, 1, '2020-10-01T13:53:49', 'TheClonker', 'https://github.com/adityatelange/hugo-PaperMod/pull/12'),
 (5749, 281297416, 3, '2021-01-24T12:22:47', 'fkohrt', 'https://github.com/adityatelange/hugo-PaperMod/pull/193'),
@@ -4783,6 +4783,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5961, 417389, 4, '2019-03-03T17:38:57', 'htwroclau', 'https://github.com/lostisland/faraday/pull/915'),
 (5962, 417389, 4, '2019-12-31T06:27:27', 'technoweenie', 'https://github.com/lostisland/faraday/pull/1104'),
 (5963, 227695638, 2, '2019-12-23T20:00:43', 'thiagojobson', 'https://github.com/codeshow/003-arquitetura-flask/pull/9'),
+(5964, 227695638, 1, '2019-12-16T19:37:56', 'rochacbruno', 'https://github.com/codeshow/003-arquitetura-flask/pull/1'),
 (5965, 227695638, 1, '2019-12-16T19:33:59', 'imakecodes', 'https://github.com/codeshow/003-arquitetura-flask/pull/2'),
 (5966, 75701562, 1, '2017-03-20T01:52:01', 'yaukeywang', 'https://github.com/miloyip/game-programmer/pull/23'),
 (5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2'),
@@ -4984,7 +4985,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (697, 120828763, 1, '2018-05-31T05:57:17', 'ranyitz', 'https://github.com/ronami/minipack/pull/3'),
 (690, 120828763, 1, '2018-07-17T17:24:33', 'rkrupinski', 'https://github.com/ronami/minipack/pull/8'),
 (468, 33001311, 4, '2021-02-12T14:54:32', 'DarkLite1', 'https://github.com/dfinke/ImportExcel/pull/998'),
-(5964, 227695638, 1, '2019-12-16T19:37:56', 'rochacbruno', 'https://github.com/codeshow/003-arquitetura-flask/pull/1'),
 (686, 120828763, 1, '2018-06-24T20:58:47', 'hg-pyun', 'https://github.com/ronami/minipack/pull/9'),
 (466, 33001311, 1, '2021-11-30T23:32:59', 'DavisHenckel', 'https://github.com/dfinke/ImportExcel/pull/1110'),
 (463, 33001311, 1, '2018-04-22T18:16:10', 'nzubair', 'https://github.com/dfinke/ImportExcel/pull/318'),
