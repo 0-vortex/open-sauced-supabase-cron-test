@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T04:52:56.106Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T06:49:22.363Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3310,9 +3310,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4385, 4132857, 3, '2020-03-12T15:33:04', 'flicken', 'https://github.com/insanum/gcalcli/pull/518'),
 (4386, 4132857, 2, '2012-05-13T06:51:55', 'grahamking', 'https://github.com/insanum/gcalcli/pull/4'),
 (4387, 4132857, 4, '2021-10-16T19:06:45', 'michaelmhoffman', 'https://github.com/insanum/gcalcli/pull/613'),
-(4388, 4132857, 2, '2020-03-02T16:12:32', 'tschwinge', 'https://github.com/insanum/gcalcli/pull/516'),
 (4389, 4132857, 1, '2013-01-12T23:15:40', 'mdengler', 'https://github.com/insanum/gcalcli/pull/31'),
 (4390, 4132857, 1, '2015-03-06T16:47:41', 'ehershey', 'https://github.com/insanum/gcalcli/pull/183'),
+(4388, 4132857, 2, '2020-03-02T16:12:32', 'tschwinge', 'https://github.com/insanum/gcalcli/pull/516'),
 (4391, 4132857, 1, '2013-10-12T17:37:34', 'muness', 'https://github.com/insanum/gcalcli/pull/89'),
 (4392, 4132857, 2, '2013-01-18T18:34:30', 'wor', 'https://github.com/insanum/gcalcli/pull/50'),
 (4393, 4132857, 1, '2016-01-07T16:38:43', 'evgeni', 'https://github.com/insanum/gcalcli/pull/225'),
