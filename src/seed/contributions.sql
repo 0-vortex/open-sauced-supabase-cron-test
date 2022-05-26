@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T12:57:42.501Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T14:45:25.301Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -582,8 +582,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8764, 132732601, 3, '2020-05-11T05:17:26', 'shashi278', 'https://github.com/canonical/microk8s/pull/1185'),
 (8765, 132732601, 4, '2019-10-21T09:31:30', 'giner', 'https://github.com/canonical/microk8s/pull/722'),
 (837, 206060082, 1, '2019-09-03T12:21:11', 'pmanlukas', 'https://github.com/octodemo/awesome-actions/pull/7'),
-(839, 206060082, 4, '2020-05-14T15:55:28', 'jonico', 'https://github.com/octodemo/awesome-actions/pull/63'),
 (876, 402189545, 1, '2022-03-15T20:43:13', 'oopaze', 'https://github.com/juntossomosmais/frontend-guideline/pull/25'),
+(839, 206060082, 4, '2020-05-14T15:55:28', 'jonico', 'https://github.com/octodemo/awesome-actions/pull/63'),
 (873, 402189545, 1, '2021-10-05T13:56:48', 'mauriciomutte', 'https://github.com/juntossomosmais/frontend-guideline/pull/16'),
 (878, 402189545, 1, '2021-09-23T14:40:38', 'HelenDias', 'https://github.com/juntossomosmais/frontend-guideline/pull/14'),
 (871, 402189545, 1, '2021-09-02T17:17:48', 'lupy100', 'https://github.com/juntossomosmais/frontend-guideline/pull/1'),
@@ -1464,9 +1464,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2010, 81975372, 1, '2017-03-12T17:09:06', 'Triang3l', 'https://github.com/kdn251/interviews/pull/7'),
 (2025, 81975372, 1, '2018-03-29T15:30:52', 'xdream86', 'https://github.com/kdn251/interviews/pull/53'),
 (2019, 81975372, 2, '2017-03-18T05:14:44', 'sqrthree', 'https://github.com/kdn251/interviews/pull/21'),
-(8498, 49372256, 1, '2021-07-12T22:53:55', 'MrCsabaToth', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/17'),
 (8499, 49372256, 1, '2017-08-29T09:05:56', 'pandafulmanda', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/6'),
 (8500, 49372256, 1, '2017-05-14T12:55:36', 'j-davies', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/4'),
+(8498, 49372256, 1, '2021-07-12T22:53:55', 'MrCsabaToth', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/17'),
 (8501, 49372256, 1, '2017-10-01T20:41:14', 'subtleGradient', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/7'),
 (8502, 258922512, 1, '2020-05-13T13:15:54', 'realdennis', 'https://github.com/ShizukuIchi/pdf-editor/pull/3'),
 (8503, 258922512, 4, '2020-11-03T16:41:12', 'ShizukuIchi', 'https://github.com/ShizukuIchi/pdf-editor/pull/14'),
@@ -1497,8 +1497,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2094, 26500787, 1, '2022-03-06T19:31:28', 'VladWinner', 'https://github.com/tonsky/FiraCode/pull/1385'),
 (2099, 26500787, 1, '2016-01-14T10:28:00', 'KindDragon', 'https://github.com/tonsky/FiraCode/pull/111'),
 (2106, 26500787, 1, '2017-08-07T13:12:02', 'ccharles', 'https://github.com/tonsky/FiraCode/pull/469'),
-(2105, 26500787, 1, '2020-03-17T16:25:39', 'zorro', 'https://github.com/tonsky/FiraCode/pull/977'),
 (2111, 26500787, 1, '2017-02-15T18:42:41', 'xdaDaveShaw', 'https://github.com/tonsky/FiraCode/pull/358'),
+(2105, 26500787, 1, '2020-03-17T16:25:39', 'zorro', 'https://github.com/tonsky/FiraCode/pull/977'),
 (2100, 26500787, 1, '2016-02-09T08:34:31', 'chrisdias', 'https://github.com/tonsky/FiraCode/pull/129'),
 (2103, 26500787, 1, '2015-12-20T06:52:00', 'chergert', 'https://github.com/tonsky/FiraCode/pull/80'),
 (2093, 26500787, 4, '2019-04-06T15:04:06', 'thundernixon', 'https://github.com/tonsky/FiraCode/pull/742'),
