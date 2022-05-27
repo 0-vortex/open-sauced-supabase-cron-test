@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T04:53:25.714Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T06:49:34.997Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4401,10 +4401,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5256, 18486300, 4, '2016-01-12T07:20:37', 'cveneziani', 'https://github.com/lewagon/setup/pull/18'),
 (5257, 18486300, 2, '2022-05-10T12:38:34', 'brunolajoie', 'https://github.com/lewagon/setup/pull/385'),
 (5258, 18486300, 1, '2022-04-07T13:07:09', 'xunma', 'https://github.com/lewagon/setup/pull/375'),
+(5259, 18486300, 2, '2015-05-03T14:20:10', 'cimm', 'https://github.com/lewagon/setup/pull/6'),
 (5260, 18486300, 1, '2020-10-23T10:39:16', 'OliNott', 'https://github.com/lewagon/setup/pull/208'),
 (5261, 18486300, 1, '2019-10-07T18:19:18', 'Martin-Alexander', 'https://github.com/lewagon/setup/pull/112'),
 (5262, 18486300, 3, '2021-09-07T10:31:23', 'juliends', 'https://github.com/lewagon/setup/pull/323'),
-(5259, 18486300, 2, '2015-05-03T14:20:10', 'cimm', 'https://github.com/lewagon/setup/pull/6'),
 (5263, 18486300, 2, '2017-11-03T19:57:17', 'alex-benoit', 'https://github.com/lewagon/setup/pull/43'),
 (5264, 18486300, 4, '2020-12-22T16:04:56', 'primaulia', 'https://github.com/lewagon/setup/pull/221'),
 (5265, 18486300, 2, '2021-03-24T11:18:20', 'zzuziak', 'https://github.com/lewagon/setup/pull/272'),
