@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T18:49:06.819Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T20:46:11.149Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2014,9 +2014,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2482, 49767244, 4, '2017-11-18T18:54:24', 'dzhavat', 'https://github.com/primefaces/primeng/pull/4472'),
 (2473, 65848095, 4, '2021-09-01T16:11:33', 'EricFromCanada', 'https://github.com/requarks/wiki/pull/4307'),
 (2471, 65848095, 1, '2020-10-03T20:22:03', 'whalehub', 'https://github.com/requarks/wiki/pull/2526'),
-(8555, 265122478, 3, '2020-08-16T16:14:13', 'azarzadavila', 'https://github.com/ManimCommunity/manim/pull/304'),
-(8556, 265122478, 4, '2022-04-22T09:47:01', 'kolibril13', 'https://github.com/ManimCommunity/manim/pull/2686'),
-(8557, 265122478, 4, '2022-04-16T21:30:38', 'ryanmccauley211', 'https://github.com/ManimCommunity/manim/pull/2676'),
 (8558, 265122478, 4, '2020-10-08T20:38:32', 'nilaybhatia', 'https://github.com/ManimCommunity/manim/pull/531'),
 (8559, 265122478, 4, '2021-09-19T19:48:05', 'huguesdevimeux', 'https://github.com/ManimCommunity/manim/pull/2066'),
 (8560, 265122478, 4, '2022-03-19T17:14:57', 'Darylgolden', 'https://github.com/ManimCommunity/manim/pull/2561'),
@@ -2148,6 +2145,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8595, 34526884, 4, '2017-02-08T06:53:18', 'yiminghe', 'https://github.com/ant-design/ant-design/pull/4751'),
 (8596, 34526884, 4, '2019-09-16T12:11:21', 'ztplz', 'https://github.com/ant-design/ant-design/pull/18828'),
 (8597, 34526884, 4, '2015-09-15T04:46:36', 'zhujun24', 'https://github.com/ant-design/ant-design/pull/287'),
+(8555, 265122478, 3, '2020-08-16T16:14:13', 'azarzadavila', 'https://github.com/ManimCommunity/manim/pull/304'),
+(8556, 265122478, 4, '2022-04-22T09:47:01', 'kolibril13', 'https://github.com/ManimCommunity/manim/pull/2686'),
+(8557, 265122478, 4, '2022-04-16T21:30:38', 'ryanmccauley211', 'https://github.com/ManimCommunity/manim/pull/2676'),
 (8598, 34526884, 4, '2022-05-24T04:03:16', 'MadCcc', 'https://github.com/ant-design/ant-design/pull/35686'),
 (8599, 34526884, 4, '2021-11-10T05:12:57', 'jljsj33', 'https://github.com/ant-design/ant-design/pull/32804'),
 (8600, 34526884, 4, '2016-05-25T09:43:11', 'warmhug', 'https://github.com/ant-design/ant-design/pull/1828'),
