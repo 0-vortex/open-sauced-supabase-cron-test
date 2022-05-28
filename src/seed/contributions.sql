@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-28T16:52:44.036Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-28T18:47:52.636Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1042,8 +1042,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5730, 126577260, 2, '2018-06-13T03:27:03', 'tiendq', 'https://github.com/trekhleb/javascript-algorithms/pull/65'),
 (5711, 126577260, 3, '2022-01-27T08:50:47', 'tusba', 'https://github.com/trekhleb/javascript-algorithms/pull/726'),
 (5726, 126577260, 2, '2022-01-26T19:35:45', 'muhammederdinc', 'https://github.com/trekhleb/javascript-algorithms/pull/740'),
-(5729, 126577260, 2, '2018-07-24T09:26:23', 'dubzzz', 'https://github.com/trekhleb/javascript-algorithms/pull/101'),
-(5717, 126577260, 2, '2018-05-25T21:33:01', 'mybaseball52', 'https://github.com/trekhleb/javascript-algorithms/pull/18'),
 (5734, 126577260, 2, '2018-08-16T10:35:05', 'kersov', 'https://github.com/trekhleb/javascript-algorithms/pull/170'),
 (5713, 126577260, 2, '2021-01-03T09:26:15', 'austintheriot', 'https://github.com/trekhleb/javascript-algorithms/pull/617'),
 (5728, 126577260, 2, '2022-01-25T08:39:11', 'OscarRG', 'https://github.com/trekhleb/javascript-algorithms/pull/773'),
@@ -1054,6 +1052,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (327, 276976140, 1, '2021-03-13T20:21:07', 'lherbert-square', 'https://github.com/mergestat/mergestat/pull/122'),
 (335, 11981144, 1, '2016-11-30T15:15:13', 'janschreiber', 'https://github.com/languagetool-org/languagetool/pull/624'),
 (325, 218115303, 4, '2020-02-24T20:05:27', 'Svish', 'https://github.com/vercel/swr/pull/265'),
+(5717, 126577260, 2, '2018-05-25T21:33:01', 'mybaseball52', 'https://github.com/trekhleb/javascript-algorithms/pull/18'),
+(5729, 126577260, 2, '2018-07-24T09:26:23', 'dubzzz', 'https://github.com/trekhleb/javascript-algorithms/pull/101'),
 (283, 218115303, 2, '2021-10-26T16:26:59', 'morgs32', 'https://github.com/vercel/swr/pull/1594'),
 (287, 218115303, 2, '2020-12-20T05:36:14', 'darrenjennings', 'https://github.com/vercel/swr/pull/834'),
 (9305, 218115303, 2, '2022-05-25T17:10:37', 'anirudh1713', 'https://github.com/vercel/swr/pull/1995'),
@@ -1227,9 +1227,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9006, 230327376, 2, '2020-02-19T04:53:09', 'BOLT04', 'https://github.com/ErikCH/DevYouTubeList/pull/111'),
 (9007, 230327376, 1, '2020-01-26T00:26:19', 'jeffreybiles', 'https://github.com/ErikCH/DevYouTubeList/pull/95'),
 (9008, 230327376, 1, '2020-08-17T17:47:29', 'selvakumardhivakar', 'https://github.com/ErikCH/DevYouTubeList/pull/163'),
-(1816, 227393393, 4, '2020-06-25T23:36:53', 'lannonbr', 'https://github.com/livecoders/website/pull/104'),
 (1805, 227393393, 4, '2020-11-19T12:04:45', 'csharpfritz', 'https://github.com/livecoders/website/pull/193'),
 (1868, 90408889, 2, '2019-05-20T15:59:01', 'alebertacco', 'https://github.com/moleculerjs/moleculer-web/pull/122'),
+(1816, 227393393, 4, '2020-06-25T23:36:53', 'lannonbr', 'https://github.com/livecoders/website/pull/104'),
 (1869, 90408889, 1, '2019-03-22T20:29:42', 'yartash', 'https://github.com/moleculerjs/moleculer-web/pull/110'),
 (1860, 206410838, 1, '2020-07-31T23:48:49', 'fractalists', 'https://github.com/google/eng-practices/pull/26'),
 (1855, 206410838, 1, '2019-09-05T20:53:07', 'code-health-devguide-copybara', 'https://github.com/google/eng-practices/pull/1'),
