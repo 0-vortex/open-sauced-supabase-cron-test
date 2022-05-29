@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T18:47:49.821Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T20:45:41.808Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -392,8 +392,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8733, 180328715, 1, '2019-04-14T13:24:46', 'Dudeonyx', 'https://github.com/pmndrs/zustand/pull/8'),
 (1727, 199344833, 1, '2020-12-21T16:05:16', 'SerkanSipahi', 'https://github.com/angular-eslint/angular-eslint/pull/249'),
 (1728, 199344833, 2, '2021-05-22T18:08:36', 'timdeschryver', 'https://github.com/angular-eslint/angular-eslint/pull/493'),
-(1729, 199344833, 1, '2020-01-04T14:28:40', 'Cammisuli', 'https://github.com/angular-eslint/angular-eslint/pull/27'),
-(1730, 199344833, 2, '2020-09-22T13:19:30', 'kuzivany', 'https://github.com/angular-eslint/angular-eslint/pull/139'),
 (1731, 199344833, 2, '2022-04-02T09:51:45', 'adbaran1', 'https://github.com/angular-eslint/angular-eslint/pull/844'),
 (1732, 199344833, 1, '2021-05-30T11:27:52', '9034725985', 'https://github.com/angular-eslint/angular-eslint/pull/522'),
 (1733, 199344833, 1, '2021-11-18T15:14:17', 'bgotink', 'https://github.com/angular-eslint/angular-eslint/pull/808'),
@@ -447,6 +445,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1682, 378070841, 1, '2022-03-12T19:27:43', 'hrvbernardic', 'https://github.com/ngneat/elf/pull/192'),
 (1638, 16072585, 4, '2021-11-10T07:03:09', 'appdevnick', 'https://github.com/phoenixframework/phoenix/pull/4588'),
 (1668, 378070841, 1, '2022-02-20T15:27:23', 'gili-lumigo', 'https://github.com/ngneat/elf/pull/166'),
+(1729, 199344833, 1, '2020-01-04T14:28:40', 'Cammisuli', 'https://github.com/angular-eslint/angular-eslint/pull/27'),
+(1730, 199344833, 2, '2020-09-22T13:19:30', 'kuzivany', 'https://github.com/angular-eslint/angular-eslint/pull/139'),
 (1628, 16072585, 4, '2021-03-23T18:25:00', 'henrik', 'https://github.com/phoenixframework/phoenix/pull/4258'),
 (1637, 16072585, 1, '2018-11-06T14:22:10', 'jeffkreeftmeijer', 'https://github.com/phoenixframework/phoenix/pull/3129'),
 (1619, 16072585, 4, '2020-05-16T11:24:53', 'jayjun', 'https://github.com/phoenixframework/phoenix/pull/3849'),
@@ -3041,8 +3041,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4022, 74762106, 4, '2017-11-13T02:18:44', 'bobobo80', 'https://github.com/jhao104/proxy_pool/pull/85'),
 (4023, 74762106, 2, '2017-06-21T06:10:06', 'halleywj', 'https://github.com/jhao104/proxy_pool/pull/45'),
 (4024, 74762106, 1, '2017-04-26T02:18:04', 'newlyedward', 'https://github.com/jhao104/proxy_pool/pull/35'),
-(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (4026, 74762106, 1, '2017-09-21T09:01:22', 'kangnwh', 'https://github.com/jhao104/proxy_pool/pull/68'),
+(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (4027, 74762106, 2, '2018-07-10T07:45:46', 'highroom', 'https://github.com/jhao104/proxy_pool/pull/153'),
 (4028, 74762106, 3, '2018-11-12T02:33:14', 'ozhiwei', 'https://github.com/jhao104/proxy_pool/pull/211'),
 (4029, 74762106, 1, '2021-07-08T09:07:22', 'vzxxbacq', 'https://github.com/jhao104/proxy_pool/pull/584'),
@@ -3976,8 +3976,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4958, 280028251, 2, '2020-10-18T17:06:42', 'JonathanGin52', 'https://github.com/JessicaLim8/JessicaLim8/pull/461'),
 (4959, 280028251, 4, '2022-01-13T15:56:30', 'JessicaLim8', 'https://github.com/JessicaLim8/JessicaLim8/pull/1856'),
 (4960, 37140605, 1, '2019-05-28T09:06:58', 'mattdrago', 'https://github.com/dwyl/learn-tdd/pull/125'),
-(4961, 37140605, 2, '2019-10-30T19:16:52', 'BurkHufnagel', 'https://github.com/dwyl/learn-tdd/pull/131'),
 (4962, 37140605, 1, '2015-06-29T21:52:13', 'iteles', 'https://github.com/dwyl/learn-tdd/pull/19'),
+(4961, 37140605, 2, '2019-10-30T19:16:52', 'BurkHufnagel', 'https://github.com/dwyl/learn-tdd/pull/131'),
 (4963, 37140605, 1, '2016-05-23T20:15:29', 'joseluisq', 'https://github.com/dwyl/learn-tdd/pull/55'),
 (4964, 37140605, 4, '2021-11-03T17:20:39', 'nelsonic', 'https://github.com/dwyl/learn-tdd/pull/139'),
 (4965, 37140605, 1, '2017-08-04T08:30:14', 'emersonmellado', 'https://github.com/dwyl/learn-tdd/pull/104'),
@@ -6050,8 +6050,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1179, 23974149, 1, '2015-11-29T20:50:34', 'obouchari', 'https://github.com/Dogfalo/materialize/pull/2271'),
 (1202, 23974149, 1, '2017-07-03T00:46:32', 'alexisdiel', 'https://github.com/Dogfalo/materialize/pull/4893'),
 (1192, 23974149, 3, '2018-10-31T23:39:37', 'MaximBalaganskiy', 'https://github.com/Dogfalo/materialize/pull/5942'),
-(1180, 23974149, 2, '2015-11-15T08:45:54', 's7dhansh', 'https://github.com/Dogfalo/materialize/pull/2294'),
 (1200, 23974149, 4, '2015-01-14T23:14:12', 'coltonfitzgerald', 'https://github.com/Dogfalo/materialize/pull/450'),
+(1180, 23974149, 2, '2015-11-15T08:45:54', 's7dhansh', 'https://github.com/Dogfalo/materialize/pull/2294'),
 (1239, 170738310, 4, '2022-03-16T07:43:02', 'phuang', 'https://github.com/trustwallet/wallet-core/pull/2073'),
 (1240, 170738310, 4, '2022-05-23T11:17:51', 'w20089527', 'https://github.com/trustwallet/wallet-core/pull/2238'),
 (1204, 342028554, 1, '2021-06-03T20:51:06', 'jojoxd', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/6'),
