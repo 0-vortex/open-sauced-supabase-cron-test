@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T12:54:57.168Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T14:44:52.017Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2797,8 +2797,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3295, 274495425, 4, '2021-09-11T10:00:22', 'MehmetAdemi', 'https://github.com/remotion-dev/remotion/pull/588'),
 (3248, 274495425, 3, '2022-04-29T15:15:55', 'kave-me', 'https://github.com/remotion-dev/remotion/pull/890'),
 (3253, 274495425, 2, '2021-10-25T15:25:56', 'bpedersen', 'https://github.com/remotion-dev/remotion/pull/656'),
-(3306, 274495425, 1, '2021-10-02T15:19:22', 'khalid283', 'https://github.com/remotion-dev/remotion/pull/621'),
 (3277, 274495425, 2, '2021-07-14T07:49:31', 'ashikmeerankutty', 'https://github.com/remotion-dev/remotion/pull/505'),
+(3306, 274495425, 1, '2021-10-02T15:19:22', 'khalid283', 'https://github.com/remotion-dev/remotion/pull/621'),
 (2034, 83222441, 1, '2017-03-19T19:23:03', 'baldassarreFe', 'https://github.com/donnemartin/system-design-primer/pull/23'),
 (2053, 83222441, 1, '2017-05-27T00:32:45', 'CharlesSantiago', 'https://github.com/donnemartin/system-design-primer/pull/75'),
 (2047, 83222441, 1, '2020-02-17T02:00:45', 'dannyjung90', 'https://github.com/donnemartin/system-design-primer/pull/348'),
@@ -3919,8 +3919,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4901, 468515960, 4, '2022-05-01T20:30:45', 'pkasila', 'https://github.com/CodeEditApp/CodeEdit/pull/580'),
 (4902, 468515960, 4, '2022-05-06T17:24:33', 'wdg', 'https://github.com/CodeEditApp/CodeEdit/pull/597'),
 (4903, 468515960, 4, '2022-05-10T17:52:03', 'austincondiff', 'https://github.com/CodeEditApp/CodeEdit/pull/606'),
-(4905, 468515960, 4, '2022-05-02T22:43:05', 'nanashili', 'https://github.com/CodeEditApp/CodeEdit/pull/586'),
 (4904, 468515960, 4, '2022-05-15T23:05:28', 'lilingxi01', 'https://github.com/CodeEditApp/CodeEdit/pull/611'),
+(4905, 468515960, 4, '2022-05-02T22:43:05', 'nanashili', 'https://github.com/CodeEditApp/CodeEdit/pull/586'),
 (4906, 468515960, 4, '2022-04-05T18:54:35', 'RayZhao1998', 'https://github.com/CodeEditApp/CodeEdit/pull/407'),
 (4907, 468515960, 2, '2022-04-19T09:47:39', 'StefKors', 'https://github.com/CodeEditApp/CodeEdit/pull/423'),
 (4908, 468515960, 3, '2022-05-17T19:31:21', 'drucelweisse', 'https://github.com/CodeEditApp/CodeEdit/pull/598'),
