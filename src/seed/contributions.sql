@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T08:48:41.119Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T10:46:55.786Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4325,8 +4325,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5357, 71948498, 4, '2022-03-28T10:24:26', 'baermat', 'https://github.com/localstack/localstack/pull/5757'),
 (5358, 71948498, 4, '2021-09-10T08:18:33', 'etspaceman', 'https://github.com/localstack/localstack/pull/4573'),
 (5359, 71948498, 4, '2021-10-19T19:51:40', 'monty16597', 'https://github.com/localstack/localstack/pull/4746'),
-(5361, 71948498, 4, '2020-05-23T20:51:56', 'rmsmani', 'https://github.com/localstack/localstack/pull/2446'),
 (5360, 71948498, 4, '2022-05-03T15:04:15', 'steffyP', 'https://github.com/localstack/localstack/pull/5998'),
+(5361, 71948498, 4, '2020-05-23T20:51:56', 'rmsmani', 'https://github.com/localstack/localstack/pull/2446'),
 (5362, 71948498, 4, '2022-05-16T09:28:30', 'localstack-bot', 'https://github.com/localstack/localstack/pull/6067'),
 (5363, 71948498, 4, '2022-05-10T06:50:56', 'MEPalma', 'https://github.com/localstack/localstack/pull/6036'),
 (5364, 239281641, 1, '2022-04-26T15:50:36', 'royalfig', 'https://github.com/TryGhost/Dawn/pull/62'),
@@ -5191,9 +5191,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (738, 88011908, 2, '2021-08-26T09:34:17', 'booleanhunter', 'https://github.com/practical-tutorials/project-based-learning/pull/314'),
 (753, 88011908, 3, '2018-10-28T03:37:49', 'itsmingjie', 'https://github.com/practical-tutorials/project-based-learning/pull/129'),
 (749, 88011908, 2, '2018-07-26T18:10:47', 'adamfaliq42', 'https://github.com/practical-tutorials/project-based-learning/pull/101'),
-(761, 88011908, 1, '2021-08-27T09:19:53', 'Rajatkhatri7', 'https://github.com/practical-tutorials/project-based-learning/pull/256'),
 (741, 88011908, 1, '2018-04-20T20:10:30', 'alvierahman90', 'https://github.com/practical-tutorials/project-based-learning/pull/68'),
 (713, 48393191, 3, '2016-12-05T19:22:01', 'remy-tiitre', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/71'),
+(761, 88011908, 1, '2021-08-27T09:19:53', 'Rajatkhatri7', 'https://github.com/practical-tutorials/project-based-learning/pull/256'),
 (726, 48393191, 1, '2017-07-19T18:46:40', 'jmcampanini', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/132'),
 (714, 48393191, 1, '2017-06-20T21:33:50', 'dnlbyl', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/128'),
 (712, 48393191, 1, '2020-10-29T21:20:38', 'emccallum', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/315'),
@@ -5665,9 +5665,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2543, 35955666, 1, '2016-08-25T19:07:14', 'fernandoalmeida', 'https://github.com/jlevy/the-art-of-command-line/pull/452'),
 (2544, 35955666, 4, '2017-05-20T17:31:41', 'mkwardakov', 'https://github.com/jlevy/the-art-of-command-line/pull/495'),
 (2510, 35955666, 4, '2016-08-20T22:35:29', 'dmytro', 'https://github.com/jlevy/the-art-of-command-line/pull/445'),
+(2485, 35955666, 1, '2016-08-26T15:46:59', 'mark-i-m', 'https://github.com/jlevy/the-art-of-command-line/pull/450'),
 (2221, 51568094, 1, '2021-02-28T02:57:59', 'chengjieyun59', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/80'),
 (2241, 51568094, 1, '2020-03-19T10:56:06', 'chrismilson', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/59'),
-(2485, 35955666, 1, '2016-08-26T15:46:59', 'mark-i-m', 'https://github.com/jlevy/the-art-of-command-line/pull/450'),
 (2242, 51568094, 2, '2016-05-17T17:50:10', 'phil-targun-asurion', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/4'),
 (2218, 51568094, 1, '2020-04-08T19:20:50', 'charitymarani', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/67'),
 (2228, 51568094, 1, '2019-08-05T17:33:19', 'lopezpdvn', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/44'),
@@ -6002,8 +6002,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1019, 345922282, 1, '2022-02-21T03:28:42', 'chuangzhu', 'https://github.com/Saul-Mirone/milkdown/pull/374'),
 (1073, 1234714, 4, '2022-05-19T21:07:20', 'whatyouhide', 'https://github.com/elixir-lang/elixir/pull/11847'),
 (1072, 1234714, 4, '2022-05-21T06:23:08', 'josevalim', 'https://github.com/elixir-lang/elixir/pull/11858'),
-(1080, 1234714, 4, '2021-12-12T16:10:46', 'ericmj', 'https://github.com/elixir-lang/elixir/pull/11473'),
 (1082, 1234714, 4, '2020-04-24T22:06:19', 'alco', 'https://github.com/elixir-lang/elixir/pull/9955'),
+(1080, 1234714, 4, '2021-12-12T16:10:46', 'ericmj', 'https://github.com/elixir-lang/elixir/pull/11473'),
 (1087, 1234714, 4, '2022-05-24T05:52:04', 'eksperimental', 'https://github.com/elixir-lang/elixir/pull/11865'),
 (1074, 1234714, 4, '2021-09-06T08:59:58', 'lexmag', 'https://github.com/elixir-lang/elixir/pull/11228'),
 (1077, 1234714, 4, '2021-12-12T19:47:48', 'fertapric', 'https://github.com/elixir-lang/elixir/pull/11476'),
