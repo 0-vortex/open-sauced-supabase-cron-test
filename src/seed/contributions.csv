@@ -5239,6 +5239,12 @@ id,repo_id,count,last_merged_at,contributor,url
 3772,144873815,1,2019-01-03T08:32:44,kyh,https://github.com/prisma/prisma-examples/pull/353
 3171,265925036,2,2020-08-11T19:06:17,teezzan,https://github.com/teezzan/halqah/pull/7
 3172,265925036,2,2020-07-10T18:22:34,brokewhale,https://github.com/teezzan/halqah/pull/2
+11593,375445655,1,2021-06-18T17:25:59,amlarraz,https://github.com/facebookresearch/AugLy/pull/26
+11594,375445655,1,2021-07-20T21:25:38,hazirbas,https://github.com/facebookresearch/AugLy/pull/84
+11595,375445655,1,2021-06-17T22:53:47,towzeur,https://github.com/facebookresearch/AugLy/pull/24
+11596,375445655,1,2022-01-20T09:47:56,Cloud9c,https://github.com/facebookresearch/AugLy/pull/186
+11597,375445655,4,2021-07-08T10:29:17,zpapakipos,https://github.com/facebookresearch/AugLy/pull/72
+11598,375445655,2,2021-06-24T07:40:50,cclauss,https://github.com/facebookresearch/AugLy/pull/51
 980,33820955,4,2016-02-12T21:20:43,rengokantai,https://github.com/timjacobi/angular-education/pull/109
 966,33820955,4,2016-07-08T11:09:45,lennonjesus,https://github.com/timjacobi/angular-education/pull/148
 986,33820955,3,2016-02-12T21:20:52,zouabimourad,https://github.com/timjacobi/angular-education/pull/108
@@ -5363,6 +5369,7 @@ id,repo_id,count,last_merged_at,contributor,url
 2569,250348566,1,2022-02-26T11:15:04,buraktamturk,https://github.com/Sithira/FlutterRadioPlayer/pull/58
 11328,172741073,4,2021-05-13T14:59:37,lukejacksonn,https://github.com/FredKSchott/snowpack/pull/3294
 11329,172741073,4,2021-01-30T06:59:34,moonrailgun,https://github.com/FredKSchott/snowpack/pull/2391
+11599,375445655,4,2021-07-20T10:10:53,jbitton,https://github.com/facebookresearch/AugLy/pull/87
 1184,23974149,1,2017-06-11T05:50:40,philipraets,https://github.com/Dogfalo/materialize/pull/4445
 1237,171564612,1,2019-03-20T23:22:49,khlam,https://github.com/khlam/debloat-samsung-android/pull/1
 1222,170738310,4,2020-01-31T21:46:40,leoneparise,https://github.com/trustwallet/wallet-core/pull/841
