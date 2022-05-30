@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T12:58:51.177Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T14:45:27.436Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4061,11 +4061,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5105, 70107786, 4, '2022-05-16T17:45:22', 'lfades', 'https://github.com/vercel/next.js/pull/36953'),
 (5106, 70107786, 4, '2022-04-21T20:41:49', 'padmaia', 'https://github.com/vercel/next.js/pull/36355'),
 (5107, 70107786, 4, '2021-02-04T08:49:42', 'guybedford', 'https://github.com/vercel/next.js/pull/21802'),
-(5108, 70107786, 4, '2017-01-23T12:50:08', 'greenkeeperio-bot', 'https://github.com/vercel/next.js/pull/862'),
 (5109, 70107786, 4, '2020-11-01T03:37:07', 'huv1k', 'https://github.com/vercel/next.js/pull/18580'),
 (5110, 70107786, 4, '2017-06-23T23:08:05', 'impronunciable', 'https://github.com/vercel/next.js/pull/2356'),
 (5111, 70107786, 4, '2022-05-18T18:36:12', 'housseindjirdeh', 'https://github.com/vercel/next.js/pull/37000'),
 (5112, 70107786, 4, '2022-05-13T16:18:07', 'balazsorban44', 'https://github.com/vercel/next.js/pull/36884'),
+(5108, 70107786, 4, '2017-01-23T12:50:08', 'greenkeeperio-bot', 'https://github.com/vercel/next.js/pull/862'),
 (5113, 70107786, 4, '2021-02-27T00:29:33', 'Janpot', 'https://github.com/vercel/next.js/pull/22578'),
 (5114, 70107786, 4, '2021-04-21T21:58:50', 'chibicode', 'https://github.com/vercel/next.js/pull/24330'),
 (5115, 70107786, 4, '2022-02-18T19:07:20', 'devknoll', 'https://github.com/vercel/next.js/pull/34506'),
@@ -5224,6 +5224,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3779, 144873815, 1, '2018-10-10T14:20:02', 'marktani', 'https://github.com/prisma/prisma-examples/pull/141'),
 (3775, 144873815, 2, '2020-07-24T08:03:26', 'brunocrosier', 'https://github.com/prisma/prisma-examples/pull/1823'),
 (3773, 144873815, 2, '2022-04-11T08:58:05', 'petradonka', 'https://github.com/prisma/prisma-examples/pull/3669'),
+(3767, 144873815, 1, '2020-05-05T06:34:37', 'akshaylive', 'https://github.com/prisma/prisma-examples/pull/1755'),
 (3765, 144873815, 3, '2020-04-03T17:12:06', 'shaswatsaxena', 'https://github.com/prisma/prisma-examples/pull/1702'),
 (3771, 144873815, 1, '2019-09-19T11:32:02', 'pantharshit00', 'https://github.com/prisma/prisma-examples/pull/803'),
 (3778, 144873815, 1, '2019-03-21T14:23:46', '623841176', 'https://github.com/prisma/prisma-examples/pull/528'),
@@ -5871,7 +5872,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (779, 125225914, 1, '2021-10-08T17:58:07', 'loic5', 'https://github.com/reactiverse/es4x/pull/560'),
 (769, 125225914, 2, '2020-10-07T17:31:37', 'kpencak', 'https://github.com/reactiverse/es4x/pull/419'),
 (787, 125225914, 1, '2020-05-02T14:07:34', 'travisgalloway', 'https://github.com/reactiverse/es4x/pull/348'),
-(3767, 144873815, 1, '2020-05-05T06:34:37', 'akshaylive', 'https://github.com/prisma/prisma-examples/pull/1755'),
 (776, 125225914, 1, '2018-06-10T18:56:22', 'cbonnissent', 'https://github.com/reactiverse/es4x/pull/15'),
 (778, 125225914, 4, '2022-03-01T12:14:42', 'pmlopes', 'https://github.com/reactiverse/es4x/pull/581'),
 (780, 125225914, 2, '2019-06-20T13:15:21', 'okou19900722', 'https://github.com/reactiverse/es4x/pull/113'),
