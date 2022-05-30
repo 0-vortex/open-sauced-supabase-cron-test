@@ -4696,10 +4696,6 @@ id,repo_id,count,last_merged_at,contributor,url
 1269,306449955,4,2021-06-16T21:19:42,ColdIce1605,https://github.com/IrisShaders/Iris/pull/390
 1268,306449955,3,2021-09-03T05:45:16,Kroppeb,https://github.com/IrisShaders/Iris/pull/750
 1265,306449955,3,2022-03-07T18:12:25,pajicadvance,https://github.com/IrisShaders/Iris/pull/1308
-5740,439057606,1,2021-12-23T16:47:08,mnixry,https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9
-5739,439057606,1,2021-12-29T23:59:04,cia-rana,https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/11
-5741,185131263,1,2019-08-19T02:26:10,bidah,https://github.com/calebnance/expo-spotify/pull/4
-5742,185131263,4,2022-05-07T21:37:41,calebnance,https://github.com/calebnance/expo-spotify/pull/44
 5764,138754790,4,2022-05-14T04:03:35,hannes,https://github.com/duckdb/duckdb/pull/3643
 5769,138754790,4,2022-05-13T09:10:25,samansmink,https://github.com/duckdb/duckdb/pull/3630
 5770,138754790,4,2022-05-17T11:07:51,tiagokepe,https://github.com/duckdb/duckdb/pull/3646
@@ -5218,6 +5214,8 @@ id,repo_id,count,last_merged_at,contributor,url
 708,48393191,4,2017-08-19T08:03:07,rspieldenner,https://github.com/nebula-plugins/gradle-lint-plugin/pull/146
 834,208397359,1,2020-01-07T23:20:57,ITninja04,https://github.com/proudmonkey/AutoWrapper/pull/20
 8767,132732601,3,2021-11-11T13:09:12,balasu,https://github.com/canonical/microk8s/pull/2693
+5739,439057606,1,2021-12-29T23:59:04,cia-rana,https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/11
+5740,439057606,1,2021-12-23T16:47:08,mnixry,https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9
 740,88011908,1,2017-05-05T22:14:28,biodunch,https://github.com/practical-tutorials/project-based-learning/pull/12
 729,88011908,1,2018-07-19T03:41:37,nishitkshah,https://github.com/practical-tutorials/project-based-learning/pull/98
 745,88011908,4,2021-08-27T19:57:48,bobeff,https://github.com/practical-tutorials/project-based-learning/pull/318
@@ -5386,6 +5384,8 @@ id,repo_id,count,last_merged_at,contributor,url
 11328,172741073,4,2021-05-13T14:59:37,lukejacksonn,https://github.com/FredKSchott/snowpack/pull/3294
 11329,172741073,4,2021-01-30T06:59:34,moonrailgun,https://github.com/FredKSchott/snowpack/pull/2391
 11599,375445655,4,2021-07-20T10:10:53,jbitton,https://github.com/facebookresearch/AugLy/pull/87
+5742,185131263,4,2022-05-07T21:37:41,calebnance,https://github.com/calebnance/expo-spotify/pull/44
+5741,185131263,1,2019-08-19T02:26:10,bidah,https://github.com/calebnance/expo-spotify/pull/4
 1184,23974149,1,2017-06-11T05:50:40,philipraets,https://github.com/Dogfalo/materialize/pull/4445
 1237,171564612,1,2019-03-20T23:22:49,khlam,https://github.com/khlam/debloat-samsung-android/pull/1
 1222,170738310,4,2020-01-31T21:46:40,leoneparise,https://github.com/trustwallet/wallet-core/pull/841
