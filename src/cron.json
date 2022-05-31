@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-31T14:52:28.569Z",
+  "lastExecuted": "2022-05-31T14:59:04.100Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1144,17 +1144,17 @@
     "mdb1710": {
       "owner": "mdb1710",
       "notFound": false,
-      "lastExecuted": "2022-05-30T15:05:00.554Z"
+      "lastExecuted": "2022-05-31T14:59:04.100Z"
     },
     "SamuelWitke": {
       "owner": "SamuelWitke",
       "notFound": false,
-      "lastExecuted": "2022-05-30T15:31:21.688Z"
+      "lastExecuted": "2022-05-31T14:59:04.100Z"
     },
     "unixisking": {
       "owner": "unixisking",
       "notFound": false,
-      "lastExecuted": "2022-05-30T15:31:21.688Z"
+      "lastExecuted": "2022-05-31T14:59:04.100Z"
     },
     "iamjr15": {
       "owner": "iamjr15",
@@ -1625,6 +1625,11 @@
       "owner": "vaibhsir1991",
       "notFound": false,
       "lastExecuted": "2022-05-31T10:22:52.779Z"
+    },
+    "lucas-santos": {
+      "owner": "lucas-santos",
+      "notFound": true,
+      "lastExecuted": "2022-05-31T14:59:04.100Z"
     }
   }
 }
