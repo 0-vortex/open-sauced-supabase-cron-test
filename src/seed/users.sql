@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-02T03:24:34.000Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-02T04:58:59.102Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7,7 +7,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (87914378, 0, true, false, true, '2022-05-16T04:09:09.668578+00:00', 'Y4HYA4'),
 (4066445, 13, true, false, true, '2022-05-16T07:33:56.739509+00:00', 'johnyu0424'),
 (50591491, 1, true, false, true, '2022-05-16T07:22:17.666944+00:00', 'cryptus-neoxys'),
-(1917293, 0, true, false, true, '2022-05-16T08:50:32.254651+00:00', 'ronna'),
+(79887, 0, true, false, true, '2022-05-16T08:50:33.07547+00:00', 'cybernetics'),
 (43640229, 1, true, false, true, '2022-05-16T07:59:14.437352+00:00', 'dharshatharan'),
 (88631894, 0, true, false, true, '2022-05-16T07:51:12.867822+00:00', 'Aarondevp'),
 (19353972, 2, true, false, true, '2022-05-16T04:41:12.043674+00:00', 'TaEduard'),
@@ -60,10 +60,9 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (17364711, 0, true, false, true, '2022-05-16T00:32:54.612284+00:00', 'FunIsDangerous'),
 (11489171, 0, true, false, true, '2022-05-16T05:35:45.38561+00:00', 'asasmith'),
 (12849040, 0, true, false, true, '2022-05-16T08:39:10.077741+00:00', 'twjasa'),
-(71458737, 0, true, false, true, '2022-05-16T08:50:31.112851+00:00', 'sans-eng'),
+(1917293, 0, true, false, true, '2022-05-16T08:50:32.254651+00:00', 'ronna'),
 (26007940, 0, true, false, true, '2022-05-16T08:24:17.552522+00:00', 'mikerobards'),
 (7293310, 6, true, false, true, '2022-05-16T07:43:05.029603+00:00', 'saitho'),
-(79887, 0, true, false, true, '2022-05-16T08:50:33.07547+00:00', 'cybernetics'),
 (52336027, 0, true, false, true, '2022-05-16T08:58:31.633207+00:00', 'mohamedabotir'),
 (47524279, 0, true, true, true, '2022-05-16T04:23:14.108221+00:00', 'projectashik'),
 (91016903, 0, true, false, true, '2022-05-16T09:08:45.044031+00:00', 'nayabatir1'),
@@ -102,6 +101,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (12780694, 0, true, false, true, '2022-05-16T04:56:50.035113+00:00', 'crege2'),
 (60147716, 0, true, false, true, '2022-05-16T05:45:17.221889+00:00', 'saurabh-33'),
 (52573981, 0, true, false, true, '2022-05-16T02:43:22.805132+00:00', 'mrsantons'),
+(71458737, 0, true, false, true, '2022-05-16T08:50:31.112851+00:00', 'sans-eng'),
 (28269, 0, true, false, true, '2022-05-16T05:09:45.535677+00:00', 'coloradobum'),
 (13867651, 2, true, false, true, '2022-05-16T05:45:18.471902+00:00', 'cescfamadas'),
 (42341383, 0, true, false, true, '2022-05-16T03:09:40.177449+00:00', 'tiamatu'),
@@ -231,11 +231,12 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (15172054, 3, true, true, true, '2022-05-28T22:54:25.569864+00:00', 'benjamin-antupit'),
 (16787295, 1, true, false, true, '2022-06-01T03:05:03.958328+00:00', 'acrobertson'),
 (2754163, 1, true, false, true, '2022-05-29T13:25:38.716964+00:00', 'MrLeebo'),
+(2003804, 2, true, false, true, '2022-06-02T04:44:42.570248+00:00', 'whawker'),
+(40822355, 2, true, false, true, '2022-05-31T16:10:53.647103+00:00', 'suuus'),
+(25469482, 1, true, false, true, '2022-05-31T15:59:42.183185+00:00', 'nbeck415'),
 (389670, 1, true, false, true, '2022-05-31T18:44:50.862931+00:00', 'simeonoriko'),
 (19558543, 2, true, false, true, '2022-05-30T07:31:53.444293+00:00', 'ABGEO'),
 (203683, 0, true, false, true, '2022-05-16T09:50:41.915566+00:00', 'virtualandy'),
 (79809121, 5, true, false, true, '2022-05-28T13:33:55.885209+00:00', 'TAKANOME-DEV'),
-(40822355, 2, true, false, true, '2022-05-31T16:10:53.647103+00:00', 'suuus'),
-(25469482, 1, true, false, true, '2022-05-31T15:59:42.183185+00:00', 'nbeck415'),
 (55068936, 1, true, true, true, '2022-05-28T14:42:15.81789+00:00', 'Siddhant-K-code'),
 (3012311, 2, true, false, true, '2022-05-31T16:44:24.284684+00:00', 'vordimous');
