@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T12:56:12.768Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T14:44:34.871Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3942,6 +3942,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96'),
 (4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161'),
+(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26'),
 (4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129'),
 (4763, 279064706, 2, '2020-12-13T11:08:49', 'claytonjhamilton', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/444'),
 (4764, 279064706, 2, '2020-08-11T22:10:57', 'thmsgbrt', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/155'),
@@ -4456,7 +4457,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5322, 90194616, 3, '2020-10-08T20:07:23', 'selimb', 'https://github.com/samuelcolvin/pydantic/pull/1771'),
 (5260, 18486300, 1, '2020-10-23T10:39:16', 'OliNott', 'https://github.com/lewagon/setup/pull/208'),
 (5264, 18486300, 4, '2020-12-22T16:04:56', 'primaulia', 'https://github.com/lewagon/setup/pull/221'),
-(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26'),
 (5258, 18486300, 1, '2022-04-07T13:07:09', 'xunma', 'https://github.com/lewagon/setup/pull/375'),
 (5262, 18486300, 3, '2021-09-07T10:31:23', 'juliends', 'https://github.com/lewagon/setup/pull/323'),
 (5265, 18486300, 2, '2021-03-24T11:18:20', 'zzuziak', 'https://github.com/lewagon/setup/pull/272'),
