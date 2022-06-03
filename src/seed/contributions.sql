@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T04:47:49.104Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T06:47:51.103Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2846,9 +2846,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3492, 75322405, 4, '2022-04-15T17:34:23', 'ericvn', 'https://github.com/istio/proxy/pull/3812'),
 (3493, 75322405, 4, '2020-09-09T01:23:49', 'JimmyCYJ', 'https://github.com/istio/proxy/pull/3007'),
 (3494, 75322405, 4, '2019-08-07T01:27:36', 'utka', 'https://github.com/istio/proxy/pull/2338'),
-(3495, 75322405, 4, '2022-02-16T23:26:41', 'lambdai', 'https://github.com/istio/proxy/pull/3711'),
 (3496, 75322405, 4, '2022-02-09T14:57:59', 'PiotrSikora', 'https://github.com/istio/proxy/pull/3699'),
 (3497, 75322405, 4, '2019-03-01T04:58:01', 'sebastienvas', 'https://github.com/istio/proxy/pull/2129'),
+(3495, 75322405, 4, '2022-02-16T23:26:41', 'lambdai', 'https://github.com/istio/proxy/pull/3711'),
 (3498, 75322405, 4, '2019-12-03T20:38:13', 'lizan', 'https://github.com/istio/proxy/pull/2589'),
 (3499, 75322405, 4, '2017-06-05T17:23:38', 'sarvaniv', 'https://github.com/istio/proxy/pull/352'),
 (3500, 75322405, 4, '2019-01-27T18:01:53', 'hklai', 'https://github.com/istio/proxy/pull/2095'),
@@ -3753,8 +3753,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4551, 378536025, 1, '2021-07-25T17:44:00', 'shayanb', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/25'),
 (4552, 378536025, 1, '2022-03-16T14:50:04', 'saintsal', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/42'),
 (4553, 378536025, 1, '2021-06-20T14:54:29', 'vshvsh', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/3'),
-(4554, 378536025, 1, '2021-06-29T23:50:48', 'Tisamenus', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/19'),
 (4555, 378536025, 1, '2022-04-16T13:15:39', 'pyjun01', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/45'),
+(4554, 378536025, 1, '2021-06-29T23:50:48', 'Tisamenus', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/19'),
 (4556, 378536025, 1, '2022-03-10T16:10:06', 'Kayaba-Attribution', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/40'),
 (3045, 100060912, 4, '2022-05-24T16:57:55', 'DHowett', 'https://github.com/microsoft/terminal/pull/13148'),
 (3046, 100060912, 4, '2022-05-17T00:06:05', 'carlos-zamora', 'https://github.com/microsoft/terminal/pull/13114'),
@@ -4851,8 +4851,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2881, 97559842, 1, '2020-09-15T17:52:02', 'youngbob', 'https://github.com/bvaughn/react-error-boundary/pull/70'),
 (2885, 97559842, 1, '2017-10-09T16:48:01', 'hanse', 'https://github.com/bvaughn/react-error-boundary/pull/1'),
 (2892, 97559842, 1, '2020-06-05T00:34:20', 'mmiller42', 'https://github.com/bvaughn/react-error-boundary/pull/56'),
-(2883, 97559842, 1, '2020-06-24T06:44:05', 'formatlos', 'https://github.com/bvaughn/react-error-boundary/pull/58'),
 (16301, 149121954, 1, '2021-06-14T15:56:25', 'JesperIRL', 'https://github.com/openjdk/jdk/pull/4484'),
+(2883, 97559842, 1, '2020-06-24T06:44:05', 'formatlos', 'https://github.com/bvaughn/react-error-boundary/pull/58'),
 (16302, 149121954, 1, '2022-04-07T16:09:15', 'cl4es', 'https://github.com/openjdk/jdk/pull/8146'),
 (3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
 (3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
@@ -5115,9 +5115,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16341, 93253246, 4, '2019-07-11T20:31:35', 'maurodibert', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1139'),
 (16342, 93253246, 4, '2020-11-29T08:13:51', 'peachesontour', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2140'),
 (16343, 93253246, 4, '2017-11-01T07:44:52', 'hadrysmateusz', 'https://github.com/javascript-tutorial/en.javascript.info/pull/270'),
+(16344, 93253246, 4, '2019-11-30T06:56:51', 'dagolinuxoid', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1613'),
 (16345, 93253246, 4, '2021-04-17T17:02:01', 'lumosmind', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2565'),
 (16346, 93253246, 4, '2019-03-02T20:23:01', 'l1un', 'https://github.com/javascript-tutorial/en.javascript.info/pull/821'),
-(16344, 93253246, 4, '2019-11-30T06:56:51', 'dagolinuxoid', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1613'),
 (16347, 93253246, 4, '2022-05-12T03:34:57', 'Rnbsov', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2997'),
 (16348, 93253246, 4, '2019-10-19T21:33:14', 'Darryl1702', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1485'),
 (16349, 93253246, 4, '2019-11-06T18:33:46', 'hrodward', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1583'),
