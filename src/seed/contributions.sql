@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T03:06:42.549Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T04:47:49.104Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5115,9 +5115,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16341, 93253246, 4, '2019-07-11T20:31:35', 'maurodibert', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1139'),
 (16342, 93253246, 4, '2020-11-29T08:13:51', 'peachesontour', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2140'),
 (16343, 93253246, 4, '2017-11-01T07:44:52', 'hadrysmateusz', 'https://github.com/javascript-tutorial/en.javascript.info/pull/270'),
-(16344, 93253246, 4, '2019-11-30T06:56:51', 'dagolinuxoid', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1613'),
 (16345, 93253246, 4, '2021-04-17T17:02:01', 'lumosmind', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2565'),
 (16346, 93253246, 4, '2019-03-02T20:23:01', 'l1un', 'https://github.com/javascript-tutorial/en.javascript.info/pull/821'),
+(16344, 93253246, 4, '2019-11-30T06:56:51', 'dagolinuxoid', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1613'),
 (16347, 93253246, 4, '2022-05-12T03:34:57', 'Rnbsov', 'https://github.com/javascript-tutorial/en.javascript.info/pull/2997'),
 (16348, 93253246, 4, '2019-10-19T21:33:14', 'Darryl1702', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1485'),
 (16349, 93253246, 4, '2019-11-06T18:33:46', 'hrodward', 'https://github.com/javascript-tutorial/en.javascript.info/pull/1583'),
