@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T06:47:34.793Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T08:45:38.438Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1951,6 +1951,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2520, 103953059, 1, '2018-02-04T20:12:31', 'huyz', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/106'),
 (2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4'),
 (2568, 250348566, 2, '2021-11-07T06:29:47', 'JanStorm', 'https://github.com/Sithira/FlutterRadioPlayer/pull/40'),
+(2570, 250348566, 3, '2020-08-07T14:47:48', 'cjamcu', 'https://github.com/Sithira/FlutterRadioPlayer/pull/20'),
 (2528, 9393759, 4, '2022-05-12T13:27:16', 'rexrainbow', 'https://github.com/photonstorm/phaser/pull/6111'),
 (2530, 9393759, 4, '2015-10-13T10:56:47', 'pnstickne', 'https://github.com/photonstorm/phaser/pull/2118'),
 (2531, 9393759, 2, '2020-04-27T12:25:58', 'JasonHK', 'https://github.com/photonstorm/phaser/pull/4975'),
@@ -1961,7 +1962,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2536, 9393759, 4, '2015-10-06T16:01:03', 'clark-stevenson', 'https://github.com/photonstorm/phaser/pull/2123'),
 (2537, 9393759, 4, '2018-04-03T14:37:16', 'orblazer', 'https://github.com/photonstorm/phaser/pull/3499'),
 (2575, 163068024, 1, '2020-06-08T09:26:57', 'rtm516', 'https://github.com/h44z/gitlab_to_gitea/pull/6'),
-(2570, 250348566, 3, '2020-08-07T14:47:48', 'cjamcu', 'https://github.com/Sithira/FlutterRadioPlayer/pull/20'),
 (4342, 41718185, 3, '2018-02-09T21:48:07', 'nnixaa', 'https://github.com/PatrickJS/awesome-angular/pull/302'),
 (2540, 9393759, 4, '2019-06-22T10:05:24', 'D-Parkinson1', 'https://github.com/photonstorm/phaser/pull/4610'),
 (2541, 9393759, 4, '2022-02-03T16:03:21', 'vforsh', 'https://github.com/photonstorm/phaser/pull/5968'),
@@ -5207,14 +5207,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11596, 375445655, 1, '2022-01-20T09:47:56', 'Cloud9c', 'https://github.com/facebookresearch/AugLy/pull/186'),
 (11597, 375445655, 4, '2021-07-08T10:29:17', 'zpapakipos', 'https://github.com/facebookresearch/AugLy/pull/72'),
 (11598, 375445655, 2, '2021-06-24T07:40:50', 'cclauss', 'https://github.com/facebookresearch/AugLy/pull/51'),
-(992, 33820955, 4, '2015-09-18T09:39:22', 'PascalPrecht', 'https://github.com/timjacobi/angular-education/pull/60'),
-(986, 33820955, 3, '2016-02-12T21:20:52', 'zouabimourad', 'https://github.com/timjacobi/angular-education/pull/108'),
-(970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175'),
 (980, 33820955, 4, '2016-02-12T21:20:43', 'rengokantai', 'https://github.com/timjacobi/angular-education/pull/109'),
 (3759, 144873815, 4, '2020-12-12T08:15:20', 'divyenduz', 'https://github.com/prisma/prisma-examples/pull/2339'),
 (3781, 144873815, 4, '2020-02-18T15:06:54', 'matthewmueller', 'https://github.com/prisma/prisma-examples/pull/1412'),
 (3762, 144873815, 1, '2018-10-19T10:42:52', 'sorenbs', 'https://github.com/prisma/prisma-examples/pull/184'),
+(992, 33820955, 4, '2015-09-18T09:39:22', 'PascalPrecht', 'https://github.com/timjacobi/angular-education/pull/60'),
+(986, 33820955, 3, '2016-02-12T21:20:52', 'zouabimourad', 'https://github.com/timjacobi/angular-education/pull/108'),
 (3764, 144873815, 2, '2018-10-13T17:07:28', 'AwesomeObserver', 'https://github.com/prisma/prisma-examples/pull/158'),
+(970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175'),
 (3766, 144873815, 4, '2020-12-15T15:21:27', 'jasonkuhrt', 'https://github.com/prisma/prisma-examples/pull/2350'),
 (3761, 144873815, 1, '2018-10-10T07:36:13', 'w0wka91', 'https://github.com/prisma/prisma-examples/pull/103'),
 (3782, 144873815, 4, '2021-08-20T07:42:14', 'ryands17', 'https://github.com/prisma/prisma-examples/pull/3088'),
