@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T12:51:41.960Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T14:44:25.798Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -994,7 +994,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1272, 306449955, 4, '2022-05-08T05:40:05', 'HJ-zhtw', 'https://github.com/IrisShaders/Iris/pull/1384'),
 (1286, 306449955, 2, '2022-02-02T21:45:06', 'Fjuro', 'https://github.com/IrisShaders/Iris/pull/1236'),
 (1266, 306449955, 4, '2022-02-28T18:28:11', 'NoComment1105', 'https://github.com/IrisShaders/Iris/pull/1294'),
-(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
 (7182, 411705813, 1, '2021-10-06T18:45:29', 'Chiranjeev-droid', 'https://github.com/avinash201199/Portfolio-Collection/pull/13'),
 (7180, 411705813, 1, '2021-10-02T09:35:22', 'sushrut29', 'https://github.com/avinash201199/Portfolio-Collection/pull/4'),
 (7181, 411705813, 1, '2021-10-02T10:08:44', 'Wizonaldo', 'https://github.com/avinash201199/Portfolio-Collection/pull/6'),
@@ -3771,8 +3770,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2190, 4578898, 4, '2013-05-10T10:49:13', 'switz', 'https://github.com/HabitRPG/habitica/pull/921'),
 (2196, 4578898, 4, '2015-04-03T19:53:59', 'lefnire', 'https://github.com/HabitRPG/habitica/pull/4972'),
 (2178, 4578898, 4, '2018-08-25T16:15:00', 'TheHollidayInn', 'https://github.com/HabitRPG/habitica/pull/10631'),
-(2182, 4578898, 4, '2022-05-30T20:56:51', 'CuriousMagpie', 'https://github.com/HabitRPG/habitica/pull/14016'),
 (2199, 4578898, 4, '2016-08-19T22:40:51', 'luveluen', 'https://github.com/HabitRPG/habitica/pull/7913'),
+(2182, 4578898, 4, '2022-05-30T20:56:51', 'CuriousMagpie', 'https://github.com/HabitRPG/habitica/pull/14016'),
 (2195, 4578898, 4, '2016-05-28T23:08:14', 'hairlessbear', 'https://github.com/HabitRPG/habitica/pull/7529'),
 (2193, 4578898, 4, '2014-01-25T01:36:22', 'djuretic', 'https://github.com/HabitRPG/habitica/pull/2553'),
 (2187, 4578898, 4, '2013-11-08T20:40:45', 'Shaners', 'https://github.com/HabitRPG/habitica/pull/1765'),
@@ -4875,6 +4874,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2894, 97559842, 1, '2018-07-06T14:58:26', 'smurf667', 'https://github.com/bvaughn/react-error-boundary/pull/18'),
 (2905, 97559842, 1, '2021-03-02T17:14:00', 'CarlosGines', 'https://github.com/bvaughn/react-error-boundary/pull/85'),
 (2913, 97559842, 1, '2021-07-07T05:19:05', 'brizer', 'https://github.com/bvaughn/react-error-boundary/pull/93'),
+(2893, 97559842, 1, '2020-07-21T02:19:53', 'razh', 'https://github.com/bvaughn/react-error-boundary/pull/60'),
 (2887, 97559842, 1, '2020-04-30T23:54:36', 'wuweiweiwu', 'https://github.com/bvaughn/react-error-boundary/pull/47'),
 (2900, 97559842, 1, '2021-10-29T05:12:02', 'stefanprobst', 'https://github.com/bvaughn/react-error-boundary/pull/98'),
 (2886, 97559842, 1, '2021-03-02T17:14:53', 'mayank23', 'https://github.com/bvaughn/react-error-boundary/pull/81'),
@@ -5024,7 +5024,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2800, 310393570, 2, '2021-06-02T08:18:02', 'ssun32', 'https://github.com/allenai/ir_datasets/pull/71'),
 (2802, 310393570, 1, '2022-05-05T19:53:13', 'ArthurCamara', 'https://github.com/allenai/ir_datasets/pull/190'),
 (468, 33001311, 4, '2021-02-12T14:54:32', 'DarkLite1', 'https://github.com/dfinke/ImportExcel/pull/998'),
-(2893, 97559842, 1, '2020-07-21T02:19:53', 'razh', 'https://github.com/bvaughn/react-error-boundary/pull/60'),
 (2795, 310393570, 1, '2021-07-01T18:41:58', 'codycollier', 'https://github.com/allenai/ir_datasets/pull/82'),
 (466, 33001311, 1, '2021-11-30T23:32:59', 'DavisHenckel', 'https://github.com/dfinke/ImportExcel/pull/1110'),
 (463, 33001311, 1, '2018-04-22T18:16:10', 'nzubair', 'https://github.com/dfinke/ImportExcel/pull/318'),
@@ -5418,8 +5417,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3071, 290234921, 1, '2020-10-13T18:17:08', 'MartinSeeler', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/38'),
 (3096, 290234921, 2, '2020-10-09T00:08:47', 'daniiltrpv', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/30'),
 (3073, 290234921, 1, '2020-10-22T14:13:58', 'ifdiego', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/55'),
-(8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
-(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
 (5784, 138754790, 4, '2022-03-29T16:58:26', 'rsund', 'https://github.com/duckdb/duckdb/pull/3318'),
 (5785, 138754790, 4, '2020-08-25T13:19:40', 'pat-s', 'https://github.com/duckdb/duckdb/pull/863'),
 (11834, 67043714, 1, '2020-02-27T21:47:15', 'humank', 'https://github.com/heynickc/awesome-ddd/pull/122'),
@@ -5911,6 +5908,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8625, 128265535, 4, '2021-02-18T13:59:55', 'GeoFrau', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1151'),
 (8620, 128265535, 4, '2019-05-23T11:16:52', 'axtnsx', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/577'),
 (8622, 128265535, 4, '2019-12-19T16:26:02', 'Alrem', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/857'),
+(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
+(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
+(8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
 (9137, 6093316, 4, '2022-04-22T23:30:12', 'sandersn', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/60019'),
 (9134, 6093316, 4, '2017-04-12T02:44:30', 'vvakame', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/15802'),
 (9144, 6093316, 4, '2020-04-13T17:26:45', 'uniqueiniquity', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/43712'),
