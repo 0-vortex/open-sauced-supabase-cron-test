@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T08:45:38.438Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T10:44:29.309Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5207,14 +5207,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11596, 375445655, 1, '2022-01-20T09:47:56', 'Cloud9c', 'https://github.com/facebookresearch/AugLy/pull/186'),
 (11597, 375445655, 4, '2021-07-08T10:29:17', 'zpapakipos', 'https://github.com/facebookresearch/AugLy/pull/72'),
 (11598, 375445655, 2, '2021-06-24T07:40:50', 'cclauss', 'https://github.com/facebookresearch/AugLy/pull/51'),
+(992, 33820955, 4, '2015-09-18T09:39:22', 'PascalPrecht', 'https://github.com/timjacobi/angular-education/pull/60'),
+(986, 33820955, 3, '2016-02-12T21:20:52', 'zouabimourad', 'https://github.com/timjacobi/angular-education/pull/108'),
+(970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175'),
 (980, 33820955, 4, '2016-02-12T21:20:43', 'rengokantai', 'https://github.com/timjacobi/angular-education/pull/109'),
 (3759, 144873815, 4, '2020-12-12T08:15:20', 'divyenduz', 'https://github.com/prisma/prisma-examples/pull/2339'),
 (3781, 144873815, 4, '2020-02-18T15:06:54', 'matthewmueller', 'https://github.com/prisma/prisma-examples/pull/1412'),
 (3762, 144873815, 1, '2018-10-19T10:42:52', 'sorenbs', 'https://github.com/prisma/prisma-examples/pull/184'),
-(992, 33820955, 4, '2015-09-18T09:39:22', 'PascalPrecht', 'https://github.com/timjacobi/angular-education/pull/60'),
-(986, 33820955, 3, '2016-02-12T21:20:52', 'zouabimourad', 'https://github.com/timjacobi/angular-education/pull/108'),
 (3764, 144873815, 2, '2018-10-13T17:07:28', 'AwesomeObserver', 'https://github.com/prisma/prisma-examples/pull/158'),
-(970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175'),
 (3766, 144873815, 4, '2020-12-15T15:21:27', 'jasonkuhrt', 'https://github.com/prisma/prisma-examples/pull/2350'),
 (3761, 144873815, 1, '2018-10-10T07:36:13', 'w0wka91', 'https://github.com/prisma/prisma-examples/pull/103'),
 (3782, 144873815, 4, '2021-08-20T07:42:14', 'ryands17', 'https://github.com/prisma/prisma-examples/pull/3088'),
