@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-05T04:24:37.910Z",
+  "lastExecuted": "2022-06-05T04:37:55.563Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -929,7 +929,7 @@
     "Elixer3000": {
       "owner": "Elixer3000",
       "notFound": false,
-      "lastExecuted": "2022-06-04T16:08:03.465Z"
+      "lastExecuted": "2022-06-05T04:37:55.563Z"
     },
     "Boyce-Bellair": {
       "owner": "Boyce-Bellair",
@@ -1719,7 +1719,7 @@
     "sonithch": {
       "owner": "sonithch",
       "notFound": false,
-      "lastExecuted": "2022-06-04T16:36:17.423Z"
+      "lastExecuted": "2022-06-05T04:37:55.563Z"
     },
     "Nawiab": {
       "owner": "Nawiab",
@@ -1740,6 +1740,11 @@
       "owner": "derneuere",
       "notFound": false,
       "lastExecuted": "2022-06-05T03:52:19.817Z"
+    },
+    "Dun-sin": {
+      "owner": "Dun-sin",
+      "notFound": false,
+      "lastExecuted": "2022-06-05T04:37:55.563Z"
     }
   }
 }
