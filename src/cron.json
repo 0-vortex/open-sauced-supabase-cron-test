@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-06T23:57:55.886Z",
+  "lastExecuted": "2022-06-07T00:20:17.192Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -604,37 +604,37 @@
     "LucasGabrielBecker": {
       "owner": "LucasGabrielBecker",
       "notFound": true,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "Parijat-K": {
       "owner": "Parijat-K",
       "notFound": false,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "eriber": {
       "owner": "eriber",
       "notFound": true,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "Leanwit": {
       "owner": "Leanwit",
       "notFound": true,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "johnyu0424": {
       "owner": "johnyu0424",
       "notFound": false,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "MrNossiom": {
       "owner": "MrNossiom",
       "notFound": true,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "saitho": {
       "owner": "saitho",
       "notFound": false,
-      "lastExecuted": "2022-06-06T12:08:10.121Z"
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     },
     "prasadbobby": {
       "owner": "prasadbobby",
@@ -1770,6 +1770,11 @@
       "owner": "daniellemadry",
       "notFound": false,
       "lastExecuted": "2022-06-06T18:15:31.714Z"
+    },
+    "ktravers": {
+      "owner": "ktravers",
+      "notFound": true,
+      "lastExecuted": "2022-06-07T00:20:17.192Z"
     }
   }
 }
