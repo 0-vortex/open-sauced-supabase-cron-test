@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T03:14:22.995Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T04:50:41.175Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5315,8 +5315,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1146, 273839530, 4, '2021-06-23T14:03:08', 'GithubUser1234567890', 'https://github.com/Python-World/python-mini-projects/pull/413'),
 (1143, 273839530, 2, '2020-09-15T06:13:45', 'Hariom1509', 'https://github.com/Python-World/python-mini-projects/pull/243'),
 (1162, 273839530, 3, '2020-09-20T10:36:27', 'anandhakrishnanaji', 'https://github.com/Python-World/python-mini-projects/pull/247'),
-(1168, 273839530, 2, '2020-09-20T10:19:25', 'Tomyzon1728', 'https://github.com/Python-World/python-mini-projects/pull/225'),
 (1152, 273839530, 1, '2020-09-07T05:02:31', 'erfansaberi', 'https://github.com/Python-World/python-mini-projects/pull/180'),
+(1168, 273839530, 2, '2020-09-20T10:19:25', 'Tomyzon1728', 'https://github.com/Python-World/python-mini-projects/pull/225'),
 (1148, 273839530, 2, '2020-08-26T17:11:07', 'Phillibob55', 'https://github.com/Python-World/python-mini-projects/pull/160'),
 (1160, 273839530, 2, '2020-07-26T08:30:39', 'skate1512', 'https://github.com/Python-World/python-mini-projects/pull/121'),
 (1145, 273839530, 1, '2021-11-16T05:18:15', 'KILLinefficiency', 'https://github.com/Python-World/python-mini-projects/pull/476'),
