@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-08T05:01:09.785Z",
+  "lastExecuted": "2022-06-08T05:12:10.105Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1719,7 +1719,7 @@
     "sonithch": {
       "owner": "sonithch",
       "notFound": false,
-      "lastExecuted": "2022-06-07T17:11:38.753Z"
+      "lastExecuted": "2022-06-08T05:12:10.105Z"
     },
     "Nawiab": {
       "owner": "Nawiab",
@@ -1744,7 +1744,7 @@
     "Dun-sin": {
       "owner": "Dun-sin",
       "notFound": false,
-      "lastExecuted": "2022-06-07T17:11:38.753Z"
+      "lastExecuted": "2022-06-08T05:12:10.105Z"
     },
     "Elia-Darwish": {
       "owner": "Elia-Darwish",
@@ -1805,6 +1805,11 @@
       "owner": "ryanasalt",
       "notFound": false,
       "lastExecuted": "2022-06-07T23:49:42.756Z"
+    },
+    "KushalTanna24": {
+      "owner": "KushalTanna24",
+      "notFound": false,
+      "lastExecuted": "2022-06-08T05:12:10.105Z"
     }
   }
 }
