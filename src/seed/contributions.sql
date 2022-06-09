@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T12:58:30.398Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T14:44:32.339Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5493,9 +5493,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16403, 45717250, 4, '2021-06-04T19:11:20', 'advaitjain', 'https://github.com/tensorflow/tensorflow/pull/50072'),
 (11384, 98698673, 4, '2022-05-22T11:28:14', 'bluebill1049', 'https://github.com/bluebill1049/react-simple-animate/pull/96'),
 (11383, 98698673, 1, '2019-07-22T07:51:08', 'pangpang1987', 'https://github.com/bluebill1049/react-simple-animate/pull/59'),
-(11643, 69193081, 4, '2021-02-12T03:43:05', 'erictleung', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/522'),
-(11646, 69193081, 4, '2020-10-02T20:16:31', 'raisedadead', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/431'),
-(11647, 69193081, 4, '2019-02-13T18:31:59', 'bismarkhenao', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/288'),
 (11652, 69193081, 1, '2017-05-24T20:15:07', 'Toughee', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/52'),
 (11644, 69193081, 4, '2018-10-30T17:15:13', 'CristyTarantino', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/246'),
 (11642, 69193081, 1, '2017-06-05T04:56:15', 'QuincyLarson', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/56'),
@@ -5520,6 +5517,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5322, 90194616, 3, '2020-10-08T20:07:23', 'selimb', 'https://github.com/samuelcolvin/pydantic/pull/1771'),
 (11386, 98698673, 1, '2021-04-18T09:43:26', 'amankkg', 'https://github.com/bluebill1049/react-simple-animate/pull/82'),
 (11388, 98698673, 1, '2019-10-08T10:17:45', 'tiaanduplessis', 'https://github.com/bluebill1049/react-simple-animate/pull/64'),
+(11643, 69193081, 4, '2021-02-12T03:43:05', 'erictleung', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/522'),
+(11646, 69193081, 4, '2020-10-02T20:16:31', 'raisedadead', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/431'),
+(11647, 69193081, 4, '2019-02-13T18:31:59', 'bismarkhenao', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/288'),
 (11390, 98698673, 1, '2018-01-11T01:23:53', 'willmcpo', 'https://github.com/bluebill1049/react-simple-animate/pull/32'),
 (11389, 98698673, 1, '2019-12-08T23:39:27', 'monkeywithacupcake', 'https://github.com/bluebill1049/react-simple-animate/pull/67'),
 (5323, 90194616, 4, '2021-09-03T22:47:11', 'nuno-andre', 'https://github.com/samuelcolvin/pydantic/pull/2718'),
