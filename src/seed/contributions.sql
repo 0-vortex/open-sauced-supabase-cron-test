@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T20:44:46.864Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T22:46:24.332Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3023,12 +3023,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3696, 109179063, 1, '2021-05-11T17:47:40', 'Jytesh', 'https://github.com/privacypass/challenge-bypass-extension/pull/230'),
 (3697, 109179063, 4, '2020-10-16T07:44:32', 'alxdavids', 'https://github.com/privacypass/challenge-bypass-extension/pull/201'),
 (3698, 109179063, 4, '2022-02-22T08:02:04', 'ppopth', 'https://github.com/privacypass/challenge-bypass-extension/pull/308'),
-(3699, 2823326, 1, '2017-06-16T08:42:54', 'crazymerlyn', 'https://github.com/asciinema/asciinema/pull/214'),
 (3700, 2823326, 1, '2021-12-13T21:00:00', 'harkabeeparolus', 'https://github.com/asciinema/asciinema/pull/459'),
 (3701, 2823326, 1, '2014-03-29T17:11:32', 'gmjosack', 'https://github.com/asciinema/asciinema/pull/58'),
 (3702, 2823326, 1, '2018-04-09T06:57:57', 'fornwall', 'https://github.com/asciinema/asciinema/pull/294'),
 (3703, 2823326, 1, '2016-05-18T08:46:56', 'laughedelic', 'https://github.com/asciinema/asciinema/pull/156'),
 (3704, 2823326, 1, '2018-11-16T21:34:25', 'Crestwave', 'https://github.com/asciinema/asciinema/pull/326'),
+(3699, 2823326, 1, '2017-06-16T08:42:54', 'crazymerlyn', 'https://github.com/asciinema/asciinema/pull/214'),
 (3705, 2823326, 1, '2014-06-19T18:44:32', 'alex', 'https://github.com/asciinema/asciinema/pull/64'),
 (3706, 2823326, 1, '2016-02-13T09:43:24', 'bentranter', 'https://github.com/asciinema/asciinema/pull/146'),
 (3707, 2823326, 1, '2020-04-19T11:56:50', 'djpohly', 'https://github.com/asciinema/asciinema/pull/398'),
@@ -5703,8 +5703,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1891, 90408889, 1, '2018-05-17T15:30:57', 'felipegcampos', 'https://github.com/moleculerjs/moleculer-web/pull/44'),
 (1883, 90408889, 3, '2020-06-21T19:55:02', 'intech', 'https://github.com/moleculerjs/moleculer-web/pull/187'),
 (1907, 90408889, 1, '2017-10-26T07:08:52', 'rmccallum81', 'https://github.com/moleculerjs/moleculer-web/pull/23'),
-(1863, 90408889, 1, '2022-02-11T17:49:01', 'giovanni-bertoncelli', 'https://github.com/moleculerjs/moleculer-web/pull/299'),
 (7179, 320016849, 1, '2020-12-16T07:36:54', 'udberg', 'https://github.com/udberg/MGF-Conference-Page/pull/1'),
+(1863, 90408889, 1, '2022-02-11T17:49:01', 'giovanni-bertoncelli', 'https://github.com/moleculerjs/moleculer-web/pull/299'),
 (16422, 327628682, 4, '2021-05-30T18:45:12', 'khushal87', 'https://github.com/mantinedev/mantine/pull/106'),
 (16424, 327628682, 2, '2021-05-22T18:12:07', 'zeropaper', 'https://github.com/mantinedev/mantine/pull/92'),
 (16419, 327628682, 4, '2021-05-09T15:47:00', 'srezanova', 'https://github.com/mantinedev/mantine/pull/59'),
