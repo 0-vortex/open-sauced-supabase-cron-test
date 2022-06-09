@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T01:05:13.752Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T03:15:43.814Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -665,12 +665,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1588, 249234386, 2, '2021-01-17T15:12:34', 'chrismarquardt', 'https://github.com/steveseguin/vdo.ninja/pull/660'),
 (985, 195162469, 2, '2022-05-17T04:27:31', 'SriramKiranSenthilkumar', 'https://github.com/syncfusion/flutter-examples/pull/619'),
 (989, 195162469, 1, '2021-03-22T08:51:40', 'paulosergioduff', 'https://github.com/syncfusion/flutter-examples/pull/310'),
-(8772, 2531988, 2, '2016-07-02T15:57:40', 'Melkij', 'https://github.com/fpoirotte/phpfarm/pull/15'),
-(8773, 2531988, 2, '2018-01-27T18:06:52', 'camlafit', 'https://github.com/fpoirotte/phpfarm/pull/21'),
-(8775, 2531988, 1, '2013-08-02T17:10:12', 'daidais', 'https://github.com/fpoirotte/phpfarm/pull/4'),
 (996, 195162469, 4, '2022-02-16T10:49:07', 'dharanidharandharmasivam', 'https://github.com/syncfusion/flutter-examples/pull/544'),
 (997, 195162469, 2, '2021-08-27T05:03:10', 'PavithraNandhiniRamachandran', 'https://github.com/syncfusion/flutter-examples/pull/427'),
-(8774, 2531988, 1, '2013-06-05T18:46:29', 'tacone', 'https://github.com/fpoirotte/phpfarm/pull/3'),
 (999, 195162469, 1, '2021-06-16T12:34:17', 'RathanakumarSekar', 'https://github.com/syncfusion/flutter-examples/pull/373'),
 (1000, 195162469, 4, '2021-06-21T06:31:58', 'Dharanipalani', 'https://github.com/syncfusion/flutter-examples/pull/380'),
 (11910, 10865436, 1, '2014-06-19T17:31:41', 'stavrossk', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/159'),
@@ -689,8 +685,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11926, 10865436, 1, '2014-06-22T17:31:37', 'a5hik', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/219'),
 (11936, 10865436, 1, '2013-06-22T22:50:02', 'Colinh84', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/12'),
 (11918, 10865436, 1, '2013-06-25T07:17:32', 'jakiestfu', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/49'),
+(8773, 2531988, 2, '2018-01-27T18:06:52', 'camlafit', 'https://github.com/fpoirotte/phpfarm/pull/21'),
 (11917, 10865436, 2, '2013-06-25T07:16:23', 'donokuda', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/55'),
 (11929, 10865436, 1, '2014-06-22T17:28:54', 'adrianbautista', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/224'),
+(8774, 2531988, 1, '2013-06-05T18:46:29', 'tacone', 'https://github.com/fpoirotte/phpfarm/pull/3'),
+(8772, 2531988, 2, '2016-07-02T15:57:40', 'Melkij', 'https://github.com/fpoirotte/phpfarm/pull/15'),
+(8775, 2531988, 1, '2013-08-02T17:10:12', 'daidais', 'https://github.com/fpoirotte/phpfarm/pull/4'),
 (5877, 21413198, 4, '2021-10-23T12:33:31', 'jdeniau', 'https://github.com/immutable-js/immutable-js/pull/1883'),
 (5875, 21413198, 4, '2022-05-23T19:01:03', 'leebyron', 'https://github.com/immutable-js/immutable-js/pull/1905'),
 (5874, 21413198, 3, '2015-10-03T17:39:55', 'matthewwithanm', 'https://github.com/immutable-js/immutable-js/pull/648'),
@@ -5101,11 +5101,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (462, 22355214, 3, '2018-12-10T21:05:45', 'Hamms', 'https://github.com/remarkjs/remark/pull/380'),
 (635, 256786531, 4, '2022-01-06T19:38:54', 'pwntester', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2174'),
 (639, 256786531, 4, '2022-04-25T21:36:37', 'MichaHoffmann', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2863'),
-(634, 256786531, 4, '2020-09-18T15:09:44', 'TravonteD', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/478'),
 (641, 256786531, 4, '2022-06-01T07:26:50', 'savq', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2977'),
 (642, 256786531, 4, '2022-05-06T08:31:13', 'undu', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2878'),
 (640, 256786531, 4, '2022-02-04T23:28:48', 'uyha', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2456'),
 (3072, 273512313, 4, '2021-03-23T16:35:35', 'GeorgLink', 'https://github.com/chaoss/community-handbook/pull/14'),
+(634, 256786531, 4, '2020-09-18T15:09:44', 'TravonteD', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/478'),
 (3080, 273512313, 2, '2022-02-23T17:22:55', 'sgoggins', 'https://github.com/chaoss/community-handbook/pull/20'),
 (3084, 273512313, 3, '2020-10-01T18:10:29', 'germonprez', 'https://github.com/chaoss/community-handbook/pull/4'),
 (3070, 273512313, 2, '2022-01-11T19:33:00', 'vchrombie', 'https://github.com/chaoss/community-handbook/pull/27'),
