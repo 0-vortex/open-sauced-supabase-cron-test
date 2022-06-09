@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T04:50:44.924Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T06:48:08.809Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4179,8 +4179,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5041, 203587744, 4, '2022-04-30T13:53:43', 'anwarulislam', 'https://github.com/hoppscotch/hoppscotch/pull/2299'),
 (5042, 56894212, 4, '2022-02-21T01:58:20', 'apangin', 'https://github.com/jvm-profiling-tools/async-profiler/pull/553'),
 (5043, 56894212, 4, '2017-09-27T10:20:09', 'goldshtn', 'https://github.com/jvm-profiling-tools/async-profiler/pull/53'),
-(5045, 56894212, 2, '2020-09-02T21:17:47', 'yuzawa-san', 'https://github.com/jvm-profiling-tools/async-profiler/pull/346'),
 (5044, 56894212, 1, '2017-10-16T20:44:25', 'nitsanw', 'https://github.com/jvm-profiling-tools/async-profiler/pull/57'),
+(5045, 56894212, 2, '2020-09-02T21:17:47', 'yuzawa-san', 'https://github.com/jvm-profiling-tools/async-profiler/pull/346'),
 (5046, 56894212, 2, '2022-02-13T17:34:44', 'ghaug', 'https://github.com/jvm-profiling-tools/async-profiler/pull/537'),
 (5047, 56894212, 4, '2017-04-11T15:46:50', 'incubos', 'https://github.com/jvm-profiling-tools/async-profiler/pull/16'),
 (5048, 56894212, 1, '2017-06-08T16:21:00', 'WIgor', 'https://github.com/jvm-profiling-tools/async-profiler/pull/36'),
@@ -6375,8 +6375,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (737, 281151556, 3, '2022-05-16T08:46:53', 'BugliL', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/96'),
 (735, 281151556, 4, '2022-03-03T16:50:34', 'TheJoin95', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/91'),
 (733, 281151556, 4, '2022-05-05T13:16:00', 'Wabri', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/99'),
-(792, 9852918, 4, '2019-05-06T09:11:44', 'kirrg001', 'https://github.com/TryGhost/Ghost/pull/10726'),
 (12106, 353476301, 3, '2021-05-05T16:56:08', 'josephschorr', 'https://github.com/authzed/animated-code-example-component/pull/4'),
+(792, 9852918, 4, '2019-05-06T09:11:44', 'kirrg001', 'https://github.com/TryGhost/Ghost/pull/10726'),
 (795, 9852918, 4, '2022-06-01T09:12:23', 'ErisDS', 'https://github.com/TryGhost/Ghost/pull/14949'),
 (796, 9852918, 4, '2022-06-01T14:53:05', 'allouis', 'https://github.com/TryGhost/Ghost/pull/14953'),
 (807, 9852918, 4, '2022-06-02T13:49:23', 'daniellockyer', 'https://github.com/TryGhost/Ghost/pull/14960'),
@@ -7060,6 +7060,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1208, 170738310, 4, '2022-06-06T06:56:40', 'catenocrypt', 'https://github.com/trustwallet/wallet-core/pull/2291'),
 (1213, 170738310, 4, '2020-04-23T23:28:54', 'vikmeup', 'https://github.com/trustwallet/wallet-core/pull/930'),
 (1218, 170738310, 4, '2019-08-13T02:53:23', 'BSathvik', 'https://github.com/trustwallet/wallet-core/pull/580'),
+(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1216, 170738310, 4, '2019-06-08T23:35:01', 'johnnynanjiang', 'https://github.com/trustwallet/wallet-core/pull/496'),
 (1211, 170738310, 4, '2019-05-08T18:26:25', 'alejandro-isaza', 'https://github.com/trustwallet/wallet-core/pull/416'),
 (1221, 170738310, 4, '2020-09-28T06:35:00', 'terorie', 'https://github.com/trustwallet/wallet-core/pull/1114'),
@@ -7076,7 +7077,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1291, 201969682, 4, '2021-07-08T13:08:36', 'yadavprakash', 'https://github.com/clouddrove/terraform-aws-ec2/pull/21'),
 (1295, 201969682, 2, '2020-04-28T12:01:57', 'nikitadugar', 'https://github.com/clouddrove/terraform-aws-ec2/pull/6'),
 (1288, 201969682, 3, '2020-03-24T12:07:10', 'sohanyadav', 'https://github.com/clouddrove/terraform-aws-ec2/pull/5'),
-(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1292, 201969682, 1, '2020-10-21T14:59:05', 'dhyanio', 'https://github.com/clouddrove/terraform-aws-ec2/pull/12'),
 (6791, 201969682, 1, '2022-05-18T09:44:39', 'theprashantyadav', 'https://github.com/clouddrove/terraform-aws-ec2/pull/27'),
 (1297, 201969682, 1, '2020-10-21T10:53:10', 'MartinCanovas', 'https://github.com/clouddrove/terraform-aws-ec2/pull/10'),
