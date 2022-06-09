@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T03:15:43.814Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T04:50:44.924Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4179,8 +4179,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5041, 203587744, 4, '2022-04-30T13:53:43', 'anwarulislam', 'https://github.com/hoppscotch/hoppscotch/pull/2299'),
 (5042, 56894212, 4, '2022-02-21T01:58:20', 'apangin', 'https://github.com/jvm-profiling-tools/async-profiler/pull/553'),
 (5043, 56894212, 4, '2017-09-27T10:20:09', 'goldshtn', 'https://github.com/jvm-profiling-tools/async-profiler/pull/53'),
-(5044, 56894212, 1, '2017-10-16T20:44:25', 'nitsanw', 'https://github.com/jvm-profiling-tools/async-profiler/pull/57'),
 (5045, 56894212, 2, '2020-09-02T21:17:47', 'yuzawa-san', 'https://github.com/jvm-profiling-tools/async-profiler/pull/346'),
+(5044, 56894212, 1, '2017-10-16T20:44:25', 'nitsanw', 'https://github.com/jvm-profiling-tools/async-profiler/pull/57'),
 (5046, 56894212, 2, '2022-02-13T17:34:44', 'ghaug', 'https://github.com/jvm-profiling-tools/async-profiler/pull/537'),
 (5047, 56894212, 4, '2017-04-11T15:46:50', 'incubos', 'https://github.com/jvm-profiling-tools/async-profiler/pull/16'),
 (5048, 56894212, 1, '2017-06-08T16:21:00', 'WIgor', 'https://github.com/jvm-profiling-tools/async-profiler/pull/36'),
@@ -5101,11 +5101,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (462, 22355214, 3, '2018-12-10T21:05:45', 'Hamms', 'https://github.com/remarkjs/remark/pull/380'),
 (635, 256786531, 4, '2022-01-06T19:38:54', 'pwntester', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2174'),
 (639, 256786531, 4, '2022-04-25T21:36:37', 'MichaHoffmann', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2863'),
+(634, 256786531, 4, '2020-09-18T15:09:44', 'TravonteD', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/478'),
 (641, 256786531, 4, '2022-06-01T07:26:50', 'savq', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2977'),
 (642, 256786531, 4, '2022-05-06T08:31:13', 'undu', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2878'),
 (640, 256786531, 4, '2022-02-04T23:28:48', 'uyha', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2456'),
 (3072, 273512313, 4, '2021-03-23T16:35:35', 'GeorgLink', 'https://github.com/chaoss/community-handbook/pull/14'),
-(634, 256786531, 4, '2020-09-18T15:09:44', 'TravonteD', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/478'),
 (3080, 273512313, 2, '2022-02-23T17:22:55', 'sgoggins', 'https://github.com/chaoss/community-handbook/pull/20'),
 (3084, 273512313, 3, '2020-10-01T18:10:29', 'germonprez', 'https://github.com/chaoss/community-handbook/pull/4'),
 (3070, 273512313, 2, '2022-01-11T19:33:00', 'vchrombie', 'https://github.com/chaoss/community-handbook/pull/27'),
@@ -7060,7 +7060,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1208, 170738310, 4, '2022-06-06T06:56:40', 'catenocrypt', 'https://github.com/trustwallet/wallet-core/pull/2291'),
 (1213, 170738310, 4, '2020-04-23T23:28:54', 'vikmeup', 'https://github.com/trustwallet/wallet-core/pull/930'),
 (1218, 170738310, 4, '2019-08-13T02:53:23', 'BSathvik', 'https://github.com/trustwallet/wallet-core/pull/580'),
-(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1216, 170738310, 4, '2019-06-08T23:35:01', 'johnnynanjiang', 'https://github.com/trustwallet/wallet-core/pull/496'),
 (1211, 170738310, 4, '2019-05-08T18:26:25', 'alejandro-isaza', 'https://github.com/trustwallet/wallet-core/pull/416'),
 (1221, 170738310, 4, '2020-09-28T06:35:00', 'terorie', 'https://github.com/trustwallet/wallet-core/pull/1114'),
@@ -7077,6 +7076,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1291, 201969682, 4, '2021-07-08T13:08:36', 'yadavprakash', 'https://github.com/clouddrove/terraform-aws-ec2/pull/21'),
 (1295, 201969682, 2, '2020-04-28T12:01:57', 'nikitadugar', 'https://github.com/clouddrove/terraform-aws-ec2/pull/6'),
 (1288, 201969682, 3, '2020-03-24T12:07:10', 'sohanyadav', 'https://github.com/clouddrove/terraform-aws-ec2/pull/5'),
+(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1292, 201969682, 1, '2020-10-21T14:59:05', 'dhyanio', 'https://github.com/clouddrove/terraform-aws-ec2/pull/12'),
 (6791, 201969682, 1, '2022-05-18T09:44:39', 'theprashantyadav', 'https://github.com/clouddrove/terraform-aws-ec2/pull/27'),
 (1297, 201969682, 1, '2020-10-21T10:53:10', 'MartinCanovas', 'https://github.com/clouddrove/terraform-aws-ec2/pull/10'),
