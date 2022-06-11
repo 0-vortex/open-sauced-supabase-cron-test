@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-11T22:55:29.557Z",
+  "lastExecuted": "2022-06-11T23:04:49.088Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -279,12 +279,12 @@
     "mpmccauley": {
       "owner": "mpmccauley",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:56:17.998Z"
+      "lastExecuted": "2022-06-11T23:04:49.088Z"
     },
     "ifoi": {
       "owner": "ifoi",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:56:17.998Z"
+      "lastExecuted": "2022-06-11T23:04:49.088Z"
     },
     "nicksomething23": {
       "owner": "nicksomething23",
@@ -1679,7 +1679,7 @@
     "ahzia": {
       "owner": "ahzia",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:56:17.998Z"
+      "lastExecuted": "2022-06-11T23:04:49.088Z"
     },
     "peterrauscher": {
       "owner": "peterrauscher",
@@ -1980,6 +1980,11 @@
       "owner": "someshfengde",
       "notFound": false,
       "lastExecuted": "2022-06-11T21:26:37.440Z"
+    },
+    "lbugasu": {
+      "owner": "lbugasu",
+      "notFound": true,
+      "lastExecuted": "2022-06-11T23:04:49.088Z"
     }
   }
 }
