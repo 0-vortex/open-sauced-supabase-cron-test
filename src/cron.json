@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-12T19:16:41.415Z",
+  "lastExecuted": "2022-06-12T19:25:18.563Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1539,17 +1539,17 @@
     "notBdougie": {
       "owner": "notBdougie",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:25:01.932Z"
+      "lastExecuted": "2022-06-12T19:25:18.563Z"
     },
     "davidenders11": {
       "owner": "davidenders11",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:25:01.932Z"
+      "lastExecuted": "2022-06-12T19:25:18.563Z"
     },
     "Tridence": {
       "owner": "Tridence",
       "notFound": true,
-      "lastExecuted": "2022-06-12T07:25:01.932Z"
+      "lastExecuted": "2022-06-12T19:25:18.563Z"
     },
     "AmirA-RS": {
       "owner": "AmirA-RS",
@@ -1574,7 +1574,7 @@
     "TAKANOME-DEV": {
       "owner": "TAKANOME-DEV",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:25:01.932Z"
+      "lastExecuted": "2022-06-12T19:25:18.563Z"
     },
     "Siddhant-K-code": {
       "owner": "Siddhant-K-code",
@@ -2000,6 +2000,11 @@
       "owner": "rahulkarda",
       "notFound": false,
       "lastExecuted": "2022-06-12T14:26:33.730Z"
+    },
+    "Android-Jester": {
+      "owner": "Android-Jester",
+      "notFound": true,
+      "lastExecuted": "2022-06-12T19:25:18.563Z"
     }
   }
 }
