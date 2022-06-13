@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-13T04:55:43.293Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-13T06:48:25.973Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2964,8 +2964,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3810, 96395, 4, '2019-04-02T19:13:25', 'yizknn', 'https://github.com/faker-ruby/faker/pull/1592'),
 (3811, 96395, 1, '2011-09-05T13:23:00', 'maxmiliano', 'https://github.com/faker-ruby/faker/pull/33'),
 (3812, 96395, 4, '2019-02-02T00:49:54', 'mrstebo', 'https://github.com/faker-ruby/faker/pull/1523'),
-(3813, 96395, 1, '2015-11-02T22:34:13', 'npauzenga', 'https://github.com/faker-ruby/faker/pull/447'),
 (3814, 96395, 4, '2020-10-28T07:24:22', 'amatsuda', 'https://github.com/faker-ruby/faker/pull/2182'),
+(3813, 96395, 1, '2015-11-02T22:34:13', 'npauzenga', 'https://github.com/faker-ruby/faker/pull/447'),
 (3815, 96395, 4, '2018-07-12T17:13:41', 'tagliala', 'https://github.com/faker-ruby/faker/pull/1311'),
 (3816, 96395, 1, '2020-05-20T08:33:05', 'mattman', 'https://github.com/faker-ruby/faker/pull/1964'),
 (3817, 96395, 4, '2019-12-07T00:24:54', 'tiagofsilva', 'https://github.com/faker-ruby/faker/pull/1847'),
