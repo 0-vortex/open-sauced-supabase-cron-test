@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-13T18:48:03.206Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-13T20:45:39.778Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6321,8 +6321,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11888, 196760810, 4, '2021-04-12T01:37:32', 'D4RIO', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1436'),
 (11889, 196760810, 4, '2021-10-24T14:29:27', 'ruslanbes', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2544'),
 (11890, 196760810, 4, '2021-03-15T23:03:33', 'LuigiZambetti', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1287'),
-(11892, 196760810, 4, '2020-08-01T16:57:53', 'adriadejuan', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/192'),
 (11891, 196760810, 4, '2020-10-20T15:52:36', 'Bob-Johns', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/603'),
+(11892, 196760810, 4, '2020-08-01T16:57:53', 'adriadejuan', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/192'),
 (11893, 196760810, 4, '2022-01-13T10:19:52', 'lnugraha', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2932'),
 (11894, 196760810, 4, '2021-04-17T15:16:20', 'swordwielder', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1465'),
 (11895, 196760810, 4, '2021-10-08T15:51:40', 'danie007', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2397'),
@@ -6900,8 +6900,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9084, 19872456, 4, '2020-05-05T19:52:13', 'timdorr', 'https://github.com/remix-run/react-router/pull/7238'),
 (9089, 19872456, 1, '2016-06-21T06:02:52', 'avanderhoorn', 'https://github.com/remix-run/react-router/pull/3556'),
 (9076, 19872456, 4, '2021-11-09T14:53:40', 'jacob-ebey', 'https://github.com/remix-run/react-router/pull/8283'),
-(1086, 1234714, 4, '2016-09-08T19:50:41', 'jwarwick', 'https://github.com/elixir-lang/elixir/pull/5195'),
 (9086, 19872456, 4, '2017-03-28T15:42:13', 'agundermann', 'https://github.com/remix-run/react-router/pull/4858'),
+(1086, 1234714, 4, '2016-09-08T19:50:41', 'jwarwick', 'https://github.com/elixir-lang/elixir/pull/5195'),
 (1074, 1234714, 4, '2021-09-06T08:59:58', 'lexmag', 'https://github.com/elixir-lang/elixir/pull/11228'),
 (1073, 1234714, 4, '2022-06-03T21:24:31', 'whatyouhide', 'https://github.com/elixir-lang/elixir/pull/11896'),
 (1089, 1234714, 4, '2013-06-16T16:20:16', 'rafaelfranca', 'https://github.com/elixir-lang/elixir/pull/1263'),
@@ -7472,8 +7472,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5927, 187335810, 3, '2019-07-19T09:03:08', 'muesli', 'https://github.com/jesseduffield/lazydocker/pull/133'),
 (5920, 187335810, 1, '2019-07-01T23:22:15', 'icdevin', 'https://github.com/jesseduffield/lazydocker/pull/54'),
 (5913, 187335810, 1, '2021-12-03T10:10:37', 'conorbros', 'https://github.com/jesseduffield/lazydocker/pull/280'),
-(5926, 187335810, 1, '2022-01-09T07:11:43', 'dezren39', 'https://github.com/jesseduffield/lazydocker/pull/291'),
 (5916, 187335810, 1, '2021-11-26T10:48:01', 'comdotlinux', 'https://github.com/jesseduffield/lazydocker/pull/256'),
+(5926, 187335810, 1, '2022-01-09T07:11:43', 'dezren39', 'https://github.com/jesseduffield/lazydocker/pull/291'),
 (13260, 161983108, 1, '2021-04-21T08:46:49', 'Bad3r', 'https://github.com/abs-lang/abs/pull/423'),
 (13262, 161983108, 1, '2021-12-12T00:45:15', 'kkga', 'https://github.com/abs-lang/abs/pull/453'),
 (13264, 161983108, 2, '2021-12-12T00:45:36', 'chapmanjacobd', 'https://github.com/abs-lang/abs/pull/461'),
@@ -7829,8 +7829,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (325, 218115303, 4, '2020-02-24T20:05:27', 'Svish', 'https://github.com/vercel/swr/pull/265'),
 (9305, 218115303, 2, '2022-05-25T17:10:37', 'anirudh1713', 'https://github.com/vercel/swr/pull/1995'),
 (289, 218115303, 2, '2021-07-07T17:43:32', 'pacocoursey', 'https://github.com/vercel/swr/pull/1277'),
-(308, 218115303, 4, '2021-09-10T00:03:03', 'anothertempore', 'https://github.com/vercel/swr/pull/1440'),
 (321, 218115303, 4, '2020-06-12T23:42:54', 'sergiodxa', 'https://github.com/vercel/swr/pull/391'),
+(308, 218115303, 4, '2021-09-10T00:03:03', 'anothertempore', 'https://github.com/vercel/swr/pull/1440'),
 (320, 218115303, 4, '2020-01-11T02:29:28', 'aequasi', 'https://github.com/vercel/swr/pull/221'),
 (313, 218115303, 3, '2021-06-11T13:52:19', 'teinett', 'https://github.com/vercel/swr/pull/1206'),
 (287, 218115303, 2, '2020-12-20T05:36:14', 'darrenjennings', 'https://github.com/vercel/swr/pull/834'),
