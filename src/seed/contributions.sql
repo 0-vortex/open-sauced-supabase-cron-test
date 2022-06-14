@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T16:52:48.514Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T18:48:01.489Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4032,8 +4032,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4999, 139156354, 4, '2022-04-09T02:50:20', 'nmanovic', 'https://github.com/openvinotoolkit/cvat/pull/4556'),
 (5000, 139156354, 4, '2022-01-10T20:05:40', 'IRDonch', 'https://github.com/openvinotoolkit/cvat/pull/4136'),
 (4959, 280028251, 4, '2022-01-13T15:56:30', 'JessicaLim8', 'https://github.com/JessicaLim8/JessicaLim8/pull/1856'),
-(4989, 219881030, 3, '2019-12-09T01:50:00', 'ddesir', 'https://github.com/jseg787/random-playlist-generator/pull/3'),
 (5746, 281297416, 3, '2021-01-26T05:27:15', 'muhammadhanif', 'https://github.com/adityatelange/hugo-PaperMod/pull/197'),
+(4989, 219881030, 3, '2019-12-09T01:50:00', 'ddesir', 'https://github.com/jseg787/random-playlist-generator/pull/3'),
 (5757, 281297416, 2, '2022-05-08T02:59:45', 'RichardSlater', 'https://github.com/adityatelange/hugo-PaperMod/pull/906'),
 (12738, 329202727, 1, '2021-04-15T03:26:25', 'joshuacoles', 'https://github.com/blacksmithgu/obsidian-dataview/pull/103'),
 (12719, 329202727, 1, '2021-10-13T02:36:55', 'konodyuk', 'https://github.com/blacksmithgu/obsidian-dataview/pull/535'),
@@ -5187,6 +5187,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8767, 132732601, 3, '2021-11-11T13:09:12', 'balasu', 'https://github.com/canonical/microk8s/pull/2693'),
 (8760, 132732601, 2, '2021-11-03T05:17:53', 'eliaskoromilas', 'https://github.com/canonical/microk8s/pull/2681'),
 (8763, 132732601, 3, '2020-08-20T07:08:33', 'apnar', 'https://github.com/canonical/microk8s/pull/1502'),
+(5740, 439057606, 1, '2021-12-23T16:47:08', 'mnixry', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9'),
+(5739, 439057606, 1, '2021-12-29T23:59:04', 'cia-rana', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/11'),
 (714, 48393191, 1, '2017-06-20T21:33:50', 'dnlbyl', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/128'),
 (715, 48393191, 1, '2019-05-21T23:45:53', 'bognari', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/241'),
 (836, 208397359, 1, '2019-10-29T01:28:39', 'swissarmytech', 'https://github.com/proudmonkey/AutoWrapper/pull/10'),
@@ -5196,8 +5198,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (835, 208397359, 1, '2021-08-03T20:23:57', 'wylanosorio', 'https://github.com/proudmonkey/AutoWrapper/pull/114'),
 (3258, 274495425, 4, '2021-04-04T13:11:18', 'jeetiss', 'https://github.com/remotion-dev/remotion/pull/193'),
 (3299, 274495425, 4, '2022-01-19T16:31:36', 'arthurdenner', 'https://github.com/remotion-dev/remotion/pull/788'),
-(5739, 439057606, 1, '2021-12-29T23:59:04', 'cia-rana', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/11'),
-(5740, 439057606, 1, '2021-12-23T16:47:08', 'mnixry', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9'),
 (700, 48393191, 1, '2016-05-04T21:18:26', 'jkschneider', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/18'),
 (708, 48393191, 4, '2017-08-19T08:03:07', 'rspieldenner', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/146'),
 (726, 48393191, 1, '2017-07-19T18:46:40', 'jmcampanini', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/132'),
@@ -6192,8 +6192,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (23838, 45425758, 1, '2017-11-13T16:57:09', 'kant', 'https://github.com/microsoft/vscode-chrome-debug/pull/545'),
 (23839, 45425758, 1, '2017-10-05T05:31:30', 'jpap', 'https://github.com/microsoft/vscode-chrome-debug/pull/520'),
 (23840, 224392118, 4, '2022-06-10T08:40:56', 'bhumilsarvaiya', 'https://github.com/supertokens/supertokens-node/pull/327'),
-(5742, 185131263, 4, '2022-05-07T21:37:41', 'calebnance', 'https://github.com/calebnance/expo-spotify/pull/44'),
 (5741, 185131263, 1, '2019-08-19T02:26:10', 'bidah', 'https://github.com/calebnance/expo-spotify/pull/4'),
+(5742, 185131263, 4, '2022-05-07T21:37:41', 'calebnance', 'https://github.com/calebnance/expo-spotify/pull/44'),
 (5462, 98789146, 4, '2019-03-22T20:34:04', 'fforres', 'https://github.com/segmentio/evergreen/pull/528'),
 (5469, 98789146, 3, '2019-06-17T14:35:33', 'maraisr', 'https://github.com/segmentio/evergreen/pull/570'),
 (5474, 98789146, 4, '2019-11-13T16:00:37', 'IdealSystemsMCP', 'https://github.com/segmentio/evergreen/pull/678'),
@@ -7874,8 +7874,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (733, 281151556, 4, '2022-05-05T13:16:00', 'Wabri', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/99'),
 (737, 281151556, 3, '2022-05-16T08:46:53', 'BugliL', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/96'),
 (6284, 281151556, 1, '2022-05-21T08:03:51', 'senali-d', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/102'),
-(732, 281151556, 1, '2022-05-05T12:10:30', 'VeroPap', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/98'),
 (792, 9852918, 4, '2019-05-06T09:11:44', 'kirrg001', 'https://github.com/TryGhost/Ghost/pull/10726'),
+(732, 281151556, 1, '2022-05-05T12:10:30', 'VeroPap', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/98'),
 (790, 9852918, 4, '2022-05-24T11:38:42', 'kevinansfield', 'https://github.com/TryGhost/Ghost/pull/14883'),
 (797, 9852918, 4, '2020-07-06T16:09:25', 'JohnONolan', 'https://github.com/TryGhost/Ghost/pull/11986'),
 (795, 9852918, 4, '2022-06-01T09:12:23', 'ErisDS', 'https://github.com/TryGhost/Ghost/pull/14949'),
