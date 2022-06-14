@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T05:00:12.214Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T06:48:43.548Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3633,8 +3633,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4583, 63476337, 4, '2021-04-23T06:24:01', 'algobytewise', 'https://github.com/TheAlgorithms/Python/pull/4334'),
 (4584, 63476337, 4, '2020-10-26T04:07:12', 'Kush1101', 'https://github.com/TheAlgorithms/Python/pull/3620'),
 (4585, 63476337, 4, '2021-02-26T01:01:50', 'duyuanch', 'https://github.com/TheAlgorithms/Python/pull/4119'),
-(4587, 63476337, 4, '2018-04-16T12:19:31', 'christianbender', 'https://github.com/TheAlgorithms/Python/pull/294'),
 (4586, 63476337, 4, '2022-05-12T03:48:04', 'MaximSmolskiy', 'https://github.com/TheAlgorithms/Python/pull/5803'),
+(4587, 63476337, 4, '2018-04-16T12:19:31', 'christianbender', 'https://github.com/TheAlgorithms/Python/pull/294'),
 (4588, 63476337, 4, '2021-06-10T17:18:40', 'dhruvmanila', 'https://github.com/TheAlgorithms/Python/pull/4453'),
 (4589, 63476337, 4, '2020-05-19T17:31:53', 'SandersLin', 'https://github.com/TheAlgorithms/Python/pull/1889'),
 (4590, 63476337, 4, '2022-05-13T05:55:54', 'Rohanrbharadwaj', 'https://github.com/TheAlgorithms/Python/pull/5817'),
@@ -3893,8 +3893,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12185, 3678664, 1, '2018-12-17T20:21:23', 'stephengroat', 'https://github.com/shlomif/PySolFC/pull/96'),
 (12176, 232845464, 1, '2020-04-29T01:30:13', 'antw', 'https://github.com/elviswolcott/remark-admonitions/pull/23'),
 (3672, 5405654, 3, '2014-02-02T21:23:59', 'donkirkby', 'https://github.com/pcottle/learnGitBranching/pull/157'),
-(3687, 5405654, 4, '2017-10-18T22:37:33', 'alexandear', 'https://github.com/pcottle/learnGitBranching/pull/443'),
 (13140, 170577010, 1, '2020-04-09T14:33:54', 'tgarlot', 'https://github.com/dunod-docker/docker-examples-edition2/pull/8'),
+(3687, 5405654, 4, '2017-10-18T22:37:33', 'alexandear', 'https://github.com/pcottle/learnGitBranching/pull/443'),
 (24038, 120149974, 4, '2021-08-27T16:56:30', 'rihernandez', 'https://github.com/fonoster/fonoster/pull/149'),
 (24039, 120149974, 2, '2022-03-13T14:28:46', '0xflotus', 'https://github.com/fonoster/fonoster/pull/306'),
 (24040, 120149974, 4, '2022-04-21T15:35:29', 'efraa', 'https://github.com/fonoster/fonoster/pull/324'),
@@ -7567,12 +7567,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4330, 41718185, 4, '2022-03-08T09:39:06', 'nigrosimone', 'https://github.com/PatrickJS/awesome-angular/pull/451'),
 (4333, 41718185, 2, '2015-09-22T17:47:08', 'andresaraujo', 'https://github.com/PatrickJS/awesome-angular/pull/8'),
 (4335, 41718185, 3, '2016-03-03T15:40:19', 'valorkin', 'https://github.com/PatrickJS/awesome-angular/pull/75'),
-(4341, 41718185, 3, '2016-10-19T11:18:06', 'danday74', 'https://github.com/PatrickJS/awesome-angular/pull/159'),
 (4346, 41718185, 4, '2019-05-31T10:41:56', 'danrevah', 'https://github.com/PatrickJS/awesome-angular/pull/378'),
 (4334, 41718185, 1, '2015-09-23T05:37:33', 'jimthedev', 'https://github.com/PatrickJS/awesome-angular/pull/12'),
 (4345, 41718185, 1, '2020-09-30T02:26:55', 'benwinding', 'https://github.com/PatrickJS/awesome-angular/pull/417'),
 (4339, 41718185, 2, '2015-09-28T19:24:09', 'shuhei', 'https://github.com/PatrickJS/awesome-angular/pull/21'),
 (4349, 41718185, 3, '2021-04-11T11:43:31', 'evanplaice', 'https://github.com/PatrickJS/awesome-angular/pull/433'),
+(4341, 41718185, 3, '2016-10-19T11:18:06', 'danday74', 'https://github.com/PatrickJS/awesome-angular/pull/159'),
 (4343, 41718185, 1, '2016-05-03T14:55:53', 'krimple', 'https://github.com/PatrickJS/awesome-angular/pull/90'),
 (4332, 41718185, 4, '2018-10-23T07:08:17', 'rjoydip', 'https://github.com/PatrickJS/awesome-angular/pull/344'),
 (4338, 41718185, 4, '2018-02-15T09:57:20', 'JohannesHoppe', 'https://github.com/PatrickJS/awesome-angular/pull/307'),
@@ -8121,8 +8121,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1805, 227393393, 4, '2020-11-19T12:04:45', 'csharpfritz', 'https://github.com/livecoders/website/pull/193'),
 (1810, 227393393, 4, '2020-10-08T11:18:33', 'whitep4nth3r', 'https://github.com/livecoders/website/pull/164'),
 (1822, 227393393, 1, '2020-04-10T00:52:56', 'NotMyself', 'https://github.com/livecoders/website/pull/60'),
-(1806, 227393393, 1, '2020-03-27T16:09:52', 'sorskoot', 'https://github.com/livecoders/website/pull/31'),
 (1797, 227393393, 2, '2020-08-15T00:16:02', 'RamblingGeekUK', 'https://github.com/livecoders/website/pull/128'),
+(1806, 227393393, 1, '2020-03-27T16:09:52', 'sorskoot', 'https://github.com/livecoders/website/pull/31'),
 (1918, 28548699, 1, '2017-09-25T05:53:59', 'chthai64', 'https://github.com/cassidoo/getting-a-gig/pull/39'),
 (1817, 227393393, 4, '2020-08-15T01:16:53', 'LuckyNoS7evin', 'https://github.com/livecoders/website/pull/132'),
 (1911, 28548699, 1, '2019-05-27T02:27:43', 'parvezk', 'https://github.com/cassidoo/getting-a-gig/pull/41'),
