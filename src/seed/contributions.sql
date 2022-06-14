@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T12:57:04.216Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T14:44:31.324Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5896,10 +5896,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5183, 120595947, 1, '2018-04-29T22:39:06', 'AlexanderThaller', 'https://github.com/hello-rust/show/pull/30'),
 (5182, 120595947, 1, '2018-09-05T20:18:51', 'euantorano', 'https://github.com/hello-rust/show/pull/46'),
 (5187, 120595947, 1, '2020-08-09T11:14:39', 'chapeupreto', 'https://github.com/hello-rust/show/pull/64'),
-(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
-(8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
-(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
 (22513, 9312102, 2, '2020-04-12T23:10:35', 'punchagan', 'https://github.com/arc298/instagram-scraper/pull/494'),
+(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
+(8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
+(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
 (5189, 120595947, 1, '2018-11-28T13:16:40', 'la10736', 'https://github.com/hello-rust/show/pull/50'),
 (5186, 120595947, 1, '2018-05-13T20:20:17', 'barskern', 'https://github.com/hello-rust/show/pull/31'),
 (5188, 120595947, 1, '2019-11-15T15:12:55', 'TGotwig', 'https://github.com/hello-rust/show/pull/54'),
@@ -6885,8 +6885,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9055, 76996763, 1, '2022-04-14T10:25:50', 'schrer', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/220'),
 (9056, 76996763, 1, '2019-04-28T21:40:59', 'mathiassoeholm', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/166'),
 (9061, 76996763, 1, '2018-12-14T18:03:21', 'jeongukjae', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/116'),
-(9042, 76996763, 1, '2018-09-15T05:27:58', 'kazup01', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/92'),
 (9050, 76996763, 1, '2017-12-27T13:42:03', 'levi-rocha', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/34'),
+(9042, 76996763, 1, '2018-09-15T05:27:58', 'kazup01', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/92'),
 (9057, 76996763, 1, '2017-10-04T18:04:20', 'peterblazejewicz', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/18'),
 (9059, 76996763, 1, '2019-07-18T09:09:43', 'chawax', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/178'),
 (9052, 76996763, 1, '2019-09-20T20:44:12', 'louisrli', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/181'),
