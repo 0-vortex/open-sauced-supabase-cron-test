@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T03:27:54.692Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T05:00:12.214Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1776,9 +1776,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3102, 290234921, 1, '2020-10-19T03:14:51', 'naklic0der', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/47'),
 (3097, 290234921, 1, '2020-09-25T15:51:53', 'mattjperez', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/9'),
 (3081, 290234921, 2, '2021-02-06T19:57:02', 'JoseDeFreitas', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/67'),
+(3100, 290234921, 1, '2021-04-27T23:33:49', 'henry-burgess', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/70'),
 (3088, 290234921, 1, '2020-10-14T17:35:59', 'jgysland', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/40'),
 (3099, 290234921, 1, '2021-11-12T11:39:22', 'keshavgbpecdelhi', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/82'),
-(3100, 290234921, 1, '2021-04-27T23:33:49', 'henry-burgess', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/70'),
 (3098, 290234921, 1, '2021-03-21T18:25:11', 'Dibakarroy1997', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/68'),
 (3068, 290234921, 1, '2021-01-13T14:38:29', 'ebenezerdon', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/61'),
 (2381, 14741294, 1, '2018-10-29T21:32:28', 'MauroCoppola', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/519'),
@@ -3438,8 +3438,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4312, 238851101, 1, '2022-05-04T03:38:27', 'silveracy', 'https://github.com/naver/fe-news/pull/27'),
 (4313, 238851101, 1, '2021-01-06T06:47:45', 'ygnoh', 'https://github.com/naver/fe-news/pull/9'),
 (4311, 238851101, 1, '2020-07-01T02:07:25', 'sculove', 'https://github.com/naver/fe-news/pull/5'),
-(4315, 238851101, 1, '2022-05-16T12:50:32', 'wdh2100', 'https://github.com/naver/fe-news/pull/29'),
 (4314, 238851101, 1, '2022-05-05T15:31:07', 'joonas-yoon', 'https://github.com/naver/fe-news/pull/28'),
+(4315, 238851101, 1, '2022-05-16T12:50:32', 'wdh2100', 'https://github.com/naver/fe-news/pull/29'),
 (4316, 238851101, 4, '2022-03-02T04:31:00', 'BillionaireDY', 'https://github.com/naver/fe-news/pull/24'),
 (4292, 370668507, 1, '2021-08-03T03:14:51', 'bendrucker', 'https://github.com/rhysd/actionlint/pull/21'),
 (4295, 370668507, 1, '2022-04-12T04:06:45', 'suzuki-shunsuke', 'https://github.com/rhysd/actionlint/pull/131'),
@@ -3633,8 +3633,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4583, 63476337, 4, '2021-04-23T06:24:01', 'algobytewise', 'https://github.com/TheAlgorithms/Python/pull/4334'),
 (4584, 63476337, 4, '2020-10-26T04:07:12', 'Kush1101', 'https://github.com/TheAlgorithms/Python/pull/3620'),
 (4585, 63476337, 4, '2021-02-26T01:01:50', 'duyuanch', 'https://github.com/TheAlgorithms/Python/pull/4119'),
-(4586, 63476337, 4, '2022-05-12T03:48:04', 'MaximSmolskiy', 'https://github.com/TheAlgorithms/Python/pull/5803'),
 (4587, 63476337, 4, '2018-04-16T12:19:31', 'christianbender', 'https://github.com/TheAlgorithms/Python/pull/294'),
+(4586, 63476337, 4, '2022-05-12T03:48:04', 'MaximSmolskiy', 'https://github.com/TheAlgorithms/Python/pull/5803'),
 (4588, 63476337, 4, '2021-06-10T17:18:40', 'dhruvmanila', 'https://github.com/TheAlgorithms/Python/pull/4453'),
 (4589, 63476337, 4, '2020-05-19T17:31:53', 'SandersLin', 'https://github.com/TheAlgorithms/Python/pull/1889'),
 (4590, 63476337, 4, '2022-05-13T05:55:54', 'Rohanrbharadwaj', 'https://github.com/TheAlgorithms/Python/pull/5817'),
@@ -5094,6 +5094,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (664, 79485650, 1, '2019-09-25T16:02:06', 'm-green', 'https://github.com/alphagov/accessible-autocomplete/pull/375'),
 (666, 79485650, 1, '2017-04-07T15:12:44', 'ganes1410', 'https://github.com/alphagov/accessible-autocomplete/pull/45'),
 (667, 79485650, 1, '2018-08-02T08:48:15', 'benistary', 'https://github.com/alphagov/accessible-autocomplete/pull/288'),
+(665, 79485650, 1, '2017-03-27T10:57:53', 'richardTowers', 'https://github.com/alphagov/accessible-autocomplete/pull/24'),
 (655, 79485650, 1, '2019-01-02T09:44:41', 'aliuk2012', 'https://github.com/alphagov/accessible-autocomplete/pull/324'),
 (662, 79485650, 2, '2017-09-22T19:29:06', 'samtsai', 'https://github.com/alphagov/accessible-autocomplete/pull/238'),
 (8765, 132732601, 4, '2019-10-21T09:31:30', 'giner', 'https://github.com/canonical/microk8s/pull/722'),
@@ -5138,7 +5139,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2604, 23024191, 4, '2016-11-02T16:00:42', 'christophepersoz', 'https://github.com/neu-rah/ArduinoMenu/pull/66'),
 (2632, 23024191, 3, '2017-10-24T17:32:12', 'reaper7', 'https://github.com/neu-rah/ArduinoMenu/pull/128'),
 (12221, 124910572, 3, '2020-05-18T12:58:12', 'monperrus', 'https://github.com/mozilla/bugbug/pull/1582'),
-(665, 79485650, 1, '2017-03-27T10:57:53', 'richardTowers', 'https://github.com/alphagov/accessible-autocomplete/pull/24'),
 (5389, 91151442, 4, '2021-06-25T02:53:22', 'scalexm', 'https://github.com/PyO3/pyo3/pull/1697'),
 (2445, 65848095, 4, '2020-07-03T21:46:07', 'regevbr', 'https://github.com/requarks/wiki/pull/2126'),
 (2548, 65848095, 4, '2020-02-16T03:35:53', 'alancnet', 'https://github.com/requarks/wiki/pull/1480'),
