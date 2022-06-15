@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T08:47:58.400Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T10:46:21.262Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2364,7 +2364,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3206, 324575078, 4, '2022-05-20T04:19:49', 'iamrahulmahato', 'https://github.com/Kushal997-das/Project-Guidance/pull/666'),
 (3194, 324575078, 3, '2022-03-27T02:39:31', 'Satyam26-09', 'https://github.com/Kushal997-das/Project-Guidance/pull/430'),
 (3221, 324575078, 4, '2021-10-05T12:57:44', 'UG-SEP', 'https://github.com/Kushal997-das/Project-Guidance/pull/182'),
-(3193, 324575078, 4, '2022-05-24T15:07:56', 'XZANATOL', 'https://github.com/Kushal997-das/Project-Guidance/pull/696'),
 (23105, 27193779, 4, '2020-03-16T11:01:58', 'rvagg', 'https://github.com/nodejs/node/pull/32243'),
 (11414, 328335330, 1, '2021-04-30T16:45:31', 'coder-cell', 'https://github.com/null8626/python-weather/pull/3'),
 (11416, 60148343, 3, '2020-06-08T20:00:45', 'dparson55', 'https://github.com/dparson55/NRFLite/pull/43'),
@@ -2402,6 +2401,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5480, 52342167, 1, '2021-04-28T00:55:11', 'ioreka', 'https://github.com/kakoni/awesome-healthcare/pull/61'),
 (5490, 52342167, 1, '2018-03-04T17:36:43', 'xispa', 'https://github.com/kakoni/awesome-healthcare/pull/40'),
 (5485, 52342167, 1, '2017-03-28T12:05:35', 'EliotSlevin', 'https://github.com/kakoni/awesome-healthcare/pull/6'),
+(3193, 324575078, 4, '2022-05-24T15:07:56', 'XZANATOL', 'https://github.com/Kushal997-das/Project-Guidance/pull/696'),
 (5489, 52342167, 1, '2018-10-31T20:29:48', 'jdl031', 'https://github.com/kakoni/awesome-healthcare/pull/45'),
 (5496, 52342167, 1, '2022-03-14T08:23:21', 'ieee8023', 'https://github.com/kakoni/awesome-healthcare/pull/66'),
 (11938, 293570349, 2, '2020-11-03T10:46:41', 'renaultfernandes', 'https://github.com/cocogitto/cocogitto/pull/82'),
