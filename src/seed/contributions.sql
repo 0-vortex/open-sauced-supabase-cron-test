@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T06:47:48.429Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T08:47:58.400Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3843,8 +3843,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16123, 150961965, 1, '2021-01-27T15:51:52', 'Trisky', 'https://github.com/Mortennn/Dozer/pull/144'),
 (12101, 100433561, 3, '2018-07-22T07:21:40', 'jakob223', 'https://github.com/downforacross/downforacross.com/pull/13'),
 (12114, 100433561, 2, '2020-04-05T07:34:40', 'leekkww', 'https://github.com/downforacross/downforacross.com/pull/87'),
-(12108, 100433561, 1, '2020-09-30T01:33:23', 'edemaine', 'https://github.com/downforacross/downforacross.com/pull/120'),
 (12102, 100433561, 2, '2021-06-06T19:59:21', 'ajhyndman', 'https://github.com/downforacross/downforacross.com/pull/195'),
+(12108, 100433561, 1, '2020-09-30T01:33:23', 'edemaine', 'https://github.com/downforacross/downforacross.com/pull/120'),
 (12104, 100433561, 1, '2021-03-26T15:41:53', 'dangeng', 'https://github.com/downforacross/downforacross.com/pull/180'),
 (12111, 344697559, 1, '2021-12-14T02:03:09', 'kmandr22', 'https://github.com/nalmadi/EMIP-Toolkit/pull/31'),
 (12109, 100433561, 2, '2018-09-24T21:35:02', 'bingcao', 'https://github.com/downforacross/downforacross.com/pull/44'),
@@ -4831,8 +4831,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5872, 1548202, 4, '2020-12-31T20:49:11', 'c960657', 'https://github.com/matomo-org/matomo/pull/17021'),
 (3359, 501689, 1, '2020-09-07T17:48:59', 'peteruhnak', 'https://github.com/antlr/stringtemplate4/pull/263'),
 (5299, 326460518, 1, '2021-04-27T00:03:31', 'ChrisMiuchiz', 'https://github.com/ratfactor/ziglings/pull/47'),
-(22376, 440752086, 4, '2022-02-28T17:50:56', 'jawnsy', 'https://github.com/coder/coder/pull/377'),
 (5662, 82729529, 1, '2018-10-05T18:29:55', 'alexshadley', 'https://github.com/google/python-fire/pull/141'),
+(22376, 440752086, 4, '2022-02-28T17:50:56', 'jawnsy', 'https://github.com/coder/coder/pull/377'),
 (22377, 440752086, 4, '2022-06-09T18:46:16', 'BrunoQuaresma', 'https://github.com/coder/coder/pull/2133'),
 (22378, 440752086, 4, '2022-06-08T16:51:33', 'spikecurtis', 'https://github.com/coder/coder/pull/2150'),
 (22379, 440752086, 4, '2022-06-03T17:47:57', 'dwahler', 'https://github.com/coder/coder/pull/2036'),
