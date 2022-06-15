@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-15T21:21:07.766Z",
+  "lastExecuted": "2022-06-15T21:30:49.158Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -1604,7 +1604,7 @@
     "joe-bell": {
       "owner": "joe-bell",
       "notFound": false,
-      "lastExecuted": "2022-06-15T09:24:30.536Z"
+      "lastExecuted": "2022-06-15T21:30:49.158Z"
     },
     "ABGEO": {
       "owner": "ABGEO",
@@ -1919,7 +1919,7 @@
     "vanderFlierFilip": {
       "owner": "vanderFlierFilip",
       "notFound": false,
-      "lastExecuted": "2022-06-15T09:24:30.536Z"
+      "lastExecuted": "2022-06-15T21:30:49.158Z"
     },
     "ralphiz": {
       "owner": "ralphiz",
@@ -2020,6 +2020,11 @@
       "owner": "vishjain",
       "notFound": false,
       "lastExecuted": "2022-06-15T17:23:03.523Z"
+    },
+    "leon-wolf": {
+      "owner": "leon-wolf",
+      "notFound": false,
+      "lastExecuted": "2022-06-15T21:30:49.158Z"
     }
   }
 }
