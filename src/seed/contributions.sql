@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T01:06:16.381Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T04:53:47.495Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3932,8 +3932,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4861, 88447006, 2, '2017-10-10T18:59:05', 'yozef', 'https://github.com/Scanate/EthList/pull/22'),
 (4862, 88447006, 2, '2018-03-15T18:22:09', 'ethers', 'https://github.com/Scanate/EthList/pull/39'),
 (4863, 88447006, 2, '2018-01-22T14:37:17', 'Shivamnema', 'https://github.com/Scanate/EthList/pull/33'),
-(4864, 88447006, 1, '2017-05-27T14:47:11', 'kristallizer', 'https://github.com/Scanate/EthList/pull/7'),
 (4865, 88447006, 1, '2017-05-27T14:45:27', 'naterush', 'https://github.com/Scanate/EthList/pull/6'),
+(4864, 88447006, 1, '2017-05-27T14:47:11', 'kristallizer', 'https://github.com/Scanate/EthList/pull/7'),
 (4801, 4302287, 1, '2017-10-04T07:05:09', 'Exandra', 'https://github.com/plutext/docx4j/pull/257'),
 (4802, 4302287, 1, '2017-01-19T06:03:37', 'ashtonbatty', 'https://github.com/plutext/docx4j/pull/231'),
 (4809, 4302287, 1, '2017-06-15T00:44:45', 'danilozagato', 'https://github.com/plutext/docx4j/pull/247'),
