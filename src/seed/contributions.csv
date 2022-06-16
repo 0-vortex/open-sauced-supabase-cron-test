@@ -6028,6 +6028,7 @@ id,repo_id,count,last_merged_at,contributor,url
 11661,69193081,1,2017-08-21T21:14:43,rsarky,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/74
 11666,69193081,2,2021-03-25T22:46:42,vkWeb,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/538
 11664,69193081,2,2020-05-04T21:41:15,sandip2224,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/397
+5902,409100695,1,2022-01-03T10:04:56,andredevsantos,https://github.com/abodmicheal/react-js-stickynav/pull/2
 11667,69193081,2,2021-03-25T23:05:27,shlee8405,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/535
 22528,137223122,1,2021-06-28T15:11:57,j0hax,https://github.com/deepjyoti30/ytmdl/pull/189
 22529,137223122,3,2022-04-16T06:03:51,xgqt,https://github.com/deepjyoti30/ytmdl/pull/230
@@ -6055,7 +6056,6 @@ id,repo_id,count,last_merged_at,contributor,url
 12843,23247808,3,2020-02-08T14:57:51,runsisi,https://github.com/rqlite/rqlite/pull/627
 12840,23247808,1,2016-02-29T01:17:08,tcyrus,https://github.com/rqlite/rqlite/pull/68
 12835,23247808,1,2021-11-09T12:40:42,tiswo,https://github.com/rqlite/rqlite/pull/922
-5902,409100695,1,2022-01-03T10:04:56,andredevsantos,https://github.com/abodmicheal/react-js-stickynav/pull/2
 24056,120149974,1,2022-06-04T00:57:38,infinitydon,https://github.com/fonoster/fonoster/pull/358
 24057,120149974,1,2022-02-23T15:44:26,harish-chander,https://github.com/fonoster/fonoster/pull/297
 24058,120149974,1,2022-06-03T20:01:48,judgegodwins,https://github.com/fonoster/fonoster/pull/345
