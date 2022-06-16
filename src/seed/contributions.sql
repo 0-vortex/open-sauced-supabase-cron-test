@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-16T08:48:55.469Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-16T10:46:21.517Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1864,8 +1864,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2420, 337091427, 1, '2021-10-04T17:31:45', 'thinkybeast', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/51'),
 (2421, 337091427, 4, '2021-10-21T20:25:53', 'jxnblk', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/50'),
 (2422, 337091427, 1, '2021-05-03T22:37:11', 'ascorbic', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/8'),
-(2424, 337091427, 4, '2021-05-06T10:49:25', 'wardpeet', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/20'),
 (2423, 337091427, 2, '2021-05-04T22:09:09', 'meganesu', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/14'),
+(2424, 337091427, 4, '2021-05-06T10:49:25', 'wardpeet', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/20'),
 (2425, 337091427, 1, '2021-06-25T21:02:24', 'Kerl1310', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/30'),
 (2426, 337091427, 1, '2021-11-30T18:48:53', 'kooma93', 'https://github.com/gatsbyjs/gatsby-starter-shopify/pull/48'),
 (2427, 103953059, 1, '2017-10-01T09:54:37', 'arguiot', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/41'),
@@ -2411,8 +2411,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11853, 326404870, 4, '2021-10-22T11:36:05', 'jyash97', 'https://github.com/SigNoz/signoz/pull/344'),
 (11854, 326404870, 4, '2022-05-19T16:54:59', 'srikanthccv', 'https://github.com/SigNoz/signoz/pull/1111'),
 (11855, 326404870, 4, '2021-08-29T07:31:39', 'rajdas66', 'https://github.com/SigNoz/signoz/pull/283'),
-(11856, 326404870, 4, '2021-12-24T06:23:53', 'aryanshridhar', 'https://github.com/SigNoz/signoz/pull/538'),
 (11857, 326404870, 4, '2022-05-04T16:15:20', 'ahsanbarkati', 'https://github.com/SigNoz/signoz/pull/1080'),
+(11856, 326404870, 4, '2021-12-24T06:23:53', 'aryanshridhar', 'https://github.com/SigNoz/signoz/pull/538'),
 (11858, 326404870, 1, '2022-02-25T11:36:46', 'udasitharani', 'https://github.com/SigNoz/signoz/pull/753'),
 (11859, 326404870, 2, '2021-10-11T11:00:50', 'szatyinadam', 'https://github.com/SigNoz/signoz/pull/329'),
 (3022, 100060912, 4, '2022-06-01T17:53:56', 'j4james', 'https://github.com/microsoft/terminal/pull/13208'),
@@ -2894,11 +2894,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2106, 26500787, 1, '2017-08-07T13:12:02', 'ccharles', 'https://github.com/tonsky/FiraCode/pull/469'),
 (2111, 26500787, 1, '2017-02-15T18:42:41', 'xdaDaveShaw', 'https://github.com/tonsky/FiraCode/pull/358'),
 (2103, 26500787, 1, '2015-12-20T06:52:00', 'chergert', 'https://github.com/tonsky/FiraCode/pull/80'),
+(2096, 26500787, 1, '2015-12-21T19:53:22', 'dlh3', 'https://github.com/tonsky/FiraCode/pull/94'),
+(2108, 26500787, 1, '2020-03-06T10:56:33', 'Druhin13', 'https://github.com/tonsky/FiraCode/pull/964'),
 (4506, 139258121, 1, '2020-12-23T15:59:42', 'JohannesLamberts', 'https://github.com/gajus/lightship/pull/30'),
 (4507, 139258121, 1, '2019-11-05T10:11:50', 'tizmagik', 'https://github.com/gajus/lightship/pull/16'),
 (4505, 139258121, 1, '2018-07-18T08:12:14', 'drubin', 'https://github.com/gajus/lightship/pull/2'),
-(2096, 26500787, 1, '2015-12-21T19:53:22', 'dlh3', 'https://github.com/tonsky/FiraCode/pull/94'),
-(2108, 26500787, 1, '2020-03-06T10:56:33', 'Druhin13', 'https://github.com/tonsky/FiraCode/pull/964'),
 (4504, 139258121, 1, '2019-07-27T07:04:40', 'waldemarnt', 'https://github.com/gajus/lightship/pull/13'),
 (4848, 507, 2, '2012-06-04T13:33:40', 'laserlemon', 'https://github.com/sferik/twitter/pull/265'),
 (4836, 507, 1, '2013-07-25T23:42:21', 'sferik', 'https://github.com/sferik/twitter/pull/429'),
@@ -3716,6 +3716,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2867, 27380215, 1, '2017-07-03T13:54:25', 'huggla', 'https://github.com/vimagick/dockerfiles/pull/53'),
 (16830, 121814210, 1, '2020-09-22T21:13:08', 'pavelkeyzik', 'https://github.com/primer/react/pull/869'),
 (22116, 69193081, 2, '2022-06-08T22:10:40', 'altela', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/555'),
+(22128, 69193081, 2, '2022-06-06T21:23:22', 'GAbdulwhb', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/723'),
 (4543, 378536025, 1, '2021-06-21T09:17:52', 'akegaviar', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/4'),
 (4536, 378536025, 4, '2022-03-11T00:14:52', 'alvaroserrrano', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/41'),
 (4539, 378536025, 3, '2021-07-05T13:58:50', 'Dilrong', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/23'),
@@ -4264,7 +4265,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5130, 70137417, 4, '2022-05-17T09:08:03', 'adelel1', 'https://github.com/corda/corda/pull/7175'),
 (5131, 70137417, 4, '2020-09-15T15:52:09', 'blsemo', 'https://github.com/corda/corda/pull/6712'),
 (5132, 70137417, 1, '2017-01-12T12:41:47', 'sofusmortensen', 'https://github.com/corda/corda/pull/148'),
-(22128, 69193081, 2, '2022-06-06T21:23:22', 'GAbdulwhb', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/723'),
 (5133, 70137417, 4, '2018-11-23T15:20:11', 'kchalkias', 'https://github.com/corda/corda/pull/4286'),
 (5134, 70137417, 4, '2022-05-19T12:37:48', 'vkolomeyko', 'https://github.com/corda/corda/pull/7177'),
 (5135, 70137417, 4, '2019-07-03T14:00:56', 'r3domfox', 'https://github.com/corda/corda/pull/5240'),
@@ -4691,10 +4691,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12745, 16685462, 2, '2014-10-07T01:55:38', 'andystrobel', 'https://github.com/humhub/humhub/pull/249'),
 (2521, 35955666, 4, '2018-04-07T20:25:51', 'dspinellis', 'https://github.com/jlevy/the-art-of-command-line/pull/554'),
 (2543, 35955666, 1, '2016-08-25T19:07:14', 'fernandoalmeida', 'https://github.com/jlevy/the-art-of-command-line/pull/452'),
-(2529, 35955666, 1, '2015-07-08T15:16:01', 'BishopWolf', 'https://github.com/jlevy/the-art-of-command-line/pull/164'),
 (2514, 35955666, 4, '2016-01-22T21:21:17', 'uggla', 'https://github.com/jlevy/the-art-of-command-line/pull/350'),
 (2485, 35955666, 1, '2016-08-26T15:46:59', 'mark-i-m', 'https://github.com/jlevy/the-art-of-command-line/pull/450'),
 (2538, 35955666, 1, '2016-02-17T06:34:12', 'Lakshmipathi', 'https://github.com/jlevy/the-art-of-command-line/pull/375'),
+(2529, 35955666, 1, '2015-07-08T15:16:01', 'BishopWolf', 'https://github.com/jlevy/the-art-of-command-line/pull/164'),
 (2526, 35955666, 3, '2016-02-20T18:53:28', 'timacs', 'https://github.com/jlevy/the-art-of-command-line/pull/383'),
 (2510, 35955666, 4, '2016-08-20T22:35:29', 'dmytro', 'https://github.com/jlevy/the-art-of-command-line/pull/445'),
 (2454, 65848095, 3, '2021-04-12T15:39:35', 'lkho', 'https://github.com/requarks/wiki/pull/3823'),
