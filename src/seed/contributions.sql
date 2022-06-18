@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T10:44:49.264Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T12:52:44.272Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6404,8 +6404,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5767, 281297416, 1, '2021-04-14T19:14:10', '1000283', 'https://github.com/adityatelange/hugo-PaperMod/pull/350'),
 (11843, 326404870, 4, '2022-05-25T12:49:44', 'prashant-shahi', 'https://github.com/SigNoz/signoz/pull/1201'),
 (11844, 326404870, 4, '2022-05-30T17:01:14', 'palash-signoz', 'https://github.com/SigNoz/signoz/pull/1209'),
-(11846, 326404870, 4, '2022-05-25T07:44:31', 'pranshuchittora', 'https://github.com/SigNoz/signoz/pull/1204'),
 (11845, 326404870, 4, '2021-05-17T11:53:27', 'dhrubesh', 'https://github.com/SigNoz/signoz/pull/109'),
+(11846, 326404870, 4, '2022-05-25T07:44:31', 'pranshuchittora', 'https://github.com/SigNoz/signoz/pull/1204'),
 (11847, 326404870, 4, '2021-07-14T07:05:40', 'nidhi-tandon', 'https://github.com/SigNoz/signoz/pull/213'),
 (2260, 43623432, 1, '2015-10-05T05:15:52', 'tobiaspal', 'https://github.com/qw3rtman/git-fire/pull/7'),
 (3900, 123625732, 4, '2021-09-30T02:28:49', 'Ibrahimmaga', 'https://github.com/microsoft/fast/pull/5228'),
@@ -6990,9 +6990,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1042, 59096058, 4, '2022-03-18T16:15:43', 'tpatel', 'https://github.com/TryGhost/Admin/pull/2287'),
 (1034, 59096058, 4, '2022-04-22T10:42:51', 'moreofmorris', 'https://github.com/TryGhost/Admin/pull/2345'),
 (1038, 59096058, 4, '2018-03-20T09:57:31', 'acburdine', 'https://github.com/TryGhost/Admin/pull/979'),
-(1039, 59096058, 4, '2018-12-17T10:57:27', 'kirrg001', 'https://github.com/TryGhost/Admin/pull/1087'),
 (1036, 59096058, 4, '2017-01-16T19:45:13', 'greenkeeperio-bot', 'https://github.com/TryGhost/Admin/pull/493'),
 (1044, 59096058, 4, '2021-10-22T10:29:55', 'aileen', 'https://github.com/TryGhost/Admin/pull/2116'),
+(1039, 59096058, 4, '2018-12-17T10:57:27', 'kirrg001', 'https://github.com/TryGhost/Admin/pull/1087'),
 (9004, 230327376, 2, '2020-06-08T03:12:12', 'albertnadal', 'https://github.com/ErikCH/DevYouTubeList/pull/142'),
 (9000, 230327376, 1, '2020-01-02T04:41:34', 'hadihammurabi', 'https://github.com/ErikCH/DevYouTubeList/pull/52'),
 (8996, 230327376, 1, '2019-12-30T05:14:29', 'Marvel-Ib', 'https://github.com/ErikCH/DevYouTubeList/pull/21'),
@@ -7928,8 +7928,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24535, 408726855, 1, '2021-12-02T12:11:27', 'daveg7lee', 'https://github.com/junh0328/prepare_frontend_interview/pull/7'),
 (24536, 408726855, 1, '2022-01-05T03:02:33', 'je0ngyun', 'https://github.com/junh0328/prepare_frontend_interview/pull/9'),
 (24537, 408726855, 4, '2021-10-20T01:32:43', 'leemember', 'https://github.com/junh0328/prepare_frontend_interview/pull/5'),
-(24538, 408726855, 1, '2022-04-09T14:43:44', 'Jetty2020', 'https://github.com/junh0328/prepare_frontend_interview/pull/11'),
 (24504, 326338540, 4, '2022-06-13T21:01:21', 'therealr5', 'https://github.com/Breq16/flask-discord-interactions/pull/100'),
+(24538, 408726855, 1, '2022-04-09T14:43:44', 'Jetty2020', 'https://github.com/junh0328/prepare_frontend_interview/pull/11'),
 (24500, 326338540, 1, '2021-04-23T05:19:23', 'akiller', 'https://github.com/Breq16/flask-discord-interactions/pull/13'),
 (24506, 326338540, 1, '2021-04-14T20:39:28', 'bradday4', 'https://github.com/Breq16/flask-discord-interactions/pull/7'),
 (24505, 326338540, 1, '2021-08-11T01:46:24', 'williamhatcher', 'https://github.com/Breq16/flask-discord-interactions/pull/38'),
