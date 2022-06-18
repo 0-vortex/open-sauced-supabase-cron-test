@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T06:47:16.305Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T08:46:30.780Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1964,8 +1964,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2641, 21938243, 4, '2020-04-21T10:21:00', 'yaa110', 'https://github.com/rust-unofficial/awesome-rust/pull/878'),
 (5773, 138754790, 1, '2019-03-19T11:39:11', 'aris-koning', 'https://github.com/duckdb/duckdb/pull/95'),
 (1782, 290703027, 4, '2021-10-06T19:28:12', 'krishkavya', 'https://github.com/kothariji/competitive-programming/pull/433'),
-(1773, 290703027, 2, '2020-10-01T04:28:07', '27Anurag', 'https://github.com/kothariji/competitive-programming/pull/22'),
 (5779, 138754790, 3, '2021-12-08T17:48:47', 'Manerone', 'https://github.com/duckdb/duckdb/pull/2526'),
+(1773, 290703027, 2, '2020-10-01T04:28:07', '27Anurag', 'https://github.com/kothariji/competitive-programming/pull/22'),
 (5776, 138754790, 1, '2022-03-24T09:06:01', 'hmb1', 'https://github.com/duckdb/duckdb/pull/3084'),
 (2586, 305444094, 3, '2021-07-21T14:25:13', 'pardel', 'https://github.com/nexmo-community/clientsdk-the-v-app/pull/13'),
 (3746, 3946572, 1, '2021-03-05T14:29:48', 'doekman', 'https://github.com/PostgresApp/PostgresApp/pull/619'),
@@ -2665,9 +2665,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5812, 105412971, 1, '2019-10-10T09:24:43', 'f2acode', 'https://github.com/stereobooster/react-snap/pull/416'),
 (3396, 286380425, 1, '2020-11-19T06:17:55', 'mix1009', 'https://github.com/Frezyx/group_button/pull/7'),
 (3388, 278305049, 1, '2020-07-09T09:06:09', 'mmphego', 'https://github.com/mmphego/mmphego/pull/1'),
+(11396, 28267106, 1, '2019-05-30T13:09:23', 'Sidelobe', 'https://github.com/mLupine/SoundflowerBed/pull/3'),
 (11401, 61202664, 4, '2022-04-30T20:20:58', 'Paulchen-Panther', 'https://github.com/hyperion-project/hyperion.ng/pull/1444'),
 (11405, 61202664, 4, '2022-05-31T10:29:49', 'Lord-Grey', 'https://github.com/hyperion-project/hyperion.ng/pull/1474'),
-(11396, 28267106, 1, '2019-05-30T13:09:23', 'Sidelobe', 'https://github.com/mLupine/SoundflowerBed/pull/3'),
 (5829, 105412971, 1, '2018-12-05T09:53:06', 'kjkta', 'https://github.com/stereobooster/react-snap/pull/312'),
 (11410, 61202664, 1, '2019-08-11T21:23:37', 'bennealon', 'https://github.com/hyperion-project/hyperion.ng/pull/589'),
 (3394, 293844582, 4, '2021-02-17T14:41:50', 'Arax1', 'https://github.com/spicygreenbook/greenbook-app/pull/280'),
@@ -2737,9 +2737,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3478, 75322405, 4, '2019-10-22T17:29:19', 'rshriram', 'https://github.com/istio/proxy/pull/2482'),
 (3479, 75322405, 4, '2017-09-08T16:45:33', 'mtakigiku', 'https://github.com/istio/proxy/pull/469'),
 (3480, 75322405, 4, '2020-03-19T22:27:15', 'yxue', 'https://github.com/istio/proxy/pull/2774'),
+(3481, 75322405, 4, '2020-12-10T00:49:02', 'gargnupur', 'https://github.com/istio/proxy/pull/3123'),
 (3482, 75322405, 4, '2017-04-11T00:29:48', 'chowchow316', 'https://github.com/istio/proxy/pull/239'),
 (3483, 75322405, 4, '2022-05-17T12:53:08', 'istio-testing', 'https://github.com/istio/proxy/pull/3856'),
-(3481, 75322405, 4, '2020-12-10T00:49:02', 'gargnupur', 'https://github.com/istio/proxy/pull/3123'),
 (3484, 75322405, 4, '2022-03-28T19:09:13', 'bianpengyuan', 'https://github.com/istio/proxy/pull/3787'),
 (3485, 75322405, 4, '2022-04-09T08:51:46', 'kyessenov', 'https://github.com/istio/proxy/pull/3801'),
 (3448, 375201253, 1, '2022-01-21T00:27:59', 'emrahsariboz', 'https://github.com/PatrickAlphaC/fund_me/pull/15'),
@@ -3264,8 +3264,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12422, 1213225, 4, '2021-04-04T00:42:12', 'egor-rogov', 'https://github.com/highlightjs/highlight.js/pull/3102'),
 (12418, 1213225, 2, '2017-04-10T00:27:29', 'rparree', 'https://github.com/highlightjs/highlight.js/pull/1487'),
 (12415, 1213225, 4, '2021-11-01T00:37:00', 'Hirse', 'https://github.com/highlightjs/highlight.js/pull/3380'),
-(3425, 4166567, 1, '2015-03-22T15:03:54', 'sandstrom', 'https://github.com/BerlinVagrant/vagrant-dns/pull/36'),
 (3420, 4166567, 1, '2013-06-03T12:20:28', 'sheerun', 'https://github.com/BerlinVagrant/vagrant-dns/pull/12'),
+(3425, 4166567, 1, '2015-03-22T15:03:54', 'sandstrom', 'https://github.com/BerlinVagrant/vagrant-dns/pull/36'),
 (738, 88011908, 2, '2021-08-26T09:34:17', 'booleanhunter', 'https://github.com/practical-tutorials/project-based-learning/pull/314'),
 (13265, 161983108, 1, '2021-04-03T14:23:27', 'shidhincr', 'https://github.com/abs-lang/abs/pull/416'),
 (13256, 161983108, 4, '2020-08-14T15:50:06', 'gromgit', 'https://github.com/abs-lang/abs/pull/394'),
@@ -5562,9 +5562,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1442, 210332258, 1, '2020-06-23T04:14:23', 'idkjs', 'https://github.com/hasura/learn-graphql/pull/236'),
 (1425, 210332258, 4, '2022-03-16T15:33:18', 'praveenweb', 'https://github.com/hasura/learn-graphql/pull/600'),
 (1437, 210332258, 4, '2022-01-13T15:06:52', 'divyabhushan', 'https://github.com/hasura/learn-graphql/pull/547'),
-(1420, 210332258, 3, '2020-06-02T12:32:02', 'elektronik2k5', 'https://github.com/hasura/learn-graphql/pull/224'),
 (1439, 210332258, 4, '2021-07-20T06:45:19', 'akiran', 'https://github.com/hasura/learn-graphql/pull/487'),
 (1547, 60374819, 4, '2019-08-23T18:08:18', 'ian-r-rose', 'https://github.com/jupyterlab/jupyterlab/pull/7045'),
+(1420, 210332258, 3, '2020-06-02T12:32:02', 'elektronik2k5', 'https://github.com/hasura/learn-graphql/pull/224'),
 (1528, 60374819, 4, '2022-05-04T09:21:20', 'telamonian', 'https://github.com/jupyterlab/jupyterlab/pull/12502'),
 (1534, 60374819, 4, '2022-06-02T14:52:19', 'echarles', 'https://github.com/jupyterlab/jupyterlab/pull/12646'),
 (1548, 60374819, 4, '2017-05-11T17:49:16', 'charnpreetsingh', 'https://github.com/jupyterlab/jupyterlab/pull/2193'),
