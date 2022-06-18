@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T12:52:44.272Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-18T14:44:34.261Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4676,8 +4676,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22363, 464827989, 1, '2022-05-03T10:28:30', 'DSGDSR', 'https://github.com/jsonhero-io/jsonhero-web/pull/27'),
 (22364, 464827989, 2, '2022-05-01T10:18:31', 'D-K-P', 'https://github.com/jsonhero-io/jsonhero-web/pull/39'),
 (22365, 464827989, 4, '2022-06-06T13:11:20', 'ericallam', 'https://github.com/jsonhero-io/jsonhero-web/pull/74'),
-(22366, 464827989, 1, '2022-04-23T14:09:36', 'michellbrito', 'https://github.com/jsonhero-io/jsonhero-web/pull/17'),
 (3368, 501689, 4, '2019-02-03T18:51:35', 'sharwell', 'https://github.com/antlr/stringtemplate4/pull/215'),
+(22366, 464827989, 1, '2022-04-23T14:09:36', 'michellbrito', 'https://github.com/jsonhero-io/jsonhero-web/pull/17'),
 (3357, 501689, 3, '2020-01-10T16:33:49', 'seanabraham', 'https://github.com/antlr/stringtemplate4/pull/239'),
 (3375, 501689, 1, '2017-07-20T22:49:09', 'IInspectable', 'https://github.com/antlr/stringtemplate4/pull/177'),
 (3354, 501689, 1, '2021-11-24T22:52:39', 'StephanRichter', 'https://github.com/antlr/stringtemplate4/pull/290'),
@@ -6990,9 +6990,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1042, 59096058, 4, '2022-03-18T16:15:43', 'tpatel', 'https://github.com/TryGhost/Admin/pull/2287'),
 (1034, 59096058, 4, '2022-04-22T10:42:51', 'moreofmorris', 'https://github.com/TryGhost/Admin/pull/2345'),
 (1038, 59096058, 4, '2018-03-20T09:57:31', 'acburdine', 'https://github.com/TryGhost/Admin/pull/979'),
+(1039, 59096058, 4, '2018-12-17T10:57:27', 'kirrg001', 'https://github.com/TryGhost/Admin/pull/1087'),
 (1036, 59096058, 4, '2017-01-16T19:45:13', 'greenkeeperio-bot', 'https://github.com/TryGhost/Admin/pull/493'),
 (1044, 59096058, 4, '2021-10-22T10:29:55', 'aileen', 'https://github.com/TryGhost/Admin/pull/2116'),
-(1039, 59096058, 4, '2018-12-17T10:57:27', 'kirrg001', 'https://github.com/TryGhost/Admin/pull/1087'),
 (9004, 230327376, 2, '2020-06-08T03:12:12', 'albertnadal', 'https://github.com/ErikCH/DevYouTubeList/pull/142'),
 (9000, 230327376, 1, '2020-01-02T04:41:34', 'hadihammurabi', 'https://github.com/ErikCH/DevYouTubeList/pull/52'),
 (8996, 230327376, 1, '2019-12-30T05:14:29', 'Marvel-Ib', 'https://github.com/ErikCH/DevYouTubeList/pull/21'),
@@ -7928,8 +7928,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24535, 408726855, 1, '2021-12-02T12:11:27', 'daveg7lee', 'https://github.com/junh0328/prepare_frontend_interview/pull/7'),
 (24536, 408726855, 1, '2022-01-05T03:02:33', 'je0ngyun', 'https://github.com/junh0328/prepare_frontend_interview/pull/9'),
 (24537, 408726855, 4, '2021-10-20T01:32:43', 'leemember', 'https://github.com/junh0328/prepare_frontend_interview/pull/5'),
-(24504, 326338540, 4, '2022-06-13T21:01:21', 'therealr5', 'https://github.com/Breq16/flask-discord-interactions/pull/100'),
 (24538, 408726855, 1, '2022-04-09T14:43:44', 'Jetty2020', 'https://github.com/junh0328/prepare_frontend_interview/pull/11'),
+(24504, 326338540, 4, '2022-06-13T21:01:21', 'therealr5', 'https://github.com/Breq16/flask-discord-interactions/pull/100'),
 (24500, 326338540, 1, '2021-04-23T05:19:23', 'akiller', 'https://github.com/Breq16/flask-discord-interactions/pull/13'),
 (24506, 326338540, 1, '2021-04-14T20:39:28', 'bradday4', 'https://github.com/Breq16/flask-discord-interactions/pull/7'),
 (24505, 326338540, 1, '2021-08-11T01:46:24', 'williamhatcher', 'https://github.com/Breq16/flask-discord-interactions/pull/38'),
