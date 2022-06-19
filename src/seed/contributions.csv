@@ -612,11 +612,8 @@ id,repo_id,count,last_merged_at,contributor,url
 2755,13825712,4,2022-01-12T13:21:52,Pav-el,https://github.com/VirtoCommerce/vc-platform/pull/2442
 5923,187335810,2,2019-11-12T23:08:24,reicheltp,https://github.com/jesseduffield/lazydocker/pull/186
 5928,187335810,1,2019-08-21T12:57:40,ekremkaraca,https://github.com/jesseduffield/lazydocker/pull/149
-8773,2531988,2,2018-01-27T18:06:52,camlafit,https://github.com/fpoirotte/phpfarm/pull/21
 965,195162469,1,2020-10-20T13:32:11,Sridhar-Sukumar,https://github.com/syncfusion/flutter-examples/pull/231
-8775,2531988,1,2013-08-02T17:10:12,daidais,https://github.com/fpoirotte/phpfarm/pull/4
-8774,2531988,1,2013-06-05T18:46:29,tacone,https://github.com/fpoirotte/phpfarm/pull/3
-8772,2531988,2,2016-07-02T15:57:40,Melkij,https://github.com/fpoirotte/phpfarm/pull/15
+8773,2531988,2,2018-01-27T18:06:52,camlafit,https://github.com/fpoirotte/phpfarm/pull/21
 11908,10865436,1,2018-01-13T19:30:48,dypsilon,https://github.com/dypsilon/frontend-dev-bookmarks/pull/383
 975,195162469,2,2022-04-04T04:49:20,Marismathan,https://github.com/syncfusion/flutter-examples/pull/575
 11914,10865436,4,2013-08-01T23:59:18,vinhnx,https://github.com/dypsilon/frontend-dev-bookmarks/pull/123
@@ -644,6 +641,9 @@ id,repo_id,count,last_merged_at,contributor,url
 16615,80304385,1,2017-11-04T17:12:35,renekorss,https://github.com/skywalkapps/nav-priority/pull/5
 2593,141183500,1,2021-06-30T16:12:52,Noxalus,https://github.com/Xeeynamo/OpenKh/pull/485
 2748,13825712,4,2021-02-16T08:33:19,kostyrin,https://github.com/VirtoCommerce/vc-platform/pull/2154
+8772,2531988,2,2016-07-02T15:57:40,Melkij,https://github.com/fpoirotte/phpfarm/pull/15
+8775,2531988,1,2013-08-02T17:10:12,daidais,https://github.com/fpoirotte/phpfarm/pull/4
+8774,2531988,1,2013-06-05T18:46:29,tacone,https://github.com/fpoirotte/phpfarm/pull/3
 4387,4132857,4,2021-10-16T19:06:45,michaelmhoffman,https://github.com/insanum/gcalcli/pull/613
 4397,4132857,1,2019-06-12T04:41:05,Tyilo,https://github.com/insanum/gcalcli/pull/459
 4395,4132857,1,2016-07-29T18:08:58,karlicoss,https://github.com/insanum/gcalcli/pull/249
