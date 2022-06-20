@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-20T04:50:08.440Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-20T08:48:27.028Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1470,8 +1470,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12453, 52631841, 1, '2017-06-02T19:01:29', 'artoliukkonen', 'https://github.com/gothinkster/realworld/pull/120'),
 (2021, 81975372, 1, '2017-03-12T16:16:18', 'ashwani99', 'https://github.com/kdn251/interviews/pull/4'),
 (2016, 81975372, 3, '2017-05-31T21:01:03', 'fatosmorina', 'https://github.com/kdn251/interviews/pull/40'),
-(2005, 81975372, 1, '2018-02-02T18:43:53', 'abagasra98', 'https://github.com/kdn251/interviews/pull/55'),
 (2018, 81975372, 1, '2018-04-18T15:50:53', 'brandonmanke', 'https://github.com/kdn251/interviews/pull/82'),
+(2005, 81975372, 1, '2018-02-02T18:43:53', 'abagasra98', 'https://github.com/kdn251/interviews/pull/55'),
 (2023, 81975372, 1, '2017-07-21T13:52:41', 'djy0', 'https://github.com/kdn251/interviews/pull/41'),
 (2022, 81975372, 1, '2017-10-25T21:42:28', 'Nikaple', 'https://github.com/kdn251/interviews/pull/47'),
 (2013, 81975372, 1, '2017-03-15T23:34:44', 'UWarbs', 'https://github.com/kdn251/interviews/pull/16'),
@@ -3458,8 +3458,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3443, 87520003, 1, '2019-09-03T09:49:50', 'isnine', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/57'),
 (3434, 87520003, 1, '2018-10-10T13:00:13', 'MichalTKwiecien', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/18'),
 (3537, 61426855, 4, '2019-05-31T14:48:10', 'MastersAbh', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1465'),
-(3538, 61426855, 4, '2020-03-11T17:02:15', 'jainaman224', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/2418'),
 (3534, 61426855, 4, '2020-05-31T16:49:48', 'raksha009', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3013'),
+(3538, 61426855, 4, '2020-03-11T17:02:15', 'jainaman224', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/2418'),
 (3539, 61426855, 4, '2016-07-19T07:22:27', 'AnkitaKhurana', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/104'),
 (3548, 61426855, 4, '2020-05-31T18:02:45', 'Rukmini-Meda', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3056'),
 (3553, 61426855, 4, '2019-05-30T18:49:51', 'somya-kapoor', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1446'),
@@ -8214,7 +8214,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5693, 161588836, 4, '2022-05-18T01:20:07', 'paulculmsee', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1656'),
 (5694, 161588836, 4, '2020-07-27T17:44:12', 'joem-msft', 'https://github.com/microsoft/PowerPlatformConnectors/pull/320'),
 (5688, 161588836, 4, '2022-06-01T02:11:02', 'Blackbaud-BenLambert', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1684'),
-(5691, 161588836, 4, '2021-05-11T00:25:44', 'andvra', 'https://github.com/microsoft/PowerPlatformConnectors/pull/814'),
 (5692, 161588836, 4, '2022-06-15T20:39:54', 'RjImpx', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1716'),
+(5691, 161588836, 4, '2021-05-11T00:25:44', 'andvra', 'https://github.com/microsoft/PowerPlatformConnectors/pull/814'),
 (5689, 161588836, 4, '2022-05-12T18:25:48', 'Encodian', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1641'),
 (5708, 161588836, 4, '2022-04-27T00:04:02', 'RamboV', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1602');
