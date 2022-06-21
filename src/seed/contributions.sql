@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-21T01:04:57.531Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-21T03:19:10.227Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1789,8 +1789,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4936, 72931382, 1, '2017-10-06T17:04:49', 'FelipeBohnertPaetzold', 'https://github.com/vuelidate/vuelidate/pull/157'),
 (4933, 72931382, 1, '2018-05-21T08:15:05', 'BenoitRanque', 'https://github.com/vuelidate/vuelidate/pull/288'),
 (4940, 72931382, 4, '2017-12-15T09:19:46', '38elements', 'https://github.com/vuelidate/vuelidate/pull/232'),
-(14048, 29371034, 4, '2021-10-18T13:42:00', 'crufter', 'https://github.com/micro/micro/pull/1857'),
 (14053, 29371034, 4, '2022-02-16T15:50:53', 'asim', 'https://github.com/micro/micro/pull/1909'),
+(14048, 29371034, 4, '2021-10-18T13:42:00', 'crufter', 'https://github.com/micro/micro/pull/1857'),
 (14044, 29371034, 4, '2020-01-30T17:34:24', 'printfcoder', 'https://github.com/micro/micro/pull/499'),
 (14049, 29371034, 4, '2020-04-18T21:34:59', 'vtolstov', 'https://github.com/micro/micro/pull/808'),
 (1781, 290703027, 4, '2021-10-06T04:48:42', 'AnIkeT126', 'https://github.com/kothariji/competitive-programming/pull/419'),
@@ -3544,9 +3544,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1537, 60374819, 4, '2019-10-16T22:12:03', 'sccolbert', 'https://github.com/jupyterlab/jupyterlab/pull/7370'),
 (1542, 60374819, 4, '2018-08-10T11:02:21', 'jzf2101', 'https://github.com/jupyterlab/jupyterlab/pull/5087'),
 (1524, 60374819, 4, '2021-03-10T18:59:31', 'saulshanabrook', 'https://github.com/jupyterlab/jupyterlab/pull/9883'),
+(1523, 60374819, 4, '2022-06-01T16:17:20', 'jtpio', 'https://github.com/jupyterlab/jupyterlab/pull/12643'),
 (1539, 60374819, 4, '2022-04-07T07:20:01', 'bollwyvl', 'https://github.com/jupyterlab/jupyterlab/pull/12364'),
 (1526, 60374819, 4, '2022-03-10T07:28:22', 'jasongrout', 'https://github.com/jupyterlab/jupyterlab/pull/12192'),
-(1523, 60374819, 4, '2022-06-01T16:17:20', 'jtpio', 'https://github.com/jupyterlab/jupyterlab/pull/12643'),
 (1540, 60374819, 4, '2022-02-09T20:11:32', 'mbektas', 'https://github.com/jupyterlab/jupyterlab/pull/12033'),
 (1527, 60374819, 4, '2022-05-18T13:02:34', 'afshin', 'https://github.com/jupyterlab/jupyterlab/pull/12593'),
 (1538, 60374819, 4, '2019-06-26T00:45:43', 'gnestor', 'https://github.com/jupyterlab/jupyterlab/pull/6707'),
@@ -3576,8 +3576,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4456, 76404, 4, '2022-03-28T12:48:58', 'aidanharan', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/1015'),
 (4457, 76404, 2, '2016-05-13T15:24:29', 'marceloeloelo', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/471'),
 (4458, 76404, 1, '2020-02-25T10:26:09', 'takanamito', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/718'),
-(4459, 76404, 1, '2013-02-05T20:18:47', 'aharpervc', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/252'),
 (4460, 76404, 1, '2013-07-07T15:03:55', 'raydog153', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/272'),
+(4459, 76404, 1, '2013-02-05T20:18:47', 'aharpervc', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/252'),
 (4461, 76404, 3, '2014-05-18T03:55:42', 'wbond', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/331'),
 (4462, 76404, 1, '2021-02-02T12:45:03', 'BenMcH', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/851'),
 (4463, 76404, 1, '2013-07-07T17:01:24', 'michelgrootjans', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/246'),
@@ -3726,8 +3726,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3932, 40892817, 4, '2016-08-30T13:48:41', 'Denton-L', 'https://github.com/ethereum/solidity/pull/972'),
 (3945, 40892817, 4, '2019-12-03T20:27:51', 'chfast', 'https://github.com/ethereum/solidity/pull/7831'),
 (3937, 40892817, 4, '2021-05-31T14:32:15', 'mijovic', 'https://github.com/ethereum/solidity/pull/11459'),
-(3934, 40892817, 4, '2019-09-10T10:00:27', 'winsvega', 'https://github.com/ethereum/solidity/pull/7327'),
 (3941, 40892817, 4, '2020-05-14T16:54:20', 'randomnetcat', 'https://github.com/ethereum/solidity/pull/8931'),
+(3934, 40892817, 4, '2019-09-10T10:00:27', 'winsvega', 'https://github.com/ethereum/solidity/pull/7327'),
 (3939, 40892817, 4, '2018-09-04T17:44:24', 'federicobond', 'https://github.com/ethereum/solidity/pull/4878'),
 (3938, 40892817, 4, '2017-06-14T15:25:32', 'VoR0220', 'https://github.com/ethereum/solidity/pull/2364'),
 (5894, 21413198, 1, '2016-04-18T21:29:39', 'dashed', 'https://github.com/immutable-js/immutable-js/pull/620'),
@@ -4538,8 +4538,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4681, 4558079, 3, '2013-12-13T00:50:40', 'sirupsen', 'https://github.com/garethr/vagrantboxes-heroku/pull/237'),
 (4684, 4558079, 3, '2014-09-15T14:24:10', 'FooBarWidget', 'https://github.com/garethr/vagrantboxes-heroku/pull/319'),
 (4682, 4558079, 2, '2014-05-19T08:40:55', 'avokhmin', 'https://github.com/garethr/vagrantboxes-heroku/pull/248'),
-(4690, 4558079, 1, '2014-04-27T20:45:59', 'troydm', 'https://github.com/garethr/vagrantboxes-heroku/pull/245'),
 (4687, 4558079, 1, '2014-05-09T12:15:13', 'eiichiro-takahashi', 'https://github.com/garethr/vagrantboxes-heroku/pull/298'),
+(4690, 4558079, 1, '2014-04-27T20:45:59', 'troydm', 'https://github.com/garethr/vagrantboxes-heroku/pull/245'),
 (805, 9852918, 4, '2018-01-11T15:03:22', 'cobbspur', 'https://github.com/TryGhost/Ghost/pull/9365'),
 (799, 9852918, 4, '2017-02-11T14:43:10', 'felixrieseberg', 'https://github.com/TryGhost/Ghost/pull/7967'),
 (810, 9852918, 4, '2022-03-28T15:28:10', 'peterzimon', 'https://github.com/TryGhost/Ghost/pull/14382'),
@@ -6421,8 +6421,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1266, 306449955, 4, '2022-02-28T18:28:11', 'NoComment1105', 'https://github.com/IrisShaders/Iris/pull/1294'),
 (1268, 306449955, 3, '2021-09-03T05:45:16', 'Kroppeb', 'https://github.com/IrisShaders/Iris/pull/750'),
 (1285, 306449955, 1, '2022-04-30T01:23:51', 'Crsuh2er0', 'https://github.com/IrisShaders/Iris/pull/1348'),
-(15592, 306449955, 3, '2022-05-30T23:17:10', 'qouteall', 'https://github.com/IrisShaders/Iris/pull/1465'),
 (2598, 141183500, 3, '2022-01-30T14:11:45', 'thamstras', 'https://github.com/Xeeynamo/OpenKh/pull/539'),
+(15592, 306449955, 3, '2022-05-30T23:17:10', 'qouteall', 'https://github.com/IrisShaders/Iris/pull/1465'),
 (2594, 141183500, 4, '2022-03-02T19:01:35', 'Tyniscus', 'https://github.com/Xeeynamo/OpenKh/pull/579'),
 (2629, 141183500, 4, '2021-08-10T13:23:35', 'snelson3', 'https://github.com/Xeeynamo/OpenKh/pull/511'),
 (2579, 141183500, 4, '2022-05-07T17:21:05', 'osdanova', 'https://github.com/Xeeynamo/OpenKh/pull/599'),
