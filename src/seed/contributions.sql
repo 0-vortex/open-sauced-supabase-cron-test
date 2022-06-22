@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T16:53:32.899Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T18:48:54.297Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5284,8 +5284,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2548, 65848095, 4, '2020-02-16T03:35:53', 'alancnet', 'https://github.com/requarks/wiki/pull/1480'),
 (3258, 274495425, 4, '2021-04-04T13:11:18', 'jeetiss', 'https://github.com/remotion-dev/remotion/pull/193'),
 (3299, 274495425, 4, '2022-01-19T16:31:36', 'arthurdenner', 'https://github.com/remotion-dev/remotion/pull/788'),
-(833, 208397359, 1, '2020-02-18T16:15:57', 'arhen', 'https://github.com/proudmonkey/AutoWrapper/pull/31'),
 (838, 208397359, 1, '2020-05-18T16:51:51', 'sawankumarbundelkhandi', 'https://github.com/proudmonkey/AutoWrapper/pull/52'),
+(833, 208397359, 1, '2020-02-18T16:15:57', 'arhen', 'https://github.com/proudmonkey/AutoWrapper/pull/31'),
 (2450, 65848095, 1, '2017-04-19T23:02:08', 'lub', 'https://github.com/requarks/wiki/pull/73'),
 (2471, 65848095, 1, '2020-10-03T20:22:03', 'whalehub', 'https://github.com/requarks/wiki/pull/2526'),
 (2470, 65848095, 2, '2019-10-23T16:46:20', 'philipcullen', 'https://github.com/requarks/wiki/pull/1134'),
