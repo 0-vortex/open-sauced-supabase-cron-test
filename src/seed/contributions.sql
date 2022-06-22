@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T14:44:29.986Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T16:53:32.899Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3158,9 +3158,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4829, 64700934, 4, '2017-11-10T20:26:01', 'rudygodoy', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/478'),
 (4828, 64700934, 4, '2021-12-29T15:22:40', 'k06a', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3060'),
 (4831, 64700934, 4, '2021-08-03T14:19:21', 'fulldecent', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2806'),
+(4830, 64700934, 1, '2016-10-24T14:11:02', 'gleim', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/31'),
 (4832, 64700934, 4, '2022-05-11T21:10:00', 'GitHubPang', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3408'),
 (4835, 64700934, 4, '2019-06-12T17:59:53', 'rstormsf', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/1787'),
-(4830, 64700934, 1, '2016-10-24T14:11:02', 'gleim', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/31'),
 (4834, 64700934, 4, '2018-10-08T14:01:34', 'jbogacz', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/1375'),
 (4833, 64700934, 4, '2021-03-10T22:48:22', 'Ro5s', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2579'),
 (14212, 174407870, 1, '2020-09-21T01:42:48', 'pabloripoll', 'https://github.com/based-ghost/vue-seo-friendly-spa-template/pull/2'),
@@ -4374,8 +4374,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5268, 18486300, 1, '2021-01-04T17:24:20', 'grmnlrt', 'https://github.com/lewagon/setup/pull/239'),
 (5267, 18486300, 2, '2021-10-04T10:06:33', 'trandthanh', 'https://github.com/lewagon/setup/pull/332'),
 (5260, 18486300, 1, '2020-10-23T10:39:16', 'OliNott', 'https://github.com/lewagon/setup/pull/208'),
-(3241, 274495425, 4, '2022-06-06T07:54:53', 'JonnyBurger', 'https://github.com/remotion-dev/remotion/pull/1029'),
 (3276, 274495425, 2, '2021-05-18T10:32:13', 'dydent', 'https://github.com/remotion-dev/remotion/pull/376'),
+(3241, 274495425, 4, '2022-06-06T07:54:53', 'JonnyBurger', 'https://github.com/remotion-dev/remotion/pull/1029'),
 (3277, 274495425, 2, '2021-07-14T07:49:31', 'ashikmeerankutty', 'https://github.com/remotion-dev/remotion/pull/505'),
 (3253, 274495425, 2, '2021-10-25T15:25:56', 'bpedersen', 'https://github.com/remotion-dev/remotion/pull/656'),
 (3251, 274495425, 3, '2021-05-01T17:17:36', 'j0nezz', 'https://github.com/remotion-dev/remotion/pull/330'),
@@ -5371,8 +5371,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22453, 468311851, 1, '2022-05-16T14:47:58', 'hh24k', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/136'),
 (1458, 16607898, 4, '2020-02-29T14:25:35', 'appleboy', 'https://github.com/harness/drone/pull/2918'),
 (1451, 16607898, 4, '2019-03-15T00:21:23', 'donny-dont', 'https://github.com/harness/drone/pull/2624'),
-(1471, 16607898, 4, '2016-09-10T00:06:51', 'strk', 'https://github.com/harness/drone/pull/1789'),
 (1453, 16607898, 4, '2014-12-30T18:47:49', 'mnutt', 'https://github.com/harness/drone/pull/774'),
+(1471, 16607898, 4, '2016-09-10T00:06:51', 'strk', 'https://github.com/harness/drone/pull/1789'),
 (11302, 172741073, 4, '2021-08-23T17:41:53', 'drwpow', 'https://github.com/FredKSchott/snowpack/pull/3679'),
 (11303, 172741073, 4, '2021-08-04T19:49:37', 'FredKSchott', 'https://github.com/FredKSchott/snowpack/pull/3641'),
 (11304, 172741073, 4, '2021-08-26T16:25:09', 'matthewp', 'https://github.com/FredKSchott/snowpack/pull/3684'),
@@ -5987,8 +5987,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4963, 37140605, 1, '2016-05-23T20:15:29', 'joseluisq', 'https://github.com/dwyl/learn-tdd/pull/55'),
 (8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
 (4960, 37140605, 1, '2019-05-28T09:06:58', 'mattdrago', 'https://github.com/dwyl/learn-tdd/pull/125'),
-(4971, 37140605, 1, '2019-02-25T17:01:01', '0xflotus', 'https://github.com/dwyl/learn-tdd/pull/121'),
 (4968, 37140605, 3, '2019-05-11T03:42:44', 'codeshifu', 'https://github.com/dwyl/learn-tdd/pull/123'),
+(4971, 37140605, 1, '2019-02-25T17:01:01', '0xflotus', 'https://github.com/dwyl/learn-tdd/pull/121'),
 (4972, 37140605, 1, '2016-10-30T16:29:36', 'deadcoder0904', 'https://github.com/dwyl/learn-tdd/pull/70'),
 (4980, 37140605, 2, '2017-03-22T22:53:09', 'Cleop', 'https://github.com/dwyl/learn-tdd/pull/86'),
 (4981, 37140605, 1, '2017-07-17T18:50:33', 'kfern', 'https://github.com/dwyl/learn-tdd/pull/97'),
@@ -6742,8 +6742,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12339, 3662703, 3, '2020-07-21T18:55:22', 'nextghost', 'https://github.com/colobot/colobot/pull/1263'),
 (12340, 3662703, 2, '2018-12-23T15:44:00', 'ananace', 'https://github.com/colobot/colobot/pull/1213'),
 (12341, 3662703, 4, '2013-04-29T12:33:04', 'xiendev', 'https://github.com/colobot/colobot/pull/198'),
-(5820, 105412971, 1, '2018-05-26T08:33:50', 'tbroadley', 'https://github.com/stereobooster/react-snap/pull/182'),
 (5824, 105412971, 1, '2018-04-17T21:59:37', 'tmartin2089', 'https://github.com/stereobooster/react-snap/pull/162'),
+(5820, 105412971, 1, '2018-05-26T08:33:50', 'tbroadley', 'https://github.com/stereobooster/react-snap/pull/182'),
 (703, 48393191, 4, '2021-06-16T23:48:14', 'OdysseusLives', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/338'),
 (702, 48393191, 4, '2017-08-15T19:13:44', 'DanielThomas', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/141'),
 (704, 48393191, 1, '2016-11-29T14:02:49', 'felipefzdz', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/60'),
