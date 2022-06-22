@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T06:48:20.391Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-22T08:48:51.808Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5791,7 +5791,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4167, 143078055, 2, '2020-01-31T07:57:39', 'smokeyfro', 'https://github.com/gridsome/gridsome/pull/958'),
 (4159, 143078055, 3, '2019-05-03T11:16:41', 'crsten', 'https://github.com/gridsome/gridsome/pull/399'),
 (4177, 143078055, 2, '2019-10-24T21:48:44', 'gilesbutler', 'https://github.com/gridsome/gridsome/pull/778'),
-(4181, 143078055, 2, '2020-12-02T09:27:54', 'hacknug', 'https://github.com/gridsome/gridsome/pull/1257'),
 (4179, 143078055, 2, '2019-10-12T14:10:06', 'tyankatsu0105', 'https://github.com/gridsome/gridsome/pull/741'),
 (4175, 143078055, 2, '2019-03-20T13:01:25', 'ThomOrlo', 'https://github.com/gridsome/gridsome/pull/266'),
 (4173, 143078055, 2, '2020-02-16T09:42:54', 'clorichel', 'https://github.com/gridsome/gridsome/pull/982'),
@@ -6105,6 +6104,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (823, 426356134, 1, '2022-01-19T17:54:22', 'dnielsen', 'https://github.com/harness/harness-cd-community/pull/38'),
 (822, 426356134, 1, '2022-01-13T04:57:22', 'michaelcretzman', 'https://github.com/harness/harness-cd-community/pull/26'),
 (825, 426356134, 3, '2022-01-19T17:53:36', 'schoudhury', 'https://github.com/harness/harness-cd-community/pull/39'),
+(4181, 143078055, 2, '2020-12-02T09:27:54', 'hacknug', 'https://github.com/gridsome/gridsome/pull/1257'),
 (817, 426356134, 4, '2022-03-31T16:06:11', 'gunascode', 'https://github.com/harness/harness-cd-community/pull/49'),
 (826, 426356134, 4, '2022-02-24T18:42:50', 'sean-harness', 'https://github.com/harness/harness-cd-community/pull/46'),
 (824, 426356134, 2, '2021-11-24T20:19:02', 'zhuoyin00', 'https://github.com/harness/harness-cd-community/pull/7'),
@@ -7865,8 +7865,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4303, 370668507, 1, '2021-07-26T12:20:06', 'ebi-yade', 'https://github.com/rhysd/actionlint/pull/13'),
 (4310, 370668507, 1, '2022-02-24T12:17:10', 'crazy-matt', 'https://github.com/rhysd/actionlint/pull/99'),
 (4304, 370668507, 1, '2022-02-24T12:17:52', 'ohkinozomu', 'https://github.com/rhysd/actionlint/pull/105'),
-(4301, 370668507, 1, '2022-02-24T11:55:39', 'jsok', 'https://github.com/rhysd/actionlint/pull/107'),
 (4490, 276414382, 1, '2021-05-31T20:07:08', 'artyl', 'https://github.com/microsoft/playwright-python/pull/729'),
+(4301, 370668507, 1, '2022-02-24T11:55:39', 'jsok', 'https://github.com/rhysd/actionlint/pull/107'),
 (4489, 276414382, 1, '2021-04-23T08:32:53', 'Marketionist', 'https://github.com/microsoft/playwright-python/pull/641'),
 (4487, 276414382, 2, '2022-02-23T12:16:51', 'x0day', 'https://github.com/microsoft/playwright-python/pull/1167'),
 (4492, 276414382, 1, '2022-01-13T22:53:55', 'AlberLC', 'https://github.com/microsoft/playwright-python/pull/1100'),
