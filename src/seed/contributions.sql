@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T18:48:47.016Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T20:45:28.728Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3195,8 +3195,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3995, 228911039, 2, '2021-03-06T18:10:29', 'Lindsay89', 'https://github.com/antonioru/beautiful-react-hooks/pull/190'),
 (3996, 228911039, 1, '2020-03-27T18:31:42', 'Rawnly', 'https://github.com/antonioru/beautiful-react-hooks/pull/84'),
 (3997, 228911039, 3, '2020-08-12T14:31:17', 'wenzi0github', 'https://github.com/antonioru/beautiful-react-hooks/pull/120'),
-(3998, 228911039, 4, '2021-10-06T16:46:15', 'antonioru', 'https://github.com/antonioru/beautiful-react-hooks/pull/311'),
 (3999, 228911039, 2, '2020-03-14T11:01:22', 'West0ne', 'https://github.com/antonioru/beautiful-react-hooks/pull/75'),
+(3998, 228911039, 4, '2021-10-06T16:46:15', 'antonioru', 'https://github.com/antonioru/beautiful-react-hooks/pull/311'),
 (4000, 228911039, 1, '2020-03-11T12:01:57', 'linonetwo', 'https://github.com/antonioru/beautiful-react-hooks/pull/70'),
 (4001, 228911039, 2, '2021-05-04T09:34:00', 'czeslaaw', 'https://github.com/antonioru/beautiful-react-hooks/pull/230'),
 (4002, 228911039, 1, '2020-06-21T20:16:19', 'koji', 'https://github.com/antonioru/beautiful-react-hooks/pull/92'),
