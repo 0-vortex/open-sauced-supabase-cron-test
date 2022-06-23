@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T10:46:47.825Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T12:58:07.919Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1349,8 +1349,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8564, 265122478, 4, '2022-06-13T11:14:43', 'Kiran-Raj-Dev', 'https://github.com/ManimCommunity/manim/pull/2760'),
 (8566, 265122478, 4, '2021-06-30T19:57:13', 'Nikhil0504', 'https://github.com/ManimCommunity/manim/pull/1734'),
 (9011, 230327376, 3, '2020-01-02T04:33:22', 'rbrick', 'https://github.com/ErikCH/DevYouTubeList/pull/45'),
-(12252, 54228300, 1, '2019-07-17T17:46:02', 'severinrudie', 'https://github.com/mozilla/fathom/pull/110'),
 (330, 11981144, 3, '2015-12-30T08:09:18', 'f-knorr', 'https://github.com/languagetool-org/languagetool/pull/350'),
+(12252, 54228300, 1, '2019-07-17T17:46:02', 'severinrudie', 'https://github.com/mozilla/fathom/pull/110'),
 (13257, 161983108, 4, '2021-09-01T13:05:19', 'odino', 'https://github.com/abs-lang/abs/pull/452'),
 (335, 11981144, 1, '2016-11-30T15:15:13', 'janschreiber', 'https://github.com/languagetool-org/languagetool/pull/624'),
 (1921, 101448498, 4, '2021-02-02T11:13:54', 'samtgarson', 'https://github.com/SohoHouse/nuxt-oauth/pull/66'),
