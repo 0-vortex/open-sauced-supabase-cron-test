@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T14:46:48.604Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T16:53:08.057Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1266,8 +1266,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16529, 142967350, 1, '2021-10-17T19:50:47', 'dlacaille', 'https://github.com/reach/reach-ui/pull/783'),
 (16526, 142967350, 2, '2020-03-02T23:05:36', 'danieltott', 'https://github.com/reach/reach-ui/pull/497'),
 (1718, 348060227, 4, '2022-01-19T20:24:09', 'X7md', 'https://github.com/withastro/astro/pull/2408'),
-(2694, 102371998, 2, '2021-01-13T12:22:15', 'farnabaz', 'https://github.com/nuxt-community/auth-module/pull/993'),
 (2706, 102371998, 4, '2021-06-03T11:08:37', 'JoaoPedroAS51', 'https://github.com/nuxt-community/auth-module/pull/1195'),
+(2694, 102371998, 2, '2021-01-13T12:22:15', 'farnabaz', 'https://github.com/nuxt-community/auth-module/pull/993'),
 (2327, 54377519, 4, '2021-03-03T06:41:16', 'jensbrak', 'https://github.com/PiranhaCMS/piranha.core/pull/1528'),
 (5821, 105412971, 1, '2018-11-17T15:02:03', 'tsantef', 'https://github.com/stereobooster/react-snap/pull/288'),
 (2340, 54377519, 4, '2017-11-17T13:28:32', 'gyretech', 'https://github.com/PiranhaCMS/piranha.core/pull/134'),
@@ -4513,12 +4513,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4668, 4558079, 4, '2014-04-27T20:01:22', 'GUI', 'https://github.com/garethr/vagrantboxes-heroku/pull/227'),
 (4673, 4558079, 4, '2015-12-07T15:29:31', 'tommy-muehle', 'https://github.com/garethr/vagrantboxes-heroku/pull/403'),
 (4666, 4558079, 1, '2014-04-27T20:30:25', 'coderfi', 'https://github.com/garethr/vagrantboxes-heroku/pull/274'),
+(4678, 4558079, 1, '2014-05-20T09:24:30', 'miurahr', 'https://github.com/garethr/vagrantboxes-heroku/pull/269'),
 (4676, 4558079, 3, '2014-12-31T20:17:27', 'arkadijs', 'https://github.com/garethr/vagrantboxes-heroku/pull/344'),
 (4671, 4558079, 4, '2015-09-13T15:13:05', 'wunki', 'https://github.com/garethr/vagrantboxes-heroku/pull/392'),
 (4672, 4558079, 1, '2014-07-25T22:08:52', 'deanmalmgren', 'https://github.com/garethr/vagrantboxes-heroku/pull/309'),
 (4675, 4558079, 3, '2013-05-18T13:09:26', 'grahamc', 'https://github.com/garethr/vagrantboxes-heroku/pull/139'),
 (4679, 4558079, 2, '2014-05-19T18:38:24', 'jiko', 'https://github.com/garethr/vagrantboxes-heroku/pull/262'),
-(4678, 4558079, 1, '2014-05-20T09:24:30', 'miurahr', 'https://github.com/garethr/vagrantboxes-heroku/pull/269'),
 (4680, 4558079, 1, '2012-07-22T09:33:56', 'jtperry', 'https://github.com/garethr/vagrantboxes-heroku/pull/20'),
 (4674, 4558079, 4, '2016-12-28T21:43:54', 'jose-lpa', 'https://github.com/garethr/vagrantboxes-heroku/pull/427'),
 (4683, 4558079, 3, '2013-03-25T10:55:01', 'jstasiak', 'https://github.com/garethr/vagrantboxes-heroku/pull/117'),
@@ -8033,8 +8033,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1307, 278150898, 4, '2021-06-22T23:25:09', 'philipdalen', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/144'),
 (1308, 278150898, 1, '2021-08-07T13:14:57', 'cclauss', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/179'),
 (1342, 98958855, 1, '2020-04-01T10:07:04', 'corbob', 'https://github.com/chocolatey/chocolatey-workshop/pull/12'),
-(1313, 278150898, 1, '2021-01-13T17:22:46', 'agcorrea', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/54'),
 (1306, 278150898, 4, '2022-05-17T21:07:03', 'dinagraves', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/312'),
+(1313, 278150898, 1, '2021-01-13T17:22:46', 'agcorrea', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/54'),
 (1326, 98958855, 4, '2018-07-31T19:41:51', 'gep13', 'https://github.com/chocolatey/chocolatey-workshop/pull/6'),
 (1300, 278150898, 3, '2020-09-25T16:30:48', 'michelleirvine', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/27'),
 (1309, 278150898, 4, '2022-05-25T05:37:52', 'rogerthatdev', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/314'),
