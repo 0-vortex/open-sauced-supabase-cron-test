@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T03:19:53.850Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-23T04:54:46.712Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1295,8 +1295,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (23834, 45425758, 1, '2018-04-30T02:41:52', 'jonyrock', 'https://github.com/microsoft/vscode-chrome-debug/pull/640'),
 (23836, 45425758, 1, '2016-01-04T18:31:20', 'isidorn', 'https://github.com/microsoft/vscode-chrome-debug/pull/71'),
 (23884, 198896556, 4, '2022-06-06T13:32:06', 'roblourens', 'https://github.com/microsoft/vscode-js-debug/pull/1286'),
-(8554, 265122478, 4, '2022-06-17T07:58:50', 'behackl', 'https://github.com/ManimCommunity/manim/pull/2767'),
 (13983, 310724156, 1, '2021-01-19T00:43:49', 'dabit3', 'https://github.com/dabit3/next.js-amplify-workshop/pull/10'),
+(8554, 265122478, 4, '2022-06-17T07:58:50', 'behackl', 'https://github.com/ManimCommunity/manim/pull/2767'),
 (2314, 54377519, 1, '2019-06-29T05:42:19', 'Nhawdge', 'https://github.com/PiranhaCMS/piranha.core/pull/692'),
 (8558, 265122478, 4, '2020-10-08T20:38:32', 'nilaybhatia', 'https://github.com/ManimCommunity/manim/pull/531'),
 (13984, 310724156, 1, '2021-04-06T20:21:17', 'FokkeZB', 'https://github.com/dabit3/next.js-amplify-workshop/pull/16'),
@@ -1539,8 +1539,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13071, 149638165, 1, '2019-12-20T09:09:20', 'maheshjag', 'https://github.com/testing-library/user-event/pull/200'),
 (13074, 149638165, 1, '2020-11-18T20:06:49', 'amandapouget', 'https://github.com/testing-library/user-event/pull/498'),
 (24008, 445623269, 3, '2022-02-17T22:42:58', 'alexjoverm', 'https://github.com/storyblok/storyblok-js/pull/6'),
-(2737, 102371998, 2, '2019-12-26T20:41:00', 'Atinux', 'https://github.com/nuxt-community/auth-module/pull/493'),
 (2715, 102371998, 2, '2020-10-17T19:14:20', 'debs-obrien', 'https://github.com/nuxt-community/auth-module/pull/851'),
+(2737, 102371998, 2, '2019-12-26T20:41:00', 'Atinux', 'https://github.com/nuxt-community/auth-module/pull/493'),
 (24059, 120149974, 1, '2022-05-05T21:53:27', 'psuet', 'https://github.com/fonoster/fonoster/pull/334'),
 (24057, 120149974, 1, '2022-02-23T15:44:26', 'harish-chander', 'https://github.com/fonoster/fonoster/pull/297'),
 (24009, 445623269, 1, '2022-01-27T17:58:54', 'imabp', 'https://github.com/storyblok/storyblok-js/pull/2'),
@@ -1686,8 +1686,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11685, 107111421, 1, '2017-10-31T06:07:50', 'ledubenjamin', 'https://github.com/thedaviddias/Front-End-Checklist/pull/122'),
 (5952, 417389, 2, '2012-04-21T03:04:21', 'dlee', 'https://github.com/lostisland/faraday/pull/143'),
 (1895, 28548699, 1, '2016-12-22T21:27:03', 'yidingalan', 'https://github.com/cassidoo/getting-a-gig/pull/30'),
-(1862, 73918606, 1, '2018-08-20T08:42:03', 'leonstafford', 'https://github.com/tapestry-cloud/website/pull/60'),
 (1909, 28548699, 1, '2016-01-22T21:01:50', 'amy', 'https://github.com/cassidoo/getting-a-gig/pull/23'),
+(1862, 73918606, 1, '2018-08-20T08:42:03', 'leonstafford', 'https://github.com/tapestry-cloud/website/pull/60'),
 (2310, 54377519, 4, '2022-05-18T18:36:00', 'tidyui', 'https://github.com/PiranhaCMS/piranha.core/pull/1862'),
 (1884, 28548699, 1, '2015-01-09T21:06:18', 'a--hoang', 'https://github.com/cassidoo/getting-a-gig/pull/5'),
 (16415, 327628682, 1, '2021-05-22T07:20:31', 'blackcater', 'https://github.com/mantinedev/mantine/pull/90'),
