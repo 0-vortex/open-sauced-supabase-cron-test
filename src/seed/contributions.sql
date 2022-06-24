@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-24T04:55:43.286Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-24T06:48:20.742Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2673,8 +2673,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (23143, 66474729, 3, '2021-09-15T12:52:22', 'singergs', 'https://github.com/prowler-cloud/prowler/pull/861'),
 (3379, 344025728, 1, '2021-03-17T03:33:29', 'codedawi', 'https://github.com/adhikary97/girlfriend_text/pull/3'),
 (3380, 344025728, 1, '2021-03-12T05:34:01', 'HelixAchaos', 'https://github.com/adhikary97/girlfriend_text/pull/2'),
-(3381, 390399632, 2, '2021-10-06T07:08:44', 'parodia', 'https://github.com/codrops/SuperfluidLayout/pull/2'),
 (3396, 286380425, 1, '2020-11-19T06:17:55', 'mix1009', 'https://github.com/Frezyx/group_button/pull/7'),
+(3381, 390399632, 2, '2021-10-06T07:08:44', 'parodia', 'https://github.com/codrops/SuperfluidLayout/pull/2'),
 (3388, 278305049, 1, '2020-07-09T09:06:09', 'mmphego', 'https://github.com/mmphego/mmphego/pull/1'),
 (11396, 28267106, 1, '2019-05-30T13:09:23', 'Sidelobe', 'https://github.com/mLupine/SoundflowerBed/pull/3'),
 (11401, 61202664, 4, '2022-04-30T20:20:58', 'Paulchen-Panther', 'https://github.com/hyperion-project/hyperion.ng/pull/1444'),
