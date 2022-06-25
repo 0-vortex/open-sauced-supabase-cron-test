@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-25T04:50:15.617Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-25T06:47:35.562Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6096,13 +6096,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11661, 69193081, 1, '2017-08-21T21:14:43', 'rsarky', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/74'),
 (11666, 69193081, 2, '2021-03-25T22:46:42', 'vkWeb', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/538'),
 (11664, 69193081, 2, '2020-05-04T21:41:15', 'sandip2224', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/397'),
-(24056, 120149974, 1, '2022-06-04T00:57:38', 'infinitydon', 'https://github.com/fonoster/fonoster/pull/358'),
 (12274, 94498635, 3, '2019-09-04T16:50:25', 'timneutkens', 'https://github.com/carbon-app/carbon/pull/848'),
 (12276, 94498635, 3, '2018-02-25T16:09:53', 'molnarmark', 'https://github.com/carbon-app/carbon/pull/257'),
 (12270, 94498635, 1, '2017-10-31T20:31:39', 'varbrad', 'https://github.com/carbon-app/carbon/pull/133'),
 (11667, 69193081, 2, '2021-03-25T23:05:27', 'shlee8405', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/535'),
 (22528, 137223122, 1, '2021-06-28T15:11:57', 'j0hax', 'https://github.com/deepjyoti30/ytmdl/pull/189'),
 (22529, 137223122, 3, '2022-04-16T06:03:51', 'xgqt', 'https://github.com/deepjyoti30/ytmdl/pull/230'),
+(24056, 120149974, 1, '2022-06-04T00:57:38', 'infinitydon', 'https://github.com/fonoster/fonoster/pull/358'),
 (12271, 94498635, 3, '2018-11-29T17:53:49', 'mixn', 'https://github.com/carbon-app/carbon/pull/592'),
 (24062, 120149974, 1, '2019-02-17T02:47:13', 'gitter-badger', 'https://github.com/fonoster/fonoster/pull/1'),
 (7106, 281778548, 1, '2022-05-20T17:59:05', 'ForLoopNelson', 'https://github.com/writewithocto/octo/pull/181'),
