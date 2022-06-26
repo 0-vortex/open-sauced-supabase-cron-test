@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-26T08:46:01.071Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-26T12:53:34.607Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3107,7 +3107,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3962, 404324019, 4, '2021-10-25T14:08:53', 'ankitapuri', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/47'),
 (3960, 404324019, 4, '2022-03-24T13:02:18', 'arpit456jain', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/110'),
 (3961, 404324019, 4, '2022-02-20T05:50:14', 'astha2412', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/89'),
-(3963, 404324019, 2, '2021-10-25T12:26:52', 'ratnakar5938', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/45'),
 (3969, 404324019, 3, '2021-10-08T12:10:55', 'Devp73', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/35'),
 (3965, 404324019, 2, '2022-03-24T10:15:49', 'urviigupta', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/97'),
 (24060, 120149974, 1, '2022-02-15T14:40:54', 'itzmanish', 'https://github.com/fonoster/fonoster/pull/282'),
@@ -3132,6 +3131,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4833, 64700934, 4, '2021-03-10T22:48:22', 'Ro5s', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2579'),
 (14212, 174407870, 1, '2020-09-21T01:42:48', 'pabloripoll', 'https://github.com/based-ghost/vue-seo-friendly-spa-template/pull/2'),
 (2237, 257314632, 4, '2021-12-09T19:09:38', 'boczeratul', 'https://github.com/onflow/fcl-js/pull/916'),
+(3963, 404324019, 2, '2021-10-25T12:26:52', 'ratnakar5938', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/45'),
 (3970, 404324019, 2, '2022-02-02T19:04:53', 'SHUKLA-KUSHAGRA', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/65'),
 (3964, 404324019, 3, '2022-03-25T12:36:05', 'TusharKesarwani', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/111'),
 (3950, 73131897, 3, '2021-03-29T12:08:11', 'csknns', 'https://github.com/HamzaGhazouani/HGCircularSlider/pull/74'),
@@ -3335,8 +3335,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8609, 128265535, 4, '2019-02-06T21:14:23', 'rafalbiegacz', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/363'),
 (8606, 128265535, 4, '2021-12-13T17:59:16', 'ovk6', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1513'),
 (8607, 128265535, 4, '2019-08-20T13:33:42', 'khajduczenia', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/710'),
-(5944, 417389, 1, '2016-04-06T11:23:39', 'jish', 'https://github.com/lostisland/faraday/pull/556'),
 (5941, 417389, 1, '2011-12-28T21:48:20', 'jimeh', 'https://github.com/lostisland/faraday/pull/70'),
+(5944, 417389, 1, '2016-04-06T11:23:39', 'jish', 'https://github.com/lostisland/faraday/pull/556'),
 (5945, 417389, 3, '2016-08-26T20:45:28', 'sbleon', 'https://github.com/lostisland/faraday/pull/600'),
 (2943, 46261404, 4, '2017-03-31T06:06:41', 'tekknolagi', 'https://github.com/reasonml/reason/pull/1180'),
 (4184, 140188396, 1, '2018-08-05T15:23:39', 'vernondegoede', 'https://github.com/tvillarete/apple-music-js/pull/4'),
@@ -3640,8 +3640,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4532, 26291683, 2, '2017-04-06T08:35:36', 'Crissov', 'https://github.com/twitter/twemoji/pull/216'),
 (4533, 26291683, 1, '2015-04-11T18:18:21', 'WebReflection', 'https://github.com/twitter/twemoji/pull/73'),
 (4534, 26291683, 1, '2015-01-13T22:07:50', 'unindented', 'https://github.com/twitter/twemoji/pull/37'),
-(2867, 27380215, 1, '2017-07-03T13:54:25', 'huggla', 'https://github.com/vimagick/dockerfiles/pull/53'),
 (4535, 26291683, 2, '2015-06-30T14:16:30', 'prdolmos', 'https://github.com/twitter/twemoji/pull/89'),
+(2867, 27380215, 1, '2017-07-03T13:54:25', 'huggla', 'https://github.com/vimagick/dockerfiles/pull/53'),
 (16830, 121814210, 1, '2020-09-22T21:13:08', 'pavelkeyzik', 'https://github.com/primer/react/pull/869'),
 (22116, 69193081, 2, '2022-06-08T22:10:40', 'altela', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/555'),
 (22128, 69193081, 2, '2022-06-06T21:23:22', 'GAbdulwhb', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/723'),
