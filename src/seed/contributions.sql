@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-27T14:44:39.712Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-27T16:54:50.401Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1245,8 +1245,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1699, 348060227, 4, '2021-11-29T20:18:27', 'kyosuke', 'https://github.com/withastro/astro/pull/2005'),
 (16514, 142967350, 1, '2021-07-10T17:54:32', 'nayaabkhan', 'https://github.com/reach/reach-ui/pull/780'),
 (1701, 348060227, 4, '2021-08-04T19:45:22', 'Hanawa02', 'https://github.com/withastro/astro/pull/981'),
-(1702, 348060227, 4, '2021-06-24T13:48:25', 'duncanhealy', 'https://github.com/withastro/astro/pull/530'),
 (1703, 348060227, 4, '2022-02-07T15:16:56', 'MarcusOtter', 'https://github.com/withastro/astro/pull/2540'),
+(1702, 348060227, 4, '2021-06-24T13:48:25', 'duncanhealy', 'https://github.com/withastro/astro/pull/530'),
 (1704, 348060227, 4, '2022-05-12T20:38:48', 'RafidMuhymin', 'https://github.com/withastro/astro/pull/3353'),
 (1705, 348060227, 3, '2022-05-03T14:56:16', 'okikio', 'https://github.com/withastro/astro/pull/3213'),
 (16530, 142967350, 2, '2020-02-22T15:25:54', 'eldh', 'https://github.com/reach/reach-ui/pull/488'),
@@ -1529,11 +1529,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24059, 120149974, 1, '2022-05-05T21:53:27', 'psuet', 'https://github.com/fonoster/fonoster/pull/334'),
 (5997, 31168578, 1, '2016-06-10T05:50:25', 'brunops', 'https://github.com/hemanth/functional-programming-jargon/pull/43'),
 (5989, 31168578, 1, '2016-07-26T05:40:31', 'davezuko', 'https://github.com/hemanth/functional-programming-jargon/pull/66'),
-(24009, 445623269, 1, '2022-01-27T17:58:54', 'imabp', 'https://github.com/storyblok/storyblok-js/pull/2'),
 (24010, 445623269, 1, '2022-04-05T10:21:08', 'manuelschroederdev', 'https://github.com/storyblok/storyblok-js/pull/14'),
 (24011, 445623269, 1, '2022-04-27T20:03:28', 'edwardz8', 'https://github.com/storyblok/storyblok-js/pull/25'),
 (294, 11981144, 4, '2020-06-18T16:27:48', 'tiff', 'https://github.com/languagetool-org/languagetool/pull/3120'),
 (333, 11981144, 4, '2022-06-15T09:06:08', 'jaumeortola', 'https://github.com/languagetool-org/languagetool/pull/6786'),
+(24009, 445623269, 1, '2022-01-27T17:58:54', 'imabp', 'https://github.com/storyblok/storyblok-js/pull/2'),
 (2067, 29497480, 4, '2017-10-16T07:41:20', 'straube', 'https://github.com/OpenDominion/OpenDominion/pull/143'),
 (310, 11981144, 4, '2021-11-26T07:21:57', 'Rebecca-auque', 'https://github.com/languagetool-org/languagetool/pull/6084'),
 (2076, 29497480, 4, '2022-04-21T00:38:30', 'internetfett', 'https://github.com/OpenDominion/OpenDominion/pull/872'),
@@ -2291,6 +2291,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2987, 229504810, 1, '2021-10-18T13:33:43', 'jltml', 'https://github.com/sethcottle/littlelink/pull/29'),
 (3158, 92396311, 1, '2018-03-20T20:22:40', 'mindon', 'https://github.com/rxlabz/audioplayer/pull/18'),
 (3159, 92396311, 1, '2020-04-03T17:14:30', 'nstrelow', 'https://github.com/rxlabz/audioplayer/pull/117'),
+(2986, 229504810, 1, '2020-11-02T20:27:12', 'birobirobiro', 'https://github.com/sethcottle/littlelink/pull/4'),
 (11944, 293570349, 1, '2021-11-24T14:39:48', 'cpoissonnier', 'https://github.com/cocogitto/cocogitto/pull/147'),
 (5482, 52342167, 4, '2018-02-13T05:09:40', 'MatthewVita', 'https://github.com/kakoni/awesome-healthcare/pull/39'),
 (5481, 52342167, 1, '2019-06-30T07:29:12', 'ransford', 'https://github.com/kakoni/awesome-healthcare/pull/48'),
@@ -2319,7 +2320,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2979, 172227885, 2, '2020-04-17T12:20:49', 'br3ndonland', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/121'),
 (2984, 172227885, 2, '2020-04-19T05:56:06', 'RCheese', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/148'),
 (11848, 326404870, 4, '2022-05-20T16:08:20', 'ankitnayan', 'https://github.com/SigNoz/signoz/pull/1186'),
-(2986, 229504810, 1, '2020-11-02T20:27:12', 'birobirobiro', 'https://github.com/sethcottle/littlelink/pull/4'),
 (11849, 326404870, 4, '2021-02-24T07:13:17', 'himanshu-source21', 'https://github.com/SigNoz/signoz/pull/31'),
 (11850, 326404870, 4, '2022-03-06T07:52:37', 'pranay01', 'https://github.com/SigNoz/signoz/pull/829'),
 (11851, 326404870, 4, '2022-05-25T12:29:37', 'makeavish', 'https://github.com/SigNoz/signoz/pull/1206'),
@@ -2601,8 +2601,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3296, 280531604, 4, '2022-05-17T07:07:08', 'DrShpongle', 'https://github.com/eggheadio/egghead-next/pull/1114'),
 (3305, 280531604, 4, '2022-05-20T02:19:07', 'Creeland', 'https://github.com/eggheadio/egghead-next/pull/1117'),
 (3312, 280531604, 4, '2022-05-13T23:57:29', 'zacjones93', 'https://github.com/eggheadio/egghead-next/pull/1109'),
-(3308, 280531604, 4, '2022-04-06T14:05:25', 'vojtaholik', 'https://github.com/eggheadio/egghead-next/pull/1090'),
 (3302, 280531604, 4, '2021-05-14T20:17:19', 'dealingwith', 'https://github.com/eggheadio/egghead-next/pull/628'),
+(3308, 280531604, 4, '2022-04-06T14:05:25', 'vojtaholik', 'https://github.com/eggheadio/egghead-next/pull/1090'),
 (3314, 280531604, 4, '2021-07-14T20:01:37', 'willjohnsonio', 'https://github.com/eggheadio/egghead-next/pull/761'),
 (3316, 280531604, 4, '2021-09-13T12:06:32', 'tayiorbeii', 'https://github.com/eggheadio/egghead-next/pull/859'),
 (3324, 239656008, 1, '2020-02-12T13:18:11', 'thorsten-stripe', 'https://github.com/jamstack-cms/jamstack-ecommerce/pull/1'),
