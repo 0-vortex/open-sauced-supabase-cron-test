@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-28T03:21:53.560Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-28T04:57:09.754Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1229,8 +1229,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1655, 378070841, 1, '2022-02-10T13:12:04', 'ritox842', 'https://github.com/ngneat/elf/pull/148'),
 (1279, 306449955, 2, '2021-11-28T22:07:04', 'Disguys', 'https://github.com/IrisShaders/Iris/pull/840'),
 (1282, 306449955, 4, '2022-04-24T20:31:22', 'Isuewo', 'https://github.com/IrisShaders/Iris/pull/1328'),
-(5912, 187335810, 2, '2019-07-01T23:21:35', 'mcintyre94', 'https://github.com/jesseduffield/lazydocker/pull/55'),
 (8500, 49372256, 1, '2017-05-14T12:55:36', 'j-davies', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/4'),
+(5912, 187335810, 2, '2019-07-01T23:21:35', 'mcintyre94', 'https://github.com/jesseduffield/lazydocker/pull/55'),
 (32761, 47664932, 1, '2018-05-06T22:19:38', 'stevestock', 'https://github.com/dkhamsing/awesome_bot/pull/167'),
 (32762, 47664932, 1, '2019-10-09T14:30:13', 'Swati4star', 'https://github.com/dkhamsing/awesome_bot/pull/195'),
 (1608, 276143292, 4, '2021-02-04T18:50:12', 'snyk-bot', 'https://github.com/negue/meme-box/pull/149'),
@@ -1824,8 +1824,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11672, 107111421, 4, '2020-04-20T01:13:31', 'thedaviddias', 'https://github.com/thedaviddias/Front-End-Checklist/pull/404'),
 (1890, 28548699, 1, '2021-10-07T17:39:56', 'GaloisGirl', 'https://github.com/cassidoo/getting-a-gig/pull/57'),
 (32806, 70530854, 4, '2021-11-29T21:33:22', 'aahung', 'https://github.com/aws/serverless-application-model/pull/2251'),
-(3745, 3946572, 2, '2016-11-07T15:44:16', 'adamhartford', 'https://github.com/PostgresApp/PostgresApp/pull/351'),
 (3736, 3946572, 1, '2017-05-15T08:51:11', 'bunkrich', 'https://github.com/PostgresApp/PostgresApp/pull/392'),
+(3745, 3946572, 2, '2016-11-07T15:44:16', 'adamhartford', 'https://github.com/PostgresApp/PostgresApp/pull/351'),
 (3752, 3946572, 1, '2015-05-23T07:16:20', 'chrispassas', 'https://github.com/PostgresApp/PostgresApp/pull/263'),
 (3730, 3946572, 1, '2018-05-10T07:32:09', 'AlexTugarev', 'https://github.com/PostgresApp/PostgresApp/pull/421'),
 (3741, 3946572, 1, '2021-03-30T16:36:06', 'cappert', 'https://github.com/PostgresApp/PostgresApp/pull/621'),
