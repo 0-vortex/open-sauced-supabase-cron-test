@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-28T04:57:09.754Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-28T06:48:30.583Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1381,9 +1381,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8568, 265122478, 4, '2020-11-10T12:28:50', 'safinsingh', 'https://github.com/ManimCommunity/manim/pull/586'),
 (2317, 54377519, 2, '2019-06-03T05:19:33', 'i-love-code', 'https://github.com/PiranhaCMS/piranha.core/pull/646'),
 (2329, 54377519, 2, '2018-03-05T09:09:54', 'LucGosso', 'https://github.com/PiranhaCMS/piranha.core/pull/207'),
-(2324, 54377519, 1, '2021-01-07T05:34:48', 'MikeBairdRocks', 'https://github.com/PiranhaCMS/piranha.core/pull/1438'),
-(4087, 240786294, 4, '2020-10-03T04:47:13', 'rutujadhanawade', 'https://github.com/HarshCasper/Rotten-Scripts/pull/412'),
-(2824, 18609427, 4, '2022-03-27T04:38:59', 'h2oche', 'https://github.com/tc39/ecma262/pull/2700'),
 (2713, 102371998, 4, '2022-01-21T08:39:40', 'bmulholland', 'https://github.com/nuxt-community/auth-module/pull/1532'),
 (13752, 220139138, 1, '2021-08-29T04:39:44', 'ije', 'https://github.com/hayd/deno-lambda/pull/141'),
 (1868, 90408889, 2, '2019-05-20T15:59:01', 'alebertacco', 'https://github.com/moleculerjs/moleculer-web/pull/122'),
@@ -1393,7 +1390,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1861, 206410838, 1, '2020-07-31T23:50:40', 'michaelrbock', 'https://github.com/google/eng-practices/pull/30'),
 (1859, 206410838, 1, '2019-09-18T00:35:42', 'shuuji3', 'https://github.com/google/eng-practices/pull/5'),
 (1856, 206410838, 1, '2019-09-05T22:36:41', 'vocatan', 'https://github.com/google/eng-practices/pull/2'),
+(2324, 54377519, 1, '2021-01-07T05:34:48', 'MikeBairdRocks', 'https://github.com/PiranhaCMS/piranha.core/pull/1438'),
+(2824, 18609427, 4, '2022-03-27T04:38:59', 'h2oche', 'https://github.com/tc39/ecma262/pull/2700'),
 (1858, 206410838, 1, '2020-07-31T23:52:51', 'alanyee', 'https://github.com/google/eng-practices/pull/14'),
+(4087, 240786294, 4, '2020-10-03T04:47:13', 'rutujadhanawade', 'https://github.com/HarshCasper/Rotten-Scripts/pull/412'),
 (1857, 206410838, 1, '2019-09-08T19:54:35', 'mikeweilgart', 'https://github.com/google/eng-practices/pull/7'),
 (13756, 220139138, 1, '2022-05-09T21:24:01', 'Alon2303', 'https://github.com/hayd/deno-lambda/pull/173'),
 (13754, 220139138, 4, '2021-05-17T18:50:22', 'lucacasonato', 'https://github.com/hayd/deno-lambda/pull/133'),
@@ -1824,8 +1824,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11672, 107111421, 4, '2020-04-20T01:13:31', 'thedaviddias', 'https://github.com/thedaviddias/Front-End-Checklist/pull/404'),
 (1890, 28548699, 1, '2021-10-07T17:39:56', 'GaloisGirl', 'https://github.com/cassidoo/getting-a-gig/pull/57'),
 (32806, 70530854, 4, '2021-11-29T21:33:22', 'aahung', 'https://github.com/aws/serverless-application-model/pull/2251'),
-(3736, 3946572, 1, '2017-05-15T08:51:11', 'bunkrich', 'https://github.com/PostgresApp/PostgresApp/pull/392'),
 (3745, 3946572, 2, '2016-11-07T15:44:16', 'adamhartford', 'https://github.com/PostgresApp/PostgresApp/pull/351'),
+(3736, 3946572, 1, '2017-05-15T08:51:11', 'bunkrich', 'https://github.com/PostgresApp/PostgresApp/pull/392'),
 (3752, 3946572, 1, '2015-05-23T07:16:20', 'chrispassas', 'https://github.com/PostgresApp/PostgresApp/pull/263'),
 (3730, 3946572, 1, '2018-05-10T07:32:09', 'AlexTugarev', 'https://github.com/PostgresApp/PostgresApp/pull/421'),
 (3741, 3946572, 1, '2021-03-30T16:36:06', 'cappert', 'https://github.com/PostgresApp/PostgresApp/pull/621'),
