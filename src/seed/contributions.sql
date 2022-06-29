@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-29T04:58:14.352Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-29T06:48:16.612Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4604,9 +4604,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4707, 183267843, 1, '2020-10-12T18:02:20', 'Huuums', 'https://github.com/kentcdodds/advanced-react-hooks/pull/75'),
 (4708, 183267843, 1, '2020-10-08T01:35:21', 'dominicchapman', 'https://github.com/kentcdodds/advanced-react-hooks/pull/69'),
 (12196, 267760300, 1, '2020-08-08T20:45:17', 'mwood23', 'https://github.com/mwood23/wave-snippets/pull/1'),
-(2069, 29497480, 1, '2019-08-14T18:06:07', 'twish', 'https://github.com/OpenDominion/OpenDominion/pull/655'),
 (4703, 183267843, 1, '2021-05-17T19:55:18', 'giancarlol', 'https://github.com/kentcdodds/advanced-react-hooks/pull/137'),
 (4706, 183267843, 1, '2021-08-15T04:24:48', 'Hillsie', 'https://github.com/kentcdodds/advanced-react-hooks/pull/146'),
+(2069, 29497480, 1, '2019-08-14T18:06:07', 'twish', 'https://github.com/OpenDominion/OpenDominion/pull/655'),
 (4711, 183267843, 1, '2020-11-01T10:48:34', 'gregalia', 'https://github.com/kentcdodds/advanced-react-hooks/pull/96'),
 (4716, 183267843, 1, '2019-10-09T17:37:37', 'jdorfman', 'https://github.com/kentcdodds/advanced-react-hooks/pull/21'),
 (5451, 98789146, 4, '2018-11-13T22:54:17', 'jeroenransijn', 'https://github.com/segmentio/evergreen/pull/444'),
