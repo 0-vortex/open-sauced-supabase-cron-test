@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-28T22:45:49.146Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-29T01:05:24.186Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2758,8 +2758,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4712, 183267843, 1, '2021-04-21T16:05:05', 'IanVS', 'https://github.com/kentcdodds/advanced-react-hooks/pull/134'),
 (4714, 183267843, 1, '2021-03-15T17:50:33', 'jsberlanga', 'https://github.com/kentcdodds/advanced-react-hooks/pull/122'),
 (3288, 199486441, 2, '2020-01-24T18:17:24', 'mitchellkeaney', 'https://github.com/esmero/archipelago-deployment/pull/29'),
-(3319, 89948774, 1, '2018-09-26T18:25:20', 'leejones', 'https://github.com/dtzar/helm-kubectl/pull/19'),
 (3328, 89948774, 4, '2022-05-19T13:25:22', 'gaby', 'https://github.com/dtzar/helm-kubectl/pull/116'),
+(3319, 89948774, 1, '2018-09-26T18:25:20', 'leejones', 'https://github.com/dtzar/helm-kubectl/pull/19'),
 (3335, 89948774, 4, '2021-09-22T20:49:53', 'dtzar', 'https://github.com/dtzar/helm-kubectl/pull/95'),
 (3320, 89948774, 1, '2020-06-08T23:35:02', 'mcritchlow', 'https://github.com/dtzar/helm-kubectl/pull/56'),
 (3337, 89948774, 1, '2020-05-09T18:54:25', 'funkypenguin', 'https://github.com/dtzar/helm-kubectl/pull/55'),
@@ -5381,8 +5381,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8742, 180328715, 1, '2021-10-19T11:24:52', 'abraaoz', 'https://github.com/pmndrs/zustand/pull/588'),
 (8733, 180328715, 1, '2019-04-14T13:24:46', 'Dudeonyx', 'https://github.com/pmndrs/zustand/pull/8'),
 (8732, 180328715, 1, '2021-05-05T12:34:51', 'aigoncharov', 'https://github.com/pmndrs/zustand/pull/376'),
-(8710, 371575501, 1, '2021-08-21T16:15:34', 'jewlexx', 'https://github.com/akd-io/create-next-stack/pull/111'),
-(8716, 371575501, 4, '2022-05-07T17:23:54', 'akd-io', 'https://github.com/akd-io/create-next-stack/pull/140'),
 (22424, 5057307, 1, '2013-02-11T09:43:20', 'DidierA', 'https://github.com/julienXX/terminal-notifier/pull/37'),
 (22425, 5057307, 1, '2017-05-13T23:03:36', 'benaubin', 'https://github.com/julienXX/terminal-notifier/pull/182'),
 (22426, 5057307, 1, '2016-10-04T16:58:43', 'Zearin', 'https://github.com/julienXX/terminal-notifier/pull/174'),
@@ -5398,7 +5396,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22436, 5057307, 1, '2015-04-04T13:37:01', 'fukayatsu', 'https://github.com/julienXX/terminal-notifier/pull/128'),
 (22437, 5057307, 1, '2013-08-24T10:31:03', 'timoschilling', 'https://github.com/julienXX/terminal-notifier/pull/41'),
 (22438, 5057307, 1, '2014-11-02T14:02:38', 'aspinall', 'https://github.com/julienXX/terminal-notifier/pull/113'),
-(8715, 289834406, 3, '2021-03-26T17:04:37', 'NoisyWool', 'https://github.com/bartdegoede/python-searchengine/pull/8'),
 (8765, 132732601, 4, '2019-10-21T09:31:30', 'giner', 'https://github.com/canonical/microk8s/pull/722'),
 (8756, 132732601, 4, '2021-04-01T14:05:16', 'evilnick', 'https://github.com/canonical/microk8s/pull/2141'),
 (8759, 132732601, 4, '2021-06-30T13:14:53', 'tbertenshaw', 'https://github.com/canonical/microk8s/pull/2219'),
@@ -6496,6 +6493,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8621, 128265535, 4, '2018-07-09T19:50:06', 'deustis', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/86'),
 (8618, 128265535, 4, '2019-02-20T18:34:11', 'trironkk', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/385'),
 (8635, 128265535, 4, '2022-06-24T12:15:16', 'Matt-Jns', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1806'),
+(8715, 289834406, 3, '2021-03-26T17:04:37', 'NoisyWool', 'https://github.com/bartdegoede/python-searchengine/pull/8'),
 (5462, 98789146, 4, '2019-03-22T20:34:04', 'fforres', 'https://github.com/segmentio/evergreen/pull/528'),
 (5469, 98789146, 3, '2019-06-17T14:35:33', 'maraisr', 'https://github.com/segmentio/evergreen/pull/570'),
 (5474, 98789146, 4, '2019-11-13T16:00:37', 'IdealSystemsMCP', 'https://github.com/segmentio/evergreen/pull/678'),
@@ -6507,8 +6505,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5479, 98789146, 3, '2020-08-10T18:42:11', 'wangcch', 'https://github.com/segmentio/evergreen/pull/932'),
 (5476, 98789146, 4, '2020-03-11T16:40:11', 'calthomson', 'https://github.com/segmentio/evergreen/pull/754'),
 (5478, 98789146, 2, '2020-04-21T03:02:32', 'andycarrell', 'https://github.com/segmentio/evergreen/pull/791'),
+(8710, 371575501, 1, '2021-08-21T16:15:34', 'jewlexx', 'https://github.com/akd-io/create-next-stack/pull/111'),
 (5471, 98789146, 2, '2019-10-25T18:43:34', 'edumoreira1506', 'https://github.com/segmentio/evergreen/pull/626'),
 (5468, 98789146, 2, '2018-11-13T21:31:21', 'kcjpop', 'https://github.com/segmentio/evergreen/pull/441'),
+(8716, 371575501, 4, '2022-05-07T17:23:54', 'akd-io', 'https://github.com/akd-io/create-next-stack/pull/140'),
 (1443, 210332258, 2, '2019-10-05T09:34:04', 'thatrobotdev', 'https://github.com/hasura/learn-graphql/pull/34'),
 (1422, 210332258, 2, '2020-01-20T07:31:42', '99hats', 'https://github.com/hasura/learn-graphql/pull/141'),
 (1441, 210332258, 2, '2020-12-03T12:24:37', 'kriswep', 'https://github.com/hasura/learn-graphql/pull/361'),
@@ -6637,12 +6637,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11907, 76669415, 1, '2020-09-04T17:37:00', 'snyk-bot', 'https://github.com/testingisdocumenting/znai/pull/544'),
 (1285, 306449955, 1, '2022-04-30T01:23:51', 'Crsuh2er0', 'https://github.com/IrisShaders/Iris/pull/1348'),
 (15592, 306449955, 4, '2022-06-23T23:03:30', 'qouteall', 'https://github.com/IrisShaders/Iris/pull/1488'),
-(8711, 289834406, 1, '2021-04-17T00:56:53', 'rtyler', 'https://github.com/bartdegoede/python-searchengine/pull/9'),
 (2579, 141183500, 4, '2022-05-07T17:21:05', 'osdanova', 'https://github.com/Xeeynamo/OpenKh/pull/599'),
 (2598, 141183500, 3, '2022-01-30T14:11:45', 'thamstras', 'https://github.com/Xeeynamo/OpenKh/pull/539'),
 (2629, 141183500, 4, '2021-08-10T13:23:35', 'snelson3', 'https://github.com/Xeeynamo/OpenKh/pull/511'),
 (2594, 141183500, 4, '2022-03-02T19:01:35', 'Tyniscus', 'https://github.com/Xeeynamo/OpenKh/pull/579'),
 (2582, 141183500, 1, '2022-02-03T15:01:00', 'MiguelQueiroz010', 'https://github.com/Xeeynamo/OpenKh/pull/546'),
+(8711, 289834406, 1, '2021-04-17T00:56:53', 'rtyler', 'https://github.com/bartdegoede/python-searchengine/pull/9'),
 (2809, 310393570, 4, '2022-06-07T15:37:39', 'seanmacavaney', 'https://github.com/allenai/ir_datasets/pull/196'),
 (2808, 310393570, 3, '2021-11-25T11:56:00', 'heinrichreimer', 'https://github.com/allenai/ir_datasets/pull/135'),
 (2802, 310393570, 1, '2022-05-05T19:53:13', 'ArthurCamara', 'https://github.com/allenai/ir_datasets/pull/190'),
