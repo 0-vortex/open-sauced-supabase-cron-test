@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-30T14:44:34.186Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-30T16:55:05.433Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1513,8 +1513,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2000, 81975372, 1, '2017-03-29T22:19:41', 'rahulmaddineni', 'https://github.com/kdn251/interviews/pull/28'),
 (2004, 81975372, 1, '2017-03-14T00:23:13', 'renjithgr', 'https://github.com/kdn251/interviews/pull/13'),
 (2001, 81975372, 1, '2017-03-12T16:15:36', 'veekaybee', 'https://github.com/kdn251/interviews/pull/1'),
-(1998, 81975372, 1, '2017-03-19T17:28:23', 'prayagverma', 'https://github.com/kdn251/interviews/pull/24'),
 (1997, 81975372, 1, '2018-02-02T18:42:57', 'emrecosar', 'https://github.com/kdn251/interviews/pull/58'),
+(1998, 81975372, 1, '2017-03-19T17:28:23', 'prayagverma', 'https://github.com/kdn251/interviews/pull/24'),
 (1999, 81975372, 1, '2018-03-29T15:28:08', 'pedroAlba', 'https://github.com/kdn251/interviews/pull/71'),
 (2002, 81975372, 1, '2018-04-10T02:13:41', 'leviding', 'https://github.com/kdn251/interviews/pull/79'),
 (9032, 44150497, 4, '2020-11-01T21:56:51', 'Puugu', 'https://github.com/remoteintech/remote-jobs/pull/1114'),
@@ -3941,8 +3941,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5736, 126577260, 2, '2022-01-25T16:48:56', 'iwaskorean', 'https://github.com/trekhleb/javascript-algorithms/pull/767'),
 (5712, 126577260, 3, '2022-01-27T19:54:41', 'fveronezipeters', 'https://github.com/trekhleb/javascript-algorithms/pull/665'),
 (5725, 126577260, 2, '2018-10-01T14:15:08', 'agusnavce', 'https://github.com/trekhleb/javascript-algorithms/pull/218'),
-(12111, 344697559, 1, '2021-12-14T02:03:09', 'kmandr22', 'https://github.com/nalmadi/EMIP-Toolkit/pull/31'),
-(12112, 344697559, 1, '2021-12-21T23:44:04', 'fcronty', 'https://github.com/nalmadi/EMIP-Toolkit/pull/56'),
 (7186, 411705813, 1, '2021-10-03T14:12:40', 'react-ions', 'https://github.com/avinash201199/Portfolio-Collection/pull/9'),
 (32908, 34228852, 4, '2020-06-15T00:59:25', 'hiverkiya', 'https://github.com/AchoArnold/discount-for-student-dev/pull/100'),
 (32909, 75027176, 1, '2019-10-03T15:15:19', 'Aaron-K-T-Berry', 'https://github.com/infinitered/gluegun/pull/614'),
@@ -3987,6 +3985,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32914, 34228852, 1, '2015-10-30T05:16:38', 'blindingstars', 'https://github.com/AchoArnold/discount-for-student-dev/pull/16'),
 (32915, 34228852, 1, '2017-05-10T08:36:17', 'jmenglis', 'https://github.com/AchoArnold/discount-for-student-dev/pull/51'),
 (32916, 34228852, 2, '2020-05-16T16:37:29', 'imba-tjd', 'https://github.com/AchoArnold/discount-for-student-dev/pull/97'),
+(12111, 344697559, 1, '2021-12-14T02:03:09', 'kmandr22', 'https://github.com/nalmadi/EMIP-Toolkit/pull/31'),
+(12112, 344697559, 1, '2021-12-21T23:44:04', 'fcronty', 'https://github.com/nalmadi/EMIP-Toolkit/pull/56'),
 (4740, 69590701, 4, '2019-09-19T08:34:27', 'AlexMarcuBytex', 'https://github.com/vmware/clarity/pull/3819'),
 (4741, 69590701, 4, '2020-11-04T09:05:13', 'amellnik', 'https://github.com/vmware/clarity/pull/5195'),
 (4742, 69590701, 4, '2021-06-08T12:09:22', 'sis0k0', 'https://github.com/vmware/clarity/pull/6015'),
@@ -6167,8 +6167,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11648, 69193081, 2, '2018-10-30T17:18:39', 'Aphraa', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/248'),
 (11653, 69193081, 2, '2019-02-15T05:41:51', 'marieram', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/292'),
 (17081, 69193081, 3, '2022-06-03T00:05:02', 'uday03meh', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/714'),
-(22516, 137223122, 2, '2018-10-24T18:30:43', 'biswaroop1547', 'https://github.com/deepjyoti30/ytmdl/pull/12'),
 (11649, 69193081, 2, '2017-09-19T15:39:18', 'namratab94', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/83'),
+(22516, 137223122, 2, '2018-10-24T18:30:43', 'biswaroop1547', 'https://github.com/deepjyoti30/ytmdl/pull/12'),
 (22517, 137223122, 1, '2019-11-16T13:19:49', '0xflotus', 'https://github.com/deepjyoti30/ytmdl/pull/25'),
 (22518, 137223122, 3, '2018-07-22T11:21:40', 'deepjyoti30', 'https://github.com/deepjyoti30/ytmdl/pull/8'),
 (22519, 137223122, 4, '2020-07-26T13:38:42', 'danimateo', 'https://github.com/deepjyoti30/ytmdl/pull/106'),
@@ -7447,9 +7447,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12267, 94498635, 2, '2018-12-11T16:45:53', 'wooooooak', 'https://github.com/carbon-app/carbon/pull/599'),
 (12277, 94498635, 2, '2019-02-14T17:18:10', 'farskid', 'https://github.com/carbon-app/carbon/pull/673'),
 (2703, 212123834, 1, '2021-04-21T13:37:49', 'extreme4all', 'https://github.com/kentaro-m/auto-assign-action/pull/47'),
+(12115, 344697559, 2, '2022-02-17T22:46:49', 'quanphan2906', 'https://github.com/nalmadi/EMIP-Toolkit/pull/79'),
+(12117, 344697559, 1, '2021-12-19T23:01:22', 'TheWeisGuy', 'https://github.com/nalmadi/EMIP-Toolkit/pull/47'),
+(12116, 344697559, 4, '2021-07-03T01:28:39', 'sdotpeng', 'https://github.com/nalmadi/EMIP-Toolkit/pull/21'),
+(12113, 344697559, 1, '2021-12-20T02:50:43', 'BlueSocksFFF', 'https://github.com/nalmadi/EMIP-Toolkit/pull/51'),
 (9141, 6093316, 4, '2020-09-21T13:35:41', 'alloy', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/47825'),
 (9128, 6093316, 4, '2021-06-01T18:21:49', 'johnnyreilly', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/53537'),
-(12113, 344697559, 1, '2021-12-20T02:50:43', 'BlueSocksFFF', 'https://github.com/nalmadi/EMIP-Toolkit/pull/51'),
 (9142, 6093316, 3, '2020-02-08T00:41:43', 'jessetrinity', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42191'),
 (9147, 6093316, 4, '2022-05-05T23:01:52', 'AlexJerabek', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/60215'),
 (12282, 94498635, 2, '2019-10-24T00:43:42', 'miguelangel-dev', 'https://github.com/carbon-app/carbon/pull/895'),
@@ -7463,9 +7466,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1481, 137104789, 1, '2019-06-18T11:28:55', 'arunpratap26', 'https://github.com/jamesmh/coravel/pull/94'),
 (1482, 137104789, 1, '2019-10-05T22:32:51', 'DominikHerold', 'https://github.com/jamesmh/coravel/pull/112'),
 (1493, 137104789, 1, '2020-10-05T13:34:12', 'temesinko', 'https://github.com/jamesmh/coravel/pull/192'),
-(12115, 344697559, 2, '2022-02-17T22:46:49', 'quanphan2906', 'https://github.com/nalmadi/EMIP-Toolkit/pull/79'),
-(12116, 344697559, 4, '2021-07-03T01:28:39', 'sdotpeng', 'https://github.com/nalmadi/EMIP-Toolkit/pull/21'),
-(12117, 344697559, 1, '2021-12-19T23:01:22', 'TheWeisGuy', 'https://github.com/nalmadi/EMIP-Toolkit/pull/47'),
 (9130, 6093316, 4, '2022-04-22T18:56:57', 'BendingBender', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59944'),
 (9123, 6093316, 4, '2020-03-06T21:58:18', 'armanio123', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42963'),
 (9121, 6093316, 4, '2022-06-22T17:19:41', 'jablko', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/60857'),
