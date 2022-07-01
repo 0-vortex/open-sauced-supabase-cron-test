@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-01T08:47:39.851Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-01T12:58:19.165Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5655,8 +5655,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11867, 326404870, 2, '2021-12-24T07:44:50', 'Anurag5086', 'https://github.com/SigNoz/signoz/pull/503'),
 (11868, 326404870, 1, '2022-01-26T16:23:04', 'sadn1ck', 'https://github.com/SigNoz/signoz/pull/570'),
 (11869, 326404870, 2, '2021-12-10T07:57:15', 'genzyy', 'https://github.com/SigNoz/signoz/pull/455'),
-(11870, 196760810, 4, '2021-03-20T14:19:13', 'rradfar', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1303'),
 (11871, 196760810, 4, '2022-05-27T04:34:55', 'masoudk1990', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/3730'),
+(11870, 196760810, 4, '2021-03-20T14:19:13', 'rradfar', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1303'),
 (11872, 196760810, 4, '2021-11-19T09:52:59', 'ahr9n', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2650'),
 (11873, 196760810, 4, '2022-04-21T05:47:52', 'goosepirate', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/3559'),
 (11874, 196760810, 4, '2021-10-21T07:18:05', 'Amsal1', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2505'),
@@ -6950,8 +6950,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3777, 144873815, 2, '2021-03-25T15:11:42', 'Jolg42', 'https://github.com/prisma/prisma-examples/pull/2682'),
 (3775, 144873815, 2, '2020-07-24T08:03:26', 'brunocrosier', 'https://github.com/prisma/prisma-examples/pull/1823'),
 (5789, 138754790, 4, '2021-09-13T11:49:28', 'chilarai', 'https://github.com/duckdb/duckdb/pull/2228'),
-(2704, 102371998, 4, '2018-04-03T12:23:35', 'breakingrobot', 'https://github.com/nuxt-community/auth-module/pull/115'),
 (2697, 102371998, 4, '2020-10-17T19:14:06', 'manniL', 'https://github.com/nuxt-community/auth-module/pull/826'),
+(2704, 102371998, 4, '2018-04-03T12:23:35', 'breakingrobot', 'https://github.com/nuxt-community/auth-module/pull/115'),
 (2725, 102371998, 3, '2021-09-22T09:53:25', 'bcnzer', 'https://github.com/nuxt-community/auth-module/pull/1305'),
 (2700, 102371998, 3, '2018-05-18T08:01:05', 'robsontenorio', 'https://github.com/nuxt-community/auth-module/pull/175'),
 (2732, 102371998, 4, '2019-05-23T12:45:44', 'PJLindsay', 'https://github.com/nuxt-community/auth-module/pull/300'),
