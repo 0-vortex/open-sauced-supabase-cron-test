@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-02T16:49:59.058Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-02T18:46:49.443Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -890,8 +890,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32719, 54322227, 1, '2016-06-17T12:31:31', 'kendaleiv', 'https://github.com/trstringer/awesome-tech-conferences/pull/29'),
 (1429, 122681898, 1, '2021-01-04T20:51:00', 'saimachi', 'https://github.com/microsoft/MCW-Modern-cloud-apps/pull/75'),
 (2461, 65848095, 4, '2022-05-18T19:40:38', 'myml', 'https://github.com/requarks/wiki/pull/5304'),
-(32720, 34983527, 3, '2016-03-15T13:02:36', 'nhoizey', 'https://github.com/mundimark/awesome-markdown/pull/7'),
 (32721, 34983527, 4, '2017-05-18T13:09:31', 'trieloff', 'https://github.com/mundimark/awesome-markdown/pull/18'),
+(32720, 34983527, 3, '2016-03-15T13:02:36', 'nhoizey', 'https://github.com/mundimark/awesome-markdown/pull/7'),
 (32722, 34983527, 2, '2020-10-23T08:27:41', 'spekulatius', 'https://github.com/mundimark/awesome-markdown/pull/31'),
 (1447, 16607898, 4, '2022-06-14T10:56:19', 'tphoney', 'https://github.com/harness/drone/pull/3230'),
 (1470, 16607898, 4, '2015-02-21T23:49:40', 'floatdrop', 'https://github.com/harness/drone/pull/884'),
@@ -2016,7 +2016,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1794, 290703027, 4, '2021-10-18T14:42:33', 'krishremya', 'https://github.com/kothariji/competitive-programming/pull/540'),
 (2645, 21938243, 4, '2020-07-07T11:17:54', 'usagi', 'https://github.com/rust-unofficial/awesome-rust/pull/922'),
 (2643, 21938243, 4, '2020-10-01T21:40:02', 'svenstaro', 'https://github.com/rust-unofficial/awesome-rust/pull/974'),
-(2641, 21938243, 4, '2020-04-21T10:21:00', 'yaa110', 'https://github.com/rust-unofficial/awesome-rust/pull/878'),
 (1782, 290703027, 4, '2021-10-06T19:28:12', 'krishkavya', 'https://github.com/kothariji/competitive-programming/pull/433'),
 (1773, 290703027, 2, '2020-10-01T04:28:07', '27Anurag', 'https://github.com/kothariji/competitive-programming/pull/22'),
 (5991, 31168578, 1, '2019-02-06T13:49:36', 'amilajack', 'https://github.com/hemanth/functional-programming-jargon/pull/192'),
@@ -2024,6 +2023,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5776, 138754790, 1, '2022-03-24T09:06:01', 'hmb1', 'https://github.com/duckdb/duckdb/pull/3084'),
 (5973, 31168578, 1, '2016-07-27T05:56:31', 'bobwhitelock', 'https://github.com/hemanth/functional-programming-jargon/pull/84'),
 (4557, 488514, 4, '2020-03-04T19:41:03', 'indirect', 'https://github.com/rubygems/bundler/pull/7661'),
+(2641, 21938243, 4, '2020-04-21T10:21:00', 'yaa110', 'https://github.com/rust-unofficial/awesome-rust/pull/878'),
 (4559, 488514, 4, '2018-12-30T03:52:11', 'segiddins', 'https://github.com/rubygems/bundler/pull/6856'),
 (4563, 488514, 4, '2015-05-05T05:53:36', 'hone', 'https://github.com/rubygems/bundler/pull/3618'),
 (4561, 488514, 4, '2016-08-16T14:55:48', 'asutoshpalai', 'https://github.com/rubygems/bundler/pull/4815'),
