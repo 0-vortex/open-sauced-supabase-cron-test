@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-02T14:44:36.316Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-02T16:49:59.058Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2022,8 +2022,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5991, 31168578, 1, '2019-02-06T13:49:36', 'amilajack', 'https://github.com/hemanth/functional-programming-jargon/pull/192'),
 (3746, 3946572, 1, '2021-03-05T14:29:48', 'doekman', 'https://github.com/PostgresApp/PostgresApp/pull/619'),
 (5776, 138754790, 1, '2022-03-24T09:06:01', 'hmb1', 'https://github.com/duckdb/duckdb/pull/3084'),
-(4557, 488514, 4, '2020-03-04T19:41:03', 'indirect', 'https://github.com/rubygems/bundler/pull/7661'),
 (5973, 31168578, 1, '2016-07-27T05:56:31', 'bobwhitelock', 'https://github.com/hemanth/functional-programming-jargon/pull/84'),
+(4557, 488514, 4, '2020-03-04T19:41:03', 'indirect', 'https://github.com/rubygems/bundler/pull/7661'),
 (4559, 488514, 4, '2018-12-30T03:52:11', 'segiddins', 'https://github.com/rubygems/bundler/pull/6856'),
 (4563, 488514, 4, '2015-05-05T05:53:36', 'hone', 'https://github.com/rubygems/bundler/pull/3618'),
 (4561, 488514, 4, '2016-08-16T14:55:48', 'asutoshpalai', 'https://github.com/rubygems/bundler/pull/4815'),
@@ -7764,10 +7764,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1319, 278150898, 1, '2021-03-28T00:17:57', 'manuphatak', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/97'),
 (1316, 278150898, 1, '2021-10-19T17:37:23', 'robinbowes', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/237'),
 (1321, 278150898, 1, '2021-09-01T17:56:19', 'papwe', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/190'),
+(1333, 278150898, 1, '2020-12-14T17:29:13', 'pokutuna', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/48'),
 (1331, 278150898, 1, '2021-01-13T17:22:10', 'shahargl', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/53'),
 (1328, 278150898, 1, '2020-10-29T23:32:10', 'mikutas', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/34'),
 (34836, 257314632, 2, '2022-06-30T17:23:58', 'wise4rmgod', 'https://github.com/onflow/fcl-js/pull/1276'),
-(1333, 278150898, 1, '2020-12-14T17:29:13', 'pokutuna', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/48'),
 (2234, 257314632, 1, '2020-07-08T20:36:33', 'benjaminkvm', 'https://github.com/onflow/fcl-js/pull/125'),
 (2219, 257314632, 1, '2020-09-22T19:39:10', 'janezpodhostnik', 'https://github.com/onflow/fcl-js/pull/374'),
 (2209, 257314632, 3, '2021-11-23T00:39:07', 'MaxStalker', 'https://github.com/onflow/fcl-js/pull/883'),
@@ -8174,9 +8174,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5966, 75701562, 1, '2017-03-20T01:52:01', 'yaukeywang', 'https://github.com/miloyip/game-programmer/pull/23'),
 (5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2'),
 (5971, 75701562, 1, '2016-12-17T13:27:40', 'unship', 'https://github.com/miloyip/game-programmer/pull/9'),
+(24461, 235133242, 1, '2022-01-12T13:53:15', 'judofyr', 'https://github.com/sanity-io/mendoza/pull/6'),
 (24464, 194835924, 3, '2019-09-25T07:42:57', 'judofyr', 'https://github.com/sanity-io/groq-cli/pull/5'),
 (24460, 235133242, 1, '2021-12-15T10:59:46', 'rubioz', 'https://github.com/sanity-io/mendoza/pull/4'),
-(24461, 235133242, 1, '2022-01-12T13:53:15', 'judofyr', 'https://github.com/sanity-io/mendoza/pull/6'),
 (24462, 235133242, 1, '2021-08-24T11:50:26', 'j33ty', 'https://github.com/sanity-io/mendoza/pull/2'),
 (24463, 235133242, 1, '2021-11-10T12:31:54', 'rexxars', 'https://github.com/sanity-io/mendoza/pull/3'),
 (24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
@@ -8295,10 +8295,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (852, 67375557, 1, '2020-01-30T18:16:19', 'morfey13', 'https://github.com/mgechev/angular-performance-checklist/pull/46'),
 (770, 125225914, 4, '2019-08-27T07:58:03', 'chengenzhao', 'https://github.com/reactiverse/es4x/pull/177'),
 (707, 48393191, 2, '2016-05-26T17:15:24', 'boazj', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/29'),
+(705, 48393191, 4, '2016-05-02T20:22:35', 'nadavc', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/15'),
 (779, 125225914, 1, '2021-10-08T17:58:07', 'loic5', 'https://github.com/reactiverse/es4x/pull/560'),
 (724, 48393191, 1, '2017-02-08T19:19:25', 'ligi', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/82'),
 (926, 1446467, 4, '2022-06-17T15:26:32', 'pradyunsg', 'https://github.com/pypa/pip/pull/11194'),
-(705, 48393191, 4, '2016-05-02T20:22:35', 'nadavc', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/15'),
 (910, 1446467, 2, '2013-05-31T08:55:00', 'carljm', 'https://github.com/pypa/pip/pull/968'),
 (905, 1446467, 4, '2022-07-01T06:01:51', 'uranusjr', 'https://github.com/pypa/pip/pull/11217'),
 (919, 1446467, 4, '2020-05-04T14:00:51', 'ilanschnell', 'https://github.com/pypa/pip/pull/8118'),
@@ -8423,10 +8423,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1634, 16072585, 4, '2017-11-22T08:36:41', 'rossta', 'https://github.com/phoenixframework/phoenix/pull/2640'),
 (1757, 1834988, 4, '2018-05-20T19:08:47', 'sckott', 'https://github.com/ropensci/rplos/pull/118'),
 (1762, 1834988, 1, '2013-09-16T14:03:27', 'bbolker', 'https://github.com/ropensci/rplos/pull/46'),
+(1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74'),
 (1763, 1834988, 4, '2013-04-18T23:19:54', 'mfenner', 'https://github.com/ropensci/rplos/pull/39'),
 (1758, 1834988, 1, '2017-10-06T20:03:23', 'benda1997', 'https://github.com/ropensci/rplos/pull/116'),
 (1760, 1834988, 1, '2014-04-15T00:40:06', 'jrnold', 'https://github.com/ropensci/rplos/pull/63'),
-(1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74'),
 (1759, 1834988, 1, '2018-02-19T01:00:08', 'katrinleinweber', 'https://github.com/ropensci/rplos/pull/117'),
 (1919, 28548699, 1, '2015-01-07T04:29:23', 'MohammadAdib', 'https://github.com/cassidoo/getting-a-gig/pull/3'),
 (1911, 28548699, 1, '2019-05-27T02:27:43', 'parvezk', 'https://github.com/cassidoo/getting-a-gig/pull/41'),
