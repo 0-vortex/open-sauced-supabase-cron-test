@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T03:20:05.044Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T04:50:18.932Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7824,8 +7824,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13055, 92266575, 1, '2017-10-04T05:01:52', 'boydy12', 'https://github.com/thinhvo0108/react-paypal-express-checkout/pull/1'),
 (13069, 149638165, 2, '2020-07-28T18:27:24', 'lourenci', 'https://github.com/testing-library/user-event/pull/400'),
 (13077, 149638165, 1, '2021-02-13T11:44:09', 'benadamstyles', 'https://github.com/testing-library/user-event/pull/534'),
-(13079, 149638165, 1, '2021-10-18T14:46:16', '777PolarFox777', 'https://github.com/testing-library/user-event/pull/741'),
 (762, 88011908, 2, '2017-06-13T14:04:33', 'adilkhash', 'https://github.com/practical-tutorials/project-based-learning/pull/32'),
+(13079, 149638165, 1, '2021-10-18T14:46:16', '777PolarFox777', 'https://github.com/testing-library/user-event/pull/741'),
 (742, 88011908, 4, '2017-07-14T00:41:40', 'olucode', 'https://github.com/practical-tutorials/project-based-learning/pull/38'),
 (734, 88011908, 4, '2021-09-07T18:24:52', 'enkeyz', 'https://github.com/practical-tutorials/project-based-learning/pull/328'),
 (752, 88011908, 2, '2017-05-22T14:24:21', 'AzariasB', 'https://github.com/practical-tutorials/project-based-learning/pull/29'),
@@ -8139,8 +8139,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13612, 95876775, 1, '2019-06-02T19:24:54', 'Jason-Cooke', 'https://github.com/elsewhencode/project-guidelines/pull/145'),
 (13609, 95876775, 1, '2017-09-05T15:33:28', 'gianpaj', 'https://github.com/elsewhencode/project-guidelines/pull/95'),
 (13611, 95876775, 1, '2017-07-13T22:46:02', 'thegrid22593', 'https://github.com/elsewhencode/project-guidelines/pull/60'),
-(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (13613, 95876775, 1, '2021-05-20T12:56:55', 'Flouse', 'https://github.com/elsewhencode/project-guidelines/pull/161'),
+(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (4440, 338929421, 4, '2021-06-30T15:55:18', 'wwsean08', 'https://github.com/Team-TAU/tau/pull/63'),
 (4438, 338929421, 2, '2021-05-20T14:13:49', 'brandonroberts', 'https://github.com/Team-TAU/tau/pull/43'),
 (4437, 338929421, 4, '2022-05-10T17:58:30', 'FiniteSingularity', 'https://github.com/Team-TAU/tau/pull/102'),
@@ -8422,8 +8422,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1627, 16072585, 4, '2020-04-09T08:52:32', 'fertapric', 'https://github.com/phoenixframework/phoenix/pull/3750'),
 (1634, 16072585, 4, '2017-11-22T08:36:41', 'rossta', 'https://github.com/phoenixframework/phoenix/pull/2640'),
 (1757, 1834988, 4, '2018-05-20T19:08:47', 'sckott', 'https://github.com/ropensci/rplos/pull/118'),
-(1762, 1834988, 1, '2013-09-16T14:03:27', 'bbolker', 'https://github.com/ropensci/rplos/pull/46'),
 (1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74'),
+(1762, 1834988, 1, '2013-09-16T14:03:27', 'bbolker', 'https://github.com/ropensci/rplos/pull/46'),
 (1763, 1834988, 4, '2013-04-18T23:19:54', 'mfenner', 'https://github.com/ropensci/rplos/pull/39'),
 (1758, 1834988, 1, '2017-10-06T20:03:23', 'benda1997', 'https://github.com/ropensci/rplos/pull/116'),
 (1760, 1834988, 1, '2014-04-15T00:40:06', 'jrnold', 'https://github.com/ropensci/rplos/pull/63'),
