@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T12:53:12.137Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T14:44:43.531Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1553,8 +1553,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2715, 102371998, 2, '2020-10-17T19:14:20', 'debs-obrien', 'https://github.com/nuxt-community/auth-module/pull/851'),
 (333, 11981144, 4, '2022-06-15T09:06:08', 'jaumeortola', 'https://github.com/languagetool-org/languagetool/pull/6786'),
 (294, 11981144, 4, '2020-06-18T16:27:48', 'tiff', 'https://github.com/languagetool-org/languagetool/pull/3120'),
-(2084, 29497480, 4, '2018-09-29T22:04:47', 'Hodgy', 'https://github.com/OpenDominion/OpenDominion/pull/243'),
 (2076, 29497480, 4, '2022-04-21T00:38:30', 'internetfett', 'https://github.com/OpenDominion/OpenDominion/pull/872'),
+(2084, 29497480, 4, '2018-09-29T22:04:47', 'Hodgy', 'https://github.com/OpenDominion/OpenDominion/pull/243'),
 (24009, 445623269, 1, '2022-01-27T17:58:54', 'imabp', 'https://github.com/storyblok/storyblok-js/pull/2'),
 (24010, 445623269, 1, '2022-04-05T10:21:08', 'manuelschroederdev', 'https://github.com/storyblok/storyblok-js/pull/14'),
 (24011, 445623269, 1, '2022-04-27T20:03:28', 'edwardz8', 'https://github.com/storyblok/storyblok-js/pull/25'),
@@ -6493,6 +6493,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2064, 29497480, 1, '2018-05-08T19:25:00', 'zaiura', 'https://github.com/OpenDominion/OpenDominion/pull/263'),
 (1276, 306449955, 4, '2021-11-29T03:07:16', 'Justsnoopy30', 'https://github.com/IrisShaders/Iris/pull/975'),
 (1266, 306449955, 4, '2022-02-28T18:28:11', 'NoComment1105', 'https://github.com/IrisShaders/Iris/pull/1294'),
+(1265, 306449955, 4, '2022-06-10T16:12:31', 'pajicadvance', 'https://github.com/IrisShaders/Iris/pull/1474'),
 (8711, 289834406, 1, '2021-04-17T00:56:53', 'rtyler', 'https://github.com/bartdegoede/python-searchengine/pull/9'),
 (853, 67375557, 1, '2018-06-12T20:03:07', 'adamzr', 'https://github.com/mgechev/angular-performance-checklist/pull/19'),
 (859, 67375557, 3, '2018-11-20T14:57:10', 'dreamdevil00', 'https://github.com/mgechev/angular-performance-checklist/pull/26'),
@@ -6531,7 +6532,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11966, 107286889, 1, '2017-10-25T11:43:13', 'El-JojA', 'https://github.com/schollz/croc/pull/49'),
 (11969, 107286889, 2, '2017-10-24T11:28:23', 'Girbons', 'https://github.com/schollz/croc/pull/43'),
 (11974, 107286889, 1, '2020-10-04T15:09:07', 'fooofei', 'https://github.com/schollz/croc/pull/280'),
-(1265, 306449955, 4, '2022-06-10T16:12:31', 'pajicadvance', 'https://github.com/IrisShaders/Iris/pull/1474'),
 (2810, 310393570, 2, '2022-04-26T09:04:02', 'cakiki', 'https://github.com/allenai/ir_datasets/pull/185'),
 (2795, 310393570, 1, '2021-07-01T18:41:58', 'codycollier', 'https://github.com/allenai/ir_datasets/pull/82'),
 (8789, 13601190, 4, '2020-11-01T13:08:40', 'raffaelj', 'https://github.com/agentejo/cockpit/pull/1364'),
@@ -7960,9 +7960,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2446, 65848095, 2, '2017-10-27T22:54:35', 'johnnyshields', 'https://github.com/requarks/wiki/pull/295'),
 (2751, 13825712, 4, '2022-01-19T11:47:30', 'asvishnyakov', 'https://github.com/VirtoCommerce/vc-platform/pull/2450'),
 (2707, 13825712, 4, '2022-06-29T13:34:34', 'mvktsk', 'https://github.com/VirtoCommerce/vc-platform/pull/2520'),
-(2709, 13825712, 4, '2020-11-05T14:32:14', 'yecli', 'https://github.com/VirtoCommerce/vc-platform/pull/2088'),
 (2744, 13825712, 4, '2021-03-01T17:55:24', 'AliveMen', 'https://github.com/VirtoCommerce/vc-platform/pull/2172'),
 (3795, 248032165, 2, '2020-11-10T20:44:56', 'anoopgarlapati', 'https://github.com/spring-projects/spring-authorization-server/pull/140'),
+(2709, 13825712, 4, '2020-11-05T14:32:14', 'yecli', 'https://github.com/VirtoCommerce/vc-platform/pull/2088'),
 (3796, 248032165, 1, '2020-04-23T18:45:16', 'kratostaine', 'https://github.com/spring-projects/spring-authorization-server/pull/61'),
 (3799, 248032165, 1, '2020-05-17T12:51:08', 'krisztian-toth', 'https://github.com/spring-projects/spring-authorization-server/pull/71'),
 (3798, 248032165, 1, '2021-09-21T19:45:05', 'kiratkumar47', 'https://github.com/spring-projects/spring-authorization-server/pull/421'),
@@ -8140,12 +8140,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13609, 95876775, 1, '2017-09-05T15:33:28', 'gianpaj', 'https://github.com/elsewhencode/project-guidelines/pull/95'),
 (13611, 95876775, 1, '2017-07-13T22:46:02', 'thegrid22593', 'https://github.com/elsewhencode/project-guidelines/pull/60'),
 (13613, 95876775, 1, '2021-05-20T12:56:55', 'Flouse', 'https://github.com/elsewhencode/project-guidelines/pull/161'),
-(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (4440, 338929421, 4, '2021-06-30T15:55:18', 'wwsean08', 'https://github.com/Team-TAU/tau/pull/63'),
 (4438, 338929421, 2, '2021-05-20T14:13:49', 'brandonroberts', 'https://github.com/Team-TAU/tau/pull/43'),
 (4437, 338929421, 4, '2022-05-10T17:58:30', 'FiniteSingularity', 'https://github.com/Team-TAU/tau/pull/102'),
 (4434, 338929421, 1, '2021-05-27T00:41:12', 'rexroof', 'https://github.com/Team-TAU/tau/pull/39'),
 (4441, 338929421, 1, '2021-08-12T19:08:40', 'jwalter', 'https://github.com/Team-TAU/tau/pull/77'),
+(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (4435, 338929421, 2, '2021-06-03T21:26:48', 'mtfoley', 'https://github.com/Team-TAU/tau/pull/48'),
 (4442, 338929421, 1, '2022-04-04T01:31:02', 'ched-dev', 'https://github.com/Team-TAU/tau/pull/94'),
 (4433, 338929421, 1, '2021-06-12T19:15:29', 'Greenwinde', 'https://github.com/Team-TAU/tau/pull/54'),
