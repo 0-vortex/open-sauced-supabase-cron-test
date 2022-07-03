@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T14:44:43.531Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T16:50:01.366Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -858,8 +858,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2474, 65848095, 2, '2017-08-28T17:22:15', 'Bamieh', 'https://github.com/requarks/wiki/pull/224'),
 (2467, 65848095, 4, '2021-01-29T19:16:33', 'scienceasdf', 'https://github.com/requarks/wiki/pull/2830'),
 (2832, 18609427, 4, '2022-01-05T23:09:25', 'mathiasbynens', 'https://github.com/tc39/ecma262/pull/2515'),
-(2838, 18609427, 4, '2019-07-18T06:04:34', 'rwaldron', 'https://github.com/tc39/ecma262/pull/1601'),
 (2844, 18609427, 4, '2021-02-11T23:43:03', 'rkirsling', 'https://github.com/tc39/ecma262/pull/2221'),
+(2838, 18609427, 4, '2019-07-18T06:04:34', 'rwaldron', 'https://github.com/tc39/ecma262/pull/1601'),
 (2828, 18609427, 4, '2019-08-18T07:04:57', 'domenic', 'https://github.com/tc39/ecma262/pull/1645'),
 (2847, 18609427, 4, '2022-02-16T23:17:34', 'ExE-Boss', 'https://github.com/tc39/ecma262/pull/2591'),
 (2817, 18609427, 4, '2019-06-19T21:36:45', 'jugglinmike', 'https://github.com/tc39/ecma262/pull/1158'),
@@ -2390,9 +2390,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3063, 7034320, 4, '2020-03-08T19:49:13', 'dpaquette', 'https://github.com/MisterJames/GenFu/pull/158'),
 (3064, 7034320, 1, '2014-08-20T16:15:33', 'dylanblack', 'https://github.com/MisterJames/GenFu/pull/14'),
 (3065, 7034320, 1, '2016-01-03T00:22:53', 'gpltaylor', 'https://github.com/MisterJames/GenFu/pull/53'),
-(3066, 7034320, 4, '2017-06-15T16:44:52', 'MisterJames', 'https://github.com/MisterJames/GenFu/pull/114'),
 (3076, 273512313, 3, '2021-08-18T13:00:48', 'ritik-malik', 'https://github.com/chaoss/community-handbook/pull/22'),
-(3069, 7034320, 2, '2015-11-26T03:35:32', 'johnmeilleur', 'https://github.com/MisterJames/GenFu/pull/43'),
 (5487, 52342167, 1, '2021-09-01T14:43:56', 'hadim', 'https://github.com/kakoni/awesome-healthcare/pull/64'),
 (5494, 52342167, 1, '2018-02-08T17:44:59', 'pacharanero', 'https://github.com/kakoni/awesome-healthcare/pull/37'),
 (5488, 52342167, 1, '2018-10-31T20:19:17', 'maximveksler', 'https://github.com/kakoni/awesome-healthcare/pull/44'),
@@ -2424,6 +2422,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32833, 70530854, 4, '2019-11-07T18:00:08', '53ningen', 'https://github.com/aws/serverless-application-model/pull/1234'),
 (32836, 70530854, 4, '2022-01-21T16:46:01', 'CoshUS', 'https://github.com/aws/serverless-application-model/pull/2285'),
 (32838, 70530854, 4, '2022-06-27T15:29:27', 'praneetap', 'https://github.com/aws/serverless-application-model/pull/2422'),
+(3066, 7034320, 4, '2017-06-15T16:44:52', 'MisterJames', 'https://github.com/MisterJames/GenFu/pull/114'),
+(3069, 7034320, 2, '2015-11-26T03:35:32', 'johnmeilleur', 'https://github.com/MisterJames/GenFu/pull/43'),
 (750, 88011908, 1, '2017-05-02T01:35:53', 'mr-ubik', 'https://github.com/practical-tutorials/project-based-learning/pull/8'),
 (739, 88011908, 1, '2018-09-09T07:01:29', 'yrsdi', 'https://github.com/practical-tutorials/project-based-learning/pull/110'),
 (32837, 70530854, 4, '2019-03-22T20:06:39', 'honglu', 'https://github.com/aws/serverless-application-model/pull/868'),
@@ -7960,9 +7960,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2446, 65848095, 2, '2017-10-27T22:54:35', 'johnnyshields', 'https://github.com/requarks/wiki/pull/295'),
 (2751, 13825712, 4, '2022-01-19T11:47:30', 'asvishnyakov', 'https://github.com/VirtoCommerce/vc-platform/pull/2450'),
 (2707, 13825712, 4, '2022-06-29T13:34:34', 'mvktsk', 'https://github.com/VirtoCommerce/vc-platform/pull/2520'),
+(2709, 13825712, 4, '2020-11-05T14:32:14', 'yecli', 'https://github.com/VirtoCommerce/vc-platform/pull/2088'),
 (2744, 13825712, 4, '2021-03-01T17:55:24', 'AliveMen', 'https://github.com/VirtoCommerce/vc-platform/pull/2172'),
 (3795, 248032165, 2, '2020-11-10T20:44:56', 'anoopgarlapati', 'https://github.com/spring-projects/spring-authorization-server/pull/140'),
-(2709, 13825712, 4, '2020-11-05T14:32:14', 'yecli', 'https://github.com/VirtoCommerce/vc-platform/pull/2088'),
 (3796, 248032165, 1, '2020-04-23T18:45:16', 'kratostaine', 'https://github.com/spring-projects/spring-authorization-server/pull/61'),
 (3799, 248032165, 1, '2020-05-17T12:51:08', 'krisztian-toth', 'https://github.com/spring-projects/spring-authorization-server/pull/71'),
 (3798, 248032165, 1, '2021-09-21T19:45:05', 'kiratkumar47', 'https://github.com/spring-projects/spring-authorization-server/pull/421'),
@@ -8140,12 +8140,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13609, 95876775, 1, '2017-09-05T15:33:28', 'gianpaj', 'https://github.com/elsewhencode/project-guidelines/pull/95'),
 (13611, 95876775, 1, '2017-07-13T22:46:02', 'thegrid22593', 'https://github.com/elsewhencode/project-guidelines/pull/60'),
 (13613, 95876775, 1, '2021-05-20T12:56:55', 'Flouse', 'https://github.com/elsewhencode/project-guidelines/pull/161'),
+(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (4440, 338929421, 4, '2021-06-30T15:55:18', 'wwsean08', 'https://github.com/Team-TAU/tau/pull/63'),
 (4438, 338929421, 2, '2021-05-20T14:13:49', 'brandonroberts', 'https://github.com/Team-TAU/tau/pull/43'),
 (4437, 338929421, 4, '2022-05-10T17:58:30', 'FiniteSingularity', 'https://github.com/Team-TAU/tau/pull/102'),
 (4434, 338929421, 1, '2021-05-27T00:41:12', 'rexroof', 'https://github.com/Team-TAU/tau/pull/39'),
 (4441, 338929421, 1, '2021-08-12T19:08:40', 'jwalter', 'https://github.com/Team-TAU/tau/pull/77'),
-(13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59'),
 (4435, 338929421, 2, '2021-06-03T21:26:48', 'mtfoley', 'https://github.com/Team-TAU/tau/pull/48'),
 (4442, 338929421, 1, '2022-04-04T01:31:02', 'ched-dev', 'https://github.com/Team-TAU/tau/pull/94'),
 (4433, 338929421, 1, '2021-06-12T19:15:29', 'Greenwinde', 'https://github.com/Team-TAU/tau/pull/54'),
