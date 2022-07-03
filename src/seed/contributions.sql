@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T04:50:18.932Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-03T06:47:39.199Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7824,8 +7824,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13055, 92266575, 1, '2017-10-04T05:01:52', 'boydy12', 'https://github.com/thinhvo0108/react-paypal-express-checkout/pull/1'),
 (13069, 149638165, 2, '2020-07-28T18:27:24', 'lourenci', 'https://github.com/testing-library/user-event/pull/400'),
 (13077, 149638165, 1, '2021-02-13T11:44:09', 'benadamstyles', 'https://github.com/testing-library/user-event/pull/534'),
-(762, 88011908, 2, '2017-06-13T14:04:33', 'adilkhash', 'https://github.com/practical-tutorials/project-based-learning/pull/32'),
 (13079, 149638165, 1, '2021-10-18T14:46:16', '777PolarFox777', 'https://github.com/testing-library/user-event/pull/741'),
+(762, 88011908, 2, '2017-06-13T14:04:33', 'adilkhash', 'https://github.com/practical-tutorials/project-based-learning/pull/32'),
 (742, 88011908, 4, '2017-07-14T00:41:40', 'olucode', 'https://github.com/practical-tutorials/project-based-learning/pull/38'),
 (734, 88011908, 4, '2021-09-07T18:24:52', 'enkeyz', 'https://github.com/practical-tutorials/project-based-learning/pull/328'),
 (752, 88011908, 2, '2017-05-22T14:24:21', 'AzariasB', 'https://github.com/practical-tutorials/project-based-learning/pull/29'),
@@ -8422,8 +8422,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1627, 16072585, 4, '2020-04-09T08:52:32', 'fertapric', 'https://github.com/phoenixframework/phoenix/pull/3750'),
 (1634, 16072585, 4, '2017-11-22T08:36:41', 'rossta', 'https://github.com/phoenixframework/phoenix/pull/2640'),
 (1757, 1834988, 4, '2018-05-20T19:08:47', 'sckott', 'https://github.com/ropensci/rplos/pull/118'),
-(1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74'),
 (1762, 1834988, 1, '2013-09-16T14:03:27', 'bbolker', 'https://github.com/ropensci/rplos/pull/46'),
+(1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74'),
 (1763, 1834988, 4, '2013-04-18T23:19:54', 'mfenner', 'https://github.com/ropensci/rplos/pull/39'),
 (1758, 1834988, 1, '2017-10-06T20:03:23', 'benda1997', 'https://github.com/ropensci/rplos/pull/116'),
 (1760, 1834988, 1, '2014-04-15T00:40:06', 'jrnold', 'https://github.com/ropensci/rplos/pull/63'),
