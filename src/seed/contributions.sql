@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-04T03:25:10.088Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-04T04:58:01.448Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -645,13 +645,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2593, 141183500, 1, '2021-06-30T16:12:52', 'Noxalus', 'https://github.com/Xeeynamo/OpenKh/pull/485'),
 (2748, 13825712, 4, '2021-02-16T08:33:19', 'kostyrin', 'https://github.com/VirtoCommerce/vc-platform/pull/2154'),
 (979, 195162469, 4, '2021-02-09T08:35:02', 'Nandhini-Ravichandran', 'https://github.com/syncfusion/flutter-examples/pull/279'),
-(32697, 54322227, 1, '2016-05-04T13:27:23', 'niksy', 'https://github.com/trstringer/awesome-tech-conferences/pull/26'),
-(8772, 2531988, 2, '2016-07-02T15:57:40', 'Melkij', 'https://github.com/fpoirotte/phpfarm/pull/15'),
-(983, 195162469, 1, '2020-12-28T05:43:50', 'Sasikumar3595', 'https://github.com/syncfusion/flutter-examples/pull/249'),
 (8773, 2531988, 2, '2018-01-27T18:06:52', 'camlafit', 'https://github.com/fpoirotte/phpfarm/pull/21'),
+(32697, 54322227, 1, '2016-05-04T13:27:23', 'niksy', 'https://github.com/trstringer/awesome-tech-conferences/pull/26'),
+(983, 195162469, 1, '2020-12-28T05:43:50', 'Sasikumar3595', 'https://github.com/syncfusion/flutter-examples/pull/249'),
 (985, 195162469, 2, '2022-05-17T04:27:31', 'SriramKiranSenthilkumar', 'https://github.com/syncfusion/flutter-examples/pull/619'),
 (989, 195162469, 1, '2021-03-22T08:51:40', 'paulosergioduff', 'https://github.com/syncfusion/flutter-examples/pull/310'),
-(8775, 2531988, 1, '2013-08-02T17:10:12', 'daidais', 'https://github.com/fpoirotte/phpfarm/pull/4'),
 (11917, 10865436, 2, '2013-06-25T07:16:23', 'donokuda', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/55'),
 (11910, 10865436, 1, '2014-06-19T17:31:41', 'stavrossk', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/159'),
 (996, 195162469, 4, '2022-02-16T10:49:07', 'dharanidharandharmasivam', 'https://github.com/syncfusion/flutter-examples/pull/544'),
@@ -667,6 +665,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12217, 124910572, 3, '2021-12-10T14:09:38', 'anooptp', 'https://github.com/mozilla/bugbug/pull/2667'),
 (1312, 278150898, 1, '2020-12-04T16:49:59', 'cdriscol', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/43'),
 (1588, 249234386, 2, '2021-01-17T15:12:34', 'chrismarquardt', 'https://github.com/steveseguin/vdo.ninja/pull/660'),
+(8772, 2531988, 2, '2016-07-02T15:57:40', 'Melkij', 'https://github.com/fpoirotte/phpfarm/pull/15'),
+(8775, 2531988, 1, '2013-08-02T17:10:12', 'daidais', 'https://github.com/fpoirotte/phpfarm/pull/4'),
 (11913, 10865436, 1, '2014-06-19T18:09:47', 'gneutzling', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/199'),
 (32698, 54322227, 1, '2018-07-26T16:36:00', 'AlexeyBuzdin', 'https://github.com/trstringer/awesome-tech-conferences/pull/97'),
 (32699, 54322227, 3, '2018-01-30T15:23:46', 'margaritis', 'https://github.com/trstringer/awesome-tech-conferences/pull/82'),
@@ -4980,8 +4980,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5289, 326460518, 1, '2022-04-11T18:16:30', 'DerTee', 'https://github.com/ratfactor/ziglings/pull/94'),
 (5296, 326460518, 1, '2021-02-14T02:59:18', 'Ivan-Velickovic', 'https://github.com/ratfactor/ziglings/pull/13'),
 (5287, 326460518, 1, '2021-03-12T22:57:15', 'bbuccianti', 'https://github.com/ratfactor/ziglings/pull/34'),
-(5288, 326460518, 1, '2021-02-16T23:25:59', 'mz0', 'https://github.com/ratfactor/ziglings/pull/24'),
 (5292, 326460518, 1, '2022-01-06T23:07:04', 'kimshrier', 'https://github.com/ratfactor/ziglings/pull/87'),
+(5288, 326460518, 1, '2021-02-16T23:25:59', 'mz0', 'https://github.com/ratfactor/ziglings/pull/24'),
 (5297, 326460518, 1, '2021-03-18T13:53:42', 'davidskeck', 'https://github.com/ratfactor/ziglings/pull/39'),
 (5294, 326460518, 1, '2021-09-15T23:52:23', 'tensorush', 'https://github.com/ratfactor/ziglings/pull/72'),
 (2940, 46261404, 4, '2016-08-01T21:24:47', 'kassens', 'https://github.com/reasonml/reason/pull/653'),
@@ -5791,9 +5791,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4179, 143078055, 2, '2019-10-12T14:10:06', 'tyankatsu0105', 'https://github.com/gridsome/gridsome/pull/741'),
 (4175, 143078055, 2, '2019-03-20T13:01:25', 'ThomOrlo', 'https://github.com/gridsome/gridsome/pull/266'),
 (4173, 143078055, 2, '2020-02-16T09:42:54', 'clorichel', 'https://github.com/gridsome/gridsome/pull/982'),
+(1834, 430789888, 1, '2022-02-15T02:10:27', 'shamoilarsi', 'https://github.com/Developer-DAO/web3-ui/pull/297'),
 (1961, 14173176, 4, '2014-09-18T22:14:36', 'serverperformance', 'https://github.com/EsotericSoftware/kryo/pull/245'),
 (1966, 14173176, 2, '2016-02-24T16:47:19', 'stau', 'https://github.com/EsotericSoftware/kryo/pull/394'),
-(1834, 430789888, 1, '2022-02-15T02:10:27', 'shamoilarsi', 'https://github.com/Developer-DAO/web3-ui/pull/297'),
 (2623, 23024191, 1, '2020-06-10T18:56:30', 'thijstriemstra', 'https://github.com/neu-rah/ArduinoMenu/pull/314'),
 (14269, 41571541, 4, '2022-06-01T15:49:36', 'clintoncwolfe', 'https://github.com/inspec/inspec/pull/6099'),
 (14271, 41571541, 4, '2019-02-27T19:20:51', 'chris-rock', 'https://github.com/inspec/inspec/pull/3833'),
@@ -6478,7 +6478,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11907, 76669415, 1, '2020-09-04T17:37:00', 'snyk-bot', 'https://github.com/testingisdocumenting/znai/pull/544'),
 (2571, 250348566, 1, '2021-11-07T06:29:47', 'yusriltakeuchi', 'https://github.com/Sithira/FlutterRadioPlayer/pull/54'),
 (2570, 250348566, 3, '2020-08-07T14:47:48', 'cjamcu', 'https://github.com/Sithira/FlutterRadioPlayer/pull/20'),
-(8774, 2531988, 1, '2013-06-05T18:46:29', 'tacone', 'https://github.com/fpoirotte/phpfarm/pull/3'),
 (854, 67375557, 2, '2020-10-06T19:59:40', 'santoshyadavdev', 'https://github.com/mgechev/angular-performance-checklist/pull/49'),
 (856, 67375557, 1, '2019-03-22T16:32:44', 'ZQ-jhon', 'https://github.com/mgechev/angular-performance-checklist/pull/34'),
 (857, 67375557, 2, '2017-10-30T22:46:36', 'tytskyi', 'https://github.com/mgechev/angular-performance-checklist/pull/13'),
@@ -6487,6 +6486,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1276, 306449955, 4, '2021-11-29T03:07:16', 'Justsnoopy30', 'https://github.com/IrisShaders/Iris/pull/975'),
 (1266, 306449955, 4, '2022-02-28T18:28:11', 'NoComment1105', 'https://github.com/IrisShaders/Iris/pull/1294'),
 (1265, 306449955, 4, '2022-06-10T16:12:31', 'pajicadvance', 'https://github.com/IrisShaders/Iris/pull/1474'),
+(8774, 2531988, 1, '2013-06-05T18:46:29', 'tacone', 'https://github.com/fpoirotte/phpfarm/pull/3'),
 (853, 67375557, 1, '2018-06-12T20:03:07', 'adamzr', 'https://github.com/mgechev/angular-performance-checklist/pull/19'),
 (859, 67375557, 3, '2018-11-20T14:57:10', 'dreamdevil00', 'https://github.com/mgechev/angular-performance-checklist/pull/26'),
 (851, 67375557, 1, '2017-09-12T19:15:50', 'lucasvst', 'https://github.com/mgechev/angular-performance-checklist/pull/10'),
