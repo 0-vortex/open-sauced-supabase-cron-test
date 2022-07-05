@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-05T06:48:13.647Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-05T08:46:55.909Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4442,8 +4442,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22342, 378536025, 1, '2022-06-02T08:39:21', 'huihzhao', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/48'),
 (4547, 378536025, 1, '2021-06-20T12:03:31', 'gakonst', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/2'),
 (16276, 827590, 4, '2019-07-19T00:24:22', 'zsinskri', 'https://github.com/beetbox/beets/pull/3330'),
-(8623, 128265535, 4, '2018-11-28T10:59:17', 'tomasz-safuryn', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/297'),
 (4699, 183267843, 1, '2020-10-21T13:30:48', 'alexfertel', 'https://github.com/kentcdodds/advanced-react-hooks/pull/84'),
+(8623, 128265535, 4, '2018-11-28T10:59:17', 'tomasz-safuryn', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/297'),
 (4702, 183267843, 1, '2021-04-03T04:50:27', 'aosante', 'https://github.com/kentcdodds/advanced-react-hooks/pull/130'),
 (4707, 183267843, 1, '2020-10-12T18:02:20', 'Huuums', 'https://github.com/kentcdodds/advanced-react-hooks/pull/75'),
 (4708, 183267843, 1, '2020-10-08T01:35:21', 'dominicchapman', 'https://github.com/kentcdodds/advanced-react-hooks/pull/69'),
@@ -6012,8 +6012,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5187, 120595947, 1, '2020-08-09T11:14:39', 'chapeupreto', 'https://github.com/hello-rust/show/pull/64'),
 (12233, 9746477, 4, '2021-02-13T08:54:00', 'llloret', 'https://github.com/sonic-pi-net/sonic-pi/pull/2699'),
 (12242, 9746477, 1, '2015-12-30T08:07:23', 'thraex41', 'https://github.com/sonic-pi-net/sonic-pi/pull/799'),
-(22513, 9312102, 2, '2020-04-12T23:10:35', 'punchagan', 'https://github.com/arc298/instagram-scraper/pull/494'),
 (8619, 128265535, 4, '2022-06-28T08:35:24', 'ganochenkodg', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1808'),
+(22513, 9312102, 2, '2020-04-12T23:10:35', 'punchagan', 'https://github.com/arc298/instagram-scraper/pull/494'),
 (8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
 (8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
 (5189, 120595947, 1, '2018-11-28T13:16:40', 'la10736', 'https://github.com/hello-rust/show/pull/50'),
@@ -8062,8 +8062,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4405, 4132857, 1, '2015-09-14T05:16:51', 'danielfullmer', 'https://github.com/insanum/gcalcli/pull/206'),
 (4400, 4132857, 1, '2013-12-13T02:01:59', 'jimparis', 'https://github.com/insanum/gcalcli/pull/118'),
 (4404, 4132857, 1, '2019-05-21T16:55:22', 'sagotsky', 'https://github.com/insanum/gcalcli/pull/450'),
-(4402, 4132857, 1, '2019-04-04T04:05:53', 'maxwell-k', 'https://github.com/insanum/gcalcli/pull/439'),
 (4406, 4132857, 1, '2015-09-16T17:18:35', 'jcmuller', 'https://github.com/insanum/gcalcli/pull/207'),
+(4402, 4132857, 1, '2019-04-04T04:05:53', 'maxwell-k', 'https://github.com/insanum/gcalcli/pull/439'),
 (4403, 4132857, 1, '2013-01-17T17:38:27', 'mali', 'https://github.com/insanum/gcalcli/pull/49'),
 (4401, 4132857, 1, '2019-04-30T15:46:07', 'mikem23', 'https://github.com/insanum/gcalcli/pull/445'),
 (4407, 4132857, 1, '2016-01-19T00:47:56', 'matthewdavis', 'https://github.com/insanum/gcalcli/pull/227'),
