@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-05T01:05:07.396Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-05T03:21:44.587Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2738,13 +2738,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (14154, 400851369, 1, '2021-09-09T12:23:49', 'tzachar', 'https://github.com/lewis6991/impatient.nvim/pull/19'),
 (14150, 400851369, 1, '2021-08-30T20:27:11', 'shadmansaleh', 'https://github.com/lewis6991/impatient.nvim/pull/8'),
 (14153, 400851369, 1, '2021-09-28T18:33:27', 'williamboman', 'https://github.com/lewis6991/impatient.nvim/pull/34'),
+(23072, 240574799, 4, '2020-02-24T13:05:39', 'bigx333', 'https://github.com/devato/inertia_phoenix/pull/26'),
 (914, 1446467, 4, '2019-09-25T04:30:34', 'cjerdonek', 'https://github.com/pypa/pip/pull/7075'),
 (2097, 26500787, 1, '2022-02-07T18:33:55', 'jsoref', 'https://github.com/tonsky/FiraCode/pull/1366'),
 (3466, 203364472, 1, '2020-05-30T12:18:42', 'drewwynne0', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/6'),
 (2104, 26500787, 1, '2017-03-21T14:43:24', 'abenedykt', 'https://github.com/tonsky/FiraCode/pull/387'),
 (2112, 26500787, 3, '2017-09-28T07:56:55', 'j-f1', 'https://github.com/tonsky/FiraCode/pull/491'),
 (3470, 9418724, 4, '2014-04-24T16:58:52', 'blom', 'https://github.com/petems/tugboat/pull/100'),
-(23072, 240574799, 4, '2020-02-24T13:05:39', 'bigx333', 'https://github.com/devato/inertia_phoenix/pull/26'),
 (3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40'),
 (3476, 75322405, 4, '2019-11-07T06:19:15', 'geeknoid', 'https://github.com/istio/proxy/pull/2488'),
 (3477, 75322405, 4, '2017-06-21T20:36:54', 'mangchiandjjoe', 'https://github.com/istio/proxy/pull/377'),

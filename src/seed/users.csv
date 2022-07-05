@@ -205,7 +205,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 60850993,1,true,false,true,2022-05-21T22:50:21.824355+00:00,vinosamari
 38838958,1,true,false,true,2022-05-21T22:50:23.348355+00:00,frvs
 1645628,8,true,false,true,2022-05-21T22:50:20.405966+00:00,mikachan
-54808964,1,true,false,true,2022-06-06T03:49:02.655205+00:00,bnnthang
+17912134,1,true,false,true,2022-06-05T15:25:22.939095+00:00,Shoetan
 17712401,3,true,false,true,2022-06-07T18:32:07.212376+00:00,lucalves
 3977903,2,true,false,true,2022-06-11T03:48:36.712677+00:00,ralphiz
 32243043,1,true,false,true,2022-06-02T09:40:07.11887+00:00,ahzia
@@ -238,17 +238,17 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 8792243,1,true,false,true,2022-06-06T08:46:48.382759+00:00,sc250024
 5111856,0,true,false,true,2022-06-12T04:18:11.505775+00:00,xfoxawy
 6658807,7,true,false,true,2022-06-04T15:42:14.847084+00:00,derneuere
-17912134,1,true,false,true,2022-06-05T15:25:22.939095+00:00,Shoetan
+37368987,3,true,false,true,2022-06-05T08:53:05.927409+00:00,Elia-Darwish
 7490938,0,true,false,true,2022-05-28T21:37:45.133079+00:00,kejne
 76204863,0,true,false,true,2022-06-12T14:26:42.112999+00:00,rahulkarda
 2712201,1,true,false,true,2022-05-23T17:35:23.777134+00:00,mpskeeter
-71362054,6,true,false,true,2022-06-06T18:15:35.695569+00:00,daniellemadry
+54808964,1,true,false,true,2022-06-06T03:49:02.655205+00:00,bnnthang
 7043511,1,true,false,true,2022-06-10T16:37:37.439091+00:00,joshuabezaleel
 2003804,2,true,false,true,2022-06-02T04:44:42.570248+00:00,whawker
 8431042,0,true,false,true,2022-06-02T19:52:43.484282+00:00,maxcell
 1492007,2,true,false,true,2022-06-07T16:00:34.988206+00:00,Vad1mo
 72141037,1,true,false,true,2022-06-08T15:54:12.580106+00:00,prajapatiomkar
-37368987,3,true,false,true,2022-06-05T08:53:05.927409+00:00,Elia-Darwish
+78784850,0,true,false,true,2022-06-05T04:37:58.753803+00:00,Dun-sin
 3012311,2,true,false,true,2022-05-31T16:44:24.284684+00:00,vordimous
 19890779,4,true,false,true,2022-06-10T19:47:36.126604+00:00,mattkeeler
 90222871,3,true,false,true,2022-06-11T12:23:21.936495+00:00,nhristov
@@ -257,9 +257,10 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 36790617,0,true,false,true,2022-06-19T03:41:19.915979+00:00,thnhtus
 35191127,1,true,false,true,2022-05-29T05:46:48.513877+00:00,sureshvazrala
 35054601,1,true,false,true,2022-06-01T05:29:57.559232+00:00,kudoabhijeet
+71362054,6,true,false,true,2022-06-06T18:15:35.695569+00:00,daniellemadry
 60453988,1,true,false,true,2022-06-09T20:46:51.149394+00:00,adrireid
 46192266,2,true,false,true,2022-06-10T13:18:05.207548+00:00,htuerker
-78784850,0,true,false,true,2022-06-05T04:37:58.753803+00:00,Dun-sin
+67465104,1,true,false,true,2022-06-04T14:07:40.216915+00:00,mzoyinda
 61464726,1,true,false,true,2022-06-03T05:08:10.083416+00:00,melsorrells23
 55068936,2,true,true,true,2022-05-28T14:42:15.81789+00:00,Siddhant-K-code
 16787295,1,true,false,true,2022-06-01T03:05:03.958328+00:00,acrobertson
@@ -275,7 +276,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 7406822,1,true,false,true,2022-06-11T16:26:27.793606+00:00,davwheat
 75282221,1,true,false,true,2022-06-16T08:44:03.359402+00:00,Duck-the-dev
 14762772,1,true,false,true,2022-06-15T21:30:58.564663+00:00,leon-wolf
-67465104,1,true,false,true,2022-06-04T14:07:40.216915+00:00,mzoyinda
 2601974,2,true,false,true,2022-05-24T06:55:53.940498+00:00,geekygirlsarah
 32559031,0,true,false,true,2022-06-14T23:29:57.25509+00:00,michellbrito
 2754163,1,true,false,true,2022-05-29T13:25:38.716964+00:00,MrLeebo
@@ -307,10 +307,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 4552395,0,true,false,true,2022-06-10T15:56:49.088363+00:00,umangmathur92
 49374657,0,true,false,true,2022-06-30T07:20:55.974836+00:00,Zakichanu
 76396335,4,true,false,true,2022-06-18T12:37:45.404454+00:00,arth2002
-8064235,0,true,false,true,2022-07-03T01:33:06.754512+00:00,Fube
-12637253,1,true,false,true,2022-06-27T23:47:37.421972+00:00,thisbailiwick
 3898642,6,true,true,true,2022-06-27T10:04:09.625204+00:00,TianZong48
-99875329,0,true,false,true,2022-06-20T22:54:25.191119+00:00,Sherelle-S
 33803374,1,true,false,true,2022-06-25T11:19:32.814482+00:00,ChrisGibe
 58410019,1,true,false,true,2022-07-03T15:52:29.968032+00:00,AlphaHot
 9616739,1,true,false,true,2022-07-02T03:51:26.666802+00:00,Lckythr33
@@ -340,3 +337,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 13868653,0,true,false,true,2022-06-22T19:14:28.661086+00:00,gissilali
 3979735,4,true,false,true,2022-06-27T22:41:42.766104+00:00,colbywhite
 9039234,2,true,false,true,2022-06-26T22:42:19.062438+00:00,KrisMannino
+73789849,1,true,false,true,2022-06-22T19:03:38.668197+00:00,haleyjung
+8064235,0,true,false,true,2022-07-03T01:33:06.754512+00:00,Fube
+12637253,1,true,false,true,2022-06-27T23:47:37.421972+00:00,thisbailiwick
