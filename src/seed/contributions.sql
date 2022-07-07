@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-07T16:55:47.008Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-07T18:53:03.614Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3267,6 +3267,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4005, 228911039, 1, '2020-09-11T12:46:43', 'DannyDelott', 'https://github.com/antonioru/beautiful-react-hooks/pull/156'),
 (4006, 228911039, 1, '2020-01-06T17:24:29', 'theashraf', 'https://github.com/antonioru/beautiful-react-hooks/pull/33'),
 (4007, 228911039, 1, '2021-03-06T18:12:25', 'alecf', 'https://github.com/antonioru/beautiful-react-hooks/pull/213'),
+(4008, 228911039, 1, '2020-12-02T15:29:43', 'endlessqt', 'https://github.com/antonioru/beautiful-react-hooks/pull/179'),
 (4009, 228911039, 1, '2020-01-02T23:48:16', 'avitorio', 'https://github.com/antonioru/beautiful-react-hooks/pull/23'),
 (4010, 228911039, 1, '2020-03-01T13:39:22', 'moklick', 'https://github.com/antonioru/beautiful-react-hooks/pull/68'),
 (4011, 228911039, 1, '2020-12-02T15:28:12', 'Kamalnrf', 'https://github.com/antonioru/beautiful-react-hooks/pull/188'),
@@ -3283,6 +3284,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4022, 74762106, 4, '2017-11-13T02:18:44', 'bobobo80', 'https://github.com/jhao104/proxy_pool/pull/85'),
 (4023, 74762106, 2, '2017-06-21T06:10:06', 'halleywj', 'https://github.com/jhao104/proxy_pool/pull/45'),
 (4024, 74762106, 1, '2017-04-26T02:18:04', 'newlyedward', 'https://github.com/jhao104/proxy_pool/pull/35'),
+(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (4026, 74762106, 1, '2017-09-21T09:01:22', 'kangnwh', 'https://github.com/jhao104/proxy_pool/pull/68'),
 (4027, 74762106, 2, '2018-07-10T07:45:46', 'highroom', 'https://github.com/jhao104/proxy_pool/pull/153'),
 (4028, 74762106, 3, '2018-11-12T02:33:14', 'ozhiwei', 'https://github.com/jhao104/proxy_pool/pull/211'),
@@ -3291,13 +3293,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4031, 74762106, 1, '2021-07-27T01:07:02', 'Cojad', 'https://github.com/jhao104/proxy_pool/pull/586'),
 (4032, 74762106, 1, '2020-08-12T06:01:11', 'xuan25', 'https://github.com/jhao104/proxy_pool/pull/494'),
 (16376, 42191943, 1, '2019-10-22T19:16:40', 'alfunx', 'https://github.com/cyrus-and/gdb-dashboard/pull/167'),
-(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (16378, 42191943, 1, '2020-08-12T13:02:21', 'braiden', 'https://github.com/cyrus-and/gdb-dashboard/pull/213'),
 (16380, 42191943, 1, '2021-08-20T10:14:34', 'jannewulf', 'https://github.com/cyrus-and/gdb-dashboard/pull/250'),
 (11978, 107286889, 1, '2019-11-17T21:24:40', 'rain-1', 'https://github.com/schollz/croc/pull/142'),
+(12404, 1213225, 4, '2021-12-06T20:50:31', 'idleberg', 'https://github.com/highlightjs/highlight.js/pull/3420'),
 (12406, 1213225, 4, '2019-10-25T05:03:16', 'makenowjust', 'https://github.com/highlightjs/highlight.js/pull/2222'),
 (12424, 1213225, 4, '2015-12-02T02:31:56', 'non', 'https://github.com/highlightjs/highlight.js/pull/996'),
-(12404, 1213225, 4, '2021-12-06T20:50:31', 'idleberg', 'https://github.com/highlightjs/highlight.js/pull/3420'),
 (32879, 34228852, 2, '2016-02-25T11:51:12', 'ReadmeCritic', 'https://github.com/AchoArnold/discount-for-student-dev/pull/28'),
 (32880, 34228852, 1, '2021-03-28T12:47:30', 'MoshiulRabbi', 'https://github.com/AchoArnold/discount-for-student-dev/pull/112'),
 (4034, 74762106, 1, '2016-12-26T04:44:24', 'bernieyangmh', 'https://github.com/jhao104/proxy_pool/pull/6'),
@@ -3560,7 +3561,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3403, 293844582, 2, '2021-03-28T14:12:01', 'kmr600', 'https://github.com/spicygreenbook/greenbook-app/pull/357'),
 (3392, 293844582, 1, '2020-11-12T19:13:31', 'MikeCastellon', 'https://github.com/spicygreenbook/greenbook-app/pull/109'),
 (3408, 293844582, 1, '2021-01-14T15:17:30', 'dominickreever', 'https://github.com/spicygreenbook/greenbook-app/pull/231'),
-(4008, 228911039, 1, '2020-12-02T15:29:43', 'endlessqt', 'https://github.com/antonioru/beautiful-react-hooks/pull/179'),
 (3419, 293844582, 1, '2021-01-21T17:05:45', 'phil4lif', 'https://github.com/spicygreenbook/greenbook-app/pull/257'),
 (3390, 293844582, 3, '2021-02-22T15:13:23', 'mamta31', 'https://github.com/spicygreenbook/greenbook-app/pull/285'),
 (3695, 305406543, 3, '2020-10-20T15:27:28', 'davidteren', 'https://github.com/davidteren/rails_6_github_template/pull/3'),
