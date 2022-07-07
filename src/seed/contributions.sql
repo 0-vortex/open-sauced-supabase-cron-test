@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-07T13:01:58.005Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-07T16:55:47.008Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1654,7 +1654,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (754, 88011908, 2, '2017-06-26T00:59:26', 'dmushail', 'https://github.com/practical-tutorials/project-based-learning/pull/31'),
 (756, 88011908, 2, '2021-08-25T21:23:09', 'spekulatius', 'https://github.com/practical-tutorials/project-based-learning/pull/258'),
 (314, 11981144, 4, '2021-11-22T10:24:48', 'plumaj', 'https://github.com/languagetool-org/languagetool/pull/6052'),
-(2964, 161603821, 1, '2020-02-10T12:25:39', 'Axeflower', 'https://github.com/Axeflower/localsToJson/pull/1'),
 (8505, 141334515, 2, '2019-10-16T03:57:56', 'lcb931023', 'https://github.com/kormyen/memex/pull/13'),
 (16606, 213043312, 1, '2021-07-08T11:19:02', 'ildar-shaimordanov', 'https://github.com/pemistahl/grex/pull/43'),
 (16611, 213043312, 1, '2019-10-09T19:33:26', 'alarsyo', 'https://github.com/pemistahl/grex/pull/3'),
@@ -1677,6 +1676,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32793, 37997, 4, '2016-02-05T14:32:04', 'mikeastock', 'https://github.com/jnunemaker/httparty/pull/462'),
 (32794, 37997, 4, '2014-05-20T14:55:14', 'kalmanh', 'https://github.com/jnunemaker/httparty/pull/298'),
 (4969, 37140605, 1, '2015-09-10T21:05:39', 'codenamezjames', 'https://github.com/dwyl/learn-tdd/pull/26'),
+(2964, 161603821, 1, '2020-02-10T12:25:39', 'Axeflower', 'https://github.com/Axeflower/localsToJson/pull/1'),
 (4966, 37140605, 1, '2016-10-24T16:43:53', 'stevehopkinson', 'https://github.com/dwyl/learn-tdd/pull/67'),
 (4967, 37140605, 1, '2016-01-27T07:41:06', 'andrewMacmurray', 'https://github.com/dwyl/learn-tdd/pull/48'),
 (2160, 85031442, 4, '2021-06-21T22:20:47', 'poteto', 'https://github.com/poteto/hiring-without-whiteboards/pull/1103'),
@@ -3267,7 +3267,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4005, 228911039, 1, '2020-09-11T12:46:43', 'DannyDelott', 'https://github.com/antonioru/beautiful-react-hooks/pull/156'),
 (4006, 228911039, 1, '2020-01-06T17:24:29', 'theashraf', 'https://github.com/antonioru/beautiful-react-hooks/pull/33'),
 (4007, 228911039, 1, '2021-03-06T18:12:25', 'alecf', 'https://github.com/antonioru/beautiful-react-hooks/pull/213'),
-(4008, 228911039, 1, '2020-12-02T15:29:43', 'endlessqt', 'https://github.com/antonioru/beautiful-react-hooks/pull/179'),
 (4009, 228911039, 1, '2020-01-02T23:48:16', 'avitorio', 'https://github.com/antonioru/beautiful-react-hooks/pull/23'),
 (4010, 228911039, 1, '2020-03-01T13:39:22', 'moklick', 'https://github.com/antonioru/beautiful-react-hooks/pull/68'),
 (4011, 228911039, 1, '2020-12-02T15:28:12', 'Kamalnrf', 'https://github.com/antonioru/beautiful-react-hooks/pull/188'),
@@ -3284,7 +3283,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4022, 74762106, 4, '2017-11-13T02:18:44', 'bobobo80', 'https://github.com/jhao104/proxy_pool/pull/85'),
 (4023, 74762106, 2, '2017-06-21T06:10:06', 'halleywj', 'https://github.com/jhao104/proxy_pool/pull/45'),
 (4024, 74762106, 1, '2017-04-26T02:18:04', 'newlyedward', 'https://github.com/jhao104/proxy_pool/pull/35'),
-(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (4026, 74762106, 1, '2017-09-21T09:01:22', 'kangnwh', 'https://github.com/jhao104/proxy_pool/pull/68'),
 (4027, 74762106, 2, '2018-07-10T07:45:46', 'highroom', 'https://github.com/jhao104/proxy_pool/pull/153'),
 (4028, 74762106, 3, '2018-11-12T02:33:14', 'ozhiwei', 'https://github.com/jhao104/proxy_pool/pull/211'),
@@ -3293,12 +3291,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4031, 74762106, 1, '2021-07-27T01:07:02', 'Cojad', 'https://github.com/jhao104/proxy_pool/pull/586'),
 (4032, 74762106, 1, '2020-08-12T06:01:11', 'xuan25', 'https://github.com/jhao104/proxy_pool/pull/494'),
 (16376, 42191943, 1, '2019-10-22T19:16:40', 'alfunx', 'https://github.com/cyrus-and/gdb-dashboard/pull/167'),
+(4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313'),
 (16378, 42191943, 1, '2020-08-12T13:02:21', 'braiden', 'https://github.com/cyrus-and/gdb-dashboard/pull/213'),
 (16380, 42191943, 1, '2021-08-20T10:14:34', 'jannewulf', 'https://github.com/cyrus-and/gdb-dashboard/pull/250'),
 (11978, 107286889, 1, '2019-11-17T21:24:40', 'rain-1', 'https://github.com/schollz/croc/pull/142'),
-(12404, 1213225, 4, '2021-12-06T20:50:31', 'idleberg', 'https://github.com/highlightjs/highlight.js/pull/3420'),
 (12406, 1213225, 4, '2019-10-25T05:03:16', 'makenowjust', 'https://github.com/highlightjs/highlight.js/pull/2222'),
 (12424, 1213225, 4, '2015-12-02T02:31:56', 'non', 'https://github.com/highlightjs/highlight.js/pull/996'),
+(12404, 1213225, 4, '2021-12-06T20:50:31', 'idleberg', 'https://github.com/highlightjs/highlight.js/pull/3420'),
 (32879, 34228852, 2, '2016-02-25T11:51:12', 'ReadmeCritic', 'https://github.com/AchoArnold/discount-for-student-dev/pull/28'),
 (32880, 34228852, 1, '2021-03-28T12:47:30', 'MoshiulRabbi', 'https://github.com/AchoArnold/discount-for-student-dev/pull/112'),
 (4034, 74762106, 1, '2016-12-26T04:44:24', 'bernieyangmh', 'https://github.com/jhao104/proxy_pool/pull/6'),
@@ -3561,6 +3560,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3403, 293844582, 2, '2021-03-28T14:12:01', 'kmr600', 'https://github.com/spicygreenbook/greenbook-app/pull/357'),
 (3392, 293844582, 1, '2020-11-12T19:13:31', 'MikeCastellon', 'https://github.com/spicygreenbook/greenbook-app/pull/109'),
 (3408, 293844582, 1, '2021-01-14T15:17:30', 'dominickreever', 'https://github.com/spicygreenbook/greenbook-app/pull/231'),
+(4008, 228911039, 1, '2020-12-02T15:29:43', 'endlessqt', 'https://github.com/antonioru/beautiful-react-hooks/pull/179'),
 (3419, 293844582, 1, '2021-01-21T17:05:45', 'phil4lif', 'https://github.com/spicygreenbook/greenbook-app/pull/257'),
 (3390, 293844582, 3, '2021-02-22T15:13:23', 'mamta31', 'https://github.com/spicygreenbook/greenbook-app/pull/285'),
 (3695, 305406543, 3, '2020-10-20T15:27:28', 'davidteren', 'https://github.com/davidteren/rails_6_github_template/pull/3'),
@@ -8123,6 +8123,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4310, 370668507, 1, '2022-02-24T12:17:10', 'crazy-matt', 'https://github.com/rhysd/actionlint/pull/99'),
 (4304, 370668507, 1, '2022-02-24T12:17:52', 'ohkinozomu', 'https://github.com/rhysd/actionlint/pull/105'),
 (4301, 370668507, 1, '2022-02-24T11:55:39', 'jsok', 'https://github.com/rhysd/actionlint/pull/107'),
+(24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
 (4490, 276414382, 1, '2021-05-31T20:07:08', 'artyl', 'https://github.com/microsoft/playwright-python/pull/729'),
 (4489, 276414382, 1, '2021-04-23T08:32:53', 'Marketionist', 'https://github.com/microsoft/playwright-python/pull/641'),
 (4487, 276414382, 2, '2022-02-23T12:16:51', 'x0day', 'https://github.com/microsoft/playwright-python/pull/1167'),
@@ -8137,7 +8138,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5971, 75701562, 1, '2016-12-17T13:27:40', 'unship', 'https://github.com/miloyip/game-programmer/pull/9'),
 (5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2'),
 (5986, 31168578, 2, '2016-06-10T05:04:13', 'marcusradell', 'https://github.com/hemanth/functional-programming-jargon/pull/45'),
-(24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
 (24501, 93611204, 4, '2022-06-08T10:27:02', 'calvin-lau-sig7', 'https://github.com/alphagov/govuk-design-system/pull/2210'),
 (24507, 93611204, 4, '2022-05-31T10:49:29', 'vanitabarrett', 'https://github.com/alphagov/govuk-design-system/pull/2207'),
 (24508, 93611204, 4, '2022-05-19T08:28:38', '36degrees', 'https://github.com/alphagov/govuk-design-system/pull/2161'),
