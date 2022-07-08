@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-08T03:51:35.133Z",
+  "lastExecuted": "2022-07-08T04:30:34.092Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -74,12 +74,12 @@
     "MatElGran": {
       "owner": "MatElGran",
       "notFound": true,
-      "lastExecuted": "2022-07-07T11:59:53.058Z"
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     },
     "matthewdeanmartin": {
       "owner": "matthewdeanmartin",
       "notFound": false,
-      "lastExecuted": "2022-07-07T11:59:53.058Z"
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     },
     "tiamatu": {
       "owner": "tiamatu",
@@ -2194,7 +2194,7 @@
     "thisbailiwick": {
       "owner": "thisbailiwick",
       "notFound": false,
-      "lastExecuted": "2022-07-07T16:15:21.782Z"
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     },
     "juanfer2": {
       "owner": "juanfer2",
@@ -2253,8 +2253,8 @@
     },
     "Fube": {
       "owner": "Fube",
-      "notFound": false,
-      "lastExecuted": "2022-07-07T16:15:21.782Z"
+      "notFound": true,
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     },
     "AlphaHot": {
       "owner": "AlphaHot",
@@ -2269,7 +2269,7 @@
     "aida-martinez": {
       "owner": "aida-martinez",
       "notFound": false,
-      "lastExecuted": "2022-07-07T16:15:21.782Z"
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     },
     "WinterCore": {
       "owner": "WinterCore",
@@ -2304,7 +2304,7 @@
     "DerekDewreck": {
       "owner": "DerekDewreck",
       "notFound": true,
-      "lastExecuted": "2022-07-07T16:15:21.782Z"
+      "lastExecuted": "2022-07-08T04:30:34.092Z"
     }
   }
 }
