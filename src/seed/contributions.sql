@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-08T18:48:09.864Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-08T20:46:18.915Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -680,8 +680,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (985, 195162469, 2, '2022-05-17T04:27:31', 'SriramKiranSenthilkumar', 'https://github.com/syncfusion/flutter-examples/pull/619'),
 (37243, 35015575, 4, '2017-02-05T01:55:14', 'dcposch', 'https://github.com/webtorrent/webtorrent-desktop/pull/1121'),
 (989, 195162469, 1, '2021-03-22T08:51:40', 'paulosergioduff', 'https://github.com/syncfusion/flutter-examples/pull/310'),
-(11913, 10865436, 1, '2014-06-19T18:09:47', 'gneutzling', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/199'),
 (12217, 124910572, 3, '2021-12-10T14:09:38', 'anooptp', 'https://github.com/mozilla/bugbug/pull/2667'),
+(11913, 10865436, 1, '2014-06-19T18:09:47', 'gneutzling', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/199'),
 (22817, 124910572, 4, '2022-06-06T07:48:56', 'suhaibmujahid', 'https://github.com/mozilla/bugbug/pull/2944'),
 (996, 195162469, 4, '2022-02-16T10:49:07', 'dharanidharandharmasivam', 'https://github.com/syncfusion/flutter-examples/pull/544'),
 (997, 195162469, 2, '2021-08-27T05:03:10', 'PavithraNandhiniRamachandran', 'https://github.com/syncfusion/flutter-examples/pull/427'),
@@ -5856,8 +5856,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1843, 430789888, 1, '2022-01-31T18:05:28', 'berteotti', 'https://github.com/Developer-DAO/web3-ui/pull/276'),
 (1848, 430789888, 1, '2022-02-02T17:01:13', 'patcito', 'https://github.com/Developer-DAO/web3-ui/pull/286'),
 (1854, 430789888, 2, '2022-02-14T03:53:20', 'eltociear', 'https://github.com/Developer-DAO/web3-ui/pull/301'),
-(1832, 430789888, 2, '2022-01-20T09:18:58', 'catalin-casuneanu', 'https://github.com/Developer-DAO/web3-ui/pull/248'),
 (11397, 399197235, 1, '2021-08-25T04:41:45', 'Akalay27', 'https://github.com/Akalay27/workday-schedule-exporter/pull/3'),
+(1832, 430789888, 2, '2022-01-20T09:18:58', 'catalin-casuneanu', 'https://github.com/Developer-DAO/web3-ui/pull/248'),
 (2997, 14747598, 1, '2016-02-17T09:52:41', 'barrystaes', 'https://github.com/typicode/json-server/pull/236'),
 (1872, 90408889, 1, '2020-05-22T17:17:15', 'AndreMaz', 'https://github.com/moleculerjs/moleculer-web/pull/182'),
 (1881, 90408889, 1, '2018-11-27T18:53:54', 'sibblegp', 'https://github.com/moleculerjs/moleculer-web/pull/88'),
