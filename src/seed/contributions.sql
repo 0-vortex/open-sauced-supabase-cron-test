@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-08T06:48:19.386Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-08T08:48:13.706Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3910,8 +3910,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4660, 22790488, 2, '2015-02-10T17:09:47', 'ruslanpa', 'https://github.com/iluwatar/java-design-patterns/pull/30'),
 (4661, 22790488, 1, '2016-04-18T18:12:29', 'gwildor28', 'https://github.com/iluwatar/java-design-patterns/pull/397'),
 (4662, 22790488, 1, '2020-09-06T16:33:04', 'samilAyoub', 'https://github.com/iluwatar/java-design-patterns/pull/1516'),
-(5723, 126577260, 2, '2018-09-08T08:55:52', 'hanhdt', 'https://github.com/trekhleb/javascript-algorithms/pull/194'),
 (5728, 126577260, 2, '2022-01-25T08:39:11', 'OscarRG', 'https://github.com/trekhleb/javascript-algorithms/pull/773'),
+(5723, 126577260, 2, '2018-09-08T08:55:52', 'hanhdt', 'https://github.com/trekhleb/javascript-algorithms/pull/194'),
 (5730, 126577260, 2, '2018-06-13T03:27:03', 'tiendq', 'https://github.com/trekhleb/javascript-algorithms/pull/65'),
 (5731, 126577260, 2, '2020-08-21T05:23:45', 'ly15927086342', 'https://github.com/trekhleb/javascript-algorithms/pull/487'),
 (5735, 126577260, 2, '2018-12-11T03:52:58', 'Minki-Kim95', 'https://github.com/trekhleb/javascript-algorithms/pull/266'),
@@ -4055,8 +4055,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3676, 5405654, 4, '2013-03-20T22:25:05', 'aschrab', 'https://github.com/pcottle/learnGitBranching/pull/78'),
 (3667, 5405654, 4, '2018-10-24T15:52:11', 'PanAeon', 'https://github.com/pcottle/learnGitBranching/pull/493'),
 (3673, 5405654, 4, '2021-12-01T15:06:54', 'waldyrious', 'https://github.com/pcottle/learnGitBranching/pull/902'),
-(3679, 5405654, 3, '2021-08-14T16:02:59', 'Qusijue', 'https://github.com/pcottle/learnGitBranching/pull/876'),
 (3682, 5405654, 1, '2017-01-28T18:30:14', 'lroellin', 'https://github.com/pcottle/learnGitBranching/pull/405'),
+(3679, 5405654, 3, '2021-08-14T16:02:59', 'Qusijue', 'https://github.com/pcottle/learnGitBranching/pull/876'),
 (3669, 5405654, 1, '2021-10-25T15:23:42', 'krzysiekwie', 'https://github.com/pcottle/learnGitBranching/pull/894'),
 (3671, 5405654, 1, '2014-10-13T10:50:02', 'qiansen1386', 'https://github.com/pcottle/learnGitBranching/pull/217'),
 (3680, 5405654, 3, '2014-08-14T02:06:22', 'ptsoccer', 'https://github.com/pcottle/learnGitBranching/pull/196'),
@@ -4479,9 +4479,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4693, 183267843, 3, '2020-12-30T20:52:04', 'Aprillion', 'https://github.com/kentcdodds/advanced-react-hooks/pull/111'),
 (4717, 183267843, 2, '2021-01-08T13:48:01', 'Snaptags', 'https://github.com/kentcdodds/advanced-react-hooks/pull/112'),
 (5301, 238316428, 1, '2020-06-23T01:42:07', 'akatz2', 'https://github.com/CSSEGISandData/COVID-19/pull/2736'),
+(5302, 238316428, 4, '2020-03-05T19:22:45', 'hongru94', 'https://github.com/CSSEGISandData/COVID-19/pull/252'),
 (5300, 238316428, 4, '2022-06-07T07:40:51', 'CSSEGISandData', 'https://github.com/CSSEGISandData/COVID-19/pull/5791'),
 (5303, 238316428, 3, '2020-02-12T01:53:29', 'enshengdong', 'https://github.com/CSSEGISandData/COVID-19/pull/25'),
-(5302, 238316428, 4, '2020-03-05T19:22:45', 'hongru94', 'https://github.com/CSSEGISandData/COVID-19/pull/252'),
 (5306, 238316428, 1, '2020-05-15T15:18:03', 'Yuhang065', 'https://github.com/CSSEGISandData/COVID-19/pull/2525'),
 (5304, 238316428, 1, '2020-03-25T03:43:18', 'arthurzhang434', 'https://github.com/CSSEGISandData/COVID-19/pull/1500'),
 (5305, 238316428, 1, '2020-04-27T09:26:47', 'cancerousname69', 'https://github.com/CSSEGISandData/COVID-19/pull/2373'),
