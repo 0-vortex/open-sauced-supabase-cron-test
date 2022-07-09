@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-09T16:50:02.302Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-09T18:47:10.367Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5127,9 +5127,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5869, 1548202, 4, '2020-03-20T02:37:22', 'pebosi', 'https://github.com/matomo-org/matomo/pull/15636'),
 (5870, 1548202, 4, '2021-11-24T16:23:46', 'Findus23', 'https://github.com/matomo-org/matomo/pull/18252'),
 (5871, 1548202, 4, '2015-01-16T00:53:41', 'TheCrowsJoker', 'https://github.com/matomo-org/matomo/pull/7037'),
-(5872, 1548202, 4, '2020-12-31T20:49:11', 'c960657', 'https://github.com/matomo-org/matomo/pull/17021'),
 (3359, 501689, 1, '2020-09-07T17:48:59', 'peteruhnak', 'https://github.com/antlr/stringtemplate4/pull/263'),
 (5299, 326460518, 1, '2021-04-27T00:03:31', 'ChrisMiuchiz', 'https://github.com/ratfactor/ziglings/pull/47'),
+(5872, 1548202, 4, '2020-12-31T20:49:11', 'c960657', 'https://github.com/matomo-org/matomo/pull/17021'),
 (2452, 65848095, 2, '2020-05-30T17:08:19', 'neokeld', 'https://github.com/requarks/wiki/pull/1965'),
 (22376, 440752086, 4, '2022-02-28T17:50:56', 'jawnsy', 'https://github.com/coder/coder/pull/377'),
 (22377, 440752086, 4, '2022-06-09T18:46:16', 'BrunoQuaresma', 'https://github.com/coder/coder/pull/2133'),
@@ -7672,9 +7672,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2066, 29497480, 1, '2020-01-18T12:12:42', 'sandervankasteel', 'https://github.com/OpenDominion/OpenDominion/pull/766'),
 (2172, 85031442, 1, '2022-01-17T18:30:42', 'cherscarlett', 'https://github.com/poteto/hiring-without-whiteboards/pull/1163'),
 (12208, 124910572, 4, '2019-12-09T15:45:13', 'calixteman', 'https://github.com/mozilla/bugbug/pull/1160'),
-(3846, 34470375, 4, '2021-06-04T10:48:35', 'skamphuis', 'https://github.com/sachatrauwaen/OpenContent/pull/170'),
 (3845, 34470375, 1, '2019-05-11T19:32:45', 'OllyHodgson', 'https://github.com/sachatrauwaen/OpenContent/pull/32'),
 (23909, 50668112, 2, '2018-06-04T13:31:26', 'myarete', 'https://github.com/Hashnode/mern-starter/pull/370'),
+(3846, 34470375, 4, '2021-06-04T10:48:35', 'skamphuis', 'https://github.com/sachatrauwaen/OpenContent/pull/170'),
 (23912, 50668112, 3, '2018-07-10T14:18:25', 'mattlubner', 'https://github.com/Hashnode/mern-starter/pull/383'),
 (23914, 50668112, 1, '2016-07-08T02:28:46', 'jramcast', 'https://github.com/Hashnode/mern-starter/pull/188'),
 (23915, 50668112, 1, '2016-06-16T07:49:30', 'somus', 'https://github.com/Hashnode/mern-starter/pull/166'),
