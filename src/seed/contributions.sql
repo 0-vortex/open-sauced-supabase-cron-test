@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-10T06:47:40.468Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-10T08:46:43.066Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1976,8 +1976,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32814, 18333318, 1, '2016-02-11T18:17:40', 'zaccari', 'https://github.com/pboling/seed_migration/pull/45'),
 (32808, 70530854, 4, '2018-10-03T17:46:45', 'heitorlessa', 'https://github.com/aws/serverless-application-model/pull/606'),
 (2477, 103953059, 1, '2017-10-31T19:38:57', 'komali2', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/89'),
-(5704, 161588836, 1, '2022-04-04T16:44:05', 'miguelverweij', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1451'),
 (32812, 37997, 3, '2018-12-03T20:14:09', 'EmilioCristalli', 'https://github.com/jnunemaker/httparty/pull/628'),
+(5704, 161588836, 1, '2022-04-04T16:44:05', 'miguelverweij', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1451'),
 (4949, 72931382, 2, '2017-10-12T21:31:01', 'mokkabonna', 'https://github.com/vuelidate/vuelidate/pull/209'),
 (4945, 72931382, 2, '2021-10-18T19:26:33', 'ivansieder', 'https://github.com/vuelidate/vuelidate/pull/953'),
 (2504, 49767244, 4, '2021-08-10T12:31:20', 'yigitfindikli', 'https://github.com/primefaces/primeng/pull/10490'),
@@ -3811,8 +3811,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2869, 27380215, 1, '2021-05-06T07:58:03', 'tevino', 'https://github.com/vimagick/dockerfiles/pull/175'),
 (2868, 27380215, 1, '2021-01-22T10:08:43', 'jshuhnow', 'https://github.com/vimagick/dockerfiles/pull/161'),
 (2880, 27380215, 1, '2021-06-01T08:52:29', 'jk', 'https://github.com/vimagick/dockerfiles/pull/177'),
-(2871, 27380215, 1, '2015-11-25T01:22:05', 'mcowger', 'https://github.com/vimagick/dockerfiles/pull/9'),
 (2857, 27380215, 1, '2021-05-06T07:54:24', 'SuddenGunter', 'https://github.com/vimagick/dockerfiles/pull/156'),
+(2871, 27380215, 1, '2015-11-25T01:22:05', 'mcowger', 'https://github.com/vimagick/dockerfiles/pull/9'),
 (2862, 27380215, 1, '2016-07-04T05:19:48', 'marekyggdrasil', 'https://github.com/vimagick/dockerfiles/pull/20'),
 (1636, 16072585, 4, '2020-09-16T17:54:30', 'michalmuskala', 'https://github.com/phoenixframework/phoenix/pull/3979'),
 (32902, 75027176, 2, '2018-12-17T04:09:00', 'ruddell', 'https://github.com/infinitered/gluegun/pull/397'),
@@ -3849,9 +3849,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4523, 26291683, 1, '2016-12-10T11:01:07', 'xoudini', 'https://github.com/twitter/twemoji/pull/194'),
 (4524, 26291683, 1, '2020-10-14T00:03:01', 'CoryDanielson', 'https://github.com/twitter/twemoji/pull/432'),
 (4525, 26291683, 1, '2016-07-16T09:16:01', '13rac1', 'https://github.com/twitter/twemoji/pull/158'),
+(4526, 26291683, 1, '2016-07-03T15:18:49', 'danbovey', 'https://github.com/twitter/twemoji/pull/150'),
 (4527, 26291683, 1, '2017-02-10T17:20:33', 'tifabien', 'https://github.com/twitter/twemoji/pull/203'),
 (4528, 26291683, 1, '2021-05-14T01:45:00', 'mallardduck', 'https://github.com/twitter/twemoji/pull/489'),
-(4526, 26291683, 1, '2016-07-03T15:18:49', 'danbovey', 'https://github.com/twitter/twemoji/pull/150'),
 (4529, 26291683, 1, '2017-07-20T08:36:12', 'dvdckl', 'https://github.com/twitter/twemoji/pull/236'),
 (4530, 26291683, 2, '2016-03-18T23:55:28', 'bhaggs', 'https://github.com/twitter/twemoji/pull/134'),
 (4531, 26291683, 1, '2022-03-31T01:21:48', 'blakegearin', 'https://github.com/twitter/twemoji/pull/514'),
@@ -3912,8 +3912,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4589, 63476337, 4, '2020-05-19T17:31:53', 'SandersLin', 'https://github.com/TheAlgorithms/Python/pull/1889'),
 (4590, 63476337, 4, '2022-05-13T05:55:54', 'Rohanrbharadwaj', 'https://github.com/TheAlgorithms/Python/pull/5817'),
 (4591, 63476337, 3, '2019-10-07T18:23:46', 'AnupKumarPanwar', 'https://github.com/TheAlgorithms/Python/pull/1291'),
-(4593, 63476337, 4, '2021-08-13T07:10:25', 'mhihasan', 'https://github.com/TheAlgorithms/Python/pull/4612'),
 (4592, 63476337, 4, '2021-07-08T08:35:10', 'fpringle', 'https://github.com/TheAlgorithms/Python/pull/4280'),
+(4593, 63476337, 4, '2021-08-13T07:10:25', 'mhihasan', 'https://github.com/TheAlgorithms/Python/pull/4612'),
 (4594, 63476337, 4, '2020-10-14T09:05:17', 'L3str4nge', 'https://github.com/TheAlgorithms/Python/pull/3280'),
 (4595, 63476337, 4, '2018-10-10T18:06:15', 'rafaelleru', 'https://github.com/TheAlgorithms/Python/pull/436'),
 (4596, 63476337, 4, '2020-10-11T17:46:17', 'Hyftar', 'https://github.com/TheAlgorithms/Python/pull/3177'),
