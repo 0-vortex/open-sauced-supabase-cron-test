@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-09T22:45:15.768Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-10T01:05:17.434Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -85,18 +85,18 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (503, 175405157, 1, '2021-11-09T20:23:04', 'denelon', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1193'),
 (16132, 24344106, 1, '2017-10-04T09:43:09', 'IanLee1521', 'https://github.com/codecov/example-python/pull/22'),
 (2114, 26500787, 2, '2022-01-31T18:08:35', 'dsejas', 'https://github.com/tonsky/FiraCode/pull/1360'),
+(16139, 24344106, 1, '2020-08-17T12:34:39', 'ki4070ma', 'https://github.com/codecov/example-python/pull/53'),
 (16142, 24344106, 1, '2019-01-31T16:49:09', 'bromne', 'https://github.com/codecov/example-python/pull/33'),
 (2212, 257314632, 4, '2022-06-01T21:51:36', 'JeffreyDoyle', 'https://github.com/onflow/fcl-js/pull/1224'),
-(16139, 24344106, 1, '2020-08-17T12:34:39', 'ki4070ma', 'https://github.com/codecov/example-python/pull/53'),
-(495, 33001311, 2, '2017-06-29T20:16:10', 'NordbergKMD', 'https://github.com/dfinke/ImportExcel/pull/195'),
 (16140, 24344106, 1, '2021-09-10T13:20:23', 'sondrelg', 'https://github.com/codecov/example-python/pull/64'),
+(495, 33001311, 2, '2017-06-29T20:16:10', 'NordbergKMD', 'https://github.com/dfinke/ImportExcel/pull/195'),
 (486, 33001311, 4, '2021-09-10T22:39:00', 'stahler', 'https://github.com/dfinke/ImportExcel/pull/1077'),
 (498, 33001311, 1, '2018-10-25T22:15:29', 'conradagramont', 'https://github.com/dfinke/ImportExcel/pull/474'),
 (480, 33001311, 1, '2021-11-20T20:36:06', 'muschebubusche', 'https://github.com/dfinke/ImportExcel/pull/1102'),
 (485, 33001311, 4, '2021-05-08T23:05:56', 'MikeyBronowski', 'https://github.com/dfinke/ImportExcel/pull/1029'),
 (500, 33001311, 4, '2019-11-23T14:01:06', 'ili101', 'https://github.com/dfinke/ImportExcel/pull/726'),
-(491, 33001311, 4, '2022-05-07T13:50:06', 'dfinke', 'https://github.com/dfinke/ImportExcel/pull/1181'),
 (493, 33001311, 4, '2020-11-23T23:38:51', 'jhoneill', 'https://github.com/dfinke/ImportExcel/pull/954'),
+(491, 33001311, 4, '2022-05-07T13:50:06', 'dfinke', 'https://github.com/dfinke/ImportExcel/pull/1181'),
 (479, 33001311, 2, '2019-11-01T22:53:48', 'uSlackr', 'https://github.com/dfinke/ImportExcel/pull/711'),
 (501, 33001311, 2, '2016-03-31T20:21:18', 'redoz', 'https://github.com/dfinke/ImportExcel/pull/85'),
 (2245, 43623432, 1, '2015-10-04T06:22:23', 'jgkamat', 'https://github.com/qw3rtman/git-fire/pull/1'),
@@ -104,10 +104,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2254, 43623432, 1, '2016-07-04T18:54:20', 'qw3rtman', 'https://github.com/qw3rtman/git-fire/pull/24'),
 (2251, 43623432, 1, '2017-08-18T09:56:24', 'bricewge', 'https://github.com/qw3rtman/git-fire/pull/27'),
 (5635, 293860197, 3, '2021-12-03T01:03:02', 'matievisthekat', 'https://github.com/lowlighter/metrics/pull/693'),
+(5632, 293860197, 4, '2022-06-01T03:10:59', 'lowlighter', 'https://github.com/lowlighter/metrics/pull/1084'),
 (12292, 93619165, 2, '2020-05-17T06:39:14', 'francislavoie', 'https://github.com/alecthomas/chroma/pull/365'),
 (13042, 75642389, 4, '2019-05-30T17:34:18', 'williamernest', 'https://github.com/material-components/material-components-web/pull/4768'),
 (4214, 35866694, 4, '2022-05-26T16:28:49', 'rodrigok', 'https://github.com/RocketChat/Rocket.Chat/pull/25641'),
-(5632, 293860197, 4, '2022-06-01T03:10:59', 'lowlighter', 'https://github.com/lowlighter/metrics/pull/1084'),
 (4212, 35866694, 4, '2020-09-14T14:24:04', 'engelgabriel', 'https://github.com/RocketChat/Rocket.Chat/pull/18828'),
 (4215, 35866694, 4, '2022-05-12T16:32:10', 'sampaiodiego', 'https://github.com/RocketChat/Rocket.Chat/pull/25448'),
 (4216, 35866694, 4, '2022-05-23T15:46:32', 'marceloschmidt', 'https://github.com/RocketChat/Rocket.Chat/pull/25329'),
@@ -1060,8 +1060,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1398, 70860064, 1, '2019-08-01T03:44:07', 'maroom1', 'https://github.com/Yonet/Angular-Interview-Questions/pull/28'),
 (1399, 398914163, 1, '2021-09-12T08:29:04', 'ricciardelli', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/13'),
 (1400, 398914163, 1, '2021-09-12T08:29:44', 'maksimovic', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/10'),
-(1402, 398914163, 1, '2021-08-23T14:22:15', 'ahsan-a', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/5'),
 (1401, 398914163, 1, '2021-08-24T23:17:01', 'vijethx', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/8'),
+(1402, 398914163, 1, '2021-08-23T14:22:15', 'ahsan-a', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/5'),
 (3014, 14747598, 1, '2015-04-28T15:22:23', 'binali-rustamov', 'https://github.com/typicode/json-server/pull/66'),
 (1404, 398914163, 1, '2021-08-23T13:52:54', 'Nikhil27b', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/6'),
 (1405, 398914163, 1, '2021-08-23T13:51:09', 'MehulATL', 'https://github.com/dabit3/chicken-tikka-masala-recipe/pull/1'),
