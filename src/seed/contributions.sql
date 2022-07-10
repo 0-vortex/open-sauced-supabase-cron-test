@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-10T03:19:46.922Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-10T04:50:22.575Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3656,8 +3656,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11411, 61202664, 3, '2016-12-31T14:00:42', 'Funatiq', 'https://github.com/hyperion-project/hyperion.ng/pull/357'),
 (11409, 61202664, 4, '2016-09-22T11:58:36', 'WoLpH', 'https://github.com/hyperion-project/hyperion.ng/pull/252'),
 (11412, 61202664, 3, '2021-02-23T19:40:21', 'gerion0', 'https://github.com/hyperion-project/hyperion.ng/pull/1149'),
-(3020, 14747598, 2, '2019-11-15T03:02:23', 'DanielRuf', 'https://github.com/typicode/json-server/pull/1046'),
 (8737, 180328715, 1, '2019-06-18T16:00:43', 'arjunsajeev', 'https://github.com/pmndrs/zustand/pull/33'),
+(3020, 14747598, 2, '2019-11-15T03:02:23', 'DanielRuf', 'https://github.com/typicode/json-server/pull/1046'),
 (4297, 370668507, 4, '2022-05-15T12:43:32', 'shogo82148', 'https://github.com/rhysd/actionlint/pull/142'),
 (4296, 370668507, 2, '2021-09-01T09:13:55', 'radomirbosak', 'https://github.com/rhysd/actionlint/pull/44'),
 (4291, 370668507, 2, '2021-08-24T02:05:28', 'xsc27', 'https://github.com/rhysd/actionlint/pull/38'),
@@ -3693,10 +3693,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3548, 61426855, 4, '2020-05-31T18:02:45', 'Rukmini-Meda', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3056'),
 (3553, 61426855, 4, '2019-05-30T18:49:51', 'somya-kapoor', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1446'),
 (3552, 61426855, 4, '2020-05-31T10:07:28', 'HardevKhandhar', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3044'),
+(3550, 61426855, 4, '2020-05-31T17:45:42', 'm-code12', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3055'),
 (3541, 61426855, 4, '2017-11-05T07:16:26', 'Aniket965', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/432'),
 (3549, 61426855, 4, '2020-03-07T19:34:36', 'shubhammantri1', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/2220'),
 (3542, 61426855, 4, '2020-03-31T18:56:19', 'abhu-A-J', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/2607'),
-(3550, 61426855, 4, '2020-05-31T17:45:42', 'm-code12', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/3055'),
 (4312, 238851101, 1, '2022-05-04T03:38:27', 'silveracy', 'https://github.com/naver/fe-news/pull/27'),
 (4313, 238851101, 1, '2021-01-06T06:47:45', 'ygnoh', 'https://github.com/naver/fe-news/pull/9'),
 (4311, 238851101, 1, '2020-07-01T02:07:25', 'sculove', 'https://github.com/naver/fe-news/pull/5'),
@@ -8045,11 +8045,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2446, 65848095, 2, '2017-10-27T22:54:35', 'johnnyshields', 'https://github.com/requarks/wiki/pull/295'),
 (2448, 65848095, 3, '2021-10-02T00:21:14', 'Wani4ka', 'https://github.com/requarks/wiki/pull/2502'),
 (2751, 13825712, 4, '2022-01-19T11:47:30', 'asvishnyakov', 'https://github.com/VirtoCommerce/vc-platform/pull/2450'),
+(2707, 13825712, 4, '2022-06-29T13:34:34', 'mvktsk', 'https://github.com/VirtoCommerce/vc-platform/pull/2520'),
 (2744, 13825712, 4, '2021-03-01T17:55:24', 'AliveMen', 'https://github.com/VirtoCommerce/vc-platform/pull/2172'),
 (2709, 13825712, 4, '2020-11-05T14:32:14', 'yecli', 'https://github.com/VirtoCommerce/vc-platform/pull/2088'),
 (8810, 289256448, 1, '2021-06-21T09:49:50', 'akunbeben', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/46'),
 (8809, 289256448, 1, '2020-09-09T16:18:24', 'blended-ideas', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/14'),
-(2707, 13825712, 4, '2022-06-29T13:34:34', 'mvktsk', 'https://github.com/VirtoCommerce/vc-platform/pull/2520'),
 (8811, 289256448, 1, '2021-07-13T13:31:38', 'hecaxmmx', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/50'),
 (8812, 289256448, 1, '2021-01-28T23:31:22', 'jonnsn', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/29'),
 (8807, 289256448, 3, '2021-04-06T08:16:34', 'trasherdk', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/40'),
@@ -8520,8 +8520,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1595, 249234386, 3, '2021-05-05T11:24:54', 'duncanbarnes', 'https://github.com/steveseguin/vdo.ninja/pull/855'),
 (1591, 249234386, 1, '2020-04-24T20:58:38', 'nucleare', 'https://github.com/steveseguin/vdo.ninja/pull/92'),
 (1603, 249234386, 1, '2021-01-27T22:04:46', 'SilverServerT', 'https://github.com/steveseguin/vdo.ninja/pull/675'),
-(1587, 249234386, 1, '2021-01-27T10:10:28', 'digisomni', 'https://github.com/steveseguin/vdo.ninja/pull/673'),
 (1589, 249234386, 1, '2020-03-24T02:10:00', 'WizardCM', 'https://github.com/steveseguin/vdo.ninja/pull/11'),
+(1587, 249234386, 1, '2021-01-27T10:10:28', 'digisomni', 'https://github.com/steveseguin/vdo.ninja/pull/673'),
 (1583, 249234386, 1, '2020-10-18T02:05:20', 'Sleavely', 'https://github.com/steveseguin/vdo.ninja/pull/384'),
 (7055, 249234386, 1, '2022-05-22T22:13:42', 'frink', 'https://github.com/steveseguin/vdo.ninja/pull/965'),
 (1586, 249234386, 1, '2022-04-04T04:49:00', 'baumannzone', 'https://github.com/steveseguin/vdo.ninja/pull/941'),
