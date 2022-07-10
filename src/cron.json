@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-10T19:59:00.620Z",
+  "lastExecuted": "2022-07-10T20:09:09.775Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2214,12 +2214,12 @@
     "alex-colvin": {
       "owner": "alex-colvin",
       "notFound": false,
-      "lastExecuted": "2022-07-10T08:08:05.551Z"
+      "lastExecuted": "2022-07-10T20:09:09.775Z"
     },
     "aroramrinaal": {
       "owner": "aroramrinaal",
       "notFound": false,
-      "lastExecuted": "2022-07-10T08:08:05.551Z"
+      "lastExecuted": "2022-07-10T20:09:09.775Z"
     },
     "EstebanDalelR": {
       "owner": "EstebanDalelR",
@@ -2320,6 +2320,11 @@
       "owner": "quicujo",
       "notFound": false,
       "lastExecuted": "2022-07-10T16:13:45.925Z"
+    },
+    "Serial-ATA": {
+      "owner": "Serial-ATA",
+      "notFound": false,
+      "lastExecuted": "2022-07-10T20:09:09.775Z"
     }
   }
 }
