@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-11T10:46:51.019Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-11T13:11:57.876Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7271,11 +7271,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12577, 90786246, 1, '2018-07-11T01:05:38', 'catchin', 'https://github.com/microsoft/TypeScript-React-Starter/pull/143'),
 (12634, 37175929, 1, '2018-11-11T21:08:41', 'smoofra', 'https://github.com/machyve/xhyve/pull/133'),
 (2514, 35955666, 4, '2016-01-22T21:21:17', 'uggla', 'https://github.com/jlevy/the-art-of-command-line/pull/350'),
+(2526, 35955666, 3, '2016-02-20T18:53:28', 'timacs', 'https://github.com/jlevy/the-art-of-command-line/pull/383'),
 (22344, 25315643, 1, '2016-01-13T19:39:36', 'khamidou', 'https://github.com/nylas/nylas-mail/pull/998'),
 (22351, 25315643, 2, '2016-07-08T18:30:33', 'courajs', 'https://github.com/nylas/nylas-mail/pull/2517'),
 (22349, 25315643, 3, '2016-11-22T23:47:18', 'agsdot', 'https://github.com/nylas/nylas-mail/pull/3085'),
 (22358, 25315643, 2, '2016-01-06T19:31:43', 'colinking', 'https://github.com/nylas/nylas-mail/pull/913'),
-(2526, 35955666, 3, '2016-02-20T18:53:28', 'timacs', 'https://github.com/jlevy/the-art-of-command-line/pull/383'),
 (22352, 25315643, 2, '2016-07-12T19:03:13', 'carsonip', 'https://github.com/nylas/nylas-mail/pull/2600'),
 (22357, 25315643, 2, '2016-04-28T17:28:41', 'Akshar-Patel', 'https://github.com/nylas/nylas-mail/pull/2083'),
 (22301, 331251392, 1, '2022-03-28T08:30:11', 'datduyng', 'https://github.com/contentlayerdev/contentlayer/pull/155'),
