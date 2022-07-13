@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-13T06:48:49.887Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-13T08:47:35.301Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5390,8 +5390,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (476, 33001311, 1, '2019-11-23T13:51:15', 'beckerben', 'https://github.com/dfinke/ImportExcel/pull/732'),
 (474, 33001311, 3, '2020-02-15T12:13:40', 'JustinGrote', 'https://github.com/dfinke/ImportExcel/pull/782'),
 (488, 33001311, 1, '2016-03-30T13:46:41', 'brianaddicks', 'https://github.com/dfinke/ImportExcel/pull/81'),
-(494, 33001311, 1, '2016-09-28T12:04:44', 'headsphere', 'https://github.com/dfinke/ImportExcel/pull/126'),
 (465, 33001311, 1, '2017-05-03T18:04:22', 'briantist', 'https://github.com/dfinke/ImportExcel/pull/183'),
+(494, 33001311, 1, '2016-09-28T12:04:44', 'headsphere', 'https://github.com/dfinke/ImportExcel/pull/126'),
 (489, 33001311, 1, '2020-02-18T14:09:42', 'clsmith70', 'https://github.com/dfinke/ImportExcel/pull/783'),
 (456, 33001311, 2, '2016-07-07T11:50:25', 'attilamihalicz', 'https://github.com/dfinke/ImportExcel/pull/113'),
 (499, 33001311, 1, '2019-07-11T17:21:30', '1DontEx1st', 'https://github.com/dfinke/ImportExcel/pull/630'),
@@ -7274,8 +7274,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2273, 21911597, 1, '2020-02-12T22:03:53', 'ptarun', 'https://github.com/tayllan/awesome-algorithms/pull/99'),
 (2288, 21911597, 2, '2015-03-16T21:00:53', 'felippegh', 'https://github.com/tayllan/awesome-algorithms/pull/15'),
 (2269, 21911597, 1, '2014-07-23T14:40:57', 'jeksys', 'https://github.com/tayllan/awesome-algorithms/pull/2'),
-(2281, 21911597, 4, '2019-01-05T18:31:53', 'kanglicheng', 'https://github.com/tayllan/awesome-algorithms/pull/85'),
 (2266, 21911597, 2, '2017-09-11T23:12:19', 'nbro', 'https://github.com/tayllan/awesome-algorithms/pull/67'),
+(2281, 21911597, 4, '2019-01-05T18:31:53', 'kanglicheng', 'https://github.com/tayllan/awesome-algorithms/pull/85'),
 (2285, 21911597, 2, '2017-06-10T19:20:37', 'suprematis', 'https://github.com/tayllan/awesome-algorithms/pull/63'),
 (2282, 21911597, 1, '2018-10-23T23:17:00', 'AdilKhn', 'https://github.com/tayllan/awesome-algorithms/pull/80'),
 (2271, 21911597, 1, '2017-03-04T17:38:55', 'deepak-malik', 'https://github.com/tayllan/awesome-algorithms/pull/54'),
