@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-14T08:47:44.059Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-14T10:46:22.821Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7601,7 +7601,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2529, 35955666, 1, '2015-07-08T15:16:01', 'BishopWolf', 'https://github.com/jlevy/the-art-of-command-line/pull/164'),
 (3630, 45350538, 1, '2019-11-13T20:23:20', 'biow0lf', 'https://github.com/piotrmurach/tty-prompt/pull/117'),
 (3621, 45350538, 1, '2019-02-09T23:03:01', 'ioquatix', 'https://github.com/piotrmurach/tty-prompt/pull/99'),
-(3598, 45350538, 1, '2017-01-04T21:37:55', 'ajgon', 'https://github.com/piotrmurach/tty-prompt/pull/33'),
 (3606, 45350538, 1, '2020-03-08T19:27:25', 'PhilippePerret', 'https://github.com/piotrmurach/tty-prompt/pull/130'),
 (3629, 45350538, 1, '2019-03-07T22:39:02', 'kvs', 'https://github.com/piotrmurach/tty-prompt/pull/101'),
 (1206, 342028554, 1, '2021-09-03T18:54:36', 'wobsoriano', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/8'),
@@ -8267,6 +8266,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (23947, 220358364, 1, '2019-11-17T17:23:57', 'mudssrali', 'https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/13'),
 (13272, 217388629, 4, '2021-03-12T19:32:09', 'chaance', 'https://github.com/ReactTraining/react-workshop/pull/31'),
 (13277, 217388629, 1, '2020-09-19T15:22:22', 'inhyukchoi', 'https://github.com/ReactTraining/react-workshop/pull/22'),
+(3598, 45350538, 1, '2017-01-04T21:37:55', 'ajgon', 'https://github.com/piotrmurach/tty-prompt/pull/33'),
 (24091, 272619521, 4, '2022-05-30T04:40:55', 'harvic3', 'https://github.com/harvic3/nodetskeleton/pull/14'),
 (3921, 40892817, 4, '2022-06-10T20:56:45', 'chriseth', 'https://github.com/ethereum/solidity/pull/13100'),
 (3925, 40892817, 4, '2019-11-26T15:55:05', 'LefterisJP', 'https://github.com/ethereum/solidity/pull/7790'),
