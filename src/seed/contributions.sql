@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-15T05:04:01.649Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-15T06:48:17.531Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -389,8 +389,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1250, 15720445, 4, '2017-06-16T19:34:05', 'charlieduong94', 'https://github.com/marko-js/marko/pull/737'),
 (1235, 15720445, 4, '2022-01-24T19:30:18', 'tigt', 'https://github.com/marko-js/marko/pull/1755'),
 (5401, 78186814, 4, '2017-07-03T09:09:44', 'sospartan', 'https://github.com/apache/incubator-weex/pull/488'),
-(3181, 526028, 3, '2013-12-21T01:49:54', 'brzaik', 'https://github.com/concerto/concerto/pull/790'),
 (1577, 78217547, 1, '2018-07-15T12:45:18', 'palashmon', 'https://github.com/palashmon/JavaScript30/pull/3'),
+(3181, 526028, 3, '2013-12-21T01:49:54', 'brzaik', 'https://github.com/concerto/concerto/pull/790'),
 (3190, 526028, 4, '2016-12-11T20:58:02', 'gbprz', 'https://github.com/concerto/concerto/pull/1367'),
 (3197, 526028, 4, '2016-03-22T03:39:31', 'mikldt', 'https://github.com/concerto/concerto/pull/1330'),
 (3174, 526028, 1, '2019-10-16T21:19:17', 'crackmonkey', 'https://github.com/concerto/concerto/pull/1520'),
@@ -2134,10 +2134,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2836, 3545227, 1, '2020-05-27T11:11:23', 'yarons', 'https://github.com/webcamoid/webcamoid/pull/311'),
 (2649, 21938243, 4, '2015-11-04T14:19:53', 'kbknapp', 'https://github.com/rust-unofficial/awesome-rust/pull/91'),
 (2693, 212123834, 4, '2021-11-27T08:13:06', 'kentaro-m', 'https://github.com/kentaro-m/auto-assign-action/pull/65'),
+(2683, 212123834, 1, '2021-06-19T04:49:46', 'eranelbaz', 'https://github.com/kentaro-m/auto-assign-action/pull/45'),
 (22286, 331251392, 1, '2022-05-11T09:04:58', 'nayaabkhan', 'https://github.com/contentlayerdev/contentlayer/pull/204'),
 (2818, 3545227, 1, '2017-11-18T11:55:49', 'comradekingu', 'https://github.com/webcamoid/webcamoid/pull/96'),
 (2837, 3545227, 3, '2022-02-15T19:01:06', 'lgbaldoni', 'https://github.com/webcamoid/webcamoid/pull/494'),
-(2683, 212123834, 1, '2021-06-19T04:49:46', 'eranelbaz', 'https://github.com/kentaro-m/auto-assign-action/pull/45'),
 (11684, 107111421, 2, '2017-11-09T17:20:51', 'abnersajr', 'https://github.com/thedaviddias/Front-End-Checklist/pull/145'),
 (22289, 331251392, 1, '2021-12-16T20:15:24', 'jahirfiquitiva', 'https://github.com/contentlayerdev/contentlayer/pull/46'),
 (532, 26195776, 1, '2016-04-25T13:11:09', 'bgoscinski', 'https://github.com/JedWatson/classnames/pull/78'),
@@ -5892,8 +5892,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32952, 22662346, 1, '2018-09-20T06:40:07', 'cefigueiredo', 'https://github.com/nicolasblanco/rails_param/pull/39'),
 (2718, 13825712, 4, '2020-06-23T12:30:09', 'lnetrebskii', 'https://github.com/VirtoCommerce/vc-platform/pull/1925'),
 (32954, 11221453, 2, '2017-10-02T19:36:26', 'mynameiswillporter', 'https://github.com/tenex/rails-assets/pull/414'),
-(2742, 13825712, 4, '2022-07-08T11:02:08', 'getmansky', 'https://github.com/VirtoCommerce/vc-platform/pull/2525'),
 (32950, 11221453, 1, '2016-01-20T13:38:14', 'teamon', 'https://github.com/tenex/rails-assets/pull/308'),
+(2742, 13825712, 4, '2022-07-08T11:02:08', 'getmansky', 'https://github.com/VirtoCommerce/vc-platform/pull/2525'),
 (794, 9852918, 4, '2017-02-11T12:48:05', 'javorszky', 'https://github.com/TryGhost/Ghost/pull/7982'),
 (2738, 13825712, 4, '2017-11-23T08:42:44', 'megafreeman', 'https://github.com/VirtoCommerce/vc-platform/pull/1225'),
 (32953, 11221453, 2, '2015-11-19T17:49:28', 'jandudulski', 'https://github.com/tenex/rails-assets/pull/295'),
@@ -7881,8 +7881,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (33457, 40518025, 4, '2022-06-14T11:27:02', 'n1ru4l', 'https://github.com/graphql/graphiql/pull/2438'),
 (33458, 40518025, 2, '2021-11-06T07:54:09', 'dotansimha', 'https://github.com/graphql/graphiql/pull/2000'),
 (33459, 40518025, 1, '2017-04-04T00:45:27', 'tessalt', 'https://github.com/graphql/graphiql/pull/232'),
-(16595, 6750158, 1, '2018-05-11T02:00:53', 'jurassix', 'https://github.com/mgechev/javascript-algorithms/pull/141'),
 (33460, 40518025, 4, '2017-10-25T23:11:54', 'wincent', 'https://github.com/graphql/graphiql/pull/624'),
+(16595, 6750158, 1, '2018-05-11T02:00:53', 'jurassix', 'https://github.com/mgechev/javascript-algorithms/pull/141'),
 (16589, 6750158, 1, '2016-06-10T05:26:24', 'amilajack', 'https://github.com/mgechev/javascript-algorithms/pull/97'),
 (16591, 6750158, 1, '2019-11-25T14:53:51', 'BryanChan777', 'https://github.com/mgechev/javascript-algorithms/pull/164'),
 (16590, 6750158, 1, '2018-01-03T13:09:13', 'BorislavBorisov22', 'https://github.com/mgechev/javascript-algorithms/pull/136'),
