@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-15T12:59:14.090Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-15T14:45:42.093Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2421,8 +2421,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5489, 52342167, 1, '2018-10-31T20:29:48', 'jdl031', 'https://github.com/kakoni/awesome-healthcare/pull/45'),
 (5496, 52342167, 1, '2022-03-14T08:23:21', 'ieee8023', 'https://github.com/kakoni/awesome-healthcare/pull/66'),
 (11813, 331962507, 1, '2021-01-22T16:23:18', 'JonnyBurger', 'https://github.com/remotion-dev/trailer/pull/1'),
-(11927, 10865436, 1, '2013-06-24T10:43:14', 'ajimix', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/29'),
 (11944, 293570349, 1, '2021-11-24T14:39:48', 'cpoissonnier', 'https://github.com/cocogitto/cocogitto/pull/147'),
+(11927, 10865436, 1, '2013-06-24T10:43:14', 'ajimix', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/29'),
 (286, 11981144, 3, '2021-09-16T20:10:12', 'yakovru', 'https://github.com/languagetool-org/languagetool/pull/5690'),
 (3790, 176946161, 4, '2022-06-01T08:02:15', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/101'),
 (37850, 121806807, 4, '2020-06-03T14:53:10', 'Neet-Nestor', 'https://github.com/pinterest/gestalt/pull/896'),
@@ -3985,8 +3985,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16835, 238404616, 1, '2021-01-01T13:44:25', 'bvahdat', 'https://github.com/apache/camel-examples/pull/31'),
 (16839, 238404616, 1, '2020-07-14T16:56:45', 'igarashitm', 'https://github.com/apache/camel-examples/pull/9'),
 (16840, 238404616, 4, '2022-06-03T11:05:58', 'orpiske', 'https://github.com/apache/camel-examples/pull/93'),
-(16837, 238404616, 4, '2021-03-02T11:29:36', 'lburgazzoli', 'https://github.com/apache/camel-examples/pull/41'),
 (16838, 238404616, 3, '2020-12-14T10:52:56', 'omarsmak', 'https://github.com/apache/camel-examples/pull/29'),
+(16837, 238404616, 4, '2021-03-02T11:29:36', 'lburgazzoli', 'https://github.com/apache/camel-examples/pull/41'),
 (16836, 238404616, 4, '2022-03-04T19:01:38', 'essobedo', 'https://github.com/apache/camel-examples/pull/82'),
 (16841, 238404616, 4, '2021-03-03T14:52:12', 'metters', 'https://github.com/apache/camel-examples/pull/42'),
 (5713, 126577260, 2, '2021-01-03T09:26:15', 'austintheriot', 'https://github.com/trekhleb/javascript-algorithms/pull/617'),
@@ -7662,8 +7662,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (34779, 220186120, 2, '2022-05-11T22:04:09', 'moshix', 'https://github.com/codenotary/immudb/pull/1209'),
 (34778, 220186120, 2, '2021-10-08T09:05:35', 'zaza81', 'https://github.com/codenotary/immudb/pull/959'),
 (12262, 94498635, 4, '2018-01-23T01:45:54', 'yeskunall', 'https://github.com/carbon-app/carbon/pull/172'),
-(12277, 94498635, 2, '2019-02-14T17:18:10', 'farskid', 'https://github.com/carbon-app/carbon/pull/673'),
 (12275, 94498635, 2, '2019-10-23T17:42:08', 'Nazeeefa', 'https://github.com/carbon-app/carbon/pull/894'),
+(12277, 94498635, 2, '2019-02-14T17:18:10', 'farskid', 'https://github.com/carbon-app/carbon/pull/673'),
 (12267, 94498635, 2, '2018-12-11T16:45:53', 'wooooooak', 'https://github.com/carbon-app/carbon/pull/599'),
 (12281, 94498635, 2, '2018-12-16T19:48:53', 'rachelcarmena', 'https://github.com/carbon-app/carbon/pull/607'),
 (34784, 220186120, 1, '2020-05-11T17:53:13', 'vchaindz', 'https://github.com/codenotary/immudb/pull/187'),
@@ -8498,13 +8498,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24463, 235133242, 1, '2021-11-10T12:31:54', 'rexxars', 'https://github.com/sanity-io/mendoza/pull/3'),
 (24462, 235133242, 1, '2021-08-24T11:50:26', 'j33ty', 'https://github.com/sanity-io/mendoza/pull/2'),
 (24464, 194835924, 3, '2019-09-25T07:42:57', 'judofyr', 'https://github.com/sanity-io/groq-cli/pull/5'),
+(5966, 75701562, 1, '2017-03-20T01:52:01', 'yaukeywang', 'https://github.com/miloyip/game-programmer/pull/23'),
+(5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2'),
+(5971, 75701562, 1, '2016-12-17T13:27:40', 'unship', 'https://github.com/miloyip/game-programmer/pull/9'),
 (5986, 31168578, 2, '2016-06-10T05:04:13', 'marcusradell', 'https://github.com/hemanth/functional-programming-jargon/pull/45'),
 (7185, 411705813, 1, '2021-10-02T10:43:29', 'DelayCoderz', 'https://github.com/avinash201199/Portfolio-Collection/pull/7'),
 (7182, 411705813, 1, '2021-10-06T18:45:29', 'Chiranjeev-droid', 'https://github.com/avinash201199/Portfolio-Collection/pull/13'),
-(5966, 75701562, 1, '2017-03-20T01:52:01', 'yaukeywang', 'https://github.com/miloyip/game-programmer/pull/23'),
-(5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2'),
 (24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
-(5971, 75701562, 1, '2016-12-17T13:27:40', 'unship', 'https://github.com/miloyip/game-programmer/pull/9'),
 (8628, 128265535, 4, '2019-07-25T08:26:38', 'NimishC', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/672'),
 (8624, 128265535, 3, '2019-04-11T16:31:14', 'deci-ftw', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/478'),
 (8616, 128265535, 4, '2020-05-01T20:02:03', 'vcanaa', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/937'),
