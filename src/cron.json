@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-16T07:16:46.514Z",
+  "lastExecuted": "2022-07-16T07:27:12.636Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2274,7 +2274,7 @@
     "WinterCore": {
       "owner": "WinterCore",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:22:36.989Z"
+      "lastExecuted": "2022-07-16T07:27:12.636Z"
     },
     "ljharb": {
       "owner": "ljharb",
@@ -2284,7 +2284,7 @@
     "mdirshaddev": {
       "owner": "mdirshaddev",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:22:36.989Z"
+      "lastExecuted": "2022-07-16T07:27:12.636Z"
     },
     "yhoungdev": {
       "owner": "yhoungdev",
@@ -2370,6 +2370,11 @@
       "owner": "pplanel",
       "notFound": false,
       "lastExecuted": "2022-07-16T04:24:45.483Z"
+    },
+    "Raynor-X": {
+      "owner": "Raynor-X",
+      "notFound": false,
+      "lastExecuted": "2022-07-16T07:27:12.636Z"
     }
   }
 }
