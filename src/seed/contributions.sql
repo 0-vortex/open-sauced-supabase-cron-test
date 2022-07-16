@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-16T10:45:03.389Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-16T12:53:01.907Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3215,8 +3215,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3869, 152965398, 1, '2021-06-06T07:28:55', 'sohan9819', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/339'),
 (3870, 152965398, 2, '2022-01-14T14:51:33', 'Cahllagerfeld', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/811'),
 (3871, 152965398, 2, '2022-03-01T16:41:00', 'doriandevtech', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/958'),
-(3873, 152965398, 2, '2020-09-15T22:53:32', 'sbdeepu09', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/151'),
 (3872, 152965398, 2, '2021-10-02T07:10:25', 'coolashishpt', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/692'),
+(3873, 152965398, 2, '2020-09-15T22:53:32', 'sbdeepu09', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/151'),
 (3874, 152965398, 2, '2021-03-14T17:27:21', 'Abiola-Farounbi', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/301'),
 (3875, 152965398, 2, '2022-02-20T06:05:18', 'aliyanamu', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/934'),
 (3876, 152965398, 1, '2020-07-28T10:21:33', 'jivthesh', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/74'),
