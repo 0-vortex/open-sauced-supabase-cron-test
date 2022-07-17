@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-17T06:47:40.503Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-17T08:46:16.160Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1865,11 +1865,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1779, 290703027, 3, '2020-10-05T05:20:33', 'Sweta040799', 'https://github.com/kothariji/competitive-programming/pull/138'),
 (1769, 290703027, 1, '2020-10-01T12:03:47', 'Nishant127', 'https://github.com/kothariji/competitive-programming/pull/59'),
 (1774, 290703027, 4, '2020-10-14T12:49:40', 'chhipanikhil9', 'https://github.com/kothariji/competitive-programming/pull/168'),
-(1786, 290703027, 4, '2020-10-02T15:27:12', 'gaurav-bhansali', 'https://github.com/kothariji/competitive-programming/pull/93'),
 (1788, 290703027, 3, '2021-10-04T13:39:04', 'avishkarhande', 'https://github.com/kothariji/competitive-programming/pull/387'),
 (1775, 290703027, 2, '2021-10-06T11:31:16', 'ayushpratap344', 'https://github.com/kothariji/competitive-programming/pull/424'),
 (1796, 290703027, 4, '2021-10-16T15:16:28', 'HarshitChari', 'https://github.com/kothariji/competitive-programming/pull/523'),
 (1777, 290703027, 4, '2021-10-13T13:34:58', 'g-jindal2001', 'https://github.com/kothariji/competitive-programming/pull/504'),
+(1786, 290703027, 4, '2020-10-02T15:27:12', 'gaurav-bhansali', 'https://github.com/kothariji/competitive-programming/pull/93'),
 (1793, 290703027, 1, '2021-10-07T05:31:45', 'Pratik29121', 'https://github.com/kothariji/competitive-programming/pull/441'),
 (2387, 14741294, 4, '2019-10-29T20:22:21', 'tkwidmer', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/605'),
 (2388, 14741294, 4, '2014-03-16T01:11:59', 'dominic', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/88'),
@@ -3692,8 +3692,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1545, 60374819, 4, '2017-05-01T18:37:37', 'akosyakov', 'https://github.com/jupyterlab/jupyterlab/pull/2015'),
 (1530, 60374819, 4, '2022-05-04T08:38:16', 'blink1073', 'https://github.com/jupyterlab/jupyterlab/pull/12509'),
 (1537, 60374819, 4, '2019-10-16T22:12:03', 'sccolbert', 'https://github.com/jupyterlab/jupyterlab/pull/7370'),
-(1524, 60374819, 4, '2021-03-10T18:59:31', 'saulshanabrook', 'https://github.com/jupyterlab/jupyterlab/pull/9883'),
 (1542, 60374819, 4, '2018-08-10T11:02:21', 'jzf2101', 'https://github.com/jupyterlab/jupyterlab/pull/5087'),
+(1524, 60374819, 4, '2021-03-10T18:59:31', 'saulshanabrook', 'https://github.com/jupyterlab/jupyterlab/pull/9883'),
 (1523, 60374819, 4, '2022-06-01T16:17:20', 'jtpio', 'https://github.com/jupyterlab/jupyterlab/pull/12643'),
 (1539, 60374819, 4, '2022-04-07T07:20:01', 'bollwyvl', 'https://github.com/jupyterlab/jupyterlab/pull/12364'),
 (1526, 60374819, 4, '2022-03-10T07:28:22', 'jasongrout', 'https://github.com/jupyterlab/jupyterlab/pull/12192'),
@@ -4081,9 +4081,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16857, 166558054, 1, '2019-07-24T16:59:55', 'voidint', 'https://github.com/Ullaakut/nmap/pull/19'),
 (16853, 166558054, 1, '2021-03-15T10:09:36', 'brutalgg', 'https://github.com/Ullaakut/nmap/pull/74'),
 (16851, 166558054, 1, '2019-12-06T09:36:56', 'leobeosab', 'https://github.com/Ullaakut/nmap/pull/41'),
+(16856, 166558054, 1, '2021-07-13T14:07:04', 'mxrch', 'https://github.com/Ullaakut/nmap/pull/85'),
 (16850, 166558054, 1, '2021-04-06T06:09:55', 'MaineK00n', 'https://github.com/Ullaakut/nmap/pull/77'),
 (16855, 166558054, 1, '2021-01-25T15:41:56', 'ohDaddyPlease', 'https://github.com/Ullaakut/nmap/pull/68'),
-(16856, 166558054, 1, '2021-07-13T14:07:04', 'mxrch', 'https://github.com/Ullaakut/nmap/pull/85'),
 (4859, 88447006, 2, '2018-02-26T18:23:09', 'WizardOfAus', 'https://github.com/Scanate/EthList/pull/37'),
 (4860, 88447006, 1, '2018-03-15T18:22:50', 'Wonderbeest', 'https://github.com/Scanate/EthList/pull/40'),
 (4861, 88447006, 2, '2017-10-10T18:59:05', 'yozef', 'https://github.com/Scanate/EthList/pull/22'),
@@ -6829,8 +6829,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12145, 4979467, 2, '2019-02-13T22:33:39', 'CupOfTea696', 'https://github.com/PrismJS/prism/pull/1731'),
 (12146, 4979467, 2, '2019-01-13T21:47:59', 'dellagustin', 'https://github.com/PrismJS/prism/pull/1704'),
 (12147, 10126031, 4, '2014-08-19T04:21:15', 'badescunicu', 'https://github.com/mixxxdj/mixxx/pull/303'),
-(12149, 10126031, 4, '2022-05-27T17:40:38', 'daschuer', 'https://github.com/mixxxdj/mixxx/pull/4771'),
 (12148, 10126031, 4, '2014-08-16T17:14:06', 'demos', 'https://github.com/mixxxdj/mixxx/pull/313'),
+(12149, 10126031, 4, '2022-05-27T17:40:38', 'daschuer', 'https://github.com/mixxxdj/mixxx/pull/4771'),
 (12150, 10126031, 4, '2022-05-31T01:52:16', 'ninomp', 'https://github.com/mixxxdj/mixxx/pull/4613'),
 (12151, 10126031, 4, '2021-11-22T06:52:04', 'Be-ing', 'https://github.com/mixxxdj/mixxx/pull/4537'),
 (12152, 10126031, 4, '2021-03-21T11:40:30', 'esbrandt', 'https://github.com/mixxxdj/mixxx/pull/3731'),
@@ -7660,8 +7660,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2080, 29497480, 4, '2021-03-04T18:22:32', 'WaveHack', 'https://github.com/OpenDominion/OpenDominion/pull/841'),
 (2065, 29497480, 2, '2017-10-31T20:29:29', 'barmmie', 'https://github.com/OpenDominion/OpenDominion/pull/162'),
 (12236, 9746477, 4, '2022-07-08T21:54:07', 'lilyinstarlight', 'https://github.com/sonic-pi-net/sonic-pi/pull/3122'),
-(5831, 105412971, 1, '2018-01-29T17:50:00', 'louisjc', 'https://github.com/stereobooster/react-snap/pull/130'),
 (12241, 9746477, 4, '2016-05-17T14:09:32', 'jweather', 'https://github.com/sonic-pi-net/sonic-pi/pull/1237'),
+(5831, 105412971, 1, '2018-01-29T17:50:00', 'louisjc', 'https://github.com/stereobooster/react-snap/pull/130'),
 (38459, 165658820, 1, '2020-03-13T19:22:13', 'jorgegonzalez', 'https://github.com/donavon/use-dark-mode/pull/39'),
 (2072, 29497480, 4, '2020-12-07T04:31:01', 'stromblom', 'https://github.com/OpenDominion/OpenDominion/pull/835'),
 (2070, 29497480, 1, '2017-10-10T22:30:54', 'Braunson', 'https://github.com/OpenDominion/OpenDominion/pull/120'),
