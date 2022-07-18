@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-18T01:05:33.587Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-18T03:24:03.730Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4620,8 +4620,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3748, 3946572, 1, '2019-07-25T14:21:17', 'abatko', 'https://github.com/PostgresApp/PostgresApp/pull/518'),
 (22332, 25315643, 1, '2016-04-12T17:27:24', 'jackiehluo', 'https://github.com/nylas/nylas-mail/pull/1898'),
 (2071, 29497480, 1, '2019-10-14T16:19:16', 'leecrosdale', 'https://github.com/OpenDominion/OpenDominion/pull/720'),
-(533, 26195776, 1, '2016-04-25T13:11:32', 'barneycarroll', 'https://github.com/JedWatson/classnames/pull/76'),
 (543, 26195776, 2, '2019-07-04T23:56:13', 'xobotyi', 'https://github.com/JedWatson/classnames/pull/198'),
+(533, 26195776, 1, '2016-04-25T13:11:32', 'barneycarroll', 'https://github.com/JedWatson/classnames/pull/76'),
 (12196, 267760300, 1, '2020-08-08T20:45:17', 'mwood23', 'https://github.com/mwood23/wave-snippets/pull/1'),
 (2079, 29497480, 1, '2020-11-26T14:21:56', 'gjselten', 'https://github.com/OpenDominion/OpenDominion/pull/833'),
 (4663, 4558079, 3, '2016-09-23T21:53:41', 'JonTheNiceGuy', 'https://github.com/garethr/vagrantboxes-heroku/pull/423'),
@@ -5471,8 +5471,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5917, 187335810, 1, '2020-09-23T10:15:42', 'stirante', 'https://github.com/jesseduffield/lazydocker/pull/201'),
 (17003, 132732601, 4, '2022-06-30T07:43:56', 'berkayoz', 'https://github.com/canonical/microk8s/pull/3285'),
 (8746, 132732601, 2, '2021-11-17T09:37:40', 'johnlettman', 'https://github.com/canonical/microk8s/pull/2479'),
-(8753, 132732601, 4, '2020-12-03T10:29:22', 'joestringer', 'https://github.com/canonical/microk8s/pull/1785'),
 (8747, 132732601, 4, '2018-06-27T16:21:29', 'johnsca', 'https://github.com/canonical/microk8s/pull/60'),
+(8753, 132732601, 4, '2020-12-03T10:29:22', 'joestringer', 'https://github.com/canonical/microk8s/pull/1785'),
 (16368, 143185400, 4, '2021-10-22T20:41:25', 'AndreaCensi', 'https://github.com/duckietown/duckietown-shell-commands/pull/307'),
 (16360, 143185400, 4, '2021-12-08T03:32:12', 'afdaniele', 'https://github.com/duckietown/duckietown-shell-commands/pull/317'),
 (16363, 143185400, 4, '2021-11-10T04:07:50', 'liampaull', 'https://github.com/duckietown/duckietown-shell-commands/pull/315'),
@@ -6219,8 +6219,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (630, 256786531, 4, '2022-02-26T14:44:37', 'MunifTanjim', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2586'),
 (623, 256786531, 4, '2022-04-06T16:21:45', 'connorlay', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2745'),
 (632, 256786531, 4, '2021-03-01T22:35:25', 'oberblastmeister', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/973'),
-(624, 256786531, 4, '2021-06-11T14:15:14', 'steelsojka', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1381'),
 (622, 256786531, 4, '2022-06-02T10:56:58', 'clason', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2980'),
+(624, 256786531, 4, '2021-06-11T14:15:14', 'steelsojka', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1381'),
 (629, 256786531, 4, '2022-02-06T12:58:42', 'dundargoc', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2472'),
 (625, 256786531, 4, '2021-11-02T15:59:23', 'elianiva', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1969'),
 (633, 256786531, 4, '2022-03-28T20:21:25', 'aspeddro', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2692'),
@@ -7686,8 +7686,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24065, 120149974, 1, '2022-02-17T13:54:28', 'cdrsociate', 'https://github.com/fonoster/fonoster/pull/287'),
 (23911, 198896556, 1, '2021-04-07T15:38:13', 'alexr00', 'https://github.com/microsoft/vscode-js-debug/pull/965'),
 (12230, 9746477, 4, '2022-07-06T13:25:08', 'emlyn', 'https://github.com/sonic-pi-net/sonic-pi/pull/3115'),
-(24064, 120149974, 1, '2022-06-03T20:03:01', 'osehgol', 'https://github.com/fonoster/fonoster/pull/343'),
 (12234, 9746477, 4, '2022-03-25T14:24:17', 'richcarl', 'https://github.com/sonic-pi-net/sonic-pi/pull/3041'),
+(24064, 120149974, 1, '2022-06-03T20:03:01', 'osehgol', 'https://github.com/fonoster/fonoster/pull/343'),
 (6279, 175405157, 3, '2022-05-19T19:39:22', 'csrakowski', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2292'),
 (509, 175405157, 2, '2022-05-08T16:12:44', 'mosullivan93', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2242'),
 (1317, 278150898, 1, '2022-04-27T14:37:57', 'maximilianbraun', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/308'),
@@ -7959,8 +7959,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (39304, 165522651, 3, '2022-05-29T18:33:04', 'elwerene', 'https://github.com/emilk/egui/pull/1591'),
 (39306, 165522651, 3, '2022-02-15T15:55:43', 'BctfN0HUK7Yg', 'https://github.com/emilk/egui/pull/1237'),
 (9056, 76996763, 1, '2019-04-28T21:40:59', 'mathiassoeholm', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/166'),
-(9052, 76996763, 1, '2019-09-20T20:44:12', 'louisrli', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/181'),
 (9063, 76996763, 1, '2017-10-27T17:06:09', 'mleg', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/23'),
+(9052, 76996763, 1, '2019-09-20T20:44:12', 'louisrli', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/181'),
 (9059, 76996763, 1, '2019-07-18T09:09:43', 'chawax', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/178'),
 (3849, 34470375, 1, '2015-11-17T17:35:09', 'patrickgalbraith', 'https://github.com/sachatrauwaen/OpenContent/pull/2'),
 (3847, 34470375, 2, '2021-04-15T15:54:55', 'Timo-Breumelhof', 'https://github.com/sachatrauwaen/OpenContent/pull/121'),
@@ -8491,8 +8491,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1830, 430789888, 1, '2021-12-07T07:34:23', 'christiananese', 'https://github.com/Developer-DAO/web3-ui/pull/80'),
 (1838, 430789888, 1, '2021-12-27T05:38:59', 'gjsyme', 'https://github.com/Developer-DAO/web3-ui/pull/180'),
 (1835, 430789888, 2, '2022-01-28T07:05:07', 'AlexNi245', 'https://github.com/Developer-DAO/web3-ui/pull/258'),
-(1852, 430789888, 4, '2022-01-19T23:15:12', 'hone1er', 'https://github.com/Developer-DAO/web3-ui/pull/241'),
 (1851, 430789888, 4, '2021-12-29T03:46:53', 'etr2460', 'https://github.com/Developer-DAO/web3-ui/pull/184'),
+(1852, 430789888, 4, '2022-01-19T23:15:12', 'hone1er', 'https://github.com/Developer-DAO/web3-ui/pull/241'),
 (1848, 430789888, 1, '2022-02-02T17:01:13', 'patcito', 'https://github.com/Developer-DAO/web3-ui/pull/286'),
 (1843, 430789888, 1, '2022-01-31T18:05:28', 'berteotti', 'https://github.com/Developer-DAO/web3-ui/pull/276'),
 (1837, 430789888, 1, '2022-01-03T11:23:32', 'akshatamohanty', 'https://github.com/Developer-DAO/web3-ui/pull/201'),
