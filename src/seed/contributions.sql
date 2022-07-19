@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-18T22:45:23.490Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-19T01:06:22.108Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5093,8 +5093,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1218, 170738310, 4, '2019-08-13T02:53:23', 'BSathvik', 'https://github.com/trustwallet/wallet-core/pull/580'),
 (1215, 170738310, 4, '2019-04-29T16:27:38', 'keefertaylor', 'https://github.com/trustwallet/wallet-core/pull/357'),
 (32934, 22662346, 4, '2021-10-26T20:24:13', 'ifellinaholeonce', 'https://github.com/nicolasblanco/rails_param/pull/79'),
-(32942, 22662346, 1, '2020-12-29T17:03:12', 'kmlrj', 'https://github.com/nicolasblanco/rails_param/pull/60'),
 (6006, 31168578, 4, '2022-03-02T20:37:29', 'jethrolarson', 'https://github.com/hemanth/functional-programming-jargon/pull/206'),
+(32942, 22662346, 1, '2020-12-29T17:03:12', 'kmlrj', 'https://github.com/nicolasblanco/rails_param/pull/60'),
 (32943, 22662346, 1, '2019-12-27T10:34:37', 'viveksoundrapandi', 'https://github.com/nicolasblanco/rails_param/pull/58'),
 (32932, 22662346, 2, '2018-09-20T08:41:50', 'shhavel', 'https://github.com/nicolasblanco/rails_param/pull/42'),
 (5671, 82729529, 1, '2017-03-29T11:27:08', 'jorrinpollard', 'https://github.com/google/python-fire/pull/44'),
@@ -8428,16 +8428,16 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (733, 281151556, 4, '2022-05-05T13:16:00', 'Wabri', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/99'),
 (1820, 227393393, 2, '2020-10-05T19:52:14', 'nipafx', 'https://github.com/livecoders/website/pull/155'),
 (1806, 227393393, 1, '2020-03-27T16:09:52', 'sorskoot', 'https://github.com/livecoders/website/pull/31'),
+(37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4'),
+(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8'),
+(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15'),
+(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14'),
 (686, 120828763, 1, '2018-06-24T20:58:47', 'hg-pyun', 'https://github.com/ronami/minipack/pull/9'),
 (689, 120828763, 1, '2018-04-28T19:26:21', 'ronami', 'https://github.com/ronami/minipack/pull/1'),
 (690, 120828763, 1, '2018-07-17T17:24:33', 'rkrupinski', 'https://github.com/ronami/minipack/pull/8'),
 (697, 120828763, 1, '2018-05-31T05:57:17', 'ranyitz', 'https://github.com/ronami/minipack/pull/3'),
 (687, 120828763, 1, '2018-06-08T12:32:35', 'chinanf-boy', 'https://github.com/ronami/minipack/pull/6'),
 (688, 120828763, 1, '2018-05-30T21:14:39', 'roymiloh', 'https://github.com/ronami/minipack/pull/4'),
-(37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4'),
-(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8'),
-(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15'),
-(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14'),
 (23880, 198896556, 1, '2020-05-06T21:20:46', 'cbmd', 'https://github.com/microsoft/vscode-js-debug/pull/459'),
 (23883, 198896556, 4, '2019-09-05T20:10:04', 'dgozman', 'https://github.com/microsoft/vscode-js-debug/pull/20'),
 (23887, 198896556, 4, '2020-10-29T19:01:22', 'digeff', 'https://github.com/microsoft/vscode-js-debug/pull/826'),
