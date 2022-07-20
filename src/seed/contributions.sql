@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-19T22:44:50.995Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-20T01:05:07.701Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2387,11 +2387,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5485, 52342167, 1, '2017-03-28T12:05:35', 'EliotSlevin', 'https://github.com/kakoni/awesome-healthcare/pull/6'),
 (5489, 52342167, 1, '2018-10-31T20:29:48', 'jdl031', 'https://github.com/kakoni/awesome-healthcare/pull/45'),
 (5496, 52342167, 1, '2022-03-14T08:23:21', 'ieee8023', 'https://github.com/kakoni/awesome-healthcare/pull/66'),
-(11813, 331962507, 1, '2021-01-22T16:23:18', 'JonnyBurger', 'https://github.com/remotion-dev/trailer/pull/1'),
 (11927, 10865436, 1, '2013-06-24T10:43:14', 'ajimix', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/29'),
 (11944, 293570349, 1, '2021-11-24T14:39:48', 'cpoissonnier', 'https://github.com/cocogitto/cocogitto/pull/147'),
 (286, 11981144, 3, '2021-09-16T20:10:12', 'yakovru', 'https://github.com/languagetool-org/languagetool/pull/5690'),
 (3790, 176946161, 4, '2022-06-01T08:02:15', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/101'),
+(11813, 331962507, 1, '2021-01-22T16:23:18', 'JonnyBurger', 'https://github.com/remotion-dev/trailer/pull/1'),
 (326, 11981144, 4, '2016-09-19T06:45:59', 'kostyfisik', 'https://github.com/languagetool-org/languagetool/pull/550'),
 (311, 11981144, 4, '2022-07-14T10:17:01', 'Discostu36', 'https://github.com/languagetool-org/languagetool/pull/6913'),
 (37850, 121806807, 4, '2020-06-03T14:53:10', 'Neet-Nestor', 'https://github.com/pinterest/gestalt/pull/896'),
@@ -4488,8 +4488,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32920, 34228852, 3, '2015-12-12T03:47:54', 'leonmak', 'https://github.com/AchoArnold/discount-for-student-dev/pull/18'),
 (32921, 34228852, 4, '2019-10-29T15:08:10', 'chintogtokh', 'https://github.com/AchoArnold/discount-for-student-dev/pull/86'),
 (32922, 34228852, 1, '2020-02-04T20:50:33', 'ChrisMott97', 'https://github.com/AchoArnold/discount-for-student-dev/pull/90'),
-(32923, 34228852, 1, '2016-08-18T03:53:27', 'ad-m', 'https://github.com/AchoArnold/discount-for-student-dev/pull/38'),
 (32924, 34228852, 1, '2018-10-25T17:09:42', 'aburakayaz', 'https://github.com/AchoArnold/discount-for-student-dev/pull/71'),
+(32923, 34228852, 1, '2016-08-18T03:53:27', 'ad-m', 'https://github.com/AchoArnold/discount-for-student-dev/pull/38'),
 (16247, 827590, 4, '2016-12-31T02:30:20', 'jrobeson', 'https://github.com/beetbox/beets/pull/2359'),
 (32847, 70530854, 3, '2021-01-25T21:46:22', 'awood45', 'https://github.com/aws/serverless-application-model/pull/1896'),
 (32853, 70530854, 4, '2021-03-01T18:17:39', 'chrisoverzero', 'https://github.com/aws/serverless-application-model/pull/1945'),
