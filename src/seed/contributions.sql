@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-20T06:48:43.086Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-20T08:47:56.886Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2900,11 +2900,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4841, 507, 1, '2015-02-12T20:55:56', 'nidev', 'https://github.com/sferik/twitter/pull/655'),
 (4854, 507, 4, '2020-02-12T17:46:52', 'FabienChaynes', 'https://github.com/sferik/twitter/pull/950'),
 (4846, 507, 4, '2013-09-29T20:00:54', 'ys', 'https://github.com/sferik/twitter/pull/454'),
-(16822, 121814210, 4, '2022-05-20T12:14:47', 'mperrotti', 'https://github.com/primer/react/pull/2087'),
 (16815, 121814210, 4, '2022-05-24T14:46:07', 'primer-css', 'https://github.com/primer/react/pull/2056'),
 (4855, 507, 1, '2014-03-24T12:43:47', 'neektza', 'https://github.com/sferik/twitter/pull/546'),
 (16826, 121814210, 4, '2022-06-08T00:11:03', 'dgreif', 'https://github.com/primer/react/pull/2117'),
 (4837, 507, 1, '2013-05-12T17:52:29', 'paulwalker', 'https://github.com/sferik/twitter/pull/393'),
+(16822, 121814210, 4, '2022-05-20T12:14:47', 'mperrotti', 'https://github.com/primer/react/pull/2087'),
 (16817, 121814210, 4, '2022-02-10T19:59:35', 'jclem', 'https://github.com/primer/react/pull/1857'),
 (16814, 121814210, 1, '2021-03-29T12:16:46', 'lffg', 'https://github.com/primer/react/pull/1133'),
 (16812, 121814210, 2, '2020-09-23T20:06:50', 'HaigDouzy', 'https://github.com/primer/react/pull/852'),
@@ -5895,8 +5895,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16423, 327628682, 4, '2022-01-04T15:16:35', 'Ultra-Instinct-05', 'https://github.com/mantinedev/mantine/pull/621'),
 (22484, 54994103, 1, '2022-04-04T10:59:01', 'denisborovnev', 'https://github.com/floating-ui/floating-ui/pull/1603'),
 (22485, 54994103, 1, '2021-12-13T08:14:54', 'berber1016', 'https://github.com/floating-ui/floating-ui/pull/1443'),
-(12681, 141514439, 2, '2020-10-07T09:41:59', 'aleator', 'https://github.com/kowainik/relude/pull/331'),
 (12677, 141514439, 2, '2018-08-27T07:02:48', 'ghallak', 'https://github.com/kowainik/relude/pull/56'),
+(12681, 141514439, 2, '2020-10-07T09:41:59', 'aleator', 'https://github.com/kowainik/relude/pull/331'),
 (12682, 141514439, 4, '2019-10-25T04:48:21', 'astynax', 'https://github.com/kowainik/relude/pull/216'),
 (12683, 141514439, 4, '2022-04-18T08:52:25', 'Bodigrim', 'https://github.com/kowainik/relude/pull/410'),
 (12678, 141514439, 2, '2021-11-11T15:02:00', 'amesgen', 'https://github.com/kowainik/relude/pull/389'),
