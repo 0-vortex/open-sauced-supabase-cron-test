@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-21T06:49:23.489Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-21T08:47:26.480Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3637,7 +3637,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4353, 381907715, 1, '2021-07-05T02:36:19', 'jusdeleon', 'https://github.com/vuejs/petite-vue/pull/14'),
 (4354, 381907715, 1, '2021-09-14T14:17:54', 'nick-lai', 'https://github.com/vuejs/petite-vue/pull/22'),
 (4355, 381907715, 1, '2022-01-18T14:07:28', 'lomirus', 'https://github.com/vuejs/petite-vue/pull/91'),
-(4360, 381907715, 1, '2021-07-05T02:36:28', 'lupinitylabs', 'https://github.com/vuejs/petite-vue/pull/12'),
 (4359, 381907715, 1, '2021-09-14T14:19:00', 'johannschopplich', 'https://github.com/vuejs/petite-vue/pull/29'),
 (4356, 381907715, 1, '2021-09-14T14:17:33', 'webfansplz', 'https://github.com/vuejs/petite-vue/pull/16'),
 (4357, 381907715, 1, '2021-09-14T15:58:16', 'nooooooom', 'https://github.com/vuejs/petite-vue/pull/79'),
@@ -3873,6 +3872,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4658, 22790488, 1, '2017-05-29T18:41:27', '4lexis', 'https://github.com/iluwatar/java-design-patterns/pull/572'),
 (4659, 22790488, 1, '2016-07-12T16:47:48', 'colinbut', 'https://github.com/iluwatar/java-design-patterns/pull/434'),
 (4660, 22790488, 2, '2015-02-10T17:09:47', 'ruslanpa', 'https://github.com/iluwatar/java-design-patterns/pull/30'),
+(4360, 381907715, 1, '2021-07-05T02:36:28', 'lupinitylabs', 'https://github.com/vuejs/petite-vue/pull/12'),
 (4661, 22790488, 1, '2016-04-18T18:12:29', 'gwildor28', 'https://github.com/iluwatar/java-design-patterns/pull/397'),
 (4662, 22790488, 1, '2020-09-06T16:33:04', 'samilAyoub', 'https://github.com/iluwatar/java-design-patterns/pull/1516'),
 (32810, 70530854, 4, '2021-03-17T05:37:29', 'yan12125', 'https://github.com/aws/serverless-application-model/pull/1964'),
@@ -8178,8 +8178,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4370, 38554391, 1, '2019-08-26T14:27:33', 'xPaw', 'https://github.com/ValvePython/steam/pull/214'),
 (4374, 38554391, 1, '2022-01-06T22:46:22', 'AquaIsMissing', 'https://github.com/ValvePython/steam/pull/375'),
 (4372, 38554391, 1, '2019-07-10T21:08:36', 'offish', 'https://github.com/ValvePython/steam/pull/202'),
-(4377, 38554391, 1, '2016-12-20T04:25:50', 'lopezloo', 'https://github.com/ValvePython/steam/pull/63'),
 (4376, 38554391, 1, '2022-05-03T23:13:18', 'smcv', 'https://github.com/ValvePython/steam/pull/384'),
+(4377, 38554391, 1, '2016-12-20T04:25:50', 'lopezloo', 'https://github.com/ValvePython/steam/pull/63'),
 (4378, 38554391, 1, '2016-03-13T16:41:24', 'SleepProgger', 'https://github.com/ValvePython/steam/pull/20'),
 (4371, 38554391, 1, '2020-04-15T21:44:25', 'int3l', 'https://github.com/ValvePython/steam/pull/248'),
 (4375, 38554391, 1, '2021-10-02T13:24:40', 'tjensen', 'https://github.com/ValvePython/steam/pull/359'),
@@ -9260,9 +9260,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (42878, 111714643, 4, '2021-08-03T07:34:36', 'andrey-yantsen', 'https://github.com/zewelor/bt-mqtt-gateway/pull/234'),
 (42879, 111714643, 1, '2019-07-23T14:51:33', 'ronytomen', 'https://github.com/zewelor/bt-mqtt-gateway/pull/81'),
 (42880, 111714643, 1, '2020-05-24T12:03:44', 'MissingDLL', 'https://github.com/zewelor/bt-mqtt-gateway/pull/182'),
-(42883, 111714643, 4, '2020-01-22T10:43:30', 'merll', 'https://github.com/zewelor/bt-mqtt-gateway/pull/142'),
 (42881, 111714643, 1, '2019-03-07T16:15:53', 'AS137430', 'https://github.com/zewelor/bt-mqtt-gateway/pull/60'),
 (42882, 111714643, 3, '2022-03-05T15:11:39', 'gingerlime', 'https://github.com/zewelor/bt-mqtt-gateway/pull/249'),
+(42883, 111714643, 4, '2020-01-22T10:43:30', 'merll', 'https://github.com/zewelor/bt-mqtt-gateway/pull/142'),
 (42884, 111714643, 4, '2020-05-08T06:00:12', 'zewelor', 'https://github.com/zewelor/bt-mqtt-gateway/pull/172'),
 (42885, 111714643, 4, '2021-01-06T09:02:03', 'lwestenberg', 'https://github.com/zewelor/bt-mqtt-gateway/pull/208'),
 (8791, 13601190, 1, '2018-07-01T20:16:04', 'jankal', 'https://github.com/agentejo/cockpit/pull/796'),
