@@ -320,9 +320,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 14912729,1,true,false,true,2022-07-22T07:31:12.785966+00:00,Skn0tt
 41201924,2,true,false,true,2022-07-19T06:17:08.022796+00:00,aviramha
 80476005,1,true,false,true,2022-07-18T18:53:54.531996+00:00,ricci2511
-62794161,1,true,true,true,2022-07-17T15:08:14.518249+00:00,lhhuman
-79598596,3,true,false,true,2022-07-14T12:10:45.229975+00:00,90N45-d3v
-2501,0,true,false,true,2022-07-14T11:59:44.571848+00:00,kdaigle
 76237868,1,true,false,true,2022-07-08T11:28:28.574195+00:00,ajaygitt
 5056251,6,true,false,true,2022-07-01T21:23:05.468675+00:00,beardage
 100371690,1,true,false,true,2022-07-18T23:00:26.628815+00:00,CMCSWEENE
@@ -335,7 +332,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 43038575,1,true,false,true,2022-06-22T03:11:12.493334+00:00,ZacharySeebeck2020
 21364023,1,true,false,true,2022-06-27T14:19:31.125814+00:00,fatonarifi
 20974749,1,true,false,true,2022-06-24T02:13:19.701055+00:00,mikethemelanson
-1682188,1,true,false,true,2022-07-22T14:18:26.00839+00:00,ctoffanin
 82994425,1,true,false,true,2022-06-22T18:44:42.225031+00:00,WadieBenabdouh
 19923295,1,true,false,true,2022-07-08T19:10:12.369082+00:00,jiayike
 10395817,2,true,false,true,2022-07-07T07:08:37.652591+00:00,liyasthomas
@@ -372,6 +368,10 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 73789849,1,true,false,true,2022-06-22T19:03:38.668197+00:00,haleyjung
 7938258,1,true,false,true,2022-06-25T21:54:27.161722+00:00,TsatsuAmable
 85348050,8,true,false,true,2022-07-16T08:47:17.514442+00:00,AssassinK786
+1682188,1,true,false,true,2022-07-22T14:18:26.00839+00:00,ctoffanin
 58410019,1,true,false,true,2022-07-03T15:52:29.968032+00:00,AlphaHot
 9616739,1,true,false,true,2022-07-02T03:51:26.666802+00:00,Lckythr33
 54788134,3,true,false,true,2022-07-02T03:51:27.965967+00:00,Clue355
+62794161,1,true,true,true,2022-07-17T15:08:14.518249+00:00,lhhuman
+79598596,3,true,false,true,2022-07-14T12:10:45.229975+00:00,90N45-d3v
+33803374,1,true,false,true,2022-06-25T11:19:32.814482+00:00,ChrisGibe

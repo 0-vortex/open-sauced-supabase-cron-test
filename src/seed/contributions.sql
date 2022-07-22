@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-22T14:45:39.800Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-22T16:54:35.256Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2385,8 +2385,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5496, 52342167, 1, '2022-03-14T08:23:21', 'ieee8023', 'https://github.com/kakoni/awesome-healthcare/pull/66'),
 (11927, 10865436, 1, '2013-06-24T10:43:14', 'ajimix', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/29'),
 (11944, 293570349, 1, '2021-11-24T14:39:48', 'cpoissonnier', 'https://github.com/cocogitto/cocogitto/pull/147'),
-(311, 11981144, 4, '2022-07-14T10:17:01', 'Discostu36', 'https://github.com/languagetool-org/languagetool/pull/6913'),
 (3790, 176946161, 4, '2022-06-01T08:02:15', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/101'),
+(311, 11981144, 4, '2022-07-14T10:17:01', 'Discostu36', 'https://github.com/languagetool-org/languagetool/pull/6913'),
 (11813, 331962507, 1, '2021-01-22T16:23:18', 'JonnyBurger', 'https://github.com/remotion-dev/trailer/pull/1'),
 (326, 11981144, 4, '2016-09-19T06:45:59', 'kostyfisik', 'https://github.com/languagetool-org/languagetool/pull/550'),
 (37850, 121806807, 4, '2020-06-03T14:53:10', 'Neet-Nestor', 'https://github.com/pinterest/gestalt/pull/896'),
@@ -2934,8 +2934,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8505, 141334515, 2, '2019-10-16T03:57:56', 'lcb931023', 'https://github.com/kormyen/memex/pull/13'),
 (8506, 141334515, 1, '2019-12-23T10:59:51', 'TangentFoxy', 'https://github.com/kormyen/memex/pull/14'),
 (32854, 75027176, 4, '2017-12-14T18:23:42', 'skellock', 'https://github.com/infinitered/gluegun/pull/296'),
-(32855, 75027176, 3, '2020-04-30T02:59:36', 'cmckni3', 'https://github.com/infinitered/gluegun/pull/719'),
 (32856, 75027176, 4, '2022-01-24T21:23:00', 'jamonholmgren', 'https://github.com/infinitered/gluegun/pull/750'),
+(32855, 75027176, 3, '2020-04-30T02:59:36', 'cmckni3', 'https://github.com/infinitered/gluegun/pull/719'),
 (14161, 262943932, 4, '2022-03-13T00:10:16', 'misterjoshua', 'https://github.com/projen/projen/pull/1647'),
 (14157, 262943932, 4, '2022-06-01T14:10:49', 'Chriscbr', 'https://github.com/projen/projen/pull/1890'),
 (14160, 262943932, 4, '2022-06-06T14:59:02', 'iliapolo', 'https://github.com/projen/projen/pull/1912'),
@@ -6124,9 +6124,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4987, 37140605, 1, '2017-02-27T15:23:00', 'RhodesPeter', 'https://github.com/dwyl/learn-tdd/pull/83'),
 (4984, 37140605, 1, '2016-03-31T17:15:25', 'byr-gdp', 'https://github.com/dwyl/learn-tdd/pull/49'),
 (4978, 37140605, 1, '2015-09-19T22:00:22', 'Joshua-Ronan-Phillips', 'https://github.com/dwyl/learn-tdd/pull/29'),
+(4982, 37140605, 1, '2017-05-10T17:12:41', 'ZooeyMiller', 'https://github.com/dwyl/learn-tdd/pull/89'),
 (14325, 96111593, 4, '2021-02-24T08:54:03', 'svlandeg', 'https://github.com/huggingface/neuralcoref/pull/301'),
 (14324, 96111593, 1, '2020-09-07T13:27:18', 'noelslice', 'https://github.com/huggingface/neuralcoref/pull/276'),
-(4982, 37140605, 1, '2017-05-10T17:12:41', 'ZooeyMiller', 'https://github.com/dwyl/learn-tdd/pull/89'),
 (14323, 96111593, 1, '2019-10-24T07:33:12', 'janithwanni', 'https://github.com/huggingface/neuralcoref/pull/221'),
 (5181, 120595947, 1, '2018-07-03T06:38:29', 'vikrrrr', 'https://github.com/hello-rust/show/pull/42'),
 (5183, 120595947, 1, '2018-04-29T22:39:06', 'AlexanderThaller', 'https://github.com/hello-rust/show/pull/30'),
