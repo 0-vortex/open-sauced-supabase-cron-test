@@ -1,5 +1,5 @@
 --
--- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T01:05:58.670Z
+-- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T03:19:19.339Z
 -- COPY repos(id, user_id, issues, stars, watchers, subscribers, is_fork, created_at, updated_at, pushed_at, last_fetched_contributors_at, name, full_name, description, language, license, url) FROM 'repos.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
