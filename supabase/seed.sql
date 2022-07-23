@@ -1,5 +1,5 @@
 --
--- Data for Name: users_to_repos_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T20:45:45.174Z
+-- Data for Name: users_to_repos_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:12.971Z
 -- COPY users_to_repos_stars(id, user_id, repo_id, created_at) FROM 'users_to_repos_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1002,10 +1002,10 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (163051, 908380, 29420377, '2022-06-08T22:49:04.640219+00:00'),
 (445265, 16268467, 71583602, '2022-07-20T22:56:14.311876+00:00'),
 (445266, 7860023, 14862081, '2022-07-20T22:56:14.344515+00:00'),
-(163052, 6265396, 229753405, '2022-06-08T22:49:04.678965+00:00'),
 (445267, 23166349, 205724327, '2022-07-20T22:56:14.406302+00:00'),
 (163053, 1228996, 22731172, '2022-06-08T22:49:04.687299+00:00'),
 (163054, 908380, 212487543, '2022-06-08T22:49:04.857027+00:00'),
+(163052, 6265396, 229753405, '2022-06-08T22:49:04.678965+00:00'),
 (163055, 6265396, 301136030, '2022-06-08T22:49:04.911521+00:00'),
 (163056, 1228996, 45603512, '2022-06-08T22:49:04.926166+00:00'),
 (163057, 908380, 54685234, '2022-06-08T22:49:05.068755+00:00'),
@@ -1373,10 +1373,10 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (450708, 13868653, 246674913, '2022-07-21T19:17:53.1522+00:00'),
 (450709, 13868653, 201570219, '2022-07-21T19:17:53.327856+00:00'),
 (450710, 73789849, 189476904, '2022-07-21T19:17:53.39352+00:00'),
-(450711, 13868653, 263720853, '2022-07-21T19:17:53.481775+00:00'),
 (450712, 73789849, 197814629, '2022-07-21T19:17:53.55858+00:00'),
 (450713, 13868653, 47039255, '2022-07-21T19:17:53.649278+00:00'),
 (450714, 73789849, 411003249, '2022-07-21T19:17:53.762425+00:00'),
+(450711, 13868653, 263720853, '2022-07-21T19:17:53.481775+00:00'),
 (450715, 13868653, 178247472, '2022-07-21T19:17:53.837252+00:00'),
 (450716, 73789849, 220418983, '2022-07-21T19:17:53.917598+00:00'),
 (450717, 13868653, 170355508, '2022-07-21T19:17:53.985291+00:00'),
@@ -2286,8 +2286,6 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (148612, 3450257, 200731758, '2022-06-06T22:35:38.779338+00:00'),
 (378603, 59651629, 41718185, '2022-07-10T20:32:33.989532+00:00'),
 (148623, 3450257, 313722736, '2022-06-06T22:35:39.885045+00:00'),
-(148625, 3450257, 10893519, '2022-06-06T22:35:40.111615+00:00'),
-(378605, 59651629, 61426855, '2022-07-10T20:32:34.12541+00:00'),
 (148627, 3450257, 14096802, '2022-06-06T22:35:40.329303+00:00'),
 (148628, 3450257, 238972, '2022-06-06T22:35:40.797194+00:00'),
 (148630, 3450257, 4000038, '2022-06-06T22:35:41.000795+00:00'),
@@ -2344,6 +2342,7 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (148640, 3450257, 152975883, '2022-06-06T22:35:42.118415+00:00'),
 (451569, 54808964, 85077558, '2022-07-21T21:54:17.572772+00:00'),
 (451570, 54808964, 90916769, '2022-07-21T21:54:17.846603+00:00'),
+(148625, 3450257, 10893519, '2022-06-06T22:35:40.111615+00:00'),
 (148643, 3450257, 382449, '2022-06-06T22:35:42.355104+00:00'),
 (451571, 54808964, 237192224, '2022-07-21T21:54:18.124584+00:00'),
 (451572, 54808964, 7377936, '2022-07-21T21:54:18.667989+00:00'),
@@ -2496,6 +2495,7 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (449825, 24910512, 451517425, '2022-07-21T16:44:15.78802+00:00'),
 (452074, 1245615, 144513571, '2022-07-21T23:47:09.20942+00:00'),
 (452075, 36790617, 139910229, '2022-07-21T23:47:09.227932+00:00'),
+(378605, 59651629, 61426855, '2022-07-10T20:32:34.12541+00:00'),
 (449826, 22186029, 27045722, '2022-07-21T16:44:15.864027+00:00'),
 (452076, 20221408, 71583866, '2022-07-21T23:47:09.35498+00:00'),
 (452077, 1245615, 373319822, '2022-07-21T23:47:09.367518+00:00'),
@@ -5246,8 +5246,8 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (240239, 7406822, 116138602, '2022-06-19T23:09:20.180243+00:00'),
 (451083, 68414911, 399404698, '2022-07-21T20:11:13.66467+00:00'),
 (451651, 18557802, 420530610, '2022-07-21T22:26:26.222383+00:00'),
-(451652, 46659975, 189282896, '2022-07-21T22:26:26.464503+00:00'),
 (240242, 7406822, 294196827, '2022-06-19T23:09:20.526605+00:00'),
+(451652, 46659975, 189282896, '2022-07-21T22:26:26.464503+00:00'),
 (240244, 7406822, 345688823, '2022-06-19T23:09:20.693393+00:00'),
 (451662, 13966404, 330144776, '2022-07-21T22:26:27.403447+00:00'),
 (240246, 7406822, 332123031, '2022-06-19T23:09:20.856483+00:00'),
@@ -5972,6 +5972,7 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (423170, 88631894, 335819337, '2022-07-17T15:32:10.37151+00:00'),
 (447862, 52573981, 85077558, '2022-07-21T09:58:18.908241+00:00'),
 (447898, 52573981, 57939112, '2022-07-21T09:58:22.988219+00:00'),
+(447900, 52573981, 416065622, '2022-07-21T09:58:23.198998+00:00'),
 (447901, 577424, 191161313, '2022-07-21T09:58:23.417905+00:00'),
 (447902, 52573981, 412943525, '2022-07-21T09:58:23.427962+00:00'),
 (447903, 577424, 41817121, '2022-07-21T09:58:23.626491+00:00'),
@@ -6121,8 +6122,8 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (447917, 52573981, 90150788, '2022-07-21T09:58:25.137831+00:00'),
 (451200, 14126525, 407586301, '2022-07-21T20:45:58.230031+00:00'),
 (451201, 79809121, 419320923, '2022-07-21T20:45:58.34724+00:00'),
-(451202, 55068936, 348878695, '2022-07-21T20:45:58.355062+00:00'),
 (451203, 14126525, 169108858, '2022-07-21T20:45:58.451227+00:00'),
+(451202, 55068936, 348878695, '2022-07-21T20:45:58.355062+00:00'),
 (451204, 55068936, 130879558, '2022-07-21T20:45:58.625293+00:00'),
 (451205, 14126525, 114834469, '2022-07-21T20:45:58.71207+00:00'),
 (451206, 55068936, 441903012, '2022-07-21T20:45:58.832037+00:00'),
@@ -6176,8 +6177,8 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (224464, 49831545, 306449955, '2022-06-17T21:46:27.970642+00:00'),
 (452811, 5056251, 129206982, '2022-07-22T05:06:53.182227+00:00'),
 (452812, 46192266, 103633984, '2022-07-22T05:06:53.19556+00:00'),
-(224467, 49831545, 237553513, '2022-06-17T21:46:28.135241+00:00'),
 (452813, 5056251, 400851369, '2022-07-22T05:06:53.336259+00:00'),
+(224467, 49831545, 237553513, '2022-06-17T21:46:28.135241+00:00'),
 (452841, 5056251, 6498492, '2022-07-22T05:06:55.779649+00:00'),
 (452842, 5056251, 281975310, '2022-07-22T05:06:55.924353+00:00'),
 (452843, 46192266, 5625, '2022-07-22T05:06:55.940213+00:00'),
@@ -6423,7 +6424,6 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (451239, 10396286, 277911948, '2022-07-21T20:54:13.560546+00:00'),
 (451240, 15602986, 78568544, '2022-07-21T20:54:13.663702+00:00'),
 (451241, 75282221, 58604714, '2022-07-21T20:54:13.699545+00:00'),
-(447900, 52573981, 416065622, '2022-07-21T09:58:23.198998+00:00'),
 (451242, 10396286, 21796665, '2022-07-21T20:54:13.798663+00:00'),
 (451243, 15602986, 491539130, '2022-07-21T20:54:13.912975+00:00'),
 (451244, 75282221, 68394976, '2022-07-21T20:54:13.978497+00:00'),
@@ -7661,7 +7661,7 @@ INSERT INTO users_to_repos_stars(id, user_id, repo_id, created_at) VALUES
 (453137, 12461397, 4414698, '2022-07-22T05:54:25.772753+00:00'),
 (453138, 40757918, 93253246, '2022-07-22T05:54:25.931158+00:00');
 --
--- Data for Name: users_to_repos_votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T20:45:44.874Z
+-- Data for Name: users_to_repos_votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:12.407Z
 -- COPY users_to_repos_votes(id, user_id, repo_id, created_at) FROM 'users_to_repos_votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7694,7 +7694,7 @@ INSERT INTO users_to_repos_votes(id, user_id, repo_id, created_at) VALUES
 (62, 237133, 28457823, '2022-05-19T21:57:28.642877+00:00'),
 (76, 237133, 13491895, '2022-05-19T21:57:53.344964+00:00');
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T20:45:45.477Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:12.511Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8078,7 +8078,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (1795, 5, true, false, true, '2022-07-19T22:17:47.440039+00:00', 'jakobo'),
 (98709555, 1, true, false, true, '2022-07-17T21:48:53.421429+00:00', 'jusjones2284');
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T20:45:45.544Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:12.599Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8234,9 +8234,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (888, 49020217, 1, '2016-09-10T07:29:05', 'cartifon', 'https://github.com/petehunt/react-howto/pull/45'),
 (2539, 35955666, 4, '2018-04-07T20:07:44', 'anna-d', 'https://github.com/jlevy/the-art-of-command-line/pull/551'),
 (2500, 35955666, 1, '2015-06-28T17:12:47', 'niltonvasques', 'https://github.com/jlevy/the-art-of-command-line/pull/137'),
-(5664, 82729529, 4, '2017-04-19T16:56:03', 'saurabhkpatel', 'https://github.com/google/python-fire/pull/65'),
-(12304, 93619165, 2, '2021-04-29T01:54:41', 'moorereason', 'https://github.com/alecthomas/chroma/pull/479'),
 (5650, 82729529, 4, '2022-04-16T22:20:08', 'dbieber', 'https://github.com/google/python-fire/pull/390'),
+(5664, 82729529, 4, '2017-04-19T16:56:03', 'saurabhkpatel', 'https://github.com/google/python-fire/pull/65'),
+(5661, 82729529, 2, '2020-02-21T18:56:35', 'meshde', 'https://github.com/google/python-fire/pull/215'),
 (4223, 35866694, 4, '2022-06-09T13:19:31', 'KevLehman', 'https://github.com/RocketChat/Rocket.Chat/pull/25810'),
 (4232, 35866694, 4, '2022-03-02T05:32:05', 'renatobecker', 'https://github.com/RocketChat/Rocket.Chat/pull/24661'),
 (4229, 35866694, 4, '2022-06-01T01:50:13', 'd-gubert', 'https://github.com/RocketChat/Rocket.Chat/pull/25702'),
@@ -8244,7 +8244,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4236, 35866694, 4, '2021-10-19T02:05:58', 'Sing-Li', 'https://github.com/RocketChat/Rocket.Chat/pull/23497'),
 (4221, 35866694, 4, '2022-06-07T18:59:16', 'gabriellsh', 'https://github.com/RocketChat/Rocket.Chat/pull/25780'),
 (14344, 239281641, 1, '2022-05-31T08:59:37', 'vikaspotluri123', 'https://github.com/TryGhost/Dawn/pull/64'),
-(5659, 82729529, 1, '2017-08-28T19:13:24', 'ajomadlabs', 'https://github.com/google/python-fire/pull/92'),
 (24078, 149106859, 1, '2021-05-17T16:24:28', 'cshea15', 'https://github.com/microsoft/WhatTheHack/pull/242'),
 (24080, 149106859, 4, '2021-04-16T01:56:50', 'micya', 'https://github.com/microsoft/WhatTheHack/pull/208'),
 (4103, 182075630, 1, '2019-04-23T03:48:43', 'thewmh', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/1'),
@@ -8253,9 +8252,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24086, 149106859, 4, '2021-05-27T18:50:42', 'lastcoolnameleft', 'https://github.com/microsoft/WhatTheHack/pull/246'),
 (24071, 149106859, 2, '2021-04-20T21:46:33', 'asherif844', 'https://github.com/microsoft/WhatTheHack/pull/228'),
 (24074, 149106859, 1, '2022-03-24T18:46:37', 'jcbendernh', 'https://github.com/microsoft/WhatTheHack/pull/375'),
-(5661, 82729529, 2, '2020-02-21T18:56:35', 'meshde', 'https://github.com/google/python-fire/pull/215'),
+(5659, 82729529, 1, '2017-08-28T19:13:24', 'ajomadlabs', 'https://github.com/google/python-fire/pull/92'),
 (1226, 15720445, 3, '2017-09-19T17:07:43', 'philidem', 'https://github.com/marko-js/marko/pull/849'),
 (1256, 15720445, 3, '2015-07-01T03:17:14', 'aselvaraj', 'https://github.com/marko-js/marko/pull/97'),
+(12304, 93619165, 2, '2021-04-29T01:54:41', 'moorereason', 'https://github.com/alecthomas/chroma/pull/479'),
 (1232, 15720445, 4, '2018-06-21T17:40:45', 'austinkelleher', 'https://github.com/marko-js/marko/pull/1062'),
 (1242, 15720445, 3, '2017-05-08T15:41:13', 'tcrowe', 'https://github.com/marko-js/marko/pull/657'),
 (1248, 15720445, 4, '2017-10-19T01:17:18', 'patrick-steele-idem', 'https://github.com/marko-js/marko/pull/900'),
@@ -11563,7 +11563,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (38110, 55387233, 1, '2020-09-12T15:51:35', 'panckreous', 'https://github.com/conventional-changelog/standard-version/pull/657'),
 (38112, 55387233, 1, '2019-05-05T05:36:11', 'coreyfarrell', 'https://github.com/conventional-changelog/standard-version/pull/311'),
 (2680, 304120355, 1, '2021-05-12T22:04:28', 'Merciful12', 'https://github.com/nanostores/nanostores/pull/12'),
-(5672, 82729529, 1, '2019-09-08T01:27:43', 'geoffbacon', 'https://github.com/google/python-fire/pull/193'),
 (38069, 507268767, 1, '2022-06-30T20:37:28', 'frankiefab100', 'https://github.com/Evavic44/currencee/pull/7'),
 (5658, 293860197, 2, '2022-02-21T23:22:20', 'DalpatRathore', 'https://github.com/lowlighter/metrics/pull/903'),
 (8679, 293860197, 1, '2022-05-20T02:15:02', 'billpwchan', 'https://github.com/lowlighter/metrics/pull/1060'),
@@ -11575,7 +11574,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (38111, 55387233, 1, '2020-01-20T17:35:48', 'gamtiq', 'https://github.com/conventional-changelog/standard-version/pull/447'),
 (11384, 98698673, 4, '2022-06-14T07:47:22', 'bluebill1049', 'https://github.com/bluebill1049/react-simple-animate/pull/101'),
 (32884, 41381209, 1, '2016-02-29T19:36:46', 'rymc9384', 'https://github.com/seemethere/nba_py/pull/17'),
+(5672, 82729529, 1, '2019-09-08T01:27:43', 'geoffbacon', 'https://github.com/google/python-fire/pull/193'),
 (5639, 293860197, 1, '2021-04-16T10:05:23', '0xflotus', 'https://github.com/lowlighter/metrics/pull/235'),
+(5669, 82729529, 1, '2019-01-03T19:23:00', 'floscha', 'https://github.com/google/python-fire/pull/161'),
+(5673, 82729529, 1, '2018-11-30T21:30:47', 'jamesgeorge007', 'https://github.com/google/python-fire/pull/147'),
 (5643, 293860197, 4, '2021-10-06T21:39:45', 'spenserblack', 'https://github.com/lowlighter/metrics/pull/558'),
 (5648, 293860197, 2, '2022-05-10T03:04:19', 'renbaoshuo', 'https://github.com/lowlighter/metrics/pull/1032'),
 (5640, 293860197, 2, '2021-08-18T11:34:30', 'ArdaGurcan', 'https://github.com/lowlighter/metrics/pull/480'),
@@ -11594,8 +11596,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2996, 14747598, 3, '2014-09-30T02:20:57', 'manuquentin', 'https://github.com/typicode/json-server/pull/27'),
 (11387, 98698673, 2, '2019-10-21T20:35:11', 'blyszcz', 'https://github.com/bluebill1049/react-simple-animate/pull/66'),
 (11390, 98698673, 1, '2018-01-11T01:23:53', 'willmcpo', 'https://github.com/bluebill1049/react-simple-animate/pull/32'),
-(5669, 82729529, 1, '2019-01-03T19:23:00', 'floscha', 'https://github.com/google/python-fire/pull/161'),
-(5673, 82729529, 1, '2018-11-30T21:30:47', 'jamesgeorge007', 'https://github.com/google/python-fire/pull/147'),
 (4244, 778828, 2, '2012-01-24T14:41:17', 'haf', 'https://github.com/MassTransit/MassTransit/pull/60'),
 (4262, 778828, 4, '2022-05-26T13:15:01', 'phatboyg', 'https://github.com/MassTransit/MassTransit/pull/3387'),
 (4251, 778828, 4, '2020-04-23T12:06:27', 'alexeyzimarev', 'https://github.com/MassTransit/MassTransit/pull/1832'),
@@ -13130,6 +13130,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2892, 97559842, 1, '2020-06-05T00:34:20', 'mmiller42', 'https://github.com/bvaughn/react-error-boundary/pull/56'),
 (2883, 97559842, 1, '2020-06-24T06:44:05', 'formatlos', 'https://github.com/bvaughn/react-error-boundary/pull/58'),
 (32942, 22662346, 1, '2020-12-29T17:03:12', 'kmlrj', 'https://github.com/nicolasblanco/rails_param/pull/60'),
+(5670, 82729529, 1, '2017-03-23T18:30:40', 'Jackevansevo', 'https://github.com/google/python-fire/pull/31'),
 (22344, 25315643, 1, '2016-01-13T19:39:36', 'khamidou', 'https://github.com/nylas/nylas-mail/pull/998'),
 (2909, 97559842, 1, '2020-09-12T13:26:24', 'joealden', 'https://github.com/bvaughn/react-error-boundary/pull/69'),
 (12228, 124910572, 4, '2019-02-20T15:29:01', 'ayir', 'https://github.com/mozilla/bugbug/pull/188'),
@@ -13150,7 +13151,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32943, 22662346, 1, '2019-12-27T10:34:37', 'viveksoundrapandi', 'https://github.com/nicolasblanco/rails_param/pull/58'),
 (32930, 22662346, 1, '2016-11-03T21:56:26', 'vladucu', 'https://github.com/nicolasblanco/rails_param/pull/26'),
 (5671, 82729529, 1, '2017-03-29T11:27:08', 'jorrinpollard', 'https://github.com/google/python-fire/pull/44'),
-(5670, 82729529, 1, '2017-03-23T18:30:40', 'Jackevansevo', 'https://github.com/google/python-fire/pull/31'),
 (12112, 344697559, 1, '2021-12-21T23:44:04', 'fcronty', 'https://github.com/nalmadi/EMIP-Toolkit/pull/56'),
 (5289, 326460518, 1, '2022-04-11T18:16:30', 'DerTee', 'https://github.com/ratfactor/ziglings/pull/94'),
 (5296, 326460518, 1, '2021-02-14T02:59:18', 'Ivan-Velickovic', 'https://github.com/ratfactor/ziglings/pull/13'),
@@ -14466,6 +14466,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (40249, 22485114, 2, '2021-09-22T16:02:35', 'radeksimko', 'https://github.com/hashicorp/hcl/pull/488'),
 (11385, 98698673, 1, '2019-07-09T21:31:20', 'marcin-piela', 'https://github.com/bluebill1049/react-simple-animate/pull/53'),
 (6044, 277057483, 2, '2021-04-04T01:26:08', 'martbock', 'https://github.com/apparition47/MailTrackerBlocker/pull/100'),
+(5662, 82729529, 1, '2018-10-05T18:29:55', 'alexshadley', 'https://github.com/google/python-fire/pull/141'),
 (6046, 277057483, 1, '2021-02-17T12:08:33', 'grishka', 'https://github.com/apparition47/MailTrackerBlocker/pull/13'),
 (5452, 98789146, 4, '2019-06-05T18:59:29', 'Rowno', 'https://github.com/segmentio/evergreen/pull/572'),
 (5805, 105412971, 2, '2019-05-31T13:07:10', 'Stanko', 'https://github.com/stereobooster/react-snap/pull/384'),
@@ -14501,7 +14502,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (40246, 22485114, 4, '2022-06-22T17:28:31', 'apparentlymart', 'https://github.com/hashicorp/hcl/pull/539'),
 (40251, 22485114, 4, '2016-09-02T16:48:36', 'jen20', 'https://github.com/hashicorp/hcl/pull/147'),
 (3948, 274165785, 1, '2020-07-05T16:00:36', 'obinnaakaolisa', 'https://github.com/bradtraversy/ui_components/pull/2'),
-(5662, 82729529, 1, '2018-10-05T18:29:55', 'alexshadley', 'https://github.com/google/python-fire/pull/141'),
 (3772, 144873815, 1, '2019-01-03T08:32:44', 'kyh', 'https://github.com/prisma/prisma-examples/pull/353'),
 (5699, 161588836, 2, '2020-12-11T02:36:17', 'geckoR42', 'https://github.com/microsoft/PowerPlatformConnectors/pull/604'),
 (5703, 161588836, 4, '2022-02-07T21:25:31', 'Laskewitz', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1347'),
@@ -14584,11 +14584,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2247, 43623432, 1, '2017-08-18T10:05:05', 'Fedjmike', 'https://github.com/qw3rtman/git-fire/pull/25'),
 (2698, 102371998, 1, '2018-09-25T18:34:56', 'potato4d', 'https://github.com/nuxt-community/auth-module/pull/246'),
 (11415, 364640714, 4, '2022-03-25T02:44:32', 'norihiro', 'https://github.com/norihiro/obs-color-monitor/pull/51'),
+(5666, 82729529, 1, '2017-08-21T15:37:31', 'jaesbit', 'https://github.com/google/python-fire/pull/87'),
 (3896, 123625732, 4, '2022-05-31T18:24:29', 'awentzel', 'https://github.com/microsoft/fast/pull/6040'),
 (3907, 123625732, 4, '2019-08-09T01:22:58', 'nalogiudice', 'https://github.com/microsoft/fast/pull/2108'),
 (3898, 123625732, 4, '2021-09-27T15:30:11', 'marjonlynch', 'https://github.com/microsoft/fast/pull/5223'),
 (11663, 69193081, 2, '2018-10-30T17:02:52', 'Sagar2366', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/239'),
-(5666, 82729529, 1, '2017-08-21T15:37:31', 'jaesbit', 'https://github.com/google/python-fire/pull/87'),
 (11660, 69193081, 2, '2019-04-28T22:38:44', 'usaspiff', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/308'),
 (11658, 69193081, 2, '2018-05-30T16:12:28', 'karuna24s', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/143'),
 (11391, 42172184, 4, '2021-03-12T10:34:18', 'logicsandeep', 'https://github.com/servinglynk/hslynk-open-source/pull/603'),
@@ -16096,9 +16096,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2179, 4578898, 4, '2014-02-03T06:43:21', 'colegleason', 'https://github.com/HabitRPG/habitica/pull/2716'),
 (12245, 54228300, 4, '2020-07-22T13:33:10', 'danielhertenstein', 'https://github.com/mozilla/fathom/pull/258'),
 (13038, 75642389, 4, '2018-08-28T17:55:27', 'lynnmercier', 'https://github.com/material-components/material-components-web/pull/3446'),
+(13044, 75642389, 4, '2021-06-15T18:24:20', 'crisbeto', 'https://github.com/material-components/material-components-web/pull/7181'),
 (13037, 75642389, 4, '2017-10-13T23:23:20', 'yeelan0319', 'https://github.com/material-components/material-components-web/pull/1424'),
 (13039, 75642389, 4, '2020-01-09T18:46:59', 'amsheehan', 'https://github.com/material-components/material-components-web/pull/5444'),
-(13044, 75642389, 4, '2021-06-15T18:24:20', 'crisbeto', 'https://github.com/material-components/material-components-web/pull/7181'),
 (13040, 75642389, 4, '2021-01-26T22:15:05', 'EstebanG23', 'https://github.com/material-components/material-components-web/pull/6787'),
 (13041, 75642389, 3, '2020-09-08T19:07:02', 'e111077', 'https://github.com/material-components/material-components-web/pull/6453'),
 (13043, 75642389, 4, '2019-12-09T16:18:00', 'bonniezhou', 'https://github.com/material-components/material-components-web/pull/5291'),
@@ -16136,12 +16136,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3796, 248032165, 1, '2020-04-23T18:45:16', 'kratostaine', 'https://github.com/spring-projects/spring-authorization-server/pull/61'),
 (3799, 248032165, 1, '2020-05-17T12:51:08', 'krisztian-toth', 'https://github.com/spring-projects/spring-authorization-server/pull/71'),
 (3798, 248032165, 1, '2021-09-21T19:45:05', 'kiratkumar47', 'https://github.com/spring-projects/spring-authorization-server/pull/421'),
-(5878, 21413198, 1, '2016-12-06T18:30:33', 'wokalski', 'https://github.com/immutable-js/immutable-js/pull/878'),
-(5876, 21413198, 2, '2018-10-27T00:27:07', 'conartist6', 'https://github.com/immutable-js/immutable-js/pull/1619'),
-(1692, 378070841, 4, '2021-09-28T17:26:13', 'idoLumigo', 'https://github.com/ngneat/elf/pull/8'),
 (5660, 82729529, 3, '2017-04-11T17:44:52', 'jtratner', 'https://github.com/google/python-fire/pull/54'),
 (5675, 82729529, 3, '2017-04-11T17:30:47', 'nealmcb', 'https://github.com/google/python-fire/pull/58'),
+(5878, 21413198, 1, '2016-12-06T18:30:33', 'wokalski', 'https://github.com/immutable-js/immutable-js/pull/878'),
+(5876, 21413198, 2, '2018-10-27T00:27:07', 'conartist6', 'https://github.com/immutable-js/immutable-js/pull/1619'),
+(5665, 82729529, 1, '2018-12-14T06:03:10', 'kinow', 'https://github.com/google/python-fire/pull/154'),
+(5663, 82729529, 1, '2017-07-17T20:38:19', 'CJ-Wright', 'https://github.com/google/python-fire/pull/82'),
 (5668, 82729529, 1, '2022-04-16T21:21:06', 'beasteers', 'https://github.com/google/python-fire/pull/345'),
+(1692, 378070841, 4, '2021-09-28T17:26:13', 'idoLumigo', 'https://github.com/ngneat/elf/pull/8'),
 (8711, 289834406, 1, '2021-04-17T00:56:53', 'rtyler', 'https://github.com/bartdegoede/python-searchengine/pull/9'),
 (8749, 132732601, 4, '2022-05-03T13:24:57', 'balchua', 'https://github.com/canonical/microk8s/pull/3115'),
 (5931, 187335810, 1, '2019-11-05T08:04:46', 'harrywhite4', 'https://github.com/jesseduffield/lazydocker/pull/182'),
@@ -16151,6 +16153,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8615, 128265535, 4, '2019-10-10T12:23:46', 'jmsully', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/778'),
 (1480, 137104789, 2, '2020-02-21T19:46:41', 'Blinke', 'https://github.com/jamesmh/coravel/pull/136'),
 (1491, 137104789, 1, '2020-04-30T18:55:12', 'Ezergil', 'https://github.com/jamesmh/coravel/pull/161'),
+(5674, 82729529, 1, '2018-05-21T20:41:05', 'Ellmen', 'https://github.com/google/python-fire/pull/122'),
 (8751, 132732601, 4, '2022-07-18T08:47:55', 'neoaggelos', 'https://github.com/canonical/microk8s/pull/3326'),
 (8750, 132732601, 2, '2018-11-26T22:27:51', 'tvansteenburgh', 'https://github.com/canonical/microk8s/pull/212'),
 (8745, 132732601, 4, '2021-10-14T03:50:27', 'knkski', 'https://github.com/canonical/microk8s/pull/2655'),
@@ -16174,13 +16177,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5920, 187335810, 1, '2019-07-01T23:22:15', 'icdevin', 'https://github.com/jesseduffield/lazydocker/pull/54'),
 (5926, 187335810, 1, '2022-01-09T07:11:43', 'dezren39', 'https://github.com/jesseduffield/lazydocker/pull/291'),
 (5922, 187335810, 1, '2021-12-02T13:57:00', 'camflan', 'https://github.com/jesseduffield/lazydocker/pull/278'),
-(5665, 82729529, 1, '2018-12-14T06:03:10', 'kinow', 'https://github.com/google/python-fire/pull/154'),
 (8635, 128265535, 4, '2022-07-01T07:18:37', 'Matt-Jns', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1812'),
 (8618, 128265535, 4, '2019-02-20T18:34:11', 'trironkk', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/385'),
 (8617, 128265535, 4, '2019-04-26T11:47:53', 'serathius', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/529'),
 (8621, 128265535, 4, '2018-07-09T19:50:06', 'deustis', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/86'),
-(5663, 82729529, 1, '2017-07-17T20:38:19', 'CJ-Wright', 'https://github.com/google/python-fire/pull/82'),
-(5674, 82729529, 1, '2018-05-21T20:41:05', 'Ellmen', 'https://github.com/google/python-fire/pull/122'),
 (1558, 75505125, 4, '2022-07-14T10:52:39', 'enisn', 'https://github.com/abpframework/abp/pull/13311'),
 (8626, 128265535, 4, '2021-12-14T18:20:14', 'gibbleyg', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1529'),
 (8640, 128265535, 4, '2019-09-05T10:56:36', 'KadharNiminen', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/737'),
@@ -16380,6 +16380,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (312, 276976140, 1, '2020-09-07T15:23:49', 'jesuswasrasta', 'https://github.com/mergestat/mergestat/pull/53'),
 (315, 276976140, 1, '2020-07-22T22:24:23', 'dloss', 'https://github.com/mergestat/mergestat/pull/29'),
 (334, 276976140, 1, '2020-07-06T22:28:47', 'michiel', 'https://github.com/mergestat/mergestat/pull/7'),
+(5667, 82729529, 2, '2017-03-20T21:41:13', 'jgarst', 'https://github.com/google/python-fire/pull/18'),
 (24501, 93611204, 4, '2022-06-08T10:27:02', 'calvin-lau-sig7', 'https://github.com/alphagov/govuk-design-system/pull/2210'),
 (24507, 93611204, 4, '2022-05-31T10:49:29', 'vanitabarrett', 'https://github.com/alphagov/govuk-design-system/pull/2207'),
 (24508, 93611204, 4, '2022-05-19T08:28:38', '36degrees', 'https://github.com/alphagov/govuk-design-system/pull/2161'),
@@ -16413,7 +16414,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24536, 408726855, 1, '2022-01-05T03:02:33', 'je0ngyun', 'https://github.com/junh0328/prepare_frontend_interview/pull/9'),
 (24537, 408726855, 4, '2021-10-20T01:32:43', 'leemember', 'https://github.com/junh0328/prepare_frontend_interview/pull/5'),
 (24538, 408726855, 1, '2022-04-09T14:43:44', 'Jetty2020', 'https://github.com/junh0328/prepare_frontend_interview/pull/11'),
-(5667, 82729529, 2, '2017-03-20T21:41:13', 'jgarst', 'https://github.com/google/python-fire/pull/18'),
 (24542, 711976, 4, '2022-06-22T18:11:39', 'gr2m', 'https://github.com/octokit/octokit.js/pull/2231'),
 (24539, 711976, 4, '2022-07-07T21:16:14', 'wolfy1339', 'https://github.com/octokit/octokit.js/pull/2244'),
 (24545, 711976, 3, '2022-07-11T19:25:29', 'nickfloyd', 'https://github.com/octokit/octokit.js/pull/2252'),
@@ -17409,7 +17409,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2492, 35955666, 1, '2016-01-07T15:45:22', 'lsrom', 'https://github.com/jlevy/the-art-of-command-line/pull/334'),
 (2510, 35955666, 4, '2016-08-20T22:35:29', 'dmytro', 'https://github.com/jlevy/the-art-of-command-line/pull/445');
 --
--- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T20:45:45.891Z
+-- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:13.203Z
 -- COPY repos(id, user_id, issues, stars, watchers, subscribers, is_fork, created_at, updated_at, pushed_at, last_fetched_contributors_at, name, full_name, description, language, license, url) FROM 'repos.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -17492,6 +17492,7 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (68646997, 1093738, 22, 1307, 1307, 18, false, '2016-09-19T21:09:47', '2022-07-16T16:16:49', '2022-07-20T05:10:38', '2022-07-18T22:50:36.138', 'flipping', 'davidkpiano/flipping', 'Flipping awesome animations.', 'TypeScript', 'MIT', null),
 (58753834, 2211648, 25, 9104, 9104, 185, false, '2016-05-13T15:57:42', '2022-07-21T18:16:16', '2022-05-15T15:12:45', '2022-07-19T21:09:35.161', 'AriaNg', 'mayswind/AriaNg', 'AriaNg, a modern web frontend making aria2 easier to use.', 'JavaScript', 'MIT', 'http://ariang.mayswind.net'),
 (342028554, 7064956, 2, 187, 187, 4, false, '2021-02-24T20:35:22', '2022-06-16T15:35:57', '2021-11-02T21:22:39', '2022-07-21T23:32:10.913', 'vite-plugin-vue-gql', 'wheatjs/vite-plugin-vue-gql', '⚡ GraphQL Tags for your Vue SFC ⚡', 'TypeScript', 'MIT', ''),
+(82729529, 1342004, 129, 22644, 22644, 373, false, '2017-02-21T21:35:07', '2022-07-03T08:44:10', '2022-07-03T08:25:50', '2022-07-23T21:15:28.587', 'python-fire', 'google/python-fire', 'Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.', 'Python', 'NOASSERTION', ''),
 (41029539, 33317542, 7, 344, 344, 23, false, '2015-08-19T11:13:32', '2022-06-10T09:15:04', '2021-12-26T14:51:20', '2022-07-20T18:42:18.862', 'Finance-Python', 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 'Python', 'MIT', ''),
 (375406891, 38381061, 0, 72, 72, 1, false, '2021-06-09T15:38:45', '2022-06-10T18:03:44', '2021-09-15T13:06:39', '2022-07-21T23:32:10.913', 'DSA_Uplift_Project', 'YashThakare/DSA_Uplift_Project', null, 'C++', 'UNLICENSED', null),
 (13601190, 4125332, 294, 5331, 5331, 161, false, '2013-10-15T20:22:20', '2022-06-24T13:15:39', '2022-05-16T12:08:46', '2022-07-19T11:58:54.836', 'cockpit', 'agentejo/cockpit', 'Add content management functionality to any site - plug & play / headless / api-first CMS', 'JavaScript', 'MIT', 'http://getcockpit.com'),
@@ -17504,7 +17505,6 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (23974149, 2775751, 803, 38692, 38692, 1015, false, '2014-09-12T19:35:38', '2022-06-17T08:42:02', '2022-06-01T15:22:36', '2022-07-21T23:32:10.913', 'materialize', 'Dogfalo/materialize', 'Materialize, a CSS Framework based on Material Design', 'JavaScript', 'MIT', 'https://materializecss.com'),
 (1234714, 1481354, 26, 20470, 20470, 679, false, '2011-01-09T08:43:57', '2022-07-17T14:14:52', '2022-07-17T08:50:10', '2022-07-21T22:56:27.368', 'elixir', 'elixir-lang/elixir', 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications', 'Elixir', 'Apache-2.0', 'https://elixir-lang.org/'),
 (204246124, 7260106, 0, 6, 6, 2, false, '2019-08-25T04:32:21', '2021-03-03T19:14:16', '2021-05-16T07:12:01', '2022-07-21T23:02:45.248', 'Umbraco-Docker', 'skywalkerisnull/Umbraco-Docker', 'Umbraco-Docker', 'PowerShell', 'MIT', null),
-(82729529, 1342004, 129, 22644, 22644, 373, false, '2017-02-21T21:35:07', '2022-07-03T08:44:10', '2022-07-03T08:25:50', '2022-07-18T21:15:13.971', 'python-fire', 'google/python-fire', 'Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.', 'Python', 'NOASSERTION', ''),
 (141862899, 20031132, 8, 11, 11, 2, false, '2018-07-22T03:28:05', '2020-11-04T21:20:22', '2019-02-08T16:32:20', '2022-07-20T07:49:29.961', 'GraphQL-Middleware-JWTAUTH-Authorization', 'AmitXShukla/GraphQL-Middleware-JWTAUTH-Authorization', 'A Complete Code for JWT Authentication/Role Based Authorization in GraphQL', 'HTML', 'MIT', 'http://alivetracking.com'),
 (439057606, 13520633, 5, 1009, 1009, 8, false, '2021-12-16T16:31:57', '2022-07-17T04:20:54', '2022-03-07T12:53:36', '2022-07-19T18:54:40.052', 'ambiguous-png-packer', 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software [NOW PATCHED]', 'Python', 'MIT', ''),
 (471623567, 99716151, 11, 142, 142, 16, false, '2022-03-19T07:29:14', '2022-06-28T05:22:25', '2022-03-31T18:47:09', '2022-07-20T10:27:15.404', 'neo', 'breakthecode2/neo', 'A plugin that enables usage of cheatcodes in Break The Code 2', 'SCSS', 'Unlicense', ''),
@@ -23443,6 +23443,7 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (415704726, 90751049, 0, 1, 1, 1, false, '2021-10-10T21:30:09', '2021-10-12T16:14:44', '2021-10-12T16:14:41', '1970-01-01T00:00:00', '30-Days-of-Google-Cloud-Leaderboard', 'DSC-SIES-GST/30-Days-of-Google-Cloud-Leaderboard', 'This project is a leaderboard for students participating in the 30 Days of Google Cloud program. ', 'HTML', 'MIT', ''),
 (197109184, 50512971, 0, 2, 2, 1, false, '2019-07-16T02:53:53', '2021-09-26T10:32:35', '2019-07-17T13:58:44', '1970-01-01T00:00:00', 'lightsaber', 'qiaproduction/lightsaber', 'EFEK ANIMASI MENU JAVASCRIPT  Star Wars Lightsaber', 'JavaScript', 'UNLICENSED', ''),
 (85031442, 1390709, 24, 30220, 30220, 639, false, '2017-03-15T05:09:01', '2022-07-22T05:39:29', '2022-07-19T21:36:32', '2022-07-02T10:55:35.91', 'hiring-without-whiteboards', 'poteto/hiring-without-whiteboards', '⭐️  Companies that don''t have a broken hiring process', 'JavaScript', 'MIT', ''),
+(31629751, 8908513, 2651, 39576, 39576, 579, false, '2015-03-04T00:46:28', '2022-07-22T03:36:33', '2022-07-22T03:52:23', '1970-01-01T00:00:00', 'cypress', 'cypress-io/cypress', 'Fast, easy and reliable testing for anything that runs in a browser.', 'JavaScript', 'MIT', 'https://cypress.io'),
 (104096218, 56974, 60, 129, 129, 17, false, '2017-09-19T15:56:59', '2022-05-29T13:30:23', '2022-06-18T06:22:08', '1970-01-01T00:00:00', 'xacc', 'eclipse/xacc', 'XACC - eXtreme-scale Accelerator programming framework', 'C++', 'BSD-3-Clause', 'https://xacc.readthedocs.io'),
 (73648678, 65030610, 499, 19381, 19381, 349, false, '2016-11-13T23:02:13', '2022-07-21T17:21:36', '2022-07-21T18:51:55', '1970-01-01T00:00:00', 'forem', 'forem/forem', 'For empowering community 🌱', 'Ruby', 'AGPL-3.0', 'https://forem.com'),
 (4793392, 735289, 54, 24052, 24052, 1065, false, '2012-06-26T09:52:15', '2022-07-21T23:06:26', '2022-07-20T18:56:55', '1970-01-01T00:00:00', 'sqlmap', 'sqlmapproject/sqlmap', 'Automatic SQL injection and database takeover tool', 'Python', 'NOASSERTION', 'http://sqlmap.org'),
@@ -23469,7 +23470,6 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (155204428, 26312042, 0, 1, 1, 2, false, '2018-10-29T12:00:11', '2019-02-06T21:11:19', '2019-02-06T21:11:45', '1970-01-01T00:00:00', '2019-DestinationDeepSpace', 'FIRST-Team-6071/2019-DestinationDeepSpace', null, 'Java', 'UNLICENSED', null),
 (165319124, 36414231, 7, 210, 210, 12, false, '2019-01-11T22:20:20', '2022-06-25T13:20:30', '2020-10-03T13:58:26', '1970-01-01T00:00:00', 'Flash-CHIP', 'Thore-Krug/Flash-CHIP', 'Ready to use Flash environment for the C.H.I.P Single Board Computer', 'Shell', 'UNLICENSED', ''),
 (264323169, 6667880, 30, 758, 758, 42, false, '2020-05-15T23:52:02', '2022-06-22T14:15:10', '2020-07-27T16:57:58', '1970-01-01T00:00:00', 'graduation', 'education/graduation', '$ git remote <graduation> yearbook ', 'JavaScript', 'UNLICENSED', 'https://education.github.com/graduation/'),
-(31629751, 8908513, 2651, 39576, 39576, 579, false, '2015-03-04T00:46:28', '2022-07-22T03:36:33', '2022-07-22T03:52:23', '1970-01-01T00:00:00', 'cypress', 'cypress-io/cypress', 'Fast, easy and reliable testing for anything that runs in a browser.', 'JavaScript', 'MIT', 'https://cypress.io'),
 (41093724, 892318, 41, 1157, 1157, 31, false, '2015-08-20T12:11:42', '2022-07-15T08:39:26', '2022-07-06T18:59:52', '1970-01-01T00:00:00', 'ngx-moment', 'urish/ngx-moment', 'moment.js pipes for Angular', 'TypeScript', 'MIT', ''),
 (321873230, 14985020, 20, 1854, 1854, 62, false, '2020-12-16T04:58:30', '2022-07-21T14:39:46', '2022-07-20T03:54:56', '1970-01-01T00:00:00', 'virtual-event-starter-kit', 'vercel/virtual-event-starter-kit', 'Open source demo that Next.js developers can clone, deploy, and fully customize for events.', 'TypeScript', 'Apache-2.0', 'https://demo.vercel.events'),
 (277485800, 51965010, 48, 2109, 2109, 55, false, '2020-07-06T08:29:43', '2022-07-21T19:11:27', '2022-07-20T14:25:04', '1970-01-01T00:00:00', 'CompreFace', 'exadel-inc/CompreFace', 'Leading free and open-source face recognition system', 'Java', 'Apache-2.0', 'https://exadel.com/solutions/compreface/'),
