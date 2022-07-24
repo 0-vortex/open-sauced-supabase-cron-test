@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T01:05:49.687Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T03:20:47.059Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -322,11 +322,13 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (59500999, 1, true, false, true, '2022-06-21T13:59:54.017521+00:00', 'sum1275'),
 (76396335, 4, true, false, true, '2022-06-18T12:37:45.404454+00:00', 'arth2002'),
 (15822772, 1, true, false, true, '2022-06-21T03:02:43.150763+00:00', 'notmarkmiranda'),
+(31725457, 2, true, false, true, '2022-07-12T09:55:32.359879+00:00', 'JoshuaPoddoku'),
 (11527621, 2, true, false, true, '2022-06-28T20:36:43.060184+00:00', 'EstebanDalelR'),
 (3898642, 6, true, true, true, '2022-06-27T10:04:09.625204+00:00', 'TianZong48'),
 (1551031, 4, true, false, true, '2022-07-19T16:49:52.161363+00:00', 'thegillis'),
 (126441, 1, true, false, true, '2022-07-19T04:46:45.54418+00:00', 'travi'),
 (2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle'),
+(3957722, 4, true, false, true, '2022-07-11T03:07:52.818995+00:00', 'renjujv'),
 (76237868, 1, true, false, true, '2022-07-08T11:28:28.574195+00:00', 'ajaygitt'),
 (5056251, 6, true, false, true, '2022-07-01T21:23:05.468675+00:00', 'beardage'),
 (54046179, 1, true, false, true, '2022-07-22T19:01:07.488672+00:00', 'Cerchie'),
@@ -370,10 +372,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (73789849, 1, true, false, true, '2022-06-22T19:03:38.668197+00:00', 'haleyjung'),
 (7938258, 1, true, false, true, '2022-06-25T21:54:27.161722+00:00', 'TsatsuAmable'),
 (62059002, 2, true, false, true, '2022-07-21T19:44:04.455932+00:00', 'Ruth-ikegah'),
-(31725457, 2, true, false, true, '2022-07-12T09:55:32.359879+00:00', 'JoshuaPoddoku'),
 (2555182, 2, true, false, true, '2022-07-18T19:38:52.753269+00:00', 'theednaffattack'),
 (80476005, 1, true, false, true, '2022-07-18T18:53:54.531996+00:00', 'ricci2511'),
-(3957722, 4, true, false, true, '2022-07-11T03:07:52.818995+00:00', 'renjujv'),
 (58410019, 1, true, false, true, '2022-07-03T15:52:29.968032+00:00', 'AlphaHot'),
 (9616739, 1, true, false, true, '2022-07-02T03:51:26.666802+00:00', 'Lckythr33'),
 (54788134, 3, true, false, true, '2022-07-02T03:51:27.965967+00:00', 'Clue355'),
