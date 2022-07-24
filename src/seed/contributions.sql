@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T08:47:01.844Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T10:46:03.857Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -622,8 +622,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5996, 53261245, 1, '2022-05-19T01:14:09', 'poohcom1', 'https://github.com/ryohey/signal/pull/173'),
 (6004, 53261245, 1, '2021-07-28T06:10:13', 'gitter-badger', 'https://github.com/ryohey/signal/pull/89'),
 (39699, 484251804, 1, '2022-05-20T04:13:16', 'SuperSupeng', 'https://github.com/apache/incubator-devlake-website/pull/30'),
-(39698, 484251804, 1, '2022-05-17T10:13:16', 'WillemJiang', 'https://github.com/apache/incubator-devlake-website/pull/12'),
 (2754, 13825712, 4, '2022-06-02T12:43:49', 'artem-dudarev', 'https://github.com/VirtoCommerce/vc-platform/pull/2507'),
+(39698, 484251804, 1, '2022-05-17T10:13:16', 'WillemJiang', 'https://github.com/apache/incubator-devlake-website/pull/12'),
 (39700, 484251804, 2, '2022-07-11T09:47:44', 'likyh', 'https://github.com/apache/incubator-devlake-website/pull/111'),
 (933, 91851756, 2, '2018-03-14T17:23:55', 'vdemeester', 'https://github.com/docker/docker-ce/pull/461'),
 (934, 91851756, 3, '2017-06-13T04:01:20', 'mavenugo', 'https://github.com/docker/docker-ce/pull/66'),
@@ -2774,8 +2774,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13525, 2798894, 1, '2014-07-31T21:20:57', 'gaetansenn', 'https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/9'),
 (13526, 2798894, 1, '2012-10-04T18:36:17', 'peutetre', 'https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/4'),
 (3422, 29736746, 1, '2017-04-18T08:56:56', 'bryant1410', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/12'),
-(8776, 196778665, 1, '2021-04-26T15:20:29', 'George-lewis', 'https://github.com/elibroftw/music-caster/pull/25'),
 (3423, 29736746, 1, '2015-05-20T09:43:29', 'RyanGladstone', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/3'),
+(8776, 196778665, 1, '2021-04-26T15:20:29', 'George-lewis', 'https://github.com/elibroftw/music-caster/pull/25'),
 (3427, 29736746, 1, '2016-12-14T02:43:58', 'msabramo', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/11'),
 (14146, 400851369, 1, '2021-10-30T17:09:00', 'clason', 'https://github.com/lewis6991/impatient.nvim/pull/37'),
 (14148, 400851369, 1, '2021-08-31T07:33:26', 'yujinyuz', 'https://github.com/lewis6991/impatient.nvim/pull/10'),
@@ -3888,8 +3888,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2193, 4578898, 4, '2014-01-25T01:36:22', 'djuretic', 'https://github.com/HabitRPG/habitica/pull/2553'),
 (2186, 4578898, 4, '2013-06-03T23:16:15', 'StanLindsey', 'https://github.com/HabitRPG/habitica/pull/1128'),
 (2199, 4578898, 4, '2016-08-19T22:40:51', 'luveluen', 'https://github.com/HabitRPG/habitica/pull/7913'),
-(2191, 4578898, 4, '2019-05-24T19:07:21', 'Yutsuten', 'https://github.com/HabitRPG/habitica/pull/11165'),
 (2181, 4578898, 4, '2014-02-06T15:36:31', 'marcelosizer', 'https://github.com/HabitRPG/habitica/pull/2762'),
+(2191, 4578898, 4, '2019-05-24T19:07:21', 'Yutsuten', 'https://github.com/HabitRPG/habitica/pull/11165'),
 (2187, 4578898, 4, '2013-11-08T20:40:45', 'Shaners', 'https://github.com/HabitRPG/habitica/pull/1765'),
 (2197, 4578898, 4, '2013-11-23T07:01:15', 'snicker', 'https://github.com/HabitRPG/habitica/pull/1892'),
 (2192, 4578898, 4, '2014-05-07T21:19:00', 'benmanley', 'https://github.com/HabitRPG/habitica/pull/3402'),
@@ -5141,8 +5141,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2705, 102371998, 4, '2020-04-16T18:00:31', 'kevintechie', 'https://github.com/nuxt-community/auth-module/pull/613'),
 (22404, 398998426, 1, '2022-03-30T03:32:00', 'jsburckhardt', 'https://github.com/defenseunicorns/zarf/pull/419'),
 (40100, 440224087, 4, '2022-07-13T14:55:07', 'fortmarek', 'https://github.com/Shopify/flash-list/pull/524'),
-(22405, 398998426, 1, '2022-04-27T00:55:47', 'mahomedalid', 'https://github.com/defenseunicorns/zarf/pull/453'),
 (22406, 398998426, 1, '2022-05-07T06:58:22', 'vyta', 'https://github.com/defenseunicorns/zarf/pull/478'),
+(22405, 398998426, 1, '2022-04-27T00:55:47', 'mahomedalid', 'https://github.com/defenseunicorns/zarf/pull/453'),
 (22407, 398998426, 1, '2022-06-08T19:15:59', 'ntwkninja', 'https://github.com/defenseunicorns/zarf/pull/503'),
 (40102, 440224087, 4, '2022-05-18T07:56:55', 'davebcn87', 'https://github.com/Shopify/flash-list/pull/408'),
 (40103, 440224087, 4, '2022-07-18T15:07:47', 'naqvitalha', 'https://github.com/Shopify/flash-list/pull/532'),
@@ -7499,9 +7499,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (703, 48393191, 4, '2021-06-16T23:48:14', 'OdysseusLives', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/338'),
 (708, 48393191, 4, '2017-08-19T08:03:07', 'rspieldenner', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/146'),
 (707, 48393191, 2, '2016-05-26T17:15:24', 'boazj', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/29'),
-(1180, 23974149, 2, '2015-11-15T08:45:54', 's7dhansh', 'https://github.com/Dogfalo/materialize/pull/2294'),
 (1202, 23974149, 1, '2017-07-03T00:46:32', 'alexisdiel', 'https://github.com/Dogfalo/materialize/pull/4893'),
 (1477, 137104789, 1, '2021-08-26T05:00:09', 'alandecastros', 'https://github.com/jamesmh/coravel/pull/249'),
+(1180, 23974149, 2, '2015-11-15T08:45:54', 's7dhansh', 'https://github.com/Dogfalo/materialize/pull/2294'),
 (1479, 137104789, 2, '2022-04-23T02:23:00', 'felpel', 'https://github.com/jamesmh/coravel/pull/290'),
 (1481, 137104789, 1, '2019-06-18T11:28:55', 'arunpratap26', 'https://github.com/jamesmh/coravel/pull/94'),
 (1482, 137104789, 1, '2019-10-05T22:32:51', 'DominikHerold', 'https://github.com/jamesmh/coravel/pull/112'),
