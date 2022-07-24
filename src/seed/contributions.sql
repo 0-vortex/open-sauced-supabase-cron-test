@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T06:48:20.155Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T08:47:01.844Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2774,8 +2774,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13525, 2798894, 1, '2014-07-31T21:20:57', 'gaetansenn', 'https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/9'),
 (13526, 2798894, 1, '2012-10-04T18:36:17', 'peutetre', 'https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/4'),
 (3422, 29736746, 1, '2017-04-18T08:56:56', 'bryant1410', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/12'),
-(3423, 29736746, 1, '2015-05-20T09:43:29', 'RyanGladstone', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/3'),
 (8776, 196778665, 1, '2021-04-26T15:20:29', 'George-lewis', 'https://github.com/elibroftw/music-caster/pull/25'),
+(3423, 29736746, 1, '2015-05-20T09:43:29', 'RyanGladstone', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/3'),
 (3427, 29736746, 1, '2016-12-14T02:43:58', 'msabramo', 'https://github.com/gophergala/learn-Go-the-hard-way/pull/11'),
 (14146, 400851369, 1, '2021-10-30T17:09:00', 'clason', 'https://github.com/lewis6991/impatient.nvim/pull/37'),
 (14148, 400851369, 1, '2021-08-31T07:33:26', 'yujinyuz', 'https://github.com/lewis6991/impatient.nvim/pull/10'),
