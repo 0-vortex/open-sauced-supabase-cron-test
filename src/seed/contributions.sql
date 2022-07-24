@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-23T22:45:12.599Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T01:05:50.150Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -158,6 +158,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5650, 82729529, 4, '2022-04-16T22:20:08', 'dbieber', 'https://github.com/google/python-fire/pull/390'),
 (5664, 82729529, 4, '2017-04-19T16:56:03', 'saurabhkpatel', 'https://github.com/google/python-fire/pull/65'),
 (5661, 82729529, 2, '2020-02-21T18:56:35', 'meshde', 'https://github.com/google/python-fire/pull/215'),
+(12304, 93619165, 2, '2021-04-29T01:54:41', 'moorereason', 'https://github.com/alecthomas/chroma/pull/479'),
 (4223, 35866694, 4, '2022-06-09T13:19:31', 'KevLehman', 'https://github.com/RocketChat/Rocket.Chat/pull/25810'),
 (4232, 35866694, 4, '2022-03-02T05:32:05', 'renatobecker', 'https://github.com/RocketChat/Rocket.Chat/pull/24661'),
 (4229, 35866694, 4, '2022-06-01T01:50:13', 'd-gubert', 'https://github.com/RocketChat/Rocket.Chat/pull/25702'),
@@ -176,7 +177,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5659, 82729529, 1, '2017-08-28T19:13:24', 'ajomadlabs', 'https://github.com/google/python-fire/pull/92'),
 (1226, 15720445, 3, '2017-09-19T17:07:43', 'philidem', 'https://github.com/marko-js/marko/pull/849'),
 (1256, 15720445, 3, '2015-07-01T03:17:14', 'aselvaraj', 'https://github.com/marko-js/marko/pull/97'),
-(12304, 93619165, 2, '2021-04-29T01:54:41', 'moorereason', 'https://github.com/alecthomas/chroma/pull/479'),
 (1232, 15720445, 4, '2018-06-21T17:40:45', 'austinkelleher', 'https://github.com/marko-js/marko/pull/1062'),
 (1242, 15720445, 3, '2017-05-08T15:41:13', 'tcrowe', 'https://github.com/marko-js/marko/pull/657'),
 (1248, 15720445, 4, '2017-10-19T01:17:18', 'patrick-steele-idem', 'https://github.com/marko-js/marko/pull/900'),
@@ -8353,6 +8353,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (733, 281151556, 4, '2022-05-05T13:16:00', 'Wabri', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/99'),
 (1820, 227393393, 2, '2020-10-05T19:52:14', 'nipafx', 'https://github.com/livecoders/website/pull/155'),
 (1806, 227393393, 1, '2020-03-27T16:09:52', 'sorskoot', 'https://github.com/livecoders/website/pull/31'),
+(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14'),
+(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15'),
 (547, 26195776, 1, '2015-05-03T06:10:39', 'stuartsan', 'https://github.com/JedWatson/classnames/pull/24'),
 (281, 218115303, 4, '2022-05-27T06:35:13', 'huozhi', 'https://github.com/vercel/swr/pull/1992'),
 (329, 218115303, 4, '2022-03-12T10:16:44', 'koba04', 'https://github.com/vercel/swr/pull/1888'),
@@ -8381,8 +8383,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (539, 26195776, 1, '2019-03-07T16:21:18', 'grushetsky', 'https://github.com/JedWatson/classnames/pull/189'),
 (37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4'),
 (37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8'),
-(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15'),
-(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14'),
 (23819, 45425758, 2, '2016-10-07T03:42:55', 'marvinhagemeister', 'https://github.com/microsoft/vscode-chrome-debug/pull/241'),
 (23823, 45425758, 4, '2018-03-20T05:43:00', 'msft-cwells', 'https://github.com/microsoft/vscode-chrome-debug/pull/624'),
 (686, 120828763, 1, '2018-06-24T20:58:47', 'hg-pyun', 'https://github.com/ronami/minipack/pull/9'),
