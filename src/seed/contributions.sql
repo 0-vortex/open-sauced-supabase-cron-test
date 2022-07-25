@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-25T12:58:37.841Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-25T14:44:56.973Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5001,8 +5001,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22381, 440752086, 4, '2022-06-07T14:30:34', 'khorne3', 'https://github.com/coder/coder/pull/2100'),
 (22382, 440752086, 4, '2022-06-07T20:57:32', 'deansheather', 'https://github.com/coder/coder/pull/2139'),
 (22383, 440752086, 1, '2022-04-18T15:20:45', 'ntimo', 'https://github.com/coder/coder/pull/1025'),
-(22384, 440752086, 4, '2022-06-09T21:10:24', 'johnstcn', 'https://github.com/coder/coder/pull/2165'),
 (32944, 11221453, 4, '2013-10-25T16:12:32', 'sheerun', 'https://github.com/tenex/rails-assets/pull/39'),
+(22384, 440752086, 4, '2022-06-09T21:10:24', 'johnstcn', 'https://github.com/coder/coder/pull/2165'),
 (2332, 54377519, 3, '2021-09-09T08:07:09', 'tedvanderveen', 'https://github.com/PiranhaCMS/piranha.core/pull/1692'),
 (2335, 54377519, 2, '2022-02-03T06:02:50', 'AzureRok', 'https://github.com/PiranhaCMS/piranha.core/pull/1817'),
 (2318, 54377519, 3, '2020-04-08T20:12:01', 'j2ba', 'https://github.com/PiranhaCMS/piranha.core/pull/1118'),
@@ -5463,8 +5463,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22443, 468311851, 3, '2022-06-09T16:07:55', 'leonardoce', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/252'),
 (22444, 468311851, 4, '2022-05-26T12:40:53', 'gbartolini', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/197'),
 (22445, 468311851, 4, '2022-06-09T08:28:14', 'phisco', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/245'),
-(22446, 468311851, 4, '2022-06-09T08:53:42', 'sxd', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/240'),
-(22447, 468311851, 1, '2022-05-26T10:27:20', 'wadlejitendra', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/156'),
 (22448, 468311851, 3, '2022-06-06T07:46:03', 'jsilvela', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/221'),
 (22449, 468311851, 2, '2022-05-16T14:56:30', 'jlong49', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/124'),
 (22450, 468311851, 1, '2022-06-08T01:57:41', 'danishedb', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/222'),
@@ -5478,6 +5476,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (11304, 172741073, 4, '2021-08-26T16:25:09', 'matthewp', 'https://github.com/FredKSchott/snowpack/pull/3684'),
 (11305, 172741073, 4, '2020-11-05T22:43:15', 'stramel', 'https://github.com/FredKSchott/snowpack/pull/1519'),
 (11306, 172741073, 4, '2020-10-14T04:56:56', 'gr2m', 'https://github.com/FredKSchott/snowpack/pull/1301'),
+(22446, 468311851, 4, '2022-06-09T08:53:42', 'sxd', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/240'),
+(22447, 468311851, 1, '2022-05-26T10:27:20', 'wadlejitendra', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/156'),
 (11307, 172741073, 4, '2020-09-17T20:15:10', 'JoviDeCroock', 'https://github.com/FredKSchott/snowpack/pull/1080'),
 (11308, 172741073, 4, '2020-10-20T22:56:48', 'MoonBall', 'https://github.com/FredKSchott/snowpack/pull/1319'),
 (11309, 172741073, 4, '2021-07-21T20:09:56', 'natemoo-re', 'https://github.com/FredKSchott/snowpack/pull/3603'),
@@ -6796,8 +6796,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2029, 83222441, 1, '2020-07-05T14:48:23', 'Agade09', 'https://github.com/donnemartin/system-design-primer/pull/438'),
 (2037, 83222441, 1, '2020-01-15T15:04:08', 'ygdanchoi', 'https://github.com/donnemartin/system-design-primer/pull/351'),
 (6018, 369567537, 4, '2021-08-19T07:39:52', 'brtbach', 'https://github.com/dockserver/dockserver/pull/186'),
-(6021, 369567537, 1, '2021-06-04T04:44:47', 'ramsaytc', 'https://github.com/dockserver/dockserver/pull/21'),
 (6015, 369567537, 3, '2021-06-25T14:32:14', 'dan3805', 'https://github.com/dockserver/dockserver/pull/96'),
+(6021, 369567537, 1, '2021-06-04T04:44:47', 'ramsaytc', 'https://github.com/dockserver/dockserver/pull/21'),
 (6019, 369567537, 4, '2021-12-12T17:11:29', 'justinglock40', 'https://github.com/dockserver/dockserver/pull/318'),
 (12189, 81992265, 1, '2020-10-29T00:57:45', 'alerque', 'https://github.com/theleagueof/league-mono/pull/9'),
 (6020, 369567537, 3, '2021-06-23T18:43:06', 'Nossersvinet', 'https://github.com/dockserver/dockserver/pull/74'),
