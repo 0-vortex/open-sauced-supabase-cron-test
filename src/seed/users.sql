@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-25T04:59:16.155Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-25T06:49:20.742Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -311,6 +311,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (2712201, 1, true, false, true, '2022-05-23T17:35:23.777134+00:00', 'mpskeeter'),
 (62525482, 0, true, false, true, '2022-05-24T15:13:45.995209+00:00', 'davidenders11'),
 (8064235, 0, true, false, true, '2022-07-03T01:33:06.754512+00:00', 'Fube'),
+(126441, 1, true, false, true, '2022-07-19T04:46:45.54418+00:00', 'travi'),
+(2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle'),
 (49374657, 0, true, false, true, '2022-06-30T07:20:55.974836+00:00', 'Zakichanu'),
 (68414911, 1, true, false, true, '2022-07-06T05:36:44.660985+00:00', 'mdirshaddev'),
 (68105273, 6, true, false, true, '2022-06-21T14:49:37.745766+00:00', 'KhushP786'),
@@ -374,12 +376,10 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (9616739, 1, true, false, true, '2022-07-02T03:51:26.666802+00:00', 'Lckythr33'),
 (54788134, 3, true, false, true, '2022-07-02T03:51:27.965967+00:00', 'Clue355'),
 (1682188, 12, true, false, true, '2022-07-22T14:18:26.00839+00:00', 'ctoffanin'),
-(1551031, 4, true, false, true, '2022-07-19T16:49:52.161363+00:00', 'thegillis'),
-(126441, 1, true, false, true, '2022-07-19T04:46:45.54418+00:00', 'travi'),
-(2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle'),
 (33803374, 1, true, false, true, '2022-06-25T11:19:32.814482+00:00', 'ChrisGibe'),
 (62794161, 1, true, true, true, '2022-07-17T15:08:14.518249+00:00', 'lhhuman'),
 (54046179, 1, true, false, true, '2022-07-22T19:01:07.488672+00:00', 'Cerchie'),
 (79598596, 3, true, false, true, '2022-07-14T12:10:45.229975+00:00', '90N45-d3v'),
+(1551031, 4, true, false, true, '2022-07-19T16:49:52.161363+00:00', 'thegillis'),
 (14912729, 2, true, false, true, '2022-07-22T07:31:12.785966+00:00', 'Skn0tt'),
 (41201924, 2, true, false, true, '2022-07-19T06:17:08.022796+00:00', 'aviramha');
