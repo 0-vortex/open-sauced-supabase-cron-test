@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-26T06:55:03.957Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-26T08:51:20.244Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2150,12 +2150,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5534, 177010499, 2, '2019-11-07T22:12:24', 'Harwayne', 'https://github.com/google/ko/pull/107'),
 (2667, 304120355, 1, '2021-08-09T08:44:13', 'droganov', 'https://github.com/nanostores/nanostores/pull/46'),
 (2672, 304120355, 4, '2021-10-21T19:17:11', 'Eddort', 'https://github.com/nanostores/nanostores/pull/75'),
-(2668, 304120355, 4, '2021-12-10T00:04:57', 'euaaaio', 'https://github.com/nanostores/nanostores/pull/87'),
 (5547, 177010499, 3, '2021-07-28T20:23:45', 'evankanderson', 'https://github.com/google/ko/pull/398'),
 (5536, 177010499, 2, '2022-06-06T14:18:26', 'developer-guy', 'https://github.com/google/ko/pull/710'),
 (5541, 177010499, 2, '2019-11-09T17:23:10', 'stanleynguyen', 'https://github.com/google/ko/pull/105'),
 (5556, 177010499, 1, '2021-05-17T15:26:15', 'chhsia0', 'https://github.com/google/ko/pull/332'),
 (5550, 177010499, 1, '2020-01-16T21:27:44', 'danielhelfand', 'https://github.com/google/ko/pull/120'),
+(2668, 304120355, 4, '2021-12-10T00:04:57', 'euaaaio', 'https://github.com/nanostores/nanostores/pull/87'),
 (5552, 177010499, 1, '2022-02-20T09:15:09', 'dirien', 'https://github.com/google/ko/pull/604'),
 (5546, 177010499, 1, '2021-10-11T18:18:09', 'caarlos0', 'https://github.com/google/ko/pull/474'),
 (5554, 177010499, 1, '2021-07-27T21:57:56', 'xuhdev', 'https://github.com/google/ko/pull/377'),
@@ -6087,10 +6087,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2372, 36633370, 4, '2017-09-28T15:29:41', 'mightyfree', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/1168'),
 (2364, 36633370, 4, '2021-07-12T17:46:35', 'prologic', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/2623'),
 (4964, 37140605, 4, '2021-11-03T17:20:39', 'nelsonic', 'https://github.com/dwyl/learn-tdd/pull/139'),
+(4961, 37140605, 2, '2019-10-30T19:16:52', 'BurkHufnagel', 'https://github.com/dwyl/learn-tdd/pull/131'),
 (2352, 36633370, 4, '2020-07-03T17:00:55', 'NickBusey', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/2140'),
 (2374, 36633370, 4, '2022-02-22T19:50:55', 'rodber', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/2830'),
 (5254, 18486300, 2, '2020-12-22T16:01:30', 'lucien-george', 'https://github.com/lewagon/setup/pull/220'),
-(4961, 37140605, 2, '2019-10-30T19:16:52', 'BurkHufnagel', 'https://github.com/dwyl/learn-tdd/pull/131'),
 (5253, 18486300, 4, '2022-01-14T13:51:58', 'Disco-Chef', 'https://github.com/lewagon/setup/pull/355'),
 (14369, 18486300, 4, '2022-05-31T07:18:52', 'lucasgday', 'https://github.com/lewagon/setup/pull/388'),
 (5251, 18486300, 4, '2020-04-06T14:05:19', 'db0sch', 'https://github.com/lewagon/setup/pull/139'),
@@ -6101,8 +6101,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2853, 27380215, 1, '2015-08-28T09:21:48', 'bamx23', 'https://github.com/vimagick/dockerfiles/pull/5'),
 (2878, 27380215, 1, '2019-10-26T23:33:12', 'nedtwigg', 'https://github.com/vimagick/dockerfiles/pull/87'),
 (38626, 166831098, 4, '2022-07-07T12:55:51', 'warber', 'https://github.com/keptn/keptn/pull/8341'),
-(12233, 9746477, 4, '2021-02-13T08:54:00', 'llloret', 'https://github.com/sonic-pi-net/sonic-pi/pull/2699'),
 (4963, 37140605, 1, '2016-05-23T20:15:29', 'joseluisq', 'https://github.com/dwyl/learn-tdd/pull/55'),
+(12233, 9746477, 4, '2021-02-13T08:54:00', 'llloret', 'https://github.com/sonic-pi-net/sonic-pi/pull/2699'),
 (4960, 37140605, 1, '2019-05-28T09:06:58', 'mattdrago', 'https://github.com/dwyl/learn-tdd/pull/125'),
 (4968, 37140605, 3, '2019-05-11T03:42:44', 'codeshifu', 'https://github.com/dwyl/learn-tdd/pull/123'),
 (4971, 37140605, 1, '2019-02-25T17:01:01', '0xflotus', 'https://github.com/dwyl/learn-tdd/pull/121'),
