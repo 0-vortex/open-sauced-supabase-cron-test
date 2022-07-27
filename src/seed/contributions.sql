@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T14:46:32.451Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T17:05:12.431Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4469,8 +4469,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3251, 274495425, 3, '2021-05-01T17:17:36', 'j0nezz', 'https://github.com/remotion-dev/remotion/pull/330'),
 (3297, 274495425, 2, '2021-04-20T12:57:13', 'calvin-f', 'https://github.com/remotion-dev/remotion/pull/275'),
 (16234, 274495425, 2, '2022-06-01T09:08:31', 'White-Green', 'https://github.com/remotion-dev/remotion/pull/1020'),
-(3306, 274495425, 1, '2021-10-02T15:19:22', 'khalid283', 'https://github.com/remotion-dev/remotion/pull/621'),
 (3247, 274495425, 4, '2022-01-15T14:07:14', 'VirenMohindra', 'https://github.com/remotion-dev/remotion/pull/774'),
+(3306, 274495425, 1, '2021-10-02T15:19:22', 'khalid283', 'https://github.com/remotion-dev/remotion/pull/621'),
 (3257, 274495425, 1, '2021-10-10T18:49:41', 'razn-v', 'https://github.com/remotion-dev/remotion/pull/634'),
 (3271, 274495425, 1, '2021-10-02T14:55:54', 'ahmadrosid', 'https://github.com/remotion-dev/remotion/pull/618'),
 (4696, 183267843, 2, '2020-10-03T00:13:27', 'emzoumpo', 'https://github.com/kentcdodds/advanced-react-hooks/pull/59'),
@@ -5962,6 +5962,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2051, 83222441, 4, '2020-07-03T01:18:37', 'donnemartin', 'https://github.com/donnemartin/system-design-primer/pull/437'),
 (2042, 83222441, 2, '2019-02-11T10:48:37', 'glusa8', 'https://github.com/donnemartin/system-design-primer/pull/251'),
 (2054, 83222441, 4, '2018-11-14T01:23:22', 'fluency03', 'https://github.com/donnemartin/system-design-primer/pull/229'),
+(2035, 83222441, 1, '2020-07-18T01:15:48', 'danieljl', 'https://github.com/donnemartin/system-design-primer/pull/168'),
+(2049, 83222441, 2, '2018-04-26T01:22:26', 'antongulikov', 'https://github.com/donnemartin/system-design-primer/pull/153'),
 (2036, 83222441, 1, '2017-06-14T00:43:11', 'Tarrasch', 'https://github.com/donnemartin/system-design-primer/pull/85'),
 (2032, 83222441, 1, '2017-04-08T00:20:38', 'bengadbois', 'https://github.com/donnemartin/system-design-primer/pull/55'),
 (22488, 9312102, 3, '2016-11-10T03:43:18', 'orkaa', 'https://github.com/arc298/instagram-scraper/pull/25'),
@@ -5974,8 +5976,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22495, 9312102, 1, '2016-08-25T02:03:27', 'CNG', 'https://github.com/arc298/instagram-scraper/pull/9'),
 (22496, 9312102, 3, '2020-10-10T16:21:49', '501st-alpha1', 'https://github.com/arc298/instagram-scraper/pull/568'),
 (22497, 9312102, 1, '2017-06-26T01:04:21', 'jorrinpollard', 'https://github.com/arc298/instagram-scraper/pull/70'),
-(2035, 83222441, 1, '2020-07-18T01:15:48', 'danieljl', 'https://github.com/donnemartin/system-design-primer/pull/168'),
-(2049, 83222441, 2, '2018-04-26T01:22:26', 'antongulikov', 'https://github.com/donnemartin/system-design-primer/pull/153'),
 (22498, 9312102, 1, '2017-12-17T16:35:05', 'vanyasem', 'https://github.com/arc298/instagram-scraper/pull/138'),
 (1933, 68843078, 3, '2019-06-13T01:31:12', 'sjmulder', 'https://github.com/jarun/bcal/pull/32'),
 (12266, 94498635, 2, '2018-07-19T19:50:56', 'imbrn', 'https://github.com/carbon-app/carbon/pull/438'),
