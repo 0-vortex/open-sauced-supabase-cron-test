@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T03:06:04.792Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T05:17:42.392Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -226,13 +226,13 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (79809121, 5, true, false, true, '2022-05-28T13:33:55.885209+00:00', 'TAKANOME-DEV'),
 (4038174, 6, true, false, true, '2022-06-11T16:41:08.642396+00:00', 'incognitojam'),
 (39051202, 1, true, false, true, '2022-05-31T10:22:55.924063+00:00', 'vaibhsir1991'),
+(2601974, 2, true, false, true, '2022-05-24T06:55:53.940498+00:00', 'geekygirlsarah'),
 (89362919, 1, true, false, true, '2022-06-11T16:41:09.242268+00:00', 'ThnksCJ'),
 (19558543, 2, true, false, true, '2022-05-30T07:31:53.444293+00:00', 'ABGEO'),
 (76204863, 0, true, false, true, '2022-06-12T14:26:42.112999+00:00', 'rahulkarda'),
 (20217125, 0, true, false, true, '2022-06-03T16:28:28.603211+00:00', 'sonithch'),
 (54808964, 1, true, false, true, '2022-06-06T03:49:02.655205+00:00', 'bnnthang'),
 (37368987, 3, true, false, true, '2022-06-05T08:53:05.927409+00:00', 'Elia-Darwish'),
-(2601974, 2, true, false, true, '2022-05-24T06:55:53.940498+00:00', 'geekygirlsarah'),
 (16787295, 1, true, false, true, '2022-06-01T03:05:03.958328+00:00', 'acrobertson'),
 (35191127, 1, true, false, true, '2022-05-29T05:46:48.513877+00:00', 'sureshvazrala'),
 (40151120, 1, true, false, true, '2022-06-10T18:18:43.161486+00:00', 'mustapha3341'),
@@ -349,8 +349,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (37847523, 1, true, false, true, '2022-06-28T17:57:14.327906+00:00', 'bdsqqq'),
 (98709555, 1, true, false, true, '2022-07-17T21:48:53.421429+00:00', 'jusjones2284'),
 (85348050, 8, true, false, true, '2022-07-16T08:47:17.514442+00:00', 'AssassinK786'),
-(100371690, 1, true, false, true, '2022-07-18T23:00:26.628815+00:00', 'CMCSWEENE'),
-(85189857, 1, true, false, true, '2022-07-18T11:47:13.167001+00:00', 'code-with-onye'),
 (67071462, 0, true, false, true, '2022-06-23T15:24:58.512269+00:00', 'kum9748ar'),
 (5463680, 3, true, false, true, '2022-07-10T16:13:52.010527+00:00', 'quicujo'),
 (95355656, 1, true, false, true, '2022-07-12T08:46:58.564544+00:00', 'jay-tau'),
@@ -362,7 +360,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (54102389, 0, true, false, true, '2022-07-07T00:04:42.968+00:00', 'yhoungdev'),
 (17050237, 3, true, false, true, '2022-06-27T19:11:08.75318+00:00', 'diegorramos84'),
 (19453294, 2, true, false, true, '2022-06-23T05:28:20.182669+00:00', 'techieeliot'),
-(55091982, 1, true, false, true, '2022-07-16T07:27:16.403047+00:00', 'Raynor-X'),
 (22246286, 1, true, false, true, '2022-07-05T14:36:49.748983+00:00', 'aida-martinez'),
 (3979735, 4, true, false, true, '2022-06-27T22:41:42.766104+00:00', 'colbywhite'),
 (9039234, 2, true, false, true, '2022-06-26T22:42:19.062438+00:00', 'KrisMannino'),
@@ -385,4 +382,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (79598596, 3, true, false, true, '2022-07-14T12:10:45.229975+00:00', '90N45-d3v'),
 (491368, 1, true, false, true, '2022-07-14T14:11:07.189874+00:00', 'pplanel'),
 (33803374, 1, true, false, true, '2022-06-25T11:19:32.814482+00:00', 'ChrisGibe'),
+(100371690, 1, true, false, true, '2022-07-18T23:00:26.628815+00:00', 'CMCSWEENE'),
+(85189857, 1, true, false, true, '2022-07-18T11:47:13.167001+00:00', 'code-with-onye'),
+(55091982, 1, true, false, true, '2022-07-16T07:27:16.403047+00:00', 'Raynor-X'),
 (2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle');

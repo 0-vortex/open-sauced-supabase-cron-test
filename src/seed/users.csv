@@ -344,8 +344,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 37847523,1,true,false,true,2022-06-28T17:57:14.327906+00:00,bdsqqq
 98709555,1,true,false,true,2022-07-17T21:48:53.421429+00:00,jusjones2284
 85348050,8,true,false,true,2022-07-16T08:47:17.514442+00:00,AssassinK786
-100371690,1,true,false,true,2022-07-18T23:00:26.628815+00:00,CMCSWEENE
-85189857,1,true,false,true,2022-07-18T11:47:13.167001+00:00,code-with-onye
 67071462,0,true,false,true,2022-06-23T15:24:58.512269+00:00,kum9748ar
 5463680,3,true,false,true,2022-07-10T16:13:52.010527+00:00,quicujo
 95355656,1,true,false,true,2022-07-12T08:46:58.564544+00:00,jay-tau
@@ -357,7 +355,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 54102389,0,true,false,true,2022-07-07T00:04:42.968+00:00,yhoungdev
 17050237,3,true,false,true,2022-06-27T19:11:08.75318+00:00,diegorramos84
 19453294,2,true,false,true,2022-06-23T05:28:20.182669+00:00,techieeliot
-55091982,1,true,false,true,2022-07-16T07:27:16.403047+00:00,Raynor-X
 22246286,1,true,false,true,2022-07-05T14:36:49.748983+00:00,aida-martinez
 3979735,4,true,false,true,2022-06-27T22:41:42.766104+00:00,colbywhite
 9039234,2,true,false,true,2022-06-26T22:42:19.062438+00:00,KrisMannino
@@ -380,3 +377,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 79598596,3,true,false,true,2022-07-14T12:10:45.229975+00:00,90N45-d3v
 491368,1,true,false,true,2022-07-14T14:11:07.189874+00:00,pplanel
 33803374,1,true,false,true,2022-06-25T11:19:32.814482+00:00,ChrisGibe
+100371690,1,true,false,true,2022-07-18T23:00:26.628815+00:00,CMCSWEENE
+85189857,1,true,false,true,2022-07-18T11:47:13.167001+00:00,code-with-onye
+55091982,1,true,false,true,2022-07-16T07:27:16.403047+00:00,Raynor-X
