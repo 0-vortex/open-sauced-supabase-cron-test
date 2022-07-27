@@ -1169,13 +1169,13 @@ id,repo_id,count,last_merged_at,contributor,url
 16520,142967350,3,2020-05-11T06:03:30,ddanger,https://github.com/reach/reach-ui/pull/570
 1282,306449955,4,2022-04-24T20:31:22,Isuewo,https://github.com/IrisShaders/Iris/pull/1328
 1279,306449955,2,2021-11-28T22:07:04,Disguys,https://github.com/IrisShaders/Iris/pull/840
+8500,49372256,1,2017-05-14T12:55:36,j-davies,https://github.com/nuket/google-sheets-geocoding-macro/pull/4
 37465,495836457,4,2022-07-07T12:32:19,Fedeorlandau,https://github.com/t3-oss/create-t3-app/pull/139
 37466,495836457,4,2022-07-05T09:03:09,asheeeshh,https://github.com/t3-oss/create-t3-app/pull/115
 37467,495836457,1,2022-06-04T14:33:50,iDarkLightning,https://github.com/t3-oss/create-t3-app/pull/2
 37468,495836457,2,2022-06-27T19:24:15,Dhravya,https://github.com/t3-oss/create-t3-app/pull/52
 37469,495836457,1,2022-07-05T09:02:38,fernandoxu,https://github.com/t3-oss/create-t3-app/pull/113
 37470,495836457,2,2022-06-14T10:30:35,sidwebworks,https://github.com/t3-oss/create-t3-app/pull/5
-8500,49372256,1,2017-05-14T12:55:36,j-davies,https://github.com/nuket/google-sheets-geocoding-macro/pull/4
 5903,187335810,1,2019-07-21T13:40:26,qdm12,https://github.com/jesseduffield/lazydocker/pull/36
 37471,495836457,1,2022-06-18T14:46:30,BenDundon,https://github.com/t3-oss/create-t3-app/pull/14
 1647,378070841,1,2021-10-20T13:03:53,daboudii,https://github.com/ngneat/elf/pull/32
@@ -1615,6 +1615,7 @@ id,repo_id,count,last_merged_at,contributor,url
 9091,19872456,4,2021-10-14T09:55:07,mjackson,https://github.com/remix-run/react-router/pull/8087
 9075,19872456,4,2019-06-18T15:23:36,pshrmn,https://github.com/remix-run/react-router/pull/6798
 3928,40892817,4,2022-06-07T15:22:52,christianparpart,https://github.com/ethereum/solidity/pull/13102
+8507,141334515,1,2019-03-25T01:26:53,Thunderbottom,https://github.com/kormyen/memex/pull/11
 730,88011908,1,2019-04-22T23:36:36,tuvtran,https://github.com/practical-tutorials/project-based-learning/pull/167
 729,88011908,1,2018-07-19T03:41:37,nishitkshah,https://github.com/practical-tutorials/project-based-learning/pull/98
 754,88011908,2,2017-06-26T00:59:26,dmushail,https://github.com/practical-tutorials/project-based-learning/pull/31
@@ -1626,7 +1627,6 @@ id,repo_id,count,last_merged_at,contributor,url
 16610,213043312,2,2022-04-12T19:25:05,jqnatividad,https://github.com/pemistahl/grex/pull/68
 16608,213043312,1,2021-05-31T18:49:35,innobead,https://github.com/pemistahl/grex/pull/42
 39761,393493377,4,2022-07-21T18:39:40,vojtaholik,https://github.com/skillrecordings/products/pull/358
-8507,141334515,1,2019-03-25T01:26:53,Thunderbottom,https://github.com/kormyen/memex/pull/11
 7188,411705813,1,2021-10-25T06:55:07,Joaquin144,https://github.com/avinash201199/Portfolio-Collection/pull/15
 16607,213043312,1,2020-02-11T21:39:51,Abendstolz,https://github.com/pemistahl/grex/pull/11
 32795,37997,3,2021-09-29T12:55:31,jnunemaker,https://github.com/jnunemaker/httparty/pull/736
@@ -2916,7 +2916,7 @@ id,repo_id,count,last_merged_at,contributor,url
 23151,86351030,4,2022-01-03T09:59:40,alexcasalboni,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/153
 23152,86351030,3,2020-06-08T12:49:14,gino247,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/81
 23153,86351030,1,2018-05-10T16:15:57,hscheib,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/8
-8504,141334515,1,2020-06-15T01:29:57,AlleahSTAR,https://github.com/kormyen/memex/pull/16
+8505,141334515,2,2019-10-16T03:57:56,lcb931023,https://github.com/kormyen/memex/pull/13
 38100,55387233,1,2019-02-14T23:31:08,alasdairhurst,https://github.com/conventional-changelog/standard-version/pull/282
 38103,55387233,1,2018-05-17T18:34:09,barmaglot92,https://github.com/conventional-changelog/standard-version/pull/243
 3591,31792824,4,2022-05-31T17:33:47,gspencergoog,https://github.com/flutter/flutter/pull/104772
@@ -2926,8 +2926,8 @@ id,repo_id,count,last_merged_at,contributor,url
 617,104536743,4,2021-04-05T18:40:28,scottkellum,https://github.com/Typetura/Typetura/pull/38
 459,259687475,1,2021-09-09T15:13:35,yamatoya,https://github.com/Kesin11/CIAnalyzer/pull/352
 502,259687475,4,2022-05-04T12:56:55,Kesin11,https://github.com/Kesin11/CIAnalyzer/pull/539
-8505,141334515,2,2019-10-16T03:57:56,lcb931023,https://github.com/kormyen/memex/pull/13
 885,49020217,1,2016-02-17T06:56:27,petehouston,https://github.com/petehunt/react-howto/pull/27
+8504,141334515,1,2020-06-15T01:29:57,AlleahSTAR,https://github.com/kormyen/memex/pull/16
 32854,75027176,4,2017-12-14T18:23:42,skellock,https://github.com/infinitered/gluegun/pull/296
 32855,75027176,3,2020-04-30T02:59:36,cmckni3,https://github.com/infinitered/gluegun/pull/719
 32856,75027176,4,2022-01-24T21:23:00,jamonholmgren,https://github.com/infinitered/gluegun/pull/750
@@ -2937,13 +2937,13 @@ id,repo_id,count,last_merged_at,contributor,url
 14156,262943932,4,2022-04-18T16:34:06,pgollucci,https://github.com/projen/projen/pull/1775
 38102,55387233,1,2020-07-14T01:20:42,runnerway,https://github.com/conventional-changelog/standard-version/pull/619
 616,104536743,4,2020-05-21T23:44:13,clickclickonsal,https://github.com/Typetura/Typetura/pull/27
+8506,141334515,1,2019-12-23T10:59:51,TangentFoxy,https://github.com/kormyen/memex/pull/14
 2736,243394576,3,2021-04-06T03:56:08,aimichelle,https://github.com/pixie-io/pixie/pull/230
 32857,75027176,4,2017-03-10T04:59:28,morgandonze,https://github.com/infinitered/gluegun/pull/173
 23154,86351030,1,2021-10-18T18:59:44,bobsut,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/143
 23155,86351030,1,2020-08-24T12:58:18,claudiopastorini,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/108
 23156,86351030,1,2018-09-04T10:46:24,tljdebrouwer,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/12
 2741,243394576,3,2020-09-30T17:50:18,nserrino,https://github.com/pixie-io/pixie/pull/134
-8506,141334515,1,2019-12-23T10:59:51,TangentFoxy,https://github.com/kormyen/memex/pull/14
 5891,21413198,3,2017-10-18T19:35:33,TheophileSketo,https://github.com/immutable-js/immutable-js/pull/1401
 5896,21413198,2,2015-10-03T17:43:01,rawls238,https://github.com/immutable-js/immutable-js/pull/646
 5895,21413198,1,2016-12-21T19:31:41,hoorayimhelping,https://github.com/immutable-js/immutable-js/pull/874
@@ -3037,8 +3037,8 @@ id,repo_id,count,last_merged_at,contributor,url
 5291,326460518,1,2021-11-16T22:42:54,aedrax,https://github.com/ratfactor/ziglings/pull/78
 5290,326460518,1,2021-02-13T03:30:41,SpexGuy,https://github.com/ratfactor/ziglings/pull/8
 38104,55387233,1,2019-02-14T23:29:02,anthonylim24,https://github.com/conventional-changelog/standard-version/pull/284
-39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64
 39949,161073102,1,2022-05-03T14:35:10,coryshaw1,https://github.com/kuglee/TermiWatch/pull/58
+39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64
 2410,87860806,1,2020-12-06T01:57:32,adntgv,https://github.com/udhos/update-golang/pull/26
 16625,161770480,2,2019-04-25T03:22:30,ahegde3,https://github.com/nurdtechie98/drive-cli/pull/66
 2413,87860806,1,2017-10-05T22:00:15,NexWeb,https://github.com/udhos/update-golang/pull/11
@@ -7519,6 +7519,9 @@ id,repo_id,count,last_merged_at,contributor,url
 1659,378070841,2,2021-09-21T18:47:33,theblushingcrow,https://github.com/ngneat/elf/pull/4
 8503,258922512,4,2020-11-03T16:41:12,ShizukuIchi,https://github.com/ShizukuIchi/pdf-editor/pull/14
 8502,258922512,1,2020-05-13T13:15:54,realdennis,https://github.com/ShizukuIchi/pdf-editor/pull/3
+8499,49372256,1,2017-08-29T09:05:56,pandafulmanda,https://github.com/nuket/google-sheets-geocoding-macro/pull/6
+8498,49372256,1,2021-07-12T22:53:55,MrCsabaToth,https://github.com/nuket/google-sheets-geocoding-macro/pull/17
+8501,49372256,1,2017-10-01T20:41:14,subtleGradient,https://github.com/nuket/google-sheets-geocoding-macro/pull/7
 9148,6093316,4,2019-08-05T20:04:13,leonard-thieu,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/37349
 9138,6093316,4,2014-11-16T12:27:35,Bartvds,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/3152
 23897,198896556,1,2022-01-23T05:05:06,gioragutt,https://github.com/microsoft/vscode-js-debug/pull/1186
@@ -7543,9 +7546,6 @@ id,repo_id,count,last_merged_at,contributor,url
 12192,3678664,2,2019-12-22T09:23:05,topimiettinen,https://github.com/shlomif/PySolFC/pull/146
 12187,3678664,1,2022-05-14T00:31:39,sergiomb2,https://github.com/shlomif/PySolFC/pull/255
 12188,3678664,1,2021-10-09T04:26:45,leahneukirchen,https://github.com/shlomif/PySolFC/pull/224
-8498,49372256,1,2021-07-12T22:53:55,MrCsabaToth,https://github.com/nuket/google-sheets-geocoding-macro/pull/17
-8501,49372256,1,2017-10-01T20:41:14,subtleGradient,https://github.com/nuket/google-sheets-geocoding-macro/pull/7
-8499,49372256,1,2017-08-29T09:05:56,pandafulmanda,https://github.com/nuket/google-sheets-geocoding-macro/pull/6
 23905,198896556,1,2020-09-11T15:07:24,dcermak,https://github.com/microsoft/vscode-js-debug/pull/750
 23904,198896556,1,2021-06-27T20:28:12,Ashesh3,https://github.com/microsoft/vscode-js-debug/pull/1044
 23907,198896556,1,2020-07-15T14:36:27,Ashikpaul,https://github.com/microsoft/vscode-js-debug/pull/614
