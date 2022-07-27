@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T06:53:47.216Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T08:52:34.125Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -24,6 +24,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (39678, 484251804, 4, '2022-07-05T09:25:21', 'mappjzc', 'https://github.com/apache/incubator-devlake-website/pull/107'),
 (5766, 138754790, 4, '2022-07-13T12:43:54', 'lnkuiper', 'https://github.com/duckdb/duckdb/pull/4111'),
 (1209, 342028554, 1, '2021-11-02T21:22:39', 'nathanchase', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/9'),
+(2380, 141058176, 4, '2018-11-01T14:44:24', 'skidding', 'https://github.com/skidding/jobs-done/pull/16'),
 (251, 106017343, 4, '2020-01-04T17:31:55', 'benface', 'https://github.com/tailwindlabs/tailwindcss/pull/1293'),
 (252, 106017343, 2, '2019-08-06T11:54:19', 'AlexVipond', 'https://github.com/tailwindlabs/tailwindcss/pull/992'),
 (253, 106017343, 1, '2017-11-10T11:52:04', 'kfirba', 'https://github.com/tailwindlabs/tailwindcss/pull/174'),
@@ -60,7 +61,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (272, 106017343, 4, '2019-04-03T12:04:58', 'davidhemphill', 'https://github.com/tailwindlabs/tailwindcss/pull/821'),
 (13032, 75642389, 4, '2020-07-23T17:40:05', 'allan-chen', 'https://github.com/material-components/material-components-web/pull/6246'),
 (4329, 41718185, 4, '2019-03-19T07:50:35', 'irustm', 'https://github.com/PatrickJS/awesome-angular/pull/362'),
-(2380, 141058176, 4, '2018-11-01T14:44:24', 'skidding', 'https://github.com/skidding/jobs-done/pull/16'),
 (39679, 484251804, 1, '2022-05-25T07:34:47', 'SnowMoon-Dev', 'https://github.com/apache/incubator-devlake-website/pull/37'),
 (39680, 484251804, 2, '2022-06-17T06:17:56', 'mindlesscloud', 'https://github.com/apache/incubator-devlake-website/pull/82'),
 (16134, 24344106, 1, '2018-02-13T09:13:36', 'Gabswim', 'https://github.com/codecov/example-python/pull/31'),
@@ -3032,6 +3032,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13585, 261298767, 1, '2022-03-19T13:06:11', 'sujeetpillai', 'https://github.com/revolist/revogrid/pull/300'),
 (13586, 261298767, 2, '2022-01-29T17:36:00', 'wglas85', 'https://github.com/revolist/revogrid/pull/263'),
 (2404, 141058176, 1, '2018-10-30T20:48:07', 'dremex', 'https://github.com/skidding/jobs-done/pull/10'),
+(2375, 141058176, 1, '2018-11-03T21:41:26', 'DevMaxiss', 'https://github.com/skidding/jobs-done/pull/18'),
 (3754, 162977720, 1, '2019-01-19T22:54:32', 'johnlunney', 'https://github.com/romenrg/evergreen-skills-developers/pull/11'),
 (3755, 162977720, 1, '2018-12-24T15:41:19', 'axelhzf', 'https://github.com/romenrg/evergreen-skills-developers/pull/1'),
 (3756, 162977720, 4, '2019-01-20T14:13:22', 'romenrg', 'https://github.com/romenrg/evergreen-skills-developers/pull/15'),
@@ -3052,7 +3053,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2600, 23024191, 2, '2020-03-24T06:19:45', 'HamidSaffari', 'https://github.com/neu-rah/ArduinoMenu/pull/279'),
 (16623, 161770480, 3, '2019-04-06T09:31:06', 'adtya', 'https://github.com/nurdtechie98/drive-cli/pull/54'),
 (16622, 161770480, 1, '2019-03-01T12:12:41', 'FredAmartey', 'https://github.com/nurdtechie98/drive-cli/pull/26'),
-(2375, 141058176, 1, '2018-11-03T21:41:26', 'DevMaxiss', 'https://github.com/skidding/jobs-done/pull/18'),
 (2411, 87860806, 1, '2017-05-05T17:55:26', 'tbobm', 'https://github.com/udhos/update-golang/pull/5'),
 (38108, 55387233, 1, '2019-05-05T18:02:44', 'carlobernardini', 'https://github.com/conventional-changelog/standard-version/pull/325'),
 (38107, 55387233, 1, '2016-11-27T00:13:44', 'niieani', 'https://github.com/conventional-changelog/standard-version/pull/143'),
@@ -6005,6 +6005,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (30343, 377305568, 1, '2022-06-22T19:50:48', 'erh-git', 'https://github.com/learntocloud/learn-to-cloud/pull/46'),
 (22502, 9312102, 4, '2020-10-10T16:21:06', 'Aaronzinhoo', 'https://github.com/arc298/instagram-scraper/pull/532'),
 (22503, 9312102, 1, '2018-09-01T17:47:34', 'DanielWFrancis', 'https://github.com/arc298/instagram-scraper/pull/287'),
+(2376, 141058176, 1, '2018-10-30T20:48:39', 'aausch', 'https://github.com/skidding/jobs-done/pull/11'),
 (22504, 9312102, 1, '2017-02-08T01:13:16', 'DillonN', 'https://github.com/arc298/instagram-scraper/pull/37'),
 (5248, 18486300, 4, '2021-04-12T13:00:48', 'krokrob', 'https://github.com/lewagon/setup/pull/282'),
 (22505, 9312102, 1, '2017-05-09T01:23:52', 'chelmertz', 'https://github.com/arc298/instagram-scraper/pull/50'),
@@ -6018,7 +6019,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5250, 18486300, 2, '2021-01-25T16:32:23', 'Eschults', 'https://github.com/lewagon/setup/pull/260'),
 (22507, 9312102, 2, '2017-06-30T23:53:42', 'polyzen', 'https://github.com/arc298/instagram-scraper/pull/72'),
 (22508, 9312102, 1, '2017-02-01T00:33:21', 'corymb', 'https://github.com/arc298/instagram-scraper/pull/35'),
-(2376, 141058176, 1, '2018-10-30T20:48:39', 'aausch', 'https://github.com/skidding/jobs-done/pull/11'),
 (5256, 18486300, 4, '2016-01-12T07:20:37', 'cveneziani', 'https://github.com/lewagon/setup/pull/18'),
 (5257, 18486300, 2, '2022-05-10T12:38:34', 'brunolajoie', 'https://github.com/lewagon/setup/pull/385'),
 (22509, 9312102, 2, '2018-01-20T23:18:18', 'Skinner927', 'https://github.com/arc298/instagram-scraper/pull/154'),
@@ -9273,8 +9273,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1450, 16607898, 4, '2021-09-20T09:33:11', 'marko-gacesa', 'https://github.com/harness/drone/pull/3144'),
 (1472, 16607898, 4, '2014-11-11T17:07:10', 'scottferg', 'https://github.com/harness/drone/pull/693'),
 (1461, 16607898, 1, '2014-08-12T05:45:40', 'kvigen', 'https://github.com/harness/drone/pull/361'),
-(1468, 16607898, 4, '2018-02-19T20:23:17', 'tonglil', 'https://github.com/harness/drone/pull/2321'),
 (1471, 16607898, 4, '2016-09-10T00:06:51', 'strk', 'https://github.com/harness/drone/pull/1789'),
+(1468, 16607898, 4, '2018-02-19T20:23:17', 'tonglil', 'https://github.com/harness/drone/pull/2321'),
 (1584, 249234386, 1, '2021-02-23T21:21:43', 'TychoWerner', 'https://github.com/steveseguin/vdo.ninja/pull/741'),
 (1587, 249234386, 1, '2021-01-27T10:10:28', 'digisomni', 'https://github.com/steveseguin/vdo.ninja/pull/673'),
 (1601, 249234386, 1, '2021-05-12T11:20:10', 'Jumper78', 'https://github.com/steveseguin/vdo.ninja/pull/864'),
