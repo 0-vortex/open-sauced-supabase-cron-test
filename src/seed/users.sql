@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T18:51:04.514Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-27T20:46:50.751Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -315,6 +315,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (126441, 1, true, false, true, '2022-07-19T04:46:45.54418+00:00', 'travi'),
 (49374657, 0, true, false, true, '2022-06-30T07:20:55.974836+00:00', 'Zakichanu'),
 (68414911, 1, true, false, true, '2022-07-06T05:36:44.660985+00:00', 'mdirshaddev'),
+(95306716, 1, true, false, true, '2022-07-13T03:46:40.358896+00:00', 'DeonFranklin'),
 (68105273, 6, true, false, true, '2022-06-21T14:49:37.745766+00:00', 'KhushP786'),
 (8643036, 1, true, false, true, '2022-07-05T17:42:24.826552+00:00', 'WinterCore'),
 (108130680, 0, true, false, true, '2022-06-24T11:50:35.146703+00:00', 'VinayShreeramaiah'),
@@ -342,14 +343,10 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (10395817, 2, true, false, true, '2022-07-07T07:08:37.652591+00:00', 'liyasthomas'),
 (59971574, 1, true, false, true, '2022-06-29T05:24:40.165018+00:00', 'Abkt2001'),
 (90490253, 0, true, false, true, '2022-06-28T18:36:33.797485+00:00', 'aroramrinaal'),
-(79598596, 3, true, false, true, '2022-07-14T12:10:45.229975+00:00', '90N45-d3v'),
-(491368, 1, true, false, true, '2022-07-14T14:11:07.189874+00:00', 'pplanel'),
-(6044920, 3, true, false, true, '2022-06-28T18:07:04.146015+00:00', 'olearycrew'),
-(2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle'),
-(37847523, 1, true, false, true, '2022-06-28T17:57:14.327906+00:00', 'bdsqqq'),
 (102608325, 3, true, false, true, '2022-06-28T18:20:24.974897+00:00', 'alex-colvin'),
+(6044920, 3, true, false, true, '2022-06-28T18:07:04.146015+00:00', 'olearycrew'),
+(37847523, 1, true, false, true, '2022-06-28T17:57:14.327906+00:00', 'bdsqqq'),
 (45172775, 0, true, false, true, '2022-07-27T17:38:56.833616+00:00', 'adiati98'),
-(95306716, 1, true, false, true, '2022-07-13T03:46:40.358896+00:00', 'DeonFranklin'),
 (54046179, 1, true, false, true, '2022-07-22T19:01:07.488672+00:00', 'Cerchie'),
 (14912729, 2, true, false, true, '2022-07-22T07:31:12.785966+00:00', 'Skn0tt'),
 (41201924, 2, true, false, true, '2022-07-19T06:17:08.022796+00:00', 'aviramha'),
@@ -377,9 +374,12 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (30007828, 1, true, false, true, '2022-07-25T16:34:14.599662+00:00', 'Ryankolsen'),
 (1682188, 18, true, false, true, '2022-07-22T14:18:26.00839+00:00', 'ctoffanin'),
 (62794161, 1, true, true, true, '2022-07-17T15:08:14.518249+00:00', 'lhhuman'),
+(1205776, 1, true, false, true, '2022-07-27T19:28:34.215589+00:00', 'mhuggins7278'),
 (58410019, 1, true, false, true, '2022-07-03T15:52:29.968032+00:00', 'AlphaHot'),
 (9616739, 1, true, false, true, '2022-07-02T03:51:26.666802+00:00', 'Lckythr33'),
 (54788134, 3, true, false, true, '2022-07-02T03:51:27.965967+00:00', 'Clue355'),
+(491368, 1, true, false, true, '2022-07-14T14:11:07.189874+00:00', 'pplanel'),
+(79598596, 3, true, false, true, '2022-07-14T12:10:45.229975+00:00', '90N45-d3v'),
 (51391611, 2, true, false, true, '2022-07-27T18:15:45.212489+00:00', 'coffeedome'),
 (1551031, 4, true, false, true, '2022-07-19T16:49:52.161363+00:00', 'thegillis'),
 (33803374, 1, true, false, true, '2022-06-25T11:19:32.814482+00:00', 'ChrisGibe'),
@@ -389,4 +389,5 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (20276785, 3, true, false, true, '2022-07-24T22:48:00.929466+00:00', 'rcmtcristian'),
 (33223727, 5, true, false, true, '2022-07-12T14:00:51.37891+00:00', 'Selko2013'),
 (1795, 5, true, false, true, '2022-07-19T22:17:47.440039+00:00', 'jakobo'),
-(98709555, 1, true, false, true, '2022-07-17T21:48:53.421429+00:00', 'jusjones2284');
+(98709555, 1, true, false, true, '2022-07-17T21:48:53.421429+00:00', 'jusjones2284'),
+(2501, 0, true, false, true, '2022-07-14T11:59:44.571848+00:00', 'kdaigle');
