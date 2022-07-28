@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T02:55:37.512Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T05:12:11.996Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3479,8 +3479,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12449, 52631841, 1, '2018-07-02T16:02:07', 'mohawk2', 'https://github.com/gothinkster/realworld/pull/238'),
 (23175, 87520003, 1, '2022-06-08T02:55:41', 'NoeOnJupiter', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/182'),
 (3437, 87520003, 1, '2019-03-29T12:04:44', 'dinarajas', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/36'),
-(38114, 55387233, 1, '2018-05-21T17:24:13', 'spudheadc', 'https://github.com/conventional-changelog/standard-version/pull/232'),
 (3433, 87520003, 2, '2022-02-15T08:53:27', 'vrwim', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/162'),
+(38114, 55387233, 1, '2018-05-21T17:24:13', 'spudheadc', 'https://github.com/conventional-changelog/standard-version/pull/232'),
 (38110, 55387233, 1, '2020-09-12T15:51:35', 'panckreous', 'https://github.com/conventional-changelog/standard-version/pull/657'),
 (38112, 55387233, 1, '2019-05-05T05:36:11', 'coreyfarrell', 'https://github.com/conventional-changelog/standard-version/pull/311'),
 (2680, 304120355, 1, '2021-05-12T22:04:28', 'Merciful12', 'https://github.com/nanostores/nanostores/pull/12'),
@@ -5472,9 +5472,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22452, 468311851, 4, '2022-06-01T09:29:32', 'litaocdl', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/174'),
 (22453, 468311851, 1, '2022-05-16T14:47:58', 'hh24k', 'https://github.com/cloudnative-pg/cloudnative-pg/pull/136'),
 (11920, 10865436, 1, '2013-06-22T23:16:28', 'jwilm', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/4'),
+(11923, 10865436, 2, '2014-06-19T18:12:57', 'it-ony', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/205'),
 (11302, 172741073, 4, '2021-08-23T17:41:53', 'drwpow', 'https://github.com/FredKSchott/snowpack/pull/3679'),
 (11303, 172741073, 4, '2021-08-04T19:49:37', 'FredKSchott', 'https://github.com/FredKSchott/snowpack/pull/3641'),
-(11923, 10865436, 2, '2014-06-19T18:12:57', 'it-ony', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/205'),
 (11304, 172741073, 4, '2021-08-26T16:25:09', 'matthewp', 'https://github.com/FredKSchott/snowpack/pull/3684'),
 (11305, 172741073, 4, '2020-11-05T22:43:15', 'stramel', 'https://github.com/FredKSchott/snowpack/pull/1519'),
 (1458, 16607898, 4, '2020-02-29T14:25:35', 'appleboy', 'https://github.com/harness/drone/pull/2918'),
