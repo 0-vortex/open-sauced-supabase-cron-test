@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.13.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.13.1...v1.13.2) (2022-07-28)
+
+
+### 🐛 Bug Fixes
+
+* correct user stars breaking on suspended installations ([bf07286](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/bf07286ad5560bbe21b0d9581abfaf72b4dfbf47))
+
 ### [1.13.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.13.0...v1.13.1) (2022-05-29)
 
 
