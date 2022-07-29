@@ -1,5 +1,5 @@
 --
--- Data for Name: users_to_repos_votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T06:54:34.634Z
+-- Data for Name: users_to_repos_votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T08:51:50.584Z
 -- COPY users_to_repos_votes(id, user_id, repo_id, created_at) FROM 'users_to_repos_votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -29,6 +29,8 @@ INSERT INTO users_to_repos_votes(id, user_id, repo_id, created_at) VALUES
 (54, 237133, 118695306, '2022-05-18T01:42:37.709512+00:00'),
 (55, 237133, 169677297, '2022-05-18T01:42:39.306744+00:00'),
 (56, 237133, 145050544, '2022-05-18T01:43:37.496807+00:00'),
+(176, 237133, 510607652, '2022-07-29T08:18:31.058457+00:00'),
 (120, 37635083, 14440270, '2022-07-25T22:14:33.507442+00:00'),
+(177, 237133, 357728969, '2022-07-29T08:21:40.984661+00:00'),
 (62, 237133, 28457823, '2022-05-19T21:57:28.642877+00:00'),
 (76, 237133, 13491895, '2022-05-19T21:57:53.344964+00:00');

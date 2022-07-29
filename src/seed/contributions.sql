@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T06:54:35.048Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T08:51:51.111Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6438,11 +6438,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8710, 371575501, 1, '2021-08-21T16:15:34', 'jewlexx', 'https://github.com/akd-io/create-next-stack/pull/111'),
 (8716, 371575501, 4, '2022-05-07T17:23:54', 'akd-io', 'https://github.com/akd-io/create-next-stack/pull/140'),
 (40254, 22485114, 4, '2018-03-20T18:36:34', 'sethvargo', 'https://github.com/hashicorp/hcl/pull/242'),
+(40255, 22485114, 2, '2019-06-11T12:32:19', 'langmartin', 'https://github.com/hashicorp/hcl/pull/277'),
+(5462, 98789146, 4, '2019-03-22T20:34:04', 'fforres', 'https://github.com/segmentio/evergreen/pull/528'),
 (5469, 98789146, 3, '2019-06-17T14:35:33', 'maraisr', 'https://github.com/segmentio/evergreen/pull/570'),
 (5474, 98789146, 4, '2019-11-13T16:00:37', 'IdealSystemsMCP', 'https://github.com/segmentio/evergreen/pull/678'),
-(40255, 22485114, 2, '2019-06-11T12:32:19', 'langmartin', 'https://github.com/hashicorp/hcl/pull/277'),
 (5461, 98789146, 4, '2020-07-06T14:34:47', 'Chrischuck', 'https://github.com/segmentio/evergreen/pull/849'),
-(5462, 98789146, 4, '2019-03-22T20:34:04', 'fforres', 'https://github.com/segmentio/evergreen/pull/528'),
 (5465, 98789146, 4, '2020-09-02T01:17:14', 'tusharf5', 'https://github.com/segmentio/evergreen/pull/962'),
 (5466, 98789146, 4, '2020-02-04T16:43:17', 'tusbar', 'https://github.com/segmentio/evergreen/pull/686'),
 (5467, 98789146, 4, '2020-01-18T00:03:03', 'notfelineit', 'https://github.com/segmentio/evergreen/pull/706'),
