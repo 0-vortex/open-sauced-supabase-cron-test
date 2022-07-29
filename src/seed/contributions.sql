@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T08:51:51.111Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T10:51:18.034Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1618,7 +1618,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9082, 19872456, 4, '2022-02-22T21:37:17', 'chaance', 'https://github.com/remix-run/react-router/pull/8678'),
 (9071, 19872456, 4, '2022-02-22T17:41:07', 'mcansh', 'https://github.com/remix-run/react-router/pull/8656'),
 (9091, 19872456, 4, '2021-10-14T09:55:07', 'mjackson', 'https://github.com/remix-run/react-router/pull/8087'),
-(9075, 19872456, 4, '2019-06-18T15:23:36', 'pshrmn', 'https://github.com/remix-run/react-router/pull/6798'),
 (3928, 40892817, 4, '2022-06-07T15:22:52', 'christianparpart', 'https://github.com/ethereum/solidity/pull/13102'),
 (8507, 141334515, 1, '2019-03-25T01:26:53', 'Thunderbottom', 'https://github.com/kormyen/memex/pull/11'),
 (730, 88011908, 1, '2019-04-22T23:36:36', 'tuvtran', 'https://github.com/practical-tutorials/project-based-learning/pull/167'),
@@ -1626,6 +1625,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (754, 88011908, 2, '2017-06-26T00:59:26', 'dmushail', 'https://github.com/practical-tutorials/project-based-learning/pull/31'),
 (756, 88011908, 2, '2021-08-25T21:23:09', 'spekulatius', 'https://github.com/practical-tutorials/project-based-learning/pull/258'),
 (314, 11981144, 4, '2021-11-22T10:24:48', 'plumaj', 'https://github.com/languagetool-org/languagetool/pull/6052'),
+(9075, 19872456, 4, '2019-06-18T15:23:36', 'pshrmn', 'https://github.com/remix-run/react-router/pull/6798'),
 (16606, 213043312, 1, '2021-07-08T11:19:02', 'ildar-shaimordanov', 'https://github.com/pemistahl/grex/pull/43'),
 (16611, 213043312, 1, '2019-10-09T19:33:26', 'alarsyo', 'https://github.com/pemistahl/grex/pull/3'),
 (16610, 213043312, 2, '2022-04-12T19:25:05', 'jqnatividad', 'https://github.com/pemistahl/grex/pull/68'),
@@ -7830,7 +7830,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12857, 129934884, 2, '2019-06-14T20:59:54', 'tmds', 'https://github.com/dotnet/command-line-api/pull/553'),
 (12853, 129934884, 4, '2019-05-04T20:38:45', 'jeredm', 'https://github.com/dotnet/command-line-api/pull/507'),
 (12858, 129934884, 4, '2020-09-04T00:14:33', 'KathleenDollard', 'https://github.com/dotnet/command-line-api/pull/1032'),
-(12855, 129934884, 4, '2020-12-10T00:21:16', 'pieter-venter', 'https://github.com/dotnet/command-line-api/pull/1110'),
 (12863, 129934884, 4, '2021-08-18T01:51:59', 'brettfo', 'https://github.com/dotnet/command-line-api/pull/1378'),
 (12862, 129934884, 4, '2020-04-17T17:52:20', 'tannergooding', 'https://github.com/dotnet/command-line-api/pull/865'),
 (12851, 129934884, 4, '2018-07-06T19:48:54', 'SteveByerly', 'https://github.com/dotnet/command-line-api/pull/150'),
@@ -8310,6 +8309,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24513, 93611204, 4, '2021-10-13T10:03:19', 'kellylee-gds', 'https://github.com/alphagov/govuk-design-system/pull/1927'),
 (24514, 93611204, 4, '2022-05-19T16:13:02', 'StephenGill', 'https://github.com/alphagov/govuk-design-system/pull/2182'),
 (24515, 93611204, 4, '2021-12-07T16:33:58', 'CharlotteDowns', 'https://github.com/alphagov/govuk-design-system/pull/1964'),
+(12855, 129934884, 4, '2020-12-10T00:21:16', 'pieter-venter', 'https://github.com/dotnet/command-line-api/pull/1110'),
 (24516, 93611204, 4, '2020-12-21T09:51:58', 'm-green', 'https://github.com/alphagov/govuk-design-system/pull/1435'),
 (24517, 93611204, 4, '2022-05-26T12:29:35', 'frankieroberto', 'https://github.com/alphagov/govuk-design-system/pull/2157'),
 (24518, 93611204, 4, '2022-05-20T14:51:23', 'lfdebrux', 'https://github.com/alphagov/govuk-design-system/pull/2200'),
