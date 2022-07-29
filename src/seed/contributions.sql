@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T13:23:55.520Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-29T14:46:47.651Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -653,11 +653,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (39702, 484251804, 1, '2022-06-23T02:09:42', 'fredtheflat', 'https://github.com/apache/incubator-devlake-website/pull/89'),
 (39703, 22652910, 1, '2015-06-26T15:17:11', 'bitfed', 'https://github.com/ruipgil/scraperjs/pull/39'),
 (39699, 484251804, 1, '2022-05-20T04:13:16', 'SuperSupeng', 'https://github.com/apache/incubator-devlake-website/pull/30'),
+(39700, 484251804, 3, '2022-07-11T09:47:44', 'likyh', 'https://github.com/apache/incubator-devlake-website/pull/111'),
 (2601, 141183500, 4, '2019-10-16T13:23:53', 'GovanifY', 'https://github.com/Xeeynamo/OpenKh/pull/41'),
 (2727, 13825712, 2, '2020-04-21T12:17:48', 'Woland2k', 'https://github.com/VirtoCommerce/vc-platform/pull/1841'),
 (2734, 13825712, 2, '2019-01-23T13:17:47', 'Andrew-Orlov', 'https://github.com/VirtoCommerce/vc-platform/pull/1508'),
 (2593, 141183500, 1, '2021-06-30T16:12:52', 'Noxalus', 'https://github.com/Xeeynamo/OpenKh/pull/485'),
-(39700, 484251804, 3, '2022-07-11T09:47:44', 'likyh', 'https://github.com/apache/incubator-devlake-website/pull/111'),
 (965, 195162469, 1, '2020-10-20T13:32:11', 'Sridhar-Sukumar', 'https://github.com/syncfusion/flutter-examples/pull/231'),
 (2748, 13825712, 4, '2021-02-16T08:33:19', 'kostyrin', 'https://github.com/VirtoCommerce/vc-platform/pull/2154'),
 (11910, 10865436, 1, '2014-06-19T17:31:41', 'stavrossk', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/159'),
@@ -6132,17 +6132,17 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5183, 120595947, 1, '2018-04-29T22:39:06', 'AlexanderThaller', 'https://github.com/hello-rust/show/pull/30'),
 (5182, 120595947, 1, '2018-09-05T20:18:51', 'euantorano', 'https://github.com/hello-rust/show/pull/46'),
 (5187, 120595947, 1, '2020-08-09T11:14:39', 'chapeupreto', 'https://github.com/hello-rust/show/pull/64'),
+(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
 (8817, 391425543, 1, '2021-12-12T17:00:40', 'Reeywhaar', 'https://github.com/heyitsarpit/react-hooks-library/pull/21'),
 (8625, 128265535, 4, '2021-02-18T13:59:55', 'GeoFrau', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1151'),
 (22513, 9312102, 2, '2020-04-12T23:10:35', 'punchagan', 'https://github.com/arc298/instagram-scraper/pull/494'),
+(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
 (38626, 166831098, 4, '2022-07-27T14:20:18', 'warber', 'https://github.com/keptn/keptn/pull/8518'),
 (38629, 166831098, 4, '2022-07-18T13:20:07', 'keptn-bot', 'https://github.com/keptn/keptn/pull/8454'),
 (12242, 9746477, 1, '2015-12-30T08:07:23', 'thraex41', 'https://github.com/sonic-pi-net/sonic-pi/pull/799'),
 (5189, 120595947, 1, '2018-11-28T13:16:40', 'la10736', 'https://github.com/hello-rust/show/pull/50'),
 (5186, 120595947, 1, '2018-05-13T20:20:17', 'barskern', 'https://github.com/hello-rust/show/pull/31'),
 (5188, 120595947, 1, '2019-11-15T15:12:55', 'TGotwig', 'https://github.com/hello-rust/show/pull/54'),
-(8816, 204145056, 1, '2019-08-26T13:45:30', 'LeFizzy', 'https://github.com/themesberg/windows-95-ui-kit/pull/1'),
-(8818, 391425543, 4, '2021-10-08T10:40:07', 'heyitsarpit', 'https://github.com/heyitsarpit/react-hooks-library/pull/18'),
 (2930, 61893399, 2, '2020-02-18T15:39:47', 'amirhossein693', 'https://github.com/brillout/awesome-react-components/pull/203'),
 (2914, 61893399, 2, '2019-05-28T02:13:58', 'antonfisher', 'https://github.com/brillout/awesome-react-components/pull/97'),
 (2925, 61893399, 2, '2020-01-20T19:04:55', 'device25', 'https://github.com/brillout/awesome-react-components/pull/188'),
@@ -8821,8 +8821,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (854, 67375557, 2, '2020-10-06T19:59:40', 'santoshyadavdev', 'https://github.com/mgechev/angular-performance-checklist/pull/49'),
 (860, 67375557, 2, '2016-09-07T21:06:22', 'areai51', 'https://github.com/mgechev/angular-performance-checklist/pull/3'),
 (857, 67375557, 2, '2017-10-30T22:46:36', 'tytskyi', 'https://github.com/mgechev/angular-performance-checklist/pull/13'),
-(858, 67375557, 1, '2018-05-14T14:11:37', 'leocaseiro', 'https://github.com/mgechev/angular-performance-checklist/pull/18'),
 (856, 67375557, 1, '2019-03-22T16:32:44', 'ZQ-jhon', 'https://github.com/mgechev/angular-performance-checklist/pull/34'),
+(858, 67375557, 1, '2018-05-14T14:11:37', 'leocaseiro', 'https://github.com/mgechev/angular-performance-checklist/pull/18'),
 (36622, 84529065, 1, '2021-06-22T21:09:29', 'nctisz', 'https://github.com/zeshan321/ActionHealth/pull/40'),
 (932, 1446467, 4, '2016-08-12T09:55:12', 'msabramo', 'https://github.com/pypa/pip/pull/3773'),
 (927, 1446467, 4, '2013-10-06T02:13:10', 'pnasrat', 'https://github.com/pypa/pip/pull/1215'),
