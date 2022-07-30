@@ -8257,6 +8257,7 @@ id,repo_id,count,last_merged_at,contributor,url
 4304,370668507,1,2022-02-24T12:17:52,ohkinozomu,https://github.com/rhysd/actionlint/pull/105
 4301,370668507,1,2022-02-24T11:55:39,jsok,https://github.com/rhysd/actionlint/pull/107
 5986,31168578,2,2016-06-10T05:04:13,marcusradell,https://github.com/hemanth/functional-programming-jargon/pull/45
+24443,428683203,1,2022-04-28T00:12:05,ArmiNouri,https://github.com/jpmorganchase/SFinX/pull/1
 24461,235133242,1,2022-01-12T13:53:15,judofyr,https://github.com/sanity-io/mendoza/pull/6
 24540,711976,4,2022-07-08T19:32:25,oscard0m,https://github.com/octokit/octokit.js/pull/2248
 33859,711976,1,2022-06-26T22:01:20,marcjansen,https://github.com/octokit/octokit.js/pull/2236
@@ -8269,7 +8270,6 @@ id,repo_id,count,last_merged_at,contributor,url
 4497,276414382,1,2021-04-05T17:55:13,nmashewske,https://github.com/microsoft/playwright-python/pull/612
 8999,230327376,2,2020-01-03T06:01:56,dudrl0944,https://github.com/ErikCH/DevYouTubeList/pull/54
 9006,230327376,2,2020-02-19T04:53:09,BOLT04,https://github.com/ErikCH/DevYouTubeList/pull/111
-24443,428683203,1,2022-04-28T00:12:05,ArmiNouri,https://github.com/jpmorganchase/SFinX/pull/1
 24460,235133242,1,2021-12-15T10:59:46,rubioz,https://github.com/sanity-io/mendoza/pull/4
 24463,235133242,1,2021-11-10T12:31:54,rexxars,https://github.com/sanity-io/mendoza/pull/3
 24462,235133242,1,2021-08-24T11:50:26,j33ty,https://github.com/sanity-io/mendoza/pull/2
