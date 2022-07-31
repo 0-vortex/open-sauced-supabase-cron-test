@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T18:50:33.710Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T20:46:55.783Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -325,8 +325,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (679, 75024875, 1, '2021-11-30T13:33:28', 'ChrisKader', 'https://github.com/Hekili/hekili/pull/1296'),
 (680, 75024875, 3, '2018-01-11T23:37:37', 'talst', 'https://github.com/Hekili/hekili/pull/4'),
 (681, 75024875, 1, '2021-12-28T13:10:11', 'FireSiku', 'https://github.com/Hekili/hekili/pull/1323'),
-(682, 75024875, 1, '2021-08-04T15:53:16', 'UFTimmy', 'https://github.com/Hekili/hekili/pull/1167'),
 (683, 75024875, 1, '2018-04-01T13:32:55', 'Marakuja', 'https://github.com/Hekili/hekili/pull/10'),
+(682, 75024875, 1, '2021-08-04T15:53:16', 'UFTimmy', 'https://github.com/Hekili/hekili/pull/1167'),
 (684, 75024875, 1, '2020-11-18T15:44:15', 'Mitalie', 'https://github.com/Hekili/hekili/pull/528'),
 (685, 75024875, 1, '2021-11-13T15:26:08', 'Nmxsz', 'https://github.com/Hekili/hekili/pull/1279'),
 (691, 75024875, 2, '2021-01-22T12:35:16', 'choseh', 'https://github.com/Hekili/hekili/pull/864'),
