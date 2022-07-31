@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T05:00:31.739Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T06:52:06.148Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -840,9 +840,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1709, 27817031, 3, '2017-01-13T12:29:29', 'tchama', 'https://github.com/understrap/understrap/pull/214'),
 (37263, 35015575, 3, '2019-10-01T04:49:09', 'RecoX', 'https://github.com/webtorrent/webtorrent-desktop/pull/1715'),
 (1693, 27817031, 2, '2019-02-12T08:16:54', 'stevygee', 'https://github.com/understrap/understrap/pull/915'),
-(37264, 35015575, 3, '2016-03-28T05:05:47', 'rom1504', 'https://github.com/webtorrent/webtorrent-desktop/pull/250'),
 (37265, 35015575, 1, '2020-11-23T02:11:35', 'surajrathod', 'https://github.com/webtorrent/webtorrent-desktop/pull/1818'),
 (37266, 35015575, 1, '2018-10-07T18:27:33', 'clujin', 'https://github.com/webtorrent/webtorrent-desktop/pull/1494'),
+(37264, 35015575, 3, '2016-03-28T05:05:47', 'rom1504', 'https://github.com/webtorrent/webtorrent-desktop/pull/250'),
 (2846, 18609427, 4, '2022-07-13T21:46:38', 'ljharb', 'https://github.com/tc39/ecma262/pull/2827'),
 (2832, 18609427, 4, '2022-01-05T23:09:25', 'mathiasbynens', 'https://github.com/tc39/ecma262/pull/2515'),
 (2844, 18609427, 4, '2021-02-11T23:43:03', 'rkirsling', 'https://github.com/tc39/ecma262/pull/2221'),
@@ -3096,8 +3096,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3813, 96395, 1, '2015-11-02T22:34:13', 'npauzenga', 'https://github.com/faker-ruby/faker/pull/447'),
 (3814, 96395, 4, '2020-10-28T07:24:22', 'amatsuda', 'https://github.com/faker-ruby/faker/pull/2182'),
 (3815, 96395, 4, '2018-07-12T17:13:41', 'tagliala', 'https://github.com/faker-ruby/faker/pull/1311'),
-(3816, 96395, 1, '2020-05-20T08:33:05', 'mattman', 'https://github.com/faker-ruby/faker/pull/1964'),
 (3817, 96395, 4, '2019-12-07T00:24:54', 'tiagofsilva', 'https://github.com/faker-ruby/faker/pull/1847'),
+(3816, 96395, 1, '2020-05-20T08:33:05', 'mattman', 'https://github.com/faker-ruby/faker/pull/1964'),
 (3818, 96395, 4, '2017-03-18T22:17:35', 'PascalSchumacher', 'https://github.com/faker-ruby/faker/pull/847'),
 (3819, 96395, 1, '2016-02-21T04:14:46', 'bryanmytko', 'https://github.com/faker-ruby/faker/pull/494'),
 (3820, 96395, 4, '2022-05-15T22:33:11', 'sudeeptarlekar', 'https://github.com/faker-ruby/faker/pull/2488'),
