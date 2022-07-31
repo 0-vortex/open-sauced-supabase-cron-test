@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T08:49:28.410Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-31T10:47:27.642Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6776,8 +6776,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12164, 10126031, 4, '2022-01-03T09:30:15', 'sblaisot', 'https://github.com/mixxxdj/mixxx/pull/4596'),
 (12165, 10126031, 4, '2020-12-21T17:41:56', 'JosepMaJAZ', 'https://github.com/mixxxdj/mixxx/pull/3471'),
 (6000, 31168578, 1, '2016-02-29T10:15:12', 'ethagnawl', 'https://github.com/hemanth/functional-programming-jargon/pull/24'),
-(5985, 31168578, 1, '2015-06-23T06:24:43', 'therealklanni', 'https://github.com/hemanth/functional-programming-jargon/pull/4'),
 (5974, 31168578, 1, '2018-10-07T03:13:17', 'alivenotions', 'https://github.com/hemanth/functional-programming-jargon/pull/188'),
+(5985, 31168578, 1, '2015-06-23T06:24:43', 'therealklanni', 'https://github.com/hemanth/functional-programming-jargon/pull/4'),
 (40260, 22485114, 2, '2020-08-24T17:53:11', 'wata727', 'https://github.com/hashicorp/hcl/pull/389'),
 (40263, 22485114, 2, '2016-06-21T20:42:41', 'dcarley', 'https://github.com/hashicorp/hcl/pull/117'),
 (12166, 10126031, 4, '2022-04-04T09:00:48', 'Swiftb0y', 'https://github.com/mixxxdj/mixxx/pull/4706'),
@@ -7018,8 +7018,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (22299, 331251392, 1, '2021-12-16T20:15:15', 'ghoshnirmalya', 'https://github.com/contentlayerdev/contentlayer/pull/74'),
 (3025, 100060912, 4, '2021-10-12T18:00:06', 'mpela81', 'https://github.com/microsoft/terminal/pull/11485'),
 (3038, 100060912, 4, '2020-07-17T19:27:33', 'jtippet', 'https://github.com/microsoft/terminal/pull/6965'),
-(3036, 100060912, 4, '2022-06-01T17:47:23', 'lhecker', 'https://github.com/microsoft/terminal/pull/13212'),
 (3657, 261861733, 4, '2022-02-11T21:13:10', 'soumik12345', 'https://github.com/keras-team/keras-io/pull/803'),
+(3036, 100060912, 4, '2022-06-01T17:47:23', 'lhecker', 'https://github.com/microsoft/terminal/pull/13212'),
 (3639, 261861733, 4, '2021-08-10T19:57:58', '8bitmp3', 'https://github.com/keras-team/keras-io/pull/585'),
 (3642, 261861733, 3, '2020-08-27T22:39:33', 'mjang2000', 'https://github.com/keras-team/keras-io/pull/231'),
 (3645, 261861733, 4, '2021-11-11T17:35:08', 'DarshanDeshpande', 'https://github.com/keras-team/keras-io/pull/685'),
