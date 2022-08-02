@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-02T03:33:52.708Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-02T05:04:59.488Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1954,6 +1954,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4948, 72931382, 2, '2021-07-21T08:01:06', 'Cherry', 'https://github.com/vuelidate/vuelidate/pull/888'),
 (4954, 72931382, 1, '2021-10-03T07:59:33', 'subvertallchris', 'https://github.com/vuelidate/vuelidate/pull/941'),
 (4955, 72931382, 1, '2021-12-16T20:38:41', 'BobbieGoede', 'https://github.com/vuelidate/vuelidate/pull/986'),
+(4951, 72931382, 1, '2019-08-08T20:55:03', 'manniL', 'https://github.com/vuelidate/vuelidate/pull/520'),
 (4953, 72931382, 1, '2021-08-01T14:34:17', 'iamandrewluca', 'https://github.com/vuelidate/vuelidate/pull/909'),
 (4946, 72931382, 1, '2017-12-06T20:10:08', 'JacobBennett', 'https://github.com/vuelidate/vuelidate/pull/221'),
 (4941, 72931382, 2, '2022-03-27T10:30:33', 'chalkygames123', 'https://github.com/vuelidate/vuelidate/pull/1004'),
@@ -1985,7 +1986,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2542, 9393759, 4, '2019-04-08T11:18:10', 'pixelpicosean', 'https://github.com/photonstorm/phaser/pull/3979'),
 (2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4'),
 (2545, 9393759, 4, '2020-04-27T12:54:26', 'jorbascrumps', 'https://github.com/photonstorm/phaser/pull/4618'),
-(4951, 72931382, 1, '2019-08-08T20:55:03', 'manniL', 'https://github.com/vuelidate/vuelidate/pull/520'),
 (2546, 9393759, 1, '2019-11-18T21:47:27', 'jsoref', 'https://github.com/photonstorm/phaser/pull/4829'),
 (2547, 9393759, 4, '2017-01-18T11:27:26', 'vbornand', 'https://github.com/photonstorm/phaser/pull/2969'),
 (2550, 9393759, 4, '2018-03-05T21:54:47', 'Twilrom', 'https://github.com/photonstorm/phaser/pull/3240'),
@@ -7676,8 +7676,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16595, 6750158, 1, '2018-05-11T02:00:53', 'jurassix', 'https://github.com/mgechev/javascript-algorithms/pull/141'),
 (16589, 6750158, 1, '2016-06-10T05:26:24', 'amilajack', 'https://github.com/mgechev/javascript-algorithms/pull/97'),
 (16591, 6750158, 1, '2019-11-25T14:53:51', 'BryanChan777', 'https://github.com/mgechev/javascript-algorithms/pull/164'),
-(16590, 6750158, 1, '2018-01-03T13:09:13', 'BorislavBorisov22', 'https://github.com/mgechev/javascript-algorithms/pull/136'),
 (16596, 6750158, 2, '2019-11-08T15:52:25', 'Nirajkashyap', 'https://github.com/mgechev/javascript-algorithms/pull/163'),
+(16590, 6750158, 1, '2018-01-03T13:09:13', 'BorislavBorisov22', 'https://github.com/mgechev/javascript-algorithms/pull/136'),
 (5772, 138754790, 4, '2022-07-23T13:45:58', 'Tishj', 'https://github.com/duckdb/duckdb/pull/4188'),
 (16593, 6750158, 2, '2020-04-07T17:26:47', 'duffman85', 'https://github.com/mgechev/javascript-algorithms/pull/158'),
 (5792, 138754790, 4, '2022-07-11T03:35:09', 'Jens-H', 'https://github.com/duckdb/duckdb/pull/4083'),
