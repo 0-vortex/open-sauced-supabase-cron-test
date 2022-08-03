@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T06:48:29.973Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T08:49:21.753Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5416,8 +5416,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (12224, 9746477, 4, '2022-07-07T07:00:00', 'nicoder', 'https://github.com/sonic-pi-net/sonic-pi/pull/3119'),
 (12227, 9746477, 4, '2022-02-13T16:31:32', 'ethancrawford', 'https://github.com/sonic-pi-net/sonic-pi/pull/3005'),
 (23101, 27193779, 4, '2022-06-17T08:49:23', 'lpinca', 'https://github.com/nodejs/node/pull/43445'),
-(12223, 124910572, 4, '2020-03-04T20:47:57', 'ahal', 'https://github.com/mozilla/bugbug/pull/1367'),
 (23104, 27193779, 4, '2022-03-07T22:26:09', 'mscdex', 'https://github.com/nodejs/node/pull/42153'),
+(12223, 124910572, 4, '2020-03-04T20:47:57', 'ahal', 'https://github.com/mozilla/bugbug/pull/1367'),
 (23072, 240574799, 4, '2020-02-24T13:05:39', 'bigx333', 'https://github.com/devato/inertia_phoenix/pull/26'),
 (11593, 375445655, 1, '2021-06-18T17:25:59', 'amlarraz', 'https://github.com/facebookresearch/AugLy/pull/26'),
 (11594, 375445655, 1, '2021-07-20T21:25:38', 'hazirbas', 'https://github.com/facebookresearch/AugLy/pull/84'),
@@ -8879,8 +8879,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (38644, 166831098, 4, '2022-07-29T06:40:03', 'renepanzar', 'https://github.com/keptn/keptn/pull/8538'),
 (39665, 399775320, 1, '2022-07-07T07:44:05', 'shefalika-thapa', 'https://github.com/zinggAI/zingg/pull/381'),
 (518, 175405157, 4, '2022-07-29T07:49:28', 'lnu', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2590'),
-(529, 175405157, 4, '2021-09-21T18:11:39', 'NickCraver', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/981'),
 (8779, 13601190, 2, '2017-10-30T19:28:53', 'backtick', 'https://github.com/agentejo/cockpit/pull/593'),
+(529, 175405157, 4, '2021-09-21T18:11:39', 'NickCraver', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/981'),
 (8790, 13601190, 2, '2020-11-16T10:14:58', 'patrickuhlmann', 'https://github.com/agentejo/cockpit/pull/1374'),
 (8781, 13601190, 2, '2014-07-15T22:22:12', 'kinolaev', 'https://github.com/agentejo/cockpit/pull/119'),
 (8784, 13601190, 4, '2014-11-09T18:26:46', 'sergeypavlenko', 'https://github.com/agentejo/cockpit/pull/208'),
