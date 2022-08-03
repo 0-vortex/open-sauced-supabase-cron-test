@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T01:05:50.775Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T03:29:36.062Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2244,6 +2244,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2, 278335273, 4, '2021-01-27T07:11:22', 'nathanchu', 'https://github.com/anuraghazra/github-readme-stats/pull/620'),
 (2127, 57939112, 4, '2022-04-04T17:26:11', 'dims', 'https://github.com/kubernetes/community/pull/6551'),
 (23093, 32623292, 2, '2017-03-01T22:26:19', 'tsasioglu', 'https://github.com/basarat/typescript-book/pull/243'),
+(23094, 32623292, 1, '2017-04-12T04:49:49', 'felixbillon', 'https://github.com/basarat/typescript-book/pull/265'),
 (23095, 32623292, 4, '2017-07-07T06:56:34', 'jquintozamora', 'https://github.com/basarat/typescript-book/pull/301'),
 (23096, 32623292, 4, '2017-05-31T23:51:00', 'Drake-Eidukas', 'https://github.com/basarat/typescript-book/pull/292'),
 (23097, 32623292, 4, '2020-05-18T19:07:22', 'UppaJung', 'https://github.com/basarat/typescript-book/pull/582'),
@@ -2625,7 +2626,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3282, 280531604, 4, '2021-11-09T19:00:50', 'NicollGuarnizo', 'https://github.com/eggheadio/egghead-next/pull/959'),
 (3260, 280531604, 2, '2021-01-06T13:22:11', 'laurieontech', 'https://github.com/eggheadio/egghead-next/pull/259'),
 (3273, 280531604, 4, '2020-11-12T06:57:48', 'johnlindquist', 'https://github.com/eggheadio/egghead-next/pull/158'),
-(23094, 32623292, 1, '2017-04-12T04:49:49', 'felixbillon', 'https://github.com/basarat/typescript-book/pull/265'),
 (3270, 280531604, 4, '2021-08-24T04:02:48', 'ParkerGits', 'https://github.com/eggheadio/egghead-next/pull/839'),
 (3252, 280531604, 1, '2021-11-22T07:49:53', 'LyssenkoAlex', 'https://github.com/eggheadio/egghead-next/pull/969'),
 (3256, 280531604, 1, '2021-02-16T19:34:52', 'mikesherov', 'https://github.com/eggheadio/egghead-next/pull/444'),
