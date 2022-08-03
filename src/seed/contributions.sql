@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T08:49:21.753Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-03T10:45:49.788Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4616,8 +4616,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4678, 4558079, 1, '2014-05-20T09:24:30', 'miurahr', 'https://github.com/garethr/vagrantboxes-heroku/pull/269'),
 (4676, 4558079, 3, '2014-12-31T20:17:27', 'arkadijs', 'https://github.com/garethr/vagrantboxes-heroku/pull/344'),
 (4671, 4558079, 4, '2015-09-13T15:13:05', 'wunki', 'https://github.com/garethr/vagrantboxes-heroku/pull/392'),
-(4672, 4558079, 1, '2014-07-25T22:08:52', 'deanmalmgren', 'https://github.com/garethr/vagrantboxes-heroku/pull/309'),
 (4675, 4558079, 3, '2013-05-18T13:09:26', 'grahamc', 'https://github.com/garethr/vagrantboxes-heroku/pull/139'),
+(4672, 4558079, 1, '2014-07-25T22:08:52', 'deanmalmgren', 'https://github.com/garethr/vagrantboxes-heroku/pull/309'),
 (4679, 4558079, 2, '2014-05-19T18:38:24', 'jiko', 'https://github.com/garethr/vagrantboxes-heroku/pull/262'),
 (4680, 4558079, 1, '2012-07-22T09:33:56', 'jtperry', 'https://github.com/garethr/vagrantboxes-heroku/pull/20'),
 (4674, 4558079, 4, '2016-12-28T21:43:54', 'jose-lpa', 'https://github.com/garethr/vagrantboxes-heroku/pull/427'),
@@ -8879,8 +8879,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (38644, 166831098, 4, '2022-07-29T06:40:03', 'renepanzar', 'https://github.com/keptn/keptn/pull/8538'),
 (39665, 399775320, 1, '2022-07-07T07:44:05', 'shefalika-thapa', 'https://github.com/zinggAI/zingg/pull/381'),
 (518, 175405157, 4, '2022-07-29T07:49:28', 'lnu', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2590'),
-(8779, 13601190, 2, '2017-10-30T19:28:53', 'backtick', 'https://github.com/agentejo/cockpit/pull/593'),
 (529, 175405157, 4, '2021-09-21T18:11:39', 'NickCraver', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/981'),
+(8779, 13601190, 2, '2017-10-30T19:28:53', 'backtick', 'https://github.com/agentejo/cockpit/pull/593'),
 (8790, 13601190, 2, '2020-11-16T10:14:58', 'patrickuhlmann', 'https://github.com/agentejo/cockpit/pull/1374'),
 (8781, 13601190, 2, '2014-07-15T22:22:12', 'kinolaev', 'https://github.com/agentejo/cockpit/pull/119'),
 (8784, 13601190, 4, '2014-11-09T18:26:46', 'sergeypavlenko', 'https://github.com/agentejo/cockpit/pull/208'),
