@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T14:44:28.567Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T16:54:00.427Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7203,8 +7203,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9040, 44150497, 1, '2015-11-30T21:59:47', 'igmoweb', 'https://github.com/remoteintech/remote-jobs/pull/159'),
 (9036, 44150497, 1, '2021-11-02T09:29:35', 'Nathan-Abegaz', 'https://github.com/remoteintech/remote-jobs/pull/1328'),
 (9029, 44150497, 1, '2021-10-27T21:42:28', 's4ik4t', 'https://github.com/remoteintech/remote-jobs/pull/1225'),
-(9035, 44150497, 1, '2021-06-10T21:10:33', 'ehmo', 'https://github.com/remoteintech/remote-jobs/pull/1182'),
 (9033, 44150497, 2, '2021-10-23T17:51:43', 'rodrigok', 'https://github.com/remoteintech/remote-jobs/pull/1299'),
+(9035, 44150497, 1, '2021-06-10T21:10:33', 'ehmo', 'https://github.com/remoteintech/remote-jobs/pull/1182'),
 (9038, 44150497, 4, '2017-11-03T08:45:51', 'outkaj', 'https://github.com/remoteintech/remote-jobs/pull/358'),
 (9030, 44150497, 3, '2022-03-14T16:49:54', 'micheleorselli', 'https://github.com/remoteintech/remote-jobs/pull/1352'),
 (2568, 250348566, 2, '2021-11-07T06:29:47', 'JanStorm', 'https://github.com/Sithira/FlutterRadioPlayer/pull/40'),
@@ -8262,7 +8262,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4304, 370668507, 1, '2022-02-24T12:17:52', 'ohkinozomu', 'https://github.com/rhysd/actionlint/pull/105'),
 (4301, 370668507, 1, '2022-02-24T11:55:39', 'jsok', 'https://github.com/rhysd/actionlint/pull/107'),
 (33859, 711976, 1, '2022-06-26T22:01:20', 'marcjansen', 'https://github.com/octokit/octokit.js/pull/2236'),
-(24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
 (24464, 194835924, 3, '2019-09-25T07:42:57', 'judofyr', 'https://github.com/sanity-io/groq-cli/pull/5'),
 (8616, 128265535, 4, '2020-05-01T20:02:03', 'vcanaa', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/937'),
 (8624, 128265535, 3, '2019-04-11T16:31:14', 'deci-ftw', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/478'),
@@ -8288,6 +8287,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (24551, 711976, 1, '2021-04-27T17:55:33', 'jeffmcaffer', 'https://github.com/octokit/octokit.js/pull/2080'),
 (714, 48393191, 1, '2017-06-20T21:33:50', 'dnlbyl', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/128'),
 (704, 48393191, 1, '2016-11-29T14:02:49', 'felipefzdz', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/60'),
+(24443, 428683203, 1, '2022-04-28T00:12:05', 'ArmiNouri', 'https://github.com/jpmorganchase/SFinX/pull/1'),
 (9006, 230327376, 2, '2020-02-19T04:53:09', 'BOLT04', 'https://github.com/ErikCH/DevYouTubeList/pull/111'),
 (24462, 235133242, 1, '2021-08-24T11:50:26', 'j33ty', 'https://github.com/sanity-io/mendoza/pull/2'),
 (24463, 235133242, 1, '2021-11-10T12:31:54', 'rexxars', 'https://github.com/sanity-io/mendoza/pull/3'),

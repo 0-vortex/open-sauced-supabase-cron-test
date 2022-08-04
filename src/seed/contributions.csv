@@ -8257,7 +8257,6 @@ id,repo_id,count,last_merged_at,contributor,url
 4304,370668507,1,2022-02-24T12:17:52,ohkinozomu,https://github.com/rhysd/actionlint/pull/105
 4301,370668507,1,2022-02-24T11:55:39,jsok,https://github.com/rhysd/actionlint/pull/107
 33859,711976,1,2022-06-26T22:01:20,marcjansen,https://github.com/octokit/octokit.js/pull/2236
-24443,428683203,1,2022-04-28T00:12:05,ArmiNouri,https://github.com/jpmorganchase/SFinX/pull/1
 24464,194835924,3,2019-09-25T07:42:57,judofyr,https://github.com/sanity-io/groq-cli/pull/5
 8616,128265535,4,2020-05-01T20:02:03,vcanaa,https://github.com/GoogleCloudPlatform/click-to-deploy/pull/937
 8624,128265535,3,2019-04-11T16:31:14,deci-ftw,https://github.com/GoogleCloudPlatform/click-to-deploy/pull/478
@@ -8283,6 +8282,7 @@ id,repo_id,count,last_merged_at,contributor,url
 24551,711976,1,2021-04-27T17:55:33,jeffmcaffer,https://github.com/octokit/octokit.js/pull/2080
 714,48393191,1,2017-06-20T21:33:50,dnlbyl,https://github.com/nebula-plugins/gradle-lint-plugin/pull/128
 704,48393191,1,2016-11-29T14:02:49,felipefzdz,https://github.com/nebula-plugins/gradle-lint-plugin/pull/60
+24443,428683203,1,2022-04-28T00:12:05,ArmiNouri,https://github.com/jpmorganchase/SFinX/pull/1
 9006,230327376,2,2020-02-19T04:53:09,BOLT04,https://github.com/ErikCH/DevYouTubeList/pull/111
 24462,235133242,1,2021-08-24T11:50:26,j33ty,https://github.com/sanity-io/mendoza/pull/2
 24463,235133242,1,2021-11-10T12:31:54,rexxars,https://github.com/sanity-io/mendoza/pull/3
