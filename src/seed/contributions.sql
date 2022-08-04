@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T04:58:59.751Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T06:49:13.764Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4014,8 +4014,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3676, 5405654, 4, '2013-03-20T22:25:05', 'aschrab', 'https://github.com/pcottle/learnGitBranching/pull/78'),
 (3667, 5405654, 4, '2018-10-24T15:52:11', 'PanAeon', 'https://github.com/pcottle/learnGitBranching/pull/493'),
 (3673, 5405654, 4, '2021-12-01T15:06:54', 'waldyrious', 'https://github.com/pcottle/learnGitBranching/pull/902'),
-(3679, 5405654, 3, '2021-08-14T16:02:59', 'Qusijue', 'https://github.com/pcottle/learnGitBranching/pull/876'),
 (3682, 5405654, 1, '2017-01-28T18:30:14', 'lroellin', 'https://github.com/pcottle/learnGitBranching/pull/405'),
+(3679, 5405654, 3, '2021-08-14T16:02:59', 'Qusijue', 'https://github.com/pcottle/learnGitBranching/pull/876'),
 (3669, 5405654, 1, '2021-10-25T15:23:42', 'krzysiekwie', 'https://github.com/pcottle/learnGitBranching/pull/894'),
 (3671, 5405654, 1, '2014-10-13T10:50:02', 'qiansen1386', 'https://github.com/pcottle/learnGitBranching/pull/217'),
 (3680, 5405654, 3, '2014-08-14T02:06:22', 'ptsoccer', 'https://github.com/pcottle/learnGitBranching/pull/196'),
@@ -9225,14 +9225,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (963, 33820955, 2, '2016-04-25T06:19:37', 'mohammedzamakhan', 'https://github.com/timjacobi/angular-education/pull/127'),
 (969, 33820955, 1, '2017-02-02T13:19:57', 'elliotforbes', 'https://github.com/timjacobi/angular-education/pull/173'),
 (994, 33820955, 2, '2016-12-14T16:20:18', 'vuesomedev', 'https://github.com/timjacobi/angular-education/pull/168'),
+(43129, 1521554, 1, '2011-12-08T22:33:16', 'stevedoyle', 'https://github.com/mdp/gibberish/pull/5'),
+(43133, 1521554, 1, '2013-02-11T15:41:59', 'BiggerNoise', 'https://github.com/mdp/gibberish/pull/9'),
 (1012, 345922282, 2, '2022-01-30T16:46:40', 'duhaime', 'https://github.com/Saul-Mirone/milkdown/pull/325'),
 (1023, 345922282, 1, '2021-12-24T03:39:53', 'Ahmong', 'https://github.com/Saul-Mirone/milkdown/pull/242'),
-(43133, 1521554, 1, '2013-02-11T15:41:59', 'BiggerNoise', 'https://github.com/mdp/gibberish/pull/9'),
-(43129, 1521554, 1, '2011-12-08T22:33:16', 'stevedoyle', 'https://github.com/mdp/gibberish/pull/5'),
-(43130, 1521554, 1, '2019-06-18T15:59:14', '545ch4', 'https://github.com/mdp/gibberish/pull/27'),
 (43128, 1521554, 1, '2013-08-24T23:20:24', 'heisam', 'https://github.com/mdp/gibberish/pull/12'),
 (43131, 1521554, 1, '2011-11-12T22:46:23', 'grempe', 'https://github.com/mdp/gibberish/pull/4'),
 (43132, 1521554, 1, '2013-09-16T17:51:50', 'LindseyB', 'https://github.com/mdp/gibberish/pull/14'),
+(43130, 1521554, 1, '2019-06-18T15:59:14', '545ch4', 'https://github.com/mdp/gibberish/pull/27'),
 (44007, 165522651, 2, '2021-06-07T18:18:42', 'katyo', 'https://github.com/emilk/egui/pull/470'),
 (1461, 16607898, 1, '2014-08-12T05:45:40', 'kvigen', 'https://github.com/harness/drone/pull/361'),
 (1468, 16607898, 4, '2018-02-19T20:23:17', 'tonglil', 'https://github.com/harness/drone/pull/2321'),
