@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T06:49:13.764Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-04T08:49:21.962Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -381,8 +381,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (721, 106723305, 2, '2021-08-11T05:51:06', 'Abderahman88', 'https://github.com/pnp/cli-microsoft365/pull/2623'),
 (1236, 15720445, 4, '2020-02-12T19:39:17', 'agliga', 'https://github.com/marko-js/marko/pull/1499'),
 (723, 106723305, 4, '2022-04-21T09:30:02', 'waldekmastykarz', 'https://github.com/pnp/cli-microsoft365/pull/3248'),
-(37119, 261787758, 4, '2020-05-08T17:10:23', 'wmfaustino', 'https://github.com/bradtraversy/design-resources-for-developers/pull/213'),
 (725, 106723305, 1, '2020-11-05T04:37:47', 'nanddeepn', 'https://github.com/pnp/cli-microsoft365/pull/1918'),
+(37119, 261787758, 4, '2020-05-08T17:10:23', 'wmfaustino', 'https://github.com/bradtraversy/design-resources-for-developers/pull/213'),
 (727, 106723305, 4, '2019-08-15T10:32:29', 'VelinGeorgiev', 'https://github.com/pnp/cli-microsoft365/pull/1060'),
 (728, 106723305, 1, '2022-02-05T08:24:15', 'SmitaNachan', 'https://github.com/pnp/cli-microsoft365/pull/2973'),
 (1250, 15720445, 4, '2017-06-16T19:34:05', 'charlieduong94', 'https://github.com/marko-js/marko/pull/737'),
@@ -3343,8 +3343,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4069, 381979, 1, '2019-01-10T17:55:54', 'livmackintosh', 'https://github.com/fullcalendar/fullcalendar/pull/4135'),
 (4070, 381979, 1, '2019-01-10T16:49:31', 'alexander-schranz', 'https://github.com/fullcalendar/fullcalendar/pull/4233'),
 (4071, 381979, 1, '2017-07-17T18:01:15', 'nemanja947', 'https://github.com/fullcalendar/fullcalendar/pull/3656'),
-(4072, 369896619, 1, '2021-07-10T13:06:54', 'lauzaki', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/30'),
-(4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31'),
 (5497, 52342167, 1, '2017-01-31T12:42:50', 'edmcdonagh', 'https://github.com/kakoni/awesome-healthcare/pull/4'),
 (5499, 52342167, 1, '2017-04-13T23:48:17', 'jeromecc', 'https://github.com/kakoni/awesome-healthcare/pull/23'),
 (16382, 42191943, 1, '2016-11-24T21:04:39', 'xeyownt', 'https://github.com/cyrus-and/gdb-dashboard/pull/49'),
@@ -4014,8 +4012,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3676, 5405654, 4, '2013-03-20T22:25:05', 'aschrab', 'https://github.com/pcottle/learnGitBranching/pull/78'),
 (3667, 5405654, 4, '2018-10-24T15:52:11', 'PanAeon', 'https://github.com/pcottle/learnGitBranching/pull/493'),
 (3673, 5405654, 4, '2021-12-01T15:06:54', 'waldyrious', 'https://github.com/pcottle/learnGitBranching/pull/902'),
-(3682, 5405654, 1, '2017-01-28T18:30:14', 'lroellin', 'https://github.com/pcottle/learnGitBranching/pull/405'),
 (3679, 5405654, 3, '2021-08-14T16:02:59', 'Qusijue', 'https://github.com/pcottle/learnGitBranching/pull/876'),
+(3682, 5405654, 1, '2017-01-28T18:30:14', 'lroellin', 'https://github.com/pcottle/learnGitBranching/pull/405'),
 (3669, 5405654, 1, '2021-10-25T15:23:42', 'krzysiekwie', 'https://github.com/pcottle/learnGitBranching/pull/894'),
 (3671, 5405654, 1, '2014-10-13T10:50:02', 'qiansen1386', 'https://github.com/pcottle/learnGitBranching/pull/217'),
 (3680, 5405654, 3, '2014-08-14T02:06:22', 'ptsoccer', 'https://github.com/pcottle/learnGitBranching/pull/196'),
@@ -4652,6 +4650,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5509, 27442967, 4, '2018-01-08T09:57:45', 'hjanuschka', 'https://github.com/fastlane/fastlane/pull/11466'),
 (5510, 27442967, 4, '2017-12-20T21:41:42', 'mpirri', 'https://github.com/fastlane/fastlane/pull/11305'),
 (5511, 27442967, 4, '2018-11-12T08:48:30', 'milch', 'https://github.com/fastlane/fastlane/pull/13646'),
+(4072, 369896619, 1, '2021-07-10T13:06:54', 'lauzaki', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/30'),
 (5512, 27442967, 4, '2016-08-19T20:27:07', 'lmirosevic', 'https://github.com/fastlane/fastlane/pull/5812'),
 (5513, 27442967, 4, '2020-10-22T21:24:18', 'revolter', 'https://github.com/fastlane/fastlane/pull/17480'),
 (5514, 27442967, 4, '2017-07-22T17:14:31', 'asfalcone', 'https://github.com/fastlane/fastlane/pull/9716'),
@@ -6190,6 +6189,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (628, 256786531, 1, '2021-07-19T16:24:01', 'Akeboshiwind', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1390'),
 (630, 256786531, 4, '2022-02-26T14:44:37', 'MunifTanjim', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2586'),
 (623, 256786531, 4, '2022-04-06T16:21:45', 'connorlay', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2745'),
+(4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31'),
 (632, 256786531, 4, '2021-03-01T22:35:25', 'oberblastmeister', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/973'),
 (622, 256786531, 4, '2022-06-02T10:56:58', 'clason', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2980'),
 (624, 256786531, 4, '2021-06-11T14:15:14', 'steelsojka', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1381'),
@@ -6594,7 +6594,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (32737, 67082771, 1, '2017-02-15T23:05:13', 'colbywhite', 'https://github.com/colbywhite/why82.calc/pull/16'),
 (8569, 265122478, 4, '2021-06-12T21:49:37', 'PhilippImhof', 'https://github.com/ManimCommunity/manim/pull/1673'),
 (38698, 337414495, 4, '2022-07-28T17:48:26', 'nunopato', 'https://github.com/nhost/nhost/pull/860'),
-(28218, 98698673, 2, '2022-06-15T22:34:00', 'ali-garajian', 'https://github.com/bluebill1049/react-simple-animate/pull/100'),
 (8774, 2531988, 1, '2013-06-05T18:46:29', 'tacone', 'https://github.com/fpoirotte/phpfarm/pull/3'),
 (38699, 337414495, 1, '2021-06-17T18:48:21', 'subatuba21', 'https://github.com/nhost/nhost/pull/49'),
 (2809, 310393570, 4, '2022-06-07T15:37:39', 'seanmacavaney', 'https://github.com/allenai/ir_datasets/pull/196'),
@@ -6996,6 +6995,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3740, 3946572, 1, '2019-02-14T08:50:53', 'chrispysoft', 'https://github.com/PostgresApp/PostgresApp/pull/485'),
 (2717, 102371998, 2, '2018-09-10T06:22:29', 'kazazes', 'https://github.com/nuxt-community/auth-module/pull/239'),
 (2726, 102371998, 2, '2018-04-10T19:09:51', 'SkyLeite', 'https://github.com/nuxt-community/auth-module/pull/132'),
+(28218, 98698673, 2, '2022-06-15T22:34:00', 'ali-garajian', 'https://github.com/bluebill1049/react-simple-animate/pull/100'),
 (2711, 102371998, 2, '2019-06-24T17:10:10', 'studnitz', 'https://github.com/nuxt-community/auth-module/pull/391'),
 (2731, 102371998, 3, '2018-08-22T19:54:38', 'Hugome', 'https://github.com/nuxt-community/auth-module/pull/230'),
 (26, 278335273, 2, '2021-01-07T14:22:18', 'Awilum', 'https://github.com/anuraghazra/github-readme-stats/pull/791'),
