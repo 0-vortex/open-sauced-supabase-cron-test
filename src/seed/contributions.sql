@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T08:47:11.784Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T10:45:53.804Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5145,8 +5145,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (22378, 440752086, 4, '2022-06-08T16:51:33', 'spikecurtis', 'https://github.com/coder/coder/pull/2150', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22379, 440752086, 4, '2022-06-03T17:47:57', 'dwahler', 'https://github.com/coder/coder/pull/2036', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22380, 440752086, 4, '2022-06-10T03:30:44', 'ammario', 'https://github.com/coder/coder/pull/2225', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(22381, 440752086, 4, '2022-06-07T14:30:34', 'khorne3', 'https://github.com/coder/coder/pull/2100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22382, 440752086, 4, '2022-06-07T20:57:32', 'deansheather', 'https://github.com/coder/coder/pull/2139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(22381, 440752086, 4, '2022-06-07T14:30:34', 'khorne3', 'https://github.com/coder/coder/pull/2100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22383, 440752086, 1, '2022-04-18T15:20:45', 'ntimo', 'https://github.com/coder/coder/pull/1025', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32944, 11221453, 4, '2013-10-25T16:12:32', 'sheerun', 'https://github.com/tenex/rails-assets/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22384, 440752086, 4, '2022-06-09T21:10:24', 'johnstcn', 'https://github.com/coder/coder/pull/2165', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
