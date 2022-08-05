@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T10:45:53.804Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T12:58:57.306Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3044,8 +3044,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23153, 86351030, 1, '2018-05-10T16:15:57', 'hscheib', 'https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2736, 243394576, 3, '2021-04-06T03:56:08', 'aimichelle', 'https://github.com/pixie-io/pixie/pull/230', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (885, 49020217, 1, '2016-02-17T06:56:27', 'petehouston', 'https://github.com/petehunt/react-howto/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(38100, 55387233, 1, '2019-02-14T23:31:08', 'alasdairhurst', 'https://github.com/conventional-changelog/standard-version/pull/282', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38103, 55387233, 1, '2018-05-17T18:34:09', 'barmaglot92', 'https://github.com/conventional-changelog/standard-version/pull/243', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(38100, 55387233, 1, '2019-02-14T23:31:08', 'alasdairhurst', 'https://github.com/conventional-changelog/standard-version/pull/282', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3591, 31792824, 4, '2022-05-31T17:33:47', 'gspencergoog', 'https://github.com/flutter/flutter/pull/104772', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3589, 31792824, 4, '2022-05-16T20:44:24', 'yjbanov', 'https://github.com/flutter/flutter/pull/103754', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3590, 31792824, 4, '2022-02-04T20:45:20', 'devoncarew', 'https://github.com/flutter/flutter/pull/97749', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5145,8 +5145,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (22378, 440752086, 4, '2022-06-08T16:51:33', 'spikecurtis', 'https://github.com/coder/coder/pull/2150', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22379, 440752086, 4, '2022-06-03T17:47:57', 'dwahler', 'https://github.com/coder/coder/pull/2036', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22380, 440752086, 4, '2022-06-10T03:30:44', 'ammario', 'https://github.com/coder/coder/pull/2225', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(22382, 440752086, 4, '2022-06-07T20:57:32', 'deansheather', 'https://github.com/coder/coder/pull/2139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22381, 440752086, 4, '2022-06-07T14:30:34', 'khorne3', 'https://github.com/coder/coder/pull/2100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(22382, 440752086, 4, '2022-06-07T20:57:32', 'deansheather', 'https://github.com/coder/coder/pull/2139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22383, 440752086, 1, '2022-04-18T15:20:45', 'ntimo', 'https://github.com/coder/coder/pull/1025', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32944, 11221453, 4, '2013-10-25T16:12:32', 'sheerun', 'https://github.com/tenex/rails-assets/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22384, 440752086, 4, '2022-06-09T21:10:24', 'johnstcn', 'https://github.com/coder/coder/pull/2165', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
