@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.14.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.13.2...v1.14.0) (2022-08-05)
+
+
+### 🍕 Features
+
+* add stargazers and submissions to cron backups ([43c72a0](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/43c72a0521499cf4e34106d8c31a4398afd62612))
+
 ### [1.13.2](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.13.1...v1.13.2) (2022-07-28)
 
 
