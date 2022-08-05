@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T18:47:39.359Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-05T20:45:27.742Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6463,7 +6463,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23906, 50668112, 1, '2016-03-17T18:07:13', 'Satyam', 'https://github.com/Hashnode/mern-starter/pull/102', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23908, 50668112, 4, '2016-02-19T10:56:31', 'beaucharman', 'https://github.com/Hashnode/mern-starter/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (819, 426356134, 1, '2021-12-08T09:52:02', 'gupta-utkarsh', 'https://github.com/harness/harness-cd-community/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(818, 426356134, 4, '2022-01-11T04:43:08', 'ankit-harness', 'https://github.com/harness/harness-cd-community/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11657, 69193081, 2, '2020-10-03T04:50:40', 'nhcarrigan', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/434', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11654, 69193081, 2, '2018-10-07T22:19:11', 'arshadkazmi42', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/175', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11661, 69193081, 1, '2017-08-21T21:14:43', 'rsarky', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6477,6 +6476,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5925, 187335810, 1, '2022-05-09T10:34:20', 'Tiryoh', 'https://github.com/jesseduffield/lazydocker/pull/310', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11667, 69193081, 2, '2021-03-25T23:05:27', 'shlee8405', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/535', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11382, 98698673, 3, '2019-04-15T03:42:39', '3stacks', 'https://github.com/bluebill1049/react-simple-animate/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(818, 426356134, 4, '2022-01-11T04:43:08', 'ankit-harness', 'https://github.com/harness/harness-cd-community/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22528, 137223122, 1, '2021-06-28T15:11:57', 'j0hax', 'https://github.com/deepjyoti30/ytmdl/pull/189', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (290, 11981144, 4, '2022-08-01T13:43:06', 'fabrichter', 'https://github.com/languagetool-org/languagetool/pull/6977', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22529, 137223122, 3, '2022-04-16T06:03:51', 'xgqt', 'https://github.com/deepjyoti30/ytmdl/pull/230', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
