@@ -1501,7 +1501,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 37497,75675698,2,2022-06-28T09:03:30,standardci,https://github.com/standardnotes/app/pull/1171,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37496,75675698,4,2022-07-11T13:51:04,amanharwara,https://github.com/standardnotes/app/pull/1246,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13988,196778665,1,2022-05-31T15:27:27,vedantmgoyal2009,https://github.com/elibroftw/music-caster/pull/50,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2690,212123834,1,2020-03-01T04:12:21,markdorison,https://github.com/kentaro-m/auto-assign-action/pull/17,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 7180,411705813,1,2021-10-02T09:35:22,sushrut29,https://github.com/avinash201199/Portfolio-Collection/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 335,11981144,1,2016-11-30T15:15:13,janschreiber,https://github.com/languagetool-org/languagetool/pull/624,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9011,230327376,3,2020-01-02T04:33:22,rbrick,https://github.com/ErikCH/DevYouTubeList/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1519,6 +1518,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5758,281297416,2,2020-10-20T05:08:44,zhangyuannie,https://github.com/adityatelange/hugo-PaperMod/pull/52,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5757,281297416,2,2022-05-08T02:59:45,RichardSlater,https://github.com/adityatelange/hugo-PaperMod/pull/906,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5756,281297416,2,2022-03-31T18:03:57,Rotzbua,https://github.com/adityatelange/hugo-PaperMod/pull/862,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2690,212123834,1,2020-03-01T04:12:21,markdorison,https://github.com/kentaro-m/auto-assign-action/pull/17,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2038,83222441,2,2018-09-08T00:47:44,fabriziocucci,https://github.com/donnemartin/system-design-primer/pull/210,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5751,281297416,1,2020-10-01T13:53:49,TheClonker,https://github.com/adityatelange/hugo-PaperMod/pull/12,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4979,37140605,2,2017-02-27T14:15:58,oliverjam,https://github.com/dwyl/learn-tdd/pull/81,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1684,10 +1684,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2076,29497480,4,2022-04-21T00:38:30,internetfett,https://github.com/OpenDominion/OpenDominion/pull/872,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37513,75675698,2,2021-10-28T15:36:28,proletarius101,https://github.com/standardnotes/app/pull/708,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37511,75675698,1,2020-06-25T12:39:39,ningsongshen,https://github.com/standardnotes/app/pull/418,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5997,31168578,1,2016-06-10T05:50:25,brunops,https://github.com/hemanth/functional-programming-jargon/pull/43,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2336,54377519,1,2021-06-13T09:58:01,BRiley01,https://github.com/PiranhaCMS/piranha.core/pull/1645,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2320,54377519,1,2021-12-13T05:29:42,benhajdu,https://github.com/PiranhaCMS/piranha.core/pull/1779,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5989,31168578,1,2016-07-26T05:40:31,davezuko,https://github.com/hemanth/functional-programming-jargon/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 294,11981144,4,2022-07-06T14:49:22,tiff,https://github.com/languagetool-org/languagetool/pull/6878,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5963,227695638,2,2019-12-23T20:00:43,thiagojobson,https://github.com/codeshow/003-arquitetura-flask/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 333,11981144,4,2022-07-18T16:51:27,jaumeortola,https://github.com/languagetool-org/languagetool/pull/6932,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1793,7 +1791,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 14042,29371034,4,2019-02-13T14:43:46,jiyeyuran,https://github.com/micro/micro/pull/235,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 14040,29371034,2,2022-05-30T16:38:59,a0v0,https://github.com/micro/micro/pull/1939,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38087,478185779,1,2022-05-15T19:53:17,emmanuella194,https://github.com/XollabOS/talktometechnology/pull/56,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2692,212123834,1,2022-01-20T17:31:35,mtxr,https://github.com/kentaro-m/auto-assign-action/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2246,191445024,1,2020-10-02T10:58:58,verma-anushka,https://github.com/sastava007/Tech-Interview-Preparation/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2252,191445024,2,2020-07-26T20:44:28,devk232,https://github.com/sastava007/Tech-Interview-Preparation/pull/5,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2257,191445024,1,2020-10-05T10:10:11,thedrivingforc,https://github.com/sastava007/Tech-Interview-Preparation/pull/16,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1824,6 +1821,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 24463,235133242,1,2021-11-10T12:31:54,rexxars,https://github.com/sanity-io/mendoza/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24460,235133242,1,2021-12-15T10:59:46,rubioz,https://github.com/sanity-io/mendoza/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24462,235133242,1,2021-08-24T11:50:26,j33ty,https://github.com/sanity-io/mendoza/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2692,212123834,1,2022-01-20T17:31:35,mtxr,https://github.com/kentaro-m/auto-assign-action/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1772,290703027,4,2021-10-07T06:54:30,samprati97,https://github.com/kothariji/competitive-programming/pull/448,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3959,205601832,1,2019-12-28T14:44:06,jasonkarns,https://github.com/olegtarasov/get-tag/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2644,21938243,4,2021-02-02T16:22:20,Martin1887,https://github.com/rust-unofficial/awesome-rust/pull/997,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1928,6 +1926,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2666,304120355,1,2021-09-14T19:35:43,usmanyunusov,https://github.com/nanostores/nanostores/pull/60,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5531,177010499,4,2021-05-12T18:34:57,knative-automation,https://github.com/google/ko/pull/363,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2384,14741294,1,2015-01-17T21:07:32,RSid,https://github.com/RefugeRestrooms/refugerestrooms/pull/190,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5997,31168578,1,2016-06-10T05:50:25,brunops,https://github.com/hemanth/functional-programming-jargon/pull/43,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2385,14741294,1,2018-02-13T01:24:10,vancloss,https://github.com/RefugeRestrooms/refugerestrooms/pull/450,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2386,14741294,4,2022-03-28T02:33:42,DeeDeeG,https://github.com/RefugeRestrooms/refugerestrooms/pull/670,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2379,386384568,1,2021-08-11T19:46:54,marchanlon,https://github.com/sniptt-official/ots/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1970,6 +1969,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2390,14741294,4,2014-03-02T22:18:37,eleather,https://github.com/RefugeRestrooms/refugerestrooms/pull/75,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2391,14741294,4,2015-02-10T02:21:29,kiesia,https://github.com/RefugeRestrooms/refugerestrooms/pull/210,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2392,14741294,4,2014-11-16T20:36:23,gnarf,https://github.com/RefugeRestrooms/refugerestrooms/pull/179,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5977,31168578,1,2016-10-26T01:33:18,alexlafroscia,https://github.com/hemanth/functional-programming-jargon/pull/121,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5989,31168578,1,2016-07-26T05:40:31,davezuko,https://github.com/hemanth/functional-programming-jargon/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5974,31168578,1,2018-10-07T03:13:17,alivenotions,https://github.com/hemanth/functional-programming-jargon/pull/188,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4256,778828,2,2019-01-15T01:23:50,chrisdrobison,https://github.com/MassTransit/MassTransit/pull/1294,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4243,778828,4,2019-09-05T12:18:05,DamirAinullin,https://github.com/MassTransit/MassTransit/pull/1546,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4260,778828,4,2019-03-05T13:43:38,stromblom,https://github.com/MassTransit/MassTransit/pull/1365,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2017,6 +2019,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2438,103953059,1,2017-10-25T20:36:22,awwong1,https://github.com/mbeaudru/modern-js-cheatsheet/pull/84,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2439,103953059,3,2018-05-20T05:44:34,elfiservice,https://github.com/mbeaudru/modern-js-cheatsheet/pull/115,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2440,103953059,1,2017-09-20T17:59:55,bhageena,https://github.com/mbeaudru/modern-js-cheatsheet/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+50179,212123834,1,2022-08-02T13:38:00,gsvarma,https://github.com/kentaro-m/auto-assign-action/pull/94,,2022-08-05T16:01:49.019146+00:00,2022-08-05T16:01:49.019146+00:00
+2674,212123834,1,2021-04-10T06:49:47,siwalikm-plivo,https://github.com/kentaro-m/auto-assign-action/pull/38,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2898,61893399,1,2020-09-20T20:00:31,joaomlneto,https://github.com/brillout/awesome-react-components/pull/250,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2888,61893399,1,2020-02-17T17:15:02,rvsia,https://github.com/brillout/awesome-react-components/pull/201,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2897,61893399,1,2019-11-28T23:52:54,ukrbublik,https://github.com/brillout/awesome-react-components/pull/164,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2225,6 +2229,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1770,290703027,4,2021-10-08T04:26:18,paarth14,https://github.com/kothariji/competitive-programming/pull/462,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1780,290703027,4,2021-10-16T16:45:51,iamscoobydoo,https://github.com/kothariji/competitive-programming/pull/526,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1792,290703027,4,2021-10-03T05:10:56,UG-SEP,https://github.com/kothariji/competitive-programming/pull/306,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2693,212123834,4,2022-07-16T06:28:28,kentaro-m,https://github.com/kentaro-m/auto-assign-action/pull/75,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2811,377305568,1,2022-01-05T19:38:52,thomast1906,https://github.com/learntocloud/learn-to-cloud/pull/21,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1903,28548699,1,2015-01-09T21:07:10,ruthgrace,https://github.com/cassidoo/getting-a-gig/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2649,21938243,4,2015-11-04T14:19:53,kbknapp,https://github.com/rust-unofficial/awesome-rust/pull/91,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2236,8 +2241,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2812,18609427,4,2018-02-21T20:06:17,bterlson,https://github.com/tc39/ecma262/pull/1113,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8603,128265535,4,2022-07-28T09:38:21,armandomiani,https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1857,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2818,3545227,1,2017-11-18T11:55:49,comradekingu,https://github.com/webcamoid/webcamoid/pull/96,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2687,212123834,1,2019-11-15T13:23:44,evantianx,https://github.com/kentaro-m/auto-assign-action/pull/10,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2693,212123834,4,2022-07-16T06:28:28,kentaro-m,https://github.com/kentaro-m/auto-assign-action/pull/75,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2796,69019783,1,2018-07-22T15:10:20,glensc,https://github.com/justincormack/nsenter1/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1799,227393393,2,2022-06-23T20:34:48,Dkamps18,https://github.com/livecoders/website/pull/234,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2650,23024191,1,2017-01-08T17:30:16,msh2050,https://github.com/neu-rah/ArduinoMenu/pull/73,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2262,12 +2265,11 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 535,26195776,1,2017-03-05T22:04:14,bartriordan,https://github.com/JedWatson/classnames/pull/116,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 536,26195776,1,2020-03-09T23:14:08,resetko,https://github.com/JedWatson/classnames/pull/170,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 549,26195776,4,2015-02-14T02:13:28,chenglou,https://github.com/JedWatson/classnames/pull/8,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2687,212123834,1,2019-11-15T13:23:44,evantianx,https://github.com/kentaro-m/auto-assign-action/pull/10,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13488,111270855,2,2022-03-23T04:36:22,dundargoc,https://github.com/wbthomason/packer.nvim/pull/855,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1816,227393393,4,2020-06-25T23:36:53,lannonbr,https://github.com/livecoders/website/pull/104,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1819,227393393,4,2021-04-08T17:50:11,mtheoryx,https://github.com/livecoders/website/pull/212,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2820,3545227,1,2019-12-29T18:00:18,gordonel,https://github.com/webcamoid/webcamoid/pull/212,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2678,212123834,1,2020-06-02T11:55:05,ikesyo,https://github.com/kentaro-m/auto-assign-action/pull/19,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2674,212123834,1,2021-04-10T06:49:47,siwalikm-plivo,https://github.com/kentaro-m/auto-assign-action/pull/38,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1823,227393393,2,2020-10-02T01:31:37,hugodahl,https://github.com/livecoders/website/pull/109,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11691,107111421,1,2017-10-23T16:18:05,mikestreety,https://github.com/thedaviddias/Front-End-Checklist/pull/60,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11698,107111421,1,2017-10-18T20:55:44,fourcube,https://github.com/thedaviddias/Front-End-Checklist/pull/15,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2316,6 +2318,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3211,324575078,2,2022-03-18T02:27:57,Kranthi-Guribilli,https://github.com/Kushal997-das/Project-Guidance/pull/404,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3207,324575078,4,2022-05-28T07:26:46,jyothi-k-g,https://github.com/Kushal997-das/Project-Guidance/pull/700,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3210,324575078,3,2021-10-04T05:25:59,surbhi2408,https://github.com/Kushal997-das/Project-Guidance/pull/181,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2678,212123834,1,2020-06-02T11:55:05,ikesyo,https://github.com/kentaro-m/auto-assign-action/pull/19,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4620,67831372,4,2021-09-11T11:57:09,stefanobartoletti,https://github.com/PKief/vscode-material-icon-theme/pull/1248,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4616,67831372,4,2017-12-17T21:16:41,wopian,https://github.com/PKief/vscode-material-icon-theme/pull/175,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4624,67831372,1,2020-10-15T15:51:28,entrywayaudibly,https://github.com/PKief/vscode-material-icon-theme/pull/850,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2457,21 +2460,20 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2967,229504810,1,2022-02-27T22:05:09,nomadic-me,https://github.com/sethcottle/littlelink/pull/43,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2966,229504810,1,2022-03-18T13:27:21,JulianPrieber,https://github.com/sethcottle/littlelink/pull/44,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3332,89948774,1,2021-04-14T22:50:28,BlackHole1,https://github.com/dtzar/helm-kubectl/pull/82,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5975,31168578,4,2017-03-10T05:27:55,shfshanyue,https://github.com/hemanth/functional-programming-jargon/pull/144,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37841,121806807,4,2021-10-01T18:44:19,themindfuldev,https://github.com/pinterest/gestalt/pull/1722,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37842,121806807,4,2018-09-27T19:41:51,kennand,https://github.com/pinterest/gestalt/pull/368,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5978,31168578,2,2016-02-28T06:05:30,CrossEye,https://github.com/hemanth/functional-programming-jargon/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5972,31168578,1,2016-06-01T09:27:10,noplanman,https://github.com/hemanth/functional-programming-jargon/pull/37,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3206,324575078,4,2022-05-20T04:19:49,iamrahulmahato,https://github.com/Kushal997-das/Project-Guidance/pull/666,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3194,324575078,3,2022-03-27T02:39:31,Satyam26-09,https://github.com/Kushal997-das/Project-Guidance/pull/430,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3221,324575078,4,2021-10-05T12:57:44,UG-SEP,https://github.com/Kushal997-das/Project-Guidance/pull/182,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5975,31168578,4,2017-03-10T05:27:55,shfshanyue,https://github.com/hemanth/functional-programming-jargon/pull/144,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5978,31168578,2,2016-02-28T06:05:30,CrossEye,https://github.com/hemanth/functional-programming-jargon/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5972,31168578,1,2016-06-01T09:27:10,noplanman,https://github.com/hemanth/functional-programming-jargon/pull/37,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13524,2798894,1,2011-11-28T16:29:12,mcfedr,https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13525,2798894,1,2014-07-31T21:20:57,gaetansenn,https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13526,2798894,1,2012-10-04T18:36:17,peutetre,https://github.com/j-mcnally/PhoneGap-ios-PhoneDialer/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3422,29736746,1,2017-04-18T08:56:56,bryant1410,https://github.com/gophergala/learn-Go-the-hard-way/pull/12,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3423,29736746,1,2015-05-20T09:43:29,RyanGladstone,https://github.com/gophergala/learn-Go-the-hard-way/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3193,324575078,4,2022-05-24T15:07:56,XZANATOL,https://github.com/Kushal997-das/Project-Guidance/pull/696,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-6005,31168578,2,2017-07-09T08:07:19,trueproof,https://github.com/hemanth/functional-programming-jargon/pull/164,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32825,18333318,1,2015-11-30T23:20:47,geoffharcourt,https://github.com/pboling/seed_migration/pull/29,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11414,328335330,1,2021-04-30T16:45:31,coder-cell,https://github.com/null8626/python-weather/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37843,121806807,4,2021-08-06T00:53:26,simkessy,https://github.com/pinterest/gestalt/pull/1605,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2501,6 +2503,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 32829,18333318,1,2015-07-08T17:43:41,jmyers0022,https://github.com/pboling/seed_migration/pull/30,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5482,52342167,4,2018-02-13T05:09:40,MatthewVita,https://github.com/kakoni/awesome-healthcare/pull/39,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5481,52342167,1,2019-06-30T07:29:12,ransford,https://github.com/kakoni/awesome-healthcare/pull/48,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+6005,31168578,2,2017-07-09T08:07:19,trueproof,https://github.com/hemanth/functional-programming-jargon/pull/164,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5483,52342167,2,2017-04-25T08:31:13,jcfr,https://github.com/kakoni/awesome-healthcare/pull/36,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5484,52342167,1,2018-10-30T00:40:19,ericbenwa,https://github.com/kakoni/awesome-healthcare/pull/46,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5480,52342167,1,2021-04-28T00:55:11,ioreka,https://github.com/kakoni/awesome-healthcare/pull/61,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3749,7 +3752,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 4380,81089226,3,2019-05-31T00:49:13,tminard,https://github.com/tminard/carnivores-ce-renderer/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1691,378070841,1,2021-12-18T17:06:27,SonyStone,https://github.com/ngneat/elf/pull/92,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32896,75027176,2,2017-11-06T17:41:16,ekryski,https://github.com/infinitered/gluegun/pull/269,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5988,31168578,2,2016-08-02T04:52:35,sjsyrek,https://github.com/hemanth/functional-programming-jargon/pull/96,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32789,37997,1,2013-06-24T16:20:23,caselas,https://github.com/jnunemaker/httparty/pull/214,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32897,75027176,2,2019-09-24T19:16:59,danawoodman,https://github.com/infinitered/gluegun/pull/596,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32898,34228852,1,2015-08-07T18:28:39,davisonio,https://github.com/AchoArnold/discount-for-student-dev/pull/12,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3766,6 +3768,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 4409,89139214,1,2020-07-14T17:47:01,marcus433,https://github.com/roberthein/BouncyLayout/pull/36,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4353,381907715,1,2021-07-05T02:36:19,jusdeleon,https://github.com/vuejs/petite-vue/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4354,381907715,1,2021-09-14T14:17:54,nick-lai,https://github.com/vuejs/petite-vue/pull/22,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5988,31168578,2,2016-08-02T04:52:35,sjsyrek,https://github.com/hemanth/functional-programming-jargon/pull/96,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5128,70137417,4,2022-02-25T15:47:31,lankydan,https://github.com/corda/corda/pull/7093,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5129,70137417,4,2018-05-16T12:56:42,andr3ej,https://github.com/corda/corda/pull/3157,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5130,70137417,4,2022-05-17T09:08:03,adelel1,https://github.com/corda/corda/pull/7175,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -4916,7 +4919,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3512,132489983,1,2020-02-13T17:25:01,abimael-o-o,https://github.com/arduosoft/RawCMS/pull/199,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3520,132489983,1,2020-02-08T04:40:53,alti21,https://github.com/arduosoft/RawCMS/pull/190,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 814,9852918,4,2017-05-10T07:46:55,greenkeeperio-bot,https://github.com/TryGhost/Ghost/pull/8446,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5990,31168578,2,2016-06-01T10:01:54,stoeffel,https://github.com/hemanth/functional-programming-jargon/pull/39,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32925,34228852,1,2018-02-07T11:01:55,darkcode777,https://github.com/AchoArnold/discount-for-student-dev/pull/56,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32926,34228852,1,2019-10-12T17:17:46,khaled-Senpai,https://github.com/AchoArnold/discount-for-student-dev/pull/82,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5651,293860197,1,2021-04-28T21:04:08,MeerBiene,https://github.com/lowlighter/metrics/pull/276,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -4962,6 +4964,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3350,501689,2,2018-11-06T20:07:49,drealeed,https://github.com/antlr/stringtemplate4/pull/208,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3363,501689,1,2019-01-21T18:17:36,cfraizer,https://github.com/antlr/stringtemplate4/pull/213,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3367,501689,1,2022-04-12T18:29:55,pzygielo,https://github.com/antlr/stringtemplate4/pull/301,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5990,31168578,2,2016-06-01T10:01:54,stoeffel,https://github.com/hemanth/functional-programming-jargon/pull/39,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16404,45717250,4,2021-04-20T19:20:03,sanjoy,https://github.com/tensorflow/tensorflow/pull/48648,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16408,45717250,4,2017-10-21T20:43:02,vrv,https://github.com/tensorflow/tensorflow/pull/13886,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16410,45717250,1,2019-05-22T01:20:21,cheshire,https://github.com/tensorflow/tensorflow/pull/28916,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5203,8 +5206,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5671,82729529,1,2017-03-29T11:27:08,jorrinpollard,https://github.com/google/python-fire/pull/44,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12228,124910572,4,2019-02-20T15:29:01,ayir,https://github.com/mozilla/bugbug/pull/188,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2909,97559842,1,2020-09-12T13:26:24,joealden,https://github.com/bvaughn/react-error-boundary/pull/69,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-6006,31168578,4,2022-03-02T20:37:29,jethrolarson,https://github.com/hemanth/functional-programming-jargon/pull/206,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2911,97559842,1,2020-08-24T17:11:56,imp-dance,https://github.com/bvaughn/react-error-boundary/pull/64,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+6006,31168578,4,2022-08-02T04:45:10,jethrolarson,https://github.com/hemanth/functional-programming-jargon/pull/228,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2894,97559842,1,2018-07-06T14:58:26,smurf667,https://github.com/bvaughn/react-error-boundary/pull/18,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2905,97559842,1,2021-03-02T17:14:00,CarlosGines,https://github.com/bvaughn/react-error-boundary/pull/85,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2913,97559842,1,2021-07-07T05:19:05,brizer,https://github.com/bvaughn/react-error-boundary/pull/93,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5219,8 +5222,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5670,82729529,1,2017-03-23T18:30:40,Jackevansevo,https://github.com/google/python-fire/pull/31,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 22344,25315643,1,2016-01-13T19:39:36,khamidou,https://github.com/nylas/nylas-mail/pull/998,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12112,344697559,1,2021-12-21T23:44:04,fcronty,https://github.com/nalmadi/EMIP-Toolkit/pull/56,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5976,31168578,2,2017-01-02T02:57:44,nickzuber,https://github.com/hemanth/functional-programming-jargon/pull/130,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5977,31168578,1,2016-10-26T01:33:18,alexlafroscia,https://github.com/hemanth/functional-programming-jargon/pull/121,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1215,170738310,4,2019-04-29T16:27:38,keefertaylor,https://github.com/trustwallet/wallet-core/pull/357,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1218,170738310,4,2019-08-13T02:53:23,BSathvik,https://github.com/trustwallet/wallet-core/pull/580,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1214,170738310,4,2019-08-13T04:40:02,dstranz,https://github.com/trustwallet/wallet-core/pull/577,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5258,6 +5259,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5360,71948498,4,2022-06-02T14:53:26,steffyP,https://github.com/localstack/localstack/pull/6189,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5356,71948498,4,2022-06-03T09:51:56,HarshCasper,https://github.com/localstack/localstack/pull/6195,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5357,71948498,4,2022-03-28T10:24:26,baermat,https://github.com/localstack/localstack/pull/5757,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5976,31168578,2,2017-01-02T02:57:44,nickzuber,https://github.com/hemanth/functional-programming-jargon/pull/130,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38626,166831098,4,2022-08-01T07:29:14,warber,https://github.com/keptn/keptn/pull/8537,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4963,37140605,1,2016-05-23T20:15:29,joseluisq,https://github.com/dwyl/learn-tdd/pull/55,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12233,9746477,4,2021-02-13T08:54:00,llloret,https://github.com/sonic-pi-net/sonic-pi/pull/2699,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5586,15 +5588,15 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11596,375445655,1,2022-01-20T09:47:56,Cloud9c,https://github.com/facebookresearch/AugLy/pull/186,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11597,375445655,4,2021-07-08T10:29:17,zpapakipos,https://github.com/facebookresearch/AugLy/pull/72,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11598,375445655,2,2021-06-24T07:40:50,cclauss,https://github.com/facebookresearch/AugLy/pull/51,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5994,31168578,2,2018-11-16T23:42:25,hekmekk,https://github.com/hemanth/functional-programming-jargon/pull/190,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 22439,5057307,1,2017-05-13T16:17:12,nickcampbell18,https://github.com/julienXX/terminal-notifier/pull/214,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 22440,5057307,1,2015-04-04T13:34:41,vladson,https://github.com/julienXX/terminal-notifier/pull/129,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 22441,5057307,1,2014-01-15T09:52:51,maxbeizer,https://github.com/julienXX/terminal-notifier/pull/72,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5999,31168578,2,2017-05-10T10:10:51,sunnypatel165,https://github.com/hemanth/functional-programming-jargon/pull/149,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3580,31792824,4,2018-06-22T02:29:30,abarth,https://github.com/flutter/flutter/pull/18635,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3566,31792824,4,2022-06-10T20:33:09,engine-flutter-autoroll,https://github.com/flutter/flutter/pull/105796,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3585,31792824,4,2022-06-06T23:38:08,jonahwilliams,https://github.com/flutter/flutter/pull/105467,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3582,31792824,4,2022-04-14T15:48:30,Hixie,https://github.com/flutter/flutter/pull/101875,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5994,31168578,2,2018-11-16T23:42:25,hekmekk,https://github.com/hemanth/functional-programming-jargon/pull/190,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5999,31168578,2,2017-05-10T10:10:51,sunnypatel165,https://github.com/hemanth/functional-programming-jargon/pull/149,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16572,6750158,3,2015-01-11T17:04:16,pvoznenko,https://github.com/mgechev/javascript-algorithms/pull/23,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16569,6750158,1,2016-02-03T08:38:38,lygstate,https://github.com/mgechev/javascript-algorithms/pull/92,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16578,6750158,1,2015-10-23T11:52:36,designeng,https://github.com/mgechev/javascript-algorithms/pull/91,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5605,16 +5607,15 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3578,31792824,4,2022-06-03T23:48:11,jmagman,https://github.com/flutter/flutter/pull/105321,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3586,31792824,4,2022-05-31T23:15:28,cbracken,https://github.com/flutter/flutter/pull/104997,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3583,31792824,4,2022-05-31T22:48:15,jason-simmons,https://github.com/flutter/flutter/pull/105046,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5998,31168578,1,2019-03-07T07:09:58,stevemao,https://github.com/hemanth/functional-programming-jargon/pull/146,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5911,187335810,4,2019-07-27T01:48:08,mjarkk,https://github.com/jesseduffield/lazydocker/pull/127,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5906,187335810,2,2019-08-01T14:52:17,pvande,https://github.com/jesseduffield/lazydocker/pull/142,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5905,187335810,1,2022-01-18T01:28:09,lpessoa,https://github.com/jesseduffield/lazydocker/pull/272,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5979,31168578,1,2019-02-06T13:49:08,emarukyan,https://github.com/hemanth/functional-programming-jargon/pull/193,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8747,132732601,4,2018-06-27T16:21:29,johnsca,https://github.com/canonical/microk8s/pull/60,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8753,132732601,4,2020-12-03T10:29:22,joestringer,https://github.com/canonical/microk8s/pull/1785,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 17003,132732601,4,2022-06-30T07:43:56,berkayoz,https://github.com/canonical/microk8s/pull/3285,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12223,124910572,4,2020-03-04T20:47:57,ahal,https://github.com/mozilla/bugbug/pull/1367,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16361,143185400,4,2020-09-04T16:16:44,AleksandarPetrov,https://github.com/duckietown/duckietown-shell-commands/pull/207,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5998,31168578,1,2019-03-07T07:09:58,stevemao,https://github.com/hemanth/functional-programming-jargon/pull/146,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16371,143185400,4,2022-03-05T16:54:48,viciopoli01,https://github.com/duckietown/duckietown-shell-commands/pull/320,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16372,143185400,4,2020-12-08T15:46:48,CourchesneA,https://github.com/duckietown/duckietown-shell-commands/pull/241,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16373,143185400,3,2019-12-04T21:45:21,surirohit,https://github.com/duckietown/duckietown-shell-commands/pull/155,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5643,6 +5644,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11306,172741073,4,2020-10-14T04:56:56,gr2m,https://github.com/FredKSchott/snowpack/pull/1301,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11307,172741073,4,2020-09-17T20:15:10,JoviDeCroock,https://github.com/FredKSchott/snowpack/pull/1080,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11308,172741073,4,2020-10-20T22:56:48,MoonBall,https://github.com/FredKSchott/snowpack/pull/1319,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5979,31168578,1,2019-02-06T13:49:08,emarukyan,https://github.com/hemanth/functional-programming-jargon/pull/193,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11877,196760810,4,2021-12-02T08:39:22,ytliuSVN,https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2715,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11878,196760810,4,2020-09-02T08:28:15,SergDaut,https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/336,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11879,196760810,4,2020-12-18T20:52:59,spitlisk,https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/885,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6018,10 +6020,10 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1900,90408889,1,2021-09-05T16:15:00,filiafobico,https://github.com/moleculerjs/moleculer-web/pull/271,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1874,90408889,1,2019-11-12T19:44:04,Ivan-Baranov,https://github.com/moleculerjs/moleculer-web/pull/151,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1879,90408889,4,2022-01-09T09:51:32,icebob,https://github.com/moleculerjs/moleculer-web/pull/292,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5992,31168578,1,2017-01-03T06:56:19,saarwexler,https://github.com/hemanth/functional-programming-jargon/pull/136,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1878,90408889,1,2020-03-14T19:06:58,abdavid,https://github.com/moleculerjs/moleculer-web/pull/171,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1882,90408889,1,2020-11-25T21:32:48,mariusbackes,https://github.com/moleculerjs/moleculer-web/pull/214,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5743,281297416,4,2021-09-20T15:38:45,adityatelange,https://github.com/adityatelange/hugo-PaperMod/pull/560,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5992,31168578,1,2017-01-03T06:56:19,saarwexler,https://github.com/hemanth/functional-programming-jargon/pull/136,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 882,49020217,1,2017-04-17T19:59:08,stmoreau,https://github.com/petehunt/react-howto/pull/76,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 881,49020217,1,2016-09-10T07:29:49,jurgob,https://github.com/petehunt/react-howto/pull/44,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2823,18609427,4,2022-07-24T19:33:08,devsnek,https://github.com/tc39/ecma262/pull/2836,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6041,8 +6043,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5395,91151442,4,2021-05-06T21:57:55,m-ou-se,https://github.com/PyO3/pyo3/pull/1597,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5394,91151442,2,2021-05-29T15:05:11,1tgr,https://github.com/PyO3/pyo3/pull/1641,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5396,91151442,3,2022-04-08T18:28:14,RicoHageman,https://github.com/PyO3/pyo3/pull/2286,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5995,31168578,1,2016-08-28T06:18:38,idf,https://github.com/hemanth/functional-programming-jargon/pull/110,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5984,31168578,1,2018-06-06T08:08:50,dalefrancis88,https://github.com/hemanth/functional-programming-jargon/pull/183,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3269,274495425,4,2022-02-27T18:42:50,tomByrer,https://github.com/remotion-dev/remotion/pull/856,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5393,91151442,1,2020-08-20T05:26:24,Progdrasil,https://github.com/PyO3/pyo3/pull/1095,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 14339,96111593,1,2017-07-10T09:41:18,MaxwellRebo,https://github.com/huggingface/neuralcoref/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6070,6 +6070,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 7179,320016849,1,2020-12-16T07:36:54,udberg,https://github.com/udberg/MGF-Conference-Page/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16422,327628682,4,2021-05-30T18:45:12,khushal87,https://github.com/mantinedev/mantine/pull/106,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39300,165522651,3,2022-07-03T13:43:22,Barugon,https://github.com/emilk/egui/pull/1779,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5995,31168578,1,2016-08-28T06:18:38,idf,https://github.com/hemanth/functional-programming-jargon/pull/110,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5984,31168578,1,2018-06-06T08:08:50,dalefrancis88,https://github.com/hemanth/functional-programming-jargon/pull/183,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 558,26195776,1,2015-05-28T09:37:30,daviferreira,https://github.com/JedWatson/classnames/pull/38,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 555,26195776,1,2017-09-10T23:59:01,jedmao,https://github.com/JedWatson/classnames/pull/105,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39,278335273,1,2020-08-13T13:40:50,HerrEurobeat,https://github.com/anuraghazra/github-readme-stats/pull/382,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6550,7 +6552,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3584,31792824,4,2022-05-05T16:49:12,pq,https://github.com/flutter/flutter/pull/102991,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12868,129934884,4,2021-06-03T01:55:42,BobSilent,https://github.com/dotnet/command-line-api/pull/1302,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12872,129934884,4,2019-08-05T16:17:57,Icontech,https://github.com/dotnet/command-line-api/pull/608,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5987,31168578,1,2015-06-03T10:50:16,skippednote,https://github.com/hemanth/functional-programming-jargon/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11477,480903848,2,2022-04-29T08:52:44,mbevila,https://github.com/facebookresearch/SEAL/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1765,18975811,1,2018-02-22T13:48:28,seanrreid,https://github.com/mvbattista/jeopardy/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11938,293570349,2,2020-11-03T10:46:41,renaultfernandes,https://github.com/cocogitto/cocogitto/pull/82,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6569,6 +6570,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 23815,45425758,1,2017-11-15T23:01:19,eramitmittal,https://github.com/microsoft/vscode-chrome-debug/pull/543,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23818,45425758,4,2019-05-02T23:07:08,auchenberg,https://github.com/microsoft/vscode-chrome-debug/pull/829,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23817,45425758,1,2016-03-28T17:16:01,jalissia,https://github.com/microsoft/vscode-chrome-debug/pull/135,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5987,31168578,1,2015-06-03T10:50:16,skippednote,https://github.com/hemanth/functional-programming-jargon/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16504,142967350,4,2020-03-21T23:01:36,Glazy,https://github.com/reach/reach-ui/pull/516,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23821,45425758,4,2020-09-22T18:42:37,connor4312,https://github.com/microsoft/vscode-chrome-debug/pull/1049,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23824,45425758,4,2019-10-10T02:21:55,digeff,https://github.com/microsoft/vscode-chrome-debug/pull/936,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6744,7 +6746,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3907,123625732,4,2019-08-09T01:22:58,nalogiudice,https://github.com/microsoft/fast/pull/2108,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3898,123625732,4,2021-09-27T15:30:11,marjonlynch,https://github.com/microsoft/fast/pull/5223,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11663,69193081,2,2018-10-30T17:02:52,Sagar2366,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/239,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2703,212123834,1,2021-04-21T13:37:49,extreme4all,https://github.com/kentaro-m/auto-assign-action/pull/47,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11660,69193081,2,2019-04-28T22:38:44,usaspiff,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/308,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11658,69193081,2,2018-05-30T16:12:28,karuna24s,https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/143,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11391,42172184,4,2021-03-12T10:34:18,logicsandeep,https://github.com/servinglynk/hslynk-open-source/pull/603,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -6766,6 +6767,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2260,43623432,1,2015-10-05T05:15:52,tobiaspal,https://github.com/qw3rtman/git-fire/pull/7,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11843,326404870,4,2022-05-25T12:49:44,prashant-shahi,https://github.com/SigNoz/signoz/pull/1201,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11844,326404870,4,2022-05-30T17:01:14,palash-signoz,https://github.com/SigNoz/signoz/pull/1209,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2703,212123834,1,2021-04-21T13:37:49,extreme4all,https://github.com/kentaro-m/auto-assign-action/pull/47,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2710,13825712,4,2022-06-21T14:34:21,ksavosteev,https://github.com/VirtoCommerce/vc-platform/pull/2515,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2441,87860806,1,2019-05-30T14:03:04,sergeyklay,https://github.com/udhos/update-golang/pull/20,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8743,132732601,4,2022-02-23T14:42:44,joedborg,https://github.com/canonical/microk8s/pull/2939,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7015,9 +7017,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12163,10126031,2,2014-01-01T09:12:03,asantoni,https://github.com/mixxxdj/mixxx/pull/136,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12164,10126031,4,2022-01-03T09:30:15,sblaisot,https://github.com/mixxxdj/mixxx/pull/4596,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12165,10126031,4,2020-12-21T17:41:56,JosepMaJAZ,https://github.com/mixxxdj/mixxx/pull/3471,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-6000,31168578,1,2016-02-29T10:15:12,ethagnawl,https://github.com/hemanth/functional-programming-jargon/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5985,31168578,1,2015-06-23T06:24:43,therealklanni,https://github.com/hemanth/functional-programming-jargon/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5974,31168578,1,2018-10-07T03:13:17,alivenotions,https://github.com/hemanth/functional-programming-jargon/pull/188,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2587,202834928,1,2021-05-09T00:22:13,JEbertPrime,https://github.com/davidtorosyan/ti-js/pull/15,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 40261,22485114,2,2022-06-21T13:35:40,kmoe,https://github.com/hashicorp/hcl/pull/508,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 40263,22485114,2,2016-06-21T20:42:41,dcarley,https://github.com/hashicorp/hcl/pull/117,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7057,6 +7056,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11980,107286889,2,2020-08-26T16:50:24,lpar,https://github.com/schollz/croc/pull/228,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11967,107286889,2,2021-03-10T16:16:06,alrs,https://github.com/schollz/croc/pull/338,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11977,107286889,1,2022-02-23T15:52:27,abhi12299,https://github.com/schollz/croc/pull/456,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5985,31168578,1,2015-06-23T06:24:43,therealklanni,https://github.com/hemanth/functional-programming-jargon/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+6000,31168578,1,2016-02-29T10:15:12,ethagnawl,https://github.com/hemanth/functional-programming-jargon/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13607,95876775,1,2017-07-12T21:21:42,rdsedmundo,https://github.com/elsewhencode/project-guidelines/pull/59,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4440,338929421,4,2021-06-30T15:55:18,wwsean08,https://github.com/Team-TAU/tau/pull/63,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4438,338929421,2,2021-05-20T14:13:49,brandonroberts,https://github.com/Team-TAU/tau/pull/43,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7367,6 +7368,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3431,87520003,1,2018-11-01T13:00:28,iOSleep,https://github.com/iGhibli/iOS-DeviceSupport/pull/21,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3447,87520003,2,2020-08-24T02:40:06,drinkius,https://github.com/iGhibli/iOS-DeviceSupport/pull/120,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3445,87520003,1,2019-10-10T03:16:54,thejohnlima,https://github.com/iGhibli/iOS-DeviceSupport/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5982,31168578,1,2016-12-23T05:07:37,asci,https://github.com/hemanth/functional-programming-jargon/pull/131,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39643,480080,2,2021-07-19T10:34:47,yaolaiyaoqu,https://github.com/openresty/openresty/pull/751,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39648,73453488,4,2022-01-28T06:39:51,Buyantogtokh,https://github.com/erxes/erxes/pull/3196,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39649,73453488,4,2020-10-29T06:37:20,Jason-2020,https://github.com/erxes/erxes/pull/2431,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7402,7 +7404,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12576,90786246,1,2017-05-14T23:02:27,dmitriz,https://github.com/microsoft/TypeScript-React-Starter/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12577,90786246,1,2018-07-11T01:05:38,catchin,https://github.com/microsoft/TypeScript-React-Starter/pull/143,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12634,37175929,1,2018-11-11T21:08:41,smoofra,https://github.com/machyve/xhyve/pull/133,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5982,31168578,1,2016-12-23T05:07:37,asci,https://github.com/hemanth/functional-programming-jargon/pull/131,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 832,208397359,1,2020-08-24T21:02:36,nick-cromwell,https://github.com/proudmonkey/AutoWrapper/pull/72,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12205,124910572,4,2021-01-14T17:30:11,bgrins,https://github.com/mozilla/bugbug/pull/2089,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12208,124910572,4,2019-12-09T15:45:13,calixteman,https://github.com/mozilla/bugbug/pull/1160,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7713,8 +7714,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1192,23974149,3,2018-10-31T23:39:37,MaximBalaganskiy,https://github.com/Dogfalo/materialize/pull/5942,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1206,342028554,1,2021-09-03T18:54:36,wobsoriano,https://github.com/wheatjs/vite-plugin-vue-gql/pull/8,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1305,278150898,4,2022-07-28T20:21:50,davidstanke,https://github.com/GoogleCloudPlatform/fourkeys/pull/352,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5983,31168578,1,2019-04-24T15:32:05,0xflotus,https://github.com/hemanth/functional-programming-jargon/pull/194,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9101,4568238,2,2015-11-12T08:26:59,alanhoff,https://github.com/expressjs/expressjs.com/pull/496,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5983,31168578,1,2019-04-24T15:32:05,0xflotus,https://github.com/hemanth/functional-programming-jargon/pull/194,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2589,141183500,3,2021-01-25T11:45:23,shinerkz,https://github.com/Xeeynamo/OpenKh/pull/389,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2608,141183500,1,2020-02-16T10:23:38,Disgustor,https://github.com/Xeeynamo/OpenKh/pull/30,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37517,75675698,1,2020-09-01T08:39:21,jeet-parekh,https://github.com/standardnotes/app/pull/458,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7722,7 +7723,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 42051,484251804,1,2022-07-14T08:41:59,ppborah,https://github.com/apache/incubator-devlake-website/pull/116,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39692,484251804,2,2022-06-29T14:43:39,JoshuaPoddoku,https://github.com/apache/incubator-devlake-website/pull/99,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39770,393493377,4,2022-07-18T10:46:26,Creeland,https://github.com/skillrecordings/products/pull/335,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5980,31168578,1,2016-08-01T16:09:03,alexmoreno,https://github.com/hemanth/functional-programming-jargon/pull/92,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1072,1234714,4,2022-07-26T13:02:56,josevalim,https://github.com/elixir-lang/elixir/pull/12011,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1380,219294494,1,2021-12-19T19:28:34,Moulick,https://github.com/xxh/xxh/pull/124,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1352,219294494,1,2022-03-04T13:03:31,SBado,https://github.com/xxh/xxh/pull/136,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7747,7 +7747,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1292,201969682,1,2020-10-21T14:59:05,dhyanio,https://github.com/clouddrove/terraform-aws-ec2/pull/12,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 6791,201969682,1,2022-05-18T09:44:39,theprashantyadav,https://github.com/clouddrove/terraform-aws-ec2/pull/27,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1297,201969682,1,2020-10-21T10:53:10,MartinCanovas,https://github.com/clouddrove/terraform-aws-ec2/pull/10,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5981,31168578,1,2015-09-20T08:24:17,davidchambers,https://github.com/hemanth/functional-programming-jargon/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9126,6093316,4,2022-06-28T16:38:32,peterblazejewicz,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/60988,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1076,1234714,4,2022-07-29T06:16:43,michallepicki,https://github.com/elixir-lang/elixir/pull/12030,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1078,1234714,4,2013-10-02T18:32:52,yrashk,https://github.com/elixir-lang/elixir/pull/1740,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7760,6 +7759,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9103,4568238,4,2016-04-19T21:49:25,martinerko,https://github.com/expressjs/expressjs.com/pull/619,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9100,4568238,4,2015-11-20T14:02:10,gidenilson,https://github.com/expressjs/expressjs.com/pull/502,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9097,4568238,4,2017-06-21T11:45:43,hacksparrow,https://github.com/expressjs/expressjs.com/pull/821,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5980,31168578,1,2016-08-01T16:09:03,alexmoreno,https://github.com/hemanth/functional-programming-jargon/pull/92,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5981,31168578,1,2015-09-20T08:24:17,davidchambers,https://github.com/hemanth/functional-programming-jargon/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42759,254347436,4,2022-07-12T16:57:02,dt215git,https://github.com/mampfes/hacs_waste_collection_schedule/pull/286,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42760,254347436,3,2021-12-26T07:54:11,atrox06,https://github.com/mampfes/hacs_waste_collection_schedule/pull/127,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42761,254347436,4,2022-06-18T14:34:21,mampfes,https://github.com/mampfes/hacs_waste_collection_schedule/pull/256,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7773,8 +7774,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 34786,220186120,2,2020-10-20T14:26:35,muesli,https://github.com/codenotary/immudb/pull/525,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 34779,220186120,2,2022-05-11T22:04:09,moshix,https://github.com/codenotary/immudb/pull/1209,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 34778,220186120,2,2021-10-08T09:05:35,zaza81,https://github.com/codenotary/immudb/pull/959,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2671,212123834,1,2020-02-04T13:59:24,tagoro9,https://github.com/kentaro-m/auto-assign-action/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2686,212123834,1,2020-02-13T15:23:19,brandonjmckay,https://github.com/kentaro-m/auto-assign-action/pull/15,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1179,23974149,1,2015-11-29T20:50:34,obouchari,https://github.com/Dogfalo/materialize/pull/2271,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1180,23974149,2,2015-11-15T08:45:54,s7dhansh,https://github.com/Dogfalo/materialize/pull/2294,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 34784,220186120,1,2020-05-11T17:53:13,vchaindz,https://github.com/codenotary/immudb/pull/187,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7803,10 +7802,12 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9124,6093316,4,2021-11-18T21:40:47,RyanCavanaugh,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/57261,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2526,35955666,3,2016-02-20T18:53:28,timacs,https://github.com/jlevy/the-art-of-command-line/pull/383,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 703,48393191,4,2021-06-16T23:48:14,OdysseusLives,https://github.com/nebula-plugins/gradle-lint-plugin/pull/338,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-2683,212123834,1,2021-06-19T04:49:46,eranelbaz,https://github.com/kentaro-m/auto-assign-action/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1202,23974149,1,2017-07-03T00:46:32,alexisdiel,https://github.com/Dogfalo/materialize/pull/4893,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 708,48393191,4,2017-08-19T08:03:07,rspieldenner,https://github.com/nebula-plugins/gradle-lint-plugin/pull/146,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 325,218115303,4,2020-02-24T20:05:27,Svish,https://github.com/vercel/swr/pull/265,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2671,212123834,1,2020-02-04T13:59:24,tagoro9,https://github.com/kentaro-m/auto-assign-action/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2686,212123834,1,2020-02-13T15:23:19,brandonjmckay,https://github.com/kentaro-m/auto-assign-action/pull/15,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+2683,212123834,1,2021-06-19T04:49:46,eranelbaz,https://github.com/kentaro-m/auto-assign-action/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42786,254347436,4,2022-02-04T17:50:29,tathamoddie,https://github.com/mampfes/hacs_waste_collection_schedule/pull/162,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42787,254347436,1,2022-04-21T13:34:05,AtryFox,https://github.com/mampfes/hacs_waste_collection_schedule/pull/206,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 42788,254347436,1,2021-11-18T06:44:13,buckbanzai,https://github.com/mampfes/hacs_waste_collection_schedule/pull/108,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7901,8 +7902,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2724,13825712,4,2021-12-13T17:18:06,BelyakovSergey,https://github.com/VirtoCommerce/vc-platform/pull/2437,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12202,124910572,4,2020-03-11T15:52:27,La0,https://github.com/mozilla/bugbug/pull/1394,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 43534,281297416,2,2022-07-17T06:12:42,pxlfrk,https://github.com/adityatelange/hugo-PaperMod/pull/733,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5991,31168578,1,2019-02-06T13:49:36,amilajack,https://github.com/hemanth/functional-programming-jargon/pull/192,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5973,31168578,1,2016-07-27T05:56:31,bobwhitelock,https://github.com/hemanth/functional-programming-jargon/pull/84,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24544,711976,1,2021-04-27T17:34:14,tetov,https://github.com/octokit/octokit.js/pull/2089,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24541,711976,1,2021-10-06T18:42:52,pabhishek09,https://github.com/octokit/octokit.js/pull/2161,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1020,345922282,1,2022-05-02T17:28:44,Atinux,https://github.com/Saul-Mirone/milkdown/pull/480,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7934,6 +7933,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5831,105412971,1,2018-01-29T17:50:00,louisjc,https://github.com/stereobooster/react-snap/pull/130,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1914,28548699,2,2015-08-25T00:59:59,robbyoconnor,https://github.com/cassidoo/getting-a-gig/pull/18,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 7184,411705813,1,2021-10-01T03:14:14,JyotimoyKashyap,https://github.com/avinash201199/Portfolio-Collection/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5973,31168578,1,2016-07-27T05:56:31,bobwhitelock,https://github.com/hemanth/functional-programming-jargon/pull/84,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5991,31168578,1,2019-02-06T13:49:36,amilajack,https://github.com/hemanth/functional-programming-jargon/pull/192,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 44007,165522651,2,2021-06-07T18:18:42,katyo,https://github.com/emilk/egui/pull/470,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1461,16607898,1,2014-08-12T05:45:40,kvigen,https://github.com/harness/drone/pull/361,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1468,16607898,4,2018-02-19T20:23:17,tonglil,https://github.com/harness/drone/pull/2321,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8575,7 +8576,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 4487,276414382,2,2022-02-23T12:16:51,x0day,https://github.com/microsoft/playwright-python/pull/1167,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4492,276414382,1,2022-01-13T22:53:55,AlberLC,https://github.com/microsoft/playwright-python/pull/1100,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4497,276414382,1,2021-04-05T17:55:13,nmashewske,https://github.com/microsoft/playwright-python/pull/612,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-5986,31168578,2,2016-06-10T05:04:13,marcusradell,https://github.com/hemanth/functional-programming-jargon/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24540,711976,4,2022-07-08T19:32:25,oscard0m,https://github.com/octokit/octokit.js/pull/2248,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24547,711976,1,2021-04-29T05:15:20,Martii,https://github.com/octokit/octokit.js/pull/2090,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24551,711976,1,2021-04-27T17:55:33,jeffmcaffer,https://github.com/octokit/octokit.js/pull/2080,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8590,6 +8590,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5967,75701562,1,2016-12-08T08:05:08,xosdy,https://github.com/miloyip/game-programmer/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5966,75701562,1,2017-03-20T01:52:01,yaukeywang,https://github.com/miloyip/game-programmer/pull/23,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5971,75701562,1,2016-12-17T13:27:40,unship,https://github.com/miloyip/game-programmer/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+5986,31168578,2,2016-06-10T05:04:13,marcusradell,https://github.com/hemanth/functional-programming-jargon/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24550,711976,1,2021-05-23T22:08:32,C0ZEN,https://github.com/octokit/octokit.js/pull/2101,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24556,711976,1,2021-05-22T21:07:23,mktcode,https://github.com/octokit/octokit.js/pull/2099,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24507,93611204,4,2022-05-31T10:49:29,vanitabarrett,https://github.com/alphagov/govuk-design-system/pull/2207,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
