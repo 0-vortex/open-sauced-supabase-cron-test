@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-06T20:07:12.239Z",
+  "lastExecuted": "2022-08-06T20:19:00.066Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2454,7 +2454,7 @@
     "ctoffanin": {
       "owner": "ctoffanin",
       "notFound": false,
-      "lastExecuted": "2022-08-06T08:13:01.656Z"
+      "lastExecuted": "2022-08-06T20:19:00.066Z"
     },
     "Cerchie": {
       "owner": "Cerchie",
@@ -2474,7 +2474,7 @@
     "Ryankolsen": {
       "owner": "Ryankolsen",
       "notFound": false,
-      "lastExecuted": "2022-08-06T08:13:01.656Z"
+      "lastExecuted": "2022-08-06T20:19:00.066Z"
     },
     "DavidHoechemer": {
       "owner": "DavidHoechemer",
@@ -2655,6 +2655,11 @@
       "owner": "BenWLeon",
       "notFound": false,
       "lastExecuted": "2022-08-06T17:36:15.980Z"
+    },
+    "NicolaCorvo90": {
+      "owner": "NicolaCorvo90",
+      "notFound": false,
+      "lastExecuted": "2022-08-06T20:19:00.066Z"
     }
   }
 }
