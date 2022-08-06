@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-06T01:06:22.818Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-06T03:12:27.350Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3487,8 +3487,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4018, 74762106, 4, '2021-12-31T06:14:12', 'jhao104', 'https://github.com/jhao104/proxy_pool/pull/622', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4019, 74762106, 1, '2018-10-15T08:03:39', 'YeClimEric', 'https://github.com/jhao104/proxy_pool/pull/191', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4020, 74762106, 1, '2020-06-19T03:21:29', 'feng409', 'https://github.com/jhao104/proxy_pool/pull/432', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4021, 74762106, 3, '2020-08-12T05:58:26', 'tinker-li', 'https://github.com/jhao104/proxy_pool/pull/488', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4022, 74762106, 4, '2017-11-13T02:18:44', 'bobobo80', 'https://github.com/jhao104/proxy_pool/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4021, 74762106, 3, '2020-08-12T05:58:26', 'tinker-li', 'https://github.com/jhao104/proxy_pool/pull/488', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4023, 74762106, 2, '2017-06-21T06:10:06', 'halleywj', 'https://github.com/jhao104/proxy_pool/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4024, 74762106, 1, '2017-04-26T02:18:04', 'newlyedward', 'https://github.com/jhao104/proxy_pool/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6528,8 +6528,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (819, 426356134, 1, '2021-12-08T09:52:02', 'gupta-utkarsh', 'https://github.com/harness/harness-cd-community/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (818, 426356134, 4, '2022-01-11T04:43:08', 'ankit-harness', 'https://github.com/harness/harness-cd-community/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11657, 69193081, 2, '2020-10-03T04:50:40', 'nhcarrigan', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/434', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11654, 69193081, 2, '2018-10-07T22:19:11', 'arshadkazmi42', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/175', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11661, 69193081, 1, '2017-08-21T21:14:43', 'rsarky', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(11654, 69193081, 2, '2018-10-07T22:19:11', 'arshadkazmi42', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/175', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11666, 69193081, 2, '2021-03-25T22:46:42', 'vkWeb', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/538', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11664, 69193081, 2, '2020-05-04T21:41:15', 'sandip2224', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/397', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1827, 281778548, 4, '2021-10-26T01:00:19', 'austenmadden', 'https://github.com/writewithocto/octo/pull/158', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
