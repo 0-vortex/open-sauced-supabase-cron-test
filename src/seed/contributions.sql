@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-07T03:15:06.080Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-07T04:49:28.854Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1696,8 +1696,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12451, 52631841, 1, '2021-05-03T07:06:13', 'borovikovd', 'https://github.com/gothinkster/realworld/pull/664', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12454, 52631841, 1, '2021-10-13T11:56:47', 'fishmandev', 'https://github.com/gothinkster/realworld/pull/761', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9073, 19872456, 4, '2017-02-24T01:05:29', 'knowbody', 'https://github.com/remix-run/react-router/pull/4575', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(9083, 19872456, 4, '2017-04-24T16:11:54', 'gaearon', 'https://github.com/remix-run/react-router/pull/5024', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9082, 19872456, 4, '2022-02-22T21:37:17', 'chaance', 'https://github.com/remix-run/react-router/pull/8678', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(9083, 19872456, 4, '2017-04-24T16:11:54', 'gaearon', 'https://github.com/remix-run/react-router/pull/5024', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5965, 227695638, 1, '2019-12-16T19:33:59', 'imakecodes', 'https://github.com/codeshow/003-arquitetura-flask/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9071, 19872456, 4, '2022-02-22T17:41:07', 'mcansh', 'https://github.com/remix-run/react-router/pull/8656', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9091, 19872456, 4, '2021-10-14T09:55:07', 'mjackson', 'https://github.com/remix-run/react-router/pull/8087', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
