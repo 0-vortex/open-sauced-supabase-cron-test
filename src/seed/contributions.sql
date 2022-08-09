@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-09T08:47:11.400Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-09T10:46:30.269Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7705,8 +7705,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23836, 45425758, 1, '2016-01-04T18:31:20', 'isidorn', 'https://github.com/microsoft/vscode-chrome-debug/pull/71', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5804, 105412971, 1, '2018-01-03T10:51:40', 'linonetwo', 'https://github.com/stereobooster/react-snap/pull/94', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5802, 105412971, 1, '2019-05-19T16:09:37', 'theKashey', 'https://github.com/stereobooster/react-snap/pull/338', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(33265, 393556751, 4, '2022-04-04T04:04:14', 'adrianmg', 'https://github.com/adrianmg/github-pewpew/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5813, 105412971, 1, '2019-06-16T13:22:58', 'hugmanrique', 'https://github.com/stereobooster/react-snap/pull/389', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5829, 105412971, 1, '2018-12-05T09:53:06', 'kjkta', 'https://github.com/stereobooster/react-snap/pull/312', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1543, 60374819, 4, '2019-12-18T22:34:44', 'aschlaep', 'https://github.com/jupyterlab/jupyterlab/pull/7653', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7724,6 +7722,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8555, 265122478, 3, '2020-08-16T16:14:13', 'azarzadavila', 'https://github.com/ManimCommunity/manim/pull/304', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23884, 198896556, 4, '2022-07-25T17:58:58', 'roblourens', 'https://github.com/microsoft/vscode-js-debug/pull/1341', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23888, 198896556, 4, '2021-06-09T22:15:07', 'EricCornelson', 'https://github.com/microsoft/vscode-js-debug/pull/1022', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(33265, 393556751, 4, '2022-04-04T04:04:14', 'adrianmg', 'https://github.com/adrianmg/github-pewpew/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36136, 248581239, 3, '2020-04-14T11:18:37', 'kfo42', 'https://github.com/reach4help/reach4help/pull/400', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36137, 248581239, 1, '2020-05-18T21:29:51', 'olibooty', 'https://github.com/reach4help/reach4help/pull/555', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36142, 211763756, 4, '2022-05-30T01:11:33', 'X9VoiD', 'https://github.com/OpenTabletDriver/OpenTabletDriver/pull/2273', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
