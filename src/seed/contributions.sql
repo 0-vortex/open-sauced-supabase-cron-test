@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-09T01:05:42.823Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-09T03:22:31.151Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2605,8 +2605,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (889, 49020217, 2, '2016-09-10T07:28:54', 'viatsko', 'https://github.com/petehunt/react-howto/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3134, 30969188, 4, '2016-05-26T13:57:41', 'NekR', 'https://github.com/react-boilerplate/react-boilerplate/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3135, 30969188, 4, '2016-07-12T23:37:42', 'greenkeeperio-bot', 'https://github.com/react-boilerplate/react-boilerplate/pull/706', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3136, 30969188, 4, '2017-04-20T00:55:42', 'samit4me', 'https://github.com/react-boilerplate/react-boilerplate/pull/1604', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3137, 30969188, 1, '2016-04-05T17:47:42', 'grabbou', 'https://github.com/react-boilerplate/react-boilerplate/pull/211', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3136, 30969188, 4, '2017-04-20T00:55:42', 'samit4me', 'https://github.com/react-boilerplate/react-boilerplate/pull/1604', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3138, 30969188, 4, '2016-01-20T22:34:36', 'philihp', 'https://github.com/react-boilerplate/react-boilerplate/pull/104', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3139, 30969188, 2, '2016-04-07T10:11:38', 'maxmantz', 'https://github.com/react-boilerplate/react-boilerplate/pull/265', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3140, 30969188, 2, '2016-06-11T11:44:00', 'jurekbarth', 'https://github.com/react-boilerplate/react-boilerplate/pull/529', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3090,8 +3090,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3706, 2823326, 1, '2016-02-13T09:43:24', 'bentranter', 'https://github.com/asciinema/asciinema/pull/146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3707, 2823326, 1, '2020-04-19T11:56:50', 'djpohly', 'https://github.com/asciinema/asciinema/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3708, 2823326, 1, '2018-10-22T19:59:11', 'iblech', 'https://github.com/asciinema/asciinema/pull/325', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3709, 2823326, 4, '2022-05-16T21:19:28', 'sickill', 'https://github.com/asciinema/asciinema/pull/501', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3710, 2823326, 1, '2018-12-08T18:19:32', 'vanyakosmos', 'https://github.com/asciinema/asciinema/pull/330', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3709, 2823326, 4, '2022-05-16T21:19:28', 'sickill', 'https://github.com/asciinema/asciinema/pull/501', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3711, 2823326, 1, '2017-12-12T20:30:09', 'AMR-KELEG', 'https://github.com/asciinema/asciinema/pull/251', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3712, 2823326, 1, '2021-10-02T14:28:23', 'gpotter2', 'https://github.com/asciinema/asciinema/pull/422', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3713, 2823326, 1, '2021-12-04T11:44:38', 'cfelder', 'https://github.com/asciinema/asciinema/pull/452', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
