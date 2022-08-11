@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-11T01:04:55.042Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-11T03:11:21.381Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2874,8 +2874,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23103, 27193779, 4, '2021-04-06T19:54:49', 'MylesBorins', 'https://github.com/nodejs/node/pull/38085', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4476, 18442377, 2, '2020-06-21T15:05:30', 'primaulia', 'https://github.com/lewagon/dotfiles/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4471, 18442377, 1, '2017-11-10T15:17:30', 'alex-benoit', 'https://github.com/lewagon/dotfiles/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(38095, 55387233, 3, '2016-10-08T21:21:48', 'JaKXz', 'https://github.com/conventional-changelog/standard-version/pull/128', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2089, 26500787, 1, '2016-11-06T06:47:34', 'derrekbertrand', 'https://github.com/tonsky/FiraCode/pull/296', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(38095, 55387233, 3, '2016-10-08T21:21:48', 'JaKXz', 'https://github.com/conventional-changelog/standard-version/pull/128', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38096, 55387233, 2, '2017-11-28T12:44:43', 'tomchentw', 'https://github.com/conventional-changelog/standard-version/pull/224', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4505, 139258121, 1, '2018-07-18T08:12:14', 'drubin', 'https://github.com/gajus/lightship/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4504, 139258121, 1, '2019-07-27T07:04:40', 'waldemarnt', 'https://github.com/gajus/lightship/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6898,8 +6898,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1580, 249234386, 4, '2022-05-09T20:54:58', 'jcalado', 'https://github.com/steveseguin/vdo.ninja/pull/958', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1581, 249234386, 4, '2022-04-30T16:57:18', 'Mixgyt', 'https://github.com/steveseguin/vdo.ninja/pull/950', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8763, 132732601, 3, '2020-08-20T07:08:33', 'apnar', 'https://github.com/canonical/microk8s/pull/1502', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8766, 132732601, 2, '2020-07-23T10:11:46', 'justinmclark', 'https://github.com/canonical/microk8s/pull/1425', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8777, 13601190, 1, '2021-03-19T12:49:50', 'aheinze', 'https://github.com/agentejo/cockpit/pull/1429', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2240, 257314632, 1, '2021-06-08T18:14:32', 'danielhour', 'https://github.com/onflow/fcl-js/pull/661', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2238, 257314632, 2, '2021-12-14T17:25:46', 'kerrywei', 'https://github.com/onflow/fcl-js/pull/927', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12245, 54228300, 4, '2020-07-22T13:33:10', 'danielhertenstein', 'https://github.com/mozilla/fathom/pull/258', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7247,6 +7245,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5838, 163639063, 1, '2020-09-04T00:52:20', 'pavansoundara', 'https://github.com/seanprashad/leetcode-patterns/pull/46', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1820, 227393393, 2, '2020-10-05T19:52:14', 'nipafx', 'https://github.com/livecoders/website/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40277, 22485114, 3, '2021-04-22T20:44:29', 'mdeggies', 'https://github.com/hashicorp/hcl/pull/464', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8766, 132732601, 2, '2020-07-23T10:11:46', 'justinmclark', 'https://github.com/canonical/microk8s/pull/1425', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8777, 13601190, 1, '2021-03-19T12:49:50', 'aheinze', 'https://github.com/agentejo/cockpit/pull/1429', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40276, 22485114, 2, '2020-11-19T16:35:56', 'invidian', 'https://github.com/hashicorp/hcl/pull/335', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (505, 175405157, 4, '2022-08-07T19:19:50', 'lewis-yeung', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2629', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (517, 175405157, 4, '2021-12-20T17:42:45', 'memcpy-rand-rand-rand', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1471', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
