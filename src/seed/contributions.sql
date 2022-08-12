@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-12T14:45:02.163Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-12T16:55:01.275Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4257,9 +4257,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5032, 203587744, 1, '2019-11-27T11:52:31', 'athul', 'https://github.com/hoppscotch/hoppscotch/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5033, 203587744, 4, '2021-08-09T08:04:20', 's-r-x', 'https://github.com/hoppscotch/hoppscotch/pull/1769', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5034, 203587744, 3, '2019-10-04T04:57:16', 'edisonaugusthy', 'https://github.com/hoppscotch/hoppscotch/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5035, 203587744, 4, '2020-05-15T15:57:20', 'sboulema', 'https://github.com/hoppscotch/hoppscotch/pull/878', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5036, 203587744, 4, '2021-12-02T14:50:25', '0xc0Der', 'https://github.com/hoppscotch/hoppscotch/pull/1952', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5037, 203587744, 2, '2019-08-29T02:33:02', 'pmankar', 'https://github.com/hoppscotch/hoppscotch/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5035, 203587744, 4, '2020-05-15T15:57:20', 'sboulema', 'https://github.com/hoppscotch/hoppscotch/pull/878', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5038, 203587744, 4, '2022-04-20T18:18:26', 'kyteinsky', 'https://github.com/hoppscotch/hoppscotch/pull/2268', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5039, 203587744, 3, '2020-10-05T16:37:04', 'LeoMartinDev', 'https://github.com/hoppscotch/hoppscotch/pull/1237', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5040, 203587744, 4, '2020-04-08T17:11:03', 'levrik', 'https://github.com/hoppscotch/hoppscotch/pull/748', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7094,9 +7094,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12322, 3662703, 2, '2012-08-13T15:46:03', 'konopackim', 'https://github.com/colobot/colobot/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12323, 3662703, 4, '2021-12-04T09:04:49', 'melex750', 'https://github.com/colobot/colobot/pull/1440', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5761, 281297416, 4, '2021-04-16T04:23:18', 'cbrownstein', 'https://github.com/adityatelange/hugo-PaperMod/pull/360', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5760, 281297416, 3, '2021-04-09T09:25:56', 'mohnoor94', 'https://github.com/adityatelange/hugo-PaperMod/pull/343', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5759, 281297416, 2, '2021-03-28T14:09:22', 'Syphdias', 'https://github.com/adityatelange/hugo-PaperMod/pull/333', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (298, 276976140, 4, '2022-06-30T13:24:32', 'patrickdevivo', 'https://github.com/mergestat/mergestat/pull/296', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5759, 281297416, 2, '2021-03-28T14:09:22', 'Syphdias', 'https://github.com/adityatelange/hugo-PaperMod/pull/333', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (312, 276976140, 1, '2020-09-07T15:23:49', 'jesuswasrasta', 'https://github.com/mergestat/mergestat/pull/53', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (315, 276976140, 1, '2020-07-22T22:24:23', 'dloss', 'https://github.com/mergestat/mergestat/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5667, 82729529, 2, '2017-03-20T21:41:13', 'jgarst', 'https://github.com/google/python-fire/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7682,6 +7681,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23873, 40416236, 1, '2015-08-10T21:21:59', 'aesopwolf', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23874, 40416236, 1, '2015-08-10T17:39:16', 'abotsis', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23875, 40416236, 1, '2015-08-18T14:58:58', 'Towerful', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/51', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5760, 281297416, 3, '2021-04-09T09:25:56', 'mohnoor94', 'https://github.com/adityatelange/hugo-PaperMod/pull/343', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23876, 40416236, 1, '2015-09-06T01:52:45', 'adamborowski', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/69', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23877, 40416236, 1, '2020-05-15T02:09:06', 'xeroskiller', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23878, 40416236, 1, '2015-10-31T17:09:29', 'benpious', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/83', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
