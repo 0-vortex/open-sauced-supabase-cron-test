@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-12T22:45:31.868Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-13T01:05:00.049Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3962,8 +3962,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32910, 75027176, 2, '2019-03-05T00:58:09', 'RichiCoder1', 'https://github.com/infinitered/gluegun/pull/449', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4721, 69590701, 4, '2022-01-18T19:11:14', 'gnomeontherun', 'https://github.com/vmware/clarity/pull/6578', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4722, 69590701, 4, '2022-03-02T19:38:32', 'hippee-lee', 'https://github.com/vmware/clarity/pull/6726', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4724, 69590701, 4, '2022-03-15T14:11:34', 'coryrylan', 'https://github.com/vmware/clarity/pull/6763', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4723, 69590701, 4, '2021-07-09T18:31:15', 'jeeyun', 'https://github.com/vmware/clarity/pull/6020', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4724, 69590701, 4, '2022-03-15T14:11:34', 'coryrylan', 'https://github.com/vmware/clarity/pull/6763', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4725, 69590701, 4, '2022-02-21T06:21:25', 'bdryanovski', 'https://github.com/vmware/clarity/pull/6707', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4726, 69590701, 4, '2022-03-10T16:53:27', 'mathisscott', 'https://github.com/vmware/clarity/pull/6759', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4727, 69590701, 4, '2022-01-19T17:16:11', 'Jinnie', 'https://github.com/vmware/clarity/pull/6581', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8936,8 +8936,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23887, 198896556, 4, '2020-10-29T19:01:22', 'digeff', 'https://github.com/microsoft/vscode-js-debug/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23880, 198896556, 1, '2020-05-06T21:20:46', 'cbmd', 'https://github.com/microsoft/vscode-js-debug/pull/459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23926, 198896556, 2, '2021-05-25T22:50:57', 'lhchavez', 'https://github.com/microsoft/vscode-js-debug/pull/1010', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (904, 49020217, 1, '2016-09-10T07:30:52', 'Bear-Foot', 'https://github.com/petehunt/react-howto/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
