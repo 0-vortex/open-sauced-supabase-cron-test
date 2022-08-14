@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-13T22:44:49.740Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-14T01:05:08.940Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1545,9 +1545,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3987, 404324019, 1, '2021-11-24T04:24:47', 'Harshit-3905', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/59', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3985, 404324019, 1, '2022-03-24T10:30:21', 'BiswjitDebnath', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/102', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3988, 404324019, 1, '2021-10-08T09:46:19', 'Atu77l', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/36', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3977, 404324019, 1, '2022-02-05T13:31:05', 'abhijeet1312', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3982, 404324019, 1, '2021-09-17T12:50:06', 'alankemboi', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16577, 6750158, 1, '2015-01-08T12:01:35', 'Microfed', 'https://github.com/mgechev/javascript-algorithms/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3977, 404324019, 1, '2022-02-05T13:31:05', 'abhijeet1312', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16570, 6750158, 4, '2015-01-15T17:05:01', 'AndriiHeonia', 'https://github.com/mgechev/javascript-algorithms/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12443, 52631841, 1, '2020-04-06T23:08:00', 'harttle', 'https://github.com/gothinkster/realworld/pull/395', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12448, 52631841, 1, '2018-04-07T18:18:03', 'gmlewis', 'https://github.com/gothinkster/realworld/pull/190', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
