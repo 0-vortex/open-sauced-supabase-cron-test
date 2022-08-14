@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-14T08:46:35.939Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-14T10:45:27.578Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2729,8 +2729,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3320, 89948774, 1, '2020-06-08T23:35:02', 'mcritchlow', 'https://github.com/dtzar/helm-kubectl/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3337, 89948774, 1, '2020-05-09T18:54:25', 'funkypenguin', 'https://github.com/dtzar/helm-kubectl/pull/55', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3325, 89948774, 1, '2020-12-23T03:23:26', 'massimilianobraglia', 'https://github.com/dtzar/helm-kubectl/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(23141, 66474729, 2, '2020-04-13T16:34:32', 'patdowney', 'https://github.com/prowler-cloud/prowler/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23142, 66474729, 2, '2019-09-17T18:54:31', 'venky999', 'https://github.com/prowler-cloud/prowler/pull/384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(23141, 66474729, 2, '2020-04-13T16:34:32', 'patdowney', 'https://github.com/prowler-cloud/prowler/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (637, 256786531, 4, '2021-09-09T21:00:05', 'delphinus', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1774', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (647, 256786531, 4, '2022-01-07T10:14:29', 'numToStr', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3301, 184571651, 4, '2022-05-04T21:44:05', 'HalfVoxel', 'https://github.com/material-shell/material-shell/pull/795', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8444,8 +8444,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12675, 141514439, 4, '2021-03-24T18:07:34', 'eschnett', 'https://github.com/kowainik/relude/pull/371', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12672, 141514439, 2, '2020-04-06T07:42:57', 'chris-martin', 'https://github.com/kowainik/relude/pull/252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2149, 85031442, 1, '2020-09-04T20:55:52', 'peterpme', 'https://github.com/poteto/hiring-without-whiteboards/pull/966', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2175, 85031442, 1, '2019-07-17T00:17:03', 'TsTrv', 'https://github.com/poteto/hiring-without-whiteboards/pull/846', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2155, 85031442, 1, '2019-05-16T14:26:52', 'timClicks', 'https://github.com/poteto/hiring-without-whiteboards/pull/694', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2175, 85031442, 1, '2019-07-17T00:17:03', 'TsTrv', 'https://github.com/poteto/hiring-without-whiteboards/pull/846', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2156, 85031442, 1, '2020-08-03T18:42:35', 'aloise', 'https://github.com/poteto/hiring-without-whiteboards/pull/956', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2150, 85031442, 1, '2020-07-20T23:47:22', 'aadsm', 'https://github.com/poteto/hiring-without-whiteboards/pull/939', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2164, 85031442, 1, '2019-10-14T18:43:44', 'ExodusActual', 'https://github.com/poteto/hiring-without-whiteboards/pull/866', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9013,9 +9013,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1566, 75505125, 4, '2021-11-05T12:40:38', 'ismcagdas', 'https://github.com/abpframework/abp/pull/10534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (10018, 75505125, 4, '2022-08-10T06:30:13', 'mahmut-gundogdu', 'https://github.com/abpframework/abp/pull/13584', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1761, 1834988, 4, '2014-09-16T23:15:53', 'kbroman', 'https://github.com/ropensci/rplos/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1805, 227393393, 4, '2020-11-19T12:04:45', 'csharpfritz', 'https://github.com/livecoders/website/pull/193', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1817, 227393393, 4, '2020-08-15T01:16:53', 'LuckyNoS7evin', 'https://github.com/livecoders/website/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1797, 227393393, 2, '2020-08-15T00:16:02', 'RamblingGeekUK', 'https://github.com/livecoders/website/pull/128', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1805, 227393393, 4, '2020-11-19T12:04:45', 'csharpfritz', 'https://github.com/livecoders/website/pull/193', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (524, 175405157, 4, '2022-07-20T10:42:44', 'jedwillick', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2540', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (41285, 175405157, 3, '2022-07-12T18:48:04', 'sitiom', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2512', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (41273, 175405157, 2, '2022-07-15T11:38:35', 'Kushal-Chandar', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2522', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
