@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-15T18:48:51.870Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-15T20:45:37.959Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -757,8 +757,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32706, 54322227, 2, '2017-07-31T19:47:29', '1kevgriff', 'https://github.com/trstringer/awesome-tech-conferences/pull/71', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (572, 42009758, 4, '2017-08-15T21:08:31', 'sdtsui', 'https://github.com/MetaMask/metamask-extension/pull/1916', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (578, 42009758, 4, '2022-05-20T14:35:18', 'adonesky1', 'https://github.com/MetaMask/metamask-extension/pull/14720', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(580, 42009758, 4, '2022-04-28T17:43:50', 'metamaskbot', 'https://github.com/MetaMask/metamask-extension/pull/14478', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (579, 42009758, 4, '2020-06-26T01:04:18', 'estebanmino', 'https://github.com/MetaMask/metamask-extension/pull/8631', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(580, 42009758, 4, '2022-04-28T17:43:50', 'metamaskbot', 'https://github.com/MetaMask/metamask-extension/pull/14478', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (577, 42009758, 4, '2022-05-26T17:56:28', 'dan437', 'https://github.com/MetaMask/metamask-extension/pull/14767', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (563, 42009758, 4, '2019-05-31T21:07:03', 'bitpshr', 'https://github.com/MetaMask/metamask-extension/pull/6671', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (582, 42009758, 4, '2019-06-19T21:22:03', 'chikeichan', 'https://github.com/MetaMask/metamask-extension/pull/6648', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -1869,10 +1869,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4256, 778828, 2, '2019-01-15T01:23:50', 'chrisdrobison', 'https://github.com/MassTransit/MassTransit/pull/1294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4243, 778828, 4, '2019-09-05T12:18:05', 'DamirAinullin', 'https://github.com/MassTransit/MassTransit/pull/1546', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4260, 778828, 4, '2019-03-05T13:43:38', 'stromblom', 'https://github.com/MassTransit/MassTransit/pull/1365', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4254, 778828, 2, '2021-05-12T21:03:44', 'jrutley', 'https://github.com/MassTransit/MassTransit/pull/2513', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5529, 177010499, 4, '2022-03-01T00:55:57', 'jonjohnsonjr', 'https://github.com/google/ko/pull/624', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2393, 14741294, 3, '2015-03-01T22:32:13', 'kevjames3', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/225', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2394, 14741294, 3, '2014-03-19T02:07:27', 'f3ndot', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4254, 778828, 2, '2021-05-12T21:03:44', 'jrutley', 'https://github.com/MassTransit/MassTransit/pull/2513', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2395, 14741294, 4, '2014-10-27T18:28:55', 'backspace', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/168', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2396, 14741294, 4, '2020-04-13T00:56:25', 'mi-wood', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/621', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2398, 14741294, 4, '2019-11-01T20:52:30', 'stardust66', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/606', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
