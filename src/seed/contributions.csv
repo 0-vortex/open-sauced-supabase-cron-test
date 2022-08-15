@@ -1329,6 +1329,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 4850,507,4,2015-01-13T17:47:05,rrrene,https://github.com/sferik/twitter/pull/645,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4856,507,1,2012-12-20T15:38:17,nbraem,https://github.com/sferik/twitter/pull/335,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4858,507,2,2016-12-06T05:16:39,tak1n,https://github.com/sferik/twitter/pull/816,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+23935,493046551,1,2022-05-26T22:20:52,CitrineDragon,https://github.com/curtisbarnard/BANKI/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37515,75675698,1,2018-06-18T17:29:49,aquach,https://github.com/standardnotes/app/pull/211,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4502,276414382,1,2020-12-11T16:45:56,tumregels,https://github.com/microsoft/playwright-python/pull/345,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4495,276414382,1,2021-03-22T23:41:16,graingert,https://github.com/microsoft/playwright-python/pull/593,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1369,9 +1370,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 13754,220139138,4,2021-05-17T18:50:22,lucacasonato,https://github.com/hayd/deno-lambda/pull/133,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13753,220139138,4,2021-12-23T20:06:10,hayd,https://github.com/hayd/deno-lambda/pull/156,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38084,478185779,2,2022-04-11T15:42:34,Susmita-Dey,https://github.com/XollabOS/talktometechnology/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-23935,493046551,1,2022-05-26T22:20:52,CitrineDragon,https://github.com/curtisbarnard/BANKI/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-23936,493046551,1,2022-05-20T17:02:20,brendondsouza,https://github.com/curtisbarnard/BANKI/pull/5,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2084,29497480,4,2018-09-29T22:04:47,Hodgy,https://github.com/OpenDominion/OpenDominion/pull/243,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+23936,493046551,1,2022-05-20T17:02:20,brendondsouza,https://github.com/curtisbarnard/BANKI/pull/5,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 335,11981144,1,2016-11-30T15:15:13,janschreiber,https://github.com/languagetool-org/languagetool/pull/624,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 730,88011908,1,2019-04-22T23:36:36,tuvtran,https://github.com/practical-tutorials/project-based-learning/pull/167,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 729,88011908,1,2018-07-19T03:41:37,nishitkshah,https://github.com/practical-tutorials/project-based-learning/pull/98,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7396,7 +7396,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11952,293570349,1,2022-01-27T14:45:21,TravisDavis-ops,https://github.com/cocogitto/cocogitto/pull/168,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11948,293570349,1,2021-12-08T13:24:03,lucas-dclrcq,https://github.com/cocogitto/cocogitto/pull/156,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11942,293570349,2,2022-01-27T02:08:22,Zshoham,https://github.com/cocogitto/cocogitto/pull/178,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-31142,493046551,1,2022-06-25T02:45:07,rahulkarda,https://github.com/curtisbarnard/BANKI/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 836,208397359,1,2019-10-29T01:28:39,swissarmytech,https://github.com/proudmonkey/AutoWrapper/pull/10,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1015,345922282,1,2021-08-14T17:20:01,songhn233,https://github.com/Saul-Mirone/milkdown/pull/94,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5886,21413198,3,2016-04-18T13:40:05,marudor,https://github.com/immutable-js/immutable-js/pull/845,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7426,6 +7425,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9000,230327376,1,2020-01-02T04:41:34,hadihammurabi,https://github.com/ErikCH/DevYouTubeList/pull/52,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8996,230327376,1,2019-12-30T05:14:29,Marvel-Ib,https://github.com/ErikCH/DevYouTubeList/pull/21,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9007,230327376,1,2020-01-26T00:26:19,jeffreybiles,https://github.com/ErikCH/DevYouTubeList/pull/95,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+31142,493046551,1,2022-06-25T02:45:07,rahulkarda,https://github.com/curtisbarnard/BANKI/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1006,345922282,1,2021-08-12T15:20:40,Ele-Peng,https://github.com/Saul-Mirone/milkdown/pull/89,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 22349,25315643,3,2016-11-22T23:47:18,agsdot,https://github.com/nylas/nylas-mail/pull/3085,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 35853,379652139,1,2022-02-23T22:24:05,abdumamdouh,https://github.com/ljharb/can-merge/pull/58,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8065,9 +8065,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 47820,291113450,2,2021-08-30T07:55:22,ShwetaChauhan18,https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 47822,291113450,1,2020-10-02T11:19:39,ujbolivar,https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/8,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2377,141058176,1,2018-10-30T23:23:18,Timothee,https://github.com/skidding/jobs-done/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-23933,493046551,1,2022-05-18T23:36:13,danjkim21,https://github.com/curtisbarnard/BANKI/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-23934,493046551,1,2022-05-17T23:23:27,octoshrimpy,https://github.com/curtisbarnard/BANKI/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23932,493046551,4,2022-06-23T04:33:14,AdamRathbun,https://github.com/curtisbarnard/BANKI/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+23934,493046551,1,2022-05-17T23:23:27,octoshrimpy,https://github.com/curtisbarnard/BANKI/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+23933,493046551,1,2022-05-18T23:36:13,danjkim21,https://github.com/curtisbarnard/BANKI/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23937,493046551,1,2022-06-07T18:27:24,NeffCodes,https://github.com/curtisbarnard/BANKI/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5941,417389,1,2011-12-28T21:48:20,jimeh,https://github.com/lostisland/faraday/pull/70,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5934,417389,4,2015-10-06T15:28:20,mislav,https://github.com/lostisland/faraday/pull/532,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8413,6 +8413,11 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 54131,14080274,3,2022-07-14T13:51:56,olberger,https://github.com/ronreiter/interactive-tutorials/pull/707,,2022-08-15T04:06:50.196574+00:00,2022-08-15T04:06:50.196574+00:00
 54132,14080274,1,2018-06-23T16:09:51,aikram24,https://github.com/ronreiter/interactive-tutorials/pull/311,,2022-08-15T04:06:50.196574+00:00,2022-08-15T04:06:50.196574+00:00
 54133,14080274,4,2018-10-30T15:02:04,snackersteph,https://github.com/ronreiter/interactive-tutorials/pull/347,,2022-08-15T04:06:50.196574+00:00,2022-08-15T04:06:50.196574+00:00
+54149,493046551,1,2022-08-10T16:44:29,kbventures,https://github.com/curtisbarnard/BANKI/pull/15,,2022-08-15T05:23:40.761907+00:00,2022-08-15T05:23:40.761907+00:00
+54150,493046551,1,2022-08-15T03:12:39,mhalverstadt,https://github.com/curtisbarnard/BANKI/pull/19,,2022-08-15T05:23:40.761907+00:00,2022-08-15T05:23:40.761907+00:00
+54155,493046551,1,2022-08-15T03:32:51,boonaki,https://github.com/curtisbarnard/BANKI/pull/22,,2022-08-15T05:23:40.761907+00:00,2022-08-15T05:23:40.761907+00:00
+54157,493046551,1,2022-08-11T15:40:22,LadyBluenotes,https://github.com/curtisbarnard/BANKI/pull/16,,2022-08-15T05:23:40.761907+00:00,2022-08-15T05:23:40.761907+00:00
+54158,493046551,1,2022-08-15T03:11:40,Tch4lla,https://github.com/curtisbarnard/BANKI/pull/18,,2022-08-15T05:23:40.761907+00:00,2022-08-15T05:23:40.761907+00:00
 3249,274495425,2,2021-11-10T19:15:28,evancloutier,https://github.com/remotion-dev/remotion/pull/692,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 4359,381907715,1,2021-09-14T14:19:00,johannschopplich,https://github.com/vuejs/petite-vue/pull/29,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23110,27193779,4,2022-02-25T13:31:20,ronag,https://github.com/nodejs/node/pull/42078,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
