@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-17T01:07:06.600Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-17T03:32:14.249Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4065,8 +4065,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3680, 5405654, 3, '2014-08-14T02:06:22', 'ptsoccer', 'https://github.com/pcottle/learnGitBranching/pull/196', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16849, 166558054, 1, '2019-10-20T02:53:41', 'beckler', 'https://github.com/Ullaakut/nmap/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16857, 166558054, 1, '2019-07-24T16:59:55', 'voidint', 'https://github.com/Ullaakut/nmap/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16853, 166558054, 1, '2021-03-15T10:09:36', 'brutalgg', 'https://github.com/Ullaakut/nmap/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16851, 166558054, 1, '2019-12-06T09:36:56', 'leobeosab', 'https://github.com/Ullaakut/nmap/pull/41', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(16853, 166558054, 1, '2021-03-15T10:09:36', 'brutalgg', 'https://github.com/Ullaakut/nmap/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16856, 166558054, 1, '2021-07-13T14:07:04', 'mxrch', 'https://github.com/Ullaakut/nmap/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16850, 166558054, 1, '2021-04-06T06:09:55', 'MaineK00n', 'https://github.com/Ullaakut/nmap/pull/77', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16855, 166558054, 1, '2021-01-25T15:41:56', 'ohDaddyPlease', 'https://github.com/Ullaakut/nmap/pull/68', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9385,8 +9385,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (39916, 80276391, 1, '2019-01-11T18:52:20', 'arthurgeron', 'https://github.com/GitSquared/edex-ui/pull/380', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39915, 80276391, 3, '2020-11-23T13:53:20', 'wrac4242', 'https://github.com/GitSquared/edex-ui/pull/910', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39922, 80276391, 2, '2021-03-07T19:12:18', 'Kungger-git', 'https://github.com/GitSquared/edex-ui/pull/1064', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39923, 80276391, 1, '2021-05-16T13:32:32', 'beckersd', 'https://github.com/GitSquared/edex-ui/pull/1118', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39912, 80276391, 4, '2020-09-22T19:44:43', 'snyk-bot', 'https://github.com/GitSquared/edex-ui/pull/763', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39923, 80276391, 1, '2021-05-16T13:32:32', 'beckersd', 'https://github.com/GitSquared/edex-ui/pull/1118', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42420, 440224087, 1, '2022-07-15T23:34:22', 'Arjan-Zuidema', 'https://github.com/Shopify/flash-list/pull/523', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40104, 440224087, 1, '2022-07-06T14:05:23', 'douglowder', 'https://github.com/Shopify/flash-list/pull/511', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (41999, 480080, 2, '2022-07-16T09:03:33', 'fesily', 'https://github.com/openresty/openresty/pull/848', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
