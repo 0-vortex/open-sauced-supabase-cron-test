@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-17T13:00:08.520Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-17T14:46:01.014Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8978,9 +8978,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (690, 120828763, 1, '2018-07-17T17:24:33', 'rkrupinski', 'https://github.com/ronami/minipack/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (697, 120828763, 1, '2018-05-31T05:57:17', 'ranyitz', 'https://github.com/ronami/minipack/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (687, 120828763, 1, '2018-06-08T12:32:35', 'chinanf-boy', 'https://github.com/ronami/minipack/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(688, 120828763, 1, '2018-05-30T21:14:39', 'roymiloh', 'https://github.com/ronami/minipack/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23819, 45425758, 2, '2016-10-07T03:42:55', 'marvinhagemeister', 'https://github.com/microsoft/vscode-chrome-debug/pull/241', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (866, 67375557, 1, '2019-09-14T03:12:00', 'sebaLinares', 'https://github.com/mgechev/angular-performance-checklist/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(688, 120828763, 1, '2018-05-30T21:14:39', 'roymiloh', 'https://github.com/ronami/minipack/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (852, 67375557, 1, '2020-01-30T18:16:19', 'morfey13', 'https://github.com/mgechev/angular-performance-checklist/pull/46', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (510, 175405157, 4, '2021-03-27T16:48:18', 'jos3s', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/591', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (519, 175405157, 4, '2021-01-22T18:22:36', 'tillig', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/366', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
