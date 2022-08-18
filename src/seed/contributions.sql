@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T03:32:31.893Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T05:03:24.896Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1069,9 +1069,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3112, 184456251, 4, '2021-09-04T05:49:13', 'mykhailopylyp', 'https://github.com/microsoft/PowerToys/pull/12986', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3114, 184456251, 4, '2022-06-02T09:47:53', 'davidegiacometti', 'https://github.com/microsoft/PowerToys/pull/18534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3107, 184456251, 4, '2020-02-24T16:45:51', 'bzoz', 'https://github.com/microsoft/PowerToys/pull/1355', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3110, 184456251, 4, '2022-03-23T14:46:38', 'dend', 'https://github.com/microsoft/PowerToys/pull/16903', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3125, 184456251, 4, '2020-11-13T16:51:22', 'vldmr11080', 'https://github.com/microsoft/PowerToys/pull/8027', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3202, 324575078, 2, '2022-04-28T02:38:33', 'AnIkeT126', 'https://github.com/Kushal997-das/Project-Guidance/pull/572', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3110, 184456251, 4, '2022-03-23T14:46:38', 'dend', 'https://github.com/microsoft/PowerToys/pull/16903', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3195, 324575078, 1, '2022-03-16T05:36:42', 'Ash-KODES', 'https://github.com/Kushal997-das/Project-Guidance/pull/370', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (317, 218115303, 2, '2020-05-08T21:53:28', 'Kerumen', 'https://github.com/vercel/swr/pull/381', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3201, 324575078, 4, '2022-03-02T07:09:19', 'Programmer1473', 'https://github.com/Kushal997-das/Project-Guidance/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4018,8 +4018,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4755, 279064706, 3, '2020-08-01T01:23:07', 'omidnikrah', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4756, 279064706, 1, '2020-07-30T17:54:39', 'andyruwruw', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/173', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4757, 279064706, 1, '2020-07-22T09:26:43', 'legendofmiracles', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
