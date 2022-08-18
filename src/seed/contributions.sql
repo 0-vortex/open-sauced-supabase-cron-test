@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T06:49:43.194Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T08:48:01.616Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1813,6 +1813,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5968, 75701562, 1, '2016-12-18T15:19:04', 'miloyip', 'https://github.com/miloyip/game-programmer/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5970, 75701562, 3, '2016-12-20T01:28:00', 'tkchu', 'https://github.com/miloyip/game-programmer/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2095, 26500787, 1, '2015-12-23T07:05:26', 'hastebrot', 'https://github.com/tonsky/FiraCode/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1895, 28548699, 1, '2016-12-22T21:27:03', 'yidingalan', 'https://github.com/cassidoo/getting-a-gig/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1884, 28548699, 1, '2015-01-09T21:06:18', 'a--hoang', 'https://github.com/cassidoo/getting-a-gig/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(32792, 37997, 1, '2014-09-05T02:00:58', 'rubygeek', 'https://github.com/jnunemaker/httparty/pull/331', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32791, 37997, 2, '2020-12-17T17:13:16', 'ritikesh', 'https://github.com/jnunemaker/httparty/pull/711', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32790, 37997, 2, '2015-11-24T19:46:09', 'kurenn', 'https://github.com/jnunemaker/httparty/pull/449', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4258, 778828, 1, '2018-04-10T15:52:52', 'iwanowskidev', 'https://github.com/MassTransit/MassTransit/pull/1096', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -1829,10 +1832,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2360, 36633370, 4, '2021-07-10T17:34:50', 'n8225', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/2617', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2356, 36633370, 4, '2018-12-01T14:10:26', 'Kickball', 'https://github.com/awesome-selfhosted/awesome-selfhosted/pull/1579', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11674, 107111421, 4, '2017-11-02T01:26:40', 'miya0001', 'https://github.com/thedaviddias/Front-End-Checklist/pull/128', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1895, 28548699, 1, '2016-12-22T21:27:03', 'yidingalan', 'https://github.com/cassidoo/getting-a-gig/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1884, 28548699, 1, '2015-01-09T21:06:18', 'a--hoang', 'https://github.com/cassidoo/getting-a-gig/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11672, 107111421, 4, '2020-04-20T01:13:31', 'thedaviddias', 'https://github.com/thedaviddias/Front-End-Checklist/pull/404', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32792, 37997, 1, '2014-09-05T02:00:58', 'rubygeek', 'https://github.com/jnunemaker/httparty/pull/331', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4931, 72931382, 4, '2018-05-21T16:39:21', 'Frizi', 'https://github.com/vuelidate/vuelidate/pull/295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4929, 72931382, 1, '2017-02-05T11:55:46', 'pczarn', 'https://github.com/vuelidate/vuelidate/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4934, 72931382, 4, '2022-03-27T16:50:52', 'dobromir-hristov', 'https://github.com/vuelidate/vuelidate/pull/1023', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4558,9 +4558,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5329, 90194616, 2, '2020-04-18T16:09:07', 'AlexECX', 'https://github.com/samuelcolvin/pydantic/pull/1404', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5333, 90194616, 2, '2021-02-13T10:35:21', 'antdking', 'https://github.com/samuelcolvin/pydantic/pull/2252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5334, 90194616, 4, '2020-04-30T12:09:46', 'Atheuz', 'https://github.com/samuelcolvin/pydantic/pull/1424', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5332, 90194616, 2, '2021-02-24T11:50:24', 'Hultner', 'https://github.com/samuelcolvin/pydantic/pull/2294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5364, 239281641, 1, '2022-04-26T15:50:36', 'royalfig', 'https://github.com/TryGhost/Dawn/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5365, 239281641, 1, '2021-03-15T06:01:29', 'minimaluminium', 'https://github.com/TryGhost/Dawn/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5332, 90194616, 2, '2021-02-24T11:50:24', 'Hultner', 'https://github.com/samuelcolvin/pydantic/pull/2294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5367, 239281641, 1, '2021-08-16T01:39:44', 'Jorijn', 'https://github.com/TryGhost/Dawn/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5368, 239281641, 1, '2021-01-05T05:50:06', 'deankroker', 'https://github.com/TryGhost/Dawn/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5366, 239281641, 3, '2020-10-07T10:34:54', 'iveelco', 'https://github.com/TryGhost/Dawn/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
