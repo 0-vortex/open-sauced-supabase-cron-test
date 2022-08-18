@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T08:48:01.616Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T10:46:59.418Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3758,8 +3758,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4515, 26291683, 1, '2014-11-08T00:31:11', 'thii', 'https://github.com/twitter/twemoji/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4516, 26291683, 3, '2015-04-09T12:43:58', 'jasmussen', 'https://github.com/twitter/twemoji/pull/69', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4517, 26291683, 1, '2019-09-04T18:55:29', 'Abhik1998', 'https://github.com/twitter/twemoji/pull/376', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4518, 26291683, 1, '2014-11-11T18:16:31', 'andypiper', 'https://github.com/twitter/twemoji/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4519, 26291683, 1, '2016-10-10T10:52:28', 'S-Raghav', 'https://github.com/twitter/twemoji/pull/187', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4518, 26291683, 1, '2014-11-11T18:16:31', 'andypiper', 'https://github.com/twitter/twemoji/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4520, 26291683, 1, '2015-04-14T11:48:29', 'AnSavvides', 'https://github.com/twitter/twemoji/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4521, 26291683, 1, '2016-02-09T08:29:57', 'anirvan', 'https://github.com/twitter/twemoji/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4522, 26291683, 2, '2021-06-08T02:11:27', 'goooseman', 'https://github.com/twitter/twemoji/pull/491', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4558,9 +4558,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5329, 90194616, 2, '2020-04-18T16:09:07', 'AlexECX', 'https://github.com/samuelcolvin/pydantic/pull/1404', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5333, 90194616, 2, '2021-02-13T10:35:21', 'antdking', 'https://github.com/samuelcolvin/pydantic/pull/2252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5334, 90194616, 4, '2020-04-30T12:09:46', 'Atheuz', 'https://github.com/samuelcolvin/pydantic/pull/1424', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5332, 90194616, 2, '2021-02-24T11:50:24', 'Hultner', 'https://github.com/samuelcolvin/pydantic/pull/2294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5364, 239281641, 1, '2022-04-26T15:50:36', 'royalfig', 'https://github.com/TryGhost/Dawn/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5365, 239281641, 1, '2021-03-15T06:01:29', 'minimaluminium', 'https://github.com/TryGhost/Dawn/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5332, 90194616, 2, '2021-02-24T11:50:24', 'Hultner', 'https://github.com/samuelcolvin/pydantic/pull/2294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5367, 239281641, 1, '2021-08-16T01:39:44', 'Jorijn', 'https://github.com/TryGhost/Dawn/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5368, 239281641, 1, '2021-01-05T05:50:06', 'deankroker', 'https://github.com/TryGhost/Dawn/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5366, 239281641, 3, '2020-10-07T10:34:54', 'iveelco', 'https://github.com/TryGhost/Dawn/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8847,8 +8847,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4473, 18442377, 1, '2017-11-22T09:52:06', 'fcatuhe', 'https://github.com/lewagon/dotfiles/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4478, 18442377, 1, '2021-01-05T11:04:14', 'juliends', 'https://github.com/lewagon/dotfiles/pull/78', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4479, 18442377, 1, '2020-10-07T06:52:05', 'hjlarry', 'https://github.com/lewagon/dotfiles/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4477, 18442377, 1, '2020-12-30T23:06:20', 'Lomig', 'https://github.com/lewagon/dotfiles/pull/73', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4263, 66287660, 4, '2022-04-05T09:54:56', 'bart-degreed', 'https://github.com/json-api-dotnet/JsonApiDotNetCore/pull/1146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4477, 18442377, 1, '2020-12-30T23:06:20', 'Lomig', 'https://github.com/lewagon/dotfiles/pull/73', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4267, 66287660, 4, '2021-12-21T12:33:32', 'maurei', 'https://github.com/json-api-dotnet/JsonApiDotNetCore/pull/1123', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4273, 66287660, 4, '2018-09-04T04:10:33', 'NullVoxPopuli', 'https://github.com/json-api-dotnet/JsonApiDotNetCore/pull/393', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4270, 66287660, 4, '2019-05-24T11:06:15', 'milosloub', 'https://github.com/json-api-dotnet/JsonApiDotNetCore/pull/513', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
