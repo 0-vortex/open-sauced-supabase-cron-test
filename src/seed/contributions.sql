@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-19T06:49:41.186Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-19T08:48:29.706Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7187,10 +7187,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5789, 138754790, 4, '2021-09-13T11:49:28', 'chilarai', 'https://github.com/duckdb/duckdb/pull/2228', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (30, 278335273, 2, '2020-07-24T12:53:50', 'ooobsidian', 'https://github.com/anuraghazra/github-readme-stats/pull/172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (21, 278335273, 2, '2020-10-04T14:47:14', 'jalenchuh', 'https://github.com/anuraghazra/github-readme-stats/pull/539', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(23, 278335273, 1, '2020-07-12T07:54:50', 'JoaoVSouto', 'https://github.com/anuraghazra/github-readme-stats/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (35, 278335273, 2, '2020-08-30T12:53:59', 'imrdong', 'https://github.com/anuraghazra/github-readme-stats/pull/418', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3025, 100060912, 4, '2021-10-12T18:00:06', 'mpela81', 'https://github.com/microsoft/terminal/pull/11485', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3036, 100060912, 4, '2022-06-01T17:47:23', 'lhecker', 'https://github.com/microsoft/terminal/pull/13212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(23, 278335273, 1, '2020-07-12T07:54:50', 'JoaoVSouto', 'https://github.com/anuraghazra/github-readme-stats/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3657, 261861733, 4, '2022-02-11T21:13:10', 'soumik12345', 'https://github.com/keras-team/keras-io/pull/803', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3639, 261861733, 4, '2021-08-10T19:57:58', '8bitmp3', 'https://github.com/keras-team/keras-io/pull/585', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3642, 261861733, 3, '2020-08-27T22:39:33', 'mjang2000', 'https://github.com/keras-team/keras-io/pull/231', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
