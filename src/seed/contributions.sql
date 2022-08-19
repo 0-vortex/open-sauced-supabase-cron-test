@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-18T22:45:30.115Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-19T01:05:24.388Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1667,9 +1667,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23038, 220852673, 1, '2020-05-23T01:19:26', 'jlkalberer', 'https://github.com/esthor/react-native-swipeable-list/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5965, 227695638, 1, '2019-12-16T19:33:59', 'imakecodes', 'https://github.com/codeshow/003-arquitetura-flask/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1767, 25304276, 1, '2015-03-26T16:51:14', 'poliva', 'https://github.com/poliva/pyqtggpo/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(7190, 411705813, 1, '2021-10-19T19:23:49', 'creativeyashi', 'https://github.com/avinash201199/Portfolio-Collection/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1766, 25304276, 2, '2015-01-23T10:41:04', 'pokeshark', 'https://github.com/poliva/pyqtggpo/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (7188, 411705813, 1, '2021-10-25T06:55:07', 'Joaquin144', 'https://github.com/avinash201199/Portfolio-Collection/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(7190, 411705813, 1, '2021-10-19T19:23:49', 'creativeyashi', 'https://github.com/avinash201199/Portfolio-Collection/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23039, 220852673, 4, '2022-03-27T15:06:51', 'esthor', 'https://github.com/esthor/react-native-swipeable-list/pull/40', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1789, 290703027, 4, '2020-10-04T11:18:48', 'Dipeshtwis', 'https://github.com/kothariji/competitive-programming/pull/128', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2520, 103953059, 1, '2018-02-04T20:12:31', 'huyz', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -1846,10 +1846,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (14049, 29371034, 4, '2020-04-18T21:34:59', 'vtolstov', 'https://github.com/micro/micro/pull/808', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1781, 290703027, 4, '2021-10-06T04:48:42', 'AnIkeT126', 'https://github.com/kothariji/competitive-programming/pull/419', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14050, 29371034, 3, '2019-12-18T07:35:24', 'xmlking', 'https://github.com/micro/micro/pull/476', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(14054, 29371034, 2, '2020-02-01T14:05:24', 'WLun001', 'https://github.com/micro/micro/pull/514', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14047, 29371034, 1, '2016-03-12T11:14:26', 's8sg', 'https://github.com/micro/micro/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14046, 29371034, 2, '2021-01-04T19:37:48', '0xflotus', 'https://github.com/micro/micro/pull/1659', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14051, 29371034, 3, '2021-10-08T16:57:40', 'goldsky', 'https://github.com/micro/micro/pull/1853', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(14054, 29371034, 2, '2020-02-01T14:05:24', 'WLun001', 'https://github.com/micro/micro/pull/514', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14045, 29371034, 4, '2020-11-23T15:27:30', 'arbarlow', 'https://github.com/micro/micro/pull/1552', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14043, 29371034, 2, '2021-04-22T09:01:30', 'zhuzhengyang', 'https://github.com/micro/micro/pull/1760', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1779, 290703027, 3, '2020-10-05T05:20:33', 'Sweta040799', 'https://github.com/kothariji/competitive-programming/pull/138', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
