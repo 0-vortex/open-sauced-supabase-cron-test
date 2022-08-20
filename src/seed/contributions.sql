@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T03:19:37.260Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T04:52:22.250Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4019,6 +4019,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4756, 279064706, 1, '2020-07-30T17:54:39', 'andyruwruw', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/173', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4757, 279064706, 1, '2020-07-22T09:26:43', 'legendofmiracles', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4518,7 +4519,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32919, 34228852, 1, '2022-01-20T17:52:57', 'DeciderWill', 'https://github.com/AchoArnold/discount-for-student-dev/pull/135', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32920, 34228852, 3, '2015-12-12T03:47:54', 'leonmak', 'https://github.com/AchoArnold/discount-for-student-dev/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32921, 34228852, 4, '2019-10-29T15:08:10', 'chintogtokh', 'https://github.com/AchoArnold/discount-for-student-dev/pull/86', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32922, 34228852, 1, '2020-02-04T20:50:33', 'ChrisMott97', 'https://github.com/AchoArnold/discount-for-student-dev/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32923, 34228852, 1, '2016-08-18T03:53:27', 'ad-m', 'https://github.com/AchoArnold/discount-for-student-dev/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32924, 34228852, 1, '2018-10-25T17:09:42', 'aburakayaz', 'https://github.com/AchoArnold/discount-for-student-dev/pull/71', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
