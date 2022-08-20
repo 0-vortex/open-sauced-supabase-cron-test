@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.14.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.14.0...v1.14.1) (2022-08-20)
+
+
+### 🐛 Bug Fixes
+
+* correct new soft delete enabled stars tables ([d6eb82b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/d6eb82b38c1273a8a97ab2ffc4d3623495ddbfcb))
+
 ## [1.14.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.13.2...v1.14.0) (2022-08-05)
 
 
