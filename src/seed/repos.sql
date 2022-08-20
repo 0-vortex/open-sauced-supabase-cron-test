@@ -1,5 +1,5 @@
 --
--- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T08:47:43.254Z
+-- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T10:45:46.577Z
 -- COPY repos(id, user_id, issues, stars, watchers, subscribers, is_fork, created_at, updated_at, pushed_at, last_fetched_contributors_at, name, full_name, description, language, license, url, deleted_at) FROM 'repos.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2510,10 +2510,10 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (143131, 60195, 54, 4148, 4148, 211, false, '2009-03-04T20:16:45', '2009-03-04T20:16:45', '2022-06-05T15:47:11', '1970-01-01T00:00:00', 'cppcheck', 'danmar/cppcheck', 'static analysis of C/C++ code', 'C++', 'GPL-3.0', 'http://cppcheck.sourceforge.net/', null),
 (372263341, 8124558, 21, 22, 22, 2, false, '2021-05-30T16:27:39', '2021-05-30T16:27:39', '2022-06-01T21:26:13', '1970-01-01T00:00:00', 'ConfBuddies', 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', 'Ruby', 'MIT', '', null),
 (371708649, 67373477, 0, 3, 3, 1, false, '2021-05-28T13:24:29', '2021-05-28T13:24:29', '2021-09-17T06:06:09', '1970-01-01T00:00:00', 'r2r-cli', 'rep2recall/r2r-cli', 'CLI and programmability-focused memorizing flashcard app.', 'Go', 'MIT', '', null),
-(337366449, 58669807, 0, 17, 17, 1, false, '2021-02-09T10:22:36', '2021-02-09T10:22:36', '2021-03-30T03:10:51', '1970-01-01T00:00:00', 'The-Lazy-Media-api', 'NicolaDeastra/The-Lazy-Media-api', 'Unofficial The Lazy Media API', 'JavaScript', 'MIT', 'the-lazy-media-api.vercel.app', null),
 (218157, 13310689, 790, 11599, 11599, 155, false, '2009-06-04T06:41:11', '2009-06-04T06:41:11', '2022-06-06T07:00:59', '1970-01-01T00:00:00', 'ranger', 'ranger/ranger', 'A VIM-inspired filemanager for the console', 'Python', 'GPL-3.0', 'https://ranger.github.io/', null),
 (278139674, 50962064, 0, 10, 10, 1, false, '2020-07-08T16:25:26', '2020-07-08T16:25:26', '2022-05-23T09:47:30', '1970-01-01T00:00:00', 'yemeksepeti_api', 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', 'Python', 'GPL-3.0', '', null),
 (422742615, 74286884, 24, 44, 44, 5, false, '2021-10-30T00:04:07', '2022-07-29T19:30:02', '2022-06-24T00:35:13', '2022-07-10T20:48:30.518', 'git-connected', 'wil-gerard/git-connected', 'A social networking web application to help connect the 100Devs community', 'TypeScript', 'MIT', 'https://gitconnected.dev', null),
+(337366449, 58669807, 0, 17, 17, 1, false, '2021-02-09T10:22:36', '2021-02-09T10:22:36', '2021-03-30T03:10:51', '1970-01-01T00:00:00', 'The-Lazy-Media-api', 'NicolaDeastra/The-Lazy-Media-api', 'Unofficial The Lazy Media API', 'JavaScript', 'MIT', 'the-lazy-media-api.vercel.app', null),
 (284237732, 64263079, 1, 127, 127, 3, false, '2020-08-01T10:25:19', '2022-08-12T20:09:38', '2022-07-27T22:21:45', '2022-06-09T11:28:54.998', 'educative.io_courses', 'techtanic/educative.io_courses', 'this is downloadings of all educative.io free student subscription courses as pdf from GitHub student pack', null, 'UNLICENSED', '', null),
 (525105056, 29705703, 3, 3456, 3456, 34, false, '2022-08-15T18:59:54', '2022-08-19T05:21:52', '2022-08-19T04:48:43', '1970-01-01T00:00:00', 'system-design', 'karanpratapsingh/system-design', 'Learn how to design systems at scale and prepare for system design interviews', null, 'GPL-3.0', 'https://www.karanpratapsingh.com/courses/system-design', null),
 (192175095, 17734694, 55, 21140, 21140, 108, false, '2019-06-16T09:55:25', '2022-08-16T14:18:18', '2022-08-16T08:58:46', '1970-01-01T00:00:00', 'github1s', 'conwnet/github1s', 'One second to read GitHub code with VS Code.', 'TypeScript', 'MIT', 'https://github1s.com', null),
