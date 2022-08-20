@@ -1,5 +1,5 @@
 --
--- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T04:52:22.564Z
+-- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T06:48:03.811Z
 -- COPY repos(id, user_id, issues, stars, watchers, subscribers, is_fork, created_at, updated_at, pushed_at, last_fetched_contributors_at, name, full_name, description, language, license, url, deleted_at) FROM 'repos.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -68,9 +68,9 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (41029539, 33317542, 7, 344, 344, 23, false, '2015-08-19T11:13:32', '2015-08-19T11:13:32', '2021-12-26T14:51:20', '2022-08-19T19:00:59.475', 'Finance-Python', 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 'Python', 'MIT', '', null),
 (288217211, 62061637, 10, 117, 117, 3, false, '2020-08-17T15:30:33', '2020-08-17T15:30:33', '2022-03-05T12:51:31', '1970-01-01T00:00:00', 'dnotebook', 'opensource9ja/dnotebook', 'Dnotebook is a Jupyter-like library for javaScript environment. It allows you to create and share pages that contain live code, text and visualizations.', 'TypeScript', 'MIT', 'https://dnotebook.jsdata.org/getting-started', null),
 (496222490, 70610428, 3, 21, 21, 1, false, '2022-05-25T12:32:01', '2022-08-09T19:33:04', '2022-07-06T16:08:02', '2022-08-17T10:47:56.997', 'vawlence-school', 'princecodes247/vawlence-school', 'A platform for comrades to get certified in any degree of vawulence', 'JavaScript', 'UNLICENSED', 'vawlence-school.vercel.app', null),
-(493046551, 100104319, 1, 80, 80, 4, false, '2022-05-17T00:54:26', '2022-05-17T00:54:26', '2022-06-25T02:45:07', '2022-08-15T05:23:39.178', 'BANKI', 'curtisbarnard/BANKI', 'All the questions to prep for a technical interview', null, 'MIT', null, null),
 (289834406, 497739, 1, 268, 268, 11, false, '2020-08-24T05:15:59', '2020-08-24T05:15:59', '2021-04-17T00:56:53', '2022-08-18T04:39:22.128', 'python-searchengine', 'bartdegoede/python-searchengine', null, 'Python', 'MIT', null, null),
 (381575565, 2646487, 13, 56, 56, 4, false, '2021-06-30T04:32:53', '2021-06-30T04:32:53', '2021-11-08T17:21:58', '2022-08-18T19:20:00.285', 'archivebox-exporter', 'tjhorner/archivebox-exporter', 'Automatically or manually send pages from your browser to your ArchiveBox for archival.', 'TypeScript', 'MIT', '', null),
+(493046551, 100104319, 1, 80, 80, 4, false, '2022-05-17T00:54:26', '2022-05-17T00:54:26', '2022-06-25T02:45:07', '2022-08-20T05:30:14.214', 'BANKI', 'curtisbarnard/BANKI', 'All the questions to prep for a technical interview', null, 'MIT', null, null),
 (403029798, 3096766, 0, 2, 2, 2, false, '2021-09-04T10:41:38', '2021-09-04T10:41:38', '2021-09-04T17:40:10', '2022-08-15T23:28:45.556', 'ask-me-anything', 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', null, 'UNLICENSED', null, null),
 (132732601, 53057619, 493, 6649, 6649, 108, false, '2018-05-09T09:19:36', '2022-08-07T11:37:01', '2022-08-07T06:16:04', '2022-08-18T05:03:52.377', 'microk8s', 'canonical/microk8s', 'MicroK8s is a small, fast, single-package Kubernetes for developers, IoT and edge.', 'Python', 'Apache-2.0', 'https://microk8s.io', null),
 (68646997, 1093738, 22, 1310, 1310, 18, false, '2016-09-19T21:09:47', '2022-08-04T07:58:46', '2022-07-20T05:10:38', '2022-08-17T23:12:29.567', 'flipping', 'davidkpiano/flipping', 'Flipping awesome animations.', 'TypeScript', 'MIT', null, null),
