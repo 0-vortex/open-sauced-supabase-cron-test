@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T18:47:26.952Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-20T20:45:32.015Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -136,8 +136,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (14344, 239281641, 1, '2022-05-31T08:59:37', 'vikaspotluri123', 'https://github.com/TryGhost/Dawn/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24078, 149106859, 1, '2021-05-17T16:24:28', 'cshea15', 'https://github.com/microsoft/WhatTheHack/pull/242', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24080, 149106859, 4, '2021-04-16T01:56:50', 'micya', 'https://github.com/microsoft/WhatTheHack/pull/208', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5779, 138754790, 3, '2021-12-08T17:48:47', 'Manerone', 'https://github.com/duckdb/duckdb/pull/2526', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22329, 58753834, 1, '2018-10-07T13:04:50', 'abcfy2', 'https://github.com/mayswind/AriaNg/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5779, 138754790, 3, '2021-12-08T17:48:47', 'Manerone', 'https://github.com/duckdb/duckdb/pull/2526', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22347, 25315643, 3, '2016-07-23T13:32:12', 'jathpala', 'https://github.com/nylas/nylas-mail/pull/2667', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2507, 35955666, 4, '2017-02-19T20:23:13', 'Psycho7', 'https://github.com/jlevy/the-art-of-command-line/pull/500', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2539, 35955666, 4, '2018-04-07T20:07:44', 'anna-d', 'https://github.com/jlevy/the-art-of-command-line/pull/551', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -1161,8 +1161,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16512, 142967350, 2, '2019-09-18T17:17:09', 'kendallgassner', 'https://github.com/reach/reach-ui/pull/274', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16516, 142967350, 3, '2019-10-09T21:37:50', 'jamenamcinteer', 'https://github.com/reach/reach-ui/pull/287', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16520, 142967350, 3, '2020-05-11T06:03:30', 'ddanger', 'https://github.com/reach/reach-ui/pull/570', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1282, 306449955, 4, '2022-04-24T20:31:22', 'Isuewo', 'https://github.com/IrisShaders/Iris/pull/1328', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1279, 306449955, 2, '2021-11-28T22:07:04', 'Disguys', 'https://github.com/IrisShaders/Iris/pull/840', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1282, 306449955, 4, '2022-04-24T20:31:22', 'Isuewo', 'https://github.com/IrisShaders/Iris/pull/1328', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37465, 495836457, 4, '2022-07-07T12:32:19', 'Fedeorlandau', 'https://github.com/t3-oss/create-t3-app/pull/139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37466, 495836457, 4, '2022-07-05T09:03:09', 'asheeeshh', 'https://github.com/t3-oss/create-t3-app/pull/115', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37467, 495836457, 1, '2022-06-04T14:33:50', 'iDarkLightning', 'https://github.com/t3-oss/create-t3-app/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8387,8 +8387,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (53078, 251296379, 1, '2021-04-24T06:53:29', 'tomassatka', 'https://github.com/variantdev/chartify/pull/8', null, '2022-08-12T10:21:08.319869+00:00', '2022-08-12T10:21:08.319869+00:00'),
 (53084, 233851698, 1, '2022-04-25T13:58:31', 'Roberdvs', 'https://github.com/goharbor/terraform-provider-harbor/pull/205', null, '2022-08-12T10:21:08.319869+00:00', '2022-08-12T10:21:08.319869+00:00'),
 (53134, 90590303, 2, '2022-01-08T22:53:39', 'setchy', 'https://github.com/graphql-java/awesome-graphql-java/pull/39', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
-(53135, 90590303, 1, '2021-05-24T05:07:22', 'jxnu-liguobin', 'https://github.com/graphql-java/awesome-graphql-java/pull/33', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
 (53130, 90590303, 2, '2017-05-16T16:07:57', 'apottere', 'https://github.com/graphql-java/awesome-graphql-java/pull/2', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
+(53135, 90590303, 1, '2021-05-24T05:07:22', 'jxnu-liguobin', 'https://github.com/graphql-java/awesome-graphql-java/pull/33', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
 (53136, 90590303, 1, '2017-12-09T03:19:55', 'siderakis', 'https://github.com/graphql-java/awesome-graphql-java/pull/14', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
 (53132, 90590303, 2, '2020-05-02T23:08:02', 'benmccann', 'https://github.com/graphql-java/awesome-graphql-java/pull/30', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
 (53138, 90590303, 2, '2021-09-04T07:49:41', 'dugenkui03', 'https://github.com/graphql-java/awesome-graphql-java/pull/36', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
