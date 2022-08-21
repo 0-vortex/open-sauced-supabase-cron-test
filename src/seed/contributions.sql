@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T08:47:03.360Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T10:45:39.348Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7658,8 +7658,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (34774, 220186120, 1, '2020-07-16T08:10:52', 'pascaldekloe', 'https://github.com/codenotary/immudb/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9006, 230327376, 2, '2020-02-19T04:53:09', 'BOLT04', 'https://github.com/ErikCH/DevYouTubeList/pull/111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9101, 4568238, 2, '2015-11-12T08:26:59', 'alanhoff', 'https://github.com/expressjs/expressjs.com/pull/496', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5983, 31168578, 1, '2019-04-24T15:32:05', '0xflotus', 'https://github.com/hemanth/functional-programming-jargon/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1192, 23974149, 3, '2018-10-31T23:39:37', 'MaximBalaganskiy', 'https://github.com/Dogfalo/materialize/pull/5942', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5983, 31168578, 1, '2019-04-24T15:32:05', '0xflotus', 'https://github.com/hemanth/functional-programming-jargon/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40351, 35955666, 2, '2016-10-28T06:55:45', 'timothyqiu', 'https://github.com/jlevy/the-art-of-command-line/pull/466', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1430, 16607898, 4, '2014-05-07T21:43:18', 'fudanchii', 'https://github.com/harness/drone/pull/304', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1447, 16607898, 4, '2022-06-14T10:56:19', 'tphoney', 'https://github.com/harness/drone/pull/3230', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
