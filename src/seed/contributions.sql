@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T01:04:56.241Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T03:21:51.909Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5248,9 +5248,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (17090, 69193081, 2, '2022-05-30T20:01:06', 'sajjadcodes', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/696', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4172, 143078055, 2, '2019-12-13T09:31:00', 'emilol', 'https://github.com/gridsome/gridsome/pull/872', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4163, 143078055, 3, '2019-11-29T19:21:04', 'igk1972', 'https://github.com/gridsome/gridsome/pull/840', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5387, 91151442, 4, '2021-01-15T14:50:35', 'ijl', 'https://github.com/PyO3/pyo3/pull/1384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5390, 91151442, 2, '2019-10-12T05:03:45', 'macisamuele', 'https://github.com/PyO3/pyo3/pull/612', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6047, 277057483, 1, '2021-03-09T14:04:15', 'rik', 'https://github.com/apparition47/MailTrackerBlocker/pull/71', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5387, 91151442, 4, '2021-01-15T14:50:35', 'ijl', 'https://github.com/PyO3/pyo3/pull/1384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6049, 277057483, 1, '2021-03-03T11:23:09', 'brianvanburken', 'https://github.com/apparition47/MailTrackerBlocker/pull/52', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6048, 277057483, 2, '2021-03-09T02:17:46', 'larkov', 'https://github.com/apparition47/MailTrackerBlocker/pull/69', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4178, 143078055, 2, '2020-10-29T23:11:39', 'Erbenos', 'https://github.com/gridsome/gridsome/pull/1373', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7852,8 +7852,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1650, 378070841, 1, '2022-01-24T16:53:39', 'davidsidlinger', 'https://github.com/ngneat/elf/pull/126', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1241, 170738310, 4, '2022-06-04T05:12:37', 'AyushBherwani1998', 'https://github.com/trustwallet/wallet-core/pull/2280', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1224, 170738310, 3, '2022-05-04T07:37:33', 'sharish', 'https://github.com/trustwallet/wallet-core/pull/2183', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(43534, 281297416, 2, '2022-07-17T06:12:42', 'pxlfrk', 'https://github.com/adityatelange/hugo-PaperMod/pull/733', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1233, 170738310, 4, '2019-04-16T10:20:36', 'NashMiao', 'https://github.com/trustwallet/wallet-core/pull/327', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(43534, 281297416, 2, '2022-07-17T06:12:42', 'pxlfrk', 'https://github.com/adityatelange/hugo-PaperMod/pull/733', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5831, 105412971, 1, '2018-01-29T17:50:00', 'louisjc', 'https://github.com/stereobooster/react-snap/pull/130', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5991, 31168578, 1, '2019-02-06T13:49:36', 'amilajack', 'https://github.com/hemanth/functional-programming-jargon/pull/192', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24555, 711976, 1, '2021-12-15T04:07:33', 'TyMick', 'https://github.com/octokit/octokit.js/pull/2181', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
