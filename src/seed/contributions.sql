@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T01:05:22.387Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T03:30:49.052Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5967,9 +5967,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8567, 265122478, 4, '2021-04-16T14:10:09', 'cobordism', 'https://github.com/ManimCommunity/manim/pull/1343', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (881, 49020217, 1, '2016-09-10T07:29:49', 'jurgob', 'https://github.com/petehunt/react-howto/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (882, 49020217, 1, '2017-04-17T19:59:08', 'stmoreau', 'https://github.com/petehunt/react-howto/pull/76', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(555, 26195776, 1, '2017-09-10T23:59:01', 'jedmao', 'https://github.com/JedWatson/classnames/pull/105', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1568, 75505125, 4, '2022-08-03T07:22:36', 'ebicoglu', 'https://github.com/abpframework/abp/pull/13523', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (558, 26195776, 1, '2015-05-28T09:37:30', 'daviferreira', 'https://github.com/JedWatson/classnames/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(555, 26195776, 1, '2017-09-10T23:59:01', 'jedmao', 'https://github.com/JedWatson/classnames/pull/105', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39, 278335273, 1, '2020-08-13T13:40:50', 'HerrEurobeat', 'https://github.com/anuraghazra/github-readme-stats/pull/382', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (19, 278335273, 2, '2021-08-27T19:05:10', 'Morphclue', 'https://github.com/anuraghazra/github-readme-stats/pull/1212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8, 278335273, 4, '2020-08-02T07:10:20', 'nombrekeff', 'https://github.com/anuraghazra/github-readme-stats/pull/286', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6309,6 +6309,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (34783, 220186120, 4, '2020-04-17T11:28:19', 'joe-dz', 'https://github.com/codenotary/immudb/pull/115', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34777, 220186120, 2, '2022-02-08T10:47:11', 'tauu', 'https://github.com/codenotary/immudb/pull/1114', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12107, 100433561, 2, '2020-05-18T05:47:14', 'cleercode', 'https://github.com/downforacross/downforacross.com/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12110, 100433561, 1, '2020-04-13T03:31:57', 'ibrand', 'https://github.com/downforacross/downforacross.com/pull/86', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (631, 256786531, 4, '2020-12-10T22:56:02', 'rockerBOO', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/758', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (619, 256786531, 4, '2022-05-29T09:11:11', 'theHamsta', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2960', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (628, 256786531, 1, '2021-07-19T16:24:01', 'Akeboshiwind', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1390', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6645,7 +6646,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16583, 6750158, 1, '2015-09-05T14:46:59', 'deniskyashif', 'https://github.com/mgechev/javascript-algorithms/pull/87', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11659, 69193081, 2, '2022-04-12T11:47:32', 'BlackCrowxyz', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/675', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11937, 293570349, 2, '2021-10-21T06:30:19', 'its-danny', 'https://github.com/cocogitto/cocogitto/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12110, 100433561, 1, '2020-04-13T03:31:57', 'ibrand', 'https://github.com/downforacross/downforacross.com/pull/86', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2698, 102371998, 1, '2018-09-25T18:34:56', 'potato4d', 'https://github.com/nuxt-community/auth-module/pull/246', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3896, 123625732, 4, '2022-05-31T18:24:29', 'awentzel', 'https://github.com/microsoft/fast/pull/6040', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3907, 123625732, 4, '2019-08-09T01:22:58', 'nalogiudice', 'https://github.com/microsoft/fast/pull/2108', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
