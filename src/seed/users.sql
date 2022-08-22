@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T08:48:53.608Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T10:47:08.064Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login, deleted_at, updated_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -24,7 +24,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (12410942, 17, true, false, true, '2022-05-16T08:24:19.129543+00:00', 'choznerol', null, '2022-05-16T08:24:19.129543+00:00'),
 (7293310, 6, true, false, true, '2022-05-16T07:43:05.029603+00:00', 'saitho', null, '2022-05-16T07:43:05.029603+00:00'),
 (3941856, 0, true, false, true, '2022-05-16T06:45:04.3384+00:00', 'prophen', null, '2022-05-16T06:45:04.3384+00:00'),
-(92822432, 0, true, false, true, '2022-08-15T23:37:14.826684+00:00', 'Teslimxcv', null, '2022-08-15T23:37:14.826684+00:00'),
 (26963547, 0, true, false, true, '2022-05-16T00:32:56.016492+00:00', 'mklarsen', null, '2022-05-16T00:32:56.016492+00:00'),
 (55883854, 4, true, false, true, '2022-05-16T04:23:12.634687+00:00', 'nworiekingslee', null, '2022-05-16T04:23:12.634687+00:00'),
 (107480924, 1, true, false, true, '2022-08-08T12:18:28.093484+00:00', 'adavadkardhruv13', null, '2022-08-08T12:18:28.093484+00:00'),
@@ -32,6 +31,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (347098, 9, true, false, true, '2022-08-06T05:36:10.590323+00:00', 'mrded', null, '2022-08-06T05:36:10.590323+00:00'),
 (71881414, 1, true, false, true, '2022-08-09T18:30:47.456769+00:00', 'TemitopeAgbaje', null, '2022-08-09T18:30:47.456769+00:00'),
 (83243717, 0, true, false, true, '2022-08-13T20:35:52.495621+00:00', 'Birdie13-stack', null, '2022-08-13T20:35:52.495621+00:00'),
+(92822432, 0, true, false, true, '2022-08-15T23:37:14.826684+00:00', 'Teslimxcv', null, '2022-08-15T23:37:14.826684+00:00'),
 (26147156, 1, true, false, true, '2022-08-11T03:34:15.510943+00:00', 'AdekolaToniloba', null, '2022-08-11T03:34:15.510943+00:00'),
 (108594159, 0, true, false, true, '2022-08-11T17:28:15.64251+00:00', 'mynameissaraah', null, '2022-08-11T17:28:15.64251+00:00'),
 (3335181, 2, true, false, true, '2022-08-18T18:03:34.298633+00:00', 'JoshuaKGoldberg', null, '2022-08-18T18:03:34.298633+00:00'),
