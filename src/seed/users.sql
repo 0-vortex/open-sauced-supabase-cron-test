@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T10:47:08.064Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-22T12:58:05.197Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login, deleted_at, updated_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -31,9 +31,9 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (347098, 9, true, false, true, '2022-08-06T05:36:10.590323+00:00', 'mrded', null, '2022-08-06T05:36:10.590323+00:00'),
 (71881414, 1, true, false, true, '2022-08-09T18:30:47.456769+00:00', 'TemitopeAgbaje', null, '2022-08-09T18:30:47.456769+00:00'),
 (83243717, 0, true, false, true, '2022-08-13T20:35:52.495621+00:00', 'Birdie13-stack', null, '2022-08-13T20:35:52.495621+00:00'),
-(92822432, 0, true, false, true, '2022-08-15T23:37:14.826684+00:00', 'Teslimxcv', null, '2022-08-15T23:37:14.826684+00:00'),
 (26147156, 1, true, false, true, '2022-08-11T03:34:15.510943+00:00', 'AdekolaToniloba', null, '2022-08-11T03:34:15.510943+00:00'),
 (108594159, 0, true, false, true, '2022-08-11T17:28:15.64251+00:00', 'mynameissaraah', null, '2022-08-11T17:28:15.64251+00:00'),
+(92822432, 0, true, false, true, '2022-08-15T23:37:14.826684+00:00', 'Teslimxcv', null, '2022-08-15T23:37:14.826684+00:00'),
 (3335181, 2, true, false, true, '2022-08-18T18:03:34.298633+00:00', 'JoshuaKGoldberg', null, '2022-08-18T18:03:34.298633+00:00'),
 (100199494, 1, true, false, true, '2022-08-17T08:46:28.417656+00:00', 'Raphael3423', null, '2022-08-17T08:46:28.417656+00:00'),
 (91070792, 1, true, false, true, '2022-08-16T16:19:26.487321+00:00', 'livlevi', null, '2022-08-16T16:19:26.487321+00:00'),
