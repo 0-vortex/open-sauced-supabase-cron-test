@@ -1,5 +1,5 @@
 --
--- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T08:48:28.950Z
+-- Data for Name: repos; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T10:46:28.581Z
 -- COPY repos(id, user_id, issues, stars, watchers, subscribers, is_fork, created_at, updated_at, pushed_at, last_fetched_contributors_at, name, full_name, description, language, license, url, deleted_at) FROM 'repos.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -73,6 +73,7 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (381575565, 2646487, 13, 56, 56, 4, false, '2021-06-30T04:32:53', '2021-06-30T04:32:53', '2021-11-08T17:21:58', '2022-08-18T19:20:00.285', 'archivebox-exporter', 'tjhorner/archivebox-exporter', 'Automatically or manually send pages from your browser to your ArchiveBox for archival.', 'TypeScript', 'MIT', '', null),
 (493046551, 100104319, 1, 80, 80, 4, false, '2022-05-17T00:54:26', '2022-05-17T00:54:26', '2022-06-25T02:45:07', '2022-08-20T05:30:14.214', 'BANKI', 'curtisbarnard/BANKI', 'All the questions to prep for a technical interview', null, 'MIT', null, null),
 (345922282, 10047788, 6, 6322, 6322, 50, false, '2021-03-09T07:40:18', '2021-03-09T07:40:18', '2022-07-16T03:22:04', '2022-08-20T23:33:29.461', 'milkdown', 'Saul-Mirone/milkdown', '🍼 Plugin driven WYSIWYG  markdown editor framework.', 'TypeScript', 'MIT', 'https://milkdown.dev', null),
+(45945136, 6531703, 0, 3, 3, 0, false, '2015-11-10T22:42:38', '2022-05-21T05:38:57', '2015-11-10T22:47:30', '2022-08-23T09:42:45.954', 'svoboda-lab-legacy', 'sofroniewn/svoboda-lab-legacy', 'Whisker guided navigation rig', 'Matlab', 'UNLICENSED', null, null),
 (289834406, 497739, 1, 268, 268, 11, false, '2020-08-24T05:15:59', '2020-08-24T05:15:59', '2021-04-17T00:56:53', '2022-08-23T04:54:38.286', 'python-searchengine', 'bartdegoede/python-searchengine', null, 'Python', 'MIT', null, null),
 (204246124, 7260106, 0, 6, 6, 2, false, '2019-08-25T04:32:21', '2022-07-27T06:04:16', '2021-05-16T07:12:01', '2022-08-20T23:40:31.819', 'Umbraco-Docker', 'skywalkerisnull/Umbraco-Docker', 'Umbraco-Docker', 'PowerShell', 'MIT', null, null),
 (75505125, 42068324, 696, 8287, 8287, 334, false, '2016-12-03T22:56:24', '2016-12-03T22:56:24', '2022-07-09T20:08:53', '2022-08-21T05:37:17.602', 'abp', 'abpframework/abp', 'Open Source Web Application Framework for ASP.NET Core', 'C#', 'LGPL-3.0', 'https://abp.io', null),
@@ -83,7 +84,6 @@ INSERT INTO repos(id, user_id, issues, stars, watchers, subscribers, is_fork, cr
 (379652139, 45469, 13, 14, 14, 4, false, '2021-06-23T15:38:23', '2022-04-20T21:54:43', '2022-04-26T05:27:54', '2022-08-19T20:44:17.131', 'can-merge', 'ljharb/can-merge', null, 'JavaScript', 'MIT', '', null),
 (128265535, 2810941, 93, 610, 610, 26, false, '2018-04-05T21:20:03', '2018-04-05T21:20:03', '2022-06-17T13:42:32', '2022-08-22T17:57:05.772', 'click-to-deploy', 'GoogleCloudPlatform/click-to-deploy', 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', 'Ruby', 'Apache-2.0', '', null),
 (342028554, 7064956, 2, 187, 187, 4, false, '2021-02-24T20:35:22', '2021-02-24T20:35:22', '2021-11-02T21:22:39', '2022-08-21T00:15:40.774', 'vite-plugin-vue-gql', 'wheatjs/vite-plugin-vue-gql', '⚡ GraphQL Tags for your Vue SFC ⚡', 'TypeScript', 'MIT', '', null),
-(45945136, 6531703, 0, 3, 3, 0, false, '2015-11-10T22:42:38', '2022-05-21T05:38:57', '2015-11-10T22:47:30', '2022-08-18T09:38:54.192', 'svoboda-lab-legacy', 'sofroniewn/svoboda-lab-legacy', 'Whisker guided navigation rig', 'Matlab', 'UNLICENSED', null, null),
 (509606082, 18351400, 0, 1, 1, 1, false, '2022-07-01T22:45:53', '2022-07-02T16:18:21', '2022-07-24T21:45:49', '2022-08-21T10:55:21.61', 'telebuilder', 'en9inerd/telebuilder', 'Simple telegram bot framework based on gramjs', 'TypeScript', 'MIT', '', null),
 (403029798, 3096766, 0, 2, 2, 2, false, '2021-09-04T10:41:38', '2021-09-04T10:41:38', '2021-09-04T17:40:10', '2022-08-20T23:33:29.461', 'ask-me-anything', 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', null, 'UNLICENSED', null, null),
 (375406891, 38381061, 0, 72, 72, 1, false, '2021-06-09T15:38:45', '2021-06-09T15:38:45', '2021-09-15T13:06:39', '2022-08-21T00:15:40.774', 'DSA_Uplift_Project', 'YashThakare/DSA_Uplift_Project', null, 'C++', 'UNLICENSED', null, null),
