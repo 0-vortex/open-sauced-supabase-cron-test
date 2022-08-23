@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T10:46:28.122Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T12:57:21.642Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2096,8 +2096,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (14065, 29371034, 4, '2022-03-07T23:06:04', 'domwong', 'https://github.com/micro/micro/pull/1920', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8585, 34526884, 4, '2018-04-04T07:30:00', 'ddcat1115', 'https://github.com/ant-design/ant-design/pull/9908', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8586, 34526884, 4, '2018-09-20T07:31:24', 'HeskeyBaozi', 'https://github.com/ant-design/ant-design/pull/12330', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8587, 34526884, 4, '2018-04-29T02:42:46', 'benjycui', 'https://github.com/ant-design/ant-design/pull/10299', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8588, 34526884, 4, '2021-05-31T03:38:08', 'yesmeck', 'https://github.com/ant-design/ant-design/pull/30772', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8587, 34526884, 4, '2018-04-29T02:42:46', 'benjycui', 'https://github.com/ant-design/ant-design/pull/10299', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8589, 34526884, 4, '2022-04-18T05:50:28', 'xrkffgg', 'https://github.com/ant-design/ant-design/pull/35070', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8590, 34526884, 4, '2022-05-18T03:20:54', 'yoyo837', 'https://github.com/ant-design/ant-design/pull/35605', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8591, 34526884, 4, '2021-07-02T05:37:56', 'kerm1it', 'https://github.com/ant-design/ant-design/pull/31224', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7540,8 +7540,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13833, 1185279, 4, '2020-09-07T03:17:13', 'J-rg', 'https://github.com/OpenEmu/OpenEmu/pull/4305', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13830, 1185279, 3, '2016-09-26T16:07:00', 'clobber', 'https://github.com/OpenEmu/OpenEmu/pull/2808', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13837, 1185279, 1, '2012-01-28T22:52:27', 'feosuna1', 'https://github.com/OpenEmu/OpenEmu/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13834, 1185279, 4, '2017-09-19T18:50:35', 'robotoad', 'https://github.com/OpenEmu/OpenEmu/pull/3340', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13844, 1185279, 3, '2015-03-31T20:38:05', 'MikeJaoudi', 'https://github.com/OpenEmu/OpenEmu/pull/1882', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13834, 1185279, 4, '2017-09-19T18:50:35', 'robotoad', 'https://github.com/OpenEmu/OpenEmu/pull/3340', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13838, 1185279, 4, '2022-04-11T23:37:56', 'RickyRomero', 'https://github.com/OpenEmu/OpenEmu/pull/4683', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13831, 1185279, 2, '2013-01-12T17:52:31', 'PGGB', 'https://github.com/OpenEmu/OpenEmu/pull/468', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13836, 1185279, 4, '2012-02-27T05:26:17', 'lilyball', 'https://github.com/OpenEmu/OpenEmu/pull/110', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
