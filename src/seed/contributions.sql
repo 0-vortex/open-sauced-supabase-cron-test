@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T06:52:23.569Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-23T08:48:29.280Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8019,8 +8019,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (43119, 368790, 1, '2016-08-14T13:35:07', 'felipediesel', 'https://github.com/annacruz/ofx/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9113, 4568238, 4, '2020-06-03T23:50:45', 'jonchurch', 'https://github.com/expressjs/expressjs.com/pull/1161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9105, 4568238, 4, '2016-01-13T21:06:08', 'vitaly-t', 'https://github.com/expressjs/expressjs.com/pull/552', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(47813, 291113450, 1, '2020-08-29T09:48:57', 'binaryshrey', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (47816, 291113450, 2, '2022-07-28T10:57:21', 'stefanosansone', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(47813, 291113450, 1, '2020-08-29T09:48:57', 'binaryshrey', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (47815, 291113450, 1, '2022-02-09T07:12:27', 'kgdobariya', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (47814, 291113450, 1, '2020-10-01T06:45:02', 'subhipandey', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (47817, 291113450, 1, '2022-07-28T10:56:08', 'alexstyl', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9551,8 +9551,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (43128, 1521554, 1, '2013-08-24T23:20:24', 'heisam', 'https://github.com/mdp/gibberish/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (43133, 1521554, 1, '2013-02-11T15:41:59', 'BiggerNoise', 'https://github.com/mdp/gibberish/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (327, 276976140, 1, '2021-03-13T20:21:07', 'lherbert-square', 'https://github.com/mergestat/mergestat/pull/122', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(963, 33820955, 2, '2016-04-25T06:19:37', 'mohammedzamakhan', 'https://github.com/timjacobi/angular-education/pull/127', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (994, 33820955, 2, '2016-12-14T16:20:18', 'vuesomedev', 'https://github.com/timjacobi/angular-education/pull/168', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(963, 33820955, 2, '2016-04-25T06:19:37', 'mohammedzamakhan', 'https://github.com/timjacobi/angular-education/pull/127', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (969, 33820955, 1, '2017-02-02T13:19:57', 'elliotforbes', 'https://github.com/timjacobi/angular-education/pull/173', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38702, 337414495, 4, '2022-02-10T19:20:53', 'FuzzyReason', 'https://github.com/nhost/nhost/pull/160', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38704, 337414495, 1, '2021-06-09T08:04:08', 'subhendukundu', 'https://github.com/nhost/nhost/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
