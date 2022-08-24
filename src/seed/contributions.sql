@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-24T14:45:07.734Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-24T16:50:43.084Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2103,8 +2103,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8591, 34526884, 4, '2021-07-02T05:37:56', 'kerm1it', 'https://github.com/ant-design/ant-design/pull/31224', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8592, 34526884, 4, '2015-11-25T03:12:45', 'simaQ', 'https://github.com/ant-design/ant-design/pull/589', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8593, 34526884, 4, '2021-04-14T02:08:20', 'shaodahong', 'https://github.com/ant-design/ant-design/pull/30135', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8594, 34526884, 4, '2021-12-08T09:32:26', 'dengfuping', 'https://github.com/ant-design/ant-design/pull/33209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8595, 34526884, 4, '2017-02-08T06:53:18', 'yiminghe', 'https://github.com/ant-design/ant-design/pull/4751', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8594, 34526884, 4, '2021-12-08T09:32:26', 'dengfuping', 'https://github.com/ant-design/ant-design/pull/33209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8596, 34526884, 4, '2019-09-16T12:11:21', 'ztplz', 'https://github.com/ant-design/ant-design/pull/18828', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8597, 34526884, 4, '2015-09-15T04:46:36', 'zhujun24', 'https://github.com/ant-design/ant-design/pull/287', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8598, 34526884, 4, '2022-05-24T04:03:16', 'MadCcc', 'https://github.com/ant-design/ant-design/pull/35686', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4022,9 +4022,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4763, 279064706, 2, '2020-12-13T11:08:49', 'claytonjhamilton', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/444', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4764, 279064706, 2, '2020-08-11T22:10:57', 'thmsgbrt', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4765, 279064706, 1, '2020-08-19T02:07:48', 'cxyfreedom', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/208', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4766, 279064706, 2, '2020-08-01T12:53:03', 'teoxoy', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4767, 279064706, 2, '2020-08-01T13:03:15', 'gargakshit', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/206', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
