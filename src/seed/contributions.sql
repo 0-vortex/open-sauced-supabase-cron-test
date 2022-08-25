@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-25T03:36:08.693Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-25T05:09:11.971Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1989,9 +1989,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4944, 72931382, 1, '2017-09-17T14:28:41', 'xavier', 'https://github.com/vuelidate/vuelidate/pull/186', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4952, 72931382, 1, '2019-03-23T12:09:25', 'darrylhein', 'https://github.com/vuelidate/vuelidate/pull/450', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4957, 72931382, 1, '2021-12-20T06:13:00', 'christianz', 'https://github.com/vuelidate/vuelidate/pull/976', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11681, 107111421, 3, '2017-10-20T18:24:22', 'XhmikosR', 'https://github.com/thedaviddias/Front-End-Checklist/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5908, 187335810, 1, '2022-01-10T05:29:38', 'cmoog', 'https://github.com/jesseduffield/lazydocker/pull/268', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11679, 107111421, 1, '2017-11-09T01:06:19', 'asood123', 'https://github.com/thedaviddias/Front-End-Checklist/pull/141', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13881, 296968123, 3, '2022-01-22T00:01:48', 'Dragicafit', 'https://github.com/Dragicafit/Anime-Watch-Parties/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2528, 9393759, 4, '2022-05-12T13:27:16', 'rexrainbow', 'https://github.com/photonstorm/phaser/pull/6111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5158,9 +5158,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (22393, 398998426, 4, '2022-04-22T02:32:46', 'RothAndrew', 'https://github.com/defenseunicorns/zarf/pull/455', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22394, 398998426, 4, '2022-06-09T19:33:09', 'jeff-mccoy', 'https://github.com/defenseunicorns/zarf/pull/508', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22395, 398998426, 2, '2022-02-02T17:32:29', 'wadedesir', 'https://github.com/defenseunicorns/zarf/pull/248', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(22396, 398998426, 1, '2022-02-11T16:23:47', 'andrewsgreene', 'https://github.com/defenseunicorns/zarf/pull/314', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22397, 398998426, 1, '2022-02-14T20:04:03', 'AustinAbro321', 'https://github.com/defenseunicorns/zarf/pull/317', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22398, 398998426, 4, '2021-11-30T02:31:18', 'btlghrants', 'https://github.com/defenseunicorns/zarf/pull/172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(22396, 398998426, 1, '2022-02-11T16:23:47', 'andrewsgreene', 'https://github.com/defenseunicorns/zarf/pull/314', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22399, 398998426, 1, '2021-12-10T18:03:08', 'Jesse-Arlington', 'https://github.com/defenseunicorns/zarf/pull/198', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22400, 398998426, 1, '2022-05-27T19:07:22', 'dsmithbauer', 'https://github.com/defenseunicorns/zarf/pull/480', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22401, 398998426, 2, '2022-03-08T02:32:38', 'matt-strong', 'https://github.com/defenseunicorns/zarf/pull/346', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
