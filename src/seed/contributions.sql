@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-25T18:48:08.592Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-25T20:45:59.015Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4803,8 +4803,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3516, 132489983, 2, '2020-05-13T07:53:49', 'imanishbarnwal', 'https://github.com/arduosoft/RawCMS/pull/259', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3517, 132489983, 1, '2020-02-06T07:25:20', 'hkbiet', 'https://github.com/arduosoft/RawCMS/pull/171', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3519, 132489983, 1, '2020-02-27T14:34:47', 'nel417', 'https://github.com/arduosoft/RawCMS/pull/210', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3512, 132489983, 1, '2020-02-13T17:25:01', 'abimael-o-o', 'https://github.com/arduosoft/RawCMS/pull/199', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3520, 132489983, 1, '2020-02-08T04:40:53', 'alti21', 'https://github.com/arduosoft/RawCMS/pull/190', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3512, 132489983, 1, '2020-02-13T17:25:01', 'abimael-o-o', 'https://github.com/arduosoft/RawCMS/pull/199', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (814, 9852918, 4, '2017-05-10T07:46:55', 'greenkeeperio-bot', 'https://github.com/TryGhost/Ghost/pull/8446', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32925, 34228852, 1, '2018-02-07T11:01:55', 'darkcode777', 'https://github.com/AchoArnold/discount-for-student-dev/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32926, 34228852, 1, '2019-10-12T17:17:46', 'khaled-Senpai', 'https://github.com/AchoArnold/discount-for-student-dev/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6579,8 +6579,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (40246, 22485114, 4, '2022-06-22T17:28:31', 'apparentlymart', 'https://github.com/hashicorp/hcl/pull/539', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3772, 144873815, 1, '2019-01-03T08:32:44', 'kyh', 'https://github.com/prisma/prisma-examples/pull/353', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3771, 144873815, 1, '2019-09-19T11:32:02', 'pantharshit00', 'https://github.com/prisma/prisma-examples/pull/803', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3773, 144873815, 2, '2022-04-11T08:58:05', 'petradonka', 'https://github.com/prisma/prisma-examples/pull/3669', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8715, 289834406, 3, '2021-03-26T17:04:37', 'NoisyWool', 'https://github.com/bartdegoede/python-searchengine/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
