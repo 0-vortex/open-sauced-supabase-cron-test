@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-26T13:25:36.355Z",
+  "lastExecuted": "2022-08-26T13:44:09.633Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2354,7 +2354,7 @@
     "DeonFranklin": {
       "owner": "DeonFranklin",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:34:49.094Z"
+      "lastExecuted": "2022-08-26T13:44:09.633Z"
     },
     "kdaigle": {
       "owner": "kdaigle",
@@ -3004,7 +3004,7 @@
     "mirelse": {
       "owner": "mirelse",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:34:49.094Z"
+      "lastExecuted": "2022-08-26T13:44:09.633Z"
     },
     "AaronDewes": {
       "owner": "AaronDewes",
@@ -3060,6 +3060,11 @@
       "owner": "STBoyden",
       "notFound": false,
       "lastExecuted": "2022-08-26T13:08:50.228Z"
+    },
+    "adelpro": {
+      "owner": "adelpro",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T13:44:09.633Z"
     }
   }
 }
