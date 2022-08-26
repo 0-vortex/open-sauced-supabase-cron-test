@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-26T01:05:12.625Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-26T03:36:59.768Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2985,9 +2985,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3694, 109179063, 4, '2019-12-10T13:37:23', 'durch', 'https://github.com/privacypass/challenge-bypass-extension/pull/142', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4853, 507, 3, '2012-05-04T15:22:36', 'tomykaira', 'https://github.com/sferik/twitter/pull/256', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3696, 109179063, 1, '2021-05-11T17:47:40', 'Jytesh', 'https://github.com/privacypass/challenge-bypass-extension/pull/230', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3697, 109179063, 4, '2020-10-16T07:44:32', 'alxdavids', 'https://github.com/privacypass/challenge-bypass-extension/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3698, 109179063, 4, '2022-02-22T08:02:04', 'ppopth', 'https://github.com/privacypass/challenge-bypass-extension/pull/308', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3699, 2823326, 1, '2017-06-16T08:42:54', 'crazymerlyn', 'https://github.com/asciinema/asciinema/pull/214', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3697, 109179063, 4, '2020-10-16T07:44:32', 'alxdavids', 'https://github.com/privacypass/challenge-bypass-extension/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3700, 2823326, 1, '2021-12-13T21:00:00', 'harkabeeparolus', 'https://github.com/asciinema/asciinema/pull/459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3701, 2823326, 1, '2014-03-29T17:11:32', 'gmjosack', 'https://github.com/asciinema/asciinema/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3702, 2823326, 1, '2018-04-09T06:57:57', 'fornwall', 'https://github.com/asciinema/asciinema/pull/294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
