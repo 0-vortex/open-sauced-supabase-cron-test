@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-26T17:16:50.754Z",
+  "lastExecuted": "2022-08-26T17:30:13.887Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2034,7 +2034,7 @@
     "neuromusic": {
       "owner": "neuromusic",
       "notFound": false,
-      "lastExecuted": "2022-08-25T16:02:40.573Z"
+      "lastExecuted": "2022-08-26T17:30:13.887Z"
     },
     "hasanhakkaev": {
       "owner": "hasanhakkaev",
@@ -3110,6 +3110,16 @@
       "owner": "Dexters-Hub",
       "notFound": false,
       "lastExecuted": "2022-08-26T17:16:50.754Z"
+    },
+    "JohannesPtaszyk": {
+      "owner": "JohannesPtaszyk",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T17:30:13.887Z"
+    },
+    "aromalsanthosh": {
+      "owner": "aromalsanthosh",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T17:30:13.887Z"
     }
   }
 }
