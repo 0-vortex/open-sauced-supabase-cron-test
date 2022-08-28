@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-28T21:58:38.750Z",
+  "lastExecuted": "2022-08-28T22:08:44.331Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2489,17 +2489,17 @@
     "rubiin": {
       "owner": "rubiin",
       "notFound": true,
-      "lastExecuted": "2022-08-28T10:00:18.937Z"
+      "lastExecuted": "2022-08-28T22:08:44.331Z"
     },
     "adiati98": {
       "owner": "adiati98",
       "notFound": false,
-      "lastExecuted": "2022-08-28T10:00:18.937Z"
+      "lastExecuted": "2022-08-28T22:08:44.331Z"
     },
     "pixelsbyeryc": {
       "owner": "pixelsbyeryc",
       "notFound": false,
-      "lastExecuted": "2022-08-28T10:00:18.937Z"
+      "lastExecuted": "2022-08-28T22:08:44.331Z"
     },
     "coffeedome": {
       "owner": "coffeedome",
@@ -3230,6 +3230,11 @@
       "owner": "barcellos-pedro",
       "notFound": false,
       "lastExecuted": "2022-08-28T20:43:26.140Z"
+    },
+    "fiqrisr": {
+      "owner": "fiqrisr",
+      "notFound": false,
+      "lastExecuted": "2022-08-28T22:08:44.331Z"
     }
   }
 }
