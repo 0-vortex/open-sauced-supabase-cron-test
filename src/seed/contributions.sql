@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T20:45:38.976Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T22:45:16.159Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7734,9 +7734,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (9147, 6093316, 4, '2022-05-05T23:01:52', 'AlexJerabek', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/60215', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9141, 6093316, 4, '2020-09-21T13:35:41', 'alloy', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/47825', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9142, 6093316, 3, '2020-02-08T00:41:43', 'jessetrinity', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42191', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(34789, 220186120, 1, '2021-04-06T11:50:22', 'akshgpt7', 'https://github.com/codenotary/immudb/pull/664', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34785, 220186120, 2, '2022-04-27T09:07:56', 'bengentil', 'https://github.com/codenotary/immudb/pull/1197', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34788, 220186120, 2, '2021-04-06T20:30:14', 'ellisab', 'https://github.com/codenotary/immudb/pull/684', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(34789, 220186120, 1, '2021-04-06T11:50:22', 'akshgpt7', 'https://github.com/codenotary/immudb/pull/664', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34781, 220186120, 1, '2022-05-18T12:25:00', 'sibijohn72', 'https://github.com/codenotary/immudb/pull/1205', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9139, 6093316, 4, '2017-01-12T17:39:21', 'chrootsu', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/13722', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9124, 6093316, 4, '2021-11-18T21:40:47', 'RyanCavanaugh', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/57261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
