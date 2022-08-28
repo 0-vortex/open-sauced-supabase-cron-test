@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T08:47:14.511Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T12:54:49.003Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -201,8 +201,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (341, 20619036, 4, '2018-07-16T16:34:23', 'rrobgill', 'https://github.com/pi-hole/pi-hole/pull/2280', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12342, 263024595, 1, '2021-06-11T08:50:48', 'gruberdev', 'https://github.com/k3d-io/k3d-demo/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12344, 263024595, 1, '2021-01-20T12:30:14', 'iwilltry42', 'https://github.com/k3d-io/k3d-demo/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12346, 263024595, 1, '2021-06-15T06:26:46', 'SaskiaKeil', 'https://github.com/k3d-io/k3d-demo/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49973, 15246993, 1, '2014-12-17T13:47:20', 'b-ash', 'https://github.com/shipshapecode/shepherd/pull/31', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
+(12346, 263024595, 1, '2021-06-15T06:26:46', 'SaskiaKeil', 'https://github.com/k3d-io/k3d-demo/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49975, 15246993, 1, '2015-09-24T02:59:06', 'mtgibbs', 'https://github.com/shipshapecode/shepherd/pull/78', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
 (2654, 21938243, 3, '2021-11-06T15:11:43', 'Oscuro87', 'https://github.com/rust-unofficial/awesome-rust/pull/1187', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2653, 21938243, 4, '2020-01-13T16:17:22', 'whitfin', 'https://github.com/rust-unofficial/awesome-rust/pull/758', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2710,8 +2710,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8629, 128265535, 3, '2020-10-27T20:17:35', 'rhrh1997', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1095', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12201, 124910572, 4, '2020-02-10T10:07:09', 'chidauri', 'https://github.com/mozilla/bugbug/pull/1269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3923, 40892817, 4, '2021-11-22T10:02:31', 'axic', 'https://github.com/ethereum/solidity/pull/12301', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13606, 95876775, 1, '2018-05-13T12:42:05', 'domenico-ruggiano', 'https://github.com/elsewhencode/project-guidelines/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13605, 95876775, 1, '2017-09-07T17:18:36', 'crobinson42', 'https://github.com/elsewhencode/project-guidelines/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13606, 95876775, 1, '2018-05-13T12:42:05', 'domenico-ruggiano', 'https://github.com/elsewhencode/project-guidelines/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3962, 404324019, 4, '2021-10-25T14:08:53', 'ankitapuri', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/47', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3969, 404324019, 3, '2021-10-08T12:10:55', 'Devp73', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3316, 280531604, 4, '2021-09-13T12:06:32', 'tayiorbeii', 'https://github.com/eggheadio/egghead-next/pull/859', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
