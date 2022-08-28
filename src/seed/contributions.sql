@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T01:05:08.428Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-28T03:32:38.846Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6384,8 +6384,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3540, 61426855, 4, '2018-08-15T15:49:22', 'ayushin78', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/438', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3544, 61426855, 4, '2019-05-22T12:46:30', 'vidyabhandary', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1353', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3556, 61426855, 4, '2019-05-31T16:19:05', 'gauravburjwal', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1468', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12837, 23247808, 1, '2020-06-04T19:45:56', 'Phiwa', 'https://github.com/rqlite/rqlite/pull/652', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12843, 23247808, 3, '2020-02-08T14:57:51', 'runsisi', 'https://github.com/rqlite/rqlite/pull/627', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12837, 23247808, 1, '2020-06-04T19:45:56', 'Phiwa', 'https://github.com/rqlite/rqlite/pull/652', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38641, 166831098, 4, '2022-03-22T07:13:37', 'grabnerandi', 'https://github.com/keptn/keptn/pull/6879', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38642, 166831098, 4, '2020-07-08T12:36:08', 'checkelmann', 'https://github.com/keptn/keptn/pull/2018', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38640, 166831098, 4, '2022-01-20T16:29:42', 'thschue', 'https://github.com/keptn/keptn/pull/6640', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8071,9 +8071,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23933, 493046551, 1, '2022-05-18T23:36:13', 'danjkim21', 'https://github.com/curtisbarnard/BANKI/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23932, 493046551, 4, '2022-06-23T04:33:14', 'AdamRathbun', 'https://github.com/curtisbarnard/BANKI/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23937, 493046551, 1, '2022-06-07T18:27:24', 'NeffCodes', 'https://github.com/curtisbarnard/BANKI/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5934, 417389, 4, '2015-10-06T15:28:20', 'mislav', 'https://github.com/lostisland/faraday/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5962, 417389, 4, '2019-12-31T06:27:27', 'technoweenie', 'https://github.com/lostisland/faraday/pull/1104', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5940, 417389, 2, '2012-05-03T15:03:13', 'hakanensari', 'https://github.com/lostisland/faraday/pull/154', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5934, 417389, 4, '2015-10-06T15:28:20', 'mislav', 'https://github.com/lostisland/faraday/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5941, 417389, 1, '2011-12-28T21:48:20', 'jimeh', 'https://github.com/lostisland/faraday/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5978, 31168578, 2, '2016-02-28T06:05:30', 'CrossEye', 'https://github.com/hemanth/functional-programming-jargon/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5977, 31168578, 1, '2016-10-26T01:33:18', 'alexlafroscia', 'https://github.com/hemanth/functional-programming-jargon/pull/121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
