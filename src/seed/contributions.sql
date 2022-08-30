@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-30T03:36:08.638Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-30T05:16:57.603Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5423,9 +5423,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5740, 439057606, 1, '2021-12-23T16:47:08', 'mnixry', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46666, 237523442, 4, '2021-08-11T05:45:01', 'JulianKnodt', 'https://github.com/tailscale/tailscale/pull/2630', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5818, 105412971, 1, '2019-05-21T08:25:18', 'justin808', 'https://github.com/stereobooster/react-snap/pull/379', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5821, 105412971, 1, '2018-11-17T15:02:03', 'tsantef', 'https://github.com/stereobooster/react-snap/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46681, 237523442, 4, '2022-02-04T21:20:47', 'soniaappasamy', 'https://github.com/tailscale/tailscale/pull/3873', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8758, 132732601, 4, '2021-09-28T14:08:45', 'niladrih', 'https://github.com/canonical/microk8s/pull/2610', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5821, 105412971, 1, '2018-11-17T15:02:03', 'tsantef', 'https://github.com/stereobooster/react-snap/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8768, 132732601, 3, '2020-02-17T15:17:48', 'giorgos-apo', 'https://github.com/canonical/microk8s/pull/963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (514, 175405157, 4, '2022-08-09T08:00:24', 'JanDeDobbeleer', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2637', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (508, 175405157, 1, '2022-05-05T18:31:06', 'felpel', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2216', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
