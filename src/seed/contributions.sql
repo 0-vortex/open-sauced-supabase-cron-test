@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-31T08:48:40.035Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-31T10:46:33.363Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4585,8 +4585,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5458, 98789146, 4, '2021-10-01T13:46:00', 'akleiner2', 'https://github.com/segmentio/evergreen/pull/1337', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3747, 3946572, 2, '2019-11-04T14:01:23', 'singingwolfboy', 'https://github.com/PostgresApp/PostgresApp/pull/534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (766, 418752214, 1, '2021-10-19T13:08:37', 'shangyunhai', 'https://github.com/T-head-Semi/openc910/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(38717, 337414495, 3, '2022-07-19T07:05:48', 'GavanWilhite', 'https://github.com/nhost/nhost/pull/830', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2375, 141058176, 1, '2018-11-03T21:41:26', 'DevMaxiss', 'https://github.com/skidding/jobs-done/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(38717, 337414495, 3, '2022-07-19T07:05:48', 'GavanWilhite', 'https://github.com/nhost/nhost/pull/830', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2404, 141058176, 1, '2018-10-30T20:48:07', 'dremex', 'https://github.com/skidding/jobs-done/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38719, 337414495, 2, '2022-06-20T13:15:40', 'muttenzer', 'https://github.com/nhost/nhost/pull/727', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38707, 337414495, 1, '2022-05-23T07:45:04', 'Sonichigo', 'https://github.com/nhost/nhost/pull/590', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8034,8 +8034,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1243, 15720445, 4, '2017-10-13T19:45:44', 'yomed', 'https://github.com/marko-js/marko/pull/890', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16130, 24344106, 1, '2015-06-29T21:32:43', 'willingc', 'https://github.com/codecov/example-python/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1261, 15720445, 3, '2016-07-18T15:26:16', 'bkuri', 'https://github.com/marko-js/marko/pull/335', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2380, 141058176, 4, '2018-11-01T14:44:24', 'skidding', 'https://github.com/skidding/jobs-done/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2377, 141058176, 1, '2018-10-30T23:23:18', 'Timothee', 'https://github.com/skidding/jobs-done/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1229, 170738310, 3, '2019-04-09T17:17:56', 'yura-pakhuchiy', 'https://github.com/trustwallet/wallet-core/pull/283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1209, 342028554, 1, '2021-11-02T21:22:39', 'nathanchase', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24085, 149106859, 1, '2021-06-03T16:33:41', 'bhitney', 'https://github.com/microsoft/WhatTheHack/pull/247', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8065,6 +8063,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (47820, 291113450, 2, '2021-08-30T07:55:22', 'ShwetaChauhan18', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (47822, 291113450, 1, '2020-10-02T11:19:39', 'ujbolivar', 'https://github.com/androiddevnotes/awesome-jetpack-compose-learning-resources/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37011, 227393393, 2, '2022-07-05T19:26:28', 'ThindalTV', 'https://github.com/livecoders/website/pull/246', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2377, 141058176, 1, '2018-10-30T23:23:18', 'Timothee', 'https://github.com/skidding/jobs-done/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2380, 141058176, 4, '2018-11-01T14:44:24', 'skidding', 'https://github.com/skidding/jobs-done/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39679, 484251804, 1, '2022-05-25T07:34:47', 'SnowMoon-Dev', 'https://github.com/apache/incubator-devlake-website/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5766, 138754790, 4, '2022-08-08T20:31:24', 'lnkuiper', 'https://github.com/duckdb/duckdb/pull/4323', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23934, 493046551, 1, '2022-05-17T23:23:27', 'octoshrimpy', 'https://github.com/curtisbarnard/BANKI/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
