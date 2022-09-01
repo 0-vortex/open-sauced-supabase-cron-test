@@ -1,5 +1,5 @@
 --
--- Data for Name: users_to_repos_stargazers; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T03:34:22.617Z
+-- Data for Name: users_to_repos_stargazers; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T05:06:13.322Z
 -- COPY users_to_repos_stargazers(id, user_id, repo_id, created_at, updated_at, deleted_at) FROM 'users_to_repos_stargazers.csv' WITH DELIMITER ',' CSV HEADER;
 --
 

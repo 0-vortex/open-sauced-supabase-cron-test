@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T03:34:23.127Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T05:06:14.606Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6375,9 +6375,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (24062, 120149974, 1, '2019-02-17T02:47:13', 'gitter-badger', 'https://github.com/fonoster/fonoster/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32735, 34983527, 1, '2015-09-21T20:27:13', 'fugo', 'https://github.com/mundimark/awesome-markdown/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22530, 137223122, 1, '2019-11-17T15:47:30', 'dopsi', 'https://github.com/deepjyoti30/ytmdl/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2093, 26500787, 4, '2019-04-06T15:04:06', 'thundernixon', 'https://github.com/tonsky/FiraCode/pull/742', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2816, 18609427, 4, '2022-06-29T22:05:01', 'syg', 'https://github.com/tc39/ecma262/pull/2802', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3750, 3946572, 1, '2017-10-31T09:13:37', 'camsaul', 'https://github.com/PostgresApp/PostgresApp/pull/416', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2093, 26500787, 4, '2019-04-06T15:04:06', 'thundernixon', 'https://github.com/tonsky/FiraCode/pull/742', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3733, 3946572, 1, '2015-02-17T10:27:05', 'nemesis', 'https://github.com/PostgresApp/PostgresApp/pull/253', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3510, 276961406, 1, '2020-08-31T15:29:37', 'zacjones93', 'https://github.com/colbyfayock/launchtime-workshop/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3540, 61426855, 4, '2018-08-15T15:49:22', 'ayushin78', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/438', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9015,8 +9015,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1915, 28548699, 1, '2015-01-11T00:55:51', 'kyeah', 'https://github.com/cassidoo/getting-a-gig/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2263, 43623432, 1, '2018-12-06T16:19:00', 'edwinbalani', 'https://github.com/qw3rtman/git-fire/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2259, 43623432, 1, '2015-10-24T19:43:13', 'Rayne', 'https://github.com/qw3rtman/git-fire/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2256, 43623432, 1, '2018-11-08T15:51:29', 'glensc', 'https://github.com/qw3rtman/git-fire/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32862, 41381209, 1, '2016-12-31T20:42:15', 'huyle333', 'https://github.com/seemethere/nba_py/pull/76', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2256, 43623432, 1, '2018-11-08T15:51:29', 'glensc', 'https://github.com/qw3rtman/git-fire/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8609, 128265535, 4, '2019-02-06T21:14:23', 'rafalbiegacz', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/363', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8613, 128265535, 4, '2019-04-26T13:23:03', 'jprzychodzen', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/531', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8617, 128265535, 4, '2019-04-26T11:47:53', 'serathius', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/529', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
