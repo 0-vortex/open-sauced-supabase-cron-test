@@ -4,10 +4,6 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
-concurrency:
-  group: supabase-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
   populate-the-supabase:
     name: run get contributions
