@@ -5,6 +5,18 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.15.0](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.14.1...v1.15.0) (2022-09-01)
+
+
+### 🍕 Features
+
+* add logged in supabase to github users backfill ([574d4bd](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/574d4bd12e8c4ab5c5c51748b8970e1c41b7a19e))
+
+
+### 🐛 Bug Fixes
+
+* remove concurrency from sql crawlers ([2cf1e0b](https://github.com/0-vortex/open-sauced-supabase-cron-test/commit/2cf1e0b1b313503de888ba489764de5f1f03f465))
+
 ### [1.14.1](https://github.com/0-vortex/open-sauced-supabase-cron-test/compare/v1.14.0...v1.14.1) (2022-08-20)
 
 
