@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-01T23:32:48.634Z",
+  "lastExecuted": "2022-09-01T23:49:28.980Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3364,7 +3364,7 @@
     "JacobAnavisca": {
       "owner": "JacobAnavisca",
       "notFound": false,
-      "lastExecuted": "2022-09-01T11:40:45.294Z"
+      "lastExecuted": "2022-09-01T23:49:28.980Z"
     },
     "Kathalysth": {
       "owner": "Kathalysth",
@@ -3420,6 +3420,16 @@
       "owner": "icube1",
       "notFound": false,
       "lastExecuted": "2022-09-01T23:32:48.634Z"
+    },
+    "falcon-head": {
+      "owner": "falcon-head",
+      "notFound": false,
+      "lastExecuted": "2022-09-01T23:49:28.980Z"
+    },
+    "chrcit": {
+      "owner": "chrcit",
+      "notFound": false,
+      "lastExecuted": "2022-09-01T23:49:28.980Z"
     }
   }
 }
