@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T18:48:55.516Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-01T20:45:56.664Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -150,8 +150,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (22350, 25315643, 2, '2016-01-04T20:13:48', 'dcposch', 'https://github.com/nylas/nylas-mail/pull/873', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49968, 15246993, 4, '2021-11-03T14:51:20', 'rwwagner90', 'https://github.com/shipshapecode/shepherd/pull/1682', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
 (2102, 26500787, 1, '2016-11-06T14:28:38', 'her001', 'https://github.com/tonsky/FiraCode/pull/300', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5661, 82729529, 2, '2020-02-21T18:56:35', 'meshde', 'https://github.com/google/python-fire/pull/215', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3346, 501689, 1, '2016-10-11T16:21:05', 'BurtHarris', 'https://github.com/antlr/stringtemplate4/pull/160', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5661, 82729529, 2, '2020-02-21T18:56:35', 'meshde', 'https://github.com/google/python-fire/pull/215', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3345, 501689, 1, '2020-04-21T02:20:16', 'steinybot', 'https://github.com/antlr/stringtemplate4/pull/254', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3349, 501689, 1, '2020-09-16T16:38:15', 'Dvoreth', 'https://github.com/antlr/stringtemplate4/pull/267', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4103, 182075630, 1, '2019-04-23T03:48:43', 'thewmh', 'https://github.com/jamesctucker/Fantastic-Front-End-Toolbox/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
