@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-01T21:32:18.575Z",
+  "lastExecuted": "2022-09-01T21:49:54.611Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2209,7 +2209,7 @@
     "olearycrew": {
       "owner": "olearycrew",
       "notFound": false,
-      "lastExecuted": "2022-08-31T19:34:53.851Z"
+      "lastExecuted": "2022-09-01T21:49:54.611Z"
     },
     "alex-colvin": {
       "owner": "alex-colvin",
@@ -3380,6 +3380,21 @@
       "owner": "timheuer",
       "notFound": true,
       "lastExecuted": "2022-09-01T19:49:18.869Z"
+    },
+    "villalb4": {
+      "owner": "villalb4",
+      "notFound": false,
+      "lastExecuted": "2022-09-01T21:49:54.611Z"
+    },
+    "JimBobSquarePants": {
+      "owner": "JimBobSquarePants",
+      "notFound": false,
+      "lastExecuted": "2022-09-01T21:49:54.611Z"
+    },
+    "VladyslavLukyanenko": {
+      "owner": "VladyslavLukyanenko",
+      "notFound": true,
+      "lastExecuted": "2022-09-01T21:49:54.611Z"
     }
   }
 }
