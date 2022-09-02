@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-02T04:12:28.415Z",
+  "lastExecuted": "2022-09-02T04:55:30.934Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3254,7 +3254,7 @@
     "xuancanh": {
       "owner": "xuancanh",
       "notFound": false,
-      "lastExecuted": "2022-09-01T16:22:30.099Z"
+      "lastExecuted": "2022-09-02T04:55:30.934Z"
     },
     "AzmanAmin": {
       "owner": "AzmanAmin",
@@ -3269,7 +3269,7 @@
     "Kundanmourya": {
       "owner": "Kundanmourya",
       "notFound": true,
-      "lastExecuted": "2022-09-01T15:27:03.260Z"
+      "lastExecuted": "2022-09-02T04:55:30.934Z"
     },
     "duyet": {
       "owner": "duyet",
@@ -3309,7 +3309,7 @@
     "yashj6294": {
       "owner": "yashj6294",
       "notFound": true,
-      "lastExecuted": "2022-09-01T15:27:03.260Z"
+      "lastExecuted": "2022-09-02T04:55:30.934Z"
     },
     "theetherGit": {
       "owner": "theetherGit",
@@ -3450,6 +3450,16 @@
       "owner": "victor-teles",
       "notFound": false,
       "lastExecuted": "2022-09-02T04:12:28.415Z"
+    },
+    "minsk-dev": {
+      "owner": "minsk-dev",
+      "notFound": false,
+      "lastExecuted": "2022-09-02T04:55:30.934Z"
+    },
+    "Tuzi555": {
+      "owner": "Tuzi555",
+      "notFound": false,
+      "lastExecuted": "2022-09-02T04:55:30.934Z"
     }
   }
 }
