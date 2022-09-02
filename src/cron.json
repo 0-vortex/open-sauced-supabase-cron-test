@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-02T19:37:54.090Z",
+  "lastExecuted": "2022-09-02T19:45:58.840Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3289,7 +3289,7 @@
     "The-General1": {
       "owner": "The-General1",
       "notFound": false,
-      "lastExecuted": "2022-09-02T07:39:56.157Z"
+      "lastExecuted": "2022-09-02T19:45:58.840Z"
     },
     "txemaleon": {
       "owner": "txemaleon",
@@ -3324,7 +3324,7 @@
     "Rrosario88": {
       "owner": "Rrosario88",
       "notFound": false,
-      "lastExecuted": "2022-09-02T07:39:56.157Z"
+      "lastExecuted": "2022-09-02T19:45:58.840Z"
     },
     "Walter-Gaitan": {
       "owner": "Walter-Gaitan",
@@ -3525,6 +3525,11 @@
       "owner": "rlueder",
       "notFound": false,
       "lastExecuted": "2022-09-02T17:21:23.708Z"
+    },
+    "Stuyk": {
+      "owner": "Stuyk",
+      "notFound": false,
+      "lastExecuted": "2022-09-02T19:45:58.840Z"
     }
   }
 }
