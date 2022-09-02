@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-02T13:45:38.746Z",
+  "lastExecuted": "2022-09-02T13:57:32.487Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2679,12 +2679,12 @@
     "adavadkardhruv13": {
       "owner": "adavadkardhruv13",
       "notFound": false,
-      "lastExecuted": "2022-09-01T18:44:13.891Z"
+      "lastExecuted": "2022-09-02T13:57:32.487Z"
     },
     "stephenbalogun": {
       "owner": "stephenbalogun",
       "notFound": false,
-      "lastExecuted": "2022-09-01T18:44:13.891Z"
+      "lastExecuted": "2022-09-02T13:57:32.487Z"
     },
     "Jideotetic": {
       "owner": "Jideotetic",
@@ -3495,6 +3495,11 @@
       "owner": "giane88",
       "notFound": true,
       "lastExecuted": "2022-09-02T09:17:21.029Z"
+    },
+    "MugiD": {
+      "owner": "MugiD",
+      "notFound": false,
+      "lastExecuted": "2022-09-02T13:57:32.487Z"
     }
   }
 }
