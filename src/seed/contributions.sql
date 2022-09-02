@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-02T03:35:07.629Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-02T05:10:07.961Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7296,9 +7296,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1919, 28548699, 1, '2015-01-07T04:29:23', 'MohammadAdib', 'https://github.com/cassidoo/getting-a-gig/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1918, 28548699, 1, '2017-09-25T05:53:59', 'chthai64', 'https://github.com/cassidoo/getting-a-gig/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1758, 1834988, 1, '2017-10-06T20:03:23', 'benda1997', 'https://github.com/ropensci/rplos/pull/116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1760, 1834988, 1, '2014-04-15T00:40:06', 'jrnold', 'https://github.com/ropensci/rplos/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3764, 144873815, 2, '2018-10-13T17:07:28', 'AwesomeObserver', 'https://github.com/prisma/prisma-examples/pull/158', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3776, 144873815, 2, '2019-08-12T10:24:32', 'infoverload', 'https://github.com/prisma/prisma-examples/pull/692', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1760, 1834988, 1, '2014-04-15T00:40:06', 'jrnold', 'https://github.com/ropensci/rplos/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (43055, 304740870, 1, '2021-11-24T18:12:03', 'hiroppy', 'https://github.com/tamagui/tamagui/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3779, 144873815, 1, '2018-10-10T14:20:02', 'marktani', 'https://github.com/prisma/prisma-examples/pull/141', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1842, 430789888, 4, '2021-12-03T11:32:37', 'crondinini', 'https://github.com/Developer-DAO/web3-ui/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8194,8 +8194,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (39693, 484251804, 2, '2022-07-07T01:45:36', 'nikitakoselev', 'https://github.com/apache/incubator-devlake-website/pull/109', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39695, 484251804, 1, '2022-05-25T11:43:36', 'CamilleTeruel', 'https://github.com/apache/incubator-devlake-website/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39763, 393493377, 4, '2022-08-29T22:38:58', 'DrShpongle', 'https://github.com/skillrecordings/products/pull/437', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2205, 257314632, 3, '2021-12-10T17:49:21', 'gnujoow', 'https://github.com/onflow/fcl-js/pull/919', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2237, 257314632, 4, '2021-12-09T19:09:38', 'boczeratul', 'https://github.com/onflow/fcl-js/pull/916', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2205, 257314632, 3, '2021-12-10T17:49:21', 'gnujoow', 'https://github.com/onflow/fcl-js/pull/919', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2231, 257314632, 4, '2022-08-09T00:01:23', 'justinbarry', 'https://github.com/onflow/fcl-js/pull/1306', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (52818, 257314632, 1, '2022-08-08T20:11:41', 'alxflw', 'https://github.com/onflow/fcl-js/pull/1351', null, '2022-08-11T11:52:17.976842+00:00', '2022-08-11T11:52:17.976842+00:00'),
 (1967, 14173176, 1, '2015-08-27T15:24:27', 'hierynomus', 'https://github.com/EsotericSoftware/kryo/pull/342', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
