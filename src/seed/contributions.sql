@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-03T06:48:21.775Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-03T08:47:48.564Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -939,8 +939,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32750, 34983527, 1, '2017-07-26T07:11:08', 'mattcone', 'https://github.com/mundimark/awesome-markdown/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32752, 34983527, 1, '2019-04-10T06:49:14', 'commenthol', 'https://github.com/mundimark/awesome-markdown/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3012, 14747598, 2, '2015-02-22T04:40:50', 'bahmutov', 'https://github.com/typicode/json-server/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3322, 28928917, 1, '2021-03-09T13:52:49', 'Farihatanjin', 'https://github.com/prmr/JetUML/pull/421', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1776, 290703027, 4, '2021-10-03T18:12:58', 'priyansh17', 'https://github.com/kothariji/competitive-programming/pull/354', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3322, 28928917, 1, '2021-03-09T13:52:49', 'Farihatanjin', 'https://github.com/prmr/JetUML/pull/421', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1478, 137104789, 1, '2020-02-14T02:21:47', 'cemsagan', 'https://github.com/jamesmh/coravel/pull/135', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1483, 137104789, 1, '2018-10-03T13:58:45', 'mustakimali', 'https://github.com/jamesmh/coravel/pull/47', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1330, 112150776, 2, '2018-04-05T02:04:38', 'Wilto', 'https://github.com/11ty/eleventy/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
