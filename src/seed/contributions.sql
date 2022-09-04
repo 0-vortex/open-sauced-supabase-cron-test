@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-04T01:05:14.986Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-04T03:34:26.678Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6553,6 +6553,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5701, 161588836, 4, '2022-04-15T02:28:04', 'RoyPaarMS', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1449', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5462, 98789146, 4, '2019-03-22T20:34:04', 'fforres', 'https://github.com/segmentio/evergreen/pull/528', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5469, 98789146, 3, '2019-06-17T14:35:33', 'maraisr', 'https://github.com/segmentio/evergreen/pull/570', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5474, 98789146, 4, '2019-11-13T16:00:37', 'IdealSystemsMCP', 'https://github.com/segmentio/evergreen/pull/678', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5461, 98789146, 4, '2020-07-06T14:34:47', 'Chrischuck', 'https://github.com/segmentio/evergreen/pull/849', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5465, 98789146, 4, '2020-09-02T01:17:14', 'tusharf5', 'https://github.com/segmentio/evergreen/pull/962', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5466, 98789146, 4, '2020-02-04T16:43:17', 'tusbar', 'https://github.com/segmentio/evergreen/pull/686', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6607,7 +6608,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1435, 210332258, 2, '2021-02-10T02:42:29', 'adityakrshnn', 'https://github.com/hasura/learn-graphql/pull/405', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1440, 210332258, 2, '2019-12-04T11:30:10', 'beerose', 'https://github.com/hasura/learn-graphql/pull/130', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1436, 210332258, 2, '2021-03-01T14:42:29', 'sassela', 'https://github.com/hasura/learn-graphql/pull/417', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5474, 98789146, 4, '2019-11-13T16:00:37', 'IdealSystemsMCP', 'https://github.com/segmentio/evergreen/pull/678', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1446, 210332258, 2, '2020-10-05T02:34:49', 'Graey', 'https://github.com/hasura/learn-graphql/pull/345', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1438, 210332258, 2, '2020-10-12T07:10:04', 'jbampton', 'https://github.com/hasura/learn-graphql/pull/356', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1426, 210332258, 2, '2021-05-03T09:16:25', 'Xapuu', 'https://github.com/hasura/learn-graphql/pull/451', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8305,12 +8305,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (9119, 4568238, 2, '2018-06-08T20:33:06', 'iphayao', 'https://github.com/expressjs/expressjs.com/pull/934', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9118, 4568238, 1, '2014-08-18T20:53:17', 'altsang', 'https://github.com/expressjs/expressjs.com/pull/200', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9112, 4568238, 1, '2015-03-22T08:39:35', 'blainsmith', 'https://github.com/expressjs/expressjs.com/pull/356', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(54100, 28469844, 1, '2018-03-22T01:42:07', 'JamesC01', 'https://github.com/Michael0x2a/curated-programming-resources/pull/23', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
 (54101, 28469844, 1, '2015-09-19T18:23:44', 'Michael0x2a', 'https://github.com/Michael0x2a/curated-programming-resources/pull/8', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
-(54099, 28469844, 1, '2015-04-24T05:14:49', 'fancyultrafresh', 'https://github.com/Michael0x2a/curated-programming-resources/pull/1', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
+(54100, 28469844, 1, '2018-03-22T01:42:07', 'JamesC01', 'https://github.com/Michael0x2a/curated-programming-resources/pull/23', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
 (54102, 28469844, 1, '2015-09-19T18:03:03', 'dhamaniasad', 'https://github.com/Michael0x2a/curated-programming-resources/pull/3', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
-(54098, 28469844, 1, '2018-03-22T01:43:33', 'ChumpChief', 'https://github.com/Michael0x2a/curated-programming-resources/pull/17', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
+(54099, 28469844, 1, '2015-04-24T05:14:49', 'fancyultrafresh', 'https://github.com/Michael0x2a/curated-programming-resources/pull/1', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
 (54103, 28469844, 1, '2015-09-19T18:02:43', 'Walkman100', 'https://github.com/Michael0x2a/curated-programming-resources/pull/5', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
+(54098, 28469844, 1, '2018-03-22T01:43:33', 'ChumpChief', 'https://github.com/Michael0x2a/curated-programming-resources/pull/17', null, '2022-08-15T01:06:59.790512+00:00', '2022-08-15T01:06:59.790512+00:00'),
 (23115, 27193779, 4, '2022-07-07T00:30:36', 'Trott', 'https://github.com/nodejs/node/pull/43706', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (54104, 462385799, 1, '2022-03-13T05:41:32', 'deepa314', 'https://github.com/deepa314/JAVASCRIPT_NOTES/pull/1', null, '2022-08-15T01:47:24.443107+00:00', '2022-08-15T01:47:24.443107+00:00'),
 (54105, 462385799, 3, '2022-04-06T05:40:41', 'crescentpartha', 'https://github.com/deepa314/JAVASCRIPT_NOTES/pull/4', null, '2022-08-15T01:47:24.443107+00:00', '2022-08-15T01:47:24.443107+00:00'),
