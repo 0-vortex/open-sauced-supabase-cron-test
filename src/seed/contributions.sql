@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-04T06:48:16.379Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-04T08:47:30.619Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1448,8 +1448,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2982, 172227885, 1, '2020-04-17T05:56:10', 'StephenBrown2', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/87', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12252, 54228300, 1, '2019-07-17T17:46:02', 'severinrudie', 'https://github.com/mozilla/fathom/pull/110', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12251, 54228300, 1, '2019-04-19T16:12:49', 'Mozilla-GitHub-Standards', 'https://github.com/mozilla/fathom/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32778, 47664932, 1, '2017-09-13T11:45:16', 'piperchester', 'https://github.com/dkhamsing/awesome_bot/pull/144', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32779, 47664932, 1, '2018-09-01T18:13:29', 'kevinji', 'https://github.com/dkhamsing/awesome_bot/pull/181', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(32778, 47664932, 1, '2017-09-13T11:45:16', 'piperchester', 'https://github.com/dkhamsing/awesome_bot/pull/144', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32780, 47664932, 1, '2017-09-06T11:31:01', 'Alkass', 'https://github.com/dkhamsing/awesome_bot/pull/142', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9015, 44150497, 4, '2020-07-19T21:40:20', 'nylen', 'https://github.com/remoteintech/remote-jobs/pull/785', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9014, 44150497, 4, '2021-10-29T13:45:17', 'dougaitken', 'https://github.com/remoteintech/remote-jobs/pull/1316', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2690,11 +2690,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3307, 199486441, 4, '2022-05-16T19:36:03', 'DiegoPino', 'https://github.com/esmero/archipelago-deployment/pull/184', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3323, 89948774, 1, '2020-02-13T18:14:00', 'heydonovan', 'https://github.com/dtzar/helm-kubectl/pull/51', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3327, 89948774, 1, '2019-02-22T03:32:47', 'karlAlnebratt', 'https://github.com/dtzar/helm-kubectl/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1846, 430789888, 1, '2022-05-03T10:37:47', 'seromenho', 'https://github.com/Developer-DAO/web3-ui/pull/332', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3406, 286380425, 1, '2021-12-26T13:31:06', 'bookyo', 'https://github.com/Frezyx/group_button/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23135, 66474729, 4, '2021-09-21T15:03:05', 'xeroxnir', 'https://github.com/prowler-cloud/prowler/pull/873', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23136, 66474729, 4, '2021-09-28T15:27:51', 'pablopagani', 'https://github.com/prowler-cloud/prowler/pull/880', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23137, 66474729, 2, '2020-03-23T14:10:16', 'lanhhuyet510', 'https://github.com/prowler-cloud/prowler/pull/512', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1846, 430789888, 1, '2022-05-03T10:37:47', 'seromenho', 'https://github.com/Developer-DAO/web3-ui/pull/332', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3406, 286380425, 1, '2021-12-26T13:31:06', 'bookyo', 'https://github.com/Frezyx/group_button/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23138, 66474729, 2, '2016-12-30T10:53:24', 'davidpanofsky', 'https://github.com/prowler-cloud/prowler/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23139, 66474729, 2, '2020-05-29T09:40:46', 'urjitbhatia', 'https://github.com/prowler-cloud/prowler/pull/616', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23140, 66474729, 1, '2021-10-05T14:52:38', 'ShubhamShah11', 'https://github.com/prowler-cloud/prowler/pull/877', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
