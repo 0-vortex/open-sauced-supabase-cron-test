@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-05T03:38:00.189Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-05T05:11:31.713Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2431,6 +2431,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2991, 172227885, 1, '2020-02-07T20:44:38', 'abhisheksms', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/80', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2970, 172227885, 2, '2020-02-07T20:04:02', 'dmontagu', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2979, 172227885, 2, '2020-04-17T12:20:49', 'br3ndonland', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2984, 172227885, 2, '2020-04-19T05:56:06', 'RCheese', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/148', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32830, 18333318, 1, '2017-08-01T08:49:28', 'vill', 'https://github.com/pboling/seed_migration/pull/57', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32827, 18333318, 1, '2014-10-29T19:21:41', 'uno4ki', 'https://github.com/pboling/seed_migration/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11848, 326404870, 4, '2022-05-20T16:08:20', 'ankitnayan', 'https://github.com/SigNoz/signoz/pull/1186', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2438,7 +2439,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11850, 326404870, 4, '2022-03-06T07:52:37', 'pranay01', 'https://github.com/SigNoz/signoz/pull/829', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11851, 326404870, 4, '2022-05-25T12:29:37', 'makeavish', 'https://github.com/SigNoz/signoz/pull/1206', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11852, 326404870, 4, '2022-01-17T10:29:28', 'ybettan', 'https://github.com/SigNoz/signoz/pull/615', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2984, 172227885, 2, '2020-04-19T05:56:06', 'RCheese', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/148', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11853, 326404870, 4, '2021-10-22T11:36:05', 'jyash97', 'https://github.com/SigNoz/signoz/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11854, 326404870, 4, '2022-05-19T16:54:59', 'srikanthccv', 'https://github.com/SigNoz/signoz/pull/1111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11855, 326404870, 4, '2021-08-29T07:31:39', 'rajdas66', 'https://github.com/SigNoz/signoz/pull/283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2927,8 +2927,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3605, 45350538, 2, '2019-09-10T19:30:05', 'mockdeep', 'https://github.com/piotrmurach/tty-prompt/pull/113', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3593, 316807711, 1, '2021-06-30T06:14:13', 'danzrou', 'https://github.com/ngneat/variabless/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23151, 86351030, 4, '2022-01-03T09:59:40', 'alexcasalboni', 'https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(23153, 86351030, 1, '2018-05-10T16:15:57', 'hscheib', 'https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23152, 86351030, 3, '2020-06-08T12:49:14', 'gino247', 'https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/81', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(23153, 86351030, 1, '2018-05-10T16:15:57', 'hscheib', 'https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38100, 55387233, 1, '2019-02-14T23:31:08', 'alasdairhurst', 'https://github.com/conventional-changelog/standard-version/pull/282', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38103, 55387233, 1, '2018-05-17T18:34:09', 'barmaglot92', 'https://github.com/conventional-changelog/standard-version/pull/243', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3591, 31792824, 4, '2022-05-31T17:33:47', 'gspencergoog', 'https://github.com/flutter/flutter/pull/104772', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
