@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T03:38:35.621Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T05:20:00.952Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4601,7 +4601,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5424, 3544424, 4, '2022-05-16T15:19:49', 'isidentical', 'https://github.com/httpie/httpie/pull/1403', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5425, 3544424, 4, '2021-10-19T08:21:45', 'BoboTiG', 'https://github.com/httpie/httpie/pull/1188', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5426, 3544424, 1, '2012-02-28T16:55:00', 'flashingpumpkin', 'https://github.com/httpie/httpie/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5427, 3544424, 1, '2013-10-09T20:22:30', 'nlf', 'https://github.com/httpie/httpie/pull/171', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5428, 3544424, 3, '2018-11-02T13:57:54', 'dair-targ', 'https://github.com/httpie/httpie/pull/724', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5429, 3544424, 3, '2012-03-05T08:04:54', 'faulkner', 'https://github.com/httpie/httpie/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5430, 3544424, 4, '2021-10-15T13:24:22', 'hroncok', 'https://github.com/httpie/httpie/pull/1185', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4618,6 +4617,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5441, 3544424, 2, '2020-04-20T15:45:52', 'sonicdoe', 'https://github.com/httpie/httpie/pull/899', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5442, 3544424, 2, '2020-07-10T10:48:27', 'kbanc', 'https://github.com/httpie/httpie/pull/938', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5443, 3544424, 2, '2022-05-09T15:24:48', 'exploide', 'https://github.com/httpie/httpie/pull/1394', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5427, 3544424, 1, '2013-10-09T20:22:30', 'nlf', 'https://github.com/httpie/httpie/pull/171', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5444, 3544424, 2, '2017-12-13T20:16:06', 'CrazyPython', 'https://github.com/httpie/httpie/pull/631', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5445, 3544424, 1, '2014-03-18T18:44:16', 'unsignedint', 'https://github.com/httpie/httpie/pull/172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5446, 3544424, 1, '2015-08-31T04:20:01', 'mblayman', 'https://github.com/httpie/httpie/pull/377', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4771,8 +4771,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5594, 163776268, 1, '2019-02-05T23:45:19', 'steren', 'https://github.com/vercel/og-image/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5595, 163776268, 1, '2020-10-09T16:59:02', 'samrobbins85', 'https://github.com/vercel/og-image/pull/138', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5596, 163776268, 1, '2022-02-23T19:37:48', 'harish-sethuraman', 'https://github.com/vercel/og-image/pull/184', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5602, 384153639, 4, '2021-11-01T12:50:49', 'j-dogcoder', 'https://github.com/Heptagram-Bot-Project/website/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5603, 384153639, 2, '2021-10-30T01:20:31', 'aserputov', 'https://github.com/Heptagram-Bot-Project/website/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5602, 384153639, 4, '2021-11-01T12:50:49', 'j-dogcoder', 'https://github.com/Heptagram-Bot-Project/website/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5604, 384153639, 4, '2022-02-26T21:15:52', 'MidouWebDev', 'https://github.com/Heptagram-Bot-Project/website/pull/125', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5605, 384153639, 4, '2021-11-06T23:52:13', 'Kevan-Y', 'https://github.com/Heptagram-Bot-Project/website/pull/100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5606, 384153639, 4, '2021-11-24T13:20:40', 'Panquesito7', 'https://github.com/Heptagram-Bot-Project/website/pull/109', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
