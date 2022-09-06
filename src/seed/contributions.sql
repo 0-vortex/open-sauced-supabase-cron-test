@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T01:08:30.313Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T03:38:35.621Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6634,6 +6634,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8986, 230327376, 1, '2020-03-29T18:18:59', 'yumemi-omi', 'https://github.com/ErikCH/DevYouTubeList/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8988, 230327376, 1, '2020-04-26T16:58:36', 'keithmchd48', 'https://github.com/ErikCH/DevYouTubeList/pull/136', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9005, 230327376, 3, '2020-08-17T17:47:12', 'lucasmichot', 'https://github.com/ErikCH/DevYouTubeList/pull/157', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(11415, 364640714, 4, '2022-08-31T18:02:18', 'norihiro', 'https://github.com/norihiro/obs-color-monitor/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8612, 128265535, 4, '2019-04-19T14:55:52', 'harnas-google', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/521', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8744, 132732601, 4, '2022-08-30T04:33:14', 'ktsakalozos', 'https://github.com/canonical/microk8s/pull/3411', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9008, 230327376, 1, '2020-08-17T17:47:29', 'selvakumardhivakar', 'https://github.com/ErikCH/DevYouTubeList/pull/163', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6673,7 +6674,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11844, 326404870, 4, '2022-05-30T17:01:14', 'palash-signoz', 'https://github.com/SigNoz/signoz/pull/1209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2703, 212123834, 1, '2021-04-21T13:37:49', 'extreme4all', 'https://github.com/kentaro-m/auto-assign-action/pull/47', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5664, 82729529, 4, '2017-04-19T16:56:03', 'saurabhkpatel', 'https://github.com/google/python-fire/pull/65', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11415, 364640714, 4, '2022-08-31T18:02:18', 'norihiro', 'https://github.com/norihiro/obs-color-monitor/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5666, 82729529, 1, '2017-08-21T15:37:31', 'jaesbit', 'https://github.com/google/python-fire/pull/87', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1333, 278150898, 1, '2020-12-14T17:29:13', 'pokutuna', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/48', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1319, 278150898, 1, '2021-03-28T00:17:57', 'manuphatak', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
