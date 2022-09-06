@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T14:46:00.793Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-06T16:54:03.690Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2798,8 +2798,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (568, 42009758, 4, '2018-09-20T14:58:21', 'Zanibas', 'https://github.com/MetaMask/metamask-extension/pull/5280', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (571, 42009758, 4, '2022-04-21T21:58:57', 'rickycodes', 'https://github.com/MetaMask/metamask-extension/pull/14489', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (570, 42009758, 4, '2020-01-17T16:02:07', 'frankiebee', 'https://github.com/MetaMask/metamask-extension/pull/7856', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(583, 42009758, 4, '2022-05-11T20:27:58', 'NiranjanaBinoy', 'https://github.com/MetaMask/metamask-extension/pull/14441', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39913, 80276391, 3, '2020-07-11T15:50:52', 'qsniyg', 'https://github.com/GitSquared/edex-ui/pull/746', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(583, 42009758, 4, '2022-05-11T20:27:58', 'NiranjanaBinoy', 'https://github.com/MetaMask/metamask-extension/pull/14441', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2097, 26500787, 1, '2022-02-07T18:33:55', 'jsoref', 'https://github.com/tonsky/FiraCode/pull/1366', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (964, 33820955, 4, '2016-08-01T10:56:28', 'PatrickJS', 'https://github.com/timjacobi/angular-education/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5807, 105412971, 1, '2018-10-19T14:23:05', 'sjsyrek', 'https://github.com/stereobooster/react-snap/pull/276', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3383,8 +3383,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3930, 40892817, 4, '2022-06-07T14:13:23', 'Marenz', 'https://github.com/ethereum/solidity/pull/13093', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3933, 40892817, 4, '2017-12-18T14:18:06', 'pirapira', 'https://github.com/ethereum/solidity/pull/3343', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3947, 40892817, 4, '2022-03-14T15:23:19', 'bshastry', 'https://github.com/ethereum/solidity/pull/12789', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4114, 184961291, 1, '2020-02-12T10:09:42', 'gluk64', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4113, 184961291, 1, '2020-07-29T07:52:56', 'oxarbitrage', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4114, 184961291, 1, '2020-02-12T10:09:42', 'gluk64', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4115, 184961291, 1, '2021-10-25T01:24:48', 'adamdossa', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4116, 184961291, 1, '2020-08-04T17:17:50', 'ChainSafeSystems', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4117, 184961291, 1, '2021-09-10T15:37:58', 'yanganto', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
