@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-07T20:47:57.000Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-07T22:46:55.186Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1070,8 +1070,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3114, 184456251, 4, '2022-06-02T09:47:53', 'davidegiacometti', 'https://github.com/microsoft/PowerToys/pull/18534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3107, 184456251, 4, '2020-02-24T16:45:51', 'bzoz', 'https://github.com/microsoft/PowerToys/pull/1355', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3110, 184456251, 4, '2022-03-23T14:46:38', 'dend', 'https://github.com/microsoft/PowerToys/pull/16903', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3125, 184456251, 4, '2020-11-13T16:51:22', 'vldmr11080', 'https://github.com/microsoft/PowerToys/pull/8027', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3202, 324575078, 2, '2022-04-28T02:38:33', 'AnIkeT126', 'https://github.com/Kushal997-das/Project-Guidance/pull/572', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3125, 184456251, 4, '2020-11-13T16:51:22', 'vldmr11080', 'https://github.com/microsoft/PowerToys/pull/8027', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3195, 324575078, 1, '2022-03-16T05:36:42', 'Ash-KODES', 'https://github.com/Kushal997-das/Project-Guidance/pull/370', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (317, 218115303, 2, '2020-05-08T21:53:28', 'Kerumen', 'https://github.com/vercel/swr/pull/381', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3201, 324575078, 4, '2022-03-02T07:09:19', 'Programmer1473', 'https://github.com/Kushal997-das/Project-Guidance/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4383,6 +4383,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5161, 13491895, 4, '2014-06-29T23:34:16', 'Mouseion', 'https://github.com/EbookFoundation/free-programming-books/pull/1035', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5162, 13491895, 4, '2022-02-28T16:14:01', 'mcicolella', 'https://github.com/EbookFoundation/free-programming-books/pull/6738', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5163, 13491895, 4, '2021-10-06T01:08:28', 'SethFalco', 'https://github.com/EbookFoundation/free-programming-books/pull/5937', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5164, 13491895, 4, '2021-01-15T14:43:55', 'maieul', 'https://github.com/EbookFoundation/free-programming-books/pull/5261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5165, 13491895, 4, '2022-03-14T17:03:09', 'quobit', 'https://github.com/EbookFoundation/free-programming-books/pull/6761', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5166, 13491895, 4, '2021-07-29T03:23:00', 'GintasS', 'https://github.com/EbookFoundation/free-programming-books/pull/5452', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5167, 13491895, 4, '2018-07-24T19:49:21', 'danielkrupinski', 'https://github.com/EbookFoundation/free-programming-books/pull/2928', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4390,7 +4391,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5169, 13491895, 4, '2016-03-15T21:43:15', 'luminousspice', 'https://github.com/EbookFoundation/free-programming-books/pull/1876', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5170, 13491895, 4, '2013-11-16T17:19:10', 'BlueKore', 'https://github.com/EbookFoundation/free-programming-books/pull/392', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5171, 13491895, 4, '2014-11-14T18:16:25', 'sunxb10', 'https://github.com/EbookFoundation/free-programming-books/pull/1193', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5164, 13491895, 4, '2021-01-15T14:43:55', 'maieul', 'https://github.com/EbookFoundation/free-programming-books/pull/5261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5172, 13491895, 4, '2019-03-17T12:51:41', 'bluetata', 'https://github.com/EbookFoundation/free-programming-books/pull/3172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5173, 13491895, 3, '2016-01-15T20:41:02', 'davisonio', 'https://github.com/EbookFoundation/free-programming-books/pull/1785', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5174, 13491895, 4, '2015-07-01T11:15:35', 'grogy', 'https://github.com/EbookFoundation/free-programming-books/pull/1525', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
