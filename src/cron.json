@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-07T10:21:56.808Z",
+  "lastExecuted": "2022-09-07T10:36:14.778Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3064,12 +3064,12 @@
     "adelpro": {
       "owner": "adelpro",
       "notFound": false,
-      "lastExecuted": "2022-09-06T11:39:39.917Z"
+      "lastExecuted": "2022-09-07T10:36:14.778Z"
     },
     "bytemain": {
       "owner": "bytemain",
       "notFound": false,
-      "lastExecuted": "2022-09-06T11:08:14.685Z"
+      "lastExecuted": "2022-09-07T10:36:14.778Z"
     },
     "gmatheu": {
       "owner": "gmatheu",
@@ -3755,6 +3755,11 @@
       "owner": "arielbk",
       "notFound": false,
       "lastExecuted": "2022-09-07T10:10:58.180Z"
+    },
+    "fraserws": {
+      "owner": "fraserws",
+      "notFound": false,
+      "lastExecuted": "2022-09-07T10:36:14.778Z"
     }
   }
 }
