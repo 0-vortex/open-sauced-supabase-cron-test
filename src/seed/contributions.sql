@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-08T14:44:59.090Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-08T16:55:37.224Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -683,10 +683,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16389, 45717250, 4, '2018-03-23T00:01:12', 'benoitsteiner', 'https://github.com/tensorflow/tensorflow/pull/17935', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16615, 80304385, 1, '2017-11-04T17:12:35', 'renekorss', 'https://github.com/skywalkapps/nav-priority/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37245, 35015575, 4, '2020-08-17T17:26:33', 'Borewit', 'https://github.com/webtorrent/webtorrent-desktop/pull/1861', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37246, 35015575, 4, '2019-10-18T09:26:26', 'mathiasvr', 'https://github.com/webtorrent/webtorrent-desktop/pull/1720', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37247, 35015575, 4, '2021-06-12T17:50:48', 'hicom150', 'https://github.com/webtorrent/webtorrent-desktop/pull/1901', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32698, 54322227, 1, '2018-07-26T16:36:00', 'AlexeyBuzdin', 'https://github.com/trstringer/awesome-tech-conferences/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32699, 54322227, 3, '2018-01-30T15:23:46', 'margaritis', 'https://github.com/trstringer/awesome-tech-conferences/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37246, 35015575, 4, '2019-10-18T09:26:26', 'mathiasvr', 'https://github.com/webtorrent/webtorrent-desktop/pull/1720', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32700, 54322227, 2, '2016-12-10T21:44:03', 'ctigeek', 'https://github.com/trstringer/awesome-tech-conferences/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4387, 4132857, 4, '2021-10-16T19:06:45', 'michaelmhoffman', 'https://github.com/insanum/gcalcli/pull/613', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4397, 4132857, 1, '2019-06-12T04:41:05', 'Tyilo', 'https://github.com/insanum/gcalcli/pull/459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4020,8 +4020,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4757, 279064706, 1, '2020-07-22T09:26:43', 'legendofmiracles', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4763, 279064706, 2, '2020-12-13T11:08:49', 'claytonjhamilton', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/444', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4764, 279064706, 2, '2020-08-11T22:10:57', 'thmsgbrt', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
