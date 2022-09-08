@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-07T22:46:55.186Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-08T01:05:14.495Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1070,8 +1070,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3114, 184456251, 4, '2022-06-02T09:47:53', 'davidegiacometti', 'https://github.com/microsoft/PowerToys/pull/18534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3107, 184456251, 4, '2020-02-24T16:45:51', 'bzoz', 'https://github.com/microsoft/PowerToys/pull/1355', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3110, 184456251, 4, '2022-03-23T14:46:38', 'dend', 'https://github.com/microsoft/PowerToys/pull/16903', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3202, 324575078, 2, '2022-04-28T02:38:33', 'AnIkeT126', 'https://github.com/Kushal997-das/Project-Guidance/pull/572', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3125, 184456251, 4, '2020-11-13T16:51:22', 'vldmr11080', 'https://github.com/microsoft/PowerToys/pull/8027', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3202, 324575078, 2, '2022-04-28T02:38:33', 'AnIkeT126', 'https://github.com/Kushal997-das/Project-Guidance/pull/572', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3195, 324575078, 1, '2022-03-16T05:36:42', 'Ash-KODES', 'https://github.com/Kushal997-das/Project-Guidance/pull/370', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (317, 218115303, 2, '2020-05-08T21:53:28', 'Kerumen', 'https://github.com/vercel/swr/pull/381', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3201, 324575078, 4, '2022-03-02T07:09:19', 'Programmer1473', 'https://github.com/Kushal997-das/Project-Guidance/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7228,8 +7228,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1557, 75505125, 4, '2022-08-19T08:26:12', 'berkansasmaz', 'https://github.com/abpframework/abp/pull/13746', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1565, 75505125, 4, '2022-08-11T08:24:19', 'muhammedaltug', 'https://github.com/abpframework/abp/pull/13645', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5691, 161588836, 4, '2021-05-11T00:25:44', 'andvra', 'https://github.com/microsoft/PowerPlatformConnectors/pull/814', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5689, 161588836, 4, '2022-07-14T19:15:14', 'Encodian', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1806', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2288, 21911597, 2, '2015-03-16T21:00:53', 'felippegh', 'https://github.com/tayllan/awesome-algorithms/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5689, 161588836, 4, '2022-07-14T19:15:14', 'Encodian', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1806', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2269, 21911597, 1, '2014-07-23T14:40:57', 'jeksys', 'https://github.com/tayllan/awesome-algorithms/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2281, 21911597, 4, '2019-01-05T18:31:53', 'kanglicheng', 'https://github.com/tayllan/awesome-algorithms/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2266, 21911597, 2, '2017-09-11T23:12:19', 'nbro', 'https://github.com/tayllan/awesome-algorithms/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
