@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-08T08:49:04.763Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-08T10:47:44.431Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6877,6 +6877,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12094, 100433561, 2, '2021-03-10T06:25:35', 'kevinjihwanlee', 'https://github.com/downforacross/downforacross.com/pull/176', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12089, 100433561, 2, '2022-02-03T19:52:36', 'bdenney', 'https://github.com/downforacross/downforacross.com/pull/225', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12083, 100433561, 4, '2020-02-03T03:22:15', 'samclearman', 'https://github.com/downforacross/downforacross.com/pull/81', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12096, 100433561, 1, '2021-12-26T02:37:01', 'kevinl120', 'https://github.com/downforacross/downforacross.com/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12093, 100433561, 1, '2022-04-28T23:45:10', 'jlmart88', 'https://github.com/downforacross/downforacross.com/pull/233', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12095, 100433561, 1, '2019-06-02T03:54:08', 'lennartjansson', 'https://github.com/downforacross/downforacross.com/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12090, 100433561, 1, '2020-09-14T16:48:17', 'multimeric', 'https://github.com/downforacross/downforacross.com/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12084, 100433561, 1, '2020-12-29T03:49:59', 'jsbeckwith', 'https://github.com/downforacross/downforacross.com/pull/136', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6889,8 +6891,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12119, 4979467, 2, '2013-08-20T23:39:14', 'tshedor', 'https://github.com/PrismJS/prism/pull/157', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12120, 4979467, 4, '2022-05-14T12:19:20', 'RunDevelopment', 'https://github.com/PrismJS/prism/pull/3448', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12121, 4979467, 1, '2014-08-13T14:46:45', 'bholst', 'https://github.com/PrismJS/prism/pull/295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12096, 100433561, 1, '2021-12-26T02:37:01', 'kevinl120', 'https://github.com/downforacross/downforacross.com/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12093, 100433561, 1, '2022-04-28T23:45:10', 'jlmart88', 'https://github.com/downforacross/downforacross.com/pull/233', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12122, 4979467, 4, '2021-05-15T10:01:38', 'mAAdhaTTah', 'https://github.com/PrismJS/prism/pull/2905', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12123, 4979467, 4, '2022-03-14T21:44:27', 'hoonweiting', 'https://github.com/PrismJS/prism/pull/3394', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12124, 4979467, 1, '2016-02-14T00:32:40', 'LeaVerou', 'https://github.com/PrismJS/prism/pull/890', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
