@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-09T14:57:41.705Z",
+  "lastExecuted": "2022-09-09T15:08:02.079Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -2904,12 +2904,12 @@
     "NjengaFelix": {
       "owner": "NjengaFelix",
       "notFound": false,
-      "lastExecuted": "2022-09-08T14:43:10.399Z"
+      "lastExecuted": "2022-09-09T15:08:02.079Z"
     },
     "Tailine": {
       "owner": "Tailine",
       "notFound": false,
-      "lastExecuted": "2022-09-08T14:43:10.399Z"
+      "lastExecuted": "2022-09-09T15:08:02.079Z"
     },
     "JoshuaKGoldberg": {
       "owner": "JoshuaKGoldberg",
@@ -3830,6 +3830,11 @@
       "owner": "420-samm",
       "notFound": false,
       "lastExecuted": "2022-09-09T03:12:44.738Z"
+    },
+    "rmdp-trouva": {
+      "owner": "rmdp-trouva",
+      "notFound": false,
+      "lastExecuted": "2022-09-09T15:08:02.079Z"
     }
   }
 }
