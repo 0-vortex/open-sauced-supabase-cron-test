@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-11T14:45:48.032Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-11T16:52:33.544Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9471,8 +9471,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3850, 34470375, 4, '2016-11-22T10:45:10', 'janjonas', 'https://github.com/sachatrauwaen/OpenContent/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3848, 34470375, 1, '2019-08-01T07:51:25', 'WillStrohl', 'https://github.com/sachatrauwaen/OpenContent/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3851, 34470375, 1, '2015-11-21T15:37:27', 'gitter-badger', 'https://github.com/sachatrauwaen/OpenContent/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3847, 34470375, 2, '2021-04-15T15:54:55', 'Timo-Breumelhof', 'https://github.com/sachatrauwaen/OpenContent/pull/121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3849, 34470375, 1, '2015-11-17T17:35:09', 'patrickgalbraith', 'https://github.com/sachatrauwaen/OpenContent/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3847, 34470375, 2, '2021-04-15T15:54:55', 'Timo-Breumelhof', 'https://github.com/sachatrauwaen/OpenContent/pull/121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13069, 149638165, 2, '2020-07-28T18:27:24', 'lourenci', 'https://github.com/testing-library/user-event/pull/400', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9056, 76996763, 1, '2019-04-28T21:40:59', 'mathiassoeholm', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/166', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9063, 76996763, 1, '2017-10-27T17:06:09', 'mleg', 'https://github.com/piotrwitek/react-redux-typescript-guide/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
