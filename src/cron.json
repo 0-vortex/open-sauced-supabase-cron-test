@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-12T07:04:37.851Z",
+  "lastExecuted": "2022-09-12T07:24:51.890Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3584,7 +3584,7 @@
     "slf188": {
       "owner": "slf188",
       "notFound": false,
-      "lastExecuted": "2022-09-11T19:06:25.430Z"
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     },
     "mamba-dev-KE": {
       "owner": "mamba-dev-KE",
@@ -3594,12 +3594,12 @@
     "Bikram-ghuku": {
       "owner": "Bikram-ghuku",
       "notFound": false,
-      "lastExecuted": "2022-09-11T19:06:25.430Z"
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     },
     "leonardssh": {
       "owner": "leonardssh",
       "notFound": true,
-      "lastExecuted": "2022-09-11T19:06:25.430Z"
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     },
     "dariosena": {
       "owner": "dariosena",
@@ -3629,12 +3629,12 @@
     "xrexy": {
       "owner": "xrexy",
       "notFound": true,
-      "lastExecuted": "2022-09-11T19:06:25.430Z"
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     },
     "mmarinero": {
       "owner": "mmarinero",
       "notFound": true,
-      "lastExecuted": "2022-09-11T19:06:25.430Z"
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     },
     "sncalvo": {
       "owner": "sncalvo",
@@ -3875,6 +3875,11 @@
       "owner": "JealousGx",
       "notFound": false,
       "lastExecuted": "2022-09-12T05:00:46.534Z"
+    },
+    "Jonasdero": {
+      "owner": "Jonasdero",
+      "notFound": false,
+      "lastExecuted": "2022-09-12T07:24:51.890Z"
     }
   }
 }
