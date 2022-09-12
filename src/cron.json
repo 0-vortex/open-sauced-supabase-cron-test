@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-12T07:57:58.518Z",
+  "lastExecuted": "2022-09-12T08:09:23.463Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3424,7 +3424,7 @@
     "falcon-head": {
       "owner": "falcon-head",
       "notFound": false,
-      "lastExecuted": "2022-09-11T17:48:44.277Z"
+      "lastExecuted": "2022-09-12T08:09:23.463Z"
     },
     "chrcit": {
       "owner": "chrcit",
@@ -3499,7 +3499,7 @@
     "MugiD": {
       "owner": "MugiD",
       "notFound": false,
-      "lastExecuted": "2022-09-11T19:17:56.891Z"
+      "lastExecuted": "2022-09-12T08:09:23.463Z"
     },
     "rhedwan": {
       "owner": "rhedwan",
@@ -3880,6 +3880,11 @@
       "owner": "Jonasdero",
       "notFound": false,
       "lastExecuted": "2022-09-12T07:24:51.890Z"
+    },
+    "Ninad89": {
+      "owner": "Ninad89",
+      "notFound": false,
+      "lastExecuted": "2022-09-12T08:09:23.463Z"
     }
   }
 }
