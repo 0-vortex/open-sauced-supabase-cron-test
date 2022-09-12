@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-12T09:55:55.047Z",
+  "lastExecuted": "2022-09-12T10:05:33.357Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3349,7 +3349,7 @@
     "sappkevin": {
       "owner": "sappkevin",
       "notFound": false,
-      "lastExecuted": "2022-09-11T21:18:02.670Z"
+      "lastExecuted": "2022-09-12T10:05:33.357Z"
     },
     "tylim88": {
       "owner": "tylim88",
@@ -3364,12 +3364,12 @@
     "JacobAnavisca": {
       "owner": "JacobAnavisca",
       "notFound": false,
-      "lastExecuted": "2022-09-11T19:36:24.303Z"
+      "lastExecuted": "2022-09-12T10:05:33.357Z"
     },
     "Kathalysth": {
       "owner": "Kathalysth",
       "notFound": false,
-      "lastExecuted": "2022-09-11T21:29:52.853Z"
+      "lastExecuted": "2022-09-12T10:05:33.357Z"
     },
     "3ximus": {
       "owner": "3ximus",
@@ -3890,6 +3890,16 @@
       "owner": "MauriceKau",
       "notFound": false,
       "lastExecuted": "2022-09-12T09:07:35.039Z"
+    },
+    "SivertGullbergHansen": {
+      "owner": "SivertGullbergHansen",
+      "notFound": true,
+      "lastExecuted": "2022-09-12T10:05:33.357Z"
+    },
+    "Gryta-Krutt": {
+      "owner": "Gryta-Krutt",
+      "notFound": true,
+      "lastExecuted": "2022-09-12T10:05:33.357Z"
     }
   }
 }
