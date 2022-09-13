@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-13T07:01:21.462Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-13T08:49:37.681Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6330,8 +6330,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (66877, 387542412, 1, '2022-03-20T12:34:17', 'sitiom', 'https://github.com/builtbybel/ThisIsWin11/pull/136', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
 (22508, 9312102, 1, '2017-02-01T00:33:21', 'corymb', 'https://github.com/arc298/instagram-scraper/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5256, 18486300, 4, '2016-01-12T07:20:37', 'cveneziani', 'https://github.com/lewagon/setup/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(22509, 9312102, 2, '2018-01-20T23:18:18', 'Skinner927', 'https://github.com/arc298/instagram-scraper/pull/154', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5257, 18486300, 2, '2022-05-10T12:38:34', 'brunolajoie', 'https://github.com/lewagon/setup/pull/385', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(22509, 9312102, 2, '2018-01-20T23:18:18', 'Skinner927', 'https://github.com/arc298/instagram-scraper/pull/154', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22510, 9312102, 1, '2022-03-04T19:58:57', 'fgremler', 'https://github.com/arc298/instagram-scraper/pull/782', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22511, 9312102, 1, '2020-10-10T16:21:25', 'Ali-Frh', 'https://github.com/arc298/instagram-scraper/pull/537', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22512, 9312102, 2, '2017-12-29T00:27:55', 'stvschmdt', 'https://github.com/arc298/instagram-scraper/pull/141', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
