@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-14T14:41:54.565Z",
+  "lastExecuted": "2022-09-14T14:52:23.516Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3104,12 +3104,12 @@
     "rf-santos": {
       "owner": "rf-santos",
       "notFound": false,
-      "lastExecuted": "2022-09-13T20:06:38.646Z"
+      "lastExecuted": "2022-09-14T14:52:23.516Z"
     },
     "Dexters-Hub": {
       "owner": "Dexters-Hub",
       "notFound": false,
-      "lastExecuted": "2022-09-13T19:40:50.744Z"
+      "lastExecuted": "2022-09-14T14:52:23.516Z"
     },
     "JohannesPtaszyk": {
       "owner": "JohannesPtaszyk",
@@ -3950,6 +3950,11 @@
       "owner": "cdhiraj40",
       "notFound": false,
       "lastExecuted": "2022-09-14T12:08:24.761Z"
+    },
+    "StoodMag": {
+      "owner": "StoodMag",
+      "notFound": false,
+      "lastExecuted": "2022-09-14T14:52:23.516Z"
     }
   }
 }
