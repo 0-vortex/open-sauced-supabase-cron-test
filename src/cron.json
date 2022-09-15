@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-15T07:19:07.654Z",
+  "lastExecuted": "2022-09-15T07:35:44.057Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3839,12 +3839,12 @@
     "danieltott": {
       "owner": "danieltott",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:20:44.070Z"
+      "lastExecuted": "2022-09-15T07:35:44.057Z"
     },
     "BachAmadou": {
       "owner": "BachAmadou",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:20:44.070Z"
+      "lastExecuted": "2022-09-15T07:35:44.057Z"
     },
     "JuzerShakir": {
       "owner": "JuzerShakir",
@@ -3980,6 +3980,11 @@
       "owner": "charlieaboumoussa",
       "notFound": false,
       "lastExecuted": "2022-09-15T07:19:07.654Z"
+    },
+    "BuyMyMojo": {
+      "owner": "BuyMyMojo",
+      "notFound": false,
+      "lastExecuted": "2022-09-15T07:35:44.057Z"
     }
   }
 }
