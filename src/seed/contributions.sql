@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-15T16:54:14.103Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-15T18:49:21.516Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3693,8 +3693,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13057, 149638165, 4, '2022-08-09T15:13:05', 'ph-fritsche', 'https://github.com/testing-library/user-event/pull/1030', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13059, 149638165, 4, '2021-07-20T19:08:23', 'nickmccurdy', 'https://github.com/testing-library/user-event/pull/705', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13056, 149638165, 4, '2020-04-23T12:04:21', 'Gpx', 'https://github.com/testing-library/user-event/pull/248', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13065, 149638165, 1, '2019-08-15T09:51:22', 'afontcu', 'https://github.com/testing-library/user-event/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13058, 149638165, 4, '2020-12-06T03:54:27', 'kentcdodds', 'https://github.com/testing-library/user-event/pull/513', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13065, 149638165, 1, '2019-08-15T09:51:22', 'afontcu', 'https://github.com/testing-library/user-event/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13060, 149638165, 1, '2019-07-20T08:57:35', 'calebeby', 'https://github.com/testing-library/user-event/pull/136', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5192, 54346799, 4, '2021-05-05T07:19:26', 'marekdano', 'https://github.com/public-apis/public-apis/pull/1688', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5193, 54346799, 4, '2021-10-16T06:40:15', 'Nirzak', 'https://github.com/public-apis/public-apis/pull/2388', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
