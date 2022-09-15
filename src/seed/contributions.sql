@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-15T18:49:21.516Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-15T20:48:14.992Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4643,8 +4643,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4678, 4558079, 1, '2014-05-20T09:24:30', 'miurahr', 'https://github.com/garethr/vagrantboxes-heroku/pull/269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4676, 4558079, 3, '2014-12-31T20:17:27', 'arkadijs', 'https://github.com/garethr/vagrantboxes-heroku/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4671, 4558079, 4, '2015-09-13T15:13:05', 'wunki', 'https://github.com/garethr/vagrantboxes-heroku/pull/392', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4672, 4558079, 1, '2014-07-25T22:08:52', 'deanmalmgren', 'https://github.com/garethr/vagrantboxes-heroku/pull/309', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4675, 4558079, 3, '2013-05-18T13:09:26', 'grahamc', 'https://github.com/garethr/vagrantboxes-heroku/pull/139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4672, 4558079, 1, '2014-07-25T22:08:52', 'deanmalmgren', 'https://github.com/garethr/vagrantboxes-heroku/pull/309', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4679, 4558079, 2, '2014-05-19T18:38:24', 'jiko', 'https://github.com/garethr/vagrantboxes-heroku/pull/262', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4680, 4558079, 1, '2012-07-22T09:33:56', 'jtperry', 'https://github.com/garethr/vagrantboxes-heroku/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4674, 4558079, 4, '2016-12-28T21:43:54', 'jose-lpa', 'https://github.com/garethr/vagrantboxes-heroku/pull/427', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7011,8 +7011,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (66969, 9185792, 2, '2022-07-22T02:41:18', 'wind108369', 'https://github.com/apache/echarts/pull/17411', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
 (11697, 107111421, 1, '2017-10-28T17:27:39', 'bmcfetty', 'https://github.com/thedaviddias/Front-End-Checklist/pull/109', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38767, 281297416, 2, '2022-07-08T14:54:47', 'amrmtsh', 'https://github.com/adityatelange/hugo-PaperMod/pull/961', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11690, 107111421, 1, '2017-10-31T06:10:41', 'jboyer2012', 'https://github.com/thedaviddias/Front-End-Checklist/pull/124', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66970, 9185792, 4, '2015-02-04T13:37:04', 'kener', 'https://github.com/apache/echarts/pull/1244', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
+(11690, 107111421, 1, '2017-10-31T06:10:41', 'jboyer2012', 'https://github.com/thedaviddias/Front-End-Checklist/pull/124', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66971, 9185792, 4, '2022-08-02T03:14:01', 'plainheart', 'https://github.com/apache/echarts/pull/17452', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
 (66972, 9185792, 4, '2015-06-29T03:35:09', 'loutongbing', 'https://github.com/apache/echarts/pull/1732', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
 (66973, 9185792, 4, '2019-10-15T17:27:37', 'cuijian-dexter', 'https://github.com/apache/echarts/pull/11285', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
