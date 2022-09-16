@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-16T01:07:31.113Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-16T03:38:52.533Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3953,8 +3953,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5717, 126577260, 2, '2018-05-25T21:33:01', 'mybaseball52', 'https://github.com/trekhleb/javascript-algorithms/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5722, 126577260, 3, '2018-08-27T13:59:44', 'tapaswenipathak', 'https://github.com/trekhleb/javascript-algorithms/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5736, 126577260, 2, '2022-01-25T16:48:56', 'iwaskorean', 'https://github.com/trekhleb/javascript-algorithms/pull/767', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5725, 126577260, 2, '2018-10-01T14:15:08', 'agusnavce', 'https://github.com/trekhleb/javascript-algorithms/pull/218', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5712, 126577260, 3, '2022-01-27T19:54:41', 'fveronezipeters', 'https://github.com/trekhleb/javascript-algorithms/pull/665', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5725, 126577260, 2, '2018-10-01T14:15:08', 'agusnavce', 'https://github.com/trekhleb/javascript-algorithms/pull/218', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38089, 55387233, 4, '2022-05-15T13:35:48', 'bcoe', 'https://github.com/conventional-changelog/standard-version/pull/907', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38088, 55387233, 4, '2021-10-19T02:37:42', 'jbottigliero', 'https://github.com/conventional-changelog/standard-version/pull/841', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32908, 34228852, 4, '2020-06-15T00:59:25', 'hiverkiya', 'https://github.com/AchoArnold/discount-for-student-dev/pull/100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4344,8 +4344,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5118, 70107786, 4, '2022-04-21T21:15:53', 'janicklas-ralph', 'https://github.com/vercel/next.js/pull/31936', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5119, 70107786, 4, '2022-04-27T21:59:06', 'atcastle', 'https://github.com/vercel/next.js/pull/36523', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5120, 70107786, 4, '2020-08-18T15:31:22', 'todortotev', 'https://github.com/vercel/next.js/pull/16295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5122, 70137417, 4, '2019-04-29T08:59:37', 'exFalso', 'https://github.com/corda/corda/pull/4991', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5121, 70137417, 4, '2018-10-02T15:00:11', 'Clintonio', 'https://github.com/corda/corda/pull/4003', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5122, 70137417, 4, '2019-04-29T08:59:37', 'exFalso', 'https://github.com/corda/corda/pull/4991', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5123, 70137417, 4, '2019-09-06T09:25:01', 'shamsasari', 'https://github.com/corda/corda/pull/5439', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5124, 70137417, 4, '2019-12-11T10:35:46', 'fenryka', 'https://github.com/corda/corda/pull/5801', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5125, 70137417, 4, '2020-09-25T10:25:52', 'adagys', 'https://github.com/corda/corda/pull/6334', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
