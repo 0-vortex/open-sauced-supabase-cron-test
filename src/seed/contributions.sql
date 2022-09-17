@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-17T01:06:28.280Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-17T03:31:24.389Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3191,10 +3191,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (65486, 502811084, 4, '2022-06-30T14:11:49', 'innocenzi', 'https://github.com/antfu/changelogithub/pull/22', null, '2022-09-09T21:26:46.586835+00:00', '2022-09-09T21:26:46.586835+00:00'),
 (65487, 502811084, 1, '2022-06-14T15:05:02', 'MatyiFKBT', 'https://github.com/antfu/changelogithub/pull/9', null, '2022-09-09T21:26:46.586835+00:00', '2022-09-09T21:26:46.586835+00:00'),
 (65488, 502811084, 1, '2022-07-05T09:05:48', 'Zolyn', 'https://github.com/antfu/changelogithub/pull/25', null, '2022-09-09T21:26:46.586835+00:00', '2022-09-09T21:26:46.586835+00:00'),
-(65489, 502811084, 1, '2022-07-06T04:06:01', 'Intevel', 'https://github.com/antfu/changelogithub/pull/26', null, '2022-09-09T21:26:46.586835+00:00', '2022-09-09T21:26:46.586835+00:00'),
 (16831, 370494982, 1, '2021-10-15T10:34:48', 'Exalted100', 'https://github.com/thepeerstack/node-sdk/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4823, 64700934, 4, '2017-08-16T13:17:54', 'jakub-wojciechowski', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/368', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4825, 64700934, 4, '2022-05-19T13:52:55', 'martriay', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3413', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(65489, 502811084, 1, '2022-07-06T04:06:01', 'Intevel', 'https://github.com/antfu/changelogithub/pull/26', null, '2022-09-09T21:26:46.586835+00:00', '2022-09-09T21:26:46.586835+00:00'),
 (3960, 404324019, 4, '2022-03-24T13:02:18', 'arpit456jain', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/110', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3961, 404324019, 4, '2022-02-20T05:50:14', 'astha2412', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3963, 404324019, 2, '2021-10-25T12:26:52', 'ratnakar5938', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9609,8 +9609,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12850, 23247808, 3, '2018-05-08T11:32:23', 'sum12', 'https://github.com/rqlite/rqlite/pull/461', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34836, 257314632, 4, '2022-07-06T17:21:28', 'wise4rmgod', 'https://github.com/onflow/fcl-js/pull/1282', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32801, 70530854, 4, '2022-06-03T22:52:57', 'torresxb1', 'https://github.com/aws/serverless-application-model/pull/2407', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32788, 37997, 1, '2014-02-08T20:07:28', 'davidgg', 'https://github.com/jnunemaker/httparty/pull/269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32807, 37997, 1, '2018-08-27T18:21:03', 'ajitsing', 'https://github.com/jnunemaker/httparty/pull/606', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(32788, 37997, 1, '2014-02-08T20:07:28', 'davidgg', 'https://github.com/jnunemaker/httparty/pull/269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32805, 37997, 4, '2017-05-18T18:18:35', 'rsullivan00', 'https://github.com/jnunemaker/httparty/pull/540', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39299, 165522651, 4, '2022-05-16T14:38:14', 'lampsitter', 'https://github.com/emilk/egui/pull/1632', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9002, 230327376, 2, '2021-01-17T00:05:34', 'mbledkowski', 'https://github.com/ErikCH/DevYouTubeList/pull/192', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
