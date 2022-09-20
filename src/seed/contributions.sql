@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-20T18:49:53.193Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-20T20:47:29.298Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8899,11 +8899,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (57645, 304740870, 1, '2022-08-20T19:09:56', 'loveholly', 'https://github.com/tamagui/tamagui/pull/168', null, '2022-08-23T17:56:44.237926+00:00', '2022-08-23T17:56:44.237926+00:00'),
 (57647, 304740870, 1, '2022-08-21T18:49:18', 'kungfu321', 'https://github.com/tamagui/tamagui/pull/170', null, '2022-08-23T17:56:44.237926+00:00', '2022-08-23T17:56:44.237926+00:00'),
 (71138, 93619165, 3, '2022-09-16T08:14:12', 'pmwmedia', 'https://github.com/alecthomas/chroma/pull/674', null, '2022-09-19T09:52:48.757583+00:00', '2022-09-19T09:52:48.757583+00:00'),
-(64886, 372046384, 1, '2021-06-19T08:18:31', 'felippe-regazio', 'https://github.com/aidenybai/million/pull/35', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
-(64881, 372046384, 1, '2022-06-01T15:12:15', 'ricardobeat', 'https://github.com/aidenybai/million/pull/182', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (57930, 304530333, 1, '2022-08-22T16:21:31', 'samuell', 'https://github.com/featureform/featureform/pull/400', null, '2022-08-24T23:42:45.184033+00:00', '2022-08-24T23:42:45.184033+00:00'),
 (64871, 372046384, 1, '2022-02-16T00:53:14', 'danielskatz', 'https://github.com/aidenybai/million/pull/168', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64878, 372046384, 2, '2022-08-24T12:47:30', 'SukkaW', 'https://github.com/aidenybai/million/pull/270', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
+(64886, 372046384, 1, '2021-06-19T08:18:31', 'felippe-regazio', 'https://github.com/aidenybai/million/pull/35', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
+(64881, 372046384, 1, '2022-06-01T15:12:15', 'ricardobeat', 'https://github.com/aidenybai/million/pull/182', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64883, 372046384, 1, '2022-06-01T15:11:33', 'julianxhokaxhiu', 'https://github.com/aidenybai/million/pull/183', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64880, 372046384, 1, '2021-06-19T19:25:59', 'stan-kondrat', 'https://github.com/aidenybai/million/pull/38', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64874, 372046384, 1, '2022-02-02T02:08:27', 'huozhi', 'https://github.com/aidenybai/million/pull/166', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
