@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-20T09:40:09.759Z",
+  "lastExecuted": "2022-09-20T09:51:40.445Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3944,7 +3944,7 @@
     "serhioli": {
       "owner": "serhioli",
       "notFound": false,
-      "lastExecuted": "2022-09-19T21:45:00.515Z"
+      "lastExecuted": "2022-09-20T09:51:40.445Z"
     },
     "cdhiraj40": {
       "owner": "cdhiraj40",
@@ -3989,7 +3989,7 @@
     "jonas1-4": {
       "owner": "jonas1-4",
       "notFound": false,
-      "lastExecuted": "2022-09-19T21:45:00.515Z"
+      "lastExecuted": "2022-09-20T09:51:40.445Z"
     },
     "dotslashf": {
       "owner": "dotslashf",
@@ -4024,7 +4024,7 @@
     "batangaTroy": {
       "owner": "batangaTroy",
       "notFound": false,
-      "lastExecuted": "2022-09-19T21:45:00.515Z"
+      "lastExecuted": "2022-09-20T09:51:40.445Z"
     },
     "Davescryptnance": {
       "owner": "Davescryptnance",
@@ -4055,6 +4055,11 @@
       "owner": "BogDAAAMN",
       "notFound": false,
       "lastExecuted": "2022-09-20T08:46:39.062Z"
+    },
+    "khaya-zulu": {
+      "owner": "khaya-zulu",
+      "notFound": true,
+      "lastExecuted": "2022-09-20T09:51:40.445Z"
     }
   }
 }
