@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-23T03:36:18.257Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-23T05:10:56.093Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4619,8 +4619,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12196, 267760300, 1, '2020-08-08T20:45:17', 'mwood23', 'https://github.com/mwood23/wave-snippets/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39678, 484251804, 4, '2022-09-01T11:11:33', 'mappjzc', 'https://github.com/apache/incubator-devlake-website/pull/185', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3744, 3946572, 2, '2013-12-07T11:34:01', 'tildeslash', 'https://github.com/PostgresApp/PostgresApp/pull/160', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39677, 484251804, 4, '2022-09-02T14:21:29', 'klesh', 'https://github.com/apache/incubator-devlake-website/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1710, 27817031, 3, '2018-08-16T14:10:00', 'davidshq', 'https://github.com/understrap/understrap/pull/762', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39677, 484251804, 4, '2022-09-02T14:21:29', 'klesh', 'https://github.com/apache/incubator-devlake-website/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22332, 25315643, 1, '2016-04-12T17:27:24', 'jackiehluo', 'https://github.com/nylas/nylas-mail/pull/1898', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3748, 3946572, 1, '2019-07-25T14:21:17', 'abatko', 'https://github.com/PostgresApp/PostgresApp/pull/518', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4678, 4558079, 1, '2014-05-20T09:24:30', 'miurahr', 'https://github.com/garethr/vagrantboxes-heroku/pull/269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5774,8 +5774,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16394, 45717250, 4, '2019-09-30T23:36:13', 'gunan', 'https://github.com/tensorflow/tensorflow/pull/32936', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11642, 69193081, 1, '2017-06-05T04:56:15', 'QuincyLarson', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11645, 69193081, 3, '2017-10-26T04:53:20', 'shovanch', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/86', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16398, 45717250, 2, '2018-03-16T12:38:47', 'jpienaar', 'https://github.com/tensorflow/tensorflow/pull/17766', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16393, 45717250, 4, '2019-12-19T17:00:33', 'caisq', 'https://github.com/tensorflow/tensorflow/pull/35265', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(16398, 45717250, 2, '2018-03-16T12:38:47', 'jpienaar', 'https://github.com/tensorflow/tensorflow/pull/17766', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16400, 45717250, 4, '2021-11-03T18:18:28', 'qlzh727', 'https://github.com/tensorflow/tensorflow/pull/52927', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11647, 69193081, 4, '2019-02-13T18:31:59', 'bismarkhenao', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3458, 9418724, 1, '2015-11-02T14:32:17', 'FreedomBen', 'https://github.com/petems/tugboat/pull/185', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8271,8 +8271,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1839, 430789888, 4, '2022-05-03T10:17:52', 'Dhaiwat10', 'https://github.com/Developer-DAO/web3-ui/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1850, 430789888, 4, '2022-09-03T14:43:11', 'Nazeeh21', 'https://github.com/Developer-DAO/web3-ui/pull/395', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1852, 430789888, 4, '2022-01-19T23:15:12', 'hone1er', 'https://github.com/Developer-DAO/web3-ui/pull/241', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1837, 430789888, 1, '2022-01-03T11:23:32', 'akshatamohanty', 'https://github.com/Developer-DAO/web3-ui/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1830, 430789888, 1, '2021-12-07T07:34:23', 'christiananese', 'https://github.com/Developer-DAO/web3-ui/pull/80', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1837, 430789888, 1, '2022-01-03T11:23:32', 'akshatamohanty', 'https://github.com/Developer-DAO/web3-ui/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1847, 430789888, 2, '2021-12-18T21:35:55', 'maximebonhomme', 'https://github.com/Developer-DAO/web3-ui/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1843, 430789888, 1, '2022-01-31T18:05:28', 'berteotti', 'https://github.com/Developer-DAO/web3-ui/pull/276', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1841, 430789888, 1, '2022-01-11T01:41:58', 'carlomigueldy', 'https://github.com/Developer-DAO/web3-ui/pull/198', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
