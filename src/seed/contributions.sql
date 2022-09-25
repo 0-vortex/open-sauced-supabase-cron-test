@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-25T03:35:15.726Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-25T05:03:49.106Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5923,8 +5923,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (30185, 310393570, 1, '2022-06-20T14:24:02', 'grodino', 'https://github.com/allenai/ir_datasets/pull/198', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (893, 49020217, 1, '2016-01-09T22:15:44', 'webrascal', 'https://github.com/petehunt/react-howto/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1633, 16072585, 4, '2016-03-07T03:59:14', 'stevedomin', 'https://github.com/phoenixframework/phoenix/pull/1580', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(40258, 22485114, 1, '2022-02-16T19:11:03', 'inkel', 'https://github.com/hashicorp/hcl/pull/490', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2718, 13825712, 4, '2020-06-23T12:30:09', 'lnetrebskii', 'https://github.com/VirtoCommerce/vc-platform/pull/1925', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(40258, 22485114, 1, '2022-02-16T19:11:03', 'inkel', 'https://github.com/hashicorp/hcl/pull/490', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1467, 16607898, 4, '2014-02-14T18:36:50', 'yosssi', 'https://github.com/harness/drone/pull/79', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1840, 430789888, 2, '2022-01-05T09:27:47', 'Ibby-devv', 'https://github.com/Developer-DAO/web3-ui/pull/168', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40256, 22485114, 2, '2021-06-14T14:00:01', 'mildwonkey', 'https://github.com/hashicorp/hcl/pull/463', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10136,10 +10136,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (279, 218115303, 4, '2022-08-31T18:25:57', 'promer94', 'https://github.com/vercel/swr/pull/2142', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (547, 26195776, 1, '2015-05-03T06:10:39', 'stuartsan', 'https://github.com/JedWatson/classnames/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24545, 711976, 3, '2022-07-11T19:25:29', 'nickfloyd', 'https://github.com/octokit/octokit.js/pull/2252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(295, 218115303, 3, '2021-04-27T07:48:01', 'MoonBall', 'https://github.com/vercel/swr/pull/1145', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(300, 218115303, 1, '2020-03-31T15:58:27', 'akx', 'https://github.com/vercel/swr/pull/321', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24539, 711976, 4, '2022-07-07T21:16:14', 'wolfy1339', 'https://github.com/octokit/octokit.js/pull/2244', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24550, 711976, 1, '2021-05-23T22:08:32', 'C0ZEN', 'https://github.com/octokit/octokit.js/pull/2101', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(295, 218115303, 3, '2021-04-27T07:48:01', 'MoonBall', 'https://github.com/vercel/swr/pull/1145', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(300, 218115303, 1, '2020-03-31T15:58:27', 'akx', 'https://github.com/vercel/swr/pull/321', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (538, 26195776, 2, '2015-05-04T03:03:39', 'longlho', 'https://github.com/JedWatson/classnames/pull/32', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (548, 26195776, 3, '2021-05-12T06:23:21', 'remcohaszing', 'https://github.com/JedWatson/classnames/pull/251', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (545, 26195776, 2, '2015-12-25T00:04:57', 'nkbt', 'https://github.com/JedWatson/classnames/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
