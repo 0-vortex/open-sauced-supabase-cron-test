@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-25T16:52:53.255Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-25T18:49:26.821Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2256,8 +2256,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (916, 1446467, 4, '2021-05-21T03:00:46', 'alex', 'https://github.com/pypa/pip/pull/9987', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (929, 1446467, 4, '2019-11-25T21:40:34', 'takluyver', 'https://github.com/pypa/pip/pull/7394', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65376, 61246596, 1, '2019-11-27T22:47:41', 'Joshua-Ashton', 'https://github.com/crosire/reshade/pull/164', null, '2022-09-09T19:20:02.514967+00:00', '2022-09-09T19:20:02.514967+00:00'),
-(7, 278335273, 3, '2020-12-10T17:26:52', 'Bas950', 'https://github.com/anuraghazra/github-readme-stats/pull/707', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2839, 3545227, 1, '2021-09-29T22:45:31', 'a1346054', 'https://github.com/webcamoid/webcamoid/pull/458', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(7, 278335273, 3, '2020-12-10T17:26:52', 'Bas950', 'https://github.com/anuraghazra/github-readme-stats/pull/707', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2, 278335273, 4, '2021-01-27T07:11:22', 'nathanchu', 'https://github.com/anuraghazra/github-readme-stats/pull/620', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2127, 57939112, 4, '2022-04-04T17:26:11', 'dims', 'https://github.com/kubernetes/community/pull/6551', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23093, 32623292, 2, '2017-03-01T22:26:19', 'tsasioglu', 'https://github.com/basarat/typescript-book/pull/243', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9100,11 +9100,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59711, 79046698, 4, '2020-07-10T16:18:58', 'arzzen', 'https://github.com/arzzen/git-quick-stats/pull/106', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59712, 79046698, 1, '2018-08-23T07:32:18', 'dkalowsk', 'https://github.com/arzzen/git-quick-stats/pull/44', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59713, 79046698, 3, '2020-07-26T13:19:38', 'mcpcpc', 'https://github.com/arzzen/git-quick-stats/pull/113', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
-(59714, 79046698, 1, '2019-05-10T16:48:55', 'joshuadeguzman', 'https://github.com/arzzen/git-quick-stats/pull/67', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59715, 79046698, 1, '2018-11-05T20:40:37', 'danieltaub96', 'https://github.com/arzzen/git-quick-stats/pull/48', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59716, 79046698, 2, '2020-12-19T18:55:30', 'vutny', 'https://github.com/arzzen/git-quick-stats/pull/120', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59717, 79046698, 1, '2017-01-20T19:30:25', 'Joopmicroop', 'https://github.com/arzzen/git-quick-stats/pull/14', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59718, 79046698, 4, '2021-06-15T11:52:05', 'tomice', 'https://github.com/arzzen/git-quick-stats/pull/133', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
+(59714, 79046698, 1, '2019-05-10T16:48:55', 'joshuadeguzman', 'https://github.com/arzzen/git-quick-stats/pull/67', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59719, 79046698, 1, '2017-01-29T12:05:48', 'dangerhuss', 'https://github.com/arzzen/git-quick-stats/pull/20', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59720, 79046698, 1, '2022-02-27T02:01:27', 'dotmpe', 'https://github.com/arzzen/git-quick-stats/pull/136', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59721, 79046698, 1, '2018-09-21T06:52:10', 'mathstuf', 'https://github.com/arzzen/git-quick-stats/pull/46', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
