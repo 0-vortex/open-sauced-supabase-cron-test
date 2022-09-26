@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-26T05:16:17.410Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-26T07:00:05.434Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6745,10 +6745,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (66947, 3816238, 4, '2021-05-23T07:16:30', 'christen90', 'https://github.com/buchen/portfolio/pull/2257', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
 (38697, 337414495, 4, '2022-09-20T18:17:54', 'elitan', 'https://github.com/nhost/nhost/pull/944', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38696, 337414495, 4, '2022-06-02T10:44:14', 'gdangelo', 'https://github.com/nhost/nhost/pull/659', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(66949, 3816238, 4, '2022-04-06T08:12:49', 'OnkelDok', 'https://github.com/buchen/portfolio/pull/2788', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
-(1580, 249234386, 4, '2022-05-09T20:54:58', 'jcalado', 'https://github.com/steveseguin/vdo.ninja/pull/958', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8569, 265122478, 4, '2021-06-12T21:49:37', 'PhilippImhof', 'https://github.com/ManimCommunity/manim/pull/1673', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(66949, 3816238, 4, '2022-04-06T08:12:49', 'OnkelDok', 'https://github.com/buchen/portfolio/pull/2788', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
 (39314, 165522651, 3, '2022-02-15T16:12:30', 's-nie', 'https://github.com/emilk/egui/pull/1235', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1580, 249234386, 4, '2022-05-09T20:54:58', 'jcalado', 'https://github.com/steveseguin/vdo.ninja/pull/958', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38699, 337414495, 1, '2021-06-17T18:48:21', 'subatuba21', 'https://github.com/nhost/nhost/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11900, 76669415, 4, '2022-05-30T18:14:46', 'MykolaGolubyev', 'https://github.com/testingisdocumenting/znai/pull/810', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11901, 76669415, 4, '2021-04-14T13:41:02', 'evinaik', 'https://github.com/testingisdocumenting/znai/pull/603', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
