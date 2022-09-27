@@ -272,6 +272,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12414,1213225,3,2016-08-09T03:29:32,amckibben,https://github.com/highlightjs/highlight.js/pull/1255,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12412,1213225,4,2015-04-08T06:51:55,atelierbram,https://github.com/highlightjs/highlight.js/pull/815,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12411,1213225,3,2014-07-04T16:32:47,chriseidhof,https://github.com/highlightjs/highlight.js/pull/500,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+76246,26146652,1,2015-12-23T13:41:43,felipead,https://github.com/totheralistair/SmallerWebHexagon/pull/3,,2022-09-27T10:44:48.222341+00:00,2022-09-27T10:44:48.222341+00:00
+76247,26146652,1,2014-11-11T16:04:54,kevinrutherford,https://github.com/totheralistair/SmallerWebHexagon/pull/1,,2022-09-27T10:44:48.222341+00:00,2022-09-27T10:44:48.222341+00:00
 13052,92266575,1,2017-10-04T05:19:14,grahamannett,https://github.com/thinhvo0108/react-paypal-express-checkout/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37111,261787758,4,2020-10-01T06:18:36,byjujohn,https://github.com/bradtraversy/design-resources-for-developers/pull/600,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37112,261787758,4,2020-05-10T09:26:10,jatin2003,https://github.com/bradtraversy/design-resources-for-developers/pull/264,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
