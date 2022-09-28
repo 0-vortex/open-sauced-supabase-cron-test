@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-28T03:36:34.853Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-09-28T05:14:05.702Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8563,8 +8563,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1026, 345922282, 1, '2021-09-18T01:34:51', 'mattcroat', 'https://github.com/Saul-Mirone/milkdown/pull/137', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2511, 35955666, 3, '2015-07-25T18:13:58', 'Ungsik-Yun', 'https://github.com/jlevy/the-art-of-command-line/pull/228', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (882, 49020217, 1, '2017-04-17T19:59:08', 'stmoreau', 'https://github.com/petehunt/react-howto/pull/76', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(889, 49020217, 2, '2016-09-10T07:28:54', 'viatsko', 'https://github.com/petehunt/react-howto/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (896, 49020217, 1, '2016-02-17T06:56:52', 'trodrigues', 'https://github.com/petehunt/react-howto/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(889, 49020217, 2, '2016-09-10T07:28:54', 'viatsko', 'https://github.com/petehunt/react-howto/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8806, 289256448, 2, '2021-05-28T18:53:58', 'robert1508', 'https://github.com/themesberg/volt-bootstrap-5-dashboard/pull/42', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8785, 13601190, 4, '2021-02-26T11:25:54', 'Raruto', 'https://github.com/agentejo/cockpit/pull/1417', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8786, 13601190, 4, '2019-11-21T22:46:26', 'gryphonmyers', 'https://github.com/agentejo/cockpit/pull/1207', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9152,8 +9152,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59748, 189725054, 1, '2022-05-29T14:35:35', 'sirupsen', 'https://github.com/sirupsen/napkin-math/pull/20', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59749, 189725054, 1, '2020-09-14T19:12:01', 'manumilou', 'https://github.com/sirupsen/napkin-math/pull/11', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59750, 189725054, 1, '2020-12-30T02:19:30', 'bouk', 'https://github.com/sirupsen/napkin-math/pull/14', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
-(59739, 185419470, 1, '2019-05-08T10:23:26', 'aoeu', 'https://github.com/kkuchta/css-only-chat/pull/5', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59744, 185419470, 1, '2019-05-08T12:55:46', 'OskarDamkjaer', 'https://github.com/kkuchta/css-only-chat/pull/10', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
+(59739, 185419470, 1, '2019-05-08T10:23:26', 'aoeu', 'https://github.com/kkuchta/css-only-chat/pull/5', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59751, 257829830, 2, '2022-05-29T11:46:46', 'alex-ac', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/96', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59752, 257829830, 1, '2022-05-18T07:51:54', 'maxdudin', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/93', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59753, 257829830, 3, '2022-07-19T16:20:08', 'leonid-sviderskii-mtl', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/98', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
