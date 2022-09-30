@@ -1166,6 +1166,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1522,57239556,1,2017-09-29T07:09:59,pathway27,https://github.com/ngx-rocket/generator-ngx-rocket/pull/143,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32748,34983527,1,2019-08-29T10:48:22,tallclair,https://github.com/mundimark/awesome-markdown/pull/25,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32751,34983527,1,2015-05-06T18:48:25,e-picas,https://github.com/mundimark/awesome-markdown/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8500,49372256,1,2017-05-14T12:55:36,j-davies,https://github.com/nuket/google-sheets-geocoding-macro/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2684,304120355,3,2021-12-20T20:20:42,Beraliv,https://github.com/nanostores/nanostores/pull/88,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2689,304120355,1,2021-07-01T15:34:50,vasilii-kovalev,https://github.com/nanostores/nanostores/pull/36,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2676,304120355,4,2022-01-11T11:21:35,AleksandrSl,https://github.com/nanostores/nanostores/pull/89,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1173,7 +1174,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3116,184456251,4,2022-03-23T16:35:52,CleanCodeDeveloper,https://github.com/microsoft/PowerToys/pull/17214,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1278,306449955,2,2021-01-03T21:28:14,dexman545,https://github.com/IrisShaders/Iris/pull/70,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3105,184456251,4,2020-08-27T08:19:50,yevhenii44-zz,https://github.com/microsoft/PowerToys/pull/5994,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8500,49372256,1,2017-05-14T12:55:36,j-davies,https://github.com/nuket/google-sheets-geocoding-macro/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1269,306449955,4,2021-06-16T21:19:42,ColdIce1605,https://github.com/IrisShaders/Iris/pull/390,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1274,306449955,3,2022-05-30T23:18:54,Madis0,https://github.com/IrisShaders/Iris/pull/1437,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2670,304120355,1,2021-05-24T17:42:46,2bj,https://github.com/nanostores/nanostores/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1694,6 +1694,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 16610,213043312,2,2022-04-12T19:25:05,jqnatividad,https://github.com/pemistahl/grex/pull/68,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16608,213043312,1,2021-05-31T18:49:35,innobead,https://github.com/pemistahl/grex/pull/42,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16607,213043312,1,2020-02-11T21:39:51,Abendstolz,https://github.com/pemistahl/grex/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8507,141334515,1,2019-03-25T01:26:53,Thunderbottom,https://github.com/kormyen/memex/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16609,213043312,1,2021-07-22T08:44:32,herbygillot,https://github.com/pemistahl/grex/pull/44,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1783,290703027,4,2020-10-27T13:15:34,nutanaarohi123,https://github.com/kothariji/competitive-programming/pull/195,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37519,75675698,1,2019-02-07T15:39:20,dajvido,https://github.com/standardnotes/app/pull/272,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -1715,7 +1716,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11919,10865436,1,2014-06-19T17:23:47,gnclmorais,https://github.com/dypsilon/frontend-dev-bookmarks/pull/155,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23039,220852673,4,2022-03-27T15:06:51,esthor,https://github.com/esthor/react-native-swipeable-list/pull/40,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5965,227695638,1,2019-12-16T19:33:59,imakecodes,https://github.com/codeshow/003-arquitetura-flask/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8507,141334515,1,2019-03-25T01:26:53,Thunderbottom,https://github.com/kormyen/memex/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32793,37997,4,2016-02-05T14:32:04,mikeastock,https://github.com/jnunemaker/httparty/pull/462,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23038,220852673,1,2020-05-23T01:19:26,jlkalberer,https://github.com/esthor/react-native-swipeable-list/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12279,94498635,1,2018-02-05T23:41:54,dmmulroy,https://github.com/carbon-app/carbon/pull/204,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3005,8 +3005,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 16821,121814210,2,2020-06-11T21:41:08,ashygee,https://github.com/primer/react/pull/826,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16818,121814210,3,2020-11-19T17:28:55,koddsson,https://github.com/primer/react/pull/914,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16829,121814210,2,2020-02-05T22:04:18,alanbsmith,https://github.com/primer/react/pull/685,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8505,141334515,2,2019-10-16T03:57:56,lcb931023,https://github.com/kormyen/memex/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8504,141334515,1,2020-06-15T01:29:57,AlleahSTAR,https://github.com/kormyen/memex/pull/16,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2741,243394576,3,2020-09-30T17:50:18,nserrino,https://github.com/pixie-io/pixie/pull/134,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2736,243394576,3,2021-04-06T03:56:08,aimichelle,https://github.com/pixie-io/pixie/pull/230,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3593,316807711,1,2021-06-30T06:14:13,danzrou,https://github.com/ngneat/variabless/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3036,9 +3034,11 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 23154,86351030,1,2021-10-18T18:59:44,bobsut,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/143,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23155,86351030,1,2020-08-24T12:58:18,claudiopastorini,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/108,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23156,86351030,1,2018-09-04T10:46:24,tljdebrouwer,https://github.com/alexcasalboni/aws-lambda-power-tuning/pull/12,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8504,141334515,1,2020-06-15T01:29:57,AlleahSTAR,https://github.com/kormyen/memex/pull/16,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1184,23974149,1,2017-06-11T05:50:40,philipraets,https://github.com/Dogfalo/materialize/pull/4445,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3627,45350538,1,2018-10-31T23:31:53,rpbaltazar,https://github.com/piotrmurach/tty-prompt/pull/92,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3595,45350538,1,2016-07-17T16:29:18,Burgestrand,https://github.com/piotrmurach/tty-prompt/pull/18,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8505,141334515,2,2019-10-16T03:57:56,lcb931023,https://github.com/kormyen/memex/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 65461,464251123,4,2022-04-29T17:42:08,matthewflegg,https://github.com/matthewflegg/bb-bot/pull/47,,2022-09-09T20:53:48.399382+00:00,2022-09-09T20:53:48.399382+00:00
 65462,464251123,4,2022-03-28T14:45:40,BubblegumZen,https://github.com/matthewflegg/bb-bot/pull/21,,2022-09-09T20:53:48.399382+00:00,2022-09-09T20:53:48.399382+00:00
 65463,464251123,1,2022-03-03T12:17:48,bjr29,https://github.com/matthewflegg/bb-bot/pull/1,,2022-09-09T20:53:48.399382+00:00,2022-09-09T20:53:48.399382+00:00
@@ -3132,6 +3132,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 38104,55387233,1,2019-02-14T23:29:02,anthonylim24,https://github.com/conventional-changelog/standard-version/pull/284,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 65468,425455469,1,2022-01-23T10:31:19,Lennart01,https://github.com/Yariya/EarnApp-Earning-Monitor/pull/35,,2022-09-09T21:07:14.406908+00:00,2022-09-09T21:07:14.406908+00:00
 65469,425455469,4,2021-11-18T11:28:38,ItzDatMC,https://github.com/Yariya/EarnApp-Earning-Monitor/pull/18,,2022-09-09T21:07:14.406908+00:00,2022-09-09T21:07:14.406908+00:00
+39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16625,161770480,2,2019-04-25T03:22:30,ahegde3,https://github.com/nurdtechie98/drive-cli/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16624,161770480,4,2019-04-21T07:10:48,raghav-dalmia,https://github.com/nurdtechie98/drive-cli/pull/67,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16620,161770480,3,2019-04-07T13:12:23,nurdtechie98,https://github.com/nurdtechie98/drive-cli/pull/57,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3141,7 +3142,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 16622,161770480,1,2019-03-01T12:12:41,FredAmartey,https://github.com/nurdtechie98/drive-cli/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2600,23024191,2,2020-03-24T06:19:45,HamidSaffari,https://github.com/neu-rah/ArduinoMenu/pull/279,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2417,87860806,1,2017-05-03T15:04:49,kaelanfouwels,https://github.com/udhos/update-golang/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2410,87860806,1,2020-12-06T01:57:32,adntgv,https://github.com/udhos/update-golang/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16805,121814210,4,2019-09-24T22:00:47,shawnbot,https://github.com/primer/react/pull/517,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16808,121814210,4,2021-04-30T19:36:25,T-Hugs,https://github.com/primer/react/pull/1201,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5516,9 +5516,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1412,122681898,1,2018-12-14T18:23:03,soupman98,https://github.com/microsoft/MCW-Modern-cloud-apps/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3258,274495425,4,2021-04-04T13:11:18,jeetiss,https://github.com/remotion-dev/remotion/pull/193,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3299,274495425,4,2022-01-19T16:31:36,arthurdenner,https://github.com/remotion-dev/remotion/pull/788,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+39949,161073102,1,2022-05-03T14:35:10,coryshaw1,https://github.com/kuglee/TermiWatch/pull/58,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2471,65848095,1,2020-10-03T20:22:03,whalehub,https://github.com/requarks/wiki/pull/2526,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2479,65848095,2,2020-07-22T19:02:41,jaydeland,https://github.com/requarks/wiki/pull/2220,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-39949,161073102,1,2022-05-03T14:35:10,coryshaw1,https://github.com/kuglee/TermiWatch/pull/58,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8768,132732601,3,2020-02-17T15:17:48,giorgos-apo,https://github.com/canonical/microk8s/pull/963,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5740,439057606,1,2021-12-23T16:47:08,mnixry,https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8757,132732601,4,2022-03-14T06:33:59,DomFleischmann,https://github.com/canonical/microk8s/pull/2923,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7889,11 +7889,11 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9148,6093316,4,2019-08-05T20:04:13,leonard-thieu,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/37349,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9138,6093316,4,2014-11-16T12:27:35,Bartvds,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/3152,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23897,198896556,1,2022-01-23T05:05:06,gioragutt,https://github.com/microsoft/vscode-js-debug/pull/1186,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8503,258922512,4,2020-11-03T16:41:12,ShizukuIchi,https://github.com/ShizukuIchi/pdf-editor/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9140,6093316,4,2022-03-28T15:49:25,Igorbek,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59377,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1610,276143292,1,2020-10-07T20:48:08,CrypticEnigma00,https://github.com/negue/meme-box/pull/112,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1609,276143292,1,2021-10-05T15:30:36,divshacker,https://github.com/negue/meme-box/pull/339,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5799,80395811,1,2017-02-10T20:06:23,nihey,https://github.com/ivanseidel/Is-Now-Illegal/pull/32,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8503,258922512,4,2020-11-03T16:41:12,ShizukuIchi,https://github.com/ShizukuIchi/pdf-editor/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5817,105412971,1,2018-07-20T18:58:32,nicolas-t,https://github.com/stereobooster/react-snap/pull/216,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 49988,15246993,1,2018-09-07T00:15:49,alexdaube,https://github.com/shipshapecode/shepherd/pull/239,,2022-08-04T23:15:16.036092+00:00,2022-08-04T23:15:16.036092+00:00
 5814,105412971,1,2018-03-01T14:37:09,openjck,https://github.com/stereobooster/react-snap/pull/147,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7927,6 +7927,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12187,3678664,1,2022-05-14T00:31:39,sergiomb2,https://github.com/shlomif/PySolFC/pull/255,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12188,3678664,1,2021-10-09T04:26:45,leahneukirchen,https://github.com/shlomif/PySolFC/pull/224,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8502,258922512,1,2020-05-13T13:15:54,realdennis,https://github.com/ShizukuIchi/pdf-editor/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8498,49372256,1,2021-07-12T22:53:55,MrCsabaToth,https://github.com/nuket/google-sheets-geocoding-macro/pull/17,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1898,28548699,3,2015-02-04T18:11:23,shehaaz,https://github.com/cassidoo/getting-a-gig/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2055,364149329,1,2021-08-02T10:39:02,KRRISH96,https://github.com/orbit-love/github-actions-templates/pull/23,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12229,9746477,4,2016-06-02T12:26:03,hzulla,https://github.com/sonic-pi-net/sonic-pi/pull/1280,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7941,8 +7942,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 713,48393191,3,2016-12-05T19:22:01,remy-tiitre,https://github.com/nebula-plugins/gradle-lint-plugin/pull/71,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1902,28548699,1,2017-02-24T20:00:33,JeeveshN,https://github.com/cassidoo/getting-a-gig/pull/36,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2080,29497480,4,2021-03-04T18:22:32,WaveHack,https://github.com/OpenDominion/OpenDominion/pull/841,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8501,49372256,1,2017-10-01T20:41:14,subtleGradient,https://github.com/nuket/google-sheets-geocoding-macro/pull/7,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8498,49372256,1,2021-07-12T22:53:55,MrCsabaToth,https://github.com/nuket/google-sheets-geocoding-macro/pull/17,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8499,49372256,1,2017-08-29T09:05:56,pandafulmanda,https://github.com/nuket/google-sheets-geocoding-macro/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23904,198896556,1,2021-06-27T20:28:12,Ashesh3,https://github.com/microsoft/vscode-js-debug/pull/1044,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23894,198896556,2,2022-05-04T15:58:49,joyceerhl,https://github.com/microsoft/vscode-js-debug/pull/1251,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12202,124910572,4,2020-03-11T15:52:27,La0,https://github.com/mozilla/bugbug/pull/1394,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7959,10 +7959,10 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2722,13825712,3,2018-03-05T12:47:13,n2pro,https://github.com/VirtoCommerce/vc-platform/pull/1297,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2724,13825712,4,2021-12-13T17:18:06,BelyakovSergey,https://github.com/VirtoCommerce/vc-platform/pull/2437,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1241,170738310,4,2022-06-04T05:12:37,AyushBherwani1998,https://github.com/trustwallet/wallet-core/pull/2280,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8499,49372256,1,2017-08-29T09:05:56,pandafulmanda,https://github.com/nuket/google-sheets-geocoding-macro/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 35856,379652139,1,2022-02-14T17:22:59,pri1311,https://github.com/ljharb/can-merge/pull/55,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1233,170738310,4,2019-04-16T10:20:36,NashMiao,https://github.com/trustwallet/wallet-core/pull/327,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1652,378070841,2,2022-05-15T12:27:03,thomas-w-grant,https://github.com/ngneat/elf/pull/258,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8501,49372256,1,2017-10-01T20:41:14,subtleGradient,https://github.com/nuket/google-sheets-geocoding-macro/pull/7,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 6757,170738310,4,2022-06-09T23:42:53,grachyov,https://github.com/trustwallet/wallet-core/pull/2304,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1650,378070841,1,2022-01-24T16:53:39,davidsidlinger,https://github.com/ngneat/elf/pull/126,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 43534,281297416,2,2022-07-17T06:12:42,pxlfrk,https://github.com/adityatelange/hugo-PaperMod/pull/733,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
