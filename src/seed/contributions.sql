@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-01T12:58:49.689Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-01T14:47:17.594Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -636,8 +636,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2577, 141183500, 4, '2022-01-12T18:23:16', 'Truthkey', 'https://github.com/Xeeynamo/OpenKh/pull/541', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49999, 304530333, 4, '2022-08-11T23:02:38', 'RiddhiBagadiaa', 'https://github.com/featureform/featureform/pull/378', null, '2022-08-04T23:25:26.825834+00:00', '2022-08-04T23:25:26.825834+00:00'),
 (39702, 484251804, 1, '2022-06-23T02:09:42', 'fredtheflat', 'https://github.com/apache/incubator-devlake-website/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2702, 13825712, 1, '2020-09-30T08:20:47', 'vc-ci', 'https://github.com/VirtoCommerce/vc-platform/pull/1955', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2734, 13825712, 2, '2019-01-23T13:17:47', 'Andrew-Orlov', 'https://github.com/VirtoCommerce/vc-platform/pull/1508', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2702, 13825712, 1, '2020-09-30T08:20:47', 'vc-ci', 'https://github.com/VirtoCommerce/vc-platform/pull/1955', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (322, 218115303, 2, '2020-06-11T08:02:11', 'joshkel', 'https://github.com/vercel/swr/pull/449', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3751, 3946572, 1, '2013-05-01T01:56:12', 'kashif', 'https://github.com/PostgresApp/PostgresApp/pull/103', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3734, 3946572, 1, '2022-05-13T08:42:04', 'aswerve97', 'https://github.com/PostgresApp/PostgresApp/pull/657', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
