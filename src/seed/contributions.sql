@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-01T03:41:28.037Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-01T05:09:28.818Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -779,8 +779,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1114, 30911832, 1, '2015-12-19T00:20:43', 'mmozuras', 'https://github.com/DamirSvrtan/fasterer/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1115, 30911832, 1, '2017-09-23T12:09:32', 'olleolleolle', 'https://github.com/DamirSvrtan/fasterer/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1117, 30911832, 1, '2018-01-23T21:37:58', 'marcotc', 'https://github.com/DamirSvrtan/fasterer/pull/42', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1123, 30911832, 1, '2017-11-02T00:13:04', 'christhomson', 'https://github.com/DamirSvrtan/fasterer/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1121, 30911832, 1, '2015-11-11T12:43:40', 'pisaacs', 'https://github.com/DamirSvrtan/fasterer/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1123, 30911832, 1, '2017-11-02T00:13:04', 'christhomson', 'https://github.com/DamirSvrtan/fasterer/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1127, 30911832, 3, '2019-11-25T04:31:09', 'kiyot', 'https://github.com/DamirSvrtan/fasterer/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1131, 30911832, 2, '2021-03-10T03:39:52', 'Volosh1n', 'https://github.com/DamirSvrtan/fasterer/pull/87', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4467, 18442377, 3, '2020-12-31T11:12:55', 'ssaunier', 'https://github.com/lewagon/dotfiles/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -1759,9 +1759,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16412, 327628682, 4, '2022-06-03T18:13:13', 'achmurali', 'https://github.com/mantinedev/mantine/pull/1556', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38087, 478185779, 1, '2022-05-15T19:53:17', 'emmanuella194', 'https://github.com/XollabOS/talktometechnology/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2581, 23024191, 1, '2020-09-28T12:52:11', 'ivankravets', 'https://github.com/neu-rah/ArduinoMenu/pull/328', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(11386, 98698673, 1, '2021-04-18T09:43:26', 'amankkg', 'https://github.com/bluebill1049/react-simple-animate/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11383, 98698673, 1, '2019-07-22T07:51:08', 'pangpang1987', 'https://github.com/bluebill1049/react-simple-animate/pull/59', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11388, 98698673, 1, '2019-10-08T10:17:45', 'tiaanduplessis', 'https://github.com/bluebill1049/react-simple-animate/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11386, 98698673, 1, '2021-04-18T09:43:26', 'amankkg', 'https://github.com/bluebill1049/react-simple-animate/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2236, 51568094, 1, '2016-02-22T22:47:22', 'dawsbot', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2233, 51568094, 4, '2020-03-31T19:39:21', 'profnandaa', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/65', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2243, 51568094, 2, '2021-05-24T17:52:40', 'greencarlos', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/77', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6761,8 +6761,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1592, 249234386, 1, '2020-05-23T12:26:59', 'willl', 'https://github.com/steveseguin/vdo.ninja/pull/152', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66939, 3816238, 4, '2020-09-23T05:43:47', 'sebasbaumh', 'https://github.com/buchen/portfolio/pull/1759', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
 (1316, 278150898, 1, '2021-10-19T17:37:23', 'robinbowes', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/237', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2260, 43623432, 1, '2015-10-05T05:15:52', 'tobiaspal', 'https://github.com/qw3rtman/git-fire/pull/7', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11415, 364640714, 4, '2022-08-31T18:02:18', 'norihiro', 'https://github.com/norihiro/obs-color-monitor/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2260, 43623432, 1, '2015-10-05T05:15:52', 'tobiaspal', 'https://github.com/qw3rtman/git-fire/pull/7', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8612, 128265535, 4, '2019-04-19T14:55:52', 'harnas-google', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/521', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (922, 1446467, 4, '2018-11-10T11:46:22', 'benoit-pierre', 'https://github.com/pypa/pip/pull/5942', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5664, 82729529, 4, '2017-04-19T16:56:03', 'saurabhkpatel', 'https://github.com/google/python-fire/pull/65', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
