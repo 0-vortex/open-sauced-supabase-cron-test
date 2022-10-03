@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-03T14:51:38.376Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-03T16:57:49.852Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4497,9 +4497,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5191, 54346799, 4, '2018-10-15T17:52:19', 'jbrooksuk', 'https://github.com/public-apis/public-apis/pull/785', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5196, 54346799, 2, '2016-03-22T17:11:37', 'wesbos', 'https://github.com/public-apis/public-apis/pull/25', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5197, 54346799, 4, '2022-02-02T10:38:42', 'yannbertrand', 'https://github.com/public-apis/public-apis/pull/3042', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5198, 54346799, 4, '2021-10-23T00:02:23', 'marijaninjo', 'https://github.com/public-apis/public-apis/pull/2661', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5199, 54346799, 4, '2021-03-28T08:32:42', 'HZooly', 'https://github.com/public-apis/public-apis/pull/1237', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5200, 54346799, 4, '2021-10-15T15:12:25', 'olekstomek', 'https://github.com/public-apis/public-apis/pull/2549', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5201, 54346799, 4, '2017-10-27T17:03:37', 'karllhughes', 'https://github.com/public-apis/public-apis/pull/533', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5202, 54346799, 4, '2017-11-19T15:50:16', 'hardikpthv', 'https://github.com/public-apis/public-apis/pull/551', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5203, 54346799, 2, '2020-11-02T19:35:47', 'sonali623', 'https://github.com/public-apis/public-apis/pull/1434', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5068,7 +5065,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5848, 1548202, 4, '2021-07-28T03:15:11', 'mattab', 'https://github.com/matomo-org/matomo/pull/17826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5849, 1548202, 4, '2022-05-21T06:26:14', 'diosmosis', 'https://github.com/matomo-org/matomo/pull/19240', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5850, 1548202, 4, '2022-04-01T07:35:13', 'tsteur', 'https://github.com/matomo-org/matomo/pull/19000', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5198, 54346799, 4, '2021-10-23T00:02:23', 'marijaninjo', 'https://github.com/public-apis/public-apis/pull/2661', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5851, 1548202, 4, '2015-08-24T14:35:37', 'mnapoli', 'https://github.com/matomo-org/matomo/pull/8628', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5199, 54346799, 4, '2021-03-28T08:32:42', 'HZooly', 'https://github.com/public-apis/public-apis/pull/1237', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5200, 54346799, 4, '2021-10-15T15:12:25', 'olekstomek', 'https://github.com/public-apis/public-apis/pull/2549', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5852, 1548202, 4, '2022-05-12T22:52:52', 'peterhashair', 'https://github.com/matomo-org/matomo/pull/19212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5339, 71948498, 4, '2021-05-10T22:10:28', 'duongpv7', 'https://github.com/localstack/localstack/pull/3992', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5343, 71948498, 4, '2021-10-07T16:56:03', 'macnev2013', 'https://github.com/localstack/localstack/pull/4707', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
