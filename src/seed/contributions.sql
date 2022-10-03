@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-03T03:17:43.524Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-03T05:02:05.197Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3192,6 +3192,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3813, 96395, 1, '2015-11-02T22:34:13', 'npauzenga', 'https://github.com/faker-ruby/faker/pull/447', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3814, 96395, 4, '2020-10-28T07:24:22', 'amatsuda', 'https://github.com/faker-ruby/faker/pull/2182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2413, 87860806, 1, '2017-10-05T22:00:15', 'NexWeb', 'https://github.com/udhos/update-golang/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3815, 96395, 4, '2018-07-12T17:13:41', 'tagliala', 'https://github.com/faker-ruby/faker/pull/1311', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3816, 96395, 1, '2020-05-20T08:33:05', 'mattman', 'https://github.com/faker-ruby/faker/pull/1964', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3817, 96395, 4, '2019-12-07T00:24:54', 'tiagofsilva', 'https://github.com/faker-ruby/faker/pull/1847', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3818, 96395, 4, '2017-03-18T22:17:35', 'PascalSchumacher', 'https://github.com/faker-ruby/faker/pull/847', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3287,7 +3288,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3887, 12663196, 1, '2014-03-27T03:07:48', 'Wildhoney', 'https://github.com/nosir/obelisk.js/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3888, 12663196, 1, '2019-01-19T09:53:51', 'DanielRuf', 'https://github.com/nosir/obelisk.js/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3889, 12663196, 2, '2014-04-12T14:19:42', 'pose', 'https://github.com/nosir/obelisk.js/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3815, 96395, 4, '2018-07-12T17:13:41', 'tagliala', 'https://github.com/faker-ruby/faker/pull/1311', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3890, 12663196, 1, '2014-04-17T22:12:40', 'mistic100', 'https://github.com/nosir/obelisk.js/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13595, 95876775, 1, '2018-02-25T11:04:01', 'ajhsu', 'https://github.com/elsewhencode/project-guidelines/pull/130', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4815, 64700934, 4, '2019-01-04T16:47:25', 'Aniket-Engg', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/1581', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8903,6 +8903,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (70331, 40307075, 1, '2016-04-06T20:50:54', 'dikiaap', 'https://github.com/zudochkin/awesome-newsletters/pull/30', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70324, 40307075, 2, '2018-11-21T16:38:00', 'MargaretMac', 'https://github.com/zudochkin/awesome-newsletters/pull/87', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70339, 40307075, 1, '2020-11-03T14:39:03', 'iranjith4', 'https://github.com/zudochkin/awesome-newsletters/pull/141', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
+(70342, 40307075, 1, '2017-05-16T17:06:52', 'inputsh', 'https://github.com/zudochkin/awesome-newsletters/pull/51', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70338, 40307075, 2, '2020-07-20T12:18:19', 'maliMirkec', 'https://github.com/zudochkin/awesome-newsletters/pull/132', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70326, 40307075, 2, '2022-06-08T23:20:45', 'GwynHannay', 'https://github.com/zudochkin/awesome-newsletters/pull/202', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70336, 40307075, 2, '2017-04-04T10:26:35', 'v1shwa', 'https://github.com/zudochkin/awesome-newsletters/pull/50', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
@@ -8981,7 +8982,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (57930, 304530333, 1, '2022-08-22T16:21:31', 'samuell', 'https://github.com/featureform/featureform/pull/400', null, '2022-08-24T23:42:45.184033+00:00', '2022-08-24T23:42:45.184033+00:00'),
 (64866, 372046384, 2, '2022-08-04T18:46:20', 'jasonappah', 'https://github.com/aidenybai/million/pull/250', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64878, 372046384, 2, '2022-08-24T12:47:30', 'SukkaW', 'https://github.com/aidenybai/million/pull/270', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
-(70342, 40307075, 1, '2017-05-16T17:06:52', 'inputsh', 'https://github.com/zudochkin/awesome-newsletters/pull/51', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (64871, 372046384, 1, '2022-02-16T00:53:14', 'danielskatz', 'https://github.com/aidenybai/million/pull/168', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64869, 372046384, 1, '2021-06-05T09:04:19', 'fabiancook', 'https://github.com/aidenybai/million/pull/2', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
 (64873, 372046384, 1, '2022-08-05T14:06:45', 'cusspvz', 'https://github.com/aidenybai/million/pull/251', null, '2022-09-09T11:42:03.820658+00:00', '2022-09-09T11:42:03.820658+00:00'),
