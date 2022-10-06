@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-05T22:48:52.299Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-06T01:05:32.511Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9252,8 +9252,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59720, 79046698, 1, '2022-02-27T02:01:27', 'dotmpe', 'https://github.com/arzzen/git-quick-stats/pull/136', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59721, 79046698, 1, '2018-09-21T06:52:10', 'mathstuf', 'https://github.com/arzzen/git-quick-stats/pull/46', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59722, 79046698, 1, '2019-02-04T13:05:29', 'loonies', 'https://github.com/arzzen/git-quick-stats/pull/60', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
-(59723, 79046698, 1, '2019-09-18T10:21:08', 'jorgesumle', 'https://github.com/arzzen/git-quick-stats/pull/74', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59724, 79046698, 1, '2019-05-17T17:00:17', 'mhickman', 'https://github.com/arzzen/git-quick-stats/pull/69', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
+(59723, 79046698, 1, '2019-09-18T10:21:08', 'jorgesumle', 'https://github.com/arzzen/git-quick-stats/pull/74', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59725, 79046698, 1, '2017-02-18T10:39:38', 'xdlbx', 'https://github.com/arzzen/git-quick-stats/pull/22', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59726, 79046698, 1, '2019-10-13T15:41:06', 'Chandra158', 'https://github.com/arzzen/git-quick-stats/pull/80', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59727, 79046698, 1, '2017-03-18T11:06:21', 'bpkroth', 'https://github.com/arzzen/git-quick-stats/pull/26', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
