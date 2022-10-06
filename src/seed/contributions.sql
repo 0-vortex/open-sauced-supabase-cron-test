@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-06T13:01:24.942Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-06T14:51:36.898Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2835,8 +2835,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1264, 170738310, 4, '2022-01-14T08:16:47', 'andreibancioiu', 'https://github.com/trustwallet/wallet-core/pull/1845', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4153, 239233346, 1, '2020-07-13T20:46:33', 'smithgeek', 'https://github.com/ardalis/ApiEndpoints/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39911, 80276391, 3, '2021-04-16T10:02:21', 'mreinhardt', 'https://github.com/GitSquared/edex-ui/pull/1106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4151, 239233346, 1, '2021-04-02T18:22:55', 'ilyanaDev', 'https://github.com/ardalis/ApiEndpoints/pull/55', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4151, 239233346, 1, '2021-04-02T18:22:55', 'ilyanaDev', 'https://github.com/ardalis/ApiEndpoints/pull/55', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1948, 14173176, 1, '2018-03-24T10:01:05', 'alexandrebouchard', 'https://github.com/EsotericSoftware/kryo/pull/576', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14154, 400851369, 1, '2021-09-09T12:23:49', 'tzachar', 'https://github.com/lewis6991/impatient.nvim/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14150, 400851369, 1, '2021-08-30T20:27:11', 'shadmansaleh', 'https://github.com/lewis6991/impatient.nvim/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3349,9 +3349,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4025, 74762106, 1, '2020-06-19T07:10:45', 'kagxin', 'https://github.com/jhao104/proxy_pool/pull/313', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4026, 74762106, 1, '2017-09-21T09:01:22', 'kangnwh', 'https://github.com/jhao104/proxy_pool/pull/68', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4027, 74762106, 2, '2018-07-10T07:45:46', 'highroom', 'https://github.com/jhao104/proxy_pool/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(79803, 491504244, 1, '2022-05-17T08:32:54', 'mjh316', 'https://github.com/Cveinnt/LiveTerm/pull/5', null, '2022-10-04T01:06:42.513179+00:00', '2022-10-04T01:06:42.513179+00:00'),
 (4028, 74762106, 3, '2018-11-12T02:33:14', 'ozhiwei', 'https://github.com/jhao104/proxy_pool/pull/211', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (76782, 144590939, 4, '2022-06-07T21:20:09', 'Fdawgs', 'https://github.com/VSCodium/vscodium/pull/1108', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
+(79803, 491504244, 1, '2022-05-17T08:32:54', 'mjh316', 'https://github.com/Cveinnt/LiveTerm/pull/5', null, '2022-10-04T01:06:42.513179+00:00', '2022-10-04T01:06:42.513179+00:00'),
 (76786, 144590939, 2, '2021-12-12T20:49:45', 'brccabral', 'https://github.com/VSCodium/vscodium/pull/891', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (76797, 144590939, 2, '2021-07-16T23:37:08', 'Livven', 'https://github.com/VSCodium/vscodium/pull/765', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (16834, 238404616, 4, '2021-11-10T13:32:25', 'oscerd', 'https://github.com/apache/camel-examples/pull/49', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9199,8 +9199,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59108, 148858276, 4, '2019-02-25T10:49:49', 'NicolasDorier', 'https://github.com/Ride-The-Lightning/RTL/pull/63', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59109, 148858276, 2, '2020-05-03T19:54:27', 'Kixunil', 'https://github.com/Ride-The-Lightning/RTL/pull/311', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59110, 148858276, 4, '2019-02-20T23:25:43', 'JeffVandrewJr', 'https://github.com/Ride-The-Lightning/RTL/pull/54', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
-(59111, 148858276, 1, '2022-08-14T02:39:04', 'PsySc0rpi0n', 'https://github.com/Ride-The-Lightning/RTL/pull/630', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59112, 148858276, 2, '2019-04-04T00:09:30', 'PierreRochard', 'https://github.com/Ride-The-Lightning/RTL/pull/105', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
+(59111, 148858276, 1, '2022-08-14T02:39:04', 'PsySc0rpi0n', 'https://github.com/Ride-The-Lightning/RTL/pull/630', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59113, 148858276, 2, '2019-07-02T11:06:59', 'seth586', 'https://github.com/Ride-The-Lightning/RTL/pull/163', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59114, 148858276, 1, '2021-02-23T09:54:23', 'AaronDewes', 'https://github.com/Ride-The-Lightning/RTL/pull/609', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
 (59115, 148858276, 1, '2020-07-14T11:22:37', 'Kukks', 'https://github.com/Ride-The-Lightning/RTL/pull/380', null, '2022-08-27T17:34:55.057079+00:00', '2022-08-27T17:34:55.057079+00:00'),
