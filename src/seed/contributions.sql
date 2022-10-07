@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-07T03:24:17.523Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-07T05:01:17.392Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5348,8 +5348,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (22413, 398998426, 1, '2022-03-10T19:28:39', 'mike-winberry', 'https://github.com/defenseunicorns/zarf/pull/351', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22414, 398998426, 1, '2022-04-27T00:08:54', 'Madeline-UX', 'https://github.com/defenseunicorns/zarf/pull/461', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22415, 398998426, 1, '2022-04-26T20:54:42', 'mikhailswift', 'https://github.com/defenseunicorns/zarf/pull/367', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12766, 16685462, 4, '2015-04-27T12:47:18', 'ASPIRINpp', 'https://github.com/humhub/humhub/pull/988', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12761, 16685462, 4, '2020-10-05T09:40:29', 'sahartak2025', 'https://github.com/humhub/humhub/pull/4433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4160, 143078055, 4, '2020-05-13T13:22:23', 'sanscheese', 'https://github.com/gridsome/gridsome/pull/1130', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4162, 143078055, 4, '2019-07-12T12:12:19', 'clarkdo', 'https://github.com/gridsome/gridsome/pull/545', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4161, 143078055, 4, '2021-02-03T22:05:15', 'u12206050', 'https://github.com/gridsome/gridsome/pull/1430', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8778,7 +8776,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (54158, 493046551, 2, '2022-08-19T20:51:28', 'Tch4lla', 'https://github.com/curtisbarnard/BANKI/pull/23', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
 (54149, 493046551, 1, '2022-08-10T16:44:29', 'kbventures', 'https://github.com/curtisbarnard/BANKI/pull/15', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
 (54155, 493046551, 1, '2022-08-15T03:32:51', 'boonaki', 'https://github.com/curtisbarnard/BANKI/pull/22', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
-(54150, 493046551, 1, '2022-08-15T03:12:39', 'mhalverstadt', 'https://github.com/curtisbarnard/BANKI/pull/19', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
+(12766, 16685462, 4, '2015-04-27T12:47:18', 'ASPIRINpp', 'https://github.com/humhub/humhub/pull/988', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (54157, 493046551, 1, '2022-08-11T15:40:22', 'LadyBluenotes', 'https://github.com/curtisbarnard/BANKI/pull/16', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
 (66881, 39785222, 1, '2018-08-20T14:52:15', 'Etheryte', 'https://github.com/Droogans/unmaintainable-code/pull/35', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
 (66883, 39785222, 1, '2020-11-05T00:09:54', 'AdrianHL', 'https://github.com/Droogans/unmaintainable-code/pull/47', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
@@ -10630,6 +10628,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1575, 75505125, 4, '2020-03-12T13:40:35', 'thediaval', 'https://github.com/abpframework/abp/pull/3094', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1552, 75505125, 4, '2022-09-29T12:00:03', 'gterdem', 'https://github.com/abpframework/abp/pull/14185', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1564, 75505125, 4, '2021-05-25T05:52:07', 'ilkayilknur', 'https://github.com/abpframework/abp/pull/9121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12761, 16685462, 4, '2020-10-05T09:40:29', 'sahartak2025', 'https://github.com/humhub/humhub/pull/4433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1576, 75505125, 4, '2022-10-05T06:46:08', 'yekalkan', 'https://github.com/abpframework/abp/pull/14207', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1551, 75505125, 4, '2021-11-25T08:05:25', 'cotur', 'https://github.com/abpframework/abp/pull/10731', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39303, 165522651, 2, '2021-05-20T17:56:33', 'quadruple-output', 'https://github.com/emilk/egui/pull/402', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10962,4 +10961,5 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (47857, 417389, 3, '2022-07-28T09:03:13', 'yykamei', 'https://github.com/lostisland/faraday/pull/1436', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (48110, 371298202, 1, '2022-07-27T20:03:10', 'curtgrimes', 'https://github.com/wheatjs/vueuse-playground/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46657, 237523442, 4, '2022-09-18T06:19:24', 'DentonGentry', 'https://github.com/tailscale/tailscale/pull/5684', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(54150, 493046551, 1, '2022-08-15T03:12:39', 'mhalverstadt', 'https://github.com/curtisbarnard/BANKI/pull/19', null, '2022-08-15T05:23:40.761907+00:00', '2022-08-15T05:23:40.761907+00:00'),
 (46654, 237523442, 4, '2022-09-12T22:05:44', 'danderson', 'https://github.com/tailscale/tailscale/pull/5608', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00');
