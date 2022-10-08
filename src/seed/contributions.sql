@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-07T22:48:36.608Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-08T01:05:06.747Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1989,8 +1989,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32823, 18333318, 1, '2019-02-04T17:59:35', 'timhaines', 'https://github.com/pboling/seed_migration/pull/65', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2126, 57939112, 4, '2019-08-02T18:53:53', 'grodrigues3', 'https://github.com/kubernetes/community/pull/3963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4896, 17224877, 1, '2017-05-19T20:00:42', 'ragekit', 'https://github.com/defunkt/Zen/pull/104', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2129, 57939112, 4, '2019-02-20T17:40:28', 'pwittrock', 'https://github.com/kubernetes/community/pull/3279', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2907, 61893399, 1, '2019-10-10T20:49:25', 'bluebill1049', 'https://github.com/brillout/awesome-react-components/pull/146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2129, 57939112, 4, '2019-02-20T17:40:28', 'pwittrock', 'https://github.com/kubernetes/community/pull/3279', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4895, 17224877, 1, '2014-12-02T19:51:27', 'lucasmotta', 'https://github.com/defunkt/Zen/pull/36', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2135, 57939112, 4, '2022-03-05T01:04:51', 'tallclair', 'https://github.com/kubernetes/community/pull/6519', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2491, 49767244, 4, '2017-07-26T21:22:23', 'ycintre', 'https://github.com/primefaces/primeng/pull/3474', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8828,9 +8828,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (70248, 17085874, 4, '2022-07-11T20:44:40', 'Skalman', 'https://github.com/timvieira/justified-variables/pull/39', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70249, 17085874, 2, '2014-03-23T04:27:06', 'query', 'https://github.com/timvieira/justified-variables/pull/2', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70250, 17085874, 3, '2021-09-24T19:24:03', 'peterkelly', 'https://github.com/timvieira/justified-variables/pull/38', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
-(70251, 17085874, 4, '2021-03-07T21:15:12', 'mjpost', 'https://github.com/timvieira/justified-variables/pull/17', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70252, 17085874, 1, '2021-07-28T17:22:08', 'aravindet', 'https://github.com/timvieira/justified-variables/pull/35', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70253, 17085874, 2, '2021-07-22T08:44:24', 'petertodd', 'https://github.com/timvieira/justified-variables/pull/34', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
+(70251, 17085874, 4, '2021-03-07T21:15:12', 'mjpost', 'https://github.com/timvieira/justified-variables/pull/17', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70254, 17085874, 1, '2021-03-09T15:54:25', 'danr', 'https://github.com/timvieira/justified-variables/pull/32', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70255, 17085874, 1, '2020-12-19T13:49:28', 'jeisner', 'https://github.com/timvieira/justified-variables/pull/19', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
 (70256, 17085874, 1, '2021-03-07T20:59:22', 'Tloru', 'https://github.com/timvieira/justified-variables/pull/23', null, '2022-09-17T20:46:39.654132+00:00', '2022-09-17T20:46:39.654132+00:00'),
@@ -8940,9 +8940,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (70340, 40307075, 3, '2016-06-03T15:43:32', 'StanBright', 'https://github.com/zudochkin/awesome-newsletters/pull/36', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70330, 40307075, 1, '2019-09-16T15:49:46', 'apbendi', 'https://github.com/zudochkin/awesome-newsletters/pull/113', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70320, 40307075, 3, '2016-12-21T10:24:54', 'ReadmeCritic', 'https://github.com/zudochkin/awesome-newsletters/pull/45', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
-(70331, 40307075, 1, '2016-04-06T20:50:54', 'dikiaap', 'https://github.com/zudochkin/awesome-newsletters/pull/30', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70324, 40307075, 2, '2018-11-21T16:38:00', 'MargaretMac', 'https://github.com/zudochkin/awesome-newsletters/pull/87', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70339, 40307075, 1, '2020-11-03T14:39:03', 'iranjith4', 'https://github.com/zudochkin/awesome-newsletters/pull/141', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
+(70331, 40307075, 1, '2016-04-06T20:50:54', 'dikiaap', 'https://github.com/zudochkin/awesome-newsletters/pull/30', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70342, 40307075, 1, '2017-05-16T17:06:52', 'inputsh', 'https://github.com/zudochkin/awesome-newsletters/pull/51', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70338, 40307075, 2, '2020-07-20T12:18:19', 'maliMirkec', 'https://github.com/zudochkin/awesome-newsletters/pull/132', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
 (70326, 40307075, 2, '2022-06-08T23:20:45', 'GwynHannay', 'https://github.com/zudochkin/awesome-newsletters/pull/202', null, '2022-09-17T21:16:00.168048+00:00', '2022-09-17T21:16:00.168048+00:00'),
