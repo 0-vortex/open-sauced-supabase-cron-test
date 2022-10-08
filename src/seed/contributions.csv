@@ -3107,7 +3107,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 39951,42878948,1,2017-05-24T16:43:05,kmcphillips,https://github.com/do-community/do-article-templates/pull/5,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13587,95876775,4,2022-05-03T13:31:15,vpanjganj,https://github.com/elsewhencode/project-guidelines/pull/167,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 21898,238404616,3,2022-05-09T19:42:58,klease,https://github.com/apache/camel-examples/pull/90,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 2413,87860806,1,2017-10-05T22:00:15,NexWeb,https://github.com/udhos/update-golang/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39952,42878948,2,2016-08-02T17:24:54,napcs,https://github.com/do-community/do-article-templates/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38109,55387233,1,2016-10-06T17:44:29,benmonro,https://github.com/conventional-changelog/standard-version/pull/121,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3128,6 +3127,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3812,96395,4,2019-02-02T00:49:54,mrstebo,https://github.com/faker-ruby/faker/pull/1523,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3813,96395,1,2015-11-02T22:34:13,npauzenga,https://github.com/faker-ruby/faker/pull/447,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3814,96395,4,2020-10-28T07:24:22,amatsuda,https://github.com/faker-ruby/faker/pull/2182,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 3815,96395,4,2018-07-12T17:13:41,tagliala,https://github.com/faker-ruby/faker/pull/1311,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3816,96395,1,2020-05-20T08:33:05,mattman,https://github.com/faker-ruby/faker/pull/1964,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3817,96395,4,2019-12-07T00:24:54,tiagofsilva,https://github.com/faker-ruby/faker/pull/1847,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
