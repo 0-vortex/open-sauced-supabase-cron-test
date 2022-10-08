@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-08T03:18:38.428Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-08T04:57:49.673Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3502,8 +3502,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (65512, 99401299, 2, '2017-10-24T00:26:43', 'davidklebanoff', 'https://github.com/ai/nanoid/pull/37', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65513, 99401299, 2, '2020-04-18T18:20:54', 'polemius', 'https://github.com/ai/nanoid/pull/211', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (76784, 144590939, 1, '2022-08-31T05:59:52', 'DvvCz', 'https://github.com/VSCodium/vscodium/pull/1226', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
-(76805, 144590939, 3, '2021-08-03T12:43:49', 'swinder0161', 'https://github.com/VSCodium/vscodium/pull/784', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (76799, 144590939, 1, '2020-05-04T21:17:01', '4-FLOSS-Free-Libre-Open-Source-Software', 'https://github.com/VSCodium/vscodium/pull/387', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
+(76805, 144590939, 3, '2021-08-03T12:43:49', 'swinder0161', 'https://github.com/VSCodium/vscodium/pull/784', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (76802, 144590939, 1, '2020-02-27T18:41:24', 'zilti', 'https://github.com/VSCodium/vscodium/pull/346', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (76803, 144590939, 1, '2021-02-06T21:14:42', 'sscotth', 'https://github.com/VSCodium/vscodium/pull/628', null, '2022-09-29T00:57:44.749414+00:00', '2022-09-29T00:57:44.749414+00:00'),
 (4866, 88447006, 1, '2017-07-05T14:15:46', 'ArjunBhuptani', 'https://github.com/Scanate/EthList/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5661,8 +5661,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8506, 141334515, 1, '2019-12-23T10:59:51', 'TangentFoxy', 'https://github.com/kormyen/memex/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8747, 132732601, 4, '2018-06-27T16:21:29', 'johnsca', 'https://github.com/canonical/microk8s/pull/60', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5979, 31168578, 1, '2019-02-06T13:49:08', 'emarukyan', 'https://github.com/hemanth/functional-programming-jargon/pull/193', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5905, 187335810, 1, '2022-01-18T01:28:09', 'lpessoa', 'https://github.com/jesseduffield/lazydocker/pull/272', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5906, 187335810, 2, '2019-08-01T14:52:17', 'pvande', 'https://github.com/jesseduffield/lazydocker/pull/142', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5905, 187335810, 1, '2022-01-18T01:28:09', 'lpessoa', 'https://github.com/jesseduffield/lazydocker/pull/272', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11877, 196760810, 4, '2021-12-02T08:39:22', 'ytliuSVN', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/2715', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11878, 196760810, 4, '2020-09-02T08:28:15', 'SergDaut', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/336', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11879, 196760810, 4, '2020-12-18T20:52:59', 'spitlisk', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/885', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10095,8 +10095,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4334, 41718185, 1, '2015-09-23T05:37:33', 'jimthedev', 'https://github.com/PatrickJS/awesome-angular/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4345, 41718185, 1, '2020-09-30T02:26:55', 'benwinding', 'https://github.com/PatrickJS/awesome-angular/pull/417', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4339, 41718185, 2, '2015-09-28T19:24:09', 'shuhei', 'https://github.com/PatrickJS/awesome-angular/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4349, 41718185, 3, '2021-04-11T11:43:31', 'evanplaice', 'https://github.com/PatrickJS/awesome-angular/pull/433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4343, 41718185, 1, '2016-05-03T14:55:53', 'krimple', 'https://github.com/PatrickJS/awesome-angular/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4349, 41718185, 3, '2021-04-11T11:43:31', 'evanplaice', 'https://github.com/PatrickJS/awesome-angular/pull/433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4332, 41718185, 4, '2018-10-23T07:08:17', 'rjoydip', 'https://github.com/PatrickJS/awesome-angular/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4338, 41718185, 4, '2018-02-15T09:57:20', 'JohannesHoppe', 'https://github.com/PatrickJS/awesome-angular/pull/307', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4336, 41718185, 4, '2017-07-07T12:15:06', 'wingsuitist', 'https://github.com/PatrickJS/awesome-angular/pull/252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
