@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-10T16:57:40.726Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-10T18:55:54.880Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2526,6 +2526,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3078, 290234921, 4, '2020-10-11T15:29:39', 'UdbhavU', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3075, 290234921, 1, '2020-10-12T02:16:27', 'alexandander', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3077, 290234921, 3, '2020-11-24T18:14:29', 'akaashsinha', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3087, 290234921, 1, '2020-10-17T18:09:44', 'saribricka', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3079, 290234921, 1, '2021-06-22T18:16:29', 'BayanBennett', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32834, 18333318, 1, '2014-07-22T22:15:07', 'dmitry', 'https://github.com/pboling/seed_migration/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32832, 70530854, 4, '2019-12-06T21:11:10', 'sanathkr', 'https://github.com/aws/serverless-application-model/pull/1263', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2721,7 +2722,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3406, 286380425, 1, '2021-12-26T13:31:06', 'bookyo', 'https://github.com/Frezyx/group_button/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23135, 66474729, 4, '2021-09-21T15:03:05', 'xeroxnir', 'https://github.com/prowler-cloud/prowler/pull/873', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23136, 66474729, 4, '2021-09-28T15:27:51', 'pablopagani', 'https://github.com/prowler-cloud/prowler/pull/880', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3087, 290234921, 1, '2020-10-17T18:09:44', 'saribricka', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23137, 66474729, 2, '2020-03-23T14:10:16', 'lanhhuyet510', 'https://github.com/prowler-cloud/prowler/pull/512', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23138, 66474729, 2, '2016-12-30T10:53:24', 'davidpanofsky', 'https://github.com/prowler-cloud/prowler/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23139, 66474729, 2, '2020-05-29T09:40:46', 'urjitbhatia', 'https://github.com/prowler-cloud/prowler/pull/616', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3734,6 +3734,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32813, 37997, 1, '2014-04-15T13:38:41', 'greggersh', 'https://github.com/jnunemaker/httparty/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32812, 37997, 3, '2018-12-03T20:14:09', 'EmilioCristalli', 'https://github.com/jnunemaker/httparty/pull/628', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (80032, 493046551, 1, '2022-10-03T15:38:39', 'moses-codes', 'https://github.com/curtisbarnard/BANKI/pull/37', null, '2022-10-04T07:04:16.084517+00:00', '2022-10-04T07:04:16.084517+00:00'),
+(32899, 75027176, 2, '2018-12-18T21:31:42', 'markusguenther', 'https://github.com/infinitered/gluegun/pull/407', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32900, 34228852, 1, '2022-02-18T16:51:33', 'z00rat', 'https://github.com/AchoArnold/discount-for-student-dev/pull/137', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32901, 75027176, 1, '2018-12-10T23:25:25', '0xflotus', 'https://github.com/infinitered/gluegun/pull/400', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3554, 61426855, 4, '2019-05-31T20:30:24', 'AnshitaVishwa', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1460', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4271,7 +4272,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (80629, 527591471, 2, '2022-10-02T12:35:55', 'asimard1', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/1459', null, '2022-10-04T16:04:54.697759+00:00', '2022-10-04T16:04:54.697759+00:00'),
 (5001, 139156354, 4, '2022-03-14T11:32:19', 'azhavoro', 'https://github.com/openvinotoolkit/cvat/pull/4443', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5002, 139156354, 4, '2019-09-02T14:55:55', 'zankevich', 'https://github.com/openvinotoolkit/cvat/pull/671', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32899, 75027176, 2, '2018-12-18T21:31:42', 'markusguenther', 'https://github.com/infinitered/gluegun/pull/407', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (80626, 527591471, 2, '2022-10-03T04:59:13', 'leszekhanusz', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/1532', null, '2022-10-04T16:04:54.697759+00:00', '2022-10-04T16:04:54.697759+00:00'),
 (5003, 139156354, 4, '2022-03-25T10:22:36', 'klakhov', 'https://github.com/openvinotoolkit/cvat/pull/4517', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5004, 139156354, 4, '2021-03-22T11:09:19', 'vnishukov', 'https://github.com/openvinotoolkit/cvat/pull/2871', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
