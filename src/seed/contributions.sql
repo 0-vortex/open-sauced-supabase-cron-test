@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-12T05:04:14.554Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-12T06:55:03.805Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1253,10 +1253,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5897, 21413198, 1, '2017-01-09T22:26:34', 'howardjing', 'https://github.com/immutable-js/immutable-js/pull/1027', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1677, 348060227, 4, '2021-12-07T22:01:45', 'drwpow', 'https://github.com/withastro/astro/pull/2156', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1678, 348060227, 4, '2021-12-01T16:37:55', 'IanVS', 'https://github.com/withastro/astro/pull/2073', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1683, 348060227, 4, '2021-09-14T21:21:40', 'mundry', 'https://github.com/withastro/astro/pull/1370', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (50058, 49825187, 1, '2017-03-23T14:18:29', 'rkd-msw', 'https://github.com/thombashi/tcconfig/pull/61', null, '2022-08-05T00:25:03.025117+00:00', '2022-08-05T00:25:03.025117+00:00'),
 (13975, 306977633, 4, '2021-04-16T09:59:10', 'rlirli', 'https://github.com/AMAI-GmbH/AI-Expert-Roadmap/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1680, 348060227, 4, '2022-05-11T15:24:26', 'sarah11918', 'https://github.com/withastro/astro/pull/3321', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1683, 348060227, 4, '2021-09-14T21:21:40', 'mundry', 'https://github.com/withastro/astro/pull/1370', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5888, 21413198, 3, '2018-05-15T16:29:12', 'acusti', 'https://github.com/immutable-js/immutable-js/pull/1521', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (296, 218115303, 2, '2021-12-10T09:29:41', 'icyJoseph', 'https://github.com/vercel/swr/pull/1698', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37477, 495836457, 1, '2022-07-07T11:49:50', 'Fizzify', 'https://github.com/t3-oss/create-t3-app/pull/120', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
