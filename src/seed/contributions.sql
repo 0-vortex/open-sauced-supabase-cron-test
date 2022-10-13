@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-13T03:34:51.183Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-13T05:11:14.113Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9381,8 +9381,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59748, 189725054, 1, '2022-05-29T14:35:35', 'sirupsen', 'https://github.com/sirupsen/napkin-math/pull/20', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59749, 189725054, 1, '2020-09-14T19:12:01', 'manumilou', 'https://github.com/sirupsen/napkin-math/pull/11', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59750, 189725054, 1, '2020-12-30T02:19:30', 'bouk', 'https://github.com/sirupsen/napkin-math/pull/14', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
-(59744, 185419470, 1, '2019-05-08T12:55:46', 'OskarDamkjaer', 'https://github.com/kkuchta/css-only-chat/pull/10', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59739, 185419470, 1, '2019-05-08T10:23:26', 'aoeu', 'https://github.com/kkuchta/css-only-chat/pull/5', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
+(59744, 185419470, 1, '2019-05-08T12:55:46', 'OskarDamkjaer', 'https://github.com/kkuchta/css-only-chat/pull/10', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59751, 257829830, 2, '2022-05-29T11:46:46', 'alex-ac', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/96', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59752, 257829830, 1, '2022-05-18T07:51:54', 'maxdudin', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/93', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59753, 257829830, 3, '2022-07-19T16:20:08', 'leonid-sviderskii-mtl', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/98', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
@@ -10801,7 +10801,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (39912, 80276391, 4, '2020-09-22T19:44:43', 'snyk-bot', 'https://github.com/GitSquared/edex-ui/pull/763', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39923, 80276391, 1, '2021-05-16T13:32:32', 'beckersd', 'https://github.com/GitSquared/edex-ui/pull/1118', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32858, 41381209, 4, '2016-10-24T18:26:12', 'mwilliammyers', 'https://github.com/seemethere/nba_py/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32878, 41381209, 1, '2017-02-10T16:28:57', 'marek5050', 'https://github.com/seemethere/nba_py/pull/77', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40104, 440224087, 1, '2022-07-06T14:05:23', 'douglowder', 'https://github.com/Shopify/flash-list/pull/511', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3774, 144873815, 1, '2018-11-23T18:24:28', 'schickling', 'https://github.com/prisma/prisma-examples/pull/273', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2249, 43623432, 1, '2015-10-04T16:16:28', 'Xender', 'https://github.com/qw3rtman/git-fire/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10993,6 +10992,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (42855, 204343548, 1, '2021-01-04T20:52:39', 'lholmquist', 'https://github.com/pkgjs/support/pull/38', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42853, 204343548, 1, '2020-07-02T20:29:38', 'styfle', 'https://github.com/pkgjs/support/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46640, 35638505, 1, '2017-07-03T20:53:57', 'andy0130tw', 'https://github.com/google/nsjail/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(32878, 41381209, 1, '2017-02-10T16:28:57', 'marek5050', 'https://github.com/seemethere/nba_py/pull/77', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46641, 35638505, 1, '2021-05-04T19:41:17', 'ziqin', 'https://github.com/google/nsjail/pull/164', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46642, 35638505, 1, '2017-10-25T13:35:36', 'pandax381', 'https://github.com/google/nsjail/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46645, 35638505, 1, '2018-04-18T12:11:20', 'D0han', 'https://github.com/google/nsjail/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
