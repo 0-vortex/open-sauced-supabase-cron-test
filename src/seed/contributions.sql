@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-15T18:50:10.256Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-15T20:48:02.508Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3065,9 +3065,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (65465, 425455469, 1, '2021-11-07T20:02:00', 'merwie', 'https://github.com/Yariya/EarnApp-Earning-Monitor/pull/3', null, '2022-09-09T21:07:14.406908+00:00', '2022-09-09T21:07:14.406908+00:00'),
 (65466, 425455469, 4, '2021-11-18T13:21:33', 'fazalfarhan01', 'https://github.com/Yariya/EarnApp-Earning-Monitor/pull/19', null, '2022-09-09T21:07:14.406908+00:00', '2022-09-09T21:07:14.406908+00:00'),
 (11399, 61202664, 4, '2017-09-16T07:08:21', 'redPanther', 'https://github.com/hyperion-project/hyperion.ng/pull/471', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3716, 2823326, 4, '2016-10-15T15:39:03', 'jakubjedelsky', 'https://github.com/asciinema/asciinema/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3717, 2823326, 1, '2019-03-24T11:27:16', 'KurtPfeifle', 'https://github.com/asciinema/asciinema/pull/258', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4851, 507, 2, '2013-10-28T12:19:28', 'adambird', 'https://github.com/sferik/twitter/pull/477', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3716, 2823326, 4, '2016-10-15T15:39:03', 'jakubjedelsky', 'https://github.com/asciinema/asciinema/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4857, 507, 2, '2013-10-02T14:32:29', 'michaelherold', 'https://github.com/sferik/twitter/pull/459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4839, 507, 1, '2011-08-29T04:13:40', 'jnak', 'https://github.com/sferik/twitter/pull/181', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4844, 507, 2, '2013-01-26T21:46:15', 'tibbon', 'https://github.com/sferik/twitter/pull/346', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
