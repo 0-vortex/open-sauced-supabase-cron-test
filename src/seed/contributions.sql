@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-15T05:06:04.129Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-15T06:53:42.366Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3163,8 +3163,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13266, 161983108, 1, '2020-08-05T06:48:13', 'bass3l', 'https://github.com/abs-lang/abs/pull/391', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13267, 161983108, 1, '2021-12-16T10:52:51', 's5unty', 'https://github.com/abs-lang/abs/pull/463', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3557, 61426855, 4, '2019-05-22T20:25:09', 'Anshuvats', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1333', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5875, 21413198, 4, '2022-05-23T19:01:03', 'leebyron', 'https://github.com/immutable-js/immutable-js/pull/1905', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5874, 21413198, 3, '2015-10-03T17:39:55', 'matthewwithanm', 'https://github.com/immutable-js/immutable-js/pull/648', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5875, 21413198, 4, '2022-05-23T19:01:03', 'leebyron', 'https://github.com/immutable-js/immutable-js/pull/1905', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3824, 96395, 4, '2020-10-14T14:27:15', 'mathisto', 'https://github.com/faker-ruby/faker/pull/2155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3825, 96395, 4, '2020-10-26T22:44:41', 'RubyHuntsman', 'https://github.com/faker-ruby/faker/pull/2178', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3826, 96395, 1, '2013-07-27T14:44:19', 'cgore', 'https://github.com/faker-ruby/faker/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9403,8 +9403,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59755, 179326472, 4, '2020-06-11T12:05:59', 'luxas', 'https://github.com/weaveworks/ignite/pull/617', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59756, 179326472, 4, '2020-07-20T15:28:49', 'twelho', 'https://github.com/weaveworks/ignite/pull/645', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59760, 179326472, 4, '2022-05-01T19:06:48', 'darkowlzz', 'https://github.com/weaveworks/ignite/pull/925', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
-(59761, 179326472, 4, '2019-11-11T19:33:41', 'chanwit', 'https://github.com/weaveworks/ignite/pull/491', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59757, 179326472, 4, '2021-11-19T17:41:26', 'stealthybox', 'https://github.com/weaveworks/ignite/pull/884', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
+(59761, 179326472, 4, '2019-11-11T19:33:41', 'chanwit', 'https://github.com/weaveworks/ignite/pull/491', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59772, 179326472, 4, '2021-07-05T15:54:49', 'networkop', 'https://github.com/weaveworks/ignite/pull/850', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59766, 179326472, 4, '2020-06-15T05:45:45', 'dholbach', 'https://github.com/weaveworks/ignite/pull/573', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59759, 179326472, 4, '2021-03-29T20:06:28', 'gaby', 'https://github.com/weaveworks/ignite/pull/811', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
