@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-16T12:59:01.189Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-16T14:47:38.345Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1024,8 +1024,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1362, 70860064, 1, '2019-06-08T15:40:43', 'SamFarrington', 'https://github.com/Yonet/Angular-Interview-Questions/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1363, 70860064, 1, '2017-01-18T22:16:38', 'mattcarp', 'https://github.com/Yonet/Angular-Interview-Questions/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1286, 306449955, 2, '2022-02-02T21:45:06', 'Fjuro', 'https://github.com/IrisShaders/Iris/pull/1236', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1365, 112150776, 2, '2021-04-25T19:54:09', 'binyamin', 'https://github.com/11ty/eleventy/pull/1721', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1366, 70860064, 1, '2018-03-27T19:39:32', 'therealmeowzedong', 'https://github.com/Yonet/Angular-Interview-Questions/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1365, 112150776, 2, '2021-04-25T19:54:09', 'binyamin', 'https://github.com/11ty/eleventy/pull/1721', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1367, 112150776, 1, '2019-12-20T13:46:42', 'saenglert', 'https://github.com/11ty/eleventy/pull/711', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1368, 112150776, 1, '2020-10-30T17:04:10', 'NotWoods', 'https://github.com/11ty/eleventy/pull/1054', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1369, 112150776, 2, '2019-11-06T03:02:19', 'edbrannin', 'https://github.com/11ty/eleventy/pull/753', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2065,8 +2065,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2978, 229504810, 1, '2020-12-12T18:44:58', 'iooner', 'https://github.com/sethcottle/littlelink/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2550, 9393759, 4, '2018-03-05T21:54:47', 'Twilrom', 'https://github.com/photonstorm/phaser/pull/3240', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2551, 9393759, 4, '2019-04-08T11:13:27', 'TadejZupancic', 'https://github.com/photonstorm/phaser/pull/4087', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2552, 9393759, 4, '2020-11-20T11:44:52', 'hexus', 'https://github.com/photonstorm/phaser/pull/5401', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2551, 9393759, 4, '2019-04-08T11:13:27', 'TadejZupancic', 'https://github.com/photonstorm/phaser/pull/4087', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2553, 9393759, 4, '2022-05-16T14:58:47', 'samme', 'https://github.com/photonstorm/phaser/pull/6108', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2554, 9393759, 4, '2018-04-13T11:08:28', 'Antriel', 'https://github.com/photonstorm/phaser/pull/3559', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2555, 9393759, 4, '2014-05-13T22:28:52', 'georgiee', 'https://github.com/photonstorm/phaser/pull/818', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
