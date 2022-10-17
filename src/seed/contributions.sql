@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-17T05:14:19.654Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-17T07:01:50.910Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2867,8 +2867,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5807, 105412971, 1, '2018-10-19T14:23:05', 'sjsyrek', 'https://github.com/stereobooster/react-snap/pull/276', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3409, 293844582, 4, '2021-03-31T18:19:37', 'JeroenGoddijn', 'https://github.com/spicygreenbook/greenbook-app/pull/374', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4153, 239233346, 1, '2020-07-13T20:46:33', 'smithgeek', 'https://github.com/ardalis/ApiEndpoints/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39911, 80276391, 3, '2021-04-16T10:02:21', 'mreinhardt', 'https://github.com/GitSquared/edex-ui/pull/1106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4151, 239233346, 1, '2021-04-02T18:22:55', 'ilyanaDev', 'https://github.com/ardalis/ApiEndpoints/pull/55', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39911, 80276391, 3, '2021-04-16T10:02:21', 'mreinhardt', 'https://github.com/GitSquared/edex-ui/pull/1106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1223, 170738310, 3, '2019-10-17T05:10:37', 'kolya182', 'https://github.com/trustwallet/wallet-core/pull/690', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3389, 293844582, 4, '2021-01-05T06:04:18', 'its-nate', 'https://github.com/spicygreenbook/greenbook-app/pull/219', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14154, 400851369, 1, '2021-09-09T12:23:49', 'tzachar', 'https://github.com/lewis6991/impatient.nvim/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3589,9 +3589,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16157, 35969061, 4, '2022-02-03T04:26:55', 'cushon', 'https://github.com/google/styleguide/pull/671', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16156, 35969061, 4, '2017-11-11T01:16:51', 'iam', 'https://github.com/google/styleguide/pull/294', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2941, 46261404, 4, '2017-10-23T19:20:03', 'rickyvetter', 'https://github.com/reasonml/reason/pull/1538', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2944, 46261404, 4, '2018-12-05T07:32:49', 'bryphe', 'https://github.com/reasonml/reason/pull/2283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2960, 46261404, 4, '2016-05-12T17:21:58', 'dxu', 'https://github.com/reasonml/reason/pull/380', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2962, 46261404, 4, '2019-10-12T08:40:46', 'ulrikstrid', 'https://github.com/reasonml/reason/pull/2459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2944, 46261404, 4, '2018-12-05T07:32:49', 'bryphe', 'https://github.com/reasonml/reason/pull/2283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2947, 46261404, 4, '2016-10-26T09:58:11', 'vramana', 'https://github.com/reasonml/reason/pull/814', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12449, 52631841, 1, '2018-07-02T16:02:07', 'mohawk2', 'https://github.com/gothinkster/realworld/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23175, 87520003, 1, '2022-06-08T02:55:41', 'NoeOnJupiter', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7006,8 +7006,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8792, 13601190, 1, '2020-12-07T23:58:52', 'ciruz', 'https://github.com/agentejo/cockpit/pull/1376', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5916, 187335810, 1, '2021-11-26T10:48:01', 'comdotlinux', 'https://github.com/jesseduffield/lazydocker/pull/256', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5878, 21413198, 1, '2016-12-06T18:30:33', 'wokalski', 'https://github.com/immutable-js/immutable-js/pull/878', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2052, 83222441, 2, '2017-03-24T02:42:03', 'ralphite', 'https://github.com/donnemartin/system-design-primer/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5876, 21413198, 2, '2018-10-27T00:27:07', 'conartist6', 'https://github.com/immutable-js/immutable-js/pull/1619', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2052, 83222441, 2, '2017-03-24T02:42:03', 'ralphite', 'https://github.com/donnemartin/system-design-primer/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2045, 83222441, 1, '2020-07-11T01:01:12', 'ad-m', 'https://github.com/donnemartin/system-design-primer/pull/295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2039, 83222441, 2, '2017-03-11T16:59:59', 'luisbg', 'https://github.com/donnemartin/system-design-primer/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2031, 83222441, 1, '2019-12-09T03:34:17', 'brandonJY', 'https://github.com/donnemartin/system-design-primer/pull/318', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
