@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-17T01:05:48.707Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-17T03:41:10.375Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2913,8 +2913,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3118, 184456251, 4, '2020-06-11T19:59:37', 'traies', 'https://github.com/microsoft/PowerToys/pull/3825', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3108, 184456251, 4, '2021-05-26T21:12:51', 'chrdavis', 'https://github.com/microsoft/PowerToys/pull/11476', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5335, 480426090, 4, '2022-05-17T20:10:55', 'aiocat', 'https://github.com/aiocat/request/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39918, 80276391, 2, '2020-11-28T23:10:15', 'KjartanOli', 'https://github.com/GitSquared/edex-ui/pull/925', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39917, 80276391, 2, '2020-11-06T13:09:27', 'D4rkia', 'https://github.com/GitSquared/edex-ui/pull/850', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39918, 80276391, 2, '2020-11-28T23:10:15', 'KjartanOli', 'https://github.com/GitSquared/edex-ui/pull/925', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1940, 14173176, 1, '2019-05-04T16:55:58', 'candrews', 'https://github.com/EsotericSoftware/kryo/pull/672', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1948, 14173176, 1, '2018-03-24T10:01:05', 'alexandrebouchard', 'https://github.com/EsotericSoftware/kryo/pull/576', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (78913, 435560060, 2, '2022-09-27T13:18:17', 'trungnt2910', 'https://github.com/DiscordStyles/Fluent/pull/85', null, '2022-10-01T17:27:41.585361+00:00', '2022-10-01T17:27:41.585361+00:00'),
@@ -10222,8 +10222,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4334, 41718185, 1, '2015-09-23T05:37:33', 'jimthedev', 'https://github.com/PatrickJS/awesome-angular/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4345, 41718185, 1, '2020-09-30T02:26:55', 'benwinding', 'https://github.com/PatrickJS/awesome-angular/pull/417', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4339, 41718185, 2, '2015-09-28T19:24:09', 'shuhei', 'https://github.com/PatrickJS/awesome-angular/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4349, 41718185, 3, '2021-04-11T11:43:31', 'evanplaice', 'https://github.com/PatrickJS/awesome-angular/pull/433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4343, 41718185, 1, '2016-05-03T14:55:53', 'krimple', 'https://github.com/PatrickJS/awesome-angular/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4349, 41718185, 3, '2021-04-11T11:43:31', 'evanplaice', 'https://github.com/PatrickJS/awesome-angular/pull/433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4332, 41718185, 4, '2018-10-23T07:08:17', 'rjoydip', 'https://github.com/PatrickJS/awesome-angular/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4338, 41718185, 4, '2018-02-15T09:57:20', 'JohannesHoppe', 'https://github.com/PatrickJS/awesome-angular/pull/307', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4336, 41718185, 4, '2017-07-07T12:15:06', 'wingsuitist', 'https://github.com/PatrickJS/awesome-angular/pull/252', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
