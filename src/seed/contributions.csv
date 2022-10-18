@@ -3145,7 +3145,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 13587,95876775,4,2022-05-03T13:31:15,vpanjganj,https://github.com/elsewhencode/project-guidelines/pull/167,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 21898,238404616,3,2022-05-09T19:42:58,klease,https://github.com/apache/camel-examples/pull/90,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2413,87860806,1,2017-10-05T22:00:15,NexWeb,https://github.com/udhos/update-golang/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 39952,42878948,2,2016-08-02T17:24:54,napcs,https://github.com/do-community/do-article-templates/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38109,55387233,1,2016-10-06T17:44:29,benmonro,https://github.com/conventional-changelog/standard-version/pull/121,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3793,248032165,2,2021-06-18T16:46:46,ovidiupopa91,https://github.com/spring-projects/spring-authorization-server/pull/314,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3165,6 +3164,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3812,96395,4,2019-02-02T00:49:54,mrstebo,https://github.com/faker-ruby/faker/pull/1523,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3813,96395,1,2015-11-02T22:34:13,npauzenga,https://github.com/faker-ruby/faker/pull/447,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3814,96395,4,2020-10-28T07:24:22,amatsuda,https://github.com/faker-ruby/faker/pull/2182,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 3815,96395,4,2018-07-12T17:13:41,tagliala,https://github.com/faker-ruby/faker/pull/1311,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3816,96395,1,2020-05-20T08:33:05,mattman,https://github.com/faker-ruby/faker/pull/1964,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3817,96395,4,2019-12-07T00:24:54,tiagofsilva,https://github.com/faker-ruby/faker/pull/1847,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7636,7 +7636,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9038,44150497,4,2017-11-03T08:45:51,outkaj,https://github.com/remoteintech/remote-jobs/pull/358,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9030,44150497,3,2022-03-14T16:49:54,micheleorselli,https://github.com/remoteintech/remote-jobs/pull/1352,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2568,250348566,2,2021-11-07T06:29:47,JanStorm,https://github.com/Sithira/FlutterRadioPlayer/pull/40,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-33265,393556751,4,2022-10-02T04:32:26,adrianmg,https://github.com/adrianmg/github-pewpew/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12829,229243256,3,2020-04-22T10:17:53,biki,https://github.com/candylabshq/wagtail-opengraph-image-generator/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23836,45425758,1,2016-01-04T18:31:20,isidorn,https://github.com/microsoft/vscode-chrome-debug/pull/71,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12289,93619165,4,2018-04-02T08:39:23,steambap,https://github.com/alecthomas/chroma/pull/131,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7651,6 +7650,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5755,281297416,4,2020-11-23T14:21:21,Kartoffel,https://github.com/adityatelange/hugo-PaperMod/pull/84,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5749,281297416,3,2021-01-24T12:22:47,fkohrt,https://github.com/adityatelange/hugo-PaperMod/pull/193,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12313,93619165,3,2021-04-24T22:01:36,pabluk,https://github.com/alecthomas/chroma/pull/474,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+33265,393556751,4,2022-10-02T04:32:26,adrianmg,https://github.com/adrianmg/github-pewpew/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12830,23247808,4,2019-08-01T01:18:49,zmedico,https://github.com/rqlite/rqlite/pull/564,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23884,198896556,4,2022-09-20T17:02:51,roblourens,https://github.com/microsoft/vscode-js-debug/pull/1396,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 67121,304740870,1,2022-09-09T21:20:11,nandorojo,https://github.com/tamagui/tamagui/pull/197,,2022-09-12T17:58:57.339071+00:00,2022-09-12T17:58:57.339071+00:00
@@ -7658,10 +7658,10 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 11930,10865436,1,2013-06-24T16:48:11,monicams,https://github.com/dypsilon/frontend-dev-bookmarks/pull/40,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5804,105412971,1,2018-01-03T10:51:40,linonetwo,https://github.com/stereobooster/react-snap/pull/94,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5802,105412971,1,2019-05-19T16:09:37,theKashey,https://github.com/stereobooster/react-snap/pull/338,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-33264,393556751,1,2021-10-29T20:01:18,raulb,https://github.com/adrianmg/github-pewpew/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 83264,93619165,3,2022-10-06T00:22:29,mhmdanas,https://github.com/alecthomas/chroma/pull/634,,2022-10-09T10:21:43.192912+00:00,2022-10-09T10:21:43.192912+00:00
 1010,345922282,2,2021-12-26T04:36:30,shiyiya,https://github.com/Saul-Mirone/milkdown/pull/243,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8555,265122478,3,2020-08-16T16:14:13,azarzadavila,https://github.com/ManimCommunity/manim/pull/304,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+33264,393556751,1,2021-10-29T20:01:18,raulb,https://github.com/adrianmg/github-pewpew/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3643,261861733,4,2020-09-21T05:27:50,rickiepark,https://github.com/keras-team/keras-io/pull/253,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12847,23247808,1,2017-10-18T13:23:49,turbo,https://github.com/rqlite/rqlite/pull/361,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12838,23247808,4,2022-09-03T16:30:27,otoolep,https://github.com/rqlite/rqlite/pull/1065,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
