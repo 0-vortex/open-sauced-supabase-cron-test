@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-18T08:55:32.262Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-18T10:51:01.080Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
