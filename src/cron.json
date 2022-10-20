@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-10-20T01:17:39.163Z",
+  "lastExecuted": "2022-10-20T02:06:15.512Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3819,7 +3819,7 @@
     "detiber": {
       "owner": "detiber",
       "notFound": false,
-      "lastExecuted": "2022-10-19T10:47:52.222Z"
+      "lastExecuted": "2022-10-20T02:06:15.512Z"
     },
     "sahibul-nf": {
       "owner": "sahibul-nf",
@@ -3829,7 +3829,7 @@
     "420-samm": {
       "owner": "420-samm",
       "notFound": false,
-      "lastExecuted": "2022-10-19T10:47:52.222Z"
+      "lastExecuted": "2022-10-20T02:06:15.512Z"
     },
     "rmdp-trouva": {
       "owner": "rmdp-trouva",
@@ -4300,6 +4300,11 @@
       "owner": "Exceltuxil",
       "notFound": true,
       "lastExecuted": "2022-10-19T22:08:08.906Z"
+    },
+    "smith-xyz": {
+      "owner": "smith-xyz",
+      "notFound": false,
+      "lastExecuted": "2022-10-20T02:06:15.512Z"
     }
   }
 }
