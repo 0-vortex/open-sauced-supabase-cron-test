@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-20T16:58:05.374Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-20T18:57:02.609Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4052,8 +4052,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2105, 26500787, 1, '2020-03-17T16:25:39', 'zorro', 'https://github.com/tonsky/FiraCode/pull/977', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3612, 45350538, 1, '2017-02-16T14:05:45', 'd4be4st', 'https://github.com/piotrmurach/tty-prompt/pull/42', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3737, 3946572, 1, '2019-12-11T12:28:21', 'martinjankoehler', 'https://github.com/PostgresApp/PostgresApp/pull/535', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3753, 3946572, 1, '2021-11-11T12:04:12', 'jakob', 'https://github.com/PostgresApp/PostgresApp/pull/642', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16836, 238404616, 4, '2022-03-04T19:01:38', 'essobedo', 'https://github.com/apache/camel-examples/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3753, 3946572, 1, '2021-11-11T12:04:12', 'jakob', 'https://github.com/PostgresApp/PostgresApp/pull/642', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16841, 238404616, 4, '2021-03-03T14:52:12', 'metters', 'https://github.com/apache/camel-examples/pull/42', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5713, 126577260, 2, '2021-01-03T09:26:15', 'austintheriot', 'https://github.com/trekhleb/javascript-algorithms/pull/617', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5729, 126577260, 2, '2018-07-24T09:26:23', 'dubzzz', 'https://github.com/trekhleb/javascript-algorithms/pull/101', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
