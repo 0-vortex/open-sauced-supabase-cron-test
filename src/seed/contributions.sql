@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-22T12:58:59.447Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-22T14:47:42.303Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3270,8 +3270,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3876, 152965398, 1, '2020-07-28T10:21:33', 'jivthesh', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/74', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3877, 152965398, 2, '2021-08-11T11:15:10', 'dipeshbabu', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/426', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3878, 152965398, 2, '2020-09-21T18:11:16', 'gagan95', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3879, 152965398, 2, '2021-10-01T22:34:28', 'davin2020', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/650', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3880, 152965398, 2, '2020-09-01T18:19:18', 'alrifay', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3879, 152965398, 2, '2021-10-01T22:34:28', 'davin2020', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/650', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3881, 152965398, 2, '2021-09-21T07:19:07', 'johndanny98', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/581', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38015, 66166069, 4, '2022-01-25T19:07:31', 'MicroDev1', 'https://github.com/adafruit/circuitpython/pull/5923', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3883, 12663196, 1, '2016-04-16T14:46:23', 'nosir', 'https://github.com/nosir/obelisk.js/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5088,8 +5088,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5283, 326460518, 2, '2021-06-14T14:43:07', 'ZapAnton', 'https://github.com/ratfactor/ziglings/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5286, 326460518, 1, '2022-01-06T23:08:43', 'adamu', 'https://github.com/ratfactor/ziglings/pull/88', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5285, 326460518, 1, '2021-04-27T00:07:34', 'noc7c9', 'https://github.com/ratfactor/ziglings/pull/51', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5282, 326460518, 2, '2021-05-25T15:50:12', 'g-w1', 'https://github.com/ratfactor/ziglings/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5295, 326460518, 1, '2021-03-05T14:19:48', 'drforester', 'https://github.com/ratfactor/ziglings/pull/31', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5282, 326460518, 2, '2021-05-25T15:50:12', 'g-w1', 'https://github.com/ratfactor/ziglings/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5298, 326460518, 1, '2021-09-03T20:49:39', 'franciscod', 'https://github.com/ratfactor/ziglings/pull/71', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5336, 71948498, 4, '2022-06-06T14:19:24', 'thrau', 'https://github.com/localstack/localstack/pull/6211', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5338, 71948498, 4, '2022-05-31T16:02:38', 'dfangl', 'https://github.com/localstack/localstack/pull/6178', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
