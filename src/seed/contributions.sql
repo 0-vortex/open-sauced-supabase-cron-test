@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-22T03:28:16.010Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-22T05:03:51.383Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8049,8 +8049,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2722, 13825712, 3, '2018-03-05T12:47:13', 'n2pro', 'https://github.com/VirtoCommerce/vc-platform/pull/1297', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2724, 13825712, 4, '2021-12-13T17:18:06', 'BelyakovSergey', 'https://github.com/VirtoCommerce/vc-platform/pull/2437', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6028, 41638869, 1, '2015-12-27T21:02:44', 'ushuz', 'https://github.com/httpcats/http.cat/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37822, 93281221, 1, '2018-12-30T20:07:57', 'jonmcalder', 'https://github.com/clauswilke/dataviz/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6031, 41638869, 1, '2021-07-26T16:55:13', 'fafrd', 'https://github.com/httpcats/http.cat/pull/119', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37822, 93281221, 1, '2018-12-30T20:07:57', 'jonmcalder', 'https://github.com/clauswilke/dataviz/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37824, 93281221, 1, '2018-04-27T21:44:15', 'malcolmbarrett', 'https://github.com/clauswilke/dataviz/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37820, 93281221, 1, '2019-09-14T17:34:05', 'bbolker', 'https://github.com/clauswilke/dataviz/pull/99', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1233, 170738310, 4, '2019-04-16T10:20:36', 'NashMiao', 'https://github.com/trustwallet/wallet-core/pull/327', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
