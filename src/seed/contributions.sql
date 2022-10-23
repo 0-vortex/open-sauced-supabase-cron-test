@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-23T08:50:01.427Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-23T10:48:48.380Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10348,9 +10348,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4298, 370668507, 1, '2021-09-23T09:53:02', 'fornwall', 'https://github.com/rhysd/actionlint/pull/52', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4299, 370668507, 1, '2021-10-14T23:53:46', 'cmmarslender', 'https://github.com/rhysd/actionlint/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4302, 370668507, 1, '2021-11-14T14:19:07', 'dihmandrake', 'https://github.com/rhysd/actionlint/pull/72', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4306, 370668507, 1, '2021-11-07T07:02:18', 'ioanrogers', 'https://github.com/rhysd/actionlint/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4308, 370668507, 1, '2021-07-21T00:47:07', 'peaceiris', 'https://github.com/rhysd/actionlint/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4305, 370668507, 1, '2021-10-20T14:29:32', 'oppara', 'https://github.com/rhysd/actionlint/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4306, 370668507, 1, '2021-11-07T07:02:18', 'ioanrogers', 'https://github.com/rhysd/actionlint/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4307, 370668507, 1, '2021-10-01T00:17:33', 'equal-l2', 'https://github.com/rhysd/actionlint/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4309, 370668507, 1, '2021-07-13T04:04:03', 'syohex', 'https://github.com/rhysd/actionlint/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4303, 370668507, 1, '2021-07-26T12:20:06', 'ebi-yade', 'https://github.com/rhysd/actionlint/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
