@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-26T13:35:13.193Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-26T14:52:01.360Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5522,9 +5522,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32947, 11221453, 1, '2014-09-01T12:44:03', 'ctreatma', 'https://github.com/tenex/rails-assets/pull/173', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8724, 180328715, 4, '2021-08-26T14:08:16', 'barelyhuman', 'https://github.com/pmndrs/zustand/pull/543', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8725, 180328715, 3, '2021-07-13T23:41:01', 'wadamek65', 'https://github.com/pmndrs/zustand/pull/492', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8726, 180328715, 3, '2020-12-15T22:05:38', 'Qcza', 'https://github.com/pmndrs/zustand/pull/258', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8729, 180328715, 2, '2021-01-07T22:55:10', '3nvi', 'https://github.com/pmndrs/zustand/pull/274', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8728, 180328715, 2, '2021-06-04T21:55:45', 'charkour', 'https://github.com/pmndrs/zustand/pull/412', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8726, 180328715, 3, '2020-12-15T22:05:38', 'Qcza', 'https://github.com/pmndrs/zustand/pull/258', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8741, 180328715, 2, '2021-06-20T13:33:29', 'zgid123', 'https://github.com/pmndrs/zustand/pull/441', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8731, 180328715, 2, '2021-09-28T15:54:52', 'aulneau', 'https://github.com/pmndrs/zustand/pull/569', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8730, 180328715, 2, '2022-04-26T00:27:50', 'piotr-cz', 'https://github.com/pmndrs/zustand/pull/931', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7444,8 +7444,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2795, 310393570, 1, '2021-07-01T18:41:58', 'codycollier', 'https://github.com/allenai/ir_datasets/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (917, 1446467, 4, '2016-02-29T16:27:50', 'Ivoz', 'https://github.com/pypa/pip/pull/3519', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2771, 243394576, 4, '2021-03-30T01:14:54', 'htroisi', 'https://github.com/pixie-io/pixie/pull/227', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1557, 75505125, 4, '2022-10-03T14:56:17', 'berkansasmaz', 'https://github.com/abpframework/abp/pull/14212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2788, 243394576, 1, '2020-12-11T04:56:06', 'etep', 'https://github.com/pixie-io/pixie/pull/178', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1557, 75505125, 4, '2022-10-03T14:56:17', 'berkansasmaz', 'https://github.com/abpframework/abp/pull/14212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1563, 75505125, 4, '2022-10-24T05:21:46', 'braim23', 'https://github.com/abpframework/abp/pull/14428', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (67000, 197376079, 1, '2019-07-18T11:48:10', 'ckaik', 'https://github.com/voodoocode/pannengeraet-krank-knarrenbauer/pull/6', null, '2022-09-12T08:20:02.399786+00:00', '2022-09-12T08:20:02.399786+00:00'),
 (67001, 197376079, 2, '2021-05-02T08:45:33', 'catearcher', 'https://github.com/voodoocode/pannengeraet-krank-knarrenbauer/pull/18', null, '2022-09-12T08:20:02.399786+00:00', '2022-09-12T08:20:02.399786+00:00'),
@@ -7983,8 +7983,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (9139, 6093316, 4, '2017-01-12T17:39:21', 'chrootsu', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/13722', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9124, 6093316, 4, '2021-11-18T21:40:47', 'RyanCavanaugh', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/57261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12115, 344697559, 2, '2022-02-17T22:46:49', 'quanphan2906', 'https://github.com/nalmadi/EMIP-Toolkit/pull/79', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12214, 124910572, 4, '2019-04-12T17:44:34', 'rhcu', 'https://github.com/mozilla/bugbug/pull/261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5808, 105412971, 4, '2019-05-20T17:40:57', 'stereobooster', 'https://github.com/stereobooster/react-snap/pull/378', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12214, 124910572, 4, '2019-04-12T17:44:34', 'rhcu', 'https://github.com/mozilla/bugbug/pull/261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2526, 35955666, 3, '2016-02-20T18:53:28', 'timacs', 'https://github.com/jlevy/the-art-of-command-line/pull/383', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12262, 94498635, 4, '2018-01-23T01:45:54', 'yeskunall', 'https://github.com/carbon-app/carbon/pull/172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12215, 124910572, 4, '2019-03-21T10:37:49', 'LakshyAAAgrawal', 'https://github.com/mozilla/bugbug/pull/218', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
