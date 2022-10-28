@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-28T08:57:54.992Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-10-28T10:51:50.816Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1566,8 +1566,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2344, 953600, 1, '2022-01-10T18:56:19', 'MatthAlex', 'https://github.com/wurmlab/sequenceserver/pull/572', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3092, 290234921, 2, '2021-02-03T16:22:56', 'FlorentPoinsaut', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3093, 290234921, 1, '2021-01-13T15:01:47', 'Elfocrash', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2383, 386384568, 4, '2022-03-14T19:43:35', 'slavovojacek', 'https://github.com/sniptt-official/ots/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37504, 75675698, 4, '2017-01-24T15:01:00', 'levlaz', 'https://github.com/standardnotes/app/pull/52', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2383, 386384568, 4, '2022-03-14T19:43:35', 'slavovojacek', 'https://github.com/sniptt-official/ots/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3966, 404324019, 2, '2022-03-25T12:35:48', 'ankit1111verma', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/112', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3978, 404324019, 1, '2021-10-26T12:17:58', 'Abhiyodaya2002', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/51', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3971, 404324019, 4, '2021-10-28T13:15:28', 'Mitali-13', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/57', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8217,8 +8217,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23927, 198896556, 1, '2021-04-05T23:09:34', 'Tyriar', 'https://github.com/microsoft/vscode-js-debug/pull/962', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (33458, 40518025, 2, '2021-11-06T07:54:09', 'dotansimha', 'https://github.com/graphql/graphiql/pull/2000', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (33459, 40518025, 1, '2017-04-04T00:45:27', 'tessalt', 'https://github.com/graphql/graphiql/pull/232', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(33460, 40518025, 4, '2017-10-25T23:11:54', 'wincent', 'https://github.com/graphql/graphiql/pull/624', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16592, 6750158, 1, '2015-05-22T22:58:00', 'ysharplanguage', 'https://github.com/mgechev/javascript-algorithms/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(33460, 40518025, 4, '2017-10-25T23:11:54', 'wincent', 'https://github.com/graphql/graphiql/pull/624', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16594, 6750158, 1, '2019-08-19T00:10:28', 'brunob15', 'https://github.com/mgechev/javascript-algorithms/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16588, 6750158, 1, '2022-01-11T17:36:01', 'bernhardfritz', 'https://github.com/mgechev/javascript-algorithms/pull/188', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16587, 6750158, 1, '2017-10-12T08:40:36', 'alexjoverm', 'https://github.com/mgechev/javascript-algorithms/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
