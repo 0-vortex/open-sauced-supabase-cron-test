@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-01T13:33:48.430Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-01T14:55:22.573Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7064,8 +7064,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2052, 83222441, 2, '2017-03-24T02:42:03', 'ralphite', 'https://github.com/donnemartin/system-design-primer/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2045, 83222441, 1, '2020-07-11T01:01:12', 'ad-m', 'https://github.com/donnemartin/system-design-primer/pull/295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2039, 83222441, 2, '2017-03-11T16:59:59', 'luisbg', 'https://github.com/donnemartin/system-design-primer/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(34765, 220186120, 4, '2021-08-03T20:40:00', 'padurean', 'https://github.com/codenotary/immudb/pull/883', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2031, 83222441, 1, '2019-12-09T03:34:17', 'brandonJY', 'https://github.com/donnemartin/system-design-primer/pull/318', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2040, 83222441, 4, '2019-12-27T01:11:58', 'cclauss', 'https://github.com/donnemartin/system-design-primer/pull/345', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(34765, 220186120, 4, '2021-08-03T20:40:00', 'padurean', 'https://github.com/codenotary/immudb/pull/883', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2044, 83222441, 2, '2018-03-04T19:14:45', 'kevingo', 'https://github.com/donnemartin/system-design-primer/pull/139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2027, 83222441, 1, '2017-10-25T01:06:00', 'bryanjenningz', 'https://github.com/donnemartin/system-design-primer/pull/113', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34763, 220186120, 4, '2022-01-20T12:14:49', 'mmeloni', 'https://github.com/codenotary/immudb/pull/1101', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7229,7 +7230,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3916, 123625732, 4, '2022-03-16T22:51:40', 'fcollonval', 'https://github.com/microsoft/fast/pull/5749', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3910, 123625732, 4, '2020-06-26T02:41:15', 'freefaller69', 'https://github.com/microsoft/fast/pull/3387', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3915, 123625732, 4, '2022-02-24T20:57:00', 'claviska', 'https://github.com/microsoft/fast/pull/5651', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2031, 83222441, 1, '2019-12-09T03:34:17', 'brandonJY', 'https://github.com/donnemartin/system-design-primer/pull/318', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23841, 224392118, 4, '2022-04-01T12:27:26', 'jscyo', 'https://github.com/supertokens/supertokens-node/pull/276', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23843, 224392118, 4, '2022-02-09T14:58:52', 'nkshah2', 'https://github.com/supertokens/supertokens-node/pull/260', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23844, 224392118, 1, '2021-06-13T05:27:19', 'aldeed', 'https://github.com/supertokens/supertokens-node/pull/135', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
