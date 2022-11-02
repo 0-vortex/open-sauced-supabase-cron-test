@@ -1,12 +1,12 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-02T05:30:42.817Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-02T06:58:39.246Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) VALUES
 (3508, 162636248, 1, '2021-11-16T17:19:05', 'nvhoanganh', 'https://github.com/PDFTron/webviewer-cordova-sample/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3509, 162636248, 1, '2020-04-09T14:08:36', 'bollain', 'https://github.com/PDFTron/webviewer-cordova-sample/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16125, 24344106, 1, '2020-08-05T19:20:52', 'thomasrockhu', 'https://github.com/codecov/example-python/pull/52', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3509, 162636248, 1, '2020-04-09T14:08:36', 'bollain', 'https://github.com/PDFTron/webviewer-cordova-sample/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16126, 24344106, 1, '2021-10-04T22:58:07', 'cleder', 'https://github.com/codecov/example-python/pull/66', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (251, 106017343, 4, '2020-01-04T17:31:55', 'benface', 'https://github.com/tailwindlabs/tailwindcss/pull/1293', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (252, 106017343, 2, '2019-08-06T11:54:19', 'AlexVipond', 'https://github.com/tailwindlabs/tailwindcss/pull/992', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4063,8 +4063,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32909, 75027176, 1, '2019-10-03T15:15:19', 'Aaron-K-T-Berry', 'https://github.com/infinitered/gluegun/pull/614', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32910, 75027176, 2, '2019-03-05T00:58:09', 'RichiCoder1', 'https://github.com/infinitered/gluegun/pull/449', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4721, 69590701, 4, '2022-01-18T19:11:14', 'gnomeontherun', 'https://github.com/vmware/clarity/pull/6578', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4722, 69590701, 4, '2022-03-02T19:38:32', 'hippee-lee', 'https://github.com/vmware/clarity/pull/6726', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4723, 69590701, 4, '2021-07-09T18:31:15', 'jeeyun', 'https://github.com/vmware/clarity/pull/6020', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4722, 69590701, 4, '2022-03-02T19:38:32', 'hippee-lee', 'https://github.com/vmware/clarity/pull/6726', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4724, 69590701, 4, '2022-03-15T14:11:34', 'coryrylan', 'https://github.com/vmware/clarity/pull/6763', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4725, 69590701, 4, '2022-02-21T06:21:25', 'bdryanovski', 'https://github.com/vmware/clarity/pull/6707', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4726, 69590701, 4, '2022-03-10T16:53:27', 'mathisscott', 'https://github.com/vmware/clarity/pull/6759', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10166,7 +10166,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13259, 161983108, 1, '2021-09-01T12:36:44', 'silum', 'https://github.com/abs-lang/abs/pull/451', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13262, 161983108, 1, '2021-12-12T00:45:15', 'kkga', 'https://github.com/abs-lang/abs/pull/453', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13260, 161983108, 1, '2021-04-21T08:46:49', 'Bad3r', 'https://github.com/abs-lang/abs/pull/423', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13258, 161983108, 1, '2019-05-26T06:39:03', 'palicao', 'https://github.com/abs-lang/abs/pull/228', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13261, 161983108, 4, '2019-12-22T06:08:49', 'sysread', 'https://github.com/abs-lang/abs/pull/310', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1689, 27817031, 1, '2020-03-15T09:25:12', 'UnderstrapFramework', 'https://github.com/understrap/understrap/pull/1134', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13277, 217388629, 1, '2020-09-19T15:22:22', 'inhyukchoi', 'https://github.com/ReactTraining/react-workshop/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10361,6 +10360,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4290, 66287660, 1, '2017-03-13T19:51:55', 'medokin', 'https://github.com/json-api-dotnet/JsonApiDotNetCore/pull/48', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13599, 95876775, 2, '2017-07-24T16:35:26', 'bhageena', 'https://github.com/elsewhencode/project-guidelines/pull/72', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13603, 95876775, 2, '2017-10-01T16:57:22', 'trknhr', 'https://github.com/elsewhencode/project-guidelines/pull/99', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13258, 161983108, 1, '2019-05-26T06:39:03', 'palicao', 'https://github.com/abs-lang/abs/pull/228', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13589, 95876775, 4, '2017-08-02T11:22:10', 'yeskunall', 'https://github.com/elsewhencode/project-guidelines/pull/66', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13602, 95876775, 2, '2017-08-13T09:30:39', 'GeekaholicLin', 'https://github.com/elsewhencode/project-guidelines/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13591, 95876775, 1, '2017-07-05T15:02:46', 'CapacitorSet', 'https://github.com/elsewhencode/project-guidelines/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
