@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-02T13:35:25.379Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-02T14:52:14.020Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6501,8 +6501,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (66898, 59652928, 2, '2019-04-01T14:08:44', 'dizco', 'https://github.com/akveo/ngx-admin/pull/1966', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
 (12836, 23247808, 2, '2022-01-13T20:38:52', 'chermehdi', 'https://github.com/rqlite/rqlite/pull/947', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12831, 23247808, 1, '2015-04-19T18:46:57', 'mkorszun', 'https://github.com/rqlite/rqlite/pull/41', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12846, 23247808, 1, '2017-02-08T17:04:54', 'WanliTian', 'https://github.com/rqlite/rqlite/pull/274', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12849, 23247808, 1, '2022-03-11T20:41:31', 'n8rb', 'https://github.com/rqlite/rqlite/pull/1013', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12846, 23247808, 1, '2017-02-08T17:04:54', 'WanliTian', 'https://github.com/rqlite/rqlite/pull/274', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (82418, 330914717, 4, '2022-10-27T15:14:48', 'zaeemansari70', 'https://github.com/unifyai/ivy/pull/6221', null, '2022-10-07T20:58:00.367331+00:00', '2022-10-07T20:58:00.367331+00:00'),
 (66900, 59652928, 1, '2018-03-26T08:50:49', 'siddhant034', 'https://github.com/akveo/ngx-admin/pull/1600', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
 (3630, 45350538, 1, '2019-11-13T20:23:20', 'biow0lf', 'https://github.com/piotrmurach/tty-prompt/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
