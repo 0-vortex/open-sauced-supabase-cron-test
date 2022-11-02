@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-01T22:53:35.926Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-02T03:07:02.754Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6666,14 +6666,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3584, 31792824, 4, '2022-05-05T16:49:12', 'pq', 'https://github.com/flutter/flutter/pull/102991', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12868, 129934884, 4, '2021-06-03T01:55:42', 'BobSilent', 'https://github.com/dotnet/command-line-api/pull/1302', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12872, 129934884, 4, '2019-08-05T16:17:57', 'Icontech', 'https://github.com/dotnet/command-line-api/pull/608', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(66920, 39785222, 4, '2020-11-04T23:55:57', 'Droogans', 'https://github.com/Droogans/unmaintainable-code/pull/49', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
-(11938, 293570349, 2, '2020-11-03T10:46:41', 'renaultfernandes', 'https://github.com/cocogitto/cocogitto/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40786, 293570349, 1, '2020-10-04T14:46:31', 'uwukairi', 'https://github.com/cocogitto/cocogitto/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38643, 166831098, 4, '2021-06-14T06:32:39', 'DarthBenro008', 'https://github.com/keptn/keptn/pull/4290', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3846, 34470375, 4, '2021-06-04T10:48:35', 'skamphuis', 'https://github.com/sachatrauwaen/OpenContent/pull/170', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (949, 206982984, 2, '2020-10-04T11:35:59', 'spekulatius', 'https://github.com/kamranahmedse/roadmap.sh/pull/204', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (950, 206982984, 1, '2020-02-07T18:46:15', 'curtisgibby', 'https://github.com/kamranahmedse/roadmap.sh/pull/127', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (998, 278454783, 1, '2020-08-27T15:29:34', 'vanessacor', 'https://github.com/Virtual-Coffee/open-source/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(66920, 39785222, 4, '2020-11-04T23:55:57', 'Droogans', 'https://github.com/Droogans/unmaintainable-code/pull/49', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
+(11938, 293570349, 2, '2020-11-03T10:46:41', 'renaultfernandes', 'https://github.com/cocogitto/cocogitto/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (960, 278454783, 1, '2020-07-12T01:07:01', 'cambardell', 'https://github.com/Virtual-Coffee/open-source/pull/7', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16503, 142967350, 4, '2021-06-28T16:58:21', 'chaance', 'https://github.com/reach/reach-ui/pull/813', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16505, 142967350, 4, '2020-07-06T15:18:28', 'mjackson', 'https://github.com/reach/reach-ui/pull/639', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10811,8 +10811,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1564, 75505125, 4, '2021-05-25T05:52:07', 'ilkayilknur', 'https://github.com/abpframework/abp/pull/9121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1575, 75505125, 4, '2020-03-12T13:40:35', 'thediaval', 'https://github.com/abpframework/abp/pull/3094', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1551, 75505125, 4, '2021-11-25T08:05:25', 'cotur', 'https://github.com/abpframework/abp/pull/10731', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39303, 165522651, 2, '2021-05-20T17:56:33', 'quadruple-output', 'https://github.com/emilk/egui/pull/402', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1576, 75505125, 4, '2022-10-17T11:46:30', 'yekalkan', 'https://github.com/abpframework/abp/pull/14353', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39303, 165522651, 2, '2021-05-20T17:56:33', 'quadruple-output', 'https://github.com/emilk/egui/pull/402', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1636, 16072585, 4, '2020-09-16T17:54:30', 'michalmuskala', 'https://github.com/phoenixframework/phoenix/pull/3979', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (7182, 411705813, 1, '2021-10-06T18:45:29', 'Chiranjeev-droid', 'https://github.com/avinash201199/Portfolio-Collection/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1630, 16072585, 4, '2020-07-12T16:18:03', 'mitchellhenke', 'https://github.com/phoenixframework/phoenix/pull/3924', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
