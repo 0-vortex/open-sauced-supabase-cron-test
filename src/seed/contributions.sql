@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-04T18:53:03.734Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-04T20:47:40.401Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4398,8 +4398,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5068, 56894212, 1, '2018-02-19T10:14:06', 'jeroentervoorde', 'https://github.com/jvm-profiling-tools/async-profiler/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5069, 56894212, 1, '2020-01-06T15:59:59', 'ykubota', 'https://github.com/jvm-profiling-tools/async-profiler/pull/285', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (53137, 90590303, 1, '2019-09-14T01:02:08', 'kobylynskyi', 'https://github.com/graphql-java/awesome-graphql-java/pull/22', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
-(3594, 7670022, 1, '2016-01-22T07:46:29', 'swrobel', 'https://github.com/salomvary/soundcleod/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (886, 49020217, 1, '2016-09-10T07:30:37', 'alkaha', 'https://github.com/petehunt/react-howto/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3594, 7670022, 1, '2016-01-22T07:46:29', 'swrobel', 'https://github.com/salomvary/soundcleod/pull/97', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (888, 49020217, 1, '2016-09-10T07:29:05', 'cartifon', 'https://github.com/petehunt/react-howto/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5400, 78186814, 4, '2020-03-15T04:12:10', 'YorkShen', 'https://github.com/apache/incubator-weex/pull/3168', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (55250, 165047811, 1, '2021-05-10T09:31:45', 'einalex', 'https://github.com/GitJournal/GitJournal/pull/492', null, '2022-08-17T17:50:44.193482+00:00', '2022-08-17T17:50:44.193482+00:00'),
@@ -7644,8 +7644,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11955, 107286889, 4, '2021-04-20T22:55:19', 'schollz', 'https://github.com/schollz/croc/pull/374', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5886, 21413198, 3, '2016-04-18T13:40:05', 'marudor', 'https://github.com/immutable-js/immutable-js/pull/845', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5899, 21413198, 2, '2017-06-08T22:46:02', 'liubinyi', 'https://github.com/immutable-js/immutable-js/pull/1244', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8566, 265122478, 4, '2021-06-30T19:57:13', 'Nikhil0504', 'https://github.com/ManimCommunity/manim/pull/1734', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1044, 59096058, 4, '2021-10-22T10:29:55', 'aileen', 'https://github.com/TryGhost/Admin/pull/2116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8566, 265122478, 4, '2021-06-30T19:57:13', 'Nikhil0504', 'https://github.com/ManimCommunity/manim/pull/1734', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1028, 59096058, 4, '2022-05-16T16:37:00', 'ErisDS', 'https://github.com/TryGhost/Admin/pull/2390', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1058, 59096058, 4, '2022-05-04T16:24:56', 'allouis', 'https://github.com/TryGhost/Admin/pull/2364', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1031, 59096058, 4, '2022-05-27T14:20:41', 'SimonBackx', 'https://github.com/TryGhost/Admin/pull/2408', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8015,8 +8015,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2671, 212123834, 1, '2020-02-04T13:59:24', 'tagoro9', 'https://github.com/kentaro-m/auto-assign-action/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12634, 37175929, 1, '2018-11-11T21:08:41', 'smoofra', 'https://github.com/machyve/xhyve/pull/133', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12215, 124910572, 4, '2019-03-21T10:37:49', 'LakshyAAAgrawal', 'https://github.com/mozilla/bugbug/pull/218', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5805, 105412971, 2, '2019-05-31T13:07:10', 'Stanko', 'https://github.com/stereobooster/react-snap/pull/384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2686, 212123834, 1, '2020-02-13T15:23:19', 'brandonjmckay', 'https://github.com/kentaro-m/auto-assign-action/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5805, 105412971, 2, '2019-05-31T13:07:10', 'Stanko', 'https://github.com/stereobooster/react-snap/pull/384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2683, 212123834, 1, '2021-06-19T04:49:46', 'eranelbaz', 'https://github.com/kentaro-m/auto-assign-action/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5808, 105412971, 4, '2019-05-20T17:40:57', 'stereobooster', 'https://github.com/stereobooster/react-snap/pull/378', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42786, 254347436, 4, '2022-02-04T17:50:29', 'tathamoddie', 'https://github.com/mampfes/hacs_waste_collection_schedule/pull/162', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
