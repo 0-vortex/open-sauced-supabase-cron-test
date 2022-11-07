@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T10:52:13.257Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T13:27:14.960Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3147,6 +3147,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (39951, 42878948, 1, '2017-05-24T16:43:05', 'kmcphillips', 'https://github.com/do-community/do-article-templates/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13587, 95876775, 4, '2022-05-03T13:31:15', 'vpanjganj', 'https://github.com/elsewhencode/project-guidelines/pull/167', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (21898, 238404616, 3, '2022-05-09T19:42:58', 'klease', 'https://github.com/apache/camel-examples/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3593, 316807711, 1, '2021-06-30T06:14:13', 'danzrou', 'https://github.com/ngneat/variabless/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39952, 42878948, 2, '2016-08-02T17:24:54', 'napcs', 'https://github.com/do-community/do-article-templates/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38109, 55387233, 1, '2016-10-06T17:44:29', 'benmonro', 'https://github.com/conventional-changelog/standard-version/pull/121', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3175,7 +3176,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3820, 96395, 4, '2022-05-15T22:33:11', 'sudeeptarlekar', 'https://github.com/faker-ruby/faker/pull/2488', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3821, 96395, 1, '2011-01-27T14:51:29', 'tenderlove', 'https://github.com/faker-ruby/faker/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3822, 96395, 4, '2021-09-23T03:52:56', 'ashishra0', 'https://github.com/faker-ruby/faker/pull/2378', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3823, 96395, 4, '2021-05-21T05:57:05', 'yujideveloper', 'https://github.com/faker-ruby/faker/pull/2329', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13254, 161983108, 4, '2019-04-27T11:28:25', 'ntwrick', 'https://github.com/abs-lang/abs/pull/210', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13257, 161983108, 4, '2021-09-01T13:05:19', 'odino', 'https://github.com/abs-lang/abs/pull/452', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7713,9 +7713,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (835, 208397359, 1, '2021-08-03T20:23:57', 'wylanosorio', 'https://github.com/proudmonkey/AutoWrapper/pull/114', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1010, 345922282, 2, '2021-12-26T04:36:30', 'shiyiya', 'https://github.com/Saul-Mirone/milkdown/pull/243', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (67118, 304740870, 2, '2022-09-27T08:31:06', 'dohomi', 'https://github.com/tamagui/tamagui/pull/238', null, '2022-09-12T17:58:57.339071+00:00', '2022-09-12T17:58:57.339071+00:00'),
+(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23888, 198896556, 4, '2021-06-09T22:15:07', 'EricCornelson', 'https://github.com/microsoft/vscode-js-debug/pull/1022', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (33265, 393556751, 4, '2022-10-02T04:32:26', 'adrianmg', 'https://github.com/adrianmg/github-pewpew/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12288, 93619165, 4, '2021-05-08T08:18:27', 'mlpo', 'https://github.com/alecthomas/chroma/pull/500', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11931, 10865436, 1, '2013-06-24T10:51:44', 'a-v-l', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12847, 23247808, 1, '2017-10-18T13:23:49', 'turbo', 'https://github.com/rqlite/rqlite/pull/361', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
