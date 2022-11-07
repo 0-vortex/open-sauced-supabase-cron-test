@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T05:07:22.548Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T06:53:58.637Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4111,8 +4111,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4743, 69590701, 4, '2019-10-23T22:53:32', 'andreiconstantinbytex', 'https://github.com/vmware/clarity/pull/3883', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4744, 69590701, 4, '2021-08-10T07:45:07', 'gerinjacob', 'https://github.com/vmware/clarity/pull/6209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4745, 69590701, 4, '2017-11-15T23:13:53', 'chunghha', 'https://github.com/vmware/clarity/pull/1691', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4747, 69590701, 4, '2022-05-05T19:42:23', 'ashleyryan', 'https://github.com/vmware/clarity/pull/6771', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4746, 69590701, 4, '2020-04-14T07:20:27', 'mcosta74', 'https://github.com/vmware/clarity/pull/4442', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4747, 69590701, 4, '2022-05-05T19:42:23', 'ashleyryan', 'https://github.com/vmware/clarity/pull/6771', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4748, 69590701, 4, '2018-10-19T22:11:36', 'imcotton', 'https://github.com/vmware/clarity/pull/2708', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4749, 69590701, 4, '2021-12-01T07:48:01', 'KingMario', 'https://github.com/vmware/clarity/pull/6492', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4750, 279064706, 1, '2020-07-22T13:58:08', 'Ileriayo', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/105', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -9478,8 +9478,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (59748, 189725054, 1, '2022-05-29T14:35:35', 'sirupsen', 'https://github.com/sirupsen/napkin-math/pull/20', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59749, 189725054, 1, '2020-09-14T19:12:01', 'manumilou', 'https://github.com/sirupsen/napkin-math/pull/11', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59750, 189725054, 1, '2020-12-30T02:19:30', 'bouk', 'https://github.com/sirupsen/napkin-math/pull/14', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
-(59744, 185419470, 1, '2019-05-08T12:55:46', 'OskarDamkjaer', 'https://github.com/kkuchta/css-only-chat/pull/10', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59739, 185419470, 1, '2019-05-08T10:23:26', 'aoeu', 'https://github.com/kkuchta/css-only-chat/pull/5', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
+(59744, 185419470, 1, '2019-05-08T12:55:46', 'OskarDamkjaer', 'https://github.com/kkuchta/css-only-chat/pull/10', null, '2022-08-29T03:18:40.860532+00:00', '2022-08-29T03:18:40.860532+00:00'),
 (59751, 257829830, 2, '2022-05-29T11:46:46', 'alex-ac', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/96', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59752, 257829830, 1, '2022-05-18T07:51:54', 'maxdudin', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/93', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
 (59753, 257829830, 3, '2022-07-19T16:20:08', 'leonid-sviderskii-mtl', 'https://github.com/Engineer-Petr/Engineer-Petr.github.io/pull/98', null, '2022-08-29T04:06:43.925171+00:00', '2022-08-29T04:06:43.925171+00:00'),
