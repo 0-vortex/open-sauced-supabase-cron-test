@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T17:04:27.613Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T18:52:46.300Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9800,7 +9800,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3354, 501689, 1, '2021-11-24T22:52:39', 'StephanRichter', 'https://github.com/antlr/stringtemplate4/pull/290', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3338, 501689, 1, '2012-08-13T20:11:45', 'pgelinas', 'https://github.com/antlr/stringtemplate4/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3352, 501689, 1, '2015-12-03T21:24:20', 'jsnyders', 'https://github.com/antlr/stringtemplate4/pull/115', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3364, 501689, 1, '2020-10-02T18:39:11', 'beccagaspard', 'https://github.com/antlr/stringtemplate4/pull/268', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3363, 501689, 1, '2019-01-21T18:17:36', 'cfraizer', 'https://github.com/antlr/stringtemplate4/pull/213', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3340, 501689, 1, '2018-11-11T21:49:03', 'adityanarkar', 'https://github.com/antlr/stringtemplate4/pull/209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (64279, 501689, 1, '2022-09-02T20:41:16', 'KvanTTT', 'https://github.com/antlr/stringtemplate4/pull/304', null, '2022-09-09T02:00:02.743726+00:00', '2022-09-09T02:00:02.743726+00:00'),
@@ -9866,6 +9865,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (64693, 138222588, 4, '2022-10-25T19:52:52', 'aboedo', 'https://github.com/RevenueCat/react-native-purchases/pull/452', null, '2022-09-09T09:43:30.658345+00:00', '2022-09-09T09:43:30.658345+00:00'),
 (64699, 138222588, 4, '2022-11-01T17:23:09', 'RCGitBot', 'https://github.com/RevenueCat/react-native-purchases/pull/459', null, '2022-09-09T09:43:30.658345+00:00', '2022-09-09T09:43:30.658345+00:00'),
 (64730, 371948609, 2, '2022-07-13T09:40:38', 'mrded', 'https://github.com/brainfucksec/neovim-lua/pull/19', null, '2022-09-09T10:03:48.786107+00:00', '2022-09-09T10:03:48.786107+00:00'),
+(3364, 501689, 1, '2020-10-02T18:39:11', 'beccagaspard', 'https://github.com/antlr/stringtemplate4/pull/268', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (64728, 371948609, 1, '2022-04-20T04:51:02', 'mhemanthm', 'https://github.com/brainfucksec/neovim-lua/pull/11', null, '2022-09-09T10:03:48.786107+00:00', '2022-09-09T10:03:48.786107+00:00'),
 (64731, 371948609, 1, '2022-05-19T04:55:40', 'RainerKuemmerle', 'https://github.com/brainfucksec/neovim-lua/pull/15', null, '2022-09-09T10:03:48.786107+00:00', '2022-09-09T10:03:48.786107+00:00'),
 (64729, 371948609, 1, '2021-11-12T07:00:47', 'williamboman', 'https://github.com/brainfucksec/neovim-lua/pull/2', null, '2022-09-09T10:03:48.786107+00:00', '2022-09-09T10:03:48.786107+00:00'),
