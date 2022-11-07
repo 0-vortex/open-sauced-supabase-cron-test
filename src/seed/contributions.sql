@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T08:55:09.070Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-07T10:52:13.257Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4126,9 +4126,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4758, 279064706, 1, '2020-07-22T17:50:36', 'orhun', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4759, 279064706, 2, '2020-07-12T17:29:59', 'filiptronicek', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4760, 279064706, 1, '2020-08-11T22:11:53', 'PrathmeshSadake', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4762, 279064706, 1, '2020-08-02T22:44:42', 'moshfiqrony', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4763, 279064706, 2, '2020-12-13T11:08:49', 'claytonjhamilton', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/444', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4761, 279064706, 1, '2020-07-16T23:17:56', 'peterthehan', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4764, 279064706, 2, '2020-08-11T22:10:57', 'thmsgbrt', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/155', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4765, 279064706, 1, '2020-08-19T02:07:48', 'cxyfreedom', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/208', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4766, 279064706, 2, '2020-08-01T12:53:03', 'teoxoy', 'https://github.com/abhisheknaiidu/awesome-github-profile-readme/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
