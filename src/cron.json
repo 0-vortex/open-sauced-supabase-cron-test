@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-11-09T20:45:01.456Z",
+  "lastExecuted": "2022-11-09T20:53:00.715Z",
   "checked": {
     "Lamiiine": {
       "owner": "Lamiiine",
@@ -3864,12 +3864,12 @@
     "mankarsandesh": {
       "owner": "mankarsandesh",
       "notFound": false,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "ardhptr21": {
       "owner": "ardhptr21",
       "notFound": true,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "JealousGx": {
       "owner": "JealousGx",
@@ -3879,12 +3879,12 @@
     "Jonasdero": {
       "owner": "Jonasdero",
       "notFound": true,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "Ninad89": {
       "owner": "Ninad89",
       "notFound": false,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "MauriceKau": {
       "owner": "MauriceKau",
@@ -3894,17 +3894,17 @@
     "SivertGullbergHansen": {
       "owner": "SivertGullbergHansen",
       "notFound": true,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "Gryta-Krutt": {
       "owner": "Gryta-Krutt",
       "notFound": true,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "r17x": {
       "owner": "r17x",
       "notFound": false,
-      "lastExecuted": "2022-11-09T08:49:17.859Z"
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     },
     "josesimoes": {
       "owner": "josesimoes",
@@ -4365,6 +4365,11 @@
       "owner": "tattwamasi",
       "notFound": false,
       "lastExecuted": "2022-11-09T20:45:01.456Z"
+    },
+    "MauriceHandwerker": {
+      "owner": "MauriceHandwerker",
+      "notFound": true,
+      "lastExecuted": "2022-11-09T20:53:00.715Z"
     }
   }
 }
