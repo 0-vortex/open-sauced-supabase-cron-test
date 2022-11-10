@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-10T01:05:22.176Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-10T03:17:09.880Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9287,9 +9287,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (58070, 8859474, 1, '2018-02-12T18:45:42', 'rgoggins', 'https://github.com/skylot/jadx/pull/221', null, '2022-08-25T14:27:53.544707+00:00', '2022-08-25T14:27:53.544707+00:00'),
 (58068, 8859474, 1, '2018-01-02T12:08:57', 'mingyuan-xia', 'https://github.com/skylot/jadx/pull/169', null, '2022-08-25T14:27:53.544707+00:00', '2022-08-25T14:27:53.544707+00:00'),
 (65507, 99401299, 4, '2019-10-24T05:56:46', 'CyberAP', 'https://github.com/ai/nanoid/pull/156', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
-(65506, 99401299, 4, '2022-09-13T15:37:45', 'iDestin', 'https://github.com/ai/nanoid/pull/386', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65508, 99401299, 4, '2021-10-13T22:52:27', 'subzey', 'https://github.com/ai/nanoid/pull/310', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65510, 99401299, 3, '2022-04-18T10:06:28', 'artalar', 'https://github.com/ai/nanoid/pull/355', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
+(65506, 99401299, 4, '2022-09-13T15:37:45', 'iDestin', 'https://github.com/ai/nanoid/pull/386', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65515, 99401299, 3, '2022-05-04T23:24:31', 'vitalybaev', 'https://github.com/ai/nanoid/pull/362', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65519, 99401299, 2, '2021-09-29T07:48:07', 'Eugeno', 'https://github.com/ai/nanoid/pull/305', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
 (65517, 99401299, 2, '2019-10-17T08:13:56', 'sbrichardson', 'https://github.com/ai/nanoid/pull/147', null, '2022-09-09T22:11:03.056974+00:00', '2022-09-09T22:11:03.056974+00:00'),
@@ -10461,8 +10461,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (24523, 93611204, 4, '2021-04-19T15:33:07', 'ignaciaorellana', 'https://github.com/alphagov/govuk-design-system/pull/1568', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24524, 93611204, 4, '2022-05-18T12:17:46', 'domoscargin', 'https://github.com/alphagov/govuk-design-system/pull/2192', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24525, 93611204, 4, '2019-07-16T15:27:53', 'aliuk2012', 'https://github.com/alphagov/govuk-design-system/pull/974', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(24526, 93611204, 4, '2020-07-22T14:41:45', 'Nooshu', 'https://github.com/alphagov/govuk-design-system/pull/1310', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24527, 93611204, 2, '2022-04-06T09:27:44', 'querkmachine', 'https://github.com/alphagov/govuk-design-system/pull/2126', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(24526, 93611204, 4, '2020-07-22T14:41:45', 'Nooshu', 'https://github.com/alphagov/govuk-design-system/pull/1310', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24528, 93611204, 4, '2021-10-12T08:07:39', 'edwardhorsford', 'https://github.com/alphagov/govuk-design-system/pull/1943', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24529, 93611204, 3, '2020-06-25T11:15:49', 'simonwhatley', 'https://github.com/alphagov/govuk-design-system/pull/1298', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24530, 93611204, 4, '2019-06-24T15:32:44', 'harryvos', 'https://github.com/alphagov/govuk-design-system/pull/933', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10860,8 +10860,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1630, 16072585, 4, '2020-07-12T16:18:03', 'mitchellhenke', 'https://github.com/phoenixframework/phoenix/pull/3924', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1590, 249234386, 1, '2020-12-30T20:08:51', '0xflotus', 'https://github.com/steveseguin/vdo.ninja/pull/645', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1337, 219294494, 1, '2022-03-09T07:41:56', 'tpongo-afk', 'https://github.com/xxh/xxh/pull/137', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39315, 165522651, 2, '2022-05-28T15:53:05', 'terhechte', 'https://github.com/emilk/egui/pull/1681', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36835, 378070841, 4, '2021-09-28T17:26:13', 'ido-golan', 'https://github.com/ngneat/elf/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39315, 165522651, 2, '2022-05-28T15:53:05', 'terhechte', 'https://github.com/emilk/egui/pull/1681', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1599, 249234386, 1, '2021-04-01T12:40:55', 'Arteboy', 'https://github.com/steveseguin/vdo.ninja/pull/816', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1600, 249234386, 2, '2020-09-18T20:24:43', 'KovalevArtem', 'https://github.com/steveseguin/vdo.ninja/pull/335', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1586, 249234386, 1, '2022-04-04T04:49:00', 'baumannzone', 'https://github.com/steveseguin/vdo.ninja/pull/941', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
