@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-09T22:45:59.915Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-10T01:05:22.176Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3126,6 +3126,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (38104, 55387233, 1, '2019-02-14T23:29:02', 'anthonylim24', 'https://github.com/conventional-changelog/standard-version/pull/284', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65468, 425455469, 1, '2022-01-23T10:31:19', 'Lennart01', 'https://github.com/Yariya/EarnApp-Earning-Monitor/pull/35', null, '2022-09-09T21:07:14.406908+00:00', '2022-09-09T21:07:14.406908+00:00'),
 (65469, 425455469, 4, '2021-11-18T11:28:38', 'ItzDatMC', 'https://github.com/Yariya/EarnApp-Earning-Monitor/pull/18', null, '2022-09-09T21:07:14.406908+00:00', '2022-09-09T21:07:14.406908+00:00'),
+(39950, 161073102, 1, '2022-07-10T17:05:05', 'Point-brain', 'https://github.com/kuglee/TermiWatch/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16625, 161770480, 2, '2019-04-25T03:22:30', 'ahegde3', 'https://github.com/nurdtechie98/drive-cli/pull/66', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16624, 161770480, 4, '2019-04-21T07:10:48', 'raghav-dalmia', 'https://github.com/nurdtechie98/drive-cli/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16620, 161770480, 3, '2019-04-07T13:12:23', 'nurdtechie98', 'https://github.com/nurdtechie98/drive-cli/pull/57', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3134,7 +3135,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16623, 161770480, 3, '2019-04-06T09:31:06', 'adtya', 'https://github.com/nurdtechie98/drive-cli/pull/54', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16622, 161770480, 1, '2019-03-01T12:12:41', 'FredAmartey', 'https://github.com/nurdtechie98/drive-cli/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2600, 23024191, 2, '2020-03-24T06:19:45', 'HamidSaffari', 'https://github.com/neu-rah/ArduinoMenu/pull/279', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39950, 161073102, 1, '2022-07-10T17:05:05', 'Point-brain', 'https://github.com/kuglee/TermiWatch/pull/64', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (76253, 528288530, 2, '2022-09-26T15:06:46', 'peterp', 'https://github.com/snaplet/postgres-wasm/pull/30', null, '2022-09-27T11:29:10.545732+00:00', '2022-09-27T11:29:10.545732+00:00'),
 (16805, 121814210, 4, '2019-09-24T22:00:47', 'shawnbot', 'https://github.com/primer/react/pull/517', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16808, 121814210, 4, '2021-04-30T19:36:25', 'T-Hugs', 'https://github.com/primer/react/pull/1201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5583,7 +5583,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2471, 65848095, 1, '2020-10-03T20:22:03', 'whalehub', 'https://github.com/requarks/wiki/pull/2526', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46674, 237523442, 4, '2022-06-07T18:50:08', 'rosszurowski', 'https://github.com/tailscale/tailscale/pull/4812', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2479, 65848095, 2, '2020-07-22T19:02:41', 'jaydeland', 'https://github.com/requarks/wiki/pull/2220', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39949, 161073102, 1, '2022-05-03T14:35:10', 'coryshaw1', 'https://github.com/kuglee/TermiWatch/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5740, 439057606, 1, '2021-12-23T16:47:08', 'mnixry', 'https://github.com/DavidBuchanan314/ambiguous-png-packer/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8768, 132732601, 3, '2020-02-17T15:17:48', 'giorgos-apo', 'https://github.com/canonical/microk8s/pull/963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46681, 237523442, 4, '2022-10-26T19:28:00', 'soniaappasamy', 'https://github.com/tailscale/tailscale/pull/6078', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -5597,6 +5596,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1413, 122681898, 1, '2021-02-24T19:34:24', 'daronyondem', 'https://github.com/microsoft/MCW-Modern-cloud-apps/pull/80', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39677, 484251804, 4, '2022-10-28T01:37:19', 'klesh', 'https://github.com/apache/incubator-devlake-website/pull/300', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39678, 484251804, 4, '2022-10-14T06:05:29', 'mappjzc', 'https://github.com/apache/incubator-devlake-website/pull/253', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39949, 161073102, 1, '2022-05-03T14:35:10', 'coryshaw1', 'https://github.com/kuglee/TermiWatch/pull/58', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66133, 484251804, 1, '2022-09-05T13:47:06', 'annjose', 'https://github.com/apache/incubator-devlake-website/pull/195', null, '2022-09-10T11:14:01.101499+00:00', '2022-09-10T11:14:01.101499+00:00'),
 (8758, 132732601, 4, '2021-09-28T14:08:45', 'niladrih', 'https://github.com/canonical/microk8s/pull/2610', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (514, 175405157, 4, '2022-08-09T08:00:24', 'JanDeDobbeleer', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2637', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
