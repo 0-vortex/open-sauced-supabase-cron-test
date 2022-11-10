@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-10T13:00:41.507Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-10T14:50:12.323Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3582,8 +3582,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (38105, 55387233, 1, '2020-01-14T12:35:50', 'antkaz', 'https://github.com/conventional-changelog/standard-version/pull/511', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38106, 55387233, 1, '2019-05-14T20:03:45', 'mrastiak', 'https://github.com/conventional-changelog/standard-version/pull/357', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38113, 55387233, 1, '2016-09-12T23:20:13', 'watilde', 'https://github.com/conventional-changelog/standard-version/pull/103', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2961, 46261404, 4, '2017-04-10T05:04:56', 'yunxing', 'https://github.com/reasonml/reason/pull/1200', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3430, 4166567, 2, '2014-10-24T13:20:14', 'njam', 'https://github.com/BerlinVagrant/vagrant-dns/pull/31', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2961, 46261404, 4, '2017-04-10T05:04:56', 'yunxing', 'https://github.com/reasonml/reason/pull/1200', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2937, 46261404, 4, '2020-01-29T12:38:55', 'cristianoc', 'https://github.com/reasonml/reason/pull/2539', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2952, 46261404, 4, '2019-03-19T06:11:14', 'IwanKaramazow', 'https://github.com/reasonml/reason/pull/2353', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2954, 46261404, 4, '2017-02-13T00:18:43', 'SanderSpies', 'https://github.com/reasonml/reason/pull/1055', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3953,13 +3953,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1227, 170738310, 4, '2020-12-08T09:02:40', 'CriesofCarrots', 'https://github.com/trustwallet/wallet-core/pull/1204', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13070, 149638165, 2, '2020-07-24T20:46:43', 'visualjerk', 'https://github.com/testing-library/user-event/pull/414', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13076, 149638165, 2, '2020-05-20T05:18:42', 'vadimshvetsov', 'https://github.com/testing-library/user-event/pull/288', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13075, 149638165, 1, '2021-02-11T03:08:56', 'curiosity26', 'https://github.com/testing-library/user-event/pull/536', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13068, 149638165, 2, '2020-06-10T21:30:17', 'timdeschryver', 'https://github.com/testing-library/user-event/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16276, 827590, 4, '2019-07-19T00:24:22', 'zsinskri', 'https://github.com/beetbox/beets/pull/3330', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4699, 183267843, 1, '2020-10-21T13:30:48', 'alexfertel', 'https://github.com/kentcdodds/advanced-react-hooks/pull/84', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4702, 183267843, 1, '2021-04-03T04:50:27', 'aosante', 'https://github.com/kentcdodds/advanced-react-hooks/pull/130', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4707, 183267843, 1, '2020-10-12T18:02:20', 'Huuums', 'https://github.com/kentcdodds/advanced-react-hooks/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5423, 3544424, 4, '2015-02-16T19:27:35', 'msabramo', 'https://github.com/httpie/httpie/pull/312', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13075, 149638165, 1, '2021-02-11T03:08:56', 'curiosity26', 'https://github.com/testing-library/user-event/pull/536', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4599, 63476337, 4, '2019-05-25T13:41:25', 'alaouimehdi1995', 'https://github.com/TheAlgorithms/Python/pull/784', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4600, 63476337, 4, '2016-10-14T02:39:21', 'akshaysharma096', 'https://github.com/TheAlgorithms/Python/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4601, 63476337, 4, '2021-06-13T18:19:44', 'QuantumNovice', 'https://github.com/TheAlgorithms/Python/pull/4487', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
