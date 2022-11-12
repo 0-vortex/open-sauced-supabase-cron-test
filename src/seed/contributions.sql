@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-12T08:47:29.152Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-12T10:45:57.159Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3641,8 +3641,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2941, 46261404, 4, '2017-10-23T19:20:03', 'rickyvetter', 'https://github.com/reasonml/reason/pull/1538', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2944, 46261404, 4, '2018-12-05T07:32:49', 'bryphe', 'https://github.com/reasonml/reason/pull/2283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2960, 46261404, 4, '2016-05-12T17:21:58', 'dxu', 'https://github.com/reasonml/reason/pull/380', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2962, 46261404, 4, '2019-10-12T08:40:46', 'ulrikstrid', 'https://github.com/reasonml/reason/pull/2459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2947, 46261404, 4, '2016-10-26T09:58:11', 'vramana', 'https://github.com/reasonml/reason/pull/814', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2962, 46261404, 4, '2019-10-12T08:40:46', 'ulrikstrid', 'https://github.com/reasonml/reason/pull/2459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12449, 52631841, 1, '2018-07-02T16:02:07', 'mohawk2', 'https://github.com/gothinkster/realworld/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23175, 87520003, 1, '2022-06-08T02:55:41', 'NoeOnJupiter', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3437, 87520003, 1, '2019-03-29T12:04:44', 'dinarajas', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/36', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10499,8 +10499,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (24527, 93611204, 2, '2022-04-06T09:27:44', 'querkmachine', 'https://github.com/alphagov/govuk-design-system/pull/2126', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24528, 93611204, 4, '2021-10-12T08:07:39', 'edwardhorsford', 'https://github.com/alphagov/govuk-design-system/pull/1943', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24529, 93611204, 3, '2020-06-25T11:15:49', 'simonwhatley', 'https://github.com/alphagov/govuk-design-system/pull/1298', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(24531, 93611204, 4, '2022-04-07T15:01:52', 'terrysimpson99', 'https://github.com/alphagov/govuk-design-system/pull/2046', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24530, 93611204, 4, '2019-06-24T15:32:44', 'harryvos', 'https://github.com/alphagov/govuk-design-system/pull/933', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(24531, 93611204, 4, '2022-04-07T15:01:52', 'terrysimpson99', 'https://github.com/alphagov/govuk-design-system/pull/2046', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24532, 93611204, 4, '2020-03-04T10:14:46', 'adamsilver', 'https://github.com/alphagov/govuk-design-system/pull/1180', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24533, 93611204, 4, '2021-11-19T15:51:58', 'timpaul', 'https://github.com/alphagov/govuk-design-system/pull/1983', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24534, 408726855, 1, '2022-04-14T21:23:21', 'Bori-github', 'https://github.com/junh0328/prepare_frontend_interview/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
