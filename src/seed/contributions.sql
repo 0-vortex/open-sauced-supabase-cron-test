@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-11T22:46:21.210Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-12T01:05:09.406Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6644,8 +6644,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12843, 23247808, 3, '2020-02-08T14:57:51', 'runsisi', 'https://github.com/rqlite/rqlite/pull/627', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66908, 387542412, 1, '2021-11-01T07:52:33', 'jddcef', 'https://github.com/builtbybel/ThisIsWin11/pull/34', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
 (706, 48393191, 1, '2020-11-16T00:25:59', 'michaelruocco', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/316', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2058, 364149329, 4, '2021-09-06T14:38:28', 'phazonoverload', 'https://github.com/orbit-love/github-actions-templates/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2060, 364149329, 4, '2021-10-06T15:30:36', 'bencgreenberg', 'https://github.com/orbit-love/github-actions-templates/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2058, 364149329, 4, '2021-09-06T14:38:28', 'phazonoverload', 'https://github.com/orbit-love/github-actions-templates/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2059, 364149329, 1, '2022-02-11T13:53:57', 'laurenelee', 'https://github.com/orbit-love/github-actions-templates/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (557, 26195776, 2, '2016-12-08T00:21:48', 'avindra', 'https://github.com/JedWatson/classnames/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5902, 409100695, 1, '2022-01-03T10:04:56', 'andredevsantos', 'https://github.com/abodmicheal/react-js-stickynav/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7952,8 +7952,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (34774, 220186120, 1, '2020-07-16T08:10:52', 'pascaldekloe', 'https://github.com/codenotary/immudb/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1549, 75505125, 4, '2022-11-06T09:19:52', 'realLiangshiwei', 'https://github.com/abpframework/abp/pull/14553', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5983, 31168578, 1, '2019-04-24T15:32:05', '0xflotus', 'https://github.com/hemanth/functional-programming-jargon/pull/194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1429, 122681898, 1, '2021-01-04T20:51:00', 'saimachi', 'https://github.com/microsoft/MCW-Modern-cloud-apps/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40351, 35955666, 2, '2016-10-28T06:55:45', 'timothyqiu', 'https://github.com/jlevy/the-art-of-command-line/pull/466', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1429, 122681898, 1, '2021-01-04T20:51:00', 'saimachi', 'https://github.com/microsoft/MCW-Modern-cloud-apps/pull/75', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12225, 124910572, 3, '2021-12-10T16:18:33', 'webbdays', 'https://github.com/mozilla/bugbug/pull/2665', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9006, 230327376, 2, '2020-02-19T04:53:09', 'BOLT04', 'https://github.com/ErikCH/DevYouTubeList/pull/111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12287, 93619165, 4, '2022-06-14T05:34:03', 'CIAvash', 'https://github.com/alecthomas/chroma/pull/643', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8752,10 +8752,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32817, 37997, 1, '2011-09-13T15:24:53', 'olivere', 'https://github.com/jnunemaker/httparty/pull/91', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32819, 37997, 3, '2019-03-20T14:52:03', 'springerigor', 'https://github.com/jnunemaker/httparty/pull/647', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32820, 37997, 1, '2015-08-27T19:00:17', 'supremebeing7', 'https://github.com/jnunemaker/httparty/pull/430', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(32818, 37997, 1, '2013-09-25T20:47:53', 'mkroman', 'https://github.com/jnunemaker/httparty/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65019, 37258357, 1, '2022-08-21T16:17:06', 'emilio', 'https://github.com/hunspell/hunspell/pull/756', null, '2022-09-09T12:59:47.218229+00:00', '2022-09-09T12:59:47.218229+00:00'),
 (65021, 37258357, 1, '2018-11-06T09:12:23', 'sharoncorrell', 'https://github.com/hunspell/hunspell/pull/600', null, '2022-09-09T12:59:47.218229+00:00', '2022-09-09T12:59:47.218229+00:00'),
 (11908, 10865436, 1, '2018-01-13T19:30:48', 'dypsilon', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/383', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(32818, 37997, 1, '2013-09-25T20:47:53', 'mkroman', 'https://github.com/jnunemaker/httparty/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11924, 10865436, 1, '2013-06-26T00:14:04', 'adamwdraper', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (68333, 527591471, 2, '2022-09-13T04:42:50', 'oobabooga', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/378', null, '2022-09-14T14:00:21.058856+00:00', '2022-09-14T14:00:21.058856+00:00'),
 (68340, 527591471, 1, '2022-09-11T06:49:43', 'AbdBarho', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/261', null, '2022-09-14T14:00:21.058856+00:00', '2022-09-14T14:00:21.058856+00:00'),
