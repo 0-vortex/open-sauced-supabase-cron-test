@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-13T01:05:10.755Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-13T03:16:41.567Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7976,7 +7976,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11940, 293570349, 2, '2021-12-07T20:39:27', 'lukehsiao', 'https://github.com/cocogitto/cocogitto/pull/154', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11950, 293570349, 1, '2021-11-06T12:44:47', 'aeyoll', 'https://github.com/cocogitto/cocogitto/pull/126', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9125, 6093316, 4, '2018-06-21T21:05:35', 'horiuchi', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/26656', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(9135, 6093316, 4, '2019-12-23T20:05:34', 'paulvanbrenk', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/40924', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9136, 6093316, 4, '2016-08-20T01:56:28', 'Diullei', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/10647', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9131, 6093316, 4, '2020-11-11T00:53:55', 'DanielRosenwasser', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/49382', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9137, 6093316, 4, '2022-06-30T21:06:37', 'sandersn', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/61034', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8625,6 +8624,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2092, 26500787, 1, '2015-11-01T22:10:12', 'fastred', 'https://github.com/tonsky/FiraCode/pull/60', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2104, 26500787, 1, '2017-03-21T14:43:24', 'abenedykt', 'https://github.com/tonsky/FiraCode/pull/387', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2091, 26500787, 1, '2020-07-14T11:04:49', 'bharat-patodi', 'https://github.com/tonsky/FiraCode/pull/1099', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(9135, 6093316, 4, '2019-12-23T20:05:34', 'paulvanbrenk', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/40924', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2099, 26500787, 1, '2016-01-14T10:28:00', 'KindDragon', 'https://github.com/tonsky/FiraCode/pull/111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12304, 93619165, 2, '2021-04-29T01:54:41', 'moorereason', 'https://github.com/alecthomas/chroma/pull/479', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2100, 26500787, 1, '2016-02-09T08:34:31', 'chrisdias', 'https://github.com/tonsky/FiraCode/pull/129', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
