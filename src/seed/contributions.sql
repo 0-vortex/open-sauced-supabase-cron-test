@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-14T16:54:22.898Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-14T18:48:19.890Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2821,12 +2821,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3308, 280531604, 4, '2022-04-06T14:05:25', 'vojtaholik', 'https://github.com/eggheadio/egghead-next/pull/1090', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3302, 280531604, 4, '2021-05-14T20:17:19', 'dealingwith', 'https://github.com/eggheadio/egghead-next/pull/628', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3314, 280531604, 4, '2021-07-14T20:01:37', 'willjohnsonio', 'https://github.com/eggheadio/egghead-next/pull/761', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(39909, 80276391, 3, '2021-08-14T14:42:48', 'pyrocto', 'https://github.com/GitSquared/edex-ui/pull/1161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4142, 239233346, 2, '2020-07-13T13:52:12', 'KyleMcMaster', 'https://github.com/ardalis/ApiEndpoints/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2967, 229504810, 1, '2022-02-27T22:05:09', 'nomadic-me', 'https://github.com/sethcottle/littlelink/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4139, 239233346, 3, '2020-08-17T13:48:02', 'ppittle', 'https://github.com/ardalis/ApiEndpoints/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3327, 89948774, 1, '2019-02-22T03:32:47', 'karlAlnebratt', 'https://github.com/dtzar/helm-kubectl/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12201, 124910572, 4, '2020-02-10T10:07:09', 'chidauri', 'https://github.com/mozilla/bugbug/pull/1269', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(39909, 80276391, 3, '2021-08-14T14:42:48', 'pyrocto', 'https://github.com/GitSquared/edex-ui/pull/1161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3923, 40892817, 4, '2021-11-22T10:02:31', 'axic', 'https://github.com/ethereum/solidity/pull/12301', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13606, 95876775, 1, '2018-05-13T12:42:05', 'domenico-ruggiano', 'https://github.com/elsewhencode/project-guidelines/pull/132', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13605, 95876775, 1, '2017-09-07T17:18:36', 'crobinson42', 'https://github.com/elsewhencode/project-guidelines/pull/96', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3159,6 +3157,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13584, 261298767, 1, '2021-02-12T16:57:46', 'anandvc', 'https://github.com/revolist/revogrid/pull/170', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13585, 261298767, 1, '2022-03-19T13:06:11', 'sujeetpillai', 'https://github.com/revolist/revogrid/pull/300', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13586, 261298767, 2, '2022-01-29T17:36:00', 'wglas85', 'https://github.com/revolist/revogrid/pull/263', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4142, 239233346, 2, '2020-07-13T13:52:12', 'KyleMcMaster', 'https://github.com/ardalis/ApiEndpoints/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2967, 229504810, 1, '2022-02-27T22:05:09', 'nomadic-me', 'https://github.com/sethcottle/littlelink/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65467, 425455469, 1, '2021-11-07T18:49:24', 'Woodie-07', 'https://github.com/Yariya/EarnApp-Earning-Monitor/pull/2', null, '2022-09-09T21:07:14.406908+00:00', '2022-09-09T21:07:14.406908+00:00'),
 (3754, 162977720, 1, '2019-01-19T22:54:32', 'johnlunney', 'https://github.com/romenrg/evergreen-skills-developers/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3755, 162977720, 1, '2018-12-24T15:41:19', 'axelhzf', 'https://github.com/romenrg/evergreen-skills-developers/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
