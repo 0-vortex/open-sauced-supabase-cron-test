@@ -3154,6 +3154,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 13584,261298767,1,2021-02-12T16:57:46,anandvc,https://github.com/revolist/revogrid/pull/170,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13585,261298767,1,2022-03-19T13:06:11,sujeetpillai,https://github.com/revolist/revogrid/pull/300,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 13586,261298767,2,2022-01-29T17:36:00,wglas85,https://github.com/revolist/revogrid/pull/263,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 65467,425455469,1,2021-11-07T18:49:24,Woodie-07,https://github.com/Yariya/EarnApp-Earning-Monitor/pull/2,,2022-09-09T21:07:14.406908+00:00,2022-09-09T21:07:14.406908+00:00
 3754,162977720,1,2019-01-19T22:54:32,johnlunney,https://github.com/romenrg/evergreen-skills-developers/pull/11,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3755,162977720,1,2018-12-24T15:41:19,axelhzf,https://github.com/romenrg/evergreen-skills-developers/pull/1,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -3165,7 +3166,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 38104,55387233,1,2019-02-14T23:29:02,anthonylim24,https://github.com/conventional-changelog/standard-version/pull/284,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 65468,425455469,1,2022-01-23T10:31:19,Lennart01,https://github.com/Yariya/EarnApp-Earning-Monitor/pull/35,,2022-09-09T21:07:14.406908+00:00,2022-09-09T21:07:14.406908+00:00
 65469,425455469,4,2021-11-18T11:28:38,ItzDatMC,https://github.com/Yariya/EarnApp-Earning-Monitor/pull/18,,2022-09-09T21:07:14.406908+00:00,2022-09-09T21:07:14.406908+00:00
-39950,161073102,1,2022-07-10T17:05:05,Point-brain,https://github.com/kuglee/TermiWatch/pull/64,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16625,161770480,2,2019-04-25T03:22:30,ahegde3,https://github.com/nurdtechie98/drive-cli/pull/66,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16624,161770480,4,2019-04-21T07:10:48,raghav-dalmia,https://github.com/nurdtechie98/drive-cli/pull/67,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16620,161770480,3,2019-04-07T13:12:23,nurdtechie98,https://github.com/nurdtechie98/drive-cli/pull/57,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5632,8 +5632,8 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1413,122681898,1,2021-02-24T19:34:24,daronyondem,https://github.com/microsoft/MCW-Modern-cloud-apps/pull/80,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39677,484251804,4,2022-10-28T01:37:19,klesh,https://github.com/apache/incubator-devlake-website/pull/300,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 66133,484251804,1,2022-09-05T13:47:06,annjose,https://github.com/apache/incubator-devlake-website/pull/195,,2022-09-10T11:14:01.101499+00:00,2022-09-10T11:14:01.101499+00:00
-700,48393191,1,2016-05-04T21:18:26,jkschneider,https://github.com/nebula-plugins/gradle-lint-plugin/pull/18,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39949,161073102,1,2022-05-03T14:35:10,coryshaw1,https://github.com/kuglee/TermiWatch/pull/58,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+700,48393191,1,2016-05-04T21:18:26,jkschneider,https://github.com/nebula-plugins/gradle-lint-plugin/pull/18,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8757,132732601,4,2022-03-14T06:33:59,DomFleischmann,https://github.com/canonical/microk8s/pull/2923,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8758,132732601,4,2021-09-28T14:08:45,niladrih,https://github.com/canonical/microk8s/pull/2610,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8768,132732601,3,2020-02-17T15:17:48,giorgos-apo,https://github.com/canonical/microk8s/pull/963,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
