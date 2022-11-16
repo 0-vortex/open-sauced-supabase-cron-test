@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-16T04:49:11.247Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-16T06:47:28.760Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -11024,7 +11024,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (42818, 167810789, 1, '2020-10-31T10:11:14', 'miguelslemos', 'https://github.com/mszostok/codeowners-validator/pull/53', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42819, 167810789, 1, '2022-04-06T17:41:56', 'seveas', 'https://github.com/mszostok/codeowners-validator/pull/127', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42820, 167810789, 1, '2021-01-21T16:10:20', 'highb', 'https://github.com/mszostok/codeowners-validator/pull/62', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(42821, 167810789, 1, '2022-02-12T19:09:32', 'kyleellman', 'https://github.com/mszostok/codeowners-validator/pull/108', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42822, 167810789, 1, '2022-04-12T13:17:42', 'jeremycohen', 'https://github.com/mszostok/codeowners-validator/pull/141', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42823, 167810789, 1, '2020-03-14T23:53:21', 'jhump', 'https://github.com/mszostok/codeowners-validator/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (42824, 167810789, 1, '2022-02-12T18:36:39', 'jsoref', 'https://github.com/mszostok/codeowners-validator/pull/106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -11211,4 +11210,5 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (46664, 237523442, 4, '2022-10-13T17:48:03', 'raggi', 'https://github.com/tailscale/tailscale/pull/5915', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46655, 237523442, 4, '2022-08-08T18:10:56', 'crawshaw', 'https://github.com/tailscale/tailscale/pull/5315', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (48110, 371298202, 1, '2022-07-27T20:03:10', 'curtgrimes', 'https://github.com/wheatjs/vueuse-playground/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(42821, 167810789, 1, '2022-02-12T19:09:32', 'kyleellman', 'https://github.com/mszostok/codeowners-validator/pull/108', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46667, 237523442, 4, '2022-11-10T18:55:26', 'dsnet', 'https://github.com/tailscale/tailscale/pull/6260', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00');
