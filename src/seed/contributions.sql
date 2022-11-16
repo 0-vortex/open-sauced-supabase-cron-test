@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-16T01:05:36.193Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-16T03:10:03.417Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3622,8 +3622,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4207, 311525798, 2, '2020-12-05T20:54:43', 'marcduiker', 'https://github.com/microsoft/Web-Dev-For-Beginners/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4208, 311525798, 1, '2021-08-23T13:15:34', 'esentis', 'https://github.com/microsoft/Web-Dev-For-Beginners/pull/366', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4209, 311525798, 3, '2020-11-24T14:23:08', 'coderjojo', 'https://github.com/microsoft/Web-Dev-For-Beginners/pull/80', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4210, 311525798, 4, '2021-11-17T22:17:14', 'OKitel', 'https://github.com/microsoft/Web-Dev-For-Beginners/pull/528', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3430, 4166567, 2, '2014-10-24T13:20:14', 'njam', 'https://github.com/BerlinVagrant/vagrant-dns/pull/31', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4210, 311525798, 4, '2021-11-17T22:17:14', 'OKitel', 'https://github.com/microsoft/Web-Dev-For-Beginners/pull/528', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8800, 13601190, 3, '2019-03-23T20:14:52', 'DrMartinGonzo', 'https://github.com/agentejo/cockpit/pull/1064', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38105, 55387233, 1, '2020-01-14T12:35:50', 'antkaz', 'https://github.com/conventional-changelog/standard-version/pull/511', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38106, 55387233, 1, '2019-05-14T20:03:45', 'mrastiak', 'https://github.com/conventional-changelog/standard-version/pull/357', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
