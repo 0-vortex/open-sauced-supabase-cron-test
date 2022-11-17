@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-16T22:44:45.992Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-17T01:05:48.272Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3279,11 +3279,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3854, 152965398, 2, '2019-04-08T18:06:19', 'andrew-cunliffe', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3855, 152965398, 2, '2021-08-27T15:49:19', 'kaiwalyakoparkar', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/451', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3856, 152965398, 4, '2021-08-08T19:08:18', 'AvidCoder101', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/419', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3857, 152965398, 2, '2021-06-07T03:34:22', 'abhinavsaraswatt', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/359', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3858, 152965398, 3, '2021-11-29T07:33:46', 'krshkodes', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/777', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3859, 152965398, 3, '2021-08-11T08:42:18', 'schmelto', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/425', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3860, 152965398, 3, '2020-09-13T10:42:30', 'ThatOneTallKid', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3861, 152965398, 1, '2019-04-09T06:46:18', 'conoroshea1996', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3857, 152965398, 2, '2021-06-07T03:34:22', 'abhinavsaraswatt', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/359', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3858, 152965398, 3, '2021-11-29T07:33:46', 'krshkodes', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/777', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3862, 152965398, 2, '2018-10-16T08:48:11', 'Simbadeveloper', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3863, 152965398, 1, '2020-09-17T18:45:44', 'flyingsonu122', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/166', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3409, 293844582, 4, '2021-03-31T18:19:37', 'JeroenGoddijn', 'https://github.com/spicygreenbook/greenbook-app/pull/374', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10877,10 +10877,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1602, 249234386, 1, '2020-10-02T17:48:53', 'statik', 'https://github.com/steveseguin/vdo.ninja/pull/359', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1582, 249234386, 3, '2020-09-12T10:38:42', 'COOLIGUAY', 'https://github.com/steveseguin/vdo.ninja/pull/315', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1599, 249234386, 1, '2021-04-01T12:40:55', 'Arteboy', 'https://github.com/steveseguin/vdo.ninja/pull/816', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1598, 249234386, 4, '2022-09-17T20:20:56', 'theprincy', 'https://github.com/steveseguin/vdo.ninja/pull/992', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1597, 249234386, 2, '2022-02-13T08:09:14', 'nagaitsev', 'https://github.com/steveseguin/vdo.ninja/pull/933', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1603, 249234386, 1, '2021-01-27T22:04:46', 'SilverServerT', 'https://github.com/steveseguin/vdo.ninja/pull/675', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39303, 165522651, 2, '2021-05-20T17:56:33', 'quadruple-output', 'https://github.com/emilk/egui/pull/402', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1598, 249234386, 4, '2022-09-17T20:20:56', 'theprincy', 'https://github.com/steveseguin/vdo.ninja/pull/992', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (7182, 411705813, 1, '2021-10-06T18:45:29', 'Chiranjeev-droid', 'https://github.com/avinash201199/Portfolio-Collection/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1364, 219294494, 1, '2020-03-28T09:23:18', 'ammgws', 'https://github.com/xxh/xxh/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1335, 219294494, 1, '2020-12-18T19:49:10', 'petarvujovic98', 'https://github.com/xxh/xxh/pull/108', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
