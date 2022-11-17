@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-17T16:51:05.495Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-17T18:47:06.739Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2171,8 +2171,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4567, 488514, 4, '2018-07-30T23:53:05', 'agrim123', 'https://github.com/rubygems/bundler/pull/6627', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4571, 488514, 3, '2015-08-04T18:22:55', 'sferik', 'https://github.com/rubygems/bundler/pull/3912', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4569, 488514, 3, '2017-06-23T20:45:04', 'andremedeiros', 'https://github.com/rubygems/bundler/pull/5813', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4575, 488514, 4, '2016-12-23T15:46:50', 'chrismo', 'https://github.com/rubygems/bundler/pull/5273', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4566, 488514, 4, '2014-12-08T07:26:26', 'Who828', 'https://github.com/rubygems/bundler/pull/3290', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4565, 488514, 4, '2015-11-28T01:15:04', 'TimMoore', 'https://github.com/rubygems/bundler/pull/4127', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4577, 488514, 4, '2013-09-24T16:55:49', 'gnufied', 'https://github.com/rubygems/bundler/pull/2645', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4572, 488514, 3, '2015-08-22T18:11:17', 'Koronen', 'https://github.com/rubygems/bundler/pull/3956', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2234,6 +2232,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11676, 107111421, 4, '2017-11-23T03:33:25', 'KristofMorva', 'https://github.com/thedaviddias/Front-End-Checklist/pull/166', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65312, 409708968, 1, '2021-09-27T13:59:15', 'manekinekko', 'https://github.com/tom-doerr/zsh_codex/pull/2', null, '2022-09-09T18:32:23.407955+00:00', '2022-09-09T18:32:23.407955+00:00'),
 (535, 26195776, 1, '2017-03-05T22:04:14', 'bartriordan', 'https://github.com/JedWatson/classnames/pull/116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4575, 488514, 4, '2016-12-23T15:46:50', 'chrismo', 'https://github.com/rubygems/bundler/pull/5273', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4566, 488514, 4, '2014-12-08T07:26:26', 'Who828', 'https://github.com/rubygems/bundler/pull/3290', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (536, 26195776, 1, '2020-03-09T23:14:08', 'resetko', 'https://github.com/JedWatson/classnames/pull/170', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (549, 26195776, 4, '2015-02-14T02:13:28', 'chenglou', 'https://github.com/JedWatson/classnames/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65366, 61246596, 2, '2020-04-05T16:13:24', 'sherief', 'https://github.com/crosire/reshade/pull/171', null, '2022-09-09T19:20:02.514967+00:00', '2022-09-09T19:20:02.514967+00:00'),
