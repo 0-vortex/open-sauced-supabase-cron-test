@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-17T08:47:47.858Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-17T10:45:37.531Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1251,8 +1251,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32765, 47664932, 1, '2019-02-01T16:03:22', 'timothyubbens', 'https://github.com/dkhamsing/awesome_bot/pull/187', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5880, 21413198, 3, '2015-05-07T23:33:48', 'zertosh', 'https://github.com/immutable-js/immutable-js/pull/466', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37474, 495836457, 1, '2022-06-17T02:37:35', 's0er3n', 'https://github.com/t3-oss/create-t3-app/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37475, 495836457, 1, '2022-07-05T09:34:28', 'wlechowicz', 'https://github.com/t3-oss/create-t3-app/pull/114', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12217, 124910572, 3, '2021-12-10T14:09:38', 'anooptp', 'https://github.com/mozilla/bugbug/pull/2667', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37475, 495836457, 1, '2022-07-05T09:34:28', 'wlechowicz', 'https://github.com/t3-oss/create-t3-app/pull/114', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37476, 495836457, 1, '2022-07-03T12:54:41', 'patelzz007', 'https://github.com/t3-oss/create-t3-app/pull/82', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1654, 348060227, 4, '2022-05-17T15:44:50', 'FredKSchott', 'https://github.com/withastro/astro/pull/3386', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (50056, 49825187, 4, '2017-07-17T07:29:45', 'thombashi', 'https://github.com/thombashi/tcconfig/pull/76', null, '2022-08-05T00:25:03.025117+00:00', '2022-08-05T00:25:03.025117+00:00'),
