@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-20T01:05:52.225Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-20T03:10:25.750Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2822,8 +2822,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3288, 199486441, 2, '2020-01-24T18:17:24', 'mitchellkeaney', 'https://github.com/esmero/archipelago-deployment/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (78572, 393493377, 1, '2022-09-25T18:56:26', 'kentcdodds', 'https://github.com/skillrecordings/products/pull/482', null, '2022-09-30T12:37:45.823506+00:00', '2022-09-30T12:37:45.823506+00:00'),
 (65022, 37258357, 1, '2020-03-16T13:55:44', '23rd', 'https://github.com/hunspell/hunspell/pull/659', null, '2022-09-09T12:59:47.218229+00:00', '2022-09-09T12:59:47.218229+00:00'),
-(23141, 66474729, 2, '2020-04-13T16:34:32', 'patdowney', 'https://github.com/prowler-cloud/prowler/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2224, 257314632, 2, '2020-09-07T02:59:44', 'psiemens', 'https://github.com/onflow/fcl-js/pull/358', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(23141, 66474729, 2, '2020-04-13T16:34:32', 'patdowney', 'https://github.com/prowler-cloud/prowler/pull/532', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23142, 66474729, 2, '2019-09-17T18:54:31', 'venky999', 'https://github.com/prowler-cloud/prowler/pull/384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (637, 256786531, 4, '2021-09-09T21:00:05', 'delphinus', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1774', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (647, 256786531, 4, '2022-01-07T10:14:29', 'numToStr', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6659,8 +6659,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12843, 23247808, 3, '2020-02-08T14:57:51', 'runsisi', 'https://github.com/rqlite/rqlite/pull/627', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3544, 61426855, 4, '2019-05-22T12:46:30', 'vidyabhandary', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1353', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66908, 387542412, 1, '2021-11-01T07:52:33', 'jddcef', 'https://github.com/builtbybel/ThisIsWin11/pull/34', null, '2022-09-12T07:32:43.268008+00:00', '2022-09-12T07:32:43.268008+00:00'),
-(706, 48393191, 1, '2020-11-16T00:25:59', 'michaelruocco', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/316', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2060, 364149329, 4, '2021-10-06T15:30:36', 'bencgreenberg', 'https://github.com/orbit-love/github-actions-templates/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(706, 48393191, 1, '2020-11-16T00:25:59', 'michaelruocco', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/316', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2058, 364149329, 4, '2021-09-06T14:38:28', 'phazonoverload', 'https://github.com/orbit-love/github-actions-templates/pull/26', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2059, 364149329, 1, '2022-02-11T13:53:57', 'laurenelee', 'https://github.com/orbit-love/github-actions-templates/pull/35', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (557, 26195776, 2, '2016-12-08T00:21:48', 'avindra', 'https://github.com/JedWatson/classnames/pull/90', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
