@@ -3275,9 +3275,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3865,152965398,1,2021-08-18T16:41:57,sahilcode17,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/430,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3866,152965398,2,2020-09-25T07:30:00,Akshu-on-github,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/201,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3867,152965398,4,2021-01-23T20:07:34,adityaraute,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/261,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 3868,152965398,2,2021-10-04T12:19:13,CodingSpecies,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/470,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3472,375201253,1,2021-09-20T16:33:46,PatrickAlphaC,https://github.com/PatrickAlphaC/fund_me/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-79551,393556751,1,2022-10-02T04:26:03,AnishDe12020,https://github.com/adrianmg/github-pewpew/pull/37,,2022-10-03T11:38:23.488492+00:00,2022-10-03T11:38:23.488492+00:00
 3869,152965398,1,2021-06-06T07:28:55,sohan9819,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/339,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3870,152965398,2,2022-01-14T14:51:33,Cahllagerfeld,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/811,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3871,152965398,2,2022-03-01T16:41:00,doriandevtech,https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/958,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7754,7 +7754,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12829,229243256,3,2020-04-22T10:17:53,biki,https://github.com/candylabshq/wagtail-opengraph-image-generator/pull/6,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23836,45425758,1,2016-01-04T18:31:20,isidorn,https://github.com/microsoft/vscode-chrome-debug/pull/71,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23884,198896556,4,2022-09-20T17:02:51,roblourens,https://github.com/microsoft/vscode-js-debug/pull/1396,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-33264,393556751,1,2021-10-29T20:01:18,raulb,https://github.com/adrianmg/github-pewpew/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1543,60374819,4,2019-12-18T22:34:44,aschlaep,https://github.com/jupyterlab/jupyterlab/pull/7653,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3636,261861733,3,2021-08-27T23:35:34,rchao,https://github.com/keras-team/keras-io/pull/613,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3646,261861733,3,2021-10-26T17:32:02,sayannath,https://github.com/keras-team/keras-io/pull/677,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7769,9 +7768,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12288,93619165,4,2021-05-08T08:18:27,mlpo,https://github.com/alecthomas/chroma/pull/500,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 3643,261861733,4,2020-09-21T05:27:50,rickiepark,https://github.com/keras-team/keras-io/pull/253,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 67118,304740870,2,2022-09-27T08:31:06,dohomi,https://github.com/tamagui/tamagui/pull/238,,2022-09-12T17:58:57.339071+00:00,2022-09-12T17:58:57.339071+00:00
+33265,393556751,4,2022-10-02T04:32:26,adrianmg,https://github.com/adrianmg/github-pewpew/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 11930,10865436,1,2013-06-24T16:48:11,monicams,https://github.com/dypsilon/frontend-dev-bookmarks/pull/40,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5804,105412971,1,2018-01-03T10:51:40,linonetwo,https://github.com/stereobooster/react-snap/pull/94,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-33265,393556751,4,2022-10-02T04:32:26,adrianmg,https://github.com/adrianmg/github-pewpew/pull/45,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5802,105412971,1,2019-05-19T16:09:37,theKashey,https://github.com/stereobooster/react-snap/pull/338,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2717,102371998,2,2018-09-10T06:22:29,kazazes,https://github.com/nuxt-community/auth-module/pull/239,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12289,93619165,4,2018-04-02T08:39:23,steambap,https://github.com/alecthomas/chroma/pull/131,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -7781,6 +7780,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12838,23247808,4,2022-09-03T16:30:27,otoolep,https://github.com/rqlite/rqlite/pull/1065,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12839,23247808,1,2021-03-05T13:42:07,seraphico,https://github.com/rqlite/rqlite/pull/776,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 67121,304740870,2,2022-10-20T07:21:23,nandorojo,https://github.com/tamagui/tamagui/pull/289,,2022-09-12T17:58:57.339071+00:00,2022-09-12T17:58:57.339071+00:00
+33264,393556751,1,2021-10-29T20:01:18,raulb,https://github.com/adrianmg/github-pewpew/pull/24,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12834,23247808,1,2020-01-24T14:34:59,hjorvari,https://github.com/rqlite/rqlite/pull/625,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23888,198896556,4,2021-06-09T22:15:07,EricCornelson,https://github.com/microsoft/vscode-js-debug/pull/1022,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12313,93619165,3,2021-04-24T22:01:36,pabluk,https://github.com/alecthomas/chroma/pull/474,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
