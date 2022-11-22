@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-22T01:05:11.056Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-22T03:05:41.938Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1034,8 +1034,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1372, 112150776, 2, '2019-09-19T22:41:37', 'cschuller', 'https://github.com/11ty/eleventy/pull/687', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1374, 70860064, 1, '2017-09-14T03:11:58', 'styopdev', 'https://github.com/Yonet/Angular-Interview-Questions/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1375, 112150776, 2, '2022-05-09T20:39:21', 'epelc', 'https://github.com/11ty/eleventy/pull/2369', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1377, 70860064, 1, '2017-09-14T03:14:10', 'vivek4321', 'https://github.com/Yonet/Angular-Interview-Questions/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1376, 70860064, 1, '2019-12-11T07:53:10', 'philipgriffin', 'https://github.com/Yonet/Angular-Interview-Questions/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1377, 70860064, 1, '2017-09-14T03:14:10', 'vivek4321', 'https://github.com/Yonet/Angular-Interview-Questions/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1378, 112150776, 1, '2022-05-10T16:51:28', 'AleksandrHovhannisyan', 'https://github.com/11ty/eleventy/pull/2111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1287, 306449955, 2, '2021-03-08T17:28:57', 'thedocruby', 'https://github.com/IrisShaders/Iris/pull/166', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1284, 306449955, 1, '2022-04-24T20:27:50', 'Guanran928', 'https://github.com/IrisShaders/Iris/pull/1377', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7258,10 +7258,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (82624, 291494353, 1, '2020-10-04T06:44:31', 'lumamontes', 'https://github.com/Lorenalgm/hackathon-dicas/pull/1', null, '2022-10-08T19:39:24.025304+00:00', '2022-10-08T19:39:24.025304+00:00'),
 (6013, 369567537, 4, '2022-05-18T05:50:09', 'aelfa', 'https://github.com/dockserver/dockserver/pull/478', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6019, 369567537, 4, '2021-12-12T17:11:29', 'justinglock40', 'https://github.com/dockserver/dockserver/pull/318', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(6015, 369567537, 4, '2022-08-11T05:04:50', 'dan3805', 'https://github.com/dockserver/dockserver/pull/520', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (82625, 291494353, 1, '2021-04-05T14:58:53', 'CarlosViniMSouza', 'https://github.com/Lorenalgm/hackathon-dicas/pull/7', null, '2022-10-08T19:39:24.025304+00:00', '2022-10-08T19:39:24.025304+00:00'),
 (6021, 369567537, 1, '2021-06-04T04:44:47', 'ramsaytc', 'https://github.com/dockserver/dockserver/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (82626, 291494353, 2, '2021-03-29T04:16:24', 'CaioAugustoo', 'https://github.com/Lorenalgm/hackathon-dicas/pull/5', null, '2022-10-08T19:39:24.025304+00:00', '2022-10-08T19:39:24.025304+00:00'),
+(6015, 369567537, 4, '2022-08-11T05:04:50', 'dan3805', 'https://github.com/dockserver/dockserver/pull/520', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (40263, 22485114, 2, '2016-06-21T20:42:41', 'dcarley', 'https://github.com/hashicorp/hcl/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13607, 95876775, 1, '2017-07-12T21:21:42', 'rdsedmundo', 'https://github.com/elsewhencode/project-guidelines/pull/59', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4440, 338929421, 4, '2021-06-30T15:55:18', 'wwsean08', 'https://github.com/Team-TAU/tau/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7337,8 +7337,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (312, 276976140, 1, '2020-09-07T15:23:49', 'jesuswasrasta', 'https://github.com/mergestat/mergestat/pull/53', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12286, 93619165, 4, '2022-11-02T04:23:14', 'alecthomas', 'https://github.com/alecthomas/chroma/pull/693', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12316, 3662703, 4, '2021-02-22T19:09:35', 'krzys-h', 'https://github.com/colobot/colobot/pull/1391', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12317, 3662703, 4, '2022-02-07T14:24:10', 'MrSimbax', 'https://github.com/colobot/colobot/pull/1488', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12318, 3662703, 3, '2022-04-28T22:02:04', 'tomaszkax86', 'https://github.com/colobot/colobot/pull/1520', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12317, 3662703, 4, '2022-02-07T14:24:10', 'MrSimbax', 'https://github.com/colobot/colobot/pull/1488', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12319, 3662703, 2, '2012-09-13T16:09:41', 'piotrdz', 'https://github.com/colobot/colobot/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12320, 3662703, 4, '2022-01-30T20:21:16', 'tomangelo2', 'https://github.com/colobot/colobot/pull/1497', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12321, 3662703, 4, '2016-03-30T12:00:45', 'OdyX', 'https://github.com/colobot/colobot/pull/751', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
