@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-23T01:04:43.629Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-23T03:03:20.901Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2673,9 +2673,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13495, 111270855, 2, '2021-04-26T00:05:26', 'elianiva', 'https://github.com/wbthomason/packer.nvim/pull/322', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13494, 111270855, 1, '2021-10-08T11:29:35', 'AckslD', 'https://github.com/wbthomason/packer.nvim/pull/642', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13489, 111270855, 1, '2020-12-10T17:18:24', 'bfredl', 'https://github.com/wbthomason/packer.nvim/pull/119', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13491, 111270855, 1, '2022-02-10T04:51:35', 'danymat', 'https://github.com/wbthomason/packer.nvim/pull/809', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13492, 111270855, 1, '2021-05-18T19:01:36', 'ismaelgv', 'https://github.com/wbthomason/packer.nvim/pull/360', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3198, 324575078, 3, '2022-04-03T16:34:13', 'rajprem4214', 'https://github.com/Kushal997-das/Project-Guidance/pull/445', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(13491, 111270855, 1, '2022-02-10T04:51:35', 'danymat', 'https://github.com/wbthomason/packer.nvim/pull/809', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4610, 67831372, 4, '2022-06-05T15:44:55', 'PKief', 'https://github.com/PKief/vscode-material-icon-theme/pull/1540', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4613, 67831372, 4, '2021-08-18T18:22:44', 'SNDST00M', 'https://github.com/PKief/vscode-material-icon-theme/pull/1211', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4614, 67831372, 1, '2016-10-01T22:38:29', 'dudeofawesome', 'https://github.com/PKief/vscode-material-icon-theme/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7314,8 +7314,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12285, 93619165, 4, '2021-08-29T21:36:05', 'scop', 'https://github.com/alecthomas/chroma/pull/543', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11970, 107286889, 1, '2020-09-23T12:33:24', 'abdulniyaspm', 'https://github.com/schollz/croc/pull/273', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66979, 9185792, 4, '2021-03-03T10:40:53', 'wf123537200', 'https://github.com/apache/echarts/pull/14388', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
-(66980, 9185792, 4, '2021-07-15T12:03:54', 'yufeng04', 'https://github.com/apache/echarts/pull/14688', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
 (5906, 187335810, 2, '2019-08-01T14:52:17', 'pvande', 'https://github.com/jesseduffield/lazydocker/pull/142', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(66980, 9185792, 4, '2021-07-15T12:03:54', 'yufeng04', 'https://github.com/apache/echarts/pull/14688', null, '2022-09-12T08:08:57.987521+00:00', '2022-09-12T08:08:57.987521+00:00'),
 (11933, 10865436, 2, '2013-06-25T22:34:21', 'dnhn', 'https://github.com/dypsilon/frontend-dev-bookmarks/pull/48', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (298, 276976140, 4, '2022-11-17T15:53:26', 'patrickdevivo', 'https://github.com/mergestat/mergestat/pull/542', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8991, 230327376, 4, '2021-01-17T00:20:45', 'dpyte', 'https://github.com/ErikCH/DevYouTubeList/pull/218', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
