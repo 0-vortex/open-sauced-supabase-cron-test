@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-24T18:46:04.775Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-24T20:44:30.096Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3245,9 +3245,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3843, 90080868, 1, '2017-06-10T05:51:26', 'jacobjinkelly', 'https://github.com/saadq/resumake.io/pull/25', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3844, 90080868, 1, '2018-10-08T04:03:28', 'anelook', 'https://github.com/saadq/resumake.io/pull/76', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4814, 64700934, 4, '2022-06-02T22:42:49', 'frangio', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3451', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4813, 64700934, 4, '2021-11-06T21:29:52', 'nventuro', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2948', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4810, 64700934, 4, '2022-06-02T23:01:55', 'Amxx', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3448', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4812, 64700934, 4, '2017-11-14T20:24:43', 'maraoz', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/544', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4813, 64700934, 4, '2021-11-06T21:29:52', 'nventuro', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2948', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4811, 64700934, 4, '2020-01-21T20:58:07', 'AugustoL', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/2062', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4816, 64700934, 4, '2018-09-06T23:17:34', 'shrugs', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/1276', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38010, 66166069, 4, '2022-07-01T02:56:35', 'tannewt', 'https://github.com/adafruit/circuitpython/pull/6534', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3516,6 +3515,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4127, 184961291, 1, '2021-10-22T16:07:05', 'kelcheone', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4128, 397189231, 1, '2021-10-08T08:35:05', 'loranger', 'https://github.com/miroslavpejic85/mirotalksfu/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4129, 397189231, 1, '2022-03-10T12:53:01', 'iconio', 'https://github.com/miroslavpejic85/mirotalksfu/pull/41', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4812, 64700934, 4, '2017-11-14T20:24:43', 'maraoz', 'https://github.com/OpenZeppelin/openzeppelin-contracts/pull/544', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14060, 29371034, 4, '2021-06-11T16:19:48', 'chrusty', 'https://github.com/micro/micro/pull/1805', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14061, 29371034, 1, '2020-06-11T07:56:07', 'refs', 'https://github.com/micro/micro/pull/921', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14064, 29371034, 4, '2018-11-12T18:57:34', 'mgrachev', 'https://github.com/micro/micro/pull/212', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3931,9 +3931,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4545, 378536025, 1, '2022-01-26T18:22:14', 'dsoldatow', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4549, 378536025, 1, '2021-06-20T11:53:28', 'kadmil', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4541, 378536025, 1, '2021-08-18T15:53:20', 'LuPoYi', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4544, 378536025, 1, '2021-06-25T14:55:17', 'fadeev', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4537, 378536025, 2, '2021-06-29T01:35:48', 'phantomk', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3457, 9418724, 1, '2013-04-23T12:21:20', 'PhilETaylor', 'https://github.com/petems/tugboat/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4544, 378536025, 1, '2021-06-25T14:55:17', 'fadeev', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13081, 149638165, 3, '2020-11-03T17:35:03', 'juanca', 'https://github.com/testing-library/user-event/pull/404', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13080, 149638165, 1, '2021-04-18T08:48:15', 'bozdoz', 'https://github.com/testing-library/user-event/pull/654', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13066, 149638165, 1, '2020-04-23T11:39:22', 'wachunga', 'https://github.com/testing-library/user-event/pull/233', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
