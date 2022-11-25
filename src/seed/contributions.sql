@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-25T01:04:40.681Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-25T03:04:25.647Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3463,10 +3463,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4056, 381979, 4, '2018-05-09T19:23:14', 'acerix', 'https://github.com/fullcalendar/fullcalendar/pull/4167', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4057, 381979, 1, '2017-04-26T19:47:10', 'floriancargoet', 'https://github.com/fullcalendar/fullcalendar/pull/3609', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4058, 381979, 4, '2017-12-13T20:17:06', 'caseyjhol', 'https://github.com/fullcalendar/fullcalendar/pull/3908', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4061, 381979, 1, '2019-01-10T17:41:40', 'kdenzel', 'https://github.com/fullcalendar/fullcalendar/pull/4197', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4062, 381979, 2, '2014-05-21T19:01:07', 'sirrocco', 'https://github.com/fullcalendar/fullcalendar/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4059, 381979, 1, '2020-02-12T00:09:28', 'idrafttt', 'https://github.com/fullcalendar/fullcalendar/pull/5069', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4060, 381979, 2, '2016-07-11T03:57:07', 'avindra', 'https://github.com/fullcalendar/fullcalendar/pull/3266', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4061, 381979, 1, '2019-01-10T17:41:40', 'kdenzel', 'https://github.com/fullcalendar/fullcalendar/pull/4197', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4062, 381979, 2, '2014-05-21T19:01:07', 'sirrocco', 'https://github.com/fullcalendar/fullcalendar/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4063, 381979, 2, '2014-03-22T18:44:32', 'tpruvot', 'https://github.com/fullcalendar/fullcalendar/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4064, 381979, 1, '2020-12-18T23:40:24', 'njpearman', 'https://github.com/fullcalendar/fullcalendar/pull/5969', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4065, 381979, 1, '2017-10-06T21:38:09', 'Stafie', 'https://github.com/fullcalendar/fullcalendar/pull/3788', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7159,6 +7159,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (82618, 151455245, 2, '2019-05-11T13:31:47', 'ulissesalmeida', 'https://github.com/elixir-ecto/ecto_sql/pull/112', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (82619, 151455245, 2, '2021-11-01T06:56:58', 'aegatlin', 'https://github.com/elixir-ecto/ecto_sql/pull/356', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (82620, 151455245, 2, '2021-08-24T08:39:22', 'mpotra', 'https://github.com/elixir-ecto/ecto_sql/pull/298', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
+(82621, 151455245, 2, '2019-11-01T10:21:07', 'Eiji7', 'https://github.com/elixir-ecto/ecto_sql/pull/159', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (12098, 100433561, 2, '2022-01-30T06:53:13', 'ksun48', 'https://github.com/downforacross/downforacross.com/pull/223', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12088, 100433561, 2, '2020-06-07T00:46:24', 'stian8', 'https://github.com/downforacross/downforacross.com/pull/103', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12094, 100433561, 2, '2021-03-10T06:25:35', 'kevinjihwanlee', 'https://github.com/downforacross/downforacross.com/pull/176', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7186,7 +7187,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12125, 4979467, 4, '2019-07-17T19:22:25', 'ExE-Boss', 'https://github.com/PrismJS/prism/pull/1783', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12126, 4979467, 4, '2017-12-27T16:16:22', 'zeitgeist87', 'https://github.com/PrismJS/prism/pull/1254', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12127, 4979467, 1, '2017-09-09T12:20:57', 'Hyuchia', 'https://github.com/PrismJS/prism/pull/658', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(82621, 151455245, 2, '2019-11-01T10:21:07', 'Eiji7', 'https://github.com/elixir-ecto/ecto_sql/pull/159', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (12128, 4979467, 3, '2022-03-18T00:28:14', 'mcdurdin', 'https://github.com/PrismJS/prism/pull/3401', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12129, 4979467, 4, '2017-02-08T07:34:02', 'vkbansal', 'https://github.com/PrismJS/prism/pull/1094', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12130, 4979467, 4, '2022-03-05T21:03:09', 'Golmote', 'https://github.com/PrismJS/prism/pull/3365', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
