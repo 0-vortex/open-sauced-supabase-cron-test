@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T01:04:56.011Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T03:04:14.135Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3924,9 +3924,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4536, 378536025, 4, '2022-03-11T00:14:52', 'alvaroserrrano', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/41', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4539, 378536025, 3, '2021-07-05T13:58:50', 'Dilrong', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4538, 378536025, 1, '2021-11-19T13:25:12', 'junhoyeo', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/33', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4548, 378536025, 1, '2021-06-21T09:16:49', 'ice09', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4540, 378536025, 1, '2021-06-25T05:00:39', 'Dev-Mehta', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/12', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4546, 378536025, 1, '2021-08-21T00:51:47', 'ankurdubey521', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4548, 378536025, 1, '2021-06-21T09:16:49', 'ice09', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4542, 378536025, 2, '2021-10-08T13:15:18', 'sambacha', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/31', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4545, 378536025, 1, '2022-01-26T18:22:14', 'dsoldatow', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4549, 378536025, 1, '2021-06-20T11:53:28', 'kadmil', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7986,9 +7986,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23878, 40416236, 1, '2015-10-31T17:09:29', 'benpious', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/83', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23879, 40416236, 1, '2015-08-20T05:10:55', 'stuartpb', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/59', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34770, 220186120, 4, '2020-02-19T15:15:19', 'leogr', 'https://github.com/codenotary/immudb/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(34772, 220186120, 4, '2021-06-03T09:14:43', 'dmacvicar', 'https://github.com/codenotary/immudb/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34771, 220186120, 4, '2021-11-22T16:03:23', 'SimoneLazzaris', 'https://github.com/codenotary/immudb/pull/1002', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34775, 220186120, 4, '2021-06-14T09:36:34', 'mangalaman93', 'https://github.com/codenotary/immudb/pull/835', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(34772, 220186120, 4, '2021-06-03T09:14:43', 'dmacvicar', 'https://github.com/codenotary/immudb/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34773, 220186120, 3, '2020-06-02T16:35:12', 'mertakman', 'https://github.com/codenotary/immudb/pull/310', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34774, 220186120, 1, '2020-07-16T08:10:52', 'pascaldekloe', 'https://github.com/codenotary/immudb/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9006, 230327376, 2, '2020-02-19T04:53:09', 'BOLT04', 'https://github.com/ErikCH/DevYouTubeList/pull/111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
