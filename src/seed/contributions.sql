@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T12:51:47.530Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T14:44:41.519Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1804,8 +1804,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2294, 953600, 1, '2016-06-10T14:24:42', 'uludag', 'https://github.com/wurmlab/sequenceserver/pull/278', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2295, 953600, 4, '2021-05-15T11:39:10', 'yannickwurm', 'https://github.com/wurmlab/sequenceserver/pull/525', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2296, 953600, 4, '2016-02-01T11:13:00', 'wwood', 'https://github.com/wurmlab/sequenceserver/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2297, 953600, 1, '2018-07-08T00:01:02', 'CorreyL', 'https://github.com/wurmlab/sequenceserver/pull/368', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2298, 953600, 1, '2015-05-13T08:36:13', 'alekhyam94', 'https://github.com/wurmlab/sequenceserver/pull/191', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2297, 953600, 1, '2018-07-08T00:01:02', 'CorreyL', 'https://github.com/wurmlab/sequenceserver/pull/368', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2299, 953600, 1, '2016-10-05T06:10:14', 'nathanhaigh', 'https://github.com/wurmlab/sequenceserver/pull/311', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2300, 953600, 1, '2020-10-15T14:53:43', 'neelkamath', 'https://github.com/wurmlab/sequenceserver/pull/490', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2301, 953600, 1, '2018-09-29T15:02:24', 'jogoodma', 'https://github.com/wurmlab/sequenceserver/pull/377', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3280,8 +3280,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3865, 152965398, 1, '2021-08-18T16:41:57', 'sahilcode17', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/430', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3866, 152965398, 2, '2020-09-25T07:30:00', 'Akshu-on-github', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3867, 152965398, 4, '2021-01-23T20:07:34', 'adityaraute', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3868, 152965398, 2, '2021-10-04T12:19:13', 'CodingSpecies', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/470', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3472, 375201253, 1, '2021-09-20T16:33:46', 'PatrickAlphaC', 'https://github.com/PatrickAlphaC/fund_me/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3869, 152965398, 1, '2021-06-06T07:28:55', 'sohan9819', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3870, 152965398, 2, '2022-01-14T14:51:33', 'Cahllagerfeld', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/811', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
