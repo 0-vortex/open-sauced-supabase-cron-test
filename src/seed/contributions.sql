@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T10:44:24.042Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-27T12:51:47.530Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -462,6 +462,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13473, 111270855, 4, '2021-10-07T22:00:40', 'nanotee', 'https://github.com/wbthomason/packer.nvim/pull/624', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (102443, 128265535, 4, '2022-11-21T16:25:27', 'marzinkievitz', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1969', null, '2022-11-10T19:26:15.549533+00:00', '2022-11-10T19:26:15.549533+00:00'),
 (65035, 527591471, 2, '2022-09-08T05:09:28', 'fuzzytent', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/124', null, '2022-09-09T13:58:46.468323+00:00', '2022-09-09T13:58:46.468323+00:00'),
+(13481, 111270855, 2, '2020-08-18T14:38:42', 'tjdevries', 'https://github.com/wbthomason/packer.nvim/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13479, 111270855, 1, '2021-06-06T21:12:37', 'reiver-dev', 'https://github.com/wbthomason/packer.nvim/pull/384', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13477, 111270855, 1, '2020-12-07T23:30:54', 'ur4ltz', 'https://github.com/wbthomason/packer.nvim/pull/113', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13478, 111270855, 1, '2020-10-16T15:13:38', 'gwerbin', 'https://github.com/wbthomason/packer.nvim/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -622,7 +623,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (76248, 529735606, 1, '2022-09-10T04:06:15', 'luism6n', 'https://github.com/luism6n/insort/pull/2', null, '2022-09-27T10:54:28.178735+00:00', '2022-09-27T10:54:28.178735+00:00'),
 (5996, 53261245, 1, '2022-05-19T01:14:09', 'poohcom1', 'https://github.com/ryohey/signal/pull/173', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (6004, 53261245, 1, '2021-07-28T06:10:13', 'gitter-badger', 'https://github.com/ryohey/signal/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(13481, 111270855, 2, '2020-08-18T14:38:42', 'tjdevries', 'https://github.com/wbthomason/packer.nvim/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39697, 22652910, 2, '2015-09-29T18:45:02', 'chmac', 'https://github.com/ruipgil/scraperjs/pull/46', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2216, 257314632, 4, '2022-11-18T18:55:21', 'chasefleming', 'https://github.com/onflow/fcl-js/pull/1496', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (933, 91851756, 2, '2018-03-14T17:23:55', 'vdemeester', 'https://github.com/docker/docker-ce/pull/461', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
