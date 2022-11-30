@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-30T01:04:40.146Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-11-30T02:58:03.151Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8253,8 +8253,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3015, 14747598, 1, '2017-10-10T21:49:51', 'ai', 'https://github.com/typicode/json-server/pull/655', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37827, 93281221, 1, '2018-08-28T14:18:48', 'swmpkim', 'https://github.com/clauswilke/dataviz/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37821, 93281221, 1, '2019-01-14T19:07:09', 'trashbirdecology', 'https://github.com/clauswilke/dataviz/pull/86', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(6279, 175405157, 3, '2022-05-19T19:39:22', 'csrakowski', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2292', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37825, 93281221, 1, '2019-01-02T16:47:15', 'tjmahr', 'https://github.com/clauswilke/dataviz/pull/83', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(6279, 175405157, 3, '2022-05-19T19:39:22', 'csrakowski', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2292', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2065, 29497480, 2, '2017-10-31T20:29:29', 'barmmie', 'https://github.com/OpenDominion/OpenDominion/pull/162', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23916, 50668112, 1, '2018-01-22T09:23:44', 'Knuckles9090', 'https://github.com/Hashnode/mern-starter/pull/266', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23917, 50668112, 1, '2016-07-19T08:20:45', 'maciejmyslinski', 'https://github.com/Hashnode/mern-starter/pull/199', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
