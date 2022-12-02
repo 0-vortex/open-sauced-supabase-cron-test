@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-02T02:56:32.543Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-02T04:45:28.169Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2034,9 +2034,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (65349, 61246596, 4, '2022-01-08T00:40:14', 'seri14', 'https://github.com/crosire/reshade/pull/226', null, '2022-09-09T19:20:02.514967+00:00', '2022-09-09T19:20:02.514967+00:00'),
 (3736, 3946572, 1, '2017-05-15T08:51:11', 'bunkrich', 'https://github.com/PostgresApp/PostgresApp/pull/392', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32823, 18333318, 1, '2019-02-04T17:59:35', 'timhaines', 'https://github.com/pboling/seed_migration/pull/65', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2126, 57939112, 4, '2019-08-02T18:53:53', 'grodrigues3', 'https://github.com/kubernetes/community/pull/3963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4896, 17224877, 1, '2017-05-19T20:00:42', 'ragekit', 'https://github.com/defunkt/Zen/pull/104', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2907, 61893399, 1, '2019-10-10T20:49:25', 'bluebill1049', 'https://github.com/brillout/awesome-react-components/pull/146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2126, 57939112, 4, '2019-08-02T18:53:53', 'grodrigues3', 'https://github.com/kubernetes/community/pull/3963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2129, 57939112, 4, '2019-02-20T17:40:28', 'pwittrock', 'https://github.com/kubernetes/community/pull/3279', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4895, 17224877, 1, '2014-12-02T19:51:27', 'lucasmotta', 'https://github.com/defunkt/Zen/pull/36', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2135, 57939112, 4, '2022-03-05T01:04:51', 'tallclair', 'https://github.com/kubernetes/community/pull/6519', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4322,8 +4322,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (16171, 35969061, 3, '2017-08-07T21:14:44', 'alanyee', 'https://github.com/google/styleguide/pull/153', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16159, 35969061, 1, '2020-06-04T12:11:37', 'jbcoe', 'https://github.com/google/styleguide/pull/559', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16167, 35969061, 1, '2016-06-30T17:09:00', 'piotr-semenov', 'https://github.com/google/styleguide/pull/137', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16166, 35969061, 1, '2016-05-17T21:51:17', 'Dominator008', 'https://github.com/google/styleguide/pull/116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16169, 35969061, 1, '2015-09-04T02:14:46', 'nodirt', 'https://github.com/google/styleguide/pull/68', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(16166, 35969061, 1, '2016-05-17T21:51:17', 'Dominator008', 'https://github.com/google/styleguide/pull/116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16161, 35969061, 1, '2016-06-30T20:13:33', 'dimo414', 'https://github.com/google/styleguide/pull/151', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16158, 35969061, 4, '2017-09-07T18:59:02', 'shicks', 'https://github.com/google/styleguide/pull/272', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16163, 35969061, 2, '2016-09-29T18:03:52', 'LukeCz', 'https://github.com/google/styleguide/pull/184', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
