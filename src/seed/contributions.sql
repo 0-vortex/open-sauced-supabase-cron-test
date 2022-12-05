@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-05T12:52:40.110Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-05T14:44:27.117Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2597,8 +2597,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (32834, 18333318, 1, '2014-07-22T22:15:07', 'dmitry', 'https://github.com/pboling/seed_migration/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32832, 70530854, 4, '2019-12-06T21:11:10', 'sanathkr', 'https://github.com/aws/serverless-application-model/pull/1263', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2701, 13825712, 1, '2021-08-13T13:52:40', 'aartiomov', 'https://github.com/VirtoCommerce/vc-platform/pull/2342', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(750, 88011908, 1, '2017-05-02T01:35:53', 'mr-ubik', 'https://github.com/practical-tutorials/project-based-learning/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5702, 161588836, 4, '2022-09-23T20:12:17', 'sriharip-docusign', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1989', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(750, 88011908, 1, '2017-05-02T01:35:53', 'mr-ubik', 'https://github.com/practical-tutorials/project-based-learning/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (739, 88011908, 1, '2018-09-09T07:01:29', 'yrsdi', 'https://github.com/practical-tutorials/project-based-learning/pull/110', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3344, 28928917, 1, '2015-12-30T14:07:47', 'henray', 'https://github.com/prmr/JetUML/pull/137', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3374, 28928917, 4, '2021-05-14T20:27:18', 'yannsartori', 'https://github.com/prmr/JetUML/pull/430', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8695,8 +8695,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1837, 430789888, 1, '2022-01-03T11:23:32', 'akshatamohanty', 'https://github.com/Developer-DAO/web3-ui/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1889, 28548699, 1, '2019-05-27T02:26:41', 'mattdp', 'https://github.com/cassidoo/getting-a-gig/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1903, 28548699, 1, '2015-01-09T21:07:10', 'ruthgrace', 'https://github.com/cassidoo/getting-a-gig/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1901, 28548699, 1, '2015-03-12T17:51:56', 'rashiq', 'https://github.com/cassidoo/getting-a-gig/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1916, 28548699, 1, '2016-12-22T21:26:43', 'SuyashLakhotia', 'https://github.com/cassidoo/getting-a-gig/pull/32', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1901, 28548699, 1, '2015-03-12T17:51:56', 'rashiq', 'https://github.com/cassidoo/getting-a-gig/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1908, 28548699, 1, '2015-01-05T13:14:11', 'frankcash', 'https://github.com/cassidoo/getting-a-gig/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1888, 28548699, 1, '2021-10-07T17:38:34', 'neillperry', 'https://github.com/cassidoo/getting-a-gig/pull/55', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
