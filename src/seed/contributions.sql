@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-06T04:45:02.344Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-06T06:45:13.199Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2538,14 +2538,14 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11850, 326404870, 4, '2022-03-06T07:52:37', 'pranay01', 'https://github.com/SigNoz/signoz/pull/829', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11851, 326404870, 4, '2022-05-25T12:29:37', 'makeavish', 'https://github.com/SigNoz/signoz/pull/1206', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11852, 326404870, 4, '2022-01-17T10:29:28', 'ybettan', 'https://github.com/SigNoz/signoz/pull/615', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11853, 326404870, 4, '2021-10-22T11:36:05', 'jyash97', 'https://github.com/SigNoz/signoz/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(11854, 326404870, 4, '2022-05-19T16:54:59', 'srikanthccv', 'https://github.com/SigNoz/signoz/pull/1111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11855, 326404870, 4, '2021-08-29T07:31:39', 'rajdas66', 'https://github.com/SigNoz/signoz/pull/283', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11856, 326404870, 4, '2021-12-24T06:23:53', 'aryanshridhar', 'https://github.com/SigNoz/signoz/pull/538', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11857, 326404870, 4, '2022-05-04T16:15:20', 'ahsanbarkati', 'https://github.com/SigNoz/signoz/pull/1080', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11858, 326404870, 1, '2022-02-25T11:36:46', 'udasitharani', 'https://github.com/SigNoz/signoz/pull/753', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11859, 326404870, 2, '2021-10-11T11:00:50', 'szatyinadam', 'https://github.com/SigNoz/signoz/pull/329', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3022, 100060912, 4, '2022-06-01T17:53:56', 'j4james', 'https://github.com/microsoft/terminal/pull/13208', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(11853, 326404870, 4, '2021-10-22T11:36:05', 'jyash97', 'https://github.com/SigNoz/signoz/pull/344', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(11854, 326404870, 4, '2022-05-19T16:54:59', 'srikanthccv', 'https://github.com/SigNoz/signoz/pull/1111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3031, 100060912, 4, '2022-03-24T17:54:12', 'cinnamon-msft', 'https://github.com/microsoft/terminal/pull/12737', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3029, 100060912, 4, '2022-05-04T20:17:20', 'PankajBhojwani', 'https://github.com/microsoft/terminal/pull/13032', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3032, 100060912, 4, '2022-01-10T16:21:06', 'Rosefield', 'https://github.com/microsoft/terminal/pull/12073', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
