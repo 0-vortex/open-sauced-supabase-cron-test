@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-09T18:45:07.602Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-09T20:44:31.682Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10810,11 +10810,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5695, 161588836, 4, '2021-08-23T20:02:32', 'Cloudmersive', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1054', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5684, 161588836, 4, '2022-06-30T20:54:49', 'depfeife-msft', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1510', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5687, 161588836, 4, '2021-09-09T19:12:46', 'RFlipper', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1090', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1932, 68843078, 2, '2018-12-28T11:46:44', '0mp', 'https://github.com/jarun/bcal/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1936, 68843078, 4, '2017-06-16T15:58:08', 'SompuZ', 'https://github.com/jarun/bcal/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39656, 399775320, 4, '2022-05-27T13:33:38', 'chetan453', 'https://github.com/zinggAI/zingg/pull/298', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12207, 124910572, 4, '2019-05-02T19:43:19', 'sbeesm', 'https://github.com/mozilla/bugbug/pull/301', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12219, 124910572, 4, '2020-01-15T11:28:47', 'kushagra414', 'https://github.com/mozilla/bugbug/pull/1247', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1932, 68843078, 2, '2018-12-28T11:46:44', '0mp', 'https://github.com/jarun/bcal/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1936, 68843078, 4, '2017-06-16T15:58:08', 'SompuZ', 'https://github.com/jarun/bcal/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11945, 293570349, 1, '2020-10-04T14:46:31', 'jackdorland', 'https://github.com/cocogitto/cocogitto/pull/39', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (35855, 379652139, 1, '2022-03-02T16:34:21', 'KhatiaIvanova', 'https://github.com/ljharb/can-merge/pull/61', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (35851, 379652139, 2, '2022-04-06T03:08:48', 'MaheraFurniturewala', 'https://github.com/ljharb/can-merge/pull/73', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
