@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-10T01:04:24.464Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-10T02:51:02.789Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2028,6 +2028,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2468, 103953059, 1, '2018-08-07T10:56:54', 'Elecweb', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/117', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2469, 103953059, 1, '2018-05-23T19:10:28', 'tourniquet', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/116', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2477, 103953059, 1, '2017-10-31T19:38:57', 'komali2', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/89', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3739, 3946572, 2, '2017-11-06T09:19:32', 'piperchester', 'https://github.com/PostgresApp/PostgresApp/pull/419', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32816, 18333318, 2, '2014-06-17T22:24:03', 'voberoi', 'https://github.com/pboling/seed_migration/pull/7', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32815, 18333318, 2, '2016-10-05T13:04:08', 'blahblahblah-', 'https://github.com/pboling/seed_migration/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32814, 18333318, 1, '2016-02-11T18:17:40', 'zaccari', 'https://github.com/pboling/seed_migration/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2170,7 +2171,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3051, 7034320, 4, '2017-08-02T16:12:50', 'EdCharbeneau', 'https://github.com/MisterJames/GenFu/pull/115', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2643, 21938243, 4, '2020-10-01T21:40:02', 'svenstaro', 'https://github.com/rust-unofficial/awesome-rust/pull/974', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2641, 21938243, 4, '2020-04-21T10:21:00', 'yaa110', 'https://github.com/rust-unofficial/awesome-rust/pull/878', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3739, 3946572, 2, '2017-11-06T09:19:32', 'piperchester', 'https://github.com/PostgresApp/PostgresApp/pull/419', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11688, 107111421, 1, '2017-12-11T11:03:27', 'e200', 'https://github.com/thedaviddias/Front-End-Checklist/pull/198', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1782, 290703027, 4, '2021-10-06T19:28:12', 'krishkavya', 'https://github.com/kothariji/competitive-programming/pull/433', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1773, 290703027, 2, '2020-10-01T04:28:07', '27Anurag', 'https://github.com/kothariji/competitive-programming/pull/22', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
