@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-12T12:52:56.227Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-12T14:44:35.363Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3316,9 +3316,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3865, 152965398, 1, '2021-08-18T16:41:57', 'sahilcode17', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/430', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3866, 152965398, 2, '2020-09-25T07:30:00', 'Akshu-on-github', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3867, 152965398, 4, '2021-01-23T20:07:34', 'adityaraute', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3868, 152965398, 2, '2021-10-04T12:19:13', 'CodingSpecies', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/470', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3472, 375201253, 1, '2021-09-20T16:33:46', 'PatrickAlphaC', 'https://github.com/PatrickAlphaC/fund_me/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3869, 152965398, 1, '2021-06-06T07:28:55', 'sohan9819', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3870, 152965398, 2, '2022-01-14T14:51:33', 'Cahllagerfeld', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/811', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3871, 152965398, 2, '2022-03-01T16:41:00', 'doriandevtech', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/958', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
