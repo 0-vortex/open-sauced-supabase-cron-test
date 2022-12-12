@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-12T16:49:45.558Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-12T18:45:49.979Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -944,9 +944,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4796, 4302287, 1, '2015-12-09T21:22:37', 'jerryorr', 'https://github.com/plutext/docx4j/pull/169', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4793, 4302287, 1, '2015-12-07T05:47:49', 'JonathanLivingston', 'https://github.com/plutext/docx4j/pull/161', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4799, 4302287, 2, '2012-10-15T07:56:45', 'tstirrat', 'https://github.com/plutext/docx4j/pull/30', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4800, 4302287, 1, '2018-11-03T05:45:13', 'verkhovin', 'https://github.com/plutext/docx4j/pull/326', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4795, 4302287, 1, '2018-06-15T02:39:14', 'AlexElin', 'https://github.com/plutext/docx4j/pull/291', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2791, 377305568, 1, '2022-05-15T18:26:40', 'vazsingh', 'https://github.com/learntocloud/learn-to-cloud/pull/32', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4800, 4302287, 1, '2018-11-03T05:45:13', 'verkhovin', 'https://github.com/plutext/docx4j/pull/326', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2804, 377305568, 1, '2021-06-22T11:42:36', 'nathanrobb', 'https://github.com/learntocloud/learn-to-cloud/pull/7', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4797, 4302287, 1, '2018-11-15T00:13:16', 'P2EQgf', 'https://github.com/plutext/docx4j/pull/329', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4792, 4302287, 1, '2016-04-12T03:36:18', 'crherman7', 'https://github.com/plutext/docx4j/pull/186', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4188,8 +4188,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4740, 69590701, 4, '2019-09-19T08:34:27', 'AlexMarcuBytex', 'https://github.com/vmware/clarity/pull/3819', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4741, 69590701, 4, '2020-11-04T09:05:13', 'amellnik', 'https://github.com/vmware/clarity/pull/5195', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4742, 69590701, 4, '2021-06-08T12:09:22', 'sis0k0', 'https://github.com/vmware/clarity/pull/6015', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4743, 69590701, 4, '2019-10-23T22:53:32', 'andreiconstantinbytex', 'https://github.com/vmware/clarity/pull/3883', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4744, 69590701, 4, '2021-08-10T07:45:07', 'gerinjacob', 'https://github.com/vmware/clarity/pull/6209', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4743, 69590701, 4, '2019-10-23T22:53:32', 'andreiconstantinbytex', 'https://github.com/vmware/clarity/pull/3883', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4745, 69590701, 4, '2017-11-15T23:13:53', 'chunghha', 'https://github.com/vmware/clarity/pull/1691', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4746, 69590701, 4, '2020-04-14T07:20:27', 'mcosta74', 'https://github.com/vmware/clarity/pull/4442', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4747, 69590701, 4, '2022-05-05T19:42:23', 'ashleyryan', 'https://github.com/vmware/clarity/pull/6771', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7578,8 +7578,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2788, 243394576, 1, '2020-12-11T04:56:06', 'etep', 'https://github.com/pixie-io/pixie/pull/178', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5690, 161588836, 4, '2022-04-04T21:30:09', 'TimHanewich', 'https://github.com/microsoft/PowerPlatformConnectors/pull/1548', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5691, 161588836, 4, '2021-05-11T00:25:44', 'andvra', 'https://github.com/microsoft/PowerPlatformConnectors/pull/814', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2269, 21911597, 1, '2014-07-23T14:40:57', 'jeksys', 'https://github.com/tayllan/awesome-algorithms/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2288, 21911597, 2, '2015-03-16T21:00:53', 'felippegh', 'https://github.com/tayllan/awesome-algorithms/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2269, 21911597, 1, '2014-07-23T14:40:57', 'jeksys', 'https://github.com/tayllan/awesome-algorithms/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2281, 21911597, 4, '2019-01-05T18:31:53', 'kanglicheng', 'https://github.com/tayllan/awesome-algorithms/pull/85', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5705, 161588836, 4, '2020-03-23T17:26:07', 'schabungbam', 'https://github.com/microsoft/PowerPlatformConnectors/pull/210', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2266, 21911597, 2, '2017-09-11T23:12:19', 'nbro', 'https://github.com/tayllan/awesome-algorithms/pull/67', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
