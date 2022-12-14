@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-14T20:44:31.274Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-14T22:44:30.343Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8163,12 +8163,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12180, 3678664, 2, '2020-10-05T06:42:44', 'Neelix57', 'https://github.com/shlomif/PySolFC/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12179, 3678664, 4, '2018-04-09T08:54:05', 'lufebe16', 'https://github.com/shlomif/PySolFC/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23907, 198896556, 1, '2020-07-15T14:36:27', 'Ashikpaul', 'https://github.com/microsoft/vscode-js-debug/pull/614', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8503, 258922512, 4, '2020-11-03T16:41:12', 'ShizukuIchi', 'https://github.com/ShizukuIchi/pdf-editor/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9148, 6093316, 4, '2019-08-05T20:04:13', 'leonard-thieu', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/37349', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9138, 6093316, 4, '2014-11-16T12:27:35', 'Bartvds', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/3152', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23897, 198896556, 1, '2022-01-23T05:05:06', 'gioragutt', 'https://github.com/microsoft/vscode-js-debug/pull/1186', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (82575, 26639193, 1, '2020-03-04T05:26:11', 'mwood23', 'https://github.com/hugo53/awesome-RemoteWork/pull/32', null, '2022-10-08T19:24:32.883055+00:00', '2022-10-08T19:24:32.883055+00:00'),
 (5814, 105412971, 1, '2018-03-01T14:37:09', 'openjck', 'https://github.com/stereobooster/react-snap/pull/147', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8503, 258922512, 4, '2020-11-03T16:41:12', 'ShizukuIchi', 'https://github.com/ShizukuIchi/pdf-editor/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9140, 6093316, 4, '2022-03-28T15:49:25', 'Igorbek', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59377', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1610, 276143292, 1, '2020-10-07T20:48:08', 'CrypticEnigma00', 'https://github.com/negue/meme-box/pull/112', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1609, 276143292, 1, '2021-10-05T15:30:36', 'divshacker', 'https://github.com/negue/meme-box/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
