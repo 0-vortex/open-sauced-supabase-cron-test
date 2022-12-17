@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-17T08:44:27.815Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-17T10:45:04.764Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6686,8 +6686,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11667, 69193081, 2, '2021-03-25T23:05:27', 'shlee8405', 'https://github.com/freeCodeCamp/how-to-contribute-to-open-source/pull/535', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11382, 98698673, 3, '2019-04-15T03:42:39', '3stacks', 'https://github.com/bluebill1049/react-simple-animate/pull/44', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22528, 137223122, 1, '2021-06-28T15:11:57', 'j0hax', 'https://github.com/deepjyoti30/ytmdl/pull/189', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(3540, 61426855, 4, '2018-08-15T15:49:22', 'ayushin78', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/438', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22529, 137223122, 3, '2022-04-16T06:03:51', 'xgqt', 'https://github.com/deepjyoti30/ytmdl/pull/230', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(3540, 61426855, 4, '2018-08-15T15:49:22', 'ayushin78', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/438', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24062, 120149974, 1, '2019-02-17T02:47:13', 'gitter-badger', 'https://github.com/fonoster/fonoster/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32735, 34983527, 1, '2015-09-21T20:27:13', 'fugo', 'https://github.com/mundimark/awesome-markdown/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22530, 137223122, 1, '2019-11-17T15:47:30', 'dopsi', 'https://github.com/deepjyoti30/ytmdl/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
