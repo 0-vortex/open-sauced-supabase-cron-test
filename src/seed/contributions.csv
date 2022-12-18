@@ -5923,7 +5923,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 14285,41571541,3,2019-12-02T21:27:46,mbaitelman,https://github.com/inspec/inspec/pull/4724,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 14280,41571541,1,2022-04-05T14:54:27,dkumaras,https://github.com/inspec/inspec/pull/5960,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 14288,41571541,4,2016-09-28T18:49:52,stevendanna,https://github.com/inspec/inspec/pull/1177,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-38463,165658820,4,2019-02-21T20:45:05,donavon,https://github.com/donavon/use-dark-mode/pull/28,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1296,215854292,1,2022-01-03T14:47:46,railsstudent,https://github.com/CodesmithLLC/cs-bin-solutions/pull/15,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1298,215854292,1,2021-07-13T22:20:15,timeowilliams,https://github.com/CodesmithLLC/cs-bin-solutions/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16387,42191943,1,2019-04-26T09:59:52,Reinis,https://github.com/cyrus-and/gdb-dashboard/pull/143,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5939,7 +5938,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 32930,22662346,1,2016-11-03T21:56:26,vladucu,https://github.com/nicolasblanco/rails_param/pull/26,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8509,233020914,1,2021-04-15T08:25:33,goldenxp,https://github.com/Kirilllive/tuesday-js/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32935,22662346,1,2021-11-24T16:36:41,ccdredzik,https://github.com/nicolasblanco/rails_param/pull/82,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-38461,165658820,1,2019-11-05T13:39:45,janosh,https://github.com/donavon/use-dark-mode/pull/32,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+38463,165658820,4,2019-02-21T20:45:05,donavon,https://github.com/donavon/use-dark-mode/pull/28,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8990,230327376,3,2020-01-09T16:02:47,maheshvpawar,https://github.com/ErikCH/DevYouTubeList/pull/90,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 9009,230327376,4,2021-01-17T00:11:54,iamrubayet,https://github.com/ErikCH/DevYouTubeList/pull/199,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 32933,22662346,4,2021-09-28T15:25:39,ClaytonPassmore,https://github.com/nicolasblanco/rails_param/pull/78,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -5947,6 +5946,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 5786,138754790,4,2022-11-15T11:49:32,krlmlr,https://github.com/duckdb/duckdb/pull/5185,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5770,138754790,4,2022-07-13T07:35:14,tiagokepe,https://github.com/duckdb/duckdb/pull/4108,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38464,165658820,3,2019-03-12T17:24:12,wKovacs64,https://github.com/donavon/use-dark-mode/pull/29,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+38461,165658820,1,2019-11-05T13:39:45,janosh,https://github.com/donavon/use-dark-mode/pull/32,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8993,230327376,1,2019-12-27T18:05:28,mandaputtra,https://github.com/ErikCH/DevYouTubeList/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 38462,165658820,1,2020-03-13T17:44:27,hipstersmoothie,https://github.com/donavon/use-dark-mode/pull/42,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12100,353476301,1,2021-04-15T17:10:25,samkim,https://github.com/authzed/animated-code-example-component/pull/2,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8219,6 +8219,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 713,48393191,3,2016-12-05T19:22:01,remy-tiitre,https://github.com/nebula-plugins/gradle-lint-plugin/pull/71,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 35852,379652139,1,2021-07-14T17:47:26,und3fined-v01d,https://github.com/ljharb/can-merge/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 83610,527591471,4,2022-11-02T04:30:04,jn-jairo,https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4142,,2022-10-09T16:08:07.569112+00:00,2022-10-09T16:08:07.569112+00:00
+38459,165658820,1,2020-03-13T19:22:13,jorgegonzalez,https://github.com/donavon/use-dark-mode/pull/39,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 49993,139477280,1,2020-02-11T14:06:45,samnela,https://github.com/danielstern/vue-todomvc/pull/3,,2022-08-04T23:25:26.825834+00:00,2022-08-04T23:25:26.825834+00:00
 2708,13825712,4,2022-06-28T13:18:46,krankenbro,https://github.com/VirtoCommerce/vc-platform/pull/2518,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 6028,41638869,1,2015-12-27T21:02:44,ushuz,https://github.com/httpcats/http.cat/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8231,7 +8232,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1255,170738310,3,2019-03-24T17:39:52,ivrusuboca,https://github.com/trustwallet/wallet-core/pull/210,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8501,49372256,1,2017-10-01T20:41:14,subtleGradient,https://github.com/nuket/google-sheets-geocoding-macro/pull/7,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23905,198896556,1,2020-09-11T15:07:24,dcermak,https://github.com/microsoft/vscode-js-debug/pull/750,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-38459,165658820,1,2020-03-13T19:22:13,jorgegonzalez,https://github.com/donavon/use-dark-mode/pull/39,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23904,198896556,1,2021-06-27T20:28:12,Ashesh3,https://github.com/microsoft/vscode-js-debug/pull/1044,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23894,198896556,2,2022-05-04T15:58:49,joyceerhl,https://github.com/microsoft/vscode-js-debug/pull/1251,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1233,170738310,4,2019-04-16T10:20:36,NashMiao,https://github.com/trustwallet/wallet-core/pull/327,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
