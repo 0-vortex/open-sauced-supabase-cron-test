@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-19T20:44:33.823Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-19T22:44:27.082Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8174,11 +8174,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23897, 198896556, 1, '2022-01-23T05:05:06', 'gioragutt', 'https://github.com/microsoft/vscode-js-debug/pull/1186', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5817, 105412971, 1, '2018-07-20T18:58:32', 'nicolas-t', 'https://github.com/stereobooster/react-snap/pull/216', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49981, 15246993, 2, '2019-08-12T15:10:40', 'MelSumner', 'https://github.com/shipshapecode/shepherd/pull/503', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
-(8503, 258922512, 4, '2020-11-03T16:41:12', 'ShizukuIchi', 'https://github.com/ShizukuIchi/pdf-editor/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9140, 6093316, 4, '2022-03-28T15:49:25', 'Igorbek', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59377', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1610, 276143292, 1, '2020-10-07T20:48:08', 'CrypticEnigma00', 'https://github.com/negue/meme-box/pull/112', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1609, 276143292, 1, '2021-10-05T15:30:36', 'divshacker', 'https://github.com/negue/meme-box/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1643, 378070841, 2, '2022-10-29T17:06:21', 'NetanelBasal', 'https://github.com/ngneat/elf/pull/363', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8503, 258922512, 4, '2020-11-03T16:41:12', 'ShizukuIchi', 'https://github.com/ShizukuIchi/pdf-editor/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5814, 105412971, 1, '2018-03-01T14:37:09', 'openjck', 'https://github.com/stereobooster/react-snap/pull/147', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23893, 198896556, 1, '2022-05-17T17:55:02', 'ashgti', 'https://github.com/microsoft/vscode-js-debug/pull/1261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49984, 15246993, 1, '2021-09-23T13:54:54', 'loldalolwerollnroll', 'https://github.com/shipshapecode/shepherd/pull/1632', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
@@ -8208,7 +8208,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12192, 3678664, 2, '2019-12-22T09:23:05', 'topimiettinen', 'https://github.com/shlomif/PySolFC/pull/146', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12187, 3678664, 1, '2022-05-14T00:31:39', 'sergiomb2', 'https://github.com/shlomif/PySolFC/pull/255', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12188, 3678664, 1, '2021-10-09T04:26:45', 'leahneukirchen', 'https://github.com/shlomif/PySolFC/pull/224', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(8502, 258922512, 1, '2020-05-13T13:15:54', 'realdennis', 'https://github.com/ShizukuIchi/pdf-editor/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8498, 49372256, 1, '2021-07-12T22:53:55', 'MrCsabaToth', 'https://github.com/nuket/google-sheets-geocoding-macro/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2080, 29497480, 4, '2021-03-04T18:22:32', 'WaveHack', 'https://github.com/OpenDominion/OpenDominion/pull/841', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2055, 364149329, 1, '2021-08-02T10:39:02', 'KRRISH96', 'https://github.com/orbit-love/github-actions-templates/pull/23', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -8216,6 +8215,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12202, 124910572, 4, '2020-03-11T15:52:27', 'La0', 'https://github.com/mozilla/bugbug/pull/1394', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12236, 9746477, 4, '2022-07-08T21:54:07', 'lilyinstarlight', 'https://github.com/sonic-pi-net/sonic-pi/pull/3122', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12241, 9746477, 4, '2016-05-17T14:09:32', 'jweather', 'https://github.com/sonic-pi-net/sonic-pi/pull/1237', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(8502, 258922512, 1, '2020-05-13T13:15:54', 'realdennis', 'https://github.com/ShizukuIchi/pdf-editor/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5799, 80395811, 1, '2017-02-10T20:06:23', 'nihey', 'https://github.com/ivanseidel/Is-Now-Illegal/pull/32', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (552, 26195776, 1, '2017-05-17T01:08:08', 'betancourtl', 'https://github.com/JedWatson/classnames/pull/133', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34797, 220186120, 2, '2020-11-24T13:42:16', 'Giako', 'https://github.com/codenotary/immudb/pull/555', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
