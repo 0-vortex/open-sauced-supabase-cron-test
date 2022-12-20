@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-20T02:49:45.096Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-20T04:44:29.813Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7058,8 +7058,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (11897, 196760810, 4, '2021-07-05T18:02:30', 'NIDZAAA1', 'https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/pull/1797', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11898, 76669415, 4, '2020-08-18T20:54:21', 'byc1234', 'https://github.com/testingisdocumenting/znai/pull/527', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11899, 76669415, 4, '2020-05-12T01:28:59', 'jyeakel', 'https://github.com/testingisdocumenting/znai/pull/417', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(82594, 151455245, 4, '2020-10-12T06:57:48', 'josevalim', 'https://github.com/elixir-ecto/ecto_sql/pull/277', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (66943, 3816238, 4, '2022-03-26T06:52:01', 'tfabritius', 'https://github.com/buchen/portfolio/pull/2754', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
+(82594, 151455245, 4, '2020-10-12T06:57:48', 'josevalim', 'https://github.com/elixir-ecto/ecto_sql/pull/277', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (66947, 3816238, 4, '2021-05-23T07:16:30', 'christen90', 'https://github.com/buchen/portfolio/pull/2257', null, '2022-09-12T07:59:07.767074+00:00', '2022-09-12T07:59:07.767074+00:00'),
 (82595, 151455245, 4, '2022-09-13T18:10:01', 'greg-rychlewski', 'https://github.com/elixir-ecto/ecto_sql/pull/440', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
 (82596, 151455245, 4, '2022-01-21T15:36:30', 'v0idpwn', 'https://github.com/elixir-ecto/ecto_sql/pull/378', null, '2022-10-08T19:32:28.827087+00:00', '2022-10-08T19:32:28.827087+00:00'),
