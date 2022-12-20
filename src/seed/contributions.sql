@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-20T16:47:47.714Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-20T18:44:30.640Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2928,10 +2928,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (53142, 90590303, 1, '2021-05-24T05:07:05', 'tmiddlet2666', 'https://github.com/graphql-java/awesome-graphql-java/pull/34', null, '2022-08-12T10:50:15.106202+00:00', '2022-08-12T10:50:15.106202+00:00'),
 (970, 33820955, 3, '2017-02-02T10:51:50', 'danrevah', 'https://github.com/timjacobi/angular-education/pull/175', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3389, 293844582, 4, '2021-01-05T06:04:18', 'its-nate', 'https://github.com/spicygreenbook/greenbook-app/pull/219', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(78913, 435560060, 2, '2022-09-27T13:18:17', 'trungnt2910', 'https://github.com/DiscordStyles/Fluent/pull/85', null, '2022-10-01T17:27:41.585361+00:00', '2022-10-01T17:27:41.585361+00:00'),
 (14154, 400851369, 1, '2021-09-09T12:23:49', 'tzachar', 'https://github.com/lewis6991/impatient.nvim/pull/19', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14150, 400851369, 1, '2021-08-30T20:27:11', 'shadmansaleh', 'https://github.com/lewis6991/impatient.nvim/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14153, 400851369, 1, '2021-09-28T18:33:27', 'williamboman', 'https://github.com/lewis6991/impatient.nvim/pull/34', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(78913, 435560060, 2, '2022-09-27T13:18:17', 'trungnt2910', 'https://github.com/DiscordStyles/Fluent/pull/85', null, '2022-10-01T17:27:41.585361+00:00', '2022-10-01T17:27:41.585361+00:00'),
 (3466, 203364472, 1, '2020-05-30T12:18:42', 'drewwynne0', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3470, 9418724, 4, '2014-04-24T16:58:52', 'blom', 'https://github.com/petems/tugboat/pull/100', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
