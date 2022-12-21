@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-21T02:48:23.366Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-21T04:44:34.923Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7262,8 +7262,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12142, 4979467, 3, '2015-09-15T06:15:33', 'uranusjr', 'https://github.com/PrismJS/prism/pull/450', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12143, 4979467, 4, '2015-06-14T17:43:49', 'apfelbox', 'https://github.com/PrismJS/prism/pull/597', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12144, 4979467, 4, '2020-07-06T19:01:11', 'cedporter', 'https://github.com/PrismJS/prism/pull/2463', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12146, 4979467, 2, '2019-01-13T21:47:59', 'dellagustin', 'https://github.com/PrismJS/prism/pull/1704', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12145, 4979467, 2, '2019-02-13T22:33:39', 'CupOfTea696', 'https://github.com/PrismJS/prism/pull/1731', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12146, 4979467, 2, '2019-01-13T21:47:59', 'dellagustin', 'https://github.com/PrismJS/prism/pull/1704', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12147, 10126031, 4, '2014-08-19T04:21:15', 'badescunicu', 'https://github.com/mixxxdj/mixxx/pull/303', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12148, 10126031, 4, '2014-08-16T17:14:06', 'demos', 'https://github.com/mixxxdj/mixxx/pull/313', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12149, 10126031, 4, '2022-05-27T17:40:38', 'daschuer', 'https://github.com/mixxxdj/mixxx/pull/4771', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10639,8 +10639,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23887, 198896556, 4, '2020-10-29T19:01:22', 'digeff', 'https://github.com/microsoft/vscode-js-debug/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23926, 198896556, 2, '2021-05-25T22:50:57', 'lhchavez', 'https://github.com/microsoft/vscode-js-debug/pull/1010', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23883, 198896556, 4, '2019-09-05T20:10:04', 'dgozman', 'https://github.com/microsoft/vscode-js-debug/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (308, 218115303, 4, '2021-09-10T00:03:03', 'anothertempore', 'https://github.com/vercel/swr/pull/1440', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (285, 218115303, 2, '2021-11-26T15:10:31', 'TakahiroHimi', 'https://github.com/vercel/swr/pull/1609', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (890, 49020217, 1, '2016-01-09T23:23:48', 'Kaijun', 'https://github.com/petehunt/react-howto/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10653,8 +10651,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (735, 281151556, 4, '2022-08-18T10:41:07', 'TheJoin95', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/112', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1806, 227393393, 1, '2020-03-27T16:09:52', 'sorskoot', 'https://github.com/livecoders/website/pull/31', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (906, 49020217, 1, '2016-01-07T04:21:16', 'kentcdodds', 'https://github.com/petehunt/react-howto/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (320, 218115303, 4, '2020-01-11T02:29:28', 'aequasi', 'https://github.com/vercel/swr/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (282, 218115303, 4, '2020-11-15T15:22:06', 'matamatanot', 'https://github.com/vercel/swr/pull/772', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9305, 218115303, 2, '2022-05-25T17:10:37', 'anirudh1713', 'https://github.com/vercel/swr/pull/1995', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
