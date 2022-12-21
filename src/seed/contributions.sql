@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-21T01:04:10.230Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-21T02:48:23.366Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -7262,8 +7262,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12142, 4979467, 3, '2015-09-15T06:15:33', 'uranusjr', 'https://github.com/PrismJS/prism/pull/450', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12143, 4979467, 4, '2015-06-14T17:43:49', 'apfelbox', 'https://github.com/PrismJS/prism/pull/597', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12144, 4979467, 4, '2020-07-06T19:01:11', 'cedporter', 'https://github.com/PrismJS/prism/pull/2463', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12145, 4979467, 2, '2019-02-13T22:33:39', 'CupOfTea696', 'https://github.com/PrismJS/prism/pull/1731', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12146, 4979467, 2, '2019-01-13T21:47:59', 'dellagustin', 'https://github.com/PrismJS/prism/pull/1704', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12145, 4979467, 2, '2019-02-13T22:33:39', 'CupOfTea696', 'https://github.com/PrismJS/prism/pull/1731', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12147, 10126031, 4, '2014-08-19T04:21:15', 'badescunicu', 'https://github.com/mixxxdj/mixxx/pull/303', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12148, 10126031, 4, '2014-08-16T17:14:06', 'demos', 'https://github.com/mixxxdj/mixxx/pull/313', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12149, 10126031, 4, '2022-05-27T17:40:38', 'daschuer', 'https://github.com/mixxxdj/mixxx/pull/4771', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
