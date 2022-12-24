@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-24T18:44:37.083Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-24T20:44:35.356Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3039,12 +3039,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (885, 49020217, 1, '2016-02-17T06:56:27', 'petehouston', 'https://github.com/petehunt/react-howto/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16817, 121814210, 4, '2022-02-10T19:59:35', 'jclem', 'https://github.com/primer/react/pull/1857', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16814, 121814210, 1, '2021-03-29T12:16:46', 'lffg', 'https://github.com/primer/react/pull/1133', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16812, 121814210, 2, '2020-09-23T20:06:50', 'HaigDouzy', 'https://github.com/primer/react/pull/852', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16828, 121814210, 4, '2022-04-22T12:03:23', 'rezrah', 'https://github.com/primer/react/pull/2041', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16821, 121814210, 2, '2020-06-11T21:41:08', 'ashygee', 'https://github.com/primer/react/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16818, 121814210, 3, '2020-11-19T17:28:55', 'koddsson', 'https://github.com/primer/react/pull/914', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16829, 121814210, 2, '2020-02-05T22:04:18', 'alanbsmith', 'https://github.com/primer/react/pull/685', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3627, 45350538, 1, '2018-10-31T23:31:53', 'rpbaltazar', 'https://github.com/piotrmurach/tty-prompt/pull/92', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(16812, 121814210, 2, '2020-09-23T20:06:50', 'HaigDouzy', 'https://github.com/primer/react/pull/852', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (92415, 527591471, 4, '2022-11-05T13:22:50', 'aria1th', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4297', null, '2022-10-24T16:22:41.078863+00:00', '2022-10-24T16:22:41.078863+00:00'),
 (1184, 23974149, 1, '2017-06-11T05:50:40', 'philipraets', 'https://github.com/Dogfalo/materialize/pull/4445', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8505, 141334515, 2, '2019-10-16T03:57:56', 'lcb931023', 'https://github.com/kormyen/memex/pull/13', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
