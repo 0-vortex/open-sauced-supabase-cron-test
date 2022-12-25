@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-25T02:49:52.699Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-25T04:44:22.062Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5686,8 +5686,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1415, 122681898, 2, '2021-05-27T21:30:12', 'kylebunting', 'https://github.com/microsoft/MCW-Modern-cloud-apps/pull/87', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46674, 237523442, 4, '2022-06-07T18:50:08', 'rosszurowski', 'https://github.com/tailscale/tailscale/pull/4812', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8768, 132732601, 3, '2020-02-17T15:17:48', 'giorgos-apo', 'https://github.com/canonical/microk8s/pull/963', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(514, 175405157, 4, '2022-08-09T08:00:24', 'JanDeDobbeleer', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2637', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (508, 175405157, 1, '2022-05-05T18:31:06', 'felpel', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2216', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(514, 175405157, 4, '2022-08-09T08:00:24', 'JanDeDobbeleer', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2637', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (46676, 237523442, 4, '2021-04-21T04:41:00', 'alexbrainman', 'https://github.com/tailscale/tailscale/pull/1464', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5994, 31168578, 2, '2018-11-16T23:42:25', 'hekmekk', 'https://github.com/hemanth/functional-programming-jargon/pull/190', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8710, 371575501, 1, '2021-08-21T16:15:34', 'jewlexx', 'https://github.com/akd-io/create-next-stack/pull/111', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
