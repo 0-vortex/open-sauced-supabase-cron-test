@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-27T01:04:34.044Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-27T02:48:24.872Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5108,12 +5108,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3377, 501689, 4, '2022-04-02T16:49:31', 'parrt', 'https://github.com/antlr/stringtemplate4/pull/299', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22358, 25315643, 2, '2016-01-06T19:31:43', 'colinking', 'https://github.com/nylas/nylas-mail/pull/913', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1835, 430789888, 2, '2022-01-28T07:05:07', 'AlexNi245', 'https://github.com/Developer-DAO/web3-ui/pull/258', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1455, 16607898, 3, '2019-09-01T20:25:44', 'techknowlogick', 'https://github.com/harness/drone/pull/2721', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1828, 281778548, 4, '2022-06-06T21:15:29', 'voraciousdev', 'https://github.com/writewithocto/octo/pull/190', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1955, 14173176, 1, '2018-06-09T06:58:30', 'qxo', 'https://github.com/EsotericSoftware/kryo/pull/533', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (11397, 399197235, 1, '2021-08-25T04:41:45', 'Akalay27', 'https://github.com/Akalay27/workday-schedule-exporter/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16414, 327628682, 4, '2022-05-21T18:11:11', 'jerebtw', 'https://github.com/mantinedev/mantine/pull/1491', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4488, 276414382, 2, '2020-10-14T00:49:41', 'arjunattam', 'https://github.com/microsoft/playwright-python/pull/235', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1455, 16607898, 3, '2019-09-01T20:25:44', 'techknowlogick', 'https://github.com/harness/drone/pull/2721', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1828, 281778548, 4, '2022-06-06T21:15:29', 'voraciousdev', 'https://github.com/writewithocto/octo/pull/190', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13677, 3402537, 4, '2018-01-16T22:39:24', 'blackfalcon', 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/pull/436', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (13678, 3402537, 1, '2012-07-23T02:48:45', 'Victa', 'https://github.com/h5bp/Front-end-Developer-Interview-Questions/pull/17', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14159, 262943932, 4, '2022-02-10T18:05:07', 'eladb', 'https://github.com/projen/projen/pull/1607', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
