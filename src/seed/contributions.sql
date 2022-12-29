@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-29T10:44:24.893Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-29T12:50:37.286Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -8130,8 +8130,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (34788, 220186120, 2, '2021-04-06T20:30:14', 'ellisab', 'https://github.com/codenotary/immudb/pull/684', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (34781, 220186120, 1, '2022-05-18T12:25:00', 'sibijohn72', 'https://github.com/codenotary/immudb/pull/1205', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12115, 344697559, 2, '2022-02-17T22:46:49', 'quanphan2906', 'https://github.com/nalmadi/EMIP-Toolkit/pull/79', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(9139, 6093316, 4, '2017-01-12T17:39:21', 'chrootsu', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/13722', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9124, 6093316, 4, '2021-11-18T21:40:47', 'RyanCavanaugh', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/57261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(9139, 6093316, 4, '2017-01-12T17:39:21', 'chrootsu', 'https://github.com/DefinitelyTyped/DefinitelyTyped/pull/13722', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (49974, 15246993, 1, '2014-04-29T00:35:54', 'bbttxu', 'https://github.com/shipshapecode/shepherd/pull/10', null, '2022-08-04T23:15:16.036092+00:00', '2022-08-04T23:15:16.036092+00:00'),
 (325, 218115303, 4, '2020-02-24T20:05:27', 'Svish', 'https://github.com/vercel/swr/pull/265', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12262, 94498635, 4, '2018-01-23T01:45:54', 'yeskunall', 'https://github.com/carbon-app/carbon/pull/172', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
