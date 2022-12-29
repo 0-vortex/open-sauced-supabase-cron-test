@@ -8171,7 +8171,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 9140,6093316,4,2022-03-28T15:49:25,Igorbek,https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59377,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1610,276143292,1,2020-10-07T20:48:08,CrypticEnigma00,https://github.com/negue/meme-box/pull/112,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1609,276143292,1,2021-10-05T15:30:36,divshacker,https://github.com/negue/meme-box/pull/339,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8503,258922512,4,2020-11-03T16:41:12,ShizukuIchi,https://github.com/ShizukuIchi/pdf-editor/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 129102,109415279,1,2018-07-11T17:02:24,psikoz,https://github.com/BasioMeusPuga/Lector/pull/71,,2022-12-27T08:40:16.405979+00:00,2022-12-27T08:40:16.405979+00:00
 12267,94498635,2,2018-12-11T16:45:53,wooooooak,https://github.com/carbon-app/carbon/pull/599,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23893,198896556,1,2022-05-17T17:55:02,ashgti,https://github.com/microsoft/vscode-js-debug/pull/1261,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8185,6 +8184,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 1643,378070841,2,2022-10-29T17:06:21,NetanelBasal,https://github.com/ngneat/elf/pull/363,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 49986,15246993,1,2020-07-30T19:12:50,anakorn,https://github.com/shipshapecode/shepherd/pull/1074,,2022-08-04T23:15:16.036092+00:00,2022-08-04T23:15:16.036092+00:00
 23890,198896556,2,2021-06-16T21:18:54,rinselmann,https://github.com/microsoft/vscode-js-debug/pull/1032,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+8503,258922512,4,2020-11-03T16:41:12,ShizukuIchi,https://github.com/ShizukuIchi/pdf-editor/pull/14,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 297,11981144,4,2020-11-20T09:12:54,vkyfox,https://github.com/languagetool-org/languagetool/pull/3894,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23900,198896556,1,2020-01-03T16:06:34,jcrben,https://github.com/microsoft/vscode-js-debug/pull/203,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 98258,527591471,4,2022-11-05T23:54:10,Harvester62,https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4342,,2022-11-03T18:57:59.463554+00:00,2022-11-03T18:57:59.463554+00:00
@@ -8204,7 +8204,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 12188,3678664,1,2021-10-09T04:26:45,leahneukirchen,https://github.com/shlomif/PySolFC/pull/224,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 129106,109415279,1,2018-03-21T10:01:50,szymonpk,https://github.com/BasioMeusPuga/Lector/pull/28,,2022-12-27T08:40:16.405979+00:00,2022-12-27T08:40:16.405979+00:00
 5799,80395811,1,2017-02-10T20:06:23,nihey,https://github.com/ivanseidel/Is-Now-Illegal/pull/32,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-8502,258922512,1,2020-05-13T13:15:54,realdennis,https://github.com/ShizukuIchi/pdf-editor/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2055,364149329,1,2021-08-02T10:39:02,KRRISH96,https://github.com/orbit-love/github-actions-templates/pull/23,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 12229,9746477,4,2016-06-02T12:26:03,hzulla,https://github.com/sonic-pi-net/sonic-pi/pull/1280,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 35852,379652139,1,2021-07-14T17:47:26,und3fined-v01d,https://github.com/ljharb/can-merge/pull/4,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -8216,6 +8215,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 34797,220186120,2,2020-11-24T13:42:16,Giako,https://github.com/codenotary/immudb/pull/555,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 24500,326338540,1,2021-04-23T05:19:23,akiller,https://github.com/Breq16/flask-discord-interactions/pull/13,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 98267,527591471,4,2022-11-02T17:35:47,M-art-ucci,https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4180,,2022-11-03T18:57:59.463554+00:00,2022-11-03T18:57:59.463554+00:00
+8502,258922512,1,2020-05-13T13:15:54,realdennis,https://github.com/ShizukuIchi/pdf-editor/pull/3,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 713,48393191,3,2016-12-05T19:22:01,remy-tiitre,https://github.com/nebula-plugins/gradle-lint-plugin/pull/71,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 49993,139477280,1,2020-02-11T14:06:45,samnela,https://github.com/danielstern/vue-todomvc/pull/3,,2022-08-04T23:25:26.825834+00:00,2022-08-04T23:25:26.825834+00:00
 83610,527591471,4,2022-11-02T04:30:04,jn-jairo,https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4142,,2022-10-09T16:08:07.569112+00:00,2022-10-09T16:08:07.569112+00:00
