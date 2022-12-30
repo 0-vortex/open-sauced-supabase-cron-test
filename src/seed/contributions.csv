@@ -108,7 +108,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 37101,261787758,4,2022-02-16T08:25:02,jaravad,https://github.com/bradtraversy/design-resources-for-developers/pull/1086,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16151,35969061,4,2022-05-25T21:05:50,gpshead,https://github.com/google/styleguide/pull/692,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 5779,138754790,3,2021-12-08T17:48:47,Manerone,https://github.com/duckdb/duckdb/pull/2526,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-75793,435560060,1,2022-09-25T22:48:02,Monochromish,https://github.com/DiscordStyles/Fluent/pull/81,,2022-09-26T17:21:17.585024+00:00,2022-09-26T17:21:17.585024+00:00
 16152,35969061,4,2021-04-12T13:50:41,elharo,https://github.com/google/styleguide/pull/636,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16155,35969061,4,2019-09-10T11:05:14,pwnall,https://github.com/google/styleguide/pull/471,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 37102,261787758,4,2020-10-16T09:29:52,StefanSelfTaught,https://github.com/bradtraversy/design-resources-for-developers/pull/664,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -140,6 +139,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 2539,35955666,4,2018-04-07T20:07:44,anna-d,https://github.com/jlevy/the-art-of-command-line/pull/551,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2500,35955666,1,2015-06-28T17:12:47,niltonvasques,https://github.com/jlevy/the-art-of-command-line/pull/137,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 2066,29497480,1,2020-01-18T12:12:42,sandervankasteel,https://github.com/OpenDominion/OpenDominion/pull/766,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+75793,435560060,1,2022-09-25T22:48:02,Monochromish,https://github.com/DiscordStyles/Fluent/pull/81,,2022-09-26T17:21:17.585024+00:00,2022-09-26T17:21:17.585024+00:00
 49968,15246993,4,2022-12-12T16:14:24,rwwagner90,https://github.com/shipshapecode/shepherd/pull/2183,,2022-08-04T23:15:16.036092+00:00,2022-08-04T23:15:16.036092+00:00
 49971,15246993,1,2014-04-16T17:46:23,zackbloom,https://github.com/shipshapecode/shepherd/pull/8,,2022-08-04T23:15:16.036092+00:00,2022-08-04T23:15:16.036092+00:00
 12294,93619165,4,2022-11-15T07:57:46,silverwind,https://github.com/alecthomas/chroma/pull/710,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2943,6 +2943,7 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 3485,75322405,4,2022-04-09T08:51:46,kyessenov,https://github.com/istio/proxy/pull/3801,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 8629,128265535,3,2020-10-27T20:17:35,rhrh1997,https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1095,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1940,14173176,1,2019-05-04T16:55:58,candrews,https://github.com/EsotericSoftware/kryo/pull/672,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
+78913,435560060,2,2022-09-27T13:18:17,trungnt2910,https://github.com/DiscordStyles/Fluent/pull/85,,2022-10-01T17:27:41.585361+00:00,2022-10-01T17:27:41.585361+00:00
 16824,121814210,2,2019-07-17T19:21:34,mxstbr,https://github.com/primer/react/pull/490,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16820,121814210,4,2020-12-02T00:28:31,keithamus,https://github.com/primer/react/pull/926,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 16816,121814210,4,2022-04-08T08:15:04,pksjce,https://github.com/primer/react/pull/2007,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -2968,7 +2969,6 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 39917,80276391,2,2020-11-06T13:09:27,D4rkia,https://github.com/GitSquared/edex-ui/pull/850,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39918,80276391,2,2020-11-28T23:10:15,KjartanOli,https://github.com/GitSquared/edex-ui/pull/925,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 1948,14173176,1,2018-03-24T10:01:05,alexandrebouchard,https://github.com/EsotericSoftware/kryo/pull/576,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
-78913,435560060,2,2022-09-27T13:18:17,trungnt2910,https://github.com/DiscordStyles/Fluent/pull/85,,2022-10-01T17:27:41.585361+00:00,2022-10-01T17:27:41.585361+00:00
 23065,240574799,2,2020-02-22T03:50:57,szTheory,https://github.com/devato/inertia_phoenix/pull/22,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 23064,240574799,1,2020-02-17T14:58:29,zimt28,https://github.com/devato/inertia_phoenix/pull/8,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
 39921,80276391,2,2020-11-26T09:15:29,Jabster28,https://github.com/GitSquared/edex-ui/pull/912,,2022-08-04T23:03:55.220394+00:00,2022-08-04T23:03:55.220394+00:00
@@ -9566,9 +9566,9 @@ id,repo_id,count,last_merged_at,contributor,url,deleted_at,updated_at,created_at
 70343,40307075,1,2018-08-12T20:09:20,taprun,https://github.com/zudochkin/awesome-newsletters/pull/82,,2022-09-17T21:16:00.168048+00:00,2022-09-17T21:16:00.168048+00:00
 70346,40307075,1,2022-01-25T08:47:37,ale6rbd,https://github.com/zudochkin/awesome-newsletters/pull/182,,2022-09-17T21:16:00.168048+00:00,2022-09-17T21:16:00.168048+00:00
 70341,40307075,1,2022-01-25T18:13:54,aaryanporwal,https://github.com/zudochkin/awesome-newsletters/pull/183,,2022-09-17T21:16:00.168048+00:00,2022-09-17T21:16:00.168048+00:00
-59095,435560060,1,2022-03-05T10:05:36,RealTriassic,https://github.com/DiscordStyles/Fluent/pull/19,,2022-08-27T16:58:17.321711+00:00,2022-08-27T16:58:17.321711+00:00
 59097,435560060,1,2022-05-01T09:11:29,vanja-san,https://github.com/DiscordStyles/Fluent/pull/54,,2022-08-27T16:58:17.321711+00:00,2022-08-27T16:58:17.321711+00:00
 59099,435560060,1,2022-03-24T11:02:49,ricowalker,https://github.com/DiscordStyles/Fluent/pull/26,,2022-08-27T16:58:17.321711+00:00,2022-08-27T16:58:17.321711+00:00
+59095,435560060,1,2022-03-05T10:05:36,RealTriassic,https://github.com/DiscordStyles/Fluent/pull/19,,2022-08-27T16:58:17.321711+00:00,2022-08-27T16:58:17.321711+00:00
 59100,517154545,1,2022-08-18T09:13:22,blackcoffeexbt,https://github.com/boltcard/boltcard/pull/10,,2022-08-27T17:06:50.30565+00:00,2022-08-27T17:06:50.30565+00:00
 59101,517154545,1,2022-08-18T09:14:44,orfeas0,https://github.com/boltcard/boltcard/pull/9,,2022-08-27T17:06:50.30565+00:00,2022-08-27T17:06:50.30565+00:00
 73941,493046551,1,2022-09-23T20:21:47,juctaposed,https://github.com/curtisbarnard/BANKI/pull/34,,2022-09-24T06:45:26.705451+00:00,2022-09-24T06:45:26.705451+00:00
