@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-30T12:50:13.749Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-12-30T14:44:32.696Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1931,7 +1931,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (14051, 29371034, 3, '2021-10-08T16:57:40', 'goldsky', 'https://github.com/micro/micro/pull/1853', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14045, 29371034, 4, '2020-11-23T15:27:30', 'arbarlow', 'https://github.com/micro/micro/pull/1552', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (14043, 29371034, 2, '2021-04-22T09:01:30', 'zhuzhengyang', 'https://github.com/micro/micro/pull/1760', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1779, 290703027, 3, '2020-10-05T05:20:33', 'Sweta040799', 'https://github.com/kothariji/competitive-programming/pull/138', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1769, 290703027, 1, '2020-10-01T12:03:47', 'Nishant127', 'https://github.com/kothariji/competitive-programming/pull/59', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1774, 290703027, 4, '2020-10-14T12:49:40', 'chhipanikhil9', 'https://github.com/kothariji/competitive-programming/pull/168', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1786, 290703027, 4, '2020-10-02T15:27:12', 'gaurav-bhansali', 'https://github.com/kothariji/competitive-programming/pull/93', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2098,8 +2097,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (77663, 527591471, 1, '2022-09-25T14:11:08', 'eyriewow', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/1031', null, '2022-09-29T15:33:09.423274+00:00', '2022-09-29T15:33:09.423274+00:00'),
 (5908, 187335810, 1, '2022-01-10T05:29:38', 'cmoog', 'https://github.com/jesseduffield/lazydocker/pull/268', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (65353, 61246596, 3, '2018-06-14T18:27:42', 'el3ment', 'https://github.com/crosire/reshade/pull/49', null, '2022-09-09T19:20:02.514967+00:00', '2022-09-09T19:20:02.514967+00:00'),
-(2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (77666, 527591471, 4, '2022-11-27T10:53:38', 'liamkerr', 'https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/4899', null, '2022-09-29T15:33:09.423274+00:00', '2022-09-29T15:33:09.423274+00:00'),
+(2566, 275874438, 3, '2021-09-28T14:52:24', 'sbrudz', 'https://github.com/sbrudz/accelerate-metrics/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24557, 711976, 1, '2021-10-11T18:40:28', 'roj1512', 'https://github.com/octokit/octokit.js/pull/2165', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (89893, 345922282, 2, '2022-11-01T17:44:23', 'qirong77', 'https://github.com/Saul-Mirone/milkdown/pull/783', null, '2022-10-20T02:32:43.903109+00:00', '2022-10-20T02:32:43.903109+00:00'),
 (2978, 229504810, 1, '2020-12-12T18:44:58', 'iooner', 'https://github.com/sethcottle/littlelink/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -2273,6 +2272,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5547, 177010499, 3, '2021-07-28T20:23:45', 'evankanderson', 'https://github.com/google/ko/pull/398', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5536, 177010499, 2, '2022-06-06T14:18:26', 'developer-guy', 'https://github.com/google/ko/pull/710', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5541, 177010499, 2, '2019-11-09T17:23:10', 'stanleynguyen', 'https://github.com/google/ko/pull/105', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1779, 290703027, 3, '2020-10-05T05:20:33', 'Sweta040799', 'https://github.com/kothariji/competitive-programming/pull/138', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5556, 177010499, 1, '2021-05-17T15:26:15', 'chhsia0', 'https://github.com/google/ko/pull/332', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5550, 177010499, 1, '2020-01-16T21:27:44', 'danielhelfand', 'https://github.com/google/ko/pull/120', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5552, 177010499, 1, '2022-02-20T09:15:09', 'dirien', 'https://github.com/google/ko/pull/604', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
