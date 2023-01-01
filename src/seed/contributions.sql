@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-01T01:04:48.813Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-01T02:57:44.259Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1467,8 +1467,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (13988, 196778665, 1, '2022-05-31T15:27:27', 'vedantmgoyal2009', 'https://github.com/elibroftw/music-caster/pull/50', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12246, 54228300, 2, '2017-09-15T01:38:18', 'swathiiyer2', 'https://github.com/mozilla/fathom/pull/72', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (7181, 411705813, 1, '2021-10-02T10:08:44', 'Wizonaldo', 'https://github.com/avinash201199/Portfolio-Collection/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(119503, 393493377, 1, '2022-12-08T06:44:45', 'Simon-He95', 'https://github.com/skillrecordings/products/pull/646', null, '2022-12-09T14:17:11.377719+00:00', '2022-12-09T14:17:11.377719+00:00'),
 (12248, 54228300, 2, '2022-06-13T14:06:50', 'gleonard-m', 'https://github.com/mozilla/fathom/pull/305', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(119503, 393493377, 1, '2022-12-08T06:44:45', 'Simon-He95', 'https://github.com/skillrecordings/products/pull/646', null, '2022-12-09T14:17:11.377719+00:00', '2022-12-09T14:17:11.377719+00:00'),
 (1921, 101448498, 4, '2021-02-02T11:13:54', 'samtgarson', 'https://github.com/SohoHouse/nuxt-oauth/pull/66', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1922, 101448498, 2, '2018-06-27T14:07:45', 'tuqire', 'https://github.com/SohoHouse/nuxt-oauth/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1923, 101448498, 1, '2018-03-22T10:30:54', 'Adam-Clrk', 'https://github.com/SohoHouse/nuxt-oauth/pull/11', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
