@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-02T02:49:40.105Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-02T04:44:41.445Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6177,9 +6177,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5743, 281297416, 4, '2021-09-20T15:38:45', 'adityatelange', 'https://github.com/adityatelange/hugo-PaperMod/pull/560', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3758, 144873815, 2, '2019-10-01T15:35:01', 'Weakky', 'https://github.com/prisma/prisma-examples/pull/829', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2215, 257314632, 4, '2022-05-17T21:42:29', 'muttoni', 'https://github.com/onflow/fcl-js/pull/1192', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(30185, 310393570, 2, '2022-10-19T18:38:19', 'grodino', 'https://github.com/allenai/ir_datasets/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2747, 13825712, 4, '2022-02-08T14:42:05', 'pushnitsa', 'https://github.com/VirtoCommerce/vc-platform/pull/2459', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2997, 14747598, 1, '2016-02-17T09:52:41', 'barrystaes', 'https://github.com/typicode/json-server/pull/236', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(30185, 310393570, 2, '2022-10-19T18:38:19', 'grodino', 'https://github.com/allenai/ir_datasets/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (66637, 165522651, 3, '2022-09-09T06:22:46', 'enomado', 'https://github.com/emilk/egui/pull/1886', null, '2022-09-11T21:36:24.889533+00:00', '2022-09-11T21:36:24.889533+00:00'),
 (95943, 3946572, 2, '2022-10-25T17:36:03', 'datensen', 'https://github.com/PostgresApp/PostgresApp/pull/687', null, '2022-10-30T05:48:31.584983+00:00', '2022-10-30T05:48:31.584983+00:00'),
 (5992, 31168578, 1, '2017-01-03T06:56:19', 'saarwexler', 'https://github.com/hemanth/functional-programming-jargon/pull/136', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -6387,7 +6387,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5245, 18486300, 4, '2022-04-06T16:58:44', 'ssaunier', 'https://github.com/lewagon/setup/pull/374', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5252, 18486300, 4, '2022-02-07T07:43:47', 'gmanchon', 'https://github.com/lewagon/setup/pull/361', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5246, 18486300, 4, '2022-04-06T14:50:51', 'dmilon', 'https://github.com/lewagon/setup/pull/369', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(5249, 18486300, 1, '2020-10-07T09:22:32', 'Lomig', 'https://github.com/lewagon/setup/pull/200', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5255, 18486300, 2, '2022-01-21T08:13:02', 'zywangdylan', 'https://github.com/lewagon/setup/pull/336', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (22506, 9312102, 1, '2017-10-04T23:42:15', 'ChrisCintron', 'https://github.com/arc298/instagram-scraper/pull/106', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (82128, 337414495, 2, '2022-11-23T18:03:37', 'ejkkan', 'https://github.com/nhost/nhost/pull/1036', null, '2022-10-06T22:40:08.049229+00:00', '2022-10-06T22:40:08.049229+00:00'),
@@ -6557,6 +6556,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8805, 13601190, 1, '2019-06-25T10:59:46', 'amgad-naiem', 'https://github.com/agentejo/cockpit/pull/1138', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3629, 45350538, 1, '2019-03-07T22:39:02', 'kvs', 'https://github.com/piotrmurach/tty-prompt/pull/101', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3742, 3946572, 2, '2017-02-01T08:22:37', 'ivailon', 'https://github.com/PostgresApp/PostgresApp/pull/376', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(5249, 18486300, 1, '2020-10-07T09:22:32', 'Lomig', 'https://github.com/lewagon/setup/pull/200', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (111346, 337414495, 1, '2022-11-22T06:59:02', 'alexander-mart', 'https://github.com/nhost/nhost/pull/1164', null, '2022-11-25T23:56:47.829588+00:00', '2022-11-25T23:56:47.829588+00:00'),
 (8625, 128265535, 4, '2021-02-18T13:59:55', 'GeoFrau', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/1151', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (39768, 393493377, 4, '2022-11-22T19:40:30', 'garrettdimon', 'https://github.com/skillrecordings/products/pull/609', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
