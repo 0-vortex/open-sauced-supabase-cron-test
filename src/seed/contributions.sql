@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-03T18:44:32.488Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-03T20:44:35.485Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10500,6 +10500,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4237, 35866694, 4, '2021-06-16T03:18:17', 'mrsimpson', 'https://github.com/RocketChat/Rocket.Chat/pull/22326', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4233, 35866694, 4, '2022-06-06T17:40:21', 'tassoevan', 'https://github.com/RocketChat/Rocket.Chat/pull/25709', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4239, 35866694, 4, '2022-03-29T16:56:39', 'matheusbsilva137', 'https://github.com/RocketChat/Rocket.Chat/pull/24897', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4235, 35866694, 4, '2022-06-10T18:08:08', 'dougfabris', 'https://github.com/RocketChat/Rocket.Chat/pull/25792', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4366, 38554391, 2, '2021-06-22T17:51:59', 'philippj', 'https://github.com/ValvePython/steam/pull/332', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4362, 38554391, 1, '2021-02-11T22:10:24', 'EncryptedKitten', 'https://github.com/ValvePython/steam/pull/304', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4365, 38554391, 1, '2021-11-14T10:18:46', 'notjosh', 'https://github.com/ValvePython/steam/pull/374', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -10609,7 +10610,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (8624, 128265535, 3, '2019-04-11T16:31:14', 'deci-ftw', 'https://github.com/GoogleCloudPlatform/click-to-deploy/pull/478', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (704, 48393191, 1, '2016-11-29T14:02:49', 'felipefzdz', 'https://github.com/nebula-plugins/gradle-lint-plugin/pull/60', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8999, 230327376, 2, '2020-01-03T06:01:56', 'dudrl0944', 'https://github.com/ErikCH/DevYouTubeList/pull/54', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4235, 35866694, 4, '2022-06-10T18:08:08', 'dougfabris', 'https://github.com/RocketChat/Rocket.Chat/pull/25792', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8987, 230327376, 2, '2020-02-08T16:25:01', 'anuraghazra', 'https://github.com/ErikCH/DevYouTubeList/pull/105', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5967, 75701562, 1, '2016-12-08T08:05:08', 'xosdy', 'https://github.com/miloyip/game-programmer/pull/2', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (33859, 711976, 1, '2022-06-26T22:01:20', 'marcjansen', 'https://github.com/octokit/octokit.js/pull/2236', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
