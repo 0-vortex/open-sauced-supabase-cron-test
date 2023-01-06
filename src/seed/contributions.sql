@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-06T12:51:14.500Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-06T14:44:32.984Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3328,8 +3328,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3866, 152965398, 2, '2020-09-25T07:30:00', 'Akshu-on-github', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/201', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3867, 152965398, 4, '2021-01-23T20:07:34', 'adityaraute', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/261', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3868, 152965398, 2, '2021-10-04T12:19:13', 'CodingSpecies', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/470', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3557, 61426855, 4, '2019-05-22T20:25:09', 'Anshuvats', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/1333', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(79551, 393556751, 1, '2022-10-02T04:26:03', 'AnishDe12020', 'https://github.com/adrianmg/github-pewpew/pull/37', null, '2022-10-03T11:38:23.488492+00:00', '2022-10-03T11:38:23.488492+00:00'),
 (3869, 152965398, 1, '2021-06-06T07:28:55', 'sohan9819', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/339', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3870, 152965398, 2, '2022-01-14T14:51:33', 'Cahllagerfeld', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/811', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3871, 152965398, 2, '2022-03-01T16:41:00', 'doriandevtech', 'https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/958', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7865,7 +7865,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (5802, 105412971, 1, '2019-05-19T16:09:37', 'theKashey', 'https://github.com/stereobooster/react-snap/pull/338', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1010, 345922282, 2, '2021-12-26T04:36:30', 'shiyiya', 'https://github.com/Saul-Mirone/milkdown/pull/243', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (128358, 519882617, 2, '2022-12-26T22:15:30', 'ultrasaurus', 'https://github.com/gbj/leptos/pull/176', null, '2022-12-25T08:22:25.9348+00:00', '2022-12-25T08:22:25.9348+00:00'),
-(33265, 393556751, 4, '2022-10-02T04:32:26', 'adrianmg', 'https://github.com/adrianmg/github-pewpew/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12288, 93619165, 4, '2021-05-08T08:18:27', 'mlpo', 'https://github.com/alecthomas/chroma/pull/500', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3643, 261861733, 4, '2020-09-21T05:27:50', 'rickiepark', 'https://github.com/keras-team/keras-io/pull/253', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (110982, 519882617, 1, '2022-10-20T21:51:49', 'oceantume', 'https://github.com/gbj/leptos/pull/30', null, '2022-11-25T07:52:07.563032+00:00', '2022-11-25T07:52:07.563032+00:00'),
@@ -7878,7 +7878,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12834, 23247808, 1, '2020-01-24T14:34:59', 'hjorvari', 'https://github.com/rqlite/rqlite/pull/625', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23888, 198896556, 4, '2021-06-09T22:15:07', 'EricCornelson', 'https://github.com/microsoft/vscode-js-debug/pull/1022', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (5804, 105412971, 1, '2018-01-03T10:51:40', 'linonetwo', 'https://github.com/stereobooster/react-snap/pull/94', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(33264, 393556751, 1, '2021-10-29T20:01:18', 'raulb', 'https://github.com/adrianmg/github-pewpew/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(33265, 393556751, 4, '2022-10-02T04:32:26', 'adrianmg', 'https://github.com/adrianmg/github-pewpew/pull/45', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36136, 248581239, 3, '2020-04-14T11:18:37', 'kfo42', 'https://github.com/reach4help/reach4help/pull/400', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36137, 248581239, 1, '2020-05-18T21:29:51', 'olibooty', 'https://github.com/reach4help/reach4help/pull/555', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (36142, 211763756, 4, '2022-11-17T00:38:19', 'X9VoiD', 'https://github.com/OpenTabletDriver/OpenTabletDriver/pull/2477', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
