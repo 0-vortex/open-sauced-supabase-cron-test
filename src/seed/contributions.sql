@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-08T16:45:51.734Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-08T18:44:34.197Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3700,8 +3700,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12449, 52631841, 1, '2018-07-02T16:02:07', 'mohawk2', 'https://github.com/gothinkster/realworld/pull/238', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23175, 87520003, 1, '2022-06-08T02:55:41', 'NoeOnJupiter', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/182', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3437, 87520003, 1, '2019-03-29T12:04:44', 'dinarajas', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/36', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(38114, 55387233, 1, '2018-05-21T17:24:13', 'spudheadc', 'https://github.com/conventional-changelog/standard-version/pull/232', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3433, 87520003, 2, '2022-02-15T08:53:27', 'vrwim', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/162', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(38114, 55387233, 1, '2018-05-21T17:24:13', 'spudheadc', 'https://github.com/conventional-changelog/standard-version/pull/232', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38110, 55387233, 1, '2020-09-12T15:51:35', 'panckreous', 'https://github.com/conventional-changelog/standard-version/pull/657', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (38112, 55387233, 1, '2019-05-05T05:36:11', 'coreyfarrell', 'https://github.com/conventional-changelog/standard-version/pull/311', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (8679, 293860197, 1, '2022-05-20T02:15:02', 'billpwchan', 'https://github.com/lowlighter/metrics/pull/1060', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -7274,8 +7274,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12132, 4979467, 4, '2021-12-04T13:06:49', 'idleberg', 'https://github.com/PrismJS/prism/pull/3267', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12133, 4979467, 4, '2021-09-27T19:08:26', 'valtlai', 'https://github.com/PrismJS/prism/pull/3098', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12134, 4979467, 2, '2017-12-05T20:16:36', 'VitaliyR', 'https://github.com/PrismJS/prism/pull/1194', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(12136, 4979467, 4, '2021-03-13T15:11:19', 'edukisto', 'https://github.com/PrismJS/prism/pull/2802', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12135, 4979467, 4, '2018-03-26T06:14:55', 'chriswells0', 'https://github.com/PrismJS/prism/pull/856', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(12136, 4979467, 4, '2021-03-13T15:11:19', 'edukisto', 'https://github.com/PrismJS/prism/pull/2802', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12137, 4979467, 4, '2014-05-24T19:56:42', 'milesj', 'https://github.com/PrismJS/prism/pull/262', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12138, 4979467, 4, '2015-01-15T22:35:16', 'Conaclos', 'https://github.com/PrismJS/prism/pull/476', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (12139, 4979467, 4, '2014-06-03T11:23:01', 'ravinggenius', 'https://github.com/PrismJS/prism/pull/265', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
