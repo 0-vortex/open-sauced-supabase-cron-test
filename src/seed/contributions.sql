@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-08T20:44:29.985Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-08T22:44:31.689Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2020,8 +2020,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (2436, 103953059, 4, '2017-11-28T20:01:22', 'Nicolapps', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/99', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2437, 103953059, 2, '2017-11-28T20:01:49', 'constanna', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/98', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2438, 103953059, 1, '2017-10-25T20:36:22', 'awwong1', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/84', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(2440, 103953059, 1, '2017-09-20T17:59:55', 'bhageena', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2439, 103953059, 3, '2018-05-20T05:44:34', 'elfiservice', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/115', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(2440, 103953059, 1, '2017-09-20T17:59:55', 'bhageena', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24463, 235133242, 1, '2021-11-10T12:31:54', 'rexxars', 'https://github.com/sanity-io/mendoza/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (120272, 304740870, 1, '2022-12-11T03:09:22', 'MananTank', 'https://github.com/tamagui/tamagui/pull/427', null, '2022-12-11T19:29:54.299264+00:00', '2022-12-11T19:29:54.299264+00:00'),
 (12677, 141514439, 2, '2018-08-27T07:02:48', 'ghallak', 'https://github.com/kowainik/relude/pull/56', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
