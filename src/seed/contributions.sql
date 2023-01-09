@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-09T20:44:31.705Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-09T22:44:29.522Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3815,9 +3815,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4315, 238851101, 1, '2022-05-16T12:50:32', 'wdh2100', 'https://github.com/naver/fe-news/pull/29', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4316, 238851101, 4, '2022-03-02T04:31:00', 'BillionaireDY', 'https://github.com/naver/fe-news/pull/24', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4292, 370668507, 1, '2021-08-03T03:14:51', 'bendrucker', 'https://github.com/rhysd/actionlint/pull/21', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4295, 370668507, 1, '2022-04-12T04:06:45', 'suzuki-shunsuke', 'https://github.com/rhysd/actionlint/pull/131', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16810, 121814210, 4, '2021-09-30T01:16:10', 'smockle', 'https://github.com/primer/react/pull/1471', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(16807, 121814210, 4, '2020-09-18T18:27:22', 'BinaryMuse', 'https://github.com/primer/react/pull/874', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16811, 121814210, 4, '2021-12-16T23:53:41', 'jfuchs', 'https://github.com/primer/react/pull/1740', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (16809, 121814210, 4, '2021-07-22T21:32:58', 'VanAnderson', 'https://github.com/primer/react/pull/1336', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4380, 81089226, 3, '2019-05-31T00:49:13', 'tminard', 'https://github.com/tminard/carnivores-ce-renderer/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -3917,7 +3914,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (4461, 76404, 3, '2014-05-18T03:55:42', 'wbond', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/331', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4462, 76404, 1, '2021-02-02T12:45:03', 'BenMcH', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/851', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4463, 76404, 1, '2013-07-07T17:01:24', 'michelgrootjans', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/246', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4295, 370668507, 1, '2022-04-12T04:06:45', 'suzuki-shunsuke', 'https://github.com/rhysd/actionlint/pull/131', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(16810, 121814210, 4, '2021-09-30T01:16:10', 'smockle', 'https://github.com/primer/react/pull/1471', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (106838, 229504810, 1, '2022-02-27T22:05:09', 'satishsurath', 'https://github.com/sethcottle/littlelink/pull/43', null, '2022-11-18T15:03:41.348612+00:00', '2022-11-18T15:03:41.348612+00:00'),
+(16807, 121814210, 4, '2020-09-18T18:27:22', 'BinaryMuse', 'https://github.com/primer/react/pull/874', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32848, 70530854, 4, '2021-11-08T17:38:41', 'c2tarun', 'https://github.com/aws/serverless-application-model/pull/2180', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (32811, 70530854, 4, '2022-01-20T22:56:36', 'qingchm', 'https://github.com/aws/serverless-application-model/pull/2295', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (24496, 345688823, 1, '2021-04-02T22:59:24', 'matteocontrini', 'https://github.com/flarum/cli/pull/1', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
