@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-10T02:54:06.565Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-10T04:44:38.394Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -10725,21 +10725,21 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (23887, 198896556, 4, '2020-10-29T19:01:22', 'digeff', 'https://github.com/microsoft/vscode-js-debug/pull/826', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23926, 198896556, 2, '2021-05-25T22:50:57', 'lhchavez', 'https://github.com/microsoft/vscode-js-debug/pull/1010', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (23883, 198896556, 4, '2019-09-05T20:10:04', 'dgozman', 'https://github.com/microsoft/vscode-js-debug/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (320, 218115303, 4, '2020-01-11T02:29:28', 'aequasi', 'https://github.com/vercel/swr/pull/221', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (289, 218115303, 2, '2021-07-07T17:43:32', 'pacocoursey', 'https://github.com/vercel/swr/pull/1277', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (901, 49020217, 1, '2017-04-17T19:59:20', 'd0ruk', 'https://github.com/petehunt/react-howto/pull/70', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (866, 67375557, 1, '2019-09-14T03:12:00', 'sebaLinares', 'https://github.com/mgechev/angular-performance-checklist/pull/43', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (852, 67375557, 1, '2020-01-30T18:16:19', 'morfey13', 'https://github.com/mgechev/angular-performance-checklist/pull/46', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37934, 68646997, 1, '2018-04-12T21:07:25', 'mattahj', 'https://github.com/davidkpiano/flipping/pull/4', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (510, 175405157, 4, '2021-03-27T16:48:18', 'jos3s', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/591', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (519, 175405157, 4, '2021-01-22T18:22:36', 'tillig', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/366', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (516, 175405157, 3, '2021-12-26T16:17:44', 'Khaos66', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1469', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (735, 281151556, 4, '2022-08-18T10:41:07', 'TheJoin95', 'https://github.com/Schrodinger-Hat/ImageGoNord/pull/112', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37932, 68646997, 1, '2018-10-29T14:42:31', 'VinayakBagaria', 'https://github.com/davidkpiano/flipping/pull/15', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (282, 218115303, 4, '2020-11-15T15:22:06', 'matamatanot', 'https://github.com/vercel/swr/pull/772', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(906, 49020217, 1, '2016-01-07T04:21:16', 'kentcdodds', 'https://github.com/petehunt/react-howto/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (37933, 68646997, 1, '2018-08-21T16:19:22', 'phelma', 'https://github.com/davidkpiano/flipping/pull/14', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(37935, 68646997, 1, '2018-05-14T16:48:46', 'tsiq-swyx', 'https://github.com/davidkpiano/flipping/pull/8', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(906, 49020217, 1, '2016-01-07T04:21:16', 'kentcdodds', 'https://github.com/petehunt/react-howto/pull/10', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (9305, 218115303, 2, '2022-05-25T17:10:37', 'anirudh1713', 'https://github.com/vercel/swr/pull/1995', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (308, 218115303, 4, '2021-09-10T00:03:03', 'anothertempore', 'https://github.com/vercel/swr/pull/1440', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (890, 49020217, 1, '2016-01-09T23:23:48', 'Kaijun', 'https://github.com/petehunt/react-howto/pull/16', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
