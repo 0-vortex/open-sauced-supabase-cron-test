@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-10T22:44:38.746Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-11T01:04:48.311Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1071,9 +1071,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (1384, 70860064, 1, '2018-03-27T19:38:33', 'bnymncoskuner', 'https://github.com/Yonet/Angular-Interview-Questions/pull/20', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1385, 112150776, 4, '2019-07-30T17:14:54', 'kleinfreund', 'https://github.com/11ty/eleventy/pull/632', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (2651, 141183500, 4, '2021-01-27T10:54:43', 'kenjiuno', 'https://github.com/Xeeynamo/OpenKh/pull/405', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(1387, 112150776, 1, '2021-08-15T20:35:22', 'Holben888', 'https://github.com/11ty/eleventy/pull/1871', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1388, 112150776, 2, '2020-10-30T22:50:56', 'valtlai', 'https://github.com/11ty/eleventy/pull/1475', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1389, 70860064, 1, '2018-07-05T00:52:23', 'mslawins', 'https://github.com/Yonet/Angular-Interview-Questions/pull/25', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(1387, 112150776, 1, '2021-08-15T20:35:22', 'Holben888', 'https://github.com/11ty/eleventy/pull/1871', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (15583, 306449955, 2, '2022-05-30T23:19:44', 'tappaja666', 'https://github.com/IrisShaders/Iris/pull/1411', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1391, 70860064, 1, '2018-03-27T19:41:35', 'bcabanes', 'https://github.com/Yonet/Angular-Interview-Questions/pull/18', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1392, 70860064, 1, '2017-02-03T08:16:28', 'chenkie', 'https://github.com/Yonet/Angular-Interview-Questions/pull/6', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
