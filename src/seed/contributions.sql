@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-11T02:51:58.385Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2023-01-11T04:44:48.619Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url, deleted_at, updated_at, created_at) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3812,7 +3812,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (3695, 305406543, 3, '2020-10-20T15:27:28', 'davidteren', 'https://github.com/davidteren/rails_6_github_template/pull/3', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3390, 293844582, 3, '2021-02-22T15:13:23', 'mamta31', 'https://github.com/spicygreenbook/greenbook-app/pull/285', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (1641, 277357823, 4, '2022-09-03T19:46:07', 'timdeschryver', 'https://github.com/timdeschryver/rx-query/pull/37', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
-(4312, 238851101, 1, '2022-05-04T03:38:27', 'silveracy', 'https://github.com/naver/fe-news/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4313, 238851101, 1, '2021-01-06T06:47:45', 'ygnoh', 'https://github.com/naver/fe-news/pull/9', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4311, 238851101, 1, '2020-07-01T02:07:25', 'sculove', 'https://github.com/naver/fe-news/pull/5', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (4314, 238851101, 1, '2022-05-05T15:31:07', 'joonas-yoon', 'https://github.com/naver/fe-news/pull/28', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
@@ -4073,6 +4072,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url, 
 (12635, 37175929, 1, '2018-12-03T00:05:24', 'alyssais', 'https://github.com/machyve/xhyve/pull/150', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (107029, 138222588, 1, '2022-11-14T16:47:34', 'imownbey', 'https://github.com/RevenueCat/react-native-purchases/pull/473', null, '2022-11-18T20:00:31.256496+00:00', '2022-11-18T20:00:31.256496+00:00'),
 (3046, 100060912, 4, '2022-05-17T00:06:05', 'carlos-zamora', 'https://github.com/microsoft/terminal/pull/13114', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
+(4312, 238851101, 1, '2022-05-04T03:38:27', 'silveracy', 'https://github.com/naver/fe-news/pull/27', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3050, 100060912, 4, '2022-03-31T20:46:18', 'miniksa', 'https://github.com/microsoft/terminal/pull/12802', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3047, 100060912, 4, '2021-10-12T15:56:17', 'leonMSFT', 'https://github.com/microsoft/terminal/pull/11458', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
 (3042, 100060912, 4, '2021-09-10T17:16:41', 'Don-Vito', 'https://github.com/microsoft/terminal/pull/11139', null, '2022-08-04T23:03:55.220394+00:00', '2022-08-04T23:03:55.220394+00:00'),
